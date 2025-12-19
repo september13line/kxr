@@ -340,19 +340,19 @@ focus_tree = {
 		relative_position_id = SRI_risorgimento
 		available = { has_country_flag = SRI_italy_unified_flag }
 		bypass = { has_completed_focus = SRI_garibaldi_ii }
-		ai_will_do = {
+			ai_will_do = {
 			factor = 1000
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_fifth_congress"
-			if = {
-				limit = {
-					has_idea = SRI_crime_problem_peace
 				}
-				remove_ideas = SRI_crime_problem_peace
-			}
-			country_event = socitaly.41
-		}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_fifth_congress"
+					if = {
+						limit = {
+							has_idea = SRI_crime_problem_peace
+						}
+						remove_ideas = SRI_crime_problem_peace
+					}
+					country_event = socitaly.41
+				}
 	}
 	focus = {
 		id = SRI_fate_of_the_pope
@@ -375,63 +375,63 @@ focus_tree = {
 		x = -1
 		y = 4
 		relative_position_id = SRI_risorgimento
-		available = {
+			available = {
 			NOT = { country_exists = ITA }
 			2 = { is_owned_and_controlled_by = SRI }
-			has_country_flag = SRI_fifth_congress_done
-		}
+					has_country_flag = SRI_fifth_congress_done
+				}
 		bypass = { has_completed_focus = SRI_garibaldi_ii }
 		ai_will_do = { factor = 10 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_fate_of_the_pope"
-			custom_effect_tooltip = SRI_fate_of_the_pope_tooltip
-			if = {
-				limit = {
-					has_country_flag = SRI_leave_pope_alone
-					OR = {
-						has_global_flag = PAP_leo_xiv
-						has_global_flag = PAP_john_xxiii
-						has_global_flag = PAP_benedict_xvi
-					}
-				}
-				country_event = socitaly.65
-			}
-			if = {
-				limit = {
-					has_country_flag = SRI_leave_pope_alone
-					OR = {
-						has_global_flag = PAP_pius_xii
-						has_global_flag = PAP_adrian_vii
-						has_global_flag = PAP_julius_iv
-					}
-				}
-				country_event = socitaly.50
-			}
-			if = {
-				limit = {
-					has_country_flag = SRI_have_a_red_pope
-					has_global_flag = PAP_leo_xiv
-				}
-				country_event = socitaly.65
-			}
-			if = {
-				limit = {
-					has_country_flag = SRI_have_a_red_pope
-					OR = {
-						has_global_flag = PAP_leo_xiv
-						has_global_flag = PAP_benedict_xvi
-						has_global_flag = PAP_john_xxiii
-						has_global_flag = PAP_adrian_vii
-						has_global_flag = PAP_julius_iv
-					}
-				}
-				country_event = socitaly.51
-			}
-			if = {
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_fate_of_the_pope"
+					custom_effect_tooltip = SRI_fate_of_the_pope_tooltip
+					if = {
+							limit = {
+									has_country_flag = SRI_leave_pope_alone
+									OR = {
+											has_global_flag = PAP_leo_xiv
+											has_global_flag = PAP_john_xxiii
+											has_global_flag = PAP_benedict_xvi
+										}
+								}
+							country_event = socitaly.65
+						}
+					if = {
+							limit = {
+									has_country_flag = SRI_leave_pope_alone
+									OR = {
+											has_global_flag = PAP_pius_xii
+											has_global_flag = PAP_adrian_vii
+											has_global_flag = PAP_julius_iv
+										}
+								}
+							country_event = socitaly.50
+						}
+					if = {
+							limit = {
+									has_country_flag = SRI_have_a_red_pope
+									has_global_flag = PAP_leo_xiv
+								}
+							country_event = socitaly.65
+						}
+					if = {
+							limit = {
+									has_country_flag = SRI_have_a_red_pope
+									OR = {
+											has_global_flag = PAP_leo_xiv
+											has_global_flag = PAP_benedict_xvi
+											has_global_flag = PAP_john_xxiii
+											has_global_flag = PAP_adrian_vii
+											has_global_flag = PAP_julius_iv
+										}
+								}
+							country_event = socitaly.51
+						}
+					if = {
 				limit = { has_country_flag = SRI_exile_the_pope }
-				country_event = socitaly.53
-			}
-		}
+							country_event = socitaly.53
+						}
+				}
 	}
 	focus = {
 		id = SRI_reconcile_with_likeminded_republicans
@@ -451,32 +451,32 @@ focus_tree = {
 		y = 2
 		relative_position_id = SRI_fifth_congress
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_fifth_congress"
-			ITA = {
-				every_unit_leader = {
-					limit = {
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus SRI_fifth_congress"
+				ITA = {
+				every_unit_leader = { 
+					limit = { 
 						has_id = 554 #Annibale Bergonzoli
-					}
+					} 
 					set_nationality = SRI 
 					set_leader_portrait = GFX_Portrait_SRI_Annibale_Bergonzoli
 				}
-				every_unit_leader = {
-					limit = {
+				every_unit_leader = { 
+					limit = { 
 						has_id = 559 #Gabriele Nasci
-					}
+					} 
 					set_nationality = SRI 
 					set_leader_portrait = GFX_Portrait_SRI_Gabriele_Nasci
 				}
-				every_unit_leader = {
-					limit = {
+				every_unit_leader = { 
+					limit = { 
 						has_id = 561 #Venanzio Gabriotti
-					}
+					} 
 					set_nationality = SRI 
 					set_leader_portrait = GFX_Portrait_SRI_Venanzio_Gabriotti
 				}
+			    }
 			}
-		}
 	}
 	focus = {
 		id = SRI_italian_irredentism
@@ -503,13 +503,13 @@ focus_tree = {
 		y = 4
 		relative_position_id = SRI_risorgimento
 		ai_will_do = { factor = 10 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_italian_irredentism"
-			country_event = italy_shared.30
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_italian_irredentism"
+					country_event = italy_shared.30
 			custom_effect_tooltip = ITA_new_focuses_will_unlock
-			add_war_support = 0.10
-		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+					add_war_support = 0.10
+				}
+			search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 	}
 	focus = {
 		id = SRI_strengthen_democracy
@@ -526,19 +526,19 @@ focus_tree = {
 		x = -9
 		y = 1
 		relative_position_id = SRI_4th_congress
-		available = {
-			has_country_flag = SRI_fourth_congress_done
-			has_government = social_democrat
-		}
+			available = {
+					has_country_flag = SRI_fourth_congress_done
+					has_government = social_democrat
+				}
 		ai_will_do = { factor = 1000 }
-		bypass = {
-			has_country_flag = SRI_fourth_congress_done
-			has_government = social_democrat
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_stregthen_the_republic"
-			custom_effect_tooltip = unlock_focuses
-		}
+			bypass = {
+					has_country_flag = SRI_fourth_congress_done
+					has_government = social_democrat
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_stregthen_the_republic"
+					custom_effect_tooltip = unlock_focuses
+				}
 	}
 	focus = {
 		id = SRI_worker_priests
@@ -552,17 +552,17 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_priests"
-			add_ideas = SRI_religious_socialism_idea
-			hidden_effect = {
-				country_event = {
-					id = socitaly.32
-					days = 3
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_priests"
+					add_ideas = SRI_religious_socialism_idea
+					hidden_effect = {
+							country_event = {
+									id = socitaly.32
+									days = 3
+								}
+						}
 				}
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+			search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = SRI_rural_communes
@@ -579,11 +579,11 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_rural_communes"
-			add_ideas = SRI_rural_communes_idea
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY  FOCUS_FILTER_STABILITY }
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_rural_communes"
+					add_ideas = SRI_rural_communes_idea
+				}
+			search_filters = { FOCUS_FILTER_INDUSTRY  FOCUS_FILTER_STABILITY }
 	}
 	focus = {
 		id = SRI_urbanization
@@ -600,11 +600,11 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_urbanization"
-			add_ideas = SRI_urban_communes_idea
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_urbanization"
+					add_ideas = SRI_urban_communes_idea
+				}
+			search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 	focus = {
 		id = SRI_revolutionary_democracy
@@ -618,15 +618,15 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_revolutionary_democracy"
-			add_stability = 0.15
-			add_popularity = {
-				ideology =social_democrat
-				popularity = 0.05
-			}
-		}
-		search_filters = { FOCUS_FILTER_STABILITY }
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_revolutionary_democracy"
+					add_stability = 0.15
+					add_popularity = {
+							ideology =social_democrat
+							popularity = 0.05
+						}
+				}
+			search_filters = { FOCUS_FILTER_STABILITY }
 	}
 	focus = {
 		id = SRI_respect_religion
@@ -643,13 +643,13 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_respect_religion"
-			swap_ideas = {
-				remove_idea = SRI_religious_socialism_idea
-				add_idea = SRI_religious_socialism2_idea
-			}
-		}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_respect_religion"
+					swap_ideas = {
+							remove_idea = SRI_religious_socialism_idea
+							add_idea = SRI_religious_socialism2_idea
+						}
+				}
 	}
 	focus = {
 		id = SRI_communal_autonomy
@@ -666,26 +666,26 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_communal_autonomy"
-			add_political_power = 100
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_communal_autonomy"
+					add_political_power = 100
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
 				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
 	}
 	focus = {
 		id = SRI_christian_identity
@@ -702,10 +702,10 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_christian_identity"
-			add_research_slot = 1
-		}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_christian_identity"
+					add_research_slot = 1
+				}
 	}
 	focus = {
 		id = SRI_cement_democratic_reform
@@ -725,10 +725,10 @@ focus_tree = {
 		relative_position_id = SRI_strengthen_democracy
 		available = { has_government = social_democrat }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_democratic_reform"
-			remove_ideas = SRI_divided_nation
-		}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_democratic_reform"
+					remove_ideas = SRI_divided_nation
+				}
 	}
 	focus = {
 		id = SRI_communist_dawn_italy
@@ -745,21 +745,21 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = SRI_4th_congress
-		available = {
-			has_country_flag = SRI_fourth_congress_done
-			has_government = radical_socialist
-		}
-		ai_will_do = {
-			factor = 1000
-		}
-		bypass = {
-			has_country_flag = SRI_fourth_congress_done
-			has_government = radical_socialist
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_communist_dawn_italy"
-			custom_effect_tooltip = unlock_focuses
-		}
+			available = {
+					has_country_flag = SRI_fourth_congress_done
+					has_government = radical_socialist
+				}
+								ai_will_do = {
+					factor = 1000
+				}
+			bypass = {
+					has_country_flag = SRI_fourth_congress_done
+					has_government = radical_socialist
+				}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_communist_dawn_italy"
+					custom_effect_tooltip = unlock_focuses
+				}
 	}
 	focus = {
 		id = SRI_expel_remnant_bordigists
@@ -1004,7 +1004,7 @@ focus_tree = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Riccardo Lombardi"
+					name = "Риккардо Ломбарди"
 				}
 			}
 		}
@@ -1072,27 +1072,27 @@ focus_tree = {
 		relative_position_id = SRI_stregthen_the_republic
 		available = { has_government = syndicalist }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_priests"
-			add_political_power = 100
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_worker_priests"
+					add_political_power = 100
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
 				}
-			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+			search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = SRI_social_welfare
@@ -1112,11 +1112,11 @@ focus_tree = {
 		relative_position_id = SRI_stregthen_the_republic
 		available = { has_government = syndicalist }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_social_welfare"
-			add_ideas = SRI_socialist_welfare
-		}
-		search_filters = { FOCUS_FILTER_MANPOWER  FOCUS_FILTER_INDUSTRY }
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_social_welfare"
+					add_ideas = SRI_socialist_welfare
+				}
+			search_filters = { FOCUS_FILTER_MANPOWER  FOCUS_FILTER_INDUSTRY }
 	}
 	focus = {
 		id = SRI_worker_councils
@@ -1159,11 +1159,11 @@ focus_tree = {
 		relative_position_id = SRI_stregthen_the_republic
 		available = { has_government = syndicalist }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_industrial_enlightenment"
-			add_research_slot = 1
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_industrial_enlightenment"
+					add_research_slot = 1
+				}
+			search_filters = { FOCUS_FILTER_RESEARCH }
 	}
 	focus = {
 		id = SRI_cement_congres_authority
@@ -1180,10 +1180,10 @@ focus_tree = {
 		relative_position_id = SRI_stregthen_the_republic
 		available = { has_government = syndicalist }
 		ai_will_do = { factor = 1000 }
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_congres_authority"
-			remove_ideas = SRI_divided_nation
-		}
+			completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus SRI_cement_congres_authority"
+					remove_ideas = SRI_divided_nation
+				}
 	}
 	focus = {
 		id = SRI_streghten_the_chairman
@@ -1391,10 +1391,10 @@ focus_tree = {
 		x = 7
 		y = 6
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = SRI_garibaldi_takeover
-				always = no
-			}
+		custom_trigger_tooltip = {
+			tooltip = SRI_garibaldi_takeover
+			always = no
+		}
 	    }
 		completion_reward = {
 		custom_effect_tooltip = unlock_focuses
@@ -1416,28 +1416,28 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_dons_to_doges"
-			add_political_power = 50
-			add_stability = 0.05
-			random_owned_state = {
-				prioritize = { 158 }
-				add_extra_state_shared_building_slots = 1
+		add_political_power = 50
+		add_stability = 0.05
+		random_owned_state = {
+		prioritize = { 158 }
+		add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_state = {
-			prioritize = { 158 }
-			add_extra_state_shared_building_slots = 1
+		random_owned_state = {
+		prioritize = { 158 }
+		add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_state = {
-				limit = {
+		random_owned_state = {
+			limit = {
 					is_coastal = yes
 				}
 				prioritize = { 838 }
@@ -1463,7 +1463,7 @@ focus_tree = {
 		relative_position_id = SRI_garibaldi_ii
 		x = 2
 		y = 1
-		completion_reward = {
+			completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_align_the_fasci"
 			add_political_power = 100
 			add_stability = 0.05
@@ -1477,13 +1477,13 @@ focus_tree = {
 			    name = SRI_federterra_party_long
 			}
 			create_country_leader = {
-				name = "Argentina Altobelli"
+				name = "Аргентина Альтобелли"
 				picture = "gfx/leaders/SRI/Portrait_SRI_Argentina_Altobelli.png"
 				ideology = radsoc_socialist_feminism_subtype
 		    }
 			add_radsoc_to_coalition = yes
-			remove_ideas = SRI_recover_from_socialism_idea
-		}
+					remove_ideas = SRI_recover_from_socialism_idea
+				}
 	}
 	focus = {
 		id = SRI_end_radicals
@@ -1524,7 +1524,7 @@ focus_tree = {
 				name = SRI_action_party
 			}
 			create_country_leader = {
-				name = "Carlo Rosselli"
+				name = "Карло Росселли"
 				picture = "gfx/leaders/SRI/Portrait_SRI_Carlo_Rosselli.png"
 				ideology = liberal_socialism_subtype
 		    }
@@ -1544,11 +1544,11 @@ focus_tree = {
 				popularity = -0.20
 			}
 			hidden_effect = {
-				random_unit_leader = {
-					limit = { has_id = 527 }			
-					remove_unit_leader = yes
-				}
-				country_event = {
+			random_unit_leader = {
+			limit = { has_id = 527 }			
+			remove_unit_leader = yes
+			}
+			country_event = {
 					id = socitaly.215
 					days = 7
 				}
@@ -1573,34 +1573,34 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_italia_libera"
-			add_political_power = 75
-			add_stability = 0.10
-			set_party_name = { 
-				ideology = radical_socialist
+		add_political_power = 75
+		add_stability = 0.10
+		set_party_name = { 
+			ideology = radical_socialist
 				long_name = SRI_garibaldi_radsoc_party_long
 				name = SRI_garibaldi_radsoc_party
-			}
-			set_party_name = { 
-				ideology = social_democrat
+		}
+		set_party_name = { 
+			ideology = social_democrat
 				long_name = SRI_garibaldi_socdem_party_long
 				name = SRI_garibaldi_socdem_party
-			}
-			set_party_name = { 
-				ideology = social_liberal
+		}
+		set_party_name = { 
+			ideology = social_liberal
 				long_name = SRI_garibaldi_soclib_party_long
 				name = SRI_garibaldi_soclib_party
-			}
-			set_party_name = { 
-				ideology = market_liberal
+		}
+		set_party_name = { 
+			ideology = market_liberal
 				long_name = SRI_garibaldi_marlib_party_long
 				name = SRI_garibaldi_marlib_party
-			}
-			set_party_name = { 
-				ideology = social_conservative
+		}
+		set_party_name = { 
+			ideology = social_conservative
 				long_name = SRI_garibaldi_soccon_party_long
 				name = SRI_garibaldi_soccon_party
-			}
-			remove_ideas = SRI_divided_nation
+		}
+		remove_ideas = SRI_divided_nation
 		}
 	}
 	focus = {
@@ -1644,8 +1644,8 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_the_king_in_sardinia"
-			country_event = socitaly.206
-			set_country_leader_portrait = {	portrait = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png" }
+		country_event = socitaly.206
+		set_country_leader_portrait = {	portrait = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png" }
 		}
 	}
 	focus = {
@@ -1663,13 +1663,13 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_legacy_of_the_gracchi"
-			add_political_power = 100
-			add_stability = 0.15
-			add_war_support = 0.15
-			add_popularity = {
+		add_political_power = 100
+		add_stability = 0.15
+		add_war_support = 0.15
+		add_popularity = {
 				popularity = 0.1
 				ideology = social_liberal
-			}
+		}
 		}
 	}
 	focus = {
@@ -1687,7 +1687,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_correcting_carnaro"
-			add_ideas = SRI_correcting_carnaro_idea
+		add_ideas = SRI_correcting_carnaro_idea
 		}
 	}
 	focus = {
@@ -1705,10 +1705,10 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_class_collaboration"
-			swap_ideas = {
-				remove_idea = SRI_correcting_carnaro_idea
-				add_idea = SRI_class_collaboration_idea
-			}
+		swap_ideas = {
+			remove_idea = SRI_correcting_carnaro_idea
+			add_idea = SRI_class_collaboration_idea
+		}
 		}
 	}
 	focus = {
@@ -1726,7 +1726,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_emancipate_women"
-			add_ideas = SRI_emancipate_women_idea
+		add_ideas = SRI_emancipate_women_idea
 		}
 	}
 	focus = {
@@ -1743,9 +1743,9 @@ focus_tree = {
 		x = 3
 		y = 5
 		completion_reward = {
-			add_research_slot_until_five = yes
-			hidden_effect = {
-				country_event = {
+		add_research_slot_until_five = yes
+		hidden_effect = {
+			country_event = {
 					id = socitaly.222
 					days = 14
 				}
@@ -1768,13 +1768,13 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_laicism"
-			add_ideas = SRI_laicism_idea
-			hidden_effect = {
-				country_event = {
-					id = socitaly.216
-					days = 14
-				}
+		add_ideas = SRI_laicism_idea
+		hidden_effect = {
+		country_event = {
+				id = socitaly.216
+				days = 14
 			}
+		}
 		}
 	}
 	focus = {
@@ -1792,7 +1792,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_social_patriotism"
-			add_ideas = SRI_social_patriotism_idea
+		add_ideas = SRI_social_patriotism_idea
 		}
 	}
 	focus = {
@@ -1810,11 +1810,11 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_socialize_utlities"
-			add_popularity = {
+		add_popularity = {
 				ideology = social_democrat
 				popularity = 0.05
 			}
-			random_owned_state = {
+		random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1823,7 +1823,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				increase_state_category_by_one_level = yes
 			}
-			random_owned_state = {
+		random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1832,7 +1832,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				increase_state_category_by_one_level = yes
 			}
-			random_owned_state = {
+		random_owned_state = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1858,11 +1858,11 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_agrarian_investments"
-			add_popularity = {
+		add_popularity = {
 				ideology = radical_socialist
 				popularity = 0.05
 			}
-			add_ideas = SRI_agrarian_investments_idea
+		add_ideas = SRI_agrarian_investments_idea
 		}
 	}
 	focus = {
@@ -1883,10 +1883,10 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_citizen_duties"
-			swap_ideas = {
-				remove_idea = SRI_social_patriotism_idea
-				add_idea = SRI_citizen_duties_idea
-			}
+		swap_ideas = {
+			remove_idea = SRI_social_patriotism_idea
+			add_idea = SRI_citizen_duties_idea
+		}
 		}
 	}
 	focus = {
@@ -1907,10 +1907,10 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_nation_of_virtue"
-			swap_ideas = {
-				remove_idea = SRI_citizen_duties_idea
-				add_idea = SRI_nation_of_virtue_idea
-			}
+		swap_ideas = {
+			remove_idea = SRI_citizen_duties_idea
+			add_idea = SRI_nation_of_virtue_idea
+		}
 		}
 	}
 	focus = {
@@ -1931,18 +1931,18 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_raise_the_redshirts"
-			add_war_support = 0.1
-			add_equipment_to_stockpile = {
+		add_war_support = 0.1
+		add_equipment_to_stockpile = {
 				type = infantry_equipment
 				amount = 2000
 				producer = SRI
-			}
-			add_equipment_to_stockpile = {
+		}
+		add_equipment_to_stockpile = {
 				type = artillery_equipment
 				amount = 200
 				producer = SRI
-			}
-			add_ideas = SRI_raise_the_redshirts_idea
+		}
+		add_ideas = SRI_raise_the_redshirts_idea
 		}
 	}
 	focus = {
@@ -1964,18 +1964,18 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_expedition_of_the_thousand"
 			add_ideas = SRI_expedition_of_the_thousand_idea
-			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Amedeo I" } }
-				PAP = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				SIC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				create_wargoal = {
-					type = annex_everything
-					target = PAP
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = SIC
-				}
+		if = {
+				limit = { has_country_leader = { ruling_only = yes name = "Амадей I" } }
+		PAP = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		SIC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		create_wargoal = {
+			type = annex_everything
+			target = PAP
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SIC
+		}
 				if  = {
 					limit = {
 						SCL = { exists = yes }
@@ -1985,23 +1985,23 @@ focus_tree = {
 						target = SCL
 					}
 				}
-				country_event = {
-					id = socitaly.223
-					days = 15
-				}
+		country_event = {
+			id = socitaly.223
+			days = 15
 			}
-			if = {
-				limit = { NOT = { has_country_leader = { ruling_only = yes name = "Amedeo I" } } }
-				PAP = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				SIC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				create_wargoal = {
-					type = annex_everything
-					target = PAP
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = SIC
-				}
+		}
+		if = {
+				limit = { NOT = { has_country_leader = { ruling_only = yes name = "Амадей I" } } }
+		PAP = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		SIC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		create_wargoal = {
+			type = annex_everything
+			target = PAP
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SIC
+		}
 				if  = {
 					limit = {
 						SCL = { exists = yes }
@@ -2011,11 +2011,11 @@ focus_tree = {
 						target = SCL
 					}
 				}
-				country_event = {
-					id = socitaly.219
-					days = 15
-				}
+		country_event = {
+			id = socitaly.219
+			days = 15
 			}
+		}
 		}
 	}
 	focus = {
@@ -2026,11 +2026,11 @@ focus_tree = {
 			focus = SRI_expedition_of_the_thousand
 		}
 		available = {
-			owns_state = 2
-			owns_state = 117
-			owns_state = 115
-			PAP = { exists = no }
-			SIC = { exists = no }
+		owns_state = 2
+		owns_state = 117
+		owns_state = 115
+		PAP = { exists = no }
+		SIC = { exists = no }
 		}
 		ai_will_do = {
 			factor = 1000
@@ -2040,81 +2040,81 @@ focus_tree = {
 		y = 9
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_fourth_war_of_independence"
-			hidden_effect = {
-				country_event = {
-					id = socitaly.214
-					days = 14
-				}
+		hidden_effect = {
+		country_event = {
+			id = socitaly.214
+			days = 14
 			}
-			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Amedeo I" } }
-				AUS = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				create_wargoal = {
-					type = annex_everything
-					target = AUS
-				}
-				if = {
-					limit = { ITA = { exists = yes }}
-					ITA = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					create_wargoal = {
-						type = annex_everything
-						target = ITA
-					}
-				}
-				else = {
-					LOM = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					VNC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					create_wargoal = {
-						type = annex_everything
-						target = LOM
-					}
-					create_wargoal = {
-						type = annex_everything
-						target = VNC
-					}
-				}
-				swap_ideas = {
-					remove_idea = SRI_expedition_of_the_thousand_idea
-					add_idea = SRI_fourth_war_of_independence_idea
-				}
+		}
+		if = {
+				limit = { has_country_leader = { ruling_only = yes name = "Амадей I" } }
+		AUS = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		create_wargoal = {
+			type = annex_everything
+			target = AUS
+		}
+		if = {
+			limit = { ITA = { exists = yes }}
+			ITA = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			create_wargoal = {
+				type = annex_everything
+				target = ITA
 			}
-			if = {
-				limit = { NOT = { has_country_leader = { ruling_only = yes name = "Amedeo I" } } }
-				AUS = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				SRD = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-				create_wargoal = {
-					type = annex_everything
-					target = SRD
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = AUS
-				}
-				if = {
+		}
+		else = {
+			LOM = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			VNC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			create_wargoal = {
+				type = annex_everything
+				target = LOM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = VNC
+			}
+		}
+		swap_ideas = {
+		remove_idea = SRI_expedition_of_the_thousand_idea
+		add_idea = SRI_fourth_war_of_independence_idea
+			}
+		}
+		if = {
+				limit = { NOT = { has_country_leader = { ruling_only = yes name = "Амадей I" } } }
+		AUS = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		SRD = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+		create_wargoal = {
+			type = annex_everything
+			target = SRD
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = AUS
+		}
+		if = {
 					limit = { ITA = { exists = yes } }
-					ITA = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					create_wargoal = {
-						type = annex_everything
-						target = ITA
-					}
-				}
-				else = {
-					LOM = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					VNC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
-					create_wargoal = {
-						type = annex_everything
-						target = LOM
-					}
-					create_wargoal = {
-						type = annex_everything
-						target = VNC
-					}
-				}
-				swap_ideas = {
-					remove_idea = SRI_expedition_of_the_thousand_idea
-					add_idea = SRI_fourth_war_of_independence_SRD_idea
-				}
+			ITA = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			create_wargoal = {
+				type = annex_everything
+				target = ITA
 			}
+		}
+		else = {
+			LOM = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			VNC = { add_opinion_modifier = { target = SRI modifier = large_decrease } }
+			create_wargoal = {
+				type = annex_everything
+				target = LOM
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = VNC
+			}
+		}
+		swap_ideas = {
+		remove_idea = SRI_expedition_of_the_thousand_idea
+		add_idea = SRI_fourth_war_of_independence_SRD_idea
+			}
+		}
 		}
 	}
 	### Industrialization ###
@@ -2393,11 +2393,11 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = SRI_fermis_nuclear_research
-					ahead_reduction = 1
-					bonus = 1
-					uses = 1
+			add_tech_bonus = {
+				name = SRI_fermis_nuclear_research
+				ahead_reduction = 1
+				bonus = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -4824,7 +4824,7 @@ focus_tree = {
 			}
 			set_rule = { can_generate_female_aces = yes }
 			create_corps_commander = {# Ada Gobetti
-			name = "Ada Gobetti"
+			name = "Ада Гобетти"
 			portrait_path = "gfx/leaders/SRI/Portrait_SRI_Ada_Gobetti.png"
 			traits = {
 				organizer 
@@ -7156,7 +7156,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_submarine
+				has_tech = early_ship_hull_submarine
 		}
 
 		relative_position_id = SRI_corpo_del_genio_navale
@@ -7208,79 +7208,79 @@ focus_tree = {
 				tooltip = naval_critical_score_chance_factor_tooltip
 			}
 			custom_effect_tooltip = tooltip_white_line
-			set_technology = { midget_submarines = 1 popup = no }
-			if = {
-				limit = { has_tech = advanced_ship_hull_submarine }
-				create_equipment_variant = {
-					name = "Maiale Class"
-					type = ship_hull_midget_submarine
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_4
-						fixed_ship_engine_slot = sub_ship_engine_4
+				set_technology = { midget_submarines = 1 popup = no }
+				if = {
+					limit = { has_tech = advanced_ship_hull_submarine }
+					create_equipment_variant = {
+						name = "Maiale Class"
+						type = ship_hull_midget_submarine
+						name_group = SRI_SS_HISTORICAL
+						parent_version = 0
+						allow_without_tech = yes
+						modules = {
+							fixed_ship_torpedo_slot = ship_torpedo_sub_4
+							fixed_ship_engine_slot = sub_ship_engine_4
+						}
 					}
 				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_submarine }
-				create_equipment_variant = {
-					name = "Maiale Class"
-					type = ship_hull_midget_submarine
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_3
-						fixed_ship_engine_slot = sub_ship_engine_3
+				else_if = {
+					limit = { has_tech = improved_ship_hull_submarine }
+					create_equipment_variant = {
+						name = "Maiale Class"
+						type = ship_hull_midget_submarine
+						name_group = SRI_SS_HISTORICAL
+						parent_version = 0
+						allow_without_tech = yes
+						modules = {
+							fixed_ship_torpedo_slot = ship_torpedo_sub_3
+							fixed_ship_engine_slot = sub_ship_engine_3
+						}
 					}
 				}
-			}
-			else_if = {
-				limit = { has_tech = basic_ship_hull_submarine }
-				create_equipment_variant = {
-					name = "Maiale Class"
-					type = ship_hull_midget_submarine
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_2
-						fixed_ship_engine_slot = sub_ship_engine_2
+				else_if = {
+					limit = { has_tech = basic_ship_hull_submarine }
+					create_equipment_variant = {
+						name = "Maiale Class"
+						type = ship_hull_midget_submarine
+						name_group = SRI_SS_HISTORICAL
+						parent_version = 0
+						allow_without_tech = yes
+						modules = {
+							fixed_ship_torpedo_slot = ship_torpedo_sub_2
+							fixed_ship_engine_slot = sub_ship_engine_2
+						}
 					}
 				}
-			}
-			else = {
-				create_equipment_variant = {
-					name = "Maiale Class"
-					type = ship_hull_midget_submarine
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_1
-						fixed_ship_engine_slot = sub_ship_engine_1
+				else = {
+					create_equipment_variant = {
+						name = "Maiale Class"
+						type = ship_hull_midget_submarine
+						name_group = SRI_SS_HISTORICAL
+						parent_version = 0
+						allow_without_tech = yes
+						modules = {
+							fixed_ship_torpedo_slot = ship_torpedo_sub_1
+							fixed_ship_engine_slot = sub_ship_engine_1
+						}
 					}
 				}
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_midget_submarine
-					version_name = "Maiale Class"
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_midget_submarine
+						version_name = "Maiale Class"
+					}
+					requested_factories = 1
+					progress = 0.35
+					amount = 1
 				}
-				requested_factories = 1
-				progress = 0.35
-				amount = 1
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_midget_submarine
-					version_name = "Maiale Class"
-				}
-				requested_factories = 1
-				progress = 0.35
-				amount = 1
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_midget_submarine
+						version_name = "Maiale Class"
+					}
+					requested_factories = 1
+					progress = 0.35
+					amount = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
@@ -7302,7 +7302,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_submarine
+				has_tech = early_ship_hull_submarine
 		}
 
 		relative_position_id = SRI_motoscafi_armati_siluranti
@@ -7345,217 +7345,217 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SRI_revolution_under_the_sea"
 			navy_experience = 25
-			add_tech_bonus = {
-				name = SRI_revolution_under_the_sea
-				bonus = 1
-				uses = 1
-				category = ss_tech
-			}
-			if = {
-				limit = { NOT = { has_tech = improved_submarine_snorkel } }
 				add_tech_bonus = {
 					name = SRI_revolution_under_the_sea
-					ahead_reduction = 2
+					bonus = 1
 					uses = 1
-					technology = basic_submarine_snorkel
-					technology = improved_submarine_snorkel
+					category = ss_tech
 				}
-			}
-			custom_effect_tooltip = tooltip_white_line
-			if = {
-				limit = { has_tech = advanced_ship_hull_submarine }
 				if = {
-					limit = { has_tech = improved_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Atropo Class"
-						type = ship_hull_submarine_4
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							mid_1_custom_slot = ship_sub_snorkel_2
-							rear_1_custom_slot = ship_torpedo_sub_4
+					limit = { NOT = { has_tech = improved_submarine_snorkel } }
+					add_tech_bonus = {
+						name = SRI_revolution_under_the_sea
+						ahead_reduction = 2
+						uses = 1
+						technology = basic_submarine_snorkel
+						technology = improved_submarine_snorkel
+					}
+				}
+				custom_effect_tooltip = tooltip_white_line
+				if = {
+					limit = { has_tech = advanced_ship_hull_submarine }
+					if = {
+						limit = { has_tech = improved_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_4
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								mid_1_custom_slot = ship_sub_snorkel_2
+								rear_1_custom_slot = ship_torpedo_sub_4
+							}
 						}
+					}
+					else_if = {
+						limit = { has_tech = basic_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_4
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								mid_1_custom_slot = ship_sub_snorkel_1
+								rear_1_custom_slot = ship_torpedo_sub_4
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_4
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_sub_4
+							}
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_4
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_4
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
 					}
 				}
 				else_if = {
-					limit = { has_tech = basic_submarine_snorkel }
+					limit = { has_tech = improved_ship_hull_submarine }
+					if = {
+						limit = { has_tech = improved_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_3
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_3
+								fixed_ship_engine_slot = sub_ship_engine_3
+								mid_1_custom_slot = ship_sub_snorkel_2
+								rear_1_custom_slot = ship_torpedo_sub_3
+							}
+						}
+					}
+					else_if = {
+						limit = { has_tech = basic_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_3
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_3
+								fixed_ship_engine_slot = sub_ship_engine_3
+								mid_1_custom_slot = ship_sub_snorkel_1
+								rear_1_custom_slot = ship_torpedo_sub_3
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Atropo Class"
+							type = ship_hull_submarine_3
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_3
+								fixed_ship_engine_slot = sub_ship_engine_3
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_sub_3
+							}
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_3
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_3
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
+					}
+				}
+				else_if = {
+					limit = { has_tech = basic_ship_hull_submarine }
 					create_equipment_variant = {
 						name = "Atropo Class"
-						type = ship_hull_submarine_4
+						type = ship_hull_submarine_2
 						name_group = SRI_SS_HISTORICAL
 						parent_version = 0
-						allow_without_tech = yes
 						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							mid_1_custom_slot = ship_sub_snorkel_1
-							rear_1_custom_slot = ship_torpedo_sub_4
+							fixed_ship_torpedo_slot = ship_torpedo_sub_2
+							fixed_ship_engine_slot = sub_ship_engine_2
+							rear_1_custom_slot = ship_torpedo_sub_2
 						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_2
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_2
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
 					}
 				}
 				else = {
 					create_equipment_variant = {
 						name = "Atropo Class"
-						type = ship_hull_submarine_4
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_sub_4
-						}
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_4
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_4
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_submarine }
-				if = {
-					limit = { has_tech = improved_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Atropo Class"
-						type = ship_hull_submarine_3
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_3
-							fixed_ship_engine_slot = sub_ship_engine_3
-							mid_1_custom_slot = ship_sub_snorkel_2
-							rear_1_custom_slot = ship_torpedo_sub_3
-						}
-					}
-				}
-				else_if = {
-					limit = { has_tech = basic_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Atropo Class"
-						type = ship_hull_submarine_3
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_3
-							fixed_ship_engine_slot = sub_ship_engine_3
-							mid_1_custom_slot = ship_sub_snorkel_1
-							rear_1_custom_slot = ship_torpedo_sub_3
-						}
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "Atropo Class"
-						type = ship_hull_submarine_3
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_3
-							fixed_ship_engine_slot = sub_ship_engine_3
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_sub_3
-						}
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_3
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_3
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = basic_ship_hull_submarine }
-				create_equipment_variant = {
-					name = "Atropo Class"
-					type = ship_hull_submarine_2
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_2
-						fixed_ship_engine_slot = sub_ship_engine_2
-						rear_1_custom_slot = ship_torpedo_sub_2
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_2
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_2
-						version_name = "Atropo Class"
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-			}
-			else = {
-				create_equipment_variant = {
-					name = "Atropo Class"
-					type = ship_hull_submarine_1
-					name_group = SRI_SS_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_torpedo_slot = ship_torpedo_sub_1
-						fixed_ship_engine_slot = sub_ship_engine_1
-						rear_1_custom_slot = ship_torpedo_sub_1
-					}
-				}
-				add_equipment_production = {
-					equipment = {
 						type = ship_hull_submarine_1
-						version_name = "Atropo Class"
+						name_group = SRI_SS_HISTORICAL
+						parent_version = 0
+						allow_without_tech = yes
+						modules = {
+							fixed_ship_torpedo_slot = ship_torpedo_sub_1
+							fixed_ship_engine_slot = sub_ship_engine_1
+							rear_1_custom_slot = ship_torpedo_sub_1
+						}
 					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_submarine_1
-						version_name = "Atropo Class"
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_1
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
 					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_submarine_1
+							version_name = "Atropo Class"
+						}
+						requested_factories = 1
+						progress = 0.35
+						amount = 1
 				}
 			}
 		}
@@ -7632,11 +7632,11 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_white_line
 			add_one_random_military_factory = yes
 			custom_effect_tooltip = tooltip_white_line
-			add_tech_bonus = {
-				name = SRI_italian_torpedoes
-				bonus = 0.75
-				uses = 2
-				category = cat_torpedoes
+				add_tech_bonus = {
+					name = SRI_italian_torpedoes
+					bonus = 0.75
+					uses = 2
+					category = cat_torpedoes
 			}
 		}
 		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -7647,7 +7647,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_submarine
+				has_tech = early_ship_hull_submarine
 		}
 
 		relative_position_id = SRI_corpo_del_genio_navale
@@ -7695,191 +7695,191 @@ focus_tree = {
 				tooltip = convoy_raiding_efficiency_factor_tooltip
 			}
 			custom_effect_tooltip = tooltip_white_line
-			if = {
-				limit = { NOT = { is_special_project_completed = sp:sp_naval_cruiser_submarine } }
-				hidden_effect = { set_technology = { cruiser_submarines = 1 popup = no } }
-				complete_special_project = {
-					project = sp:sp_naval_cruiser_submarine
-					show_modifiers = no
-				}
-			}
-			if = {
-				limit = { has_tech = advanced_ship_hull_submarine }
 				if = {
-					limit = { has_tech = improved_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							front_1_custom_slot = ship_torpedo_sub_4
-							mid_1_custom_slot = ship_sub_snorkel_2
-							rear_1_custom_slot = ship_airplane_launcher_2
+					limit = { NOT = { is_special_project_completed = sp:sp_naval_cruiser_submarine } }
+					hidden_effect = { set_technology = { cruiser_submarines = 1 popup = no } }
+					complete_special_project = {
+						project = sp:sp_naval_cruiser_submarine
+						show_modifiers = no
+					}
+				}
+				if = {
+					limit = { has_tech = advanced_ship_hull_submarine }
+					if = {
+						limit = { has_tech = improved_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								front_1_custom_slot = ship_torpedo_sub_4
+								mid_1_custom_slot = ship_sub_snorkel_2
+								rear_1_custom_slot = ship_airplane_launcher_2
+							}
+						}
+					}
+					else_if = {
+						limit = { has_tech = basic_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								front_1_custom_slot = ship_torpedo_sub_4
+								mid_1_custom_slot = ship_sub_snorkel_1
+								rear_1_custom_slot = ship_airplane_launcher_2
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_4
+								fixed_ship_engine_slot = sub_ship_engine_4
+								front_1_custom_slot = ship_torpedo_sub_4
+								mid_1_custom_slot = ship_sub_snorkel_1
+								rear_1_custom_slot = ship_airplane_launcher_2
+							}
 						}
 					}
 				}
 				else_if = {
-					limit = { has_tech = basic_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							front_1_custom_slot = ship_torpedo_sub_4
-							mid_1_custom_slot = ship_sub_snorkel_1
-							rear_1_custom_slot = ship_airplane_launcher_2
+					limit = { has_tech = improved_ship_hull_submarine }
+					if = {
+						limit = { has_tech = basic_submarine_snorkel }
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_3
+								fixed_ship_engine_slot = sub_ship_engine_3
+								front_1_custom_slot = ship_torpedo_sub_3
+								mid_1_custom_slot = ship_sub_snorkel_1
+								rear_1_custom_slot = ship_airplane_launcher_2
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_3
+								fixed_ship_engine_slot = sub_ship_engine_3
+								front_1_custom_slot = ship_torpedo_sub_3
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_airplane_launcher_2
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { has_tech = basic_ship_hull_submarine }
+					if = {
+						limit = { has_tech = early_ship_hull_cruiser }
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_2
+								fixed_ship_engine_slot = sub_ship_engine_2
+								front_1_custom_slot = ship_torpedo_sub_2
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_airplane_launcher_1
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_2
+								fixed_ship_engine_slot = sub_ship_engine_2
+								front_1_custom_slot = ship_torpedo_sub_2
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_sub_2
+							}
 						}
 					}
 				}
 				else = {
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_4
-							fixed_ship_engine_slot = sub_ship_engine_4
-							front_1_custom_slot = ship_torpedo_sub_4
-							mid_1_custom_slot = ship_sub_snorkel_1
-							rear_1_custom_slot = ship_airplane_launcher_2
+					if = {
+						limit = { has_tech = early_ship_hull_cruiser }
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								front_1_custom_slot = ship_torpedo_sub_1
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_airplane_launcher_1
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Fulmine Class"
+							type = ship_hull_cruiser_submarine
+							name_group = SRI_SS_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_torpedo_slot = ship_torpedo_sub_1
+								fixed_ship_engine_slot = sub_ship_engine_1
+								front_1_custom_slot = ship_torpedo_sub_1
+								mid_1_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_sub_1
+							}
 						}
 					}
 				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_submarine }
-				if = {
-					limit = { has_tech = basic_submarine_snorkel }
-					create_equipment_variant = {
-						name = "Fulmine Class"
+				add_equipment_production = {
+					equipment = {
 						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_3
-							fixed_ship_engine_slot = sub_ship_engine_3
-							front_1_custom_slot = ship_torpedo_sub_3
-							mid_1_custom_slot = ship_sub_snorkel_1
-							rear_1_custom_slot = ship_airplane_launcher_2
-						}
+						version_name = "Fulmine Class"
 					}
+					requested_factories = 1
+					progress = 0.35
+					amount = 1
 				}
-				else = {
-					create_equipment_variant = {
-						name = "Fulmine Class"
+				add_equipment_production = {
+					equipment = {
 						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_3
-							fixed_ship_engine_slot = sub_ship_engine_3
-							front_1_custom_slot = ship_torpedo_sub_3
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_airplane_launcher_2
-						}
+						version_name = "Fulmine Class"
 					}
-				}
-			}
-			else_if = {
-				limit = { has_tech = basic_ship_hull_submarine }
-				if = {
-					limit = { has_tech = early_ship_hull_cruiser }
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_2
-							fixed_ship_engine_slot = sub_ship_engine_2
-							front_1_custom_slot = ship_torpedo_sub_2
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_airplane_launcher_1
-						}
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_2
-							fixed_ship_engine_slot = sub_ship_engine_2
-							front_1_custom_slot = ship_torpedo_sub_2
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_sub_2
-						}
-					}
-				}
-			}
-			else = {
-				if = {
-					limit = { has_tech = early_ship_hull_cruiser }
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_1
-							fixed_ship_engine_slot = sub_ship_engine_1
-							front_1_custom_slot = ship_torpedo_sub_1
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_airplane_launcher_1
-						}
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "Fulmine Class"
-						type = ship_hull_cruiser_submarine
-						name_group = SRI_SS_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_torpedo_slot = ship_torpedo_sub_1
-							fixed_ship_engine_slot = sub_ship_engine_1
-							front_1_custom_slot = ship_torpedo_sub_1
-							mid_1_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_sub_1
-						}
-					}
-				}
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_cruiser_submarine
-					version_name = "Fulmine Class"
-				}
-				requested_factories = 1
-				progress = 0.35
-				amount = 1
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_cruiser_submarine
-					version_name = "Fulmine Class"
-				}
-				requested_factories = 1
-				progress = 0.35
-				amount = 1
+					requested_factories = 1
+					progress = 0.35
+					amount = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
@@ -7937,11 +7937,11 @@ focus_tree = {
 				uses = 1
 				category = artillery
 			}
-			add_tech_bonus = {
-				name = SRI_artiglieria_marittima
-				bonus = 0.75
-				uses = 2
-				category = naval_mines
+				add_tech_bonus = {
+					name = SRI_artiglieria_marittima
+					bonus = 0.75
+					uses = 2
+					category = naval_mines
 			}
 			custom_effect_tooltip = tooltip_white_line
 			if = {
@@ -8348,7 +8348,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_cruiser
+				has_tech = early_ship_hull_cruiser
 		}
 
 		relative_position_id = SRI_guerra_marittima
@@ -8398,16 +8398,110 @@ focus_tree = {
 				category = ca_tech
 			}
 			custom_effect_tooltip = tooltip_white_line
-			if = {
-				limit = { NOT = { has_tech = panzerschiffe } }
-				custom_effect_tooltip = SRI_add_panzerschiffe_tech
-				hidden_effect = {
-					set_technology = { panzerschiffe = 1 popup = no }
-				}
-			}
-			if = {
-				limit = { has_tech = advanced_ship_hull_cruiser }
 				if = {
+					limit = { NOT = { has_tech = panzerschiffe } }
+					custom_effect_tooltip = SRI_add_panzerschiffe_tech
+					hidden_effect = {
+						set_technology = { panzerschiffe = 1 popup = no }
+					}
+				}
+				if = {
+					limit = { has_tech = advanced_ship_hull_cruiser }
+					if = {
+						limit = { has_tech = improved_heavy_battery }
+						create_equipment_variant = {
+							name = "Uragano Class"
+							type = ship_hull_cruiser_panzerschiff
+							name_group = SRI_CA_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_3
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_4
+								fixed_ship_armor_slot = empty
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_airplane_launcher_1
+								mid_2_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_1
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Uragano Class"
+							type = ship_hull_cruiser_panzerschiff
+							name_group = SRI_CA_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_4
+								fixed_ship_armor_slot = empty
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_airplane_launcher_1
+								mid_2_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_1
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = { has_tech = improved_ship_hull_cruiser }
+					if = {
+						limit = { has_tech = improved_heavy_battery }
+						create_equipment_variant = {
+							name = "Uragano Class"
+							type = ship_hull_cruiser_panzerschiff
+							name_group = SRI_CA_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_3
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_3
+								fixed_ship_armor_slot = empty
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_airplane_launcher_1
+								mid_2_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_1
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Uragano Class"
+							type = ship_hull_cruiser_panzerschiff
+							name_group = SRI_CA_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_2
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = cruiser_ship_engine_3
+								fixed_ship_armor_slot = empty
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_anti_air_1
+								mid_1_custom_slot = ship_airplane_launcher_1
+								mid_2_custom_slot = empty
+								rear_1_custom_slot = ship_torpedo_1
+							}
+						}
+					}
+				}
+				else_if = {
 					limit = { has_tech = improved_heavy_battery }
 					create_equipment_variant = {
 						name = "Uragano Class"
@@ -8420,7 +8514,7 @@ focus_tree = {
 							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 							fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = cruiser_ship_engine_4
+							fixed_ship_engine_slot = cruiser_ship_engine_2
 							fixed_ship_armor_slot = empty
 							fixed_ship_secondaries_slot = ship_secondaries_2
 							front_1_custom_slot = ship_anti_air_1
@@ -8434,7 +8528,7 @@ focus_tree = {
 					create_equipment_variant = {
 						name = "Uragano Class"
 						type = ship_hull_cruiser_panzerschiff
-						name_group = SRI_CA_HISTORICAL
+						name_group = NOR_CA_HISTORICAL
 						parent_version = 0
 						allow_without_tech = yes
 						modules = {
@@ -8442,9 +8536,9 @@ focus_tree = {
 							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 							fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = cruiser_ship_engine_4
+							fixed_ship_engine_slot = cruiser_ship_engine_2
 							fixed_ship_armor_slot = empty
-							fixed_ship_secondaries_slot = ship_secondaries_2
+							fixed_ship_secondaries_slot = ship_secondaries_1
 							front_1_custom_slot = ship_anti_air_1
 							mid_1_custom_slot = ship_airplane_launcher_1
 							mid_2_custom_slot = empty
@@ -8452,117 +8546,23 @@ focus_tree = {
 						}
 					}
 				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_cruiser }
-				if = {
-					limit = { has_tech = improved_heavy_battery }
-					create_equipment_variant = {
-						name = "Uragano Class"
+				add_equipment_production = {
+					equipment = {
 						type = ship_hull_cruiser_panzerschiff
-						name_group = SRI_CA_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_battery_slot = ship_heavy_battery_3
-							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = cruiser_ship_engine_3
-							fixed_ship_armor_slot = empty
-							fixed_ship_secondaries_slot = ship_secondaries_2
-							front_1_custom_slot = ship_anti_air_1
-							mid_1_custom_slot = ship_airplane_launcher_1
-							mid_2_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_1
-						}
+						version_name = "Uragano Class"
 					}
+					requested_factories = 1
+					progress = 0.45
+					amount = 1
 				}
-				else = {
-					create_equipment_variant = {
-						name = "Uragano Class"
+				add_equipment_production = {
+					equipment = {
 						type = ship_hull_cruiser_panzerschiff
-						name_group = SRI_CA_HISTORICAL
-						parent_version = 0
-						allow_without_tech = yes
-						modules = {
-							fixed_ship_battery_slot = ship_heavy_battery_2
-							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = cruiser_ship_engine_3
-							fixed_ship_armor_slot = empty
-							fixed_ship_secondaries_slot = ship_secondaries_2
-							front_1_custom_slot = ship_anti_air_1
-							mid_1_custom_slot = ship_airplane_launcher_1
-							mid_2_custom_slot = empty
-							rear_1_custom_slot = ship_torpedo_1
-						}
+						version_name = "Uragano Class"
 					}
-				}
-			}
-			else_if = {
-				limit = { has_tech = improved_heavy_battery }
-				create_equipment_variant = {
-					name = "Uragano Class"
-					type = ship_hull_cruiser_panzerschiff
-					name_group = SRI_CA_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_3
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = cruiser_ship_engine_2
-						fixed_ship_armor_slot = empty
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						front_1_custom_slot = ship_anti_air_1
-						mid_1_custom_slot = ship_airplane_launcher_1
-						mid_2_custom_slot = empty
-						rear_1_custom_slot = ship_torpedo_1
-					}
-				}
-			}
-			else = {
-				create_equipment_variant = {
-					name = "Uragano Class"
-					type = ship_hull_cruiser_panzerschiff
-					name_group = NOR_CA_HISTORICAL
-					parent_version = 0
-					allow_without_tech = yes
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_2
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = cruiser_ship_engine_2
-						fixed_ship_armor_slot = empty
-						fixed_ship_secondaries_slot = ship_secondaries_1
-						front_1_custom_slot = ship_anti_air_1
-						mid_1_custom_slot = ship_airplane_launcher_1
-						mid_2_custom_slot = empty
-						rear_1_custom_slot = ship_torpedo_1
-					}
-				}
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_cruiser_panzerschiff
-					version_name = "Uragano Class"
-				}
-				requested_factories = 1
-				progress = 0.45
-				amount = 1
-			}
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_cruiser_panzerschiff
-					version_name = "Uragano Class"
-				}
-				requested_factories = 1
-				progress = 0.45
-				amount = 1
+					requested_factories = 1
+					progress = 0.45
+					amount = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_XP FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_RESEARCH }
@@ -8654,7 +8654,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_heavy
+				has_tech = early_ship_hull_heavy
 		}
 
 		relative_position_id = SRI_battaglia_decisiva
@@ -8704,185 +8704,185 @@ focus_tree = {
 				category = bb_tech
 			}
 			custom_effect_tooltip = tooltip_white_line
-			if = {
-				limit = { has_tech = advanced_ship_hull_heavy }
-				create_equipment_variant = {
-					name = "Rivoluzione Class"
-					type = ship_hull_heavy_4
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_3
-						fixed_ship_anti_air_slot = ship_anti_air_4
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-						fixed_ship_radar_slot = ship_radar_3
-						fixed_ship_engine_slot = heavy_ship_engine_4
-						fixed_ship_secondaries_slot = dp_ship_secondaries_3
-						fixed_ship_armor_slot = ship_armor_bb_3
-						front_1_custom_slot = ship_heavy_battery_3
-						mid_1_custom_slot = ship_anti_air_4
-						mid_2_custom_slot = dp_ship_secondaries_3
-						mid_3_custom_slot = ship_airplane_launcher_2
-						rear_1_custom_slot = ship_heavy_battery_3
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_4
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_4
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_heavy }
 				if = {
-					limit = { has_tech = basic_dp_light_battery }
+					limit = { has_tech = advanced_ship_hull_heavy }
 					create_equipment_variant = {
 						name = "Rivoluzione Class"
-						type = ship_hull_heavy_3
+						type = ship_hull_heavy_4
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_heavy_battery_3
+							fixed_ship_anti_air_slot = ship_anti_air_4
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+							fixed_ship_radar_slot = ship_radar_3
+							fixed_ship_engine_slot = heavy_ship_engine_4
+							fixed_ship_secondaries_slot = dp_ship_secondaries_3
+							fixed_ship_armor_slot = ship_armor_bb_3
+							front_1_custom_slot = ship_heavy_battery_3
+							mid_1_custom_slot = ship_anti_air_4
+							mid_2_custom_slot = dp_ship_secondaries_3
+							mid_3_custom_slot = ship_airplane_launcher_2
+							rear_1_custom_slot = ship_heavy_battery_3
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_4
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_4
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
+					}
+				}
+				else_if = {
+					limit = { has_tech = improved_ship_hull_heavy }
+					if = {
+						limit = { has_tech = basic_dp_light_battery }
+						create_equipment_variant = {
+							name = "Rivoluzione Class"
+							type = ship_hull_heavy_3
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_3
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+								fixed_ship_radar_slot = ship_radar_2
+								fixed_ship_engine_slot = heavy_ship_engine_4
+								fixed_ship_secondaries_slot = dp_ship_secondaries_2
+								fixed_ship_armor_slot = ship_armor_bb_2
+								front_1_custom_slot = ship_heavy_battery_2
+								mid_1_custom_slot = ship_anti_air_3
+								mid_2_custom_slot = dp_ship_secondaries_2
+								mid_3_custom_slot = ship_airplane_launcher_2
+								rear_1_custom_slot = ship_heavy_battery_2
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Rivoluzione Class"
+							type = ship_hull_heavy_3
+							parent_version = 0
+							modules = {
+								fixed_ship_battery_slot = ship_heavy_battery_2
+								fixed_ship_anti_air_slot = ship_anti_air_3
+								fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+								fixed_ship_radar_slot = ship_radar_2
+								fixed_ship_engine_slot = heavy_ship_engine_3
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								fixed_ship_armor_slot = ship_armor_bb_2
+								front_1_custom_slot = ship_heavy_battery_2
+								mid_1_custom_slot = ship_anti_air_3
+								mid_2_custom_slot = ship_secondaries_2
+								mid_3_custom_slot = ship_airplane_launcher_2
+								rear_1_custom_slot = ship_heavy_battery_2
+							}
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_3
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_3
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
+					}
+				}
+				else_if = {
+					limit = { has_tech = basic_ship_hull_heavy }
+					create_equipment_variant = {
+						name = "Rivoluzione Class"
+						type = ship_hull_heavy_2
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = ship_heavy_battery_2
-							fixed_ship_anti_air_slot = ship_anti_air_3
-							fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-							fixed_ship_radar_slot = ship_radar_2
-							fixed_ship_engine_slot = heavy_ship_engine_4
-							fixed_ship_secondaries_slot = dp_ship_secondaries_2
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = heavy_ship_engine_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
 							fixed_ship_armor_slot = ship_armor_bb_2
-							front_1_custom_slot = ship_heavy_battery_2
-							mid_1_custom_slot = ship_anti_air_3
-							mid_2_custom_slot = dp_ship_secondaries_2
-							mid_3_custom_slot = ship_airplane_launcher_2
+							front_1_custom_slot = ship_anti_air_1
+							mid_1_custom_slot = ship_secondaries_2
+							mid_2_custom_slot = ship_airplane_launcher_2
 							rear_1_custom_slot = ship_heavy_battery_2
 						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_2
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_2
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
 					}
 				}
 				else = {
 					create_equipment_variant = {
 						name = "Rivoluzione Class"
-						type = ship_hull_heavy_3
+						type = ship_hull_heavy_1
 						parent_version = 0
 						modules = {
-							fixed_ship_battery_slot = ship_heavy_battery_2
-							fixed_ship_anti_air_slot = ship_anti_air_3
-							fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-							fixed_ship_radar_slot = ship_radar_2
-							fixed_ship_engine_slot = heavy_ship_engine_3
-							fixed_ship_secondaries_slot = ship_secondaries_2
-							fixed_ship_armor_slot = ship_armor_bb_2
-							front_1_custom_slot = ship_heavy_battery_2
-							mid_1_custom_slot = ship_anti_air_3
-							mid_2_custom_slot = ship_secondaries_2
-							mid_3_custom_slot = ship_airplane_launcher_2
-							rear_1_custom_slot = ship_heavy_battery_2
+							fixed_ship_battery_slot = ship_heavy_battery_1
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = heavy_ship_engine_1
+							fixed_ship_secondaries_slot = ship_secondaries_1
+							fixed_ship_armor_slot = ship_armor_bb_1
+							front_1_custom_slot = ship_anti_air_1
+							mid_1_custom_slot = ship_secondaries_1
+							mid_2_custom_slot = ship_airplane_launcher_1
+							rear_1_custom_slot = ship_heavy_battery_1
 						}
 					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_3
-						version_name = "Rivoluzione Class"
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_1
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
 					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_3
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = basic_ship_hull_heavy }
-				create_equipment_variant = {
-					name = "Rivoluzione Class"
-					type = ship_hull_heavy_2
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_2
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = heavy_ship_engine_2
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						fixed_ship_armor_slot = ship_armor_bb_2
-						front_1_custom_slot = ship_anti_air_1
-						mid_1_custom_slot = ship_secondaries_2
-						mid_2_custom_slot = ship_airplane_launcher_2
-						rear_1_custom_slot = ship_heavy_battery_2
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_2
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_2
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else = {
-				create_equipment_variant = {
-					name = "Rivoluzione Class"
-					type = ship_hull_heavy_1
-					parent_version = 0
-					modules = {
-						fixed_ship_battery_slot = ship_heavy_battery_1
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = heavy_ship_engine_1
-						fixed_ship_secondaries_slot = ship_secondaries_1
-						fixed_ship_armor_slot = ship_armor_bb_1
-						front_1_custom_slot = ship_anti_air_1
-						mid_1_custom_slot = ship_secondaries_1
-						mid_2_custom_slot = ship_airplane_launcher_1
-						rear_1_custom_slot = ship_heavy_battery_1
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_1
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_1
-						version_name = "Rivoluzione Class"
-					}
-					requested_factories = 1
-					progress = 0.45
-					amount = 1
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_heavy_1
+							version_name = "Rivoluzione Class"
+						}
+						requested_factories = 1
+						progress = 0.45
+						amount = 1
 				}
 			}
 		}
@@ -9066,7 +9066,7 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_tech = early_ship_hull_carrier
+				has_tech = early_ship_hull_carrier
 		}
 
 		relative_position_id = SRI_mariantisom
@@ -9116,186 +9116,186 @@ focus_tree = {
 				category = cv_tech
 			}
 			custom_effect_tooltip = tooltip_white_line
-			if = {
-				limit = { has_tech = advanced_ship_hull_carrier }
 				if = {
-					limit = { has_tech = advanced_dp_light_battery }
-					create_equipment_variant = {
-						name = "Vittoria Class"
-						type = ship_hull_carrier_3
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_4
-							fixed_ship_secondaries_slot = dp_ship_secondaries_4
-							front_1_custom_slot = ship_deck_space
+					limit = { has_tech = advanced_ship_hull_carrier }
+					if = {
+						limit = { has_tech = advanced_dp_light_battery }
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_3
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_4
+								fixed_ship_secondaries_slot = dp_ship_secondaries_4
+								front_1_custom_slot = ship_deck_space
+							}
 						}
+					}
+					else_if = {
+						limit = { has_tech = improved_dp_light_battery }
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_3
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_4
+								fixed_ship_secondaries_slot = dp_ship_secondaries_3
+								front_1_custom_slot = ship_deck_space
+							}
+						}
+					}
+					else_if = {
+						limit = { has_tech = basic_dp_light_battery }
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_3
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_4
+								fixed_ship_secondaries_slot = dp_ship_secondaries_2
+								front_1_custom_slot = ship_deck_space
+							}
+						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_3
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_4
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_deck_space
+							}
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_3
+							version_name = "Vittoria Class"
+						}
+						requested_factories = 5
+						progress = 0.45
+						amount = 1
 					}
 				}
 				else_if = {
-					limit = { has_tech = improved_dp_light_battery }
-					create_equipment_variant = {
-						name = "Vittoria Class"
-						type = ship_hull_carrier_3
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_4
-							fixed_ship_secondaries_slot = dp_ship_secondaries_3
-							front_1_custom_slot = ship_deck_space
+					limit = { has_tech = improved_ship_hull_carrier }
+					if = {
+						limit = { has_tech = basic_dp_light_battery }
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_2
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_3
+								fixed_ship_secondaries_slot = dp_ship_secondaries_2
+								front_1_custom_slot = ship_deck_space
+							}
 						}
+					}
+					else = {
+						create_equipment_variant = {
+							name = "Vittoria Class"
+							type = ship_hull_carrier_2
+							name_group = SRI_CV_HISTORICAL
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_deck_space
+								fixed_ship_deck_slot_2 = ship_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_2
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_3
+								fixed_ship_secondaries_slot = ship_secondaries_2
+								front_1_custom_slot = ship_deck_space
+							}
+						}
+					}
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_2
+							version_name = "Vittoria Class"
+						}
+						requested_factories = 5
+						progress = 0.45
+						amount = 1
 					}
 				}
 				else_if = {
-					limit = { has_tech = basic_dp_light_battery }
+					limit = { has_tech = basic_ship_hull_carrier }
 					create_equipment_variant = {
 						name = "Vittoria Class"
-						type = ship_hull_carrier_3
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_4
-							fixed_ship_secondaries_slot = dp_ship_secondaries_2
-							front_1_custom_slot = ship_deck_space
-						}
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "Vittoria Class"
-						type = ship_hull_carrier_3
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_4
-							fixed_ship_secondaries_slot = ship_secondaries_2
-							front_1_custom_slot = ship_deck_space
-						}
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_3
-						version_name = "Vittoria Class"
-					}
-					requested_factories = 5
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = improved_ship_hull_carrier }
-				if = {
-					limit = { has_tech = basic_dp_light_battery }
-					create_equipment_variant = {
-						name = "Vittoria Class"
-						type = ship_hull_carrier_2
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_3
-							fixed_ship_secondaries_slot = dp_ship_secondaries_2
-							front_1_custom_slot = ship_deck_space
-						}
-					}
-				}
-				else = {
-					create_equipment_variant = {
-						name = "Vittoria Class"
-						type = ship_hull_carrier_2
-						name_group = SRI_CV_HISTORICAL
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_deck_space
-							fixed_ship_deck_slot_2 = ship_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_2
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_3
-							fixed_ship_secondaries_slot = ship_secondaries_2
-							front_1_custom_slot = ship_deck_space
-						}
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_2
-						version_name = "Vittoria Class"
-					}
-					requested_factories = 5
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else_if = {
-				limit = { has_tech = basic_ship_hull_carrier }
-				create_equipment_variant = {
-					name = "Vittoria Class"
-					type = ship_hull_carrier_1
-					name_group = SRI_CV_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_deck_slot_1 = ship_deck_space
-						fixed_ship_deck_slot_2 = ship_deck_space
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = carrier_ship_engine_2
-						fixed_ship_secondaries_slot = ship_secondaries_2
-						front_1_custom_slot = ship_deck_space
-					}
-				}
-				add_equipment_production = {
-					equipment = {
 						type = ship_hull_carrier_1
-						version_name = "Vittoria Class"
+						name_group = SRI_CV_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_deck_space
+							fixed_ship_deck_slot_2 = ship_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = carrier_ship_engine_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							front_1_custom_slot = ship_deck_space
+						}
 					}
-					requested_factories = 5
-					progress = 0.45
-					amount = 1
-				}
-			}
-			else = {
-				create_equipment_variant = {
-					name = "Vittoria Class"
-					type = ship_hull_carrier_conversion_bb
-					name_group = SRI_CV_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_ship_deck_slot_1 = ship_deck_space
-						fixed_ship_deck_slot_2 = ship_deck_space
-						fixed_ship_anti_air_slot = ship_anti_air_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = carrier_ship_engine_1
-						fixed_ship_secondaries_slot = ship_secondaries_1
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_1
+							version_name = "Vittoria Class"
+						}
+						requested_factories = 5
+						progress = 0.45
+						amount = 1
 					}
 				}
-				add_equipment_production = {
-					equipment = {
+				else = {
+					create_equipment_variant = {
+						name = "Vittoria Class"
 						type = ship_hull_carrier_conversion_bb
-						version_name = "Vittoria Class"
+						name_group = SRI_CV_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_deck_space
+							fixed_ship_deck_slot_2 = ship_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = carrier_ship_engine_1
+							fixed_ship_secondaries_slot = ship_secondaries_1
+						}
 					}
-					requested_factories = 5
-					progress = 0.45
-					amount = 1
+					add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_conversion_bb
+							version_name = "Vittoria Class"
+						}
+						requested_factories = 5
+						progress = 0.45
+						amount = 1
 				}
 			}
 		}
@@ -9356,13 +9356,13 @@ focus_tree = {
 				tooltip = navy_anti_air_attack_factor_tooltip
 			}
 			custom_effect_tooltip = tooltip_white_line
-			add_tech_bonus = {
-				name = SRI_improved_gunnery
-				bonus = 0.75
-				uses = 2
-				category = cat_ship_light_battery
-				category = cat_ship_medium_battery
-				category = cat_ship_heavy_battery
+				add_tech_bonus = {
+					name = SRI_improved_gunnery
+					bonus = 0.75
+					uses = 2
+					category = cat_ship_light_battery
+					category = cat_ship_medium_battery
+					category = cat_ship_heavy_battery
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_RESEARCH }

@@ -220,8 +220,8 @@ AFG_coring = {
 		visible = {
 			hidden_trigger = { has_country_flag = AFG_lost_durand }
 			NOT = {
-				has_country_leader = { name = "Habibullah Kalakani" ruling_only = yes }
-				has_country_leader = { name = "Nur Muhammad Taraki" ruling_only = yes }
+				has_country_leader = { name = "Хабибулла Калакани" ruling_only = yes }
+				has_country_leader = { name = "Нур Мохаммад Тараки" ruling_only = yes }
 			}
 			owns_state = 442
 			owns_state = 445
@@ -249,9 +249,9 @@ AFG_coring = {
 		icon = generic_prepare_civil_war
 		visible = {
 			hidden_trigger = { has_country_flag = AFG_lost_durand }
-			has_country_leader = { name = "Nur Muhammad Taraki" ruling_only = yes }
+			has_country_leader = { name = "Нур Мохаммад Тараки" ruling_only = yes }
 			NOT = {
-				has_country_leader = { name = "Habibullah Kalakani" ruling_only = yes }
+				has_country_leader = { name = "Хабибулла Калакани" ruling_only = yes }
 			}
 			owns_state = 441 #Kashmir
 			owns_state = 444 #Baluchistan
@@ -288,33 +288,33 @@ AFG_coring = {
 		}
 	}
 	AFG_khalq_integrate_western_greater_afghanistan = {# re-core western greater afghanistan
-		icon = generic_prepare_civil_war
-		visible = {
-			hidden_trigger = { has_country_flag = AFG_lost_durand }
-			has_country_leader = { name = "Nur Muhammad Taraki" ruling_only = yes }
-			NOT = {
-				has_country_leader = { name = "Habibullah Kalakani" ruling_only = yes }
-			}
-			owns_state = 804 #Northern Khorasan
-			owns_state = 416 #Khorasan
-			owns_state = 410 #Sistan
+	icon = generic_prepare_civil_war
+	visible = {
+		hidden_trigger = { has_country_flag = AFG_lost_durand }
+		has_country_leader = { name = "Нур Мохаммад Тараки" ruling_only = yes }
+		NOT = {
+			has_country_leader = { name = "Хабибулла Калакани" ruling_only = yes }
 		}
-		cancel_if_not_visible = yes
-		
-		fire_only_once = yes
-		cost = 75
-		days_remove = 45
-
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision AFG_integrate_pamir"
-		}
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove AFG_integrate_pamir"
-			add_state_core = 804 #Northern Khorasan
-			add_state_core = 416 #Khorasan
-			add_state_core = 410 #Sistan
-		}
+		owns_state = 804 #Northern Khorasan
+		owns_state = 416 #Khorasan
+		owns_state = 410 #Sistan
 	}
+	cancel_if_not_visible = yes
+	
+	fire_only_once = yes
+	cost = 75
+	days_remove = 45
+
+	complete_effect = {
+		log = "[GetDateText]: [Root.GetName]: Decision AFG_integrate_pamir"
+	}
+	remove_effect = {
+		log = "[GetDateText]: [Root.GetName]: Decision remove AFG_integrate_pamir"
+		add_state_core = 804 #Northern Khorasan
+		add_state_core = 416 #Khorasan
+		add_state_core = 410 #Sistan
+	}
+}
 }
 
 AFG_kalakani_power = {
@@ -337,7 +337,7 @@ AFG_kalakani_power = {
 		cancel_effect = {
 			add_political_power = 100
 			add_stability = 0.10
-			hidden_effect = {			
+			hidden_effect = {
 				var:1217.owner = {			
 					random_unit_leader = {
 						limit = { has_id = 68579 }
@@ -369,7 +369,7 @@ AFG_kalakani_power = {
 				AFG = {
 					transfer_state = 1217
 				}
-				country_event = afghanredux.44
+			country_event = afghanredux.44
 			}		
 		}
 	}
@@ -385,8 +385,8 @@ AFG_kalakani_power = {
 		ai_will_do = { factor = 100 }
 		cancel_trigger = {
 			OR = {
-				has_country_leader = { name = "Ali Ahmad Khan" ruling_only = yes }
-				has_country_leader = { name = "Mohammad Nadir Khan" ruling_only = yes }
+				has_country_leader = { name = "Али Ахмад Хан" ruling_only = yes }
+				has_country_leader = { name = "Мохаммад Надир Хан" ruling_only = yes }
 			}
 		}
 		cancel_effect = {
@@ -437,7 +437,7 @@ AFG_socialist_foreign_policy = {
 			NOT = { country_exists = BHC }
 			NOT = {
 				DEH = {
-					has_country_leader = { ruling_only = yes name = "Mohandas Karamchand Gandhi" }
+					has_country_leader = { ruling_only = yes name = "Махатма Ганди" }
 				}
 			}
 		}
@@ -566,7 +566,7 @@ AFG_socialist_foreign_policy = {
 			}
 			DEH = {
 				exists = yes
-				has_country_leader = { ruling_only = yes name = "Mohandas Karamchand Gandhi" }
+				has_country_leader = { ruling_only = yes name = "Махатма Ганди" }
 				is_neighbor_of = AFG
 			}
 			has_completed_focus = AFG_courting_the_commune
@@ -799,7 +799,7 @@ AFG_great_game = {
 					is_neighbor_of = UZB
 					is_neighbor_of = KHI
 					is_neighbor_of = ALO
-				}
+				}			
 			TRK = { any_neighbor_country = { is_subject_of = AFG } }
 			KYR = { any_neighbor_country = { is_subject_of = AFG } }
 			UZB = { any_neighbor_country = { is_subject_of = AFG } }
@@ -839,7 +839,7 @@ AFG_great_game = {
 			if = {
 				limit = { country_exists = KHI }
 				activate_targeted_decision = { target = KHI decision = AFG_attack_country }
-			}				
+			}					
 			if = {
 				limit = { country_exists = ALO }
 				activate_targeted_decision = { target = ALO decision = AFG_attack_country }
@@ -882,7 +882,7 @@ AFG_great_game = {
 			release_puppet = TRK
 			TRK = {
 				create_country_leader = {
-					name = "Wilfrid Malleson"
+					name = "Уилфред Маллесон"
 					picture = "gfx/leaders/UZB/Portrait_UZB_Wilfrid_Malleson.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -949,7 +949,7 @@ AFG_great_game = {
                     is_neighbor_of = ETS
 					is_neighbor_of = TAN
 					is_neighbor_of = SIK
-				}
+				}			
 			ETS = { any_neighbor_country = { is_subject_of = AFG } }
 			TAN = { any_neighbor_country = { is_subject_of = AFG } }
 			SIK = { any_neighbor_country = { is_subject_of = AFG } }
@@ -1021,7 +1021,7 @@ AFG_great_game = {
 			release_puppet = ETS
 			ETS = {
 				create_country_leader = {
-					name = "Khalid Sheldrake"
+					name = "Халид Шелдрейк"
 					picture = "gfx/leaders/ETS/Portrait_ETS_Khalid_Sheldrake.png"
 					expire = "1.1.1"
 					ideology = absolute_monarchy_subtype
@@ -1103,7 +1103,7 @@ AFG_great_game = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete AFG_great_game_tibet_dominion target: [From.GetName]"
 			TIB = {
 				create_country_leader = {
-					name = "Francis Younghusband"
+					name = "Фрэнсис Янгхазбенд"
 					picture = "gfx/leaders/AFG/Portrait_AFG_Francis_Younghusband.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -1137,7 +1137,7 @@ AFG_great_game = {
                 is_neighbor_of = PER
                 any_allied_country = {
                     is_neighbor_of = PER
-				}
+				}			
 			PER = { any_neighbor_country = { is_subject_of = AFG } }
 			}
 		}		
@@ -1165,7 +1165,7 @@ AFG_great_game = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete AFG_great_game_persia_dominion target: [From.GetName]"
 			PER = {
 				create_country_leader = {
-					name = "John Cadman"
+					name = "Джон Кэдман"
 					picture = "gfx/leaders/AFG/Portrait_AFG_John_Cadman.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -1209,7 +1209,7 @@ AFG_great_game = {
 						is_owner_neighbor_of = AZE
 						is_owner_neighbor_of = GEO
 					}
-				}
+				}			
 				ABK = { any_neighbor_country = { is_ally_with = AFG } }
 				ARM = { any_neighbor_country = { is_ally_with = AFG } }
 				AZE = { any_neighbor_country = { is_ally_with = AFG } }
@@ -1232,10 +1232,10 @@ AFG_great_game = {
 				}
 				add_claim_by = AFG
 			}					
-			activate_targeted_decision = { target = ABK decision = AFG_attack_country }
-			activate_targeted_decision = { target = ARM decision = AFG_attack_country }
-			activate_targeted_decision = { target = AZE decision = AFG_attack_country }
-			activate_targeted_decision = { target = GEO decision = AFG_attack_country }
+				activate_targeted_decision = { target = ABK decision = AFG_attack_country }
+				activate_targeted_decision = { target = ARM decision = AFG_attack_country }
+				activate_targeted_decision = { target = AZE decision = AFG_attack_country }
+				activate_targeted_decision = { target = GEO decision = AFG_attack_country }
 		}
 		fire_only_once = yes
 		
@@ -1274,7 +1274,7 @@ AFG_great_game = {
 			release_puppet = ARM
 			ARM = {
 				create_country_leader = {
-					name = "Calouste Gulbenkian"
+					name = "Галуст Гюльбенкян"
 					desc = ""
 					picture = "gfx/leaders/ARM/Portrait_Armenia_Calouste_Gulbenkian.png"
 					expire = "1.1.1"
@@ -1326,7 +1326,7 @@ AFG_great_game = {
                 is_neighbor_of = TUR
                 any_allied_country = {
                     is_neighbor_of = TUR
-				}
+				}			
 				TUR = { any_neighbor_country = { is_subject_of = AFG } }
 			}
 		}
@@ -1355,7 +1355,7 @@ AFG_great_game = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete AFG_great_game_turkey_dominion target: [From.GetName]"
 			TUR = {
 				create_country_leader = {
-					name = "Reginald St John Battersby"
+					name = "Реджинальд Сент-Джон Баттерсби"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Reginald_Battersby.png"
 					expire = "1.1.1"
@@ -1392,7 +1392,7 @@ AFG_great_game = {
 				country_exists = HEJ
 			}
 			OR = {
-                is_neighbor_of = SAU
+				is_neighbor_of = SAU
 				is_neighbor_of = JBS
 				is_neighbor_of = YEM
 				is_neighbor_of = OMA
@@ -1416,7 +1416,7 @@ AFG_great_game = {
 					is_neighbor_of = ASY
 					is_neighbor_of = TRU
 					is_neighbor_of = HEJ
-				}
+				}			
 				SAU = { any_neighbor_country = { is_subject_of = AFG } }
 				JBS = { any_neighbor_country = { is_subject_of = AFG } }
 				YEM = { any_neighbor_country = { is_subject_of = AFG } }
@@ -1561,7 +1561,7 @@ AFG_great_game = {
 			release_puppet = HEJ
 			HEJ = {
 				create_country_leader = {
-					name = "Harold Jones"
+					name = "Гарольд Джонс"
 					desc = ""
 					picture = "gfx/leaders/ASY/Portrait_Assyria_Charles_Jones.png"
 					expire = "1.1.1"
@@ -1921,7 +1921,7 @@ AFG_foreign_policy = {
 			release_puppet = PGI
 			PGI = {
 				create_country_leader = {
-					name = "Muhammad Khair ud-din Mirza"
+					name = "Мухаммад Хайр уд-дин Мирза"
 					picture = "gfx/leaders/AFG/Portrait_AFG_Muhammad_Khair.png"
 					expire = "1.1.1"
 					ideology = natpop_islamism_subtype
@@ -2819,7 +2819,7 @@ AFG_foreign_policy = {
 				
 				### Leader
 				create_country_leader = {
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 					desc = "POLITICS_SULTAN_KADYR_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 					expire = "1.1.1"
@@ -2964,7 +2964,7 @@ AFG_foreign_policy = {
 			TUN = {
 				### Leader
 				create_country_leader = {
-					name = "Mulai Ahmed er Raisuni"
+					name = "Мулай Ахмед Аль-Райсуни"
 					desc = ""
 					picture = "gfx/leaders/MOR/Portrait_MOR_Mulai_Ahmed_er_Raisuni.png"
 					expire = "1.1.1"
@@ -3125,7 +3125,7 @@ AFG_fifth_delhi_war = {
 				set_cosmetic_tag = AFG_AMANULLAH
 			}
 			else_if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Sher Khan Nashir" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Шер Хан Нашир" } }
 				set_capital = { state = 439 }
 				set_cosmetic_tag = AFG_DELHI
 			}
@@ -3243,7 +3243,7 @@ AFG_india_conquest = {
 		allowed = { tag = AFG }
 		available = {
 			tag = AFG
-			has_country_leader = { ruling_only = yes name = "Amanullah Khan" }
+			has_country_leader = { ruling_only = yes name = "Аманулла Хан" }
 			owns_state = 439
 			DEH = {
 				exists = no
@@ -3260,7 +3260,7 @@ AFG_india_conquest = {
 			}
 		visible = {
 			tag = AFG
-			has_country_leader = { ruling_only = yes name = "Amanullah Khan" }
+			has_country_leader = { ruling_only = yes name = "Аманулла Хан" }
 			has_completed_focus = AFG_AMN_darul_aman
 		}
 		fire_only_once = yes
@@ -3297,12 +3297,12 @@ AFG_india_conquest = {
 			PGI = {
 				exists = no
 			}
-			has_country_leader = { ruling_only = yes name = "Nasrullah Khan" }
+			has_country_leader = { ruling_only = yes name = "Насрулла Хан" }
 			owns_state = 439
 			}
 		visible = {
 			tag = AFG
-			has_country_leader = { ruling_only = yes name = "Nasrullah Khan" }
+			has_country_leader = { ruling_only = yes name = "Насрулла Хан" }
 			has_completed_focus = AFG_realize_mughal_ambitions
 		}
 		fire_only_once = yes

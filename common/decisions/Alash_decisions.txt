@@ -2857,9 +2857,9 @@ foreign_politics = {
 				OR = {
 					FROM = { dont_start_major_faction_wars = yes }
 					ROOT_is_threatened_cautious = yes
-					FROM = { default_attack_AI_trigger_FROM = yes }
-				}
+				FROM = { default_attack_AI_trigger_FROM = yes }
 			}
+		}
 		}
 
 		cancel_effect = {
@@ -2923,7 +2923,7 @@ political_actions = {
 				limit = {
 					country_exists = URL
 					URL = { 
-						has_war_with = ROOT
+					has_war_with = ROOT
 						has_capitulated = no
 						ALO_dosmukhamedov_in_power = no 
 						is_valid_peace_target = yes
@@ -2938,9 +2938,9 @@ political_actions = {
 				limit = {
 					country_exists = ORE
 					ORE = {						
-						has_war_with = ROOT
+					has_war_with = ROOT
 						has_capitulated = no
-						is_valid_peace_target = yes
+					is_valid_peace_target = yes
 					}
 				}
 				ORE = {
@@ -2952,9 +2952,9 @@ political_actions = {
 				limit = {
 					country_exists = SMR
 					SMR = {
-						has_war_with = ROOT
+					has_war_with = ROOT
 						has_capitulated = no 
-						is_valid_peace_target = yes
+					is_valid_peace_target = yes
 					}
 				}
 				SMR = {
@@ -3109,10 +3109,10 @@ political_actions = {
 			set_global_flag = renamed_alash_to_semey
 			effect_tooltip = {
 				FROM = {
-					set_state_name = "Semey"
+					set_state_name = "Семей"
 					set_province_name = {
 						id = 10584
-						name = "Semey"
+						name = "Семей"
 					}
 				}
 			}
@@ -4079,7 +4079,7 @@ ALO_shadow_of_atamans_decisions = {
 					country_exists = TRK 
 					TRK = {
 						has_country_leader = {
-							name = "Ivan Zaitsev"
+							name = "Иван Зайцев"
 							ruling_only = yes
 						}
 					}

@@ -1,55 +1,107 @@
+#!gfx:interface\BAZADARYCH_texticons.gfx
 guiTypes = {
+    containerWindowType = {
+    	name = "KR_welcome_splash_container"
+    	position = { x = -30 y = -220 }
+    	size = { width = 750 height = 640 }
+    	moveable = no
+    	orientation = CENTER
+    	origo = center
+    	clipping = no
+    
+    	background = { 
+    		name = "KR_logo"
+    		spriteType ="GFX_KR_splash_intro"
+    		position = { x = -8 y = 40 }
+    	}
+    
+    	background = {
+    		name = "KR_logo_bg"
+    		spriteType = "GFX_KR_splash_intro_box"
+    		position = { x = 4 y = 357 }
+    	}
 
-	containerWindowType = {
-		name = "KR_welcome_splash_container"
-		position = { x = 0 y = 0 }
-		size = { width = 750 height = 630 }
-		moveable = yes
-		orientation = CENTER
-		origo = center
-		clipping = no
-		
-		
-
-		background = {
-			name = "KR_logo"
-			spriteType ="GFX_KR_splash_intro"
-			position = { x = -4 y = 0 }
-		}
-
-		background = {
-			name = "KR_logo_bg"
-			spriteType = "GFX_KR_splash_intro_box"
-			position = { x = 4 y = 357 }
-		}
-
-		instantTextboxType = {
-			name = "tab_1_text_header_2"
-			position = { x=224 y=382 }
-			font = "hoi_36header"
-			text = "KR_SPLASH_TITLE"
-			maxWidth = 700
-		}
+    	instantTextboxType = {
+    		name = "tab_1_text_header_2"
+    		position = { x = 217 y = 386 }
+    		font = "Pragmata_26_BAZADARYCH"
+    		text = "KR_SPLASH_TITLE"
+    		maxWidth = 700
+    	}
 
 		instantTextboxType = {
-			name = "tab_1_cont3_text"
-			position = { x=61 y=447 }
-			font = "hoi_20bs"
-			text = "KR_SPLASH_CREDITS"
-			maxWidth = 670
-			scrollbarType = standardtext_slider
-		}
+    		name = "tab_1_cont3_text"
+    		position = { x = 65 y = 516 }
+    		font = "Pragmata_16_white_BAZADARYCH"
+    		text = "KR_SPLASH_CREDITS"
+    		maxWidth = 660
+    		maxHeight = 415 ##
+    		scrollbarType = standardtext_slider
+    	}
 
+		instantTextboxType = {
+    		name = "tab_1_cont4_text"
+    		position = { x = 240 y = 456 }
+    		font = "Pragmata_16_white_BAZADARYCH"
+    		text = "KR_SPLASH_CREDITS2"
+    		maxWidth = 670
+    		maxHeight = 340
+    	}
 		buttonType = {
-			name = "mod_options_button"
-			position = { x = 255 y = 645 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "Continue"
-			buttonFont = "hoi_24header"
-			clicksound = click_default
-			oversound = ui_menu_over
-			shortcut = "RETURN"
-			
-		}
-	}
+    		name = "btn_bybsti"
+    		position = { x = 428 y = 449 }
+    		quadTextureSprite ="GFX_boosty"
+    		clicksound = click_default
+    		oversound = ui_menu_over
+    		shortcut = "RETURN"
+			web_link = "https://boosty.to/ledix_z"
+			pdx_tooltip = "COOP_MAIN_MENU_LINK_BOOSTY"
+    	}
+
+		instantTextboxType = {
+    		name = "tab_1_cont5_text"
+    		position = { x = 92 y = 484 }
+    		font = "hoi_24header"
+    		text = "KR_SPLASH_CREDITS3"
+    		maxWidth = 670
+    		maxHeight = 340
+    	}
+		buttonType = {
+    		name = "btn_tyutchev_v"
+    		position = { x = 222 y = 508 }
+    		quadTextureSprite ="GFX_boosty_tchvv_2"
+    		clicksound = click_default
+    		oversound = ui_menu_over
+    		shortcut = "RETURN"
+			web_link = "https://www.twitch.tv/tyutchev_v"
+    	}
+		buttonType = {
+    		name = "btn_aleksenplay"
+    		position = { x = 64 y = 541 }
+    		quadTextureSprite ="GFX_boosty_aleksenplay_2"
+    		clicksound = click_default
+    		oversound = ui_menu_over
+    		shortcut = "RETURN"
+			web_link = "https://www.youtube.com/@aleksenplay7724"
+    	}
+		buttonType = {
+    		name = "btn_trkv17"
+    		position = { x = 612 y = 893 }
+    		quadTextureSprite ="GFX_boosty_trkv17_2"
+    		clicksound = click_default
+    		oversound = ui_menu_over
+    		shortcut = "RETURN"
+			web_link = "https://www.youtube.com/@trkv17/"
+    	}
+    	buttonType = {
+    		name = "mod_options_button"
+    		position = { x = 294 y = 935 }
+    		quadTextureSprite ="GFX_tiled_progress_bar"
+    		buttonText = "Продолжить"
+    		buttonFont = "hoi_24header"
+    		clicksound = click_default
+    		oversound = ui_menu_over
+    		shortcut = "RETURN"
+    	}
+    }
 }

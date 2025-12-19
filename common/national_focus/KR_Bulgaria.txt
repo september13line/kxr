@@ -2708,20 +2708,20 @@ focus_tree = {
 				add_socdem_to_coalition = yes
 				add_soclib_to_coalition = yes
 				add_soclib_to_coalition = yes
-				add_popularity = {
-					ideology = social_democrat
-					popularity = 0.02
-				}
-				add_popularity = {
-					ideology = social_liberal
-					popularity = 0.02
-				}
-				add_popularity = {
-					ideology = market_liberal
-					popularity = 0.02
-				}
-				add_popularity = {
-					ideology = social_conservative
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = market_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_conservative
 					popularity = 0.04
 				}
 			}
@@ -5934,10 +5934,10 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-			has_country_leader = { ruling_only = yes name = "Kyril I" }
+			has_country_leader = { ruling_only = yes name = "Кирилл I" }
 		}
 		completion_reward = {
-			custom_effect_tooltip = "We shall restore Bulgarian glory under the Tsar!"
+			custom_effect_tooltip = "Мы вернем Болгарии славу Царя!"
 			add_state_claim = 989 #Chalcidice
 			#Serbia
 			add_state_claim = 767
@@ -6120,7 +6120,7 @@ focus_tree = {
 			is_subject = no
 		}
 		completion_reward = {
-			custom_effect_tooltip = "We will not limit ourselves to Bulgaria alone!"
+			custom_effect_tooltip = "Мы не ограничимся одной лишь Болгарией!"
 			#Serbia
 			add_state_claim = 767
 			add_state_claim = 765
@@ -6328,7 +6328,7 @@ focus_tree = {
 			is_subject = no
 		}
 		completion_reward = {
-			custom_effect_tooltip = "We shall preserve our Bulgaria from external aggressors"
+			custom_effect_tooltip = "Мы сохраним нашу Болгарию от внешних агрессоров"
 			add_stability = 0.10
 			add_war_support = -0.15
 			every_owned_state = {
@@ -6813,7 +6813,7 @@ focus_tree = {
 			
 			48 = {
 				set_state_flag = renamed_state_new_phanagoria
-				set_state_name = "New Phanagoria"
+				set_state_name = "Новая Фанагория"
 				add_resource = {
 					type = steel
 					amount = 12
@@ -7566,7 +7566,7 @@ focus_tree = {
 				}
 				
 				create_country_leader = {
-					name = "Ayaz İshaki"
+					name = "Гаяз Исхакый"
 					picture = "gfx/leaders/TTR/Portrait_TTR_Ayaz_Ishaki.png"
 					expire = "1.1.1"
 					ideology = natpop_neo_feudalism_subtype
@@ -7574,7 +7574,7 @@ focus_tree = {
 			}
 			249 = {
 				set_state_flag = renamed_state_bolghar
-				set_state_name = "Bolghar"
+				set_state_name = "Болгар"
 			}
 			puppet = DKB
 			custom_effect_tooltip = BUL_expand_volga_bulgaria
@@ -7697,7 +7697,7 @@ focus_tree = {
 			custom_effect_tooltip = BUL_svetoven_khan
 			hidden_effect = {
 				create_country_leader = {
-					name = "Khan Kubrat II"
+					name = "Хан Кубрат II"
 					picture = "gfx/leaders/BUL/Portrait_BUL_NS_Derzhavin.png"
 					expire = "1.1.1"
 					ideology = natpop_neo_feudalism_subtype

@@ -1,5 +1,5 @@
 ﻿division_template = {# line filler
-	name = "PSA Militia"
+	name = "Ополчение Т.Ш.А"
 	division_names_group = USA_GAR_01
 	
 	regiments = {
@@ -15,7 +15,7 @@
 	}
 }
 division_template = {
-	name = "Mounted PSA Militia"
+	name = "Конное ополчение Т.Ш.А"
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -29,7 +29,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "PSA Garrison"
+	name = "Гарнизон Т.Ш.А"
 	division_names_group = USA_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -43,7 +43,7 @@ division_template = {
 	priority = 0
 }
 division_template = {# Infantry
-	name = "PSA Infantry Division"
+	name = "Пехотная дивизия Т.Ш.А"
 	division_names_group = USA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -61,7 +61,7 @@ division_template = {# Infantry
 	}
 }
 division_template = {# Motorized
-	name = "PSA Motorized Division"
+	name = "Моторизованная дивизия Т.Ш.А"
 	division_names_group = USA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -75,7 +75,7 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "PSA Resistance"
+	name = "Подразделения сопротивления Т.Ш.А"
 	division_names_group = USA_INF_01
 	
 	regiments = {
@@ -94,93 +94,93 @@ division_template = {
 
 units = {# Army
 	division = {
-		name = "1st California National Guard"
+		name = "1-я Калифорнийская национальная гвардия"
 		location = 9671 #San Francisco
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd California National Guard"
+		name = "2-я Калифорнийская национальная гвардия"
 		location = 9814 #Los Angeles
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st California Motorized"
+		name = "1-я Калифорнийская моторизованная дивизия"
 		location = 9814 #Los Angeles
-		division_template = "PSA Motorized Division"
+		division_template = "Моторизованная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd California National Guard"
+		name = "3-я Калифорнийская национальная гвардия"
 		location = 1562 #San Diego
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th California National Guard"
+		name = "4-я Калифорнийская национальная гвардия"
 		location = 9713 #Sacramento
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th California National Guard"
+		name = "5-я Калифорнийская национальная гвардия"
 		location = 9671 #San Francisco
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "California State Guard"
+		name = "Гвардия штата Калифорния"
 		location = 9713 #Sacramento
-		division_template = "PSA Garrison"
+		division_template = "Гарнизон Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Washington National Guard"
+		name = "1-я Вашингтонская национальная гвардия"
 		location = 7315 #Seattle
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Washington National Guard"
+		name = "2-я Вашингтонская национальная гвардия"
 		location = 7386 #Olympia
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Washington State Guard"
+		name = "Гвардия штата Вашингтон"
 		location = 7386 #Olympia
-		division_template = "PSA Garrison"
+		division_template = "Гарнизон Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Oregon National Guard"
+		name = "1-я Орегонская национальная гвардия"
 		location = 3513 #Portland
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Oregon National Guard"
+		name = "2-я Орегонская национальная гвардия"
 		location = 4328 #Salem
-		division_template = "PSA Infantry Division"
+		division_template = "Пехотная дивизия Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Oregon State Guard"
+		name = "Гвардия штата Орегон"
 		location = 3513 #Portland
-		division_template = "PSA Garrison"
+		division_template = "Гарнизон Т.Ш.А"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}

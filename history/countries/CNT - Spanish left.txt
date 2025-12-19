@@ -35,29 +35,29 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_naval_mines = 1
 
-	### Transport ###
-	mtg_transport = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+	
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+
+		### Transport ###
+		mtg_transport = 1
 }
 
 set_research_slots = 3
@@ -84,14 +84,14 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Francesc Sureda i Blanes"
+	name = "Франческ Суреда и Бланес"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Francesc_Sureda_i_Blanes.png"
 	expire = "1.1.1"
 	ideology = paternal_autocrat_subtype
 }
 
 create_country_leader = {
-	name = "Juan III"
+	name = "Жуан III"
 	desc = "POLITICS_JUAN_BOURBON_DESC"
 	picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 	expire = "1.1.1"
@@ -99,49 +99,49 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Niceto Alcalá-Zamora"
+	name = "Нисето Алькала Самора"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Niceto_Alcala_Zamora.png"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 }
 
 create_country_leader = {
-	name = "Josep Tarradellas"
+	name = "Хосеп Тарраделлас"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Josep_Tarradellas.png"
 	expire = "1.1.1"
 	ideology = marlib_national_liberalism_subtype
 }
 
 create_country_leader = {
-	name = "Manuel Azaña Díaz"
+	name = "Мануэль Асанья"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Manuel_Azana_Diaz.png"
 	expire = "1.1.1"
 	ideology = radical_liberalism_subtype
 }
 
 create_country_leader = {
-	name = "Augusto Barcia Trelles"
+	name = "Аугусто Барсиа Треллес"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Augusto_Barcia_Trelles.png"
 	expire = "1.1.1"
 	ideology = socdem_democratic_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Comité Central de la C.N.T.-F.A.I."
+	name = "Центральный комитет Н.К.Т.-Ф.А.И."
 	picture = "gfx/leaders/CNT/Portrait_CNT_FAI_Council.png"
 	expire = "1.1.1"
 	ideology = anarcho_syndicalist_subtype
 }
 
 create_country_leader = {
-	name = "Francisco Largo Caballero"
+	name = "Франсиско Ларго Кабальеро"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Francisco_Largo_Caballero.png"
 	expire = "1.1.1"
 	ideology = moderate_socialist_subtype
 }
 
 create_country_leader = {
-	name = "Ramiro Ledesma"
+	name = "Рамиро Ледесма Рамос"
 	picture = "gfx/leaders/SPR/Portrait_SPR_Ramiro_Ledesma.png"
 	expire = "1.1.1"
 	ideology = natsynd_subtype
@@ -159,7 +159,7 @@ add_ideas = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Fernández Osorio y Tafall"
+	name = "Фернандес Осорио и Тафалл"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Fernandez_Osorio_y_Tafall.png"
 	traits = {
 		politically_connected
@@ -173,7 +173,7 @@ create_field_marshal = {
 	id = 320
 }
 create_field_marshal = {
-	name = "Domènec Batet"
+	name = "Доменек Батет"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Domenec_Batet.png"
 	traits = {
 		defensive_doctrine
@@ -190,7 +190,7 @@ create_field_marshal = {
 
 ### Corps Commanders ###´
 create_corps_commander = {
-	name = "Buenaventura Durruti"
+	name = "Буэнавентура Дуррути"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Durruti_Dumange.png"
 	traits = {
 		guerilla_officer
@@ -206,7 +206,7 @@ create_corps_commander = {
 	id = 321
 }
 create_corps_commander = {
-	name = "Enrique Líster Forján"
+	name = "Энрике Листер"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Enrique_Lister.png"
 	traits = {
 		trickster
@@ -221,7 +221,7 @@ create_corps_commander = {
 	id = 318
 }
 create_corps_commander = {
-	name = "Jose Riquelme y López Bago"
+	name = "Хосе Рикельме-и-Лопес Баго"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Riquelme_y_Lopez_Bago.png"
 	traits = {
 		career_officer
@@ -236,7 +236,7 @@ create_corps_commander = {
 	id = 322
 }
 create_corps_commander = {
-	name = "Emilio Herrera Linares"
+	name = "Эмилио Эррера Линарес"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Herrera_Linares.png"
 	traits = {
 		trait_engineer
@@ -250,7 +250,7 @@ create_corps_commander = {
 	id = 323
 }
 create_corps_commander = {
-	name = "Vicente Rojo Lluch"
+	name = "Висенте Рохо"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Rojo_Lluch.png"
 	traits = {
 		organizer
@@ -265,7 +265,7 @@ create_corps_commander = {
 	id = 324
 }
 create_corps_commander = {
-	name = "José Aranguren Roldán"
+	name = "Хосе Арангурен Ролдан"
 	portrait_path = "gfx/leaders/GLC/Portrait_GLC_Jose_Aranguren.png"
 	traits = {
 		infantry_leader
@@ -278,7 +278,7 @@ create_corps_commander = {
 	id = 5565
 }
 create_corps_commander = {
-	name = "Carlos Masquelet Lacaci"
+	name = "Карлос Маскелет Лакаси"
 	portrait_path = "gfx/leaders/GLC/Portrait_GLC_Carlos_Masquelet_Lacasi.png"
 	traits = {
 		infantry_leader
@@ -292,7 +292,7 @@ create_corps_commander = {
 	id = 5566
 }
 create_corps_commander = {
-	name = "Antonio Ortega Gutiérrez"
+	name = "Антонио Ортега Гутьеррес"
 	portrait_path = "gfx/leaders/CAR/Portrait_CAR_Antonio_Ortega.png"
 	traits = {
 		infantry_leader
@@ -306,7 +306,7 @@ create_corps_commander = {
 	id = 5571
 }
 create_corps_commander = {
-	name = "Juan Modesto"
+	name = "Хуан Модесто"
 	portrait_path = "gfx/leaders/BAS/Portrait_BAS_Juan_Modesto.png"
 	traits = {
 		harsh_leader
@@ -320,7 +320,7 @@ create_corps_commander = {
 	id = 5568
 }
 create_corps_commander = {
-	name = "Candido Saseta"
+	name = "Кандидо Сасета"
 	portrait_path = "gfx/leaders/BAS/Portrait_BAS_candido_saseta.png"
 	traits = {
 		infantry_leader
@@ -334,7 +334,7 @@ create_corps_commander = {
 	id = 5569
 }
 create_corps_commander = {
-	name = "Cipriano Mera Sanz"
+	name = "Сиприано Мера Санс"
 	portrait_path = "gfx/leaders/BAS/Portrait_BAS_Cipriano_Mera_Sanz.png"
 	traits = {
 		militias_officer
@@ -348,7 +348,7 @@ create_corps_commander = {
 	id = 5570
 }
 create_corps_commander = {
-	name = "José Epita Mbomo "
+	name = "Хосе Эпита Мбомо "
 	portrait_path = "gfx/leaders/EQG/Portrait_EQG_Jose_Epita_Mbomo.png"
 	traits = {
 		jungle_rat
@@ -365,7 +365,7 @@ create_corps_commander = {
 ### Admirals ###
 
 create_navy_leader = {
-	name = "Luis González de Ubieta"
+	name = "Луис Гонсалес де Убиета"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Luis_Gonzales_de_Ubieta.png"
 	traits = { }
 	skill = 1
@@ -376,7 +376,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Pedro Prado Mendizábal"
+	name = "Педро Прадо Мендисабаль"
 	portrait_path = "gfx/leaders/CNT/Portrait_CNT_Pedro_Prado_Mendizabal.png"
 	traits = { }
 	skill = 1

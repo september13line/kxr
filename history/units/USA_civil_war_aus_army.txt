@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "AUS Militia"
+	name = "Ополчение А.С.Ш"
 	division_names_group = USA_INF_01
 	
 	regiments = {
@@ -15,7 +15,7 @@
 	}
 }
 division_template = {
-	name = "Mounted AUS Militia"
+	name = "Конное ополчение А.С.Ш"
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -29,7 +29,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "AUS Garrison"
+	name = "Гарнизон А.С.Ш"
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -44,7 +44,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "AUS Infantry Division"
+	name = "Пехотная дивизия А.С.Ш"
 	division_names_group = USA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -62,7 +62,7 @@ division_template = {
 	}
 }
 division_template = {# Motorized
-	name = "AUS Motorized Division"
+	name = "Моторизованная дивизия А.С.Ш"
 	division_names_group = USA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -75,7 +75,7 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "AUS Resistance"
+	name = "Подразделения сопротивления А.С.Ш"
 	division_names_group = USA_INF_01
 	
 	regiments = {
@@ -93,268 +93,268 @@ division_template = {
 
 units = {# Army
 	division = {
-		name = "Louisiana National Guard"
+		name = "Национальная гвардия Луизианы"
 		location = 7552 #New Orleans
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st 'Minuteman' Infantry"
+		name = "1-я пехотная дивизия 'Минитмен'"
 		location = 7552 #New Orleans
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd 'Sons of Jefferson' Infantry"
+		name = "2-я пехотная дивизия 'Сыновья Джефферсона'"
 		location = 7552 #New Orleans
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd 'Houstons Own' Infantry"
+		name = "3-я дивизия Хьюстона"
 		location = 10337 #Houston
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th 'Bowie' Infantry"
+		name = "4-я пехотная дивизия 'Боуи'"
 		location = 10337 #Houston
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "5th 'Coyote Pack' Infantry"
+		name = "5-я пехотная дивизия 'Стая койотов'"
 		location = 7836 #Austin
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th 'Freedom Fighters' Infantry"
+		name = "6-я пехотная дивизия 'Борцы за свободу'"
 		location = 10798 #New Orleans
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "7th Minutemen 'Frontier' Infantry"
+		name = "7-я пехотная дивизия 'Фронтиры'"
 		location = 7836 #Dallas
-		division_template = "AUS Infantry Division"
+		division_template = "Пехотная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Mounted Minutemen"
+		name = "1-й конный отряд 'Минитмены'"
 		location = 7552 #New Orleans
-		division_template = "Mounted AUS Militia"
+		division_template = "Конное ополчение А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Motorized Texan Minutemen"
+		name = "1-й моторизованный техасский отряд 'Минитменов'"
 		location = 3960 #Dallas
-		division_template = "AUS Motorized Division"
+		division_template = "Моторизованная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Motorized 'Great Lake' Division"
+		name = "2-я моторизованная дивизия 'Великое озеро'"
 		location = 1719 #Saint Paul
-		division_template = "AUS Motorized Division"
+		division_template = "Моторизованная дивизия А.С.Ш"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd American People's Militia"
+		name = "2-е Американское народное ополчение"
 		location = 10337 #Houston
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Oklahoma National Guard"
+		name = "Национальная гвардия Оклахома"
 		location = 10798 #Oklahoma 
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Kansas National Guard"
+		name = "Национальная гвардия Канзаса"
 		location = 1352 #Topeka 
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Wyoming National Guard"
+		name = "Национальная гвардия Вайоминга"
 		location = 4723 #Cheyenne 
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "New Mexico National Guard"
+		name = "Национальная гвардия Нью-Мексико"
 		location = 2102 #
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Arkansas National Guard"
+		name = "Национальная гвардия Арканзаса"
 		location = 12489 # Little Rock
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Iowa National Guard"
+		name = "Национальная гвардия Айовы"
 		location = 1770 # Little Rock
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Nebraska National Guard"
+		name = "Национальная гвардия Небраски"
 		location = 3708 # Lincoln
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "South Dakota National Guard"
+		name = "Национальная гвардия Южной Дакоты"
 		location = 12620 # Pierre
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "North Dakota National Guard"
+		name = "Национальная гвардия Северной Дакоты"
 		location = 1836 # Pierre
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Wisconsin National Guard"
+		name = "Национальная гвардия Висконсина"
 		location = 10526 # Wisconsin
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Texan National Guard"
+		name = "Национальная гвардия Техаса"
 		location = 3960 # Dallas
-		division_template = "AUS Garrison"
+		division_template = "Гарнизон А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Minuteman 'America First' Milita"
+		name = "1-я дивизия ополчения 'Америка превыше всего'"
 		location = 1453 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Minuteman 'Arkansas' Milita"
+		name = "2-я дивизия ополчения 'Арканзас'"
 		location = 12489 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd Minuteman 'Houston's Own' Militia"
+		name = "3-я дивизия ополчения 'Хьюстонцы'"
 		location = 10337 #Houston
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4th Minuteman 'Great Plains' Militia"
+		name = "4-я дивизия ополчения 'Великие равнины'"
 		location = 1352 #Topeka 
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.9
 	}
 	division = {
-		name = "5th Minuteman 'Silver Knights' Militia"
+		name = "5-я дивизия ополчения 'Серебряные Рыцари'"
 		location = 3708 #Topeka 
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "6th Minuteman 'Grangers' Militia"
+		name = "6-я дивизия ополчения 'Рейджеры'"
 		location = 1719 #St Paul
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "7th Minuteman 'Cheyenne' Militia"
+		name = "7-я дивизия ополчения 'Шайенны'"
 		location = 4723 #Cheyenne
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "8th Minuteman 'Farmers Alliance' Militia"
+		name = "8-я дивизия ополчения 'Союз фермеров'"
 		location = 1836 #Bismarck
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "9th Minuteman 'Kansas City' Militia"
+		name = "9-я дивизия ополчения 'Канзас-Сити'"
 		location = 10717 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "10th Minuteman 'Little Rock' Militia"
+		name = "10-я дивизия ополчения 'Литл-Рок'"
 		location = 12489 #Little Rock
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "11th Minuteman 'Colorado' Milita"
+		name = "11-я дивизия ополчения 'Колорадо'"
 		location = 12642 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "12th Minuteman 'Greenback' Milita"
+		name = "12-я дивизия ополчения 'Зелёная бумажка'"
 		location = 7880 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "National Progressive Party Milita"
+		name = "Национальное ополчение"
 		location = 10526 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st Silver Legion Milita"
+		name = "1-й Серебряный легион"
 		location = 1770 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd Silver Legion Milita"
+		name = "2-й Серебряный легион"
 		location = 12620 #
-		division_template = "AUS Militia"
+		division_template = "Ополчение А.С.Ш"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}

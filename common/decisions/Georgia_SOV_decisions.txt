@@ -1,0 +1,1450 @@
+
+
+GSV_Great_Amb = {
+	GEO_capital = {
+		icon = {
+			key = SOV_stalinist_state
+		}
+		available = {
+			has_socialist_government = yes
+			195 = { is_owned_and_controlled_by = ROOT }
+			219 = { is_owned_and_controlled_by = ROOT }
+			231 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+		}
+		visible = {
+			has_socialist_government = yes
+			195 = { is_owned_and_controlled_by = ROOT }
+			219 = { is_owned_and_controlled_by = ROOT }
+			231 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+		cost = 25
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_capital"
+			country_event = geo.511
+		}
+	}
+	GEO_Renaming_Moscow = {
+		icon = GFX_decision_SOV_the_centre
+		available = {
+			has_completed_focus = GEO_cult_of_stalin
+			219 = { is_owned_and_controlled_by = ROOT }
+		}
+		visible = {
+			has_completed_focus = GEO_cult_of_stalin
+			219 = { is_owned_and_controlled_by = ROOT }
+		}
+		cost = 400
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_Renaming_Moscow"
+			country_event = geo.702
+		}
+	}
+	GEO_Renaming_Peterburg = {
+		icon = GFX_decision_SOV_secure_the_administration
+		available = {
+			195 = { is_owned_and_controlled_by = ROOT }
+		}
+		visible = {
+			has_socialist_government = yes
+			195 = { is_owned_and_controlled_by = ROOT }
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+		cost = 50
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_Renaming_Peterburg"
+			country_event = geo.509
+		}
+	}
+	GEO_Renaming_Kerensky_Legacy = {
+		icon = GFX_decision_SOV_secure_the_administration
+		
+		available = {
+			195 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+			653 = { is_owned_and_controlled_by = ROOT }
+			213 = { is_owned_and_controlled_by = ROOT }
+			234 = { is_owned_and_controlled_by = ROOT }
+		}
+		visible = {
+			has_socialist_government = yes
+			195 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+			653 = { is_owned_and_controlled_by = ROOT }
+			213 = { is_owned_and_controlled_by = ROOT }
+			234 = { is_owned_and_controlled_by = ROOT }
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+		cost = 50
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_Renaming_Kerensky_Legacy"
+			custom_effect_tooltip = RUS_Renaming_Kerensky_Legacy_tooltip
+			country_event = geo.510
+		}
+	}
+	
+	GEO_name_and_flag = {
+		icon = SOV_socialism_in_one_country
+		available = {
+			195 = { is_owned_and_controlled_by = ROOT }
+			219 = { is_owned_and_controlled_by = ROOT }
+			231 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+		}
+		visible = {
+			has_socialist_government = yes
+			195 = { is_owned_and_controlled_by = ROOT }
+			219 = { is_owned_and_controlled_by = ROOT }
+			231 = { is_owned_and_controlled_by = ROOT }
+			217 = { is_owned_and_controlled_by = ROOT }
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+		cost = 15
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_Renaming_Peterburg"
+			country_event = geo.547
+		}
+	}
+	GEO_superevent_trigger = {
+		icon = {
+			key = SOV_stalinist_state
+		}
+		available = {
+			NOT = {
+				country_exists = ALO
+				country_exists = RVA
+				country_exists = WRA
+				country_exists = SIB
+				country_exists = BRY
+				country_exists = YAK
+				country_exists = RRF
+				country_exists = DKB
+				country_exists = KLY
+				country_exists = KUB
+				country_exists = MTR
+				country_exists = CRM
+				country_exists = UKR
+				country_exists = WHR
+			}
+			
+			if = {
+				limit = {
+					NOT = { tag = RUS }
+				}
+				NOT = { country_exists = RUS }
+			}
+			if = {
+				limit = {
+					NOT = { tag = TRM }
+				}
+				NOT = { country_exists = TRM }
+			}
+			
+		}
+		visible = {
+			owns_state = 1208
+			owns_state = 408
+			owns_state = 195
+			owns_state = 219
+			owns_state = 234
+			owns_state = 1221
+			owns_state = 202
+			owns_state = 206
+			has_socialist_government = yes
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+		cost = 0
+		fire_only_once = yes
+		priority = 120
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_superevent_trigger"
+			custom_effect_tooltip = GEO_superevent_trigger_tt
+			custom_effect_tooltip = GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin
+			hidden_effect = { country_event = super.200 }
+			custom_effect_tooltip = GEO_superevent_trigger_colour_ends
+		}
+	}
+}
+GSV_red_army_rg = {
+	GSV_red_army_org_1 = {
+		icon = {
+			key = GFX_decision_CHL_carabineros
+		}
+		cost = 150
+		days_remove = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1000
+		}
+		custom_cost_trigger = {
+			army_experience > 35
+			command_power > 60
+			has_political_power > 150
+		}
+		custom_cost_text = CP_60_PP_150_XP_35
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_1"
+			set_country_flag = gsv_ord_army_1
+			add_ideas = GSV_new_red_army_1
+			army_experience = -35
+			add_command_power = -60
+		}
+	}
+	GSV_red_army_org_2 = {
+		icon = {
+			key = GFX_decision_generic_brainwash
+		}
+		cost = 150
+		days_remove = 30
+		fire_only_once = yes
+		available = {
+			has_country_flag = gsv_ord_army_1
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		custom_cost_trigger = {
+			army_experience > 35
+			command_power > 60
+			has_political_power > 150
+		}
+		custom_cost_text = CP_60_PP_150_XP_35
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_2"
+			set_country_flag = gsv_ord_army_2
+			swap_ideas = {
+				remove_idea = GSV_new_red_army_1
+				add_idea = GSV_new_red_army_1_1
+			}
+			army_experience = -35
+			add_command_power = -60
+		}
+	}
+	GSV_red_army_org_3 = {
+		icon = {
+			key = GFX_decision_generic_army_support
+		}
+		cost = 150
+		days_remove = 30
+		fire_only_once = yes
+		available = {
+			has_country_flag = gsv_ord_army_2
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		custom_cost_trigger = {
+			army_experience > 35
+			command_power > 60
+			has_political_power > 150
+		}
+		custom_cost_text = CP_60_PP_150_XP_35
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_3"
+			set_country_flag = gsv_ord_army_3
+			swap_ideas = {
+				remove_idea = GSV_new_red_army_1_1
+				add_idea = GSV_new_red_army_1_2
+			}
+			army_experience = -35
+			add_command_power = -60
+		}
+	}
+	GSV_red_army_org_4 = {
+		icon = {
+			key = GFX_decision_eng_trade_unions_support
+		}
+		cost = 150
+		days_remove = 30
+		fire_only_once = yes
+		available = {
+			has_country_flag = gsv_ord_army_3
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		custom_cost_trigger = {
+			army_experience > 35
+			command_power > 60
+			has_political_power > 150
+		}
+		custom_cost_text = CP_60_PP_150_XP_35
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_4"
+			custom_effect_tooltip = GSV_new_generals_tlp
+			set_country_flag = gsv_ord_army_4
+			army_experience = -35
+			add_command_power = -60
+			hidden_effect = {
+				create_field_marshal = {
+					name = "Александр Егоров "
+					portrait_path = "gfx/leaders/RUS/Portrait_SOV_Aleksandr_Yegorov.png"
+					traits = { artillery_specialist trait_engineer infantry_leader infantry_expert }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				create_field_marshal = {
+					name = "Александр Василевский"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Aleksandr_Vasilevsky.png"
+					traits = {
+						panzer_leader
+						organizer
+						thorough_planner
+						brilliant_strategist
+					}
+					skill = 5
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 1
+					logistics_skill = 4
+				}
+				create_corps_commander = {
+					name = "Георгий Жуков"
+					portrait_path = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov_marshall.png"
+					traits = {
+						brilliant_strategist 
+						infantry_officer
+						artillery_officer
+						winter_specialist
+					}
+					skill = 4
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 5
+					logistics_skill = 4
+				}
+				create_corps_commander = {
+					name = "Михаил Фрунзе"
+					portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Frunze.png"
+					traits = { inspirational_leader offensive_doctrine war_hero politically_connected }
+					skill = 4
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Михаил Тухачевский"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Mikhail_Tukhachevsky.png"
+					traits = { 
+						offensive_doctrine
+						brilliant_strategist 
+						infantry_officer 
+						trait_reckless
+					}
+					skill = 4
+					attack_skill = 3
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "Леонид Говоров"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Leonid_Govorov.png"
+					traits = {
+						artillery_officer
+						defensive_doctrine
+						harsh_leader
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				create_corps_commander = {
+					name = "Василий Кузнецов"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Vasily_Kuznetsov.png"
+					traits = {
+						infantry_officer
+					}
+					skill = 2
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "Владимир Антонов-Овсеенко"
+					portrait_path = "gfx/leaders/SOV/Vladimir_Antonov-Ovseyenko.png"
+					traits = { media_personality infantry_leader infantry_expert harsh_leader hill_fighter urban_assault_specialist }
+					skill = 3
+					attack_skill = 4
+					defense_skill = 1
+					planning_skill = 3
+					logistics_skill = 3
+				}
+				create_corps_commander = {
+					name = "Николай Ватутин"
+					desc = "POLITICS_NIKOLAY_VATUTIN_DESC"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Nikolai_Vatutin.png"
+					traits = {
+						infantry_officer
+						trait_reckless
+						winter_specialist
+					}
+					skill = 3
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				create_field_marshal = {
+					name = "Семён Тимошенко"
+					portrait_path = "gfx/leaders/GEO/Portrait_GSV_Semyon_Timoshenko.png"
+					traits = { career_officer panzer_leader politically_connected }
+					skill = 3
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 3
+				}
+			}
+		}
+	}
+	GSV_red_army_org_5 = {
+		icon = {
+			key = GFX_decision_generic_intelligence_operation
+		}
+		cost = 150
+		days_remove = 10
+		fire_only_once = yes
+		available = {
+			has_country_flag = gsv_ord_army_4
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		custom_cost_trigger = {
+			army_experience > 35
+			command_power > 60
+			has_political_power > 150
+		}
+		custom_cost_text = CP_60_PP_150_XP_35
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_5"
+			army_experience = -35
+			add_command_power = -60
+			hidden_effect = {
+				set_country_flag = GSV_org_army_yes_tlp
+			}
+		}
+	}
+	GSV_red_army_org_5_5 = {
+		icon = {
+			key = GFX_decision_generic_operation
+		}
+		cost = 100
+		fire_only_once = yes
+		available = {
+			has_country_flag = gsv_ord_army_19
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_5_5"
+			hidden_effect = {
+				set_country_flag = GSV_org_army_yes_tlp
+				set_country_flag = GSV_org_army_tlp
+			}
+		}
+	}
+	#
+	GSV_red_army_org_6 = {
+		icon = {
+			key = GFX_decision_generic_tank
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_6"
+			division_template = {
+				name = "Танковая дивизия РККА"
+				division_names_group = GSV_TNK_01
+				regiments = {
+					medium_armor = { x = 0 y = 0 }
+					medium_armor = { x = 0 y = 1 }
+					medium_armor = { x = 0 y = 2 }
+					heavy_armor = { x = 0 y = 3 }
+					
+					medium_armor = { x = 1 y = 0 }
+					medium_armor = { x = 1 y = 1 }
+					medium_armor = { x = 1 y = 2 }
+					heavy_armor = { x = 1 y = 3 }
+					
+					
+					motorized = { x = 2 y = 0 }
+					motorized = { x = 2 y = 1 }
+					motorized = { x = 2 y = 2 }
+					mot_artillery_brigade = { x = 2 y = 3 }
+					
+					motorized = { x = 3 y = 0 }
+					motorized = { x = 3 y = 1 }
+					motorized = { x = 3 y = 2 }
+					mot_artillery_brigade = { x = 3 y = 3 }
+					
+					motorized = { x = 4 y = 0 }
+					motorized = { x = 4 y = 1 }
+					mot_anti_air_brigade = { x = 4 y = 2 }
+					mot_anti_tank_brigade = { x = 4 y = 3 }
+				}
+				support = {
+					mot_recon = { x = 0 y = 0 }
+					signal_company = { x = 0 y = 1 }
+					logistics_company = { x = 0 y = 2 }
+					maintenance_company = { x = 0 y = 3 }
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 209 }
+				create_unit = {
+					division = "division_template = \"Танковая дивизия РККА\" start_experience_factor = 0.4"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_7 = {
+		icon = {
+			key = GFX_decision_generic_tank
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_7"
+			random_owned_controlled_state = {
+				prioritize = { 209 }
+				create_unit = {
+					division = "division_template = \"Танковая дивизия РККА\" start_experience_factor = 0.4"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_8 = {
+		icon = {
+			key = GFX_decision_generic_tank
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_8"
+			random_owned_controlled_state = {
+				prioritize = { 217 }
+				create_unit = {
+					division = "division_template = \"Танковая дивизия РККА\" start_experience_factor = 0.4"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_9 = {
+		icon = {
+			key = GFX_decision_generic_tank
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_9"
+			random_owned_controlled_state = {
+				prioritize = { 217 }
+				create_unit = {
+					division = "division_template = \"Танковая дивизия РККА\" start_experience_factor = 0.4"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_10 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_10"
+			division_template = {
+				name = "Стрелковая дивизия РККА"
+				division_names_group = GSV_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					artillery_brigade = { x = 2 y = 2 }
+					artillery_brigade = { x = 2 y = 3 }
+				}
+				support = {
+					mot_recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					signal_company = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					field_hospital = { x = 0 y = 4 }
+				}
+			}
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_11 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_11"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_12 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_12"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_13 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_13"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_14 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_14"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+
+	GSV_red_army_org_15 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_15"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_16 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_16"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_17 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_17"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_18 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_18"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	GSV_red_army_org_19 = {
+		icon = {
+			key = GFX_decision_generic_prepare_civil_war
+		}
+		cost = 25
+		days_remove = 20
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = GSV_org_army_yes_tlp
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GSV_red_army_org_19"
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Стрелковая дивизия РККА\" start_experience_factor = 0.2"
+					owner = ROOT
+				}
+			}
+			set_country_flag = gsv_ord_army_19
+		}
+	}
+}
+GEO_gulag_decisions = {
+	GEO_Develop_gulag_steel_In_State = {
+    	icon = generic_merge_plant_materiel
+    
+    	allowed = { always = no } #activated by effect
+    
+    	available = {
+    		FROM = { is_owned_and_controlled_by = ROOT }
+    		num_of_civilian_factories_available_for_projects > 2
+    	}
+    
+    	cost = 25
+    	days_remove = 70
+    	fire_only_once = yes
+    	
+    	ai_will_do = {
+    		factor = 50
+    	}
+    	state_target = yes
+    
+    	modifier = {
+    		civilian_factory_use = 1
+    		monthly_population = -0.05
+    	}
+    
+    	ai_will_do = {
+    		factor = 50
+    	}
+    
+    	remove_effect = {
+    		log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Civilian_Industry_In_State"
+    		FROM = {
+    			add_extra_state_shared_building_slots = 1
+    			add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+    			}
+    			add_resource = {
+    				type = steel
+    				amount = 40
+    			}
+    		}
+    	}
+    }
+}
+GEO_Develop_gulag_oil_In_State = {
+	icon = generic_merge_plant_materiel
+
+	allowed = { always = no } #activated by effect
+
+	available = {
+		FROM = { is_owned_and_controlled_by = ROOT }
+		num_of_civilian_factories_available_for_projects > 2
+	}
+
+	cost = 25
+	days_remove = 70
+	fire_only_once = yes
+	
+	ai_will_do = {
+		factor = 50
+	}
+	state_target = yes
+
+	modifier = {
+		civilian_factory_use = 1
+		monthly_population = -0.15
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	remove_effect = {
+		log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Civilian_Industry_In_State"
+		FROM = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_resource = {
+				type = oil
+				amount = 40
+			}
+		}
+	}
+}
+GEO_Develop_gulag_chromium_In_State = {
+	icon = generic_merge_plant_materiel
+
+	allowed = { always = no } #activated by effect
+
+	available = {
+		FROM = { is_owned_and_controlled_by = ROOT }
+		num_of_civilian_factories_available_for_projects > 2
+	}
+
+	cost = 25
+	days_remove = 70
+	fire_only_once = yes
+	
+	ai_will_do = {
+		factor = 50
+	}
+	state_target = yes
+
+	modifier = {
+		civilian_factory_use = 1
+		monthly_population = -0.15
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	remove_effect = {
+		log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Civilian_Industry_In_State"
+		FROM = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_resource = {
+				type = chromium
+				amount = 40
+			}
+		}
+	}
+}
+GEO_Develop_gulag_aluminium_In_State = {
+	icon = generic_construction
+
+	allowed = { always = no } #activated by effect
+
+	available = {
+		FROM = { is_owned_and_controlled_by = ROOT }
+		num_of_civilian_factories_available_for_projects > 2
+	}
+
+	cost = 25
+	days_remove = 70
+	fire_only_once = yes
+	
+	ai_will_do = {
+		factor = 50
+	}
+	state_target = yes
+
+	modifier = {
+		civilian_factory_use = 1
+		monthly_population = -0.15
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+
+	remove_effect = {
+		log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Civilian_Industry_In_State"
+		FROM = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_resource = {
+				type = aluminium
+				amount = 40
+			}
+		}
+	}
+}
+GSV_economic_decisions = {
+	GSV_Develop_Civilian_Industry_In_State = {
+		name = GSV_Develop_Industry_In_State
+		icon = generic_construction
+
+		allowed = { always = no } #activated by effect
+
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		cost = 25
+		days_remove = 70
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 50
+		}
+		state_target = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Civilian_Industry_In_State"
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				increase_state_category_by_one_level = yes
+			}
+		}
+	}
+	GSV_Mechanize_Agriculture_In_State = {
+		name = GSV_Mechanize_Agriculture_In_State
+		icon = generic_construction
+
+		allowed = { always = no } #activated by effect
+
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		cost = 30
+		days_remove = 60
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 50
+		}
+		state_target = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Mechanize_Agriculture_In_State"
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				increase_state_category_by_one_level = yes
+			}
+		}
+	}
+	GSV_Develop_Military_Industry_In_State = {
+		name = GSV_Develop_Military_Industry_In_State
+		icon = generic_construction
+
+		allowed = { always = no } #activated by effect
+
+		available = {
+			FROM = { is_owned_and_controlled_by = ROOT }
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		cost = 25
+		days_remove = 90
+		fire_only_once = yes
+		state_target = yes
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Develop_Military_Industry_In_State"
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	GSV_Expand_Transsiberian_railways_EKB_OMSK = {
+		icon = generic_construction
+		visible = {
+			has_completed_focus = GEO_a_new_agriculture
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 60
+		ai_will_do = {
+			base = 30
+			modifier = {
+				factor = 3
+				any_enemy_country = {
+					is_in_asia = yes
+				}
+			}
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Expand_Transsiberian_railways"
+			build_railway = {
+			level = 3
+			fallback = yes
+			start_state = 653
+			target_state = 571
+			}
+		}
+	}
+	GSV_Expand_Transsiberian_railways_OMSK_KRASNOYARSK = {
+		icon = generic_construction
+		visible = {
+			has_completed_focus = GEO_a_new_agriculture
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 60
+		ai_will_do = {
+			base = 30
+			modifier = {
+				factor = 3
+				any_enemy_country = {
+					is_in_asia = yes
+				}
+			}
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Expand_Transsiberian_railways"
+			build_railway = {
+			level = 3
+			fallback = yes
+			start_state = 571
+			target_state = 568
+			}
+		}
+	}
+	GSV_Expand_Transsiberian_railways_KRASNOYARSK_CHITA = {
+		icon = generic_construction
+		visible = {
+			has_completed_focus = GEO_a_new_agriculture
+		}
+		available = {
+			568 = { is_owned_and_controlled_by = ROOT }
+			564 = { is_owned_by_ROOT_or_subject = yes }
+			563 = { is_owned_by_ROOT_or_subject = yes }
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 60
+		ai_will_do = {
+			base = 30
+			modifier = {
+				factor = 3
+				any_enemy_country = {
+					is_in_asia = yes
+				}
+			}
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Expand_Transsiberian_railways"
+			build_railway = {
+			level = 2
+			fallback = yes
+			start_state = 568
+			target_state = 563
+			}
+			564 = {
+				add_building_construction = {
+					type = supply_node
+					level = 2
+					province = 7816
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	GSV_Expand_Transsiberian_railways_CHITA_VLADI = {
+		icon = generic_construction
+		visible = {
+			has_completed_focus = GEO_a_new_agriculture
+		}
+		available = {
+			561 = { is_owned_and_controlled_by = ROOT } # Amur
+			563 = { is_owned_and_controlled_by = ROOT } # Chita
+			564 = { is_owned_and_controlled_by = ROOT } # Verkhneudinsk
+			566 = { is_owned_and_controlled_by = ROOT } # Irkutsk
+			567 = { is_owned_and_controlled_by = ROOT } # Bratsk
+			568 = { is_owned_and_controlled_by = ROOT } # Krasnoyarsk
+			569 = { is_owned_and_controlled_by = ROOT } # Shcheglovsk
+			657 = { is_owned_and_controlled_by = ROOT } # Blagoveshchensk
+			409 = { is_owned_and_controlled_by = ROOT } # Blagoveshchensk
+			408 = { is_owned_and_controlled_by = ROOT } # Blagoveshchensk			
+			1246 = { is_owned_and_controlled_by = ROOT } # Blagoveshchensk			
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 60
+		ai_will_do = {
+			base = 30
+			modifier = {
+				factor = 3
+				any_enemy_country = {
+					is_in_asia = yes
+				}
+			}
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GSV_Expand_Transsiberian_railways"
+			build_railway = {
+			level = 2
+			fallback = yes
+			start_state = 563
+			target_state = 1246
+			}
+			409 = {
+				add_building_construction = {
+					type = supply_node
+					level = 2
+					province = 12189
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+GEO_foreign_policy_decisions = {
+	GEO_join_phalanstere = {
+		name = FRA_join_phalanstere
+		icon = generic_research
+
+		allowed = { }
+
+		visible = {
+			FROM = {
+				exists = yes
+				is_in_tech_sharing_group = phalanstere_research
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_join_phalanstere target: [From.GetName]"
+			add_to_tech_sharing_group = phalanstere_research
+		}
+	}
+	GSV_join_internationale = {
+		icon = generic_agreement
+		allowed = { } # Activated by focus
+
+		available = {
+			at_peace_or_same_enemies_as_FROM = yes
+			if = {
+				limit = {
+					has_government = totalist
+				}
+				RUS = { 
+					has_government = totalist
+				}
+			}
+		}
+
+		visible = {
+			is_subject = no
+			is_in_faction = no
+			if = {
+				limit = {
+					FROM = { tag = RUS }
+				}
+				soviets_exist = yes
+				russian_civil_war = no
+				FROM = { 
+					NOT = { is_in_faction_with = INT }
+					NOT = { has_war_with = ROOT }
+				}
+			}
+			else = {
+				FROM = {
+					is_faction_leader = yes
+					NOT = { has_war_with = ROOT }
+				}
+			}
+		}
+
+		fire_only_once = yes
+		cost = 0
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GEO_join_internationale target: [From.GetName]"
+			set_country_flag = { flag = GEO_joining_faction days = 15 value = 1 }
+			FROM = { country_event = kx_geo.170  }
+		}
+	}
+}

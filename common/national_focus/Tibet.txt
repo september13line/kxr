@@ -818,7 +818,7 @@ focus_tree = {
 			QIE = {
 				is_subject = no
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 			}
@@ -976,9 +976,9 @@ focus_tree = {
 				has_government = radical_socialist
 			}
 			AND = {
-				country_exists = RUS
-				RUS = { has_socialist_government = yes }
-			}
+					country_exists = RUS
+					RUS = { has_socialist_government = yes }
+				}
 		}
 		prerequisite = {
 			focus = TIB_russian_sector focus = TIB_kmt_collaboration
@@ -2183,14 +2183,14 @@ focus_tree = {
 		}
 		if = {
 			limit = {
-				has_country_leader = { ruling_only = yes name = "The 14th Ta-la'i Bla-ma" }
+				has_country_leader = { ruling_only = yes name = "14-й Далай-лама" }
 			}
 		country_event = tib.147
 		}
 		if = {
 			limit = {
 				NOT = {
-				has_country_leader = { ruling_only = yes name = "The 14th Ta-la'i Bla-ma" }
+				has_country_leader = { ruling_only = yes name = "14-й Далай-лама" }
 				}
 			}
 		country_event = tib.144

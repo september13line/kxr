@@ -1,0 +1,9 @@
+should_have_gsv_medals_trigger = {
+	original_tag = GSV
+}
+
+should_have_any_unique_medals_trigger = {
+	OR = {
+		should_have_gsv_medals_trigger = yes
+	}
+}

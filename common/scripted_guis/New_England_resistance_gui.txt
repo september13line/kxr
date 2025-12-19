@@ -39,10 +39,10 @@ scripted_gui = {
 				ROOT = {
 					if = {
 						limit = {
-							NOT = { has_template = "Resistance" }
+							NOT = { has_template = "Подразделение сопротивления" }
 						}
 						division_template = {
-							name = "Resistance"
+							name = "Подразделение сопротивления"
 							division_names_group = USA_INF_01
 							regiments = {
 								infantry = { x = 0 y = 0 }
@@ -96,7 +96,6 @@ scripted_gui = {
 						has_completed_focus = NEE_godsavetheking
 						has_completed_focus = NEE_socialist_victory
 						has_completed_focus = NEE_radical_victory
-						has_completed_focus = NEE_caring_republicanism
 					}
 					OR = {
 						has_equipment = {

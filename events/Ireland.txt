@@ -26,7 +26,7 @@ country_event = {
 		}
 		add_political_power = -50
 		add_manpower = -36000
-		custom_effect_tooltip = "A full fighting company of eight divisions will be mobilized throughout the nation."
+		custom_effect_tooltip = "На всей территории страны будет отмобилизована полная боевая рота восьми дивизий."
 		hidden_effect = {
 			IRE = {
 				load_oob = IRE_MOBILIZE_FULL
@@ -41,7 +41,7 @@ country_event = {
 		}
 		add_political_power = -25
 		add_manpower = -18000
-		custom_effect_tooltip = "A half-strength fighting company of four divisions will be mobilized throughout the nation."
+		custom_effect_tooltip = "На всей территории страны будет отмобилизована полусотня боевых рот четырех дивизий."
 		hidden_effect = {
 			IRE = {
 				load_oob = IRE_MOBILIZE_HALF
@@ -55,7 +55,7 @@ country_event = {
 			factor = 10
 		}
 		add_manpower = -9000
-		custom_effect_tooltip = "A reserve infantry company of two divisions will be mobilized in Dublin and Belfast."
+		custom_effect_tooltip = "В Дублине и Белфасте будут отмобилизованы резервные пехотные роты двух дивизий."
 		hidden_effect = {
 			IRE = {
 				load_oob = IRE_MOBILIZE_WEAK
@@ -1345,7 +1345,7 @@ country_event = { #Unionist Uprising
 					partial_economic_mobilisation
 				}
 				division_template = {
-					name = "Ulster Volunteers"
+					name = "Ольстерские добровольческие силы"
 					division_names_group = ULS_MIL_01
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -1375,7 +1375,7 @@ country_event = { #Unionist Uprising
 					to_state_array = owned_controlled_states
 				}
 				create_unit = {
-					division = "division_template = \"Ulster Volunteers\" start_experience_factor = 0.1"
+					division = "division_template = \"Ольстерские добровольческие силы\" start_experience_factor = 0.1"
 					owner = ULS
 					count = 5
 				}
@@ -6794,19 +6794,19 @@ country_event = {
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: event ire.14"
 		hidden_effect = {
-			country_event = {
-				id = ire.372
-				days = 80
-				random_days = 20
-			}
-			country_event = {
-				id = ire.373
-				days = 100
-				random_days = 20
-			}
+		country_event = {
+			id = ire.372
+			days = 80
+			random_days = 20
+		}
+		country_event = {
+			id = ire.373
+			days = 100
+			random_days = 20
 		}
 	}
-	title = ire.14.t
+}
+title = ire.14.t
 	desc = ire.14.d
 	picture = GFX_report_event_IRE_collins_speech1
 	
@@ -6943,7 +6943,7 @@ country_event = {
 					has_game_rule = {
 						rule = IRE_future
 						option = IRE_FUTURE_SYNDIE
-					}
+										}
 					has_game_rule = {
 						rule = IRE_future
 						option = IRE_FUTURE_SYNDIE_TOTALIST
@@ -7428,7 +7428,7 @@ country_event = {
 		clr_country_flag = IRE_elections_undecided
 		add_political_power = -30
 		create_country_leader = {
-			name = "Michael Collins"
+			name = "Майкл Коллинз"
 			desc = "POLITICS_MICHAEL_COLLINS_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.png"
 			expire = "1.1.1"
@@ -7457,7 +7457,7 @@ country_event = {
 				name = IRE_paternal_autocrat_party2
 			}
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
@@ -7507,7 +7507,7 @@ country_event = {
 		}
 		clr_country_flag = IRE_elections_undecided
 		create_country_leader = {
-			name = "Michael Collins"
+			name = "Майкл Коллинз"
 			desc = "POLITICS_MICHAEL_COLLINS_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.png"
 			expire = "1.1.1"
@@ -7610,7 +7610,7 @@ country_event = {
 				IRE_Noel_Browne_sec_syn
 			}
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
@@ -7694,7 +7694,7 @@ country_event = {
 			separate_peace_all_wars = yes
 			remove_all_ministers = yes
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
@@ -7749,7 +7749,7 @@ country_event = {
 				has_government = paternal_autocrat
 			}
 			create_country_leader = {
-				name = "Eoin O'Duffy"
+				name = "Оуэн О’Даффи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -7779,7 +7779,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
@@ -7945,7 +7945,7 @@ country_event = { #Fate of the Government
 			custom_effect_tooltip = authdem_authdem_junta_subtype_swap_tt
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Michael Collins" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Майкл Коллинз" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins_General.png"
 			}
@@ -7972,7 +7972,7 @@ country_event = { #Collins steps aside
 	option = { # Mulcahy leads FG
 		name = ire.252.a
 		create_country_leader = {
-			name = "Richard Mulcahy"
+			name = "Ричард Мулкахи"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
@@ -8087,7 +8087,7 @@ country_event = { #Re-Unite Sinn Fein?
 				elections_allowed = yes
 			}
 			create_country_leader = {
-				name = "Michael Collins"
+				name = "Майкл Коллинз"
 				desc = "POLITICS_MICHAEL_COLLINS_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.png"
 				expire = "1.1.1"
@@ -8157,7 +8157,7 @@ country_event = { #Absorb the NCP?
 				elections_allowed = yes
 			}
 			create_country_leader = {
-				name = "Michael Collins"
+				name = "Майкл Коллинз"
 				desc = "POLITICS_MICHAEL_COLLINS_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.png"
 				expire = "1.1.1"
@@ -8518,7 +8518,7 @@ country_event = {
 			popularity = 0.05
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Eoin O'Duffy" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Оуэн О’Даффи" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy_Civ.png"
 			}
@@ -8970,7 +8970,7 @@ country_event = {
 			popularity = 0.05
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Eoin O'Duffy" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Оуэн О’Даффи" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy_Civ.png"
 			}
@@ -9079,7 +9079,7 @@ country_event = {
 		log = "[GetDateText]: [Root.GetName]: event ire.21" 
 		hidden_effect = {
 			create_country_leader = {
-				name = "Seán Lemass"
+				name = "Шон Лемасс"
 				desc = "POLITICS_SEAN_LEMASS_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_Lemass.png"
 				expire = "1.1.1"
@@ -9410,7 +9410,7 @@ country_event = {
 			popularity = 0.05
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Eoin O'Duffy" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Оуэн О’Даффи" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy_Civ.png"
 			}
@@ -9668,17 +9668,17 @@ country_event = {
 			}
 			else = {
 				if = {
-					limit = { NOT = { has_country_flag = IRE_honorary_hog } }
-					add_ideas = IRE_William_T_Cosgrave_hog_mli
-					remove_all_ministers = yes
-				}
-				else = {
-					remove_all_ministers_but_hog = yes
-				}
-				add_ideas = {
-					IRE_Richard_Mulcahy_for_mli
-					IRE_Douglas_Hyde_eco_mli
-					IRE_John_A_Costello_sec_mli
+				limit = { NOT = { has_country_flag = IRE_honorary_hog } }
+				add_ideas = IRE_William_T_Cosgrave_hog_mli
+				remove_all_ministers = yes
+			}
+			else = {
+				remove_all_ministers_but_hog = yes
+			}
+			add_ideas = {
+				IRE_Richard_Mulcahy_for_mli
+				IRE_Douglas_Hyde_eco_mli
+				IRE_John_A_Costello_sec_mli
 				}
 			}
 		}
@@ -9816,7 +9816,7 @@ country_event = {
 			popularity = 0.05
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Eoin O'Duffy" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Оуэн О’Даффи" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy_Civ.png"
 			}
@@ -10869,10 +10869,10 @@ country_event = {
 	option = {
 		name = ire.208.a
 		add_manpower = 10000
-		custom_effect_tooltip = "Ireland sends two divisions to support us."
+		custom_effect_tooltip = "Ирландия направляет две дивизии для поддержки нас."
 		hidden_effect = {
 			division_template = {
-				name = "Irish Volunteers"
+				name = "Ирландские добровольцы"
 				division_names_group = USA_GAR_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -10889,11 +10889,11 @@ country_event = {
 			random_owned_controlled_state = {
 				prioritize = { 361 358 360 }
 				create_unit = {
-					division = "name = \"1st Dublin Volunteers\" division_template = \"Irish Volunteers\" start_experience_factor = 0.1"
+					division = "name = \"1-е Дублинские добровольцы\" division_template = \"Ирландские добровольцы\" start_experience_factor = 0.1"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "name = \"1st Galway Volunteers\" division_template = \"Irish Volunteers\" start_experience_factor = 0.1"
+					division = "name = \"1-е Галуэйские добровольцы\" division_template = \"Ирландские добровольцы\" start_experience_factor = 0.1"
 					owner = ROOT
 				}
 			}
@@ -11631,7 +11631,7 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { has_idea = IRE_SECULAR } }
-			add_ideas = IRE_SECULAR
+		add_ideas = IRE_SECULAR
 		}
 		add_political_power = 50
 		increase_unionist_tensions = yes
@@ -11674,7 +11674,7 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { has_idea = IRE_SECULAR } }
-			add_ideas = IRE_SECULAR
+		add_ideas = IRE_SECULAR
 		}
 		add_popularity = {
 			ideology = syndicalist
@@ -12224,7 +12224,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Jim Larkin"
+			name = "Джеймс Ларкин"
 			desc = "POLITICS_JIM_LARKIN_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Jim_Larkin.png"
 			expire = "1.1.1"
@@ -12308,7 +12308,7 @@ country_event = {
 	option = {
 		name = ire.227.a
 		create_country_leader = {
-			name = "Jim Larkin"
+			name = "Джеймс Ларкин"
 			desc = "POLITICS_JIM_LARKIN_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Jim_Larkin.png"
 			expire = "1.1.1"
@@ -12344,7 +12344,7 @@ country_event = {
 	option = {
 		name = ire.2271.a
 		create_country_leader = {
-			name = "Revolutionary Dáil"
+			name = "Революционный Дайл"
 			desc = "POLITICS_DAIL_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Revolutionary_Dail.png"
 			expire = "1.1.1"
@@ -12358,7 +12358,7 @@ country_event = {
 				ideology = social_democrat
 			}
 			create_country_leader = {
-				name = "William X. O'Brien"
+				name = "Уильям О’Брайен"
 				desc = "POLITICS_WILLIAM_X_OBRIEN_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_X_O'Brien.png"
 				expire = "1.1.1"
@@ -12681,7 +12681,7 @@ country_event = { # Effects of Black Monday eventually end
 	}
 }
 
-### Hugo O'Neill death ###
+### Хьюго О'Нил death ###
 
 country_event = { #Aodh II dies
 	id = ire.241
@@ -12712,14 +12712,14 @@ country_event = { #Aodh II dies
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Jorge Maria O'Neill"
+						name = "Хорхе Мария О'Нил"
 						ruling_only = yes
 					}
 					has_completed_focus = IRE_Truly_Irish_Monarchy
 				}
 				add_country_leader_trait = IRE_Irish_King
 				set_country_leader_name = {
-					name = "Seoirse I"
+					name = "Сеоирс I"
 				}
 				custom_effect_tooltip = IRE_ONeil_to_Seoirse
 				set_country_leader_portrait = {
@@ -12914,7 +12914,7 @@ country_event = { #Valera Gone
 		set_global_flag = IRE_VALERA_GONE
 		hidden_effect = {
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
@@ -12946,7 +12946,7 @@ country_event = { #Election Results uncovered
 		set_global_flag = IRE_VALERA_GONE
 		hidden_effect = {
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
@@ -12977,7 +12977,7 @@ country_event = { #Valera returns
 	option = { #General
 		name = ire.248.b
 		create_corps_commander = {
-			name = "Dressing Feather"
+			name = "Перо в повязке"
 			portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_Chief.png"
 			traits = {
 				politically_connected
@@ -13024,9 +13024,9 @@ country_event = { #The Emergency
 	fire_only_once = yes
 	trigger = {
 		OR = {
-			has_country_leader = {
-				name = "Éamon de Valera"
-				ruling_only = yes
+		has_country_leader = {
+				name = "Имон де Валера"
+			ruling_only = yes
 			}
 			AND = {
 				has_country_flag = IRE_taoiseach_is_leader
@@ -13060,9 +13060,9 @@ country_event = { #The Emergency
 	fire_only_once = yes
 	trigger = {
 		OR = {
-			has_country_leader = {
-				name = "Éamon de Valera"
-				ruling_only = yes
+		has_country_leader = {
+				name = "Имон де Валера"
+			ruling_only = yes
 			}
 			AND = {
 				has_country_flag = IRE_taoiseach_is_leader
@@ -13211,7 +13211,7 @@ country_event = { #Cleansing Ireland
 		name = ire.303.b
 		set_country_leader_ideology = natpop_tribal_chiefdom_subtype
 		custom_effect_tooltip = natpop_natpop_tribal_chiefdom_subtype_swap_tt
-	}
+		}
 
 	option = { #become kritarchy
 		name = ire.303.c
@@ -13568,7 +13568,7 @@ country_event = { #Gralton Dead
 	
 	trigger = {
 		has_country_leader = {
-			name = "James Gralton"
+			name = "Джеймс Гралтон"
 			ruling_only = yes
 		}
 	}
@@ -13577,7 +13577,7 @@ country_event = { #Gralton Dead
 
 	is_triggered_only = yes
 	
-	option = { #Frank Ryan
+	option = { #Фрэнк Райан
 		name = ire.3102.a
 		if = {
 			limit = {
@@ -13587,7 +13587,7 @@ country_event = { #Gralton Dead
 			add_ideas = IRE_Frank_Ryan_hog_tot
 		}
 		create_country_leader = {
-			name = "Frank Ryan"
+			name = "Фрэнк Райан"
 			desc = "POLITICS_FRANK_RYAN_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Frank_Ryan.png"
 			expire = "1.1.1"
@@ -13595,7 +13595,7 @@ country_event = { #Gralton Dead
 		}
 	}
 	
-	option = { #Jim Larkin Jr.
+	option = { #Джеймс Ларкин Jr.
 		name = ire.3102.b
 		if = {
 			limit = {
@@ -13605,7 +13605,7 @@ country_event = { #Gralton Dead
 			add_ideas = IRE_Jim_Larkin_Jr_hog_tot
 		}
 		create_country_leader = {
-			name = "James Larkin Jnr."
+			name = "Джеймс Ларкин мл."
 			desc = "POLITICS_JIM_LARKIN_JR_DESC_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Jim_Larkin_Jr.png"
 			expire = "1.1.1"
@@ -13686,7 +13686,7 @@ country_event = { #Larkin Dies (for real)
 		name = ire.314.a
 		add_manpower = -1
 		create_country_leader = {
-			name = "Roddy Connolly"
+			name = "Родди Коннолли"
 			desc = "POLITICS_RODDY_CONOLLY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Roddy_Connolly.png"
 			expire = "1.1.1"
@@ -13710,7 +13710,7 @@ country_event = { #Roddy Connolly
 	option = { #
 		name = ire.3130.a
 		create_country_leader = {
-			name = "Roddy Connolly"
+			name = "Родди Коннолли"
 			desc = "POLITICS_RODDY_CONOLLY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Roddy_Connolly.png"
 			expire = "1.1.1"
@@ -13802,7 +13802,7 @@ country_event = { #New HoG
 	option = { #
 		name = ire.3151.a
 		create_country_leader = {
-			name = "Thomas Johnson"
+			name = "Томас Джонсон"
 			desc = "POLITICS_THOMAS_JOHNSON_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Thomas_Johnson.png"
 			expire = "1.1.1"
@@ -14019,7 +14019,7 @@ country_event = { #Dyeing the IRA Red
 	option = { #yay
 		name = ire.3170.a
 		create_corps_commander = {
-			name = "Frank Ryan "
+			name = "Фрэнк Райан "
 			portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Frank_Ryan.png"
 			traits = {
 				politically_connected
@@ -14034,7 +14034,7 @@ country_event = { #Dyeing the IRA Red
 			id = 9214
 		}
 		create_corps_commander = {
-			name = "Maurice Twomey "
+			name = "Морис Тумей "
 			portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Maurice_Twomey.png"
 			traits = {
 				politically_connected
@@ -14049,7 +14049,7 @@ country_event = { #Dyeing the IRA Red
 			id = 9212
 		}
 		create_corps_commander = {
-			name = "Seán Murray"
+			name = "Шон Мюррей"
 			portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Sean_Murray_Army.png"
 			traits = {
 				politically_connected
@@ -14529,7 +14529,7 @@ country_event = { #Larkin dies after denouncing Collins
 		add_political_power = 20
 		hidden_effect = {
 			create_country_leader = {
-				name = "Roddy Connolly"
+				name = "Родди Коннолли"
 				desc = "POLITICS_RODDY_CONOLLY_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Roddy_Connolly.png"
 				expire = "1.1.1"
@@ -14614,12 +14614,12 @@ country_event = { #A Modernized Form of the Ard-Rí for Our Éire
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Michael Collins"
+						name = "Майкл Коллинз"
 						ruling_only = yes
 					}
 				}
 				set_country_leader_name = {
-					name = "Mícheál Ó Coileáin"
+					name = "Майкл Д Коллинз"
 				}
 			}
 		}
@@ -14648,7 +14648,7 @@ country_event = { #The Floors Strike Again
 		add_political_power = 20
 		hidden_effect = {
 			create_country_leader = {
-				name = "Roddy Connolly"
+				name = "Родди Коннолли"
 				desc = "POLITICS_RODDY_CONOLLY_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Roddy_Connolly.png"
 				expire = "1.1.1"
@@ -14713,7 +14713,7 @@ country_event = { #The Fate of the Collins Regime
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
@@ -14744,7 +14744,7 @@ country_event = { #The Fate of the Collins Regime
 				IRE_Noel_Browne_sec_syn
 			}
 			create_country_leader = {
-				name = "Richard Mulcahy"
+				name = "Ричард Мулкахи"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy_Civilian.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
@@ -14906,7 +14906,7 @@ country_event = { #Valera’s Mixed Roots
 	
 	trigger = {
 		has_country_leader = {
-			name = "Éamon de Valera"
+			name = "Имон де Валера"
 			ruling_only = yes
 		}
 	}
@@ -15146,15 +15146,15 @@ country_event = { #The Spanish King
 			}
 		}
 		else = {
-			CAR = {
-				add_opinion_modifier = {
-					target = IRE
-					modifier = CAR_Spanish_King
-				}
-			}
+		CAR = {
 			add_opinion_modifier = {
-				target = CAR
+				target = IRE
 				modifier = CAR_Spanish_King
+			}
+		}
+		add_opinion_modifier = {
+			target = CAR
+			modifier = CAR_Spanish_King
 			}
 			CAR = {
 				add_opinion_modifier = {
@@ -15465,7 +15465,7 @@ country_event = { #To Forgive or Not to Forgive
 	
 	option = { #forgive
 		name = ire.341.a
-		custom_effect_tooltip = "By taking a less harsh approach to Irishifaction, the Army of Free England shall be greatly weakened"
+		custom_effect_tooltip = "Благодаря менее жесткому подходу к ирригации, армия Свободной Англии будет значительно ослаблена"
 		hidden_effect = {
 			remove_ideas = IRE_BRTISHARMY
 			add_timed_idea = { idea = IRE_BRTISHARMY days = 300 } 
@@ -15654,7 +15654,7 @@ country_event = { #Fate of the Opressors
 				ruling_party = paternal_autocrat
 			}
 			create_country_leader = {
-			name = "Executive Council"
+			name = "Исполнительный совет"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_English_Exe_Council.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -16700,7 +16700,7 @@ country_event = { #a deal for the republic
 				}
 			}
 			create_corps_commander = {
-				name = "Maurice Twomey "
+				name = "Морис Тумей "
 				portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Maurice_Twomey.png"
 				traits = {
 					politically_connected
@@ -16833,7 +16833,7 @@ news_event = {
 	}
 
 	option = {
-		name = ire.361.a	
+		name = ire.361.a
 		trigger = {
 			has_authoritarian_government = no
 		}
@@ -17026,7 +17026,7 @@ country_event = { #The S-Plan
 		add_political_power = -75
 		add_ideas = IRE_s_plan
 		create_intelligence_agency = {
-		name = "Directorate of Military Intelligence"
+		name = "Управление военной разведки"
 		icon = GFX_intelligence_agency_logo_kr_ire
 		}
 
@@ -17505,7 +17505,7 @@ unit_leader_event = {  # IRE event for EDS
 			ROOT = {
 				every_unit_leader = {
 					limit = { has_id = 2620 }
-					set_leader_name = "Eiric Ó Dornáin Ó Gabhann"
+					set_leader_name = "Эйрик О Дорнаин О Габханн"
 					set_leader_portrait = GFX_Portrait_Ireland_Eric_Dorman_Smith
 				}
 			}
@@ -17552,7 +17552,7 @@ country_event = { #Agrarians replaced by Agrarians
 				NOT = { has_country_flag = IRE_taoiseach_is_leader }
 			}
 			create_country_leader = {
-				name = "Michael Donnellan"
+				name = "Майкл Доннеллан"
 				desc = "POLITICS_MICHAEL_DONNELLAN_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Donnellan.png"
 				expire = "1.1.1"
@@ -17592,7 +17592,7 @@ country_event = { #Boot out Valera
 		}
 		set_country_flag = IRE_lemass_leads_ff
 		create_country_leader = {
-			name = "Seán Lemass"
+			name = "Шон Лемасс"
 			desc = "POLITICS_SEAN_LEMASS_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_Lemass.png"
 			expire = "1.1.1"
@@ -17634,7 +17634,7 @@ country_event = { #Reconstituted Labour Party Formed
 				NOT = { has_country_flag = IRE_taoiseach_is_leader }
 			}
 			create_country_leader = {
-				name = "Owen Sheehy-Skeffington"
+				name = "Оуэн Шихи-Скеффингтон"
 				desc = "POLITICS_OWEN_SHEEHY_SKEFFINGTON_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Owen_Sheehy_Skeffington.png"
 				expire = "1.1.1"
@@ -17799,7 +17799,7 @@ country_event = {  # Griffith Statue
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Richard Mulcahy"
+					name = "Ричард Мулкахи"
 					ruling_only = yes
 				}
 				AND = {
@@ -18531,7 +18531,7 @@ country_event = { #Valera Debates Restoring the Monarchy
 		is_subject = no 
 		OR = {
 			has_country_leader = {
-				name = "Éamon de Valera"
+				name = "Имон де Валера"
 				ruling_only = yes
 			}
 			AND = {
@@ -18555,7 +18555,7 @@ country_event = { #Valera Debates Restoring the Monarchy
 		}
 		set_cosmetic_tag = IRE_regency
 		create_country_leader = {
-			name = "Irish Regency Council"
+			name = "Ирландский регентский совет"
 			desc = "POLITICS_IRISH_REGENCY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Regency_Council.png"
 			expire = "1.1.1"
@@ -18656,7 +18656,7 @@ country_event = { #The Candidate
 				limit = {
 					GEO = {
 						has_country_leader = {
-							name = "Ioakhim I"
+							name = "Иоахим I"
 							ruling_only = yes
 						}
 					}
@@ -18729,7 +18729,7 @@ country_event = { #Irish Candidate
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Leopoldo O'Donnell y Vargas
+	option = { # Леопольдо О'Доннелл и Варгас
 		name = ire_monarch.3.a
 		ai_chance = {
 			factor = 40
@@ -18752,7 +18752,7 @@ country_event = { #Irish Candidate
 		}
 	}
 	
-	option = { # Hugo O'Neill
+	option = { # Хьюго О'Нил
 		name = ire_monarch.3.b
 		set_country_flag = IRE_King_Hugo
 		ai_chance = {
@@ -18775,7 +18775,7 @@ country_event = { #Irish Candidate
 		}
 	}
 	
-	option = { # Brinsley Le Poer Trench
+	option = { # Тренч Бринсли Ле Пур
 		name = ire_monarch.3.c
 		set_country_flag = IRE_King_Brinsley
 		ai_chance = {
@@ -18798,7 +18798,7 @@ country_event = { #Irish Candidate
 		}
 	}
 	
-	option = { # Donough O'Brien
+	option = { # Донаф О'Брайен
 		name = ire_monarch.3.e
 		set_country_flag = IRE_King_Donough
 		ai_chance = {
@@ -18821,7 +18821,7 @@ country_event = { #Irish Candidate
 		}
 	}
 
-	option = { # Randal McDonnell
+	option = { # Рэндал Макдоннелл
 		name = ire_monarch.3.f
 		set_country_flag = IRE_King_Randal
 		ai_chance = {
@@ -18899,11 +18899,11 @@ country_event = { #Small Problem
 				WAL = {
 					OR = {
 						has_country_leader = {
-							name = "Oskar I"
+							name = "Оскар I"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Owain IV"
+							name = "Оуайн IV"
 							ruling_only = yes
 						}
 					}
@@ -19932,7 +19932,7 @@ country_event = { #glorious Revolution
 		add_political_power = 50
 		set_cosmetic_tag = IRE_uk
 		if = {	
-			limit = { has_country_leader = { name = "James IV" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джеймс IV" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Randal_McDonnell_British.png"
 			}
@@ -19944,7 +19944,7 @@ country_event = { #glorious Revolution
 		add_political_power = -25
 		set_capital = { state = 126 remember_old_capital = no }
 		if = {	
-			limit = { has_country_leader = { name = "James IV" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джеймс IV" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/IRE/Portrait_Ireland_Randal_McDonnell_British.png"
 			}
@@ -19974,7 +19974,7 @@ country_event = { #ira no likely monarchy
 		set_cosmetic_tag = IRE_legit
 		hidden_effect = {
 			create_country_leader = {
-			name = "Éamon de Valera"
+			name = "Имон де Валера"
 			desc = "POLITICS_DE_VALERA_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 			expire = "1.1.1"
@@ -20101,14 +20101,14 @@ country_event = { #IRA coup
 				IRE_Liam_Mellows_sec_sde
 			}
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
 			ideology = christian_democracy_subtype
 			}
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
@@ -20137,14 +20137,14 @@ country_event = { #IRA coup
 				IRE_George_Gilmore_sec_rso
 			}
 			create_country_leader = {
-				name = "Seán T. O'Kelly"
+				name = "Шон Т. О’Келли"
 				desc = "POLITICS_SEAN_OKELEY_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 				expire = "1.1.1"
 				ideology = christian_democracy_subtype
 			}
 			create_country_leader = {
-				name = "Seán T. O'Kelly"
+				name = "Шон Т. О’Келли"
 				desc = "POLITICS_SEAN_OKELEY_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 				expire = "1.1.1"
@@ -20156,7 +20156,7 @@ country_event = { #IRA coup
 				ideology = social_democrat
 			}
 			create_country_leader = {
-				name = "William X. O'Brien"
+				name = "Уильям О’Брайен"
 				desc = "POLITICS_WILLIAM_X_OBRIEN_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_X_O'Brien.png"
 				expire = "1.1.1"
@@ -20193,21 +20193,21 @@ country_event = { #IRA coup
 			ideology = social_democrat
 			}
 			create_country_leader = {
-			name = "IRA Army Council"
+			name = "Армейский совет ИРА"
 			desc = "POLITICS_IRA_COUNCIL_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_IRA_Army_Council.png"
 			expire = "1.1.1"
 			ideology = socdem_junta_subtype
 			}
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
 			ideology = christian_democracy_subtype
 			}
 			create_country_leader = {
-			name = "Seán T. O'Kelly"
+			name = "Шон Т. О’Келли"
 			desc = "POLITICS_SEAN_OKELEY_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Sean_T_OKelley.png"
 			expire = "1.1.1"
@@ -20222,7 +20222,7 @@ country_event = { #IRA coup
 		add_political_power = -25
 		hidden_effect = {
 			create_country_leader = {
-			name = "Éamon de Valera"
+			name = "Имон де Валера"
 			desc = "POLITICS_DE_VALERA_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 			expire = "1.1.1"
@@ -20633,13 +20633,13 @@ country_event = { #Ah Sweet a Schizo Coup
 		# if = {
 			# limit = {
 				# has_country_leader = {
-					# name = "Raymond Moulton O'Brien"
+					# name = "Раймонд Моултон О'Брайен"
 				# }
 				# has_completed_focus = IRE_Truly_Irish_Monarchy
 			# }
 			# add_country_leader_trait = IRE_Irish_King
 			# set_country_leader_name = {
-				# name = "Murrough II"
+				# name = "Мурроу II"
 			# }
 			# custom_effect_tooltip = IRE_Raymond_to_Murrough
 			# set_country_leader_portrait = {
@@ -20732,7 +20732,7 @@ country_event = { #IRA radical
 			ideology = radical_socialist
 			}
 			create_country_leader = {
-			name = "IRA Army Council"
+			name = "Армейский совет ИРА"
 			desc = "POLITICS_IRA_COUNCIL_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_IRA_Army_Council.png"
 			expire = "1.1.1"
@@ -22192,11 +22192,11 @@ country_event = {  # George is dead
 	desc = irelandflavour.200.d
 	picture = GFX_report_event_CAN_death_george
 	is_triggered_only = yes
-	
+
 	trigger = {
 		IRE_has_michael_collins = yes
 	}
-	
+
 	option = {
 		log = "[GetLogInfo]: event irelandflavour.200 option irelandflavour.200.a"
 		name = irelandflavour.200.a  # Not our concern

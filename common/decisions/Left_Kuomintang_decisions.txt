@@ -497,7 +497,7 @@ CHI_military_expeditions_category = {
 			}
 		}
 	}
-
+	
 	# Raise Men
 	china_raise_men_in_jiangxi = {
 		icon = GFX_decision_generic_military
@@ -1132,7 +1132,7 @@ CHI_military_expeditions_category = {
 			}
 		}
 	}
-
+	
 	###############################
 	#####      MISSIONS		 ######
 	###############################
@@ -1934,7 +1934,7 @@ CHI_military_expeditions_category = {
 			605 = { prioritize_state = yes }
 			add_one_random_civilian_factory = yes
 		}
-	}
+	} 
 	CHI_evacuate_military_industry = {
 		icon = GFX_decision_factories
 		allowed = { always = no }
@@ -2463,7 +2463,7 @@ CHI_national_reconstruction_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_renovate_shanghai_arsenal"
 			if = {
-				limit = {
+				limit = { 
 					OR = {
 						has_idea = CHI_Chen_Gongbo_hog_rso
 						has_idea = CHI_Chen_Gongbo_2_hog_rso
@@ -2561,7 +2561,7 @@ CHI_national_reconstruction_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_anhui_industrial_plan"
 			if = {
-				limit = {
+				limit = { 
 					OR = {
 						has_idea = CHI_Chen_Gongbo_hog_rso
 						has_idea = CHI_Chen_Gongbo_2_hog_rso
@@ -2579,7 +2579,7 @@ CHI_national_reconstruction_category = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove CHI_anhui_industrial_plan"
 			if = {
-				limit = {
+				limit = { 
 					OR = {
 						has_idea = CHI_Chen_Gongbo_hog_rso
 						has_idea = CHI_Chen_Gongbo_2_hog_rso
@@ -2826,7 +2826,7 @@ CHI_national_reconstruction_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_developing_hunans_industrial_capacity"
 			if = {
-				limit = {
+				limit = { 
 					OR = {
 						has_idea = CHI_Chen_Gongbo_hog_rso
 						has_idea = CHI_Chen_Gongbo_2_hog_rso
@@ -3447,7 +3447,7 @@ CHI_national_reconstruction_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_revitalise_hanyang_industry"
 			if = {
-				limit = {
+				limit = { 
 					OR = {
 						has_idea = CHI_Chen_Gongbo_hog_rso
 						has_idea = CHI_Chen_Gongbo_2_hog_rso
@@ -4317,7 +4317,7 @@ CHI_liberation_of_asia_category = {
 
 	CHI_disband_liberation_armies_decision = {
 		allowed = { tag = CHI }
-		visible = { has_template = "Liberation Army Division" }
+		visible = { has_template = "Дивизия армии освобождения" }
 
 		icon = GFX_decision_POL_looming_peasants_strike
 		fire_only_once = no
@@ -4327,7 +4327,7 @@ CHI_liberation_of_asia_category = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_disband_liberation_armies_decision"
-			delete_unit_template_and_units = { division_template = "Liberation Army Division" disband = yes }
+			delete_unit_template_and_units = { division_template = "Дивизия армии освобождения" disband = yes }
 		}
 
 	}
@@ -4483,7 +4483,7 @@ CHI_liberation_of_asia_category = {
 		allowed = { tag = CHI }
 		visible = {
 			CHI = {
-				has_idea = CHI_Chen_Youren_for_sde
+				has_idea = CHI_Chen_Youren_for_sde 
 				any_enemy_country = {
 					any_owned_state = {
 						OR = {
@@ -4568,7 +4568,7 @@ CHI_liberation_of_asia_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete CHI_found_our_faction_decision target: [From.GetName]"
 			if = {
-				limit = { has_country_leader = { name = "Song Qingling" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Сун Цинлин" ruling_only = yes } }
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance        
 				name = CHI_song_faction
@@ -4579,10 +4579,10 @@ CHI_liberation_of_asia_category = {
 			else_if = {
 				limit = {
 					OR = {
-						has_country_leader = { name = "Wang Jingwei" ruling_only = yes }
-						has_country_leader = { name = "Deng Yanda" ruling_only = yes }
-						has_country_leader = { name = "Chen Duxiu" ruling_only = yes }
-						has_country_leader = { name = "Sun Fo" ruling_only = yes }
+						has_country_leader = { name = "Ван Цзинвэй" ruling_only = yes }
+						has_country_leader = { name = "Дэн Янда" ruling_only = yes }
+						has_country_leader = { name = "Чэнь Дусю" ruling_only = yes }
+						has_country_leader = { name = "Сунь Фо" ruling_only = yes }
 					}
 				}
 			create_faction_from_template = { 
@@ -4595,8 +4595,8 @@ CHI_liberation_of_asia_category = {
 			else_if = {
 				limit = {
 					OR = {
-						has_country_leader = { name = "Chen Gongbo" ruling_only = yes }
-						has_country_leader = { name = "Zeng Zhongming" ruling_only = yes }
+						has_country_leader = { name = "Чэнь Гунбо" ruling_only = yes }
+						has_country_leader = { name = "Цзэн Чжунмин" ruling_only = yes }
 					}
 				}
 			create_faction_from_template = { 
@@ -4609,7 +4609,7 @@ CHI_liberation_of_asia_category = {
 			else_if = {
 				limit = {
 					OR = {
-						has_country_leader = { name = "Hu Zongnan" ruling_only = yes }
+						has_country_leader = { name = "Ху Цзуннань" ruling_only = yes }
 						has_completed_focus = CHI_autarky
 					}
 				}
@@ -4777,8 +4777,8 @@ CHI_liberation_of_asia_category = {
 					AND = {
 						tag = TUR
 						OR = {
-							has_country_leader = { name = "İsmet Reşit" ruling_only = yes }
-							has_country_leader = { name = "Mehmet Recep Paşa" ruling_only = yes }
+							has_country_leader = { name = "Исмет Решит" ruling_only = yes }
+							has_country_leader = { name = "Мехмет Реджеп Паша" ruling_only = yes }
 						}
 					}
 				}

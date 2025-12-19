@@ -156,27 +156,27 @@ country_event = {
 				}
 				add_ideas = CRM_german_treaty
 				delete_unit_template_and_units = {
-					division_template = "Pikhotna Dyviziia"
+					division_template = "Піхотна дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Motostriletska Dyviziia"
+					division_template = "Мотострілецька дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnyi Dyvizion"
+					division_template = "Кінний дивізіон"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Sichovi Striltsi"
+					division_template = "Січові стрільці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Halytskyi korpus Sichovykh Striltsiv"
+					division_template = "Галицький корпус Січових Стрільців"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				division_template = {
@@ -282,27 +282,27 @@ country_event = {
 				}
 				add_ideas = CRM_german_treaty
 				delete_unit_template_and_units = {
-					division_template = "Pikhotna Dyviziia"
+					division_template = "Піхотна дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Motostriletska Dyviziia"
+					division_template = "Мотострілецька дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnyi Dyvizion"
+					division_template = "Кінний дивізіон"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Sichovi Striltsi"
+					division_template = "Січові стрільці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Halytskyi korpus Sichovykh Striltsiv"
+					division_template = "Галицький корпус Січових Стрільців"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				division_template = {
@@ -360,15 +360,15 @@ country_event = {
 		name = crm.10.a
 		add_stability = -0.1
 		hidden_effect = {
-		country_event = {
-			id = crm.18
-			days = 4
-		}
-		country_event = {
-			id = crm.20
-			days = 10
+			country_event = {
+				id = crm.18
+				days = 4
 			}
-		}
+			country_event = {
+				id = crm.20
+				days = 10
+				}
+			}
 	}
 }
 country_event = { 
@@ -412,7 +412,7 @@ country_event = {
 		add_authdem_to_coalition = yes
 		add_natpop_to_coalition = yes
 		create_country_leader = {
-			name = "Heinrich XXXIII Reuss of Köstritz"
+			name = "Генрих XXXIII Ройс"
 			desc = "POLITICS_HEINRICH_REUSS_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Prince_Heinrich_XXXIII_Reuss_of_Kostritz.png"
 			expire = "1.1.1"
@@ -669,7 +669,7 @@ country_event = {
 		add_socdem_to_coalition = yes
 		add_natpop_to_coalition = yes
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -803,7 +803,7 @@ country_event = {
 		CRM_remove_german_might = yes
 		CRM_remove_local_resistance = yes		
 		clr_country_flag = CRM_crimean_rebellion_crimea_active
-		clr_country_flag = CRM_crimean_rebellion_active
+		clr_country_flag = CRM_crimean_rebellion_active		
 		if = {
 			limit = {
 				NOT = { has_completed_focus = CRM_German_Garrison }
@@ -1071,7 +1071,7 @@ country_event = {
 		add_authdem_to_coalition = yes
 		add_natpop_to_coalition = yes
 		create_country_leader = {
-			name = "Heinrich XXXIII Reuss of Köstritz"
+			name = "Генрих XXXIII Ройс"
 			desc = "POLITICS_HEINRICH_REUSS_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Prince_Heinrich_XXXIII_Reuss_of_Kostritz.png"
 			expire = "1.1.1"
@@ -1638,7 +1638,7 @@ country_event = {
 		}
 		add_ideas = CRM_ukrainian_ascendancy
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -1728,7 +1728,7 @@ country_event = {
 		}
 		add_ideas = CRM_ukrainian_ascendancy
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -2460,7 +2460,7 @@ country_event = {
 		}
 		add_soccon_to_coalition = yes
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -2568,7 +2568,7 @@ country_event = {
 		}
 		add_soccon_to_coalition = yes
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -3043,7 +3043,7 @@ country_event = {
 		add_socdem_to_coalition = yes
 		add_natpop_to_coalition = yes
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		set_capital = { state = 137 }
@@ -3179,7 +3179,7 @@ country_event = {
 		set_politics = { ruling_party = market_liberal }
 		set_country_flag = CRM_Milliy_Firka_kemalist
 		create_country_leader = {
-			name = "Sultan Kadyr I"
+			name = "Султан Кадыр I"
 			desc = "POLITICS_SULTAN_KADYR_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 			expire = "1.1.1"
@@ -3211,7 +3211,7 @@ country_event = {
 			set_nationality = GER
 		}
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		hidden_effect = {
@@ -3229,7 +3229,7 @@ country_event = {
 		trigger = { CRM_german_colonial_administration_in_power = no }
 		clear_relations_with_FROM = yes
 		delete_unit_template_and_units = {
-			division_template = "Kaiserlich Auslands-Festungskommando"
+			division_template = "Кайзерлих Аусландс-Фестунгскомандо"
 			disband = no 
 		}
 		add_stability = 0.05
@@ -3380,7 +3380,7 @@ country_event = {
 
 	trigger = {
 		has_country_leader = {
-			name = "Heinrich XXXIII Reuss of Köstritz"
+			name = "Генрих XXXIII Ройс"
 			ruling_only = yes
 		}
 	}
@@ -3392,7 +3392,7 @@ country_event = {
 		name = crm.65.a
 		set_cosmetic_tag = CRM_KRIM
 		increase_ruling_party_popularity_by_5 = yes
-		set_country_leader_name = { name = "Heinrich" }
+		set_country_leader_name = { name = "Генрих" }
 	}
 }
 country_event = { 
@@ -3408,7 +3408,7 @@ country_event = {
 		name = crm.66.a
 		add_named_threat = {
 			threat = 10
-			name = "Russia Occupies Crimea"
+			name = "Россия захватывает Крым"
 		}
 		get_current_government_type = yes
 		RUS = { puppet = ROOT } 
@@ -4375,7 +4375,7 @@ country_event = {
 			CRM_Jafer_Gafar_sec_rso
 		}
 		create_country_leader = {
-			name = "İsmail Kerimjanov"
+			name = "Исмаил Керимджанов"
 			desc = "POLITICS_ISMAIL_KERIMJANOV_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Ismail_Kerimjanov.png"
 			expire = "1.1.1"
@@ -4658,7 +4658,7 @@ country_event = {
 		increase_ruling_party_popularity_by_2 = yes
 		add_stability = 0.03
 		create_country_leader = {
-			name = "Woldemar Falz-Fein"
+			name = "Вольдемар Фальц-Фейн"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Voldemar_Falz_Fein.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
@@ -4824,14 +4824,14 @@ country_event = {
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}		
 		create_country_leader = {
-			name = "Jafer Seydamet"
+			name = "Джафер Сейдамет"
 			desc = "POLITICS_JAFER_SEYDAMET_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Jafer_Seydamet.png"
 			expire = "1.1.1"
 			ideology = marlib_kemalism_subtype
 		}
 		create_country_leader = {
-			name = "Amet Ozenbashly"
+			name = "Амет Озенбашлы"
 			desc = "POLITICS_AMET_OZENBASHLY_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Amet_Ozenbashly.png"
 			expire = "1.1.1"
@@ -4887,14 +4887,14 @@ country_event = {
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}		
 		create_country_leader = {
-			name = "Jafer Seydamet"
+			name = "Джафер Сейдамет"
 			desc = "POLITICS_JAFER_SEYDAMET_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Jafer_Seydamet.png"
 			expire = "1.1.1"
 			ideology = marlib_kemalism_subtype
 		}
 		create_country_leader = {
-			name = "Amet Ozenbashly"
+			name = "Амет Озенбашлы"
 			desc = "POLITICS_AMET_OZENBASHLY_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Amet_Ozenbashly.png"
 			expire = "1.1.1"
@@ -4962,14 +4962,14 @@ country_event = {
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}		
 		create_country_leader = {
-			name = "Jafer Seydamet"
+			name = "Джафер Сейдамет"
 			desc = "POLITICS_JAFER_SEYDAMET_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Jafer_Seydamet.png"
 			expire = "1.1.1"
 			ideology = marlib_kemalism_subtype
 		}
 		create_country_leader = {
-			name = "Amet Ozenbashly"
+			name = "Амет Озенбашлы"
 			desc = "POLITICS_AMET_OZENBASHLY_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Amet_Ozenbashly.png"
 			expire = "1.1.1"
@@ -5363,7 +5363,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Sultan Kadyr I"
+			name = "Султан Кадыр I"
 			desc = "POLITICS_SULTAN_KADYR_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 			expire = "1.1.1"
@@ -6044,7 +6044,7 @@ country_event = {
 			modifier = {
 				factor = 0.3
 				RUS = { 
-					has_completed_focus = RUS_Enemy_In_The_West
+						has_completed_focus = RUS_Enemy_In_The_West
 				}
 			}
 			modifier = {
@@ -6066,7 +6066,7 @@ country_event = {
 			modifier = {
 				factor = 1.3
 				RUS = { 
-					has_completed_focus = RUS_Enemy_In_The_West
+						has_completed_focus = RUS_Enemy_In_The_West
 				}
 			}
 		}
@@ -6589,7 +6589,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Solomon Krym"
+					name = "Соломон Крым"
 					ruling_only = yes
 				}
 			}
@@ -6867,7 +6867,7 @@ country_event = {
 			1221 = { add_core_of = ROOT }
 		}
 		create_country_leader = {
-			name = "Dmitriy Ulyanov"
+			name = "Дмитрий Ульянов"
 			desc = "POLITICS_DMITRIY_ULYANOV_DESC"
 			picture = "gfx/leaders/CRM/Portrait_CRM_Dmitry_Ulyanov.png"
 			expire = "1.1.1"
@@ -6984,7 +6984,7 @@ country_event = {
 				modifier = CRM_no_manpower_given
 			}
 		}
-		custom_effect_tooltip = "We have nothing for [CRM.GetName]"
+		custom_effect_tooltip = "У нас нет ничего для [CRM.GetName]"
 	}
 }	
 country_event = { 
@@ -7646,7 +7646,7 @@ country_event = {
 			}
 			CRM = { transfer_state = PREV }
 		}
-		custom_effect_tooltip = "We will sign peace with Khazaria"
+		custom_effect_tooltip = "Мы подпишем мир с Хазарией"
 		hidden_effect = {
 			CRM = {
 				save_event_target_as = peace_country
@@ -7687,7 +7687,7 @@ country_event = {
 			limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Solomon Krym"
+					name = "Соломон Крым"
 				}
 			}
 			remove_all_ministers = yes
@@ -7705,7 +7705,7 @@ country_event = {
 			limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 				}
 			}
 			if = {
@@ -7803,7 +7803,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Woldemar Falz-Fein"
+			name = "Вольдемар Фальц-Фейн"
 			ruling_only = yes
 		}
 		owns_state = 196
@@ -7833,7 +7833,7 @@ country_event = {
 	trigger = {
 		CRM = {
 			has_country_leader = {
-				name = "Woldemar Falz-Fein"
+				name = "Вольдемар Фальц-Фейн"
 				ruling_only = yes
 			}
 		}
@@ -8111,39 +8111,39 @@ country_event = {
 			hidden_effect = { 
 				load_oob = "CRM_IND"
 				delete_unit_template_and_units = {
-					division_template = "Pikhotna Dyviziia"
+					division_template = "Піхотна дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Motostriletska Dyviziia"
+					division_template = "Мотострілецька дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnyi Dyvizion"
+					division_template = "Кінний дивізіон"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Sichovi Striltsi"
+					division_template = "Січові стрільці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Halytskyi korpus Sichovykh Striltsiv"
+					division_template = "Галицький корпус Січових Стрільців"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Petliurivtsi"
+					division_template = "Петлюрівці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnohirskyi Dyvizion"
+					division_template = "Кінногірський дивізіон"
 					disband = no 
 				}
 				XXA = {
@@ -8212,39 +8212,39 @@ country_event = {
 			hidden_effect = { 
 				load_oob = "CRM_IND"
 				delete_unit_template_and_units = {
-					division_template = "Pikhotna Dyviziia"
+					division_template = "Піхотна дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Motostriletska Dyviziia"
+					division_template = "Мотострілецька дивізія"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnyi Dyvizion"
+					division_template = "Кінний дивізіон"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Sichovi Striltsi"
+					division_template = "Січові стрільці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Halytskyi korpus Sichovykh Striltsiv"
+					division_template = "Галицький корпус Січових Стрільців"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Morska Pikhota"
+					division_template = "Морська Піхота"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Petliurivtsi"
+					division_template = "Петлюрівці"
 					disband = no 
 				}
 				delete_unit_template_and_units = {
-					division_template = "Kinnohirskyi Dyvizion"
+					division_template = "Кінногірський дивізіон"
 					disband = no 
 				}
 				XXA = {

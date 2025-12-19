@@ -578,12 +578,12 @@ country_event = { # Baring Takes Charge
 			ZAM_John_Waddington_eco_npo
 			ZAM_Ronald_Storrs_sec_npo
 		}
-		813 = { set_state_name = "North-Western Rhodesia" }
-		871 = { set_state_name = "Nyasaland" }
-		955 = { set_state_name = "Chewaland" }
-		956 = { set_state_name = "North-Eastern Rhodesia" }
-		957 = { set_state_name = "Western Barotseland" }
-		958 = { set_state_name = "Eastern Barotseland" }
+		813 = { set_state_name = "Северо-Западная Родезия" }
+		871 = { set_state_name = "Ньясаленд" }
+		955 = { set_state_name = "Чеваланд" }
+		956 = { set_state_name = "Северо-Восточная Родезия" }
+		957 = { set_state_name = "Западный Баротселенд" }
+		958 = { set_state_name = "Восточный Баротселенд" }
 		ENT = { add_to_faction = ZAM }
 	}
 }
@@ -611,7 +611,7 @@ country_event = { # Huttig Takes Charge
 		}
 		set_country_flag = ZAM_COLONIAL_RULE
 		create_country_leader = {
-			name = "Hans Hüttig"
+			name = "Ганс Хюттиг"
 			desc = "POLITICS_HUTTIG_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Huttig.png"
 			expire = "1.1.1"
@@ -679,7 +679,7 @@ country_event = { # Junger Takes Charge
 		}
 		set_country_flag = ZAM_COLONIAL_RULE
 		create_country_leader = {
-			name = "Ernst Jünger"
+			name = "Эрнст Юнгер"
 			desc = "POLITICS_JUNGER_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Ernst_Junger.png"
 			expire = "1.1.1"
@@ -761,7 +761,7 @@ country_event = { # Elections!
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Ernst Jünger"
+						name = "Эрнст Юнгер"
 					}
 				}
 				set_country_leader_portrait = {
@@ -1126,7 +1126,7 @@ country_event = { #
 							  name = ZAM_national_populist_kenya_party
 						}
 				create_country_leader = {
-					   name = "Jack Churchill"
+					   name = "Джек Черчилль"
 					   desc = ""
 					   picture = "gfx/leaders/KEN/KEN_Jack_Churchill.png"
 					   expire = "1.1.1"
@@ -1155,7 +1155,7 @@ country_event = { #
 							  name = ZAM_national_populist_nigeria_party
 						}
 				create_country_leader = {
-					   name = "Bernhard H. Bourdillon"
+					   name = "Бернхард Бурдильон"
 					   desc = "POLITICS_BOURDILLON_DESC"
 					   picture = "gfx/leaders/NGR/NGR_Bernard_Henry_Bourdillon.png"
 					   expire = "1.1.1"
@@ -1184,7 +1184,7 @@ country_event = { #
 							  name = ZAM_national_populist_west_afr_party
 						}
 				create_country_leader = {
-					   name = "Arnold Hodson"
+					   name = "Арнольд Ходсон"
 							   desc = ""
 							   picture = "gfx/leaders/CIV/CIV_Arnold_Hodson.png"
 					   expire = "1.1.1"
@@ -1252,7 +1252,7 @@ country_event = { #
 		}
 		drop_cosmetic_tag = yes
 		create_country_leader = {
-			name = "Ernst Jünger"
+			name = "Эрнст Юнгер"
 			desc = "POLITICS_JUNGER_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Ernst_Junger.png"
 			expire = "1.1.1"
@@ -1305,7 +1305,7 @@ country_event = { #Baring restores old african borders
 				NFA = {
 					is_in_faction_with = ENT
 				}
-			}
+		}
 		hidden_effect = {
 			807 = {
 				remove_core_of = ZAM
@@ -1815,12 +1815,12 @@ country_event = { #baring wins uprising after MAF goes boom
 				}
 				add_ideas = ZAM_Weak_British_Hold_1
 				set_cosmetic_tag = ZAM_ANGLO
-				813 = { set_state_name = "North-Western Rhodesia" }
-				871 = { set_state_name = "Nyasaland" }
-				955 = { set_state_name = "Chewaland" }
-				956 = { set_state_name = "North-Eastern Rhodesia" }
-				957 = { set_state_name = "Western Barotseland" }
-				958 = { set_state_name = "Eastern Barotseland" }
+				813 = { set_state_name = "Северо-Западная Родезия" }
+				871 = { set_state_name = "Ньясаленд" }
+				955 = { set_state_name = "Чеваланд" }
+				956 = { set_state_name = "Северо-Восточная Родезия" }
+				957 = { set_state_name = "Западный Баротселенд" }
+				958 = { set_state_name = "Восточный Баротселенд" }
 				remove_all_ministers = yes
 				add_ideas = {
 					ZAM_Sir_Evelyn_Baring_hog_npo

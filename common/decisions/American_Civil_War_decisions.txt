@@ -222,7 +222,7 @@ ACW_deal_with_terrorists_decisions = {# dealing with terrorists
 		}
 		visible = {
 			OR = {
-				has_idea = ACW_mob_activity_1_idea
+								has_idea = ACW_mob_activity_1_idea
 				has_idea = ACW_mob_activity_2_idea
 			}
 		}
@@ -920,17 +920,17 @@ ACW_civil_war_decisions = {
 						}
 					}
 					create_unit = {
-						division = "name = \"1st Emergency Reserves\" division_template = \"Loyalist Motorized Guard\"  start_experience_factor = 0.3"
+						division = "name = \"1-я аварийная резервная дивизия\" division_template = \"Лоялистская моторизованная гвардия\"  start_experience_factor = 0.3"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"2nd Emergency Reserves\" division_template = \"Army Loyalists\"  start_experience_factor = 0.3"
+						division = "name = \"2-я аварийная резервная дивизия\" division_template = \"Армейские лоялисты\"  start_experience_factor = 0.3"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"5th Emergency Reserves\" division_template = \"Loyalist Garrison\"  start_experience_factor = 0.1"
+						division = "name = \"5-я аварийная резервная дивизия\" division_template = \"Гарнизон лоялистов\"  start_experience_factor = 0.1"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
@@ -947,17 +947,17 @@ ACW_civil_war_decisions = {
 						}
 					}
 					create_unit = {
-						division = "name = \"3rd Emergency Reserves\" division_template = \"Loyalist Motorized Guard\"  start_experience_factor = 0.3"
+						division = "name = \"3-я аварийная резервная дивизия\" division_template = \"Лоялистская моторизованная гвардия\"  start_experience_factor = 0.3"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"4th Emergency Reserves\" division_template = \"Army Loyalists\"  start_experience_factor = 0.3"
+						division = "name = \"4-я аварийная резервная дивизия\" division_template = \"Армейские лоялисты\"  start_experience_factor = 0.3"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"6th Emergency Reserves\" division_template = \"Loyalist Garrison\"  start_experience_factor = 0.1"
+						division = "name = \"6-я аварийная резервная дивизия\" division_template = \"Гарнизон лоялистов\"  start_experience_factor = 0.1"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
@@ -991,17 +991,17 @@ ACW_civil_war_decisions = {
 			hidden_effect = {
 				378 = {
 					create_unit = {
-						division = "name = \"1st PSA Emergency Reserve\" division_template = \"PSA Militia\"  start_experience_factor = 0.0"
+						division = "name = \"1-я аварийная резервная дивизия Т.Ш.А\" division_template = \"Ополчение Т.Ш.А\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"2nd PSA Emergency Reserve\" division_template = \"PSA Militia\"  start_experience_factor = 0.0"
+						division = "name = \"2-я аварийная резервная дивизия Т.Ш.А\" division_template = \"Ополчение Т.Ш.А\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"3rd PSA Emergency Reserve\" division_template = \"PSA Militia\"  start_experience_factor = 0.0"
+						division = "name = \"3-я аварийная резервная дивизия Т.Ш.А\" division_template = \"Ополчение Т.Ш.А\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
@@ -1035,17 +1035,17 @@ ACW_civil_war_decisions = {
 			hidden_effect = {
 				395 = {
 					create_unit = {
-						division = "name = \"1st CSA Emergency Reserve\" division_template = \"Revolutionary Militia\"  start_experience_factor = 0.0"
+						division = "name = \"1-я аварийная резервная дивизия О.С.А\" division_template = \"Революционное ополчение\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"2nd CSA Emergency Reserve\" division_template = \"Revolutionary Militia\"  start_experience_factor = 0.0"
+						division = "name = \"2-я аварийная резервная дивизия О.С.А\" division_template = \"Революционное ополчение\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"3rd CSA Emergency Reserve\" division_template = \"Revolutionary Militia\"  start_experience_factor = 0.0"
+						division = "name = \"3-я аварийная резервная дивизия О.С.А\" division_template = \"Революционное ополчение\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
@@ -1079,17 +1079,17 @@ ACW_civil_war_decisions = {
 			hidden_effect = {
 				371 = {
 					create_unit = {
-						division = "name = \"1st AUS Emergency Reserve\" division_template = \"AUS Militia\"  start_experience_factor = 0.0"
+						division = "name = \"1-я резервная дивизия\" division_template = \"Ополчение А.С.Ш\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"2nd AUS Emergency Reserve\" division_template = \"AUS Militia\"  start_experience_factor = 0.0"
+						division = "name = \"2-я резервная дивизия\" division_template = \"Ополчение А.С.Ш\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"3rd AUS Emergency Reserve\" division_template = \"AUS Militia\"  start_experience_factor = 0.0"
+						division = "name = \"3-я резервная дивизия\" division_template = \"Ополчение А.С.Ш\"  start_experience_factor = 0.0"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 					}
@@ -1998,7 +1998,7 @@ ACW_civil_war_decisions = {
 				is_subject = no
 				OR = {
 				has_elected_government = yes
-				has_country_leader = {	name = "William D. Leahy" ruling_only = yes }
+				has_country_leader = {	name = "Уильям Д. Леги" ruling_only = yes }
 				}
 			}
 			FROM = {

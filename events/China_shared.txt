@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # Shared Chinese Events
 ###########################
 
@@ -134,21 +134,21 @@ country_event = { #FROM demands ROOT submit
 					has_game_rule = { rule = GXC_PATH option = GXC_PATH_EXPANSIONISM }
 					AND = { #check for zhili
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_PATAUT_QIE }
-						has_country_leader = { name = "Ma Ji" ruling_only = yes }
+						has_country_leader = { name = "Ма Цзы" ruling_only = yes }
 						FROM = { is_ruled_by_pro_zhili = no }
 					}
 					AND = { #check for NPA
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_NPA }
 						OR = {
-							has_country_leader = { name = "Ma Ji" ruling_only = yes }
-							has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+							has_country_leader = { name = "Ма Цзы" ruling_only = yes }
+							has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 						}
 						FROM = { china_is_unaligned = no }
 					}
 					#outright refuse if have following
 					AND = {
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_MARLIB_JAP }
-						has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+						has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 					}
 				}
 			}
@@ -510,21 +510,21 @@ country_event = { #FROM invites ROOT to alliance
 					has_game_rule = { rule = GXC_PATH option = GXC_PATH_EXPANSIONISM }
 					AND = { #check for zhili
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_PATAUT_QIE }
-						has_country_leader = { name = "Ma Ji" ruling_only = yes }
+						has_country_leader = { name = "Ма Цзы" ruling_only = yes }
 						FROM = { is_ruled_by_pro_zhili = no }
 					}
 					AND = { #check for NPA
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_NPA }
 						OR = {
-							has_country_leader = { name = "Ma Ji" ruling_only = yes }
-							has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+							has_country_leader = { name = "Ма Цзы" ruling_only = yes }
+							has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 						}
 						FROM = { china_is_unaligned = no }
 					}
 					#outright refuse if have following
 					AND = {
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_MARLIB_JAP }
-						has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+						has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 					}
 				}
 			}
@@ -596,21 +596,21 @@ country_event = { #FROM invites ROOT to alliance
 					has_game_rule = { rule = GXC_PATH option = GXC_PATH_EXPANSIONISM }
 					AND = { #check for zhili
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_PATAUT_QIE }
-						has_country_leader = { name = "Ma Ji" ruling_only = yes }
+						has_country_leader = { name = "Ма Цзы" ruling_only = yes }
 						FROM = { is_ruled_by_pro_zhili = no }
 					}
 					AND = { #check for NPA
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_NPA }
 						OR = {
-							has_country_leader = { name = "Ma Ji" ruling_only = yes }
-							has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+							has_country_leader = { name = "Ма Цзы" ruling_only = yes }
+							has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 						}
 						FROM = { china_is_unaligned = no }
 					}
 					#outright refuse if have following
 					AND = {
 						has_game_rule = { rule = GXC_PATH option = GXC_PATH_MARLIB_JAP }
-						has_country_leader = { name = "Chen Lianbo" ruling_only = yes }
+						has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes }
 					}
 				}
 			}
@@ -5512,7 +5512,7 @@ news_event = { #RNGROC unites China
 		name = china_events.304.a
 	}
 }
-news_event = { #Yan Xishan unites China
+news_event = { #Янь Сишань unites China
 	id = china_events.305
 	immediate = { log = "[GetLogInfo]: event china_events.305" }
 	title = china_events.305.t
@@ -5535,7 +5535,7 @@ news_event = { #Yan Xishan unites China
 		name = china_events.305.a
 	}
 }
-news_event = { #Feng Yuxiang unites China
+news_event = { #Фэн Юйсян unites China
 	id = china_events.306
 	immediate = { log = "[GetLogInfo]: event china_events.306" }
 	title = china_events.306.t
@@ -5721,7 +5721,7 @@ news_event = { #Federalist Sichuan unites China
 		name = china_events.312.a
 	}
 }
-news_event = { #Liu Xiang unites China
+news_event = { #Лю Сян unites China
 	id = china_events.313
 	immediate = { log = "[GetLogInfo]: event china_events.313" }
 	title = china_events.313.t
@@ -5767,7 +5767,7 @@ news_event = { #Minor clique unites China
 		name = china_events.314.a
 	}
 }
-news_event = { #Wang Jingwei Holds On
+news_event = { #Ван Цзинвэй Holds On
 	id = china_events.340
 	immediate = { log = "[GetLogInfo]: event china_events.340" }
 	title = china_events.340.t
@@ -5790,7 +5790,7 @@ news_event = { #Wang Jingwei Holds On
 		name = china_events.308.a
 	}
 }
-news_event = { #Song Qingling
+news_event = { #Сун Цинлин
 	id = china_events.341
 	immediate = { log = "[GetLogInfo]: event china_events.341" }
 	title = china_events.341.t
@@ -5813,7 +5813,7 @@ news_event = { #Song Qingling
 		name = china_events.341.a
 	}
 }
-news_event = { #Chen Gongbo
+news_event = { #Чэнь Гунбо
 	id = china_events.342
 	immediate = { log = "[GetLogInfo]: event china_events.342" }
 	title = china_events.342.t
@@ -5836,7 +5836,7 @@ news_event = { #Chen Gongbo
 		name = china_events.342.a
 	}
 }
-news_event = { #Hu Zongnan
+news_event = { #Ху Цзуннань
 	id = china_events.343
 	immediate = { log = "[GetLogInfo]: event china_events.343" }
 	title = china_events.343.t

@@ -975,21 +975,21 @@ JAP_socialist_government = {
 		limit = { is_ruled_by_left_kmt = yes }
 		JAP = {
 			create_country_leader = {
-				name = "Nosaka Sanzō"
+				name = "Сандзо Носака"
 				desc = "JAP_nosaka_sanzo_leader_desc"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Nosaka_Sanzo.png"
 				expire = "1981.3.6"
 				ideology = tot_tridemism_subtype
 			}
 			create_country_leader = {
-				name = "Nosaka Sanzō"
+				name = "Сандзо Носака"
 				desc = "JAP_nosaka_sanzo_leader_desc"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Nosaka_Sanzo.png"
 				expire = "1981.3.6"
 				ideology = syndicalist_subtype
 			}
 			create_country_leader = {
-				name = "Nosaka Sanzō"
+				name = "Сандзо Носака"
 				desc = "JAP_nosaka_sanzo_leader_desc"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Nosaka_Sanzo.png"
 				expire = "1981.3.6"
@@ -1069,7 +1069,7 @@ JAP_socialist_government = {
 JAP_puppet_hirohito_initial_trait_effect = {
 	add_country_leader_trait = JAP_hirohito_defeat_trait
 	if = {	
-		limit = { has_country_leader = { name = "Hirohito" ruling_only = yes } }
+		limit = { has_country_leader = { name = "Хирохито" ruling_only = yes } }
 		set_country_leader_portrait = {
 			portrait = "gfx/leaders/JAP/Portrait_JAP_Hirohito_Civilian.png"
 		}
@@ -1099,11 +1099,11 @@ JAP_democratic_puppet_effect = {
 		hidden_effect = {
 			JAP_fading_sun = yes
 			if = {
-				limit = { has_country_leader = { name = "Hirohito" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Хирохито" ruling_only = yes } }
 				JAP_puppet_hirohito_initial_trait_effect = yes
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Yasuhito" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Ясухито" ruling_only = yes } }
 				JAP_regent_effect = yes
 			}
 			else = {
@@ -1278,9 +1278,9 @@ JAP_regent_effect = {
 	custom_effect_tooltip = JAP_hirohito_abdicate_tt
 	hidden_effect = {
 		if = {
-			limit = { has_country_leader = { name = "Hirohito" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Хирохито" ruling_only = yes } }
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1288,7 +1288,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1296,7 +1296,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1304,7 +1304,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1312,7 +1312,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1320,7 +1320,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"
@@ -1328,7 +1328,7 @@ JAP_regent_effect = {
 				traits = { JAP_regent_trait }
 			}
 			create_country_leader = {
-				name = "Takamatsu Nobuhito"
+				name = "Такамацу Нобухито"
 				desc = "POLITICS_NOBUHITO_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Takamatsu_Nobuhito.png"
 				expire = "1.1.1"

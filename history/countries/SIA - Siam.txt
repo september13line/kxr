@@ -59,25 +59,25 @@ if = {
 
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	coastal_defense_ships = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		coastal_defense_ships = 1
 
-	basic_naval_mines = 1
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_torpedo = 1
-	basic_light_battery = 1
-	smoke_generator = 1
+		## Modules##
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_light_battery = 1
+		smoke_generator = 1
 
-	### Transport ###
-	mtg_transport = 1
+		### Transport ###
+		mtg_transport = 1
 }
 
 set_stability = 0.55
@@ -168,14 +168,14 @@ country_event = { id = siam.34 days = 8649 } # Death of Chumbhotbongs Paribatra
 
 ######### List of Eligible Leader for Siam (King, Field Marshal, Revolutionary forces, ...) #############
 create_country_leader = { # Start Leader
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
 	ideology = oligarchy_subtype
 }
 create_country_leader = { # Republican National Populism - Plaek's Military Army
-	name = "Sarit Thanarat"
+	name = "Сарит Танарат"
 	desc = "POLITICS_SARIT_THANARAT_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 	expire = "1963.12.8"
@@ -183,23 +183,23 @@ create_country_leader = { # Republican National Populism - Plaek's Military Army
 	traits = {dictator }
 }
 create_country_leader = { # Republican National Populism - Plaek's Secret Police Army
-	name = "Phao Sriyanond"
+	name = "Пхао Шриянонд"
 	desc = "POLITICS_PHAO_SRIYANOND_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 	expire = "1960.11.21"
 	ideology = militarism_subtype
 	traits = {dictator }
 }
-create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-	name = "Plaek Phibunsongkhram"
+create_country_leader = { # Republican National Populism - Плек Пибунсонгкрам
+	name = "Плек Пибунсонгкрам"
 	desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 	expire = "1964.6.11"
 	ideology = militarism_subtype
 	traits = {dictator }
 }
-create_country_leader = { # Republican Totalism - Song Noppakul
-	name = "Song Noppakul"
+create_country_leader = { # Republican Totalism - Сон Ноппакул
+	name = "Сон Ноппакул"
 	desc = "POLITICS_SONG_NOPPAKUL_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Song_Noppakul.png"
 	expire = "2012.11.27"
@@ -207,50 +207,50 @@ create_country_leader = { # Republican Totalism - Song Noppakul
 	traits = { permanent_revolutionary }
 }
 create_country_leader = { # 
-	name = "Supha Sirimanon"
+	name = "Супха Сириманон"
 	picture = "gfx/leaders/SIA/Portrait_SIA_supha_sirimanon.png"
 	expire = "1983.5.2"
 	ideology = centralized_syndicalism_subtype
 }
-create_country_leader = { # Republican Totalism - Song Noppakul
-	name = "Song Noppakul"
+create_country_leader = { # Republican Totalism - Сон Ноппакул
+	name = "Сон Ноппакул"
 	desc = "POLITICS_SONG_NOPPAKUL_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Song_Noppakul.png"
 	expire = "2012.11.27"
 	ideology = moderate_socialist_subtype
 	traits = { permanent_revolutionary }
 }
-############ Rama VII Spam for 1936 starter ideology ##############
+############ Рама VII Spam for 1936 starter ideology ##############
 create_country_leader = { # Start Leader - Syndie leader add later?
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
 	ideology = socdem_democratic_socialism_subtype
 }
 create_country_leader = { # Start Leader
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
 	ideology = soclib_progressive_democracy_subtype
 }
 create_country_leader = { # Start Leader
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
 	ideology = free_market_capitalist_subtype
 }
 create_country_leader = { # Start Leader
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
 	ideology = moderate_authoritarianism_subtype
 }
 create_country_leader = { # Start Leader
-	name = "Rama VII"
+	name = "Рама VII"
 	desc = "POLITICS_RAMA_VII_DESC"
 	picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 	expire = "1941.5.30"
@@ -260,7 +260,7 @@ create_country_leader = { # Start Leader
 ### Miliary Commanders ###
 ## Field Marshal ##
 create_field_marshal = { # Boworadet, Apiratthamontri Sapha (R)(GER) -> resign after failed reform, possible Royalist commander
-	name = "Boworadet"
+	name = "Принц Боурадет"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Boworadet.png"
 	traits = { old_guard } # Obviously...
 	skill = 1
@@ -271,7 +271,7 @@ create_field_marshal = { # Boworadet, Apiratthamontri Sapha (R)(GER) -> resign a
 	id = 51411
 }
 create_field_marshal = { # Artillery, Mon Theater (P)(GER)
-	name = "Luang Phibunsongkhram"
+	name = "Луанг Пибунсонгкрам"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 	traits = { brilliant_strategist artillery_officer } # Dept of Artillery, Scholarship Boi
 	skill = 2
@@ -284,7 +284,7 @@ create_field_marshal = { # Artillery, Mon Theater (P)(GER)
 	id = 51400
 }
 create_field_marshal = { # Phayap Commander during Burma intervention,(N)(SIA)
-	name = "Luang Seriroengrit"
+	name = "Луанг Серироенгрит"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Charun_Rattanakun_Seriroengri.png"
 	traits = { organizer logistics_wizard } # Head of the Phayap Army OTL, Signal Dept.
 	skill = 2
@@ -296,7 +296,7 @@ create_field_marshal = { # Phayap Commander during Burma intervention,(N)(SIA)
 }
 ## Generals ##
 create_corps_commander = { # Artillery, "4 Musketeers+1" (N) (SIA)
-	name = "Phraya Phahonphonpayuhasena"
+	name = "Пхахон Пхаюхасена"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phaholponpayuhasena.png"
 	traits = { four_musketeers artillery_officer }
 	skill = 1
@@ -307,7 +307,7 @@ create_corps_commander = { # Artillery, "4 Musketeers+1" (N) (SIA)
 	id = 51409
 }
 create_corps_commander = { # "4 Musketeers+1" (R)(GER)
-	name = "Phraya Srisitthisongkhram"
+	name = "Пхрайя Сриситтхисонгкхрам"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phraya_Srisitthisongkhram.png"
 	traits = { four_musketeers brilliant_strategist }
 	skill = 2
@@ -320,7 +320,7 @@ create_corps_commander = { # "4 Musketeers+1" (R)(GER)
 	id = 51410
 }
 create_corps_commander = { # "4 Musketeers+1", Songsuradet's Accomplice, Artillery (N) (SIA)
-	name = "Phrayra Rithhi-arkaney"
+	name = "Пхрайра Ритхи-арканей"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Rithhi-arkaney.png"
 	traits = { four_musketeers artillery_officer trait_cautious }
 	skill = 1
@@ -331,7 +331,7 @@ create_corps_commander = { # "4 Musketeers+1", Songsuradet's Accomplice, Artille
 	id = 51412
 }
 create_corps_commander = { # "4 Musketeers+1", Siam's Weltkrieg-era force co-ordinator (P) (GER)
-	name = "Luang Prasartpitthayayuth"
+	name = "Луанг Прасартпиттхаяутх"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Luang_Prasartpitthayayuth.png"
 	traits = { four_musketeers war_hero skilled_staffer }
 	skill = 2
@@ -342,7 +342,7 @@ create_corps_commander = { # "4 Musketeers+1", Siam's Weltkrieg-era force co-ord
 	id = 51413
 }
 create_corps_commander = { # Plaek's Proponent, Shan Contact (N) (SIA)
-	name = "Luang Chumnanyutthasart"
+	name = "Луанг Чумнаньюттхасарт"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phin_Choonhavan.png"
 	traits = { politically_connected harsh_leader hill_fighter } # OTL mercilessly bomb the ship the captives were held
 	skill = 2
@@ -353,7 +353,7 @@ create_corps_commander = { # Plaek's Proponent, Shan Contact (N) (SIA)
 	id = 51402
 }
 create_corps_commander = { # "4 Musketeers+1", Engineer Corps, Eastern Army during WK (P) (GER)
-	name = "Phraya Songsuradet"
+	name = "Пья Сонгсурадет"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phraya_Songsuradet.png"
 	traits = { four_musketeers career_officer trait_engineer }
 	skill = 2
@@ -364,7 +364,7 @@ create_corps_commander = { # "4 Musketeers+1", Engineer Corps, Eastern Army duri
 	id = 51403
 }
 create_corps_commander = { # Artillery, Gendarme Commander, Pridi's Accomplice (P) (SIA)
-	name = "Luang Adulyadejchrat"
+	name = "Луанг Адульядет"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Adul_Adulyadejchrat.png"
 	traits = { politically_connected artillery_officer }
 	skill = 1
@@ -375,7 +375,7 @@ create_corps_commander = { # Artillery, Gendarme Commander, Pridi's Accomplice (
 	id = 51404
 }
 create_corps_commander = { # Isan HQ, Plaek, (N) (SIA)
-	name = "Luang Kriengsakpichit"
+	name = "Луанг Криенгсакпичит"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Luang_Kriengsakpichit.png"
 	traits = { infantry_officer }
 	skill = 2
@@ -386,7 +386,7 @@ create_corps_commander = { # Isan HQ, Plaek, (N) (SIA)
 	id = 51405
 }
 create_corps_commander = { # Pridi's Accomplice (P) (SIA)
-	name = "Luang Karjsongkhram"
+	name = "Луанг Карджсонгкхрам"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Luang_Karjsongkhram.png"
 	traits = { infantry_officer }
 	skill = 1
@@ -397,7 +397,7 @@ create_corps_commander = { # Pridi's Accomplice (P) (SIA)
 	id = 51406
 }
 create_corps_commander = { # (N) (SIA)
-	name = "Luang Promyothee"
+	name = "Луанг Промиоти"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Mangkorn_Promyothee.png"
 	traits = { career_officer infantry_officer }
 	skill = 1
@@ -408,7 +408,7 @@ create_corps_commander = { # (N) (SIA)
 	id = 51407
 }
 create_corps_commander = { # Southern Army HQ (N) (SIA)
-	name = "Luang Senanarong"
+	name = "Луанг Сенанаронг"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Luang_Senanarong.png"
 	traits = { infantry_officer jungle_rat }
 	skill = 1
@@ -421,7 +421,7 @@ create_corps_commander = { # Southern Army HQ (N) (SIA)
 
 ### Naval Commander ###
 create_navy_leader = {
-	name = "Luang Sinthusongkhramchai"
+	name = "Луанг Синтхусонгкхрамчай"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Sindhu_Kamolnavin.png"
 	traits = { blockade_runner }
 	skill = 2
@@ -431,7 +431,7 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 create_navy_leader = {
-	name = "Luang Thamrongnawasawat"
+	name = "Луанг Тхамронгнавасават"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Thawan_Thamrongnawasawat.png"
 	traits = { }
 	skill = 1
@@ -442,7 +442,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Phraya Witchitchollatee"
+	name = "Пхрайя Витчхоллати"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phraya_Witchitchollathi.png"
 	traits = { }
 	skill = 1
@@ -453,7 +453,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Phraya Wicharnjakkich"
+	name = "Пхрайя Вичарньяккич"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Phraya_Wichitjakkrit.png"
 	traits = { fly_swatter }
 	skill = 1
@@ -464,7 +464,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Phra Mongkolnavin"
+	name = "Пхра Монгколнавин"
 	portrait_path = "gfx/leaders/SIA/Portrait_Siam_Mongkol_Mongkolnavin.png"
 	traits = { }
 	skill = 1
@@ -478,7 +478,7 @@ create_navy_leader = {
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = "Jumkad Plangkoon"
+		name = "Джумкад Плангкун"
 		GFX = GFX_portrait_jumkad_plangkoon
 		traits = {
 			operative_well_groomed
@@ -488,7 +488,7 @@ if = {
 		nationalities = { SIA }
 	}
 	create_operative_leader = {
-		name = "Puey Ungphakorn"
+		name = "Пуэй Унгпхакорн"
 		GFX = GFX_portrait_puey_ungphakorn
 		traits = {
 			operative_linguist

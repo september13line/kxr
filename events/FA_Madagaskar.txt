@@ -17,7 +17,7 @@ country_event = { #
 		trigger = {
 			MAF = {
 				has_country_leader = {
-					name = "Reinhard Heydrich"
+					name = "Рейнхард Гейдрих"
 					ruling_only = yes
 				}
 			}
@@ -50,7 +50,7 @@ country_event = { #
 		ai_chance = { factor = 100 }
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Emil Maurice"
+			name = "Эмиль Морис"
 			desc = "POLITICS_MAURICE_DESC"
 			picture = "gfx/leaders/MAG/MAG_Emil_Maurice.png"
 			expire = "1.1.1"
@@ -68,7 +68,7 @@ country_event = { #
 		effect_tooltip = { remove_ideas = MAG_Mittelafrikan_Fleet }
 		TZN = {
 			create_navy_leader = {
-				name = "Reinhard Heydrich"
+				name = "Рейнхард Гейдрих"
 				portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 				traits = {}
 				skill = 2
@@ -79,7 +79,7 @@ country_event = { #
 				id = 36863
 			}
 			create_country_leader = {
-				name = "Reinhard Heydrich"
+				name = "Рейнхард Гейдрих"
 				desc = "POLITICS_HEYDRICH_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 				expire = "1.1.1"
@@ -233,7 +233,7 @@ country_event = { #Everything is Fucked what do we do
 			ideology = authoritarian_democrat
 		}
 		create_country_leader = {
-			name = "Abraham Schrameck"
+			name = "Абрахам Шрамек"
 			desc = "POLITICS_SCHRAMECK_DESC"
 			picture = "gfx/leaders/MAG/MAG_Abraham_Schrameck.png"
 			expire = "1.1.1"
@@ -312,7 +312,7 @@ country_event = { #Everything is Fucked thanks to Maurice
 			else_if = {
 				limit = { NFA = { is_faction_leader = yes } }
 				NFA = { add_to_faction = MAG }
-			}
+				}
 			}
 			MAG = {
 				set_popularities = {
@@ -720,7 +720,7 @@ country_event = { #Wow turns out not everyone was happy with the Jews taking ove
 				
 				### Leader
 				create_country_leader = {
-					name = "Razafinkeriefo I"
+					name = "Разафинкериефо I"
 					desc = "POLITICS_RAZAFINKERIEFO_DESC"
 					picture = "gfx/leaders/MAG/MAG_Marie-Louise_Razafinkeriefo.png"
 					expire = "1.1.1"
@@ -1008,14 +1008,14 @@ country_event = { #Return
 			is_subject_of = MAF
 			is_subject = no
 		}
-		has_country_leader = { ruling_only = yes name = "Abraham Schrameck" }
+		has_country_leader = { ruling_only = yes name = "Авраам Шрамек" }
 		NFA = {
 			OR = {
 				has_government = social_democrat
 				has_government = social_liberal
 				has_government = market_liberal
-                has_country_leader = { ruling_only = yes name = "François de la Rocque" }
-				has_country_leader = { ruling_only = yes name = "Charles Vallin" }
+                has_country_leader = { ruling_only = yes name = "Франсуа Де ля Рок" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Валлин" }
 			}
 			NOT = { has_completed_focus = NFA_napoleon_restoration }
 		}
@@ -1064,7 +1064,7 @@ country_event = { #Return
 				limit = { NFA = { is_faction_leader = yes } }
 				NFA = { add_to_faction = MAG }
 			}
-		}		
+		}	
 	}
 	option = { 
 		name = mag.27.b

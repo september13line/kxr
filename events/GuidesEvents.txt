@@ -46,13 +46,6 @@ country_event = { #USA Guides Event
 			factor = 100
 		}
 	}
-	option = { #Collapse
-		name = guides.1.g
-		country_event = guides.10
-		ai_chance = {
-			factor = 100
-		}
-	}
 	
 	option = { #NPP/PP
 		name = guides.1.h
@@ -952,6 +945,7 @@ country_event = { #COR Guides Event
 
 	option = { #
 		name = guides.36.a
+		country_event = guides.37
 		ai_chance = {
 			factor = 100
 		}
@@ -959,7 +953,31 @@ country_event = { #COR Guides Event
 	
 	option = { #
 		name = guides.36.b
-		country_event = guides.37
+		country_event = guides.377
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { #COR Guides Event
+	id = guides.377
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.377" }
+	title = guides.377.t
+	desc = guides.377.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.377.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = { #
+		name = guides.377.b
+		country_event = guides.36
 		ai_chance = {
 			factor = 100
 		}
@@ -1067,61 +1085,6 @@ country_event = { #GRE Guides Event
 
 	option = { #
 		name = guides.40.a
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-### Russia ###
-country_event = { #RUS Guides Event
-	id = guides.42
-	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.42" }
-	title = guides.42.t
-	desc = guides.42.d
-	picture = GFX_introduction_main
-
-	
-
-	is_triggered_only = yes
-
-	option = { #
-		name = guides.42.a
-		ai_chance = {
-			factor = 100
-		}
-	}
-	
-	option = { #
-		name = guides.42.b
-		country_event = guides.43
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-country_event = { #RUS Guides Event
-	id = guides.43
-	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.43" }
-	title = guides.43.t
-	desc = guides.43.d
-	picture = GFX_introduction_main
-
-	
-
-	is_triggered_only = yes
-
-	option = { #
-		name = guides.4.a
-
-		ai_chance = {
-			factor = 100
-		}
-	}
-	option = { #
-		name = guides.43.b
-		country_event = guides.76
 		ai_chance = {
 			factor = 100
 		}
@@ -1334,6 +1297,13 @@ country_event = { #NEE Guides Event
 			factor = 100
 		}
 	}
+	option = { #
+	name = guides.53.c
+	country_event = guides.755
+	ai_chance = {
+		factor = 100
+	}
+}
 }
 
 ### Mexico ###
@@ -1344,8 +1314,6 @@ country_event = { #MEX Guides Event
 	desc = guides.54.d
 	picture = GFX_introduction_main
 
-	
-
 	is_triggered_only = yes
 
 	option = { #
@@ -1353,31 +1321,181 @@ country_event = { #MEX Guides Event
 		ai_chance = {
 			factor = 100
 		}
+		country_event = guides.544
 	}
 	option = { #
 		name = guides.54.b
-		country_event = guides.145
 		ai_chance = {
 			factor = 100
 		}
+		country_event = guides.545
+	}
+	option = { #
+		name = guides.54.c
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.546
+	}
+	option = { #
+		name = guides.54.z
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.547
+	}
+	option = { #
+		name = guides.54.e
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.548
+	}
+	option = { #
+		name = guides.54.r
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.549
 	}
 }
-country_event = { #MEX Guides Event 2
-	id = guides.145
-	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.540" }
-	title = guides.145.t
-	desc = guides.145.d
-	picture = GFX_introduction_main
 
-	
+country_event = {
+	id = guides.544
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.544" }
+	title = guides.544.t
+	desc = guides.544.d
+	picture = GFX_introduction_main
 
 	is_triggered_only = yes
 
 	option = { #
-		name = guides.145.a
+		name = guides.544.a
 		ai_chance = {
 			factor = 100
 		}
+	}
+	option = { #
+		name = guides.544.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
+	}
+}
+country_event = {
+	id = guides.545
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.545" }
+	title = guides.545.t
+	desc = guides.545.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.545.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.545.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
+	}
+}
+country_event = {
+	id = guides.546
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.546" }
+	title = guides.546.t
+	desc = guides.546.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.546.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.546.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
+	}
+}
+country_event = {
+	id = guides.547
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.547" }
+	title = guides.547.t
+	desc = guides.547.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.547.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.547.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
+	}
+}
+country_event = {
+	id = guides.548
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.548" }
+	title = guides.548.t
+	desc = guides.548.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.548.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.548.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
+	}
+}
+country_event = {
+	id = guides.549
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.549" }
+	title = guides.549.t
+	desc = guides.549.d
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.549.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.549.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.54
 	}
 }
 
@@ -1435,6 +1553,26 @@ country_event = { #GEO Guides Event
 
 	option = { #
 		name = guides.57.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+### Norway ###
+country_event = { #NOR Guides Event
+	id = guides.58
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.58" }
+	title = guides.58.t
+	desc = guides.58.d
+	picture = GFX_introduction_main
+
+	
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.58.a
 		ai_chance = {
 			factor = 100
 		}
@@ -1781,19 +1919,25 @@ country_event = { #NEE Guides Event
 	}
 	option = { #
 		name = guides.75.b
-		country_event = guides.53
+		country_event = guides.755
 		ai_chance = {
 			factor = 100
 		}
 	}
+	option = { #
+	name = guides.75.c
+	country_event = guides.53
+	ai_chance = {
+		factor = 100
+	}
+}
 }
 
-### Socialist Russia ###
-country_event = { #SOV Guides Event
-	id = guides.76
-	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.76" }
-	title = guides.76.t
-	desc = guides.76.d
+country_event = { #NEE Guides Event
+	id = guides.755
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.755" }
+	title = guides.755.t
+	desc = guides.755.d
 	picture = GFX_introduction_main
 
 	
@@ -1801,40 +1945,15 @@ country_event = { #SOV Guides Event
 	is_triggered_only = yes
 
 	option = { #
-		name = guides.76.a
+		name = guides.755.a
+
 		ai_chance = {
 			factor = 100
 		}
 	}
 	option = { #
-		name = guides.76.b
-		ai_chance = {
-			factor = 100
-		}
-		country_event = guides.77
-	}
-	option = { #
-		name = guides.76.c
-		ai_chance = {
-			factor = 100
-		}
-		country_event = russoc.2000
-	}
-	
-}
-country_event = { #SOV Guides Event
-	id = guides.77
-	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.77" }
-	title = guides.77.t
-	desc = guides.77.d
-	picture = GFX_introduction_main
-
-	
-
-	is_triggered_only = yes
-
-	option = { #
-		name = guides.77.a
+		name = guides.755.b
+		country_event = guides.75
 		ai_chance = {
 			factor = 100
 		}
@@ -2128,6 +2247,34 @@ country_event = { #MON Guides Event
 			factor = 100
 		}
 	}
+	option = { #
+	    name = guides.90.b
+	    ai_chance = { base = 0 }
+	    country_event = guides.900
+	}
+}
+country_event = { #MON Guides Event 2
+	id = guides.900
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.900" }
+	title = guides.900.t
+	desc = guides.900.d
+	picture = GFX_introduction_main
+
+	
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.900.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+	    name = guides.900.b
+	    ai_chance = { base = 0 }
+	    country_event = guides.90
+	}
 }
 
 ### A.O.G. ###
@@ -2156,6 +2303,7 @@ country_event = { #UKR Guides Event
 	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.92" }
 	title = guides.92.t
 	desc = guides.92.d
+	picture = GFX_introduction_main
 	
 	is_triggered_only = yes
 
@@ -2173,6 +2321,7 @@ country_event = { #UKR Guides Event
 	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.921" }
 	title = guides.921.t
 	desc = guides.921.d
+	picture = GFX_introduction_main
 	
 	is_triggered_only = yes
 
@@ -2182,7 +2331,31 @@ country_event = { #UKR Guides Event
 	option = { #
 		name = guides.921.b
 		ai_chance = { base = 0 }
-		country_event = guides.92
+		country_event = guides.922
+	}
+	option = { #
+	name = guides.921.c
+	ai_chance = { base = 0 }
+	country_event = guides.92
+}
+}
+
+country_event = { #UKR Guides Event
+	id = guides.922
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.922" }
+	title = guides.922.t
+	desc = guides.922.d
+	picture = GFX_introduction_main
+	
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.922.a		
+	}
+	option = { #
+		name = guides.922.b
+		ai_chance = { base = 0 }
+		country_event = guides.921
 	}
 }
 
@@ -2417,9 +2590,41 @@ country_event = { #CZE Guides Event
 	
 
 	is_triggered_only = yes
+	
+	option = { #
+	    name = guides.104.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.104.b
+		country_event = guides.1044
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { #Bohemia Guide Event part 2
+	id = guides.1044
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1044" }
+	title = guides.1044.t
+	desc = guides.1044.d
+
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
 
 	option = { #
-		name = guides.104.a
+		name = guides.1044.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = { #
+		name = guides.1044.b
+		country_event = guides.104
 		ai_chance = {
 			factor = 100
 		}
@@ -2524,6 +2729,38 @@ country_event = { #NYC Guides Event
 			factor = 100
 		}
 	}
+	option = { #
+	name = guides.109.b
+	country_event = guides.1099
+	ai_chance = {
+		factor = 100
+	}
+}
+}
+country_event = { #NYC Guides Event
+	id = guides.1099
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1099" }
+	title = guides.1099.t
+	desc = guides.1099.d
+	picture = GFX_introduction_main
+
+	
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.1099.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+	name = guides.1099.b
+	country_event = guides.109
+	ai_chance = {
+		factor = 100
+	}
+}
 }
 ### Burma ###
 country_event = { #BRM Guides Event
@@ -2582,6 +2819,13 @@ country_event = { #CAN Guides Event
 		ai_chance = {
 			factor = 100
 		}
+	}
+	option = { #
+	    name = guides.1122.a
+	    country_event = guides.53
+	    ai_chance = {
+	    	factor = 100
+	    }
 	}
 }
 
@@ -2650,8 +2894,39 @@ country_event = { #NFA post lib Guides Event
 			factor = 100
 		}
 	}
+	option = { #
+		name = guides.115.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.1155
+	}
 }
+country_event = { #NFA post lib Guides Event
+	id = guides.1155
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1155" }
+	title = guides.1155.t
+	desc = guides.1155.d
+	picture = GFX_introduction_main
 
+	
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.1155.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.1155.b
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.115
+	}
+}
 country_event = { #IRE Guide Event
 	id = guides.116
 	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.116" }
@@ -3007,6 +3282,40 @@ country_event = { #USA Guide Event NPP/PP
 			factor = 100
 		}
 	}
+
+	option = { #
+	name = guides.133.c
+	country_event = guides.1333
+	ai_chance = {
+		factor = 100
+	}
+}
+}
+
+country_event = { #USA Guide Event NPP/PP
+	id = guides.1333
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1333" }
+	title = guides.1333.t
+	desc = guides.1333.d
+
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.1333.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = { #
+		name = guides.1333.b
+		country_event = guides.133
+		ai_chance = {
+			factor = 100
+		}
+	}
 }
 
 country_event = { #AFG Guide Event
@@ -3025,8 +3334,83 @@ country_event = { #AFG Guide Event
 			factor = 100
 		}
 	}
+	option = { #2
+	    name = guides.134.b
+		country_event = guides.1344
+		ai_chance = {
+			factor = 100
+		}
+   }
+   option = { #3
+	    name = guides.134.c
+		country_event = guides.1345
+		ai_chance = {
+			factor = 100
+		}
+   }
 }
+country_event = { #AFG Guide Event part 2
+	id = guides.1344
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1344" }
+	title = guides.1344.t
+	desc = guides.1344.d
 
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.1344.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.1344.b
+		country_event = guides.1345
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.1344.c
+		country_event = guides.134
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { #AFG Guide Event part 2
+	id = guides.1345
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.1345" }
+	title = guides.1345.t
+	desc = guides.1345.d
+
+	picture = GFX_introduction_main
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.1345.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.1345.b
+		country_event = guides.134
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.1345.c
+		country_event = guides.1344
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
 country_event = { #BRY Guide Event
 	id = guides.135
 	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.135" }

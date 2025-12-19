@@ -1,6 +1,8 @@
 RUS_civil_war_decisions = {
 	RCW_end_cw = {
-		icon = generic_agreement
+		icon = {
+			key = GFX_decision_SWI_consolidate_council_power
+		}
 		allowed = { 
 			OR =  {
 				tag = RRF
@@ -55,7 +57,7 @@ RUS_civil_war_decisions = {
 					NOT = { country_exists = KAR }
 				}
 			}
-			NOT = { 
+			NOT = {
 				country_exists = SIB 
 			}
 			if = {
@@ -218,7 +220,7 @@ RUS_civil_war_decisions = {
 					flag = RCW_begun
 					days > 30
 				}
-			}
+			}			
 			russian_civil_war = yes
 		}
 		visible = {
@@ -242,7 +244,7 @@ RUS_civil_war_decisions = {
 				}
 			}
 			else = {
-				has_global_flag = RCW_begun
+			has_global_flag = RCW_begun
 			}
 		}
 		cost = 0
@@ -324,7 +326,7 @@ RUS_civil_war_decisions = {
 						NOT = { has_country_flag = WHR_anarchists }
 						OR = {
 							has_socialist_government = yes
-							has_government = social_democrat							
+							has_government = social_democrat
 						}
 						is_subject = no
 						russian_civil_war = yes
@@ -346,15 +348,15 @@ RUS_civil_war_decisions = {
 			else_if = {
 				limit = {
 					tag = ALO					
-				}
+					}
 				country_event = rcw.32
-			}
+				}
 			else_if = {
 				limit = {
 					tag = KLY
 				}
 				country_event = rcw.267
-			}
+			}		
 			else_if = {
 				limit = {
 					tag = KUB
@@ -399,7 +401,7 @@ RUS_civil_war_decisions = {
 							NOT = { has_global_flag = RCW_SOV_RRF_peace }
 						}
 						AND = {
-							tag = TRM
+						tag = TRM
 							has_socialist_government = no
 						}
 					}
@@ -476,7 +478,7 @@ RUS_civil_war_decisions = {
 					KUB = { KUB_has_lineytsy = yes }
 				}
 				else = {
-					has_war_with = var:219:owner
+				has_war_with = var:219:owner
 				}
 				NOT = { has_war_with = ROOT }
 				is_in_faction = no
@@ -520,7 +522,7 @@ RUS_civil_war_decisions = {
 					limit = { tag = WHR }
 					OR = {
 						has_country_leader = {
-							name = "Stanisłaŭ Bułak-Bałachowič"
+							name = "Станислав Булак-Балахович"
 							ruling_only = yes
 						}
 						has_government = national_populist
@@ -529,7 +531,7 @@ RUS_civil_war_decisions = {
 				else_if = {
 					limit = { tag = KAR }
 					has_country_leader = {
-						name = "Yrjö Elfvengren"
+						name = "Юрьё Эльфенгрен"
 						ruling_only = yes
 					}
 					has_completed_focus = KAR_Establish_NRPR_Department
@@ -537,7 +539,7 @@ RUS_civil_war_decisions = {
 				else_if = {
 					limit = { tag = LAT }
 					has_country_leader = {
-						name = "Kārlis Goppers"
+						name = "Карлис Гоппер"
 						ruling_only = yes
 					}
 				}
@@ -737,7 +739,7 @@ RUS_civil_war_decisions = {
 					country_exists = WRA
 				}
 			}
-			has_war_with = TRM
+				has_war_with = TRM
 		}
 		cost = 0
 		fire_only_once = yes
@@ -1480,7 +1482,7 @@ RUS_civil_war_decisions = {
 		fire_only_once = no
 		days_remove = 6
 		cost = 0
-		on_map_mode = map_only		
+		on_map_mode = map_only 	
 		
 		state_target = yes
 		target_array = RUS.RUS_starting_states_array 
@@ -1504,8 +1506,8 @@ RUS_civil_war_decisions = {
 			highlight_state_targets = {
 				state = FROM
 			}
-		}		
-		
+		}
+	
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -1594,7 +1596,7 @@ RUS_civil_war_decisions = {
 				force_disable_resistance = { clear = yes }
 			}
 			if = {
-				limit = { 
+				limit = {
 					FROM = { state = 580 }
 				}
 				1200 = {
@@ -1622,7 +1624,7 @@ RUS_civil_war_decisions = {
 		}
 		available = {
 			RUS_siberian_insurgency_can_control_state = yes
-		}
+					}
 		cost = 50
 		days_remove = 5
 		fire_only_once = yes
@@ -1646,21 +1648,21 @@ RUS_civil_war_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_control_state_1 target: [From.GetName]"
 			FROM = {
-				set_demilitarized_zone = no
-				add_core_of = ROOT
+					set_demilitarized_zone = no
+					add_core_of = ROOT
 				remove_core_of = SIB
-				if = {
-					limit = { has_resistance = yes }
-					cancel_resistance = yes
+					if = {
+						limit = { has_resistance = yes }
+						cancel_resistance = yes
+					}
+					force_disable_resistance = { clear = yes }
 				}
-				force_disable_resistance = { clear = yes }
-			}
-			if = {
+					if = {
 				limit = {
 					FROM = { state = 570 }
-				}
+					}
 				every_owned_state = {
-					limit = {
+				limit = {
 						OR = {
 							state = 40
 							state = 1292
@@ -1669,7 +1671,7 @@ RUS_civil_war_decisions = {
 							state = 577
 							state = 1201
 						}
-					}
+				}
 					set_demilitarized_zone = no
 					add_core_of = ROOT
 					if = {
@@ -1678,7 +1680,7 @@ RUS_civil_war_decisions = {
 					}
 					force_disable_resistance = { clear = yes }
 				}
-			}			
+			}
 			else_if = {
 				limit = { 
 					FROM = { state = 566 }
@@ -1757,7 +1759,7 @@ RUS_civil_war_decisions = {
 			}
 			else = {				
 				every_owned_state = {
-					limit = {
+				limit = {
 						OR = {
 							state = 575
 							state = 576
@@ -1785,7 +1787,7 @@ RUS_civil_war_decisions = {
 			hidden_trigger = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Grigory Zinoviev"
+					name = "Григорий Зиновьев"
 				}
 			}
 		}
@@ -1983,13 +1985,13 @@ RUS_dealing_with_opposition = {
 		}
 		
 		ai_will_do = {
-			factor = 100			
+			factor = 100
 		}
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_socialist_resistance target: [From.GetName]"
 			hidden_effect = { add_command_power = -25 }
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_socialist_resistance target: [From.GetName]"
 			if = {
@@ -2044,7 +2046,7 @@ RUS_dealing_with_opposition = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_nationalist_resistance target: [From.GetName]"
 			hidden_effect = { add_command_power = -25 }
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_nationalist_resistance target: [From.GetName]"
 			if = {
@@ -2094,7 +2096,7 @@ RUS_dealing_with_opposition = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_monarchist_resistance target: [From.GetName]"
 			hidden_effect = { add_command_power = -25 }
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_monarchist_resistance target: [From.GetName]"
 			if = {
@@ -2138,7 +2140,7 @@ RUS_dealing_with_opposition = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_democrat_resistance target: [From.GetName]"
 			hidden_effect = { add_command_power = -25 }
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_fight_democrat_resistance target: [From.GetName]"
 			if = {

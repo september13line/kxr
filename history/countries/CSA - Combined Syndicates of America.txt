@@ -119,36 +119,36 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	ship_hull_super_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
+		### Transport ###
+		mtg_transport = 1
 }
 
 complete_special_project = {
@@ -168,9 +168,9 @@ CSA = {
 	add_ideas = extensive_conscription
 	}
 
-country_event = { id = csa.111 days = 130 }
-country_event = { id = csa.257 days = 3322 }
-country_event = { id = csa.6011 days = 1680 }
+	country_event = { id = csa.111 days = 130 }
+	country_event = { id = csa.257 days = 3322 }
+	country_event = { id = csa.6011 days = 1680 }
 country_event = { id = csa.6015 days = 75 }
 set_politics = {
 	ruling_party = syndicalist
@@ -192,24 +192,24 @@ set_popularities = {
     national_populist = 2
 }
 
-create_country_leader = {# William Haywood
-	name = "William Haywood"
+create_country_leader = {# Уильям Хейвуд
+	name = "Уильям Хейвуд"
 	desc = "POLITICS_BIG_BILL_HAYWOOD_DESC"
 	picture = "gfx/leaders/CSA/Portrait_CSA_William_Haywood.png"
 	expire = "1.1.1"
 	ideology = syndicalist_subtype
 	traits = {big_bill}
 }
-create_country_leader = {# William Haywood
-	name = "William Haywood"
+create_country_leader = {# Уильям Хейвуд
+	name = "Уильям Хейвуд"
 	desc = "POLITICS_BIG_BILL_HAYWOOD_DESC"
 	picture = "gfx/leaders/CSA/Portrait_CSA_William_Haywood.png"
 	expire = "1.1.1"
 	ideology = totalist_subtype
 	traits = {big_bill}
 }
-create_country_leader = {# William Haywood
-	name = "William Haywood"
+create_country_leader = {# Уильям Хейвуд
+	name = "Уильям Хейвуд"
 	desc = "POLITICS_BIG_BILL_HAYWOOD_DESC"
 	picture = "gfx/leaders/CSA/Portrait_CSA_William_Haywood.png"
 	expire = "1.1.1"
@@ -228,8 +228,8 @@ add_ideas = {
 ### Field Marshal
 
 ### Corps Commander
-create_corps_commander = {# Evans Carlson
-	name = "Evans Fordyce Carlson"
+create_corps_commander = {# Эванс Карлсон
+	name = "Эванс Фордайс Карлсон"
 	desc = "CSA_EVANS_CARLSON_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Evans_Carlson.png"
 	traits = {
@@ -245,8 +245,8 @@ create_corps_commander = {# Evans Carlson
 	logistics_skill = 3
 }
 
-create_corps_commander = {# Maurice Rose
-	name = "Maurice Rose"
+create_corps_commander = {# Морис Роуз
+	name = "Морис Роуз"
 	desc = "CSA_MAURICE_ROSE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Maurice_Rose.png"
 	traits = {
@@ -260,8 +260,8 @@ create_corps_commander = {# Maurice Rose
 	planning_skill = 2
 	logistics_skill = 3
 }
-create_corps_commander = {# Milton Wolff
-	name = "Milton Wolff"
+create_corps_commander = {# Милтон Вольф
+	name = "Милтон Вольф"
 	desc = "CSA_MILTON_WOLFF_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_milton_wolff.png"
 	traits = {
@@ -275,8 +275,8 @@ create_corps_commander = {# Milton Wolff
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Edward A. Carter Jr
-	name = "Edward A. Carter Jr."
+create_corps_commander = {# Эдвард А. Картер Jr
+	name = "Эдвард А. Картер мл."
 	desc = "CSA_EDWARD_CARTER_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_edward_carter.png"
 	traits = {
@@ -291,8 +291,8 @@ create_corps_commander = {# Edward A. Carter Jr
 	logistics_skill = 1
 }
 
-create_corps_commander = {# George H. Cannon
-	name = "George H. Cannon"
+create_corps_commander = {# Джордж Х. Кэннон
+	name = "Джордж Х. Кэннон"
 	desc = "CSA_GEORGE_H_CANNON_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_cannon.png"
 	traits = {
@@ -307,8 +307,8 @@ create_corps_commander = {# George H. Cannon
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Benjamin Katine
-	name = "Benjamin Katine"
+create_corps_commander = {# Бенджамин Катин
+	name = "Бенджамин Катин"
 	desc = "CSA_BENJAMIN_KATINE_ARMY_DESC"
 	id = 962
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_benjamin_katine.png"
@@ -319,8 +319,8 @@ create_corps_commander = {# Benjamin Katine
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# James Patrick Murphy
-	name = "James Patrick Murphy"
+create_corps_commander = {# Джеймс Патрик Мерфи
+	name = "Джеймс Патрик Мерфи"
 	desc = "CSA_JAMES_PATRICK_MURPHY_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_james_murphy.png"
 	traits = {
@@ -334,8 +334,8 @@ create_corps_commander = {# James Patrick Murphy
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# John Tisa
-	name = "John Tisa"
+create_corps_commander = {# Джон Тиса
+	name = "Джон Тиса"
 	desc = "CSA_JOHN_TISA_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_john_tisa.png"
 	traits = { militias_officer }
@@ -345,8 +345,8 @@ create_corps_commander = {# John Tisa
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Oliver Law
-	name = "Oliver Law"
+create_corps_commander = {# Оливер Лоу
+	name = "Оливер Лоу"
 	desc = "CSA_OLIVER_LAW_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Oliver_Law.png"
 	traits = {
@@ -359,8 +359,8 @@ create_corps_commander = {# Oliver Law
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Alvah Bessie
-	name = "Alvah Bessie"
+create_corps_commander = {# Альва Бесси
+	name = "Альва Бесси"
 	desc = "CSA_ALVAH_BESSIE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Alvah_Bessie.png"
 	traits = {
@@ -373,8 +373,8 @@ create_corps_commander = {# Alvah Bessie
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Bill Aalto
-	name = "Bill Aalto"
+create_corps_commander = {# Билл Аалто
+	name = "Билл Аалто"
 	desc = "CSA_BILL_AALTO_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Bill_Aalto.png"
 	traits = {
@@ -387,8 +387,8 @@ create_corps_commander = {# Bill Aalto
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Cecil Cole
-	name = "Cecil Cole"
+create_corps_commander = {# Сесил Кол
+	name = "Сесил Кол"
 	desc = "CSA_CECIL_COLE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Cecil_Cole.png"
 	traits = {
@@ -401,8 +401,8 @@ create_corps_commander = {# Cecil Cole
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# David Doran
-	name = "David Doran"
+create_corps_commander = {# Дэвид Доран
+	name = "Дэвид Доран"
 	desc = "CSA_DAVID_DORAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_David_Doran.png"
 	traits = {
@@ -414,8 +414,8 @@ create_corps_commander = {# David Doran
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Elliot Loomis
-	name = "Elliot Loomis"
+create_corps_commander = {# Эллиот Лумис
+	name = "Эллиот Лумис"
 	#desc = "CSA_CECIL_COLE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Elliot_Loomis.png"
 	traits = {
@@ -427,8 +427,8 @@ create_corps_commander = {# Elliot Loomis
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Eugene Nolte
-	name = "Eugene Nolte"
+create_corps_commander = {# Юджин Нольте
+	name = "Юджин Нольте"
 	#desc = "CSA_CECIL_COLE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Eugene_Nolte.png"
 	traits = {
@@ -440,8 +440,8 @@ create_corps_commander = {# Eugene Nolte
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Henry Mucci
-	name = "Henry Mucci"
+create_corps_commander = {# Генри Муччи
+	name = "Генри Муччи"
 	#desc = "CSA_CECIL_COLE_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Henry_Mucci.png"
 	traits = {
@@ -454,8 +454,8 @@ create_corps_commander = {# Henry Mucci
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Irving Goff
-	name = "Irving Goff"
+create_corps_commander = {# Ирвинг Гофф
+	name = "Ирвинг Гофф"
 	desc = "CSA_IRVING_GOFF_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Irving_Goff.png"
 	traits = {
@@ -469,8 +469,8 @@ create_corps_commander = {# Irving Goff
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Jack Shulman
-	name = "Jack Shulman"
+create_corps_commander = {# Джек Шульман
+	name = "Джек Шульман"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Jack_Shulman.png"
 	traits = {
@@ -484,8 +484,8 @@ create_corps_commander = {# Jack Shulman
 	logistics_skill = 1
 	id = 991
 }
-create_corps_commander = {# Jesse Wallach
-	name = "Jesse Wallach"
+create_corps_commander = {# Джесси Уоллах
+	name = "Джесси Уоллах"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Jesse_Wallach.png"
 	traits = {
@@ -498,8 +498,8 @@ create_corps_commander = {# Jesse Wallach
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Joe Luftig
-	name = "Joe Luftig"
+create_corps_commander = {# Джо Люфтиг
+	name = "Джо Люфтиг"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Joe_Luftig.png"
 	traits = {
@@ -512,8 +512,8 @@ create_corps_commander = {# Joe Luftig
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Nathan Wolf
-	name = "Nathan Wolf"
+create_corps_commander = {# Натан Вольф
+	name = "Натан Вольф"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Nathan_Wolf.png"
 	traits = {
@@ -526,8 +526,8 @@ create_corps_commander = {# Nathan Wolf
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Patrick Read
-	name = "Patrick Read"
+create_corps_commander = {# Патрик Рид
+	name = "Патрик Рид"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Patrick_Read.png"
 	traits = {
@@ -541,8 +541,8 @@ create_corps_commander = {# Patrick Read
 	logistics_skill = 2
 }
 
-create_corps_commander = {# William Oderaka
-	name = "William Oderaka"
+create_corps_commander = {# Уильям Одерака
+	name = "Уильям Одерака"
 	#desc = "CSA_JACK_SHULMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_William_Oderaka.png"
 	traits = {
@@ -555,8 +555,8 @@ create_corps_commander = {# William Oderaka
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Joseph Beyrle
-	name = "Joseph Beyrle"
+create_corps_commander = {# Джозеф Байерли
+	name = "Джозеф Байерли"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_joseph_beyrle.png"
 	traits = {
 		inflexible_strategist
@@ -570,8 +570,8 @@ create_corps_commander = {# Joseph Beyrle
 	logistics_skill = 3
 }
 
-create_corps_commander = {# Gus Hall
-	name = "Gus Hall "
+create_corps_commander = {# Гэс Холл
+	name = "Гэс Холл "
 	desc = "CSA_GUS_HALL_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_General_Gus_Hall.png"
 	traits = {
@@ -585,7 +585,7 @@ create_corps_commander = {# Gus Hall
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Robert Sharon Allen"
+	name = "Роберт Шэрон Аллен"
 	desc = "CSA_ROBERT_ALLEN_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Robert_Allen.png"
 	traits = {
@@ -599,7 +599,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "David Monroe Shoup"
+	name = "Дэвид Монро Шоуп"
 	desc = "CSA_DAVID_SHOUP_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_David_Shoup.png"
 	traits = {
@@ -615,7 +615,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "William H. Blizzard"
+	name = "Уильям Х. Близзард"
 	#desc = "CSA_BILL_BLIZZARD_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Bill_Blizzard_General.png"
 	traits = {
@@ -629,7 +629,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walter W. Waters"
+	name = "Уолтер У. Уотерс"
 	#desc = "CSA_BILL_BLIZZARD_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Walter_Waters.png"
 	traits = {
@@ -645,7 +645,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ernest Hemingway "
+	name = "Эрнест Хемингуэй "
 	#desc = "CSA_BILL_BLIZZARD_ARMY_DESC"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Ernest_Hemingway_General.png"
 	traits = {
@@ -663,7 +663,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Robert Hale Merriman"
+	name = "Роберт Хейл Мерримэн"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Robert_Hale_Merriman.png"
 	traits = {
 		militias_officer
@@ -678,7 +678,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {#
-	name = "Edward S. Michael"
+	name = "Эдвард С. Майкл"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_Edward_S_Michael.png"
 	traits = {
 		air_commander
@@ -691,7 +691,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {
-	name = "Samuel Dashiell Hammett "
+	name = "Дэшил Хэммет "
 	portrait_path = "gfx/leaders/CGL/Portrait_CGL_Samuel_Dashiell_Hammett_general.png"
 	traits = {
 		media_personality
@@ -708,8 +708,8 @@ create_corps_commander = {
 
 ### Navy Leader
 
-create_navy_leader = {# George Whelan Anderson Jr.
-	name = "George Whelan Anderson Jr."
+create_navy_leader = {# Джордж Уэлан Андерсон мл.
+	name = "Джордж Уэлан Андерсон мл."
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_george_anderson.png"
 	traits = {superior_tactician air_controller}
 	skill = 4
@@ -718,8 +718,8 @@ create_navy_leader = {# George Whelan Anderson Jr.
 	maneuvering_skill = 3
 	coordination_skill = 4
 }
-create_navy_leader = {# Hyman G. Rickover
-	name = "Hyman G. Rickover"
+create_navy_leader = {# Хайман Д. Риковер
+	name = "Хайман Д. Риковер"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_hyman_rickover.png"
 	traits = {
 		seawolf
@@ -731,8 +731,8 @@ create_navy_leader = {# Hyman G. Rickover
 	maneuvering_skill = 3
 	coordination_skill = 4
 }
-create_navy_leader = {# Hugh Mulzac
-	name = "Hugh Mulzac"
+create_navy_leader = {# Хью Мульзак
+	name = "Хью Мульзак"
 	portrait_path = "gfx/leaders/BBR/Portrait_BBR_Hugh_Mulzac.png"
 	traits = {blockade_runner}
 	skill = 2
@@ -741,8 +741,8 @@ create_navy_leader = {# Hugh Mulzac
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Willard J. Smith
-	name = "Willard J. Smith"
+create_navy_leader = {# Уиллард Дж. Смит
+	name = "Уиллард Дж. Смит"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_willard_smith.png"
 	traits = {fly_swatter}
 	skill = 2
@@ -751,8 +751,8 @@ create_navy_leader = {# Willard J. Smith
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Youngblood Nance
-	name = "Youngblood Nance"
+create_navy_leader = {# Янгблад Нэнс
+	name = "Янгблад Нэнс"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_youngblood_nance.png"
 	traits = {seawolf}
 	skill = 2
@@ -761,8 +761,8 @@ create_navy_leader = {# Youngblood Nance
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
-create_navy_leader = {# Arthur S. Carpender
-	name = "Arthur S. Carpender"
+create_navy_leader = {# Артур С. Карпендер
+	name = "Артур С. Карпендер"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_arthur_carpender.png"
 	traits = {ironside}
 	skill = 2
@@ -771,8 +771,8 @@ create_navy_leader = {# Arthur S. Carpender
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
-create_navy_leader = {# William R. Furlong
-	name = "William R. Furlong"
+create_navy_leader = {# Уильям Р. Фёрлонг
+	name = "Уильям Р. Фёрлонг"
 	portrait_path = "gfx/leaders/CSA/Portrait_CSA_william_furlong.png"
 	traits = {}
 	skill = 2
@@ -786,7 +786,7 @@ create_navy_leader = {# William R. Furlong
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = "Josephine Baker"
+		name = "Жозефина Бейкер"
 		GFX = GFX_portrait_kr_josephine_baker
 		traits = {
 			operative_infiltrator
@@ -798,7 +798,7 @@ if = {
 		nationalities = { CSA COR USA TEX CAL NEE WCC }
 	}
 	create_operative_leader = {
-		name = "Lucille Ball"
+		name = "Люсиль Болл"
 		GFX = GFX_portrait_lucille_ball
 		traits = {
 			operative_well_groomed
@@ -810,7 +810,7 @@ if = {
 		nationalities = { CSA COR USA TEX CAL NEE WCC }
 	}
 	create_operative_leader = {
-		name = "Lee Pressman"
+		name = "Ли Прессман"
 		GFX = GFX_portrait_lee_pressman
 		traits = {
 			operative_infiltrator
@@ -822,7 +822,7 @@ if = {
 		nationalities = { CSA COR USA TEX CAL NEE WCC }
 	}
 	create_operative_leader = {
-		name = "Mildred Gillars"
+		name = "Милдред Гилларс"
 		GFX = GFX_portrait_HOTB_Mildred_Gillars
 		traits = {
 			operative_natural_orator
@@ -834,7 +834,7 @@ if = {
 		nationalities = { CSA COR USA TEX CAL NEE WCC }
 	}
 	create_operative_leader = {
-		name = "Julius Rosenberg"
+		name = "Юлиус Розенберг"
 		GFX = GFX_portrait_HOTB_Julius_Rosenberg
 		traits = {
 			operative_infiltrator
@@ -844,7 +844,7 @@ if = {
 		nationalities = { CSA COR USA TEX CAL NEE WCC }
 	}
 	create_operative_leader = {
-		name = "Ethel Greenglass"
+		name = "Этель Розенберг"
 		GFX = GFX_portrait_HOTB_Ethel_Greenglass
 		traits = {
 			operative_infiltrator

@@ -12,16 +12,16 @@ set_technology = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
 }
 
 add_opinion_modifier = { target = DOM modifier = HAI_border_dispute }
@@ -66,14 +66,14 @@ country_event = { id = haiti.74 days = 750 } #Kap Ayisyen Renaissance
 country_event = { id =haiti.89 days = 370 } #Zombies
 
 create_country_leader = {
-	name = "Joseph Jolibois Fils"
+	name = "Жозеф Жолибуа Фильс"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Joseph_Jolibois_Fils.png"
 	expire = "1.1.1"
 	ideology = tot_noirism_subtype
 }
 
 create_country_leader = {
-	name = "Jacques Roumain"
+	name = "Жак Румен"
 	desc = "POLITICS_JACQUES_ROMAIN_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Jacques_Romain.png"
 	expire = "1.1.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Max Hudicourt"
+	name = "Макс Худикурт"
 	desc = "POLITICS_MAX_HUDICOURT_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Max_Hudincourt.png"
 	expire = "1.1.1"
@@ -91,7 +91,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Démosthènes Calixte"
+	name = "Демосфен Каликст"
 	desc = "POLITICS_DEMOSTHENES_CALIXTE"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Desmothenes_Calixte.png"
 	expire = "1.1.1"
@@ -100,7 +100,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean Price-Mars"
+	name = "Жан Прис-Марс"
 	desc = "POLITICS_JEAN_PRICE_MARS_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Jean_Price_Mars.png"
 	expire = "1.1.1"
@@ -109,7 +109,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Louis Déjoie"
+	name = "Луи Дежуа"
 	desc = "POLITICS_LOUIS_DEJOIE_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Louis_Dejoie.png"
 	expire = "1.1.1"
@@ -118,7 +118,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Stenio Vincent"
+	name = "Стенио Винсен"
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Stenio_Vincent.png"
 	expire = "1.1.1"
@@ -127,7 +127,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Louis Borno"
+	name = "Луи Борно"
 	desc = "POLITICS_LOUIS_BORNO_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Louis_Borno.png"
 	expire = "1.1.1"
@@ -136,7 +136,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Faustin E. Wirkus"
+	name = "Фостин Виркус"
 	desc = "POLITICS_FAUSTIN_MARINE_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Faustin_II_Military.png"
 	expire = "1.1.1"
@@ -145,7 +145,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carl Brouard"
+	name = "Карл Бруар"
 	desc = "POLITICS_CARL_BROUARD_DESC"
 	picture = "gfx/leaders/HAI/Portrait_Haiti_Carl_Brouard.png"
 	expire = "1.1.1"
@@ -154,7 +154,7 @@ create_country_leader = {
 
 ### Field Marshal
 create_field_marshal = {
-	name = "John Russell"
+	name = "Джон Расселл"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_John_Russell.png"
 	id = 1480
 	traits = {
@@ -170,7 +170,7 @@ create_field_marshal = {
 
 ### Corps Commander
 create_corps_commander = {
-	name = "Démosthènes Calixte "
+	name = "Демосфен Каликст "
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Desmothenes_Calixte_general.png"
 	id = 1482
 	traits = {
@@ -185,7 +185,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Franck Lavaud"
+	name = "Франк Лаво"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Franck_Lavaud.png"
 	id = 14821
 	traits = {
@@ -200,7 +200,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gerald Thomas"
+	name = "Джеральд Томас"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Gerald_Thomas.png"
 	id = 14822
 	traits = {		
@@ -216,7 +216,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Paul Magloire"
+	name = "Поль Маглуар"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Paul_Magloire.png"
 	id = 14823
 	traits = {
@@ -231,7 +231,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Faustin E. Wirkus "
+	name = "Фостин Виркус "
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Faustin_II_Military.png"
 	id = 14824
 	traits = {
@@ -247,7 +247,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alfred Auguste Nemours"
+	name = "Альфред Огюст Немур"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Alfred_Auguste_Nemours.png"
 	traits = {
 
@@ -260,7 +260,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Durcé Armand"
+	name = "Дюрсе Арман"
 	portrait_path = "gfx/leaders/HAI/Portrait_Haiti_Durce_Armand.png"
 	traits = {
 		media_personality 

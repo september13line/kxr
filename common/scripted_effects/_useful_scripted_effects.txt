@@ -158,20 +158,20 @@ clear_all_relations = {
 	every_other_country = {
 		if = {
 			limit = { has_guaranteed = ROOT }
-			diplomatic_relation = {
+		diplomatic_relation = {
 				country = ROOT
-				relation = guarantee
-				active = no
-			}
+			relation = guarantee
+			active = no
+		}
 		}
 		else_if = {
 			limit = { is_guaranteed_by = ROOT }
 			ROOT = {
-				diplomatic_relation = {
-					country = PREV
+		diplomatic_relation = {
+			country = PREV
 					relation = guarantee
-					active = no
-				}
+			active = no
+		}
 			}
 		}
 		if = {
@@ -185,11 +185,11 @@ clear_all_relations = {
 		if = {
 			limit = { has_military_access_to = ROOT }
 			ROOT = {
-				diplomatic_relation = {
-					country = PREV
+		diplomatic_relation = {
+			country = PREV
 					relation = military_access
-					active = no
-				}
+			active = no
+		}
 			}
 		}
 		if = {
@@ -198,23 +198,23 @@ clear_all_relations = {
 				country = ROOT
 				relation = military_access
 				active = no
-			}
 		}
-		diplomatic_relation = {
-			country = PREV
+		}
+			diplomatic_relation = {
+					country = PREV
 			relation = market_access_rights
-			active = no
-		}		
+				active = no
+			}
 		clear_embargo_PREV = yes
 	}
 	if = {
 		limit = { var:target = { is_ally_with = ENT } }
-		CAN_remove_from_iedc = yes
+	CAN_remove_from_iedc = yes	
 	}	
 	else_if = {
 		limit = { var:target = { is_ally_with = GER } }
-		GER_remove_from_mitteleuropa = yes
-		MIE_remove_from_intermarium = yes
+	GER_remove_from_mitteleuropa = yes
+	MIE_remove_from_intermarium = yes
 	}
 	else_if = {
 		limit = { var:target = { is_ally_with = RUS } }
@@ -420,8 +420,29 @@ clear_all_relations_with_TARGET = {
 		}
 	}
 	hidden_effect = {
-		every_other_country = {
-			limit = { is_ally_with = var:target }
+	every_other_country = {
+		limit = { is_ally_with = var:target }
+		diplomatic_relation = {
+			country = PREV
+			relation = guarantee
+			active = no
+		}
+		diplomatic_relation = {
+			country = PREV
+			relation = non_aggression_pact
+			active = no
+		}
+		diplomatic_relation = {
+			country = PREV
+			relation = military_access
+			active = no
+		}
+		diplomatic_relation = {
+			country = PREV
+			relation = market_access_rights
+			active = no
+		}
+		PREV = {
 			diplomatic_relation = {
 				country = PREV
 				relation = guarantee
@@ -429,34 +450,13 @@ clear_all_relations_with_TARGET = {
 			}
 			diplomatic_relation = {
 				country = PREV
-				relation = non_aggression_pact
-				active = no
-			}
-			diplomatic_relation = {
-				country = PREV
 				relation = military_access
 				active = no
 			}
-			diplomatic_relation = {
-				country = PREV
-				relation = market_access_rights
-				active = no
-			}
-			PREV = {
-				diplomatic_relation = {
-					country = PREV
-					relation = guarantee
-					active = no
-				}
-				diplomatic_relation = {
-					country = PREV
-					relation = military_access
-					active = no
-				}
-			}
-			clear_embargo_PREV = yes
 		}
+		clear_embargo_PREV = yes
 	}
+}
 }
 # clears all relations with PREV (won't remove from faction if not a faction leader, nor stop wars if not a valid target)
 clear_relations_with_PREV = {
@@ -1239,52 +1239,52 @@ clear_embargo_FROM = {
 remove_all_AI_templates = {
 	hidden_effect = {
 		if = {
-			limit = { has_template = "Cavalry Division" }
-			delete_unit_template_and_units = { division_template = "Cavalry Division" }
+			limit = { has_template = "Кавалерийская дивизия" }
+			delete_unit_template_and_units = { division_template = "Кавалерийская дивизия" }
 		}
 		if = {
-			limit = { has_template = "Police Division" }
-			delete_unit_template_and_units = { division_template = "Police Division" }
+			limit = { has_template = "Полицейская дивизия" }
+			delete_unit_template_and_units = { division_template = "Полицейская дивизия" }
 		}
 		if = {
-			limit = { has_template = "Anti-Tank Division" }
-			delete_unit_template_and_units = { division_template = "Anti-Tank Division" }
+			limit = { has_template = "Anti-Танковая дивизия" }
+			delete_unit_template_and_units = { division_template = "Anti-Танковая дивизия" }
 		}
 		if = {
-			limit = { has_template = "Marine Division" }
-			delete_unit_template_and_units = { division_template = "Marine Division" }
+			limit = { has_template = "Морская пехота" }
+			delete_unit_template_and_units = { division_template = "Морская пехота" }
 		}
 		if = {
-			limit = { has_template = "Mechanized Division" }
-			delete_unit_template_and_units = { division_template = "Mechanized Division" }
+			limit = { has_template = "Механизированная дивизия" }
+			delete_unit_template_and_units = { division_template = "Механизированная дивизия" }
 		}
 		if = {
-			limit = { has_template = "Heavy Armoured Division" }
-			delete_unit_template_and_units = { division_template = "Heavy Armoured Division" }
+			limit = { has_template = "Heavy Бронетанковая дивизия" }
+			delete_unit_template_and_units = { division_template = "Heavy Бронетанковая дивизия" }
 		}
 		if = {
-			limit = { has_template = "Medium Armoured Division" }
-			delete_unit_template_and_units = { division_template = "Medium Armoured Division" }
+			limit = { has_template = "Medium Бронетанковая дивизия" }
+			delete_unit_template_and_units = { division_template = "Medium Бронетанковая дивизия" }
 		}
 		if = {
-			limit = { has_template = "Modern Armoured Division" }
-			delete_unit_template_and_units = { division_template = "Modern Armoured Division" }
+			limit = { has_template = "Modern Бронетанковая дивизия" }
+			delete_unit_template_and_units = { division_template = "Modern Бронетанковая дивизия" }
 		}
 		if = {
-			limit = { has_template = "Motorized Division" }
-			delete_unit_template_and_units = { division_template = "Motorized Division" }
+			limit = { has_template = "Моторизованная дивизия" }
+			delete_unit_template_and_units = { division_template = "Моторизованная дивизия" }
 		}
 		if = {
-			limit = { has_template = "Mountaineer Division" }
-			delete_unit_template_and_units = { division_template = "Mountaineer Division" }
+			limit = { has_template = "Горная дивизия" }
+			delete_unit_template_and_units = { division_template = "Горная дивизия" }
 		}
 		if = {
 			limit = { has_template = "Paratroopers" }
 			delete_unit_template_and_units = { division_template = "Paratroopers" }
 		}
 		if = {
-			limit = { has_template = "Armoured Division" }
-			delete_unit_template_and_units = { division_template = "Armoured Division" }
+			limit = { has_template = "Бронетанковая дивизия" }
+			delete_unit_template_and_units = { division_template = "Бронетанковая дивизия" }
 		}
 	}
 }

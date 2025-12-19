@@ -135,7 +135,7 @@ country_event = {
 	trigger = {
 		tag = GUA
 		OR = {
-			has_global_flag = USA_civil_war_begun_flag
+		has_global_flag = USA_civil_war_begun_flag
 			has_global_flag = USA_civil_war_avoided_flag
 		}
 	}
@@ -888,14 +888,14 @@ country_event = {
 			modifier = {
 				factor = 0 
 				OR = {
-					has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_BLUENPP }
-					has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_REDNPP }
-				}
+				has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_BLUENPP }
+				has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_REDNPP }
 			}
+		}
 		}
 		set_politics = {
 			ruling_party = social_democrat
-		}
+			}
 		unlock_national_focus = GUA_prn_win
 		remove_all_ministers = yes
 		add_ideas = GUA_Juan_Jose_Arevalo_hog_sde
@@ -978,7 +978,7 @@ country_event = {
 				factor = 0 
 				OR = {
 					has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_PINKNPP }
-					has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_REDNPP }
+				has_game_rule = { rule = GUA_civilwar option = GUA_CIVILWAR_REDNPP }
 				}
 			}
 		}
@@ -1359,7 +1359,7 @@ country_event = {
 			ideology = paternal_autocrat
 			long_name = GUA_ubico_party_long
 			name = GUA_ubico_party
-		}
+			}
 	}
 
 	option = {
@@ -1368,7 +1368,7 @@ country_event = {
 		add_stability = 0.05
 		
 		create_country_leader = {
-			name = "Jorge I"
+			name = "Хорхе I"
 			desc = "POLITICS_UBICO_NAPOLEON_DESC"
 			picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Napoleon_III_LARP.png"
 			expire = "1.1.1"
@@ -1389,7 +1389,7 @@ country_event = {
 			ideology = authoritarian_democrat
 			long_name = GUA_ubico_party_long
 			name = GUA_ubico_party
-		}
+			}
 			
 		add_pataut_to_coalition = yes
 		
@@ -1418,7 +1418,7 @@ country_event = {
 		add_stability = 0.05
 		
 		create_country_leader = {
-			name = "Jorge I"
+			name = "Хорхе I"
 			desc = "POLITICS_UBICO_NAPOLEON_DESC"
 			picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Napoleon_III_LARP.png"
 			expire = "1.1.1"
@@ -1454,7 +1454,7 @@ country_event = {
 			ideology = social_conservative
 			long_name = GUA_ubico_party_long
 			name = GUA_ubico_party
-		}
+			}
 		
 		add_authdem_to_coalition = yes
 		
@@ -1478,7 +1478,7 @@ country_event = {
 		add_manpower = 50000
 		
 		create_corps_commander = {
-			name = "Charles de Gaulle "
+			name = "Шарль де Голль "
 			portrait_path = "gfx/leaders/NFA/Portrait_NFA_Charles_de_Gaulle.png"
 			traits = {
 				career_officer
@@ -1492,7 +1492,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Alphonse Juin"
+			name = "Альфонс Жюэн"
 			portrait_path = "gfx/leaders/NFA/Portrait_NFA_Alphonse_Juin.png"
 			traits = {
 				brilliant_strategist
@@ -1507,7 +1507,7 @@ country_event = {
 			logistics_skill = 4
 		}
 		create_corps_commander = {
-			name = "Maxime Weygand"
+			name = "Максим Вейган"
 			portrait_path = "gfx/leaders/NFA/Portrait_NFA_Maxime_Weygand.png"
 			traits = {
 				old_guard
@@ -1523,7 +1523,7 @@ country_event = {
 		}
 		
 		create_navy_leader = {
-			name = "François Darlan "
+			name = "Франсуа Дарлан "
 			portrait_path = "gfx/leaders/NFA/Portrait_NFA_Francois_Darlan.png"
 			traits = { superior_tactician }
 			skill = 3
@@ -1565,7 +1565,7 @@ country_event = {
 		add_stability = -0.05
 		
 		create_country_leader = {
-			name = "Charles de Gaulle"
+			name = "Шарль де Голль"
 			picture = "gfx/leaders/NFA/Portrait_NFA_Charles_de_Gaulle.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1638,7 +1638,7 @@ country_event = {
 		name = french_guatemala.5.b
 		
 		create_country_leader = {
-			name = "François Darlan"
+			name = "Франсуа Дарлан"
 			picture = "gfx/leaders/NFA/Portrait_NFA_Francois_Darlan.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1650,7 +1650,7 @@ country_event = {
 		name = french_guatemala.5.c
 		
 		create_country_leader = {
-			name = "Jean-Louis Tixier-Vignancour"
+			name = "Жан-Луи Тиксье-Виньянкур"
 			picture = "gfx/leaders/NFA/Portrait_NFA_Jean_Louis_Tixier_Vignancour.png"
 			expire = "1.1.1"
 			ideology = junta_subtype

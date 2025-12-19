@@ -181,7 +181,7 @@ country_event = { # Who to Ally with?
 	}
 }
 
-country_event = { # Redshirts try to kill you
+country_event = { # Who to Ally with?
 	id = yucatan.6
 	immediate = {log = "[GetDateText]: [Root.GetName]: event yucatan.5"}
 	title = yucatan.6.t
@@ -208,7 +208,7 @@ country_event = { # Redshirts try to kill you
 			}
 		}
 		create_corps_commander = {
-			name = "Tomás Garrido Canabal "
+			name = "Томас Гарридо Канабаль "
 			portrait_path = "gfx/leaders/YUC/Portrait_Yucatan_Tomas_Garrido_Canabal.png"
 			traits = { career_officer politically_connected }
 			skill = 1
@@ -239,7 +239,7 @@ country_event = { # Pataut or Authdem
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { #Authdem republic
+	option = { #
 		name = yucatan.7.a
 		ai_chance = {
 			factor = 25
@@ -264,7 +264,7 @@ country_event = { # Pataut or Authdem
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Salvador Alvarado"
+					name = "Сальвадор Альварадо"
 				}
 			}
 			set_country_leader_portrait = {
@@ -345,7 +345,7 @@ country_event = { # maya attempt a coup
 			}
 		}
 		create_corps_commander = {
-			name = "Francisco May Pech "
+			name = "Франсиско Май Печ "
 			portrait_path = "gfx/leaders/YUC/Portrait_YUC_FranciscoMay.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -395,7 +395,7 @@ country_event = { # both sides attempt coup
 			}
 		}
 		create_corps_commander = {
-			name = "Francisco May Pech "
+			name = "Франсиско Май Печ "
 			portrait_path = "gfx/leaders/YUC/Portrait_YUC_FranciscoMay.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -423,7 +423,7 @@ country_event = { # both sides attempt coup
 			}
 		}
 		create_corps_commander = {
-			name = "Tomás Garrido Canabal "
+			name = "Томас Гарридо Канабаль "
 			portrait_path = "gfx/leaders/YUC/Portrait_Yucatan_Tomas_Garrido_Canabal.png"
 			traits = { career_officer politically_connected }
 			skill = 1
@@ -982,7 +982,7 @@ country_event = { # YUC Joins
 		add_state_core = 1254
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Salvador Alvarado "
+				name = "Сальвадор Альварадо "
 				portrait_path = "gfx/leaders/YUC/Portrait_Yucatan_Salvador_Alvarado.png"
 				traits = { organizer old_guard }
 				skill = 2
@@ -992,7 +992,7 @@ country_event = { # YUC Joins
 				logistics_skill = 1
 			}
 			create_corps_commander = {
-				name = "Manuel Castilla Brito"
+				name = "Мануэль Кастилья Брито"
 				portrait_path = "gfx/leaders/YUC/Portrait_Manuel_Castilla_Brito.png"
 				traits = { trickster defensive_doctrine politically_connected }
 				skill = 3
@@ -1017,12 +1017,12 @@ country_event = { # Legacy of Pakal
 	option = { # Yay
 		name = yuc_flavor.1.a
 		add_political_power = 15
-		hidden_effect = {
-			country_event = {
-				id = yuc_flavor.2
-				days = 35
+		hidden_effect = {	
+				country_event = {
+					id = yuc_flavor.2
+					days = 35
+				}
 			}
-		}
 	}
 }
 
@@ -1043,20 +1043,20 @@ country_event = { # rebuilding city
 			}
 			set_country_flag = YUC_new_maya_capaital
 			set_capital = { 
-				state = 474 
-			}
+					   state = 474 
+				}
 		}
 		add_political_power = 15
 		set_victory_points = {
 			province = 14672
 			value = 30
-		}
-		hidden_effect = {
-			country_event = {
-				id = yuc_flavor.3
-				days = 80
 			}
-		}
+		hidden_effect = {	
+				country_event = {
+					id = yuc_flavor.3
+					days = 80
+				}
+			}
 	}
 }
 
@@ -1074,7 +1074,7 @@ country_event = { # rebuilding temple
 		set_victory_points = {
 			province = 14673
 			value = 15
-		}
+			}
 	}
 }
 
@@ -1155,14 +1155,14 @@ country_event = { # Chan Santa Cruz
 					has_country_flag = YUC_new_maya_capaital
 				}
 			}
-			set_capital = {
-				state = 1255
-			}
+			set_capital = { 
+					   state = 1255
+				}
 		}
 		set_victory_points = {
 			province = 13455
 			value = 25
-		}
+			}
 	}
 }
 country_event = { # myan revial but not extermsim
@@ -1327,8 +1327,8 @@ country_event = { # flavor in shit
 	option = { # Yay
 		name = yuc_flavor.19.a
 		ai_chance = { factor = 50 }
-		create_country_leader = {# Felipe Carrillo Puerto
-			name = "Elvia Carrillo Puerto"
+		create_country_leader = {# Фелипе Каррильо Пуэрто
+			name = "Эльвия Каррильо Пуэрто"
 			desc = "POLITICS_ELVIA_PUERTO_DESC"
 			picture = "gfx/leaders/YUC/Portrait_Yucatan_Elvia_Carrillo_Puerto.png"
 			expire = "1.1.1"
@@ -1541,9 +1541,9 @@ country_event = { # wriggly gum
 	option = { # Yay
 		name = yuc_flavor.34.a
 		add_offsite_building = {
-			type = arms_factory
-			level = 1
-		}
+				type = arms_factory
+				level = 1
+			}
 	}
 	option = { # Yay
 		name = yuc_flavor.34.b
@@ -1551,9 +1551,9 @@ country_event = { # wriggly gum
 	}
 	option = { # Yay
 		name = yuc_flavor.34.c
-		random_owned_state = {
-			add_extra_state_shared_building_slots = 1
-		}
+		random_owned_state = {	
+				add_extra_state_shared_building_slots = 1
+			}
 	}
 }
 country_event = { # welshman
@@ -1602,8 +1602,8 @@ country_event = { # new socdem guy
 	
 	option = { # Yay
 		name = yuc_flavor.37.b
-		create_country_leader = {# Álvaro Torre Díaz	
-			name = "Álvaro Torre Díaz"
+		create_country_leader = {# Альваро Торре Диас	
+			name = "Альваро Торре Диас"
 			desc = "POLITICS_ALAVRO_DIAZ_DESC"
 			picture = "gfx/leaders/YUC/Portrait_Yucatan_Alvaro_Diaz.png"
 			expire = "1.1.1"
@@ -1626,15 +1626,15 @@ country_event = { # Nemesio
 		ai_chance = { factor = 25 }
 		trigger = { has_completed_focus = YUC_new_ajaw }
 		create_country_leader = {
-			name = "Ah Suytok Tutul-Xiu II"
+			name = "Ах Суйток Тутул-Ксиу II"
 			picture = "gfx/leaders/YUC/Portrait_Yucatan_Don_Nemesio_Xiu.png"
 			expire = "1.1.1"
 			ideology = natpop_tribal_chiefdom_subtype
 			traits = {}
 		}
 		hidden_effect = {
-			set_country_flag = LEADER_GUI_VISIBLE
-			set_country_flag = MAY_PECH_VISIBLE
+		set_country_flag = LEADER_GUI_VISIBLE
+		set_country_flag = MAY_PECH_VISIBLE
 		}
 	}
 	option = { # Christian larp
@@ -1642,7 +1642,7 @@ country_event = { # Nemesio
 		ai_chance = { factor = 25 }
 		trigger = { has_completed_focus = YUC_chan_santa_cruz }
 		create_country_leader = {
-			name = "Maximón I"
+			name = "Максимон I"
 			picture = "gfx/leaders/YUC/Portrait_Yucatan_Don_Nemesio_Xiu.png"
 			expire = "1.1.1"
 			ideology = natpop_tribal_chiefdom_subtype
@@ -1657,7 +1657,7 @@ country_event = { # Nemesio
 		name = yuc_flavor.38.c
 		ai_chance = { factor = 30 }
 		create_country_leader = {
-			name = "Nemesio I"
+			name = "Немезио I"
 			picture = "gfx/leaders/YUC/Portrait_Yucatan_Don_Nemesio_Xiu.png"
 			expire = "1.1.1"
 			ideology = natpop_tribal_chiefdom_subtype

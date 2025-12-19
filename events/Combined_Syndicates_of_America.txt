@@ -522,7 +522,7 @@ country_event = { # Socialist Election Arrives
 		name = csa.1003.c
 		trigger = {
 			OR = {
-				check_variable = { CSA_browder > 1 }
+			check_variable = { CSA_browder > 1 }
 				AND = {
 					is_ai = yes
 					has_game_rule = {
@@ -541,7 +541,7 @@ country_event = { # Socialist Election Arrives
 			if = {
 				limit = {
 					BBR = {
-						has_country_leader = { ruling_only = yes name = "Harry Haywood"}
+						has_country_leader = { ruling_only = yes name = "Гарри Хейвуд"}
 					}
 				}
 				BBR = {
@@ -556,7 +556,7 @@ country_event = { # Socialist Election Arrives
 			add_ideas = CSA_Gus_Hall_eco_tot
 			add_ideas = CSA_Steve_Nelson_sec_tot
 			create_country_leader = {
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 				desc = "POLITICS_EARL_BROWDER_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Earl_Browder_Hat.png"
 				expire = "1.1.1"
@@ -627,7 +627,7 @@ country_event = { # Socialist Election Arrives
 		name = csa.1003.e
 		trigger = {
 			OR = {
-				check_variable = { CSA_burnham > 1 }
+			check_variable = { CSA_burnham > 1 }
 				AND = {
 					is_ai = yes
 					OR = {
@@ -664,7 +664,7 @@ country_event = { # Socialist Election Arrives
 			add_ideas = CSA_Frederick_L_Ackerman_eco_tot
 			add_ideas = CSA_Lawrence_Dennis_sec_tot 
 			create_country_leader = {
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 				desc = "POLITICS_JAMES_BURNHAM_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_James_Burnham.png"
 				expire = "1.1.1"
@@ -701,7 +701,7 @@ country_event = { # Socialist Election Arrives
 		if = {
 			limit = {
 				BBR = {
-					has_country_leader = { ruling_only = yes name = "Harry Haywood"}
+					has_country_leader = { ruling_only = yes name = "Гарри Хейвуд"}
 				}
 			}
 			BBR = {
@@ -728,7 +728,7 @@ country_event = { # Constitutional Convention begins
 		name = csa.1.a
 		hidden_effect = {
 			create_country_leader = {
-				name = "CSA Central Committee"
+				name = "Центральный комитет О.С.А"
 				desc = "POLITICS_CSA_CENTRAL_COMITTEE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_committee.png"
 				expire = "1.1.1"
@@ -738,7 +738,7 @@ country_event = { # Constitutional Convention begins
 				}
 			}
 			create_country_leader = {
-				name = "CSA Central Committee"
+				name = "Центральный комитет О.С.А"
 				desc = "POLITICS_CSA_CENTRAL_COMITTEE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_committee.png"
 				expire = "1.1.1"
@@ -748,7 +748,7 @@ country_event = { # Constitutional Convention begins
 				}
 			}
 			create_country_leader = {
-				name = "CSA Central Committee"
+				name = "Центральный комитет О.С.А"
 				desc = "POLITICS_CSA_CENTRAL_COMITTEE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_committee.png"
 				expire = "1.1.1"
@@ -1510,7 +1510,7 @@ country_event = { # Socialist Constitution - Election
 			add_ideas = CSA_Gus_Hall_eco_tot
 			add_ideas = CSA_Steve_Nelson_sec_tot
 			create_country_leader = {
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 				desc = "POLITICS_EARL_BROWDER_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Earl_Browder.png"
 				expire = "1.1.1"
@@ -1553,7 +1553,7 @@ country_event = { # Socialist Constitution - Election
 			if = {
 				limit = {
 					BBR = {
-						has_country_leader = { ruling_only = yes name = "Harry Haywood"}
+						has_country_leader = { ruling_only = yes name = "Гарри Хейвуд"}
 					}
 				}
 				BBR = {
@@ -1575,9 +1575,9 @@ country_event = { # Socialist Constitution - Election
 					option = CSA_POST_CIVIL_WAR_SYNDICALIST
 				}
 				has_game_rule = {
-					rule = CSA_post_civil_war
-					option = CSA_POST_CIVIL_WAR_TOTALIST_CAPONE
-				}
+						rule = CSA_post_civil_war
+						option = CSA_POST_CIVIL_WAR_TOTALIST_CAPONE
+					}
 				has_game_rule = {
 					rule = CSA_post_civil_war
 					option = CSA_POST_CIVIL_WAR_BROWDER
@@ -1611,7 +1611,7 @@ country_event = { # Socialist Constitution - Election
 			add_ideas = CSA_John_J_Ballam_eco_tot
 			add_ideas = CSA_Jack_Shulman_sec_tot
 			create_country_leader = {
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 				desc = "POLITICS_WILLIAM_FOSTER_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_William_Z_Foster_Hat.png"
 				expire = "1.1.1"
@@ -1656,7 +1656,7 @@ country_event = { # Socialist Constitution - Election
 			}
 		}
 	}
-	option = { # Totalist - James Burnham
+	option = { # Totalist - Джеймс Бернхем
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -1697,7 +1697,7 @@ country_event = { # Socialist Constitution - Election
 			add_ideas = CSA_Frederick_L_Ackerman_eco_tot
 			add_ideas = CSA_Lawrence_Dennis_sec_tot 
 			create_country_leader = {
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 				desc = "POLITICS_JAMES_BURNHAM_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_James_Burnham.png"
 				expire = "1.1.1"
@@ -1735,7 +1735,7 @@ country_event = { # Socialist Constitution - Election
 			if = {
 				limit = {
 					BBR = {
-						has_country_leader = { ruling_only = yes name = "Harry Haywood"}
+						has_country_leader = { ruling_only = yes name = "Гарри Хейвуд"}
 					}
 				}
 				BBR = {
@@ -1797,7 +1797,7 @@ country_event = { # Socialist Constitution - Election
 		set_country_flag = CSA_constitutional_convention_done
 		hidden_effect = {
 			create_country_leader = {
-				name = "Alphonse Capone"
+				name = "Альфонсе Капоне"
 				desc = "POLITICS_CAPONE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Alphonse_Capone.png"
 				expire = "1.1.1"
@@ -1844,8 +1844,8 @@ country_event = { # Trial of the ODP
 	option = {
 		name = csa.12.a
 		add_political_power = -100
-		create_corps_commander = {# Edward Almond
-		name = "Edward Almond"
+		create_corps_commander = {# Едвард Алмонд
+		name = "Едвард Алмонд"
 		desc = "TEX_EDWARD_ALMOND_ARMY_DESC"
 		portrait_path = "gfx/leaders/COR/Portrait_COR_Edward_Almond.png"
 		traits = {
@@ -1860,7 +1860,7 @@ country_event = { # Trial of the ODP
 		logistics_skill = 3
 	    }
 		create_corps_commander = {#
-		name = "Louise Thaden"
+		name = "Луиза Таден"
 		desc = "COR_LOUISE_THADEN_ARMY_DESC"
 		female = yes
 		portrait_path = "gfx/leaders/FSA/Portrait_FSA_Louise_Thaden.png"
@@ -1898,8 +1898,8 @@ country_event = { # Trial of the Old Federalist
 	option = { # Give mercy
 		name = csa.13.a
 		add_political_power = -100
-		create_corps_commander = { # Lucian Truscott
-			name = "Lucian Truscott"
+		create_corps_commander = { # Люциан Траскотт
+			name = "Люциан Траскотт"
 			portrait_path = "gfx/leaders/USA/Portrait_USA_gen_Lucian_Truscott.png"
 			traits = {
 				trait_engineer
@@ -1912,8 +1912,8 @@ country_event = { # Trial of the Old Federalist
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = { # James Garesche Ord
-			name = "James Garesche Ord"
+		create_corps_commander = { # Джеймс Гареш Орд
+			name = "Джеймс Гареш Орд"
 			portrait_path = "gfx/leaders/USA/Portrait_USA_james_ord.png"
 			traits = {
 				trait_reckless
@@ -1926,8 +1926,8 @@ country_event = { # Trial of the Old Federalist
 			planning_skill = 1
 			logistics_skill = 2
 		}
-		create_navy_leader = { # Ernest King
-			name = "Ernest King"
+		create_navy_leader = { # Эрнест Кинг
+			name = "Эрнест Кинг"
 			portrait_path = "gfx/leaders/USA/Portrait_USA_Ernest_King_Navy.png"
 			traits = {
 				blockade_runner
@@ -1989,7 +1989,7 @@ country_event = { # Architecture of the new America
 				limit = {
 				has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 				}
 			}
 			CSA = {
@@ -2044,7 +2044,7 @@ country_event = { # The New American Woman
 		NOT = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 	}
@@ -2159,7 +2159,7 @@ country_event = { # Education reform
 		NOT = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "John Dewey"
+				name = "Джон Дьюи"
 			}
 		}
 	}
@@ -2184,7 +2184,7 @@ country_event = { # Education reform (Dewey)
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "John Dewey"
+			name = "Джон Дьюи"
 		}
 	}
 
@@ -2267,7 +2267,7 @@ country_event = { # family law
 				limit = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "James Burnham"
+						name = "Джеймс Бернхем"
 					}
 				}
 				CSA = {
@@ -2308,7 +2308,7 @@ country_event = { # Centralist IWW Faction
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Jack Reed
+	option = { # Джек Рид
 		name = csa.25.a
 		set_country_flag = CSA_1940_iww_election_reed
 		add_ideas = {
@@ -2317,7 +2317,7 @@ country_event = { # Centralist IWW Faction
 				CSA_Lee_Pressman_sec_syn
 			}
 		create_country_leader = {
-			name = "Jack Reed"
+			name = "Джек Рид"
 			desc = "POLITICS_JACK_REED_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
 			expire = "1.1.1"
@@ -2337,7 +2337,7 @@ country_event = { # Centralist IWW Faction
 		}
 		custom_effect_tooltip = syn_de_leonism_subtype_swap_tt
 	}
-	option = { # James P. Cannon
+	option = { # Джеймс П. Кэннон
 		name = csa.25.b
 		set_country_flag = CSA_1940_iww_election_cannon
 		add_ideas = {
@@ -2346,7 +2346,7 @@ country_event = { # Centralist IWW Faction
 			    CSA_Martin_Abern_sec_syn
 			}
 		create_country_leader = {
-				name = "James P. Cannon"
+				name = "Джеймс П. Кэннон"
 				desc = "POLITICS_JAMES_CANNON_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_James_P_Cannon.png"
 				expire = "1.1.1"
@@ -2372,7 +2372,7 @@ country_event = { # Centralist IWW Faction
 		}
 		custom_effect_tooltip = syn_syn_internationalism_subtype_swap_tt
 	}
-	option = { # Arturo Giovannitti
+	option = { # Артуро Джованнитти
 		name = csa.25.c
 		set_country_flag = CSA_1940_iww_election_giovannitti
 		add_ideas = {
@@ -2381,7 +2381,7 @@ country_event = { # Centralist IWW Faction
 				CSA_Lee_Pressman_sec_syn
 			}
 		create_country_leader = {
-			name = "Arturo Giovannitti"
+			name = "Артуро Джованнитти"
 			desc = "POLITICS_ARTURO_GIOVANNITTI_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Arturo_Giovannitti.png"
 			expire = "1.1.1"
@@ -2403,7 +2403,7 @@ country_event = { # Centralist IWW Faction
 		}
 		custom_effect_tooltip = syn_syndicalist_subtype_swap_tt
 	}
-	option = { # Harry Bridges
+	option = { # Гарри Бриджес
 		name = csa.25.e
 		set_country_flag = CSA_1940_iww_election_bridges
 		add_ideas = {
@@ -2412,7 +2412,7 @@ country_event = { # Centralist IWW Faction
 				CSA_Eugene_Dennis_sec_syn
 			}
 		create_country_leader = {
-					name = "Harry Bridges"
+					name = "Гарри Бриджес"
 					desc = "POLITICS_HARRY_BRIDGES_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Harry_Bridges.png"
 					expire = "1.1.1"
@@ -2434,7 +2434,7 @@ country_event = { # Centralist IWW Faction
 		}
 		custom_effect_tooltip = syn_centralized_syndicalism_subtype_swap_tt
 	}
-	option = { # Elmer Allison
+	option = { # Элмер Эллисон
 		name = csa.25.f
 		set_country_flag = CSA_1940_iww_election_allison
 		add_ideas = {
@@ -2443,16 +2443,16 @@ country_event = { # Centralist IWW Faction
 				CSA_Eugene_Dennis_sec_syn
 			}
 		create_country_leader = {
-				name = "Elmer Allison"
+				name = "Элмер Эллисон"
 				desc = "POLITICS_ELMER_ALLISON_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Elmer_Allison.png"
 				expire = "1.1.1"
 				ideology = centralized_syndicalism_subtype
 				traits = {
 					CSA_the_toiler
+					}
 				}
-			}
-		set_politics = {
+			set_politics = {
 			ruling_party = syndicalist
 			election_frequency = 48
 			elections_allowed = yes
@@ -2483,7 +2483,7 @@ country_event = { # Orthodox Syndicalist Election
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Jack Reed
+	option = { # Джек Рид
 		name = csa.26.a
 		set_country_flag = CSA_1940_orthodox_election_reed
 		add_ideas = {
@@ -2492,7 +2492,7 @@ country_event = { # Orthodox Syndicalist Election
 				CSA_John_Abt_sec_syn
 			}
 		create_country_leader = {
-			name = "Jack Reed"
+			name = "Джек Рид"
 			desc = "POLITICS_JACK_REED_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
 			expire = "1.1.1"
@@ -2512,7 +2512,7 @@ country_event = { # Orthodox Syndicalist Election
 		}
 		custom_effect_tooltip = syn_syndicalist_subtype_swap_tt
 	}
-	option = { # Frank T. Johns
+	option = { # Фрэнк Т. Джонс
 		name = csa.26.b
 		set_country_flag = CSA_1940_orthodox_election_johns
 		add_ideas = {
@@ -2521,7 +2521,7 @@ country_event = { # Orthodox Syndicalist Election
 				CSA_John_Abt_sec_syn
 			}
 		create_country_leader = {
-			name = "Frank T. Johns"
+			name = "Фрэнк Т. Джонс"
 			desc = "POLITICS_FRANK_JOHNS_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Frank_T_Johns.png"
 			expire = "1.1.1"
@@ -2543,7 +2543,7 @@ country_event = { # Orthodox Syndicalist Election
 		}
 		custom_effect_tooltip = syn_de_leonism_subtype_swap_tt
 	}
-	option = { # Elizabeth Gurley Flynn
+	option = { # Элизабет Герли Флинн
 		name = csa.26.c
 		set_country_flag = CSA_1940_orthodox_election_flynn
 		add_ideas = {
@@ -2552,7 +2552,7 @@ country_event = { # Orthodox Syndicalist Election
 				CSA_John_Abt_sec_syn
 			}
 		create_country_leader = {
-				name = "Elizabeth Gurley Flynn"
+				name = "Элизабет Герли Флинн"
 				desc = "POLITICS_ELIZABETH_FLYNN_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Elizabeth_Gurley_Flynn.png"
 				expire = "1.1.1"
@@ -2575,7 +2575,7 @@ country_event = { # Orthodox Syndicalist Election
 		}
 		custom_effect_tooltip = syn_feminist_syndicalist_subtype_swap_tt
 	}
-	option = { # Robert Minor
+	option = { # Роберт Майнор
 		name = csa.26.e
 		set_country_flag = CSA_1940_orthodox_election_minor
 		add_ideas = {
@@ -2584,7 +2584,7 @@ country_event = { # Orthodox Syndicalist Election
 				CSA_John_Abt_sec_syn
 			}
 		create_country_leader = {
-				name = "Robert Minor"
+				name = "Роберт Майнор"
 				desc = "POLITICS_ROBERT_MINOR_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Robert_Minor.png"
 				expire = "1.1.1"
@@ -2615,7 +2615,7 @@ country_event = { # Orthodox Syndicalist Election
 				CSA_John_Abt_sec_syn
 			}
 		create_country_leader = {
-				name = "Paul Mattick"
+				name = "Пауль Маттик"
 				desc = "POLITICS_PAUL_MATTICK_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Paul_Mattick.png"
 				expire = "1.1.1"
@@ -2655,7 +2655,7 @@ country_event = { # Anarchist Election
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Emma Goldman
+	option = { # Эмма Гольдман
 		name = csa.27.a
 		add_ideas = {
 				CSA_Carlo_Tresca_for_syn
@@ -2663,7 +2663,7 @@ country_event = { # Anarchist Election
 				CSA_Salaria_Kea_sec_syn
 			}
 		create_country_leader = {
-			name = "Emma Goldman"
+			name = "Эмма Гольдман"
 			desc = "POLITICS_EMMA_GOLDMAN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Emma_Goldman.png"
 			expire = "1.1.1"
@@ -2677,7 +2677,7 @@ country_event = { # Anarchist Election
 		}
 		custom_effect_tooltip = syn_feminist_syndicalist_subtype_swap_tt
 	}
-	option = { # Dorothy Day
+	option = { # Дороти Дэй
 		name = csa.27.b
 		add_ideas = {
 				CSA_Carlo_Tresca_for_syn
@@ -2685,7 +2685,7 @@ country_event = { # Anarchist Election
 				CSA_Salaria_Kea_sec_syn
 			}
 		create_country_leader = {
-			name = "Dorothy Day"
+			name = "Дороти Дэй"
 			desc = "POLITICS_DOROTHY_DAY_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Dorothy_Day.png"
 			expire = "1.1.1"
@@ -2699,7 +2699,7 @@ country_event = { # Anarchist Election
 		}
 		custom_effect_tooltip = syn_christian_syndicalism_subtype_swap_tt
 	}
-	option = { # Modest Stein
+	option = { # Модест Штейн
 		name = csa.27.c
 		add_ideas = {
 				CSA_Carlo_Tresca_for_syn
@@ -2707,7 +2707,7 @@ country_event = { # Anarchist Election
 				CSA_Salaria_Kea_sec_syn
 			}
 		create_country_leader = {
-			name = "Modest Stein"
+			name = "Модест Штейн"
 			desc = "POLITICS_MODEST_STEIN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Modest_Stein.png"
 			expire = "1.1.1"
@@ -2767,11 +2767,11 @@ country_event = { # 1940 Election
 				days = 1242
 			}
 			if = { limit = { has_government = social_democrat }
-				country_event = {
-					id = csa.3250
-					days = 10
-				}
+			country_event = {
+				id = csa.3250
+				days = 10
 			}
+		}
 		}
 	}
 }
@@ -3075,11 +3075,11 @@ country_event = { # 1944 Election
 	immediate = {
 		hidden_effect = {
 			remove_all_ministers = yes
-			if = { # Eugene Dennis
+			if = { # Юджин Деннис
 				limit = { has_country_flag = CSA_1944_iww_primary_dennis }
 				
 				create_country_leader = {
-					name = "Eugene Dennis"
+					name = "Юджин Деннис"
 					desc = "POLITICS_EUGENE_DENNIS_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Eugene_Dennis.png"
 					expire = "1.1.1"
@@ -3089,11 +3089,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Arnold Petersen
+			if = { # Арнольд Петерсен
 				limit = { has_country_flag = CSA_1944_iww_primary_petersen }
 				
 				create_country_leader = {
-					name = "Arnold Petersen"
+					name = "Арнольд Петерсен"
 					desc = "POLITICS_PETERSEN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Arnold_Petersen.png"
 					expire = "1.1.1"
@@ -3103,11 +3103,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Elizabeth Nord
+			if = { # Элизабет Норд
 				limit = { has_country_flag = CSA_1944_iww_primary_nord }
 				
 				create_country_leader = {
-					name = "Elizabeth Nord"
+					name = "Элизабет Норд"
 					desc = "POLITICS_ELIZABETH_NORD_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Elizabeth_Nord.png"
 					expire = "1.1.1"
@@ -3118,11 +3118,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Louise Bryant
+			if = { # Луиза Брайант
 				limit = { has_country_flag = CSA_1944_iww_primary_bryant }
 				
 				create_country_leader = {
-					name = "Louise Bryant"
+					name = "Луиза Брайант"
 					desc = "POLITICS_BRYANT_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Louise_Bryant.png"
 					expire = "1.1.1"
@@ -3133,11 +3133,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Helen Keller
+			if = { # Хелен Келлер
 				limit = { has_country_flag = CSA_1944_iww_primary_keller }
 				
 				create_country_leader = {
-					name = "Helen Keller"
+					name = "Хелен Келлер"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Helen_Keller.png"
 					expire = "1.1.1"
 					ideology = syn_georgism_subtype
@@ -3147,11 +3147,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Sam Dolgoff
+			if = { # Сэм Долгофф
 				limit = { has_country_flag = CSA_1944_iww_primary_dolgoff }
 				
 				create_country_leader = {
-					name = "Sam Dolgoff"
+					name = "Сэм Долгофф"
 					desc = "POLITICS_DOLGOFF_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Sam_Dolgoff.png"
 					expire = "1.1.1"
@@ -3165,7 +3165,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_iww_primary_tresca }
 				
 				create_country_leader = {
-					name = "Carlo Tresca"
+					name = "Карло Треска"
 					desc = "POLITICS_CARLO_TRESCA_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Carlo_Tresca.png"
 					expire = "1.1.1"
@@ -3179,7 +3179,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_cio_primary_stedman }
 
 				create_country_leader = {
-					name = "Seymour Stedman"
+					name = "Сеймур Стедман"
 					desc = "POLITICS_SEYMOUR_STEDMAN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Seymour_Stedman.png"
 					expire = "1.1.1"
@@ -3189,11 +3189,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # William E. Rodriguez
+			if = { # Уильям Э. Родригес
 				limit = { has_country_flag = CSA_1944_cio_primary_rodriguez }
 
 				create_country_leader = {
-					name = "William E. Rodriguez"
+					name = "Уильям Э. Родригес"
 					desc = "POLITICS_WILLIAM_RODRIGUEZ_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_William_E_Rodriguez.png"
 					expire = "1.1.1"
@@ -3203,11 +3203,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Morris Hillquit
+			if = { # Моррис Хилквит
 				limit = { has_country_flag = CSA_1944_cio_primary_hilquit }
 
 				create_country_leader = {
-					name = "Morris Hillquit"
+					name = "Моррис Хилквит"
 					desc = "POLITICS_MORRIS_HILQUIT_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Morris_Hillquit.png"
 					expire = "1.1.1"
@@ -3221,7 +3221,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_cio_primary_cox }
 
 				create_country_leader = {
-					name = "James Renshaw Cox"
+					name = "Джеймс Реншоу Кокс"
 					desc = "POLITICS_JAMES_RENSHAW_COX_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_James_Renshaw_Cox.png"
 					expire = "1.1.1"
@@ -3235,7 +3235,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_afl_primary_hemingway }
 
 				create_country_leader = {
-					name = "Ernest Hemingway"
+					name = "Эрнест Хемингуэй"
 					desc = "POLITICS_HEMINGWAY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Ernest_Hemingway.png"
 					expire = "1.1.1"
@@ -3255,7 +3255,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_afl_primary_waters }
 
 				create_country_leader = {
-					name = "Walter Waters"
+					name = "Вальтер Уотерс"
 					desc = "POLITICS_WALTER_WATERS_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Walter_Waters.png"
 					expire = "1.1.1"
@@ -3265,11 +3265,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # George Meany
+			if = { # Джордж Мини
 				limit = { has_country_flag = CSA_1944_afl_primary_meany }
 
 				create_country_leader = {
-					name = "George Meany"
+					name = "Джордж Мини"
 					desc = "POLITICS_MEANY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_George_Meany.png"
 					expire = "1.1.1"
@@ -3283,7 +3283,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_afl_primary_murray }
 
 				create_country_leader = {
-					name = "Philip Murray"
+					name = "Филип Мюррей"
 					desc = "POLITICS_MURRAY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Philip_Murray.png"
 					expire = "1.1.1"
@@ -3293,11 +3293,11 @@ country_event = { # 1944 Election
 					}
 				}
 			}
-			if = { # Jacob Coxey
+			if = { # Philip Murray
 				limit = { has_country_flag = CSA_1944_afl_primary_coxey }
 
 				create_country_leader = {
-					name = "Jacob Coxey"
+					name = "Джейкоб Кокси"
 					desc = "POLITICS_COXEY_DESC"
 					picture = "gfx/leaders/CGL/Portrait_CGL_Jacob_Coxey.png"
 					expire = "1.1.1"
@@ -3311,7 +3311,7 @@ country_event = { # 1944 Election
 				limit = { has_country_flag = CSA_1944_afl_primary_blizzard }
 
 				create_country_leader = {
-					name = "Bill Blizzard"
+					name = "Билл Близзард"
 					desc = "POLITICS_BILL_BLIZZARD_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Bill_Blizzard.png"
 					expire = "1.1.1"
@@ -3471,7 +3471,7 @@ country_event = { # 1944 Election
 				limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Smedley Butler " 
+					name = "Смедли Батлер " 
 				}
 			    }
 				add_ideas = {
@@ -3553,7 +3553,7 @@ country_event = { # 1948 IWW/SLP Primary
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Eric Hass
+	option = { # Эрик Хасс
 		name = csa.31.a
 		hidden_effect = {
 			set_country_flag = CSA_1948_iww_primary_hass
@@ -3673,7 +3673,7 @@ country_event = { # 1948 AFL/SPA Primary
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Bayard Rustin
+	option = { # Баярд Растин
 		name = csa.32.a
 		hidden_effect = {
 			set_country_flag = CSA_1948_cio_primary_rustin
@@ -3835,11 +3835,11 @@ country_event = { # 1948 Election
 	immediate = {
 		hidden_effect = {
 			remove_all_ministers = yes
-			if = { # Eric Hass
+			if = { # Эрик Хасс
 				limit = { has_country_flag = CSA_1948_iww_primary_hass }
 				
 				create_country_leader = {
-					name = "Eric Hass"
+					name = "Эрик Хасс"
 					desc = "POLITICS_ERIC_HASS_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Eric_Hass.png"
 					expire = "1.1.1"
@@ -3849,11 +3849,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Elizabeth Nord
+			if = { # Элизабет Норд
 				limit = { has_country_flag = CSA_1948_iww_primary_nord }
 				
 				create_country_leader = {
-					name = "Elizabeth Nord"
+					name = "Элизабет Норд"
 					desc = "POLITICS_ELIZABETH_NORD_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Elizabeth_Nord.png"
 					expire = "1.1.1"
@@ -3864,11 +3864,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Sam Dolgoff
+			if = { # Сэм Долгофф
 				limit = { has_country_flag = CSA_1948_iww_primary_dolgoff }
 				
 				create_country_leader = {
-					name = "Sam Dolgoff"
+					name = "Сэм Долгофф"
 					desc = "POLITICS_DOLGOFF_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Sam_Dolgoff.png"
 					expire = "1.1.1"
@@ -3878,10 +3878,10 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Bayard Rustin
+			if = { # Баярд Растин
 				limit = { has_country_flag = CSA_1948_cio_primary_rustin }
 				create_country_leader = {
-					name = "Bayard Rustin"
+					name = "Баярд Растин"
 					desc = "POLITICS_BAYARD_RUSTIN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Bayard_Rustin.png"
 					expire = "1.1.1"
@@ -3891,10 +3891,10 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Darlington Hoopes
+			if = { # Дарлингтон Хупс
 				limit = { has_country_flag = CSA_1948_cio_primary_hoopes }
 				create_country_leader = {
-					name = "Darlington Hoopes"
+					name = "Дарлингтон Хупс"
 					desc = "POLITICS_DARLINGTON_HOOPES_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Darlington_Hoopes.png"
 					expire = "1.1.1"
@@ -3907,7 +3907,7 @@ country_event = { # 1948 Election
 			if = { # Maynard C. Krueger
 				limit = { has_country_flag = CSA_1948_cio_primary_krueger }
 				create_country_leader = {
-					name = "Maynard C. Krueger"
+					name = "Мейнард К. Крюгер"
 					desc = "POLITICS_MAYNARD_KRUEGER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Maynard_Krueger.png"
 					expire = "1.1.1"
@@ -3921,7 +3921,7 @@ country_event = { # 1948 Election
 				limit = { has_country_flag = CSA_1948_afl_primary_zeidler }
 
 				create_country_leader = {
-					name = "Frank Zeidler"
+					name = "Фрэнк Зайдлер"
 					desc = "POLITICS_ZEIDLER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Frank_Zeidler.png"
 					expire = "1.1.1"
@@ -3931,11 +3931,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Hugh Mulzac
+			if = { # Хью Мульзак
 				limit = { has_country_flag = CSA_1948_afl_primary_mulzac }
 
 				create_country_leader = {
-					name = "Hugh Mulzac"
+					name = "Хью Мульзак"
 					desc = "POLITICS_MULZAC_DESC"
 					picture = "gfx/leaders/BBR/Portrait_BBR_Hugh_Mulzac.png"
 					expire = "1.1.1"
@@ -3945,11 +3945,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # George Meany
+			if = { # Джордж Мини
 				limit = { has_country_flag = CSA_1948_afl_primary_meany }
 
 				create_country_leader = {
-					name = "George Meany"
+					name = "Джордж Мини"
 					desc = "POLITICS_MEANY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_George_Meany.png"
 					expire = "1.1.1"
@@ -3959,11 +3959,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Daniel Tobin
+			if = { # Дэниел Тобин
 				limit = { has_country_flag = CSA_1948_afl_primary_tobin }
 
 				create_country_leader = {
-					name = "Daniel Tobin"
+					name = "Дэниел Тобин"
 					desc = "POLITICS_TOBIN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Daniel_Tobin.png"
 					expire = "1.1.1"
@@ -3973,11 +3973,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Lucy Mason
+			if = { # Люси Мейсон
 				limit = { has_country_flag = CSA_1948_afl_primary_mason }
 
 				create_country_leader = {
-					name = "Lucy Mason"
+					name = "Люси Мейсон"
 					desc = "POLITICS_MASON_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Lucy_Mason.png"
 					expire = "1.1.1"
@@ -3987,11 +3987,11 @@ country_event = { # 1948 Election
 					}
 				}
 			}
-			if = { # Walter Reuther
+			if = { # Уолтер Рейтер
 				limit = { has_country_flag = CSA_1948_afl_primary_reuther }
 
 				create_country_leader = {
-					name = "Walter Reuther"
+					name = "Уолтер Рейтер"
 					desc = "POLITICS_REUTHER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Walter_Reuther.png"
 					expire = "1.1.1"
@@ -4493,10 +4493,10 @@ country_event = { # 1952 Election
 
 	immediate = {
 		hidden_effect = {
-			if = { # Eugene Dennis
+			if = { # Юджин Деннис
 				limit = { has_country_flag = CSA_1952_iww_primary_dennis }
 				create_country_leader = {
-					name = "Eugene Dennis"
+					name = "Юджин Деннис"
 					desc = "POLITICS_EUGENE_DENNIS_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Eugene_Dennis.png"
 					expire = "1.1.1"
@@ -4506,10 +4506,10 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # Henning A. Blomen
+			if = { # Хеннинг А. Бломен
 				limit = { has_country_flag = CSA_1952_iww_primary_blomen }
 				create_country_leader = {
-					name = "Henning A. Blomen"
+					name = "Хеннинг А. Бломен"
 					desc = "POLITICS_HENNING_BLOMEN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Henning_A_Blomen.png"
 					expire = "1.1.1"
@@ -4519,10 +4519,10 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # John Bernard
+			if = { # Джон Бернард
 				limit = { has_country_flag = CSA_1952_iww_primary_bernard }
 				create_country_leader = {
-					name = "John Bernard"
+					name = "Джон Бернард"
 					desc = "POLITICS_JOHN_BERNARD_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_John_Bernard.png"
 					expire = "1.1.1"
@@ -4532,10 +4532,10 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # Oakley C. Johnson
+			if = { # Окли К. Джонсон
 				limit = { has_country_flag = CSA_1952_cio_primary_johnson }
 				create_country_leader = {
-					name = "Oakley C. Johnson"
+					name = "Окли К. Джонсон"
 					desc = "POLITICS_OAKLEY_JOHNSON_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Oakley_C_Johnson.png"
 					expire = "1.1.1"
@@ -4545,10 +4545,10 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # Noam Chomsky
+			if = { # Ноам Хомский
 				limit = { has_country_flag = CSA_1952_cio_primary_chomsky }
 				create_country_leader = {
-					name = "Noam Chomsky"
+					name = "Ноам Хомский"
 					desc = "POLITICS_NOAM_CHOMSKY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Noam_Chomsky.png"
 					expire = "1.1.1"
@@ -4558,11 +4558,11 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # Daniel Hoan
+			if = { # Даниэль Хоан
 				limit = { has_country_flag = CSA_1952_afl_primary_hoan }
 
 				create_country_leader = {
-					name = "Daniel Hoan"
+					name = "Даниэль Хоан"
 					desc = "POLITICS_HOAN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Daniel_Hoan.png"
 					expire = "1.1.1"
@@ -4572,11 +4572,11 @@ country_event = { # 1952 Election
 					}
 				}
 			}
-			if = { # George Meany
+			if = { # Джордж Мини
 				limit = { has_country_flag = CSA_1952_afl_primary_meany }
 
 				create_country_leader = {
-					name = "George Meany"
+					name = "Джордж Мини"
 					desc = "POLITICS_MEANY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_George_Meany.png"
 					expire = "1.1.1"
@@ -4590,7 +4590,7 @@ country_event = { # 1952 Election
 				limit = { has_country_flag = CSA_1952_afl_primary_reuther }
 
 				create_country_leader = {
-					name = "Walter Reuther"
+					name = "Уолтер Рейтер"
 					desc = "POLITICS_REUTHER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Walter_Reuther.png"
 					expire = "1.1.1"
@@ -4604,7 +4604,7 @@ country_event = { # 1952 Election
 				limit = { has_country_flag = CSA_1952_afl_primary_alinsky }
 
 				create_country_leader = {
-					name = "Saul Alinsky"
+					name = "Саул Алинский"
 					desc = "POLITICS_ALINSKY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Saul_Alinsky.png"
 					expire = "1.1.1"
@@ -4618,7 +4618,7 @@ country_event = { # 1952 Election
 				limit = { has_country_flag = CSA_1952_afl_primary_hoffa}
 
 				create_country_leader = {
-					name = "Jimmy Hoffa"
+					name = "Джимми Хоффа"
 					desc = "POLITICS_HOFFA_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa_AFL.png"
 					expire = "1.1.1"
@@ -4751,7 +4751,7 @@ country_event = { # Head of State Election CENTRALIST IWW
 
 	is_triggered_only = yes
 
-	option = { # Arturo Giovannitti
+	option = { # Артуро Джованнитти
 		name = csa.37.a
 		trigger = {
 			has_government = syndicalist
@@ -4775,7 +4775,7 @@ country_event = { # Head of State Election CENTRALIST IWW
 		}
 		add_ideas = CSA_James_P_Cannon_hog_syn
 	}
-	option = { # Elizabeth Nord
+	option = { # Элизабет Норд
 		name = csa.37.c
 		trigger = {
 			has_government = radical_socialist
@@ -4786,7 +4786,7 @@ country_event = { # Head of State Election CENTRALIST IWW
 		}
 		add_ideas = CSA_Elizabeth_Nord_hog_syn
 	}
-	option = { # Eugene Dennis
+	option = { # Юджин Деннис
 		name = csa.37.e
 		trigger = {
 			has_government = syndicalist
@@ -4797,7 +4797,7 @@ country_event = { # Head of State Election CENTRALIST IWW
 		}
 		add_ideas = CSA_Eugene_Dennis_hog_syn
 	}
-	option = { # Harry Bridges
+	option = { # Гарри Бриджес
 		name = csa.37.f
 		trigger = {
 			has_government = syndicalist
@@ -4820,7 +4820,7 @@ country_event = { # Head of State Election ORTHODOX IWW
 
 	is_triggered_only = yes
 
-	option = { # Elizabeth Gurley Flynn
+	option = { # Элизабет Герли Флинн
 		name = csa.3700.a
 		trigger = {
 			has_government = syndicalist
@@ -4843,7 +4843,7 @@ country_event = { # Head of State Election ORTHODOX IWW
 		}
 		add_ideas = CSA_Henning_A_Blomen_hog_syn
 	}
-	option = { # Robert Minor
+	option = { # Роберт Майнор
 		name = csa.3700.c
 		trigger = {
 			has_government = syndicalist
@@ -4877,7 +4877,7 @@ country_event = { # Head of State Election RADSOCS
 		}
 		add_ideas = CSA_Theresa_Malkiel_hog_rso
 	}
-	option = { # Bayard Rustin
+	option = { # Баярд Растин
 		name = csa.3702.b
 		trigger = {
 			has_government = radical_socialist
@@ -4888,7 +4888,7 @@ country_event = { # Head of State Election RADSOCS
 		}
 		add_ideas = CSA_Bayard_Rustin_hog_rso
 	}
-	option = { # Daniel Hoan
+	option = { # Даниэль Хоан
 		name = csa.3702.c
 		trigger = {
 			has_government = radical_socialist
@@ -4899,7 +4899,7 @@ country_event = { # Head of State Election RADSOCS
 		}
 		add_ideas = CSA_Daniel_Hoan_hog_rso
 	}
-	option = { # Meyer London
+	option = { # Мейер Лондон
 		name = csa.3702.e
 		trigger = {
 			has_government = radical_socialist
@@ -4933,7 +4933,7 @@ country_event = { # Head of State Election SOCDEM
 		}
 		add_ideas = CSA_Matthew_Woll_hog_sde
 	}
-	option = { # George Meany
+	option = { # Джордж Мини
 		name = csa.3703.b
 		trigger = {
 			has_government = social_democrat
@@ -4966,7 +4966,7 @@ country_event = { # Head of State Election[1944]
 
 	is_triggered_only = yes
 
-	option = { # Harry Bridges
+	option = { # Гарри Бриджес
 		name = csa.38.a
 		trigger = {
 			has_government = syndicalist
@@ -4978,7 +4978,7 @@ country_event = { # Head of State Election[1944]
 		}
 		add_ideas = CSA_Harry_Bridges_hog_syn
 	}
-	option = { # Elizabeth Nord
+	option = { # Элизабет Норд
 		name = csa.38.b
 		trigger = {
 			has_government = syndicalist
@@ -4989,7 +4989,7 @@ country_event = { # Head of State Election[1944]
 		}
 		add_ideas = CSA_Elizabeth_Nord_hog_syn
 	}
-	option = { # Daniel Hoan
+	option = { # Даниэль Хоан
 		name = csa.38.c
 		trigger = {
 			has_government = radical_socialist
@@ -5000,7 +5000,7 @@ country_event = { # Head of State Election[1944]
 		}
 		add_ideas = CSA_Daniel_Hoan_hog_rso
 	}
-	option = { # Darlington Hoopes
+	option = { # Дарлингтон Хупс
 		name = csa.38.e
 		trigger = {
 			has_government = radical_socialist
@@ -5033,7 +5033,7 @@ country_event = { # Head of State Election[1948]
 		}
 		add_ideas = CSA_Henning_A_Blomen_hog_syn
 	}
-	option = { # James P. Cannon
+	option = { # Джеймс П. Кэннон
 		name = csa.39.b
 		trigger = {
 			has_government = syndicalist
@@ -5044,7 +5044,7 @@ country_event = { # Head of State Election[1948]
 		}
 		add_ideas = CSA_James_P_Cannon_hog_syn
 	}
-	option = { # Morris Hillquit
+	option = { # Моррис Хилквит
 		name = csa.39.c
 		trigger = {
 			has_government = radical_socialist
@@ -5055,7 +5055,7 @@ country_event = { # Head of State Election[1948]
 		}
 		add_ideas = CSA_Morris_Hillquit_hog_rso
 	}
-	option = { # Seymour Stedman
+	option = { # Сеймур Стедман
 		name = csa.39.e
 		trigger = {
 			has_government = radical_socialist
@@ -5077,7 +5077,7 @@ country_event = { # Head of State Election[1952]
 
 	is_triggered_only = yes
 
-	option = { # Eugene Dennis
+	option = { # Юджин Деннис
 		name = csa.40.a
 		trigger = {
 			has_government = syndicalist
@@ -5112,7 +5112,7 @@ country_event = { # Head of State Election[1952]
 		}
 		add_ideas = CSA_Theresa_Malkiel_hog_rso
 	}
-	option = { # Bayard Rustin
+	option = { # Баярд Растин
 		name = csa.40.e
 		trigger = {
 			has_government = radical_socialist
@@ -5137,7 +5137,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		}
 	}
@@ -5146,7 +5146,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 		}
 	}
@@ -5155,7 +5155,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 	}
@@ -5168,15 +5168,15 @@ country_event = { # Appointing a Second in Command
 		OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 	}
@@ -5190,28 +5190,28 @@ country_event = { # Appointing a Second in Command
 			OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		    }
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = CSA_John_J_Ballam_hog_tot
 	}
-	option = { # James W. Ford
+	option = {
 		name = csa.50.b
 		trigger = {
 			OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		    }
 		}
@@ -5224,40 +5224,40 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = CSA_Jack_Shulman_hog_tot
 	}
-	option = { # Jay Fox
+	option = { # Уильям Вайнстоун
 		name = csa.50.e
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = CSA_Jay_Fox_hog_tot
 	}
-	option = { # William Weinstone
+	option = { # Макс Бедахт
 		name = csa.50.f
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Эрл Браудер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = CSA_William_Weinstone_hog_tot
 	}
-	option = { # Israel Amter
+	option = { # Джеймс В. Форд
 		name = csa.50.g
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Эрл Браудер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5268,7 +5268,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5280,7 +5280,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5291,7 +5291,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5302,7 +5302,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5314,7 +5314,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5325,7 +5325,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5336,7 +5336,7 @@ country_event = { # Appointing a Second in Command
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -5730,7 +5730,7 @@ country_event = { # Ministers are sent on vacation(aka killed)
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Z. Foster"
+				name = "Уильям З. Фостер"
 			}
 		}
 	}
@@ -5739,7 +5739,7 @@ country_event = { # Ministers are sent on vacation(aka killed)
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Earl Browder"
+				name = "Эрл Браудер"
 			}
 		}
 	}
@@ -5895,7 +5895,7 @@ country_event = { # Butler's Coup
 		set_country_flag = CSA_butlers_counter_coup
 		remove_all_ministers = yes
 		create_country_leader = {
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 			desc = "POLITICS_SMEDLY_BUTLER_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_G.png"
 			expire = "1.1.1"
@@ -5947,7 +5947,7 @@ country_event = { # Restoring Democracy
 		has_government = radical_socialist
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 	}
 
@@ -5966,7 +5966,7 @@ country_event = { # Restoring Democracy
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Smedley Butler "
+					name = "Смедли Батлер "
 					desc = "POLITICS_PRESIDENT_SMEDLY_BUTLER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_C.png"
 					expire = "1.1.1"
@@ -5974,7 +5974,7 @@ country_event = { # Restoring Democracy
 					traits = { CSA_maverick_marine }
 				}
 				create_country_leader = {
-					name = "Smedley Butler "
+					name = "Смедли Батлер "
 					desc = "POLITICS_PRESIDENT_SMEDLY_BUTLER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_C.png"
 					expire = "1.1.1"
@@ -5982,7 +5982,7 @@ country_event = { # Restoring Democracy
 					traits = { CSA_maverick_marine }
 				}
 				create_country_leader = {
-					name = "Smedley Butler "
+					name = "Смедли Батлер "
 					desc = "POLITICS_PRESIDENT_SMEDLY_BUTLER_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_C.png"
 					expire = "1.1.1"
@@ -6043,7 +6043,7 @@ country_event = { # Butler's Cabinet
 		has_government = radical_socialist
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 	}
 
@@ -6092,7 +6092,7 @@ country_event = { # Prohibition
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 	}
 
@@ -6132,7 +6132,7 @@ country_event = { # Aid for Veterans
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 	}
 
@@ -6200,7 +6200,7 @@ country_event = { # Foreign Policy
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 		FRA = {
 			OR = {
@@ -6261,7 +6261,7 @@ country_event = { # Foreign Policy
 		has_government = radical_socialist
 		has_country_leader = {
 			ruling_only = yes
-			name = "Smedley Butler"
+			name = "Смедли Батлер"
 		}
 		FRA = {
 			has_government = totalist		
@@ -6357,7 +6357,7 @@ country_event = { # Reactions to the Black Belt
 		tag = CSA
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Z. Foster"
+			name = "Уильям З. Фостер"
 		}
 		has_country_flag = CSA_black_belt_created
 		has_government = totalist
@@ -6681,7 +6681,7 @@ country_event = { # Bellamy Clubs
 	}
 }
 
-country_event = { # Paul Robeson Takes A World Tour
+country_event = { # Поль Робсон Takes A World Tour
 	id = csa.85
 	immediate = {log = "[GetDateText]: [Root.GetName]: event csa.85"}
 	title = csa.85.t
@@ -6721,8 +6721,8 @@ country_event = { # Anthem for the new America
 		text = csa.87.d.nocapone
 		trigger = {
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "Alphonse 'Al' Capone" }
-				has_country_leader = { ruling_only = yes name = "Alphonse Capone" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе «Аль» Капоне" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе Капоне" }
 			}
 		}
 	}
@@ -6730,8 +6730,8 @@ country_event = { # Anthem for the new America
 		text = csa.87.d.capone
 		trigger = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alphonse 'Al' Capone" }
-				has_country_leader = { ruling_only = yes name = "Alphonse Capone" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе «Аль» Капоне" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе Капоне" }
 			}
 		}
 	}
@@ -6743,7 +6743,7 @@ country_event = { # Anthem for the new America
 				limit = {
 				has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 				}
 			}
 			CSA = {
@@ -6762,8 +6762,8 @@ country_event = { # Anthem for the new America
 	option = {
 		trigger = { 
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alphonse 'Al' Capone" }
-				has_country_leader = { ruling_only = yes name = "Alphonse Capone" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе «Аль» Капоне" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе Капоне" }
 			}
 		}
 		name = csa.87.a
@@ -6773,8 +6773,8 @@ country_event = { # Anthem for the new America
 		name = csa.87.b
 		trigger = { 
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alphonse 'Al' Capone" }
-				has_country_leader = { ruling_only = yes name = "Alphonse Capone" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе «Аль» Капоне" }
+				has_country_leader = { ruling_only = yes name = "Альфонсе Капоне" }
 			}
 		}
 		add_political_power = 5
@@ -7317,7 +7317,7 @@ country_event = {# Death of Haywood
 	
 	trigger = {
 		has_country_leader = {
-			name = "William Haywood"
+			name = "Уильям Хейвуд"
 			ruling_only = yes
 		}
 	}
@@ -7332,7 +7332,7 @@ country_event = {# Death of Haywood
 		add_stability = -0.15
 		set_global_flag = CSA_haywood_dead
 		create_country_leader = {
-			name = "Jack Reed"
+			name = "Джек Рид"
 			desc = "POLITICS_JACK_REED_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
 			expire = "1.1.1"
@@ -7340,7 +7340,7 @@ country_event = {# Death of Haywood
 			traits = { CSA_all_american_worker }
 		}
 		create_country_leader = {
-			name = "Jack Reed"
+			name = "Джек Рид"
 			desc = "POLITICS_JACK_REED_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
 			expire = "1.1.1"
@@ -7348,7 +7348,7 @@ country_event = {# Death of Haywood
 			traits = { CSA_all_american_worker }
 		}
 		create_country_leader = {
-			name = "Jack Reed"
+			name = "Джек Рид"
 			desc = "POLITICS_JACK_REED_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Reed.png"
 			expire = "1.1.1"
@@ -7484,7 +7484,7 @@ country_event = { #
 		}
 	}
 
-country_event = { # Good Ol' Mafia Ingenuity
+	country_event = { # Good Ol' Mafia Ingenuity
 	id = csa.120
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.132" }
 	title = csa.120.t
@@ -7604,7 +7604,7 @@ country_event = { # No Longer Chained To The Earth.
 		add_breakthrough_progress = {
 				specialization = specialization_air
 				value = 0.5
-			}
+		}
 		add_tech_bonus = {
 			name = industrial_bonus
 			bonus = 0.55
@@ -7630,10 +7630,10 @@ country_event = { # The Atomic Chain Broken
 				NOT = { has_tech = atomic_research }
 				NOT = { is_researching_technology = atomic_research }
 			}
-			add_tech_bonus = {
+		add_tech_bonus = {
 				name = csa.128.t
 				bonus = 0.5
-				uses = 1
+			uses = 1
 				technology = atomic_research
 			}
 			add_breakthrough_progress = {
@@ -7670,22 +7670,22 @@ country_event = { # America is reunited
 			AND = {
 				country_exists = TXS
 				TXS = { 
-					has_country_flag = TXS_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = TXS_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				country_exists = NYC
 				NYC = {
-					has_country_flag = NYC_can_invade_america
-					is_ally_of_ROOT = no
+				has_country_flag = NYC_can_invade_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				country_exists = BBR
 				BBR = {	
-					has_country_flag = BBR_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = BBR_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 		}
@@ -7873,7 +7873,7 @@ country_event = { #
 	option = {
 		name = csa.133.a
 			create_corps_commander = { #Auto-Generated
-				name = "Lucky Luciano "
+				name = "Чарльз Лучано "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 				traits = {
 					politically_connected
@@ -7887,7 +7887,7 @@ country_event = { #
 				id = 100910
 			}
 			create_corps_commander = { #Auto-Generated
-				name = "Clyde Barrow "
+				name = "Клайд Бэрроу "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Clyde_Barrow.png"
 				traits = {
 					commando
@@ -7900,7 +7900,7 @@ country_event = { #
 				id = 100911
 			}
 			create_corps_commander = { #Auto-Generated
-				name = "Bonnie Parker "
+				name = "Бонни Паркер "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Bonnie_Parker.png"
 				traits = {
 					commando
@@ -7913,7 +7913,7 @@ country_event = { #
 				id = 100912
 			}
 			create_corps_commander = { #Auto-Generated
-				name = "John Dillinger "
+				name = "Джон Диллинджер "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_John_Dillinger.png"
 				traits = {	
 					politically_connected
@@ -8034,7 +8034,7 @@ country_event = { #Nitti Seizes the Military Establishment
 	option = {#Long live Marshal Nitti!
 		name = csa.137.a
 		create_field_marshal = { #Auto-Generated
-			name = "Frank Nitti "
+			name = "Фрэнк Нитти "
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Frank_Nitti.png"
 			traits = {
 				trait_cautious
@@ -8109,7 +8109,7 @@ country_event = {
 				random_days = 70
 			}
 			create_country_leader = {
-				name = "Alphonse Capone"
+				name = "Альфонсе Капоне"
 				desc = "POLITICS_CAPONE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Alphonse_Capone.png"
 				expire = "1.1.1"
@@ -8158,7 +8158,7 @@ country_event = {
 		hidden_effect = {	
 			set_country_flag = CSA_capone_insane
 			create_country_leader = {
-				name = "Alphonse 'Al' Capone"
+				name = "Альфонсе «Аль» Капоне"
 				desc = "POLITICS_CAPONE_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Alphonse_Capone_chairman.png"
 				expire = "1.1.1"
@@ -8166,7 +8166,7 @@ country_event = {
 				traits = { the_boss sec_prince_of_terror scarface }
 			}
 			create_field_marshal = { #Auto-Generated
-				name = "Alphonse Capone "
+				name = "Альфонсе Капоне "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Alphonse_Capone_chairman.png"
 				traits = {
 					politically_connected
@@ -8292,7 +8292,7 @@ country_event = {#Capone dies
 		complete_national_focus = CSA_death_of_capone
 		set_country_flag = CSA_capone_dead
 		create_country_leader = {
-			name = "Caponeist Congress"
+			name = "Капонистский конгресс"
 			desc = "POLITICS_COSA_NOSTRA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Cosa_Nostra.png"
 			expire = "1.1.1"
@@ -8301,7 +8301,7 @@ country_event = {#Capone dies
 		}
 		hidden_effect = {
 		create_country_leader = {
-			name = "The Organization"
+			name = "Организационная партия"
 			desc = "POLITICS_COSA_NOSTRA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Cosa_Nostra.png"
 			expire = "1.1.1"
@@ -8351,7 +8351,7 @@ country_event = {#Nitti/Ricca
 		increase_ruling_party_popularity_by_3 = yes
 		add_political_power = 50
 		create_country_leader = {
-			name = "Paul Ricca"
+			name = "Пол Рикка"
 			desc = "POLITICS_PAUL_RICCA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Paul_Ricca.png"
 			expire = "1.1.1"
@@ -8359,7 +8359,7 @@ country_event = {#Nitti/Ricca
 			traits = { CSA_rat_traits }
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Paul Ricca "
+			name = "Пол Рикка "
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Paul_Ricca.png"
 			traits = {
 				harsh_leader
@@ -8445,7 +8445,7 @@ country_event = {#BnC/Belbenoit
 	add_political_power = 50
 	set_cosmetic_tag = CSA_capone_belbenoit
 		create_country_leader = {
-			name = "René Belbenoît"
+			name = "Рене Бельбенуа"
 			desc = "POLITICS_RENE_BELBENOIT_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Rene_Belbenoit.png"
 			expire = "1.1.1"
@@ -8453,7 +8453,7 @@ country_event = {#BnC/Belbenoit
 			traits = { CSA_bagnard_traits }
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "René Belbenoît "
+			name = "Рене Бельбенуа "
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Rene_Belbenoit.png"
 			traits = {
 			}
@@ -8531,7 +8531,7 @@ country_event = {#Luciano/Torrio
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-			name = "Johnny Torrio"
+			name = "Джон Торрио"
 			desc = "POLITICS_JOHNNY_TORRIO_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Johnny_Torrio.png"
 			expire = "1.1.1"
@@ -8562,7 +8562,7 @@ country_event = { #
 	tag = CSA
 	CSA = {
 	has_government = totalist
-	has_country_leader = { ruling_only = yes name = "Alphonse 'Al' Capone" }
+	has_country_leader = { ruling_only = yes name = "Альфонсе «Аль» Капоне" }
 	has_country_flag = CSA_capone_insane
 	has_completed_focus = CSA_capones_five_year_plan
 	has_completed_focus = CSA_nittis_lists
@@ -8604,7 +8604,7 @@ country_event = { #Capone is dead, boys
 		complete_national_focus = CSA_death_of_capone
 		set_country_flag = CSA_capone_dead
 		create_country_leader = {
-			name = "Caponeist Congress"
+			name = "Капонистский конгресс"
 			desc = "POLITICS_COSA_NOSTRA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Cosa_Nostra.png"
 			expire = "1.1.1"
@@ -8613,7 +8613,7 @@ country_event = { #Capone is dead, boys
 		}
 		hidden_effect = {
 		create_country_leader = {
-			name = "The Organization"
+			name = "Организационная партия"
 			desc = "POLITICS_COSA_NOSTRA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Cosa_Nostra.png"
 			expire = "1.1.1"
@@ -8701,7 +8701,7 @@ country_event = { #
 		}
 		set_country_flag = CSA_luciano_radsoc_coalition
 		create_country_leader = {
-		name = "Lucky Luciano"
+		name = "Чарльз Лучано"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 		expire = "1959.5.17"
 		ideology = radsoc_caponism_subtype
@@ -8730,7 +8730,7 @@ country_event = { #
 		}
 		set_country_flag = CSA_luciano_radsoc_coalition
 		create_country_leader = {
-		name = "Lucky Luciano"
+		name = "Чарльз Лучано"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 		expire = "1959.5.17"
 		ideology = radsoc_popcom_subtype
@@ -8759,7 +8759,7 @@ country_event = { #
 		}
 		set_country_flag = CSA_luciano_socdem_coalition
 		create_country_leader = {
-		name = "Lucky Luciano"
+		name = "Чарльз Лучано"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 		expire = "1959.5.17"
 		ideology = socdem_crime_syndicate_subtype
@@ -8788,7 +8788,7 @@ country_event = { #
 		}
 		set_country_flag = CSA_luciano_socdem_coalition
 		create_country_leader = {
-		name = "Lucky Luciano"
+		name = "Чарльз Лучано"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 		expire = "1959.5.17"
 		ideology = socdem_paternal_socialism_subtype
@@ -8817,7 +8817,7 @@ country_event = { #
 		}
 		set_country_flag = CSA_luciano_soccon_coalition
 		create_country_leader = {
-		name = "Lucky Luciano"
+		name = "Чарльз Лучано"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 		expire = "1959.5.17"
 		ideology = paternal_socialism_subtype
@@ -8861,7 +8861,7 @@ country_event = { #
 			name = CSA_organization_party
 		}
 		create_country_leader = {
-		name = "Johnny Torrio"
+		name = "Джон Торрио"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Johnny_Torrio.png"
 		expire = "1959.5.17"
 		ideology = clientelism_subtype
@@ -8897,7 +8897,7 @@ country_event = { #
 			name = CSA_organization_party
 		}
 		create_country_leader = {
-		name = "Johnny Torrio"
+		name = "Джон Торрио"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Johnny_Torrio.png"
 		expire = "1959.5.17"
 		ideology = soclib_crime_syndicate_subtype
@@ -8937,7 +8937,7 @@ country_event = { #
 			name = CSA_organization_party
 		}
 		create_country_leader = {
-		name = "Johnny Torrio"
+		name = "Джон Торрио"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Johnny_Torrio.png"
 		expire = "1959.5.17"
 		ideology = marlib_crime_syndicate_subtype
@@ -8975,7 +8975,7 @@ country_event = { #
 		name = csa.3560.a
 		add_political_power = 50
 		create_field_marshal = {# 
-			name = "Bugsy Siegel "
+			name = "Багси Сигел "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Bugsy_Siegel.png"
 			traits = {
 				politically_connected
@@ -8989,7 +8989,7 @@ country_event = { #
 			id = 15412
 		}
 		create_field_marshal = {# 
-			name = "Meyer Lansky "
+			name = "Мейер Лански "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Meyer_Lansky.png"
 			traits = {
 				politically_connected
@@ -9003,7 +9003,7 @@ country_event = { #
 			id = 15411
 		}
 		create_corps_commander = {
-			name = "Joe Profaci"
+			name = "Джо Профачи"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
 			traits = {
 				NYC_mobster
@@ -9015,7 +9015,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Frank Costello"
+			name = "Фрэнк Костелло"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
 			traits = {
 				NYC_mobster
@@ -9027,7 +9027,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Tommy Gagliano"
+			name = "Томми Гаглиано"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Tommy_Gagliano.png"
 			traits = {
 				NYC_mobster
@@ -9039,7 +9039,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Vincent Mangano"
+			name = "Винсент Мангано"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vincent_Mangano.png"
 			traits = {
 				NYC_mobster
@@ -9051,7 +9051,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Joseph Bonnano"
+			name = "Джозеф Бонанно"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joseph_Bonanno.png"
 			traits = {
 				NYC_mobster
@@ -9063,7 +9063,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Vito Genovese"
+			name = "Вито Дженовезе"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vito_Genovese.png"
 			traits = {
 				NYC_mobster
@@ -9075,7 +9075,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Albert Anastasia"
+			name = "Альберт Анастазия"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Albert_Anastasia.png"
 			traits = {
 				NYC_mobster
@@ -9087,7 +9087,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Louis Buchalter"
+			name = "Луис Бухальтер"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Louis_Buchalter.png"
 			traits = {
 				NYC_mobster
@@ -9099,7 +9099,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Harry Strauss"
+			name = "Гарри Штраус"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
 			traits = {
 				NYC_mobster
@@ -9111,7 +9111,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Abe Reles"
+			name = "Эйб Релес"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Abe_Reles.png"
 			traits = {
 				NYC_mobster
@@ -9123,7 +9123,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Martin Goldstein"
+			name = "Мартин Гольдштейн"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Martin_Goldstein.png"
 			traits = {
 				NYC_mobster
@@ -9135,7 +9135,7 @@ country_event = { #
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Frank Sinatra"
+			name = "Фрэнк Синатра"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Sinatra.png"
 			traits = {
 				NYC_mobster
@@ -9147,7 +9147,7 @@ country_event = { #
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "William 'Big Bill' Lias"
+			name = "Уильям 'Большой Билл' Лиас"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Big_Bill_Lias.png"
 			traits = {
 				NYC_mobster
@@ -9276,7 +9276,7 @@ country_event = { #
 		add_political_power = 50
 		increase_ruling_party_popularity_by_5 = yes
 		create_country_leader = {
-			name = "Caponeist Congress"
+			name = "Капонистский конгресс"
 			desc = "POLITICS_COSA_NOSTRA_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Cosa_Nostra.png"
 			expire = "1.1.1"
@@ -9355,7 +9355,7 @@ country_event = { #
 		add_command_power = 25
 		increase_ruling_party_popularity_by_3 = yes
 		create_country_leader = {
-			name = "Hymie Weiss"
+			name = "Хайми Вайс"
 			desc = "POLITICS_HYMIE_WEISS_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Hymie_Weiss.png"
 			expire = "1.1.1"
@@ -9363,7 +9363,7 @@ country_event = { #
 			traits = { CSA_one_man_capone_feared_traits }
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Hymie Weiss "
+			name = "Хайми Вайс "
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Hymie_Weiss.png"
 			traits = {
 				harsh_leader
@@ -9564,7 +9564,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Jimmy Hoffa"
+		name = "Джимми Хоффа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 		expire = "1959.5.17"
 		ideology = syn_caponism_subtype
@@ -9593,7 +9593,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Jimmy Hoffa"
+		name = "Джимми Хоффа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 		expire = "1959.5.17"
 		ideology = syn_kleptocracy_subtype
@@ -9622,7 +9622,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Jimmy Hoffa"
+		name = "Джимми Хоффа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 		expire = "1959.5.17"
 		ideology = radsoc_kleptocracy_subtype
@@ -9651,7 +9651,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Jimmy Hoffa"
+		name = "Джимми Хоффа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 		expire = "1959.5.17"
 		ideology = socdem_kleptocracy_subtype
@@ -9680,7 +9680,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Jimmy Hoffa"
+		name = "Джимми Хоффа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 		expire = "1959.5.17"
 		ideology = socdem_crime_syndicate_subtype
@@ -9745,8 +9745,8 @@ country_event = { #
 	}
 	var:202.owner = {
 	OR = {
-	has_country_leader = { ruling_only = yes name = "Mykyta Khruschov"}
-	has_country_leader = { ruling_only = yes name = "Nikita Khrushchev"}
+	has_country_leader = { ruling_only = yes name = "Микита Хрущов"}
+	has_country_leader = { ruling_only = yes name = "Никита Хрущев"}
 			}
 		}
 	}
@@ -9803,7 +9803,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Dan Seavey"
+		name = "Дэн Сивей"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Dan_Seavey.png"
 		expire = "1959.5.17"
 		ideology = syn_comrades_coast_subtype
@@ -9832,7 +9832,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Dan Seavey"
+		name = "Дэн Сивей"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Dan_Seavey.png"
 		expire = "1959.5.17"
 		ideology = radsoc_comrades_coast_subtype
@@ -9996,7 +9996,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Clyde Barrow"
+		name = "Клайд Бэрроу"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Clyde_Barrow.png"
 		expire = "1959.5.17"
 		ideology = individualist_anarchism_subtype
@@ -10024,7 +10024,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Clyde Barrow"
+		name = "Клайд Бэрроу"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Clyde_Barrow.png"
 		expire = "1959.5.17"
 		ideology = socdem_individualist_anarchism_subtype
@@ -10052,7 +10052,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "Clyde Barrow"
+		name = "Клайд Бэрроу"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Clyde_Barrow.png"
 		expire = "1959.5.17"
 		ideology = socdem_illegalism_subtype
@@ -10103,7 +10103,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "René Belbenoît"
+		name = "Рене Бельбенуа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Rene_Belbenoit.png"
 		expire = "1959.5.17"
 		ideology = syn_individualist_anarchism_subtype
@@ -10131,7 +10131,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "René Belbenoît"
+		name = "Рене Бельбенуа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Rene_Belbenoit.png"
 		expire = "1959.5.17"
 		ideology = illegalism_subtype
@@ -10159,7 +10159,7 @@ country_event = { #
 			name = CSA_organization_syndicate_party
 		}
 		create_country_leader = {
-		name = "René Belbenoît"
+		name = "Рене Бельбенуа"
 		picture = "gfx/leaders/CSA/Portrait_CSA_Rene_Belbenoit.png"
 		expire = "1959.5.17"
 		ideology = anarcho_syndicalist_subtype
@@ -10182,17 +10182,17 @@ country_event = { #
 	is_triggered_only = yes
 	
 	option = {
-		trigger = { has_country_leader = { ruling_only = yes name = "René Belbenoît"} }
+		trigger = { has_country_leader = { ruling_only = yes name = "Рене Бельбенуа"} }
 		name = csa.35850.a
 		set_cosmetic_tag = CSA_capone_belbenoit_red
 	}
 	option = {
-		trigger = { has_country_leader = { ruling_only = yes name = "Clyde Barrow"} }
+		trigger = { has_country_leader = { ruling_only = yes name = "Клайд Бэрроу"} }
 		name = csa.35850.b
 		set_cosmetic_tag = CSA_capone_bonnie_and_clyde_red
 	}
 	option = {
-		trigger = { has_country_leader = { ruling_only = yes name = "Clyde Barrow"} }
+		trigger = { has_country_leader = { ruling_only = yes name = "Клайд Бэрроу"} }
 		name = csa.35850.c
 		set_cosmetic_tag = CSA_capone_bonnie_and_clyde_2
 	}
@@ -10273,8 +10273,8 @@ country_event = { #
 		if = {
 		limit = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Frank Nitti"}
-		has_country_leader = { ruling_only = yes name = "John Dillinger"}
+		has_country_leader = { ruling_only = yes name = "Фрэнк Нитти"}
+		has_country_leader = { ruling_only = yes name = "Джон Диллинджер"}
 				}
 			}
 		country_event = {
@@ -10399,7 +10399,7 @@ country_event = { #
 	option = {
 		name = csa.3592.b
 		create_corps_commander = { #Auto-Generated
-				name = "Albert Francis Capone"
+				name = "Альберт Фрэнсис Капоне"
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Albert_Capone.png"
 				traits = {
 					politically_connected
@@ -10414,7 +10414,7 @@ country_event = { #
 	option = {
 		name = csa.3592.c
 		create_country_leader = {
-			name = "Albert Francis Capone "
+			name = "Альберт Фрэнсис Капоне "
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Albert_Capone.png"
 			expire = "1.1.1"
@@ -10422,7 +10422,7 @@ country_event = { #
 			traits = { CSA_son_traits }
 		}
 		create_corps_commander = { #Auto-Generated
-				name = "Albert Francis Capone "
+				name = "Альберт Фрэнсис Капоне "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Albert_Capone.png"
 				traits = {
 					politically_connected
@@ -10455,7 +10455,7 @@ country_event = { #
 	option = {
 		name = csa.3593.b
 		create_corps_commander = { #Auto-Generated
-				name = "Ralph Capone"
+				name = "Ральф Капоне"
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Ralph_Capone.png"
 				traits = {
 					politically_connected
@@ -10470,7 +10470,7 @@ country_event = { #
 	option = {
 		name = csa.3593.c
 		create_country_leader = {
-			name = "Ralph Capone "
+			name = "Ральф Капоне "
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Ralph_Capone.png"
 			expire = "1.1.1"
@@ -10478,7 +10478,7 @@ country_event = { #
 			traits = { CSA_bro_traits }
 		}
 		create_corps_commander = { #Auto-Generated
-				name = "Ralph Capone "
+				name = "Ральф Капоне "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Ralph_Capone.png"
 				traits = {
 					politically_connected
@@ -10506,7 +10506,7 @@ country_event = { #
 		name = csa.3594.a
 		add_political_power = 50
 		create_corps_commander = { #Auto-Generated
-				name = "Pretty Boy Floyd "
+				name = "Красавчик Флойд "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				traits = {
 				}
@@ -10527,7 +10527,7 @@ country_event = { #
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "John Dillinger"}
+		has_country_leader = { ruling_only = yes name = "Джон Диллинджер"}
 		}
 		country_event = {
 			id = csa.3596
@@ -10536,7 +10536,7 @@ country_event = { #
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Frank Nitti"}
+		has_country_leader = { ruling_only = yes name = "Фрэнк Нитти"}
 		}
 		country_event = {
 			id = csa.3597
@@ -10545,7 +10545,7 @@ country_event = { #
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Jimmy Hoffa"}
+		has_country_leader = { ruling_only = yes name = "Джимми Хоффа"}
 		}
 		country_event = {
 			id = csa.3598
@@ -10554,7 +10554,7 @@ country_event = { #
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Dan Seavey"}
+		has_country_leader = { ruling_only = yes name = "Дэн Сивей"}
 		}
 		country_event = {
 			id = csa.3599
@@ -10563,7 +10563,7 @@ country_event = { #
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Clyde Barrow"}
+		has_country_leader = { ruling_only = yes name = "Клайд Бэрроу"}
 		}
 		set_country_flag = DOUBLE_LEADER_GUI_VISIBLE
 		set_country_flag = CSA_COANARCH_BARROW_VISIBLE
@@ -10576,7 +10576,7 @@ country_event = { #
 		if = {
 			limit = { has_country_leader_ideology = caponism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10587,7 +10587,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = socialist_security_state_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10598,7 +10598,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = syn_caponism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10609,7 +10609,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = syn_kleptocracy_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10620,7 +10620,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = radsoc_kleptocracy_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10631,7 +10631,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_kleptocracy_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10642,7 +10642,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_crime_syndicate_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10653,7 +10653,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = corn_communism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10664,7 +10664,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = comrades_coast_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10675,7 +10675,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = syn_comrades_coast_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10686,7 +10686,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = radsoc_comrades_coast_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10697,7 +10697,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = tot_illegalism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10708,7 +10708,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = individualist_anarchism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10719,7 +10719,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_individualist_anarchism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10730,7 +10730,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_illegalism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10741,7 +10741,7 @@ country_event = { #
 		else_if = {
 			limit = { has_country_leader_ideology = tot_anarcho_communism_subtype }
 			create_country_leader = {
-				name = "Pretty Boy Floyd"
+				name = "Красавчик Флойд"
                 desc = ""
                 picture = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				expire = "1.1.1"
@@ -10750,7 +10750,7 @@ country_event = { #
 			}
 		}
 		create_corps_commander = { #Auto-Generated
-				name = "Pretty Boy Floyd "
+				name = "Красавчик Флойд "
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Charles_Floyd.png"
 				traits = {
 				}
@@ -10902,7 +10902,7 @@ country_event = { #
 				is_core_of = CAN
 			}
 			add_core_of = CSA
-		}
+				}
 		every_state = {
 			limit = {
 				is_core_of = NFL
@@ -11724,7 +11724,7 @@ country_event = { #
 			SIC = {
 			set_capital = { state = 2 }
 			create_country_leader = {
-				name = "Calogero Vizzini"
+				name = "Калоджеро Виццини"
 				desc = "POLITICS_CALOGERO_VIZZINI_DESC"
 				picture = "gfx/leaders/SIC/Portrait_SIC_Calogero_Vizzini.png"
 				expire = "1.1.1"
@@ -11932,7 +11932,7 @@ country_event = { #
 		add_stability = -0.05
 		add_manpower = 275
 		create_corps_commander = { #
-				name = "Machine Gun Kelly"
+				name = "Пулеметчик Келли"
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_George_Kelly_Barnes.png"
 				traits = {
 				}
@@ -11943,7 +11943,7 @@ country_event = { #
 				logistics_skill = 1
 		}
 		create_corps_commander = { #
-				name = "Kathryn Kelly"
+				name = "Кэтрин Келли"
 				portrait_path = "gfx/leaders/CSA/Portrait_CSA_Kathryn_Kelly.png"
 				female = yes
 				traits = {
@@ -11972,7 +11972,7 @@ country_event = {
 		name = csa.356.a 
 		complete_national_focus = CSA_nitti_victory
 		create_country_leader = {
-			name = "Frank Nitti"
+			name = "Фрэнк Нитти"
 			desc = "POLITICS_FRANK_NITTI_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Frank_Nitti.png"
 			expire = "1.1.1"
@@ -11994,7 +11994,7 @@ country_event = {
 		name = csa.356.b
 		complete_national_focus = CSA_dillinger_victory
 		create_country_leader = {
-			name = "John Dillinger"
+			name = "Джон Диллинджер"
 			desc = "POLITICS_FRANK_NITTI_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_Dillinger.png"
 			expire = "1.1.1"
@@ -12028,7 +12028,7 @@ country_event = {
 	}
 	complete_national_focus = CSA_luciano_victory
 	create_country_leader = {
-			name = "Lucky Luciano"
+			name = "Чарльз Лучано"
 			desc = "POLITICS_FRANK_NITTI_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 			expire = "1.1.1"
@@ -12057,7 +12057,7 @@ country_event = {
 		name = csa.356.e
 		complete_national_focus = CSA_hoffa_victory
 		create_country_leader = {
-			name = "Jimmy Hoffa"
+			name = "Джимми Хоффа"
 			desc = "POLITICS_FRANK_NITTI_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jimmy_Hoffa.png"
 			expire = "1.1.1"
@@ -12074,7 +12074,7 @@ country_event = {
 	complete_national_focus = CSA_seavey_victory
 	set_cosmetic_tag = CSA_capone_seavey
 	create_country_leader = {
-			name = "Dan Seavey"
+			name = "Дэн Сивей"
 			desc = "POLITICS_DAN_SEAVEY_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Dan_Seavey.png"
 			expire = "1.1.1"
@@ -12100,7 +12100,7 @@ country_event = {
 		complete_national_focus = CSA_bonnie_clyde_victory
 		set_cosmetic_tag = CSA_capone_bonnie_and_clyde
 		create_country_leader = {
-			name = "Clyde Barrow"
+			name = "Клайд Бэрроу"
 			desc = "POLITICS_CLYDE_BARROW_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Clyde_Barrow.png"
 			expire = "1.1.1"
@@ -12741,7 +12741,7 @@ country_event = { # Foster Criticizes Election
 	}
 }
 
-country_event = { # Norman Thomas criticizes renewed militarism
+country_event = { # Норман Томас criticizes renewed militarism
 	id = csa.166
 	immediate = {log = "[GetDateText]: [Root.GetName]: event csa.166"}
 	title = csa.166.t
@@ -13067,7 +13067,7 @@ country_event = { # Social Units
 	trigger = {
 	has_country_leader = {
 	ruling_only = yes
-	name = "James Burnham" } }
+	name = "Джеймс Бернхем" } }
 	
 	is_triggered_only = yes
 	
@@ -13214,7 +13214,7 @@ country_event = { # Blackmail Material
 	picture = GFX_report_event_USA_congress
 	fire_only_once = yes
 	
-
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -13360,7 +13360,7 @@ country_event = { # The Newish American Woman
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "James Burnham"
+			name = "Джеймс Бернхем"
 		}
 	}
 
@@ -13390,7 +13390,7 @@ country_event = { # NAT
 		has_completed_focus = CSA_look_to_the_south
 			has_country_leader = {
 				ruling_only = yes
-				name = "James Burnham"
+				name = "Джеймс Бернхем"
 			}
 			is_subject = no
 			is_major = yes
@@ -13452,7 +13452,7 @@ country_event = { # Continental Director
 			elections_allowed = no
 				}
 				if = {
-					limit = { has_country_leader = { name = "James Burnham" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Джеймс Бернхем" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/CSA/Portrait_CSA_James_Burnham_Supreme.png"
 					}
@@ -14183,9 +14183,9 @@ country_event = { # The Fort
 
 	trigger = {
 		OR = {
-			has_country_leader = { ruling_only = yes name = "James Burnham" }
-			has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
-			has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+			has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
+			has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
 		}
 	}
 	
@@ -14426,7 +14426,7 @@ country_event = { # Andy Griffith Show
 	}
 }
 
-country_event = { # Tomás Garrido Canabal
+country_event = { # Томас Гарридо Канабаль
 	id = csa.258
 	immediate = {log = "[GetDateText]: [Root.GetName]: event csa.258"}
 	title = csa.258.t
@@ -14440,7 +14440,7 @@ country_event = { # Tomás Garrido Canabal
 	option = { # Wonderful
 	name = csa.258.a
 	create_field_marshal = {
-		name = "Tomás Garrido Canabal "
+		name = "Томас Гарридо Канабаль "
 		portrait_path = "gfx/leaders/YUC/Portrait_Yucatan_Tomas_Garrido_Canabal_Mariachi.png"
 		traits = { career_officer politically_connected }
 		skill = 1
@@ -14927,12 +14927,12 @@ country_event = { # Valois
 	trigger = {
 	has_country_leader = {
 		ruling_only = yes
-		name = "James Burnham"
+		name = "Джеймс Бернхем"
 		}
 	FRA = {
 	has_country_leader = {
 		ruling_only = yes
-		name = "Georges Valois"
+		name = "Жорж Валуа"
 		}
 	}
 	date > 1942.06.01
@@ -14980,11 +14980,11 @@ country_event = { # Socialist Empire Claims - Canada
 	trigger = {
 		tag = CSA
 		OR = {
-			has_country_leader = { ruling_only = yes name = "James Burnham" }
-			has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-			has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
-			has_country_leader = { ruling_only = yes name = "Jay Lovestone" }
-			has_country_leader = { ruling_only = yes name = "Benjamin Gitlow" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+			has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+			has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
+			has_country_leader = { ruling_only = yes name = "Джей Лавстон" }
+			has_country_leader = { ruling_only = yes name = "Бенджамин Гитлоу" }
 		}
 	    has_war_with = CAN
 	}
@@ -14996,7 +14996,7 @@ country_event = { # Socialist Empire Claims - Canada
 	every_state = {
 		limit = {
 			OR = {
-				is_core_of = CAN
+			is_core_of = CAN
 				is_core_of = NFL
 			}
 		}
@@ -15021,11 +15021,11 @@ country_event = { # Socialist Empire Claims - Mexico
 	trigger = {
 		tag = CSA
 		OR = {
-			has_country_leader = { ruling_only = yes name = "James Burnham" }
-			has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-			has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
-			has_country_leader = { ruling_only = yes name = "Jay Lovestone" }
-			has_country_leader = { ruling_only = yes name = "Benjamin Gitlow" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+			has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+			has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
+			has_country_leader = { ruling_only = yes name = "Джей Лавстон" }
+			has_country_leader = { ruling_only = yes name = "Бенджамин Гитлоу" }
 		}
 	    has_war_with = MEX
 	}
@@ -15241,7 +15241,7 @@ country_event = { # Send Lovestone to Alaska?
 			complete_national_focus = ALA_factory_distribution
 			complete_national_focus = ALA_for_the_worker
 			create_country_leader = {
-				name = "Jay Lovestone"
+				name = "Джей Лавстон"
 				desc = "POLITICS_LOVESTONE_DESC"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_Jay_Lovestone.png"
 				expire = "1.1.1"
@@ -15757,11 +15757,11 @@ country_event = { # AFL Leadership Contest
 	
 	fire_only_once = yes
 
-	option = { # John Lewis
+	option = { # Джон Льюис
 	name = csa.325.a
 	hidden_effect = {
 		create_country_leader = {
-			name = "John Lewis"
+			name = "Джон Льюис"
 			desc = "POLITICS_JOHN_LEWIS_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_Lewis.png"
 			expire = "1.1.1"
@@ -15787,11 +15787,11 @@ country_event = { # AFL Leadership Contest
 		}
 		}
 	}
-	option = { # William Green
+	option = { # Вильям Грин
 	name = csa.325.b
 	hidden_effect = {
 		create_country_leader = {
-			name = "William Green"
+			name = "Вильям Грин"
 			desc = "POLITICS_WILLIAM_GREEN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_William_Green.png"
 			expire = "1.1.1"
@@ -15817,11 +15817,11 @@ country_event = { # AFL Leadership Contest
 		}
 		}
 	}
-	option = { # David Dubinsky
+	option = { # Дэвид Дубинский
 	name = csa.325.c
 	hidden_effect = {
 		create_country_leader = {
-					name = "David Dubinsky"
+					name = "Дэвид Дубинский"
 					desc = "POLITICS_DAVID_DUBINSKY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_David_Dubinsky.png"
 					expire = "1.1.1"
@@ -15862,11 +15862,11 @@ country_event = { # AFL Leadership Contest
 	
 	fire_only_once = yes
 
-	option = { # John Lewis
+	option = { # Джон Льюис
 	name = csa.3250.a
 	hidden_effect = {
 		create_country_leader = {
-			name = "John Lewis"
+			name = "Джон Льюис"
 			desc = "POLITICS_JOHN_LEWIS_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_Lewis.png"
 			expire = "1.1.1"
@@ -15881,11 +15881,11 @@ country_event = { # AFL Leadership Contest
 			elections_allowed = yes
 		}
 	}
-	option = { # William Green
+	option = { # Вильям Грин
 	name = csa.3250.b
 	hidden_effect = {
 		create_country_leader = {
-			name = "William Green"
+			name = "Вильям Грин"
 			desc = "POLITICS_WILLIAM_GREEN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_William_Green.png"
 			expire = "1.1.1"
@@ -15904,7 +15904,7 @@ country_event = { # AFL Leadership Contest
 	name = csa.3250.c
 	hidden_effect = {
 		create_country_leader = {
-					name = "David Dubinsky"
+					name = "Дэвид Дубинский"
 					desc = "POLITICS_DAVID_DUBINSKY_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_David_Dubinsky.png"
 					expire = "1.1.1"
@@ -16069,7 +16069,7 @@ country_event = { # Independence League Leadership Contest
 
 	fire_only_once = yes
 
-	option = { # Norman Thomas
+	option = { # Норман Томас
 	name = csa.330.a
 	set_country_flag = CSA_1940_cio_election_thomas
 	set_country_flag = CSA_Nationalist_Victory
@@ -16080,7 +16080,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "Norman Thomas"
+			name = "Норман Томас"
 			desc = "POLITICS_NORMAN_THOMAS_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Norman_Thomas.png"
 			expire = "1.1.1"
@@ -16101,7 +16101,7 @@ country_event = { # Independence League Leadership Contest
 		}
 		}
 	}
-	option = { # John Dewey
+	option = { # Джон Дьюи
 	name = csa.330.b
 	set_country_flag = CSA_1940_cio_election_dewey
 	set_country_flag = CSA_Nationalist_Victory
@@ -16112,7 +16112,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "John Dewey"
+			name = "Джон Дьюи"
 			desc = "POLITICS_JOHN_DEWEY_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_Dewey.png"
 			expire = "1.1.1"
@@ -16135,7 +16135,7 @@ country_event = { # Independence League Leadership Contest
 		id = csa.6018
 		days = 9
 		}
-		}
+	}
 	}
 	option = { # Roger Nash Baldwin
 	name = csa.330.c
@@ -16148,7 +16148,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "Roger Nash Baldwin"
+			name = "Роджер Болдуин"
 			desc = "POLITICS_ROGER_NASH_BALDWIN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Roger_Nash_Baldwin.png"
 			expire = "1.1.1"
@@ -16169,7 +16169,7 @@ country_event = { # Independence League Leadership Contest
 		}
 		}
 	}
-	option = { # Heywood Broun
+	option = { # Хейвуд Браун
 	name = csa.330.e
 	set_country_flag = CSA_1940_cio_election_broun
 	set_country_flag = CSA_Nationalist_Victory
@@ -16180,7 +16180,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "Heywood Broun"
+			name = "Хейвуд Браун"
 			desc = "POLITICS_HEYWOOD_BROUN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Heywood_Broun.png"
 			expire = "1.1.1"
@@ -16201,7 +16201,7 @@ country_event = { # Independence League Leadership Contest
 		}
 		}
 	}
-	option = { # Arthur Ernest Morgan
+	option = { # Артур Ернест Морган
 	name = csa.330.f
 	set_country_flag = CSA_1940_cio_election_morgan
 	set_country_flag = CSA_Nationalist_Victory
@@ -16212,7 +16212,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "Arthur Ernest Morgan"
+			name = "Артур Ернест Морган"
 			desc = "POLITICS_HEYWOOD_BROUN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Arthur_Ernest_Morgan.png"
 			expire = "1.1.1"
@@ -16233,7 +16233,7 @@ country_event = { # Independence League Leadership Contest
 		}
 		}
 	}
-	option = { # Meyer London
+	option = { # Мейер Лондон
 	name = csa.330.g
 	set_country_flag = CSA_1940_cio_election_london
 	set_country_flag = CSA_Nationalist_Victory
@@ -16244,7 +16244,7 @@ country_event = { # Independence League Leadership Contest
 		}
 	hidden_effect = {
 		create_country_leader = {
-			name = "Meyer London"
+			name = "Мейер Лондон"
 			desc = "POLITICS_MEYER_LONDON_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Meyer_London.png"
 			expire = "1.1.1"
@@ -16475,7 +16475,7 @@ country_event = { # General-in-Chief Position Created
 			elections_allowed = yes
 	}
 	create_country_leader = {
-			name = "Smedley Butler "
+			name = "Смедли Батлер "
 			desc = "POLITICS_PRESIDENT_SMEDLY_BUTLER_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_smedly_butler_C.png"
 			expire = "1.1.1"
@@ -17206,7 +17206,7 @@ country_event = { #Standard Oil Managers
 	}
 }
 
-country_event = { #Jack Shulman
+country_event = { #Джек Шульман
 	id = csa.433
 	immediate = {log = "[GetDateText]: [Root.GetName]: event csa.433"}
 	title = csa.433.t
@@ -17236,13 +17236,13 @@ country_event = { #Fate of the IWW
 	
 	fire_only_once = yes
 
-	option = { #Eugene Dennis
+	option = { #Юджин Деннис
 	name = csa.434.a
 	add_political_power = 40
 	add_popularity = { ideology = totalist popularity = 0.02 }
 	add_stability = -0.03
 	}
-	option = { #Robert Minor
+	option = { #Роберт Майнор
 	name = csa.434.b
 	add_political_power = 20
 	add_popularity = { ideology = totalist popularity = 0.01 }
@@ -19092,7 +19092,7 @@ country_event = { # Time to Retreat?
 		}
 	}
 }
-country_event = { #CSS Report: Jay Lovestone
+country_event = { #CSS Report: Джей Лавстон
 	id = csa.510
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.510" }
 	title = csa.510.t
@@ -19358,7 +19358,7 @@ country_event = { #President Burnham Victorious
 	}
 }
 
-country_event = { #James Burnham dead
+country_event = { #Джеймс Бернхем dead
 	id = csa.515
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.515" }
 	title = csa.515.t
@@ -19375,7 +19375,7 @@ country_event = { #James Burnham dead
 			factor = 80
 		}
 		create_country_leader = {
-			name = "Jay Lovestone"
+			name = "Джей Лавстон"
 			desc = "POLITICS_JAY_LOVESTONE_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jay_Lovestone.png"
 			expire = "1.1.1"
@@ -19429,7 +19429,7 @@ country_event = { #James Burnham dead
 	}
 }
 
-country_event = { #Fate of Lawrence Dennis
+country_event = { #Fate of Лоуренс Деннис
 	id = csa.516
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.516" }
 	title = csa.516.t
@@ -19627,7 +19627,7 @@ country_event = { #Scott Launches a Coup
 						long_name = CSA_technocrac_council_party_long
 				}
 		create_country_leader = {
-				name = "Provisional Circuit of the Technocratic Revolution"
+				name = "Временный контур технократической революции"
 				desc = ""
 				picture = "gfx/leaders/CSA/Portrait_CSA_Techno_Council.png"
 				expire = "1.1.1"
@@ -19635,7 +19635,7 @@ country_event = { #Scott Launches a Coup
 				traits = { CSA_technocrat_council_traits }
 		}
 		create_country_leader = {
-				name = "Provisional Circuit of the Technocratic Revolution"
+				name = "Временный контур технократической революции"
 				desc = ""
 				picture = "gfx/leaders/CSA/Portrait_CSA_Techno_Council.png"
 				expire = "1.1.1"
@@ -19643,7 +19643,7 @@ country_event = { #Scott Launches a Coup
 				traits = { CSA_technocrat_council_traits }
 		}
 		create_field_marshal = {# 
-			name = "Manifested Gestalt of the Technocratic Enlightenment "
+			name = "Гештальт технократического просвещения "
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Techno_Council.png"
 			traits = {
 				incorporeal
@@ -19755,7 +19755,7 @@ country_event = { #Scott Launches a Coup
 						long_name = CSA_technocracy_inc_party_long
 						}
 			create_country_leader = {
-				name = "Howard Scott"
+				name = "Говард Скотт"
 				desc = "POLITICS_HOWARD_SCOTT_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Howard_Scott.png"
 				expire = "1.1.1"
@@ -19763,7 +19763,7 @@ country_event = { #Scott Launches a Coup
 				traits = { head_of_techno_inc }
 			}
 		create_field_marshal = { # obama
-			name = "Marion King Hubbert "
+			name = "Мэрион Кинг Хабберт"
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Marion_King_Hubbert.png"
 			traits = {
 				trait_engineer
@@ -19809,7 +19809,7 @@ country_event = { #Scott Launches a Coup
 				long_name = CSA_utopian_technocrat_party_long
 			}
 			create_country_leader = {
-				name = "Harold Loeb"
+				name = "Гарольд Лоэб"
 				desc = ""
 				picture = "gfx/leaders/CSA/Portrait_CSA_Harold_Loeb.png"
 				expire = "1.1.1"
@@ -19847,7 +19847,7 @@ country_event = { #Scott doesn't coup
 		name = csa.51903.b
 		add_war_support = 0.02
 		create_country_leader = {
-			name = "Benjamin Gitlow"
+			name = "Бенджамин Гитлоу"
 			desc = "POLITICS_BENJAMIN_GITLOW_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Benjamin_Gitlow.png"
 			expire = "1.1.1"
@@ -19885,7 +19885,7 @@ country_event = { # Scott's Birthday (wholesome)
 
 	trigger = {
 		tag = CSA
-		has_country_leader = { ruling_only = yes name = "Howard Scott"}
+		has_country_leader = { ruling_only = yes name = "Говард Скотт"}
 		date > 1940.4.1
 	}
 	
@@ -19973,7 +19973,7 @@ country_event = { #Scott is kinda dumb do we replace him?
 		remove_ideas = CSA_Howard_Scott_hog_tot
 		add_ideas = CSA_M_King_Hubbert_hog_tot
 		create_country_leader = {
-				name = "M. King Hubbert"
+				name = "Мэрион Кинг Хабберт"
 				desc = "POLITICS_KING_HUBBERT_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Marion_King_Hubbert.png"
 				expire = "1.1.1"
@@ -19987,7 +19987,7 @@ country_event = { #Scott is kinda dumb do we replace him?
 		remove_ideas = CSA_Howard_Scott_hog_tot
 		add_ideas = CSA_J_Robert_Oppenheimer_hog_tot
 		create_country_leader = {
-				name = "J. Robert Oppenheimer"
+				name = "Роберт Оппенгеймер"
 				desc = ""
 				picture = "gfx/leaders/CSA/Portrait_CSA_J_Robert_Oppenheimer.png"
 				expire = "1.1.1"
@@ -20002,7 +20002,7 @@ country_event = { #Scott is kinda dumb do we replace him?
 		remove_ideas = CSA_Howard_Scott_hog_tot
 		add_ideas = CSA_Lawrence_Dennis_hog_tot
 		create_country_leader = {
-			name = "Lawrence Dennis"
+			name = "Лоуренс Деннис"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lawrence_Dennis.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -20271,7 +20271,7 @@ country_event = { # TechnoWorld
 			}
 			set_cosmetic_tag = CSA_loeb_world
 		 }
-		add_named_threat = { threat = 100 name = "Global Technate" }
+		add_named_threat = { threat = 100 name = "Всемирный Технат" }
 		every_country = {
 				CSA = {
 		create_wargoal = {
@@ -20328,21 +20328,21 @@ country_event = { # African Puppet
 			GHA = {
 						set_cosmetic_tag = CSA_technopuppet_africa
 				create_country_leader = {
-					   name = "Kwame Nkrumah"
+					   name = "Кваме Нкрума"
 					   picture = "gfx/leaders/GHA/Portrait_Ashanti_Kwame.png"
 					   expire = "1.1.1"
 					   ideology = technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-					   name = "Edward Makuka Nkoloso"
+					   name = "Эдвард Макука Нколосо"
 					   picture = "gfx/leaders/ZAM/Portrait_Zambia_Edward_Makuka_Nkoloso.png"
 					   expire = "1.1.1"
 					   ideology = utopian_technocracy_subtype
 					   traits = {}
 				}
 						create_country_leader = {
-					   name = "Edward Makuka Nkoloso"
+					   name = "Эдвард Макука Нколосо"
 					   picture = "gfx/leaders/ZAM/Portrait_Zambia_Edward_Makuka_Nkoloso.png"
 					   expire = "1.1.1"
 					   ideology = socdem_utopian_technocracy_subtype
@@ -20391,21 +20391,21 @@ country_event = { # Asian Puppet
 						load_focus_tree = generic_focus
 						set_cosmetic_tag = CSA_technopuppet_asia
 				create_country_leader = {
-					   name = "Guo Muruo"
+					   name = "Го Можо"
 					   picture = "gfx/leaders/CHI/Portrait_CHI_Guo_Moruo.png"
 					   expire = "1.1.1"
 					   ideology = technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-                       name = "Guo Muruo"
+                       name = "Го Можо"
 					   picture = "gfx/leaders/CHI/Portrait_CHI_Guo_Moruo.png"
 					   expire = "1.1.1"
 					   ideology = utopian_technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-                       name = "Guo Muruo"
+                       name = "Го Можо"
 					   picture = "gfx/leaders/CHI/Portrait_CHI_Guo_Moruo.png"
 					   expire = "1.1.1"
 					   ideology = socdem_utopian_technocracy_subtype
@@ -20446,21 +20446,21 @@ country_event = { # South American Puppet
 						load_focus_tree = generic_focus
 						set_cosmetic_tag = CSA_technopuppet_samerica
 				create_country_leader = {
-					   name = "Jose Mariategui"
+					   name = "Хосе Мариатеги"
 					   picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Mariategui.png"
 					   expire = "1.1.1"
 					   ideology = technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-					   name = "Jose Mariategui"
+					   name = "Хосе Мариатеги"
 					   picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Mariategui.png"
 					   expire = "1.1.1"
 					   ideology = utopian_technocracy_subtype
 					   traits = {}
 				}
 						create_country_leader = {
-					   name = "Jose Mariategui"
+					   name = "Хосе Мариатеги"
 					   picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Mariategui.png"
 					   expire = "1.1.1"
 					   ideology = socdem_utopian_technocracy_subtype
@@ -20532,21 +20532,21 @@ country_event = { # Eurasian Puppet
 						load_focus_tree = generic_focus
 						set_cosmetic_tag = CSA_technopuppet_eurasian
 				create_country_leader = {
-					   name = "Vladimir Mayakovsky"
+					   name = "Владимир Маяковский"
 					   picture = "gfx/leaders/RUS/Portrait_SOV_Vladimir_Mayakovsky.png"
 					   expire = "1.1.1"
 					   ideology = utopian_technocracy_subtype
 					   traits = {}
 				}
 						create_country_leader = {
-					   name = "Vladimir Mayakovsky"
+					   name = "Владимир Маяковский"
 					   picture = "gfx/leaders/RUS/Portrait_SOV_Vladimir_Mayakovsky.png"
 					   expire = "1.1.1"
 					   ideology = socdem_utopian_technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-					   name = "Aleksei Gastev"
+					   name = "Алексей Гастев"
 					   picture = "gfx/leaders/RUS/Portrait_SOV_Aleksei_Gastev.png"
 					   expire = "1.1.1"
 					   ideology = technocracy_subtype
@@ -20642,21 +20642,21 @@ country_event = { # Oceania Puppet
 						set_cosmetic_tag = CSA_technopuppet_oceania
 						set_country_flag = AST_is_republic
 				create_country_leader = {
-					   name = "Elsie Farrely"
+					   name = "Элси Фаррели"
 					   picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 					   expire = "1.1.1"
 					   ideology = technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-					   name = "Elsie Farrely"
+					   name = "Элси Фаррели"
 					   picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 					   expire = "1.1.1"
 					   ideology = utopian_technocracy_subtype
 					   traits = {}
 				}
 				create_country_leader = {
-					   name = "Elsie Farrely"
+					   name = "Элси Фаррели"
 					   picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 					   expire = "1.1.1"
 					   ideology = socdem_utopian_technocracy_subtype
@@ -20704,7 +20704,7 @@ country_event = { #Loeb
 						long_name = CSA_utopian_technocrat_party_long
 				}
 		create_country_leader = {
-			name = "Harold Loeb"
+			name = "Гарольд Лоэб"
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Harold_Loeb.png"
 			expire = "1.1.1"
@@ -20712,7 +20712,7 @@ country_event = { #Loeb
 			traits = { CSA_utopian_technocrat_traits }
 				}
 		create_country_leader = {
-			name = "Harold Loeb"
+			name = "Гарольд Лоэб"
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Harold_Loeb.png"
 			expire = "1.1.1"
@@ -20773,7 +20773,7 @@ country_event = { #Loeb
 				long_name = CSA_technocracy_inc_party_long
 			}
 			create_country_leader = {
-				name = "Howard Scott"
+				name = "Говард Скотт"
 				desc = "POLITICS_HOWARD_SCOTT_DESC"
 				picture = "gfx/leaders/CSA/Portrait_CSA_Howard_Scott.png"
 				expire = "1.1.1"
@@ -20900,10 +20900,10 @@ country_event = { #Schizo Log Events - Steinbeck
 	trigger = {
 			   owns_state = 358
 			   tag = CSA
-			   has_country_leader = { ruling_only = yes name = "Harold Loeb"}
+			   has_country_leader = { ruling_only = yes name = "Гарольд Лоэб"}
 			   NYC = {
-				  NOT = { has_country_leader = { ruling_only = yes name = "John Steinbeck"} }
-			   }
+				NOT = { has_country_leader = { ruling_only = yes name = "Джон Стейнбек"} }
+			 }
 	}
 	fire_only_once = yes
 
@@ -20923,7 +20923,7 @@ country_event = { #Schizo Log Events - Steinbeck
 				hidden_effect = { remove_ideas_with_trait = foreign_minister }
 				add_ideas = CSA_John_Steinbeck_for_rso
 		create_country_leader = {
-			name = "John Steinbeck"
+			name = "Джон Стейнбек"
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_John_Steinbeck.png"
 			expire = "1.1.1"
@@ -20931,7 +20931,7 @@ country_event = { #Schizo Log Events - Steinbeck
 			traits = { popular_author }
 		}
 		create_country_leader = {
-			name = "John Steinbeck"
+			name = "Джон Стейнбек"
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_John_Steinbeck.png"
 			expire = "1.1.1"
@@ -20956,9 +20956,9 @@ country_event = { #Schizo Log Events - Lovecraft
 		   owns_state = 931 #Connecticut
 		   owns_state = 796 #Upstate New York
 			   tag = CSA
-			   has_country_leader = { ruling_only = yes name = "Harold Loeb"}
+			   has_country_leader = { ruling_only = yes name = "Гарольд Лоэб"}
 			   NEE = {
-				NOT = { has_country_leader = { ruling_only = yes name = "H.P. Lovecraft"} }
+				NOT = { has_country_leader = { ruling_only = yes name = "Говард Лавкрафт"} }
 			   }
 	}
 	
@@ -20980,7 +20980,7 @@ country_event = { #Schizo Log Events - Lovecraft
 				hidden_effect = { remove_ideas_with_trait = security_minister }
 				add_ideas = CSA_HP_Lovecraft_sec_rso
 		create_country_leader = {
-			name = "Howard Phillips Lovecraft"
+			name = "Говард Филлипс Лавкрафт"
 			desc = ""
 			picture = "gfx/leaders/NEE/Portrait_NEE_Howard_Phillips_Lovecraft.png"
 			expire = "1.1.1"
@@ -20988,7 +20988,7 @@ country_event = { #Schizo Log Events - Lovecraft
 			traits = { popular_author }
 		}
 		create_country_leader = {
-			name = "Howard Phillips Lovecraft"
+			name = "Говард Филлипс Лавкрафт"
 			desc = ""
 			picture = "gfx/leaders/NEE/Portrait_NEE_Howard_Phillips_Lovecraft.png"
 			expire = "1.1.1"
@@ -21007,9 +21007,9 @@ country_event = { #Schizo Log Events - Simon Gugg on my heim
 	trigger = {
 		   owns_state = 463
 			   tag = CSA
-			   has_country_leader = { ruling_only = yes name = "Harold Loeb"}
+			   has_country_leader = { ruling_only = yes name = "Гарольд Лоэб"}
 			   ALA = {
-				NOT = { has_country_leader = { ruling_only = yes name = "Simon Guggenheim"} }
+				NOT = { has_country_leader = { ruling_only = yes name = "Саймон Гуггенхайм"} }
 			   }
 	}
 	
@@ -21048,11 +21048,11 @@ country_event = { #Schizo Log Events - EPIC Sinclair
 		   owns_state = 386
 		   owns_state = 1165
 			   tag = CSA
-			   has_country_leader = { ruling_only = yes name = "Harold Loeb"}
+			   has_country_leader = { ruling_only = yes name = "Гарольд Лоэб"}
 			   CAL = {
-				NOT = { 
-					 has_country_leader = { ruling_only = yes name = "Upton Sinclair"}
-					 has_country_leader = { ruling_only = yes name = "Culbert Olson"}
+				  NOT = {
+					 has_country_leader = { ruling_only = yes name = "Эптон Синклер"}
+					 has_country_leader = { ruling_only = yes name = "Калберт Олсон"}
 					 }
 			   }
 	}
@@ -21075,7 +21075,7 @@ country_event = { #Schizo Log Events - EPIC Sinclair
 				hidden_effect = { remove_ideas_with_trait = economy_minister }
 				add_ideas = CSA_Upton_Sinclair_eco_rso
 		create_country_leader = {
-			name = "Upton Sinclair"
+			name = "Эптон Синклер"
 			desc = ""
 			picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 			expire = "1.1.1"
@@ -21083,7 +21083,7 @@ country_event = { #Schizo Log Events - EPIC Sinclair
 			traits = { PSA_an_end_to_poverty }
 		}
 		create_country_leader = {
-			name = "Upton Sinclair"
+			name = "Эптон Синклер"
 			desc = ""
 			picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 			expire = "1.1.1"
@@ -21106,12 +21106,12 @@ country_event = { #Schizo Log Events - SUN RA
 		   owns_state = 1170
 		   owns_state = 1171
 			   tag = CSA
-			   has_country_leader = { ruling_only = yes name = "Harold Loeb"}
+			   has_country_leader = { ruling_only = yes name = "Гарольд Лоэб"}
 			   BBR = {
-				 NOT = {
-					has_country_leader = { ruling_only = yes name = "Le Sony'r Ra"}
-					has_country_leader = { ruling_only = yes name = "Herman Poole Blount"}
-					has_country_leader = { ruling_only = yes name = "Sun Ra"}
+				NOT = {
+					has_country_leader = { ruling_only = yes name = "Ле Сони'р Ра"}
+					has_country_leader = { ruling_only = yes name = "Герман Пул Блаунт"}
+					has_country_leader = { ruling_only = yes name = "Сан Ра"}
 				  }
 			   }
 	}
@@ -21133,7 +21133,7 @@ country_event = { #Schizo Log Events - SUN RA
 				hidden_effect = { remove_ideas_with_trait = foreign_minister }
 				add_ideas = CSA_Herman_Poole_Blount_for_rso
 		create_country_leader = {
-			name = "Herman Poole Blount"
+			name = "Герман Пул Блаунт"
 			desc = ""
 			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 			expire = "1.1.1"
@@ -21141,7 +21141,7 @@ country_event = { #Schizo Log Events - SUN RA
 			traits = { the_hearld_neutral }
 		}
 		create_country_leader = {
-			name = "Herman Poole Blount"
+			name = "Герман Пул Блаунт"
 			desc = ""
 			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 			expire = "1.1.1"
@@ -21177,7 +21177,7 @@ country_event = { #Schizo Log Events - Hemingway and Loeb battle royale (hemingw
 		   }
 				}
 		create_country_leader = {
-			name = "Ernest Hemingway"
+			name = "Эрнест Хемингуэй"
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Ernest_Hemingway.png"
 			expire = "1.1.1"
@@ -21190,7 +21190,7 @@ country_event = { #Schizo Log Events - Hemingway and Loeb battle royale (hemingw
 				id = csa.6003
 				days = 50
 			}
-		country_event = {
+			country_event = {
 				id = csa.617
 				days = 90
 			}
@@ -21209,7 +21209,7 @@ country_event = { #Schizo Log Events - Hemingway and Loeb battle royale (hemingw
 						long_name = CSA_technocrac_council_party_loeb_long
 				}
 		create_country_leader = {
-			name = "Integrated Circuit of the Technocratic Revolution"
+			name = "Интегральная схема технократической революции"
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Techno_Council.png"
 			expire = "1.1.1"
@@ -21217,7 +21217,7 @@ country_event = { #Schizo Log Events - Hemingway and Loeb battle royale (hemingw
 			traits = { CSA_technocrat_council_traits }
 		}
 		create_country_leader = {
-			name = "Integrated Circuit of the Technocratic Revolution"
+			name = "Интегральная схема технократической революции"
 			desc = ""
 			picture = "gfx/leaders/CSA/Portrait_CSA_Techno_Council.png"
 			expire = "1.1.1"
@@ -21226,7 +21226,7 @@ country_event = { #Schizo Log Events - Hemingway and Loeb battle royale (hemingw
 		}
 	}
 }
-country_event = { #Lawrence Dennis minister event
+country_event = { #Лоуренс Деннис minister event
 	id = csa.69696
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.69696" }
 	title = csa.69696.t
@@ -21241,7 +21241,7 @@ country_event = { #Lawrence Dennis minister event
 		name = csa.69696.c
 		trigger = { tag = COR }
 		create_country_leader = {
-			name = "Lawrence Dennis"
+			name = "Лоуренс Деннис"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lawrence_Dennis.png"
 			expire = "1.1.1"
 			ideology = right_technocracy_subtype
@@ -21268,7 +21268,7 @@ country_event = { #Lawrence Dennis minister event
 	}
 }
 #Lovestone
-country_event = { #Earl Browder requests promotion
+country_event = { #Эрл Браудер requests promotion
 	id = csa.519
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.519" }
 	title = csa.519.t
@@ -21352,7 +21352,7 @@ country_event = { #Compound retaken
 	}
 }
 
-country_event = { #Jay Lovestone elected Executive Director
+country_event = { #Джей Лавстон elected Executive Director
 	id = csa.522
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.522" }
 	title = csa.522.t
@@ -21415,7 +21415,7 @@ country_event = { #Focus of new research
 			add_breakthrough_progress = {
 			specialization = specialization_air
 			value = 0.5
-		}
+			}
 		add_tech_bonus = {
 				name = CSA_aviation_home_defense
 				bonus = 1
@@ -21574,7 +21574,7 @@ country_event = { #
 	option = {
 		name = csa.6001.a
 		create_navy_leader = {
-		name = "'Roaring' Dan Seavey"
+		name = "'Roaring' Дэн Сивей"
 		portrait_path = "gfx/leaders/CGL/Portrait_CGL_Roaring_Dan_Seavey.png"
 		traits = { superior_tactician }
 		skill = 2 
@@ -21633,7 +21633,7 @@ country_event = { #Hammett
 				}
 			}
 			create_corps_commander = {
-				name = "Samuel Dashiell Hammett "
+				name = "Дэшил Хэммет "
 				portrait_path = "gfx/leaders/CGL/Portrait_CGL_Samuel_Dashiell_Hammett_General.png"
 				traits = {  }
 				skill = 1
@@ -21651,7 +21651,7 @@ country_event = { #Hammett
 		increase_ruling_party_popularity_by_3 = yes
 		add_stability = 0.03
 		create_country_leader = {
-			name = "Samuel Dashiell Hammett"
+			name = "Дэшил Хэммет"
 			picture = "gfx/leaders/CGL/Portrait_CGL_Samuel_Dashiell_Hammett.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -21664,7 +21664,7 @@ country_event = { #Hammett
 				}
 			}
 			create_corps_commander = {
-				name = "Samuel Dashiell Hammett "
+				name = "Дэшил Хэммет "
 				portrait_path = "gfx/leaders/CGL/Portrait_CGL_Samuel_Dashiell_Hammett_general.png"
 				traits = {  }
 				skill = 1
@@ -21700,7 +21700,7 @@ country_event = { #
 	option = {
 		name = csa.6004.b
 		create_country_leader = {
-			name = "Benton MacKaye"
+			name = "Бентон Маккей"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Benton_MacKaye.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -21731,7 +21731,7 @@ country_event = { #
 	option = {
 		name = csa.6004.e
 		create_country_leader = {
-			name = "Stuart Chase"
+			name = "Стюарт Чейз"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Stuart_Chase.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -21790,7 +21790,7 @@ country_event = { #
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Henry Ford"
+				name = "Генри Форд"
 				desc = ""
 				picture = "gfx/leaders/CGL/Portrait_CGL_Henry_Ford.png"
 				expire = "1.1.1"
@@ -21889,7 +21889,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "David Lasser"
+			name = "Дэвид Лассер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_David_Lasser.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -21901,7 +21901,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "David Lasser"
+			name = "Дэвид Лассер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_David_Lasser.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -21913,7 +21913,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "David Lasser"
+			name = "Дэвид Лассер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_David_Lasser.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -21949,7 +21949,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Isaac Asimov"
+			name = "Айзек Азимов"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Isaac_Asimov.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -21961,7 +21961,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Isaac Asimov"
+			name = "Айзек Азимов"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Isaac_Asimov.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -21973,7 +21973,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Isaac Asimov"
+			name = "Айзек Азимов"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Isaac_Asimov.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22009,7 +22009,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Donald A. Wollheim"
+			name = "Дональд Уоллхейм"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Donald_A_Wollheim.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22021,7 +22021,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Donald A. Wollheim"
+			name = "Дональд Уоллхейм"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Donald_A_Wollheim.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22033,7 +22033,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Donald A. Wollheim"
+			name = "Дональд Уоллхейм"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Donald_A_Wollheim.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22069,7 +22069,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Fletcher Pratt"
+			name = "Флетчер Прэтт"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Fletcher_Pratt.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22081,7 +22081,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Fletcher Pratt"
+			name = "Флетчер Прэтт"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Fletcher_Pratt.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22093,7 +22093,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Fletcher Pratt"
+			name = "Флетчер Прэтт"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Fletcher_Pratt.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22129,7 +22129,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "L. Sprague de Camp"
+			name = "Лайон Спрэг де Камп"
 			picture = "gfx/leaders/NYC/Portrait_NYC_L_Sprague_de_Camp.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22141,7 +22141,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "L. Sprague de Camp"
+			name = "Лайон Спрэг де Камп"
 			picture = "gfx/leaders/NYC/Portrait_NYC_L_Sprague_de_Camp.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22153,7 +22153,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "L. Sprague de Camp"
+			name = "Лайон Спрэг де Камп"
 			picture = "gfx/leaders/NYC/Portrait_NYC_L_Sprague_de_Camp.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22205,7 +22205,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "John Drury Clark"
+			name = "Джон Дрюри Кларк"
 			picture = "gfx/leaders/ALA/Portrait_ALA_John_Drury_Clark.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22217,7 +22217,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "John Drury Clark"
+			name = "Джон Дрюри Кларк"
 			picture = "gfx/leaders/ALA/Portrait_ALA_John_Drury_Clark.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22229,7 +22229,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "John Drury Clark"
+			name = "Джон Дрюри Кларк"
 			picture = "gfx/leaders/ALA/Portrait_ALA_John_Drury_Clark.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22265,7 +22265,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Hugh Doak Rankin"
+			name = "Хью Доак Рэнкин"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Hugh_Doak_Rankin.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22277,7 +22277,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Hugh Doak Rankin"
+			name = "Хью Доак Рэнкин"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Hugh_Doak_Rankin.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22289,7 +22289,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Hugh Doak Rankin"
+			name = "Хью Доак Рэнкин"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Hugh_Doak_Rankin.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22325,7 +22325,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Raymond A. Palmer"
+			name = "Рэймонд Артур Палмер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Raymond_A_Palmer.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22337,7 +22337,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Raymond A. Palmer"
+			name = "Рэймонд Артур Палмер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Raymond_A_Palmer.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22349,7 +22349,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Raymond A. Palmer"
+			name = "Рэймонд Артур Палмер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Raymond_A_Palmer.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22385,7 +22385,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Roger Sherman Hoar"
+			name = "Роджер Шерман Хоар"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Roger_Sherman_Hoar.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22397,7 +22397,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Roger Sherman Hoar"
+			name = "Роджер Шерман Хоар"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Roger_Sherman_Hoar.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22409,7 +22409,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Roger Sherman Hoar"
+			name = "Роджер Шерман Хоар"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Roger_Sherman_Hoar.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22445,7 +22445,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Stanley G. Weinbaum"
+			name = "Стэнли Вайнбаум"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Stanley_G_Weinbaum.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22457,7 +22457,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Stanley G. Weinbaum"
+			name = "Стэнли Вайнбаум"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Stanley_G_Weinbaum.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22469,7 +22469,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Stanley G. Weinbaum"
+			name = "Стэнли Вайнбаум"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Stanley_G_Weinbaum.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22505,7 +22505,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "C. L. Moore"
+			name = "Кэтрин Люсиль Мур"
 			picture = "gfx/leaders/CSA/Portrait_CSA_C_L_Moore.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22517,7 +22517,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "C. L. Moore"
+			name = "Кэтрин Люсиль Мур"
 			picture = "gfx/leaders/CSA/Portrait_CSA_C_L_Moore.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22529,7 +22529,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "C. L. Moore"
+			name = "Кэтрин Люсиль Мур"
 			picture = "gfx/leaders/CSA/Portrait_CSA_C_L_Moore.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22565,7 +22565,7 @@ country_event = { #
 				has_government = totalist
 			}
         create_country_leader = {
-			name = "Henry Kuttner"
+			name = "Генри Каттнер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Henry_Kuttner.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype
@@ -22577,7 +22577,7 @@ country_event = { #
 				has_government = radical_socialist
 			}
         create_country_leader = {
-			name = "Henry Kuttner"
+			name = "Генри Каттнер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Henry_Kuttner.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -22589,7 +22589,7 @@ country_event = { #
 				has_government = social_democrat
 			}
         create_country_leader = {
-			name = "Henry Kuttner"
+			name = "Генри Каттнер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Henry_Kuttner.png"
 			expire = "1.1.1"
 			ideology = socdem_utopian_technocracy_subtype
@@ -22693,8 +22693,8 @@ country_event = { #
 			remove_core_of = BBR
 		}
 		BBR = {
-			create_country_leader = {# Harry Haywood
-			name = "Harry Haywood"
+			create_country_leader = {# Гарри Хейвуд
+			name = "Гарри Хейвуд"
 			desc = "BBR_HARRY_HAYWOOD_POLITICS_DESC"
 			picture = "gfx/leaders/BBR/Portrait_BBR_Harry_Haywood.png"
 			expire = "1.1.1"
@@ -22791,8 +22791,8 @@ country_event = { # Mattachine Society
 				AND = {
 					has_completed_focus = CSA_la_cosa_nostra
                     NOT = {
-						has_country_leader = { ruling_only = yes name = "Clyde Barrow" }
-					    has_country_leader = { ruling_only = yes name = "René Belbenoît" }
+						has_country_leader = { ruling_only = yes name = "Клайд Бэрроу" }
+					    has_country_leader = { ruling_only = yes name = "Рене Бельбенуа" }
 					}
 				}
 			}
@@ -22864,7 +22864,7 @@ country_event = { # Smokey Yunick
 			category = motorized_equipment
 		}
 		create_corps_commander = {
-			name = "Henry 'Smokey' Yunick"
+			name = "Генри «Смоки» Юник"
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Henry_Yunick.png"
 			traits = {
 				combined_arms_expert
@@ -22967,7 +22967,7 @@ country_event = { #
 		}
 		BBR = {
 			create_country_leader = {
-				name = "James W. Ford"
+				name = "Джеймс В. Форд"
 				desc = "POLITICS_JAMES_W_FORD_DESC"
 				picture = "gfx/leaders/BBR/Portrait_BBR_James_W_Ford.png"
 				expire = "1.1.1"
@@ -23005,7 +23005,7 @@ country_event = { #
 	}
 }
 
-country_event = { # Foster AFL
+country_event = { # 
 	id = csa.6017
 	immediate = { log = "[GetDateText]: [Root.GetName]: event csa.6017" }
 	title = csa.6017.t
@@ -23115,7 +23115,7 @@ country_event = { # Take a Vacation?
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Earl Browder"
+						name = "Эрл Браудер"
 						ruling_only = yes
 					}
 				}
@@ -23127,7 +23127,7 @@ country_event = { # Take a Vacation?
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "William Z. Foster"
+						name = "Уильям З. Фостер"
 						ruling_only = yes
 					}
 				}
@@ -23139,7 +23139,7 @@ country_event = { # Take a Vacation?
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "James Burnham"
+						name = "Джеймс Бернхем"
 						ruling_only = yes
 					}
 				}
@@ -23166,7 +23166,7 @@ country_event = { # Death of Burnham
 	option = { #Lovestone 
 		name = csa_sucsessor.2.a	
 		create_country_leader = {
-			name = "Jay Lovestone"
+			name = "Джей Лавстон"
 			desc = "POLITICS_JAY_LOVESTONE_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jay_Lovestone.png"
 			expire = "1.1.1"
@@ -23204,7 +23204,7 @@ country_event = { # Death of Burnham
 	option = { #Cannon
 		name = csa_sucsessor.2.b	
 		create_country_leader = {
-			name = "James P. Cannon"
+			name = "Джеймс П. Кэннон"
 			desc = "POLITICS_JAMES_CANNON_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_James_P_Cannon.png"
 			expire = "1.1.1"
@@ -23241,7 +23241,7 @@ country_event = { # Death of Burnham
 	option = { #LaRouche
 		name = csa_sucsessor.2.c
 		create_country_leader = {
-			name = "Lyndon LaRouche"
+			name = "Линдон Ларуш"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lyndon_LaRouche.png"
 			expire = "1.1.1"
 			ideology = burnhamite_thought_subtype
@@ -23259,7 +23259,7 @@ country_event = { # Death of Burnham
 	option = { #Reagan
 		name = csa_sucsessor.2.e	
 		create_country_leader = {
-			name = "Ronald Reagan"
+			name = "Рональд Рейган"
 			picture = "gfx/leaders/USA/Portrait_USA_Ronald_Reagan.png"
 			expire = "1.1.1"
 			ideology = burnhamite_thought_subtype
@@ -23277,7 +23277,7 @@ country_event = { # Death of Burnham
 	option = { #Dennis
 		name = csa_sucsessor.2.f	
 		create_country_leader = {
-			name = "Lawrence Dennis"
+			name = "Лоуренс Деннис"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lawrence_Dennis.png"
 			expire = "1.1.1"
 			ideology = burnhamite_thought_subtype
@@ -23307,7 +23307,7 @@ country_event = { # Death of Browder
 	option = { #Hall 
 		name = csa_sucsessor.3.a	
 		create_country_leader = {
-			name = "Gus Hall"
+			name = "Гэс Холл"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Gus_Hall.png"
 			expire = "1.1.1"
 			ideology = popcom_subtype
@@ -23325,7 +23325,7 @@ country_event = { # Death of Browder
 	option = { #Ford
 		name = csa_sucsessor.3.b
 		create_country_leader = {
-			name = "James W. Ford"
+			name = "Джеймс В. Форд"
 			picture = "gfx/leaders/BBR/Portrait_BBR_James_W_Ford.png"
 			expire = "1.1.1"
 			ideology = popcom_subtype
@@ -23343,7 +23343,7 @@ country_event = { # Death of Browder
 	option = { #Bedacht
 		name = csa_sucsessor.3.c	
 		create_country_leader = {
-			name = "Max Bedacht"
+			name = "Макс Бедахт"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Max_Bedacht.png"
 			expire = "1.1.1"
 			ideology = popcom_subtype
@@ -23361,7 +23361,7 @@ country_event = { # Death of Browder
 	option = { #Ballam
 		name = csa_sucsessor.3.e
 		create_country_leader = {
-			name = "John J. Ballam"
+			name = "Джон Дж. Баллам"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_J_Ballam.png"
 			expire = "1.1.1"
 			ideology = popcom_subtype
@@ -23379,7 +23379,7 @@ country_event = { # Death of Browder
 	option = { #Green
 		name = csa_sucsessor.3.f
 		create_country_leader = {
-			name = "Gil Green"
+			name = "Гил Грин"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Gil_Green.png"
 			expire = "1.1.1"
 			ideology = popcom_subtype
@@ -23403,11 +23403,11 @@ country_event = { # Death of Foster
 	picture = GFX_CSA_foster
 	
 	is_triggered_only = yes
-
+	
 	option = { #Cannon 
 		name = csa_sucsessor.4.a	
 		create_country_leader = {
-			name = "James P. Cannon"
+			name = "Джеймс П. Кэннон"
 			desc = "POLITICS_JAMES_CANNON_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_James_P_Cannon.png"
 			expire = "1.1.1"
@@ -23445,7 +23445,7 @@ country_event = { # Death of Foster
 	option = { #Weinstone
 		name = csa_sucsessor.4.b
 		create_country_leader = {
-			name = "William Weinstone"
+			name = "Уильям Вайнстоун"
 			picture = "gfx/leaders/CSA/Portrait_CSA_William_Weinstone.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23463,7 +23463,7 @@ country_event = { # Death of Foster
 	option = { #Ford
 		name = csa_sucsessor.4.c
 		create_country_leader = {
-			name = "James W. Ford"
+			name = "Джеймс В. Форд"
 			picture = "gfx/leaders/BBR/Portrait_BBR_James_W_Ford.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23481,7 +23481,7 @@ country_event = { # Death of Foster
 	option = { #Shulman
 		name = csa_sucsessor.4.e
 		create_country_leader = {
-			name = "Jack Shulman"
+			name = "Джек Шульман"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jack_Shulman.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23516,7 +23516,7 @@ country_event = { # Death of Foster
 	option = { #Fox
 		name = csa_sucsessor.4.f
 		create_country_leader = {
-			name = "Jay Fox"
+			name = "Джей Фокс"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Jay_Fox.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23534,7 +23534,7 @@ country_event = { # Death of Foster
 	option = { #Ballam
 		name = csa_sucsessor.4.g
 		create_country_leader = {
-			name = "John J. Ballam"
+			name = "Джон Дж. Баллам"
 			picture = "gfx/leaders/CSA/Portrait_CSA_John_J_Ballam.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23549,10 +23549,10 @@ country_event = { # Death of Foster
 		}
 	}
 
-	option = { #Amter
+	option = { #Ballam
 		name = csa_sucsessor.4.h
 		create_country_leader = {
-			name = "Israel Amter"
+			name = "Израиль Амтер"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Israel_Amter.png"
 			expire = "1.1.1"
 			ideology = william_foster_thought_subtype
@@ -23570,7 +23570,7 @@ country_event = { # Death of Foster
 	option = { #Katterfeld
 		name = csa_sucsessor.4.i
 		create_country_leader = {
-			name = "Ludwig E. Katterfeld"
+			name = "Людвиг Каттерфельд"
 			desc = "POLITICS_LUDWIG_KATTERFELD_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_L_E_Katterfeld.png"
 			expire = "1.1.1"
@@ -23589,7 +23589,7 @@ country_event = { # Death of Foster
 	option = { #Mattick
 		name = csa_sucsessor.4.j
 		create_country_leader = {
-			name = "Paul Mattick"
+			name = "Пауль Маттик"
 			desc = "POLITICS_PAUL_MATTICK_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Paul_Mattick.png"
 			expire = "1.1.1"

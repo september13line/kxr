@@ -424,7 +424,7 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Huey Long" }
+			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
 			NOT = { has_country_flag = USA_had_1940_election }
@@ -455,7 +455,7 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Huey Long" }
+			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
 		}
 		available_if_capitulated = yes
 		select_effect = {
@@ -468,7 +468,7 @@ focus_tree = {
 			custom_effect_tooltip = USA_AFP_gains_strength2
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
 			hidden_effect = {
-				add_to_variable = { var = AFP_strength value = 2 }
+			add_to_variable = { var = AFP_strength value = 2 }
 			}
 		}
 	}
@@ -484,7 +484,7 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "William Haywood" }
+			has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" }
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
 			NOT = { has_country_flag = USA_had_1940_election }
@@ -518,7 +518,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = USA_president_inaugurated
-			has_country_leader = { ruling_only = yes name = "William Haywood" }
+			has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" }
 		}
 		available_if_capitulated = yes
 		select_effect = {
@@ -549,7 +549,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = USA_president_inaugurated
-			has_country_leader = { ruling_only = yes name = "William Haywood" }
+			has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" }
 		}
 		available_if_capitulated = yes
 		select_effect = {
@@ -578,13 +578,13 @@ focus_tree = {
 		}
 		select_effect = {
 		if = {
-		limit = { has_country_leader = { ruling_only = yes name = "William Haywood" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" } }
 		hidden_effect = {
 			country_event = { id = ustates.4900 days = 7 }
 				}
 			}
 		if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Huey Long" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хьюи Лонг" } }
 		hidden_effect = {
 			country_event = { id = ustates.6200 days = 7 }
 				}
@@ -598,8 +598,8 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "William Haywood" }
-				has_country_leader = { ruling_only = yes name = "Huey Long" }
+			has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" }
+			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
 			}
 		}
 		available_if_capitulated = yes
@@ -636,18 +636,18 @@ focus_tree = {
 		available = {
 			has_country_flag = USA_president_inaugurated
 			OR = {
-			has_country_leader = { ruling_only = yes name = "William H. Murray" }
-			has_country_leader = { ruling_only = yes name = "Huey Long" }
+			has_country_leader = { ruling_only = yes name = "Уильям Мюррей" }
+			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
 			}
 		}
 		available_if_capitulated = yes
 		select_effect = {
 			if = { 
-			limit = { has_country_leader = { ruling_only = yes name = "William H. Murray" } }
+			limit = { has_country_leader = { ruling_only = yes name = "Уильям Мюррей" } }
 			country_event = { id = amcivwar.6310 days = 8 }
 			}
 			if = { 
-			limit = { has_country_leader = { ruling_only = yes name = "Huey Long" } }
+			limit = { has_country_leader = { ruling_only = yes name = "Хьюи Лонг" } }
 			country_event = { id = amcivwar.59 days = 8 }
 			}
 		}
@@ -675,17 +675,17 @@ focus_tree = {
 			factor = 100
 		}
 		mutually_exclusive = {
-			focus = USA_fight_anarchists
+		focus = USA_fight_anarchists
 		}
 		select_effect = {
-			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "William H. Murray" } }
-				country_event = { id = ustates.6302 days = 6 }
-			}
-			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Huey Long" } }
-				country_event = { id = ustates.55 days = 6 }
-			}
+		if = {
+		limit = { has_country_leader = { ruling_only = yes name = "Уильям Мюррей" } }
+		country_event = { id = ustates.6302 days = 6 }
+		}
+		if = {
+		limit = { has_country_leader = { ruling_only = yes name = "Хьюи Лонг" } }
+		country_event = { id = ustates.55 days = 6 }
+		}
 		}
 		prerequisite = {
 			focus = USA_president_long
@@ -694,27 +694,27 @@ focus_tree = {
 		available = {
 			has_country_flag = USA_president_inaugurated
 			OR = {
-				has_country_leader = { ruling_only = yes name = "William H. Murray" }
-				has_country_leader = { ruling_only = yes name = "Huey Long" }
+			has_country_leader = { ruling_only = yes name = "Уильям Мюррей" }
+			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
 			}
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Huey Long" } }
-				custom_effect_tooltip = USA_AFP_gains_strength
-				hidden_effect = {
-					add_to_variable = { var = AFP_strength value = 1 }
-				}
-				increase_ruling_party_popularity_by_5 = yes
+			if = { 
+			limit = { has_country_leader = { ruling_only = yes name = "Хьюи Лонг" } }
+			custom_effect_tooltip = USA_AFP_gains_strength
+			hidden_effect = {
+			add_to_variable = { var = AFP_strength value = 1 }
+			}
+			increase_ruling_party_popularity_by_5 = yes
 			}
 			if = { 
-				limit = { has_country_leader = { ruling_only = yes name = "William H. Murray" } }
-				custom_effect_tooltip = USA_ODP_gains_strength
-				hidden_effect = {
-					add_to_variable = { var = ODP_strength value = 1 }
-				}
-				increase_ruling_party_popularity_by_5 = yes
+			limit = { has_country_leader = { ruling_only = yes name = "Уильям Мюррей" } }
+			custom_effect_tooltip = USA_ODP_gains_strength
+			hidden_effect = {
+			add_to_variable = { var = ODP_strength value = 1 }
+			}
+			increase_ruling_party_popularity_by_5 = yes
 			}
 		}
 	}
@@ -766,7 +766,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-			ruling_only = yes name = "William H. Murray"
+			ruling_only = yes name = "Уильям Мюррей"
 			}
 		}
 		available_if_capitulated = yes
@@ -797,7 +797,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-			ruling_only = yes name = "William H. Murray"
+			ruling_only = yes name = "Уильям Мюррей"
 			}
 		}
 		available_if_capitulated = yes
@@ -826,7 +826,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -853,7 +853,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -881,7 +881,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -911,7 +911,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -977,7 +977,7 @@ focus_tree = {
 				has_country_flag = USA_Herb_36_Victory
 				has_country_flag = USA_president_inaugurated
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1003,7 +1003,7 @@ focus_tree = {
 		prerequisite = { focus = USA_now_is_prosperity_around_the_corner }
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1039,7 +1039,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -1068,7 +1068,7 @@ focus_tree = {
 		prerequisite = { focus = USA_appoint_new_judges }
 		available = {
 			has_country_leader = {
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -1097,7 +1097,7 @@ focus_tree = {
 		prerequisite = { focus = USA_appoint_new_judges }
 		available = {
 			has_country_leader = {
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -1142,7 +1142,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1179,7 +1179,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1207,7 +1207,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 			has_country_leader = {
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 				}
 		}
@@ -1239,7 +1239,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1268,7 +1268,7 @@ focus_tree = {
 		prerequisite = { focus = USA_balancing_the_budget }
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1296,7 +1296,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1329,7 +1329,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1373,7 +1373,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1463,7 +1463,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1508,7 +1508,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1559,7 +1559,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1607,7 +1607,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1636,7 +1636,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1670,7 +1670,7 @@ focus_tree = {
 		}
 		available = {
 				has_country_leader = {
-					name = "Herbert Hoover"
+					name = "Герберт Гувер"
 					ruling_only = yes
 				}
 		}
@@ -1716,12 +1716,12 @@ focus_tree = {
 		icon = GFX_USA_cactusjack
 		cost = 1.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 				has_country_flag = USA_president_inaugurated
 				has_global_flag = USA_garner_is_president
 			}
 		bypass = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 				has_country_flag = USA_president_inaugurated
 				has_global_flag = USA_garner_is_president
 			}	
@@ -1741,7 +1741,7 @@ focus_tree = {
 		icon = GFX_USA_sweep_farm_tariffs
 		cost = 5.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+			has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 		}
 		prerequisite = {
 			focus = USA_garner_wins
@@ -1776,7 +1776,7 @@ focus_tree = {
 		icon = GFX_USA_rural_investments
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_Garner_free_trade
@@ -1830,7 +1830,7 @@ focus_tree = {
 		icon = GFX_USA_austerity_measures
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_rural_investments
@@ -1874,7 +1874,7 @@ focus_tree = {
 		icon = GFX_goal_ALB_Smashing_Communism
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_garner_wins
@@ -1905,7 +1905,7 @@ focus_tree = {
 		icon = GFX_HOL_crackdown_natpop
 		cost = 3.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+			has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 		}
 		prerequisite = {
 			focus = USA_garner_wins
@@ -1939,7 +1939,7 @@ focus_tree = {
 		icon = GFX_USA_directors_boys
 		cost = 2.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_smash_radicals
@@ -1969,7 +1969,7 @@ focus_tree = {
 		icon = GFX_NEE_democratic_machine
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_hoovers_boys
@@ -2001,7 +2001,7 @@ focus_tree = {
 		icon = GFX_goal_NEE_Support_MacArthurs_Burden
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_hoovers_boys
@@ -2031,7 +2031,7 @@ focus_tree = {
 		icon = GFX_goal_FRA_Combat_Anarchist_Chaos
 		cost = 5.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+			has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 		}
 		prerequisite = {
 			focus = USA_reassert_democrats
@@ -2066,7 +2066,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_workers_right_to_drink
 		cost = 5.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+			has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 		}
 		prerequisite = {
 			focus = USA_reassert_democrats
@@ -2096,7 +2096,7 @@ focus_tree = {
 		icon = GFX_USA_senate
 		cost = 5.00
 		available = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 			}
 		prerequisite = {
 			focus = USA_yay_liquor
@@ -2174,7 +2174,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 			NOT = {
 				has_country_flag = USA_deadlock_garner
@@ -2204,7 +2204,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2232,7 +2232,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2259,7 +2259,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2338,7 +2338,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2384,7 +2384,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2435,7 +2435,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2472,7 +2472,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2505,7 +2505,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2535,7 +2535,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2565,7 +2565,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2599,7 +2599,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2641,7 +2641,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -2705,7 +2705,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = radical_socialist
-				has_government = social_democrat
+			has_government = social_democrat
 			}
 		}
 		ai_will_do = {
@@ -6515,7 +6515,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_invest_in_children"
 			add_ideas = CAL_orphan_support_idea
 		}
-	}  
+	}
 
 	###Republican Home Plan###
 	focus = {# Curtis/Landon
@@ -6524,15 +6524,15 @@ focus_tree = {
 		cost = 1.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 			has_country_flag = USA_president_inaugurated
 		}
 		bypass = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 			has_country_flag = USA_president_inaugurated
 		}	
@@ -6553,8 +6553,8 @@ focus_tree = {
 		cost = 3.50
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 				NOT = {
 				has_country_flag = USA_compromise_failed
 				}
@@ -6595,8 +6595,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6621,8 +6621,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6680,8 +6680,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6715,8 +6715,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6755,8 +6755,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6783,8 +6783,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6815,7 +6815,7 @@ focus_tree = {
 		icon = GFX_USA_old_guard
 		cost = 5.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+			has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 		}
 		mutually_exclusive = {
 			focus = USA_new_republicans
@@ -6843,8 +6843,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6874,8 +6874,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6904,8 +6904,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6937,7 +6937,7 @@ focus_tree = {
 		icon = GFX_USA_new_republicans
 		cost = 5.00
 		available = {
-			has_country_leader = { ruling_only = yes name = "Alf Landon" }
+			has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
 		}
 		prerequisite = {
 			focus = USA_return_to_normalcy
@@ -6965,8 +6965,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -6995,8 +6995,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -7025,8 +7025,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -7059,8 +7059,8 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 			}
 		}
 		prerequisite = {
@@ -7083,7 +7083,7 @@ focus_tree = {
 			}
 			}
 		}
-	
+		
 	###Norris Rooseveltian Plan###
 	focus = {# Chad Norris
 		id = USA_norris
@@ -7091,7 +7091,7 @@ focus_tree = {
 		cost = 1.00
 		available = {
 			has_country_flag = USA_president_inaugurated
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		x = 26
 		y = 0
@@ -7109,7 +7109,7 @@ focus_tree = {
 		icon = GFX_goal_COR_Reconcile_Progressives
 		cost = 1.50
 		available = {
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 			has_country_flag = USA_norris_appeasement
 			NOT = {
 			has_country_flag = USA_angered_long_reed
@@ -7144,7 +7144,7 @@ focus_tree = {
 		available = {
 			has_government = social_democrat
 			date < 1937.5.1
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_progressive_collaboration
@@ -7175,7 +7175,7 @@ focus_tree = {
 		cost = 2.75
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_emergency_intervention
@@ -7222,7 +7222,7 @@ focus_tree = {
 		cost = 2.75
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_emergency_intervention
@@ -7261,7 +7261,7 @@ focus_tree = {
 		cost = 4.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" }
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" }
 		}
 		prerequisite = {
 			focus = USA_mcnary_plan
@@ -7296,7 +7296,7 @@ focus_tree = {
 		available = {
 			has_government = social_democrat
 			date < 1937.5.1
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_progressive_collaboration
@@ -7322,7 +7322,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_war_on_the_klan
@@ -7387,7 +7387,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_war_on_the_klan
@@ -7414,7 +7414,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_southern_investments
@@ -7454,7 +7454,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_war_on_unemployment
@@ -7480,7 +7480,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_square_deal
@@ -7574,7 +7574,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_square_deal
@@ -7601,7 +7601,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_square_deal
@@ -7659,7 +7659,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_dreams_of_henry_george
@@ -7696,7 +7696,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_a_popular_vote
@@ -7719,7 +7719,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_a_popular_vote
@@ -7746,7 +7746,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			has_government = social_democrat
-			has_country_leader = { ruling_only = yes name = "George Norris" } 
+			has_country_leader = { ruling_only = yes name = "Джордж Норрис" } 
 		}
 		prerequisite = {
 			focus = USA_a_popular_vote
@@ -7816,7 +7816,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 		}
@@ -7842,7 +7842,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat 
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 		}
@@ -7901,7 +7901,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat 
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 		}
@@ -7927,7 +7927,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat 
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 		}
@@ -7956,7 +7956,7 @@ focus_tree = {
 		cost = 5.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat 
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 		}
@@ -7985,7 +7985,7 @@ focus_tree = {
 		cost = 2.00
 		available = {
 			OR = {
-				has_government = authoritarian_democrat
+			has_government = authoritarian_democrat 
 				has_country_flag = USA_leahy_gave_up_power_flag
 			}
 			has_global_flag = USA_civil_war_over_flag
@@ -8012,9 +8012,9 @@ focus_tree = {
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			hidden_effect = {
 			USA = {
-				annex_country = {
-				target = WCC
-				transfer_troops = yes
+					annex_country = {
+					target = WCC
+					transfer_troops = yes
 				}
 			}
 			country_event = { id = ustates.3126 days = 3 }
@@ -10029,8 +10029,8 @@ focus_tree = {
 		cost = 1.00
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Douglas MacArthur" } 
-				has_country_leader = { ruling_only = yes name = "Vacant Presidency" } 
+				has_country_leader = { ruling_only = yes name = "Дуглас Макартур" } 
+				has_country_leader = { ruling_only = yes name = "Вакантное президентство" } 
 			}
 		}
 		bypass = {
@@ -10138,7 +10138,7 @@ focus_tree = {
 						has_country_flag = USA_leahy_gave_up_power_flag
 					}
 				}
-				country_event = { id = ustates.120 days = 1 }
+			country_event = { id = ustates.120 days = 1 }
 			}
 			random_owned_state = {
 				limit = {
@@ -10461,7 +10461,7 @@ focus_tree = {
 				days = 20
 				}
 				if = {	
-					limit = { has_country_leader = { name = "Douglas MacArthur" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Дуглас Макартур" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "GFX_Portrait_USA_gen_douglas_macarthur_caesar_animated"
 					}
@@ -10894,7 +10894,7 @@ focus_tree = {
 			add_political_power = 200
 			add_command_power = 60
 			if = {	
-			limit = { has_country_leader = { name = "Douglas MacArthur" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Дуглас Макартур" ruling_only = yes } }
 				country_event = {
 					id = wcc.101
 				}
@@ -11256,7 +11256,7 @@ focus_tree = {
 				country_event = { id = ustates.625 days = 45 }
                 if = {
 					limit = { NOT = { has_global_flag = USA_civil_war_avoided_flag } }
-					country_event = { id = ustates.619 days = 670 }
+				country_event = { id = ustates.619 days = 670 }
 				    country_event = { id = ustates.626 days = 45 }
 				}
 			}	
@@ -11301,7 +11301,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_global_flag = USA_civil_war_avoided_flag
+			has_global_flag = USA_civil_war_avoided_flag
 				has_global_flag = NEE_doesnt_exist
 			}
 		}
@@ -14543,7 +14543,7 @@ focus_tree = {
 			has_global_flag = USA_civil_war_over_flag
 			}
 			OR = {
-				has_government = paternal_autocrat
+			has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 				has_government = social_conservative
 				has_government = market_liberal
@@ -14626,7 +14626,7 @@ focus_tree = {
 		focus = USA_denounce_race_hatred
 		}
 		available = {
-			OR = { 
+			OR = {
 				has_completed_focus = USA_return_to_true_americanism 
 				has_completed_focus = USA_american_caeser
 			}
@@ -15658,7 +15658,7 @@ focus_tree = {
 			add_ideas = USA_league_of_america_1
 			if = {
 				limit = { is_in_faction = no }
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_anti_imperial
 				icon = GFX_faction_anti_imperial_league
@@ -15892,13 +15892,13 @@ focus_tree = {
 			}	
 			}
 			else = {
-				random_owned_controlled_state = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-						}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
 				}
 			}
 			if = {
@@ -16140,9 +16140,9 @@ focus_tree = {
 		x = -2
 		y = 2
 		bypass = {
-			AST = {
+		AST = {
 				OR = {
-					exists = no
+		exists = no
 					NOT = { is_in_faction_with = ROOT }
 				}
 			}
@@ -17095,7 +17095,7 @@ focus_tree = {
 		y = 4
 
 		ai_will_do = {
-			factor = 10
+				factor = 10
 		}
 
 		completion_reward = {
@@ -17544,7 +17544,7 @@ focus_tree = {
 		NOT = {
 			controls_state = 101
 				}
-			}		
+			}
 		}
 		relative_position_id = USA_american_imperialism
 		x = 0
@@ -17563,8 +17563,8 @@ focus_tree = {
 			    }
 			}
 			else = {
-				DEN = {
-				country_event = ustates.670
+			DEN = {
+			country_event = ustates.670
 				}
 			}
 		}
@@ -19617,7 +19617,7 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 10
-		}
+		}	
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_20th_Century_Americanism"

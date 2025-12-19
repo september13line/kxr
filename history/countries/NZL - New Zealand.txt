@@ -41,38 +41,38 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
 	
-	basic_naval_mines = 1
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_light_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
-	sonar = 1
-	submarine_mine_laying = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		sonar = 1
+		submarine_mine_laying = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_research_slots = 3
 set_politics = {
@@ -112,69 +112,69 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Robert C. Begg"
+	name = "Роберт Бегг"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Robert_Begg.png"
 	desc = "POLITICS_ROBERT_BEGG_DESC"
 	expire = "1.1.1"
 	ideology = legionarism_subtype 
 }
 create_country_leader = {
-	name = "Bernard Freyberg"
+	name = "Бернард Фрейберг"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Bernard_Freyberg.png"
 	desc = "POLITICS_BERNARD_FREYBERG_DESC"
 	expire = "1.1.1"
 	ideology = junta_subtype
 }
 create_country_leader = {
-	name = "Robert C. Begg"
+	name = "Роберт Бегг"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Robert_Begg.png"
 	desc = "POLITICS_ROBERT_BEGG_DESC"
 	expire = "1.1.1"
 	ideology = authoritarian_liberalism_subtype 
 }
 create_country_leader = {
-	name = "Gordan Coates"
+	name = "Гордон Коутс"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Gordon_Coates.png"
 	desc = "POLITICS_GORDAN_COATES_DESC"
 	expire = "1.1.1"
 	ideology = soccon_agrarianism_subtype 
 }
 create_country_leader = {
-	name = "George Forbes"
+	name = "Джордж Форбс"
 	picture = "gfx/leaders/NZL/Portrait_NZL_George_Forbes.png"	
 	desc = "POLITICS_GEORGE_FORBES_DESC"	
 	expire = "1.1.1"
 	ideology = market_liberal_subtype 
 }
 create_country_leader = {
-	name = "Eruera Tirikatene"
+	name = "Эрура Тирикатене"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Eruera_Tirikatene.png"
 	desc = "POLITICS_ERUERA_TIRIKANTENE_DESC"
 	expire = "1.1.1"
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
-	name = "Michael J. Savage"
+	name = "Майкл Джозеф Сэвидж"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Michael_Joseph_Savage.png"
 	desc = "POLITICS_MICHAEL_SAVAGE_DESC"
 	expire = "1.1.1"
 	ideology = social_democrat_subtype
 }
 create_country_leader = {
-	name = "John Lee"
+	name = "Джон Ли"
 	picture = "gfx/leaders/NZL/Portrait_NZL_John_Lee.png"
 	expire = "1.1.1"
 	ideology = radsoc_social_credit_subtype 
 }
 create_country_leader = {
-	name = "Fintan Walsh"
+	name = "Финтан Уолш"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Fintan_Walsh.png"
 	desc = "POLITICS_FINTAN_WALSH_DESC"
 	expire = "1.1.1"
 	ideology = liberalized_syndicalism_subtype
 }
 create_country_leader = {
-	name = "Alexander Galbraith"
+	name = "Александр Гэлбрейт"
 	picture = "gfx/leaders/NZL/Portrait_NZL_Alexander_Galbraith.png"
 	desc = "POLITICS_ALEXANDER_GALBRAITH_DESC"
 	expire = "1.1.1"
@@ -183,7 +183,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "John Evelyn Duigan"
+	name = "Джон Эвелин Дуиган"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_John_Duigan.png"
 	traits = {
 		old_guard
@@ -200,7 +200,7 @@ create_field_marshal = {
 ### Corps Commanders ###
 
 create_corps_commander = {
-	name = "Bernard Freyberg "
+	name = "Бернард Фрейберг "
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Bernard_Freyberg.png"
 	traits = {
 		career_officer
@@ -215,7 +215,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "G.H. Clifton"
+	name = "Джордж Герберт Клифтон"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_George_Clifton.png"
 	traits = {
 		trait_reckless
@@ -229,7 +229,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "William Gentry"
+	name = "Уильям Джентри"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_William_Gentry.png"
 	traits = {
 		fortress_buster
@@ -242,7 +242,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "James Hargest"
+	name = "Джеймс Харгест"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_James_Hargest.png"
 	traits = {
 		old_guard
@@ -256,7 +256,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Edward Puttick"
+	name = "Эдвард Путтик"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Edward_Puttick.png"
 	traits = {
 		old_guard
@@ -269,7 +269,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Harold Barrowclough"
+	name = "Гарольд Барроуклаф"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Harold_Eric_Barrowclough.png"
 	traits = { brilliant_strategist }
 	skill = 3
@@ -280,7 +280,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Andrew Hamilton Russell"
+	name = "Эндрю Гамильтон Рассел"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Andrew_Russell.png"
 	traits = {
 		old_guard
@@ -295,7 +295,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "John Saunders"
+	name = "Джон Бэйкер Саундерс"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_John_Saunders.png"
 	traits = { }
 	skill = 1
@@ -306,7 +306,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "William George Stevens"
+	name = "Уильям Джордж Стивенс"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_William_Stevens.png"
 	traits = {
 		trickster
@@ -321,7 +321,7 @@ create_corps_commander = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Henry Horan"
+	name = "Генри Хоран"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Henry_Horan.png"
 	traits = {
 		superior_tactician
@@ -334,7 +334,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Peter Phipps"
+	name = "Питер Фиппс"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Peter_Phipps.png"
 	traits = { }
 	skill = 2
@@ -345,7 +345,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "James Rivett-Carnac"
+	name = "Джеймс Риветт-Карнак"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_James_William_Rivett_Carnac.png"
 	traits = { bold gunnery_expert }
 	skill = 3
@@ -356,7 +356,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "William Edward Parry"
+	name = "Вильям Эдвард Парри"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_William_Parry.png"
 	traits = { }
 	skill = 2
@@ -367,7 +367,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "George Haines Faulkner"
+	name = "Джордж Хейнс Фолкнер"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_George_Faulkner.png"
 	traits = {
 		spotter
@@ -380,7 +380,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Guy Royle"
+	name = "Гай Ройл"
 	portrait_path = "gfx/leaders/NZL/Portrait_NZL_Guy_Royle.png"
 	traits = {
 		superior_tactician

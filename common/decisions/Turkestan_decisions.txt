@@ -260,7 +260,7 @@ TRK_unite_central_asia = {
 			if = {
 				limit = { original_tag = URL }
 				has_completed_focus = URL_The_Second_Alash_Orda
-				has_country_leader = { name = "Jahansha Dosmukhamedov" ruling_only = yes }
+				has_country_leader = { name = "Жаханша Досмухамедов" ruling_only = yes }
 			}
 			turkestan_is_unaligned = no
 			is_subject = no
@@ -282,7 +282,7 @@ TRK_unite_central_asia = {
 			}
 			modifier = {
 				add = 100
-				407 = { is_owned_by_ROOT_or_subject = yes }
+					407 = { is_owned_by_ROOT_or_subject = yes }
 			}
 			modifier = {
 				add = 100
@@ -308,7 +308,7 @@ TRK_unite_central_asia = {
 					if = {
 						limit = { TRK = { TRK_erk_in_power = no } }
 						create_country_leader = {
-							name = "Toroqul Januzakov"
+							name = "Торекул Джанузаков"
 							desc = "POLITICS_TOROQUL_JANUZAKOV_DESC"
 							picture = "gfx/leaders/TRK/Portrait_TRK_Torokul_Dzhanuzakov.png"
 							expire = "1.1.1"
@@ -542,7 +542,7 @@ TRK_unite_central_asia = {
 			factor = 100
 			modifier = {
 				factor = 0
-				ROOT_is_threatened_cautious = yes
+					ROOT_is_threatened_cautious = yes
 			}
 			modifier = {
 				factor = 0
@@ -578,7 +578,7 @@ TRK_unite_central_asia = {
 						TRK_erk_in_power = yes						
 						NOT = {
 							has_country_leader = {
-								name = "Nazir Toraqulov"
+								name = "Назир Тюрякулов"
 								ruling_only = yes
 							}
 						}
@@ -711,8 +711,8 @@ TRK_unite_central_asia = {
 					}
 				}
 				405 = {
-					is_owned_by_ROOT_or_ally  = yes
-				}
+				is_owned_by_ROOT_or_ally  = yes
+			}
 			}
 			if = {
 				limit = { 
@@ -720,9 +720,9 @@ TRK_unite_central_asia = {
 						NOT = { is_owned_by = RUS }
 					}
 				}
-				861 = {
-					is_owned_by_ROOT_or_ally  = yes
-				}
+			861 = {
+				is_owned_by_ROOT_or_ally  = yes
+			}
 			}
 			if = {
 				limit = { 
@@ -734,10 +734,10 @@ TRK_unite_central_asia = {
 						}
 					}
 				}
-				586 = {
-					is_owned_by_ROOT_or_ally  = yes
+			586 = {
+				is_owned_by_ROOT_or_ally  = yes
 				}
-			}
+			}			
 			NOT = {
 				any_home_area_neighbor_country = {
 					OR = {
@@ -2546,7 +2546,7 @@ TRK_foreign_policy = {
 				TRK_monstrov_in_power = yes
 				AND = {
 					has_country_leader = {
-						name = "Ivan Zaitsev"
+						name = "Иван Зайцев"
 						ruling_only = yes
 					}
 					has_completed_focus = TRK_Restore_Russian_Grandeur
@@ -3061,7 +3061,7 @@ TRK_foreign_policy = {
 	}
 	TRK_join_russia = {
 		icon = generic_agreement
-		
+
 		available = {
 			is_faction_leader = no
 			is_in_faction = no
@@ -3255,7 +3255,7 @@ TRK_foreign_policy = {
 		cost = 0
 
 		ai_will_do = {
-			factor = 100			
+			factor = 100
 			modifier = {
 				factor = 0
 				tag = TRK
@@ -3323,19 +3323,19 @@ TRK_foreign_policy = {
 				NOT = { has_war_with = ROOT }
 				OR = {
 					has_country_leader = {
-						name = "Genghis Khan II"
+						name = "Чингисхан II"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Regency Council"
+						name = "Регентский совет"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Rolf von Ungern Sternberg"
+						name = "Рольф Унгерн-Штернберг"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Genghis Khan III"
+						name = "Чингисхан III"
 						ruling_only = yes
 					}
 				}
@@ -4416,10 +4416,10 @@ political_actions = {
 				}
 				FROM = {
 					set_state_flag = renamed_state_kazakh
-					set_state_name = "Orda"
+					set_state_name = "Орда"
 					set_province_name = {
 						id = 7708
-						name = "Orda"
+						name = "Орда"
 					}
 				}
 			}			
@@ -4481,10 +4481,10 @@ political_actions = {
 				}
 				FROM = {
 					set_state_flag = renamed_state_kazakh
-					set_state_name = "Zhamanqala"
+					set_state_name = "Жаманкала"
 					set_province_name = {
 						id = 4261
-						name = "Zhamanqala"
+						name = "Жаманкала"
 					}
 				}
 			}
@@ -4495,10 +4495,10 @@ political_actions = {
 				}
 				FROM = {
 					set_state_flag = renamed_state_kazakh
-					set_state_name = "Qostanai"
+					set_state_name = "Костанай"
 					set_province_name = {
 						id = 10284
-						name = "Qostanai"
+						name = "Костанай"
 					}
 				}
 			}
@@ -4509,18 +4509,18 @@ political_actions = {
 				}
 				FROM = {
 					set_state_flag = renamed_state_kazakh
-					set_state_name = "Aqmola"
+					set_state_name = "Акмола"
 					set_province_name = {
 						id = 7874
-						name = "Kyzylzhar"
+						name = "Кызылжар"
 					}
 					set_province_name = {
 						id = 1375
-						name = "Aqmola"
+						name = "Акмола"
 					}
 					set_province_name = {
 						id = 1418
-						name = "Kokşetau"
+						name = "Кокшетау"
 					}
 				}
 			}
@@ -4531,10 +4531,10 @@ political_actions = {
 				}
 				FROM = {
 					set_state_flag = renamed_state_kazakh
-					set_state_name = "Kereku"
+					set_state_name = "Кереку"
 					set_province_name = {
 						id = 7708
-						name = "Kereku"
+						name = "Кереку"
 					}
 				}
 			}			
@@ -4556,8 +4556,8 @@ TRK_executive_empowerment_act_category = {
 		}
 		cancel_trigger = {
 			OR = {
-				TRK_shokai_in_power = no
-				is_subject = yes
+			TRK_shokai_in_power = no
+			is_subject = yes
 				has_capitulated = yes
 			}
 		}

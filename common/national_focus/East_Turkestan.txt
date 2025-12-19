@@ -95,7 +95,7 @@ focus_tree = {
 			controls_province = 2015
 			controls_province = 4973
 		}
-		
+
 		ai_will_do = { factor = 100 }
 
 		completion_reward = {
@@ -128,8 +128,8 @@ focus_tree = {
 			custom_effect_tooltip = ETS_building_the_kashgar_hotan_highway_tt
 			if = {
 				limit = { is_subject = no }
-				custom_effect_tooltip = ETS_request_equipment_with_highway_tt
-			}
+			custom_effect_tooltip = ETS_request_equipment_with_highway_tt
+		}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -438,17 +438,17 @@ focus_tree = {
 				meta_effect = {
 					text = {
 						set_temp_variable = { ETS_election_year = global.year }
-						if = {
+			if = {
 							limit = { date > [YEAR].1.28 }
 							add_to_temp_variable = { ETS_election_year = 1 }
-						}
-						set_politics = {
-							ruling_party = authoritarian_democrat
+				}
+					set_politics = {
+						ruling_party = authoritarian_democrat
 							last_election = "[YEAR].1.28"
-							election_frequency = 48
-							elections_allowed = yes
-						}
+						election_frequency = 48
+						elections_allowed = yes
 					}
+				}
 					YEAR = "[?ETS_election_year]"
 				}
 			}
@@ -681,7 +681,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { name = "Timur Beg" ruling_only = yes }
+			has_country_leader = { name = "Тимур Бег" ruling_only = yes }
 		}
 		relative_position_id = ETS_uyghur_revolution
 		x = -4

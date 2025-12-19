@@ -104,8 +104,8 @@ country_event = { #Liberal Britain
 				ENG_Malcom_MacDonald_eco_sde
 				ENG_Harold_Nicolson_sec_rso
 			}
-			create_country_leader = {# Percy Hobart
-				name = "Percy Hobart"
+			create_country_leader = {# Перси Хобарт
+				name = "Перси Хобарт"
 				desc = "POLITICS_HOBART_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_Percy_Hobart.png"
 				expire = "1.1.1"
@@ -268,7 +268,7 @@ country_event = { # NATPOP UOB BABEY
 				ENG_Thomas_Haller_Cooper_sec_npo
 			}
 			create_country_leader = {# William Joyce
-				name = "William Joyce"
+				name = "Уильям Джойс"
 				desc = "POLITICS_JOYCE_DESC"
 				picture = "gfx/leaders/BRG/Portrait_BRG_William_Joyce.png"
 				expire = "1.1.1"
@@ -276,7 +276,7 @@ country_event = { # NATPOP UOB BABEY
 				traits = { BRG_the_leader }
 			}
 			create_field_marshal = {
-				name = "William Charles Brittain"
+				name = "Уильям Чарльз Бриттейн"
 				portrait_path = "gfx/leaders/BRG/Portrait_BRG_William_Brittain.png"
 				traits = {
 				politically_connected
@@ -422,7 +422,7 @@ country_event = { # End of Party Politics
 		name = basedbrit.12.a
 		set_country_flag = BRG_austria_faction
 		create_country_leader = {
-			name = "Archibald Maule Ramsay"
+			name = "Арчибальд Маул Рамсей"
 			desc = "POLITICS_BASERAMSAY_DESC"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Archibald_Ramsay_Civilian.png"
 			expire = "1.1.1"
@@ -525,7 +525,7 @@ country_event = { # RAMSAY TIME
 		name = basedbrit.18.a
 		add_political_power = 100
 		if = {	
-			limit = { has_country_leader = { name = "Archibald Maule Ramsay" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Арчибальд Маул Рамсей" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/BRG/Portrait_BRG_Archibald_Ramsay.png"
 			}
@@ -544,7 +544,7 @@ country_event = { # RAMSAY TIME
 		set_cosmetic_tag = BRG_cath_kingdom
 		set_country_flag = BRG_plant_king
 		create_country_leader = {
-			name = "Richard IV"
+			name = "Ричард IV"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Edward_Fitzherbert.png"
 			expire = "1.1.1"
 			ideology = neo_feudalism_subtype 
@@ -557,13 +557,13 @@ country_event = { # RAMSAY TIME
 			}
 		}
 	}
-	option = { # King James IV Jacobite
+	option = { # King James III Jacobite
 		name = basedbrit.18.c
 		set_country_flag = BRG_jacobite_stuff
 		set_cosmetic_tag = BRG_cath_kingdom
 		add_political_power = 100
 		create_country_leader = {
-			name = "James IV"
+			name = "Джеймс IV"
 			picture = "gfx/leaders/GER/Portrait_Germany_Rupprecht_Jacobite.png"
 			expire = "1.1.1"
 			ideology = neo_feudalism_subtype 
@@ -584,7 +584,7 @@ country_event = { # RAMSAY TIME
 		set_cosmetic_tag = BRG_cath_kingdom
 		add_political_power = 100
 		create_country_leader = {
-			name = "Mary II"
+			name = "Мэри II"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Sibyl_Hathaway.png"
 			expire = "1.1.1"
 			ideology = neo_feudalism_subtype 
@@ -646,8 +646,8 @@ country_event = { # I HATE JOCN AND ALL OF YOU FUCKYOU
 		name = basedbrit.38.a
 		set_country_flag = BRG_can_pick_king
 		hidden_effect = {
-				create_country_leader = {# Percy Hobart
-					name = "Regency Committee of TM's Privy Council"
+				create_country_leader = {# Перси Хобарт
+					name = "Регентский комитет достопочтенного Тайного совета Его Величества"
 					desc = "POLITICS_ENG_REGNECY_DESC"
 					picture = "gfx/leaders/ENG/Portrait_England_Regency_Council.png"
 					expire = "1.1.1"
@@ -673,38 +673,38 @@ country_event = { #
 		set_cosmetic_tag = BRG_commonwealth
 		add_country_leader_trait = BRG_cromwell_larp
 		if = {	
-			limit = { has_country_leader = { name = "Percy Hobart" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Перси Хобарт" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 			}
 		}
 		hidden_effect = {
-			create_country_leader = {# Percy Hobart
-				name = "Percy Hobart"
+			create_country_leader = {# Перси Хобарт
+				name = "Перси Хобарт"
 				desc = "POLITICS_HOBART_DESC"
 				picture = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 				expire = "1.1.1"
 				ideology = toryism_subtype 
 				traits = { BRG_cromwell_larp }
 			}
-			create_country_leader = {# Percy Hobart
-				name = "Percy Hobart"
+			create_country_leader = {# Перси Хобарт
+				name = "Перси Хобарт"
 				desc = "POLITICS_HOBART_DESC"
 				picture = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype 
 				traits = {BRG_cromwell_larp }
 			}
-			create_country_leader = {# Percy Hobart
-				name = "Percy Hobart"
+			create_country_leader = {# Перси Хобарт
+				name = "Перси Хобарт"
 				desc = "POLITICS_HOBART_DESC"
 				picture = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 				expire = "1.1.1"
 				ideology = national_liberalism_subtype 
 				traits = { BRG_cromwell_larp }
 			}
-			create_country_leader = {# Percy Hobart
-				name = "Percy Hobart"
+			create_country_leader = {# Перси Хобарт
+				name = "Перси Хобарт"
 				desc = "POLITICS_HOBART_DESC"
 				picture = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 				expire = "1.1.1"
@@ -761,7 +761,7 @@ country_event = { # YIPEEEEEEE
 				popularity = current_BRG_pataut_pop
 			}
 			if = {	
-			limit = { has_country_leader = { name = "Percy Hobart" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Перси Хобарт" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/BRG/Portrait_BRG_Percy_Hobart.png"
 			}
@@ -786,7 +786,7 @@ country_event = { # hunt mosley
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "John Strachey"
+				name = "Джон Стрейчи"
 				desc = "POLITICS_JOHN_STRACHEY_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_John_Strachey.png"
 				expire = "1.1.1"
@@ -918,7 +918,7 @@ country_event = { # presdinal election
 	option = { # 1000000000 votes to Attlee!
 		name = basedbrit.54.a
 		trigger = {
-			NOT = { has_country_leader = { name = "H.G. Wells" ruling_only = yes } }
+			NOT = { has_country_leader = { name = "Герберт Джордж Уэллс" ruling_only = yes } }
 		}
 		if = {
 			limit = {
@@ -934,7 +934,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Clement Attlee"
+			name = "Клемент Эттли"
 			picture = "gfx/leaders/ENG/Portrait_England_Clem_Attlee.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -973,7 +973,7 @@ country_event = { # presdinal election
 	option = { # 1000000000 votes to Wells!
 		name = basedbrit.54.a
 		trigger = {
-			has_country_leader = { name = "H.G. Wells" ruling_only = yes }
+			has_country_leader = { name = "Герберт Джордж Уэллс" ruling_only = yes }
 		}
 		if = {
 			limit = {
@@ -989,7 +989,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "H.G. Wells"
+			name = "Герберт Джордж Уэллс"
 			picture = "gfx/leaders/ENG/Portrait_England_H_G_Wells.png"
 			expire = "1.1.1"
 			ideology = socdem_internationalism_subtype 
@@ -1036,7 +1036,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Arthur Greenwood"
+			name = "Артур Гринвуд"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Arthur_Greenwood.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype
@@ -1086,7 +1086,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Hugh Gaitskell"
+			name = "Хью Гейтскелл"
 			picture = "gfx/leaders/ENG/Portrait_Britain_Hugh_Gaitskell.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -1123,7 +1123,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Hugh Gaitskell"
+			name = "Хью Гейтскелл"
 			picture = "gfx/leaders/ENG/Portrait_Britain_Hugh_Gaitskell.png"
 			expire = "1.1.1"
 			ideology = soclib_liberal_socialism_subtype 
@@ -1170,7 +1170,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -1217,7 +1217,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Michael Foot"
+			name = "Майкл Фут"
 			picture = "gfx/leaders/ENG/Portrait_England_Michael_Foot.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -1264,7 +1264,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Barbara Castle"
+			name = "Барбара Кастл"
 			picture = "gfx/leaders/ENG/Portrait_England_Barbara_Castle.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -1311,7 +1311,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Denis Healey"
+			name = "Дэнис Хили"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Denis_Healey.png"
 			expire = "1.1.1"
 			ideology = liberal_socialism_subtype 
@@ -1355,7 +1355,7 @@ country_event = { # presdinal election
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Ebenezer Edwards"
+			name = "Эбенезер Эдвардс"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Ebby_Edwards.png"
 			expire = "1.1.1"
 			ideology = radsoc_liberal_socialism_subtype
@@ -1375,11 +1375,11 @@ country_event = { # presdinal election
 		hidden_effect = { add_soclib_to_coalition = yes }
 		hidden_effect = { add_socdem_to_coalition = yes }
 		hidden_effect = {
-			country_event = {
-				id = basedbrit.54
-				days = 1826
-			}
+		country_event = {
+			id = basedbrit.54
+			days = 1826
 		}
+	}
 	}
 }
 country_event = { # liberty and socialism
@@ -1414,8 +1414,8 @@ country_event = { # joyce or that walrus dude
 	}
 		option = { # walrus dude
 		name = basedbrit.56.b
-		create_country_leader = {# Arnold Leese
-					name = "Arnold Leese"
+		create_country_leader = {# Арнольд Лиз
+					name = "Арнольд Лиз"
 					desc = "POLITICS_LEESEE_DESC"
 					picture = "gfx/leaders/BRG/Portrait_BRG_Arnold_Leese.png"
 					expire = "1.1.1"
@@ -1451,7 +1451,7 @@ country_event = { # does ramsey fuckin die or not
 		remove_ideas = ENG_Archibald_Ramsay_hog_pau
 		add_ideas = ENG_Hilaire_Belloc_hog_pau
 		create_country_leader = {# Hilaire Belloc
-					name = "Hilaire Belloc"
+					name = "Хилэр Беллок"
 					desc = "POLITICS_BELLOC_DESC"
 					picture = "gfx/leaders/BRG/Portrait_BRG_Hilaire_Belloc.png"
 					expire = "1.1.1"
@@ -1758,9 +1758,9 @@ country_event = { #Hobart retires
 			add_ideas = ENG_T_E_Lawrence_hog_pau
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Percy Hobart" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Перси Хобарт" ruling_only = yes } }
 			create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1768,7 +1768,7 @@ country_event = { #Hobart retires
 			traits = { BRG_cromwell_larp }
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1776,7 +1776,7 @@ country_event = { #Hobart retires
 			traits = { BRG_cromwell_larp }
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1784,7 +1784,7 @@ country_event = { #Hobart retires
 			traits = { BRG_cromwell_larp }
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1792,7 +1792,7 @@ country_event = { #Hobart retires
 			traits = { BRG_cromwell_larp }
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1800,7 +1800,7 @@ country_event = { #Hobart retires
 			traits = { BRG_cromwell_larp }
 		}
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -1814,7 +1814,7 @@ country_event = { #Hobart retires
 	option = { #Keep Hobert
 		name = basedbrit.96.b
 		trigger = {
-			has_country_leader = { name = "Percy Hobart" ruling_only = yes }
+			has_country_leader = { name = "Перси Хобарт" ruling_only = yes }
 		}
 		ai_chance = {
 			factor = 50
@@ -2385,7 +2385,7 @@ country_event = { #monarchist flavor
 	fire_only_once = yes
 	trigger = {
 		tag = ENG
-		has_country_leader = { name = "Mataoka II" ruling_only = yes }
+		has_country_leader = { name = "Матаока II" ruling_only = yes }
 		owns_state = 930
 		owns_state = 362
 		owns_state = 1155 
@@ -2404,15 +2404,15 @@ country_event = { #monarchist flavor
 		name = basedbrit.121.b
 		set_capital = { state = 361 }
 		set_cosmetic_tag = BRG_NATIVE
-		set_province_name = { id = 3957 name = "Werowocomoco"}
-		set_province_name = { id = 7588 name = "Kaihnawha"}
-		set_province_name = { id = 6984 name = "Chesepiooc"}
-		set_province_name = { id = 11888 name = "Schin-han-dowi"}
-		set_province_name = { id = 1506 name = "Croatoan"}
-		set_province_name = { id = 788 name = "Skicoak"}
-		set_province_name = { id = 3823 name = "Shocquohocan"}
-		set_province_name = { id = 9758 name = "Winichahanat"}
-		set_province_name = { id = 6971 name = "Miamis"}
+		set_province_name = { id = 3957 name = "Веровокомоко"}
+		set_province_name = { id = 7588 name = "Кайхнава"}
+		set_province_name = { id = 6984 name = "Чесепиоок"}
+		set_province_name = { id = 11888 name = "Шин-хан-доуи"}
+		set_province_name = { id = 1506 name = "Кроатон"}
+		set_province_name = { id = 788 name = "Скикоак"}
+		set_province_name = { id = 3823 name = "Шокуокан"}
+		set_province_name = { id = 9758 name = "Виничаханат"}
+		set_province_name = { id = 6971 name = "Майами"}
 
 	}
 }
@@ -2865,7 +2865,7 @@ country_event = { #yo we got the same king
 				every_unit_leader = {
 					set_nationality = ENG
 				}
-				ENG = { transfer_technology = yes }
+			ENG = { transfer_technology = yes }
 			}
 		}
 
@@ -3079,7 +3079,7 @@ country_event = { #death of richard IV
 		name = basedbrit.127.a
 		add_political_power = 25
 		create_country_leader = {
-			name = "Basil I"
+			name = "Василий I"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Basil_Fitzherbert.png"
 			expire = "1.1.1"
 			ideology = neo_feudalism_subtype 
@@ -3128,7 +3128,7 @@ country_event = { #Clem! expansion
 			factor = 0
 		}
 		set_country_flag = BRG_clem_federation
-        set_country_flag = BRG_clem_internationalist
+		set_country_flag = BRG_clem_internationalist
 		set_country_leader_ideology = socdem_internationalism_subtype
 		custom_effect_tooltip = socdem_socdem_internationalism_subtype_swap_tt
 		hidden_effect = {
@@ -3362,9 +3362,9 @@ country_event = { #yo we got the same king
 		is_ai = no
 		HOL = {
 			OR = {
-			has_country_leader = { name = "Bernhard van Lippe-Biesterfeld" ruling_only = yes }
-			has_country_leader = { name = "Wilhelmina" ruling_only = yes }
-			has_country_leader = { name = "Juliana" ruling_only = yes }
+			has_country_leader = { name = "Бернард Липпе-Бистерфельдский" ruling_only = yes }
+			has_country_leader = { name = "Вильгельмина" ruling_only = yes }
+			has_country_leader = { name = "Юлиана" ruling_only = yes }
 			}
 		}
 		ENG = {
@@ -3984,7 +3984,7 @@ country_event = { #
 	trigger = {
 	tag = ENG
 	ENG = {
-	has_country_leader = { name = "Francis Joseph I" ruling_only = yes }
+	has_country_leader = { name = "Франциск Иосиф I" ruling_only = yes }
 	has_country_flag = BRG_lic
 	owns_state = 1235
 		}
@@ -4023,7 +4023,7 @@ country_event = { #yo we got the same king
 		}
 		is_ai = no
 		JAP = {
-			has_country_leader = { name = "Yasuhito" ruling_only = yes }
+			has_country_leader = { name = "Ясухито" ruling_only = yes }
 			}
 		ENG = {
 			has_country_flag = BRG_jap_faction
@@ -4566,14 +4566,14 @@ country_event = { #yo we got the same kings
 		is_ai = no
 		TEX = {
 			OR = {
-			has_country_leader = { name = "James IV" ruling_only = yes }
-			has_country_leader = { name = "Mary II" ruling_only = yes }
-			has_country_leader = { name = "Holy American League Regency Council" ruling_only = yes }
+			has_country_leader = { name = "Джеймс IV" ruling_only = yes }
+			has_country_leader = { name = "Мэри II" ruling_only = yes }
+			has_country_leader = { name = "Роберт I" ruling_only = yes }
 			}
 		}
 		ENG = {
 			OR = {
-			has_country_leader = { name = "James IV" ruling_only = yes }
+			has_country_leader = { name = "Джеймс IV" ruling_only = yes }
 			has_country_flag = BRG_bastard
 			has_country_flag = BRG_bav
 			}
@@ -5243,7 +5243,7 @@ country_event = { #Wells
 		name = basedbrit.148.c
 		add_stability = 0.01
 		create_country_leader = {
-			name = "H.G. Wells"
+			name = "Герберт Джордж Уэллс"
 			picture = "gfx/leaders/ENG/Portrait_England_H_G_Wells.png"
 			expire = "1.1.1"
 			ideology = socdem_internationalism_subtype 
@@ -5328,14 +5328,14 @@ country_event = { #Clem! Flavor
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Hugh Gaitskell"
+			name = "Хью Гейтскелл"
 			picture = "gfx/leaders/ENG/Portrait_Britain_Hugh_Gaitskell.png"
 			expire = "1.1.1"
 			ideology = soclib_liberal_socialism_subtype 
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Ebenezer Edwards"
+			name = "Эбенезер Эдвардс"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Ebby_Edwards.png"
 			expire = "1.1.1"
 			ideology = radsoc_liberal_socialism_subtype

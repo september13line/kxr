@@ -248,7 +248,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Call_For_Austrian_Intervention"
-			custom_effect_tooltip = "We will attempt to ask for Austrian help"
+			custom_effect_tooltip = "Мы попытаемся обратиться за помощью к австрийцам"
 		}
 		search_filters = { FOCUS_FILTER_BALANCE_OF_POWER }
 	}
@@ -268,7 +268,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Prepare_The_Anti_Hetman_Coup"
-			custom_effect_tooltip = "The Kingdom will endure..."
+			custom_effect_tooltip = "Королевство выстоит..."
 			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_BALANCE_OF_POWER }
@@ -487,7 +487,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Hetmanate_Is_Not_Yet_Lost"
-			custom_effect_tooltip = "The enemies of our state will have no chances..."
+			custom_effect_tooltip = "У врагов нашего государства не будет шансов..."
 			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_BALANCE_OF_POWER }
@@ -751,7 +751,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Strike_A_Chord_With_Nationalists"
-			custom_effect_tooltip = "We must find a compromise with Nationalists"
+			custom_effect_tooltip = "Мы должны найти компромисс с националистами"
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = UKR_Find_A_Common_Ground }
@@ -972,7 +972,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Find_A_Common_Ground"
-			custom_effect_tooltip = "We must find a compromise with Dyrektoria"
+			custom_effect_tooltip = "Мы должны найти компромисс с Директорией"
 			hidden_effect = {
 				if = {
 					limit = { 
@@ -1425,10 +1425,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_template = "Kozatska Dyviziia" }
+					NOT = { has_template = "Козацька дивізія" }
 				}
 				division_template = {
-					name = "Kozatska Dyviziia"
+					name = "Козацька дивізія"
 					division_names_group = UKR_CAV_02
 					regiments = {
 						irregular_cavalry = { x = 0 y = 0 }
@@ -1445,19 +1445,19 @@ focus_tree = {
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.5"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.5"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 			}
@@ -2466,7 +2466,7 @@ focus_tree = {
 				UKR_ump_uskhd_in_power = yes
 				AND = {
 					UKR_pavlo_skoropadsky_in_power = no
-					has_country_flag = UKR_open_2nd_term_trees
+				has_country_flag = UKR_open_2nd_term_trees
 				}
 			}
 		}
@@ -3440,7 +3440,7 @@ focus_tree = {
 		available = {
 			UKR_ump_uskhd_in_power = yes
 			custom_trigger_tooltip = {
-				tooltip = "Serhiy Shemet is an active member of the government"
+				tooltip = "Сергій Шемет - активный член правительства"
 				OR = {
 					has_idea = UKR_Serhiy_Shemet_for_ade
 					has_idea = UKR_Serhiy_Shemet_hog_ade
@@ -3449,8 +3449,8 @@ focus_tree = {
 		}
 		bypass = {
 			custom_trigger_tooltip = {
-				tooltip = "NOT: Serhiy Shemet is an active member of the government"
-				NOT = {
+				tooltip = "ПРИМЕЧАНИЕ: Сергей Шемет является активным членом правительства."
+			NOT = {
 					OR = {
 						has_idea = UKR_Serhiy_Shemet_for_ade
 						has_idea = UKR_Serhiy_Shemet_hog_ade
@@ -3546,7 +3546,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Unite_Hetmanist_Movement"
-			custom_effect_tooltip = "The outcome of 'Praktichna Politika' will depend on the previous choices..."
+			custom_effect_tooltip = "Результат 'Практической политики' будет зависеть от предыдущего выбора..."
 			hidden_effect = {
 				if = {
 					limit = {
@@ -6414,7 +6414,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Assert_Vozhds_Authority"
-			custom_effect_tooltip = "It is time to end factionalism in SUN"
+			custom_effect_tooltip = "Пришло время покончить с фракционностью в САН"
 			UKR_nationalist_minigame_end = yes
 		}
 	}
@@ -6431,7 +6431,7 @@ focus_tree = {
 				UKR_pavlo_skoropadsky_in_power = yes
 				AND = {
 					has_country_leader = {
-						name = "Mykola Mikhnovskyi"
+						name = "Микола Міхновський"
 						ruling_only = yes
 					}
 					has_country_flag = UKR_russophile_plot_has_been_exposed
@@ -6638,7 +6638,7 @@ focus_tree = {
 		available = {
 			UKR_pavlo_skoropadsky_in_power = yes
 			custom_trigger_tooltip = {
-				tooltip = "Kyiv Trials have ended"
+				tooltip = "В Киеве Испытания закончились."
 				has_country_flag = UKR_kyiv_trials_end
 			}
 		}
@@ -6647,7 +6647,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Regency_Council"
-			custom_effect_tooltip = "The Regency Council will decide the fate of Ukrainian Throne"
+			custom_effect_tooltip = "Регентский совет решит судьбу украинского престола"
 			country_event = ukrpol.108
 		}
 	}	
@@ -6918,7 +6918,7 @@ focus_tree = {
 		prerequisite = { focus = UKR_Exposure_Of_The_Russophile_Plot }
 		available = {
 			has_country_leader = {
-				name = "Mykola Mikhnovskyi"
+				name = "Микола Міхновський"
 				ruling_only = yes
 			}
 			has_country_leader_with_trait = UKR_hetman_title
@@ -8087,7 +8087,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
-	
+		
 	### Skoropadskyi United Russia ###
 
 	focus = {
@@ -8172,7 +8172,7 @@ focus_tree = {
 				if = {
 					limit = { has_intelligence_agency = no }
 					create_intelligence_agency = {
-						name = "Okhrannoye Otdeleniye"
+						name = "Охранное отделение"
 						icon = GFX_intelligence_agency_logo_KX_russia_2
 					}
 				}
@@ -8275,10 +8275,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_template = "Kozatska Dyviziia" }
+					NOT = { has_template = "Козацька Дівізія" }
 				}
 				division_template = {
-					name = "Kozatska Dyviziia"
+					name = "Козацька Дівізія"
 					division_names_group = UKR_CAV_02
 					regiments = {
 						irregular_cavalry = { x = 0 y = 0 }
@@ -8295,21 +8295,21 @@ focus_tree = {
 			}
 			capital_scope = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька Дівізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 3
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька Дівізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 2
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька Дівізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 2
 				}
@@ -8440,7 +8440,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_United_Armies"
 			division_template = {
-				name = "Pekhotnaya Diviziya"			# Rifle Division
+				name = "Пехотная дивизия"			# Rifle Division
 				division_names_group = RUS_INF_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -8461,42 +8461,42 @@ focus_tree = {
 			hidden_effect = {
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 5
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 4
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 5
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 3
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Пехотная дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 4
 					}
@@ -9190,7 +9190,7 @@ focus_tree = {
 		allow_branch = {
 			OR = {
 				has_country_leader = {
-					name = "Symon Petliura"
+					name = "Симон Петлюра"
 					ruling_only = yes
 				}
 				has_country_flag = UKR_petliura_not_in_power_wait_elections
@@ -9340,10 +9340,10 @@ focus_tree = {
 			UKR_increase_melnyk_influence = yes
 			if = {
 				limit = { 
-					NOT = { has_template = "Sichovi Striltsi" }
+					NOT = { has_template = "Січові стрільці" }
 				}
 				division_template = {
-					name = "Sichovi Striltsi"
+					name = "Січові стрільці"
 					division_names_group = UKR_ELI_01
 				
 					regiments = {
@@ -9368,21 +9368,21 @@ focus_tree = {
 				}
 				capital_scope = {
 					create_unit = {
-						division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.3"
+						division = "division_template = \"Січові стрільці\" start_experience_factor = 0.3"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.2"
+						division = "division_template = \"Січові стрільці\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 1
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.2"
+						division = "division_template = \"Січові стрільці\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 1
 					}
@@ -9390,10 +9390,10 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					NOT = { has_template = "Halytskyi korpus Sichovykh Striltsiv" }
+					NOT = { has_template = "Галицький корпус Січових Стрільців" }
 				}
 				division_template = {
-					name = "Halytskyi korpus Sichovykh Striltsiv"
+					name = "Галицький корпус Січових Стрільців"
 					division_names_group = UKR_ELI_02
 					regiments = {
 						elite_infantry = { x = 0 y = 0 }
@@ -9416,21 +9416,21 @@ focus_tree = {
 				}
 				capital_scope = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.3"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.3"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 1
 					}
@@ -9438,7 +9438,7 @@ focus_tree = {
 			}
 			else = {
 				add_units_to_division_template = {
-					template_name = "Halytskyi korpus Sichovykh Striltsiv"
+					template_name = "Галицький корпус Січових Стрільців"
 					regiments = { 
 						elite_infantry = 0
 						infantry = 1
@@ -9446,21 +9446,21 @@ focus_tree = {
 				}
 				capital_scope = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.3"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.3"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 2
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+						division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 1
 					}
@@ -9759,7 +9759,7 @@ focus_tree = {
 				if = {
 					limit = { has_intelligence_agency = no }
 					create_intelligence_agency = {
-						name = "Sluzhba Bezpeki"
+						name = "Служіння Безпеки"
 					}
 				}
 			}
@@ -9973,10 +9973,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_template = "Kozatska Dyviziia" }
+					NOT = { has_template = "Козацька дивізія" }
 				}
 				division_template = {
-					name = "Kozatska Dyviziia"
+					name = "Козацька дивізія"
 					division_names_group = UKR_CAV_02
 					regiments = {
 						irregular_cavalry = { x = 0 y = 0 }
@@ -9993,21 +9993,21 @@ focus_tree = {
 			}
 			capital_scope = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 3
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 2
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 					count = 2
 				}
@@ -13896,7 +13896,7 @@ focus_tree = {
 			UKR_upsf_in_power = yes
 			RUS = {
 				has_country_leader = {
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 					ruling_only = yes
 				}
 			}
@@ -14444,7 +14444,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Accept_Liberal_Platform"
-			custom_effect_tooltip = "We will adopt a new, liberal, platform, instead of returning back to Federalist Legacy"
+			custom_effect_tooltip = "Мы примем новую, либеральную платформу, а не вернемся к наследию федерализма."
 		}
 	}	
 	focus = {
@@ -14728,7 +14728,7 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				has_country_leader = {
-					name = "Oleksandr Shulhyn"
+					name = "Олександр Шульгін"
 					ruling_only = yes
 				}
 			}
@@ -14744,7 +14744,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Remember_Federalist_Legacy"
-			custom_effect_tooltip = "We will return to the Federalist Legacy and try to establish an alliance"
+			custom_effect_tooltip = "Мы вернемся к наследию федералистов и попытаемся создать Союз"
 		}
 	}	
 	focus = {
@@ -14953,7 +14953,7 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				has_country_leader = {
-					name = "Oleksandr Shulhyn"
+					name = "Олександр Шульгін"
 					ruling_only = yes
 				}
 			}
@@ -16678,7 +16678,7 @@ focus_tree = {
 		bypass = {
            NOT = {
 				has_country_leader = {
-					name = "Vsevolod Holubovych"
+					name = "Всеволод Голубович"
 					ruling_only = yes
 				}
 			}
@@ -20564,7 +20564,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Leader_In_Vyshyvanka"
-			custom_effect_tooltip = "We should focus on reviving the Ukrainian Culture"
+			custom_effect_tooltip = "Мы должны сосредоточиться на возрождении украинской культуры"
 			country_event = ukrsoc.348
 		}
 	}
@@ -20585,7 +20585,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_Luxembourgist_Thought"
-			custom_effect_tooltip = "Nation is just an invention of the Bourgeoisie. We should choose \"Internationalist\" Russification policies instead of developing Ukrainian culture."
+			custom_effect_tooltip = "Нация - это всего лишь изобретение буржуазии. Мы должны выбрать \"интернационалистскую\" русификаторскую политику вместо развития украинской культуры."
 			add_ideas = UKR_russification_under_internationalist_slogan			
 			hidden_effect = {
 				remove_ideas = UKR_lingering_ukrainisation
@@ -21553,7 +21553,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_SOV_establish_red_army"
 			division_template = {
-				name = "Pekhotnaya Diviziya"
+				name = "Пехотна дивізія"
 				division_names_group = SOV_INF_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -21571,7 +21571,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				create_unit = {
-					division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.3"
+					division = "division_template = \"Пехотна дивізія\" start_experience_factor = 0.3"
 					owner = UKR
 					count = 5
 				}
@@ -21579,7 +21579,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				prioritize = { 219 }
 				create_unit = {
-					division = "division_template = \"Pekhotnaya Diviziya\" start_experience_factor = 0.3"
+					division = "division_template = \"Пехотна дивізія\" start_experience_factor = 0.3"
 					owner = UKR
 					count = 5
 				}
@@ -22342,7 +22342,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_centralise_military_railway_service"
 			custom_effect_tooltip = UKR_centralise_military_railway_service_tt
 			add_to_variable = { UKR.UKR_army_production_speed_rail_way_factor = 0.1 }
-			add_to_variable = { UKR.UKR_army_supply_node_range = 0.1 }			
+			add_to_variable = { UKR.UKR_army_supply_node_range = 0.1 }				
 			set_temp_variable = { UKR_influence_change = 4 }
 			UKR_industrial_score = yes
 			UKR_industrial_score_bonuses = yes
@@ -22589,7 +22589,7 @@ focus_tree = {
 			if = {
 				limit = {has_dlc_lar = yes }
 				division_template = {
-					name = "Natsionalna Hvardiia"
+					name = "Національна гвардія"
 					division_names_group = UKR_GAR_01
 				
 					regiments = {
@@ -22606,7 +22606,7 @@ focus_tree = {
 			}
 			else = {
 				division_template = {
-					name = "Natsionalna Hvardiia"
+					name = "Національна гвардія"
 					division_names_group = UKR_GAR_01
 				
 					regiments = {
@@ -22625,13 +22625,13 @@ focus_tree = {
 			random_owned_controlled_state = {
 				prioritize = { 202 }
 				create_unit = {
-					division = "name = \"Kyivska Ofitserska Dobrovolcha Druzhyna\" division_template = \"Natsionalna Hvardiia\" start_experience_factor = 0.3"
+					division = "name = \"Київська Офіцерська Добровольча Дружина\" division_template = \"Національна гвардія\" start_experience_factor = 0.3"
 					owner = ROOT
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "name = \"Zvedenyi Korpus Natsionalnoi Hvardiyi\" division_template = \"Natsionalna Hvardiia\" start_experience_factor = 0.3"
+					division = "name = \"Зведений корпус Національної гвардії\" division_template = \"Національна гвардія\" start_experience_factor = 0.3"
 					owner = ROOT
 				}
 			}
@@ -22862,7 +22862,7 @@ focus_tree = {
 			custom_effect_tooltip = UKR_tank_div_unit_tooltip
 			hidden_effect = {
 				division_template = {
-					name = "Tankova Dyviziya"
+					name = "Танкова дивізія"
 					division_names_group = UKR_ARM_01
 					priority = 2
 					regiments = {
@@ -22883,7 +22883,7 @@ focus_tree = {
 			}
 			202 = {
 				create_unit = {
-					division = "division_template = \"Tankova Dyviziya\" start_experience_factor = 1 start_equipment_factor = 1"
+					division = "division_template = \"Танкова дивізія\" start_experience_factor = 1 start_equipment_factor = 1"
 					owner = ROOT
 					count = 1
 				}
@@ -23117,10 +23117,10 @@ focus_tree = {
 			add_ideas = UKR_USS_tactics
 			if = {
 				limit = {
-					NOT = { has_template = "Sichovi Striltsi" }
+					NOT = { has_template = "Січові стрільці" }
 				}
 				division_template = {
-					name = "Sichovi Striltsi"
+					name = "Січові стрільці"
 					division_names_group = UKR_ELI_01
 				
 					regiments = {
@@ -23147,7 +23147,7 @@ focus_tree = {
 				}
 				else = {
 					add_units_to_division_template = {
-						template_name = "Sichovi Striltsi"
+						template_name = "Січові стрільці"
 						regiments = {
 							elite_infantry = 3
 						}
@@ -24164,10 +24164,10 @@ focus_tree = {
 			custom_effect_tooltip = tech_mountain_artillery_effect
 			if = {
 				limit = {
-					NOT = { has_template = "Kinnohirskyi Dyvizion" }
+					NOT = { has_template = "Кінногірський дивізіон" }
 				}
 				division_template = {
-					name = "Kinnohirskyi Dyvizion"
+					name = "Кінногірський дивізіон"
 					division_names_group = UKR_MTN_02
 					regiments = {
 						artillery_brigade = { x = 0 y = 0 }
@@ -24186,7 +24186,7 @@ focus_tree = {
 				}
 				else = {
 					add_units_to_division_template = {
-						template_name = "Kinnohirskyi Dyvizion"
+						template_name = "Кінногірський дивізіон"
 						regiments = {
 							mountaineers = 1
 							cavalry = 1
@@ -24196,11 +24196,11 @@ focus_tree = {
 			}			
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Kinnohirskyi Dyvizion\" start_experience_factor = 0.3"
+					division = "division_template = \"Кінногірський дивізіон\" start_experience_factor = 0.3"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Kinnohirskyi Dyvizion\" start_experience_factor = 0.3"
+					division = "division_template = \"Кінногірський дивізіон\" start_experience_factor = 0.3"
 					owner = ROOT
 				}
 			}
@@ -25600,7 +25600,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_mines = { region = 30 amount = 120 }
+				add_mines = { region = 30 amount = 120 }
 			if = {
 				limit = { has_socialist_government = no }
 				random_country = {
@@ -25832,12 +25832,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UKR_submarine_effort"
 			navy_experience = 10
-			add_tech_bonus = {
-				name = UKR_subs
-				bonus = 1
-				uses = 2
-				category = cat_torpedoes
-				category = ss_tech
+				add_tech_bonus = {
+					name = UKR_subs
+					bonus = 1
+					uses = 2
+					category = cat_torpedoes
+					category = ss_tech
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_NAVY_XP }

@@ -49,12 +49,12 @@ focus_tree = {
 		relative_position_id = PAP_conclave
 		available = {
 			has_country_leader = {
-				name = "John XXIII" ruling_only = yes
+				name = "Иоанн XXIII" ruling_only = yes
 			}
 		}
 		bypass = {
 			has_country_leader = {
-				name = "John XXIII" ruling_only = yes
+				name = "Иоанн XXIII" ruling_only = yes
 			}
 		}
 		ai_will_do = {
@@ -131,12 +131,12 @@ focus_tree = {
 		relative_position_id = PAP_conclave
 		available = {
 			has_country_leader = {
-				name = "Benedict XVI" ruling_only = yes
+				name = "Бенедикт XVI" ruling_only = yes
 			}
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Benedict XVI" ruling_only = yes
+				name = "Бенедикт XVI" ruling_only = yes
 			}
 		}
 		ai_will_do = {
@@ -176,9 +176,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PAP_conclave
-		available = { has_country_leader = { name = "Leo XIV" ruling_only = yes } }
+		available = { has_country_leader = { name = "Лео XIV" ruling_only = yes } }
 		ai_will_do = { factor = 1 }
-		bypass = { has_country_leader = { name = "Leo XIV" ruling_only = yes } }
+		bypass = { has_country_leader = { name = "Лео XIV" ruling_only = yes } }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_leo_xiv"
 			custom_effect_tooltip = PAP_conclave_choice
@@ -304,7 +304,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
-	focus = {# Pius XII
+	focus = {# Пий XII
 		id = PAP_pius_xii
 		icon = GFX_goal_italy_pius
 		cost = 0.00
@@ -314,8 +314,8 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = PAP_conclave
-		available = { has_country_leader = { name = "Pius XII" ruling_only = yes } }
-		bypass = { has_country_leader = { name = "Pius XII" ruling_only = yes } }
+		available = { has_country_leader = { name = "Пий XII" ruling_only = yes } }
+		bypass = { has_country_leader = { name = "Пий XII" ruling_only = yes } }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_pius_xii"
@@ -456,7 +456,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
-	focus = {# Adrian VII
+	focus = {# Адриан VII
 		id = PAP_adrian_vii
 		icon = GFX_goal_italy_adrian
 		cost = 0.00
@@ -466,8 +466,8 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = PAP_conclave
-		available = { has_country_leader = { name = "Adrian VII" ruling_only = yes } }
-		bypass = { has_country_leader = { name = "Adrian VII" ruling_only = yes } }
+		available = { has_country_leader = { name = "Адриан VII" ruling_only = yes } }
+		bypass = { has_country_leader = { name = "Адриан VII" ruling_only = yes } }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_adrian_vii"
@@ -491,7 +491,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
-	focus = {# Julius IV
+	focus = {# Юлий IV
 		id = PAP_julius_iv
 		icon = GFX_goal_italy_julius
 		cost = 0.00
@@ -501,8 +501,8 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = PAP_conclave
-		available = { has_country_leader = { name = "Julius IV" ruling_only = yes } }
-		bypass = { has_country_leader = { name = "Julius IV" ruling_only = yes } }
+		available = { has_country_leader = { name = "Юлий IV" ruling_only = yes } }
+		bypass = { has_country_leader = { name = "Юлий IV" ruling_only = yes } }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_julius_iv"
@@ -1076,7 +1076,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_armed_citizenry"
 			add_ideas = PAP_armedcitizens
-			custom_effect_tooltip = "Two divisions of citizens' militia will be raised in Rome."
+			custom_effect_tooltip = "В Риме будут сформированы две дивизии ополчения"
 			hidden_effect = {
 				PAP = {
 					load_oob = PAP_CITIZEN_MILITIA
@@ -1178,7 +1178,7 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			custom_effect_tooltip = "Three infantry divisions will be raised in Rome."
+			custom_effect_tooltip = "Три Пехотные дивизии будут развёрнуты в Риме"
 			hidden_effect = {
 				PAP = {
 					load_oob = PAP_army
@@ -1577,11 +1577,11 @@ focus_tree = {
 				complete_special_project = sp:sp_air_radar
 			}
 			else = {
-				add_tech_bonus = {
-					name = PAP_radar
-					bonus = 1
-					uses = 1
-					category = radar_tech
+			add_tech_bonus = {
+				name = PAP_radar
+				bonus = 1
+				uses = 1
+				category = radar_tech
 				}
 			}
 			random_owned_controlled_state = {
@@ -1727,7 +1727,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_palatine_guard"
-			custom_effect_tooltip = "Three infantry divisions will be raised in Rome."
+			custom_effect_tooltip = "Три Пехотные дивизии будут развёрнуты в Риме"
 			hidden_effect = {
 				PAP = {
 					load_oob = PAP_army
@@ -1779,7 +1779,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PAP_zouave_mobilisation"
 			add_manpower = 10000
-			custom_effect_tooltip = "A fighting company of six Zouave militias will be mobilized in Rome."
+			custom_effect_tooltip = "В Риме будет мобилизована боевая рота из шести ополченцев-зуавов."
 			hidden_effect = {
 				PAP = {
 					load_oob = PAP_MOBILISE_ZOUAVES

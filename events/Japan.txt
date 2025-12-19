@@ -2014,8 +2014,8 @@ country_event = { #The Emperor has been shot!
 			limit = {
 				has_completed_focus = JAP_Grant_Patronage_to_Asanuma
 			}
-			create_country_leader = {
-				name = "Yasuhito"
+		create_country_leader = {
+				name = "Ясухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 				expire = "1.1.1"
 				ideology = agrarian_socialism_subtype
@@ -2025,7 +2025,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = socdem_agrarianism_subtype
@@ -2034,7 +2034,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = soclib_progressive_democracy_subtype
@@ -2043,7 +2043,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = progressive_democracy_subtype
@@ -2052,7 +2052,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
@@ -2061,7 +2061,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
@@ -2070,7 +2070,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -2079,7 +2079,7 @@ country_event = { #The Emperor has been shot!
 			}
 		}
 		create_country_leader = {
-			name = "Yasuhito"
+			name = "Ясухито"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 			expire = "1.1.1"
 			ideology = shintaisei_subtype
@@ -2584,7 +2584,7 @@ country_event = { #Fate of Hirohito - Democratic
 
 	trigger = {
 		has_subject = JAP
-		JAP = { has_country_leader = { name = "Hirohito" ruling_only = yes } }
+		JAP = { has_country_leader = { name = "Хирохито" ruling_only = yes } }
 		has_democratic_government = yes
 	}
 
@@ -2640,7 +2640,7 @@ country_event = { #Fate of Hirohito - Democratic
 	option = { #Eddy
 		log = "[GetLogInfo]: event japdom.240 option japdom.240.b"
 		name = annex.127.c
-		trigger = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 		ai_chance = { base = 0 }
 		JAP = {
 			JAP_create_shogun_eddy = yes
@@ -2693,7 +2693,7 @@ country_event = { #Fate of the Imperial Family - Socialist
 		JAP = {
 			effect_tooltip = {
 				if = {
-					limit = { has_country_leader = { name = "Hirohito" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Хирохито" ruling_only = yes } }
 					retire_country_leader = yes
 				}
 			}
@@ -5102,7 +5102,7 @@ country_event = { #Second Negotiation - Korean Culture, they wanted more autonom
 			}
 			
 			create_country_leader = {
-				name = "Kim Suk-won"
+				name = "Ким Сук Вон"
 				picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -5164,7 +5164,7 @@ country_event = { #Second Negotiation - Korean Culture, they wanted more autonom
 			}
 			
 			create_country_leader = {
-				name = "Kim Suk-won"
+				name = "Ким Сук Вон"
 				picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -5983,7 +5983,7 @@ country_event = { #Rebellion time for Korea
 			}
 		}
 		create_field_marshal = {
-			name = "Kim Koo"
+			name = "Ким Гу"
 			picture = "gfx/leaders/KOR/Kim_Koo_General.png"
 			traits = { }
 			skill = 2
@@ -6948,15 +6948,15 @@ country_event = { #hidden event to fire the peace mission
 			NOT = { has_global_flag = JAP_will_surrender }
 		}
 		OR = {
-			KOR = {
-				any_core_state = { is_owned_by_ROOT_or_ally = yes }
-				all_core_state = {
-					OR = {
-						is_owned_by_ROOT_or_ally = no
-						is_controlled_by_ROOT_or_ally = no
-					}
+		KOR = {
+			any_core_state = { is_owned_by_ROOT_or_ally = yes }
+			all_core_state = {
+				OR = {
+					is_owned_by_ROOT_or_ally = no
+					is_controlled_by_ROOT_or_ally = no
 				}
 			}
+		}
 			KOR = {
 				exists = yes
 				NOT = {
@@ -7010,9 +7010,9 @@ country_event = { #hidden event to fire the peace mission
 				}
 			}
 			AND = {
-				RUS = {
-					has_war_with = ROOT
-					is_valid_peace_target = yes
+					RUS = {
+						has_war_with = ROOT
+						is_valid_peace_target = yes
 				}
 				if = {
 					limit = {
@@ -7023,7 +7023,7 @@ country_event = { #hidden event to fire the peace mission
 				}
 				if = {
 					limit = {
-						RUS = { has_war_with = FNG }
+							RUS = { has_war_with = FNG }
 						FNG = { has_capitulated = yes }
 					}
 				}
@@ -7686,8 +7686,8 @@ country_event = { #End of the Sino-Japanese War
 			set_truce = { target = FROM days = 730 }
 		}
 		JAP = {
-		set_global_flag = JAP_Fading_Sun
-		}
+			set_global_flag = JAP_Fading_Sun
+			}
 	}
 }
 
@@ -10201,8 +10201,8 @@ country_event = {
 		name = japdom.3050.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
 		}
 		else = {
 			set_technology = {
@@ -10242,9 +10242,9 @@ country_event = {
 		name = japdom.3051.a
 		if = {
 			limit = { has_dlc_got = yes }
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.25
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
 			}
 		}
 		else = {

@@ -117,28 +117,28 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 }
 
 set_war_support = 0.1
@@ -184,7 +184,7 @@ country_event = { id = saf.100 days = 25 }
 country_event = { id = entf.2 days = 628 } #hobbit
 
 create_country_leader = {
-	name = "James La Guma"
+	name = "Джеймс Ла Гума"
 	picture = "gfx/leaders/SAF/Portrait_SAF_James_La_Guma.png"
 	desc = "POLITICS_JIMMY_LA_GUMA_DESC"
 	expire = "1.1.1"
@@ -192,7 +192,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Henry Andrews"
+	name = "Уильям Генри Эндрюс"
 	picture = "gfx/leaders/SAF/Portrait_SAF_William_H_Andrews_Civilian.png"
 	desc = "POLITICS_WILLIAM_HENRY_ANDREWS_DESC"
 	expire = "1.1.1"
@@ -200,7 +200,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Clements Kadalie"
+	name = "Клемент Кадали"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Clement_Kadalie.png"
 	desc = "POLITICS_CLEM_KADALIE_DESC"
 	expire = "1.1.1"
@@ -208,7 +208,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Walter Madeley"
+	name = "Уолтер Мэдли"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Walter_Madeley.png"
 	desc = "POLITICS_WALTER_MADELEY_DESC"
 	expire = "1.1.1"
@@ -216,14 +216,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Hendrik Hofmeyr"
+	name = "Ян Хендрик Хофмайр"
 	desc = "POLITICS_HOFMEYR_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Jan_Hendrik_Hofmeyr.png"
 	expire = "1.1.1"
 	ideology = soclib_progressive_democracy_subtype
 }
 create_country_leader = {
-	name = "Gideon Brand van Zyl"
+	name = "Гидеон Бранд ван Зил"
 	desc = "POLITICS_GIDEON_BRAND_VAN_ZYL_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Gideon_Brand_van_Zyl.png"
 	expire = "1.1.1"
@@ -231,7 +231,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Smuts"
+	name = "Ян Смэтс"
 	desc = "POLITICS_JAN_SMUTS_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Jan_Smuts.png"
 	expire = "1.1.1"
@@ -239,7 +239,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George Villiers"
+	name = "Джордж Вильерс"
 	desc = "POLITICS_EARL_CLARENDON_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Earl_of_Clarendon.png"
 	expire = "1.1.1"
@@ -247,7 +247,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "J.B.M. Hertzog"
+	name = "Джеймс Барри Герцог"
 	desc = "POLITICS_JBM_HERTZOG_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_JBM_Hertzog.png"
 	expire = "1.1.1"
@@ -255,7 +255,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Daniel François Malan"
+	name = "Даниель Малан"
 	desc = "POLITICS_DANIEL_MALAN_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Daniel_Francois_Malan.png"
 	expire = "1.1.1"
@@ -263,7 +263,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Johannes van Rensburg"
+	name = "Йоханнес ван Ренсбург"
 	desc = "POLITICS_JOHANNES_VAN_RENSBURG_DESC"
 	picture = "gfx/leaders/SAF/Portrait_SAF_Johannes_van_Rensburg.png"
 	expire = "1.1.1"
@@ -272,7 +272,7 @@ create_country_leader = {
 
 ### Field Marshal
 create_field_marshal = {
-	name = "Jan Smuts "
+	name = "Ян Смэтс "
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Jan_Smuts.png"
 	desc = "POLITICS_JAN_SMUTS_DESC"
 	traits = {
@@ -290,7 +290,7 @@ create_field_marshal = {
 
 ### Corps Commander
 create_corps_commander = {
-	name = "Leonard Beyers"
+	name = "Леонард Байерс"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Leonard_Beyers.png"
 	traits = {
 		career_officer
@@ -304,7 +304,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "George Brink"
+	name = "Джордж Бринк"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_George_Brink.png"
 	traits = {
 		old_guard
@@ -319,7 +319,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dan Pienaar"
+	name = "Дэн Пиенаар"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.png"
 	traits = {
 		old_guard
@@ -335,7 +335,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hendrik Klopper"
+	name = "Хендрик Клоппер"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Hendrik_Klopper.png"
 	traits = {
 		infantry_officer
@@ -350,7 +350,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Isaac Pierre de Villiers"
+	name = "Исаак Пьер де Вильерс"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Isaac_de_Villiers.png"
 	traits = {
 		old_guard
@@ -364,7 +364,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nick Bierman"
+	name = "Ник Бирман"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Nick_Bierman.png"
 	traits = {
 		armor_officer
@@ -378,7 +378,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Evered Poole"
+	name = "Эвед Пул"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Evered_Poole.png"
 	traits = {
 		politically_connected
@@ -393,7 +393,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Christiaan du Toit"
+	name = "Кристиан дю Туа"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Christiaan_du_Toit.png"
 	traits = {
 		artillery_officer
@@ -408,7 +408,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Christoffel Venter"
+	name = "Кристоффель Вентер"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Christoffel_Venter.png"
 	traits = { old_guard }
 	skill = 2
@@ -420,7 +420,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Andries Jacob Brink"
+	name = "Андрис Джейкоб Бринк"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Andries_Brink.png"
 	traits = {
 		trait_engineer
@@ -436,7 +436,7 @@ create_corps_commander = {
 
 ### Navy Leader
 create_navy_leader = {
-	name = "Guy Hallifax"
+	name = "Гай Халлифакс"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Guy_Hallifax.png"
 	traits = {
 		blockade_runner
@@ -450,7 +450,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Pieter de Waal"
+	name = "Питер де Ваал"
 	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Pieter_de_Waal.png"
 	traits = {
 		spotter
@@ -466,7 +466,7 @@ SAF_start_naval_variant = yes
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = "Walter Musk"
+		name = "Уолтер Маск"
 		GFX = GFX_Portrait_SAF_Walter_Musk
 		traits = {
 			operative_linguist

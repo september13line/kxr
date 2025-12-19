@@ -1075,7 +1075,7 @@ country_event = { # SPD-FVP Reichskanzler?
 		####add_ideas = GER_Elisabeth_Schwarzhaupt_sec_sli replace this with different soclib sec min
 	}
 	
-	option = { # Erich Koch-Weser
+	option = { # Эрих Кох-Везер
 		name = gerdom.28.e
 		ai_chance = {
 			factor = 25
@@ -1131,7 +1131,7 @@ country_event = { # SPD-FVP Reichskanzler?
 		add_soccon_to_coalition = yes
 	}
 
-	option = { # Kurt von Schleicher
+	option = { # Курт фон Шлейхер
 		name = gerdom.28.c
 		ai_chance = {
 			factor = 10
@@ -1169,7 +1169,7 @@ country_event = { # Neue grosse Koalition Reichskanzler?
 	picture = GFX_report_event_GER_reichstag
 	is_triggered_only = yes
 
-	option = { # Paul von Lettow-Vorbeck
+	option = { # Пауль фон Леттов-Форбек
 		name = gerdom.29.a
 		ai_chance = {
 			factor = 40
@@ -1307,7 +1307,7 @@ country_event = { # DKP-Zentrum Reichskanzler?
 		add_ideas = GER_Kurt_von_Schleicher_sec_pau
 	}
 
-	option = { # Kurt von Schleicher
+	option = { # Курт фон Шлейхер
 		name = gerdom.30.c
 		ai_chance = {
 			factor = 20
@@ -1556,7 +1556,7 @@ country_event = { # SPD-FVP Reichskanzler?
 		####add_ideas = GER_Elisabeth_Schwarzhaupt_sec_sli replace this with different soclib sec min
 	}
 	
-	option = { # Erich Koch-Weser
+	option = { # Эрих Кох-Везер
 		name = gerdom.34.e
 		ai_chance = {
 			factor = 35
@@ -1890,7 +1890,7 @@ country_event = { # SPD-FVP Reichskanzler?
 
 	is_triggered_only = yes
 
-	option = { # Hans Vogel
+	option = { # Ганс Фогель
 		name = gerdom.380.a
 		trigger = {
 			NOT = {
@@ -1916,7 +1916,7 @@ country_event = { # SPD-FVP Reichskanzler?
 		add_ideas = GER_Kurt_Schumacher_eco_sde
 	}
 	
-	option = { # Erich Koch-Weser
+	option = { # Эрих Кох-Везер
 		name = gerdom.380.b
 		ai_chance = {
 			factor = 40
@@ -2128,7 +2128,7 @@ country_event = { # The first SPD Reichskanzler is dead!
 		add_ideas = GER_Hans_Vogel_hog_sde
 		add_stability = 0.04
 	}
-	option = { # Erich Koch-Weser
+	option = { # Эрих Кох-Везер
 		name = gerdom.40.f
 		ai_chance = {
 			factor = 25
@@ -2151,7 +2151,7 @@ country_event = { # The first SPD Reichskanzler is dead!
 		end_coalition = yes
 		add_socdem_to_coalition = yes
 	}
-	option = { #Heinrich Brüning
+	option = { #Генрих Брюнинг
 		name = gerdom.40.b
 		ai_chance = {
 			factor = 20
@@ -2271,7 +2271,7 @@ country_event = { # The first SPD Reichskanzler is dead!
 	}
 }
 
-country_event = { #Otto Wels dies
+country_event = { #Отто Вельс dies
 	id = gerdom.41
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.41" }
 	title = gerdom.41.t
@@ -2397,7 +2397,7 @@ country_event = { #hidden event to trigger Wilhelm's death even if GER is dead
 			limit = {
 				GER = {
 					exists = yes
-					has_country_leader = { ruling_only = yes name = "Wilhelm II" }
+					has_country_leader = { ruling_only = yes name = "Вильгельм II" }
 				}
 			}
 			GER = { country_event = gerdom.47 }
@@ -2445,7 +2445,7 @@ country_event = { #hidden event to trigger Wilhelm's death even if GER is dead
 	}
 }
 
-country_event = { #Death of Wilhelm II
+country_event = { #Death of Вильгельм II
 	id = gerdom.47
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.47" }
 	title = gerdom.47.t
@@ -2490,7 +2490,7 @@ country_event = { #Reichskanzler Vogel dies
 
 	is_triggered_only = yes
 
-	option = { #Kurt Schumacher
+	option = { #Курт Шумахер
 		name = gerdom.49.a
 		ai_chance = {
 			factor = 35
@@ -2500,7 +2500,7 @@ country_event = { #Reichskanzler Vogel dies
 		set_country_flag = Hans_Vogel_dead
 	}
 
-	option = { # Erich Koch-Weser
+	option = { # Эрих Кох-Везер
 		name = gerdom.49.e
 		ai_chance = {
 			factor = 25
@@ -2517,7 +2517,7 @@ country_event = { #Reichskanzler Vogel dies
 		set_country_flag = Hans_Vogel_dead
 	}
 
-	option = { #Heinrich Brüning
+	option = { #Генрих Брюнинг
 		name = gerdom.49.b
 		ai_chance = {
 			factor = 20
@@ -2666,7 +2666,7 @@ country_event = { # The Free Workers Union of Germany
 	option = { # Ban
 		name = gerdom.52.a
 		ai_chance = {
-			factor = 0
+				factor = 0
 			modifier = {
 				factor = 100
 				has_game_rule = { rule = GER_early_weltkrieg option = GER_EARLY_WELTKRIEG_YES }
@@ -2966,7 +2966,7 @@ country_event = { #Syndicalist Involvement in the General Strike
 
 #####some more death#####
 
-country_event = { #Johann von Bernstorff dies
+country_event = { #Иоганн Генрих Бернсторф dies
 	id = gerdom.62
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.62" }
 	title = gerdom.62.t
@@ -2986,7 +2986,7 @@ country_event = { #Johann von Bernstorff dies
 	}
 }
 
-country_event = { #Wilhelm Groener dies
+country_event = { #Вильгельм Грёнер dies
 	id = gerdom.63
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.63" }
 	title = gerdom.63.t
@@ -3006,7 +3006,7 @@ country_event = { #Wilhelm Groener dies
 	}
 }
 
-country_event = { #Ludwig von Reuter dies
+country_event = { #Людвиг фон Ройтер dies
 	id = gerdom.64
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.64" }
 	title = gerdom.64.t
@@ -3037,7 +3037,7 @@ country_event = { #Ludwig von Reuter dies
 	}
 }
 
-country_event = { #Wilhelm Souchon dies
+country_event = { #Вильгельм Сушон dies
 	id = gerdom.65
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gerdom.65" }
 	title = gerdom.65.t
@@ -3371,17 +3371,17 @@ country_event = {
 				}
 			}
 		}
-		trigger = {
-			american_civil_war = yes
-			country_exists = CSA
-		}
+	trigger = {
+				american_civil_war = yes
+				country_exists = CSA
+			}
 		hidden_effect = {
 			CSA = {
 				country_event = {
 					id = gerdom.201
 					days = 10
-				}
 			}
+		}
 		}
 		set_global_flag = GER_SYNDIE_CSA
 		add_political_power = 20
@@ -3389,7 +3389,7 @@ country_event = {
 			country_event = { id = gerdom.205 days = 30 }
 		}
 	}
-	
+
 	option = {
 		name = gerdom.200.ab
 		ai_chance = {
@@ -3532,7 +3532,7 @@ country_event = {
 	option = {
 		name = gerdom.201.a
 		create_corps_commander = {
-			name = "Wilhelm Zaisser"
+			name = "Вильгельм Цайссер"
 			portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Zaisser.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -3564,7 +3564,7 @@ country_event = {
 	option = {
 		name = gerdom.202.a
 		create_corps_commander = {
-			name = "Wilhelm Zaisser"
+			name = "Вильгельм Цайссер"
 			portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Zaisser.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -3595,7 +3595,7 @@ country_event = {
 	option = {
 		name = gerdom.203.a
 		create_corps_commander = {
-			name = "Wilhelm Zaisser"
+			name = "Вильгельм Цайссер"
 			portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Zaisser.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -3626,7 +3626,7 @@ country_event = {
 	option = {
 		name = gerdom.204.a
 		create_corps_commander = {
-			name = "Wilhelm Zaisser"
+			name = "Вильгельм Цайссер"
 			portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Zaisser.png"
 			traits = { organizer politically_connected }
 			skill = 1
@@ -4135,8 +4135,8 @@ country_event = {
 		name = gerfla.17.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
 		}
 		else = {
 			set_technology = {
@@ -4181,9 +4181,9 @@ country_event = {
 		name = gerfla.18.a
 		if = {
 			limit = { has_dlc_got = yes }
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.25
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
 			}
 		}
 		else = {

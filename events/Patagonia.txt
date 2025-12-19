@@ -239,7 +239,7 @@ country_event = { # get support from europe
 	}
 }
 
-country_event = { # the Guillermo Mac Hannaford idea
+country_event = { # the Гильермо Мак Ханнафорд idea
 	id = fop.6
 	immediate = {log = "[GetDateText]: [Root.GetName]: event fop.6"}
 	title = fop.6.t
@@ -371,7 +371,7 @@ country_event = { # we got Hannaford out alive!
 		army_experience = 25
 		add_war_support = 0.05
 		create_corps_commander = {
-			name = "Guillermo Mac Hannaford"
+			name = "Гильермо Мак Ханнафорд"
 			portrait_path = "gfx/leaders/FOP/Portrait_FOP_Guillermo_Mac_Hannaford.png"
 			traits = {
 				career_officer
@@ -479,7 +479,7 @@ country_event = { # he accepted the bribe
 	option = { # less happy yay
 		name = fop.11.a
 		create_corps_commander = {
-			name = "Guillermo Mac Hannaford"
+			name = "Гильермо Мак Ханнафорд"
 			portrait_path = "gfx/leaders/FOP/Portrait_FOP_Guillermo_Mac_Hannaford.png"
 			traits = {
 				career_officer
@@ -1974,7 +1974,7 @@ country_event = { #9th FORA Congress Trade Union
 			days = 4
 		}
 		create_country_leader = {
-			name = "Alfredo Palacios"
+			name = "Альфредо Паласьос"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Alfredo_Palacios.png"
 			desc = "POLITICS_ALFREDO_PALACIOS_DESC"
 			expire = "1.1.1"
@@ -2812,7 +2812,7 @@ country_event = { #TUC USA victory
 		trigger = {
 			FOP = {
 				has_country_leader = {
-					name = "Antonio Soto"
+					name = "Антонио Сото"
 					ruling_only = yes
 				}
 			}
@@ -2824,7 +2824,7 @@ country_event = { #TUC USA victory
 			NOT = {
 				FOP = {
 					has_country_leader = {
-						name = "Antonio Soto"
+						name = "Антонио Сото"
 						ruling_only = yes
 					}
 				}
@@ -2841,7 +2841,7 @@ country_event = { #TUC USA victory
 				limit = { has_country_flag = FOP_Di_Giovanni_leads }
 				clr_country_flag = FOP_Di_Giovanni_leads
 				create_country_leader = {
-					name = "Severino di Giovanni"
+					name = "Северино ди Джованни"
 					picture = "gfx/leaders/FOP/Portrait_FOP_Severino_di_Giovanni.png"
 					desc = "POLITICS_SEVERINO_DI_GIOVANNI_DESC"
 					expire = "1.1.1"
@@ -3211,7 +3211,7 @@ country_event = {#UASS Collapses
 	}
 }
 
-country_event = {#The [FROM.GetAdjective] Rebellion
+country_event = {
 	id = fop.2260
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fop.2260 FROM = [From.GetName]" }
 	title = fop.2260.t
@@ -3508,7 +3508,7 @@ country_event = {#Negotiations with the GOU
 				}
 			}
 			create_corps_commander = {
-				name = "Bernardo Alberte"
+				name = "Бернардо Альберте"
 				desc = "ARG_Bernardo_Alberte_desc"
 				portrait_path = "gfx/leaders/ARG/Portrait_ARG_Alberte.png"
 				traits = {
@@ -3545,7 +3545,7 @@ country_event = {#Negotiations with the GOU
 				}
 			}
 			create_corps_commander = {
-				name = "Bernardo Alberte"
+				name = "Бернардо Альберте"
 				desc = "ARG_Bernardo_Alberte_desc"
 				portrait_path = "gfx/leaders/ARG/Portrait_ARG_Alberte.png"
 				traits = {
@@ -3864,7 +3864,7 @@ country_event = {#First Socialist Party Elections
 			popularity = 0.10
 		}
 		create_country_leader = {
-			name = "Alicia Moreau de Justo"
+			name = "Алисия Моро де Хусто"
 			desc = "POLITICS_ALICIA_JUSTO_DESC"
 			picture = "gfx/leaders/ARG/Portrait_Argentine_Alicia_Justo.png"
 			expire = "1.1.1"
@@ -3880,7 +3880,7 @@ country_event = {#First Socialist Party Elections
 			popularity = 0.10
 		}
 		create_country_leader = {
-			name = "Nicolas Repetto"
+			name = "Николас Репетто"
 			desc = "POLITICS_NICOLAS_REPETTO_DESC"
 			picture = "gfx/leaders/ARG/Portrait_Argentine_Nicolas_Repetto.png"
 			expire = "1.1.1"
@@ -3909,13 +3909,13 @@ country_event = {#Second Socialist Party Elections
 			limit = {
 				NOT = {
 					has_country_leader = {
-						name = "Alfredo Palacios"
+						name = "Альфредо Паласьос"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Alfredo Palacios"
+				name = "Альфредо Паласьос"
 				picture = "gfx/leaders/FOP/Portrait_FOP_Alfredo_Palacios.png"
 				desc = "POLITICS_ALFREDO_PALACIOS_DESC"
 				expire = "1.1.1"
@@ -3934,13 +3934,13 @@ country_event = {#Second Socialist Party Elections
 			limit = {
 				NOT = {
 					has_country_leader = {
-						name = "Alicia Moreau de Justo"
+						name = "Алисия Моро де Хусто"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Alicia Moreau de Justo"
+				name = "Алисия Моро де Хусто"
 				desc = "POLITICS_ALICIA_JUSTO_DESC"
 				picture = "gfx/leaders/ARG/Portrait_Argentine_Alicia_Justo.png"
 				expire = "1.1.1"
@@ -3961,13 +3961,13 @@ country_event = {#Second Socialist Party Elections
 			limit = {
 				NOT = {
 					has_country_leader = {
-						name = "Nicolas Repetto"
+						name = "Николас Репетто"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Nicolas Repetto"
+				name = "Николас Репетто"
 				desc = "POLITICS_NICOLAS_REPETTO_DESC"
 				picture = "gfx/leaders/ARG/Portrait_Argentine_Nicolas_Repetto.png"
 				expire = "1.1.1"
@@ -3995,7 +3995,7 @@ country_event = {#Aftermath of the Andesia Collapse
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Rodolfo Ghioldi"
+			name = "Родольфо Гиольди"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Rodolfo_Ghioldi.png"
 			desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
 			expire = "1.1.1"
@@ -4067,7 +4067,7 @@ country_event = {#First Socialist Republic Elections
 			ruling_party = social_liberal
 		}
 		create_country_leader = {
-			name = "Elpidio Gonzalez"
+			name = "Эльпидио Гонсалес"
 			picture = "gfx/leaders/ARG/Portrait_ARG_Elpidio_Gonzales.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
@@ -4100,7 +4100,7 @@ country_event = {#First Socialist Republic Elections
 			ruling_party = market_liberal
 		}
 		create_country_leader = {
-			name = "Robustiano Patrón Costas"
+			name = "Робустиано Патрон Костас"
 			desc = "POLITICS_ROBUSTIANO_COSTAS_DESC"
 			picture = "gfx/leaders/ARG/Portrait_Argentine_Robustiano_Costas.png"
 			expire = "1.1.1"
@@ -4131,7 +4131,7 @@ country_event = {#Second Socialist Republic Elections
 				has_country_flag = FOP_SOC_Justo_elected
 			}
 			create_country_leader = {
-				name = "Alicia Moreau de Justo"
+				name = "Алисия Моро де Хусто"
 				desc = "POLITICS_ALICIA_JUSTO_DESC"
 				picture = "gfx/leaders/ARG/Portrait_Argentine_Alicia_Justo.png"
 				expire = "1.1.1"
@@ -4145,7 +4145,7 @@ country_event = {#Second Socialist Republic Elections
 				has_country_flag = FOP_SOC_Repetto_elected
 			}
 			create_country_leader = {
-				name = "Nicolas Repetto"
+				name = "Николас Репетто"
 				desc = "POLITICS_NICOLAS_REPETTO_DESC"
 				picture = "gfx/leaders/ARG/Portrait_Argentine_Nicolas_Repetto.png"
 				expire = "1.1.1"
@@ -4165,7 +4165,7 @@ country_event = {#Second Socialist Republic Elections
 			ruling_party = social_liberal
 		}
 		create_country_leader = {
-			name = "Arturo Frondizi"
+			name = "Артуро Фрондиси"
 			desc = "POLITICS_ARTURO_FRONDIZI_DESC"
 			picture = "gfx/leaders/ARG/Portrait_ARG_Frondizi.png"
 			expire = "1.1.1"
@@ -4184,7 +4184,7 @@ country_event = {#Second Socialist Republic Elections
 			ruling_party = market_liberal
 		}
 		create_country_leader = {
-			name = "Ricardo Balbin"
+			name = "Рикардо Бальбин"
 			desc = "POLITICS_RICARDO_BALBIN_DESC"
 			picture = "gfx/leaders/ARG/Portrait_ARG_Ricardo_Balbin.png"
 			expire = "1.1.1"
@@ -4730,7 +4730,7 @@ country_event = { #Power secured
 		}
 		set_country_flag = FOP_power_secured
 		create_country_leader = {
-			name = "Liborio Justo"
+			name = "Либорио Хусто"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Liborio_Justo.png"
 			desc = "POLITICS_LIBORIO_JUSTO_DESC"
 			expire = "1.1.1"
@@ -4955,7 +4955,7 @@ country_event = { #Communist coup against RadAns
 	option = {#Totalists seize power
 		name = fopcoup.101.a
 		create_country_leader = {
-			name = "Liborio Justo"
+			name = "Либорио Хусто"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Liborio_Justo.png"
 			desc = "POLITICS_LIBORIO_JUSTO_DESC"
 			expire = "1.1.1"
@@ -5050,7 +5050,7 @@ country_event = { #Radical Anarchist Coup against Commies
 	option = {#Radical Anarchists seize power!
 		name = fopcoup.103.a
 		create_country_leader = {
-			name = "Severino di Giovanni"
+			name = "Северино ди Джованни"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Severino_di_Giovanni.png"
 			desc = "POLITICS_SEVERINO_DI_GIOVANNI_DESC"
 			expire = "1.1.1"
@@ -6149,7 +6149,7 @@ country_event = { #Talks with Giovanni
 		name = fopcoup.035.a
 		army_experience = 5
 		create_country_leader = {
-			name = "Severino di Giovanni"
+			name = "Северино ди Джованни"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Severino_di_Giovanni.png"
 			desc = "POLITICS_SEVERINO_DI_GIOVANNI_DESC"
 			expire = "1.1.1"
@@ -6525,7 +6525,7 @@ country_event = { # Chile 3i peace
 	}
 }
 
-country_event = { # suspicions of Alfredo Fonte pillaging villages
+country_event = { # suspicions of Альфредо Фонте pillaging villages
 	id = fopfonte.18
 	immediate = {log = "[GetDateText]: [Root.GetName]: event fopfonte.18"}
 	title = fopfonte.18.t
@@ -6800,7 +6800,7 @@ country_event = { # Fonte coups the weak government
 			name = FOP_fonte2_party
 		}
 		create_country_leader = {
-			name = "Alfredo Fonte"
+			name = "Альфредо Фонте"
 			desc = "POLITICS_FONTE_FOP_DESC"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Fonte.png"
 			expire = "1.1.1"
@@ -6844,7 +6844,7 @@ country_event = { # Fonte coups the weak government
 		set_cosmetic_tag = FOP_MONARCH
 		FOP_remove_all_ideas = yes
 			create_country_leader = {
-				name = "Antoine III"
+				name = "Антуан III"
 				picture = "gfx/leaders/FOP/Portrait_FOP_Jacques_Antoine_Bernard.png"
 				expire = "1.1.1"
 				ideology = natpop_tribal_chiefdom_subtype
@@ -6853,7 +6853,7 @@ country_event = { # Fonte coups the weak government
 				long_name = FOP_national_populist_natives_long
 				name = FOP_national_populist_natives
 				ideology = national_populist
-			}	
+			}
 		set_politics = {
 			ruling_party = national_populist
 		}
@@ -6933,7 +6933,7 @@ country_event = { # Posadas
 	option = { # 
 		name = fopfonte.24.a
 		create_corps_commander = {
-			name = "Homero Rómulo Cristalli "
+			name = "Омеро Ромуло Кристали "
 			portrait_path = "gfx/leaders/FOP/Portrait_FOP_Juan_Posadas.png"
 			traits = { politically_connected war_hero }
 			skill = 2
@@ -6970,7 +6970,7 @@ country_event = { # Posadas Takeover?
 		name = fopfonte.25.a
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Alfredo Fonte" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Альфредо Фонте" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/FOP/Portrait_FOP_Fonte_Old.png"
 				}
@@ -6981,7 +6981,7 @@ country_event = { # Posadas Takeover?
 	option = { # 
 		name = fopfonte.25.b
 		create_country_leader = {
-			name = "Homero Rómulo Cristalli"
+			name = "Омеро Ромуло Кристали"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Juan_Posadas.png"
 			desc = "POLITICS_POSADAS_DESC"
 			expire = "1.1.1"
@@ -7043,7 +7043,7 @@ country_event = { # Ideology focus
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Alfredo Fonte"
+			name = "Альфредо Фонте"
 			desc = "POLITICS_FONTE_FOP_DESC"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Fonte.png"
 			expire = "1.1.1"
@@ -7070,7 +7070,7 @@ country_event = { # Ideology focus
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Alfredo Fonte"
+			name = "Альфредо Фонте"
 			desc = "POLITICS_FONTE_FOP_DESC"
 			picture = "gfx/leaders/FOP/Portrait_FOP_Fonte.png"
 			expire = "1.1.1"
@@ -7241,9 +7241,9 @@ country_event = { # Posadas Pen Name
 	option = { # 
 		name = fopfonte.30.a
 		if = {	
-			limit = { has_country_leader = { name = "Homero Rómulo Cristalli" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Омеро Ромуло Кристали" ruling_only = yes } }
 			set_country_leader_name = {
-				name = "Juan Posadas"
+				name = "Хуан Посадас"
 			}
 		}
 	}

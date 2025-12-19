@@ -254,7 +254,7 @@ country_event = { # The 1937 Election
 
 	trigger = {
 		tag = SIC
-		NOT = { 
+		NOT = {
 			has_country_flag = SIC_the_general_election_has_occured
 			has_government = national_populist
 			has_government = paternal_autocrat
@@ -549,18 +549,18 @@ country_event = { # Future Elections
 		if = {
 			limit = {
 				NOT = { has_government = social_democrat }
-			}
-			set_politics = {
-				ruling_party = social_democrat
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			hidden_effect = {
-				remove_all_ministers = yes
-				add_ideas = SIC_Gaetano_Salvemini_hog_sde
-				add_ideas = SIC_Enrico_Mole_for_sde
-				add_ideas = SIC_Tommaso_Fiore_eco_sde
-				add_ideas = SIC_Francesco_Perri_sec_sde
+		}
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = SIC_Gaetano_Salvemini_hog_sde
+			add_ideas = SIC_Enrico_Mole_for_sde
+			add_ideas = SIC_Tommaso_Fiore_eco_sde
+			add_ideas = SIC_Francesco_Perri_sec_sde
 			}
 		}
 		hidden_effect = {
@@ -576,18 +576,18 @@ country_event = { # Future Elections
 		if = {
 			limit = {
 				NOT = { has_government = social_liberal }
-			}
-			set_politics = {
-				ruling_party = social_liberal
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			hidden_effect = {
-				remove_all_ministers = yes
-				add_ideas = SIC_Francesco_Saverio_Nitti_hog_sli
-				add_ideas = SIC_Antonio_De_Viti_De_Marco_for_sli
-				add_ideas = SIC_Vincenzo_Azzolini_eco_sli
-				add_ideas = SIC_Giovanni_Ciraolo_sec_sli
+		}
+		set_politics = {
+			ruling_party = social_liberal
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = SIC_Francesco_Saverio_Nitti_hog_sli
+			add_ideas = SIC_Antonio_De_Viti_De_Marco_for_sli
+			add_ideas = SIC_Vincenzo_Azzolini_eco_sli
+			add_ideas = SIC_Giovanni_Ciraolo_sec_sli
 			}
 		}
 		hidden_effect = {
@@ -604,17 +604,17 @@ country_event = { # Future Elections
 			limit = {
 				NOT = { has_government = market_liberal }
 			}
-			set_politics = {
-				ruling_party = market_liberal
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			hidden_effect = {
-				remove_all_ministers = yes
-				add_ideas = SIC_Benedetto_Croce_hog_mli
-				add_ideas = SIC_Giovanni_Carano_Donvito_eco_mli
-				add_ideas = SIC_Aldo_Capitini_for_mli
-				add_ideas = SIC_Guido_Cortese_sec_mli
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = SIC_Benedetto_Croce_hog_mli
+			add_ideas = SIC_Giovanni_Carano_Donvito_eco_mli
+			add_ideas = SIC_Aldo_Capitini_for_mli
+			add_ideas = SIC_Guido_Cortese_sec_mli
 			}
 		}
 		hidden_effect = {
@@ -631,17 +631,17 @@ country_event = { # Future Elections
 			limit = {
 				NOT = { has_government = social_conservative }
 			}
-			set_politics = {
-				ruling_party = social_conservative
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			hidden_effect = {
-				remove_all_ministers = yes
-				add_ideas = SIC_Luigi_Sturzo_hog_sco
-				add_ideas = SIC_Ernesto_Vassallo_for_sco
-				add_ideas = SIC_Pasquale_Saraceno_eco_sco
-				add_ideas = SIC_Carlo_De_Cardona_sec_sco
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = SIC_Luigi_Sturzo_hog_sco
+			add_ideas = SIC_Ernesto_Vassallo_for_sco
+			add_ideas = SIC_Pasquale_Saraceno_eco_sco
+			add_ideas = SIC_Carlo_De_Cardona_sec_sco
 			}
 		}
 		hidden_effect = {
@@ -1402,7 +1402,7 @@ country_event = { # Act of Succession
 	desc = sic.61.d
 	picture = GFX_report_event_SRI_palace
 	is_triggered_only = yes
-	trigger = {has_country_leader = { ruling_only = yes name = "Ferdinando III" } }
+	trigger = {	has_country_leader = { ruling_only = yes name = "Фердинанд III" } }
 
 	option = { # Prince Carlos
 		name = sic.61.a
@@ -1449,7 +1449,7 @@ country_event = { # Royal Marriage
 			tag = SRD
 		}
 		date > 1938.10.15
-		SIC = { has_country_leader = { ruling_only = yes name = "Ferdinando III" } }
+		SIC = { has_country_leader = { ruling_only = yes name = "Фердинанд III" } }
 	}
 
 	option = { # Whom Doesn't love a wedding!
@@ -3650,7 +3650,7 @@ country_event = { #
 			popularity = 0.2
 		}
 		create_country_leader = {
-			name = "Calogero Vizzini"
+			name = "Калоджеро Виццини"
 			desc = "POLITICS_CALOGERO_VIZZINI_DESC"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Calogero_Vizzini.png"
 			expire = "1.1.1"
@@ -3658,7 +3658,7 @@ country_event = { #
 			traits = { criminal_overlord }
 		}
 		create_field_marshal = {# 
-			name = "Calogero Vizzini "
+			name = "Калоджеро Виццини "
 			portrait_path = "gfx/leaders/SIC/Portrait_SIC_Calogero_Vizzini.png"
 			traits = {
 				politically_connected
@@ -3670,7 +3670,7 @@ country_event = { #
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Giuseppe Genco Russo "
+			name = "Джузеппе Генко Руссо "
 			portrait_path = "gfx/leaders/SIC/Portrait_SIC_Giuseppe_Genco_Russo.png"
 			traits = {
 				politically_connected
@@ -3750,7 +3750,7 @@ country_event = { #
 			popularity = 0.2
 		}
 		create_country_leader = {
-			name = "NeoSanfedisti Leadership Council"
+			name = "Совет лидеров Неосанфедизма"
 			desc = "POLITICS_CATHOLIC_ISIS_DESC"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Neo_Sanfedisti.png"
 			expire = "1.1.1"
@@ -4096,7 +4096,7 @@ country_event = { #
 
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+
 	option = {
 		name = sic.230.a
 		add_political_power = 30
@@ -4243,8 +4243,8 @@ country_event = { # The Noble Legion of the Awakening
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_BOURBON_RESTORATION }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_FASCI }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_MAFIA }
-			} 
-		} 
+			    } 
+		    } 
 		}
 		add_political_power = -35
 		hidden_effect = {
@@ -4352,8 +4352,8 @@ country_event = { # Donato Manduzio
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_BOURBON_RESTORATION }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_FASCI }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_MAFIA }
-			} 
-		} 
+			    } 
+		    } 
 		}
 		add_political_power = -25
 		hidden_effect = {
@@ -4446,8 +4446,8 @@ country_event = { # Evola goes Underground
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_BOURBON_RESTORATION }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_FASCI }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_MAFIA }
-			} 
-		} 
+			    } 
+		    } 
 		}
 		hidden_effect = {
 		country_event = {
@@ -4532,7 +4532,7 @@ country_event = { # Large March
 		country_event = {
 		id = sic.1100
 		days = 2
-		}
+		}		
 	}
 	
 	option = { # Stand Our Ground
@@ -4548,8 +4548,8 @@ country_event = { # Large March
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_BOURBON_RESTORATION }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_FASCI }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_MAFIA }
-			} 
-		} 
+			    } 
+		    } 
 		}
 		add_manpower = -1312
 		add_political_power = -50		
@@ -4605,9 +4605,9 @@ country_event = { # Medium March
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_BOURBON_RESTORATION }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_FASCI }
 				has_game_rule = { rule = SIC_ELECTION option = SIC_ELECTION_MAFIA }
-			} 
-		} 
-		}
+			    } 
+		    } 
+		}	
 		add_manpower = -563
 		add_political_power = -20	
 		country_event = {
@@ -4649,7 +4649,7 @@ country_event = { # Legion Takes Power
 	option = { # Perfect
 		name = sic.1100.a
 		create_country_leader = {
-			name = "Julius Evola"
+			name = "Юлиус Эвола"
 			desc = "POLITICS_JULIUS_EVOLA_DESC"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Julius_Evola.png"
 			expire = "1970.1.1"
@@ -4710,7 +4710,7 @@ country_event = { # Legion Takes Power
 		add_popularity = { ideology = national_populist popularity = 0.05 } 
 		add_ideas = SIC_revolt_against_modern_world
 		create_corps_commander = {
-			name = "Pio Filippani Ronconi"
+			name = "Пио Филиппани Ронкони"
 			portrait_path = "gfx/leaders/SIC/Portrait_SIC_Pio_Filippani_Ronconi.png"
 			traits = {
 			}
@@ -5135,10 +5135,10 @@ country_event = { # Sicily Resists
 		add_political_power = -10
 		115 = { set_demilitarized_zone = yes }
 		hidden_effect = {
-			SIC = {
-				country_event = {
-					id = sic.1220
-					days = 60
+		SIC = {
+		country_event = {
+		id = sic.1220
+		days = 60
 				}
 			}
 		}
@@ -5170,8 +5170,8 @@ country_event = { # Sicily Resists
 		add_war_support = 0.05
 		add_popularity = { ideology = national_populist popularity = -0.05 }
 		country_event = {
-			id = sic.1430
-			days = 4
+		id = sic.1430
+		days = 4
 		}
 	}
 }
@@ -5194,13 +5194,13 @@ country_event = { # Sicilians Broken
 		add_stability = 0.02
 		add_popularity = { ideology = radical_socialist popularity = -0.02 }
 		115 = {
-			add_manpower = -750
-			set_demilitarized_zone = no
+		add_manpower = -750
+		set_demilitarized_zone = no
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -3
+				flag = SIC_catholic_opposition
+				value = -3
 		}
 	}
 	
@@ -5211,13 +5211,13 @@ country_event = { # Sicilians Broken
 		add_popularity = { ideology = national_populist popularity = 0.01 }
 		add_popularity = { ideology = radical_socialist popularity = -0.02 }
 		115 = {
-			add_manpower = -1000
-			set_demilitarized_zone = no
+		add_manpower = -1000
+		set_demilitarized_zone = no
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -3
+				flag = SIC_catholic_opposition
+				value = -3
 		}
 	}
 	option = { # The Purge
@@ -5226,12 +5226,12 @@ country_event = { # Sicilians Broken
 		add_political_power = 30
 		add_popularity = { ideology = radical_socialist popularity = -0.06 }
 		115 = {
-			add_manpower = -5000
-			set_demilitarized_zone = no
+		add_manpower = -5000
+		set_demilitarized_zone = no
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		hidden_effect = {
-			modify_country_flag = {
+		modify_country_flag = {
 				flag = SIC_catholic_opposition
 				value = -4
 			}
@@ -5267,7 +5267,7 @@ country_event = { #Punishment for Thievery
 		add_stability = 0.05
 		add_manpower = -100
 	}
-}
+}	
 
 country_event = { # The King Arrives
 	id = sic.1240
@@ -5287,17 +5287,17 @@ country_event = { # The King Arrives
 		remove_ideas = SIC_revolt_against_modern_world
 		set_cosmetic_tag = SIC_ksicily
 		create_country_leader = {
-			name = "Victor Emmanuel III"
-			desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-			picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
-			expire = "1951.1.1"
+				name = "Виктор Эммануил III"
+				desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+				picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
+				expire = "1951.1.1"
 			ideology = evolian_thought_subtype
-			traits = {}
+				traits = {}
 		}
 		set_country_flag = SIC_Kings_return
 		set_country_flag = LEADER_GUI_VISIBLE
 	}
-}
+}	
 
 country_event = { # The question of Churches
 	id = sic.1250
@@ -5316,7 +5316,7 @@ country_event = { # The question of Churches
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = 1
-		}
+			}
 	}
 	option = { # For the Nobility
 		name = sic.1250.b
@@ -5324,7 +5324,7 @@ country_event = { # The question of Churches
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = 1
-		}
+			}
 	}
 	option = { # For the Serfs
 		name = sic.1250.c
@@ -5334,7 +5334,7 @@ country_event = { # The question of Churches
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = -1
-		}
+			}
 	}
 	option = { # Burn them
 		name = sic.1250.e
@@ -5346,7 +5346,7 @@ country_event = { # The question of Churches
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = 4
-		}
+			}
 	}
 }
 
@@ -5379,7 +5379,7 @@ country_event = { # Concubinage
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = 1
-		}
+			}
 	}
 	option = { # Monogomy
 		name = sic.1260.e
@@ -5388,7 +5388,7 @@ country_event = { # Concubinage
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = -1
-		}
+			}
 	}
 }
 
@@ -5406,9 +5406,9 @@ country_event = { # Catholics Angered
 		name = sic.1270.a
 		add_political_power = 20
 		hidden_effect = {
-			country_event = {
-				id = sic.1280
-				days = 12
+		country_event = {
+		id = sic.1280
+		days = 12
 			}
 		}
 		modify_country_flag = {
@@ -5421,15 +5421,15 @@ country_event = { # Catholics Angered
 		add_stability = 0.02
 		add_political_power = -30
 		hidden_effect = {
-			modify_country_flag = {
-				flag = SIC_catholic_opposition
-				value = 7
+		modify_country_flag = {
+			flag = SIC_catholic_opposition
+			value = 7
 			}
 		}
 		hidden_effect = {
-			country_event = {
-				id = sic.1280
-				days = 12
+		country_event = {
+		id = sic.1280
+		days = 12
 			}
 		}
 	}
@@ -5445,7 +5445,7 @@ country_event = { # Rebellion in the Vatican
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { # Capture the City
+	option = { # Capture the City 
 		name = sic.1280.a
 		add_stability = -0.02
 		add_manpower = -1685
@@ -5455,8 +5455,8 @@ country_event = { # Rebellion in the Vatican
 			set_demilitarized_zone = yes
 		}
 		country_event = {
-			id = sic.1540
-			days = 12
+		id = sic.1540
+		days = 12
 		}
 	}
 	option = { # Bombard it
@@ -5470,8 +5470,8 @@ country_event = { # Rebellion in the Vatican
 			set_demilitarized_zone = yes
 		}
 		country_event = {
-			id = sic.1540
-			days = 9
+		id = sic.1540
+		days = 9
 		}
 	}
 	
@@ -5487,8 +5487,8 @@ country_event = { # Rebellion in the Vatican
 			set_demilitarized_zone = yes
 		}
 		country_event = {
-			id = sic.1540
-			days = 6
+		id = sic.1540
+		days = 6
 		}
 	}
 }
@@ -5512,7 +5512,7 @@ country_event = { # Emmanuel Recognized
 		modify_country_flag = {
 			flag = SIC_catholic_opposition
 			value = -4
-		}
+			}
 	}
 }
 
@@ -5525,11 +5525,11 @@ country_event = { # Recognize Alchemy
 	
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_idea = SIC_spiritual_power_3
-			has_idea = SIC_spiritual_power_4
-			has_idea = SIC_spiritual_power_5
-			has_idea = SIC_spiritual_power_6
+	OR = {
+	has_idea = SIC_spiritual_power_3
+	has_idea = SIC_spiritual_power_4
+	has_idea = SIC_spiritual_power_5
+	has_idea = SIC_spiritual_power_6
 		}
 	}
 	fire_only_once = yes
@@ -5540,11 +5540,11 @@ country_event = { # Recognize Alchemy
 		add_political_power = -50
 		custom_effect_tooltip = SIC_increase_power
 		hidden_effect = {
-			modify_country_flag = {
+				modify_country_flag = {
 				flag = SIC_Occult
 				value = 5
+				}
 			}
-		}
 	}
 	
 	option = { # No 
@@ -5608,9 +5608,9 @@ country_event = { # Colosseum Finished
 		add_war_support = 0.03
 		add_popularity = {ideology = national_populist popularity = 0.05 }
 		hidden_effect = {
-			country_event = {
-				id = sic.1330
-				days = 30
+		country_event = {
+		id = sic.1330
+		days = 30
 			}
 		}
 	}
@@ -5622,9 +5622,9 @@ country_event = { # Colosseum Finished
 		add_war_support = 0.05
 		add_popularity = {ideology = national_populist popularity = 0.05 }
 		hidden_effect = {
-			country_event = {
-				id = sic.1330
-				days = 30
+		country_event = {
+		id = sic.1330
+		days = 30
 			}
 		}
 	}
@@ -5651,9 +5651,9 @@ country_event = { # King attends
 		add_political_power = 10
 		add_popularity = {ideology = national_populist popularity = 0.01 }
 		hidden_effect = {
-			country_event = {
-				id = sic.1340
-				days = 270
+		country_event = {
+		id = sic.1340
+		days = 270
 			}
 		}
 	}
@@ -5662,14 +5662,14 @@ country_event = { # King attends
 		name = sic.1330.b
 		add_war_support = 0.03
 		hidden_effect = {
-			country_event = {
-				id = sic.1340
-				days = 270
+		country_event = {
+		id = sic.1340
+		days = 270
 			}
 		}
 	}
 } 
-country_event = { # Champion 
+	country_event = { # Champion 
 	id = sic.1340
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sic.1340"}
 	title = sic.1340.t
@@ -5828,7 +5828,7 @@ country_event = { # Sardinia Demanded
 	option = { # Agreed
 		name = sic.1390.a
 		ai_chance = {
-			factor = 90
+				factor = 90
 			modifier = {
 				factor = 20
 				OR = {
@@ -5846,9 +5846,9 @@ country_event = { # Sardinia Demanded
 			}
 		}
 		FROM = {
-			country_event = {
-				id = sic.1400
-				days = 3
+		country_event = {
+		id = sic.1400
+		days = 3
 			}
 		}
 	}
@@ -5858,9 +5858,9 @@ country_event = { # Sardinia Demanded
 		add_stability = -0.05
 		add_war_support = 0.1
 		FROM = {
-			country_event = {
-				id = sic.1410
-				days = 3
+		country_event = {
+		id = sic.1410
+		days = 3
 			}
 		}
 	}
@@ -5939,8 +5939,8 @@ country_event = { # Sardinia Declines
 		SRD = { add_ideas = SIC_entente_cold_shoulder }
 	}
 	option = {
-		name = sic.1410.b
-		add_popularity = { ideology = national_populist popularity = -0.05 }
+	name = sic.1410.b
+	add_popularity = { ideology = national_populist popularity = -0.05 }
 		add_political_power = -65
 	}
 }
@@ -6018,23 +6018,23 @@ country_event = { # Battle for Palermo
 		add_stability = -0.20
 		add_war_support = -0.20
 		hidden_effect = {
-			clr_country_flag = LEADER_GUI_VISIBLE
-			clr_country_flag = SIC_Kings_return
-			create_country_leader = {
-				name = "Pio Filippani Ronconi"
+		clr_country_flag = LEADER_GUI_VISIBLE
+		clr_country_flag = SIC_Kings_return
+		create_country_leader = {
+				name = "Пио Филиппани Ронкони"
 				desc = ""
 				picture = "gfx/leaders/SIC/Portrait_SIC_Pio_Filippani_Ronconi.png"
 				expire = "1.1.1"
 				ideology = occultism_subtype
-			}
+		}
 			156 = { set_demilitarized_zone = yes }
 			837 = { set_demilitarized_zone = yes }
 			1006 = { set_demilitarized_zone = yes }
 			117 = { set_demilitarized_zone = yes }
 			742 = { set_demilitarized_zone = yes }
-			country_event = {
-				id = sic.170
-				days = 2
+		country_event = {
+		id = sic.170
+		days = 2
 			}
 		}
 	}
@@ -6053,23 +6053,23 @@ country_event = { # Spiritual Influence #1
 	OR = {
 		has_country_flag = {
 			flag = SIC_Occult
-			value = 5
-		}
+			  value = 5
+			}
 		has_country_flag = {
 			flag = SIC_Occult
-			value > 5
-		}
-	}
-		NOT = {
-			OR = {
-			has_idea = SIC_spiritual_power_1
-			has_idea = SIC_spiritual_power_2
-			has_idea = SIC_spiritual_power_3
-			has_idea = SIC_spiritual_power_4
-			has_idea = SIC_spiritual_power_5
-			has_idea = SIC_spiritual_power_6
+			 value > 5
 			}
-		}
+	}			
+		NOT = {
+				OR = {
+				has_idea = SIC_spiritual_power_1
+				has_idea = SIC_spiritual_power_2
+				has_idea = SIC_spiritual_power_3
+				has_idea = SIC_spiritual_power_4
+				has_idea = SIC_spiritual_power_5
+				has_idea = SIC_spiritual_power_6
+				}
+			}
 	}
 
 	fire_only_once = yes
@@ -6091,22 +6091,22 @@ country_event = { # Spiritual Influence #2
 		tag = SIC
 		has_government = national_populist
 		OR = {
-			has_country_flag = {
-				flag = SIC_Occult
-				value > 15 
+		has_country_flag = {
+			flag = SIC_Occult
+			value > 15 
 			}
-			has_country_flag = {
-				flag = SIC_Occult
-				value = 30 
+		has_country_flag = {
+			flag = SIC_Occult
+			value = 30 
 			}
 		}
 		NOT = {
 			OR = {
-				has_idea = SIC_spiritual_power_2
-				has_idea = SIC_spiritual_power_3
-				has_idea = SIC_spiritual_power_4
-				has_idea = SIC_spiritual_power_5
-				has_idea = SIC_spiritual_power_6
+			has_idea = SIC_spiritual_power_2
+			has_idea = SIC_spiritual_power_3
+			has_idea = SIC_spiritual_power_4
+			has_idea = SIC_spiritual_power_5
+			has_idea = SIC_spiritual_power_6
 			}
 		}
 		has_idea = SIC_spiritual_power_1
@@ -6117,8 +6117,8 @@ country_event = { # Spiritual Influence #2
 	option = { # Low
 		name = sic.1450.a
 		swap_ideas = {
-			remove_idea = SIC_spiritual_power_1
-			add_idea = SIC_spiritual_power_2
+		remove_idea = SIC_spiritual_power_1
+		add_idea = SIC_spiritual_power_2
 		}
 	}
 }
@@ -6131,18 +6131,18 @@ country_event = { # Spiritual Influence #3
 	picture = GFX_report_event_SRI_palace
 	
 	trigger = {
-		tag = SIC
-		has_government = national_populist
-		OR = {
+	tag = SIC
+	has_government = national_populist
+	OR = {
 			has_country_flag = {
 				flag = SIC_Occult
 				value > 30 
+				}
+		has_country_flag = {
+			flag = SIC_Occult
+			value = 45 
 			}
-			has_country_flag = {
-				flag = SIC_Occult
-				value = 45 
-			}
-		}
+	}
 		NOT = {
 			OR = {
 			has_idea = SIC_spiritual_power_3
@@ -6159,8 +6159,8 @@ country_event = { # Spiritual Influence #3
 	option = { # Medium
 		name = sic.1460.a
 		swap_ideas = {
-			remove_idea = SIC_spiritual_power_2
-			add_idea = SIC_spiritual_power_3
+		remove_idea = SIC_spiritual_power_2
+		add_idea = SIC_spiritual_power_3
 		}
 	}
 }
@@ -6173,18 +6173,18 @@ country_event = { # Spiritual Influence #4
 	picture = GFX_SIC_occultism
 	
 	trigger = {
-		tag = SIC
-		has_government = national_populist
-		OR = {
-			AND = {
-				has_country_flag = {
-					flag = SIC_Occult
-					value > 45 
-				}
+	tag = SIC
+	has_government = national_populist
+	OR = {
+		AND = {
+		has_country_flag = {
+			flag = SIC_Occult
+			value > 45 
 			}
-			has_country_flag = {
-				flag = SIC_Occult
-				value = 60
+		}
+		has_country_flag = {
+			flag = SIC_Occult
+			value = 60
 			}
 		}
 		NOT = {
@@ -6202,8 +6202,8 @@ country_event = { # Spiritual Influence #4
 	option = { # High
 		name = sic.1470.a
 		swap_ideas = {
-			remove_idea = SIC_spiritual_power_3
-			add_idea = SIC_spiritual_power_4
+		remove_idea = SIC_spiritual_power_3
+		add_idea = SIC_spiritual_power_4
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		modify_country_flag = {
@@ -6248,8 +6248,8 @@ country_event = { # Spiritual Influence #5
 	option = { # Very High
 		name = sic.1480.a
 		swap_ideas = {
-			remove_idea = SIC_spiritual_power_4
-			add_idea = SIC_spiritual_power_5
+		remove_idea = SIC_spiritual_power_4
+		add_idea = SIC_spiritual_power_5
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		modify_country_flag = {
@@ -6272,18 +6272,18 @@ country_event = { # Spiritual Influence #6
 		has_country_flag = {
 			flag = SIC_Occult
 			value > 75 
-		}
+			}
 		NOT = { has_idea = SIC_spiritual_power_6 }
-		has_idea = SIC_spiritual_power_5
-	}
+			has_idea = SIC_spiritual_power_5
+		}
 
 		fire_only_once = yes	
 	
 	option = { # Evolian Cult
 		name = sic.1490.a
 		swap_ideas = {
-			remove_idea = SIC_spiritual_power_5
-			add_idea = SIC_spiritual_power_6
+		remove_idea = SIC_spiritual_power_5
+		add_idea = SIC_spiritual_power_6
 		}
 		custom_effect_tooltip = SIC_catholics_submit
 		modify_country_flag = {
@@ -6304,14 +6304,14 @@ country_event = { # Catholic Resistance Grows to Two
 		tag = SIC
 		has_government = national_populist
 		OR = {
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value > 10
-			}
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value = 10
-			}
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			value > 10
+		}
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			value = 10
+		}
 		}
 		NOT = {
 			has_idea = SIC_catholic_resistance_2 
@@ -6324,15 +6324,15 @@ country_event = { # Catholic Resistance Grows to Two
 	option = { # Level 2 resistance
 		name = sic.1500.a
 		if = {
-			limit = { has_idea = SIC_catholic_resistance_1 }
-			swap_ideas = {
-				remove_idea = SIC_catholic_resistance_1
-				add_idea = SIC_catholic_resistance_2
+		 limit = { has_idea = SIC_catholic_resistance_1 }
+		swap_ideas = {
+		remove_idea = SIC_catholic_resistance_1
+		add_idea = SIC_catholic_resistance_2
 			}
 		}
 		else = { add_ideas = SIC_catholic_resistance_2 }
 	}
-}
+}	
 
 
 country_event = { # Massive Catholic Resistance
@@ -6346,13 +6346,13 @@ country_event = { # Massive Catholic Resistance
 		tag = SIC
 		has_government = national_populist
 		OR = {
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value > 15
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			  value > 15
 			}
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value = 15
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			  value = 15
 			}
 		}
 		NOT = { has_idea = SIC_catholic_resistance_3 }
@@ -6363,22 +6363,22 @@ country_event = { # Massive Catholic Resistance
 	option = { # Level 3 resistance
 		name = sic.1510.a
 		if = {
-			limit = {has_idea = SIC_catholic_resistance_2 }
-			swap_ideas = {
-				remove_idea = SIC_catholic_resistance_2
-				add_idea = SIC_catholic_resistance_3
+		limit = {has_idea = SIC_catholic_resistance_2 }
+		swap_ideas = {
+			remove_idea = SIC_catholic_resistance_2
+			add_idea = SIC_catholic_resistance_3
 			}
 		}
 		else_if = {
-			limit = {has_idea = SIC_catholic_resistance_1 }
-			swap_ideas = {
-				remove_idea = SIC_catholic_resistance_1
-				add_idea = SIC_catholic_resistance_3
+		limit = {has_idea = SIC_catholic_resistance_1 }
+		swap_ideas = {
+			remove_idea = SIC_catholic_resistance_1
+			add_idea = SIC_catholic_resistance_3
 			}
 		}
 		else = { add_ideas = SIC_catholic_resistance_3 }
-	}
-}
+	}	
+}	
 
 country_event = { # Catholic Resistance Falls from Three
 	id = sic.1520
@@ -6393,8 +6393,8 @@ country_event = { # Catholic Resistance Falls from Three
 		has_country_flag = {
 			flag = SIC_catholic_opposition
 			value < 15
-		}
-		has_idea = SIC_catholic_resistance_3
+			}
+			has_idea = SIC_catholic_resistance_3
 	}
 	
     fire_only_once = yes
@@ -6402,34 +6402,34 @@ country_event = { # Catholic Resistance Falls from Three
 	option = { # Level One Resistance
 		name = sic.1520.a
 		trigger = {
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value < 10
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			value < 10
+				}
 			}
-		}
 		if = {
-			limit = { has_idea = SIC_catholic_resistance_3 }
-			swap_ideas = {
-				remove_idea = SIC_catholic_resistance_3
-				add_idea = SIC_catholic_resistance_1
+		limit = { has_idea = SIC_catholic_resistance_3 }
+		swap_ideas = {
+		remove_idea = SIC_catholic_resistance_3
+		add_idea = SIC_catholic_resistance_1
 			}
 		}
 	}
 	option = { # Level Two Resistance
 		name = sic.1520.b
 		trigger = {
-			has_country_flag = {
-				flag = SIC_catholic_opposition
-				value > 10
+		has_country_flag = {
+			flag = SIC_catholic_opposition
+			value > 10
+				}
 			}
-		}
 		if = {
-			limit = { has_idea = SIC_catholic_resistance_3 }
-			swap_ideas = {
-				remove_idea = SIC_catholic_resistance_3
-				add_idea = SIC_catholic_resistance_2
+		limit = { has_idea = SIC_catholic_resistance_3 }
+		swap_ideas = {
+		remove_idea = SIC_catholic_resistance_3
+		add_idea = SIC_catholic_resistance_2
 			}
-		}
+		}	
 	}
 }
 
@@ -6442,29 +6442,29 @@ country_event = { # Catholics Submit
 	picture = GFX_report_event_IRE_arrests
 	
 	trigger = {
-		tag = SIC
-		has_government = national_populist
-		has_country_flag = {
+			tag = SIC
+			has_government = national_populist
+			has_country_flag = {
 			flag = SIC_catholic_opposition
 			value < 5
-		}
-		OR = {
+			}
+			OR = {
 			has_idea = SIC_catholic_resistance_1
 			has_idea = SIC_catholic_resistance_2
+			}
 		}
-	}
 
 		fire_only_once = yes
 	
 	option = { # No Resistance
 		name = sic.1530.a
 		if = {
-			limit = { has_idea = SIC_catholic_resistance_2 }
-			remove_ideas = SIC_catholic_resistance_2
+		limit = { has_idea = SIC_catholic_resistance_2 }
+		remove_ideas = SIC_catholic_resistance_2
 		}
 		else_if = {
-			limit = { has_idea = SIC_catholic_resistance_3 }
-			remove_ideas = SIC_catholic_resistance_3
+		limit = { has_idea = SIC_catholic_resistance_3 }
+		remove_ideas = SIC_catholic_resistance_3
 		}
 		else = { remove_ideas = SIC_catholic_resistance_1 }
 	}
@@ -6484,10 +6484,10 @@ country_event = { # Vatican Retaken
 		name = sic.1280.a
 		add_stability = 0.05
 		add_political_power = 40
-		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -7
-		}
+			modify_country_flag = {
+				flag = SIC_catholic_opposition
+				value = -7
+				}
 		2 = { set_demilitarized_zone = no }
 		custom_effect_tooltip = SIC_catholics_submit
 	}
@@ -6506,15 +6506,15 @@ country_event = { # Iron-Guard Gets Alliance offer
 		name = sic.155.a
 		ai_chance = {
 			factor = 100
-		}
+			}
 		if = {
 			limit = { ROM = { is_in_faction = yes } }
 			ROM = { leave_faction = yes }
 		}
 		SIC = {
-			country_event = {
-				id = sic.1420
-				days = 1
+		country_event = {
+		id = sic.1420
+		days = 1
 			}
 		}
 	}
@@ -6522,8 +6522,8 @@ country_event = { # Iron-Guard Gets Alliance offer
 		name = sic.155.b
 		ai_chance = {
 			factor = 0
-		}
-		add_political_power = -50
+			}
+			add_political_power = -50
 	}
 }   
 
@@ -6541,32 +6541,32 @@ country_event = { # Pan Europa founded
 		name = sic.1560.a
 		ai_chance = {
 			factor = 100
-		}
+			}
 		set_cosmetic_tag = SIC_europa
 		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -5
-		}
+				flag = SIC_catholic_opposition
+				value = -5
+				}
 	}
 	option = { # Aryan-Roman Imperium
 		name = sic.1560.b
 		ai_chance = {
 			factor = 0
-		}
-		set_cosmetic_tag = SIC_arome
-		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -5
-		}
+			}
+			set_cosmetic_tag = SIC_arome
+			modify_country_flag = {
+				flag = SIC_catholic_opposition
+				value = -5
+			}
 	}
 	option = { # Keep Name
 		name = sic.1560.c
 		ai_chance = {
 			factor = 0
-		}
-		modify_country_flag = {
-			flag = SIC_catholic_opposition
-			value = -5
+			}
+			modify_country_flag = {
+				flag = SIC_catholic_opposition
+				value = -5
 		}
 	}
 }   
@@ -6584,7 +6584,7 @@ country_event = { # Empire of Rome
 		name = sic.1570.a
 		ai_chance = {
 			factor = 50
-		}
+			}
 		increase_ruling_party_popularity_by_5 = yes
 		add_political_power = 50
 		add_stability = 0.05
@@ -6635,11 +6635,11 @@ country_event = { # Empire of Rome
 		name = sic.1570.b
 		ai_chance = {
 			factor = 50
-		}
-		increase_ruling_party_popularity_by_5 = yes
-		add_political_power = 50
-		add_stability = 0.05
-		set_cosmetic_tag = SIC_erome
+			}
+			increase_ruling_party_popularity_by_5 = yes
+			add_political_power = 50
+			add_stability = 0.05
+			set_cosmetic_tag = SIC_erome
 		set_party_name = {
 			ideology = national_populist
 			long_name = SIC_rome_national_populist_party_long
@@ -6686,11 +6686,11 @@ country_event = { # Empire of Rome
 		name = sic.1570.c
 		ai_chance = {
 			factor = 50
-		}
-		increase_ruling_party_popularity_by_5 = yes
-		add_political_power = 50
-		add_stability = 0.05
-		set_cosmetic_tag = SIC_trome
+			}
+			increase_ruling_party_popularity_by_5 = yes
+			add_political_power = 50
+			add_stability = 0.05
+			set_cosmetic_tag = SIC_trome
 		set_party_name = {
 			ideology = national_populist
 			long_name = SIC_rome_national_populist_party_long
@@ -6743,11 +6743,11 @@ country_event = { # Civilian Vehicles
 	picture = GFX_report_event_generic_run_on_the_banks
 	
 	trigger = {
-		has_completed_focus = SIC_strike_consumerism
+	has_completed_focus = SIC_strike_consumerism
 	}
 	
 	mean_time_to_happen = {
-		days = 5
+	days = 5
 	}
 	
 	fire_only_once = yes
@@ -6760,7 +6760,7 @@ country_event = { # Civilian Vehicles
 			type = motorized_equipment
 			amount = 500
 			producer = SIC
-		}
+		}		
 	}
 	
 	option = { # Full Confiscation
@@ -6787,7 +6787,7 @@ country_event = { # Papal States Demanded
 	option = { # Agreed
 		name = sic.1590.a
 		ai_chance = {
-			factor = 85
+				factor = 85
 			modifier = {
 				factor = 0.1
 				OR = {
@@ -6801,9 +6801,9 @@ country_event = { # Papal States Demanded
 			}
 		}
 		SIC = {
-			country_event = {
-				id = sic.1600
-				days = 3
+		country_event = {
+		id = sic.1600
+		days = 3
 			}
 		}
 	}
@@ -6839,13 +6839,13 @@ country_event = { # Papacy Caves
 		}
 		add_stability = 0.04
 		hidden_effect = {
-			country_event = {
-				id = sic.1640
-				days = 1 
+		country_event = {
+		id = sic.1640
+		days = 1 
 			}
 		}
 	}
-}
+}	
 
 country_event = { # King and the Baron
 	id = sic.1610
@@ -6871,8 +6871,8 @@ country_event = { # Death of the King
 	desc = sic.1620.d
 	picture = GFX_SIC_victor_emmanuel_funeral
 	trigger = {
-		date > 1947.12.28
-		has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
+	date > 1947.12.28
+	has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }	
 	}
 	
 	fire_only_once = yes
@@ -6880,15 +6880,15 @@ country_event = { # Death of the King
 	option = { # Long Live Umberto
 		name = sic.1620.a
 		create_country_leader = {
-			name = "Umberto II"
-			desc = "POLITICS_Umberto_II_DESC"
-			picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
-			expire = "1983.3.18"
+				name = "Умберто II"
+				desc = "POLITICS_Umberto_II_DESC"
+				picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
+				expire = "1983.3.18"
 			ideology = evolian_thought_subtype
 		}
 		if = {
 			limit = { has_completed_focus = SIC_imppero_italiano }
-			add_country_leader_trait = SIC_italian_emperor
+		add_country_leader_trait = SIC_italian_emperor
 		}
 	}
 }   
@@ -6914,9 +6914,9 @@ country_event = { # Iron Guard Defensive Alliance
 		name = sic.1630.b
 		add_manpower = 100
 		ROM = {
-			country_event = {
-				id = sic.155
-				days = 3
+		country_event = {
+		id = sic.155
+		days = 3
 			}
 		}
 	}
@@ -6935,15 +6935,15 @@ country_event = { # The Black Prince
 	
 	option = { # Wonderful!
 		name = sic.1640.a
-		create_navy_leader = {
-			name = "Junio Valerio Borghese"
-			portrait_path = "gfx/leaders/PAP/Portrait_Papal_State_Julio_Valerio_Borghese.png"
-			traits = { seawolf }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 2
+	create_navy_leader = {
+		name = "Юнио Валерио Боргезе"
+		portrait_path = "gfx/leaders/PAP/Portrait_Papal_State_Julio_Valerio_Borghese.png"
+		traits = { seawolf }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		maneuvering_skill = 2
+		coordination_skill = 2
 		}
 	}
 }
@@ -6965,14 +6965,14 @@ country_event = { # The Black Prince Salvages Ships
 	option = { # Wonderful!
 		name = sic.1650.a
 		create_navy_leader = {
-			name = "Junio Valerio Borghese"
-			portrait_path = "gfx/leaders/PAP/Portrait_Papal_State_Julio_Valerio_Borghese.png"
-			traits = { seawolf }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 1
-			maneuvering_skill = 2
-			coordination_skill = 2
+		name = "Юнио Валерио Боргезе"
+		portrait_path = "gfx/leaders/PAP/Portrait_Papal_State_Julio_Valerio_Borghese.png"
+		traits = { seawolf }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		maneuvering_skill = 2
+		coordination_skill = 2
 		}
 		custom_effect_tooltip = SIC_evola_naval_oob
 		hidden_effect = { load_oob = SIC_naval_evola }
@@ -7007,7 +7007,7 @@ country_event = { # Small Catholic Resistance Grows
 		name = sic.1660.a
 		add_ideas = SIC_catholic_resistance_1
 	}
-}
+}			
 
 country_event = { # Catholic Falls to 1
 	id = sic.1670
@@ -7025,19 +7025,19 @@ country_event = { # Catholic Falls to 1
 			flag = SIC_catholic_opposition
 			value < 10
 		}
-		has_idea = SIC_catholic_resistance_2 
-	}
+			has_idea = SIC_catholic_resistance_2 
+		}
 
 		fire_only_once = yes
 	
 	option = { # Level 1 resistance
 		name = sic.1670.a
 		swap_ideas = {
-			remove_idea = SIC_catholic_resistance_2
-			add_idea = SIC_catholic_resistance_1
-		}
+		remove_idea = SIC_catholic_resistance_2
+		add_idea = SIC_catholic_resistance_1
+		}	
 	}
-}
+}	
 
 country_event = { # The Insult
 	id = sic.1680
@@ -7046,12 +7046,12 @@ country_event = { # The Insult
 	desc = sic.1680.d
 	picture = GFX_SIC_duel
 	trigger = {
-		date > 1940.02.15
-		has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-		has_completed_focus = SIC_legionary_order
-		OR = {
-			has_idea = SIC_legionary_elite
-			has_idea = SIC_legionary_elite_2
+	date > 1940.02.15
+	has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }	
+	has_completed_focus = SIC_legionary_order
+	OR = {
+	has_idea = SIC_legionary_elite
+	has_idea = SIC_legionary_elite_2
 		}
 	}
 	
@@ -7064,7 +7064,7 @@ country_event = { # The Insult
 		add_war_support = 0.02
 		add_political_power = -30
 		add_stability = -0.02
-	}
+		}
 	
 	option = { # Allow the Court to decide
 		name = sic.1680.b
@@ -7127,11 +7127,11 @@ country_event = { # Fall of Piedmont
 	picture = GFX_report_event_SRI_bombing
 	
 	trigger = {
-		controls_state = 158
-		OR = {
-			has_country_leader = { ruling_only = yes name = "Julius Evola" }
-			has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-			has_country_leader = { ruling_only = yes name = "Umberto II" }
+	controls_state = 158
+	OR = {
+	has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
+	has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+	has_country_leader = { ruling_only = yes name = "Умберто II" }
 		}
 	}
 		
@@ -7157,14 +7157,14 @@ country_event = {#
 
 	fire_only_once = yes
 	trigger = {
-		tag = SIC
-		date > 1937.06.01
-		NOT = {
-			has_completed_focus = SIC_ride_the_tiger
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Julius Evola" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" } 
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
+	tag = SIC
+	date > 1937.06.01
+	NOT = {
+	has_completed_focus = SIC_ride_the_tiger
+	OR = {
+	has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
+	has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" } 
+	has_country_leader = { ruling_only = yes name = "Умберто II" }
 			}
 		}
 	}
@@ -7243,9 +7243,9 @@ country_event = { # The Anonymous and Fractured Inner Circle
 				name = SIC_legion_national_populist_party
 			}
 			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }  }	
+				limit = { has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }  }	
 				create_country_leader = {
-					name = "Victor Emmanuel III"
+					name = "Виктор Эммануил III"
 					desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 					picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 					expire = "1951.1.1"
@@ -7253,7 +7253,7 @@ country_event = { # The Anonymous and Fractured Inner Circle
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Victor Emmanuel III"
+					name = "Виктор Эммануил III"
 					desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 					picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 					expire = "1951.1.1"
@@ -7261,7 +7261,7 @@ country_event = { # The Anonymous and Fractured Inner Circle
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Victor Emmanuel III"
+					name = "Виктор Эммануил III"
 					desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 					picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 					expire = "1951.1.1"
@@ -7269,7 +7269,7 @@ country_event = { # The Anonymous and Fractured Inner Circle
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Victor Emmanuel III"
+					name = "Виктор Эммануил III"
 					desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 					picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 					expire = "1951.1.1"
@@ -7278,30 +7278,30 @@ country_event = { # The Anonymous and Fractured Inner Circle
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Umberto II" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Умберто II" } }
 				create_country_leader = {
-					name = "Umberto II"
+					name = "Умберто II"
 					desc = "POLITICS_Umberto_II_DESC"
 					picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 					expire = "1983.3.18"
 					ideology = pataut_occultism_subtype
 				}
 				create_country_leader = {
-					name = "Umberto II"
+					name = "Умберто II"
 					desc = "POLITICS_Umberto_II_DESC"
 					picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 					expire = "1983.3.18"
 					ideology = authdem_occultism_subtype
 				}
 				create_country_leader = {
-					name = "Umberto II"
+					name = "Умберто II"
 					desc = "POLITICS_Umberto_II_DESC"
 					picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 					expire = "1983.3.18"
 					ideology = soccon_occultism_subtype
 				}
 				create_country_leader = {
-					name = "Umberto II"
+					name = "Умберто II"
 					desc = "POLITICS_Umberto_II_DESC"
 					picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 					expire = "1983.3.18"
@@ -7448,15 +7448,15 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 		name = mafia.4.b
 		add_political_power = 30
 		set_politics = {
-			ruling_party = national_populist
-			elections_allowed = no
+				ruling_party = national_populist
+				elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
-			popularity = 0.30
+				ideology = national_populist
+				popularity = 0.30
 		}
 		create_country_leader = {
-			name = "Salvatore Giuliano"
+			name = "Сальваторе Джулиано"
 			desc = ""
 			picture = "gfx/leaders/SCL/Portrait_SCL_Salvatore_Giuliano.png"
 			expire = "1.1.1"
@@ -7464,7 +7464,7 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 			traits = { sec_man_of_the_people }
 		}
 		create_corps_commander = {
-			name = "Salvatore Giuliano "
+			name = "Сальваторе Джулиано "
 			portrait_path = "gfx/leaders/SCL/Portrait_SCL_Salvatore_Giuliano.png"
 			traits = {
 				harsh_leader
@@ -7486,15 +7486,15 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 		name = mafia.4.c
 		add_political_power = 30
 		set_politics = {
-			ruling_party = social_conservative
-			elections_allowed = no
+				ruling_party = social_conservative
+				elections_allowed = no
 		}
 		add_popularity = {
-			ideology = social_conservative
-			popularity = 0.30
+				ideology = social_conservative
+				popularity = 0.30
 		}
 		create_country_leader = {
-			name = "Giuseppe Genco Russo"
+			name = "Джузеппе Генко Руссо"
 			desc = ""
 			picture = "gfx/leaders/SIC/Portrait_SIC_Giuseppe_Genco_Russo.png"
 			expire = "1.1.1"
@@ -7512,7 +7512,7 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 		name = mafia.4.e
 		add_political_power = 30
 		create_country_leader = {
-			name = "Achille Lauro"
+			name = "Акилле Лауро"
 			desc = ""
 			picture = "gfx/leaders/SIC/Portrait_SIC_Achille_Lauro.png"
 			expire = "1.1.1"
@@ -7532,7 +7532,7 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 			popularity = 0.30
 		}
 		create_country_leader = {
-			name = "Carlo Gambino"
+			name = "Карло Гамбино"
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_Carlo_Gambino.png"
 			expire = "1.1.1"
@@ -7540,7 +7540,7 @@ country_event = { #Questions of Leadership and the Future of Cosa Nostra
 			traits = { criminal_overlord }
 		}
 		create_corps_commander = {
-			name = "Carlo Gambino "
+			name = "Карло Гамбино "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Carlo_Gambino.png"
 			traits = {
 				NYC_mobster
@@ -7861,7 +7861,7 @@ country_event = {
 				factor = 30
 				OR = {
 					has_government = social_democrat
-					has_country_leader = { name = "Leo XIV" ruling_only = yes }
+					has_country_leader = { name = "Лео XIV" ruling_only = yes }
 				}
 			}
 			modifier = {
@@ -8001,17 +8001,17 @@ country_event = {
 			popularity = 0.12
 		}
 		if = {
-			limit = { SRD = { has_country_leader = { name =  "Amedeo I" ruling_only = yes } } }
+			limit = { SRD = { has_country_leader = { name =  "Амадей I" ruling_only = yes } } }
 			create_country_leader = {
-				name = "Amedeo I"
+				name = "Амадей I"
 				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 				desc = "POLITICS_AMADEO_SAVOY_DESC"
 				expire = "1.1.1"
 				ideology = socdem_fascism_subtype
 				traits = { SRD_Explorer_King }
-			}
+			}	
 			create_country_leader = {
-				name = "Amedeo I"
+				name = "Амадей I"
 				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 				desc = "POLITICS_AMADEO_SAVOY_DESC"
 				expire = "1.1.1"
@@ -8019,7 +8019,7 @@ country_event = {
 				traits = { SRD_Explorer_King }
 			}
 			create_country_leader = {
-				name = "Amedeo I"
+				name = "Амадей I"
 				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 				desc = "POLITICS_AMADEO_SAVOY_DESC"
 				expire = "1.1.1"
@@ -8213,7 +8213,7 @@ country_event = { #future of italy
 			popularity = 0.2
 		}
 		create_country_leader = {
-			name = "Renato Ziggiotti"
+			name = "Ренато Зиггиотти"
 			desc = "POLITICS_ZIGGI_DESC"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Renato_Ziggiotti.png"
 			expire = "1.1.1"
@@ -8253,7 +8253,7 @@ country_event = { #future of italy
 			popularity = 0.2
 		}
 		create_country_leader = {
-			name = "Padre Pio"
+			name = "Падре Пио"
 			desc = "POLITICS_PIO_DESC"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Padre_Pio.png"
 			expire = "1.1.1"
@@ -8271,7 +8271,7 @@ country_event = { #future of italy
 			long_name = SIC_pio_party_long
 			name = SIC_pio_party
 		}
-	}
+	}		
 }
 
 country_event = { #Ziggi's Plan
@@ -8651,7 +8651,7 @@ country_event = { #Pio papal name
 			portrait = "gfx/leaders/SIC/Portrait_SIC_Padre_Pio_Pope.png"
 		}
 		set_country_leader_name = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 		}
 		add_country_leader_trait = ITA_the_mfing_pope
 		set_politics = {
@@ -8687,7 +8687,7 @@ country_event = { #Pio papal name
 			portrait = "gfx/leaders/SIC/Portrait_SIC_Padre_Pio_Pope.png"
 		}
 		set_country_leader_name = {
-			name = "Paul VI"
+			name = "Павел VI"
 		}
 		add_country_leader_trait = ITA_the_mfing_pope
 		set_politics = {
@@ -8723,7 +8723,7 @@ country_event = { #Pio papal name
 			portrait = "gfx/leaders/SIC/Portrait_SIC_Padre_Pio_Pope.png"
 		}
 		set_country_leader_name = {
-			name = "Gregory XVII"
+			name = "Григорий XVII"
 		}
 		add_country_leader_trait = ITA_the_mfing_pope
 		set_politics = {
@@ -8746,7 +8746,7 @@ country_event = { #Pio papal name
 				}
 			}
 		}
-	}
+	}		
 }
 country_event = { #address the cardinals
 	id = cathitaly.24
@@ -9022,7 +9022,7 @@ country_event = { #Bourbon neosanfedisti?
 			}
 		}
 		create_country_leader = {
-			name = "Ferdinando III"
+			name = "Фердинанд III"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Ferdinand_Pius_di_Borbone.png"
 			expire = "1.1.1"
 			ideology = neoborbonismo_subtype	
@@ -9100,7 +9100,7 @@ country_event = { #Tata macaronne returns
 		name = cathitaly.38.a
 		add_political_power = 25
 		create_country_leader = {
-			name = "Ferdinando III"
+			name = "Фердинанд III"
 			picture = "gfx/leaders/SIC/Portrait_SIC_Ferdinand_Pius_di_Borbone.png"
 			expire = "1.1.1"
 			ideology = theocracy_subtype		

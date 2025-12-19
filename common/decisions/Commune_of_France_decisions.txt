@@ -229,7 +229,7 @@ FRA_internationale_category = {
 			FROM = {
 				NOT = { has_idea = SOV_foreign_aid }				
 				OR = {
-					has_war_with = RVA
+				has_war_with = RVA
 					has_war_with = RRF
 					has_war_with = WRA
 					has_war_with = TRM
@@ -265,23 +265,23 @@ FRA_internationale_category = {
 				effect_tooltip = { 
 					add_ideas = SOV_foreign_aid		
 					add_one_random_civilian_factory = yes 
+					}
 				}
-			}
 			effect_tooltip = {
-				send_equipment = {
-					target = FROM
-					type = infantry_equipment
-					amount = 600
-				}
-				send_equipment = {
-					target = FROM
-					type = support_equipment
-					amount = 100
-				}
-				send_equipment = {
-					target = FROM
-					type = artillery_equipment
-					amount = 50
+			send_equipment = {
+				target = FROM
+				type = infantry_equipment
+				amount = 600
+			}
+			send_equipment = {
+				target = FROM
+				type = support_equipment
+				amount = 100
+			}
+			send_equipment = {
+				target = FROM
+				type = artillery_equipment
+				amount = 50
 				}
 			}
 		}
@@ -483,7 +483,7 @@ FRA_liberate_europe_category = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Marcel Déat"
+				name = "Марсель Деа"
 			}
 		}
 		fire_only_once = yes
@@ -492,7 +492,7 @@ FRA_liberate_europe_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision FRA_claim_deat_europe"
 			set_cosmetic_tag = FRA_Deat_Europe
 			leave_faction = yes
-			create_faction_from_template = { 
+		    create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_european_peoples_union
 				icon = GFX_faction_socialist_europe
@@ -539,7 +539,7 @@ FRA_liberate_europe_category = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Marcel Déat"
+				name = "Марсель Деа"
 			}
 			16 = { is_owned_by_ROOT_or_ally = yes}
 			64 = { is_owned_by_ROOT_or_ally = yes}

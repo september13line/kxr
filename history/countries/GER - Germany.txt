@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 64
 set_naval_oob= "GER_naval"
 set_research_slots = 4
 set_convoys = 400
@@ -214,40 +214,40 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	ship_hull_super_heavy = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		ship_hull_super_heavy = 1
+		
+		basic_naval_mines = 1
+
+		## Modules##
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_naval_mines = 1
-
-	## Modules##
-	submarine_mine_laying = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	smoke_generator = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		smoke_generator = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
 
-	### Transport ###
-	mtg_transport = 1
+		### Transport ###
+		mtg_transport = 1
 }
 
 complete_special_project = {
@@ -360,7 +360,7 @@ if = {
 	every_country = {
 		limit = {
 			OR = {
-				is_ally_with = GER
+			is_ally_with = GER
 				tag = MAF
 				tag = COG
 				tag = KEN
@@ -467,14 +467,14 @@ create_import = {
 }
 
 create_country_leader = {
-	name = "Heinrich Laufenberg"
+	name = "Генрих Лауфенберг"
 	picture = "gfx/leaders/GER/Portrait_Germany_Heinrich_Laufenberg.png"
 	expire = "1.1.1"
 	ideology = national_communism_subtype
 }
 
 create_country_leader = {
-	name = "Rudolf Rocker"
+	name = "Рудольф Рокер"
 	desc = "POLITICS_RUDOLF_ROCKER_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Rudolf_Rocker_I.png"
 	expire = "1.1.1"
@@ -482,14 +482,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Levi"
+	name = "Пауль Леви"
 	picture = "gfx/leaders/GER/Portrait_Germany_Paul_Levi.png"
 	expire = "1.1.1"
 	ideology = radsoc_communism_subtype
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -498,7 +498,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -507,7 +507,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -516,7 +516,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -525,7 +525,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -534,7 +534,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -543,7 +543,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
+	name = "Вильгельм II"
 	desc = "POLITICS_WILHELM_II_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_II_Auth.png"
 	expire = "1.1.1"
@@ -552,7 +552,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Hans von Seeckt"
+	name = "Ханс фон Сект"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hans_von_Seeckt.png"
 	traits = { old_guard trickster war_hero brilliant_strategist}
 	skill = 4
@@ -564,7 +564,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Paul von Lettow-Vorbeck"
+	name = "Пауль фон Леттов-Форбек"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Paul_von_Lettow_Vorbeck.png"
 	traits = { trickster war_hero media_personality jungle_rat}
 	skill = 4
@@ -575,7 +575,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Gerd von Rundstedt"
+	name = "Герд фон Рундштедт"
 	desc = "GER_gerd_von_rundstedt_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gerd_von_Rundstedt_kr.png"
 	traits = { defensive_doctrine offensive_doctrine }
@@ -587,7 +587,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Rupprecht von Bayern"
+	name = "Рупрехт Баварский"
 	desc = "GER_rupprecht_von_bayern_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Rupprecht_Bayern_kr.png"
 	traits = { old_guard trait_cautious inflexible_strategist defensive_doctrine organizer GER_bayerische_armee_commander_trait }
@@ -600,7 +600,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "August von Mackensen"
+	name = "Август фон Макензен"
 	desc = "GER_august_von_mackensen_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_August_Mackensen_kr.png"
 	traits = { offensive_doctrine old_guard }
@@ -613,7 +613,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Kurt von Schleicher"
+	name = "Курт фон Шлейхер"
 	desc = "GER_kurt_von_schleicher_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Kurt_von_Schleicher.png"
 	traits = { 
@@ -631,7 +631,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Wilhelm von Preußen"
+	name = "Вильгельм Прусский"
 	desc = "GER_wilhelm_iii_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III_field_marshall.png"
 	traits = { 
@@ -649,7 +649,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Heinz Guderian"
+	name = "Гейнц Гудериан"
 	desc = "GER_heinz_guderian_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Heinz_Guderian_kr.png"
 	traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer }
@@ -661,7 +661,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walter Model"
+	name = "Вальтер Модель"
 	desc = "GER_walter_model_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walter_Model_kr.png"
 	traits = { politically_connected trait_cautious harsh_leader brilliant_strategist trickster }
@@ -673,7 +673,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Werner von Blomberg"
+	name = "Вернер фон Бломберг"
 	desc = "GER_werner_von_blomberg_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Werner_von_Blomberg.png"
 	traits = { trickster armor_officer career_officer GER_schleicher_clique_member_trait }
@@ -685,7 +685,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Günther von Kluge"
+	name = "Гюнтер фон Клюге"
 	desc = "GER_gunther_von_kluge_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gunther_Kluge_kr.png"
 	traits = { career_officer armor_officer }
@@ -697,7 +697,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Erwin von Witzleben"
+	name = "Эрвин фон Вицлебен"
 	desc = "GER_erwin_von_witzleben_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Erwin_von_Witzleben_kr.png"
 	traits = { skilled_staffer career_officer }
@@ -709,7 +709,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wilhelm Ritter von Leeb"
+	name = "Вильгельм фон Лееб"
 	desc = "GER_wilhelm_ritter_von_leeb_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Ritter_von_Leeb_kr.png"
 	traits = { skilled_staffer infantry_officer GER_bayerische_armee_commander_trait }
@@ -722,7 +722,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Helmuth von Pannwitz"
+	name = "Гельмут фон Паннвиц"
 	desc = "GER_helmuth_von_Pannwitz_commander_desc"
 	portrait_path = "gfx/leaders/DKB/Portrait_DKB_Helmuth_von_Pannwitz.png"
 	traits = { cavalry_leader cavalry_officer }
@@ -735,7 +735,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wilhelm Keitel "
+	name = "Вильгельм Кейтель "
 	desc = "GER_wilhelm_keitel_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Keitel.png"
 	traits = { infantry_officer }
@@ -748,7 +748,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Günther Blumentritt"
+	name = "Гюнтер Блюментритт"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gunther_Blumentritt.png"
 	traits = { infantry_officer war_hero career_officer }
 	skill = 2
@@ -759,7 +759,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Karl Heinrich Emil Becker"
+	name = "Карл Генрих Эмиль Беккер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Karl_Heinrich_Emil_Becker.png"
 	traits = { fortress_buster engineer_officer }
 	skill = 2
@@ -770,7 +770,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ferdinand von Bredow"
+	name = "Фердинанд фон Бредов"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Ferdinand_von_Bredow.png"
 	traits = { 
 		politically_connected
@@ -787,7 +787,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Johannes Frießner"
+	name = "Йоханнес Фриснер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Johannes_Friessner.png"
 	traits = { infantry_officer }
 	skill = 1
@@ -798,7 +798,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hans Speidel"
+	name = "Ханс Шпайдель"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hans_Speidel.png"
 	traits = { skilled_staffer career_officer }
 	skill = 1
@@ -809,7 +809,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Albert Kesselring"
+	name = "Альберт Кессельринг"
 	desc = "GER_albert_kesselring_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Albert_Kesselring_kr.png"
 	traits = { inflexible_strategist infantry_officer GER_bayerische_armee_commander_trait }
@@ -821,7 +821,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Eberhard von Mackensen"
+	name = "Эберхард фон Макензен"
 	desc = "GER_eberhard_von_mackensen_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Eberhard_Mackensen_kr.png"
 	traits = { cavalry_leader cavalry_officer }
@@ -833,7 +833,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Oskar von Hutier"
+	name = "Оскар фон Гутьер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Oskar_von_Hutier.png"
 	traits = { old_guard artillery_specialist war_hero trickster infantry_officer GER_schleicher_clique_member_trait }
 	skill = 4
@@ -844,7 +844,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Eduard Dietl"
+	name = "Эдуард Дитль"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Eduard_Dietl_kr.png"
 	traits = { winter_specialist commando GER_bayerische_armee_commander_trait }
 	skill = 3
@@ -855,7 +855,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Erich Hoepner"
+	name = "Эрих Гёпнер"
 	desc = "GER_erich_hoepner_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Erich_Hoepner_kr.png"
 	traits = { armor_officer trait_reckless }
@@ -867,7 +867,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ewald von Kleist"
+	name = "Эвальд фон Клейст"
 	desc = "GER_ewald_von_kleist_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Ewald_Kleist_kr.png"
 	traits = { skilled_staffer }
@@ -879,7 +879,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fedor von Bock"
+	name = "Федор фон Бок"
 	desc = "GER_fedor_von_bock_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Fedor_Bock_kr.png"
 	traits = { brilliant_strategist harsh_leader trait_cautious }
@@ -891,7 +891,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Friedrich Paulus"
+	name = "Фридрих Паулюс"
 	desc = "GER_friedrich_paulus_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Friedrich_Paulus_kr.png"
 	traits = { infantry_officer }
@@ -903,7 +903,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Georg von Küchler"
+	name = "Георг фон Кюхлер"
 	desc = "GER_georg_von_kuchler_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Georg_Kuchler_kr.png"
 	traits = { politically_connected career_officer }
@@ -915,7 +915,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Franz Halder"
+	name = "Франц Гальдер"
 	desc = "GER_franz_halder_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Franz_Halder_kr.png"
 	traits = { organizer GER_bayerische_armee_commander_trait }
@@ -927,7 +927,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gotthard Heinrici"
+	name = "Готхард Хейнрици"
 	desc = "GER_gotthard_heinrici_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gotthard_Heinrici_kr.png"
 	traits = { trait_engineer fortress_buster }
@@ -939,7 +939,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann Hoth"
+	name = "Герман Гот"
 	desc = "GER_hermann_hoth_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hermann_Hoth_kr.png"
 	traits = { infantry_officer infantry_leader infantry_expert }
@@ -951,7 +951,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Franz von Bayern"
+	name = "Франц Баварский"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Franz_Bayern_kr.png"
 	traits = { infantry_leader war_hero GER_bayerische_armee_commander_trait }
 	skill = 3
@@ -962,7 +962,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Curt Haase"
+	name = "Курт Хаазе"
 	desc = "GER_curt_haase_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Curt_Hasse.png"
 	traits = { trickster }
@@ -975,7 +975,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nikolaus von Falkenhorst"
+	name = "Николаус фон Фалькенхорст"
 	desc = "GER_nikolaus_von_falkenhorst_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Nikolaus_von_Falkenhorst.png"
 	traits = { commando winter_specialist }
@@ -987,7 +987,7 @@ create_corps_commander = {
 }	
 
 create_corps_commander = {
-	name = "Kurt von Hammerstein-Equord"
+	name = "Курт фон Хаммерштейн-Экворд"
 	desc = "GER_kurt_von_hammerstein_equord_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Kurt_von_Hammerstein_Equord.png"
 	traits = { politically_connected brilliant_strategist defensive_doctrine GER_schleicher_clique_member_trait }
@@ -999,7 +999,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {#Manfred von Richthofen
-	name = "Manfred von Richthofen"
+	name = "Манфред фон Рихтгофен"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Manfred_von_Richthofen.png"
 	traits = { politically_connected paratrooper media_personality war_hero skilled_staffer air_commander }
 	skill = 2
@@ -1010,7 +1010,7 @@ create_corps_commander = {#Manfred von Richthofen
 }
 
 create_corps_commander = {
-	name = "Ernst Udet"
+	name = "Эрнст Удет"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Ernst_Udet.png"
 	traits = { politically_connected media_personality war_hero air_commander }
 	skill = 2
@@ -1021,7 +1021,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Martin Harlinghausen"
+	name = "Мартин Харлингхаузен"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Martin_Harlinghausen.png"
 	traits = { politically_connected air_commander naval_liason }
 	skill = 2
@@ -1032,7 +1032,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walter Weiss"
+	name = "Вальтер Вайс"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walter_Weiss.png"
 	traits = { infantry_leader }
 	skill = 2
@@ -1043,7 +1043,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Konrad Krafft von Dellmensingen"
+	name = "Конрад Краффт фон Делльмензинген"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Konrad_Dellmensingen.png"
 	traits = { 
 		trait_mountaineer 
@@ -1060,7 +1060,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Eugen von Schobert"
+	name = "Ойген фон Шоберт"
 	desc = "GER_eugen_von_schobert_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Eugen_von_Schobert.png"
 	traits = { trait_reckless harsh_leader GER_bayerische_armee_commander_trait }
@@ -1072,7 +1072,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wilhelm List"
+	name = "Вильгельм Лист"
 	desc = "GER_wilhelm_list_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_List_kr.png"
 	traits = { hill_fighter GER_bayerische_armee_commander_trait }
@@ -1084,7 +1084,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Maximilian von Weichs"
+	name = "Максимилиан фон Вейхс"
 	desc = "GER_maximilian_von_weichs_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Maximilian_von_Weichs_kr.png"
 	traits = { cavalry_officer cavalry_leader GER_bayerische_armee_commander_trait }
@@ -1096,7 +1096,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ernst Volckheim"
+	name = "Эрнст Фолькхайм"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Ernst_Volckheim.png"
 	traits = { armor_officer panzer_leader }
 	skill = 3
@@ -1107,7 +1107,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann Balck"
+	name = "Герман Бальк"
 	desc = "GER_hermann_balck_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hermann_Balck.png"
 	traits = { }
@@ -1119,7 +1119,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann Recknagel"
+	name = "Герман Рекнагель"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hermann_Recknagel.png"
 	traits = { infantry_leader }
 	skill = 2
@@ -1130,7 +1130,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Kurt Versock"
+	name = "Курт Ферзок"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Kurt_Versock.png"
 	traits = { }
 	skill = 2
@@ -1141,7 +1141,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Erich Fellgiebel"
+	name = "Эрих Фельгибель"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Erich_Fellgiebel.png"
 	traits = { organizer }
 	skill = 1
@@ -1152,7 +1152,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Karl Allmendinger"
+	name = "Карл Альмендингер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Karl_Allmendinger.png"
 	traits = { war_hero }
 	skill = 2
@@ -1163,7 +1163,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Friedrich Olbricht"
+	name = "Фридрих Ольбрихт"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Friedrich_Olbricht.png"
 	traits = { career_officer }
 	skill = 1
@@ -1174,7 +1174,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Georg-Hans Reinhardt"
+	name = "Георг Ганс Рейнгардт"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Georg_Hans_Reinhardt.png"
 	traits = { panzer_leader armor_officer }
 	skill = 2
@@ -1185,7 +1185,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Matthias Kleinheisterkamp"
+	name = "Маттиас Кляйнхайстеркамп"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Matthias_Kleinheisterkamp.png"
 	traits = { war_hero politically_connected }
 	skill = 2
@@ -1196,7 +1196,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hasso von Manteuffel"
+	name = "Хассо фон Мантойфель"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hasso_von_Manteuffel_KX.png"
 	traits = { armor_officer politically_connected }
 	skill = 1
@@ -1207,7 +1207,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Max Bauer"
+	name = "Макс Бауэр"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Max_Bauer.png"
 	traits = { aggressive_assaulter politically_connected GER_schleicher_clique_member_trait }
 	skill = 2
@@ -1218,7 +1218,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alfred von Vollard-Bockelberg"
+	name = "Альфред фон Фоллард-Бокельберг"
 	desc = "GER_alfred_von_vollard_bockelberg_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Alfred_von_Vollard_Bockelberg.png"
 	traits = { artillery_specialist }
@@ -1230,7 +1230,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walther von Reichenau"
+	name = "Вальтер фон Рейхенау"
 	desc = "GER_walther_von_reichenau_commander_desc"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walther_von_Reichenau.png"
 	traits = { career_officer GER_schleicher_clique_member_trait }
@@ -1243,7 +1243,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rudolf Schmidt"
+	name = "Рудольф Шмидт"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Rudolf_Schmidt.png"
 	traits = { career_officer winter_specialist }
 	skill = 2
@@ -1254,7 +1254,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Friedrich von Rabenau"
+	name = "Фридрих фон Рабенау"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Friedrich_Rabenau.png"
 	traits = { bearer_of_artillery trait_cautious GER_schleicher_clique_member_trait }
 	skill = 2
@@ -1265,7 +1265,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Franz von Roques"
+	name = "Франц фон Рокес"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Franz_von_Roques.png"
 	traits = { infantry_officer trait_cautious }
 	skill = 3
@@ -1276,7 +1276,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Oskar von Hindenburg"
+	name = "Оскар фон Гинденбург"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Oskar_von_Hindenburg.png"
 	traits = { politically_connected GER_schleicher_clique_member_trait }
 	skill = 1
@@ -1287,7 +1287,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walter Nicolai"
+	name = "Вальтер Николаи"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walter_Nicolai.png"
 	traits = { career_officer organizer harsh_leader GER_schleicher_clique_member_trait }
 	skill = 2
@@ -1298,7 +1298,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hyazinth Graf Strachwitz"
+	name = "Гиацинт фон Штрахвиц"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hyacinth_Graf_Strachwitz.png"
 	traits = { panzer_leader armor_officer career_officer }
 	skill = 2
@@ -1309,7 +1309,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Erich-Heinrich Clößner"
+	name = "Эрих-Генрих Клосснер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Erich_Heinrich_Clossner.png"
 	traits = { infantry_officer skilled_staffer }
 	skill = 2
@@ -1322,7 +1322,7 @@ create_corps_commander = {
 ### Navy Leaders ###
 
 create_navy_leader = {
-	name = "Karl Dönitz"
+	name = "Карл Дёниц"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Karl_Donitz_kr.png"
 	traits = { seawolf silent_hunter }
 	skill = 4
@@ -1333,7 +1333,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Erich Raeder"
+	name = "Эрих Редер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Erich_Raeder_kr.png"
 	traits = { ironside }
 	skill = 5
@@ -1344,7 +1344,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Lothar von Arnauld de la Perière"
+	name = "Лотар фон Арно де ла Перьер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Lothar_Arnauld_Periere_kr.png"
 	traits = { seawolf }
 	skill = 4
@@ -1355,7 +1355,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Alfred Saalwächter"
+	name = "Альфред Заальвахтер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Alfred_Saalwachter_kr.png"
 	traits = { }
 	skill = 3
@@ -1366,7 +1366,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Hermann Boehm"
+	name = "Герман Бём"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Hermann_Boehm_kr.png"
 	traits = { superior_tactician }
 	skill = 4
@@ -1377,7 +1377,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Wilhelm Marschall"
+	name = "Вильгельм Маршалл"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Marschall_kr.png"
 	traits = { blockade_runner }
 	skill = 3
@@ -1388,7 +1388,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Karl Bartenbach"
+	name = "Карл Бартенбах"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Karl_Bartenbach.png"
 	traits = { seawolf chief_engineer }
 	skill = 3
@@ -1399,7 +1399,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Konrad Zander"
+	name = "Конрад Зандер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Konrad_Zander.png"
 	traits = { air_controller }
 	skill = 2
@@ -1410,7 +1410,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Peter Strasser"
+	name = "Петер Штрассер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Peter_Strasser.png"
 	traits = { air_controller chief_engineer }
 	skill = 4
@@ -1421,7 +1421,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ludwig von Reuter"
+	name = "Людвиг фон Ройтер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Ludwig_Reuter_kr.png"
 	traits = { ironside superior_tactician old_guard_navy }
 	skill = 5
@@ -1433,7 +1433,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Wilhelm Souchon"
+	name = "Вильгельм Сушон"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Souchon_kr.png"
 	traits = { spotter old_guard_navy }
 	skill = 3
@@ -1444,7 +1444,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Max Valentiner"
+	name = "Макс Валентинер"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Max_Valentiner_kr.png"
 	traits = { seawolf }
 	skill = 4
@@ -1455,7 +1455,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Rolf Carls"
+	name = "Рольф Карльс"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Rolf_Carls_kr.png"
 	traits = { blockade_runner old_guard_navy }
 	skill = 4
@@ -1466,7 +1466,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Günther Lütjens"
+	name = "Гюнтер Лютьенс"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gunther_Lutjens_kr.png"
 	traits = { }
 	skill = 3
@@ -1477,7 +1477,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Bernhard Rogge"
+	name = "Бернхард Рогге"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Bernhard_Rogge_kr.png"
 	traits = { seawolf }
 	skill = 1
@@ -1488,7 +1488,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Heinrich Erdmann"
+	name = "Генрих Эрдманн"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Heinrich_Erdmann.png"
 	traits = { blockade_runner }
 	skill = 1
@@ -1499,7 +1499,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Max Bastian"
+	name = "Макс Бастиан"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Max_Bastian.png"
 	traits = { superior_tactician ironside }
 	skill = 3
@@ -1510,7 +1510,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Willy von Nordeck"
+	name = "Вилли фон Нордек"
 	portrait_path = "gfx/leaders/GER/Portrait_Germany_Willy_von_Nordeck.png"
 	traits = { spotter }
 	skill = 3
@@ -1524,7 +1524,7 @@ if = {
 	limit = { has_dlc = "La Resistance" }
 	create_intelligence_agency = yes
 	create_operative_leader = {
-		name = "Hermann Giskes"
+		name = "Герман Гискес"
 		GFX = GFX_portrait_hermann_giskes
 		traits = {
 			operative_master_interrogator
@@ -1534,7 +1534,7 @@ if = {
 		nationalities = { GER }
 	}
 	create_operative_leader = {
-		name = "Hugo Bleicher"
+		name = "Хуго Блейхер"
 		GFX = GFX_portrait_hugo_bleicher
 		traits = {
 			operative_demolition_expert
@@ -1544,7 +1544,7 @@ if = {
 		nationalities = { GER }
 	}
 	create_operative_leader = {
-		name = "Josef Jakobs"
+		name = "Йозеф Якобс"
 		GFX = GFX_portrait_josef_jakobs
 		traits = {
 			operative_commando

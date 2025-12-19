@@ -19,43 +19,43 @@ SWE_create_republic = {
 	set_global_flag = SWE_became_republic
 	set_cosmetic_tag = SWEREP
 	create_country_leader = {
-		name = "Per Albin Hansson"
+		name = "Пер Альбин Ханссон"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Per_Albin_Hansson_orig.png"
 		expire = "1.1.1"
 		ideology = nordic_model_subtype
 	}
 	create_country_leader = {
-		name = "Axel Pehrsson-Bramstorp"
+		name = "Аксель Перссон-Брамсторп"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Axel_Pehrsson_Bramstorp.png"
 		expire = "1.1.1"
 		ideology = centrist_subtype
 	}
 	create_country_leader = {
-		name = "Bertil Ohlin"
+		name = "Бертиль Олин"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Bertil_Ohlin.png"
 		expire = "1.1.1"
 		ideology = market_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Gösta Bagge"
+		name = "Йёста Багге"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Goesta_Bagge.png"
 		expire = "1.1.1"
 		ideology = social_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Oscar Nygren"
+		name = "Оскар Нюгрен"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Oscar_Nygren.png"
 		expire = "1.1.1"
 		ideology = authdem_junta_subtype
 	}
 	create_country_leader = {
-		name = "Oscar Nygren"
+		name = "Оскар Нюгрен"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Oscar_Nygren.png"
 		expire = "1.1.1"
 		ideology = junta_subtype
 	}
 	create_country_leader = {
-		name = "Birger Furugård"
+		name = "Биргер Фуругорд"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Birger_Furugard.png"
 		expire = "1.1.1"
 		ideology = legionarism_subtype
@@ -67,49 +67,49 @@ SWE_create_gustaf = {
 			date < 1950.10.29
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = paternal_autocrat_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = national_populist_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
 			ideology = market_liberal_subtype
 		}
 		create_country_leader = {
-			name = "Gustaf V"
+			name = "Густав V"
 			desc = "POLITICS_Gustaf_V_DESC"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_V.png"
 			expire = "1.1.1"
@@ -126,21 +126,21 @@ SWE_create_gustaf = {
 }
 SWE_create_gustaf_adolf_jr = {
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = social_conservative_subtype
 	}
 
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = junta_subtype
 	}
 
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = militarism_subtype
@@ -149,7 +149,7 @@ SWE_create_gustaf_adolf_jr = {
 	if = {
 		limit = { has_completed_focus = SWE_new_constitution }
 		create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = gustavianism_subtype
@@ -157,7 +157,7 @@ SWE_create_gustaf_adolf_jr = {
 	}
 	else = {
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = autdem_christian_democracy_subtype
@@ -165,21 +165,21 @@ SWE_create_gustaf_adolf_jr = {
 	}
 
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = market_liberal_subtype
 	}
 
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = centrist_subtype
 	}
 
 	create_country_leader = {
-		name = "Gustaf VI Adolf"
+		name = "Густав VI Адольф"
 		picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf.png"
 		expire = "1.1.1"
 		ideology = nordic_model_subtype
@@ -193,7 +193,7 @@ SWE_set_socdem_leader_erlander = {
 			has_country_flag = SWE_Republic_Declared
 		}
 		create_country_leader = {
-			name = "Tage Erlander"
+			name = "Таге Эрландер"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Tage_Fritjof_Erlander.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
@@ -208,7 +208,7 @@ SWE_set_conservative_leader_domoe = {
 			has_country_flag = SWE_Republic_Declared
 		}
 		create_country_leader = {
-			name = "Fritiof Domö"
+			name = "Фритьоф Домё"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Fritiof_Domoe.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype

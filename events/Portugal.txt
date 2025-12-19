@@ -105,7 +105,7 @@ country_event = {
 	trigger = {
 		tag = POR
 		has_country_leader = {
-			name = "Duarte II"
+			name = "Дуарте II"
 			ruling_only = yes
 		}
 		is_neighbor_of = CNT
@@ -127,30 +127,30 @@ country_event = {
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event por.304"
-		create_country_leader = {
-			name = "Maria III"
-			desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
-			picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
-			expire = "1.1.1"
-			ideology = integralism_subtype
-			female = yes
-		}
-		create_country_leader = {
-			name = "Maria III"
-			desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
-			picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
-			expire = "1.1.1"
-			ideology = absolute_monarchy_subtype
-			female = yes
-		}
-		create_country_leader = {
-			name = "Maria III"
-			desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
-			picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
-			expire = "1.1.1"
-			ideology = autdem_christian_democracy_subtype
-			female = yes
-		}
+			create_country_leader = {
+				name = "Мария III"
+				desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
+				picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
+				expire = "1.1.1"
+				ideology = integralism_subtype
+				female = yes
+			}
+			create_country_leader = {
+				name = "Мария III"
+				desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
+				picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
+				expire = "1.1.1"
+				ideology = absolute_monarchy_subtype
+				female = yes
+			}
+			create_country_leader = {
+				name = "Мария III"
+				desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
+				picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
+				expire = "1.1.1"
+				ideology = autdem_christian_democracy_subtype
+				female = yes
+			}
 		hidden_effect = {
 			country_event = { id = por.303 days = 30 }
 		}
@@ -458,20 +458,20 @@ country_event = {
 		}
     }
     
-	option = { #Let's liberate the town from the Spanish Yoke!
-		name = por.310.a
-		ai_chance = { factor = 99 } 
-		add_political_power = 30
-		add_state_core = 1316
+    option = { #Let's liberate the town from the Spanish Yoke!
+    name = por.310.a
+    ai_chance = { factor = 99 } 
+	add_political_power = 30
+    add_state_core = 1316
 		var:1316.owner = { country_event = { id = por.311 days = 1 } }
-	}
+    }
     
-	option = { #We can't antagonize the old Kingdom...
-		name = por.310.b
-		ai_chance = { factor = 1 } 
-		
-		add_political_power = -30
-	}
+    option = { #We can't antagonize the old Kingdom...
+    name = por.310.b
+    ai_chance = { factor = 1 } 
+    
+    add_political_power = -30
+    }
 
 }
 
@@ -485,21 +485,21 @@ country_event = {
 
     is_triggered_only = yes
 
-    immediate = {
+    immediate = { 
 		hidden_effect = {
-			POR = { 
-				transfer_state = 1316 
+	POR = { 
+	transfer_state = 1316 
 			}
 		}
 	}
 	
 	option = { #They are nothing more than Jackals!
-		name = por.311.a 
-		add_political_power = -10
+	name = por.311.a 
+	add_political_power = -10
 		ROOT = {
 			add_opinion_modifier = {
-				target = POR
-				modifier = POR_Jackals 
+			target = POR
+			modifier = POR_Jackals 
 			}
 		}
 	}

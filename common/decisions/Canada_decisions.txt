@@ -2360,7 +2360,7 @@ CAN_returning_home_decisions = {
 				}
 				NOT = {
 					AND = {
-						has_tech = mtg_transport
+							has_tech = mtg_transport
 						has_completed_focus = CAN_economic_recovery
 						has_completed_focus = CAN_deal_with_admiralty
 						has_completed_focus = CAN_new_munitions_plants
@@ -3563,7 +3563,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -3621,7 +3621,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -3679,7 +3679,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -3738,7 +3738,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -3796,7 +3796,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -3854,7 +3854,7 @@ CAN_exile_govt_decisions = {
 		visible = {
 			NOT = { tag = GBR }
 			has_country_flag = KR_british_king_base
-			
+
 			is_subject = no
 			OR = {
 				is_faction_leader = yes
@@ -9890,7 +9890,7 @@ CAN_new_provinces = {
 					owns_state = 386
 				}
 				add_state_core = 386
-				386 = { set_state_name = "Southern Columbia" }
+				386 = { set_state_name = "Южная Колумбия" }
 			}
 			add_to_variable = { CAN_provinces = 1 }
 			add_to_variable = { CAN_current_provinces = 1 }

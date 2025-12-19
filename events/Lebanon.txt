@@ -21,7 +21,7 @@ country_event = { #Victory against Syria
 			days = 10
 		}
 		delete_unit_template_and_units = {
-			division_template = "Militia Division"
+			division_template = "Дивизия ополчения"
 			disband = yes
 		}
 	}
@@ -50,7 +50,7 @@ country_event = { #End of the United Front
 	}
 }
 
-country_event = { #The Provisional Parliament demands Fuad Chehab Step Down
+country_event = { #The Provisional Parliament demands Фуад Шехаб Step Down
 	id = leb.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event leb.3" }
 	title = leb.3.t
@@ -85,7 +85,7 @@ country_event = { #The Provisional Parliament demands Fuad Chehab Step Down
 		add_marlib_to_coalition = yes
 		add_soccon_to_coalition = yes
 		create_country_leader = {
-			name = "Provisional Parliament of Lebanon"
+			name = "Временный парламент Ливана"
 			picture = "gfx/leaders/LEB/Portrait_Lebanese_Parliament.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
@@ -129,7 +129,7 @@ country_event = { #The Provisional Parliament demands Fuad Chehab Step Down
 		complete_national_focus = LEB_democracy_at_any_cost
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Fuad Chehab" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Фуад Шехаб" ruling_only = yes } }
 				set_country_leader_description = {
 					desc = "POLITICS_FUAD_CHEHAB_DESC_2"
 				}
@@ -152,7 +152,7 @@ country_event = { #Dealing with the Dynasties
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Fuad Chehab"
+					name = "Фуад Шехаб"
 					ruling_only = yes
 				}
 			}
@@ -172,7 +172,7 @@ country_event = { #Dealing with the Dynasties
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Fuad Chehab"
+					name = "Фуад Шехаб"
 					ruling_only = yes
 				}
 			}
@@ -360,7 +360,7 @@ country_event = { #The New Constitution
 					OR = {
 						check_variable = { party_popularity@national_populist > 0.35 }
 						has_country_leader = {
-							name = "Fuad Chehab"
+							name = "Фуад Шехаб"
 							ruling_only = yes
 						}
 						has_game_rule = {
@@ -400,7 +400,7 @@ country_event = { #The Marada Coup
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Fuad Chehab"
+					name = "Фуад Шехаб"
 					ruling_only = yes
 				}
 			}
@@ -414,7 +414,7 @@ country_event = { #The Marada Coup
 		name = leb.10.b
 		trigger = {
 			has_country_leader = {
-				name = "Fuad Chehab"
+				name = "Фуад Шехаб"
 				ruling_only = yes
 			}
 		}
@@ -463,7 +463,7 @@ country_event = { #God, Fatherland, Family
 				remove_unit_leader = yes
 			}
 			create_field_marshal = {
-				name = "Pierre Gemayel "
+				name = "Пьер Жмайель "
 				portrait_path = "gfx/leaders/LEB/Portrait_Pierre_Gemayel.png"
 				traits = { }
 				id = 100204
@@ -475,7 +475,7 @@ country_event = { #God, Fatherland, Family
 			}
 
 			create_corps_commander = {
-				name = "Charles Helou"
+				name = "Шарль Элу"
 				portrait_path = "gfx/leaders/LEB/Portrait_Charles_Helou.png"
 				traits = {
 					commando
@@ -796,7 +796,7 @@ country_event = { #The Year Elections
 		unlock_decision_tooltip = LEB_root_out_corruption
 		complete_national_focus = LEB_al_mithaq_al_watani
 		create_country_leader = {
-			name = "Albert Speer"
+			name = "Альберт Шпеер"
 			picture = "gfx/leaders/LEB/Portrait_Lebanon_Albert_Speer.png"
 			desc = "POLITICS_ALBERT_SPEER_DESC"
 			expire = "1.1.1"
@@ -1007,7 +1007,7 @@ country_event = { # New Elections (Chehab)
 	option = {
 		name = leb.23.a
 		create_country_leader = {
-			name = "Charles Helou"
+			name = "Шарль Элу"
 			picture = "gfx/leaders/LEB/Portrait_Charles_Helou.png"
 			desc = "POLITICS_CHARLES_HELOU_DESC"
 			expire = "1.1.1"

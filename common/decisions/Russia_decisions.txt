@@ -1293,13 +1293,13 @@ RUS_Alliance_decisions = {
 				limit = {
 					FROM = { owns_state = 109 } #Central Croatia
 					NOT = { FROM = { has_war_with = AUS } }
-				}
-				OR = {
+			}
+			OR = {
 					UKR = { has_capitulated = yes }
 					NOT = { country_exists = UKR }
 					UKR = { is_ally_of_ROOT = yes }
-				}
 			}
+		}
 		}
 
 		visible = {
@@ -1354,13 +1354,13 @@ RUS_Alliance_decisions = {
 				limit = {
 					FROM = { owns_state = 84 } #Brasov
 					NOT = { FROM = { has_war_with = AUS } }
-				}
-				OR = {
+			}
+			OR = {
 					UKR = { has_capitulated = yes }
 					NOT = { country_exists = UKR }
 					UKR = { is_in_faction_with = RUS }
-				}
 			}
+		}
 		}
 
 		visible = {
@@ -1466,13 +1466,13 @@ RUS_Alliance_decisions = {
 				limit = {
 					FROM = { owns_state = 84 } #Brasov
 					NOT = { FROM = { has_war_with = AUS } }
-				}
-				OR = {
+			}
+			OR = {
 					UKR = { has_capitulated = yes }
 					NOT = { country_exists = UKR }
 					UKR = { is_in_faction_with = RUS }
-				}
 			}
+		}
 		}
 
 		visible = {
@@ -1482,7 +1482,7 @@ RUS_Alliance_decisions = {
 				NOT = { has_war_with = ROOT }
 				both_socialist_or_both_not_socialist = yes
 			}
-			has_socialist_government = no
+				has_socialist_government = no
 		}
 
 		cost = 25
@@ -2192,7 +2192,7 @@ RUS_Alliance_decisions = {
 		}
 
 		visible = {
-			is_faction_leader = yes
+					is_faction_leader = yes
 			FROM = {
 				is_valid_peace_target = yes
 				NOT = { has_war_with = ROOT }
@@ -2274,7 +2274,7 @@ RUS_Alliance_decisions = {
 				AND = {
 					64 = { is_owned_by_ROOT_or_ally = yes }
 					NOT = { country_exists = GER }
-				}
+		}
 			}
 		}
 		target_trigger = {
@@ -2283,27 +2283,27 @@ RUS_Alliance_decisions = {
 				is_in_faction = no
 				at_peace_or_same_enemies_as_ROOT = yes
 				is_subject = no
-				if = {
-					limit = {
-						FROM = { tag = ALB }
-					}
-					ROOT = {
-						is_in_faction_with = BUL
-						NOT = {	is_in_faction_with = SER }
-					}
+			if = {
+				limit = {
+					FROM = { tag = ALB }
 				}
-				if = {
-					limit = {
-						FROM = { 
-							OR = {
-								tag = CRO
-								tag = SVK
+				ROOT = {
+						is_in_faction_with = BUL
+					NOT = {	is_in_faction_with = SER }
+				}
+			}
+			if = {
+				limit = {
+					FROM = { 
+						OR = {
+							tag = CRO
+							tag = SVK
 								tag = SLO
 								tag = BOS
-							}
 						}
 					}
-					ROOT = {
+				}
+				ROOT = {
 						NOT = {	
 							is_in_faction_with = SER 
 							is_in_faction_with = HUN 
@@ -2334,9 +2334,9 @@ RUS_Alliance_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_Invite_Balkans target: [From.GetName]"
 			FROM = {
 				country_event = rusfor.52
+				}
 			}
 		}
-	}
 	RUS_invite_rest_of_europe_after_german_defeat = {
 		name = RUS_Invite_Country
 		icon = generic_agreement
@@ -2353,12 +2353,12 @@ RUS_Alliance_decisions = {
 
 		target_array = global.european_tags_array
 		target_root_trigger = {
-			is_faction_leader = yes
+					is_faction_leader = yes
 			has_completed_focus = RUS_Realpolitik
 			OR = {
 				NOT = { country_exists = GER }
 				GER = { has_idea = GER_danzig_treaty }
-			}
+				}
 			NOT = { has_country_flag = soviet_russia_restored }
 		}
 		target_trigger = {
@@ -2934,7 +2934,7 @@ RUS_Alliance_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_Invite_China target: [From.GetName]"
 			FROM = {
 				country_event = rusfor.52
-			}
+		}
 		}
 	}
 	RUS_Invite_India = {
@@ -3634,7 +3634,7 @@ RUS_Foreign_Policy_decisions = {
 					relation = non_aggression_pact
 					active = yes
 				}
-			}
+			}			
 			for_each_scope_loop = {
 				array = FROM.faction_members
 				if = {
@@ -3885,7 +3885,7 @@ RUS_Foreign_Policy_decisions = {
 				limit = {
 					FROM = { 
 						OR = {
-							tag = ABK 
+							tag = ABK
 							tag = DAG 
 						}
 					}
@@ -3898,7 +3898,7 @@ RUS_Foreign_Policy_decisions = {
 		}
 		cancel_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision cancel RUS_Attack_Caucasus target: [From.GetName]"
-			clear_decision_attack_AI = yes			
+			clear_decision_attack_AI = yes
 		}
 	}
 	
@@ -4173,13 +4173,13 @@ RUS_Foreign_Policy_decisions = {
 
 		visible = {
 			OR = {
-				can_declare_war_on = FROM
+			can_declare_war_on = FROM
 				hidden_trigger = {
 					FROM = {
 						tag = WHR
 						has_country_leader = {
 							ruling_only = yes
-							name = "Stanisłaŭ Bułak-Bałachowič"
+							name = "Станислав Булак-Балахович"
 						}
 					}
 				}
@@ -4191,7 +4191,7 @@ RUS_Foreign_Policy_decisions = {
 			if = {
 				limit = { FROM = { tag = UKR } }
 				NOT = { has_global_flag = UKR_secret_collusion_with_russia }		
-			}		
+			}			
 			if = {
 				limit = { FROM = { tag = KAR } }
 				KAR = {
@@ -4230,18 +4230,18 @@ RUS_Foreign_Policy_decisions = {
 		}
 		target_trigger = {
 			OR = {
-				can_declare_war_on = FROM
+			can_declare_war_on = FROM
 				FROM = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Stanisłaŭ Bułak-Bałachowič"
+						name = "Станислав Булак-Балахович"
 					}
 				}
 			}
 			FROM = {
 				NOT = { has_idea = SOV_baltic_neutrality }
+				}
 			}
-		}
 		cancel_if_not_visible = yes
 
 		cost = 10
@@ -4315,8 +4315,8 @@ RUS_Foreign_Policy_decisions = {
 				FROM = {
 					incoming_war_notification_effect = yes
 				}
-				setup_decision_attack_AI = yes
-			}
+			setup_decision_attack_AI = yes
+		}
 			if = {
 				limit = {
 					FROM = { tag = WHR }
@@ -4329,10 +4329,10 @@ RUS_Foreign_Policy_decisions = {
 							is_in_faction_with = GER 
 							has_war_with = WHR
 						}
-						WHR = {
+							WHR = {
 							has_country_leader = {
 								ruling_only = yes
-								name = "Stanisłaŭ Bułak-Bałachowič"
+								name = "Станислав Булак-Балахович"
 							}
 						}
 					}
@@ -4367,9 +4367,9 @@ RUS_Foreign_Policy_decisions = {
 						NOT = { tag = WHR }
 					}
 				}
-				declare_war_on = {
-					target = FROM
-					type = annex_everything
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
 				}
 			}
 		}
@@ -5253,7 +5253,7 @@ RUS_Foreign_Policy_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision complete RUS_Claim_The_Straits"
 			every_state = {
 				limit = {
-					state = 773 #Constantinople
+						state = 773 #Constantinople
 					is_claim_or_core_of_ROOT = no
 				}
 				add_claim_by = ROOT
@@ -6130,16 +6130,16 @@ RUS_Foreign_Policy_decisions = {
 				}
 			}
 			else = {
-				random_unit_leader = {
-					limit = { 
-						OR = {
-							has_id = 417 
-							has_id = 606 
-							has_id = 50004 
-						}
+			random_unit_leader = {
+				limit = { 
+					OR = {
+						has_id = 417 
+						has_id = 606 
+						has_id = 50004 
 					}
+				}
 					add_unit_leader_trait = RUS_chinese_officer
-					set_nationality = FROM
+				set_nationality = FROM
 				}
 			}
 			FROM = { 
@@ -6165,7 +6165,7 @@ RUS_Foreign_Policy_decisions = {
 			modifier = {
 				add = 100
 				FROM = {
-					OR = {
+				OR = {
 						exists = no
 						has_capitulated = yes
 						surrender_progress > 0.2
@@ -6379,7 +6379,7 @@ RUS_Foreign_Policy_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_Attack_Yakutia target: [From.GetName]"
 			clear_decision_attack_AI = yes			
 		}
-	}
+	}	
 	
 	RUS_Attack_Japan = {
 		icon = hol_draw_up_staff_plans
@@ -6677,7 +6677,7 @@ RUS_Foreign_Policy_decisions = {
 				type = annex_everything
 			}
 		}
-	}			
+	}		
 }	
 RUS_Integration_decisions = {
 	RUS_Use_MPO = {
@@ -6751,7 +6751,7 @@ RUS_Integration_decisions = {
 				NOT = { has_autonomy_state = kr_autonomous_soviet_republic }
 				NOT = { has_autonomy_state = kr_labour_commune }
 				NOT = { has_autonomy_state = kr_soviet_republic_not_equal }
-				NOT = { has_autonomy_state = kr_soviet_republic_equal }
+				NOT = { has_autonomy_state = kr_soviet_republic_equal }			
 			}
 		}
 
@@ -8468,7 +8468,7 @@ RUS_Kerensky_Committee = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -8508,7 +8508,7 @@ RUS_Kerensky_Committee = {
 					NOT = {
 						has_country_leader = {
 							ruling_only = yes
-							name = "Alexandr Kerensky"
+							name = "Александр Керенский"
 						}
 					}
 				}
@@ -8542,7 +8542,7 @@ RUS_Kerensky_Committee = {
 			NOT = { 
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -8578,7 +8578,7 @@ RUS_Kerensky_Committee = {
 				NOT = { 
 					has_country_leader = {
 						ruling_only = yes
-						name = "Alexandr Kerensky"
+						name = "Александр Керенский"
 					}
 				}
 				has_completed_focus = RUS_Witch_hunt
@@ -8678,7 +8678,7 @@ RUS_Separate_Peace = {
 				add = 2000
 				OR = {
 					AND = {
-						SOV_hardliners_in_power = yes
+				SOV_hardliners_in_power = yes
 						INT = { has_communist_government = no }
 					}
 					has_game_rule = { rule = RUS_treaty_danzig option = RUS_TREATY_DANZIG_GUARANTEED }
@@ -8741,7 +8741,7 @@ RUS_Separate_Peace = {
 			OR = {
 				has_global_flag = danzig_treaty_active
 				NOT = { country_exists = GER }
-			}
+		}
 		}
 		target_trigger = {
 			FROM = {
@@ -9405,7 +9405,7 @@ RUS_Siberian_War = {
 							RUS_russian_monarch = yes
 							has_country_leader = {
 								ruling_only = yes
-								name = "Mikhail Diterikhs"
+								name = "Михаил Дитерихс"
 							}
 						}
 					}
@@ -9461,7 +9461,7 @@ RUS_Siberian_War = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Propose_Peaceful_Reunification target: [From.GetName]"
 			set_country_flag = { flag = RUS_negotiating_siberia days = 30 value = 1 }
 			FROM = {
-				set_country_flag = { flag = RUS_negotiating_siberia days = 30 value = 1 }
+			set_country_flag = { flag = RUS_negotiating_siberia days = 30 value = 1 }
 			}
 		}
 		remove_effect = {
@@ -9522,7 +9522,7 @@ RUS_Siberian_War = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_stability < 0.3
+				has_stability < 0.3
 					russian_civil_war = yes
 				}
 			}
@@ -9571,7 +9571,7 @@ RUS_Siberian_War = {
 			stability_weekly = 0.003
 		}
 		ai_will_do = {
-			factor = 0
+				factor = 0
 		}
 		cancel_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision cancel RUS_Speech_About_Peaceful_Unification target: [From.GetName]"
@@ -9612,7 +9612,7 @@ RUS_Siberian_War = {
 		}
 		state_target = yes
 		ai_will_do = {
-			factor = 10
+			factor = 10			
 			modifier = {
 				factor = 0
 				OR = {
@@ -9787,7 +9787,7 @@ RUS_Siberian_War = {
 		fixed_random_seed = no
 		
 		ai_will_do = {
-			factor = 100	
+			factor = 100			
 			modifier = {
 				factor = 0
 				OR = {
@@ -9847,7 +9847,7 @@ RUS_Siberian_War = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_partisan_support target: [From.GetName]"
 			division_template = {
-				name = "Partizanskiy Otryad"
+				name = "Партизанский отряд"
 				division_names_group = TRM_MIL_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -9860,7 +9860,7 @@ RUS_Siberian_War = {
 				prioritize = { 563 564 566 409 }
 				limit = { is_owned_and_controlled_by = TRM }
 				create_unit = {
-					division = "division_template = \"Partizanskiy Otryad\" start_experience_factor = 0.1 start_equipment_factor = 1"
+					division = "division_template = \"Партизанский отряд\" start_experience_factor = 0.1 start_equipment_factor = 1"
 					allow_spawning_on_enemy_provs = yes
 					owner = ROOT
 					count = 2
@@ -9889,7 +9889,7 @@ RUS_Siberian_War = {
 		cancel_if_not_visible = yes
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 			modifier = {
 				factor = 0
 				has_army_experience < 70
@@ -9924,7 +9924,7 @@ RUS_Siberian_War = {
 		}
 		state_target = yes
 		ai_will_do = {
-			factor = 10
+			factor = 10			
 			modifier = {
 				factor = 0
 				has_political_power < 100
@@ -10080,7 +10080,7 @@ RUS_Siberian_War = {
 		cancel_if_not_visible = yes
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 			modifier = {
 				factor = 0
 				has_political_power < 100
@@ -10166,7 +10166,7 @@ RUS_Siberian_War = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 			modifier = {
 				factor = 0
 				has_political_power < 75
@@ -10200,7 +10200,7 @@ RUS_Siberian_War = {
 		}
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 			modifier = {
 				factor = 0
 				has_stability < 0.25
@@ -10399,7 +10399,7 @@ RUS_Siberian_War = {
 							RUS_russian_monarch = yes
 							has_country_leader = {
 								ruling_only = yes
-								name = "Mikhail Diterikhs"
+								name = "Михаил Дитерихс"
 							}
 						}
 					}
@@ -10512,7 +10512,7 @@ RUS_Siberian_War = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_stability < 0.3
+				has_stability < 0.3
 					russian_civil_war = yes
 				}
 			}
@@ -10556,7 +10556,7 @@ RUS_Siberian_War = {
 		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_lessons_of_kolchak_putsch"
 			army_experience = 25
-			add_command_power = 25
+			add_command_power = 25			
 			add_stability = 0.08
 			set_temp_variable = { change_morale = 0.025 }
 			RUS_change_siberian_war_morale = yes
@@ -10851,7 +10851,7 @@ RUS_integration_of_turkestan_cat = {
 				}
 			}
 			division_template = {
-				name = "TVO Detachment"
+				name = "Отряд ТВО"
 				division_names_group = COS_MIL_01
 				
 				regiments = {
@@ -10868,7 +10868,7 @@ RUS_integration_of_turkestan_cat = {
 			}
 			407 = {
 				create_unit = {
-					division = "division_template = \"TVO Detachment\" start_experience_factor = 0.8 start_equipment_factor = 1"
+					division = "division_template = \"Отряд ТВО\" start_experience_factor = 0.8 start_equipment_factor = 1"
 					allow_spawning_on_enemy_provs = yes
 					owner = ROOT
 					prioritize_location = 10187
@@ -10886,7 +10886,7 @@ RUS_integration_of_turkestan_cat = {
 				}
 				712 = {
 					create_unit = {
-						division = "division_template = \"TVO Detachment\" start_experience_factor = 0.2 start_equipment_factor = 1"
+						division = "division_template = \"Отряд ТВО\" start_experience_factor = 0.2 start_equipment_factor = 1"
 						allow_spawning_on_enemy_provs = yes
 						owner = ROOT
 						prioritize_location = 10601

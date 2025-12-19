@@ -269,82 +269,82 @@ defined_text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_DMI
 		}
-		localization_key = "Dmitry III"
+		localization_key = "Дмитрий III"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_ANA
 		}
-		localization_key = "Anastasiya I"
+		localization_key = "Анастасия I"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_KIR
 		}
-		localization_key = "Kirill I"
+		localization_key = "Кирилл I"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_AND
 		}
-		localization_key = "Andrei I"
+		localization_key = "Андрей I"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_VLA
 		}
-		localization_key = "Vladimir III"
+		localization_key = "Владимир III"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_MIKH
 		}
-		localization_key = "Mikhail II"
+		localization_key = "Михаил II"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_ALEKS
 		}
-		localization_key = "Aleksandr IV"
+		localization_key = "Александр IV"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_PAVEL
 		}
-		localization_key = "Pavel II"
+		localization_key = "Павел II"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_BORIS
 		}
-		localization_key = "Boris II"
+		localization_key = "Борис II"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_ROMAN
 		}
-		localization_key = "Roman I"
+		localization_key = "Роман I"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_VSEV
 		}
-		localization_key = "Vsevolod I"
+		localization_key = "Всеволод I"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_TSAR_NIK
 		}
-		localization_key = "Nicholas II"
+		localization_key = "Николай II"
 	}
 	text = {
 		trigger = {
 			has_country_flag = RUS_VRA_TSAR
 		}
-		localization_key = "Pyotr IV"
+		localization_key = "Пётр IV"
 	}
 	text = {
-		localization_key = "No candidate chosen yet."
+		localization_key = "Кандидат пока не выбран."
 	}
 }
 defined_text = {
@@ -450,11 +450,11 @@ defined_text = {
 		trigger = {
 			OR = { 
 			has_country_leader = {
-				name = "Dmitry III"
+				name = "Дмитрий III"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Pavel II"
+				name = "Павел II"
 				ruling_only = yes
 			}
 		    }
@@ -465,13 +465,13 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Kirill I"
+					name = "Кирилл I"
 					ruling_only = yes
-				}
+		}
 				has_country_leader = {
-					name = "Vladimir III"
+					name = "Владимир III"
 					ruling_only = yes
-				}
+	}
 			}
 		}
 		localization_key = RUS_Imperial_Glory_desc_kirill
@@ -1123,10 +1123,10 @@ defined_text = {
 				has_government = totalist
 			}
 		}
-		localization_key = "Zavod Imeni Lenina"
+		localization_key = "Завод имени Ленина"
 	}
 	text = {
-		localization_key = "Avtomobilnoye Moskovskoye Obschestvo"
+		localization_key = "Автомобильное Московское Общество"
 	}
 }
 defined_text = {
@@ -1138,10 +1138,10 @@ defined_text = {
 				has_government = totalist
 			}
 		}
-		localization_key = "Gorkovsky Avtomobilny Zavod"
+		localization_key = "Горьковский автомобильный завод"
 	}
 	text = {
-		localization_key = "Nizhegorodsky Avtomobilny Zavod"
+		localization_key = "Нижегородский автомобильный завод"
 	}
 }
 defined_text = {
@@ -1150,10 +1150,10 @@ defined_text = {
 		trigger = {
 			has_country_flag = soviet_russia_restored			
 		}
-		localization_key = "Krasny Putilovets"
+		localization_key = "Красный Путиловец"
 	}
 	text = {
-		localization_key = "Putilov"
+		localization_key = "Путилов"
 	}
 }
 defined_text = {
@@ -1165,7 +1165,7 @@ defined_text = {
 				RUS = { has_socialist_government = no } 
 			} 
 		}
-		localization_key = "Respublikanskoye Opolcheniye"
+		localization_key = "Республиканское Ополчение"
 	}
 	text = {
 		trigger = { 
@@ -1182,7 +1182,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = "Krasnaya Gvardiya"
+		localization_key = "Красная Гвардия"
 	}
 	text = {
 		trigger = { 
@@ -1191,19 +1191,19 @@ defined_text = {
 				RRF = { has_socialist_government = no }
 			} 
 		}
-		localization_key = "Diviziya Zelenoarmeytsev"
+		localization_key = "Дивизия Зелёноармейцев"
 	}
 	text = {
 		trigger = { ROOT = { tag = TRM } }
-		localization_key = "Sibirskaya Dobrovolcheskaya Diviziya"
+		localization_key = "Сибирская Добровольческая Дивизия"
 	}
 	text = {
 		trigger = { ROOT = { tag = RVA } }
-		localization_key = "Dobrovolcheskaya Diviziya"
+		localization_key = "Добровольческая дивизия"
 	}
 	text = {
 		trigger = { ROOT = { tag = WRA } }
-		localization_key = "Zapadnaya Dobrovolcheskaya Diviziya"
+		localization_key = "Западная Добровольческая дивизия"
 	}
 }
 defined_text = {
@@ -1215,7 +1215,7 @@ defined_text = {
 				RUS = { has_socialist_government = no } 
 			} 
 		}
-		localization_key = "Respublikanskoye Opolcheniye"
+		localization_key = "Республиканское ополчение"
 	}
 	text = {
 		trigger = { 
@@ -1232,7 +1232,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = "Krasnogvardeitsy"
+		localization_key = "Красногвардейцы"
 	}
 	text = {
 		trigger = { 
@@ -1241,19 +1241,19 @@ defined_text = {
 				RRF = { has_socialist_government = no }
 			} 
 		}
-		localization_key = "Zelenoarmeitsy"
+		localization_key = "Зелёноармейцы"
 	}
 	text = {
 		trigger = { ROOT = { tag = TRM } }
-		localization_key = "Sibirskiye Dobrovoltsy"
+		localization_key = "Сибирские Добровольцы"
 	}
 	text = {
 		trigger = { ROOT = { tag = RVA } }
-		localization_key = "Dobrovoltsy"
+		localization_key = "Добровольцы"
 	}
 	text = {
 		trigger = { ROOT = { tag = WRA } }
-		localization_key = "Avalovtsy"
+		localization_key = "Аваловцы"
 	}
 }
 defined_text = {
@@ -1434,7 +1434,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Alexandr Kerensky"
+				name = "Александр Керенский"
 				ruling_only = yes
 			}
 		}
@@ -1443,7 +1443,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "The Senate"
+				name = "Сенат"
 				ruling_only = yes
 			}
 		}
@@ -1452,7 +1452,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "The State Council"
+				name = "Государственный совет"
 				ruling_only = yes
 			}
 		}
@@ -1461,7 +1461,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Anton Denikin"
+				name = "Антон Деникин"
 				ruling_only = yes
 			}
 		}
@@ -1470,7 +1470,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Solomon Lozovsky"
+				name = "Соломон Лозовский"
 				ruling_only = yes
 			}
 		}
@@ -1479,7 +1479,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry Odinets"
+				name = "Дмитрий Одинец"
 				ruling_only = yes
 			}
 		}
@@ -1488,7 +1488,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksey Arkhangelsky"
+				name = "Алексей Архангельский"
 				ruling_only = yes
 			}
 		}
@@ -1497,7 +1497,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Viktor Baydalakov"
+				name = "Виктор Байдалаков"
 				ruling_only = yes
 			}
 		}
@@ -1506,7 +1506,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Kirill Vergun"
+				name = "Кирилл Вергун"
 				ruling_only = yes
 			}
 		}
@@ -1515,7 +1515,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksandr Trushnovich"
+				name = "Александр Трушнович"
 				ruling_only = yes
 			}
 		}
@@ -1524,7 +1524,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail Georgievsky"
+				name = "Михаил Георгиевский"
 				ruling_only = yes
 			}
 		}
@@ -1533,7 +1533,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Lev Gershtein"
+				name = "Лев Герштейн"
 				ruling_only = yes
 			}
 		}
@@ -1542,7 +1542,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolay Teslenko"
+				name = "Николай Тесленко"
 				ruling_only = yes
 			}
 		}
@@ -1551,7 +1551,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksandr Shlyapnikov"
+				name = "Александр Шляпников"
 				ruling_only = yes
 			}
 		}
@@ -1560,7 +1560,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksey Rykov"
+				name = "Алексей Рыков"
 				ruling_only = yes
 			}
 		}
@@ -1569,7 +1569,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolay Bukharin"
+				name = "Николай Бухарин"
 				ruling_only = yes
 			}
 		}
@@ -1578,7 +1578,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Kuzma Gvozdev"
+				name = "Кузьма Гвоздев"
 				ruling_only = yes
 			}
 		}
@@ -1587,7 +1587,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Irakly Tsereteli"
+				name = "Ираклий Церетели"
 				ruling_only = yes
 			}
 		}
@@ -1596,7 +1596,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksandr Potresov"
+				name = "Александр Потресов"
 				ruling_only = yes
 			}
 		}
@@ -1605,7 +1605,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Viktor Chernov"
+				name = "Виктор Чернов"
 				ruling_only = yes
 			}
 		}
@@ -1614,7 +1614,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vasily Arkhangelsky"
+				name = "Василий Архангельский"
 				ruling_only = yes
 			}
 		}
@@ -1623,7 +1623,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail Gendelman"
+				name = "Михаил Гендельман"
 				ruling_only = yes
 			}
 		}
@@ -1632,7 +1632,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail Likhach"
+				name = "Михаил Лихач"
 				ruling_only = yes
 			}
 		}
@@ -1641,7 +1641,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolay Ivanov"
+				name = "Николай Иванов"
 				ruling_only = yes
 			}
 		}
@@ -1650,7 +1650,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolay Avksentiev"
+				name = "Николай Авксентьев"
 				ruling_only = yes
 			}
 		}
@@ -1659,7 +1659,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pavel Milyukov"
+				name = "Павел Милюков"
 				ruling_only = yes
 			}
 		}
@@ -1668,7 +1668,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail Tereschenko"
+				name = "Михаил Терещенко"
 				ruling_only = yes
 			}
 		}
@@ -1677,7 +1677,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vasily Maklakov"
+				name = "Василий Маклаков"
 				ruling_only = yes
 			}
 		}
@@ -1686,7 +1686,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolay Nekrasov"
+				name = "Николай Некрасов"
 				ruling_only = yes
 			}
 		}
@@ -1695,7 +1695,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vladimir Nabokov"
+				name = "Владимир Набоков"
 				ruling_only = yes
 			}
 		}
@@ -1704,7 +1704,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry Pletnyov"
+				name = "Дмитрий Плетнёв"
 				ruling_only = yes
 			}
 		}
@@ -1713,7 +1713,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Aleksandr Konovalov"
+				name = "Александр Коновалов"
 				ruling_only = yes
 			}
 		}
@@ -1722,7 +1722,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Felix Yusupov"
+				name = "Феликс Юсупов"
 				ruling_only = yes
 			}
 		}
@@ -1731,7 +1731,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Anatoly Savenko"
+				name = "Анатолий Савенко"
 				ruling_only = yes
 			}
 		}
@@ -1740,7 +1740,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry Romanov"
+				name = "Дмитрий Романов"
 				ruling_only = yes
 			}
 		}
@@ -1749,7 +1749,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vasily Shulgin"
+				name = "Василий Шульгин"
 				ruling_only = yes
 			}
 		}
@@ -1758,7 +1758,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pyotr Wrangel"
+				name = "Пётр Врангель"
 				ruling_only = yes
 			}
 		}
@@ -1767,7 +1767,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Ariadna Tyrkova-Williams"
+				name = "Ариадна Тыркова-Вильямс"
 				ruling_only = yes
 			}
 		}
@@ -1776,7 +1776,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nikolai Trubetzkoy"
+				name = "Николай Трубецкой"
 				ruling_only = yes
 			}
 		}
@@ -1785,7 +1785,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pyotr Savitsky"
+				name = "Пётр Савицкий"
 				ruling_only = yes
 			}
 		}
@@ -1794,7 +1794,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Georgy Vernadsky"
+				name = "Георгий Вернадский"
 				ruling_only = yes
 			}
 		}
@@ -1803,7 +1803,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Boris Kamkov"
+				name = "Борис Камков"
 				ruling_only = yes
 			}
 		}
@@ -1812,7 +1812,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Isaak Shteinberg"
+				name = "Исаак Штейнберг"
 				ruling_only = yes
 			}
 		}
@@ -1821,7 +1821,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Boris Savinkov"
+				name = "Борис Савинков"
 				ruling_only = yes
 			}
 		}
@@ -1830,7 +1830,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Kirill I"
+				name = "Кирилл I"
 				ruling_only = yes
 			}
 		}
@@ -1839,7 +1839,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				ruling_only = yes
 			}
 		}
@@ -1848,7 +1848,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry III"
+				name = "Дмитрий III"
 				ruling_only = yes
 			}
 		}
@@ -1857,7 +1857,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pavel II"
+				name = "Павел II"
 				ruling_only = yes
 			}
 		}
@@ -1866,7 +1866,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pyotr IV"
+				name = "Пётр IV"
 				ruling_only = yes
 			}
 		}
@@ -1875,7 +1875,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Anastasia I"
+				name = "Анастасия I"
 				ruling_only = yes
 			}
 		}
@@ -1884,7 +1884,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Andrei I"
+				name = "Андрей I"
 				ruling_only = yes
 			}
 		}
@@ -1893,7 +1893,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vsevolod I"
+				name = "Всеволод I"
 				ruling_only = yes
 			}
 		}
@@ -1902,7 +1902,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Roman I"
+				name = "Роман I"
 				ruling_only = yes
 			}
 		}
@@ -1911,7 +1911,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Boris II"
+				name = "Борис II"
 				ruling_only = yes
 			}
 		}
@@ -1920,7 +1920,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail II"
+				name = "Михаил II"
 				ruling_only = yes
 			}
 		}
@@ -1929,7 +1929,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nicholas II"
+				name = "Николай II"
 				ruling_only = yes
 			}
 		}
@@ -1938,7 +1938,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Alexei II"
+				name = "Алексей II"
 				ruling_only = yes
 			}
 		}
@@ -2013,7 +2013,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Kirill I"
+				name = "Кирилл I"
 				ruling_only = yes
 			}
 		}
@@ -2022,7 +2022,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				ruling_only = yes
 			}
 		}
@@ -2031,7 +2031,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry III"
+				name = "Дмитрий III"
 				ruling_only = yes
 			}
 		}
@@ -2040,7 +2040,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pavel II"
+				name = "Павел II"
 				ruling_only = yes
 			}
 		}
@@ -2049,7 +2049,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pyotr IV"
+				name = "Пётр IV"
 				ruling_only = yes
 			}
 		}
@@ -2058,7 +2058,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Anastasia I"
+				name = "Анастасия I"
 				ruling_only = yes
 			}
 		}
@@ -2067,7 +2067,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Andrei I"
+				name = "Андрей I"
 				ruling_only = yes
 			}
 		}
@@ -2076,7 +2076,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vsevolod I"
+				name = "Всеволод I"
 				ruling_only = yes
 			}
 		}
@@ -2085,7 +2085,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Roman I"
+				name = "Роман I"
 				ruling_only = yes
 			}
 		}
@@ -2094,7 +2094,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Boris II"
+				name = "Борис II"
 				ruling_only = yes
 			}
 		}
@@ -2103,7 +2103,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail II"
+				name = "Михаил II"
 				ruling_only = yes
 			}
 		}
@@ -2112,7 +2112,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nicholas II"
+				name = "Николай II"
 				ruling_only = yes
 			}
 		}
@@ -2121,7 +2121,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Alexei II"
+				name = "Алексей II"
 				ruling_only = yes
 			}
 		}
@@ -2134,7 +2134,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Kirill I"
+				name = "Кирилл I"
 				ruling_only = yes
 			}
 		}
@@ -2143,7 +2143,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				ruling_only = yes
 			}
 		}
@@ -2152,7 +2152,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Dmitry III"
+				name = "Дмитрий III"
 				ruling_only = yes
 			}
 		}
@@ -2161,7 +2161,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pavel II"
+				name = "Павел II"
 				ruling_only = yes
 			}
 		}
@@ -2170,7 +2170,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Pyotr IV"
+				name = "Пётр IV"
 				ruling_only = yes
 			}
 		}
@@ -2179,7 +2179,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Anastasia I"
+				name = "Анастасия I"
 				ruling_only = yes
 			}
 		}
@@ -2188,7 +2188,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Andrei I"
+				name = "Андрей I"
 				ruling_only = yes
 			}
 		}
@@ -2197,7 +2197,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Vsevolod I"
+				name = "Всеволод I"
 				ruling_only = yes
 			}
 		}
@@ -2206,7 +2206,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Roman I"
+				name = "Роман I"
 				ruling_only = yes
 			}
 		}
@@ -2215,7 +2215,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Boris II"
+				name = "Борис II"
 				ruling_only = yes
 			}
 		}
@@ -2224,7 +2224,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mikhail II"
+				name = "Михаил II"
 				ruling_only = yes
 			}
 		}
@@ -2233,7 +2233,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Nicholas II"
+				name = "Николай II"
 				ruling_only = yes
 			}
 		}
@@ -2242,7 +2242,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Alexei II"
+				name = "Алексей II"
 				ruling_only = yes
 			}
 		}
@@ -2281,10 +2281,10 @@ defined_text = {
 			has_country_flag = RUS_Okhrannoye_Otdeleniye_locked
 			NOT = { has_country_flag = unlock_economy }
 		}
-		localization_key = "No focus set"
+		localization_key = "Нет выбора фокуса"
 	}
 	text = {
-		localization_key = "No clear focus set"
+		localization_key = "Нет четкой настройки фокуса"
 	}
 }
 defined_text = {
@@ -2499,7 +2499,7 @@ defined_text = {
 		localization_key = kerensky_rival_duma
 	}
 	text = {
-		localization_key = "No clear rival"
+		localization_key = "Отсутствие явного конкурента"
 	}	
 }
 
@@ -2507,22 +2507,22 @@ defined_text = {
 	name = GetKazakhEtnonym
 	text = {
 		trigger = { has_country_flag = RUS_kazakh_is_kazakh }
-		localization_key = "Kazakh"
+		localization_key = "Казах"
 	}
 	text = {
-		localization_key = "Kirgiz"
-	}	
-}
+		localization_key = "Киргиз"
+			} 
+		}
 defined_text = {
 	name = GetUzbekEtnonym
 	text = {
 		trigger = { has_country_flag = RUS_uzbek_is_uzbek }
-		localization_key = "Uzbek"
+		localization_key = "Узбек"
 	}
 	text = {
-		localization_key = "Turkestani"
-	}	
-}
+		localization_key = "Тюрк"
+			} 
+		}
 defined_text = {
 	name = Get_RUS_Expansionism
 	text = {

@@ -265,7 +265,7 @@ ORE_managing_the_host = {
 			FROM = {
 				if = {
 					limit = {
-						ROOT = { has_country_leader = { name = "Timofey Sedelnikov" ruling_only = yes } }				
+						ROOT = { has_country_leader = { name = "Тимофей Седельников" ruling_only = yes } }				
 					}
 					OR = {
 						has_socialist_government = yes
@@ -717,7 +717,7 @@ ORE_the_cossack_circle = {
 		
 		targets = { RVA TRM }
 		target_root_trigger = {			
-			has_country_leader = { name = "Aleksandr Dutov" ruling_only = yes }
+			has_country_leader = { name = "Александр Дутов" ruling_only = yes }
 		}
 		target_trigger = {
 			OR = { 
@@ -884,12 +884,12 @@ UCH_union_of_cossack_hosts_cat = {
 				NOT = { has_completed_focus = KUB_Sign_The_Federative_Treaty }
 				OR = {
 					# Don
-					has_country_leader = { name = "Pyotr Krasnov" ruling_only = yes }
-					has_country_leader = { name = "Afrikan Bogaewsky" ruling_only = yes }
-					has_country_leader = { name = "Adrian Guselschikov" ruling_only = yes }
+					has_country_leader = { name = "Пётр Краснов" ruling_only = yes }
+					has_country_leader = { name = "Африкан Богаевский" ruling_only = yes }
+					has_country_leader = { name = "Адриан Гусельщиков" ruling_only = yes }
 					# Orenburg
-					has_country_leader = { name = "Aleksandr Dutov" ruling_only = yes }
-					has_country_leader = { name = "Timofey Sedelnikov" ruling_only = yes }
+					has_country_leader = { name = "Александр Дутов" ruling_only = yes }
+					has_country_leader = { name = "Тимофей Седельников" ruling_only = yes }
 					AND = {
 						TRK_tvo_in_power = yes 
 						TRK_osipov_in_power = no
@@ -898,10 +898,10 @@ UCH_union_of_cossack_hosts_cat = {
 					# Astrakhan
 					has_completed_focus = KLY_Ties_With_Cossacks
 					# Semirechye
-					has_country_leader = { name = "Aleksandr Ionov" ruling_only = yes }
+					has_country_leader = { name = "Александр Ионов" ruling_only = yes }
 					# Uralsk
-					has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
-					has_country_leader = { name = "Mikhail Borodin" ruling_only = yes }
+					has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
+					has_country_leader = { name = "Михаил Бородин" ruling_only = yes }
 					# Kalmykia
 					has_cosmetic_tag = KLY_cossack
 					# Buryatia

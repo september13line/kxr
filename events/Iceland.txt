@@ -4061,7 +4061,7 @@ country_event = { #Jon Baldvinsson Retires
 				}
 			}
 			create_country_leader = {
-				name = "Stefán Jóhann Stefánsson"
+				name = "Стефаун Йоуханн Стефаунссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Stefan_Johann_Stefansson.png"
 				desc = "POLITICS_STEFAN_JOHANN_STEFANSSON_DESC"
 				expire = "1.1.1"
@@ -4535,7 +4535,7 @@ country_event = { # Nationalist Rebellion
 		add_pataut_to_coalition = yes
 		add_natpop_to_coalition = yes
 		create_country_leader = {
-			name = "The Alþingi"
+			name = "Альтинг"
 			desc = "POLITICS_Allthing_DESC"
 			picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 			expire = "1.1.1"
@@ -4597,13 +4597,13 @@ country_event = { # Nationalist Allthing
 		add_political_power = 50
 		set_country_leader_ideology = tribal_chiefdom_subtype
 		custom_effect_tooltip = authdem_tribal_chiefdom_subtype_swap_tt
-		set_country_flag = ICE_moderate_nats
+				set_country_flag = ICE_moderate_nats
 	}
 
 	option = { #Bjorn's Nationalist Army Men Guys
 		name = ice.401.b
 		add_political_power = 25
-		set_country_flag = ICE_northman_nats
+				set_country_flag = ICE_northman_nats
 		end_coalition = yes
 		set_politics = {
 			ruling_party = paternal_autocrat
@@ -4615,7 +4615,7 @@ country_event = { # Nationalist Allthing
 			add_ideas = ICE_Thor_Thors_hog_pau
 		}
 		create_country_leader = {
-			name = "Bjorn Sveinsson Bjornsson"
+			name = "Бьёрн Свейнссон Бьёрнссон"
 			desc = "POLITICS_BJORN_BJORNSSON_DESC"
 			picture = "gfx/leaders/ICE/Portrait_Iceland_Bjorn_Sveinsson_Bjornsson.png"
 			expire = "1.1.1"
@@ -4628,7 +4628,7 @@ country_event = { # Nationalist Allthing
 	option = { #
 		name = ice.401.c
 		add_political_power = -15
-		set_country_flag = ICE_pagang_nats
+				set_country_flag = ICE_pagang_nats
 		end_coalition = yes
 		set_politics = {
 			ruling_party = national_populist
@@ -4640,7 +4640,7 @@ country_event = { # Nationalist Allthing
 			add_ideas = ICE_Bjoern_Bjoernsson_hog_npo
 		}
 		create_country_leader = {
-			name = "Eiður S. Kvaran"
+			name = "Эйдур Кваран"
 			desc = "POLITICS_EIDUR_KVARAN_DESC"
 			picture = "gfx/leaders/ICE/Portrait_ICE_Eidur_Kvaran.png"
 			expire = "1.1.1"
@@ -4714,7 +4714,7 @@ country_event = { # Lawspeaker
 		name = ice.405.b
 		set_country_flag = ICE_hansen_leads
 		create_country_leader = {
-			name = "Agnar Kofod-Hansen"
+			name = "Агнар Кофод-Хансен"
 			desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 			picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 			expire = "1.1.1"
@@ -4727,7 +4727,7 @@ country_event = { # Lawspeaker
 		name = ice.405.c
 		set_country_flag = ICE_sveinn_bjornsson_leads
 		create_country_leader = {
-			name = "Sveinn Björnsson"
+			name = "Свейдн Бьёрнссон"
 			picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 			expire = "1.1.1"
 			ideology = tribal_chiefdom_subtype
@@ -5040,7 +5040,7 @@ country_event = { # We love thule folks we love thule
 		if = {	
 				limit = { 
 					has_country_leader = { 
-						name = "Eiður S. Kvaran" 
+						name = "Эйдур Кваран" 
 						ruling_only = yes 
 					} 
 				}
@@ -5105,14 +5105,14 @@ country_event = { # We love thule folks we love thule
 		if = {	
 				limit = { 
 					has_country_leader = { 
-						name = "Eiður S. Kvaran" 
+						name = "Эйдур Кваран" 
 						ruling_only = yes 
 					} 
 				}
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/ICE/Portrait_ICE_Eidur_Kvaran_larp.png"
 				}
-			}
+		}
 	}
 }
 
@@ -5185,7 +5185,7 @@ country_event = { # ancap
 				}
 			}
 			create_country_leader = {
-				name = "The Alþingi"
+				name = "Альтинг"
 				desc = "POLITICS_Allthing_DESC"
 				picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 				expire = "1.1.1"
@@ -5198,7 +5198,7 @@ country_event = { # ancap
 				has_country_flag = ICE_hansen_leads
 			}
 			create_country_leader = {
-				name = "Agnar Kofod-Hansen"
+				name = "Агнар Кофод-Хансен"
 				desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 				expire = "1.1.1"
@@ -5211,7 +5211,7 @@ country_event = { # ancap
 				has_country_flag = ICE_sveinn_bjornsson_leads
 			}
 			create_country_leader = {
-				name = "Sveinn Björnsson"
+				name = "Свейдн Бьёрнссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 				expire = "1.1.1"
 				ideology = ancap_subtype
@@ -5233,7 +5233,7 @@ country_event = { # ancap
 				}
 			}
 			create_country_leader = {
-			name = "The Alþingi"
+			name = "Альтинг"
 			desc = "POLITICS_Allthing_DESC"
 			picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 			expire = "1.1.1"
@@ -5246,7 +5246,7 @@ country_event = { # ancap
 				has_country_flag = ICE_hansen_leads
 			}
 			create_country_leader = {
-				name = "Agnar Kofod-Hansen"
+				name = "Агнар Кофод-Хансен"
 				desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 				expire = "1.1.1"
@@ -5259,7 +5259,7 @@ country_event = { # ancap
 				has_country_flag = ICE_sveinn_bjornsson_leads
 			}
 			create_country_leader = {
-				name = "Sveinn Björnsson"
+				name = "Свейдн Бьёрнссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 				expire = "1.1.1"
 				ideology = neo_feudalism_subtype
@@ -5281,7 +5281,7 @@ country_event = { # ancap
 				}
 			}
 			create_country_leader = {
-			name = "The Alþingi"
+			name = "Альтинг"
 			desc = "POLITICS_Allthing_DESC"
 			picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 			expire = "1.1.1"
@@ -5294,7 +5294,7 @@ country_event = { # ancap
 				has_country_flag = ICE_hansen_leads
 			}
 			create_country_leader = {
-				name = "Agnar Kofod-Hansen"
+				name = "Агнар Кофод-Хансен"
 				desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 				expire = "1.1.1"
@@ -5307,7 +5307,7 @@ country_event = { # ancap
 				has_country_flag = ICE_sveinn_bjornsson_leads
 			}
 			create_country_leader = {
-				name = "Sveinn Björnsson"
+				name = "Свейдн Бьёрнссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 				expire = "1.1.1"
 				ideology = pataut_ancap_subtype
@@ -5329,7 +5329,7 @@ country_event = { # ancap
 				}
 			}
 			create_country_leader = {
-			name = "The Alþingi"
+			name = "Альтинг"
 			desc = "POLITICS_Allthing_DESC"
 			picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 			expire = "1.1.1"
@@ -5342,7 +5342,7 @@ country_event = { # ancap
 				has_country_flag = ICE_hansen_leads
 			}
 			create_country_leader = {
-				name = "Agnar Kofod-Hansen"
+				name = "Агнар Кофод-Хансен"
 				desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 				expire = "1.1.1"
@@ -5355,7 +5355,7 @@ country_event = { # ancap
 				has_country_flag = ICE_sveinn_bjornsson_leads
 			}
 			create_country_leader = {
-				name = "Sveinn Björnsson"
+				name = "Свейдн Бьёрнссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 				expire = "1.1.1"
 				ideology = pataut_kritarchy_subtype
@@ -5386,7 +5386,7 @@ country_event = { # ancap
 				}
 			}
 			create_country_leader = {
-				name = "The Alþingi"
+				name = "Альтинг"
 				desc = "POLITICS_Allthing_DESC"
 				picture = "gfx/leaders/ICE/Portrait_ICE_Allthing.png"
 				expire = "1.1.1"
@@ -5399,7 +5399,7 @@ country_event = { # ancap
 				has_country_flag = ICE_hansen_leads
 			}
 			create_country_leader = {
-				name = "Agnar Kofod-Hansen"
+				name = "Агнар Кофод-Хансен"
 				desc = "POLITICS_Agnar_Kofod_Hansen_DESC"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Agnar_Kofoed_Hanson.png"
 				expire = "1.1.1"
@@ -5412,7 +5412,7 @@ country_event = { # ancap
 				has_country_flag = ICE_sveinn_bjornsson_leads
 			}
 			create_country_leader = {
-				name = "Sveinn Björnsson"
+				name = "Свейдн Бьёрнссон"
 				picture = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson.png"
 				expire = "1.1.1"
 				ideology = marlib_kritarchy_subtype
@@ -5460,7 +5460,7 @@ country_event = { # holy shit we ate england
 		GBP = {
 			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 			create_country_leader = {
-			name = "William Brittain"
+			name = "Уильям Бриттейн"
 			picture = "gfx/leaders/BRG/Portrait_BRG_William_Brittain.png"
 			expire = "1.1.1"
 			ideology = paternal_autocrat_subtype

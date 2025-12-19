@@ -91,8 +91,8 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = NFL_political_path
+					has_game_rule = {
+						rule = NFL_political_path
 					option = NFL_ANNEXATION
 				}
 			}
@@ -140,8 +140,8 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NFL_political_path
+				has_game_rule = {
+					rule = NFL_political_path
 						option = NFL_COMMISSION
 					}
 					has_game_rule = {
@@ -1339,10 +1339,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_leader = { name = "Peter John Cashin" ruling_only = yes }
+				has_country_leader = { name = "Питер Джон Кэшин" ruling_only = yes }
 			}
 			create_country_leader = {
-				name = "Chesley Crosbie"
+				name = "Чесли Кросби"
 				desc = "POLITICS_CROSBIE_DESC"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Chesley_Crosbie.png"
 				expire = "1965.1.1"
@@ -1567,7 +1567,7 @@ country_event = {
 			custom_effect_tooltip = soccon_soccon_colonial_govt_subtype_swap_tt
 		}
 		else = {
-			set_country_leader_ideology = autocratic_colonial_govt_subtype
+		set_country_leader_ideology = autocratic_colonial_govt_subtype
 			custom_effect_tooltip = pataut_autocratic_colonial_govt_subtype_swap_tt
 		}
 		add_popularity = {
@@ -1650,7 +1650,7 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { #Thomas Nangle
+	option = { #Томас Нэнгл
 		name = newfoundland.39.a
 		if = {
 			limit = { has_idea = NFL_Richard_Squires_hog_mli }
@@ -1661,7 +1661,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = NFL_abolished_GG }
 			create_country_leader = {
-				name = "Frederick Gordon Bradley"
+				name = "Фредерик Брэдли"
 				desc = "POLITICS_FREDERICK_GORDON_BRADLEY_DESC"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Frederick_Gordon_Bradley.png"
 				expire = "1965.1.1"
@@ -1670,7 +1670,7 @@ country_event = {
 		}
 	}
 	
-	option = { #Frederick Gordon Bradley
+	option = { #Фредерик Брэдли
 		name = newfoundland.39.b
 		if = {
 			limit = { has_idea = NFL_Richard_Squires_hog_mli }
@@ -1681,7 +1681,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = NFL_abolished_GG }
 			create_country_leader = {
-				name = "Thomas Nangle"
+				name = "Томас Нэнгл"
 				desc = "POLITICS_THOMAS_NANGLE_DESC"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Thomas_Nangle_Civilian.png"
 				expire = "1965.1.1"
@@ -2255,7 +2255,7 @@ country_event = {
 		if = {
 			limit = { NFL_is_republic = yes }
 			create_country_leader = {
-				name = "Albert Boyle Butt"
+				name = "Альберт Бойл Батт"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Albert_Boyle_Butt.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -2300,7 +2300,7 @@ country_event = {
 		if = {
 			limit = { NFL_is_republic = yes }
 			create_country_leader = {
-				name = "Harry Mews"
+				name = "Гарри Мьюз"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Harry_Mews.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -2842,7 +2842,7 @@ country_event = {
 			popularity = 0.05
 		}
 		create_corps_commander = {# 
-			name = "Peter Jeddore"
+			name = "Петер Джеддор"
 			portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_Peter_Jeddore.png"
 			traits = {
 				career_officer
@@ -3056,7 +3056,7 @@ country_event = {
 	}
 }
 
-# Death of William Coaker
+# Death of Уильям Коакер
 country_event = {
 	id = nfl_uprising.20
 	immediate = { log = "[GetDateText]: [Root.GetName]: event nfl_uprising.20" }
@@ -3067,7 +3067,7 @@ country_event = {
 	
 	trigger = { 
 		has_country_leader = {
-			name = "William Coaker"
+			name = "Уильям Коакер"
 			ruling_only = yes
 		}
 	}
@@ -3075,10 +3075,10 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { #Joey Smallwood
+	option = { #Джои Смоллвуд
 		name = nfl_uprising.20.a
 		create_country_leader = {
-			name = "Joey Smallwood"
+			name = "Джои Смоллвуд"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Joey_Smallwood.png"
 			expire = "1.1.1"
 			ideology = liberalized_syndicalism_subtype
@@ -3088,17 +3088,17 @@ country_event = {
 	option = { #K.M. Brown
 		name = nfl_uprising.20.b
 		create_country_leader = {
-			name = "Kenneth McKenzie Brown"
+			name = "Кеннет Маккензи Браун"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Kenneth_McKenzie_Brown.png"
 			expire = "1.1.1"
 			ideology = liberalized_syndicalism_subtype
 		}
 	}
 	
-	option = { #Julia Salter Earle
+	option = { #Джулия Сальтер Эрл
 		name = nfl_uprising.20.c
 		create_country_leader = {
-			name = "Julia Salter Earle"
+			name = "Джулия Сальтер Эрл"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Julia_Salter_Earle.png"
 			expire = "1.1.1"
 			ideology = liberalized_syndicalism_subtype
@@ -3107,7 +3107,7 @@ country_event = {
 } 
 
 
-# Death of William Coaker
+# Death of Уильям Коакер
 country_event = {
 	id = nfl_uprising.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event nfl_uprising.20" }
@@ -3130,19 +3130,19 @@ country_event = {
 			popularity = -0.02
 		}
 		create_country_leader = {
-			name = "Kenneth McKenzie Brown"
+			name = "Кеннет Маккензи Браун"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Kenneth_McKenzie_Brown.png"
 			expire = "1.1.1"
 			ideology = totalist_subtype
 		}
 		create_country_leader = {
-			name = "Kenneth McKenzie Brown"
+			name = "Кеннет Маккензи Браун"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Kenneth_McKenzie_Brown.png"
 			expire = "1.1.1"
 			ideology = liberalized_syndicalism_subtype
 		}
 		create_country_leader = {
-			name = "Kenneth McKenzie Brown"
+			name = "Кеннет Маккензи Браун"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Kenneth_McKenzie_Brown.png"
 			expire = "1.1.1"
 			ideology = radical_socialist_subtype
@@ -3155,7 +3155,7 @@ country_event = {
 	}
 } 
 
-# Julia Salter Earle
+# Джулия Сальтер Эрл
 country_event = {
 	id = nfl_uprising.22
 	immediate = { log = "[GetDateText]: [Root.GetName]: event nfl_uprising.22" }
@@ -3656,7 +3656,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3683,7 +3683,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3700,7 +3700,7 @@ country_event = {
 			
 		}
 		create_country_leader = {
-			name = "William Neptune"
+			name = "Уильям Нептун"
 			desc = "POLITICS_NEPTUNE_DESC"
 			picture = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 			expire = "1965.1.1"
@@ -3717,7 +3717,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3734,7 +3734,7 @@ country_event = {
 			
 		}
 		create_country_leader = {
-			name = "Charles Norman Shay"
+			name = "Чарльз Норман Шэй"
 			desc = "POLITICS_MADOCKWANDO_DESC"
 			picture = "gfx/leaders/AIF/Portrait_AIF_Charles_Norman_Shay.png"
 			expire = "1965.1.1"
@@ -3751,7 +3751,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3768,7 +3768,7 @@ country_event = {
 			
 		}
 		create_country_leader = {
-			name = "William Saulis"
+			name = "Уильям Саулис"
 			desc = "POLITICS_SAULIS_DESC"
 			picture = "gfx/leaders/AIF/Portrait_AIF_William_Saulis.png"
 			expire = "1965.1.1"
@@ -3785,7 +3785,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3802,7 +3802,7 @@ country_event = {
 			
 		}
 		create_country_leader = {
-			name = "Gabriel Sylliboy"
+			name = "Габриэль Силлибой"
 			desc = "POLITICS_SYLLIBOY_DESC"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Gabriel_Sylliboy.png"
 			expire = "1965.1.1"
@@ -3819,7 +3819,7 @@ country_event = {
 				}
 			}
 			create_corps_commander = {# 
-				name = "William Neptune "
+				name = "Уильям Нептун "
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -3836,7 +3836,7 @@ country_event = {
 			
 		}
 		create_country_leader = {
-			name = "Henry Red Eagle"
+			name = "Генри Красный Орёл"
 			desc = "POLITICS_HENRY_PERLEY_DESC"
 			picture = "gfx/leaders/NFL/Portrait_Newfoundland_Henry_Red_Eagle_Perley.png"
 			expire = "1965.1.1"
@@ -4210,7 +4210,7 @@ country_event = { #Capped Canada
 				popularity = 0.05
 			}
 			create_country_leader = {
-				name = "Harry Crerar"
+				name = "Харри Крирар"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Harry_Crerar.png"
 				expire = "1965.1.1"
 				ideology = junta_subtype
@@ -4274,7 +4274,7 @@ country_event = { #Capped Canada
 				popularity = 0.05
 			}
 			create_country_leader = {
-				name = "Francis 'Peggy' Pegahmagabow"
+				name = "Фрэнсис Пегамагабо"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Harry_Crerar.png"
 				expire = "1965.1.1"
 				ideology = junta_subtype
@@ -4575,7 +4575,7 @@ country_event = {
 			popularity = 0.02
 		}
 		create_corps_commander = {
-			name = "Henry Red Eagle"
+			name = "Генри Красный Орёл"
 			portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_Henry_Red_Eagle_Perley_Chief.png"
 			traits = {
 				politically_connected
@@ -5378,7 +5378,7 @@ country_event = { #Activities of Government House
 	}
 }
 
-country_event = { #Thomas Ricketts
+country_event = { #Томас Рикеттс
 	id = nfl_flavour.33
 	immediate = { log = "[GetDateText]: [Root.GetName]: event nfl_flavour.33" }
 	title = nfl_flavour.33.t
@@ -5391,7 +5391,7 @@ country_event = { #Thomas Ricketts
 	option = { #
 		name = nfl_flavour.33.a
 		create_corps_commander = {
-			name = "Thomas Ricketts"
+			name = "Томас Рикеттс"
 			portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_Thomas_Ricketts.png"
 			traits = {
 				war_hero
@@ -5406,7 +5406,7 @@ country_event = { #Thomas Ricketts
 	}
 }
 
-country_event = { #Thomas Ricketts (Soc Version)
+country_event = { #Томас Рикеттс (Soc Version)
 	id = nfl_flavour.34
 	immediate = { log = "[GetDateText]: [Root.GetName]: event nfl_flavour.34" }
 	title = nfl_flavour.34.t
@@ -5419,7 +5419,7 @@ country_event = { #Thomas Ricketts (Soc Version)
 	option = { #
 		name = nfl_flavour.34.a
 		create_corps_commander = {
-			name = "Thomas Ricketts"
+			name = "Томас Рикеттс"
 			portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_Thomas_Ricketts.png"
 			traits = {
 				war_hero

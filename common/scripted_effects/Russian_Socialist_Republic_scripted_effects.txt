@@ -252,9 +252,9 @@ SOV_change_politburo_bukharin = {
 	}
 	else = {
 		if = {
-			limit = { NOT = { has_country_flag = SOV_politburo_bukharin_banned } }
-			custom_effect_tooltip = SOV_change_politburo_bukharin
-		}
+		limit = { NOT = { has_country_flag = SOV_politburo_bukharin_banned } }
+		custom_effect_tooltip = SOV_change_politburo_bukharin
+	}
 	}
 	SOV_calculate_politburo_factions = yes
 }
@@ -308,10 +308,10 @@ SOV_change_politburo_left_communists = {
 		clamp_variable = { var = Politburo_Centre_Faction min = 1 }
 	}
 	else_if = {
-		limit = { has_country_flag = SOV_rkp_in_politburo }
-		custom_effect_tooltip = SOV_change_politburo_left_communists
+			limit = { has_country_flag = SOV_rkp_in_politburo }
+			custom_effect_tooltip = SOV_change_politburo_left_communists
 		clamp_variable = { var = Politburo_Centre_Faction min = 1 }
-	}
+		}
 	else = {
 		clamp_variable = { var = Politburo_Centre_Faction min = 0 }
 	}
@@ -661,7 +661,7 @@ SOV_setup_soviet_congress = {
 	activate_targeted_decision = { target = ROOT decision = SOV_question_of_labor_conscription }
 	
 	set_variable = { SOV_soviet_constitution_political_power_factor = 0.02 }
-	set_variable = { sov_congress_plsr_seats = ROOT.party_popularity@syndicalist }
+			set_variable = { sov_congress_plsr_seats = ROOT.party_popularity@syndicalist }
 	if = {
 		limit = { lpsr_in_power = yes }
 		set_variable = { sov_congress_psr_seats = ROOT.party_popularity@social_democrat }
@@ -671,14 +671,14 @@ SOV_setup_soviet_congress = {
 		divide_variable = { sov_congress_rsdrp_seats = 3 }
 	}
 	else = {
-		set_variable = { sov_congress_psr_seats = ROOT.party_popularity@social_liberal }
+	set_variable = { sov_congress_psr_seats = ROOT.party_popularity@social_liberal }
 		set_variable = { sov_congress_rsdrp_seats = ROOT.party_popularity@social_democrat }
 	}
 	if = {
 		limit = { has_country_flag = RUS_nsp_rkp_united }
 	}
 	else = {
-		set_variable = { sov_congress_nsp_seats = ROOT.party_popularity@radical_socialist }
+			set_variable = { sov_congress_nsp_seats = ROOT.party_popularity@radical_socialist }
 	}
 	set_variable = { sov_congress_nrpr_seats = ROOT.party_popularity@national_populist }
 	
@@ -691,11 +691,11 @@ SOV_calculate_soviet_congress = {
 	if = {
 		limit = { NOT = { has_country_flag = RUS_nsp_rkp_united } }
 		add_to_variable = { sov_congress_sum = sov_congress_nsp_seats }
-	}
-	if = {
+		}
+		if = {
 		limit = { NOT = { has_country_flag = psr_banned } }
 		add_to_variable = { sov_congress_sum = sov_congress_psr_seats }
-	}
+		}
 	if = {
 		limit = { NOT = { has_country_flag = nrpr_banned } }
 		add_to_variable = { sov_congress_sum = sov_congress_nrpr_seats }
@@ -762,7 +762,7 @@ SOV_soviet_congress_increase_rsdrp = {
 	add_to_variable = { sov_congress_rsdrp_seats = 0.05 }
 	set_temp_variable = { divider = -2 }
 	SOV_calculate_soviet_congress = yes	
-}
+		}
 SOV_soviet_congress_increase_nrpr = {
 	if = {
 		limit = { NOT = { has_country_flag = nrpr_banned } }
@@ -794,16 +794,16 @@ SOV_run_election = {
 	
 	if = {
 		limit = { NOT = { has_country_flag = RUS_nsp_rkp_united } }
-		set_variable = { SOV_nsp_votes = sov_congress_nsp_seats }
-		multiply_variable = { SOV_nsp_votes = SOV_total_votes }
-		round_variable = SOV_nsp_votes
+	set_variable = { SOV_nsp_votes = sov_congress_nsp_seats }
+	multiply_variable = { SOV_nsp_votes = SOV_total_votes }
+	round_variable = SOV_nsp_votes
 	}
 	
 	if = {
 		limit = { NOT = { has_country_flag = psr_banned } }
-		set_variable = { SOV_psr_votes = sov_congress_psr_seats }
-		multiply_variable = { SOV_psr_votes = SOV_total_votes }
-		round_variable = SOV_psr_votes
+	set_variable = { SOV_psr_votes = sov_congress_psr_seats }
+	multiply_variable = { SOV_psr_votes = SOV_total_votes }
+	round_variable = SOV_psr_votes
 	}
 	
 	set_variable = { SOV_rsdrp_votes = sov_congress_rsdrp_seats }
@@ -812,9 +812,9 @@ SOV_run_election = {
 	
 	if = {
 		limit = { NOT = { has_country_flag = nrpr_banned } }
-		set_variable = { SOV_nrpr_votes = sov_congress_nrpr_seats }
-		multiply_variable = { SOV_nrpr_votes = SOV_total_votes }
-		round_variable = SOV_nrpr_votes	
+	set_variable = { SOV_nrpr_votes = sov_congress_nrpr_seats }
+	multiply_variable = { SOV_nrpr_votes = SOV_total_votes }
+	round_variable = SOV_nrpr_votes	
 	}
 	
 	log = "[THIS.GetName]: PLSR([?SOV_plsr_votes]) - NSP([?SOV_nsp_votes]) - RSDRP([?SOV_rsdrp_votes]) - PSR([?SOV_psr_votes]) - NRPR([?SOV_nrpr_votes]) - TOTAL([?SOV_total_votes])"
@@ -1542,13 +1542,13 @@ SOV_create_uzbek_autonomy = {
 				}
 			}
 			create_country_leader = {
-				name = "Yoldash Akhunbabayev"
+				name = "Юлдаш Ахунбабаев"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Yuldash_Akhunbabaev.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
 			}
 			create_country_leader = {
-				name = "Yoldash Akhunbabayev"
+				name = "Юлдаш Ахунбабаев"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Yuldash_Akhunbabaev.png"
 				expire = "1.1.1"
 				ideology = centralized_syndicalism_subtype
@@ -2186,7 +2186,7 @@ SOV_anarchist_revolution = {
 		RUS_Anarchist_Union_sec_rso
 	}
 	create_country_leader = {
-		name = "Pavel Dybenko"
+		name = "Павел Дыбенко"
 		desc = "POLITICS_PAVEL_DYBENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_SOV_Pavel_Dybenko.png"
 		expire = "1.1.1"

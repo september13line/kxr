@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "BBR Militia"
+	name = "Ополчение Р.Ч.П"
 	division_names_group = USA_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 	}
 }
 division_template = {
-	name = "Mounted BBR Militia"
+	name = "Конное ополчение Р.Ч.П"
 	division_names_group = USA_GAR_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -27,7 +27,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "BBR Garrison"
+	name = "Гарнизон Р.Ч.П"
 	division_names_group = USA_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -41,7 +41,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "BBR Infantry Division"
+	name = "Пехотная дивизия Р.Ч.П"
 	division_names_group = USA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -59,7 +59,7 @@ division_template = {
 	}
 }
 division_template = {# Motorized
-	name = "BBR Motorized Division"
+	name = "Моторизованная дивизия Р.Ч.П"
 	division_names_group = USA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -72,7 +72,7 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "Mountain Resistance"
+	name = "Горнострелковая дивизия"
 	division_names_group = USA_INF_01
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -87,7 +87,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "BBR Cavalry Division"
+	name = "Кавалерийская дивизия Р.Ч.П"
 	division_names_group = USA_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -100,18 +100,18 @@ division_template = {
 	}
 }
 
-units = {# BBR Militia
+units = {# Ополчение Р.Ч.П
 	division = {
 		name = "1st 'Du Bois' Cavalry"
 		location = 7527 #Columbia
-		division_template = "BBR Cavalry Division"
+		division_template = "Кавалерийская дивизия Р.Ч.П"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd 'Roosevelt' Cavalry"
 		location = 10407 #Tallahassee
-		division_template = "BBR Cavalry Division"
+		division_template = "Кавалерийская дивизия Р.Ч.П"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}

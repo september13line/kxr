@@ -47,7 +47,7 @@ country_event = { # Happening
 		name = conbel.1.a.epp
 		trigger = {
 			has_country_leader = {
-				name = "Franz Ritter von Epp"
+				name = "Франц фон Эпп"
 				ruling_only = yes
 			}	
 		}
@@ -56,7 +56,7 @@ country_event = { # Happening
 		}
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Franz Ritter von Epp" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Франц фон Эпп" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 				}
@@ -67,7 +67,7 @@ country_event = { # Happening
 		name = conbel.1.a.leo
 		trigger = {
 			has_country_leader = {
-				name = "Léo Pétillon"
+				name = "Лео Петийон"
 				ruling_only = yes
 			}	
 		}
@@ -80,7 +80,7 @@ country_event = { # Happening
 		name = conbel.1.a
 		trigger = {
 			has_country_leader = {
-				name = "Pierre Ryckmans"
+				name = "Пьер Райкманс"
 				ruling_only = yes
 			}	
 		}
@@ -93,7 +93,7 @@ country_event = { # Happening
 		name = conbel.1.a
 		trigger = {
 			has_country_leader = {
-				name = "Albert Decoster"
+				name = "Альберт Декостер"
 				ruling_only = yes
 			}	
 		}
@@ -394,7 +394,7 @@ country_event = { #replace ryckmans?
 						rule = COG_governor
 						option = COG_GOVERNOR_RICKY
 					}
-					
+										
 					has_game_rule = {
 						rule = COG_governor
 						option = COG_GOVERNOR_DECOSTER
@@ -417,7 +417,7 @@ country_event = { #replace ryckmans?
 		}
 		
 		create_country_leader = {
-			name = "Léo Pétillon"
+			name = "Лео Петийон"
 			desc = "POLITICS_LEO_PETILLON_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Leo_Petillon.png"
 			expire = "1.1.1"
@@ -425,7 +425,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Léo Pétillon"
+			name = "Лео Петийон"
 			desc = "POLITICS_LEO_PETILLON_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Leo_Petillon.png"
 			expire = "1.1.1"
@@ -433,7 +433,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Léo Pétillon"
+			name = "Лео Петийон"
 			desc = "POLITICS_LEO_PETILLON_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Leo_Petillon.png"
 			expire = "1.1.1"
@@ -441,7 +441,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Léo Pétillon"
+			name = "Лео Петийон"
 			desc = "POLITICS_LEO_PETILLON_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Leo_Petillon.png"
 			expire = "1.1.1"
@@ -449,7 +449,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Léo Pétillon"
+			name = "Лео Петийон"
 			desc = "POLITICS_LEO_PETILLON_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Leo_Petillon.png"
 			expire = "1.1.1"
@@ -468,7 +468,7 @@ country_event = { #replace ryckmans?
 			name = COG_social_conservative_party_1
 			long_name = COG_social_conservative_party_1_long
 		}
-		
+				
 		hidden_effect = {
 			country_event = {
 					id = congofla.63
@@ -492,7 +492,7 @@ country_event = { #replace ryckmans?
 						rule = COG_governor
 						option = COG_GOVERNOR_PETILLON
 					}
-					
+										
 					has_game_rule = {
 						rule = COG_governor
 						option = COG_GOVERNOR_DECOSTER
@@ -502,8 +502,8 @@ country_event = { #replace ryckmans?
 		}
 		
 		complete_national_focus = COG_ricky
-		set_country_flag = COG_ricky_stays
-		
+		set_country_flag = COG_ricky_stays		
+
 		hidden_effect = {
 			country_event = {
 					id = congofla.63
@@ -557,7 +557,7 @@ country_event = { #replace ryckmans?
 		complete_national_focus = COG_ritter_von_epp
 		
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -565,7 +565,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -573,7 +573,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -581,7 +581,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -589,7 +589,7 @@ country_event = { #replace ryckmans?
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -597,14 +597,14 @@ country_event = { #replace ryckmans?
 		}
 		
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Franz Ritter von Epp" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Франц фон Эпп" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 			}
@@ -656,7 +656,7 @@ country_event = { #replace ryckmans?
 		}
 		
 		create_country_leader = {
-			name = "Albert Decoster"
+			name = "Альберт Декостер"
 			desc = "POLITICS_DECOSTER_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Albert_Decoster.png"
 			expire = "1.1.1"
@@ -764,7 +764,7 @@ country_event = { #congolese UDI
 		if = {
 			limit = {
 				has_government = social_democrat
-				NOT = { has_country_leader = { name = "Albert Decoster" ruling_only = yes } }
+				NOT = { has_country_leader = { name = "Альберт Декостер" ruling_only = yes } }
 			}
 			set_politics = {
 				ruling_party = authoritarian_democrat
@@ -781,7 +781,7 @@ country_event = { #congolese UDI
 		}
 		if = {
 			limit = {
-			has_country_leader = { name = "Albert Decoster" ruling_only = yes }
+			has_country_leader = { name = "Альберт Декостер" ruling_only = yes }
 			}
 			country_event = {
 				id = congo.86
@@ -807,14 +807,14 @@ country_event = { #we won the war, belgium does not exist
 	option = { #the entente is cool
 		name = conbel.15.a
 		trigger = {
-		NOT = {
-		OR = {
-		has_government = radical_socialist
-		has_government = syndicalist
-		has_government = totalist
+			NOT = {
+			OR = {
+			has_government = radical_socialist
+			has_government = syndicalist
+			has_government = totalist
+					}
 				}
 			}
-		}
 		hidden_effect = {
 			country_event = {
 				id = conbel.16
@@ -850,42 +850,42 @@ country_event = { #albert restored
 		}
 		set_country_flag = COG_monarchy_restored
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
 			ideology = natpop_colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
 			ideology = christian_democracy_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
@@ -896,7 +896,7 @@ country_event = { #albert restored
 		has_country_leader_ideology = socdem_euro_panafricanism_subtype
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
@@ -905,7 +905,7 @@ country_event = { #albert restored
 		}
 		else_if = {
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_CONGO_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_King_Albert.png"
 			expire = "1.1.1"
@@ -972,7 +972,7 @@ country_event = { #ryckmans restored
 	option = { #yay
 		name = conbel.18.a
 		create_country_leader = {
-			name = "Pierre Ryckmans"
+			name = "Пьер Райкманс"
 			desc = "POLITICS_PIERRE_RYCKMANS_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Pierre_Ryckmans_Despair.png"
 			expire = "1.1.1"
@@ -980,7 +980,7 @@ country_event = { #ryckmans restored
 		}
 
 		create_country_leader = {
-			name = "Pierre Ryckmans"
+			name = "Пьер Райкманс"
 			desc = "POLITICS_PIERRE_RYCKMANS_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Pierre_Ryckmans_Despair.png"
 			expire = "1.1.1"
@@ -988,7 +988,7 @@ country_event = { #ryckmans restored
 		}
 
 		create_country_leader = {
-			name = "Pierre Ryckmans"
+			name = "Пьер Райкманс"
 			desc = "POLITICS_PIERRE_RYCKMANS_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Pierre_Ryckmans_Despair.png"
 			expire = "1.1.1"
@@ -996,7 +996,7 @@ country_event = { #ryckmans restored
 		}
 
 		create_country_leader = {
-			name = "Pierre Ryckmans"
+			name = "Пьер Райкманс"
 			desc = "POLITICS_PIERRE_RYCKMANS_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Pierre_Ryckmans_Despair.png"
 			expire = "1.1.1"
@@ -1004,7 +1004,7 @@ country_event = { #ryckmans restored
 		}
 
 		create_country_leader = {
-			name = "Pierre Ryckmans"
+			name = "Пьер Райкманс"
 			desc = "POLITICS_PIERRE_RYCKMANS_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Pierre_Ryckmans_Despair.png"
 			expire = "1.1.1"
@@ -1138,7 +1138,7 @@ country_event = { #we won bois
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -1148,7 +1148,7 @@ country_event = { #we won bois
 		text = conbel.20.d.epp
 		trigger = {
 			has_country_leader = {
-				name = "Franz Ritter von Epp"
+				name = "Франц фон Эпп"
 				ruling_only = yes
 			}
 		}
@@ -1176,14 +1176,14 @@ country_event = { #we won bois
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
 		}
 		if = {
 		limit = {
-		has_country_leader = { name = "Albert Decoster"	ruling_only = yes }
+		has_country_leader = { name = "Альберт Декостер"	ruling_only = yes }
 			}
 		set_cosmetic_tag = COG_DECOSTER_COSMETIC
 		}
@@ -1212,7 +1212,7 @@ country_event = { #we won bois
 		name = conbel.20.b
 		trigger = {
 			has_country_leader = {
-				name = "Franz Ritter von Epp"
+				name = "Франц фон Эпп"
 				ruling_only = yes
 			}
 		}
@@ -1285,7 +1285,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			}
 		}
 		create_field_marshal = { 
-			name = "Franz Ritter von Epp "
+			name = "Франц фон Эпп "
 			portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			traits = {
 				war_hero
@@ -1300,7 +1300,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 99998
 		}
 		create_corps_commander = { 
-			name = "Hermann Fegelein "
+			name = "Герман Фегелейн "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Hermann_Fegelein.png"
 			traits = {
 				politically_connected	
@@ -1313,7 +1313,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 89992
 		}
 		create_corps_commander = { 
-			name = "Wilhelm Mohnke "
+			name = "Вильгельм Монке "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Wilhelm_Mohnke.png"
 			traits = {
 				politically_connected	
@@ -1327,7 +1327,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 89993
 		}
 		create_field_marshal = { 
-			name = "Wilhelm Rümann "
+			name = "Уильям Руманн "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Wilhelm_Rumann.png"
 			traits = {
 				politically_connected	
@@ -1341,7 +1341,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 89994
 		}
 		create_corps_commander = { 
-			name = "Ernst Röhm "
+			name = "Эрнст Рём "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Ernst_Rohm.png"
 			traits = {
 				politically_connected	
@@ -1356,7 +1356,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 99995
 		}
 		create_corps_commander = { #no the other one
-			name = "Siegfried Müller"
+			name = "Зигфрид Мюллер"
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Siegfried_Muller.png"
 			traits = {
 				politically_connected	
@@ -1369,7 +1369,7 @@ country_event = { #belgian general staff replaced with kraut hooligans
 			id = 99996
 		}
 		create_corps_commander = { #no the other one
-			name = "Martin Bormann"
+			name = "Мартин Борман"
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Martin_Bormann.png"
 			traits = {
 				politically_connected	
@@ -1427,7 +1427,7 @@ country_event = { #Rohm Congo bottom text
 		name = conbel.220.a
 		add_political_power = 10
 		create_country_leader = {
-			name = "Ernst Röhm"
+			name = "Эрнст Рём"
 			desc = "POLITICS_ROHM_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Ernst_Rohm.png"
 			expire = "1.1.1"
@@ -1454,12 +1454,12 @@ country_event = { #Epp Goes to the Congo, Rumann Takes over
 	trigger = {
 		tag = COG
 		has_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			ruling_only = yes
 		}
 		MAF = {
 			has_country_leader = {
-				name = "Franz Ritter von Epp"
+				name = "Франц фон Эпп"
 				ruling_only = yes
 			}
 		}
@@ -1469,7 +1469,7 @@ country_event = { #Epp Goes to the Congo, Rumann Takes over
 		name = conbel.23.a
 		set_country_flag = COG_cant_die_yet
 		create_country_leader = {
-			name = "Wilhelm Rümann"
+			name = "Уильям Руманн"
 			desc = "POLITICS_RUMANN_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Wilhelm_Rumann.png"
 			expire = "1.1.1"
@@ -1532,7 +1532,7 @@ country_event = { #
 	option = { #fuck the kaiser, hre time
 		name = conbel.25.a
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1540,7 +1540,7 @@ country_event = { #
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1548,7 +1548,7 @@ country_event = { #
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1556,7 +1556,7 @@ country_event = { #
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1564,7 +1564,7 @@ country_event = { #
 		}
 
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1572,7 +1572,7 @@ country_event = { #
 		}
 		
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -1654,7 +1654,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.a
 		create_country_leader = {
-			name = "Ruprecht I"
+			name = "Рупрехт I"
 			desc = "POLITICS_RUPRECHT_CONGO_DESC"
 			picture = "gfx/leaders/GER/Portrait_Germany_Rupprecht_Bayern_kr.png"
 			expire = "1.1.1"
@@ -1677,7 +1677,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.b
 		create_country_leader = {
-			name = "Alexandre I"
+			name = "Александре I"
 			desc = "POLITICS_BELL_CONGO_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Alexander_Duala_Manga_Bell.png"
 			expire = "1.1.1"
@@ -1694,7 +1694,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.c
 		create_country_leader = {
-			name = "Franz I"
+			name = "Франц I"
 			desc = "POLITICS_VON_EPP_KAISER_DESC"
 			picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp_Kaiser.png"
 			expire = "1.1.1"
@@ -1711,7 +1711,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.e
 		create_country_leader = {
-			name = "Baudouin I"
+			name = "Бодуэн I"
 			desc = "POLITICS_THE_BABY_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Prince_Baudouin.png"
 			expire = "1.1.1"
@@ -1727,7 +1727,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.f
 		create_country_leader = {
-			name = "Hermann I"
+			name = "Герман I"
 			desc = "POLITICS_FEGELEIN_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Hermann_Fegelein.png"
 			expire = "1.1.1"
@@ -1743,7 +1743,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.g
 		create_country_leader = {
-			name = "Hans I"
+			name = "Ганс I"
 			desc = "POLITICS_FRANK_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Frank.png"
 			expire = "1.1.1"
@@ -1763,7 +1763,7 @@ country_event = { #kaiser
 	option = { 
 		name = conbel.28.h
 		create_country_leader = {
-			name = "Yuhi I"
+			name = "Юхи I"
 			desc = "POLITICS_HAE_YUHI_DESC"
 			picture = "gfx/leaders/RWA/Portrait_RWA_Yuhi_V.png"
 			expire = "1.1.1"
@@ -1792,7 +1792,7 @@ country_event = { #Rohm takes over
 	option = { 
 		name = conbel.29.a
 		create_country_leader = {
-			name = "Ernst Röhm"
+			name = "Эрнст Рём"
 			desc = "POLITICS_ROHM_DESC"
 			picture = "gfx/leaders/COG/Portrait_COG_Ernst_Rohm.png"
 			expire = "1.1.1"

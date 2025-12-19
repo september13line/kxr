@@ -141,7 +141,7 @@ country_event = { #Arildskov visits Savinkov
 	}
 	is_triggered_only = yes
 
-	option = { #'Fører', it sounds so dumb....
+	option = { #'Фёрер', it sounds so dumb....
 		name = den.6.a
 		add_popularity = { ideology = national_populist popularity = 0.03 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
@@ -709,7 +709,7 @@ country_event = { #Death of Peder Oluf Pedersen
 	}
 }
 
-country_event = { #Death of Thorvald Stauning
+country_event = { #Death of Торвальд Стаунинг
 	id = den.30
 	immediate = { log = "[GetDateText]: [Root.GetName]: event den.30" }
 	title = den.30.t
@@ -743,7 +743,7 @@ country_event = { #Death of Thorvald Stauning
 				}
 			}
 			create_country_leader = {
-				name = "Vilhelm Buhl"
+				name = "Вильхельм Бюль"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Vilhelm_Buhl.png"
 				expire = "1.1.1"
 				ideology = nordic_model_subtype
@@ -769,7 +769,7 @@ country_event = { #Death of Thorvald Stauning
 				}
 			}
 			create_country_leader = {
-				name = "Vilhelm Buhl"
+				name = "Вильхельм Бюль"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Vilhelm_Buhl.png"
 				expire = "1.1.1"
 				ideology = nordic_model_subtype
@@ -1870,20 +1870,20 @@ country_event = { #France demands reforms
 		hidden_effect = {
 			if = {
 				limit = { 
-					ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 				}
 				ICE = {
 					country_event = { id = ice.502 days = 1 }
 				}
 			}
 			create_country_leader = {
-				name = "Thorvald Stauning"
+				name = "Торвальд Стаунинг"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning_kr.png"
 				expire = "1.1.1"
 				ideology = syndie_social_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Peter Munch"
+				name = "Петер Мунк"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Peter_Munch.png"
 				expire = "1.1.1"
 				ideology = soclib_liberal_socialism_subtype
@@ -1986,44 +1986,44 @@ country_event = { #After the people won in the easter crisis, new king or republ
 		}
 		set_country_flag = Christian_X_dead
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soclib_radical_progressivism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soccon_liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
 		}
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.500 days = 1 }
@@ -2070,37 +2070,37 @@ country_event = { #After the people won in the easter crisis, new king or republ
 		hidden_effect = {
 			set_country_flag = Christian_X_dead
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = nordic_model_subtype
 			}
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = soclib_radical_progressivism_subtype
 			}
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = marlib_agrarianism_subtype
 			}
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = soccon_liberal_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = prussian_constitutionalism_subtype
 			}
 			create_country_leader = {
-				name = "Hakon I"
+				name = "Хакон I"
 				picture = "gfx/leaders/NOR/Portrait_Norway_Haakon_VII.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
@@ -2111,7 +2111,7 @@ country_event = { #After the people won in the easter crisis, new king or republ
 		#}
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.502 days = 1 }
@@ -2136,7 +2136,7 @@ country_event = { #After the people won in the easter crisis, new king or republ
 		set_global_flag = SCA_Denmark_Republic
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.502 days = 1 }
@@ -2158,37 +2158,37 @@ country_event = { #Haakon refuses the offer to become king of Denmark
 		name = den.59.a
 		ai_chance = { factor = 70 }
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soclib_radical_progressivism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soccon_liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -2196,7 +2196,7 @@ country_event = { #Haakon refuses the offer to become king of Denmark
 		set_global_flag = SCA_Frederick_Danish_king
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.500 days = 1 }
@@ -2212,7 +2212,7 @@ country_event = { #Haakon refuses the offer to become king of Denmark
 		set_global_flag = SCA_Denmark_Republic
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.502 days = 1 }
@@ -2759,7 +2759,7 @@ country_event = { #FS elects its chairman
 		add_popularity = { ideology = syndicalist popularity = 0.25 }
 	}
 
-	option = { #Stauninger Thorvald Stauning
+	option = { #Stauninger Торвальд Стаунинг
 		name = den.75.b
 		ai_chance = { factor = 30 }
 		remove_ideas_with_trait = head_of_government
@@ -2767,7 +2767,7 @@ country_event = { #FS elects its chairman
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 	}
 
-	option = { #Liberal Peter Munch
+	option = { #Liberal Петер Мунк
 		name = den.75.c
 		ai_chance = { factor = 10 }
 		remove_ideas_with_trait = head_of_government
@@ -2993,7 +2993,7 @@ country_event = { # No majority
 	}
 }
 
-country_event = { #Death of King Christian X
+country_event = { #Death of King Кристиан X
 	id = den.80
 	immediate = { log = "[GetDateText]: [Root.GetName]: event den.80" }
 	title = den.80.t
@@ -3006,7 +3006,7 @@ country_event = { #Death of King Christian X
 		tag = DEN
 		date > 1947.4.20
 		has_country_leader = {
-			name = "Christian X"
+			name = "Кристиан X"
 			ruling_only = yes
 		}
 	}
@@ -3015,44 +3015,44 @@ country_event = { #Death of King Christian X
 		name = den.80.a
 		set_country_flag = Christian_X_dead
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soclib_radical_progressivism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = soccon_liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_country_leader = {
-			name = "Frederick IX"
+			name = "Фредерик IX"
 			picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
 		}
 		if = {
 			limit = { 
-				ICE = { has_country_leader = { name = "Kristján X" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
 			}
 			ICE = {
 				country_event = { id = ice.500 days = 1 }
@@ -3158,7 +3158,7 @@ country_event = {
 	}
 }
 
-country_event = { #Death of Thomas Madsen-Mygdal
+country_event = { #Death of Томас Мадсен-Мюгдаль
 	id = den.85
 	immediate = { log = "[GetDateText]: [Root.GetName]: event den.85" }
 	title = den.85.t
@@ -3189,7 +3189,7 @@ country_event = { #Death of Thomas Madsen-Mygdal
 				has_country_flag = den_danish_republic
 			}
 			create_country_leader = {
-				name = "Knud Kristensen"
+				name = "Кнуд Кристенсен"
 				picture = "gfx/leaders/DEN/Portrait_Denmark_Knud_Kristensen.png"
 				expire = "1.1.1"
 				ideology = marlib_agrarianism_subtype

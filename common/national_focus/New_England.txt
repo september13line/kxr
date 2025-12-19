@@ -104,9 +104,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_new_english_nationalism"
-			add_stability = 0.02
-			add_war_support = 0.03
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
+				add_stability = 0.02
+				add_war_support = 0.03
+				add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 			add_ideas = NEE_new_english_nationalism
 		}
 	}
@@ -130,25 +130,25 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		select_effect = {
-			hidden_effect = {
-				country_event = {
-					id = newengland.110
-					days = 15
-				}
-			}
+		hidden_effect = {
+		country_event = {
+			id = newengland.110
+			days = 15
+			}	
+		}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_special_relationship"
 			NEE = {
-				add_opinion_modifier = {
-					target = CAN
-					modifier = large_increase
+			add_opinion_modifier = {
+			target = CAN
+			modifier = large_increase
 				}
 			}
 			CAN = {
-				add_opinion_modifier = {
-					target = NEE
-					modifier = large_increase
+			add_opinion_modifier = {
+			target = NEE
+			modifier = large_increase
 				}
 			}
 			add_political_power = 20
@@ -182,16 +182,16 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		select_effect = {
-			hidden_effect = {
-				country_event = {
-					id = newengland.110
-					days = 7
-				}
-				country_event = {
-					id = newengland.110
-					days = 20
-				}
-			}
+		hidden_effect = {
+		country_event = {
+			id = newengland.110
+			days = 7
+			}	
+		country_event = {
+			id = newengland.110
+			days = 20
+			}	
+		}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_syndicalist_crackdown"
@@ -375,15 +375,15 @@ focus_tree = {
 		country_event = {
 			id = newengland.112
 			days = 5
-				}
+				}	
 		country_event = {
 			id = newengland.113
 			days = 11
-				}
+				}	
 		country_event = {
 			id = newengland.113
 			days = 20
-				}
+				}	
 			}
 		}
 		available_if_capitulated = yes
@@ -393,8 +393,8 @@ focus_tree = {
 			add_stability = 0.12
 			add_political_power = 75
 			country_event = {
-				id = newengland.116
-				hours = 2
+			id = newengland.116
+			hours = 2
 			}
 		}
 	}
@@ -436,11 +436,11 @@ focus_tree = {
 				add_idea = NEE_elite_ties2
 			}
 			country_event = {
-				id = newengland.111
-				days = 1	
+			id = newengland.111
+			days = 1
+			}	
 			}
 		}
-	}
 	
 	focus = {
 		id = NEE_controlled_vice
@@ -467,8 +467,8 @@ focus_tree = {
 			add_political_power = 40
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 			country_event = {
-				id = newengland.115
-				days = 1
+			id = newengland.115
+			days = 1
 			}
 		}
 	}
@@ -503,7 +503,7 @@ focus_tree = {
 			add_to_variable = {
 				var = NEE_canadian_influence
 				value = 10
-			}
+			}			
 			swap_ideas = {
 				remove_idea = NEE_elite_ties2
 				add_idea = NEE_american_aristocracy
@@ -581,7 +581,7 @@ focus_tree = {
 				type = infantry_equipment
 				amount = 1200
 				producer = NEE
-			}
+				}
 			add_war_support = 0.10
 			swap_ideas = {
 				remove_idea = NEE_new_english_nationalism
@@ -621,8 +621,8 @@ focus_tree = {
 			focus = NEE_Legitimate_America
 		}
 		available = {
-			has_government = radical_socialist
-			has_country_flag = NEE_lermond_is_in_charge
+		has_government = radical_socialist
+		has_country_flag = NEE_lermond_is_in_charge
 			hidden_trigger = { NOT = { has_country_flag = NEE_lovecraft_lives } }
 		}
 		x = -28
@@ -653,7 +653,7 @@ focus_tree = {
 			focus = NEE_socialist_victory
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = 2
 		y = 1
@@ -676,7 +676,7 @@ focus_tree = {
 			focus = NEE_legacy_of_populism
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = 1
 		y = 2
@@ -703,7 +703,7 @@ focus_tree = {
 			focus = NEE_farmers_in_need
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = 1
 		y = 3
@@ -745,7 +745,7 @@ focus_tree = {
 			focus = NEE_socialist_victory
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = 0
 		y = 1
@@ -774,7 +774,7 @@ focus_tree = {
 			focus = NEE_socialist_victory
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -2
 		y = 1
@@ -788,8 +788,8 @@ focus_tree = {
 			add_political_power = 25
 			hidden_effect = {
 				country_event = {
-					id = miscnee.191
-					days = 25
+				id = miscnee.191
+				days = 25
 				}
 			}
 		}
@@ -806,7 +806,7 @@ focus_tree = {
 			focus = NEE_public_ownership
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -1
 		y = 2
@@ -863,8 +863,8 @@ focus_tree = {
 			}
 			hidden_effect = {
 				country_event = {
-					id = newengland.2004
-					days = 25
+				id = newengland.2004
+				days = 25
 				}
 			}
 		}
@@ -878,7 +878,7 @@ focus_tree = {
 			focus = NEE_bellamyist_ideals
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -3
 		y = 3
@@ -900,7 +900,7 @@ focus_tree = {
 			focus = NEE_bellamyist_ideals
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -1
 		y = 3
@@ -911,8 +911,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_local_unions"
 			swap_ideas = {
-				remove_idea = NEE_public_tools
-				add_idea = NEE_local_unions_idea
+			remove_idea = NEE_public_tools
+			add_idea = NEE_local_unions_idea
 			}
 			add_political_power = 30
 		}
@@ -929,7 +929,7 @@ focus_tree = {
 			focus = NEE_annual_income
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -2
 		y = 4
@@ -940,8 +940,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_industry_specialization"
 			swap_ideas = {
-				remove_idea = NEE_coop_management
-				add_idea = NEE_industry_specialists
+			remove_idea = NEE_coop_management
+			add_idea = NEE_industry_specialists
 			}
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -963,7 +963,7 @@ focus_tree = {
 			focus = NEE_national_arboretums
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = -0
 		y = 4
@@ -974,8 +974,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_socialist_pioneers"
 			swap_ideas = {
-				remove_idea = NEE_populist_legacy_two
-				add_idea = NEE_populist_legacy_three
+			remove_idea = NEE_populist_legacy_two
+			add_idea = NEE_populist_legacy_three
 			}
 			add_popularity = { ideology = radical_socialist popularity = 0.05 }
 			add_political_power = 50
@@ -993,7 +993,7 @@ focus_tree = {
 			focus = NEE_socialist_pioneers
 		}
 		available = {
-			has_government = radical_socialist
+		has_government = radical_socialist
 		}
 		x = 0
 		y = 5
@@ -1004,19 +1004,19 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_utopian_colonies"
 			swap_ideas = {
-				remove_idea = NEE_populist_legacy_three
-				add_idea = NEE_populist_legacy_four
+			remove_idea = NEE_populist_legacy_three
+			add_idea = NEE_populist_legacy_four
 			}
 			add_political_power = 25
 			add_stability = 0.05
 			hidden_effect = {
 				country_event = {
-					id = newengland.2005
-					days = 14
+				id = newengland.2005
+				days = 14
 				}
 				country_event = {
-					id = lermond.1
-					days = 100
+				id = lermond.1
+				days = 100
 				}
 			}
 		}
@@ -1037,11 +1037,11 @@ focus_tree = {
 				has_country_leader_ideology = eco_anarchism_subtype
 				has_country_leader_ideology = bellamyism_subtype
 			}
-			OR = {
+		OR = {
 				INT = { exists = yes }
 				CSA = { exists = yes }
-			}
-			is_puppet = no
+		}
+		is_puppet = no
 		}
 		mutually_exclusive = {
 			focus = NEE_go_our_own_way
@@ -1075,7 +1075,7 @@ focus_tree = {
 				has_country_leader_ideology = eco_anarchism_subtype
 				has_country_leader_ideology = bellamyism_subtype
 			}
-			is_puppet = no
+		is_puppet = no
 		}
 		mutually_exclusive = {
 			focus = NEE_unite_with_csa
@@ -1117,15 +1117,15 @@ focus_tree = {
 				has_country_leader_ideology = eco_anarchism_subtype
 				has_country_leader_ideology = bellamyism_subtype
 			}
-			CAN = {
-				exists = yes
-				if = {
+		CAN = {
+		exists = yes
+		if = {
 					limit = { has_authoritarian_government = yes }
-					has_war = yes
-				}
+			has_war = yes
+		}
 				else = { has_authoritarian_government = no }
-			}
-			is_puppet = no
+		}
+		is_puppet = no
 		}
 		mutually_exclusive = {
 			focus = NEE_go_our_own_way
@@ -3078,7 +3078,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = NEE_Radicals_Win
-		}
+			}
 		available_if_capitulated = yes
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_radical_victory"			
@@ -3695,27 +3695,27 @@ focus_tree = {
 			add_popularity = { ideology = totalist popularity = -0.05 }
 			custom_effect_tooltip = NEE_sentinel_wealth_flag
 			if = {
-			limit = {
-				has_country_flag = {
-				flag = SIC_ancap_power
-				value = 2
+				limit = {
+					has_country_flag = {
+					flag = SIC_ancap_power
+					value = 2
+					}
+				}
+				add_ideas = NEE_sentinel_wealth
+				}
+				else_if = {
+				limit = {
+					has_country_flag = {
+					flag = SIC_ancap_power
+					value = 4
+					}
+				}
+				swap_ideas = {
+				remove_idea = NEE_sentinel_wealth
+				add_idea = NEE_sentinel_wealth_2
+				}
 				}
 			}
-			add_ideas = NEE_sentinel_wealth
-			}
-			else_if = {
-			limit = {
-				has_country_flag = {
-				flag = SIC_ancap_power
-				value = 4
-				}
-			}
-			swap_ideas = {
-            remove_idea = NEE_sentinel_wealth
-			add_idea = NEE_sentinel_wealth_2
-			}
-			}
-		}
 	}
 	
 	focus = {
@@ -3766,7 +3766,7 @@ focus_tree = {
 		days = 50
 				}
 			}
-			custom_effect_tooltip = NEE_sentinel_wealth_flag
+		custom_effect_tooltip = NEE_sentinel_wealth_flag
 			if = {
 			limit = {
 				has_country_flag = {
@@ -3965,7 +3965,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = NEE_lothrop_stoddard
 		icon = GFX_NEE_stoddard_regime
@@ -3989,7 +3989,7 @@ focus_tree = {
 			add_stability = 0.05
 		}
 	}
-
+	
 	focus = {
 		id = NEE_block_foreign_hordes
 		icon = GFX_NEE_block_foreign_hordes
@@ -4077,7 +4077,7 @@ focus_tree = {
 					id = newengland.179
 					days = 10
 				}
-			}
+			}	
 		}
 	}
 
@@ -4321,7 +4321,7 @@ focus_tree = {
 				id = newengland.167
 				days = 3
 					}
-				}
+				}	
 			}
 			if = {
 				limit = {
@@ -4333,7 +4333,7 @@ focus_tree = {
 				id = newengland.168
 				days = 3
 					}
-				}
+				}	
 			}
 			if = {
 				limit = {
@@ -4348,7 +4348,7 @@ focus_tree = {
 				id = newengland.169
 				days = 3
 					}
-				}
+				}	
 			}
 		}
 	}
@@ -4923,7 +4923,7 @@ focus_tree = {
 				}
 			}
 			else = {
-				add_ideas = kr_electric_boat
+			add_ideas = kr_electric_boat
 			}
 			add_tech_bonus = {
 				bonus = 1
@@ -4967,7 +4967,7 @@ focus_tree = {
 				}
 			}
 			else = {
-				add_ideas = kr_electric_boat
+			add_ideas = kr_electric_boat
 			}
 		}
 	}
@@ -5976,8 +5976,8 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			}
 		}
-	}
 	
 	focus = {
 		id = NEE_All_Terrain_Treads
@@ -6097,8 +6097,8 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = support_tech
-			}
 		}
+	}
 	}
 	
 	focus = {
@@ -6170,8 +6170,8 @@ focus_tree = {
 				uses = 1
 				category = motorized_equipment
 			}
+			}
 		}
-	}
 	
 	focus = {
 		id = NEE_The_Modern_Midnight_Ride
@@ -6201,9 +6201,9 @@ focus_tree = {
 				add_idea = NEE_Chaffee_Plan1D
 			}
 			add_doctrine_cost_reduction = {
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				bonus = 0.5
@@ -7282,7 +7282,7 @@ focus_tree = {
 	
 	##
 	
-	focus = {# New England's Future
+		focus = {# New England's Future
 		id = NEE_new_england_future
 		icon = GFX_goal_NEE_new_england_future
 		cost = 5
@@ -8395,7 +8395,7 @@ focus = {
 	y = 1
 	
 	available_if_capitulated = yes 
-	
+    
 	available = {
 		custom_trigger_tooltip = {
 			tooltip = NEE_prohibition_in_charge
@@ -8585,7 +8585,7 @@ focus = {
 	
 	ai_will_do = {
 		factor = 100
-	}
+		}
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_spiritual_awakening"
 		add_stability = 0.10
@@ -8606,8 +8606,8 @@ focus = {
 				swap_ideas = {
 					remove_idea = NEE_withdrawal
 					add_idea = NEE_withdrawal_2
-				}
-			}
+	}
+}
 			else_if = {
 				if = {
 					limit = {
@@ -8679,8 +8679,8 @@ focus = {
 			country_event = {
 				id = miscnee.211
 				days = 140
-			}
 		}
+	}
 	}
 }
 
@@ -8878,9 +8878,9 @@ focus = {
 					swap_ideas = {
 						remove_idea = NEE_withdrawal_2
 						add_idea = NEE_withdrawal_3
-					}
-				}
-			}
+		}
+	}
+}
 			else_if = {
 				if = {
 					limit = {
@@ -9090,7 +9090,7 @@ focus = {
 	relative_position_id = NEE_caring_republicanism
 	x = 0
 	y = 1
-    
+	
 	available = {
 	OR = {
 		custom_trigger_tooltip = {
@@ -9101,8 +9101,8 @@ focus = {
 			tooltip = NEE_quakers_in_charge
 			has_country_leader_ideology = quaker_socialism_subtype
 		}
+		}
 	}
-    }
 	
 	available_if_capitulated = yes 
 	
@@ -9128,11 +9128,11 @@ focus = {
 	y = 3
 
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = NEE_quakers_in_charge
-			has_country_leader_ideology = quaker_socialism_subtype
+			custom_trigger_tooltip = {
+				tooltip = NEE_quakers_in_charge
+				has_country_leader_ideology = quaker_socialism_subtype
 		}
-	}
+		}
 
 	available_if_capitulated = yes 
 
@@ -9166,11 +9166,11 @@ focus = {
 	y = 4
 
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = NEE_quakers_in_charge
-			has_country_leader_ideology = quaker_socialism_subtype
+			custom_trigger_tooltip = {
+				tooltip = NEE_quakers_in_charge
+				has_country_leader_ideology = quaker_socialism_subtype
 		}
-	}
+		}
 
 	available_if_capitulated = yes 
 
@@ -9203,11 +9203,11 @@ focus = {
 	y = 4
 
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = NEE_quakers_in_charge
-			has_country_leader_ideology = quaker_socialism_subtype
+			custom_trigger_tooltip = {
+				tooltip = NEE_quakers_in_charge
+				has_country_leader_ideology = quaker_socialism_subtype
 		}
-	}
+		}
 
 	available_if_capitulated = yes 
 
@@ -9232,11 +9232,11 @@ focus = {
 	y = 5
 
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = NEE_quakers_in_charge
-			has_country_leader_ideology = quaker_socialism_subtype
+			custom_trigger_tooltip = {
+				tooltip = NEE_quakers_in_charge
+				has_country_leader_ideology = quaker_socialism_subtype
 		}
-	}
+		}
 
 	available_if_capitulated = yes 
 
@@ -9260,8 +9260,8 @@ focus = {
 	available = {
 		has_country_flag = NEE_kingdom
 	}
-
-	ai_will_do = {
+	
+	ai_will_do = { 
 		factor = 100
 	}
 	
@@ -9297,7 +9297,7 @@ focus = {
 		has_government = national_populist
 	}
 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 100
 	}
 
@@ -9306,13 +9306,13 @@ focus = {
 		add_popularity = { ideology = national_populist popularity = 0.10 }
 		add_political_power = 100
 		hidden_effect = {
-			IRE = {
-				country_event = {
-					id = lovecraftflavor.47
-					days = 15
-				}
-			}
+		IRE = {
+		country_event = {
+			id = lovecraftflavor.47
+			days = 15
+		} 
 		}
+	}
 	}
 }
 
@@ -9332,7 +9332,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9367,7 +9367,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_destroy_the_cult_of_the_past } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9377,7 +9377,7 @@ focus = {
 		add_popularity = { ideology = national_populist popularity = 0.10 }
 		add_manpower = -1200
 		every_owned_state = {
-			damage_building = {
+				damage_building = {
 				type = infrastructure
 				damage = 2.0
 			}
@@ -9393,14 +9393,14 @@ focus = {
 				id = newengland.254
 				days = 15
 			}
-			if = {
+		if = {
 				limit = { NOT = { has_completed_focus = NEE_destroy_the_irish } }
-				country_event = {
-					id = lovecraftflavor.45
-					days = 5
-				}
-			}
-		}
+		country_event = {
+			id = lovecraftflavor.45
+			days = 5
+		} 
+	}
+	}
 	}
 }
 
@@ -9417,7 +9417,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_absorb_the_cults } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9458,7 +9458,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_hospitalize_opposition } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9489,7 +9489,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_hospitalize_opposition } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9521,7 +9521,7 @@ focus = {
 		focus = NEE_eldricht_economy
 		focus = NEE_oppose_consumerism 
 	} 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9554,15 +9554,15 @@ focus = {
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_a_new_order_rises } 
 	prerequisite = { focus = NEE_rule_the_seas } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_into_the_shaddows"
 		add_ideas = war_economy
 		hidden_effect = {
-			if = {
-				limit = { has_country_leader = { name = "H.P. Lovecraft" ruling_only = yes } }
+			if = {	
+				limit = { has_country_leader = { name = "Говард Лавкрафт" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NEE/Portrait_NEE_HP_Lovecraft_2.png"
 				}
@@ -9585,7 +9585,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_into_the_shaddows } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9608,7 +9608,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_into_the_shaddows } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9634,7 +9634,7 @@ focus = {
 	prerequisite = { focus = NEE_obsession_with_purity }
 	prerequisite = { focus = NEE_WASP_supremacy }
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9660,17 +9660,17 @@ focus = {
 	prerequisite = { focus = NEE_obsession_with_purity }
 	prerequisite = { focus = NEE_WASP_supremacy }
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_king_in_yellow"
 		if = {
-			limit = { has_country_leader = { ruling_only = yes name = "H.P. Lovecraft" }  }
+			limit = { has_country_leader = { ruling_only = yes name = "Говард Лавкрафт" }  }
 			add_country_leader_trait = king_in_yellow
 			hidden_effect = {
-				if = {
-					limit = { has_country_leader = { name = "H.P. Lovecraft" ruling_only = yes } }
+				if = {	
+					limit = { has_country_leader = { name = "Говард Лавкрафт" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/NEE/Portrait_NEE_Lovecraft_King_In_Yellow.png"
 					}
@@ -9698,7 +9698,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	prerequisite = { focus = NEE_into_the_shaddows } 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9733,7 +9733,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_establishdeltagreen"
 		create_intelligence_agency = {
-					name = "Delta Green"
+					name = "Дельта Грин"
 					icon = GFX_intelligence_agency_logo_KX_new_england
 				}
 		add_ideas = NEE_delta_green
@@ -9754,7 +9754,7 @@ focus = {
 	id = NEE_nation_of_madness
 	icon = GFX_NEE_nation_of_madness
 	cost = 5
-	prerequisite = { focus = NEE_spartan_nation }
+	prerequisite = { focus = NEE_spartan_nation }	
 	prerequisite = { focus = NEE_king_in_yellow }
 	
 	
@@ -9766,7 +9766,7 @@ focus = {
 		has_government = national_populist
 	}
 	available_if_capitulated = yes 
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	completion_reward = {
@@ -9819,7 +9819,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_cult_of_providence"
 		if = {
-			limit = { has_country_leader = { ruling_only = yes name = "H.P. Lovecraft" }  }
+			limit = { has_country_leader = { ruling_only = yes name = "Говард Лавкрафт" }  }
 			add_country_leader_trait = all_seeing_all_knowing
 		}
 		else = {
@@ -9862,16 +9862,16 @@ focus = {
 			load_oob = NEE_Warriors
 		}
 		hidden_effect = {
-			if = {
-				limit = {
-				NOT = { has_completed_focus = NEE_destroy_the_irish }
-				}
-				country_event = {
-					id = lovecraftflavor.45
-					days = 5
-				} 
-			}
+		if = {
+		limit = {
+		NOT = { has_completed_focus = NEE_destroy_the_irish }
 		}
+		country_event = {
+			id = lovecraftflavor.45
+			days = 5
+		} 
+	}
+	}
 	}
 }
 
@@ -9927,7 +9927,7 @@ focus = {
 			remove_idea = NEE_civil_war
 			add_idea = NEE_civil_war_2
 		}
-		hidden_effect = {
+		hidden_effect = {	
 			country_event = {
 				id = lovecraftflavor.56
 				days = 33
@@ -9936,7 +9936,7 @@ focus = {
 	}
 }
 
-focus = { 
+	focus = { 
 	id = NEE_secure_new_england
 	icon = GFX_NEE_secure_new_england
 	cost = 5
@@ -9952,7 +9952,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -9978,7 +9978,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -9992,7 +9992,7 @@ focus = {
 			}
 		}
 		else = {
-			add_ideas = kr_electric_boat
+		add_ideas = kr_electric_boat
 		}
 		796 = {
 			add_extra_state_shared_building_slots = 2
@@ -10027,7 +10027,7 @@ focus = {
 		has_country_flag = NEE_lovecraftians_win
 		has_government = national_populist
 	}
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10038,7 +10038,7 @@ focus = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+		add_tech_bonus = {
 					name = UMN_uranium_diplomacy
 					bonus = 0.5
 					uses = 1
@@ -10050,7 +10050,7 @@ focus = {
 					specialization = specialization_nuclear
 					value = 0.5
 				}
-			}
+		}
 	}
 }
 
@@ -10070,7 +10070,7 @@ focus = {
 		has_country_flag = NEE_lovecraftians_win
 		has_government = national_populist
 	}
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10109,7 +10109,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10158,7 +10158,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10193,7 +10193,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10222,7 +10222,7 @@ focus = {
 	
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10247,7 +10247,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10277,7 +10277,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10310,7 +10310,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10320,8 +10320,8 @@ focus = {
 			remove_idea = NEE_outer_focus_idea
 			add_idea = NEE_outer_focus_idea2
 		}
-		796 = {
-			add_building_construction = {
+	796 = {
+		add_building_construction = {
 				type = bunker
 				level = 2
 				province = 9847
@@ -10345,7 +10345,7 @@ focus = {
 				province = 6707
 				instant_build = yes
 			}
-		}
+		}		
 	}
 }
 focus = { 
@@ -10364,7 +10364,7 @@ focus = {
 	}
 	available_if_capitulated = yes 
 	
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10434,7 +10434,7 @@ focus = {
 		has_country_flag = NEE_lovecraftians_win
 		has_government = national_populist
 	}
-	ai_will_do = {
+	ai_will_do = { 
 		factor = 50
 	}
 	
@@ -10479,7 +10479,7 @@ focus = {
 		has_country_flag = NEE_GOD_SAVE_THE_KING
 		has_country_flag = NEE_BOSTON_SUCSESS
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 100
@@ -10516,11 +10516,11 @@ focus = {
 		focus = NEE_monarchists_in_control
 	}
 	bypass = { 
-		has_country_flag = NEE_MILITARY_IN_POWER
+	has_country_flag = NEE_MILITARY_IN_POWER
 	}
 	available = {
 		has_country_flag = NEE_MILITARY_IN_POWER
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 100
@@ -10550,7 +10550,7 @@ focus = {
 	bypass = { 
 		has_country_flag = NEE_Pershing_in_Power
 		has_war = no
-	}
+	}	
 	mutually_exclusive = {
 		focus = NEE_Groves_Commands_our_Armies
 	}
@@ -10676,15 +10676,15 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		swap_ideas = {
-			remove_idea = NEE_pershing1
-			add_idea = NEE_pershing2
-		}
+				remove_idea = NEE_pershing1
+				add_idea = NEE_pershing2
+			}
 		hidden_effect = {
 			country_event = {
 				id = newenglandmilflavor.61
 				days = 25
 			}
-		}
+		}	
 	}
 }
 
@@ -10776,7 +10776,7 @@ focus = {
 	bypass = { 
 		has_country_flag = NEE_Bingham_in_Power
 		has_war = no
-	}
+	}		
 	
 	ai_will_do = {
 		factor = 100
@@ -10839,8 +10839,8 @@ focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Honor_the_Soldiers "
 		
 		swap_ideas = {
-			remove_idea = NEE_veterans_support_bill
-			add_idea = NEE_veterans_support_bill_2
+		remove_idea = NEE_veterans_support_bill
+		add_idea = NEE_veterans_support_bill_2
 		}
 	}
 }
@@ -10851,7 +10851,7 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_Bingham_Protects_our_People
+	focus = NEE_Bingham_Protects_our_People
 	}
 	
 	relative_position_id = NEE_Bingham_Protects_our_People
@@ -10888,9 +10888,9 @@ focus = {
 	relative_position_id = NEE_Bingham_Protects_our_People
 	x = -1
 	y = 2
-
+	
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -10915,7 +10915,7 @@ focus = {
 	y = 2
 	
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -10949,7 +10949,7 @@ focus = {
 	y = 3
 	
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -10966,7 +10966,7 @@ focus = {
 				id = newenglandmilflavor.81
 				days = 15
 			}
-		}
+		}	
 	}
 }
 
@@ -10984,7 +10984,7 @@ focus = {
 	y = 1
 	
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11017,23 +11017,23 @@ focus = {
 	y = 3
 	
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
 	
 	completion_reward = {
 		796 = {
-			add_building_construction = {
-				type = bunker
-				level = 7
-				instant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_border = yes
+				add_building_construction = {
+					type = bunker
+					level = 7
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
 				}
 			}
-		}
 	}
 }
 
@@ -11043,10 +11043,10 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_To_These_New_United_States
+	focus = NEE_To_These_New_United_States
 	}
 	prerequisite = { 
-		focus = NEE_Fortify_the_Border
+	focus = NEE_Fortify_the_Border
 	}
 	mutually_exclusive = {
 		focus = NEE_New_England_Sleeps_Safe
@@ -11119,10 +11119,10 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_To_These_New_United_States
+	focus = NEE_To_These_New_United_States
 	}
 	prerequisite = { 
-		focus = NEE_Honor_the_Soldiers
+	focus = NEE_Honor_the_Soldiers
 	}
 	mutually_exclusive = {
 		focus = NEE_End_this_Chaos
@@ -11162,7 +11162,7 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_New_England_Sleeps_Safe
+	focus = NEE_New_England_Sleeps_Safe
 	}
 	
 	relative_position_id = NEE_Bingham_Protects_our_People
@@ -11173,7 +11173,7 @@ focus = {
 	bypass = {
 		owns_state = 464 
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11192,7 +11192,7 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_New_England_Sleeps_Safe
+	focus = NEE_New_England_Sleeps_Safe
 	}
 	
 	relative_position_id = NEE_Bingham_Protects_our_People
@@ -11206,7 +11206,7 @@ focus = {
 			owns_state = 358
 		}
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11235,10 +11235,10 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_Negotiate_for_Nova_Scotia
+	focus = NEE_Negotiate_for_Nova_Scotia
 	}
 	prerequisite = { 
-		focus = NEE_Restore_Peace_in_NYC
+	focus = NEE_Restore_Peace_in_NYC
 	}
 	
 	relative_position_id = NEE_Bingham_Protects_our_People
@@ -11256,7 +11256,7 @@ focus = {
 		}
 		owns_state = 464 
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11298,7 +11298,7 @@ focus = {
 	bypass = {
 		has_country_flag = NEE_Groves_in_Power
 		has_war = no
-	}
+	}		
 	
 	ai_will_do = {
 		factor = 100
@@ -11315,8 +11315,8 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_Groves_Commands_our_Armies 
-		focus = NEE_Pershing_Guides_our_Sons
+	focus = NEE_Groves_Commands_our_Armies 
+	focus = NEE_Pershing_Guides_our_Sons
 	}
 	relative_position_id = NEE_New_Sons_of_Liberty
 	x = -2
@@ -11340,13 +11340,13 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_Usher_in_Martial_Law
+	focus = NEE_Usher_in_Martial_Law
 	}
 	relative_position_id = NEE_New_Sons_of_Liberty
 	x = -2
 	y = 4
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11409,7 +11409,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11430,7 +11430,7 @@ focus = {
 	x = 1
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11451,7 +11451,7 @@ focus = {
 	x = -1
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11473,7 +11473,7 @@ focus = {
 	x = 0
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11497,7 +11497,7 @@ focus = {
 	x = -2
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11518,7 +11518,7 @@ focus = {
 	x = -2
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11544,7 +11544,7 @@ focus = {
 	x = 0
 	y = 4
 	available_if_capitulated = yes
-
+	
 	mutually_exclusive = {
 		focus = NEE_Stay_with_Marcarthur
 	}
@@ -11647,7 +11647,7 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		add_ideas = NEE_loyal_to_fed
-		custom_effect_tooltip = "By staying loyal, we shall become a puppet of Washington, at least until the civil war is over."
+		custom_effect_tooltip = "Сохраняя лояльность, мы станем марионеткой Вашингтона, по крайней мере, до окончания Гражданской войны."
 		USA = {
 			country_event = newenglandmilflavor.29
 		}
@@ -11668,7 +11668,7 @@ focus = {
 	available = {
 		is_subject_of = USA
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11692,7 +11692,7 @@ focus = {
 	available = {
 		is_subject_of = USA
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11734,17 +11734,17 @@ focus = {
 	available = {
 		is_subject_of = USA
 	}
-
+	
 	ai_will_do = {
 		factor = 100
 	}
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
-		swap_ideas = {
-			remove_idea = NEE_cord_armies
-			add_idea = NEE_united_front
-		}
+			swap_ideas = {
+				remove_idea = NEE_cord_armies
+				add_idea = NEE_united_front
+			}
 	}
 }
 
@@ -11756,9 +11756,9 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_Put_the_Traitors_All_to_Rout 
-		focus = NEE_Down_with_Macarthurs_Tyanny
-		focus = NEE_End_this_Chaos
+	focus = NEE_Put_the_Traitors_All_to_Rout 
+	focus = NEE_Down_with_Macarthurs_Tyanny
+	focus = NEE_End_this_Chaos
 	}
 	relative_position_id = NEE_Put_the_Traitors_All_to_Rout
 	x = 0
@@ -11782,13 +11782,13 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_National_Healing
+	focus = NEE_National_Healing
 	}
 	relative_position_id = NEE_Put_the_Traitors_All_to_Rout
 	x = 2
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11808,13 +11808,13 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_National_Healing
+	focus = NEE_National_Healing
 	}
 	relative_position_id = NEE_Put_the_Traitors_All_to_Rout
 	x = 0
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11834,13 +11834,13 @@ focus = {
 	cost = 5
 	
 	prerequisite = { 
-		focus = NEE_National_Healing
+	focus = NEE_National_Healing
 	}
 	relative_position_id = NEE_Put_the_Traitors_All_to_Rout
 	x = -2
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11863,7 +11863,7 @@ focus = {
 	x = 0
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11885,7 +11885,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11893,9 +11893,9 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		swap_ideas = {
-			remove_idea = NEE_pershing2
-			add_idea = NEE_pershing3
-		}
+				remove_idea = NEE_pershing2
+				add_idea = NEE_pershing3
+			}
 		hidden_effect = {
 			country_event = {
 				id = newenglandmilflavor.62
@@ -11917,7 +11917,7 @@ focus = {
 				id = newenglandmilflavor.90
 				days = 80
 			}
-		}
+		}	
 	}
 }
 
@@ -11931,7 +11931,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11939,12 +11939,12 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		add_ideas = NEE_persh_nonpart
-		if = {
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+		if = {	
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_suit.png"
 			}
-		}
+		}	
 	}
 }
 
@@ -11958,7 +11958,7 @@ focus = {
 	x = -1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -11980,7 +11980,7 @@ focus = {
 	x = 0
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12001,7 +12001,7 @@ focus = {
 	x = 1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12025,7 +12025,7 @@ focus = {
 	x = -1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12047,7 +12047,7 @@ focus = {
 	x = 0
 	y = 4
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12072,7 +12072,7 @@ focus = {
 	x = -4
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12080,9 +12080,9 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		swap_ideas = {
-			remove_idea = NEE_groves2
-			add_idea = NEE_groves3
-		}
+				remove_idea = NEE_groves2
+				add_idea = NEE_groves3
+			}
 	}
 }
 
@@ -12096,7 +12096,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12127,7 +12127,7 @@ focus = {
 	x = -1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12155,7 +12155,7 @@ focus = {
 	x = 0
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12185,7 +12185,7 @@ focus = {
 	x = 1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12195,7 +12195,7 @@ focus = {
 		add_research_slot = 1
 		hidden_effect = {
 			country_event = newenglandmilflavor.71
-		}
+			}
 	}
 }
 
@@ -12209,7 +12209,7 @@ focus = {
 	x = -1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12231,7 +12231,7 @@ focus = {
 	x = 0
 	y = 4
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12255,7 +12255,7 @@ focus = {
 	x = 4
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12263,19 +12263,19 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_true_heirs"
 		swap_ideas = {
-			remove_idea = NEE_bingham2
-			add_idea = NEE_bingham3
-		}
+				remove_idea = NEE_bingham2
+				add_idea = NEE_bingham3
+			}
 		hidden_effect = {
 			country_event = {
-				id = newenglandmilflavor.85
-				days = 35
+			id = newenglandmilflavor.85
+			days = 35
 			}
 			country_event = {
-				id = newenglandmilflavor.88
-				days = 55
+			id = newenglandmilflavor.88
+			days = 55
 			}
-		}
+		}	
 	}
 }
 
@@ -12300,8 +12300,8 @@ focus = {
 		remove_ideas = USA_civil_war_political_aftermath_idea3
 		hidden_effect = {
 			country_event = {
-				id = newenglandmilflavor.86
-				days = 35
+			id = newenglandmilflavor.86
+			days = 35
 			}
 		}
 	}
@@ -12317,7 +12317,7 @@ focus = {
 	x = -1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12339,7 +12339,7 @@ focus = {
 	x = 0
 	y = 2
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12352,8 +12352,8 @@ focus = {
 		}
 		hidden_effect = {
 			country_event = {
-				id = newenglandmilflavor.87
-				days = 35
+			id = newenglandmilflavor.87
+			days = 35
 			}
 		}
 	}
@@ -12369,7 +12369,7 @@ focus = {
 	x = 1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12390,7 +12390,7 @@ focus = {
 	x = -1
 	y = 3
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12412,7 +12412,7 @@ focus = {
 	x = 0
 	y = 4
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12434,7 +12434,7 @@ focus = {
 	x = -61
 	y = 17
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12457,7 +12457,7 @@ focus = {
 	x = -4
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12478,7 +12478,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12506,7 +12506,7 @@ focus = {
 	x = -1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12531,7 +12531,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12553,7 +12553,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12561,9 +12561,9 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Ignite_the_Jeffersonian_Revival"
 		swap_ideas = {
-			remove_idea = NEE_dr_pol
-			add_idea = NEE_dr_pol2
-		}
+				remove_idea = NEE_dr_pol
+				add_idea = NEE_dr_pol2
+			}
 	}
 }
 
@@ -12579,7 +12579,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12596,7 +12596,7 @@ focus = {
 	cost = 3
 	
 	prerequisite = { 
-		focus = NEE_Democratic_Republicans_Rise_from_Ashes
+	focus = NEE_Democratic_Republicans_Rise_from_Ashes
 		focus = NEE_True_Federalists_Ride_Again
 	}
 	relative_position_id = NEE_True_Federalists_Ride_Again
@@ -12655,7 +12655,7 @@ focus = {
 	cost = 3
 	
 	prerequisite = { 
-		focus = NEE_True_Federalists_Ride_Again
+	focus = NEE_True_Federalists_Ride_Again
 		focus = NEE_Whigs_Come_to_Roost_Once_More
 	}
 	relative_position_id = NEE_True_Federalists_Ride_Again
@@ -12692,7 +12692,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12719,7 +12719,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12727,15 +12727,15 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Hamiltonian_Fiscalism_and_Adamsian_Conservatism"
 		swap_ideas = {
-			remove_idea = NEE_fed_pol
-			add_idea = NEE_fed_pol2
-		}
+				remove_idea = NEE_fed_pol
+				add_idea = NEE_fed_pol2
+			}
 		hidden_effect = {
 			country_event = {
 				id = newenglandmilflavor.111
 				days = 25
 			}
-		}
+		}	
 	}
 }
 
@@ -12751,7 +12751,7 @@ focus = {
 	x = 4
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12774,7 +12774,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12802,7 +12802,7 @@ focus = {
 	x = -1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12810,29 +12810,29 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Meritocracy_Focused_on_Growing_Urban_Heart"
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-		}
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-		}
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
-		}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
 	}
 }
 
@@ -12847,7 +12847,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12876,7 +12876,7 @@ focus = {
 	x = 1
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12884,9 +12884,9 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Spitting_in_Face_of_Jackson_and_Jefferson"
 		swap_ideas = {
-			remove_idea = NEE_whigg_pol
-			add_idea = NEE_whigg_pol2
-		}
+				remove_idea = NEE_whigg_pol
+				add_idea = NEE_whigg_pol2
+			}
 	}
 }
 
@@ -12904,7 +12904,7 @@ focus = {
 	x = 0
 	y = 1
 	available_if_capitulated = yes
-
+	
 	ai_will_do = {
 		factor = 100
 	}
@@ -12912,9 +12912,9 @@ focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_Democracy_by_Will_of_the_Washingtons"
 		swap_ideas = {
-			remove_idea = NEE_pershing3
-			add_idea = NEE_pershing4
-		}
+				remove_idea = NEE_pershing3
+				add_idea = NEE_pershing4
+			}
 	}
 }
 
@@ -12939,7 +12939,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_monarchists_in_power
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 100
@@ -12966,7 +12966,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_WASHINGTON_MYTH
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 100
@@ -13001,7 +13001,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_WASHINGTON_MYTH
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13030,7 +13030,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_WASHINGTON_MYTH
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13060,7 +13060,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_WASHINGTON_MYTH
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13095,7 +13095,7 @@ focus = {
 			has_country_flag = NEE_WASHINGTON_MYTH
 			has_country_flag = NEE_ELITE_MONARCHY
 		}
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13181,7 +13181,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13213,7 +13213,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_WASHINGTON_MYTH
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13282,7 +13282,7 @@ focus = {
 			has_country_flag = NEE_WASHINGTON_MYTH
 			has_country_flag = NEE_ELITE_MONARCHY
 		}
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13328,7 +13328,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13361,7 +13361,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ELITE_MONARCHY
 		has_government = paternal_autocrat
-	}
+	}	
 
 	ai_will_do = {
 		factor = 100
@@ -13394,7 +13394,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_KENNEDY_CROWNED
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13427,7 +13427,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ASTOR_CROWNED
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13462,7 +13462,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ELITE_MONARCHY
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13491,7 +13491,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ELITE_MONARCHY
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13531,7 +13531,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ELITE_MONARCHY
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13548,7 +13548,7 @@ focus = {
 				days = 2
 			}
 		}
-	} 
+	    } 
 	}
 }
 
@@ -13569,7 +13569,7 @@ focus = {
 		has_country_flag = NEE_REBELLION_READY
 		has_country_flag = NEE_ELITE_MONARCHY
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13621,7 +13621,7 @@ focus = {
 			}
 			controls_all_owned_states = yes
 		}
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13639,7 +13639,7 @@ focus = {
 					days = 25
 				}
 			}
-		hidden_effect = {
+		hidden_effect = {	
 			add_ideas = NEE_post_war_devestation
 			add_ideas = NEE_republican_political_system
 		}
@@ -13659,7 +13659,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13696,7 +13696,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13746,7 +13746,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13761,15 +13761,15 @@ focus = {
 		navy_experience = 20
 		air_experience = 20
 		hidden_effect = {
-			country_event = {
+			country_event = {	
 				id = newengland.276
 				days = 5
 			}
-			country_event = {
+			country_event = {	
 				id = newengland.277
 				days = 10
 			}
-			country_event = {
+			country_event = {	
 				id = newengland.278
 				days = 15
 			}
@@ -13790,7 +13790,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13823,7 +13823,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13850,7 +13850,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13877,7 +13877,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13908,7 +13908,7 @@ focus = {
 	
 	available = {
 		has_government = paternal_autocrat
-	}
+	}	
 	
 	ai_will_do = {
 		factor = 50
@@ -13953,7 +13953,7 @@ focus = {
 				has_country_flag = NEE_GOV_APPOINTED
 			}
 			has_government = paternal_autocrat
-		}
+		}	
 		
 		ai_will_do = {
 			factor = 100
@@ -14003,7 +14003,7 @@ focus = {
 		available = {
 			is_in_faction_with = CAN
 			has_government = paternal_autocrat
-		}
+		}	
 		
 		ai_will_do = {
 			factor = 50
@@ -14040,8 +14040,8 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_martial_law"
 			add_ideas = NEE_martial_law_idea
 			swap_ideas = {
-				remove_idea = NEE_new_sons_resistance
-				add_idea = NEE_new_sons_resistance_1
+			remove_idea = NEE_new_sons_resistance
+			add_idea = NEE_new_sons_resistance_1
 			}
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 			add_stability = 0.05
@@ -14113,8 +14113,8 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_rootouttroublemakers"
 			add_stability = 0.010
 			swap_ideas = {
-				remove_idea = NEE_new_sons_resistance_1
-				add_idea = NEE_new_sons_resistance_2
+			remove_idea = NEE_new_sons_resistance_1
+			add_idea = NEE_new_sons_resistance_2
 			}
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.10 }
 			add_popularity = { ideology = national_populist popularity = -0.10 }
@@ -14201,10 +14201,10 @@ focus = {
 			add_stability = 0.01
 			add_political_power = 75
 			hidden_effect = {
-				country_event = {
-					id = newengland.1063
-					days = 1
-				}
+			country_event = {
+						id = newengland.1063
+						days = 1
+					}
 			}
 		}
 	}
@@ -14300,9 +14300,9 @@ focus = {
 			add_war_support = 0.10
 			add_manpower = 2000
 			796 = {
-				set_building_level = {
-					type = bunker
-					level = 3
+			set_building_level = {
+  				type = bunker
+   				level = 3
 					province = {
 						all_provinces = yes
 						limit_to_border = yes
@@ -14311,9 +14311,9 @@ focus = {
 				}
 			}
 			931 = {
-				set_building_level = {
-					type = bunker
-					level = 3
+			set_building_level = {
+  				type = bunker
+   				level = 3
 					province = {
 						all_provinces = yes
 						limit_to_border = yes
@@ -14341,7 +14341,7 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			add_ideas = NEE_prepared_the_rebels
+		add_ideas = NEE_prepared_the_rebels
 		}
 	}
 
@@ -14361,8 +14361,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_rnen"
-			add_ideas = NEE_naval_growth_idea
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_the_rnen"
+		add_ideas = NEE_naval_growth_idea
 		}
 	}
 
@@ -14382,9 +14382,9 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_boston_royal_marine_academy"
-			add_ideas = NEE_marine_tech_idea
-			add_tech_bonus = {
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_boston_royal_marine_academy"
+		add_ideas = NEE_marine_tech_idea
+		add_tech_bonus = {
 				name = marines_bonus
 				bonus = 1.50
 				uses = 1
@@ -14408,7 +14408,7 @@ focus = {
 		
 		available = {
 			has_country_flag = NEE_britishkingdom_flag
-		}
+		}	
 		
 		ai_will_do = {
 			factor = 50
@@ -14436,7 +14436,7 @@ focus = {
 		available_if_capitulated = yes
 		
 		available = {
-		}
+		}	
 		
 		ai_will_do = {
 			factor = 50
@@ -14446,8 +14446,8 @@ focus = {
 			add_political_power = 150
 			add_war_support = 0.10
 			CAN = {
-				add_political_power = 150
-				add_war_support = 0.10
+			add_political_power = 150
+			add_war_support = 0.10
 			}
 		}
 	}
@@ -14469,8 +14469,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
-			add_stability = 0.05
+		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
+		add_stability = 0.05
 		}
 	}
 
@@ -14490,8 +14490,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_crown_edward"	
-			country_event = newengland.1064
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_crown_edward"	
+		country_event = newengland.1064
 		}
 	}
 
@@ -14514,7 +14514,7 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_award_royal_titles"	
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_award_royal_titles"	
 			add_ideas = NEE_elite_society
 			country_event = newengland.1065
 			add_political_power = 20
@@ -14522,7 +14522,7 @@ focus = {
 				country_event = {
 					id = newengland.1066
 					days = 3
-				}
+				}	
 				country_event = {
 					id = newengland.1067
 					days = 5
@@ -14555,13 +14555,13 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_award_royal_titles"	
-			swap_ideas = {
-				remove_idea = NEE_elite_society
-				add_idea = NEE_elite_society_2
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_award_royal_titles"	
+				swap_ideas = {
+						remove_idea = NEE_elite_society
+						add_idea = NEE_elite_society_2
+					}
 			}
 		}
-	}
 
 	#Focus for A new vision on history
 	focus = {
@@ -14582,10 +14582,10 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_a_new_vision_on_history"	
-			add_political_power = 15 
-			add_manpower = 500
-			country_event = neebritishflavor.5
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_a_new_vision_on_history"	
+		add_political_power = 15 
+		add_manpower = 500
+		country_event = neebritishflavor.5
 		}
 	}
 	
@@ -14631,8 +14631,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_reorient_trade"	
-			random_owned_controlled_state = {
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_reorient_trade"	
+		random_owned_controlled_state = {
 				limit = {
 					is_core_of = NEE
 					is_controlled_by = NEE
@@ -14644,15 +14644,15 @@ focus = {
 					instant_build = yes
 				}
 			}
-			add_ideas = NEE_reoriented_trade_idea
-			add_equipment_to_stockpile = {
+		add_ideas = NEE_reoriented_trade_idea
+		add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = 25
 				producer = CAN
-			}
+		}
 			NEE = { add_opinion_modifier = { target = CAN modifier = NEE_new_englander_irish_trade } }
 			CAN = { add_opinion_modifier = { target = NEE modifier = NEE_new_englander_irish_trade } }
-		}
+	}
 	}
 
 	#Focus for Import tea
@@ -14672,18 +14672,18 @@ focus = {
 		}
 		completion_reward = {
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-		}
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_import_tea"	
 		swap_ideas = {
 			remove_idea = NEE_reoriented_trade_idea
 			add_idea = NEE_reoriented_trade_two_idea
-			}
+			}	
 		}
 	}
 
@@ -14703,8 +14703,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_infrastructure_integration"	
-			random_owned_controlled_state = {
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_infrastructure_integration"	
+		random_owned_controlled_state = {
 				limit = {
 					is_core_of = NEE
 					is_controlled_by = NEE
@@ -14727,7 +14727,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}
+			}	
 		}
 	}
 
@@ -14748,26 +14748,26 @@ focus = {
 		}
 		completion_reward = {
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-		}
 		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-		}
 		log = "[GetDateText]: [Root.GetName]: Focus NEE_imperial_economy"
 		swap_ideas = {
 			remove_idea = NEE_reoriented_trade_two_idea
 			add_idea = NEE_reoriented_trade_three_idea
-			}
+			}	
 		}
 	}
 	
@@ -14786,8 +14786,8 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_imperial_economy"
-			random_owned_controlled_state = {
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_imperial_economy"
+		random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -14803,7 +14803,7 @@ focus = {
 					instant_build = yes
 				}
 			}
-		}
+		}	
 	}
 	
 
@@ -14824,12 +14824,12 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_our_reclamation_effort"	
-			add_timed_idea = {
-				idea = NEE_reclamation_idea
-				days = 365
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_our_reclamation_effort"	
+		add_timed_idea = {
+			idea = NEE_reclamation_idea
+			days = 365
 			}
-			add_manpower = 5000
+		add_manpower = 5000
 		}
 	}
 
@@ -14850,12 +14850,12 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_prodigal_son"
-			swap_ideas = {
-				remove_idea = NEE_imperial_loyalty_idea
-				add_idea = NEE_prodigal_son_idea
+		log = "[GetDateText]: [Root.GetName]: Focus NEE_the_prodigal_son"
+		swap_ideas = {
+			remove_idea = NEE_imperial_loyalty_idea
+			add_idea = NEE_prodigal_son_idea
 			}
-			add_popularity = { ideology = paternal_autocrat popularity = 0.10 }
+		add_popularity = { ideology = paternal_autocrat popularity = 0.10 }	
 		}
 	}
 	
@@ -14879,16 +14879,16 @@ focus = {
 			add_stability = 0.05
 			add_political_power = 100
 			hidden_effect = {
-				if = {
-					limit = {
-						has_country_leader = {
-							ruling_only = yes
-							name = "Albert I"
-						}
-					}
-					country_event = { id = neebritishflavor.10 days = 114 } #Death of king Albert
+			if = {
+				limit = {
+					has_country_leader = {
+					ruling_only = yes
+					name = "Альберт I"
 				}
+				}
+				country_event = { id = neebritishflavor.10 days = 114 } #Death of king Albert
 			}
+		}
 		}
 	}
 
@@ -14964,22 +14964,22 @@ focus = {
 		x = 1
 		y = 4
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = owns_all_american_states
-				tag = NEE
-				owns_state = 361 #Maryland
-				owns_state = 371 #Louisiana
-				owns_state = 395 #Illinois
-				owns_state = 797 #San Francisco
-				owns_state = 932 #Massachusetts
-				NOT = {
-					country_exists = TEX
-					country_exists = CSA
-					country_exists = USA
-					country_exists = CAL
-				}
-				controls_all_owned_states = yes
+		custom_trigger_tooltip = {
+			tooltip = owns_all_american_states
+			tag = NEE
+			owns_state = 361 #Maryland
+			owns_state = 371 #Louisiana
+			owns_state = 395 #Illinois
+			owns_state = 797 #San Francisco
+			owns_state = 932 #Massachusetts
+			NOT = {
+				country_exists = TEX
+				country_exists = CSA
+				country_exists = USA
+				country_exists = CAL
 			}
+			controls_all_owned_states = yes
+		}
 		}
 		
 		available_if_capitulated = yes 
@@ -14988,17 +14988,17 @@ focus = {
 			factor = 50
 		}
 		completion_reward = {
-			country_event = neebritishflavor.7
-			hidden_effect = {
-				every_state = {
-					remove_ACW_cores = yes
-				}
-				every_owned_state = {
-					FROM.OWNER = { 
-						add_state_core = PREV 
-					}
+		country_event = neebritishflavor.7
+		hidden_effect = {
+			every_state = {
+				remove_ACW_cores = yes
+			}
+			every_owned_state = {
+				FROM.OWNER = { 
+					add_state_core = PREV 
 				}
 			}
+		}
 		}
 	}
 
@@ -15108,8 +15108,8 @@ focus = {
 				}
 			}
 			swap_ideas = {
-				remove_idea = NEE_radsoc_eco 
-				add_idea = NEE_radsoc_eco2
+						remove_idea = NEE_radsoc_eco 
+						add_idea = NEE_radsoc_eco2
 			}
 		}
 	}
@@ -15160,8 +15160,8 @@ focus = {
 				}
 			}
 			swap_ideas = {
-				remove_idea = NEE_spartan_idea 
-				add_idea = NEE_lovecraft_tech
+						remove_idea = NEE_spartan_idea 
+						add_idea = NEE_lovecraft_tech
 			}
 		}
 	}
@@ -15186,8 +15186,8 @@ focus = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = NEE_radsoc_eco2 
-				add_idea = NEE_radsoc_eco3
+						remove_idea = NEE_radsoc_eco2 
+						add_idea = NEE_radsoc_eco3
 			}
 		}
 	}
@@ -15234,9 +15234,9 @@ focus = {
 		}
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = NEE_marx_gay 
-				add_idea = NEE_marx_gay2
+				swap_ideas = {
+						remove_idea = NEE_marx_gay 
+						add_idea = NEE_marx_gay2
 			}
 		}
 	}
@@ -15361,8 +15361,8 @@ focus = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = NEE_radsoc_cosmic 
-				add_idea = NEE_culutral_cosmic_racism
+						remove_idea = NEE_radsoc_cosmic 
+						add_idea = NEE_culutral_cosmic_racism
 			}
 			hidden_effect = {
 				remove_ideas = NEE_cultural_racism 
@@ -15446,8 +15446,8 @@ focus = {
 			add_stability = 0.15
 			add_popularity = { ideology = national_populist popularity = 0.05 }
 			hidden_effect = {
-				if = {
-					limit = { has_country_leader = { name = "August Derleth" ruling_only = yes } }
+				if = {	
+					limit = { has_country_leader = { name = "Август Дерлет" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/NEE/Portrait_NEE_King_August_Derleth.png"
 					}
@@ -15521,7 +15521,7 @@ focus = {
 			add_command_power = 50
 			add_stability = -0.03
 			country_event = {
-				id = lovecraftflavor.3
+			id = lovecraftflavor.3
 			}
 		}
 	}
@@ -15588,9 +15588,9 @@ focus = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -15701,8 +15701,8 @@ focus = {
 
 		completion_reward = {
 			hidden_effect = {
-				if = {
-					limit = { has_country_leader = { name = "Henry S. Whitehead" ruling_only = yes } }
+				if = {	
+					limit = { has_country_leader = { name = "Генри С. Уайтхед" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/NEE/Portrait_NEE_Henry_Culthead.png"
 					}
@@ -15760,7 +15760,7 @@ focus = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					name = UMN_uranium_diplomacy
 					bonus = 0.5
 					uses = 1
@@ -15775,8 +15775,8 @@ focus = {
 			}
 			hidden_effect = {
 				country_event = {
-					id = lovecraftflavor.18
-					days = 19
+				id = lovecraftflavor.18
+				days = 19
 				}
 				country_event = {
 					id = lovecraftflavor.62
@@ -15905,9 +15905,9 @@ focus = {
 		completion_reward = {
 			add_ideas = NEE_providence_fp
 			CAN = {
-				set_autonomy = {
-					target = NEE
-					autonomy_state = autonomy_free
+			set_autonomy = {
+				target = NEE
+				autonomy_state = autonomy_free
 				}
 			}
 			leave_faction = yes
@@ -15971,14 +15971,14 @@ focus = {
 				target = PRF
 			}
 			every_state = {
-				limit = {
+			limit = {
 					OR = {
-						is_core_of = DEH
-						is_core_of = BHC
+			is_core_of = DEH
+			is_core_of = BHC
 						is_core_of = PRF
-					}
-				}
-				add_claim_by = NEE
+			}
+			}
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -16004,7 +16004,7 @@ focus = {
 			}
 			every_state = {
 				limit = { is_core_of = AST }
-				add_claim_by = NEE
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -16030,7 +16030,7 @@ focus = {
 			}
 			every_state = {
 				limit = { is_core_of = SAF }
-				add_claim_by = NEE
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -16060,11 +16060,11 @@ focus = {
 			}
 			every_state = {
 				limit = { is_core_of = ENG }
-				add_claim_by = NEE
+			add_claim_by = NEE
 			}
 			every_state = {
 				limit = { is_core_of = IRE }
-				add_claim_by = NEE
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -16166,7 +16166,7 @@ focus = {
 			has_country_flag= lermund_dies_bruh
 		}
 		completion_reward = {
-			country_event = lermond.2
+		country_event = lermond.2
 		}
 	}
 
@@ -16186,10 +16186,10 @@ focus = {
 			has_country_flag= age_of_reason
 		}
 		completion_reward = {
-			country_event =  lermond.3
+		country_event =  lermond.3
 			add_ideas = NEE_new_england_synd
-			increase_ruling_party_popularity_by_5 = yes
-			add_radsoc_to_coalition = yes
+		increase_ruling_party_popularity_by_5 = yes
+		add_radsoc_to_coalition = yes
 		}
 	}
 
@@ -16209,7 +16209,7 @@ focus = {
 			has_country_flag= lermund_successor
 		}
 		completion_reward = {
-			country_event = lermond.4 
+		country_event = lermond.4 
 			add_ideas = NEE_lermund_heir
 		}
 	}
@@ -16226,15 +16226,15 @@ focus = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
+			completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_syndicalism_with_lermunds_characteristics"
 			swap_ideas = {
-				remove_idea = NEE_new_england_synd 
-				add_idea = NEE_new_england_synd_two
+						remove_idea = NEE_new_england_synd 
+						add_idea = NEE_new_england_synd_two
 			}
 			increase_ruling_party_popularity_by_5 = yes
+			}
 		}
-	}
 
 	#Focus for The New Labor Movement
 	focus = {
@@ -16249,7 +16249,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = lermond.5
+		country_event = lermond.5
 		}
 	}
 
@@ -16268,7 +16268,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_in_memory_of_ferrer"
 			swap_ideas = {
-				remove_idea = NEE_new_england_synd_two
+ 				remove_idea = NEE_new_england_synd_two
 				add_idea = NEE_new_england_synd_three
 			}
 			increase_ruling_party_popularity_by_10 = yes
@@ -16315,7 +16315,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = lermond.7
+		country_event = lermond.7
 		}
 	}
 
@@ -16335,7 +16335,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = lermond.8
+		country_event = lermond.8
 		}
 	}
 
@@ -16355,7 +16355,7 @@ focus = {
 			has_country_flag= NEE_unabomber
 		}
 		completion_reward = {
-			country_event = lermond.9
+		country_event = lermond.9
 			add_ideas = NEE_eusocialism
 		}
 	}
@@ -16376,7 +16376,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = lermond.10 
+		country_event = lermond.10 
 		}
 	}
 
@@ -16403,7 +16403,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_naturalist_state"
 			swap_ideas = {
-				remove_idea = NEE_lermund_heir
+ 				remove_idea = NEE_lermund_heir
 				add_idea = NEE_lermund_heir_two
 			}
 		}
@@ -16432,7 +16432,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_lermond_prot"
 			swap_ideas = {
-				remove_idea = NEE_lermund_heir
+ 				remove_idea = NEE_lermund_heir
 				add_idea = NEE_lermund_heir_three
 			}
 		}
@@ -16461,7 +16461,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_lermond_friend"
 			swap_ideas = {
-				remove_idea = NEE_lermund_heir
+ 				remove_idea = NEE_lermund_heir
 				add_idea = NEE_lermund_heir_four
 			}
 		}
@@ -16553,7 +16553,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_doctrine_of_eusocialism"
 			swap_ideas = {
-				remove_idea = NEE_eusocialism
+ 				remove_idea = NEE_eusocialism
 				add_idea = NEE_eusocialism_two
 			}
 		}
@@ -16595,7 +16595,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_new_synthesis"
 			country_event = lermond.15
 			swap_ideas = {
-				remove_idea = NEE_eusocialism_two
+ 				remove_idea = NEE_eusocialism_two
 				add_idea = NEE_eusocialism_three
 			}
 		}
@@ -16631,7 +16631,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = lermond.16
+		country_event = lermond.16
 			hidden_effect = {
 				country_event = {
 					id = lermond.23
@@ -16647,11 +16647,11 @@ focus = {
 		icon = GFX_goal_usa
 		cost = 5
 		available = {
-			has_country_flag = NEE_united_america
-			NOT = {
-				has_country_flag = NEE_lovecraftians_win
-				has_country_flag = NEE_GOV_APPOINTED
-			}
+				has_country_flag = NEE_united_america
+				NOT = {
+					has_country_flag = NEE_lovecraftians_win
+					has_country_flag = NEE_GOV_APPOINTED
+				}
 			is_subject = no
 			is_major = yes
 			has_army_manpower = { size > 105000 }
@@ -16936,10 +16936,10 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_sprit_of_monroe"
 			if = {
-				limit = { has_idea = CAL_new_moralism_idea }
-				swap_ideas = {
-					remove_idea = CAL_new_moralism_idea
-					add_idea = CAL_spirit_of_monroe_idea
+			limit = { has_idea = CAL_new_moralism_idea }
+			swap_ideas = {
+			remove_idea = CAL_new_moralism_idea
+			add_idea = CAL_spirit_of_monroe_idea
 				}
 				else = { add_ideas = CAL_spirit_of_monroe_idea }
 			}
@@ -17022,8 +17022,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_business_of_neutrality"
 			swap_ideas = {
-				remove_idea = CAL_look_inward_idea
-				add_idea = CAL_look_inward_idea_2
+			remove_idea = CAL_look_inward_idea
+			add_idea = CAL_look_inward_idea_2
 			}
 			add_stability = 0.08
 			add_tech_bonus = {
@@ -17059,8 +17059,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_leap_forward"
 			swap_ideas = {
-				remove_idea = CAL_look_inward_idea_2
-				add_idea = CAL_look_inward_idea_3
+			remove_idea = CAL_look_inward_idea_2
+			add_idea = CAL_look_inward_idea_3
 			}
 			random_owned_controlled_state = {
 				if = {
@@ -17120,8 +17120,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_american_century"
 			swap_ideas = {
-				remove_idea = CAL_look_inward_idea_3
-				add_idea = CAL_look_inward_idea_4
+			remove_idea = CAL_look_inward_idea_3
+			add_idea = CAL_look_inward_idea_4
 			}
 			add_stability = 0.15
 			add_political_power = 100
@@ -17208,7 +17208,7 @@ focus = {
 			add_ideas = NEE_league_of_america_1
 			if = {
 				limit = { is_in_faction = no }
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_anti_imperial
 				icon = GFX_faction_anti_imperial_league
@@ -17258,7 +17258,7 @@ focus = {
 				add_opinion_modifier = { target = NEE modifier = medium_decrease }
 			}
 			if = {
-				limit = {
+				limit = { 
 					PHI = {
 						exists = yes
 						NOT = { is_puppet_of = JAP }
@@ -17270,7 +17270,7 @@ focus = {
 				}
 			}
 			if = {
-				limit = {
+				limit = { 
 					QIE = {
 						exists = yes
 						NOT = { is_puppet_of = JAP }
@@ -17282,7 +17282,7 @@ focus = {
 				}
 			}
 			if = {
-				limit = {
+				limit = { 
 					VIN = {
 						exists = yes
 						NOT = { is_puppet_of = JAP }
@@ -17294,7 +17294,7 @@ focus = {
 				}
 			}
 			if = {
-				limit = {
+				limit = { 
 					CHI = {
 						exists = yes
 						NOT = { is_puppet_of = JAP }
@@ -17412,23 +17412,23 @@ focus = {
 			if = {
 				limit = { FROM = { is_in_faction_with = ROOT } }
 				FROM = {
-					random_owned_controlled_state = {
-						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = arms_factory
-							level = 2
-							instant_build = yes
-						}
-					}
-				}
-			}
-			else = {
 				random_owned_controlled_state = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = arms_factory
 						level = 2
 						instant_build = yes
+						}
+					}
+				}	
+				}
+				else = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
 					}
 				}
 			}
@@ -17474,9 +17474,9 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_maf_investigation"
 			hidden_effect = {
-				country_event = {
-					id = ustates.676
-					days = 3
+			country_event = {
+				id = ustates.676
+				days = 3
 				}
 			}
 			LIB = { add_opinion_modifier = { target = NEE modifier = medium_increase } }
@@ -17524,19 +17524,19 @@ focus = {
 			}
 			navy_experience = 10
 			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = naval_doctrine
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = naval_doctrine
 			}
 			if = {
 				limit = { FROM = { is_in_faction_with = ROOT } }
-				add_doctrine_cost_reduction = {
-					name = naval_doc_bonus
-					cost_reduction = 0.5
-					uses = 1
-					category = naval_doctrine
-				}
+			add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = naval_doctrine
+			}
 			}
 		}
 	}
@@ -17618,11 +17618,11 @@ focus = {
 				is_in_faction_with = CAN
 			}
 			NOT = {
-				ENT = {
-					is_puppet_of = NEE
-					has_war_with = NEE
-				}
-				has_country_flag = NEE_broken_ties_with_brits_tt
+			ENT = {
+			is_puppet_of = NEE
+			has_war_with = NEE
+			}
+			has_country_flag = NEE_broken_ties_with_brits_tt
 			}
 		}
 		bypass = { is_in_faction_with = ENT }
@@ -17668,9 +17668,9 @@ focus = {
 		x = -2
 		y = 2
 		bypass = {
-			AST = {
+		AST = {
 				OR = {
-					exists = no
+		exists = no
 					NOT = { is_in_faction_with = ROOT }
 				}
 			}
@@ -17697,17 +17697,17 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_support_eastern_allies"
 			AST = {
-				navy_experience = 10
-				random_owned_controlled_state = {
-					limit = {
-						is_coastal = yes
-						free_building_slots = { building = dockyard size > 0 }
+			navy_experience = 10
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+					free_building_slots = { building = dockyard size > 0 }
 					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
 					}
 				}
 			}
@@ -17753,16 +17753,16 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_tokyo_talks"
 			JAP = { add_opinion_modifier = { target = JAP modifier = small_increase } }
 			diplomatic_relation = {
-				country = JAP
-				relation = non_aggression_pact
-				active = yes
+			country = JAP
+			relation = non_aggression_pact
+			active = yes
 			}
 			JAP = {
-				diplomatic_relation = {
-					country = NEE
-					relation = non_aggression_pact
-					active = yes
-				}
+			diplomatic_relation = {
+			country = NEE
+			relation = non_aggression_pact
+			active = yes
+			}
 			}
 		}
 	}
@@ -17799,9 +17799,9 @@ focus = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 45
-				producer = NEE
+			type = convoy
+			amount = 45
+			producer = NEE
 			}
 		}
 	}
@@ -17848,10 +17848,10 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_enter_the_fray"
 			add_war_support = 0.03
 			CAN = {
-				add_political_power = 20
-				army_experience = 10
-				navy_experience = 10
-				air_experience = 10
+			add_political_power = 20
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
 			}
 			army_experience = 10
 			navy_experience = 10
@@ -17882,14 +17882,14 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_arsenal_of_democracy"
 			add_ideas = USA_arsenal_of_democracy_idea
 			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 2000
-				producer = NEE
+			type = support_equipment
+			amount = 2000
+			producer = NEE
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 3000
-				producer = NEE
+			type = infantry_equipment
+			amount = 3000
+			producer = NEE
 			}
 		}
 	}
@@ -17968,20 +17968,20 @@ focus = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1
-					amount = -200
-					producer = NEE
-				}
+				type = light_tank_equipment_1
+				amount = -200
+				producer = NEE
+			}
 			}
 			if = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis
-					amount = -200
-					producer = NEE
-				}
+				type = light_tank_chassis
+				amount = -200
+				producer = NEE
+			}
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
@@ -18009,10 +18009,10 @@ focus = {
 						has_dlc = "No Step Back"
 					}
 					add_equipment_to_stockpile = {
-						type = light_tank_chassis
-						amount = 200
-						producer = NEE
-					}
+					type = light_tank_chassis
+					amount = 200
+					producer = NEE
+				}
 				}
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
@@ -18050,42 +18050,42 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_lion_and_the_eagle"
 			CAN = {
-				random_owned_state = {
-					limit = {
-						is_core_of = CAN
-						is_controlled_by = CAN
-						is_coastal = yes
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
+			random_owned_state = {
+				limit = {
+					is_core_of = CAN
+					is_controlled_by = CAN
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
 					}
 				}
-				random_owned_state = {
-					limit = {
-						is_core_of = CAN
-						is_controlled_by = CAN
-						is_coastal = yes
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
+			random_owned_state = {
+				limit = {
+					is_core_of = CAN
+					is_controlled_by = CAN
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
 					}
 				}
 				CAN = {
-					add_tech_bonus = {
-						name = navy_air_bonus
-						bonus = 1
-						uses = 1
-						category = naval_air
-					}
+				add_tech_bonus = {
+				name = navy_air_bonus
+				bonus = 1
+				uses = 1
+				category = naval_air
+				}
 				}
 			}
-			add_tech_bonus = {
+				add_tech_bonus = {
 				name = navy_air_bonus
 				bonus = 1
 				uses = 1
@@ -18117,32 +18117,32 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_the_lion_and_the_eagle"
 			NFA = {
-				random_owned_state = {
-					limit = {
-						is_core_of = NFA
-						is_controlled_by = NFA
-						is_coastal = yes
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
+			random_owned_state = {
+				limit = {
+					is_core_of = NFA
+					is_controlled_by = NFA
+					is_coastal = yes
 				}
-				random_owned_state = {
-					limit = {
-						is_core_of = NFA
-						is_controlled_by = NFA
-						is_coastal = yes
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
 				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = NFA
+					is_controlled_by = NFA
+					is_coastal = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			}
 		}
 	}
@@ -18171,19 +18171,19 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_bolster_dominion"
 			add_manpower = -2000
 			DEH = {
-				add_manpower = 2000
-				army_experience = 15
-				random_owned_state = {
-					limit = {
-						is_core_of = DEH
-						is_controlled_by = DEH
-						arms_factory > 0
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
+			add_manpower = 2000
+			army_experience = 15
+			random_owned_state = {
+				limit = {
+					is_core_of = DEH
+					is_controlled_by = DEH
+					arms_factory > 0
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
 					}
 				}
 			}
@@ -18222,32 +18222,32 @@ focus = {
 				}
 			}
 			NFA = {
-				random_owned_state = {
-					limit = {
-						is_core_of = NFA
-						is_controlled_by = NFA
-						industrial_complex > 0
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
+			random_owned_state = {
+				limit = {
+					is_core_of = NFA
+					is_controlled_by = NFA
+					industrial_complex > 0
 				}
-				random_owned_state = {
-					limit = {
-						is_core_of = NFA
-						is_controlled_by = NFA
-						industrial_complex > 0
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
 				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = NFA
+					is_controlled_by = NFA
+					industrial_complex > 0
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 			}
 		}
 	}
@@ -18298,8 +18298,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_european_recovery_program"
 			create_wargoal = {
-				type = annex_everything
-				target = PER
+			type = annex_everything
+			target = PER
 			}
 			add_war_support = 0.03
 		}
@@ -18356,10 +18356,10 @@ focus = {
 		}
 		available = {
 			MEX = {
-				OR = {
-					has_socialist_government = no
-					is_puppet_of = NEE
-				}
+			OR = {
+			has_socialist_government = no
+			is_puppet_of = NEE
+			}
 			}
 		}
 		relative_position_id = NEE_new_interventionism
@@ -18388,13 +18388,13 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_ally_new_mexico"
 			MEX = {
-				add_opinion_modifier = { target = NEE modifier = large_increase }
-				add_tech_bonus = {
-					name = infantry_bonus
-					bonus = 0.25
-					uses = 1
-					category = infantry_weapons
-				}
+			add_opinion_modifier = { target = NEE modifier = large_increase }
+			add_tech_bonus = {
+				name = infantry_bonus
+				bonus = 0.25
+				uses = 1
+				category = infantry_weapons
+			}
 			}
 		}
 	}
@@ -18421,186 +18421,186 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_stop_south_american_syndicalism"
 			if = {
-				limit = {
-					GUA = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = GUA
+			limit = {
+			GUA = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = GUA
 				}
 			}
 			if = {
-				limit = {
-					HON = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = HON
+			limit = {
+			HON = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = HON
 				}
 			}
 			if = {
-				limit = {
-					PRU = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = PRU
+			limit = {
+			PRU = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = PRU
 				}
 			}
 			if = {
-				limit = {
-					ELS = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = ELS
+			limit = {
+			ELS = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = ELS
 				}
 			}
 			if = {
-				limit = {
-					PAN = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = PAN
+			limit = {
+			PAN = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = PAN
 				}
 			}
 			if = {
-				limit = {
-					MEX = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = MEX
+			limit = {
+			MEX = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = MEX
 				}
 			}
 			if = {
-				limit = {
-					CUB = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = CUB
+			limit = {
+			CUB = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = CUB
 				}
 			}
 			if = {
-				limit = {
-					HAI = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = HAI
+			limit = {
+			HAI = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = HAI
 				}
 			}
 			if = {
-				limit = {
-					DOM = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = DOM
+			limit = {
+			DOM = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = DOM
 				}
 			}
 			if = {
-				limit = {
-					NIC = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = NIC
+			limit = {
+			NIC = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = NIC
 				}
 			}
 			if = {
-				limit = {
-					COS = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = COS
+			limit = {
+			COS = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = COS
 				}
 			}
 			if = {
-				limit = {
-					COL = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = COL
+			limit = {
+			COL = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = COL
 				}
 			}
 			if = {
-				limit = {
-					VEN = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = VEN
+			limit = {
+			VEN = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = VEN
 				}
 			}
 			if = {
-				limit = {
-					ECU = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = ECU
+			limit = {
+			ECU = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = ECU
 				}
 			}
 			if = {
-				limit = {
-					FOP = { 
-						has_socialist_government = yes
-						exists = yes 
-					}
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = FOP
+			limit = {
+			FOP = { 
+				has_socialist_government = yes
+				exists = yes 
+			}
+		    }
+			create_wargoal = {
+			type = annex_everything
+			target = FOP
 				}
 			}
 			if = {
-				limit = {
-					BRA = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = BRA
+			limit = {
+			BRA = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = BRA
 				}
 			}
 			if = {
-				limit = {
-					PAR = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = PAR
+			limit = {
+			PAR = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = PAR
 				}
 			}
 			if = {
-				limit = {
-					URG = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = URG
+			limit = {
+			URG = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = URG
 				}
 			}
 			if = {
-				limit = {
-					BOL = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = BOL
+			limit = {
+			BOL = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = BOL
 				}
 			}
 			if = {
-				limit = {
-					CHL = { has_socialist_government = yes }
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = CHL
+			limit = {
+			CHL = { has_socialist_government = yes }
+			}
+			create_wargoal = {
+			type = annex_everything
+			target = CHL
 				}
 			}
 		}
@@ -18622,7 +18622,7 @@ focus = {
 		y = 4
 
 		ai_will_do = {
-			factor = 10
+				factor = 10
 		}
 
 		completion_reward = {
@@ -18644,10 +18644,10 @@ focus = {
 			}
 			add_equipment_to_stockpile = { type = convoy amount = 50 }
 			if = {
-				limit = {
+			limit = {
 					FROM = { is_puppet_of = NEE }
-				}
-				add_opinion_modifier = { target = NEE modifier = medium_increase }
+			}
+			add_opinion_modifier = { target = NEE modifier = medium_increase }
 			}
 			if = {
 				limit = {
@@ -18754,8 +18754,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_national_rhetoric"
 			swap_ideas = {
-				remove_idea = USA_american_imperialism_idea
-				add_idea = USA_american_imperialism_idea_2
+			remove_idea = USA_american_imperialism_idea
+			add_idea = USA_american_imperialism_idea_2
 			}
 			add_manpower = 12250
 			add_war_support = 0.1
@@ -18786,8 +18786,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_new_marine_corps"
 			swap_ideas = {
-				remove_idea = USA_american_imperialism_idea_2
-				add_idea = USA_american_imperialism_idea_3
+			remove_idea = USA_american_imperialism_idea_2
+			add_idea = USA_american_imperialism_idea_3
 			}
 			add_manpower = 5000
 		}
@@ -18907,8 +18907,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_take_panama"
 			685 = {
-				add_core_of = NEE
-				add_extra_state_shared_building_slots = 1
+			add_core_of = NEE
+			add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
 					level = 1
@@ -18951,12 +18951,12 @@ focus = {
 			add_stability = 0.08
 			add_manpower = 20000
 			create_wargoal = {
-				type = annex_everything
-				target = LIB
+			type = annex_everything
+			target = LIB
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = SAF
+			type = annex_everything
+			target = SAF
 			}
 		}
 	}
@@ -19109,7 +19109,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_atlantic_base"
 			101 = {
-				if = {
+			if = {
 					limit = { is_owned_and_controlled_by = NEE }
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
@@ -19155,14 +19155,14 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_strike_britain"
 			create_wargoal = {
-				type = annex_everything
-				target = ENG
+			type = annex_everything
+			target = ENG
 			}
 			add_war_support = 0.03
 			add_equipment_to_stockpile = {
-				type = convoy
-				amount = 40
-				producer = NEE
+			type = convoy
+			amount = 40
+			producer = NEE
 			}
 		}
 	}
@@ -19214,15 +19214,15 @@ focus = {
 				is_faction_leader = yes
 			}
 			OR = {
-				629 = { #HAWAII
-					owner = {
-						OR = {
-							tag = ROOT
-							is_subject_of = ROOT
+			629 = { #HAWAII
+				owner = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
 						}
 					}
 				}
-				controls_state = 629
+			controls_state = 629
 			}
 		}
 		relative_position_id = NEE_look_east
@@ -19236,7 +19236,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_hawaiian_launchpad"
 			629 = {
-				if = {
+			if = {
 					limit = { is_owned_and_controlled_by = NEE }
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
@@ -19275,8 +19275,8 @@ focus = {
 			add_war_support = 0.03
 			create_wargoal = { type = annex_everything target = PHI }
 			every_state = {
-				limit = { is_core_of = PHI }
-				add_claim_by = NEE
+			limit = { is_core_of = PHI }
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -19307,8 +19307,8 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_claim_the_east_indies"
 			add_war_support = 0.03
 			every_state = {
-				limit = { is_core_of = INS }
-				add_claim_by = NEE
+			limit = { is_core_of = INS }
+			add_claim_by = NEE
 			}
 		}
 	}
@@ -19344,8 +19344,8 @@ focus = {
 			increase_ruling_party_popularity_by_5 = yes
 			add_manpower = 20000
 			create_wargoal = {
-				type = annex_everything
-				target = SIA
+			type = annex_everything
+			target = SIA
 			}
 		}
 	}
@@ -19372,21 +19372,21 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_vietnam_yesterday"
 			create_wargoal = {
-				type = annex_everything
-				target = VIN
+			type = annex_everything
+			target = VIN
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = INC
+			type = annex_everything
+			target = INC
 			}
 			if = {
 				limit = { GEA = { exists = yes } }
-				GER = {
-					country_event = {
-						id = ustates.673
-						days = 1
-					}
+			GER = {
+			country_event = {
+				id = ustates.673
+				days = 1
 				}
+			}
 			}
 		}
 	}
@@ -19411,8 +19411,8 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_ports_of_south_china"
 			create_wargoal = {
-				type = annex_everything
-				target = LEC
+			type = annex_everything
+			target = LEC
 			}
 			add_state_claim = 728
 			add_state_claim = 729
@@ -19443,9 +19443,9 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NEE_strike_japan"
 			create_wargoal = {
-				type = annex_everything
-				target = JAP
+			type = annex_everything
+			target = JAP
 			}
 		}
 	}
-}
+}	

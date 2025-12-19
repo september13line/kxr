@@ -117,16 +117,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = { type = arms_factory level = 1	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = { type = arms_factory level = 1	instant_build = yes }
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -173,7 +173,7 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 2
 				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			hidden_effect = {
@@ -205,8 +205,8 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -387,8 +387,8 @@ focus_tree = {
 				}
 				promote_leader = yes
 			}
-			create_corps_commander = {# Manuel Perez Treviño
-				name = "Manuel Perez Treviño "
+			create_corps_commander = {# Мануэль Перес Тревиньо
+				name = "Мануэль Перес Тревиньо "
 				portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Manuel_Trevibno.png"
 				traits = {
 					old_guard
@@ -403,7 +403,7 @@ focus_tree = {
 				logistics_skill = 2
 			}
 			create_corps_commander = {
-				name = "Lázaro Cárdenas del Rio "
+				name = "Ласаро Карденас "
 				portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Lazaro_Cardenas_General.png"
 				traits = {
 					politically_connected
@@ -632,7 +632,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Lázaro Cárdenas del Rio"
+				name = "Ласаро Карденас"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_cardenas_succedes_calles
@@ -640,7 +640,7 @@ focus_tree = {
 		bypass = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Lázaro Cárdenas del Rio"
+				name = "Ласаро Карденас"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_cardenas_succedes_calles
@@ -669,7 +669,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Lázaro Cárdenas del Rio"
+				name = "Ласаро Карденас"
 				ruling_only = yes
 			}
 		}
@@ -697,7 +697,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Emilio Portes Gil"
+				name = "Эмилио Портес Хиль"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_gil_succedes_calles
@@ -705,7 +705,7 @@ focus_tree = {
 		bypass = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Emilio Portes Gil"
+				name = "Эмилио Портес Хиль"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_gil_succedes_calles
@@ -734,7 +734,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Emilio Portes Gil"
+				name = "Эмилио Портес Хиль"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_gil_succedes_calles
@@ -769,7 +769,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Emilio Portes Gil"
+				name = "Эмилио Портес Хиль"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_gil_succedes_calles
@@ -799,7 +799,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Emilio Portes Gil"
+				name = "Эмилио Портес Хиль"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_gil_succedes_calles
@@ -830,7 +830,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Manuel Perez Treviño"
+				name = "Мануэль Перес Тревиньо"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_trevino_succedes_calles
@@ -859,7 +859,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Manuel Perez Treviño"
+				name = "Мануэль Перес Тревиньо"
 				ruling_only = yes
 			}
 		}
@@ -890,7 +890,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Manuel Perez Treviño"
+				name = "Мануэль Перес Тревиньо"
 				ruling_only = yes
 			}
 		}
@@ -918,7 +918,7 @@ focus_tree = {
 		available = { 
 			has_government = totalist 
 			has_country_leader = {
-				name = "Manuel Perez Treviño"
+				name = "Мануэль Перес Тревиньо"
 				ruling_only = yes
 			}
 		}
@@ -1065,13 +1065,13 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = { type = industrial_complex level = 1	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -1112,21 +1112,21 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1207,8 +1207,8 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -1315,16 +1315,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 480 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 482 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1455,21 +1455,21 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1491,7 +1491,7 @@ focus_tree = {
 			if = {	
 				limit = { 
 					has_country_leader = { 
-						name = "Pancho Villa" 
+						name = "Панчо Вилья" 
 						ruling_only = yes 
 					} 
 				}
@@ -1581,8 +1581,8 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1695,16 +1695,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 477 }
-				add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 2
 				add_building_construction = { type = dockyard level = 2	instant_build = yes }
-			}
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 480 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1917,28 +1917,28 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1971,16 +1971,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -2127,8 +2127,8 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 482 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -2416,15 +2416,15 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = { type = industrial_complex level = 1	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 3
 			}
 		}
 	}
@@ -2528,7 +2528,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2560,7 +2560,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2590,7 +2590,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2643,7 +2643,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2661,26 +2661,26 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -2723,7 +2723,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2741,24 +2741,24 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
-				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
+				prioritize = { 478 }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 			swap_ideas = {
 				remove_idea = MEX_planned_economy1
@@ -2784,7 +2784,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2823,7 +2823,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2866,7 +2866,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2903,7 +2903,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2942,7 +2942,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -2989,7 +2989,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3020,7 +3020,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3060,7 +3060,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3096,7 +3096,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3134,7 +3134,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3179,7 +3179,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3211,7 +3211,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3239,7 +3239,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_country_leader = {
-					name = "Vicente Toledano"
+					name = "Висенте Толедано"
 					ruling_only = yes
 				}
 				has_government = totalist
@@ -3280,7 +3280,7 @@ focus_tree = {
 	############## COUNTER REVOLUTIONARY PATH ##############
 	########################################################
 	
-	### Military Junta Non-Garza ###
+	### Военная хунта Non-Garza ###
 	#Focus for Felix Diaz
 	focus = {
 		id = MEX_felix_diaz
@@ -3290,14 +3290,14 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Félix Díaz Prieto"
+				name = "Феликс Диас Прието"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Félix Díaz Prieto"
+				name = "Феликс Диас Прието"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3323,7 +3323,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Félix Díaz Prieto"
+				name = "Феликс Диас Прието"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3355,7 +3355,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Félix Díaz Prieto"
+				name = "Феликс Диас Прието"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3392,7 +3392,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Félix Díaz Prieto"
+				name = "Феликс Диас Прието"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3423,11 +3423,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3461,11 +3461,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3496,11 +3496,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3530,14 +3530,14 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Juan Barragán Rodríguez"
+				name = "Хуан Барраган Родригес"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Juan Barragán Rodríguez"
+				name = "Хуан Барраган Родригес"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3564,11 +3564,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3603,11 +3603,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3639,11 +3639,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3674,7 +3674,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Juan Barragán Rodríguez"
+				name = "Хуан Барраган Родригес"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3706,7 +3706,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Juan Barragán Rodríguez"
+				name = "Хуан Барраган Родригес"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3735,7 +3735,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Juan Barragán Rodríguez"
+				name = "Хуан Барраган Родригес"
 				ruling_only = yes
 			}
 			has_country_flag = MEX_Junta_Stays
@@ -3762,11 +3762,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3791,26 +3791,26 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -3843,11 +3843,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3891,11 +3891,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -3948,11 +3948,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Juan Barragán Rodríguez"
+					name = "Хуан Барраган Родригес"
 					ruling_only = yes
 				}
 			}
@@ -4020,7 +4020,7 @@ focus_tree = {
 		available = {
 			has_country_flag = MEX_a_new_diaz
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4042,7 +4042,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_country_leader = { name = "Pablo Gonzalez Garza" ruling_only = yes }
+					has_country_leader = { name = "Пабло Гонсалес Гарса" ruling_only = yes }
 				}
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/MEX/Portrait_Mexico_Garza.png"
@@ -4061,7 +4061,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4089,7 +4089,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4137,7 +4137,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4169,7 +4169,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4200,7 +4200,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4230,7 +4230,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4260,7 +4260,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4296,7 +4296,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4331,7 +4331,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4366,7 +4366,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4425,7 +4425,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4459,7 +4459,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4502,7 +4502,7 @@ focus_tree = {
 		}
 	}
 	
-	#Focus for Military Junta
+	#Focus for Военная хунта
 	focus = {
 		id = MEX_JUNTA_military_junta
 		icon = GFX_goal_MEX_Military_Junta
@@ -4512,7 +4512,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4545,7 +4545,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4576,7 +4576,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4624,7 +4624,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4654,7 +4654,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4693,7 +4693,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "Pablo Gonzalez Garza"
+				name = "Пабло Гонсалес Гарса"
 				ruling_only = yes
 			}
 		}
@@ -4907,7 +4907,7 @@ focus_tree = {
 		}
 	}
 	
-	## Salvador Abascal ##
+	## Сальвадор Абаскаль ##
 	
 	focus = {# 
 		id = MEX_The_Student
@@ -5044,7 +5044,7 @@ focus_tree = {
 		}
 	}
 	
-	## Jose Vasconcelos ##
+	## Хосе Васконселос ##
 	
 	focus = {# 
 		id = MEX_The_Teacher
@@ -5457,16 +5457,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			add_tech_bonus = {
 				name = MEX_privitization
@@ -5505,26 +5505,26 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -5872,16 +5872,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			add_tech_bonus = {
 				name = MEX_privitization
@@ -5920,26 +5920,26 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -6143,19 +6143,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6184,19 +6184,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6224,19 +6224,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6267,19 +6267,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 		OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6300,16 +6300,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 		}
 	}
@@ -6326,19 +6326,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6359,26 +6359,26 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -6401,19 +6401,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6453,19 +6453,19 @@ focus_tree = {
 			has_country_flag = MEX_synarchists_in_charge
 			OR = {
 				has_country_leader = {
-				name = "Jose Antonio Urquiza"
+				name = "Хосе Антонио Уркиза"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 			}
@@ -6709,23 +6709,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -6764,23 +6764,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -6803,16 +6803,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = arms_factory level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = arms_factory level = 2	instant_build = yes }
 			}
 		}
 	}
@@ -6828,23 +6828,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -6867,16 +6867,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 	}
@@ -6892,23 +6892,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -6937,23 +6937,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -6982,23 +6982,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -7030,23 +7030,23 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "José Vasconcelos"
+				name = "Хосе Васконселос"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Salvador Abascal"
+				name = "Сальвадор Абаскаль"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				ruling_only = yes
 				}
 
@@ -7121,14 +7121,14 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7157,7 +7157,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7192,7 +7192,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7227,7 +7227,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7270,7 +7270,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7300,7 +7300,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7357,7 +7357,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7392,7 +7392,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7449,7 +7449,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7465,37 +7465,37 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			swap_ideas = {
 				remove_idea = MEX_revolution_economic2
@@ -7515,7 +7515,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7579,7 +7579,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Nicolás Rodríguez Carrasco"
+				name = "Николас Родригес Карраско"
 				ruling_only = yes
 			}
 		}
@@ -7729,14 +7729,14 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -7765,7 +7765,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -7824,7 +7824,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -7840,37 +7840,37 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			swap_ideas = {
 				remove_idea = MEX_revolution_economic2
@@ -7890,7 +7890,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -7936,7 +7936,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -7978,7 +7978,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8013,7 +8013,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8057,7 +8057,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8086,7 +8086,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8121,7 +8121,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8156,7 +8156,7 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Roque Garza"
+				name = "Роке Гарса"
 				ruling_only = yes
 			}
 		}
@@ -8196,7 +8196,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8205,7 +8205,7 @@ focus_tree = {
 		bypass = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8231,7 +8231,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8273,7 +8273,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8315,7 +8315,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8345,7 +8345,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8369,21 +8369,21 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 		}
 	}
@@ -8398,7 +8398,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8431,7 +8431,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8467,7 +8467,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8482,9 +8482,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_aztec_elite"
 			if = {
 				limit = { NOT = { has_completed_focus = MEX_GOL_the_warrior_state } }
-				set_technology = {
-					aztec_clubs = 1
-					melee_weapons_enable_tech = 1
+			set_technology = {
+				aztec_clubs = 1
+				melee_weapons_enable_tech = 1
 				}
 			}
 			add_equipment_to_stockpile = { type = aztec_club_0 amount = 1000 }
@@ -8512,7 +8512,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8542,7 +8542,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8575,7 +8575,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8608,7 +8608,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8629,39 +8629,39 @@ focus_tree = {
 				limit = {
 					is_core_of = MEX
 				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
 				}
-				add_extra_state_shared_building_slots = 2
-			}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
 				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
 				}
-				add_extra_state_shared_building_slots = 2
-			}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			hidden_effect = {
 				country_event = {
@@ -8682,7 +8682,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8700,35 +8700,35 @@ focus_tree = {
 				limit = {
 					is_core_of = MEX
 				}
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
 				}
-				add_extra_state_shared_building_slots = 2
-			}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
 				}
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
 				}
-				add_extra_state_shared_building_slots = 2
-			}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
 				}
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 2
 				}
-				add_extra_state_shared_building_slots = 2
-			}
 			add_war_support = 0.10
 			hidden_effect = {
 				country_event = {
@@ -8753,7 +8753,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				has_country_leader = {
-					name = "Frida Kahlo"
+					name = "Фрида Кало"
 					ruling_only = yes
 				}
 				tooltip = MEX_mexicaytol_take_charge
@@ -8801,19 +8801,19 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
 		allow_branch = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -8837,7 +8837,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -8862,7 +8862,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -8874,7 +8874,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_santa_muerte"
 			if = {	
-				limit = { has_country_leader = { name = "María III" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Мария III" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/MEX/Portrait_Mexico_Maria_III_paint.png"
 				}
@@ -8903,7 +8903,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -8938,7 +8938,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -8997,7 +8997,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9034,7 +9034,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9078,7 +9078,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9094,21 +9094,21 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 			add_ideas = MEX_the_road_to_glory
 			hidden_effect = {
@@ -9130,7 +9130,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9159,7 +9159,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9188,7 +9188,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9208,21 +9208,21 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
 			}
 			create_wargoal = {
 				target = YUC
@@ -9241,7 +9241,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9257,16 +9257,16 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 			swap_ideas = {
 				remove_idea = MEX_revolution_economic2
@@ -9289,7 +9289,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9356,7 +9356,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -9442,7 +9442,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_a_mexican_monarch
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9473,7 +9473,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9501,7 +9501,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9533,7 +9533,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9562,7 +9562,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9601,7 +9601,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9637,7 +9637,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9675,7 +9675,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9706,7 +9706,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9740,7 +9740,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9787,7 +9787,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_fernando_i_de_moctezuma
 		available = {
 			has_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				ruling_only = yes
 			}
 		}
@@ -9918,37 +9918,37 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 	}
@@ -9964,11 +9964,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -9999,11 +9999,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10034,11 +10034,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10074,11 +10074,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10108,11 +10108,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10153,11 +10153,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10195,11 +10195,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10239,11 +10239,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10270,11 +10270,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10316,11 +10316,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10369,11 +10369,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				ruling_only = yes
 				}
 				has_country_leader = {
-				name = "María II"
+				name = "Мария II"
 				ruling_only = yes
 			}
 			}
@@ -10528,42 +10528,42 @@ focus_tree = {
 					is_core_of = MEX
 				}
 				prioritize = { 277 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 477 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 485 }
-				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-			}
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 277 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
-			}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+				}
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = MEX
-				}
+			}
 				prioritize = { 478 }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = industrial_complex level = 2	instant_build = yes }
 			}
 		}
 	}
 
-	#Focus for Porfirio I de Diaz
+	#Focus for Порфирио I de Diaz
 	focus = {
 		id = MEX_MEK_porfirio_i_de_diaz
 		icon = GFX_goal_MEX_Porfirio_I_de_Diaz
@@ -10573,7 +10573,7 @@ focus_tree = {
 		cost = 0
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10599,7 +10599,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10629,7 +10629,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10657,7 +10657,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10685,7 +10685,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10722,7 +10722,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10758,7 +10758,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10794,7 +10794,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10830,7 +10830,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10859,7 +10859,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -10901,7 +10901,7 @@ focus_tree = {
 		relative_position_id = MEX_MEK_porfirio_i_de_diaz
 		available = {
 			has_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				ruling_only = yes
 			}
 		}
@@ -11963,8 +11963,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_social_security"
 			add_stability = 0.05
-			random_owned_controlled_state = {
-				limit = {
+			random_owned_controlled_state = {	
+				limit = { 
 					is_core_of = MEX
 					free_building_slots = { 
 						building = industrial_complex 
@@ -12516,8 +12516,8 @@ focus_tree = {
 				name = MEX_DL_authoritarian_democrat_party
 				long_name = MEX_DL_authoritarian_democrat_party_long
 			}
-			create_country_leader = {# Juan Andreu Almazán
-				name = "Juan Andreu Almazán"
+			create_country_leader = {# Хуан Андреу Альмасан
+				name = "Хуан Андреу Альмасан"
 				desc = "POLITICS_JUAN_ALMAZAN_DESC"
 				picture = "Portrait_Mexico_Juan_Almazan.png"
 				expire = "1.1.1"

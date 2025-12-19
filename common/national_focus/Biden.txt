@@ -561,7 +561,7 @@
 			hidden_effect = {
 				IRE = {
 					if = {	
-						limit = { has_country_leader = { name = "Seosamh Uí Bhiodáin" ruling_only = yes } }
+						limit = { has_country_leader = { name = "Сеосамх Уи Бхиодайн" ruling_only = yes } }
 						set_country_leader_portrait = {
 							portrait = "GFX_Portrait_Seosamh_Ui_Bhiodain_Animated"
 						}
@@ -805,7 +805,7 @@ focus_tree = {
 			if = {
 				limit = {	
 					has_country_leader = {
-						name = "Seosamh Uí Bhiodáin"
+						name = "Сеосамх Уи Бхиодайн"
 						ruling_only = yes
 					}
 					NOT = {
@@ -1349,7 +1349,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus IRE_biden_resigns"
 			country_event = ire_biden.19
 			create_country_leader = {
-				name = "Mary Lou McDonald"
+				name = "Мэри Лу Макдональд"
 				desc = "POLITICS_MARY_LOU_MCDONALD_DESC"
 				picture = "gfx/leaders/APF/Portrait_Ireland_Mary_Lou_McDonald.png"
 				expire = "1.1.1"

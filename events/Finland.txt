@@ -203,7 +203,7 @@ country_event = { #The King makes his decision
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = { rule = FIN_future option = FIN_FUTURE_LAPUA }
+				has_game_rule = { rule = FIN_future option = FIN_FUTURE_LAPUA }
 					has_game_rule = { rule = FIN_future option = FIN_FUTURE_LAPUA_KOSOLA }
 					has_game_rule = { rule = FIN_future option = FIN_FUTURE_LAPUA_KINGDOM }
 				}
@@ -691,7 +691,7 @@ country_event = { # Revolt
 			random_other_country = { news_event = worldnews.415 }
 		}		
 		create_country_leader = {
-			name = "Kurt Martti Wallenius"
+			name = "Курт Мартти Валлениус"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Kurt_Martti_Wallenius_KX.png"
 			expire = "1.1.1"
 			ideology = lapuanliike_subtype
@@ -1177,7 +1177,7 @@ country_event = { # Revolt
 			random_other_country = { news_event = worldnews.415 }
 		}	
 		create_country_leader = {
-			name = "Kurt Martti Wallenius"
+			name = "Курт Мартти Валлениус"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Kurt_Martti_Wallenius_KX.png"
 			expire = "1.1.1"
 			ideology = lapuanliike_subtype
@@ -1242,7 +1242,7 @@ country_event = { # Revolt
 		}
 		FIN_setup_vaino = yes			
 		create_country_leader = {
-			name = "Väinö I"
+			name = "Вяйнё I"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 			desc = "POLITICS_VAINO_DESC"
 			expire = "1.1.1"
@@ -1266,7 +1266,7 @@ country_event = { # Revolt
 		drop_cosmetic_tag = yes
 		FIN_setup_republican_leaders = yes
 		create_country_leader = {
-			name = "Vihtori Kosola"
+			name = "Вихтори Косола"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Vihtori_Kosola.png"
 			expire = "1.1.1"
 			ideology = lapuanliike_subtype
@@ -1465,22 +1465,22 @@ country_event = { #Revolution in Helsinki
 		}
 		effect_tooltip = {
 			create_field_marshal = {
-				name = "Eino Rahja "
+				name = "Эйно Рахья "
 			}
 			create_corps_commander = {
-				name = "Eemeli Toikka"
+				name = "Эмиль Тойкка"
 			}
 			create_corps_commander = {
-				name = "Johannes Heikkonen"
+				name = "Йоханнес Хейкконен"
 			}
 			create_corps_commander = {
-				name = "Hjalmar Kokko"
+				name = "Ялмар Кокко"
 			}
 			create_corps_commander = {
-				name = "Toivo Vähä"
+				name = "Тойво Вяхя"
 			}
 			create_corps_commander = {
-				name = "Toivo Antikainen"
+				name = "Тойво Антикайнен"
 			}
 		}
 		hidden_effect = {
@@ -1743,7 +1743,7 @@ country_event = { #Economy
 		name = finland.18.a
 		add_stability = -0.05
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_to_variable = { FIN_lapua_strength = 5 }
+			add_to_variable = { FIN_lapua_strength = 5 }
 		add_popularity = { ideology = syndicalist popularity = 0.02 }
 		add_popularity = { ideology = radical_socialist popularity = 0.01 }
 	}
@@ -2274,7 +2274,7 @@ country_event = { #Finnish snap elections
 						NOT = { has_country_flag = Frederik_Kaarle_dead }
 					}					
 					create_country_leader = {
-						name = "Fredrik Kaarle I"
+						name = "Фридрих Карл I"
 						desc = "POLITICS_FREDRIK_KAARLE_DESC"
 						picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 						expire = "1.1.1"
@@ -2283,7 +2283,7 @@ country_event = { #Finnish snap elections
 				}
 				else = {					
 					create_country_leader = {
-						name = "Väinö I"
+						name = "Вяйнё I"
 						picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 						desc = "POLITICS_VAINO_DESC"
 						expire = "1.1.1"
@@ -4120,7 +4120,7 @@ country_event = { #Russia has declined to sell us grain
 			add_timed_idea = {
 			idea = FIN_lack_of_grain_idea
 			days = 180
-		    }
+			}
 		}
 		else_if = {
 			limit = { has_idea = FIN_reduced_ukrainian_grain_imports_idea2 }
@@ -4128,7 +4128,7 @@ country_event = { #Russia has declined to sell us grain
 			add_timed_idea = {
 			idea = FIN_lack_of_grain_idea
 			days = 180
-		    }
+			}
 		}
 		else_if = {
 			limit = { has_idea = FIN_russian_grain_imports_idea }
@@ -4136,7 +4136,7 @@ country_event = { #Russia has declined to sell us grain
 			add_timed_idea = {
 			idea = FIN_lack_of_grain_idea
 			days = 180
-		    }
+			}
 		}
 		else = {
 			add_timed_idea = {
@@ -4256,7 +4256,7 @@ country_event = { #Ukraine has declined to sell us grain
 			add_timed_idea = {
 			idea = FIN_lack_of_grain_idea
 			days = 180
-		    }
+			}
 		}
 		else_if = {
 			limit = { has_idea = FIN_reduced_ukrainian_grain_imports_idea }
@@ -4264,7 +4264,7 @@ country_event = { #Ukraine has declined to sell us grain
 			add_timed_idea = {
 			idea = FIN_lack_of_grain_idea
 			days = 180
-		    }
+			}
 		}
 		else = {
 			add_timed_idea = {
@@ -4483,13 +4483,13 @@ country_event = { #Russia's terms
 			diplomatic_relation = {
 				country = ROOT
 				relation = non_aggression_pact
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = RUS
+				is_claimed_by = ROOT
 			}
-			every_owned_state = {
-				limit = {
-					is_core_of = RUS
-					is_claimed_by = ROOT
-				}
-				remove_claim_by = ROOT
+			remove_claim_by = ROOT
 			}
 		}
 		every_owned_state = {
@@ -4546,13 +4546,13 @@ country_event = { #Russia's terms
 			diplomatic_relation = {
 				country = ROOT
 				relation = non_aggression_pact
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = RUS
+				is_claimed_by = ROOT
 			}
-			every_owned_state = {
-				limit = {
-					is_core_of = RUS
-					is_claimed_by = ROOT
-				}
-				remove_claim_by = ROOT
+			remove_claim_by = ROOT
 			}
 		}
 		hidden_effect = { 
@@ -5525,28 +5525,28 @@ country_event = { #Death of Fredrik Kaarle
 		}
 		else = {
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				desc = "POLITICS_VAINO_DESC"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
 				ideology = scandinavism_subtype
 			}
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				desc = "POLITICS_VAINO_DESC"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
 				ideology = soclib_scandinavism_subtype
 			}
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				desc = "POLITICS_VAINO_DESC"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
 				ideology = marlib_scandinavism_subtype
 			}
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				desc = "POLITICS_VAINO_DESC"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
@@ -5569,7 +5569,7 @@ country_event = { #Death of Fredrik Kaarle (after they've been chased out of the
 			AND = {
 				tag = SCA
 				has_country_leader = { 
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					ruling_only = yes
 				} 
 			}
@@ -5580,7 +5580,7 @@ country_event = { #Death of Fredrik Kaarle (after they've been chased out of the
 		if = {
 			limit = { 
 				has_country_leader = { 
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					ruling_only = yes
 				} 
 			}
@@ -5786,7 +5786,7 @@ country_event = { #Finland joins the 4 Internationale
 	option = { #We are glad to be part of the global struggle!
 		name = finland.137.a
 		add_political_power = 25
-		add_to_faction = FIN
+				add_to_faction = FIN
 	}
 }
 
@@ -5830,7 +5830,7 @@ country_event = { #Go moderate
 					}
 				}
 				create_country_leader = {
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					desc = "POLITICS_FREDRIK_KAARLE_DESC"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 					expire = "1.1.1"
@@ -5839,7 +5839,7 @@ country_event = { #Go moderate
 			}
 			else = {
 				create_country_leader = {
-					name = "Väinö I"
+					name = "Вяйнё I"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 					desc = "POLITICS_VAINO_DESC"
 					expire = "1.1.1"
@@ -5878,7 +5878,7 @@ country_event = { #Go moderate
 					}
 				}
 				create_country_leader = {
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					desc = "POLITICS_FREDRIK_KAARLE_DESC"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 					expire = "1.1.1"
@@ -5887,7 +5887,7 @@ country_event = { #Go moderate
 			}
 			else = {
 				create_country_leader = {
-					name = "Väinö I"
+					name = "Вяйнё I"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 					desc = "POLITICS_VAINO_DESC"
 					expire = "1.1.1"
@@ -6037,7 +6037,7 @@ country_event = { #Communist elections?
 			long_name = FIN_party_peoples_democratic_union_long
 		}
 		create_country_leader = {
-			name = "Oskari Tokoi"
+			name = "Оскари Токой"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Oskari_Tokoi.png"
 			expire = "1.1.1"
 			ideology = syndie_social_democrat_subtype
@@ -6358,7 +6358,7 @@ country_event = { #Finnish elections
 						NOT = { has_country_flag = Frederik_Kaarle_dead }
 					}					
 					create_country_leader = {
-						name = "Fredrik Kaarle I"
+						name = "Фридрих Карл I"
 						desc = "POLITICS_FREDRIK_KAARLE_DESC"
 						picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 						expire = "1.1.1"
@@ -6367,7 +6367,7 @@ country_event = { #Finnish elections
 				}
 				else = {					
 					create_country_leader = {
-						name = "Väinö I"
+						name = "Вяйнё I"
 						picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 						desc = "POLITICS_VAINO_DESC"
 						expire = "1.1.1"
@@ -6678,7 +6678,7 @@ country_event = { #
 						state = 351
 						state = 263
 						state = 1289	
-						state = 209
+						state = 209				
 					}
 					is_claim_or_core_of_ROOT = no
 				}
@@ -6827,7 +6827,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Carl_Gustaf_Mannerheim_cos_ade
 		create_country_leader = {
-			name = "Carl Gustaf Mannerheim"
+			name = "Карл Густав Маннергейм"
 			desc = "POLITICS_CARL_GUSTAF_MANNERHEIM_DESC"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Carl_Gustaf_Mannerheim.png"
 			expire = "1.1.1"
@@ -6848,7 +6848,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Aarne_Sihvo_cos_ade
 		create_country_leader = {
-			name = "Aarne Sihvo"
+			name = "Аарне Сихво"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Aarne_Sihvo_KX.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -6875,7 +6875,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Lauri_Malmberg_cos_ade
 		create_country_leader = {
-			name = "Lauri Malmberg"
+			name = "Лаури Мальмберг"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Lauri_Malmberg.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -6989,7 +6989,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Carl_Gustaf_Mannerheim_cos_ade
 		create_country_leader = {
-			name = "Carl Gustaf Mannerheim"
+			name = "Карл Густав Маннергейм"
 			desc = "POLITICS_CARL_GUSTAF_MANNERHEIM_DESC"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Carl_Gustaf_Mannerheim.png"
 			expire = "1.1.1"
@@ -7022,7 +7022,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Aarne_Sihvo_cos_ade
 		create_country_leader = {
-			name = "Aarne Sihvo"
+			name = "Аарне Сихво"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Aarne_Sihvo_KX.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -7062,7 +7062,7 @@ country_event = { # Mannerheim explanation
 		}
 		add_ideas = FIN_Lauri_Malmberg_cos_ade
 		create_country_leader = {
-			name = "Lauri Malmberg"
+			name = "Лаури Мальмберг"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Lauri_Malmberg.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -7128,7 +7128,7 @@ country_event = { #
 	option = {
 		name = finland.158.a
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_to_variable = { FIN_lapua_strength = 5 }
+			add_to_variable = { FIN_lapua_strength = 5 }
 	}
 }
 
@@ -7144,7 +7144,7 @@ country_event = { #
 	option = {
 		name = finland.159.a
 		add_popularity = { ideology = national_populist popularity = 0.05 }
-		add_to_variable = { FIN_lapua_strength = 5 }
+			add_to_variable = { FIN_lapua_strength = 5 }
 		add_to_variable = { FIN_sdp_strength = 5 }
 	}
 }
@@ -7171,7 +7171,7 @@ country_event = { #
 		if = {
 			limit = { has_country_flag = FIN_kosola_ended }
 			create_country_leader = {
-				name = "Vilho Annala"
+				name = "Вилхо Аннала"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vilho_Annala_KX.png"
 				expire = "1.1.1"
 				ideology = lapuanliike_subtype
@@ -7192,7 +7192,7 @@ country_event = { #
 	option = {
 		name = finland.161.a
 		add_popularity = { ideology = syndicalist popularity = -0.1 }
-		add_to_variable = { FIN_lapua_strength = 5 }
+			add_to_variable = { FIN_lapua_strength = 5 }
 		add_to_variable = { FIN_sdp_strength = -10 }
 		hidden_effect = {
 			country_event = { id = finland.29 days = 2 }
@@ -7202,7 +7202,7 @@ country_event = { #
 	option = {
 		name = finland.161.b
 		add_popularity = { ideology = syndicalist popularity = -0.1 }
-		add_to_variable = { FIN_lapua_strength = 5 }
+			add_to_variable = { FIN_lapua_strength = 5 }
 		add_to_variable = { FIN_sdp_strength = -10 }
 		hidden_effect = {
 			country_event = { id = finland.162 days = 2 }
@@ -7240,7 +7240,7 @@ country_event = { #
 	option = {
 		name = finland.163.a
 		add_popularity = { ideology = national_populist popularity = -0.05 }
-		add_to_variable = { FIN_lapua_strength = -5 }
+			add_to_variable = { FIN_lapua_strength = -5 }
 		hidden_effect = {
 			country_event = { id = finland.164 days = 20 }
 			country_event = { id = finland.169 days = 40 }
@@ -7286,7 +7286,7 @@ country_event = { #
 		name = finland.165.a
 		add_popularity = { ideology = national_populist popularity = 0.02 }			
 		create_country_leader = {
-			name = "Vilho Annala"
+			name = "Вилхо Аннала"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Vilho_Annala_KX.png"
 			expire = "1.1.1"
 			ideology = lapuanliike_subtype
@@ -7343,7 +7343,7 @@ country_event = { #
 		add_to_variable = { FIN_progressives_strength = 10 }
 		add_to_variable = { FIN_kokoomus_strength = 10 }
 		add_to_variable = { FIN_agrarian_strength = 10 }
-		add_to_variable = { FIN_lapua_strength = 15 }
+			add_to_variable = { FIN_lapua_strength = 15 }
 		FIN_clamp_vars = yes
 	}
 }

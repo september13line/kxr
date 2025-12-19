@@ -200,7 +200,7 @@ country_event = {
 	}
 }
 
-# Canada notified of member joining IEDC
+# Canada notified of member joining ИСЭР
 country_event = {
 	id = entente.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event entente.3" }
@@ -220,7 +220,7 @@ country_event = {
 	}
 }
 
-# Canada notified of country refusing to join IEDC
+# Canada notified of country refusing to join ИСЭР
 country_event = {
 	id = entente.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event entente.4" }
@@ -331,7 +331,7 @@ country_event = {
 	}
 }
 
-# Investment in IEDC nation (fired by decision)
+# Investment in ИСЭР nation (fired by decision)
 country_event = {
 	id = entente.6
 	immediate = { log = "[GetDateText]: [Root.GetName]: event entente.6" }
@@ -395,7 +395,7 @@ country_event = {
 	}
 }
 
-# Annual investment in IEDC
+# Annual investment in ИСЭР
 country_event = {
 	id = entente.10
 	title = entente.10.t
@@ -565,7 +565,7 @@ country_event = {
 	}
 }
 
-# Country leaves the IEDC (fired by decision)
+# Country leaves the ИСЭР (fired by decision)
 country_event = {
 	id = entente.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event entente.11" }
@@ -584,7 +584,7 @@ country_event = {
 	}
 }
 
-# Country leaves the Entente, and thus the IEDC
+# Country leaves the Entente, and thus the ИСЭР
 country_event = {
 	id = entente.12
 	title = entente.12.t
@@ -620,7 +620,7 @@ country_event = {
 	}
 }
 
-# IEDC shut down
+# ИСЭР shut down
 country_event = {
 	id = entente.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event entente.13" }
@@ -4355,7 +4355,7 @@ country_event = {
 			OR = {
 				has_global_flag = CAN_king_albert_I
 				has_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					ruling_only = yes
 				}
 			}
@@ -4368,7 +4368,7 @@ country_event = {
 				OR = {
 					has_global_flag = CAN_king_albert_I
 					has_country_leader = {
-						name = "Albert I"
+						name = "Альберт I"
 						ruling_only = yes
 					}
 				}
@@ -4391,7 +4391,7 @@ country_event = {
 			tag = CAN
 			country_exists = GBR
 			has_country_leader = {
-				name = "Prince Albert"
+				name = "Принц Альберт"
 				ruling_only = yes
 			}
 		}
@@ -4402,7 +4402,7 @@ country_event = {
 			tag = CAN
 			country_exists = GBR
 			has_country_leader = {
-				name = "Albert I"
+				name = "Альберт I"
 				ruling_only = yes
 			}
 		}
@@ -4425,11 +4425,11 @@ country_event = {
 				NOT = {
 					OR = {
 						has_country_leader = {
-							name = "Prince Albert"
+							name = "Принц Альберт"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Albert I"
+							name = "Альберт I"
 							ruling_only = yes
 						}
 					}
@@ -4459,7 +4459,7 @@ country_event = {
 		trigger = {
 			tag = NEE
 			has_country_leader = {
-				name = "Albert Windsor"
+				name = "Альберт Виндзор"
 				ruling_only = yes
 			}
 		}
@@ -4469,7 +4469,7 @@ country_event = {
 		trigger = {
 			tag = NEE
 			has_country_leader = {
-				name = "Albert I"
+				name = "Альберт I"
 				ruling_only = yes
 			}
 		}
@@ -4491,7 +4491,7 @@ country_event = {
 			tag = AST
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4499,7 +4499,7 @@ country_event = {
 			female = yes
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4507,7 +4507,7 @@ country_event = {
 			female = yes
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4515,7 +4515,7 @@ country_event = {
 			female = yes
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4523,7 +4523,7 @@ country_event = {
 			female = yes
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4531,7 +4531,7 @@ country_event = {
 			female = yes
 		}
 		create_country_leader = {
-			name = "Princess Elizabeth"
+			name = "Принцесса Елизавета"
 			desc = "POLITICS_LIZZY_GG_AST_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4549,7 +4549,7 @@ country_event = {
 		add_stability = -0.10
 		set_global_flag = ENT_Albert_Dead
 		create_country_leader = {
-			name = "Elizabeth Windsor"
+			name = "Элизабет Виндзор"
 			desc = "NEE_ELIZABETH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Princess_Elizabeth.png"
 			expire = "1.1.1"
@@ -4592,37 +4592,37 @@ country_event = {
 		set_global_flag = CAN_queen_elizabeth_II
 		if = {
 			limit = {
-				DEH = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				DEH = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			DEH = { DEH_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				SAF = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				SAF = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			SAF = { SAF_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				CAN = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				CAN = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			CAN = { CAN_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				GBR = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				GBR = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			GBR = { GBR_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				SCT = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				SCT = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			SCT = { create_windsor_scottish_monarchy = yes }
 		}
 		if = {
 			limit = {
-				ICE = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			ICE = { ICE_create_british_monarchy = yes }
 		}
@@ -4633,7 +4633,7 @@ country_event = {
 				remove_unit_leader = yes
 			}
 			create_field_marshal = {# Lizzy
-				name = "Elizabeth II "
+				name = "Елизавета II "
 				portrait_path = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_General.png"
 				traits = { 
 					politically_connected 
@@ -4666,7 +4666,7 @@ country_event = {
 		trigger = {
 			tag = CAN
 			has_country_leader = {
-				name = "Prince Albert"
+				name = "Принц Альберт"
 				ruling_only = yes
 			}
 			NOT = {
@@ -4681,7 +4681,7 @@ country_event = {
 		trigger = {
 			tag = CAN
 			has_country_leader = {
-				name = "Albert I"
+				name = "Альберт I"
 				ruling_only = yes
 			}
 			NOT = {
@@ -4884,37 +4884,37 @@ country_event = {
 		set_global_flag = CAN_queen_elizabeth_II
 		if = {
 			limit = {
-				DEH = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				DEH = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			DEH = { DEH_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				SAF = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				SAF = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			SAF = { SAF_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				CAN = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				CAN = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			CAN = { CAN_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				GBR = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				GBR = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			GBR = { CAN_create_monarchy = yes }
 		}
 		if = {
 			limit = {
-				SCT = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+				SCT = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 			}
 			SCT = { create_windsor_scottish_monarchy = yes }
 		}
 		if = {
 			limit = {
-				ICE = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
+				ICE = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
 			}
 			ICE = { ICE_create_british_monarchy = yes }
 		}
@@ -4925,7 +4925,7 @@ country_event = {
 				remove_unit_leader = yes
 			}
 			create_field_marshal = {# Lizzy
-				name = "Elizabeth II "
+				name = "Елизавета II "
 				portrait_path = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_General.png"
 				traits = { 
 					politically_connected 
@@ -6105,25 +6105,25 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
@@ -6132,7 +6132,7 @@ country_event = {
 			country_event = { id = entente.50 days = 90 random = 1440 }
 			if = {
 				limit = {
-					NEE = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+					NEE = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 				}
 				NEE = {
 					country_event = {
@@ -6195,31 +6195,31 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					AST = { has_country_leader = { ruling_only = yes name = "Prince Henry" } }
+					AST = { has_country_leader = { ruling_only = yes name = "Принц Генри" } }
 				}
 				AST = { country_event = entente.113 }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
@@ -6264,31 +6264,31 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					AST = { has_country_leader = { ruling_only = yes name = "Prince George" } }
+					AST = { has_country_leader = { ruling_only = yes name = "Принц Джордж" } }
 				}
 				AST = { country_event = entente.113 }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
@@ -6462,37 +6462,37 @@ country_event = {
 		add_stability = 0.05
 		hidden_effect = {
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = social_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = social_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Isaac Isaacs"
+				name = "Исаак Исаакс"
 				picture = "gfx/leaders/AST/Portrait_AST_Isaac_Isaacs.png"
 				expire = "1.1.1"
 				ideology = national_populist_subtype
@@ -7505,7 +7505,7 @@ country_event = {
 					remove_from_tech_sharing_group = entente_research
 					clr_global_flag = CAN_isac_created
 				}
-				# disband IEDC if created
+				# disband ИСЭР if created
 				if = {
 					limit = { has_global_flag = CAN_iedc_created }
 					CAN_remove_from_iedc = yes
@@ -7758,7 +7758,7 @@ country_event = {
 					remove_from_tech_sharing_group = entente_research
 					clr_global_flag = CAN_isac_created
 				}
-				# disband IEDC if created
+				# disband ИСЭР if created
 				if = {
 					limit = { has_global_flag = CAN_iedc_created }
 					CAN_remove_from_iedc = yes
@@ -10221,7 +10221,7 @@ country_event = {
 	title = entente.5000.t
 	desc = entente.5000.d
 	picture = GFX_report_event_KSV_helicopters
-
+	
 	is_triggered_only = yes
 	fire_only_once = yes	
 
@@ -10229,8 +10229,8 @@ country_event = {
 		name = entente.5000.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
 		}
 		else = {
 			set_technology = {
@@ -10270,9 +10270,9 @@ country_event = {
 		name = entente.5001.a
 		if = {
 			limit = { has_dlc_got = yes }
-			add_breakthrough_progress = {
-				specialization = specialization_air
-				value = 0.25
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
 			}
 		}
 		else = {
@@ -10629,7 +10629,7 @@ country_event = {
 					name = BEL_Interim_Governement_party
 				}
 				create_country_leader = {
-					name = "Belgian Parliament"
+					name = "Бельгийский парламент"
 					desc = "POLITICS_BELGIAN_PARLIMENT_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Parliament.png"
 					expire = "1.1.1"
@@ -11166,7 +11166,7 @@ country_event = {
 			
 			hidden_effect = {
 				create_country_leader = {
-					name = "Daniel François Malan"
+					name = "Даниель Малан"
 					desc = "POLITICS_DANIEL_MALAN_DESC"
 					picture = "gfx/leaders/SAF/Portrait_SAF_Daniel_Francois_Malan.png"
 					expire = "1.1.1"

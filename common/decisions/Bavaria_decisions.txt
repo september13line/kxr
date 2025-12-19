@@ -250,14 +250,14 @@ BAY_GERMAN_FORIEGN_POLICY  = {
 			log = "[GetDateText]: [Root.GetName]: Decision BAY_UNITED_KINGDOM_OF_NETHERLANDS"
 				HOL = {
 					create_country_leader = {
-						name = "Wilhelmina"
+						name = "Вильгельмина"
 						desc = "POLITICS_WILHELMINA_DESC"
 						picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.png"
 						expire = "1.1.1"
 						ideology = paternal_autocrat_subtype
 					}
 					create_country_leader = {
-						name = "Wilhelmina"
+						name = "Вильгельмина"
 						desc = "POLITICS_WILHELMINA_DESC"
 						picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.png"
 						expire = "1.1.1"
@@ -324,19 +324,19 @@ BAY_GERMAN_FORIEGN_POLICY  = {
 			log = "[GetDateText]: [Root.GetName]: Decision BAY_CROWN_ALBRECHT_KING_DECISION"
 			FRP = {
 				set_politics = {
-					ruling_party = paternal_autocrat
-					elections_allowed = no
-					last_election = 1936.1.1
-					election_frequency = 48
-				}
-				create_country_leader = {
-					name = "Albrecht I"
-					picture = "gfx/leaders/FRP/Albrecht_Duke_of_Bavaria.png"
+				ruling_party = paternal_autocrat
+				elections_allowed = no
+				last_election = 1936.1.1
+				election_frequency = 48
+			}
+			create_country_leader = {
+					name = "Альбрехт I"
+				picture = "gfx/leaders/FRP/Albrecht_Duke_of_Bavaria.png"
 					expire = "1.1.1"
-					ideology = paternal_autocrat_subtype
-				}
-					
-				}
+				ideology = paternal_autocrat_subtype
+			}
+				
+			}
 		}
 	}
 }
@@ -410,7 +410,7 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 						election_frequency = 48
 					}
 					create_country_leader = {
-						name = "Franz Von Bayern"
+						name = "Франц Баварский"
 						picture = "gfx/leaders/GER/Portrait_Germany_Franz_von_Bayern.png"
 						expire = "1.1.1"
 						ideology = paternal_autocrat_subtype
@@ -676,7 +676,7 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 				election_frequency = 48
 			}
 			create_country_leader = {
-				name = "Albrecht I"
+				name = "Альбрехт I"
 				picture = "gfx/leaders/FRP/Albrecht_Duke_of_Bavaria.png"
 				expire = "1.1.1"
 				ideology = paternal_autocrat_subtype

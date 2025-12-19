@@ -3112,10 +3112,10 @@ country_event = { #Shanghai in Chaos - LEC
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_JAP
@@ -3130,42 +3130,42 @@ country_event = { #Shanghai in Chaos - LEC
 		set_country_flag = shanghai_chaos
 		clr_country_flag = cannot_have_conscription
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
 			ideology = paternal_autocrat_subtype
 		}
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Leaderless Mandate"
+			name = "Мандат без лидера"
 			desc = "MANDATE_CHAOS_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Chaos.png"
 			expire = "1.1.1"
@@ -5173,7 +5173,7 @@ country_event = { #Russian voting rights - Transamur
 	}
 }
 
-country_event = { #Chen Jiongming has Shantou Conference
+country_event = { #Чэнь Цзюнмин has Shantou Conference
 	id = lec.118
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.118" }
 	title = lec.118.t
@@ -5197,7 +5197,7 @@ country_event = { #Chen Jiongming has Shantou Conference
 	}
 }
 
-country_event = { #Du Yuesheng offers pre-emptive bail
+country_event = { #Ду Юэшэн offers pre-emptive bail
 	id = lec.119
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.119" }
 	title = lec.119.t
@@ -5210,7 +5210,7 @@ country_event = { #Du Yuesheng offers pre-emptive bail
 	}
 }
 
-country_event = { #Du Yuesheng bolts
+country_event = { #Ду Юэшэн bolts
 	id = lec.120
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.120" }
 	title = lec.120.t
@@ -5271,7 +5271,7 @@ country_event = { #Du Yuesheng bolts
 			limit = {
 				has_government = social_conservative
 				has_country_leader = {
-					name = "Mark Aitchison Young"
+					name = "Марк Эйтчисон Янг"
 				}
 			}
 			add_ideas = {
@@ -5283,7 +5283,7 @@ country_event = { #Du Yuesheng bolts
 				has_government = social_conservative
 				NOT = {
 					has_country_leader = {
-						name = "Mark Aitchison Young"
+						name = "Марк Эйтчисон Янг"
 					}
 				}
 			}
@@ -5309,7 +5309,7 @@ country_event = { #Du Yuesheng bolts
 	}
 }
 
-country_event = { #Zhang Xiaolin escapes arrest
+country_event = { #Чжан Сяолинь escapes arrest
 	id = lec.121
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.121" }
 	title = lec.121.t
@@ -5322,7 +5322,7 @@ country_event = { #Zhang Xiaolin escapes arrest
 	}
 }
 
-country_event = { #Zhang Xiaolin dies
+country_event = { #Чжан Сяолинь dies
 	id = lec.122
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.122" }
 	title = lec.122.t
@@ -5405,7 +5405,7 @@ country_event = { #Zhang Xiaolin dies
 	}
 }
 
-country_event = { #Huang Jinrong is under investigation
+country_event = { #Хуан Цзиньжун is under investigation
 	id = lec.123
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.123" }
 	title = lec.123.t
@@ -5418,7 +5418,7 @@ country_event = { #Huang Jinrong is under investigation
 	}
 }
 
-country_event = { #Huang Jinrong is replaced
+country_event = { #Хуан Цзиньжун is replaced
 	id = lec.124
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lec.124" }
 	title = lec.124.t
@@ -5817,7 +5817,7 @@ country_event = { # politics stuff - Japan is dead
 		NOT = { 
 		has_country_flag = JAP_was_in_sphere
 		has_country_flag = LEC_Triad_Power
-		has_country_flag = LEC_Shuntian_Power	
+		has_country_flag = LEC_Shuntian_Power		
 		has_country_leader = { name = "Francis Arthur Sutton" ruling_only = yes }		
 		}
 	}
@@ -6611,7 +6611,7 @@ country_event = { #An investigation
 			}
 		}
 	}
-	option = {	#Huang Jinrong, respected police chief!
+	option = {	#Хуан Цзиньжун, respected police chief!
 		name = lecgreengangclash.3.c
 		add_timed_idea = {
 			idea = LEC_chinese_up
@@ -6723,7 +6723,7 @@ country_event = { #Some minor arrests in Hong Kong
 	}
 }
 
-country_event = { #A Green Gang member rats out Du Yuesheng
+country_event = { #A Green Gang member rats out Ду Юэшэн
 	id = lecgreengangclash.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.7" }
 
@@ -6747,7 +6747,7 @@ country_event = { #A Green Gang member rats out Du Yuesheng
 	}
 }
 
-country_event = { #A Green Gang member rats out Zhang Xiaolin
+country_event = { #A Green Gang member rats out Чжан Сяолинь
 	id = lecgreengangclash.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.8" }
 
@@ -6819,7 +6819,7 @@ country_event = { #The Hong Kong Police find some doccuments
 		clr_country_flag = LEC_ongoing_storyline
 	}
 
-	option = {	#Du Yuesheng's letter
+	option = {	#Ду Юэшэн's letter
 		name = lecgreengangclash.10.b
 		trigger = {
 			NOT = { has_country_flag = yuesheng_unavailable }
@@ -6833,7 +6833,7 @@ country_event = { #The Hong Kong Police find some doccuments
 	}
 }
 
-country_event = { #Huang Jinrong Investigates - Investigation Collapses
+country_event = { #Хуан Цзиньжун Investigates - Investigation Collapses
 	id = lecgreengangclash.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.11" }
 
@@ -6938,7 +6938,7 @@ country_event = { #Bribe the Japanese to turn over their files
 	}
 }
 
-country_event = { #Intro to Du Yuesheng
+country_event = { #Intro to Ду Юэшэн
 	id = lecgreengangclash.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.13" }
 	title = lecgreengangclash.13.t
@@ -6953,7 +6953,7 @@ country_event = { #Intro to Du Yuesheng
 	}
 }
 
-country_event = { #Intro to Huang Jinrong
+country_event = { #Intro to Хуан Цзиньжун
 	id = lecgreengangclash.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.14" }
 	title = lecgreengangclash.14.t
@@ -6968,7 +6968,7 @@ country_event = { #Intro to Huang Jinrong
 	}
 }
 
-country_event = { #Intro to Zhang Xiaolin
+country_event = { #Intro to Чжан Сяолинь
 	id = lecgreengangclash.15
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecgreengangclash.15" }
 	title = lecgreengangclash.15.t
@@ -7323,7 +7323,7 @@ country_event = { #Angry Germans demand an investigation
 			days = 50
 		}
 	}
-	option = {	#Apoint Huang Jinrong
+	option = {	#Apoint Хуан Цзиньжун
 		name = lecshorting.7.c
 		trigger = {
 			NOT = { has_country_flag = jinrong_unavailable }
@@ -7395,7 +7395,7 @@ country_event = { #Molified Germans demand an inquiry
 			days = 30
 		}
 	}
-	option = {	#Huang Jinrong
+	option = {	#Хуан Цзиньжун
 		name = lecshorting.8.c
 		trigger = {
 			NOT = { has_country_flag = jinrong_unavailable }
@@ -7456,7 +7456,7 @@ country_event = { #British uncover no wrongdoing by the Americans
 	}
 }
 
-country_event = { #Huang Jinrong has a German arrested, a bunch of former DAB assets vanish
+country_event = { #Хуан Цзиньжун has a German arrested, a bunch of former DAB assets vanish
 	id = lecshorting.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecshorting.11" }
 	title = lecshorting.11.t
@@ -7525,7 +7525,7 @@ country_event = { #The Japanese can't get permission for raids, do uncover suspi
 	}
 }
 
-country_event = { #Huang Jinrong arrests some guy, gets his hands on a bunch of stuff
+country_event = { #Хуан Цзиньжун arrests some guy, gets his hands on a bunch of stuff
 	id = lecshorting.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecshorting.14" }
 	title = lecshorting.14.t
@@ -8208,7 +8208,7 @@ country_event = { #Canada appoints new ambassador in Shanghai
 		set_country_flag = LEC_AST_governor
 		lec_british_rise = yes
 		create_country_leader = {
-			name = "Mark Aitchison Young"
+			name = "Марк Эйтчисон Янг"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Mark_Aitchison_Young.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
@@ -8226,7 +8226,7 @@ country_event = { #Canada appoints new ambassador in Shanghai
 		lec_british_rise = yes
 		add_political_power = -25
 		create_country_leader = {
-			name = "Mark Aitchison Young"
+			name = "Марк Эйтчисон Янг"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Mark_Aitchison_Young.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
@@ -8283,7 +8283,7 @@ country_event = { # Pressure Smith in Hong Kong
 			days = 5
 		}
 	}
-	option = {	# Send my good man Huang Jinrong
+	option = {	# Send my good man Хуан Цзиньжун
 		name = lecbrits.16.b
 		trigger = {
 			NOT = {
@@ -8317,7 +8317,7 @@ country_event = { # Pressure Smith in Hong Kong
 	}
 }
 
-country_event = { # Du Yuesheng finds out the British are up to something, possibly secession
+country_event = { # Ду Юэшэн finds out the British are up to something, possibly secession
 	id = lecbrits.17
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecbrits.17" }
 	title = lecbrits.17.t
@@ -8346,7 +8346,7 @@ country_event = { # Du Yuesheng finds out the British are up to something, possi
 	}
 }
 
-country_event = { # Huang Jinrong finds a red herring - he thinks the Japanese are messing with the British
+country_event = { # Хуан Цзиньжун finds a red herring - he thinks the Japanese are messing with the British
 	id = lecbrits.18
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecbrits.18" }
 	title = lecbrits.18.t
@@ -9751,7 +9751,7 @@ country_event = { # What to do about the US collapse?
 	}
 }
 
-country_event = { # 2ACW Avoided
+country_event = { # 2.А-ГВ Avoided
 	id = lecyankded.120
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecyankded.12" }
 	title = lecyankded.12.t
@@ -9832,7 +9832,7 @@ country_event = { # politics stuff
 			}
 		}
 		create_country_leader = {
-			name = "Patrick J. Hurley"
+			name = "Патрик Джей Хёрли"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Patrick_Hurley.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
@@ -11898,7 +11898,7 @@ country_event = { #Hiring an investigator
 
 	is_triggered_only = yes
 
-	option = { #Contact Huang Jinrong
+	option = { #Contact Хуан Цзиньжун
 		name = lecjapfeud.5.a
 		ai_chance = {
 			factor = 25
@@ -11984,7 +11984,7 @@ country_event = { #Investigation Goes Nowhere
 	}
 }
 
-country_event = { #Huang Jinrong Raises Suspicions
+country_event = { #Хуан Цзиньжун Raises Suspicions
 	id = lecjapfeud.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecjapfeud.7" }
 	title = lecjapfeud.7.t
@@ -12122,7 +12122,7 @@ country_event = { #Contacting the Triads
 
 	is_triggered_only = yes
 
-	option = { #Du Yuesheng
+	option = { #Ду Юэшэн
 		name = lecjapfeud.13.a
 		trigger = {
 			NOT = { has_country_flag = yuesheng_unavailable }
@@ -12140,7 +12140,7 @@ country_event = { #Contacting the Triads
 		}
 	}
 
-	option = { #Zhang Xiaolin
+	option = { #Чжан Сяолинь
 		name = lecjapfeud.13.b
 		trigger = {
 			NOT = { has_country_flag = xiaolin_unavailable }
@@ -12232,7 +12232,7 @@ country_event = { #Gangs Used As Proxies
 	}
 }
 
-country_event = { #Zhang Xiaolin's Shady Dealings
+country_event = { #Чжан Сяолинь's Shady Dealings
 	id = lecjapfeud.17
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecjapfeud.17" }
 	title = lecjapfeud.17.t
@@ -12483,7 +12483,7 @@ country_event = { #Drugs Proliferating
 		}
 	}
 }
-country_event = { #Zhang Xiaolin's New Powerbase
+country_event = { #Чжан Сяолинь's New Powerbase
 	id = lecfuzhou.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lecfuzhou.7" }
 	title = lecfuzhou.7.t
@@ -12495,7 +12495,7 @@ country_event = { #Zhang Xiaolin's New Powerbase
 
 	is_triggered_only = yes
 
-	option = {	#Go to Du Yuesheng
+	option = {	#Go to Ду Юэшэн
 		name = lecfuzhou.7.a
 		ai_chance = {
 			factor = 25
@@ -12971,7 +12971,7 @@ country_event = { # Commission For Money Laundering
 	}
 }
 
-country_event = { # Chen Jiongming Arrives In Hong Kong
+country_event = { # Чэнь Цзюнмин Arrives In Hong Kong
 	id = lechotung.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lechotung.21" }
 	title = lechotung.21.t
@@ -13001,7 +13001,7 @@ country_event = { # Chen Jiongming Arrives In Hong Kong
 	}
 }
 
-country_event = { # Chen Jiongming Dies In Hong Kong
+country_event = { # Чэнь Цзюнмин Dies In Hong Kong
 	id = lechotung.22
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lechotung.22" }
 	title = lechotung.22.t
@@ -13058,7 +13058,7 @@ country_event = { # Triads Seize Power
 		}
 		
 		create_country_leader = {
-			name = "United Dragon Head Council"
+			name = "Объединённый совет глав Драконов"
 			desc = "DRAG_HEAD_COUN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
 			expire = "1.1.1"
@@ -13084,7 +13084,7 @@ country_event = { # Triads Seize Power
 		}
 		
 		create_field_marshal = {
-			name = "United Dragon Head Council "
+			name = "Объединённый совет глав Драконов "
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
 			traits = { incorporeal LEC_triad_commander }
 			skill = 1
@@ -13095,7 +13095,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Huang Jinrong "
+			name = "Хуан Цзиньжун "
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13106,7 +13106,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Jiang Qing "
+			name = "Цзян Цин "
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13118,7 +13118,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Du Yuesheng "
+			name = "Ду Юэшэн "
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 			traits = { LEC_triad_commander substance_abuser }
 			skill = 1
@@ -13129,7 +13129,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Billy 'Brilliant' Chang"
+			name = "Билли 'Блестящий' Чанг"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13140,7 +13140,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Zhang Xiaolin"
+			name = "Чжан Сяолинь"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13151,7 +13151,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Wang Yaqiao"
+			name = "Ван Яцяо"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13162,7 +13162,7 @@ country_event = { # Triads Seize Power
 		}
 		
 		create_corps_commander = {
-			name = "Kot Siu Wong"
+			name = "Кот Сиу Вонг"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
 			traits = { LEC_triad_commander career_officer }
 			skill = 2
@@ -13173,7 +13173,7 @@ country_event = { # Triads Seize Power
 		}
 
 		create_corps_commander = {
-			name = "Heung Chin"
+			name = "Хэн Чин"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -13295,7 +13295,7 @@ country_event = { # Big Ears
 	}
 }
 
-country_event = { # Zhang Xiaolin
+country_event = { # Чжан Сяолинь
 	id = legcities.105
 	immediate = {log = "[GetDateText]: [Root.GetName]: event legcities.49"}
 	title = legcities.105.t
@@ -13769,7 +13769,7 @@ country_event = {
 		LEC = {
 		set_cosmetic_tag = LEC_GREAT_WAY
 			create_country_leader = {
-			name = "Su Xiwen"
+			name = "Су Сивэнь"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Su_Xiwen.png"
 			expire = "1.1.1"
@@ -13853,15 +13853,15 @@ country_event = {
 		NOT = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				}
-			}
+		}
 		}
 		set_country_flag = LEC_hongmen_restoration
 		if = {
 		limit = { has_country_leader_ideology = crime_syndicate_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -13871,8 +13871,8 @@ country_event = {
 		}
 		else_if = {
 			limit = { has_country_leader_ideology = police_state_subtype }
-			create_country_leader = {
-				name = "Hóngwu"
+		create_country_leader = {
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13883,7 +13883,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_humanistic_capitalism_subtype }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13894,7 +13894,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = free_market_capitalist_subtype }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13905,7 +13905,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = national_security_state_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13916,7 +13916,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_tridemism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13927,7 +13927,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_tridemism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13938,7 +13938,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_tridemism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13949,7 +13949,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_tridemism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13960,7 +13960,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13971,7 +13971,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_pan_asianism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13982,7 +13982,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = occultism_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -13993,7 +13993,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = great_way_subtype  }
 			create_country_leader = {
-				name = "Hóngwu"
+				name = "Хунъу"
 				desc = "POLITICS_HONGWU_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 				expire = "1.1.1"
@@ -14038,7 +14038,7 @@ country_event = {
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Zhang_Xiaolin_hog_pau
 			}
-		}
+			}
 	}
 	option = {
 		name = legcities.101.c
@@ -14046,7 +14046,7 @@ country_event = {
 		NOT = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				}
 			}
 		}
@@ -14054,7 +14054,7 @@ country_event = {
 		if = {
 		limit = { has_country_leader_ideology = crime_syndicate_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14065,7 +14065,7 @@ country_event = {
 		else_if = {
 		limit = { has_country_leader_ideology = police_state_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14076,7 +14076,7 @@ country_event = {
 		else_if = {
 		limit = { has_country_leader_ideology = soclib_humanistic_capitalism_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14087,7 +14087,7 @@ country_event = {
 		else_if = {
 		limit = { has_country_leader_ideology = free_market_capitalist_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14098,7 +14098,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = national_security_state_subtype }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14109,7 +14109,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_tridemism_subtype }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14120,7 +14120,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_tridemism_subtype  }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14131,7 +14131,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_tridemism_subtype  }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14142,7 +14142,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_tridemism_subtype  }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14153,7 +14153,7 @@ country_event = {
 		else_if = {
 		limit = { has_country_leader_ideology = marlib_oligarchy_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14164,7 +14164,7 @@ country_event = {
 		else_if = {
 		limit = { has_country_leader_ideology = natpop_pan_asianism_subtype }
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -14173,20 +14173,20 @@ country_event = {
 			}
 		}
 		else_if = {
-		limit = { has_country_leader_ideology = occultism_subtype }
-		create_country_leader = {
-			name = "Da Yi"
-			desc = "SHANG_EMPEROR_DESC"
-			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
-			expire = "1.1.1"
-			ideology = occultism_subtype
+			limit = { has_country_leader_ideology = occultism_subtype }
+			create_country_leader = {
+				name = "Да Йи"
+				desc = "SHANG_EMPEROR_DESC"
+				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
+				expire = "1.1.1"
+				ideology = occultism_subtype
 			traits = {}
 			}
 		}
 		else_if = {
 			limit = { has_country_leader_ideology = great_way_subtype }
 			create_country_leader = {
-				name = "Da Yi"
+				name = "Да Йи"
 				desc = "SHANG_EMPEROR_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 				expire = "1.1.1"
@@ -14241,13 +14241,13 @@ country_event = {
 		trigger = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 			}
 		has_government = market_liberal
 		}
 		set_country_flag = LEC_hongmen_restoration
 		create_country_leader = {
-			name = "Yuan Keding"
+			name = "Юань Кединг"
 			desc = "POLITICS_YUAN_KEDING_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Yuan_Keding.png"
 			expire = "1.1.1"
@@ -14279,7 +14279,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		if = {
 		limit = { has_country_leader_ideology = crime_syndicate_subtype }
 		create_country_leader = {
-			name = "Kong Decheng"
+			name = "Конг Дешенг"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 			desc = ""
 			expire = "1.1.1"
@@ -14290,7 +14290,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = police_state_subtype }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14301,7 +14301,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_humanistic_capitalism_subtype }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14312,7 +14312,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = free_market_capitalist_subtype }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14323,7 +14323,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = national_security_state_subtype }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14334,7 +14334,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_tridemism_subtype }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14345,7 +14345,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_tridemism_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14356,7 +14356,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_tridemism_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14367,7 +14367,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_tridemism_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14378,7 +14378,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14389,7 +14389,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_pan_asianism_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14400,7 +14400,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = occultism_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14411,7 +14411,7 @@ country_event = { #Kong Lingyi dies (Legations version)
 		else_if = {
 			limit = { has_country_leader_ideology = great_way_subtype  }
 			create_country_leader = {
-				name = "Kong Decheng"
+				name = "Конг Дешенг"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 				desc = ""
 				expire = "1.1.1"
@@ -14453,7 +14453,7 @@ country_event = { #The Red Madame of the Triads
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				desc = "POLITICS_QING_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 				expire = "1.1.1"
@@ -14486,7 +14486,7 @@ country_event = { #The Red Madame of the Triads
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				desc = "POLITICS_QING_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 				expire = "1.1.1"
@@ -14519,7 +14519,7 @@ country_event = { #The Red Madame of the Triads
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				desc = "POLITICS_QING_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 				expire = "1.1.1"
@@ -14578,7 +14578,7 @@ country_event = { #The Syndicate Splits
 			retire_country_leader = yes
 
 			create_country_leader = {
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 				desc = "POLITICS_QING_DESC"
 				female = yes
 				picture = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
@@ -14617,7 +14617,7 @@ country_event = { #The Syndicate Splits
 			retire_country_leader = yes
 
 			create_country_leader = {
-				name = "Huang Jinrong"
+				name = "Хуан Цзиньжун"
 				desc = "HUANG_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 				expire = "1.1.1"
@@ -14655,7 +14655,7 @@ country_event = { #The Syndicate Splits
 			retire_country_leader = yes
 
 			create_country_leader = {
-				name = "Du Yuesheng"
+				name = "Ду Юэшэн"
 				desc = "BIG_EARS_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 				expire = "1.1.1"
@@ -14693,7 +14693,7 @@ country_event = { #The Syndicate Splits
 			retire_country_leader = yes
 
 			create_country_leader = {
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 				desc = "ZHANG_XIAOLIN_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
 				expire = "1.1.1"
@@ -14840,7 +14840,7 @@ country_event = { #
 		add_ideas = LEC_post_triad_chaos_idea
 		
 		create_country_leader = {
-			name = "Tse Tsan-tai"
+			name = "Цзе Цань-тай"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Tse_Tsan_Tai.png"
 			expire = "1.1.1"
@@ -14869,7 +14869,7 @@ country_event = { #
 		}
 		
 		create_field_marshal = {
-			name = "United Dragon Head Council "
+			name = "Объединённый совет глав Драконов"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
 			traits = { incorporeal LEC_triad_commander }
 			skill = 1
@@ -14880,7 +14880,7 @@ country_event = { #
 		}
 		
 		create_corps_commander = {
-			name = "Huang Jinrong "
+			name = "Хуан Цзиньжун"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -14891,7 +14891,7 @@ country_event = { #
 		}
 
 		create_corps_commander = {
-			name = "Jiang Qing "
+			name = "Цзян Цин"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -14904,7 +14904,7 @@ country_event = { #
 
 
 		create_corps_commander = {
-			name = "Billy 'Brilliant' Chang"
+			name = "Билли «Блестящий» Чанг"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -14915,7 +14915,7 @@ country_event = { #
 		}
 
 		create_corps_commander = {
-			name = "Wang Yaqiao"
+			name = "Ван Яцяо"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -14926,7 +14926,7 @@ country_event = { #
 		}
 		
 		create_corps_commander = {
-			name = "Kot Siu Wong"
+			name = "Кот Сиу Вонг"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
 			traits = { LEC_triad_commander career_officer }
 			skill = 2
@@ -14937,7 +14937,7 @@ country_event = { #
 		}
 
 		create_corps_commander = {
-			name = "Heung Chin"
+			name = "Хын Чин"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -15019,7 +15019,7 @@ country_event = { #The Republican Connection
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Du Yuesheng"
+				name = "Ду Юэшэн"
 				desc = "BIG_EARS_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 				expire = "1.1.1"
@@ -15052,7 +15052,7 @@ country_event = { #The Republican Connection
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Du Yuesheng"
+				name = "Ду Юэшэн"
 				desc = "BIG_EARS_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 				expire = "1.1.1"
@@ -15085,7 +15085,7 @@ country_event = { #The Republican Connection
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Du Yuesheng"
+				name = "Ду Юэшэн"
 				desc = "BIG_EARS_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 				expire = "1.1.1"
@@ -15138,7 +15138,7 @@ country_event = { #Reclaiming Our Mandate
 		if = {
 		limit = { has_country_leader_ideology = authdem_occultism_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -15149,18 +15149,18 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = autdem_christian_democracy_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
 			traits = {}
-			}
+		}
 		}
 		else_if = {
 		limit = { has_country_leader_ideology = authdem_toryism_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -15171,7 +15171,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = washingtonism_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -15182,7 +15182,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = occultism_subtype }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -15211,7 +15211,7 @@ country_event = { #Reclaiming Our Mandate
 		if = {
 		limit = { has_country_leader_ideology = authdem_occultism_subtype }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -15227,7 +15227,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = autdem_christian_democracy_subtype }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -15243,7 +15243,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = authdem_toryism_subtype }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -15259,7 +15259,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = washingtonism_subtype }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -15275,7 +15275,7 @@ country_event = { #Reclaiming Our Mandate
 		else_if = {
 		limit = { has_country_leader_ideology = occultism_subtype }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -15347,7 +15347,7 @@ country_event = { #Shuntian ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-			name = "Tse Tsan-tai"
+			name = "Цзе Цань-тай"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Tse_Tsan_Tai.png"
 			expire = "1.1.1"
@@ -15390,7 +15390,7 @@ country_event = { #Fate of the Interior
 					popularity = 0.6
 				}
 				create_country_leader = {
-					name = "Green Gang Council"
+					name = "Совет Зелёной банды"
 					desc = "DRAG_HEAD_COUN_DESC"
 					picture = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
 					expire = "1.1.1"
@@ -15454,7 +15454,7 @@ country_event = { #Fate of the Interior
 					popularity = 0.6
 				}
 				create_country_leader = {
-				name = "Nobuhito"
+				name = "Нобухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 				expire = "1.1.1"
 				ideology = pataut_oligarchy_subtype
@@ -15517,7 +15517,7 @@ country_event = { #Fate of the Interior
 					popularity = 0.6
 				}
 				create_country_leader = {
-				name = "Yang Yuting"
+				name = "Ян Юйтин"
 				desc = "POLITICS_YANG_YUTING_ARMY_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Yang_Yuting.png"
 				expire = "1.1.1"
@@ -15612,7 +15612,7 @@ country_event = { #Fate of the Interior
 					popularity = 0.6
 				}
 				create_country_leader = {
-					name = "Zhang Tianran"
+					name = "Чжан Тяньжань"
 					desc = "POLITICS_ZHANG_TIANRAN_DESC"
 					picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Tianran.png"
 					expire = "1.1.1"
@@ -15826,7 +15826,7 @@ country_event = { #Jinrong ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Huang Jinrong"
+				name = "Хуан Цзиньжун"
 				desc = "HUANG_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 				expire = "1.1.1"
@@ -15857,7 +15857,7 @@ country_event = { #Jinrong ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Huang Jinrong"
+				name = "Хуан Цзиньжун"
 				desc = "HUANG_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 				expire = "1.1.1"
@@ -15888,7 +15888,7 @@ country_event = { #Jinrong ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Huang Jinrong"
+				name = "Хуан Цзиньжун"
 				desc = "HUANG_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
 				expire = "1.1.1"
@@ -15934,7 +15934,7 @@ country_event = { #Xiaolin ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 				desc = "ZHANG_XIAOLIN_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
 				expire = "1.1.1"
@@ -15965,7 +15965,7 @@ country_event = { #Xiaolin ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 				desc = "ZHANG_XIAOLIN_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
 				expire = "1.1.1"
@@ -15996,7 +15996,7 @@ country_event = { #Xiaolin ideology picker
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 				desc = "ZHANG_XIAOLIN_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
 				expire = "1.1.1"
@@ -16047,7 +16047,7 @@ country_event = { #Lin Guisheng
 		name = legcities.125.a
 		add_command_power = 30
 		create_corps_commander = {
-			name = "Lin Guisheng"
+			name = "Линь Гуйшэн"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Lin_Guisheng.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -16098,10 +16098,10 @@ country_event = { #The Shanghai Candidate
 				popularity = 0.05
 		}
 		add_pataut_to_coalition = yes
-		if = {
+		if = {	
 			limit = { has_global_flag = SPOOKY_PORTRAITS }
 			if = {	
-				limit = { has_country_leader = { name = "Jiang Qing" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Цзян Цин" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/FUN/Portrait_LEC_Jiang_Qing_Alt_fun.png"
 				}
@@ -16109,7 +16109,7 @@ country_event = { #The Shanghai Candidate
 		}
 		else = {
 		if = {	
-			limit = { has_country_leader = { name = "Jiang Qing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Цзян Цин" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing_Alt.png"
 			}
@@ -16136,7 +16136,7 @@ country_event = { #The Debaucherous ‘Prince’
 		add_political_power = 30
 		increase_ruling_party_popularity_by_3 = yes
 		create_corps_commander = {
-			name = "Yuan Kewen"
+			name = "Юань Кэвэнь"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Yuan_Kewen.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -16162,7 +16162,7 @@ country_event = { #The Debaucherous ‘Red Prince’
 		add_political_power = 30
 		increase_ruling_party_popularity_by_3 = yes
 		create_corps_commander = {
-			name = "Yuan Kewen"
+			name = "Юань Кэвэнь"
 			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Yuan_Kewen.png"
 			traits = { LEC_triad_commander }
 			skill = 1
@@ -16220,11 +16220,11 @@ country_event = { #Shuntian Elections
 			ideology = national_populist
 			long_name = LEC_shuntian_party_long
 			name = LEC_shuntian_party
-		}
+			}
 		if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Tse Tsan-tai" } 
+		has_country_leader = { ruling_only = yes name = "Цзе Цань-тай" } 
 		}
 		set_party_name = {
 			ideology = national_populist
@@ -16233,7 +16233,7 @@ country_event = { #Shuntian Elections
 				}
 			}
 		create_country_leader = {
-			name = "Tse Tsan-tai"
+			name = "Цзе Цань-тай"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Tse_Tsan_Tai.png"
 			expire = "1.1.1"
@@ -16257,12 +16257,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Soong Ching-ling"
+			name = "Сун Цинлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
@@ -16277,14 +16277,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = radical_socialist
+			ideology = radical_socialist
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16303,9 +16303,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16338,12 +16338,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Soong Ching-ling"
+			name = "Сун Цинлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
@@ -16363,9 +16363,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16379,14 +16379,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = radical_socialist
+			ideology = radical_socialist
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16413,12 +16413,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Lu Xun"
+			name = "Лу Синь"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Lu_Xun.png"
 			expire = "1.1.1"
@@ -16437,9 +16437,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16458,9 +16458,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16474,7 +16474,7 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = radical_socialist
+			ideology = radical_socialist
 				popularity = 0.30
 			}
 		}
@@ -16487,12 +16487,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Feng Yuxiang"
+			name = "Фэн Юйсян"
 			desc = ""
 			picture = "gfx/leaders/SHX/Portrait_Shanxi_Feng_Yuxiang.png"
 			expire = "1.1.1"
@@ -16511,9 +16511,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16532,9 +16532,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16565,12 +16565,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Carsun Chang"
+			name = "Чжан Цзюньмай"
 			desc = ""
 			picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 			expire = "1.1.1"
@@ -16584,14 +16584,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_democrat
+			ideology = social_democrat
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16610,9 +16610,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16645,12 +16645,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "T.V. Soong"
+			name = "Т. В. Сун"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 			expire = "1.1.1"
@@ -16669,9 +16669,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16685,14 +16685,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_democrat
+			ideology = social_democrat
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16719,12 +16719,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Carsun Chang"
+			name = "Чжан Цзюньмай"
 			desc = ""
 			picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 			expire = "1.1.1"
@@ -16743,9 +16743,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16764,9 +16764,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16793,12 +16793,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Chen Jiongming"
+			name = "Чэнь Цзюнмин"
 			desc = ""
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming.png"
 			expire = "1.1.1"
@@ -16812,14 +16812,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_democrat
+			ideology = social_democrat
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16838,9 +16838,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16870,12 +16870,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "H.H. Kung"
+			name = "Кун Сянси"
 			desc = ""
 			picture = "gfx/leaders/CHI/Portrait_CHI_H_H_Kung.png"
 			expire = "1.1.1"
@@ -16900,9 +16900,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -16916,14 +16916,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_liberal
+			ideology = social_liberal
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -16956,12 +16956,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "H.H. Kung"
+			name = "Кун Сянси"
 			desc = ""
 			picture = "gfx/leaders/CHI/Portrait_CHI_H_H_Kung.png"
 			expire = "1.1.1"
@@ -16980,9 +16980,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17001,9 +17001,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17017,7 +17017,7 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_liberal
+			ideology = social_liberal
 				popularity = 0.30
 			}
 		}
@@ -17030,12 +17030,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Soong Ai-ling"
+			name = "Сун Айлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Soong_Ai_ling.png"
@@ -17055,9 +17055,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17076,9 +17076,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17102,12 +17102,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Liang Qichao"
+			name = "Лян Цичао"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Liang_Qichao.png"
 			expire = "1.1.1"
@@ -17126,9 +17126,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17147,9 +17147,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17180,12 +17180,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Soong Mei-ling"
+			name = "Сун Мэйлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Soong_Mei_ling_KX.png"
@@ -17205,9 +17205,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17221,14 +17221,14 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_conservative
+			ideology = social_conservative
 				popularity = 0.30
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17261,12 +17261,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Soong Mei-ling"
+			name = "Сун Мэйлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Soong_Mei_ling_KX.png"
@@ -17286,9 +17286,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17307,9 +17307,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17323,7 +17323,7 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = social_conservative
+			ideology = social_conservative
 				popularity = 0.30
 			}
 		}
@@ -17336,12 +17336,12 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = ""
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
@@ -17360,9 +17360,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17381,9 +17381,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17408,14 +17408,14 @@ country_event = { #Shuntian Elections
 		has_country_flag = LEC_rkmt_chiang
 		}
 		if = {
-		limit = {
+		limit = { 
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = ""
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_Shek.png"
 			expire = "1.1.1"
@@ -17434,9 +17434,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hóngwu" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хунъу" } }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17455,9 +17455,9 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } }
+		limit = { has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } }
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17481,10 +17481,10 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17495,10 +17495,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_occultism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17509,10 +17509,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_christdem
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17523,10 +17523,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_christdem
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17537,10 +17537,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_toryism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17551,10 +17551,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_authdem_toryism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17565,10 +17565,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_washingtonism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17579,10 +17579,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 		has_country_flag = LEC_shuntian_washingtonism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17614,12 +17614,12 @@ country_event = { #Shuntian Elections
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Huang"
+			name = "Ли Хуань"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Li_Huang.png"
 			expire = "1.1.1"
@@ -17638,15 +17638,15 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = {
+		limit = { 
 		NOT = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Huang"
+			name = "Ли Хуань"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Li_Huang.png"
 			expire = "1.1.1"
@@ -17665,12 +17665,12 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = {
+		limit = { 
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17689,12 +17689,12 @@ country_event = { #Shuntian Elections
 			}
 		}
 		else_if = {
-		limit = {
+		limit = { 
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17715,16 +17715,16 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
 			ideology = occultism_subtype
 			traits = {}
-		}
+			}
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Li_Huang_hog_npo
 		set_politics = {
@@ -17739,10 +17739,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17776,12 +17776,12 @@ country_event = { #Shuntian Elections
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Huang"
+			name = "Ли Хуань"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Li_Huang.png"
 			expire = "1.1.1"
@@ -17803,12 +17803,12 @@ country_event = { #Shuntian Elections
 		limit = {
 		NOT = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Huang"
+			name = "Ли Хуань"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Li_Huang.png"
 			expire = "1.1.1"
@@ -17829,10 +17829,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17853,10 +17853,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -17877,10 +17877,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17901,10 +17901,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -17932,12 +17932,12 @@ country_event = { #Shuntian Elections
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Chen Qitian"
+			name = "Чэнь Цитянь"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Chen_Qitian.png"
 			expire = "1.1.1"
@@ -17951,7 +17951,7 @@ country_event = { #Shuntian Elections
 				elections_allowed = no
 		}
 		add_popularity = {
-				ideology = national_populist
+			ideology = national_populist
 				popularity = 0.30
 			}
 		}
@@ -17959,12 +17959,12 @@ country_event = { #Shuntian Elections
 		limit = {
 		NOT = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Chen Qitian"
+			name = "Чэнь Цитянь"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Chen_Qitian.png"
 			expire = "1.1.1"
@@ -17985,10 +17985,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -18009,10 +18009,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hóngwu" } 
+		has_country_leader = { ruling_only = yes name = "Хунъу" } 
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_SHUNTIAN_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -18033,10 +18033,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		has_country_flag = LEC_shuntian_natpop_occultism
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -18057,10 +18057,10 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = {
 		NOT = {has_country_flag = LEC_shuntian_natpop_occultism }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" } 
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
 		}
 		create_country_leader = {
-			name = "Hong Xiuquan"
+			name = "Хун Сюцюань"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hong_Xiuquan.png"
 			expire = "1.1.1"
@@ -18107,7 +18107,7 @@ country_event = { #Organizing the Civilian Facade
 		has_government = totalist
 		}
 		create_country_leader = {
-				name = "Tang Na"
+				name = "Тан На"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Tang_Na.png"
 				expire = "1.1.1"
@@ -18123,7 +18123,7 @@ country_event = { #Organizing the Civilian Facade
 		else_if = {
 			limit = { has_government = radical_socialist }
 		create_country_leader = {
-				name = "Tang Na"
+				name = "Тан На"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Tang_Na.png"
 				expire = "1.1.1"
@@ -18148,7 +18148,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Jiang_Qing_hog_tot
 		create_country_leader = {
-				name = "Ding Ling"
+				name = "Дин Лин"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/LEC/Portrait_LEC_Ding_Ling.png"
@@ -18181,7 +18181,7 @@ country_event = { #Organizing the Civilian Facade
 		has_government = totalist
 		}
 		create_country_leader = {
-				name = "Mao Zedong"
+				name = "Мао Цзэдун"
 				desc = ""
 				picture = "gfx/leaders/MON/Portrait_MON_Mao_Zedong.png"
 				expire = "1.1.1"
@@ -18197,7 +18197,7 @@ country_event = { #Organizing the Civilian Facade
 		else_if = {
 			limit = { has_government = radical_socialist }
 		create_country_leader = {
-				name = "Mao Zedong"
+				name = "Мао Цзэдун"
 				desc = ""
 				picture = "gfx/leaders/MON/Portrait_MON_Mao_Zedong.png"
 				expire = "1.1.1"
@@ -18222,7 +18222,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Huang_Jinrong_hog_pau
 		create_country_leader = {
-				name = "Robert Ho Shai Lai"
+				name = "Роберт Хо Шай Лаи"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Robert_Ho_Shai_Lai.png"
 				expire = "1.1.1"
@@ -18240,7 +18240,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Huang_Jinrong_hog_pau
 		create_country_leader = {
-				name = "Shanghai Municipal Police"
+				name = "Шанхайская муниципальная полиция"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Police.png"
 				expire = "1.1.1"
@@ -18258,7 +18258,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Huang_Jinrong_hog_pau
 		create_country_leader = {
-				name = "Shanghai Municipal Council"
+				name = "Шанхайский муниципальный совет"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Legation_Council.png"
 				expire = "1.1.1"
@@ -18276,7 +18276,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Huang_Jinrong_hog_pau
 		create_country_leader = {
-				name = "Lou Henry Hoover"
+				name = "Лу Гувер"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/LEC/Portrait_LEC_Lou_Henry_Hoover.png"
@@ -18303,7 +18303,7 @@ country_event = { #Organizing the Civilian Facade
 		if = {
 		limit = { has_country_leader_ideology = socdem_tridemism_subtype }
 		create_country_leader = {
-				name = "T.V. Soong"
+				name = "Т. В. Сун"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 				expire = "1.1.1"
@@ -18314,7 +18314,7 @@ country_event = { #Organizing the Civilian Facade
 		else_if = {
 		limit = { has_country_leader_ideology = soccon_tridemism_subtype }
 		create_country_leader = {
-				name = "T.V. Soong"
+				name = "Т. В. Сун"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 				expire = "1.1.1"
@@ -18325,7 +18325,7 @@ country_event = { #Organizing the Civilian Facade
 		else_if = {
 		limit = { has_country_leader_ideology = soclib_tridemism_subtype }
 		create_country_leader = {
-				name = "T.V. Soong"
+				name = "Т. В. Сун"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 				expire = "1.1.1"
@@ -18336,7 +18336,7 @@ country_event = { #Organizing the Civilian Facade
 		else_if = {
 		limit = { has_country_leader_ideology = pataut_tridemism_subtype }
 		create_country_leader = {
-				name = "T.V. Soong"
+				name = "Т. В. Сун"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 				expire = "1.1.1"
@@ -18355,7 +18355,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Tu_Yueh_sen_hog_pau
 		create_country_leader = {
-				name = "Dai Li"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng_Blue.png"
 				expire = "1.1.1"
@@ -18376,7 +18376,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Zhang_Xiaolin_hog_pau
 		create_country_leader = {
-				name = "Tang Shaoyi"
+				name = "Тан Шаои"
 				desc = ""
 				picture = "gfx/leaders/FNG/Portrait_FNG_Tang_Shaoyi.png"
 				expire = "1.1.1"
@@ -18399,7 +18399,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Zhang_Xiaolin_hog_pau
 		create_country_leader = {
-				name = "Tōyama Mitsuru"
+				name = "Тояма Мицуру"
 				desc = ""
 				picture = "gfx/leaders/JAP/Portrait_JAP_Toyama_Mitsuru.png"
 				expire = "1.1.1"
@@ -18422,7 +18422,7 @@ country_event = { #Organizing the Civilian Facade
 		remove_ideas_with_trait = head_of_government
 		add_ideas = LEC_Zhang_Xiaolin_hog_pau
 		create_country_leader = {
-				name = "Su Xiwen"
+				name = "Су Сивэнь"
 				desc = ""
 				picture = "gfx/leaders/LEC/Portrait_LEC_Su_Xiwen.png"
 				expire = "1.1.1"
@@ -18612,7 +18612,7 @@ country_event = { #
 				popularity = 0.30
 		}
 		create_country_leader = {
-				name = "Du Yuesheng"
+				name = "Ду Юэшэн"
 				desc = "BIG_EARS_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
 				expire = "1.1.1"
@@ -19019,8 +19019,8 @@ country_event = { #Jiang/Mao
 	LEC = { is_ai = no }
 	has_completed_focus = LEC_madame_jiang_qing_steals_show
 	OR = {
-	CHI = { has_country_leader = { name = "Mao Zedong" } }
-	MON = { has_country_leader = { name = "Mao Zedong" } }
+	CHI = { has_country_leader = { name = "Мао Цзэдун" } }
+	MON = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 	}
 	
@@ -19029,7 +19029,7 @@ country_event = { #Jiang/Mao
 		add_political_power = 50
 		if = {
 		limit = {
-		CHI = { has_country_leader = { name = "Mao Zedong" } }
+		CHI = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 		every_state = {
                 limit = {
@@ -19044,7 +19044,7 @@ country_event = { #Jiang/Mao
 		}
 		if = {
 		limit = {
-		MON = { has_country_leader = { name = "Mao Zedong" } }
+		MON = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 		every_state = {
                 limit = {
@@ -19066,7 +19066,7 @@ country_event = { #Jiang/Mao
 		add_ideas = LEC_Mao_Zedong_hog_tot
 		if = {
 		limit = {
-		CHI = { has_country_leader = { name = "Mao Zedong" } }
+		CHI = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 		annex_country = {
 			target = CHI
@@ -19087,7 +19087,7 @@ country_event = { #Jiang/Mao
 		}
 		if = {
 		limit = {
-		MON = { has_country_leader = { name = "Mao Zedong" } }
+		MON = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 		annex_country = {
 			target = MON
@@ -19123,8 +19123,8 @@ country_event = { #Jiang/Mao
 	has_completed_focus = LEC_madame_jiang_qing_steals_show
 	owns_state = 602
 	NOT = {
-	CHI = { has_country_leader = { name = "Mao Zedong" } }
-	MON = { has_country_leader = { name = "Mao Zedong" } }
+	CHI = { has_country_leader = { name = "Мао Цзэдун" } }
+	MON = { has_country_leader = { name = "Мао Цзэдун" } }
 		}
 	}
 	
@@ -19300,13 +19300,13 @@ country_event = { #New Vermillion Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "H.H. Kung"
+			name = "Кун Сянси"
 			desc = ""
 			picture = "gfx/leaders/CHI/Portrait_CHI_H_H_Kung.png"
 			expire = "1.1.1"
@@ -19326,13 +19326,13 @@ country_event = { #New Vermillion Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Soong Ai-ling"
+			name = "Сун Айлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Soong_Ai_ling.png"
@@ -19364,13 +19364,13 @@ country_event = { #New Minquan Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "T.V. Soong"
+			name = "Т. В. Сун"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_T_V_Soong.png"
 			expire = "1.1.1"
@@ -19394,13 +19394,13 @@ country_event = { #New Minquan Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Carsun Chang"
+			name = "Чжан Цзюньмай"
 			desc = ""
 			picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 			expire = "1.1.1"
@@ -19425,13 +19425,13 @@ country_event = { #New Minquan Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Chen Jiongming"
+			name = "Чэнь Цзюнмин"
 			desc = ""
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming.png"
 			expire = "1.1.1"
@@ -19466,13 +19466,13 @@ country_event = { #New Minsheng Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Soong Ching-ling"
+			name = "Сун Цинлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
@@ -19497,13 +19497,13 @@ country_event = { #New Minsheng Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Lu Xun"
+			name = "Лу Синь"
 			desc = ""
 			picture = "gfx/leaders/LEC/Portrait_LEC_Lu_Xun.png"
 			expire = "1.1.1"
@@ -19527,13 +19527,13 @@ country_event = { #New Minsheng Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Feng Yuxiang"
+			name = "Фэн Юйсян"
 			desc = ""
 			picture = "gfx/leaders/SHX/Portrait_Shanxi_Feng_Yuxiang.png"
 			expire = "1.1.1"
@@ -19568,13 +19568,13 @@ country_event = { #New RKMT Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Soong Mei-ling"
+			name = "Сун Мэйлин"
 			desc = ""
 			female = yes
 			picture = "gfx/leaders/CHI/Portrait_CHI_Soong_Mei_ling_KX.png"
@@ -19599,13 +19599,13 @@ country_event = { #New RKMT Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = ""
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
@@ -19643,13 +19643,13 @@ country_event = { #New RKMT Leader Picker
 		limit = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = ""
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_Shek.png"
 			expire = "1.1.1"
@@ -19683,12 +19683,12 @@ country_event = { #New YCP Leader Picker
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Li Huang"
+			name = "Ли Хуань"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Li_Huang.png"
 			expire = "1.1.1"
@@ -19711,12 +19711,12 @@ country_event = { #New YCP Leader Picker
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Hóngwu" }
-		has_country_leader = { ruling_only = yes name = "Hong Xiuquan" }
+		has_country_leader = { ruling_only = yes name = "Хунъу" }
+		has_country_leader = { ruling_only = yes name = "Хун Сюцюань" }
 			}
 		}
 		create_country_leader = {
-			name = "Chen Qitian"
+			name = "Чэнь Цитянь"
 			desc = ""
 			picture = "gfx/leaders/QIE/Portrait_QIE_Chen_Qitian.png"
 			expire = "1.1.1"

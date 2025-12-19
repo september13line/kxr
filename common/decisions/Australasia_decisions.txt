@@ -1533,7 +1533,7 @@ AST_bastion_of_empire_decisions = {
 			if = {
 				limit = { 
 					OR = { 
-						NOT = { has_country_flag = AST_red_focus_move }
+					NOT = { has_country_flag = AST_red_focus_move }
 						has_country_flag = AST_afm_go_white
 					}
 					NOT = { has_country_flag = AST_whites_focus_move }
@@ -2302,7 +2302,7 @@ AST_international_decisions = {# Foreign Policy
 				limit = {
 					has_country_flag = AST_red_focus_move
 				}
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_oceanic_int
 				icon = GFX_faction_oceanic_internationale
@@ -3150,31 +3150,31 @@ AST_New_Black_Internationale_decisions = {
 			    NOT = { is_in_faction_with = AST }
 				OR = {
 					has_country_leader = {
-						name = "Simon Kimbangu"
+						name = "Симон Кимбангу"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Marie Muilu Kiawanga Nzitani"
+						name = "Мари Муилу Киаванга Нзитани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Charles Daniel Kisolokele"
+						name = "Чарльз Дэниел Кисолокеле"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Salomon Dialungana Kiangani"
+						name = "Саломон Диалунгана Киангани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Joseph Diangienda"
+						name = "Джозеф Диангиенда"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Simon-Pierre Mpadi"
+						name = "Симон-Пьер Мпади"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Daniel Kanza"
+						name = "Даниэль Канза"
 						ruling_only = yes
 					}
 				}
@@ -3377,7 +3377,7 @@ AST_New_Black_Internationale_decisions = {
 				exists = yes
                 is_subject = no
 			    NOT = { is_in_faction_with = AST }
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		days_remove = 7
@@ -3409,7 +3409,7 @@ AST_New_Black_Internationale_decisions = {
 				exists = yes
                 is_subject = no
 			    NOT = { is_in_faction_with = AST }
-				has_country_leader = {	name = "Haile Selassie" ruling_only = yes }
+				has_country_leader = {	name = "Хайле Селассие" ruling_only = yes }
 			}	
 		}
 		days_remove = 7

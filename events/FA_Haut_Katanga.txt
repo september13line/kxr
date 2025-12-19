@@ -409,7 +409,7 @@ country_event = { #mwami take over
 		}
 		leave_faction = yes
 		set_country_flag = UMN_Mwami_Rules
-		879 = { set_state_name = "Lubumbashi" }
+		879 = { set_state_name = "Лубумбаши" }
 		hidden_effect = {
 		load_focus_tree = mwami_focus
 		}
@@ -438,7 +438,7 @@ country_event = { #mwami take over
 			set_nationality = MSF
 		}
 		create_field_marshal = {
-			name = "Mwenda III "
+			name = "Мвенда III "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Mabumba_Kitanika.png"
 			traits = {
 				politically_connected
@@ -451,7 +451,7 @@ country_event = { #mwami take over
 			id = 63621
 		}
 		create_corps_commander = {
-			name = "Antoine Munongo Luhinda Shalo"
+			name = "Антуан Мунонго Лухинда Шало"
 			portrait_path = "gfx/leaders/COG/Portrait_Congo_Mwami_Antoine_Munongo_Luhinda_Shalo.png"
 			traits = {
 				politically_connected
@@ -464,7 +464,7 @@ country_event = { #mwami take over
 			id = 63622
 		}
 		create_corps_commander = {
-			name = "Munongo Musamfya Ntanga"
+			name = "Мунонго Мусамфья Нтанга"
 			portrait_path = "gfx/leaders/COG/Portrait_Congo_Mwami_Munongo_Musamfya_Ntanga.png"
 			traits = {
 				politically_connected
@@ -477,7 +477,7 @@ country_event = { #mwami take over
 			id = 63765
 		}
 		create_corps_commander = {
-			name = "Godefroid Munongo "
+			name = "Годфруа Мунонго "
 			portrait_path = "gfx/leaders/KAS/Portrait_KAS_Godefroid_Munongo.png"
 			traits = {
 				politically_connected
@@ -692,7 +692,7 @@ country_event = { #workers rights
 	}
 }
 
-country_event = { #showcase
+country_event = { #workers rights
 	id = unionminere.19
 	immediate = {log = "[GetDateText]: [Root.GetName]: event unionminere.19"}
 	title = unionminere.19.t
@@ -745,7 +745,7 @@ country_event = { #willy
 	option = { #yes
 		name = unionminere.20.a
 		create_country_leader = {
-			name = "Wilhelm II"
+			name = "Вильгельм II"
 			desc = "POLITICS_WILLY_CONGO_DESC"
 			picture = "gfx/leaders/COG/UMN_Wilhelm_II.png"
 			expire = "1.1.1"
@@ -983,7 +983,7 @@ country_event = { #death of the king
 				promote_leader = yes
 			}
 		create_country_leader = {
-				name = "Mwenda IV"
+				name = "Мвенда IV"
 				desc = "POLITICS_MWENDA_IV_DESC"
 				picture = "gfx/leaders/COG/Portrait_Congo_Mwami_Munongo_Musamfya_Ntanga.png"
 				expire = "1.1.1"
@@ -1033,15 +1033,15 @@ country_event = { #booymen
 	is_triggered_only = yes
   
 	option = { #yes
-		name = mwami.11.a
-		add_war_support = 0.05
-		add_manpower = 750
-		add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 300
-				producer = BEL
-		}
+	name = mwami.11.a
+	add_war_support = 0.05
+	add_manpower = 750
+	add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 300
+			producer = BEL
 	}
+}
 }
 
 ####################################
@@ -1127,7 +1127,7 @@ country_event = { #
 			limit = { has_country_flag = UMN_munongo_takes_over }
 			KIV = {
 				create_country_leader = {
-					name = "Godefroid Munongo "
+					name = "Годфруа Мунонго "
 					desc = "POLITICS_MUNONGO_DESC"
 					picture = "gfx/leaders/KAS/Portrait_KAS_Godefroid_Munongo.png"
 					expire = "1.1.1"
@@ -1140,7 +1140,7 @@ country_event = { #
 			limit = { has_country_flag = UMN_sengier_takes_over }
 			KIV = {
 				create_country_leader = {
-					name = "Edgar Sengier "
+					name = "Эдгар Сенжье "
 					desc = "POLITICS_SENGIER_DESC"
 					picture = "gfx/leaders/COG/UMN_Edgar_Sengier.png"
 					expire = "1.1.1"
@@ -1163,10 +1163,10 @@ country_event = { #
 	option = { #break up the congo
 		name = katanga.1.b
 		hidden_effect = {
-		fuck_the_shit_out_of_the_congo = yes	
-			country_event = {
-				id = katanga.18
-				days = 12
+			fuck_the_shit_out_of_the_congo = yes	
+				country_event = {
+					id = katanga.18
+					days = 12
 			}
 		}
 	}
@@ -1407,7 +1407,7 @@ country_event = { #munuongo takeover
 	option = { #press f
 		name = katanga.7.a
 		create_country_leader = {
-			name = "Godefroid Munongo"
+			name = "Годфруа Мунонго"
 			desc = "POLITICS_MUNONGO_DESC"
 			picture = "gfx/leaders/KAS/Portrait_KAS_Godefroid_Munongo.png"
 			expire = "1.1.1"
@@ -1437,7 +1437,7 @@ country_event = { #hoare takeover
 	option = { #press f
 		name = katanga.8.a
 		create_country_leader = {
-			name = "'Mad' Mike Hoare"
+			name = "«Бешеный» Майкл Хоар"
 			picture = "gfx/leaders/COG/Portrait_Katanga_Mad_Mike_Hoare.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
@@ -1465,7 +1465,7 @@ country_event = { #sengier takeover
 	option = { #press f
 		name = katanga.9.a
 		create_country_leader = {
-			name = "Edgar Sengier"
+			name = "Эдгар Сенжье"
 			desc = "POLITICS_SENGIER_DESC"
 			picture = "gfx/leaders/COG/UMN_Edgar_Sengier.png"
 			expire = "1.1.1"
@@ -1586,7 +1586,7 @@ country_event = { #work with sengier
 	fire_only_once = yes
 	
 	is_triggered_only = yes
-  
+
 	option = { #yes
 		name = katanga.15.a
 		add_political_power = 50
@@ -1855,7 +1855,7 @@ country_event = { #take over for munongo v2
 		add_political_power = -50
 		add_stability = -0.10
 		create_country_leader = {
-			name = "Godefroid Munongo"
+			name = "Годфруа Мунонго"
 			desc = "POLITICS_MUNONGO_DESC"
 			picture = "gfx/leaders/KAS/Portrait_KAS_Godefroid_Munongo.png"
 			expire = "1.1.1"
@@ -1972,7 +1972,7 @@ country_event = { #mwami take over
 			set_nationality = MSF
 		}
 		create_field_marshal = {
-			name = "Mwenda III "
+			name = "Мвенда III "
 			portrait_path = "gfx/leaders/COG/Portrait_COG_Mabumba_Kitanika.png"
 			traits = {
 				politically_connected
@@ -1985,7 +1985,7 @@ country_event = { #mwami take over
 			id = 63621
 		}
 		create_corps_commander = {
-			name = "Antoine Munongo Luhinda Shalo"
+			name = "Антуан Мунонго Лухинда Шало"
 			portrait_path = "gfx/leaders/COG/Portrait_Congo_Mwami_Antoine_Munongo_Luhinda_Shalo.png"
 			traits = {
 				politically_connected
@@ -1998,7 +1998,7 @@ country_event = { #mwami take over
 			id = 63622
 		}
 		create_corps_commander = {
-			name = "Munongo Musamfya Ntanga"
+			name = "Мунонго Мусамфья Нтанга"
 			portrait_path = "gfx/leaders/COG/Portrait_Congo_Mwami_Munongo_Musamfya_Ntanga.png"
 			traits = {
 				politically_connected
@@ -2011,7 +2011,7 @@ country_event = { #mwami take over
 			id = 63765
 		}
 		create_corps_commander = {
-			name = "Godefroid Munongo "
+			name = "Годфруа Мунонго "
 			portrait_path = "gfx/leaders/KAS/Portrait_KAS_Godefroid_Munongo.png"
 			traits = {
 				politically_connected

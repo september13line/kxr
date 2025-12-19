@@ -65,7 +65,7 @@ if = {
 		armored_train = 1
 	}
 	create_equipment_variant = {
-		name = "BT 'Amerikanets'"
+		name = "БТ 'Американац'"
 		type = light_tank_chassis_0
 		parent_version = 0
 		modules = {
@@ -83,7 +83,7 @@ if = {
 		icon = "gfx/interface/technologies/USA_basic_light_tank.dds"
 	}
 	create_equipment_variant = {
-		name = "BT-33"
+		name = "БТ-33"
 		type = light_tank_chassis_0
 		parent_version = 0
 		modules = {
@@ -101,25 +101,25 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		
+		basic_naval_mines = 1
+		
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_naval_mines = 1
-	
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_heavy_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
+		### Transport ###
 	mtg_transport = 1
 }
 
@@ -244,13 +244,13 @@ add_ai_strategy = {
 }
 
 create_country_leader = {
-	name = "Nikolay Nekrasov"
+	name = "Николай Некрасов"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 	expire = "1.1.1"
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
-	name = "Grigory Zinoviev"
+	name = "Григорий Зиновьев"
 	desc = "POLITICS_GRIGORY_ZINOVIEV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Grigoriy_Zinoviev.png"
 	expire = "1.1.1"
@@ -258,7 +258,7 @@ create_country_leader = {
 	traits = { SOV_student_of_lenin }
 }
 create_country_leader = {
-	name = "Maria Spiridonova"
+	name = "Мария Спиридонова"
 	desc = "POLITICS_MARIA_SPIRIDONOVA_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Maria_Spiridonova.png"
 	expire = "1.1.1"
@@ -267,7 +267,7 @@ create_country_leader = {
 	traits = { RUS_valkrye_of_revolution }
 }
 create_country_leader = {
-	name = "Nikolay Bukharin"
+	name = "Николай Бухарин"
 	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 	expire = "1.1.1"
@@ -275,7 +275,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Irakliy Tsereteli"
+	name = "Ираклий Церетели"
 	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 	expire = "1.1.1"
@@ -283,7 +283,7 @@ create_country_leader = {
 	traits = { RUS_bleeding_heart_socialist }
 }
 create_country_leader = {
-	name = "Pavel Milyukov"
+	name = "Павел Милюков"
 	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 	expire = "1.1.1"
@@ -291,7 +291,7 @@ create_country_leader = {
 	traits = { RUS_milyukov_of_the_dardanelles }
 }
 create_country_leader = {
-	name = "Nikolai Trubetzkoy"
+	name = "Николай Трубецкой"
 	desc = "POLITICS_NIKOLAI_TRUBETSKOY_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 	expire = "1.1.1"
@@ -299,7 +299,7 @@ create_country_leader = {
 	traits = { RUS_eurasianist_ideologue }
 }
 create_country_leader = {
-	name = "Lavr Kornilov"
+	name = "Лавр Корнилов"
 	desc = "POLITICS_LAVR_KORNILOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Lavr_Kornilov.png"
 	expire = "1.1.1"
@@ -307,14 +307,14 @@ create_country_leader = {
 	traits = { RUS_nationalist_dictator }
 }
 create_country_leader = {
-	name = "Vasiliy Shulgin"
+	name = "Василий Шульгин"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel.png"
 	expire = "1.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Boris Savinkov"
+	name = "Борис Савинков"
 	desc = "POLITICS_BORIS_SAVINKOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Savinkov.png"
 	expire = "1.1.1"

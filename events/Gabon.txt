@@ -43,7 +43,7 @@ country_event = { #Coup attempt
 			factor = 50
 		}
 		create_country_leader = {
-			name = "Gabriel Leon M'ba"
+			name = "Леон Мба"
 			desc = "POLITICS_MBA_PATAUT_DESC"
 			picture = "gfx/leaders/GAB/Portrait_GAB_Gabriel_Leon_Mba.png"
 			expire = "1.1.1"
@@ -65,7 +65,7 @@ country_event = { #Coup attempt
 		}
 		remove_all_ministers = yes
 		create_country_leader = {
-			name = "Charles N'Tchoréré"
+			name = "Шарль Н'Тшорере"
 			desc = "POLITICS_NTCHORERE_DESC"
 			picture = "gfx/leaders/GAB/Portrait_GAB_Tchorere.png"
 			expire = "1.1.1"
@@ -994,7 +994,7 @@ country_event = { #New Gov Gen
 			custom_effect_tooltip = pataut_autocratic_colonial_govt_subtype_swap_tt
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Gabriel Leon M'ba" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Леон Мба" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/GAB/Portrait_GAB_Gabriel_Leon_Mba_Governor.png"
 			}
@@ -1006,13 +1006,13 @@ country_event = { #New Gov Gen
 			FAR = {
 				NOT = {
 					has_country_leader = {
-						name = "Félix Eboué"
+						name = "Феликс Эбуэ"
 					}
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Félix Eboué"
+			name = "Феликс Эбуэ"
 			picture = "gfx/leaders/CAF/Portrait_CAF_Felix_Eboue.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -1021,7 +1021,7 @@ country_event = { #New Gov Gen
 			}
 		}
 		create_country_leader = {
-			name = "Félix Eboué"
+			name = "Феликс Эбуэ"
 			picture = "gfx/leaders/CAF/Portrait_CAF_Felix_Eboue.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
@@ -1042,7 +1042,7 @@ country_event = { #New Gov Gen
 	option = { #yes
 		name = gab.301.c
 		create_country_leader = {
-			name = "Joseph-François Reste"
+			name = "Жозеф-Франсуа Ресте"
 			picture = "gfx/leaders/GAB/Portrait_GAB_Joseph_Francois_Reste.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -1345,7 +1345,7 @@ country_event = { #socialist final dream
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Rene-Paul Sousatte"
+			name = "Рене-Поль Сусатте"
 			desc = "POLITICS_SOUSATTE_DESC"
 			picture = "gfx/leaders/GAB/Portrait_GAB_Rene_Paul_Sousatte.png"
 			expire = "1.1.1"
@@ -1360,7 +1360,7 @@ country_event = { #socialist final dream
 		}
 	}
 	option = { #radsoc pan-afr
-		name = gab.41.c
+	name = gab.41.c
 		ai_chance = {
 			factor = 0
 		}
@@ -1402,7 +1402,7 @@ country_event = { #socialist final dream
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Rene-Paul Sousatte"
+			name = "Рене-Поль Сусатте"
 			desc = "POLITICS_SOUSATTE_DESC"
 			picture = "gfx/leaders/GAB/Portrait_GAB_Rene_Paul_Sousatte.png"
 			expire = "1.1.1"

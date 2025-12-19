@@ -336,7 +336,7 @@ country_event = { #The Secretive Retainer
 				long_name = CHI_totalist_juntong_generic_long
 			}
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -609,7 +609,7 @@ country_event = { #Collapse of the NRA
 
 ###- Early Game Events Triggered By On-Actions (200-299) -###
 
-country_event = { # Return of the Central Committee - fired by completing capture of Xiamen
+country_event = { # Return of the Центральный комитет - fired by completing capture of Xiamen
 	id = CHI.earlygame.200
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.earlygame.200" }
 	immediate = {
@@ -1029,7 +1029,7 @@ country_event = { #The Death of Liao Zhongkai
 	immediate = { hidden_effect = { country_event = { id = CHI.midgame.011 days = 180 random_days = 10 } } } #An inside look at RCA
 
 	option = {
-		name = CHI.midgame.008.a #Appoint Chen Gongbo to replace him.
+		name = CHI.midgame.008.a #Appoint Чэнь Гунбо to replace him.
 		ai_chance = {
 			base = 34
 			modifier = {
@@ -1393,7 +1393,7 @@ country_event = { #Moves and Countermoves
 	trigger = { CHI_is_phase_four_trigger = no } #Make sure powerstruggle is still active
 	fire_only_once = yes
 
-	immediate = { hidden_effect = { country_event = { id = CHI.midgame.016 days = 180 random_days = 10 } } } #The Four Elders Denounce Wang
+	immediate = { hidden_effect = { country_event = { id = CHI.midgame.016 days = 180 random_days = 10 } } } #Четверо старейшин Denounce Wang
 
 	option = {
 		name = CHI.midgame.015.a #Wang endorses proactive measures.
@@ -1432,7 +1432,7 @@ country_event = { #Moves and Countermoves
 	}
 }
 
-country_event = { #The Four Elders Denounce Wang
+country_event = { #Четверо старейшин Denounce Wang
 	id = CHI.midgame.016
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.midgame.016" }
 	title = CHI.midgame.016.t
@@ -1646,7 +1646,7 @@ country_event = { #Clashing Titans
 	fire_only_once = yes
 
 	option = {
-		name = CHI.midgame.020.a #Reprimand Deng Yanda.
+		name = CHI.midgame.020.a #Reprimand Дэн Янда.
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -1990,7 +1990,7 @@ country_event = {
 		CHI_LCS_small_effect = yes
 		CHI_PAC_medium_effect = yes
 		create_country_leader = {
-			name = "Yi Peiji"
+			name = "И Пэйцзи"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Yi_Peiji.png"
 			expire = "1.1.1"
 			ideology = anarcho_syndicalist_subtype
@@ -2026,7 +2026,7 @@ country_event = {
 		CHI_RCA_medium_effect = yes
 		CHI_add_rad_large_effect = yes
 		create_country_leader = {
-			name = "Chen Shaoyu"
+			name = "Чэнь Шаоюй"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 			expire = "1.1.1"
 			ideology = centralized_syndicalism_subtype
@@ -2073,7 +2073,7 @@ country_event = {
 		}
 		CHI_sub_rad_small_effect = yes
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			desc = "POLITICS_CHI_CHEN_DUXIU_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
@@ -3621,7 +3621,7 @@ country_event = {
 		if = {
 			limit = { original_tag = GXC }
 			create_country_leader = {
-				name = "Zheng Jieming"
+				name = "Чжэн Цзэмин"
 				desc = "POLITICS_CHI_ZHENG_JIEMIN_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3631,7 +3631,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = HNN }
 			create_country_leader = {
-				name = "Tang Zong"
+				name = "Тан Цзун"
 				desc = "POLITICS_CHI_TANG_ZONG_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3641,7 +3641,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = LEC LEC = { NOT = { has_completed_focus = LEC_madame_jiang_qing_steals_show } } }
 			create_country_leader = {
-				name = "Shen Zui"
+				name = "Шэнь Цзуй"
 				desc = "POLITICS_CHI_SHEN_ZUI_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3651,7 +3651,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = QIE }
 			create_country_leader = {
-				name = "Ma Hansan"
+				name = "Ма Ханьсан"
 				desc = "POLITICS_CHI_MA_HANSAN_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3661,7 +3661,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SHX } #SHX's leader is already in SHX
 			create_country_leader = {
-				name = "Qiao Jiacai"
+				name = "Цяо Цзяцай"
 				desc = "POLITICS_SHX_QIAO_JIACAI_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3671,7 +3671,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SQI }
 			create_country_leader = {
-				name = "Hu Tianqiu"
+				name = "Ху Тяньцю"
 				desc = "POLITICS_CHI_HU_TIANQIU_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3681,7 +3681,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SZC }
 			create_country_leader = {
-				name = "Zeng Kuoqing"
+				name = "Цзэн Куоцин"
 				desc = "POLITICS_CHI_ZENG_KUOQING_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3691,7 +3691,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = YUN }
 			create_country_leader = {
-				name = "Qiu Kaiji"
+				name = "Цюй Кайцзи"
 				desc = "POLITICS_CHI_QIU_KAIJI_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3731,7 +3731,7 @@ country_event = {
 		if = {
 			limit = { original_tag = FNG }
 			create_country_leader = {
-				name = "Yan Baohang"
+				name = "Янь Баохань"
 				desc = "POLITICS_CHI_YAN_BAOHANG_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3741,7 +3741,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = GXC }
 			create_country_leader = {
-				name = "Gong Changrong"
+				name = "Гонг Чангрун"
 				desc = "POLITICS_CHI_QONG_CHANGRONG_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3751,7 +3751,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = HNN }
 			create_country_leader = {
-				name = "Liu Daoheng"
+				name = "Лю Даохэн"
 				desc = "POLITICS_CHI_LIU_DAOHENG_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3761,7 +3761,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = LEC LEC = { NOT = { has_completed_focus = LEC_madame_jiang_qing_steals_show } } }
 			create_country_leader = {
-				name = "Tan Zhongyu"
+				name = "Тань Чжунъюй"
 				desc = "POLITICS_CHI_TAN_ZHONGYU_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3771,7 +3771,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = QIE }
 			create_country_leader = {
-				name = "Wang Shijan"
+				name = "Ван Шиджан"
 				desc = "POLITICS_CHI_WANG_SHIJAN_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3781,7 +3781,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SHX } #SHX's leader is already in SHX
 			create_country_leader = {
-				name = "Bo Yibo"
+				name = "Бо Ибо"
 				desc = "POLITICS_CHI_WANG_SHIJAN_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3791,7 +3791,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SQI }
 			create_country_leader = {
-				name = "Kang Sheng"
+				name = "Кан Шэн"
 				desc = "POLITICS_CHI_KANG_SHENG_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3801,7 +3801,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = SZC }
 			create_country_leader = {
-				name = "Hu Chunpu"
+				name = "Ху Чуньпу"
 				desc = "POLITICS_CHI_HU_CHUNPU_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3811,7 +3811,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = XSM }
 			create_country_leader = {
-				name = "Wu Hongbin"
+				name = "У Хунбинь"
 				desc = "POLITICS_CHI_WU_HONGBIN_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -3821,7 +3821,7 @@ country_event = {
 		else_if = {
 			limit = { original_tag = YUN } #YUN's leader is already in SHX
 			create_country_leader = {
-				name = "Wang Fusheng"
+				name = "Ван Фушэн"
 				desc = "POLITICS_YUNNAN_WANG_FUSHENG_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Wang_Fusheng.png"
 				expire = "1.1.1"
@@ -4414,7 +4414,7 @@ country_event = { #Nosaka Sanzo joins the LKMT
 		log = "[GetLogInfo]: event CHI.midgame.225 option CHI.midgame.225.a"
 		name = CHI.midgame.225.a
 		if = {
-			limit = { JAP = { NOT = { has_country_leader = { name = "Nosaka Sanzō" ruling_only = yes } } } }
+			limit = { JAP = { NOT = { has_country_leader = { name = "Сандзо Носака" ruling_only = yes } } } }
 			XXA = {
 				random_unit_leader = {
 					limit = { has_id = 3277 }
@@ -5871,7 +5871,7 @@ country_event = { #Flaggot
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.midgame.999" }
 	title = CHI.midgame.999.t
 	desc = CHI.midgame.999.d
-
+	
 	picture = GFX_report_event_CHI_flag
 	is_triggered_only = yes 
 	fire_only_once = yes
@@ -6222,7 +6222,7 @@ country_event = { #Anarchism and the Party-State
 	}
 
 	option = {
-		name = CHI.lategame.042.a #The Four Elders shift the narrative.
+		name = CHI.lategame.042.a #Четверо старейшин shift the narrative.
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -6272,7 +6272,7 @@ country_event = { #Wang Leping Murdered!
 	}
 
 	option = {
-		name = CHI.lategame.043.a #Dai Chunfeng and the army surely are to blame!
+		name = CHI.lategame.043.a #Дай Ли and the army surely are to blame!
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -6288,7 +6288,7 @@ country_event = { #Wang Leping Murdered!
 		army_experience = -25
 	}
 	option = {
-		name = CHI.lategame.043.b #Zhou Enlai and the deep-state were behind it!
+		name = CHI.lategame.043.b #Чжоу Эньлай and the deep-state were behind it!
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -6946,7 +6946,7 @@ country_event = { #Fate of Puyi
 	desc = CHI.lategame.065.d
 
 	is_triggered_only = yes
-	trigger = { QIE = { has_country_leader = { name = "Puyi" ruling_only = yes } } }
+	trigger = { QIE = { has_country_leader = { name = "Пу И" ruling_only = yes } } }
 
 	option = { #Exile
 		name = CHI.lategame.065.a
@@ -7175,7 +7175,7 @@ country_event = { #Intrigues in Xinjiang
 
 	is_triggered_only = yes #Triggered by event option annex.3012.d
 
-	option = { #Burhan Shahidi seems to know what he is doing.
+	option = { #Бурган Шахиди seems to know what he is doing.
 		name = CHI.lategame.069.a
 		ai_chance = {
 			base = 30
@@ -7194,7 +7194,7 @@ country_event = { #Intrigues in Xinjiang
 		add_political_power = 40
 		CHI_PAC_large_effect = yes
 	}
-	option = { #Sheng Shicai seems like a fine commander.
+	option = { #Шэн Шицай seems like a fine commander.
 		name = CHI.lategame.069.b
 		ai_chance = {
 			base = 30
@@ -7879,15 +7879,15 @@ country_event = { #The Kuomintang National Congress
 			modifier = {
 				factor = 2
 				OR = {
-					has_country_leader = { name = "Feng Yuxiang" ruling_only = yes } #RCA more relevant in SHX
-					has_country_leader = { name = "Lu Chao" ruling_only = yes } #Minor RCA ties
-					has_country_leader = { name = "Tang Shengzi" ruling_only = yes } #Minor RCA ties
+					has_country_leader = { name = "Фэн Юйсян" ruling_only = yes } #RCA more relevant in SHX
+					has_country_leader = { name = "Лу Чао" ruling_only = yes } #Minor RCA ties
+					has_country_leader = { name = "Тан Шэнчжи" ruling_only = yes } #Minor RCA ties
 				}
 			}
 			modifier = {
 				factor = 3
 				OR = {
-					has_country_leader = { name = "Zhu De" ruling_only = yes } #Has ties with both Political Department and PAC
+					has_country_leader = { name = "Чжу Дэ" ruling_only = yes } #Has ties with both Political Department and PAC
 				}
 			}
 			modifier = {
@@ -7917,9 +7917,9 @@ country_event = { #The Kuomintang National Congress
 			modifier = {
 				factor = 3
 				OR = {
-					has_country_leader = { name = "Chen Mingshu" ruling_only = yes } #Has ties with PAC
-					has_country_leader = { name = "Zhu De" ruling_only = yes  } #Has ties with both Political Department and PAC
-					has_country_leader = { name = "Cheng Qian" ruling_only = yes  } #Has ties with RF
+					has_country_leader = { name = "Чэнь Миншу" ruling_only = yes } #Has ties with PAC
+					has_country_leader = { name = "Чжу Дэ" ruling_only = yes  } #Has ties with both Political Department and PAC
+					has_country_leader = { name = "Чэн Цянь" ruling_only = yes  } #Has ties with RF
 				}
 			}
 			modifier = {
@@ -8017,10 +8017,10 @@ country_event = { #The Republic of China Expels the MMIC
 		text = CHI.lategame.220.d.sorelian
 		trigger = {
 			OR = {
-				has_country_leader = { name = "Georges Valois" ruling_only = yes }
-				has_country_leader = { name = "Jacques Doriot" ruling_only = yes }
-				has_country_leader = { name = "Marcel Déat" ruling_only = yes }
-				has_country_leader = { name = "Marcel Bucard" ruling_only = yes }
+				has_country_leader = { name = "Жорж Валуа" ruling_only = yes }
+				has_country_leader = { name = "Жак Дорио" ruling_only = yes }
+				has_country_leader = { name = "Марсель Деа" ruling_only = yes }
+				has_country_leader = { name = "Марсель Бюкар" ruling_only = yes }
 			}
 		}
 	}
@@ -8028,10 +8028,10 @@ country_event = { #The Republic of China Expels the MMIC
 		text = CHI.lategame.220.d.other
 		trigger = {
 			NOT = {
-				has_country_leader = { name = "Georges Valois" ruling_only = yes }
-				has_country_leader = { name = "Jacques Doriot" ruling_only = yes }
-				has_country_leader = { name = "Marcel Déat" ruling_only = yes }
-				has_country_leader = { name = "Marcel Bucard" ruling_only = yes }
+				has_country_leader = { name = "Жорж Валуа" ruling_only = yes }
+				has_country_leader = { name = "Жак Дорио" ruling_only = yes }
+				has_country_leader = { name = "Марсель Деа" ruling_only = yes }
+				has_country_leader = { name = "Марсель Бюкар" ruling_only = yes }
 			}
 		}
 	}
@@ -8054,10 +8054,10 @@ country_event = { #The MMIC Attacked in Nanjing
 		text = CHI.lategame.221.d.sorelian
 		trigger = {
 			OR = {
-				has_country_leader = { name = "Georges Valois" ruling_only = yes }
-				has_country_leader = { name = "Jacques Doriot" ruling_only = yes }
-				has_country_leader = { name = "Marcel Déat" ruling_only = yes }
-				has_country_leader = { name = "Marcel Bucard" ruling_only = yes }
+				has_country_leader = { name = "Жорж Валуа" ruling_only = yes }
+				has_country_leader = { name = "Жак Дорио" ruling_only = yes }
+				has_country_leader = { name = "Марсель Деа" ruling_only = yes }
+				has_country_leader = { name = "Марсель Бюкар" ruling_only = yes }
 			}
 		}
 	}
@@ -8065,10 +8065,10 @@ country_event = { #The MMIC Attacked in Nanjing
 		text = CHI.lategame.221.d.other
 		trigger = {
 			NOT = {
-				has_country_leader = { name = "Georges Valois" ruling_only = yes }
-				has_country_leader = { name = "Jacques Doriot" ruling_only = yes }
-				has_country_leader = { name = "Marcel Déat" ruling_only = yes }
-				has_country_leader = { name = "Marcel Bucard" ruling_only = yes }
+				has_country_leader = { name = "Жорж Валуа" ruling_only = yes }
+				has_country_leader = { name = "Жак Дорио" ruling_only = yes }
+				has_country_leader = { name = "Марсель Деа" ruling_only = yes }
+				has_country_leader = { name = "Марсель Бюкар" ruling_only = yes }
 			}
 		}
 	}
@@ -8228,7 +8228,7 @@ country_event = { #Reassuring our Partners
 			CHI_LCS_clear_flags_effect = yes
 			set_country_flag = CHI_LCS_ORT_dom_flag
 			create_country_leader = {
-				name = "Chen Duxiu"
+				name = "Чэнь Дусю"
 				desc = "POLITICS_CHI_CHEN_DUXIU_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 				expire = "1.1.1"
@@ -8260,7 +8260,7 @@ country_event = { #Reassuring our Partners
 			CHI_LCS_clear_flags_effect = yes
 			set_country_flag = CHI_LCS_RAD_dom_flag
 			create_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 				expire = "1.1.1"
 				ideology = centralized_syndicalism_subtype
@@ -8451,7 +8451,7 @@ country_event = { #The Red Squad's Triumph
 	is_triggered_only = yes #triggered from CHI.lategame.250
 	timeout_days = 7
 
-	option = { #Absorb Dai Chunfeng's operation
+	option = { #Absorb Дай Ли's operation
 		name = CHI.lategame.273.a
 		ai_chance = {
 			base = 50
@@ -8610,7 +8610,7 @@ country_event = { #The True Heir of the Revolution
 				name = CHI_rca_radical_party
 			}
 			create_country_leader = {
-				name = "Chen Gongbo"
+				name = "Чэнь Гунбо"
 				desc = "POLITICS_CHI_CHEN_GONGBO_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 				traits = { CHI_wang_jingwei_thought }
@@ -8618,7 +8618,7 @@ country_event = { #The True Heir of the Revolution
 				ideology = tot_tridemism_subtype
 			}
 			create_country_leader = {
-				name = "Gu Mengyu"
+				name = "Гу Мэнъюй"
 				desc = "POLITICS_CHI_GU_MENGYU_DESC"
 				picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 				expire = "1.1.1"
@@ -8699,7 +8699,7 @@ country_event = { #Rebellion Flares in Fujian
 				factor = 10
 				has_opinion_modifier = KR_approves_of_govt #Yeah there's plenty of room for cheese but it's whatever
 			}
-		}
+		} 
 		china_integrate_ally_effect = yes
 		CHI = { country_event = { id = CHI.lategame.292 days = 7 } }
 	}
@@ -8829,7 +8829,7 @@ country_event = {
 			country_event = { id = CHI.lategame.304 days = 18 } #The Breaking Point
 			if = {
 				limit = { UPC = { is_subject_of = CHI } }
-				UPC = { country_event = { id = CHI.lategame.341 days = 20 } } #Wang Jingwei Deposed!
+				UPC = { country_event = { id = CHI.lategame.341 days = 20 } } #Ван Цзинвэй Deposed!
 			}
 			if = {
 				limit = { RKT = { is_subject_of = CHI } }
@@ -9151,7 +9151,7 @@ country_event = {  #Action Now!
 	}
 }
 
-country_event = {  #Wang Jingwei Deposed in Nanjing!
+country_event = {  #Ван Цзинвэй Deposed in Nanjing!
 	id = CHI.lategame.341
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.lategame.341" }
 	title = CHI.lategame.341.t
@@ -9210,7 +9210,7 @@ country_event = {  #Wang Jingwei Deposed in Nanjing!
 	}
 }
 
-country_event = {  #The Federalists Align With Sun Fo
+country_event = {  #The Federalists Align With Сунь Фо
 	id = CHI.lategame.342
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.lategame.342" }
 	title = CHI.lategame.342.t
@@ -9327,7 +9327,7 @@ country_event = {
 		hidden_effect = {
 			country_event = { id = CHI.lategame.351 days = 5 } #The Fujian Government
 			country_event = { id = CHI.lategame.352 days = 7 } #The Cycle of Death
-			country_event = { id = CHI.lategame.353 days = 11 } #Chen Gongbo overplays his hand.
+			country_event = { id = CHI.lategame.353 days = 11 } #Чэнь Гунбо overplays his hand.
 			country_event = { id = CHI.lategame.354 days = 14 } #The Lesser Sun
 		}
 	}
@@ -9382,7 +9382,7 @@ country_event = {
 		set_country_flag = Chen_Bijun_dead
 		set_country_flag = Li_Shiqun_dead
 		create_country_leader = {
-			name = "Chen Gongbo"
+			name = "Чэнь Гунбо"
 			desc = "POLITICS_CHI_CHEN_GONGBO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 			traits = { CHI_wang_jingwei_thought }
@@ -9394,7 +9394,7 @@ country_event = {
 }
 
 country_event = {
-	id = CHI.lategame.353 #Chen Gongbo Overplays His Hand
+	id = CHI.lategame.353 #Чэнь Гунбо Overplays His Hand
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.lategame.353" }
 	title = CHI.lategame.353.t
 	desc = CHI.lategame.353.d
@@ -9559,7 +9559,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				has_country_leader = { name = "Chen Mingshu" ruling_only = yes }
+				has_country_leader = { name = "Чэнь Миншу" ruling_only = yes }
 			}
 			modifier = {
 				factor = 1000
@@ -9596,7 +9596,7 @@ country_event = {
 			base = 25
 			modifier = {
 				factor = 2
-				has_country_leader = { name = "Chen Qian" ruling_only = yes }
+				has_country_leader = { name = "Чэнь Цянь" ruling_only = yes }
 			}
 			modifier = {
 				factor = 2
@@ -10254,7 +10254,7 @@ country_event = {
 		if = {
 			limit = { CHI_hu_zongnan_in_power = no }
 			create_country_leader = {
-				name = "Hu Zongnan"
+				name = "Ху Цзуннань"
 				desc = "POLITICS_CHI_HU_ZONGNAN_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Hu_Zongnan_KR.png"
 				expire = "1.1.1"
@@ -10379,7 +10379,7 @@ country_event = {
 	timeout_days = 7
 
 	option = {
-		name = CHI.lategame.382.a #Hu Zongnan's Fanatic Professionals Win the Day!
+		name = CHI.lategame.382.a #Ху Цзуннань's Fanatic Professionals Win the Day!
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -10395,7 +10395,7 @@ country_event = {
 		CHI_pac_civ_war_subtract_2_effect = yes
 	}
 	option = {
-		name = CHI.lategame.382.b #Deng Yanda's steady veterans triumph!
+		name = CHI.lategame.382.b #Дэн Янда's steady veterans triumph!
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -10611,7 +10611,7 @@ country_event = {
 	immediate = { hidden_effect = { set_country_flag = CHI_civil_war_over_flag } }
 
 	option = {
-		name = CHI.lategame.390.a #Song Qingling's government prevails
+		name = CHI.lategame.390.a #Сун Цинлин's government prevails
 		trigger = { CHI_gov_won_civil_war_trigger = yes }
 
 		#Set Up Politics
@@ -10620,7 +10620,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Song Qingling"
+			name = "Сун Цинлин"
 			desc = "POLITICS_CHI_SONG_QINGLING_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
 			expire = "1.1.1"
@@ -10678,7 +10678,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Sun Fo"
+			name = "Сунь Фо"
 			desc = "POLITICS_CHI_SUN_FO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Sun_Fo.png"
 			expire = "1.1.1"
@@ -10738,7 +10738,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Song Qingling"
+			name = "Сун Цинлин"
 			desc = "POLITICS_CHI_SONG_QINGLING_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
 			expire = "1.1.1"
@@ -10780,7 +10780,7 @@ country_event = {
 	}
 
 	option = {
-		name = CHI.lategame.390.c #Hu Zongnan triumphs over all!
+		name = CHI.lategame.390.c #Ху Цзуннань triumphs over all!
 		trigger = { CHI_crs_won_civil_war_trigger = yes }
 
 		set_politics = {
@@ -10790,7 +10790,7 @@ country_event = {
 		if = {
 			limit = { CHI_hu_zongnan_in_power = no }
 			create_country_leader = {
-				name = "Hu Zongnan"
+				name = "Ху Цзуннань"
 				desc = "POLITICS_CHI_HU_ZONGNAN_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Hu_Zongnan_KR.png"
 				expire = "1.1.1"
@@ -10799,14 +10799,14 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -10843,7 +10843,7 @@ country_event = {
 	}
 
 	option = {
-		name = CHI.lategame.390.d #Chen Gongbo emerges victorious!
+		name = CHI.lategame.390.d #Чэнь Гунбо emerges victorious!
 		trigger = { CHI_rca_won_civil_war_trigger = yes }
 
 		#Set Up Politics
@@ -10852,7 +10852,7 @@ country_event = {
 			elections_allowed = no
 		}		
 		create_country_leader = {
-			name = "Zeng Zhongming"
+			name = "Цзэн Чжунмин"
 			desc = "POLITICS_CHI_ZENG_ZHONGMING_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_zeng_zhongming.png"
 			expire = "1.1.1"
@@ -10876,7 +10876,7 @@ country_event = {
 				name = CHI_csp_rad_party
 			}
 			create_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
@@ -11218,7 +11218,7 @@ country_event = { #The Korean Liberation Army
 				is_core_of = KOR
 			}
 			create_unit = { #Make sure the division template lines up with the ones in the setup effect
-				division = "name = \"Chaoxian Yiyong Dui\" division_template = \"Liberation Army Division\" start_experience_factor = 0.80"
+				division = "name = \"Chaoxian Yiyong Dui\" division_template = \"Дивизия армии освобождения\" start_experience_factor = 0.80"
 				owner = CHI
 				id = 3
 			}
@@ -11243,7 +11243,7 @@ country_event = { #The Bintang Tiga Army
 				is_core_of = MLY
 			}
 			create_unit = { #Make sure the division template lines up with the ones in the setup effect
-				division = "name = \"Rejimen Ke-10\" division_template = \"Liberation Army Division\" start_experience_factor = 0.80"
+				division = "name = \"Rejimen Ke-10\" division_template = \"Дивизия армии освобождения\" start_experience_factor = 0.80"
 				owner = CHI
 				id = 10
 			}
@@ -12884,9 +12884,9 @@ country_event = { #The Final Victory Over Imperialism
 		custom_effect_tooltip = CHI_end_credits_tt
 		#The Below Effect is Purely for Flavour
 		if = {
-			limit = { NOT = { has_template = "Liberation Army Division" } }
+			limit = { NOT = { has_template = "Дивизия армии освобождения" } }
 			division_template = {
-				name = "Liberation Army Division"
+				name = "Дивизия армии освобождения"
 				division_names_group = CHI_MIL_01
 				force_allow_recruiting = yes
 				template_counter = 58
@@ -12908,13 +12908,13 @@ country_event = { #The Final Victory Over Imperialism
 			}
 		}
 		clear_division_template_cap = {
-			division_template = "Liberation Army Division"
+			division_template = "Дивизия армии освобождения"
 		}
 	}
 }
 
 ###- Section 4b (200-399): Wang Endgame Events -###
-country_event = { #Three Faces of Wang Jingwei
+country_event = { #Three Faces of Ван Цзинвэй
 	id = CHI.endgame.201
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.endgame.201" }
 	title = CHI.endgame.201.t
@@ -13283,34 +13283,34 @@ country_event = {
 		hidden_effect = {
 			clr_country_flag = CHI_sun_fo_exiled_flag
 			create_country_leader = {
-				name = "Sun Fo"
+				name = "Сунь Фо"
 				desc = "POLITICS_CHI_SUN_FO_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Sun_Fo.png"
 				expire = "1.1.1"
 				ideology = soclib_tridemism_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = social_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = paternal_autocrat_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = national_populist_subtype
 			}
@@ -13329,7 +13329,7 @@ country_event = {
 						}
 						CHI = { set_country_flag = GXC_zhang_junmai_joined_CHI }
 						create_country_leader = {
-							name = "Zhang Junmai"
+							name = "Чжан Цзюньмай"
 							picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 							expire = "1.1.1"
 							ideology = market_liberal_subtype
@@ -13344,7 +13344,7 @@ country_event = {
 						}
 						GXC = { CHI_recruit_li_zongren_effect = yes }
 						create_country_leader = {
-							name = "Li Zongren"
+							name = "Ли Цзунжэнь"
 							desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 							picture = "gfx/leaders/YUN/Portrait_GXC_Li_Zongren_LKMT.png"
 							expire = "1.1.1"
@@ -13366,7 +13366,7 @@ country_event = {
 							}
 						}
 						create_country_leader = {
-							name = "Feng Yuxiang"
+							name = "Фэн Юйсян"
 							picture = "gfx/leaders/SHX/Portrait_Shanxi_Feng_Yuxiang.png"
 							expire = "1.1.1"
 							ideology = national_populist_subtype
@@ -13495,7 +13495,7 @@ country_event = { #The Party and the People
 				limit = { check_variable = { CHI_WRD_SOC_strength_var > CHI_CSP_ORT_strength_var } }
 				set_country_flag = CHI_LCS_WRD_dom_flag
 				create_country_leader = {
-					name = "Yi Peiji"
+					name = "И Пэйцзи"
 					picture = "gfx/leaders/CHI/Portrait_CHI_Yi_Peiji.png"
 					expire = "1.1.1"
 					ideology = anarcho_syndicalist_subtype
@@ -13511,7 +13511,7 @@ country_event = { #The Party and the People
 			else = {
 				set_country_flag = CHI_LCS_ORT_dom_flag
 				create_country_leader = {
-					name = "Chen Duxiu"
+					name = "Чэнь Дусю"
 					desc = "POLITICS_CHI_CHEN_DUXIU_DESC"
 					picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 					expire = "1.1.1"
@@ -13676,7 +13676,7 @@ country_event = { #Divide et Impera
 	}
 }
 
-country_event = { #Building a Revolutionary Committee
+country_event = { #Building a Революционный комитет
 	id = CHI.endgame.406
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.endgame.406" }
 	title = CHI.endgame.406.t
@@ -13770,7 +13770,7 @@ country_event = { #Braving the Darkness
 	}
 
 	option = {
-		name = CHI.endgame.407.b #Sideline Hu Zongnan’s Clique
+		name = CHI.endgame.407.b #Sideline Ху Цзуннань’s Clique
 		trigger = {
 			check_variable = { stability > party_popularity@totalist }
 		}
@@ -13788,7 +13788,7 @@ country_event = { #Braving the Darkness
 		CHI_purge_CRS_generals_effect = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -13817,7 +13817,7 @@ country_event = { #Braving the Darkness
 		CHI_purge_CRS_advisors_effect = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Lixingshe"
+				name = "Лишинсе"
 				expire = "1.1.1"
 				ideology = socialist_security_state_subtype
 			}
@@ -13895,17 +13895,17 @@ country_event = { #The United Front Work Department
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = social_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Assorted Leaders"
+				name = "Многочисленные лидеры"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
@@ -13924,7 +13924,7 @@ country_event = { #The United Front Work Department
 						}
 						CHI = { set_country_flag = GXC_zhang_junmai_joined_CHI }
 						create_country_leader = {
-							name = "Zhang Junmai"
+							name = "Чжан Цзюньмай"
 							picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 							expire = "1.1.1"
 							ideology = market_liberal_subtype
@@ -13938,7 +13938,7 @@ country_event = { #The United Front Work Department
 							}
 						}
 						create_country_leader = {
-							name = "James Yen"
+							name = "Джеймс Йен"
 							picture = "gfx/leaders/Generic/Portrait_Asia_Generic_land_new_4.png"
 							expire = "1.1.1"
 							ideology = social_conservative_subtype
@@ -14307,7 +14307,7 @@ country_event = {  #
 		remove_ideas_with_trait = head_of_government
 		add_ideas = CHI_Li_Lisan_hog_syn		
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			desc = "POLITICS_CHI_CHEN_DUXIU_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
@@ -14327,7 +14327,7 @@ country_event = {  #
 			gain_xp = 500
 		}
 		create_country_leader = {
-			name = "Deng Yanda"
+			name = "Дэн Янда"
 			desc = "POLITICS_CHI_DENG_YANDA_ARMY_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Deng_Yanda.png"
 			expire = "1.1.1"
@@ -14341,7 +14341,7 @@ country_event = {  #
 				long_name = CHI_csp_rad_party_long
 			}
 			create_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
@@ -14380,7 +14380,7 @@ country_event = {  #
 			gain_xp = 500
 		}
 		create_country_leader = {
-			name = "Deng Yanda"
+			name = "Дэн Янда"
 			desc = "POLITICS_CHI_DENG_YANDA_ARMY_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Deng_Yanda.png"
 			expire = "1.1.1"
@@ -14626,7 +14626,7 @@ country_event = { #Gathering Storm Clouds
 	is_triggered_only = yes
 	option = { #Here we go again...
 		name = CHI.endgame.602.a
-		add_ideas = CHI_devastated_nation_idea #recycled from Chen Gongbo's content
+		add_ideas = CHI_devastated_nation_idea #recycled from Чэнь Гунбо's content
 		hidden_effect = {
 			country_event = { id = CHI.endgame.603 days = 5 }#The Fading Light of Minquan
 		}
@@ -14791,7 +14791,7 @@ country_event = { #Internal Factions of the CRS
 	picture = GFX_report_event_CHI_gannan_new_deal_1
 	fire_only_once = yes
 	is_triggered_only = yes #Fired by focus CHI_the_new_three_principles_of_the_people
-	option = { #turn to the Lixingshe
+	option = { #turn to the Лишинсе
 		name = CHI.endgame.626.a
 		ai_chance = { base = 60 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
@@ -14969,7 +14969,7 @@ country_event = { #The Future of the Land
 	}
 }
 
-country_event = { #The Ma Hansan Affair
+country_event = { #The Ма Ханьсан Affair
 	id = CHI.endgame.633
 	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.endgame.633" }
 	title = CHI.endgame.633.t
@@ -15475,7 +15475,7 @@ country_event = {# Epilogue - Chen
 	option = { #the big Chen
 		name = CHI.endgame.902.a		
 		create_country_leader = {
-			name = "Chen Gongbo"
+			name = "Чэнь Гунбо"
 			desc = "POLITICS_CHI_CHEN_GONGBO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 			traits = { CHI_wang_jingwei_thought }
@@ -15545,7 +15545,7 @@ add_namespace = chi_tot_election
 ### Initial Dai Events ###
 ##########################
 
-### Dai Chunfeng calls for a Meeting ###
+### Дай Ли calls for a Meeting ###
 country_event = {
 	id = chi_tot.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event chi_tot.1" }
@@ -15578,7 +15578,7 @@ country_event = {
 		custom_effect_tooltip = KMT_Chiang_Marshal
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Chiang Kai-shek "
+				name = "Чан Кайши "
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				portrait_path = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				traits = {
@@ -15622,7 +15622,7 @@ country_event = {
 		add_political_power = -10
 		hidden_effect = {
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -15681,7 +15681,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -15689,7 +15689,7 @@ country_event = {
 				traits = { CHI_hooded_chairman_dai }
 			}
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -15720,7 +15720,7 @@ country_event = {
 		add_political_power = -50
 		add_stability = -0.05
 		hidden_effect = {
-			set_country_flag = KMT_Dai_vs_Chiang_flag
+		set_country_flag = KMT_Dai_vs_Chiang_flag
 		}
 	}
 }
@@ -16088,7 +16088,7 @@ country_event = {
 			set_country_flag = KMT_Dai_Rules
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				expire = "1.1.1"
@@ -16104,7 +16104,7 @@ country_event = {
 		ai_chance = { factor = 50 }
 		hidden_effect = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 			expire = "1.1.1"
@@ -16129,7 +16129,7 @@ country_event = {
 			set_cosmetic_tag = CHI_CHIANG
 			complete_national_focus = CHI_lijianzhiye
 			create_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				expire = "1.1.1"
@@ -16137,7 +16137,7 @@ country_event = {
 				traits = { CHI_generalissimo_chiang }
 			}
 			create_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				expire = "1.1.1"
@@ -16145,7 +16145,7 @@ country_event = {
 				traits = { CHI_generalissimo_chiang }
 			}
 			create_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				expire = "1.1.1"
@@ -16153,7 +16153,7 @@ country_event = {
 				traits = { CHI_generalissimo_chiang }
 			}
 			create_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				expire = "1.1.1"
@@ -16231,7 +16231,7 @@ country_event = {
 		custom_effect_tooltip = KMT_Dai_Dairect_Marshal
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Dai Chunfeng "
+				name = "Дай Ли"
 				desc = "POLITICS_CHI_DAI_CHUNFENG_ARMY_DESC"
 				portrait_path = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 				traits = {
@@ -16408,7 +16408,7 @@ country_event = {
 				name = CHI_chiang_nra_2
 			}
 			create_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 				picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 				expire = "1.1.1"
@@ -16546,7 +16546,7 @@ country_event = {
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.25 }
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 			expire = "1.1.1"
@@ -16591,7 +16591,7 @@ country_event = {
 		}
 		add_popularity = { ideology = market_liberal popularity = 0.25 }
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 			expire = "1.1.1"
@@ -16658,7 +16658,7 @@ country_event = {
 		}
 		add_popularity = { ideology = social_democrat popularity = 0.25 }
 		create_country_leader = {
-			name = "Fang Junying"
+			name = "Фан Цзюньин"
 			desc = "POLITICS_FANG_JUNYING_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Fang_Junying.png"
 			expire = "1.1.1"
@@ -16692,7 +16692,7 @@ country_event = {
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.25 }
 		create_country_leader = {
-			name = "Li Liejun"
+			name = "Ли Лицзюнь"
 			desc = "POLITICS_LI_LIEJUN_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Li_Liejun.png"
 			expire = "1.1.1"
@@ -16726,7 +16726,7 @@ country_event = {
 		}
 		add_popularity = { ideology = market_liberal popularity = 0.25 }
 		create_country_leader = {
-			name = "Chiang Kai-shek"
+			name = "Чан Кайши"
 			desc = "POLITICS_CHIANG_KAI_SHEK_DESC"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Chiang_Kai_shek.png"
 			expire = "1.1.1"
@@ -16760,7 +16760,7 @@ country_event = {
 		}
 		add_popularity = { ideology = radical_socialist popularity = 0.25 }
 		create_country_leader = {
-			name = "Chen Gongbo"
+			name = "Чэнь Гунбо"
 			desc = "POLITICS_CHEN_GONGBO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 			expire = "1.1.1"
@@ -17374,7 +17374,7 @@ country_event = { #Hu Dissapears
 	option = { #Deary Me
 		name = chi_tot_predai.3.a
 		create_country_leader = {
-			name = "Dai Chunfeng"
+			name = "Дай Ли"
 			desc = "POLITICS_CHI_DAI_CHUNFENG_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Dai_Chunfeng.png"
 			expire = "1.1.1"
@@ -17403,7 +17403,7 @@ country_event = { #Hu Hands Power to Dai
 		name = chi_tot_predai.4.a
 		set_country_flag = CHI_dai_secured_power
 		remove_country_leader_trait = CHI_temporary_chairman
-		set_country_leader_ideology = socialist_security_state_subtype
+		set_country_leader_ideology = socialist_security_state_subtype 
 		custom_effect_tooltip = tot_socialist_security_state_subtype_swap_tt 
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -17431,7 +17431,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.1.c
 		create_country_leader = {
-			name = "Chiang Ching-kuo"
+			name = "Цзян Цзинго"
 			picture = "gfx/leaders/MON/Portrait_MON_Chiang_Ching_kuo.png"
 			expire = "1.1.1"
 			ideology = tot_tridemism_subtype
@@ -17441,7 +17441,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.1.e
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
 			ideology = internationalism_subtype
@@ -17451,7 +17451,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.1.f
 		create_country_leader = {
-			name = "Wang Ming"
+			name = "Ван Мин"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 			expire = "1.1.1"
 			ideology = hardliner_bolshevism_subtype
@@ -17475,7 +17475,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.2.c
 		create_country_leader = {
-			name = "Zhou Enlai"
+			name = "Чжоу Эньлай"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Zhou_Enlai.png"
 			expire = "1.1.1"
 			ideology = national_jacobinism_subtype
@@ -17485,10 +17485,10 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.2.d
 		create_country_leader = {
-			name = "Mao Zedong"
+			name = "Мао Цзэдун"
 			picture = "gfx/leaders/MON/Portrait_MON_Mao_Zedong.png"
 			expire = "1.1.1"
-			ideology = tot_agrarian_socialism_subtype 
+			ideology = tot_agrarian_socialism_subtype
 			traits = { CHI_epic_teacher }
 		}		
 	}
@@ -17498,7 +17498,7 @@ country_event = { #leadership
 			RUS = { nsp_in_power = no }
 		}
 		create_country_leader = {
-			name = "Deng Xiaoping"
+			name = "Дэн Сяопин"
 			picture = "gfx/leaders/MON/Portrait_MON_Deng_Xiaoping_Black.png"
 			expire = "1.1.1"
 			ideology = tot_market_socialist_subtype
@@ -17506,22 +17506,22 @@ country_event = { #leadership
 		}		
 	}
 	option = { #
-		name = chi_leader.2.e_bukharin
-		trigger = { 
-			RUS = { nsp_in_power = yes }
-		}
-		create_country_leader = {
-			name = "Deng Xiaoping"
-			picture = "gfx/leaders/MON/Portrait_MON_Deng_Xiaoping_Black.png"
-			expire = "1.1.1"
-			ideology = tot_bukharinist_subtype
-			traits = { CHI_chinese_market_sorelianist }
-		}		
+	name = chi_leader.2.e_bukharin
+	trigger = { 
+		RUS = { nsp_in_power = yes }
 	}
+	create_country_leader = {
+		name = "Дэн Сяопин"
+		picture = "gfx/leaders/MON/Portrait_MON_Deng_Xiaoping_Black.png"
+		expire = "1.1.1"
+		ideology = tot_bukharinist_subtype
+		traits = { CHI_chinese_market_sorelianist }
+	}		
+}
 	option = { #
 		name = chi_leader.2.f
 		create_country_leader = {
-			name = "Fang Junying"
+			name = "Фан Цзюньин"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Fang_Junying.png"
 			expire = "1.1.1"
 			ideology = jacobinism_subtype
@@ -17546,7 +17546,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.3.a
 		create_country_leader = {
-			name = "Li Liejun"
+			name = "Ли Лицзюнь"
 			picture = "gfx/leaders/CHI/Portrait_KMT_Li_Liejun.png"
 			expire = "1.1.1"
 			ideology = tot_tridemism_subtype
@@ -17556,7 +17556,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.3.b
 		create_country_leader = {
-			name = "Chen Gongbo"
+			name = "Чэнь Гунбо"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 			expire = "1.1.1"
 			ideology = tot_tridemism_subtype
@@ -17566,7 +17566,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.3.c
 		create_country_leader = {
-			name = "Ulanhu"
+			name = "Уланьфу"
 			picture = "gfx/leaders/MON/Portrait_MON_Ulanhu.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -17576,7 +17576,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.3.d
 		create_country_leader = {
-			name = "Jiang Qing"
+			name = "Цзян Цин"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
 			expire = "1.1.1"
 			ideology = caponism_subtype
@@ -17586,7 +17586,7 @@ country_event = { #leadership
 	option = { #
 		name = chi_leader.3.e
 		create_country_leader = {
-			name = "Guo Muruo"
+			name = "Го Можо"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Guo_Moruo.png"
 			expire = "1.1.1"
 			ideology = technocracy_subtype

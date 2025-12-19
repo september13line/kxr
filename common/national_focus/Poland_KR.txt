@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = POL_the_great_debate
 		icon = GFX_goal_POL_Regency_Thing
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = {
 			OR = {
 				POL_has_regency_council = yes
@@ -39,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = POL_von_habsburg
 		icon = GFX_goal_POL_austrian_king
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = { POL_king_karol = yes }
 		prerequisite = { focus = POL_the_great_debate }
 		mutually_exclusive = {
@@ -189,7 +189,7 @@ focus_tree = {
 	focus = {
 		id = POL_polish_king
 		icon = GFX_goal_POL_polish_king
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = { 
 			OR = {
 				POL_king_augustyn = yes
@@ -356,7 +356,7 @@ focus_tree = {
 		available = {
 			if = {
 				limit = { is_ai = yes }
-				is_subject = no
+			is_subject = no
 			}
 		}
 		prerequisite = {
@@ -466,12 +466,12 @@ focus_tree = {
 	focus = {
 		id = POL_mendog_iii
 		icon = GFX_goal_POL_lithuanian_king
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = {
 			OR = {
-				POL_king_mendog = yes
+			POL_king_mendog = yes
 				has_country_leader = {
-					name = "Lucjan Żeligowski"
+					name = "Люциан Желиговский"
 					ruling_only = yes
 				}
 			}
@@ -613,7 +613,7 @@ focus_tree = {
 	focus = {
 		id = POL_von_hohenzollern
 		icon = GFX_goal_POL_saxon_king
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = { POL_king_fryderyk = yes }
 		prerequisite = { focus = POL_the_great_debate }
 		mutually_exclusive = {
@@ -744,7 +744,7 @@ focus_tree = {
 	focus = {
 		id = POL_victory_of_the_people
 		icon = GFX_goal_POL_ZPP
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = {
 			NOT = { has_country_flag = POL_christian_takeover }
 			POL_has_republican_government = yes
@@ -975,7 +975,7 @@ focus_tree = {
 		icon = GFX_goal_POL_Lampe
 		available = {
 			has_country_leader = {
-				name = "Alfred Lampe"
+				name = "Альфред Лампе"
 				ruling_only = yes
 			}
 		}
@@ -1078,7 +1078,7 @@ focus_tree = {
 		icon = GFX_goal_POL_Warski
 		available = {
 			has_country_leader = {
-				name = "Adolf Warski"
+				name = "Адольф Варски"
 				ruling_only = yes
 			}
 		}
@@ -1253,7 +1253,7 @@ focus_tree = {
 		icon = GFX_goal_POL_Leszczynski
 		available = {
 			has_country_leader = {
-				name = "Julian Leszczyński"
+				name = "Юлиан Лещинский"
 				ruling_only = yes
 			}
 		}
@@ -1420,7 +1420,7 @@ focus_tree = {
 	focus = {
 		id = POL_a_new_poland
 		icon = GFX_goal_POL_New_Polish_Republic
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = {
 			NOT = { has_country_flag = POL_christian_takeover }
 			POL_has_republican_government = yes
@@ -1660,7 +1660,7 @@ focus_tree = {
 	focus = {
 		id = POL_a_firm_hand
 		icon = GFX_goal_POL_National_Rebirth
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = {
 			NOT = { has_country_flag = POL_christian_takeover }
 			POL_has_republican_government = yes
@@ -3490,7 +3490,7 @@ focus_tree = {
 			POL_king_mendog = no
 			NOT = {
 				has_country_leader = {
-					name = "Lucjan Żeligowski"
+					name = "Люциан Желиговский"
 					ruling_only = yes
 				}
 			}
@@ -3637,7 +3637,7 @@ focus_tree = {
 			POL_king_mendog = no
 			NOT = {
 				has_country_leader = {
-					name = "Lucjan Żeligowski"
+					name = "Люциан Желиговский"
 					ruling_only = yes
 				}
 			}
@@ -3775,7 +3775,7 @@ focus_tree = {
 				POL_king_janusz = yes
 				POL_king_mendog = yes
 				has_country_leader = {
-					name = "Lucjan Żeligowski"
+					name = "Люциан Желиговский"
 					ruling_only = yes
 				}
 				POL_king_fryderyk = yes
@@ -4067,7 +4067,7 @@ focus_tree = {
 		id = POL_Reborn_Through_Faith
 		icon = GFX_goal_POL_Reborn_Through_Faith
 		allow_branch = { 
-			NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } }
+			NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } }
 			has_global_flag = crazy_as_fuck_poland
 		} 		
 		available = {
@@ -5104,7 +5104,7 @@ focus_tree = {
 	focus = {
 		id = POL_False_Piast
 		icon = GFX_goal_pol_piast
-		allow_branch = { NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } } }
+		allow_branch = { NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } } }
 		available = { has_country_flag = POL_Pawel_Salwator }
 		prerequisite = { focus = POL_the_great_debate }
 		mutually_exclusive = {
@@ -5163,7 +5163,7 @@ focus_tree = {
 		id = POL_Undivine_Comedy
 		icon = GFX_goal_POL_Undivine_Comedy
 		allow_branch = { 
-			NOT = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } }
+			NOT = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } }
 			has_global_flag = crazy_as_fuck_poland
 		}
 		available = {
@@ -5349,7 +5349,7 @@ focus_tree = {
 	focus = {
 		id = POL_Zubr_Magnates_Future
 		icon = GFX_goal_POL_Zubr_Magnates
-		allow_branch = { has_country_leader = { name = "Heck Gandersoński" ruling_only = yes } }
+		allow_branch = { has_country_leader = { name = "Хек Гандерсонский" ruling_only = yes } }
 		x = 4
 		y = 0
 		cost = 1

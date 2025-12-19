@@ -53,32 +53,32 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	pre_dreadnoughts = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		pre_dreadnoughts = 1
 
-	basic_naval_mines = 1
+		basic_naval_mines = 1
+		
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 country_event = { id = bra.1 days = 1 } #Intro Event
 country_event = { id = bra.2 days = 4 } #Padre Cicero Passes Away
@@ -151,7 +151,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Arlindo Veiga dos Santos"
+	name = "Арлиндо Вейга дос Сантос"
 	desc = "POLITICS_VEIGA_DOS_SANTOS_BRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Arlindo_Veiga_dos_Santos_KX.png"
 	expire = "1.1.1"
@@ -161,7 +161,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Getúlio Vargas"
+	name = "Жетулиу Варгас"
 	desc = "POLITICS_GETULIO_VARGAS_BRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Getulio_Vargas_KX.png"
 	expire = "1.1.1"
@@ -171,7 +171,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Eurico Gaspar Dutra"
+	name = "Эурику Гаспар Дутра"
 	desc = "POLITICS_EURICO_DUTRA_BRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Eurico_Gaspar_Dutra.png"
 	expire = "1.1.1"
@@ -181,7 +181,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Otávio Mangabeira"
+	name = "Отавио Мангабейра"
 	desc = "POLITICS_OTAVIO_MANGABEIRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Otavio_Mangabeira.png"
 	expire = "1.1.1"
@@ -191,7 +191,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Júlio Prestes"
+	name = "Жулиу Престис"
 	desc = "POLITICS_JULIO_PRESTES_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Julio_Prestes.png"
 	expire = "1.1.1"
@@ -201,7 +201,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Júlio Prestes"
+	name = "Жулиу Престис"
 	desc = "POLITICS_JULIO_PRESTES_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Julio_Prestes.png"
 	expire = "1.1.1"
@@ -211,7 +211,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "João Mangabeira"
+	name = "Жуан Мангабейра"
 	desc = "POLITICS_JOAO_MANGABEIRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Joao_Mangabeira.png"
 	expire = "1.1.1"
@@ -221,7 +221,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Edgard Leuenroth"
+	name = "Эдгард Леуэнрот"
 	desc = "POLITICS_EDGARD_LEUENROTH_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Edgard_Leuenroth.png"
 	expire = "1.1.1"
@@ -231,7 +231,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Minervino de Oliveira"
+	name = "Минервино де Оливейра"
 	desc = "POLITICS_MINERVINO_OLIVEIRA_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Minervino_Oliveira.png"
 	expire = "1.1.1"
@@ -241,7 +241,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Abilio de Nequete"
+	name = "Абилио де Некете"
 	desc = "POLITICS_ABILIO_NEQUETE_DESC"
 	picture = "gfx/leaders/BRA/Portrait_BRA_Abilio_de_Nequete.png"
 	expire = "1.1.1"
@@ -254,7 +254,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Eurico Gaspar Dutra"
+	name = "Эурику Гаспар Дутра"
 	desc = "BRA_GASPAR_DUTRA_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Eurico_Gaspar_Dutra.png"
 	traits = {
@@ -271,7 +271,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Cândido Rondon"
+	name = "Кандиду Рондон"
 	desc = "BRA_CANDIDO_RONDON_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Candido_Rondon.png"
 	traits = {
@@ -290,7 +290,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Setembrino de Carvalho"
+	name = "Сетембрино де Карвальо"
 	desc = "BRA_SETEMBRINO_CARVALHO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Setembrino_Carvalho.png"
 	traits = {
@@ -309,7 +309,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Isidoro Dias Lopes"
+	name = "Изидору Диас Лопис"
 	desc = "BRA_ISIDORO_LOPES_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Isidoro_Dias.png"
 	traits = {
@@ -344,7 +344,7 @@ create_field_marshal = {
 #}
 
 create_corps_commander = {
-	name = "Mascarenhas de Morais"
+	name = "Маскареньяш ди Мораиш"
 	desc = "BRA_MASCARENHAS_MORAIS_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Mascarenhas_de_Morais.png"
 	traits = {
@@ -363,7 +363,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nestor Sezefredo dos Passos"
+	name = "Сезефредо Пассос"
 	desc = "BRA_SEZEFREDO_PASSOS_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Sezefredo_Passos.png"
 	traits = {
@@ -380,7 +380,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Euclides Zenóbio da Costa"
+	name = "Эвклид Зенобио да Коста"
 	desc = "BRA_ZENOBIO_COSTA_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Zenobio_Costa.png"
 	traits = {
@@ -396,7 +396,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Newton de Andrade Cavalcanti"
+	name = "Ньютон Кавальканти"
 	desc = "BRA_NEWTON_CAVALCANTI_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Newton_Cavalcanti.png"
 	traits = {
@@ -414,7 +414,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Julio Caetano Horta Barbosa"
+	name = "Хорта Барбоза"
 	desc = "BRA_HORTA_BARBOSA_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Horta_Barbosa.png"
 	traits = {
@@ -432,7 +432,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Euclides Figueiredo"
+	name = "Эвклидес Фигейредо"
 	desc = "BRA_EUCLIDES_FIGUEIREDO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Euclides_Figueiredo.png"
 	traits = {
@@ -449,7 +449,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Humberto de Alencar Castelo Branco"
+	name = "Каштелу-Бранку"
 	desc = "BRA_CASTELO_BRANCO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Castelo_Branco.png"
 	traits = {
@@ -465,7 +465,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Pedro Aurélio de Góis Monteiro"
+	name = "Гоиш Монтейру"
 	desc = "BRA_GOIS_MONTEIRO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Gois_Monteiro.png"
 	traits = {
@@ -483,7 +483,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "José Fernandes Leite de Castro"
+	name = "Жозе Лейте де Кастро"
 	desc = "BRA_JOSE_CASTRO_LEITE_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Jose_Leite.png"
 	traits = {
@@ -500,7 +500,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tertuliano Potiguara"
+	name = "Тертулиано Потигуара"
 	desc = "BRA_TERTULIANO_POTIGUARA_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Tertuliano_Potiguara.png"
 	traits = {
@@ -517,7 +517,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Newton Estillac Leal"
+	name = "Ньютон Эстильяк Леаль"
 	desc = "BRA_ESTILAC_LEAL_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Newton_Estillac_Leal.png"
 	traits = {
@@ -535,7 +535,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Bertoldo Klinger"
+	name = "Бертольдо Клингер"
 	desc = "BRA_BERTOLDO_KILINGER_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Bertoldo_Klinger.png"
 	traits = {
@@ -551,7 +551,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Luis Carlos Prestes"
+	name = "Луис Карлос Престес"
 	desc = "BRA_LUIS_CARLOS_PRESTES_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Luis_Carlos_Prestes_KX.png"
 	traits = {
@@ -570,7 +570,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Araken de Oliveira"
+	name = "Аракен де Оливейра"
 	desc = "BRA_ARAKEN_OLIVEIRA_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Araken_Oliveira.png"
 	traits = {
@@ -586,7 +586,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Olímpio Mourão Filho"
+	name = "Олимпио Мурао Фильо"
 	desc = "BRA_MOURAO_FILHO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Mourao_Filho.png"
 	traits = {
@@ -605,7 +605,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Nélson de Melo"
+	name = "Нельсон де Мелло"
 	desc = "BRA_NELSON_MELLO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Nelson_Mello.png"
 	traits = {
@@ -621,7 +621,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Júlio Marcondes Salgado"
+	name = "Жулио Маркондес Сальгадо"
 	desc = "BRA_MARCONDES_SALGADO_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Marcondes_Salgado.png"
 	traits = {
@@ -639,7 +639,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Palimércio de Rezende"
+	name = "Палимерсио де Резенде"
 	desc = "BRA_PALIMERCIO_DE_REZENDE_ARMY_DESC"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Palimercio_de_Rezende.png"
 	traits = {
@@ -652,7 +652,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ramiro Noronha"
+	name = "Рамиро Норонья"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Ramiro_Noronha.png"
 	traits = {
 		politically_connected
@@ -668,7 +668,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ricardo Kirk"
+	name = "Рикардо Кирк"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Ricardo_Kirk.png"
 	traits = {
 		air_commander
@@ -684,8 +684,8 @@ create_corps_commander = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Protógenes Guimarães"
-	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Protogenes_Guimaraes_KX.png"
+	name = "Протогенес Гимарайнш"
+	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Protogenes_Guimaraes.png"
 	traits = {
 		old_guard
 		seawolf
@@ -700,7 +700,7 @@ create_navy_leader = {
 
 
 create_navy_leader = {
-	name = "Benjamin de Almeida Sodré"
+	name = "Бенжамин де Алмейда Содре"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Benjamin_Sodre.png"
 	traits = {
 		old_guard
@@ -716,7 +716,7 @@ create_navy_leader = {
 
 
 create_navy_leader = {
-	name = "Adalberto de Barros Nunes"
+	name = "Адальберто де Баррос Нунес"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Adalberto_Nunes.png"
 	id = 1635
 	traits = { }
@@ -729,7 +729,7 @@ create_navy_leader = {
 
 
 create_navy_leader = {
-	name = "Isaías de Noronha"
+	name = "Исаиас де Норонья"
 	portrait_path = "gfx/leaders/BRA/Portrait_BRA_Isaias_de_Noronha.png"
 	id = 1636
 	traits = { }

@@ -53,7 +53,7 @@ country_event = {	#Syrian Revolt
 						}
 					}
 					create_country_leader = {
-						name = "Sultan al-Atrash"
+						name = "Султан аль-Атраш"
 						desc = "POLITICS_SULTAN_ATRASH_DESC"
 						picture = "gfx/leaders/SYR/Portrait_SYR_Atrash.png"
 						expire = "1.1.1"
@@ -345,7 +345,7 @@ country_event = {	#Invitation to the Arab League
 				factor = 0
 				tag = IRQ
 				has_country_leader = {
-					name = "Yusuf I"
+					name = "Юсуф I "
 					ruling_only = yes
 				}
 			}
@@ -530,7 +530,7 @@ country_event = {	#The Damascene All-Syria Congress: The Second Generation
 	}
 }
 
-country_event = {	#Said al-Jazairi Announces Elections
+country_event = {	#Саид аль-Джазаири Announces Elections
 	id = syrrep.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event syrrep.4" }
 	title = syrrep.4.t
@@ -560,7 +560,7 @@ country_event = {	#Said al-Jazairi Announces Elections
 	}
 }
 
-country_event = {	#Said al-Jazairi Announces Elections
+country_event = {	#Саид аль-Джазаири Announces Elections
 	id = syrrep.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event syrrep.5" }
 	title = syrrep.5.t
@@ -699,7 +699,7 @@ country_event = {	#The First Syrian Elections
 	}
 }
 
-country_event = {	#Shukri al-Quwatli Takes over the National Bloc
+country_event = {	#Шукри Аль-Куатли Takes over the National Bloc
 	id = syrrep.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event syrrep.7" }
 	title = syrrep.7.t
@@ -717,7 +717,7 @@ country_event = {	#Shukri al-Quwatli Takes over the National Bloc
 		}
 		add_political_power = 10
 		create_country_leader = {
-			name = "Shukri al-Quwatli"
+			name = "Шукри Аль-Куатли"
 			desc = "POLITICS_QUWATLI_DESC"
 			picture = "gfx/leaders/SYR/Portrait_SYR_Shukri.png"
 			expire = "1.1.1"
@@ -1038,7 +1038,7 @@ country_event = {	#Enemies of the State
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1075,7 +1075,7 @@ country_event = {	#Introduction of Agrarian Reforms
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1101,7 +1101,7 @@ country_event = {	#al-Zaim Introduces Social Reforms
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1129,7 +1129,7 @@ country_event = {	#Elections in Syria
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1154,7 +1154,7 @@ country_event = {	#Coup d'Etat in Damascus
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1178,7 +1178,7 @@ country_event = {	#Coup d'Etat in Damascus
 			}
 		}
 		create_country_leader = {
-			name = "Sami Al-Hinawi"
+			name = "Сами аль-Хиннави"
 			picture = "gfx/leaders/SYR/Portrait_SYR_Sami_Al_Hinawi.png"
 			ideology = junta_subtype
 		}
@@ -1278,7 +1278,7 @@ country_event = {	#Unrest in the Lebanese Ranks
 	}
 }
 
-country_event = {	#Fuad Chehab Declares the Independence of Lebanon
+country_event = {	#Фуад Шехаб Declares the Independence of Lebanon
 	id = syrrep.26
 	immediate = { log = "[GetDateText]: [Root.GetName]: event syrrep.26" }
 	title = syrrep.26.t
@@ -1437,7 +1437,7 @@ country_event = {	#Sami al-Hinawi Restores Democracy
 			}
 		}
 		create_country_leader = {
-			name = "Hashim al-Atassi"
+			name = "Хашим Аль-Атаси"
 			desc = "POLITICS_HASHIM_AL_ATASSI_DESC"
 			picture = "gfx/leaders/SYR/Portrait_SYR_Hashim.png"
 			expire = "1.1.1"
@@ -1523,7 +1523,7 @@ country_event = {	#Restoration of the Millet System
 	}
 }
 
-country_event = {	#Rushdi al-Kikhiya Leaves the Coalition
+country_event = {	#Рушди аль-Кихья Leaves the Coalition
 	id = syrrep.34
 	immediate = { log = "[GetDateText]: [Root.GetName]: event syrrep.34" }
 	title = syrrep.34.t
@@ -1551,7 +1551,7 @@ country_event = {	#Coup d'Etat in Damascus
 
 	trigger = {
 		has_country_leader = {
-			name = "Husni al-Za'im"
+			name = "Хусни Аз-Заим"
 		}
 	}
 
@@ -1560,7 +1560,7 @@ country_event = {	#Coup d'Etat in Damascus
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Adib bin Hassan"
+				name = "Адиб бин Хассан"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Adib_bin_Hassan.png"
 				ideology = syrian_social_nationalism_subtype
 			}

@@ -726,7 +726,7 @@ country_event = { # The Head of State
 			factor = 45
 		}
 		create_country_leader = {
-			name = "Stephen Birch"
+			name = "Стивен Берч"
 			desc = "POLITICS_BIRCH_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Stephen_Birch.png"
 			expire = "1.1.1"
@@ -740,7 +740,7 @@ country_event = { # The Head of State
 			factor = 10
 		}
 		create_country_leader = {
-			name = "John Pierpont Morgan Jr."
+			name = "Джон Пирпонт Морган"
 			desc = "POLITICS_JP_MORGAN_JR_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_JP_Morgan_JR.png"
 			expire = "1.1.1"
@@ -784,7 +784,7 @@ country_event = { # The Death of Wickersham
 
 	trigger = {
 		has_country_leader = {
-			name = "James L. Wickersham"
+			name = "Джеймс Уикершем"
 			ruling_only = yes
 		}
 		has_government = radical_socialist
@@ -796,7 +796,7 @@ country_event = { # The Death of Wickersham
 	option = { 
 		name = Alaska.11.a
 		create_country_leader = {
-			name = "Rex Beach"
+			name = "Рекс Бич"
 			desc = "POLITICS_BEACH_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Rex_Beach.png"
 			expire = "1.1.1"
@@ -935,7 +935,7 @@ country_event = { # The Election
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Bob Bartlett"
+				name = "Роберт Бартлетт"
 				desc = "POLITICS_BOB_BARTLETT_DESC"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_Bob_Bartlett.png"
 				expire = "1.1.1"
@@ -1212,7 +1212,7 @@ country_event = { # Japan Demands Submission!
 			}
 			
 			create_field_marshal = {# 
-				name = "Yasuyo Yamasaki"
+				name = "Ясуйо Ямасаки"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_ALA_Yasuyo_Yamasaki.png"
 				traits = {
@@ -1228,7 +1228,7 @@ country_event = { # Japan Demands Submission!
 			JAP = {
 				every_unit_leader = {
 					limit = {
-						has_id = 2562 #Higuchi Kiichiro
+						has_id = 2562 #Киитиро Хигути
 					}
 					set_nationality = ALA
 				}
@@ -1340,8 +1340,8 @@ country_event = { # Canada's Demands
 			ALA_Harry_Wickwire_Foster_sec_ade
 		}
 		
-		create_corps_commander = {# Audie Murphy
-			name = "Harry Wickwire Foster"
+		create_corps_commander = {# Оди Мёрфи
+			name = "Фостер Гарри"
 			desc = ""
 			portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Harry_Wickwire_Foster.png"
 			traits = {
@@ -1354,7 +1354,7 @@ country_event = { # Canada's Demands
 			logistics_skill = 3
 		}
 		create_field_marshal = {
-			name = "George Pearkes "
+			name = "Джордж Перкс "
 			portrait_path = "gfx/leaders/ALA/Portrait_ALA_George_Pearkes.png"
 			traits = { 
 				old_guard 
@@ -1419,7 +1419,7 @@ country_event = { # Japan Takes Over Alaska
 			}
 			
 			create_field_marshal = {
-				name = "Yasuyo Yamasaki"
+				name = "Ясуйо Ямасаки"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_ALA_Yasuyo_Yamasaki.png"
 				traits = {
@@ -2051,8 +2051,8 @@ country_event = { # Canada Crushes Socialists
 				ALA_Harry_Wickwire_Foster_sec_ade
 			}
 			
-			create_corps_commander = {# Audie Murphy
-				name = "Harry Wickwire Foster"
+			create_corps_commander = {# Оди Мёрфи
+				name = "Фостер Гарри"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Harry_Wickwire_Foster.png"
 				traits = {
@@ -2067,7 +2067,7 @@ country_event = { # Canada Crushes Socialists
 			CAN = {
 				every_unit_leader = {
 					limit = {
-						has_id = 2561 #George Pearkes
+						has_id = 2561 #Джордж Перкс
 					}
 					set_nationality = ALA
 					promote_leader = yes
@@ -2168,8 +2168,8 @@ country_event = { # Canada Demands Submission!
 				ALA_Harry_Wickwire_Foster_sec_ade
 			}
 			
-			create_corps_commander = {# Audie Murphy
-				name = "Harry Wickwire Foster"
+			create_corps_commander = {# Оди Мёрфи
+				name = "Фостер Гарри"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Harry_Wickwire_Foster.png"
 				traits = {
@@ -2184,7 +2184,7 @@ country_event = { # Canada Demands Submission!
 			CAN = {
 				every_unit_leader = {
 					limit = {
-						has_id = 2561 #George Pearkes
+						has_id = 2561 #Джордж Перкс
 					}
 					set_nationality = ALA
 					promote_leader = yes
@@ -2288,7 +2288,7 @@ country_event = { # Japan's Demands
 				national_populist = 25
 			}
 			create_field_marshal = {# 
-				name = "Yasuyo Yamasaki"
+				name = "Ясуйо Ямасаки"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_ALA_Yasuyo_Yamasaki.png"
 				traits = {
@@ -2304,7 +2304,7 @@ country_event = { # Japan's Demands
 			JAP = {
 				every_unit_leader = {
 					limit = {
-						has_id = 2562 #Higuchi Kiichiro
+						has_id = 2562 #Киитиро Хигути
 					}
 					set_nationality = ALA
 				}
@@ -2362,8 +2362,8 @@ country_event = { # Canada Takes Over Alaska
 				ALA_Harry_Wickwire_Foster_sec_ade
 			}
 			
-			create_corps_commander = {# Audie Murphy
-				name = "Harry Wickwire Foster"
+			create_corps_commander = {# Оди Мёрфи
+				name = "Фостер Гарри"
 				desc = ""
 				portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Harry_Wickwire_Foster.png"
 				traits = {
@@ -2378,7 +2378,7 @@ country_event = { # Canada Takes Over Alaska
 			CAN = {
 				every_unit_leader = {
 					limit = {
-						has_id = 2561 #George Pearkes
+						has_id = 2561 #Джордж Перкс
 					}
 					set_nationality = ALA
 					promote_leader = yes
@@ -2498,7 +2498,7 @@ country_event = { #Guggenheim Dead
 	trigger = {
 		tag = ALA
 		date > 1941.10.2
-		has_country_leader = { ruling_only = yes name = "Simon Guggenheim" }
+		has_country_leader = { ruling_only = yes name = "Саймон Гуггенхайм" }
 	}
 	fire_only_once = yes
 	
@@ -2508,18 +2508,18 @@ country_event = { #Guggenheim Dead
 			limit = {
 				has_government = paternal_autocrat
 			}
-			create_country_leader = {
-				name = "George Denver Guggenheim"
+		create_country_leader = {
+				name = "Джордж Гуггенхайм"
 				desc = "POLITICS_GEORGE_GUGGENHEIM_DESC"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_George_Denver_Guggenheim.png"
-				expire = "1.1.1"
-				ideology = corporatocracy_subtype
-				traits = {  }
+			expire = "1.1.1"
+			ideology = corporatocracy_subtype
+			traits = {  }
 			}
 		}
 		else = {
 			create_country_leader = {
-				name = "George Denver Guggenheim"
+				name = "Джордж Гуггенхайм"
 				desc = "POLITICS_GEORGE_GUGGENHEIM_DESC"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_George_Denver_Guggenheim.png"
 				expire = "1.1.1"
@@ -2540,14 +2540,14 @@ country_event = { #Morgan Dead
 	trigger = {
 		tag = ALA
 		date > 1943.9.7
-		has_country_leader = { ruling_only = yes name = "John Pierpont Morgan Jr." }
+		has_country_leader = { ruling_only = yes name = "Джон Пирпонт Морган" }
 	}
 	fire_only_once = yes
 	
 	option = { #RIP
 		name = Alaska.401.a
 		create_country_leader = {
-			name = "Junius Spencer Morgan III"
+			name = "Джуниус Спенсер Морган III"
 			desc = "POLITICS_JS_MORGAN_III_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Junius_Spencer_Morgan_III.png"
 			expire = "1.1.1"
@@ -2559,7 +2559,7 @@ country_event = { #Morgan Dead
 	option = { #RIP
 		name = Alaska.401.b
 		create_country_leader = {
-			name = "Henry Sturgis Morgan"
+			name = "Генри Стерджис Морган"
 			desc = "POLITICS_HENRY_MORGAN_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Henry_S_Morgan.png"
 			expire = "1.1.1"
@@ -2590,7 +2590,7 @@ country_event = { # State Fair - version 2
 	}
 }
 
-country_event = { # Rise of Bob Marshall
+country_event = { # Rise of Боб Маршалл
 	id = Alaska.42
 	immediate = {log = "[GetDateText]: [Root.GetName]: event Alaska.42"}
 	title = Alaska.42.t
@@ -2609,7 +2609,7 @@ country_event = { # Rise of Bob Marshall
 	}
 }
 
-country_event = { # Rise of Bob Marshall
+country_event = { # Rise of Боб Маршалл
 	id = Alaska.420
 	immediate = {log = "[GetDateText]: [Root.GetName]: event Alaska.420"}
 	title = Alaska.420.t
@@ -2627,7 +2627,7 @@ country_event = { # Rise of Bob Marshall
 	option = { 
 		name = Alaska.420.b
 		create_country_leader = {
-			name = "Bob Marshall"
+			name = "Боб Маршалл"
 			desc = "POLITICS_BOB_MARSHALL_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Bob_Marshall.png"
 			expire = "1.1.1"
@@ -2641,7 +2641,7 @@ country_event = { # Rise of Bob Marshall
 	option = { 
 		name = Alaska.420.c
 		create_country_leader = {
-			name = "Peter Freuchen"
+			name = "Питер Фройхен"
 			desc = "POLITICS_PETER_FREUCHEN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Peter_Freuchen.png"
 			expire = "1.1.1"
@@ -2686,7 +2686,7 @@ country_event = { # Event for Russia
 			}			
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2694,7 +2694,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2702,7 +2702,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2710,7 +2710,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2718,7 +2718,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2726,7 +2726,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2734,7 +2734,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2742,7 +2742,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2750,7 +2750,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2758,7 +2758,7 @@ country_event = { # Event for Russia
 			traits = {  }
 		}
 		create_country_leader = {
-			name = "Russian Administration"
+			name = "Русская Администрация"
 			desc = "POLITICS_RUSSIAN_ADMIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Russian_Administration.png"
 			expire = "1.1.1"
@@ -2788,7 +2788,7 @@ country_event = { # the Coup
 			}
 		}
 		create_country_leader = {
-			name = "Elwood Towner"
+			name = "Элвуд Таунер"
 			desc = "POLITICS_TOWNER_DESC"
 			picture = "gfx/leaders/AIF/Portrait_AIF_Elwood_Towner.png"
 			expire = "1.1.1"
@@ -2831,7 +2831,7 @@ country_event = { # the Coup
 				national_populist = 45
 			}
 			create_field_marshal = {# 
-				name = "Ernest Childers"
+				name = "Эрнест Чилдерс"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Ernst_Childers.png"
 				traits = {
@@ -2844,7 +2844,7 @@ country_event = { # the Coup
 				logistics_skill = 2
 			}
 			create_corps_commander = {# 
-				name = "Dan Waupoose"
+				name = "Дэн Вопуз"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Dan_Waupoose.png"
 				traits = {
@@ -2859,7 +2859,7 @@ country_event = { # the Coup
 				logistics_skill = 2
 			}
 			create_corps_commander = {# 
-				name = "Woody J. Cochran"
+				name = "Вуди Кокран"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Woody_Cochran.png"
 				traits = {
@@ -2874,7 +2874,7 @@ country_event = { # the Coup
 				logistics_skill = 2
 			}
 			create_corps_commander = {# 
-				name = "Dan Akee"
+				name = "Дэн Акее"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Dan_Akee.png"
 				traits = {
@@ -2889,7 +2889,7 @@ country_event = { # the Coup
 				logistics_skill = 2
 			}
 			create_corps_commander = {# 
-				name = "Joe Medicine Crow"
+				name = "Джо Кроу"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Medicine_Crow.png"
 				traits = {
@@ -2905,7 +2905,7 @@ country_event = { # the Coup
 				id = 469
 			}
 			create_corps_commander = {# 
-				name = "William Neptune"
+				name = "Уильям Нептун"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 				traits = {
@@ -2919,7 +2919,7 @@ country_event = { # the Coup
 				logistics_skill = 3
 			}
 			create_navy_leader = {# 
-				name = "Joseph J. Clark"
+				name = "Джозеф Дж. Кларк"
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Joseph_J_Clark.png"
 				traits = {}
 				skill = 2
@@ -3163,7 +3163,7 @@ country_event = { #Ayn Rand Invite?
 			mark_focus_tree_layout_dirty = yes
 		}
 		create_country_leader = {
-			name = "Alisa Rosenbaum"
+			name = "Алиса Розенбаум"
 			desc = "POLITICS_RAND_DESC"
 			picture = "gfx/leaders/ALA/Portrait_ALA_Ayn_Rand.png"
 			expire = "1.1.1"
@@ -3402,7 +3402,7 @@ country_event = { #Rand's Folly
 		}
 		hidden_effect = {
 		create_country_leader = {
-			name = "Austin E. Lathrop"
+			name = "Остин Лэтроп"
 			desc = "POLITICS_AUSTIN_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Austin_Lathrop.png"
 			expire = "1.1.1"
@@ -3597,7 +3597,7 @@ country_event = { # How is this Nation gonna run?
 		owns_state = 739 #Ottowa
 		has_country_leader = {
 			ruling_only = yes
-			name = "Elwood Towner"
+			name = "Элвуд Таунер"
 		}
 	}
 	
@@ -4375,14 +4375,14 @@ country_event = { # Alaska Statehood
 					has_global_flag = CAl_peaceoutgang 
 				} 
 			}
-			hidden_effect = {
-				if = {
-					limit = {
-						has_country_flag = USA_fifty_states
-					}
-					set_cosmetic_tag = USA_america_50
-					else = {
-						set_cosmetic_tag = USA_america_49
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = USA_fifty_states
+				}
+				set_cosmetic_tag = USA_america_50
+				else = {
+					set_cosmetic_tag = USA_america_49
 					}
 				}
 			}
@@ -4515,7 +4515,7 @@ country_event = { # the crazy sons of bitches did it
 	option = { # epic
 		name = Alaska.111.a
 		create_country_leader = {
-			name = "Franz Joseph II"
+			name = "Франциск Иосиф II"
 			desc = "POLITICS_FRANZJOSEPH_II_DESC"
 			picture = "gfx/leaders/ALA/Portrait_ALA_Franz_Joseph_II.png"
 			expire = "1.1.1"
@@ -4599,7 +4599,7 @@ country_event = { # flavour event about jewish settlement pt.2
 			}
 		}
 		create_corps_commander = {
-			name = "Mickey Marcus"
+			name = "Давид Маркус"
 			portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Mickey_Marcus.png"
 			traits = { 
 				infantry_leader 
@@ -4615,7 +4615,7 @@ country_event = { # flavour event about jewish settlement pt.2
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Simon Guggenheim"
+					name = "Саймон Гуггенхайм"
 					ruling_only = yes
 				}
 			}
@@ -4674,8 +4674,8 @@ country_event = { # flavour event about jewish settlement pt.3
 			base = 0
 			modifier = {
 				add = 100
-				has_game_rule = {
-					rule = ALA_POLITICAL_PATH
+					has_game_rule = {
+						rule = ALA_POLITICAL_PATH
 					option = ALA_ISRAEL
 				}
 			}
@@ -4870,7 +4870,7 @@ country_event = { # Dogsled
 		name = Alaska.126.a
 		add_ideas = ALA_dogsleds_idea
 		create_corps_commander = {
-			name = "Leonhard Seppala"
+			name = "Леонард Сеппала"
 			portrait_path = "gfx/leaders/ALA/Portrait_ALA_Leonhard_Seppala.png"
 			traits = {
 				dogsled_commander
@@ -4882,7 +4882,7 @@ country_event = { # Dogsled
 			logistics_skill = 3
 		}
 		create_corps_commander = {
-			name = "Joe Redington"
+			name = "Джо Редингтон"
 			portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Joe_Redington.png"
 			traits = {
 				bearer_of_artillery
@@ -5036,7 +5036,7 @@ country_event = { # Lathrop Dead
 		name = Alaska.131.a
 		add_stability = 0.02
 		create_country_leader = {
-			name = "Joseph E. Vogler"
+			name = "Джозеф Э. Фоглер"
 			desc = "POLITICS_VOLGER_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Joseph_Vogler.png"
 			expire = "1.1.1"
@@ -5150,7 +5150,7 @@ country_event = { # LOUDER WITH BROWDER
 	option = { # MY COUNTRY TIS OF THE, SWEET LAND OF LABOUR FREE
 		name = Alaska.134.a
 		create_country_leader = { 
-			name = "Earl Browder"
+			name = "Эрл Браудер"
 			desc = "POLITICS_EARL_BROWDER_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Earl_Browder_Hat.png"
 			expire = "1.1.1"
@@ -5188,7 +5188,7 @@ country_event = { # Trotsky Kid tries takeover
 	option = { # Trotsky Kid
 		name = Alaska.1340.a
 		create_country_leader = { 
-			name = "Lev Sedov"
+			name = "Лев Седов"
 			desc = "POLITICS_LEV_SEDOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_SOV_Lev_Sedov_Civilian.png"
 			expire = "1.1.1"
@@ -5297,7 +5297,7 @@ country_event = { # Yisrael leader Picker
 	option = { #
 		name = Alaska.135.b
 		create_country_leader = {
-			name = "Simon Guggenheim"
+			name = "Саймон Гуггенхайм"
 			desc = "POLITICS_GUGGENHEIM_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Simon_Guggenheim.png"
 			expire = "1.1.1"
@@ -5318,7 +5318,7 @@ country_event = { # Yisrael leader Picker
 	option = { #
 		name = Alaska.135.c
 		create_country_leader = {
-			name = "Yechezkel Shragei Kahane"
+			name = "Йехезкель Шрагей Кахане"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Shragei_Kahane.png"
 			expire = "1.1.1"
 			ideology = fundementalism_subtype
@@ -5342,7 +5342,7 @@ country_event = { # Yisrael leader Picker
 	option = { #
 		name = Alaska.135.e
 		create_country_leader = {
-			name = "Nachman Syrkin"
+			name = "Нахман Сыркин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nachman_Syrkin.png"
 			expire = "1.1.1"
 			ideology = socdem_agrarianism_subtype
@@ -5373,7 +5373,7 @@ country_event = { # Yisrael leader Picker
 	option = { #Shteinberg
 		name = Alaska.135.f
 		create_country_leader = {
-			name = "Isaak Shteinberg"
+			name = "Исаак Штейнберг"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 			expire = "1.1.1"
 			ideology = narodism_subtype
@@ -5482,8 +5482,8 @@ country_event = { # Canada Wins
 			ALA_Harry_Wickwire_Foster_sec_ade
 		}
 		
-		create_corps_commander = {# Audie Murphy
-			name = "Harry Wickwire Foster"
+		create_corps_commander = {# Оди Мёрфи
+			name = "Фостер Гарри"
 			desc = ""
 			portrait_path = "gfx/leaders/ALA/Portrait_Alaska_Harry_Wickwire_Foster.png"
 			traits = {
@@ -5498,7 +5498,7 @@ country_event = { # Canada Wins
 		CAN = {
 			every_unit_leader = {
 				limit = {
-					has_id = 2561 #George Pearkes
+					has_id = 2561 #Джордж Перкс
 				}
 				set_nationality = ALA
 				promote_leader = yes
@@ -5751,9 +5751,9 @@ country_event = {# Welcome to Alaska, here's a thousand dollars
 
 	trigger = {
 		NOT = { 
-			has_country_leader = { ruling_only = yes name = "Elwood Towner" }
-			has_country_leader = { ruling_only = yes name = "Thomas Dixon" }
-			has_country_leader = { ruling_only = yes name = "Alisa Rosenbaum" }
+			has_country_leader = { ruling_only = yes name = "Элвуд Таунер" }
+			has_country_leader = { ruling_only = yes name = "Томас Диксон" }
+			has_country_leader = { ruling_only = yes name = "Алиса Розенбаум" }
 		}
 	}
 	
@@ -5924,11 +5924,11 @@ country_event = { # 1944 Election
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Austin E. Lathrop"
+						name = "Остин Э. Лэтроп"
 					}
 				}
 				create_country_leader = {
-					name = "Joseph E. Vogler"
+					name = "Джозеф Э. Фоглер"
 					desc = "POLITICS_VOLGER_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Joseph_Vogler.png"
 					expire = "1.1.1"
@@ -5940,11 +5940,11 @@ country_event = { # 1944 Election
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Joseph E. Vogler"
+						name = "Джозеф Э. Фоглер"
 					}
 				}
 				create_country_leader = {
-					name = "Wally Hickel"
+					name = "Уолтер Хикель"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Wally_Hickel.png"
 					expire = "1.1.1"
 					ideology = libertarian_subtype
@@ -5963,7 +5963,7 @@ country_event = { # 1944 Election
 					has_country_flag = ALA_1944_election_hendrickson
 				}
 				create_country_leader = {
-					name = "Waino Hendrickson"
+					name = "Вайно Хендриксон"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Waino_Hendrickson.png"
 					expire = "1.1.1"
 					ideology = centrist_subtype
@@ -5971,14 +5971,14 @@ country_event = { # 1944 Election
 				}
 			}
 			create_country_leader = {
-				name = "B. Frank Heintzleman"
+				name = "B. Фрэнк Хайнцлеман"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_Benjamin_Franklin_Heintzleman.png"
 				expire = "1.1.1"
 				ideology = socdem_agrarianism_subtype
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Ralph Julian Rivers"
+				name = "Ральф Джулиан Риверс"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_Ralph_Julian_Rivers.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
@@ -6145,11 +6145,11 @@ country_event = { # 1951 Election
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Wally Hickel"
+						name = "Уолтер Хикель"
 					}
 				}
 				create_country_leader = {
-					name = "Jack Coghill"
+					name = "Джек Когхилл"
 					desc = "POLITICS_VOLGER_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Jack_Coghill.png"
 					expire = "1.1.1"
@@ -6161,11 +6161,11 @@ country_event = { # 1951 Election
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Joseph E. Vogler"
+						name = "Джозеф Э. Фоглер"
 					}
 				}
 				create_country_leader = {
-					name = "Wally Hickel"
+					name = "Уолтер Хикель"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Wally_Hickel.png"
 					expire = "1.1.1"
 					ideology = libertarian_subtype
@@ -6178,7 +6178,7 @@ country_event = { # 1951 Election
 					has_country_flag = ALA_1951_election_gruening
 				}
 				create_country_leader = {
-					name = "Ernest Gruening"
+					name = "Эрнест Грининг"
 					desc = "POLITICS_ERNEST_GRUENING_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Ernest_Greuning.png"
 					expire = "1.1.1"
@@ -6191,7 +6191,7 @@ country_event = { # 1951 Election
 					has_country_flag = ALA_1951_election_egan
 				}
 				create_country_leader = {
-					name = "William Egan"
+					name = "Уильям Иган"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_William_A_Egan.png"
 					expire = "1.1.1"
 					ideology = centrist_subtype
@@ -6203,7 +6203,7 @@ country_event = { # 1951 Election
 					has_country_flag = ALA_1951_election_stepovich
 				}
 				create_country_leader = {
-					name = "Mike Stepovich"
+					name = "Майк Степович"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Mike_Stepovich.png"
 					expire = "1.1.1"
 					ideology = centrist_subtype
@@ -6211,14 +6211,14 @@ country_event = { # 1951 Election
 				}
 			}
 			create_country_leader = {
-				name = "John H. Dimond"
+				name = "Джон Х. Даймонд"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_John_Dimond.png"
 				expire = "1.1.1"
 				ideology = socdem_christian_democracy_subtype
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Howard Wallace Pollock"
+				name = "Говард Уоллес Поллок"
 				picture = "gfx/leaders/ALA/Portrait_Alaska_Howard_Wallace_Pollock.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
@@ -6384,7 +6384,7 @@ country_event = { # Alaskan Indigenous Citizenship
 		NOT = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Elwood Towner"
+				name = "Элвуд Таунер"
 			}
 		}
 	}
@@ -6423,7 +6423,7 @@ country_event = { # Indigenous Infantry Program
 		NOT = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Elwood Towner"
+				name = "Элвуд Таунер"
 			}
 		}
 	}
@@ -6438,7 +6438,7 @@ country_event = { # Indigenous Infantry Program
 			}
 		}
 		create_field_marshal = {# 
-			name = "Ernest Childers"
+			name = "Эрнест Чилдерс"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Ernst_Childers.png"
 			traits = {
@@ -6451,7 +6451,7 @@ country_event = { # Indigenous Infantry Program
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Dan Waupoose"
+			name = "Дэн Вопуз"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Dan_Waupoose.png"
 			traits = {
@@ -6466,7 +6466,7 @@ country_event = { # Indigenous Infantry Program
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Woody J Cochran"
+			name = "Вуди Кокран"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Woody_Cochran.png"
 			traits = {
@@ -6481,7 +6481,7 @@ country_event = { # Indigenous Infantry Program
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Dan Akee"
+			name = "Дэн Акее"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Dan_Akee.png"
 			traits = {
@@ -6496,7 +6496,7 @@ country_event = { # Indigenous Infantry Program
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Joe Medicine Crow"
+			name = "Джо Кроу"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Medicine_Crow.png"
 			traits = {
@@ -6512,7 +6512,7 @@ country_event = { # Indigenous Infantry Program
 			id = 469
 		}
 		create_corps_commander = {# 
-			name = "William Neptune"
+			name = "Уильям Нептун"
 			desc = ""
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_William_Neptune.png"
 			traits = {
@@ -6527,7 +6527,7 @@ country_event = { # Indigenous Infantry Program
 			id = 470
 		}
 		create_navy_leader = {# 
-			name = "Joseph J. Clark"
+			name = "Джозеф Дж. Кларк"
 			portrait_path = "gfx/leaders/AIF/Portrait_AIF_Joseph_J_Clark.png"
 			traits = {}
 			skill = 2
@@ -6911,7 +6911,7 @@ country_event = { # Fix Dominion Cosmetic Hidden Event
 	fire_only_once = yes
 	trigger = {
 		tag = ALA
-		has_country_leader = { ruling_only = yes name = "Lord George Pearkes" }
+		has_country_leader = { ruling_only = yes name = "Лорд Джордж Перкс" }
 		NOT = { has_cosmetic_tag = ALA_CAN }
 	}
 	option = { # fix this shit
@@ -6930,7 +6930,7 @@ country_event = { # Fix Jap Cosmetic Hidden Event
 	fire_only_once = yes
 	trigger = {
 		tag = ALA
-		has_country_leader = { ruling_only = yes name = "Yasuyo Yamasaki" }
+		has_country_leader = { ruling_only = yes name = "Ясуйо Ямасаки" }
 		NOT = { has_cosmetic_tag = ALA_JAP }
 	}
 	option = { # fix this shit
@@ -6989,7 +6989,7 @@ country_event = { # the Coup
 			name = ALA_REDMANWARRIOR_totalist_party
 		}
 		create_country_leader = {
-			name = "Thomas Dixon"
+			name = "Томас Диксон"
 			desc = "POLITICS_TDIXON_DESC"
 			picture = "gfx/leaders/AIF/Portrait_AIF_Thomas_Dixon.png"
 			expire = "1.1.1"
@@ -7025,7 +7025,7 @@ country_event = { # the Coup
 				national_populist = 5
 			}
 			create_field_marshal = {# 
-				name = "Joe Medicine Crow"
+				name = "Джо Кроу"
 				desc = ""
 				portrait_path = "gfx/leaders/AIF/Portrait_AIF_Medicine_Crow.png"
 				traits = {
@@ -7302,8 +7302,8 @@ country_event = { # Indianizing America
 		owns_state = 484 #Baja
 		owns_state = 277
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Elwood Towner" }
-		has_country_leader = { ruling_only = yes name = "Thomas Dixon" }
+		has_country_leader = { ruling_only = yes name = "Элвуд Таунер" }
+		has_country_leader = { ruling_only = yes name = "Томас Диксон" }
 		}
 	}
 			
@@ -7427,17 +7427,17 @@ country_event = { # Indianizing America
 		set_province_name = { id = 4518 name = "Wukchumni"}
 		set_province_name = { id = 9814 name = "Tongva"}
 		set_province_name = { id = 1562 name = "Kosa'aay"}
-		set_province_name = { id = 13493 name = "Tiwan"}
-		set_province_name = { id = 10848 name = "Yécora"}
-		set_province_name = { id = 2037 name = "Tarahumara"}
-		set_province_name = { id = 12804 name = "Tēpēhuanih"}
-		set_province_name = { id = 12835 name = "Azalapas"}
-		set_province_name = { id = 4956 name = "Tamtok"}
-		set_province_name = { id = 13089 name = "Jaconoxtle"}
-		set_province_name = { id = 12810 name = "Olmeca"}
+		set_province_name = { id = 13493 name = "Тиван"}
+		set_province_name = { id = 10848 name = "Екора"}
+		set_province_name = { id = 2037 name = "Тараумара"}
+		set_province_name = { id = 12804 name = "Тепехуани"}
+		set_province_name = { id = 12835 name = "Асалапас"}
+		set_province_name = { id = 4956 name = "Тамток"}
+		set_province_name = { id = 13089 name = "Хаконоштле"}
+		set_province_name = { id = 12810 name = "Ольмека"}
 		set_province_name = { id = 1965 name = "Mexico-Tenochtitlan"}
-		set_province_name = { id = 13451 name = "Huaxyacac"}
-		set_province_name = { id = 13457 name = "Ah Kin Pech"}
+		set_province_name = { id = 13451 name = "Уаксьяках"}
+		set_province_name = { id = 13457 name = "Ах Кин Печ"}
 		set_province_name = { id = 12753 name = "Tuchtlan"}
 		set_province_name = { id = 2077 name = "Belix"}
 		set_province_name = { id = 10842 name = "Xelajú"}
@@ -7561,7 +7561,7 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				### Leader
 				create_country_leader = {
-					name = "Alastair of the Anglos"
+					name = "Аластер Виндзор"
 					desc = "POLITICS_CUCKEDBRIT_DESC"
 					picture = "gfx/leaders/AIF/Portrait_AIF_Alastair_Windsor.png"
 					expire = "1.1.1"
@@ -7595,7 +7595,7 @@ country_event = { #Baste Huwhite Reseravtions
 
 				#Units
 				division_template = {
-					name = "Warrior Society"
+					name = "Воинское братство"
 					division_names_group = CSA_INF_01
 
 					regiments = {
@@ -7611,11 +7611,11 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				1179 = {
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 				}
@@ -7637,7 +7637,7 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				### Leader
 				create_country_leader = {
-					name = "Conseil Souverain"
+					name = "Суверенный совет"
 					desc = "POLITICS_CONSEIL_SOUVERAIN_DESC"
 					picture = "gfx/leaders/AIF/Portrait_AIF_Conseil_Souverain.png"
 					expire = "1.1.1"
@@ -7671,7 +7671,7 @@ country_event = { #Baste Huwhite Reseravtions
 
 				#Units
 				division_template = {
-					name = "Warrior Society"
+					name = "Воинское братство"
 					division_names_group = CSA_INF_01
 
 					regiments = {
@@ -7687,11 +7687,11 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				1179 = {
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 				}
@@ -7713,7 +7713,7 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				### Leader
 				create_country_leader = {
-					name = "Sir Alonzo Mather"
+					name = "Сэр Мазер"
 					desc = "POLITICS_MATHER_DESC"
 					picture = "gfx/leaders/AIF/Portrait_AIF_Alonzo_Mather.png"
 					expire = "1.1.1"
@@ -7747,7 +7747,7 @@ country_event = { #Baste Huwhite Reseravtions
 
 				#Units
 				division_template = {
-					name = "Warrior Society"
+					name = "Воинское братство"
 					division_names_group = CSA_INF_01
 
 					regiments = {
@@ -7763,11 +7763,11 @@ country_event = { #Baste Huwhite Reseravtions
 				
 				1179 = {
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "division_template = \"Warrior Society\" start_experience_factor = 0.1"
+						division = "division_template = \"Воинское братство\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 				}
@@ -7814,7 +7814,7 @@ country_event = { #Puppet Event
 country_event = { #Iroquois 
 	id = REDAlaska.103
 	title = REDAlaska.103.t
-	desc = REDAlaska.103.d
+		desc = REDAlaska.103.d
 	picture = GFX_report_event_generic_trial_big
 
 	is_triggered_only = no
@@ -7823,7 +7823,7 @@ country_event = { #Iroquois
 		tag = ALA
 		has_country_leader = {
 			ruling_only = yes
-			name = "Elwood Towner"
+			name = "Элвуд Таунер"
 		}
 		owns_state = 932 #mass
 		owns_state = 739 #Ottowa
@@ -7879,7 +7879,7 @@ country_event = { #Iroquois
 country_event = { #Wabanakia and Iroquois 
 	id = REDAlaska.104
 	title = REDAlaska.104.t
-	desc = REDAlaska.104.d
+		desc = REDAlaska.104.d
 	picture = GFX_report_event_generic_trial_big
 
 	is_triggered_only = no
@@ -7888,7 +7888,7 @@ country_event = { #Wabanakia and Iroquois
 		tag = ALA
 		has_country_leader = {
 			ruling_only = yes
-			name = "Elwood Towner"
+			name = "Элвуд Таунер"
 		}
 		owns_state = 932 #mass
 		owns_state = 739 #Ottowa
@@ -7980,8 +7980,8 @@ country_event = { # Indianizing South America
 		owns_state = 849 #Caracas
 		owns_state = 498
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Elwood Towner" }
-		has_country_leader = { ruling_only = yes name = "Thomas Dixon" }
+		has_country_leader = { ruling_only = yes name = "Элвуд Таунер" }
+		has_country_leader = { ruling_only = yes name = "Томас Диксон" }
 		}
 	}
 			

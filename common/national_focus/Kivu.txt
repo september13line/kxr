@@ -84,27 +84,27 @@ focus_tree = {
 					LPD = {
 						NOT = {
 							has_country_leader = {
-								name = "Simon Kimbangu"
+								name = "Симон Кимбангу"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Marie Muilu Kiawanga Nzitani"
+								name = "Мари Муилу Киаванга Нзитани"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Charles Daniel Kisolokele"
+								name = "Чарльз Дэниел Кисолокеле"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Salomon Dialungana Kiangani"
+								name = "Саломон Диалунгана Киангани"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Joseph Diangienda"
+								name = "Джозеф Диангиенда"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Simon-Pierre Mpadi"
+								name = "Симон-Пьер Мпади"
 								ruling_only = yes
 							}
 						}
@@ -120,28 +120,28 @@ focus_tree = {
 				limit = {
 					LPD = {
 						OR = {
-							has_country_leader = {
-								name = "Simon Kimbangu"
+						has_country_leader = {
+							name = "Симон Кимбангу"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Marie Muilu Kiawanga Nzitani"
+								name = "Мари Муилу Киаванга Нзитани"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Charles Daniel Kisolokele"
+								name = "Чарльз Дэниел Кисолокеле"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Salomon Dialungana Kiangani"
+								name = "Саломон Диалунгана Киангани"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Joseph Diangienda"
+								name = "Джозеф Диангиенда"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Simon-Pierre Mpadi"
+								name = "Симон-Пьер Мпади"
 								ruling_only = yes
 							}
 						}
@@ -366,7 +366,7 @@ focus_tree = {
 			remove_ideas = KIV_native_support
 			hidden_effect = {
 				if = {	
-					limit = { has_country_leader = { name = "Louis de Gonzague Bobozo" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Луи де Гонзаг Бобозо" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo_Congo.png"
 					}
@@ -375,23 +375,11 @@ focus_tree = {
 			set_capital = { state = 881 }
 			set_cosmetic_tag = KIV_congo
 			custom_effect_tooltip = KIV_fate_of_the_congo_tt
-			881 = { set_state_name = STATE_881_KIVU }
-			879 = { set_state_name = STATE_879_KIVU }
+			881 = { set_state_name = "Киншаса" }
+			879 = { set_state_name = "Лубумбаши" }
 			set_province_name = {
 				id = 13950
-				name = VICTORY_POINTS_13950_KIVU
-			}
-			set_province_name = {
-				id = 191
-				name = VICTORY_POINTS_191_KIVU
-			}
-			set_province_name = {
-				id = 1950
-				name = VICTORY_POINTS_1950_KIVU
-			}
-			set_province_name = {
-				id = 2024
-				name = VICTORY_POINTS_2024_KIVU
+				name = "Киншаса"
 			}
 			hidden_effect = {
 				every_controlled_state = { rename_state_effect = yes }
@@ -751,7 +739,7 @@ focus_tree = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Louis de Gonzague Bobozo"
+					name = "Луи де Гонзаг Бобозо"
 					desc = "POLITICS_LOUIS_BOBOZO_DESC"
 					picture = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo_Nzere.png"
 					expire = "1.1.1"
@@ -3262,10 +3250,10 @@ focus_tree = {
 					NOT = {
 						OR = {
 							has_country_leader = {
-								name = "Bobozo Sese Seko"
+								name = "Мобуту Сесе Секо"
 							}
 							has_country_leader = {
-								name = "Mobutu Sese Seko"
+								name = "Мобуту Сесе Секо"
 							}
 						}
 					}
@@ -3559,10 +3547,10 @@ focus_tree = {
 			has_socialist_government = yes
 			NOT = {
 				has_country_leader = {
-					name = "Bobozo Sese Seko"
+					name = "Мобуту Сесе Секо"
 				}
 				has_country_leader = {
-					name = "Mobutu Sese Seko"
+					name = "Мобуту Сесе Секо"
 				}
 			}
 		}
@@ -4044,10 +4032,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = UMN_uranium_diplomacy
+			add_tech_bonus = {
+				name = UMN_uranium_diplomacy
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -4541,7 +4529,6 @@ focus_tree = {
 				remove_idea = KIV_congolese_economic_miracle
 				add_idea = KIV_congolese_economic_miracle2
 			}
-			add_research_slot_until_five = yes
 		}
 	}
 }

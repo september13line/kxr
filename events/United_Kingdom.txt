@@ -209,7 +209,7 @@ country_event = { # The Royal Restoration
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Edward VIII"
+					name = "Эдуард VIII"
 					ruling_only = yes
 				}
 			}
@@ -220,7 +220,7 @@ country_event = { # The Royal Restoration
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "George V"
+					name = "Георг V"
 					ruling_only = yes
 				}
 			}
@@ -231,7 +231,7 @@ country_event = { # The Royal Restoration
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					ruling_only = yes
 				}
 			}
@@ -242,7 +242,7 @@ country_event = { # The Royal Restoration
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Henry IX"
+					name = "Генри IX"
 					ruling_only = yes
 				}
 			}
@@ -253,7 +253,7 @@ country_event = { # The Royal Restoration
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "George VI"
+					name = "Георг VI"
 					ruling_only = yes
 				}
 			}
@@ -369,7 +369,7 @@ country_event = { # The British Army
 				}
 			}
 			create_navy_leader = {# Peter Gerald Charles Dickens
-				name = "Peter Gerald Dickens"
+				name = "Питер Джеральд Диккенс"
 				portrait_path = "gfx/leaders/ENG/Portrait_England_Peter_Dickens.png"
 				traits = { ironside blockade_runner }
 				skill = 3
@@ -513,7 +513,7 @@ country_event = {
 	}
 }
 
-# Syndicalist militia active
+# Синдикалистское ополчение active
 country_event = {
 	id = uk.12
 	immediate = { log = "[GetDateText]: [Root.GetName]: event uk.12" }
@@ -707,7 +707,7 @@ country_event = {
 	}
 }
 
-# Arthur Horner surrenders to police
+# Артур Хорнер surrenders to police
 country_event = {
 	id = uk.18
 	immediate = { log = "[GetDateText]: [Root.GetName]: event uk.18" }
@@ -2227,28 +2227,28 @@ country_event = {
 	}
 
 	option = {
-		name = uk.50.a #Sir Edmund Ironside
+		name = uk.50.a #Sir Эдмунд Айронсайд
 		ai_chance = {
 			factor = 40
 		}
 		add_ideas = GBR_Edmund_Ironside_cos_sco
 	}
 	option = {
-		name = uk.50.b #Harold Alexander
+		name = uk.50.b #Харольд Александер
 		ai_chance = {
 			factor = 30
 		}
 		add_ideas = GBR_Harold_Alexander_cos_sco
 	}
 	option = {
-		name = uk.50.c #Alan Brooke
+		name = uk.50.c #Алан Брук
 		ai_chance = {
 			factor = 20
 		}
 		add_ideas = GBR_Alan_Brooke_cos_mli
 	}
 	option = {
-		name = uk.50.e #John Dill
+		name = uk.50.e #Джон Дилл
 		ai_chance = {
 			factor = 10
 		}
@@ -2271,7 +2271,7 @@ country_event = {
 	}
 
 	option = {
-		name = uk.51.a #Sir Edmund Ironside
+		name = uk.51.a #Sir Эдмунд Айронсайд
 		trigger = { NOT = { has_idea = GBR_Edmund_Ironside_cos_sco } }
 		ai_chance = {
 			factor = 40
@@ -2279,7 +2279,7 @@ country_event = {
 		add_ideas = GBR_Edmund_Ironside_carm_sco
 	}
 	option = {
-		name = uk.51.b #Harold Alexander
+		name = uk.51.b #Харольд Александер
 		trigger = { NOT = { has_idea = GBR_Harold_Alexander_cos_sco } }
 		ai_chance = {
 			factor = 30
@@ -2287,14 +2287,14 @@ country_event = {
 		add_ideas = GBR_Harold_Alexander_carm_sco
 	}
 	option = {
-		name = uk.51.c #Miles Dempsey
+		name = uk.51.c #Майлз Демпси
 		ai_chance = {
 			factor = 10
 		}
 		add_ideas = GBR_Miles_Dempsey_carm_mli
 	}
 	option = {
-		name = uk.51.e #John Dill
+		name = uk.51.e #Джон Дилл
 		trigger = { NOT = { has_idea = GBR_John_Dill_cos_mli } }
 		ai_chance = {
 			factor = 20
@@ -2318,14 +2318,14 @@ country_event = {
 	}
 
 	option = {
-		name = uk.52.a #Louis Mountbatten
+		name = uk.52.a #Луис Маунтбеттен
 		ai_chance = {
 			factor = 40
 		}
 		add_ideas = GBR_Louis_Mountbatten_cnav_sco
 	}
 	option = {
-		name = uk.52.b #Dudley Pound
+		name = uk.52.b #Дадли Паунд
 		ai_chance = {
 			factor = 30
 		}
@@ -2362,7 +2362,7 @@ country_event = {
 	}
 
 	option = {
-		name = uk.53.a #Hugh Trenchard
+		name = uk.53.a #Хью Монтегю Тренчард
 		ai_chance = {
 			factor = 40
 		}
@@ -3859,7 +3859,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Frank McDermott"
+					name = "Фрэнк МакДермотт"
 					desc = "POLITICS_FRANK_MACDERMOT_DESC"
 					picture = "gfx/leaders/IRE/Portrait_Ireland_Frank_MacDermot.png"
 					expire = "1.1.1"
@@ -3948,7 +3948,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Frank McDermott"
+					name = "Фрэнк МакДермотт"
 					desc = "POLITICS_FRANK_MACDERMOT_DESC"
 					picture = "gfx/leaders/IRE/Portrait_Ireland_Frank_MacDermot.png"
 					expire = "1.1.1"

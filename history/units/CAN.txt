@@ -1,5 +1,5 @@
 division_template = {
-	name = "Militia Brigade"
+	name = "Бригада ополчения"
 	division_names_group = CAN_GAR_01
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -8,7 +8,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Infantry Division"
+	name = "Пехотная дивизия"
 	division_names_group = CAN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -25,7 +25,7 @@ division_template = {
 	template_counter = 201
 }
 division_template = {
-	name = "Infantry Division II"
+	name = "Пехотная дивизия II"
 	division_names_group = CAN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -44,7 +44,7 @@ division_template = {
 	template_counter = 201
 }
 division_template = {
-	name = "Infantry Division III"
+	name = "Пехотная дивизия III"
 	division_names_group = CAN_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -61,7 +61,7 @@ division_template = {
 	template_counter = 201
 }
 division_template = {
-	name = "RCMP Brigade"
+	name = "Бригада КККП"
 	division_names_group = CAN_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -74,7 +74,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Royal Marines Division"
+	name = "Дивизия Королевской морской пехоты"
 	division_names_group = CAN_MAR_01
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -89,7 +89,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Motorised Brigade"
+	name = "Моторизованная бригада"
 	division_names_group = CAN_MOT_01
 
 	regiments = {
@@ -104,7 +104,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Garrison"
+	name = "Гарнизон"
 	division_names_group = CAN_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -118,7 +118,7 @@ division_template = {
 	template_counter = 201
 }
 division_template = {
-	name = "Armoured-Division"
+	name = "Бронетанковая дивизия"
 	division_names_group = CAN_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
@@ -133,16 +133,16 @@ division_template = {
 units = {
 
 	division = {
-		name = "Vancouver Garrison"
+		name = "Ванкуверский гарнизон"
 		location = 4428
-		division_template = "Militia Brigade"
+		division_template = "Бригада ополчения"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Winnipeg Garrison"
+		name = "Виннипегский гарнизон"
 		location = 4872
-		division_template = "Militia Brigade"
+		division_template = "Бригада ополчения"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -153,7 +153,7 @@ units = {
 			name_order = 1
 		}
 		location = 3778
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -164,7 +164,7 @@ units = {
 			name_order = 2
 		}
 		location = 3778
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -175,28 +175,28 @@ units = {
 			name_order = 3
 		}
 		location = 3778
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1st RCMP Brigade"
+		name = "1-я Бригада КККП"
 		location = 12582
-		division_template = "RCMP Brigade"
+		division_template = "Бригада КККП"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3rd RCMP Brigade"
+		name = "3-я Бригада КККП"
 		location = 10611
-		division_template = "RCMP Brigade"
+		division_template = "Бригада КККП"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2nd RCMP Brigade"
+		name = "2-я Бригада КККП"
 		location = 3706
-		division_template = "RCMP Brigade"
+		division_template = "Бригада КККП"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -207,14 +207,14 @@ units = {
 			name_order = 5
 		}
 		location = 12149
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Quebec Garrison"
+		name = "Квебекский гарнизон"
 		location = 7433
-		division_template = "Militia Brigade"
+		division_template = "Бригада ополчения"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -225,7 +225,7 @@ units = {
 			name_order = 1
 		}
 		location = 4285
-		division_template = "Royal Marines Division"
+		division_template = "Дивизия Королевской морской пехоты"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -236,14 +236,14 @@ units = {
 			name_order = 2
 		}
 		location = 4285
-		division_template = "Royal Marines Division"
+		division_template = "Дивизия Королевской морской пехоты"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "Halifax Garrison"
+		name = "Галифакский гарнизон"
 		location = 7361
-		division_template = "Militia Brigade"
+		division_template = "Бригада ополчения"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
@@ -254,36 +254,36 @@ units = {
 			name_order = 4
 		}
 		location = 7361
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "York Volunteers"
+		name = "Йоркские добровольцы"
 		location = 3775
-		division_template = "Militia Brigade"
+		division_template = "Бригада ополчения"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		#name = "1st Experimental Motor Brigade"
+		#name = "1st Экспериментальная мотобригада"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 774
-		division_template = "Motorised Brigade"
+		division_template = "Моторизованная бригада"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
-		#name = "2nd Experimental Motor Brigade"
+		#name = "2nd Экспериментальная мотобригада"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
 		location = 3608
-		division_template = "Motorised Brigade"
+		division_template = "Моторизованная бригада"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}

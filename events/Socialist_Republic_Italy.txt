@@ -45,31 +45,31 @@ country_event = {
 		complete_national_focus = SRI_garibaldi_ii
 		set_country_leader_portrait = {portrait = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II.png" }
 		hidden_effect = {
-			set_country_flag = LEADER_GUI_VISIBLE
-			SRI = { SRI_become_not_socialist_like = yes }
-			set_country_flag = SRI_garibaldi_republic
-			clr_country_flag = soc_dems_are_socialists
-			remove_all_ministers = yes
-			add_ideas = SRI_Randolfo_Pacciardi_hog_sli
-			add_ideas = SRI_Raffaele_Rossetti_for_sli
-			add_ideas = SRI_Sante_Garibaldi_eco_sli
-			add_ideas = SRI_Ricciotti_Garibaldi_sec_sli
-			set_cosmetic_tag = SRI_confederation
-			every_unit_leader = {
-				limit = { 
-					OR = {
-						has_trait = SRI_squadristi_trait 
-						has_trait = SRI_arditi_futuristi_trait 
-					}
-				}
-				remove_unit_leader = yes
-			}
-			random_other_country = {
-				news_event = {
-					id = worldnews.10008
-					days = 1
+		set_country_flag = LEADER_GUI_VISIBLE
+		SRI = { SRI_become_not_socialist_like = yes }
+		set_country_flag = SRI_garibaldi_republic
+		clr_country_flag = soc_dems_are_socialists
+		remove_all_ministers = yes
+		add_ideas = SRI_Randolfo_Pacciardi_hog_sli
+		add_ideas = SRI_Raffaele_Rossetti_for_sli
+		add_ideas = SRI_Sante_Garibaldi_eco_sli
+		add_ideas = SRI_Ricciotti_Garibaldi_sec_sli
+		set_cosmetic_tag = SRI_confederation
+		every_unit_leader = {
+			limit = { 
+				OR = {
+				has_trait = SRI_squadristi_trait 
+				has_trait = SRI_arditi_futuristi_trait 
 				}
 			}
+			remove_unit_leader = yes
+		}
+		random_other_country = {
+			news_event = {
+				id = worldnews.10008
+				days = 1
+			}
+		}
 		}
 	}
 	option = {
@@ -280,7 +280,7 @@ country_event = {
 		hidden_effect = {
 		set_cosmetic_tag = SRD_ITA
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			desc = "POLITICS_AMADEO_SAVOY_DESC"
 			ideology = mazzinianesimo_subtype 
@@ -800,7 +800,7 @@ country_event = {
 				}
 			}
 			add_core_of = FROM
-		}
+			}
 	}
 }
 
@@ -845,7 +845,7 @@ country_event = {
 				}
 			}
 			add_claim_by = FROM
-		}
+			}
 		set_country_flag = SRI_amadeo_spain
 	}
 	option = {
@@ -880,7 +880,7 @@ country_event = {
 	option = {
 		name = socitaly.224.b
 		add_political_power = 50
-		custom_effect_tooltip = "General Election will take place in 3 months!"
+		custom_effect_tooltip = "Всеобщие выборы состоятся через 3 месяца!"
 		hidden_effect = {
 			country_event = {
 				id = socitaly.225
@@ -927,39 +927,39 @@ country_event = {
 			}
 			country_event = { id = socitaly.225 days = 1461 } # Repeat election every 4 years
 			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Amedeo I" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Амадей I" } }
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = radsoc_socialist_feminism_subtype
 				}
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = liberal_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = marlib_radical_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = paternal_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = qualunquismo_subtype
 				}
 				create_country_leader = {
-					name = "Amedeo I"
+					name = "Амадей I"
 					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 					desc = "POLITICS_AMADEO_SAVOY_DESC"
 					ideology = pataut_national_conservative_subtype
@@ -967,37 +967,37 @@ country_event = {
 			}
 			else_if = {
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = radsoc_socialist_feminism_subtype
 				}
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = liberal_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = marlib_radical_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = paternal_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = qualunquismo_subtype
 				}
 				create_country_leader = {
-					name = "Giuseppe Garibaldi II"
+					name = "Джузеппе Гарибальди II"
 					picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Garibaldi_II_Suit.png"
 					desc = ""
 					ideology = pataut_national_conservative_subtype
@@ -1023,7 +1023,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Argentina_Altobelli_hog_rso
 	}
@@ -1044,7 +1044,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Carlo_Rosselli_hog_sde
 	}
@@ -1065,12 +1065,12 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = {
 		remove_ideas_with_trait = head_of_government
 		}
 		if = {
-			limit = { has_country_leader = { ruling_only = yes name = "Amedeo I" } }
+			limit = { has_country_leader = { ruling_only = yes name = "Амедео I" } }
 			add_ideas = SRI_Giuseppe_Garibaldi_II_hog_sli
 		}
 		else_if = { add_ideas = SRI_Randolfo_Pacciardi_hog_sli }
@@ -1092,7 +1092,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Giovanni_Amendola_hog_mli
 	}
@@ -1113,7 +1113,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Alessandro_Scotti_hog_sco
 	}
@@ -1134,7 +1134,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Roberto_Bencivenga_hog_ade
 	}
@@ -1155,7 +1155,7 @@ country_event = {
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
-		custom_effect_tooltip = "New Elections will take place every 4 years!"
+		custom_effect_tooltip = "Новые выборы будут проводиться каждые 4 года!"
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
 		add_ideas = SRI_Alfredo_Covelli_hog_pau
 	}
@@ -1176,73 +1176,73 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		release_puppet = SPR
-		FROM = {
+			release_puppet = SPR
+			FROM = {
 			set_autonomy = {
 				target = SPR
 				autonomous_state = kx_colored_puppet
+				}
 			}
-		}
-		SPR = {
+			SPR = {
 			load_focus_tree = generic_focus
 			set_cosmetic_tag = SPR_SRD
 			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = national_populist_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = absolute_monarchy_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = authoritarian_democrat_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = social_conservative_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = market_liberal_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = social_liberal_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = social_democrat_subtype
-			}
-			create_country_leader = {
-				name = "Amadeo II"
-				desc = ""
-				picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
-				expire = "1.1.1"
-				ideology = radical_socialist_subtype
-			}
-			every_state = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = national_populist_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = absolute_monarchy_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = authoritarian_democrat_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = social_conservative_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = market_liberal_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = social_liberal_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = social_democrat_subtype
+				}
+				create_country_leader = {
+					name = "Амадео II"
+					desc = ""
+					picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
+					expire = "1.1.1"
+					ideology = radical_socialist_subtype
+				}
+				every_state = {
 				limit = {
 				OR = {
 				is_core_of = CAR 
@@ -1253,19 +1253,19 @@ country_event = {
 					}
 				}
 				add_core_of = SPR
-			}
-			every_core_state = {
+					}
+				every_core_state = {
 				limit = {
-					OR = {
+				OR = {	
 						is_owned_by = ITA
 						is_owned_by = SIC
 						is_owned_by = SRD
 						is_owned_by = SPR
-					}
-				}
+							}
+						}
 				set_state_owner_to = SPR
-			}
-			hidden_effect = {
+				}
+				hidden_effect = {
 				every_state = {
 					limit = { is_core_of = SPR }
 					remove_core_of = FROM
@@ -1282,11 +1282,11 @@ country_event = {
 		}
 		if = {
 			limit = { tag = ITA }
-			set_cosmetic_tag = SPR_ITA_UNION
+		set_cosmetic_tag = SPR_ITA_UNION
 		}
 		else_if = {
 			limit = { NOT = { tag = ITA } }
-			set_cosmetic_tag = SPR_SRD_UNION
+		set_cosmetic_tag = SPR_SRD_UNION
 		}
 		every_state = {
 			limit = { 
@@ -1300,7 +1300,7 @@ country_event = {
 			}
 			}
 			add_core_of = FROM
-		}
+			}
 		add_political_power = -100
 		add_stability = -0.1
 	}
@@ -1321,7 +1321,7 @@ country_event = {
 			}
 			}
 			add_core_of = FROM
-		}
+			}
 		add_political_power = -100
 		add_stability = -0.1
 	}
@@ -1473,7 +1473,7 @@ country_event = { #fate of generals
 	option = { #Just the republicans
 		name = socitaly.227.e
 		trigger = {
-			has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
+			has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
 		}
 		ai_chance = {
 			factor = 30
@@ -1504,7 +1504,7 @@ country_event = { #fate of generals
 	}
 	option = { #Just the monarchists
 		trigger = {
-			has_country_leader = { ruling_only = yes name = "Amedeo I" }
+			has_country_leader = { ruling_only = yes name = "Амедео I" }
 		}
 		ai_chance = {
 			factor = 30
@@ -1634,7 +1634,7 @@ country_event = { # Economic policy
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI
-					}
+				}
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI_REPUBLIC
@@ -1805,7 +1805,7 @@ country_event = { # Internal policy
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI
-					}
+				}
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI_REPUBLIC
@@ -2088,7 +2088,7 @@ country_event = { # Religious policy
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI
-					}
+				}
 					has_game_rule = {
 						rule = SRI_start_election
 						option = SRI_START_GARIBALDI_REPUBLIC
@@ -2276,7 +2276,7 @@ country_event = { # Unione Sindacale Italiana majority
 		}
 	}
 
-	option = { # Giuseppe Di Vittorio
+	option = { # Джузеппе Ди Витторио
 		name = socitaly.7.a
 		add_stability = 0.05
 		set_politics = {
@@ -2320,7 +2320,7 @@ country_event = { # Partito Comunista d'Italia majority
 		}
 	}
 
-	option = { # Antonio Gramsci
+	option = { # Антонио Грамши
 		name = socitaly.771.a
 		add_stability = 0.05
 		set_politics = {
@@ -2364,7 +2364,7 @@ country_event = { # Blocco Nazionale Rivoluzionario majority
 		}
 	}
 
-	option = { # Benito Mussolini
+	option = { # Бенито Муссолини
 		name = socitaly.8.a
 		add_stability = 0.05
 		set_politics = {
@@ -2456,7 +2456,7 @@ country_event = { # Compromise achieved between Syndicalists and Communists
 		}
 	}
 }
-### Caths ###
+### Neo-Sanfedisti ###
 country_event = { # Catholics suppressed (fired from focus)
 	id = socitaly.19
 	immediate = { log = "[GetDateText]: [Root.GetName]: event socitaly.19" }
@@ -3128,10 +3128,10 @@ country_event = { # Partito Socialista Unitario majority
 		add_ideas = SRI_Ludovico_Aragona_eco_sde
 		add_ideas = SRI_Bruno_Buozzi_sec_sde
 	}
-	option = { # Giuseppe Romita
+	option = { # Джузеппе Ромита
 		name = socitaly.45.b
 		create_country_leader = {
-			name = "Giuseppe Romita"
+			name = "Джузеппе Ромита"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Romita.png"
 			expire = "1.1.1"
 			ideology = socdem_radical_progressivism_subtype 
@@ -3153,7 +3153,7 @@ country_event = { # Partito Socialista Unitario majority
 	option = { # Ludovico D'Aragona
 		name = socitaly.45.c
 		create_country_leader = {
-			name = "Ludovico D'Aragona"
+			name = "Людовико Д’Арагона"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Ludovico_Daragona.png"
 			expire = "1.1.1"
 			ideology = syndie_social_democrat_subtype 
@@ -3175,7 +3175,7 @@ country_event = { # Partito Socialista Unitario majority
 	option = { # Argentina Altobelli
 		name = socitaly.45.e
 		create_country_leader = {
-			name = "Argentina Altobelli"
+			name = "Аргентина Альтобелли"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Argentina_Altobelli.png"
 			expire = "1.1.1"
 			ideology = socdem_socialist_feminism_subtype 
@@ -3285,7 +3285,7 @@ country_event = { # Unione Sindacale Italiana majority
 			name = SRI_interventionist_party
 		}
 		create_country_leader = {
-		name = "Giuseppe Giulietti"
+		name = "Джузеппе Джульетти"
 		picture = "gfx/leaders/SRI/Portrait_SRI_Giuseppe_Giulietti.png"
 		expire = "1.1.1"
 		ideology = centralized_syndicalism_subtype 
@@ -3307,7 +3307,7 @@ country_event = { # Unione Sindacale Italiana majority
 			name = SRI_neutralist_party
 		}
 		create_country_leader = {
-		name = "Armando Borghi"
+		name = "Армандо Борги"
 		picture = "gfx/leaders/SRI/Portrait_SRI_Armando_Borghi.png"
 		expire = "1.1.1"
 		ideology = anarcho_syndicalist_subtype 
@@ -3329,7 +3329,7 @@ country_event = { # Unione Sindacale Italiana majority
 			name = SRI_anarchist_party
 		}
 		create_country_leader = {
-		name = "Errico Malatesta"
+		name = "Эррико Малатеста"
 		picture = "gfx/leaders/SRI/Portrait_SRI_Errico_Malatesta.png"
 		expire = "1.1.1"
 		ideology = syn_anarcho_communism_subtype 
@@ -3383,10 +3383,10 @@ country_event = { # Partito Comunista d'Italia majority
 			elections_allowed = no
 		}
 		create_country_leader = {
-	name = "Angelo Tasca"
-	picture = "gfx/leaders/SRI/Portrait_SRI_Angelo_Tasca.png"
-	expire = "1.1.1"
-	ideology = bukharinist_subtype 
+	    name = "Анджело Таска"
+	    picture = "gfx/leaders/SRI/Portrait_SRI_Angelo_Tasca.png"
+	    expire = "1.1.1"
+	    ideology = bukharinist_subtype 
         }
 		add_ideas = SRI_Antonio_Gramsci_hog_rso
 		add_ideas = SRI_Umberto_Terracini_for_rso
@@ -3400,10 +3400,10 @@ country_event = { # Partito Comunista d'Italia majority
 			elections_allowed = no
 		}
 		create_country_leader = {
-	name = "Palmiro Togliatti"
-	picture = "gfx/leaders/SRI/Portrait_SRI_Palmiro_Togliatti.png"
-	expire = "1.1.1"
-	ideology = radsoc_communism_subtype 
+	    name = "Пальмиро Тольятти"
+	    picture = "gfx/leaders/SRI/Portrait_SRI_Palmiro_Togliatti.png"
+	    expire = "1.1.1"
+	    ideology = radsoc_communism_subtype 
         }
 		add_ideas = SRI_Antonio_Gramsci_hog_rso
 		add_ideas = SRI_Umberto_Terracini_for_rso
@@ -3440,14 +3440,14 @@ country_event = { # NatSynd and Futurist Success
 		}
 	}
 	option = { # Maximalists
-		name = socitaly.477.c
-		ai_chance = {
-			factor = 25
-		}
-		country_event = {
-			id = socitaly.472
-		}
+	name = socitaly.477.c
+	ai_chance = {
+		factor = 25
 	}
+	country_event = {
+		id = socitaly.472
+	}
+}
 	option = { # Reformed Tots
 		name = socitaly.477.e
 		ai_chance = {
@@ -3483,7 +3483,7 @@ country_event = { # Blocco Nazionale Rivoluzionario majority
 		}
 	}
 
-	option = { # Benito Mussolini
+	option = { # Бенито Муссолини
 		name = socitaly.47.a
 		set_politics = {
 			ruling_party = totalist
@@ -3508,10 +3508,10 @@ country_event = { # Blocco Nazionale Rivoluzionario majority
 			}
 		}
 	}
-	option = { # Michele Bianchi
+	option = { # Микеле Бьянки
 		name = socitaly.47.b
 		create_country_leader = {
-			name = "Michele Bianchi"
+			name = "Микеле Бьянки"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Michele_Bianchi.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3530,10 +3530,10 @@ country_event = { # Blocco Nazionale Rivoluzionario majority
 		add_ideas = SRI_Edmondo_Rossoni_eco_tot
 		add_ideas = SRI_Roberto_Farinacci_sec_tot
 	}
-	option = { # Edmondo Rossoni
+	option = { # Эдмунд Россони
 		name = socitaly.47.c
 		create_country_leader = {
-			name = "Edmondo Rossoni"
+			name = "Эдмунд Россони"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Edmondo_Rossoni.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3552,10 +3552,10 @@ country_event = { # Blocco Nazionale Rivoluzionario majority
 		add_ideas = SRI_Edmondo_Rossoni_eco_tot
 		add_ideas = SRI_Roberto_Farinacci_sec_tot
 	}
-	option = { # Achille Starace
+	option = { # Акилле Стараче
 		name = socitaly.47.e
 		create_country_leader = {
-			name = "Achille Starace"
+			name = "Акилле Стараче"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Achille_Starace.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3605,10 +3605,10 @@ country_event = { # Futurist Political Party majority
 		}
 	}
 
-	option = { # Filippo Tommaso Marinetti
+	option = { # Филиппо Томмазо Маринетти
 		name = socitaly.471.a
 		create_country_leader = {
-			name = "Filippo Tommaso Marinetti"
+			name = "Филиппо Томмазо Маринетти"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Filippo_Tommaso_Marinetti.png"
 			expire = "1.1.1"
 			ideology = tot_italian_left_futurism_subtype
@@ -3627,10 +3627,10 @@ country_event = { # Futurist Political Party majority
 		add_ideas = SRI_Giuseppe_Bottai_eco_tot
 		add_ideas = SRI_Mario_Carli_sec_tot
 	}
-	option = { # Gino Severini
+	option = { # Джино Северини
 		name = socitaly.471.b
 		create_country_leader = {
-			name = "Gino Severini"
+			name = "Джино Северини"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Gino_Severini.png"
 			expire = "1.1.1"
 			ideology = tot_italian_left_futurism_subtype
@@ -3649,10 +3649,10 @@ country_event = { # Futurist Political Party majority
 		add_ideas = SRI_Giuseppe_Bottai_eco_tot
 		add_ideas = SRI_Mario_Carli_sec_tot
 	}
-	option = { # Italo Balbo
+	option = { # Итало Бальбо
 		name = socitaly.471.c
 		create_country_leader = {
-			name = "Italo Balbo"
+			name = "Итало Бальбо"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Italo_Balbo.png"
 			expire = "1.1.1"
 			ideology = tot_italian_left_futurism_subtype
@@ -3702,10 +3702,10 @@ country_event = { # Maximalist Italian Socialist Party majority
 		}
 	}
 
-	option = { # Nicola Bombacci
+	option = { # Никола Бомбаччи
 		name = socitaly.472.a
 		create_country_leader = {
-			name = "Nicola Bombacci"
+			name = "Никола Бомбаччи"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Nicola_Bombacci.png"
 			expire = "1.1.1"
 			ideology = massimalismo_subtype
@@ -3724,10 +3724,10 @@ country_event = { # Maximalist Italian Socialist Party majority
 		add_ideas = SRI_Edmondo_Cione_eco_tot
 		add_ideas = SRI_Walter_Mocchi_sec_tot
 	}
-	option = { # Edmondo Cione
+	option = { # Эдмундо Чионе
 		name = socitaly.472.b
 		create_country_leader = {
-			name = "Edmondo Cione"
+			name = "Эдмундо Чионе"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Edmondo_Cione.png"
 			expire = "1.1.1"
 			ideology = massimalismo_subtype
@@ -3777,10 +3777,10 @@ country_event = { # Italian Labour Union
 		}
 	}
 
-	option = { # Alceste De Ambris
+	option = { # Альцесте де Амбрис
 		name = socitaly.473.a
 		create_country_leader = {
-			name = "Alceste De Ambris"
+			name = "Альцесте де Амбрис"
 			picture = "gfx/leaders/SRI/Portrait_SRI_Alceste_de_Ambris.png"
 			expire = "1.1.1"
 			ideology = tot_reformed_natsynd_subtype
@@ -3977,49 +3977,49 @@ country_event = { # New Pope is elected
 			}
 			PAP = {
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = authoritarian_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = national_populist_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = paternal_autocrat_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Leo XIV"
+					name = "Лео XIV"
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 					desc = "POLITICS_LEO_XIV_DESC"
 					expire = "1.1.1"
@@ -4471,7 +4471,7 @@ country_event = { # Women entering politics
 }
 
 ### Life in the SRI ###
-country_event = { # Female Red Guard units
+country_event = { # Female Красная гвардия units
 	id = socitaly.84
 	immediate = { log = "[GetDateText]: [Root.GetName]: event socitaly.84" }
 	title = socitaly.84.t
@@ -4819,7 +4819,7 @@ country_event = { # Leonilde Iotti
 	option = {
 		name = socitaly.110.a
 		create_corps_commander = {# Leonilde Iotti
-		name = "Leonilde Iotti"
+		name = "Леонильде Йотти"
 		portrait_path = "gfx/leaders/SRI/Portrait_SRI_leonilde_Iotti.png"
 		traits = {
 			politically_connected 
@@ -4832,7 +4832,7 @@ country_event = { # Leonilde Iotti
 		planning_skill = 1
 		logistics_skill = 1
 		female = yes
-	}
+	    }
 	}
 }
 
@@ -4863,8 +4863,8 @@ country_event = { # The Cultural Revolution begins!
 				id = socitaly.114
 				days = 5
 			}
-			if = {
-				limit = { has_country_leader = { name = "Benito Mussolini" ruling_only = yes } }
+			if = {	
+				limit = { has_country_leader = { name = "Бенито Муссолини" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/SRI/Portrait_SRI_Benito_Mussolini_Military.png"
 				}

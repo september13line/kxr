@@ -1516,7 +1516,7 @@ focus_tree = {
 		icon = {
 			trigger = {
 				has_country_leader = {
-					name = "Turar Ryskulov"
+					name = "Турар Рыскулов"
 					ruling_only = yes
 				}
 			}
@@ -1593,7 +1593,7 @@ focus_tree = {
 			573 = { add_core_of = BKN }
 			BKN = {
 				set_politics = { ruling_party = syndicalist }
-				become_exiled_in = { target = ROOT }
+					become_exiled_in = { target = ROOT }
 			}
 			activate_targeted_decision = { target = BKN decision = TRK_liberate_idel_ural }
 		}
@@ -2319,7 +2319,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: TRK_Mirshab_State"
-			TRK_increase_political_modernisation = yes	
+			TRK_increase_political_modernisation = yes
 			set_country_leader_ideology = police_state_subtype
 			custom_effect_tooltip = authdem_police_state_subtype_swap_tt
 			effect_tooltip = { 
@@ -2594,7 +2594,7 @@ focus_tree = {
 					elections_allowed = yes					
 				}
 				create_country_leader = {
-					name = "Sherali Lapin"
+					name = "Сералы Лапин"
 					desc = "POLITICS_SHERALI_LAPIN_DESC"
 					picture = "gfx/leaders/TRK/Portrait_TRK_Serali_Lapin.png"
 					expire = "1.1.1"
@@ -3664,7 +3664,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRK_Oligarchy_Of_New_Feudals"
 			set_country_leader_ideology = pataut_oligarchy_subtype
 			custom_effect_tooltip = pataut_pataut_oligarchy_subtype_swap_tt
-			TRK_increase_economic_modernisation = yes			
+			TRK_increase_economic_modernisation = yes
 			add_two_random_civilian_factories = yes
 			custom_effect_tooltip = tooltip_white_line
 			activate_targeted_decision = { target = JAP decision = TRK_join_co_prosperity }
@@ -3873,7 +3873,7 @@ focus_tree = {
 				elections_allowed = no					
 			}
 			create_country_leader = {
-				name = "Madamin Bey"
+				name = "Мадамин-бек"
 				desc = "POLITICS_MADAMIN_BEY_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Madamin_Bek.png"
 				expire = "1.1.1"
@@ -4389,14 +4389,14 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRK_Platform_Osipov"
 			if = {
 				limit = { has_government = paternal_autocrat }
-				set_country_leader_ideology = red_tinted_autocracy_subtype
+			set_country_leader_ideology = red_tinted_autocracy_subtype
 			}
 			custom_effect_tooltip = pataut_red_tinted_autocracy_subtype_swap_tt
 			remove_ideas_with_trait = economy_minister
 			add_ideas = TRK_Vasiliy_Agapov_eco_tot
 			hidden_effect = {			
 				create_country_leader = {
-					name = "Konstantin Osipov"
+					name = "Константин Осипов"
 					desc = "POLITICS_KONSTANTIN_OSIPOV_DESC"
 					picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Osipov.png"
 					expire = "1.1.1"
@@ -5805,9 +5805,9 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_dlc = "Arms Against Tyranny" }
-				mio:TRK_tashkent_arsenal_organisation = { 
-					add_mio_size = 2
-					add_mio_funds = 1000
+			mio:TRK_tashkent_arsenal_organisation = { 
+				add_mio_size = 2
+				add_mio_funds = 1000
 				}
 			}
 		}
@@ -5930,7 +5930,7 @@ focus_tree = {
 			}
 			effect_tooltip = {								
 				create_corps_commander = {
-					name = "Abdusamat Taymetov"
+					name = "Абдусамат Тайметов"
 				}
 			}
 			hidden_effect = {

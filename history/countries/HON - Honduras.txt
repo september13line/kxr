@@ -44,24 +44,24 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-	
-	### Transport ###
-	mtg_transport = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+		
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_stability = 0.5
 set_war_support = 0.35
@@ -112,14 +112,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "José León Castro"
+	name = "Хосе Леон Кастро"
 	picture = "gfx/leaders/HON/Portrait_HON_Jose_Leon_Castro.png"
 	expire = "1.1.1"
 	ideology = junta_subtype
 }
 
 create_country_leader = {
-	name = "Consejo de Salvación Nacional"
+	name = "Совет национального спасения"
 	desc = "POLITICS_HONDURAN_COUNCIL_DESC"
 	picture = "gfx/leaders/HON/Portrait_HON_Honduran_Council.png"
 	expire = "1.1.1"
@@ -127,42 +127,42 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Venancio Callejas"
+	name = "Венансио Кальехас"
 	picture = "gfx/leaders/HON/Portrait_HON_Venancio_Callejas.png"
 	expire = "1.1.1"
 	ideology = paternal_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Juan Manuel Gálvez"
+	name = "Хуан Мануэль Гальвес"
 	picture = "gfx/leaders/HON/Portrait_HON_Juan_Manuel_Galvez.png"
 	expire = "1.1.1"
 	ideology = market_liberal_subtype
 }
 
 create_country_leader = {
-	name = "José Ángel Zúñiga Huete"
+	name = "Хосе Анхель Сунига Уэте"
 	picture = "gfx/leaders/HON/Portrait_HON_Jose_Angel_Huete.png"
 	expire = "1.1.1"
 	ideology = national_liberalism_subtype
 }
 
 create_country_leader = {
-	name = "Ramon Villeda Morales"
+	name = "Рамон Вильеда Моралес"
 	picture = "gfx/leaders/HON/Portrait_HON_Ramon_Villeda_Morales.png"
 	expire = "1.1.1"
 	ideology = socdem_radical_progressivism_subtype
 }
 
 create_country_leader = {
-	name = "Juan Pablo Wainwright"
+	name = "Хуан Пабло Уэйнрайт"
 	picture = "gfx/leaders/HON/Portrait_HON_Juan_Pablo_Wainwright.png"
 	expire = "1.1.1"
 	ideology = market_socialist_subtype
 }
 
 create_country_leader = {
-	name = "Graciela Amaya de García"
+	name = "Грасиэла Амайя де Гарсия"
 	picture = "gfx/leaders/HON/Portrait_HON_Graciela_Amaya_de_Garcia.png"
 	expire = "1.1.1"
 	ideology = feminist_syndicalist_subtype
@@ -170,7 +170,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Manuel Calix Herrera"
+	name = "Мануэль Каликс Эррера"
 	picture = "gfx/leaders/HON/Portrait_HON_Manuel_Calix_Herrera.png"
 	expire = "1.1.1"
 	ideology = natsynd_subtype
@@ -179,7 +179,7 @@ create_country_leader = {
 ### Field Marshals ###
 
 create_field_marshal = {
-	name = "José León Castro "
+	name = "Хосе Леон Кастро "
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Jose_Leon_Castro.png"
 	traits = {
 		jungle_rat
@@ -194,7 +194,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Tiburcio Carías Andino "
+	name = "Тибурсио Кариас Андино "
 	#desc = "ARMY_HON_FEDERICO_DAVIDSON_BLANCO_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_general.png"
 	traits = {
@@ -211,7 +211,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "José Inocente Triminio Osorio "
+	name = "Хосе Иносенте Триминио Осорио"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Jose_Inocente_Osorio.png"
 	traits = { 
@@ -227,7 +227,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Máximo B. Rosales "
+	name = "Масимо Б. Росалес"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Maximo_B_Rosales.png"
 	traits = { 
@@ -242,7 +242,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "José Castro Lopez "
+	name = "Хосе Кастро Лопес"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Jose_Castro_Lopez.png"
 	traits = { 
@@ -258,7 +258,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mariano Bertrand Anduray "
+	name = "Мариано Бертран Андурай"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Mariano_Bertrand_Anduray.png"
 	traits = {
@@ -274,7 +274,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Abraham Williams Calderón "
+	name = "Абрахам Уильямс Кальдерон"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Abraham_Williams_Calderon.png"
 	traits = {
@@ -290,7 +290,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lisandro Garay "
+	name = "Лисандро Гарай"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Lisandro_Garay.png"
 	traits = {
@@ -305,7 +305,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Francisco Martinez Funes "
+	name = "Франсиско Мартинес Фунес"
 	#desc = "HON_francisco_martinez_funes_commander_desc"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Francisco_Martinez_Funes.png"
 	traits = { old_guard war_hero infantry_leader }
@@ -318,7 +318,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rufino Solis Juarez "
+	name = "Руфино Солис Хуарес"
 	#desc = "HON_rufino_solis_juarez_commander_desc"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Rufino_Solis_Juarez.png"
 	traits = { politically_connected harsh_leader }
@@ -333,7 +333,7 @@ create_corps_commander = {
 
 ## Contras
 create_corps_commander = {
-	name = "Anastasio Somoza García "
+	name = "Анастасио Сомоса Гарсиа"
 	#desc = "ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Anastasio_Somoza_Garcia.png"
 	traits = {
@@ -348,7 +348,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Federico Davidson Blanco "
+	name = "Федерико Давидсон Бланко"
 	#desc = "ARMY_HON_FEDERICO_DAVIDSON_BLANCO_DESC"
 	portrait_path = "gfx/leaders/HON/Portrait_HON_Federico_Davidson_Blanco.png"
 	traits = {

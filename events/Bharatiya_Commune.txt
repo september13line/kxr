@@ -192,7 +192,7 @@ country_event = {
 	}
 }
 
-# Jawaharlal Nehru laments the state of industry
+# Джавахарлал Неру laments the state of industry
 country_event = {
 	id = beng.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event beng.4" }
@@ -608,7 +608,7 @@ country_event = {
 		clr_country_flag = BHC_agrarian
 		hidden_effect = {
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
@@ -699,7 +699,7 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = BHC_INC_meeting_done
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
@@ -738,7 +738,7 @@ country_event = {
 		name = beng.8.a
 		add_political_power = 100
 		create_country_leader = {
-			name = "Mohandas Karamchand Gandhi"
+			name = "Махатма Ганди"
 			desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 			expire = "1.1.1"
@@ -788,7 +788,7 @@ country_event = {
 		clr_country_flag = BHC_agrarian
 		hidden_effect = {
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
@@ -863,7 +863,7 @@ country_event = {
 		}
 		effect_tooltip = {
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
@@ -1099,7 +1099,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Mohandas Karamchand Gandhi"
+					name = "Махатма Ганди"
 					ruling_only = yes
 				}
 			}
@@ -1110,7 +1110,7 @@ country_event = {
 				tag = DEH
 			}
 			create_country_leader = {
-				name = "Jawaharlal Nehru"
+				name = "Джавахарлал Неру"
 				desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 				expire = "1.1.1"
@@ -1118,7 +1118,7 @@ country_event = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Nirmal Kumar Bose"
+					name = "Нирмал Кумар Бозе"
 					desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 					picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 					expire = "1.1.1"
@@ -1248,7 +1248,7 @@ country_event = {
 	}
 }
 
-# Shripad Amrit Dange Reforms the Anushilan Samiti
+# Шрипад Амрит Данге Reforms the Anushilan Samiti
 country_event = {
 	id = beng.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event beng.21" }
@@ -1279,7 +1279,7 @@ country_event = {
 		has_completed_focus = BHC_special_INC_meeting
 		has_government = syndicalist
 		has_country_leader = {
-			name = "A. K. Fazlul Huq"
+			name = "Абул Касем Фазлул Хак"
 			ruling_only = yes
 		}
 	}
@@ -1292,7 +1292,7 @@ country_event = {
 		name = beng.22.a
 		add_stability = -0.02
 		create_country_leader = {
-			name = "Jawaharlal Nehru"
+			name = "Джавахарлал Неру"
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 			expire = "1.1.1"
@@ -1303,7 +1303,7 @@ country_event = {
 	}
 }
 
-# A Most Cordial Letter to Mr Mosley
+# A Most Cordial Letter to Mr Мосли
 country_event = {
 	id = beng.23
 	immediate = { log = "[GetDateText]: [Root.GetName]: event beng.23" }
@@ -1942,7 +1942,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				has_country_leader = {
-					name = "Mohandas Karamchand Gandhi"
+					name = "Махатма Ганди"
 					ruling_only = yes
 				}
 			}
@@ -2560,11 +2560,11 @@ country_event = {
 		custom_effect_tooltip = DEH_gandhi_hos
 		hidden_effect = {
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
-				ideology = socdem_gandhism_subtype 
+				ideology = socdem_gandhism_subtype
 				traits = {
 					mahatma
 				}
@@ -2619,7 +2619,7 @@ country_event = {
 				popularity = 0.10
 			}
 			create_country_leader = {
-				name = "Mohandas Karamchand Gandhi"
+				name = "Махатма Ганди"
 				desc = "POLITICS_MOHANDAS_GHANDI_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Mohandas_Karamchand_Gandhi.png"
 				expire = "1.1.1"
@@ -2817,7 +2817,7 @@ country_event = {
 		has_war = no
 		has_country_flag = DEH_lucknow_agreed
 		has_country_leader = {
-			name = "Mohandas Karamchand Gandhi"
+			name = "Махатма Ганди"
 			ruling_only = yes
 		}
 		controls_all_owned_states = yes
@@ -2884,7 +2884,7 @@ country_event = {
 			}
 			INR = {
 				create_country_leader = {
-					name = "Subhas Chandra Bose"
+					name = "Субхас Чандра Бос"
 					desc = "POLITICS_CHANDRA_BOSE_DESC"
 					picture = "gfx/leaders/BHC/Portrait_BHC_Chandra_Bose.png"
 					expire = "1.1.1"
@@ -2970,7 +2970,7 @@ country_event = {
 		}
 		add_political_power = -300
 		create_country_leader = {
-			name = "Nirmal Kumar Bose"
+			name = "Нирмал Кумар Бозе"
 			desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 			expire = "1.1.1"
@@ -3024,7 +3024,7 @@ country_event = {
 				transfer_troops = yes
 			}
 			create_country_leader = {
-				name = "Nirmal Kumar Bose"
+				name = "Нирмал Кумар Бозе"
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 				expire = "1.1.1"
@@ -3045,7 +3045,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Subhas Chandra Bose"
+			name = "Субхас Чандра Бос"
 			desc = "POLITICS_CHANDRA_BOSE_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Chandra_Bose.png"
 			expire = "1.1.1"
@@ -3255,7 +3255,7 @@ country_event = {
 						}
 					}
 					create_country_leader = {
-						name = "Nirmal Kumar Bose"
+						name = "Нирмал Кумар Бозе"
 						desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 						picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 						expire = "1.1.1"
@@ -3272,7 +3272,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Subhas Chandra Bose"
+					name = "Субхас Чандра Бос"
 					desc = "POLITICS_CHANDRA_BOSE_DESC"
 					picture = "gfx/leaders/BHC/Portrait_BHC_Chandra_Bose.png"
 					expire = "1.1.1"
@@ -3358,7 +3358,7 @@ country_event = {
 				}
 				add_political_power = -200
 				create_country_leader = {
-					name = "Nirmal Kumar Bose"
+					name = "Нирмал Кумар Бозе"
 					desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 					picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 					expire = "1.1.1"
@@ -3517,7 +3517,7 @@ country_event = {
 			}
 			set_country_flag = Mohandas_Karamchand_Gandhi_dead
 			create_country_leader = {
-				name = "Nirmal Kumar Bose"
+				name = "Нирмал Кумар Бозе"
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 				expire = "1.1.1"
@@ -3563,7 +3563,7 @@ country_event = {
 			}
 			INR = {
 				create_country_leader = {
-					name = "Nirmal Kumar Bose"
+					name = "Нирмал Кумар Бозе"
 					desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 					picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 					expire = "1.1.1"
@@ -3634,7 +3634,7 @@ country_event = {
 			}
 			set_country_flag = Mohandas_Karamchand_Gandhi_dead
 			create_country_leader = {
-				name = "Nirmal Kumar Bose"
+				name = "Нирмал Кумар Бозе"
 				desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 				expire = "1.1.1"
@@ -3709,7 +3709,7 @@ country_event = {
 		}
 		add_political_power = -200
 		create_country_leader = {
-			name = "Nirmal Kumar Bose"
+			name = "Нирмал Кумар Бозе"
 			desc = "POLITICS_NIRMAL_KUMAR_BOSE_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Nirmal_Kumar_Bose.png"
 			expire = "1.1.1"
@@ -4980,7 +4980,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Shripad Amrit Dange"
+			name = "Шрипад Амрит Данге"
 			desc = "POLITICS_SHRIPAD_AMRIT_DANGE_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Shripad_Amrit_Dange.png"
 			expire = "1.1.1"
@@ -5082,7 +5082,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Jawaharlal Nehru"
+			name = "Джавахарлал Неру"
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 			expire = "1.1.1"
@@ -5276,7 +5276,7 @@ country_event = {
 						has_country_flag = BHC_owes_favor
 					}
 					AST = {
-						is_faction_leader = yes
+				is_faction_leader = yes
 						has_country_flag = BHC_owes_favor
 					}
 				}
@@ -6682,7 +6682,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Jawaharlal Nehru"
+			name = "Джавахарлал Неру"
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 			expire = "1.1.1"
@@ -6767,7 +6767,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Shripad Amrit Dange"
+			name = "Шрипад Амрит Данге"
 			desc = "POLITICS_SHRIPAD_AMRIT_DANGE_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Shripad_Amrit_Dange.png"
 			expire = "1.1.1"
@@ -6824,7 +6824,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Jawaharlal Nehru"
+			name = "Джавахарлал Неру"
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 			expire = "1.1.1"
@@ -6857,7 +6857,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Jawaharlal Nehru"
+			name = "Джавахарлал Неру"
 			desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 			picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 			expire = "1.1.1"

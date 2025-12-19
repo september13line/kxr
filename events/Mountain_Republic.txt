@@ -149,16 +149,16 @@ country_event = { #Socialists in the government
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_SHAMKHAL
-					}
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_IMAMATE
-					}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_SHAMKHAL
+				}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_IMAMATE
 				}
 			}
+		}
 		}
 		hidden_effect = {
 			country_event = {
@@ -176,8 +176,8 @@ country_event = { #Socialists in the government
 				has_game_rule = {
 					rule = MTR_path
 					option = MTR_PATH_OKSP
-				}
-			}
+		}
+		}
 		}
 		hidden_effect = {
 			country_event = {
@@ -204,16 +204,16 @@ country_event = { #Socialists in the government
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_SHAMKHAL
-					}
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_IMAMATE
-					}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_SHAMKHAL
+				}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_IMAMATE
 				}
 			}
+		}
 		}
 		hidden_effect = {
 			country_event = {
@@ -332,7 +332,7 @@ country_event = { #Majlis Quotas
 	
 
 	option = {
-		name = mtr.10.b	
+		name = mtr.10.b
 	}
 	option = {
 		name = mtr.10.a
@@ -391,7 +391,7 @@ country_event = { #Fight socialists
 
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+
 	option = {
 		name = mtr.16.a
 		ai_chance = {
@@ -1058,7 +1058,7 @@ country_event = { #SOV - request from MTR
 		}
 		else = {
 			add_to_faction = FROM
-		}		
+		}	
 	}
 }
 country_event = { #Refused
@@ -1165,7 +1165,7 @@ country_event = { #Oil Treaty
 
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+
 	option = {
 		name = mtr.101.a
 		ai_chance = {
@@ -1176,7 +1176,7 @@ country_event = { #Oil Treaty
 					rule = MTR_path
 					option = MTR_PATH_CHECH
 				}
-			}
+			}	
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = RUS_caucasus_crisis option = RUS_CAUCASUS_CRISIS_REICHSPAKT }
@@ -1200,19 +1200,19 @@ country_event = { #Oil Treaty
 						rule = MTR_path
 						option = MTR_PATH_SHAMKHAL
 					}
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_IMAMATE
-					}
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_CONF
-					}
-					has_game_rule = {
-						rule = MTR_path
-						option = MTR_PATH_OKSP
-					}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_IMAMATE
 				}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_CONF
+				}
+				has_game_rule = {
+					rule = MTR_path
+					option = MTR_PATH_OKSP
+				}
+			}
 			}
 			modifier = {
 				factor = 0.5
@@ -1228,7 +1228,7 @@ country_event = { #Oil Treaty
 		}
 		add_political_power = -50
 		effect_tooltip = {
-			FROM = {
+		FROM = {
 				swap_ideas = {
 					remove_idea = MTR_German_Oil_Treaty
 					add_idea = MTR_German_Oil_Treaty_1
@@ -1249,7 +1249,7 @@ country_event = { #Oil Treaty
 			ROOT = { 
 				add_ideas = GER_Mountain_Oil_Treaty 
 				give_guarantee = ROOT
-			}
+			}	
 		}
 		FROM = {
 			country_event = {
@@ -1291,7 +1291,7 @@ country_event = { #Oil
 				level = 1
 				instant_build = yes
 			}
-		}		
+		}
 		MTR_increase_all_sog_popularity = yes
 	}
 }
@@ -2057,16 +2057,16 @@ country_event = { #Civil war
 
 	option = {
 		name = mtrcw.1.a
-		random_unit_leader = {
-			limit = { has_id = 49998 }
+			random_unit_leader = {
+				limit = { has_id = 49998 }
 			set_unit_leader_flag = MTR_original_leader
-			set_nationality = DAG
-		}
-		random_unit_leader = {
-			limit = { has_id = 49999 }
+				set_nationality = DAG
+			}
+			random_unit_leader = {
+				limit = { has_id = 49999 }
 			set_unit_leader_flag = MTR_original_leader
-			set_nationality = DAG
-		}
+				set_nationality = DAG
+			}
 		232 = {
 			set_demilitarized_zone = no
 			remove_core_of = ROOT
@@ -2075,16 +2075,16 @@ country_event = { #Civil war
 			enable_state_integration_50_compliance = yes
 			transfer_state_to = DAG
 		}
-		transfer_units_fraction = {
-			target = DAG
-			size = 0.4
-			navy_ratio = 0
-			keep_unit_leaders_trigger = { always = yes }
-		}
-		declare_war_on = {
-			target = DAG
+			transfer_units_fraction = {
+				target = DAG
+				size = 0.4
+				navy_ratio = 0
+				keep_unit_leaders_trigger = { always = yes }
+			}
+			declare_war_on = {
+				target = DAG
 			type = civil_war
-		}
+			}
 		hidden_effect = {
 			DAG = {
 				transfer_technology_without_doctrines = yes
@@ -2185,7 +2185,7 @@ country_event = { #New party created
 		remove_ideas_with_trait = economy_minister
 		add_ideas = MTR_Ibragim_I_Gaidarov_eco_ade
 		create_country_leader = {
-			name = "Muhamad Said Shamil"
+			name = "Мухаммад Саид Шамиль"
 			picture = "gfx/leaders/MTR/Portrait_MTR_Muhammad_Said_Shamil.png"
 			expire = "1.1.1"
 			ideology = soclib_islamism_subtype
@@ -2216,7 +2216,7 @@ country_event = { #Campaign starts
 	option = {
 		name = mtrel.3.c
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.10 }
-	}
+		}
 	
 }
 country_event = { #Campaign
@@ -2279,8 +2279,8 @@ country_event = { #Campaign
 					has_game_rule = {
 						rule = MTR_path
 						option = MTR_PATH_OKSP
-					}
-				}
+	}
+}
 			}
 		}
 		if = {
@@ -2297,8 +2297,8 @@ country_event = { #Campaign
 				MTR_Gaidar_N_Bammatov_for_sco
 				MTR_Ibragim_I_Gaidarov_eco_ade
 				MTR_Rashid_Z_Kaplanov_sec_ade
-			}
-		}
+	}
+}	
 		set_country_flag = MTR_Soccons_win
 	}
 }

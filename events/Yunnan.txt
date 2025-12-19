@@ -153,7 +153,7 @@ country_event = {# Long Yun Takes Over!
 			}
 		}
 		create_country_leader = {
-			name = "Long Yun"
+			name = "Лун Юнь"
 			desc = "POLITICS_YUNNAN_LONG_YUN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_leader_Long_Yun.png"
 			expire = "1.1.1"
@@ -886,7 +886,7 @@ country_event = {#  Second Hu Ruoyu Chain Pt.1
 	}
 }
 
-country_event = {# Second Hu Ruoyu Chain Pt.2
+country_event = {# Second Ху Руоюй Chain Pt.2
 	id = yun.12
 	immediate = { log = "[GetDateText]: [Root.GetName]: event yun.12" }
 	title = yun.12.t
@@ -1711,7 +1711,7 @@ country_event = {# Second Zhu Peide Chain Pt.2
 					}
 				}
 				33 = {
-					country_event = { #Long Yun
+					country_event = { #Лун Юнь
 						id = yun.35
 						days = 7
 					}
@@ -1762,19 +1762,19 @@ country_event = {# Second Zhu Peide Chain Pt.2
 				else = {
 					random_list = {
 						33 = {
-							country_event = { #Hu Ruoyu
+							country_event = { #Ху Руоюй
 								id = yun.33
 								days = 7
 							}
 						}
 						33 = {
-							country_event = { #Lu Han
+							country_event = { #Лу Хань
 								id = yun.32
 								days = 7
 							}
 						}
 						33 = {
-							country_event = { #Long Yun
+							country_event = { #Лун Юнь
 								id = yun.35
 								days = 7
 							}
@@ -1791,7 +1791,7 @@ country_event = {# Second Zhu Peide Chain Pt.2
 	}
 }
 
-country_event = {# Third Zhu Peide Chain Pt.1
+country_event = {# Third Чжу Пэйдэ Chain Pt.1
 	id = yun.25
 	immediate = { log = "[GetDateText]: [Root.GetName]: event yun.25" }
 	title = yun.25.t
@@ -2170,7 +2170,7 @@ country_event = {# Lu Han Takes Over!
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Lu Han"
+			name = "Лу Хань"
 			desc = "POLITICS_YUNNAN_LU_HAN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Lu_Han.png"
 			expire = "1.1.1"
@@ -2264,7 +2264,7 @@ country_event = {# Hu Ruoyu takes over!
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Hu Ruoyu"
+			name = "Ху Руоюй"
 			desc = "POLITICS_YUNNAN_HU_RUOYU_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Hu_Ruoyu.png"
 			expire = "1.1.1"
@@ -2423,7 +2423,7 @@ country_event = {# Zhu Peide takes over
 			}
 			
 			create_country_leader = {
-				name = "Zhu Peide"
+				name = "Чжу Пэйдэ"
 				desc = "POLITICS_YUNNAN_ZHU_PEIDE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Zhu_Peide.png"
 				expire = "1.1.1"
@@ -2451,7 +2451,7 @@ country_event = {# Long Yun Retakes Kunming
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Long Yun"
+			name = "Лун Юнь"
 			desc = "POLITICS_YUNNAN_LONG_YUN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_leader_Long_Yun.png"
 			expire = "1.1.1"
@@ -2698,7 +2698,7 @@ country_event = {#Long Yun takes over with no issues like a chad
 			set_country_flag = Tang_Shaoxiang_dead
 		}
 		create_country_leader = {
-			name = "Long Yun"
+			name = "Лун Юнь"
 			desc = "POLITICS_YUNNAN_LONG_YUN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_leader_Long_Yun.png"
 			expire = "1.1.1"
@@ -3941,7 +3941,7 @@ country_event = {#Long Yun takes out the L-KMT
 				YUN_Kuomintang2
 				YUN_Kuomintang3
 			}
-			delete_unit_template_and_units = { division_template = "Loyalists of Zhu De" }
+			delete_unit_template_and_units = { division_template = "Loyalists of Чжу Дэ" }
 			load_oob = YUN_LONG_YUN
 			remove_all_ministers = yes
 			every_unit_leader = {
@@ -3973,7 +3973,7 @@ country_event = {#Long Yun takes out the L-KMT
 			name = YUN_Long_Yun_takes_over_party
 		}
 		create_country_leader = {
-			name = "Long Yun"
+			name = "Лун Юнь"
 			desc = "POLITICS_YUNNAN_LONG_YUN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_leader_Long_Yun.png"
 			expire = "1.1.1"
@@ -4146,7 +4146,7 @@ country_event = {#Zhu De's Takeover: The Zhu Peide Proposal
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Zhu Peide"
+				name = "Чжу Пэйдэ"
 				desc = "POLITICS_YUNNAN_ZHU_PEIDE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Zhu_Peide.png"
 				expire = "1.1.1"
@@ -4203,7 +4203,7 @@ country_event = {#Zhu De's stays in power: Zhang Bojun or Zhu De
 		set_country_flag = Zhu_De_READY
 		add_stability = 0.10
 		create_country_leader = {
-			name = "Zhang Bojun"
+			name = "Чжан Боцзюнь"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Zhang_Bojun.png"
 			expire = "1.1.1"
 			ideology = socdem_tridemism_subtype
@@ -4288,7 +4288,7 @@ country_event = {#Zhu Peide Dies
 	option = {#Well that's uh....bad...
 		name = yun.94.a
 		create_country_leader = {
-			name = "Bai Chongxi"
+			name = "Бай Чунси"
 			desc = "POLITICS_YUNNAN_Bai_Chongxi_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Bai_Chongxi.png"
 			expire = "1.1.1"
@@ -4539,7 +4539,7 @@ country_event = {#Sichuan wants to surrender
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Tang Jiyao"
+						name = "Тан Цзияо"
 						ruling_only = yes
 					}
 					NOT = {
@@ -6031,7 +6031,7 @@ country_event = {#Fund another movie?
 
 	trigger = {
 		has_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			ruling_only = yes
 		}
 	}
@@ -6059,7 +6059,7 @@ country_event = {#Movie releases
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			ruling_only = yes
 		}
 	}
@@ -6081,7 +6081,7 @@ country_event = {#Prostitute Scandal
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			ruling_only = yes
 		}
 	}
@@ -7358,13 +7358,13 @@ country_event = {#The Future
 				OR = {
 					GXC = {
 						has_country_leader = {
-							name = "Chen Jiongming"
+							name = "Чэнь Цзюнмин"
 							ruling_only = yes
 						}
 					}
 					SZC = {
 						has_country_leader = {
-							name = "Chen Jiongming"
+							name = "Чэнь Цзюнмин"
 							ruling_only = yes
 						}
 					}
@@ -7374,7 +7374,7 @@ country_event = {#The Future
 		}
 		set_country_flag = YUN_federalists_chosen
 		create_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			desc = "POLITICS_YUNNAN_TANG_JIYAO_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Jiyao.png"
 			expire = "1.1.1"
@@ -8527,7 +8527,7 @@ country_event = {#Tang larp?
 			remove_ideas = YUN_Tangs_rule_isolation
 			remove_ideas = YUN_democratic_fortress_Tang
 			create_country_leader = {
-				name = "Tang Jiyao"
+				name = "Тан Цзияо"
 				desc = "POLITICS_YUNNAN_TANG_KING_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_King.png"
 				expire = "1.1.1"
@@ -8535,7 +8535,7 @@ country_event = {#Tang larp?
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Tang Jiyao"
+				name = "Тан Цзияо"
 				desc = "POLITICS_YUNNAN_TANG_KING_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_King.png"
 				expire = "1.1.1"
@@ -8543,7 +8543,7 @@ country_event = {#Tang larp?
 				ideology = oligarchy_subtype
 			}
 			if = {
-				limit = { has_country_leader = { name = "Tang Jiyao" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Тан Цзияо" ruling_only = yes } }
 				set_country_leader_portrait = { portrait = "gfx/leaders/YUN/Portrait_Yunnan_Tang_King.png" }
 			}
 			every_state = {
@@ -8581,7 +8581,7 @@ country_event = {#Empire Time
 		set_global_flag = china_united
 		remove_ideas = YUN_reclaiming_birthright
 		create_country_leader = {
-			name = "Gaozu of Tang"
+			name = "Гао-цзу Тан"
 			desc = "POLITICS_YUNNAN_TANG_EMPEROR_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Emperor.png"
 			expire = "1.1.1"
@@ -8594,7 +8594,7 @@ country_event = {#Empire Time
 				days = 45
 			}
 			create_country_leader = {
-				name = "Gaozu of Tang"
+				name = "Гао-цзу Тан"
 				desc = "POLITICS_YUNNAN_TANG_EMPEROR_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Emperor.png"
 				expire = "1.1.1"
@@ -8858,7 +8858,7 @@ country_event = {#Empire Time
 		add_political_power = 25
 		set_country_flag = YUN_tangs_cousin_is_prince
 		create_field_marshal = { #Auto-Generated
-			name = "Tang Jiyu "
+			name = "Тан Цзияо "
 			portrait_path = "gfx/leaders/YUN/Portrait_YUN_Tang_Jiyu.png"
 			traits = {
 				politically_connected
@@ -8947,7 +8947,7 @@ country_event = {#Empire Time
 		set_country_flag = YUN_tang_larp_ded
 		add_ideas = YUN_post_tang_chaos
 		create_country_leader = {
-				name = "Grand Council of the Great Secretariat of Tang"
+				name = "Великий совет Великого секретариата Тан"
 				desc = "POLITICS_YUNNAN_REGENCY_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Regency_Council.png"
 				expire = "1.1.1"
@@ -8955,7 +8955,7 @@ country_event = {#Empire Time
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Grand Council of the Great Secretariat of Tang"
+				name = "Великий совет Великого секретариата Тан"
 				desc = "POLITICS_YUNNAN_REGENCY_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Regency_Council.png"
 				expire = "1.1.1"
@@ -9045,7 +9045,7 @@ country_event = {#Empire Time
 		add_stability = 0.10
 		add_ideas = YUN_lilly_of_shangai
 		create_field_marshal = { #Auto-Generated
-			name = "Wu Zetian "
+			name = "Тянь Хоу "
 			portrait_path = "gfx/leaders/YUN/Portrait_Yunnan_Li_Lili.png"
 			female = yes
 			traits = {
@@ -9067,7 +9067,7 @@ country_event = {#Empire Time
 		add_stability = 0.10
 		add_ideas = YUN_rose_of_steeps
 		create_field_marshal = { #Auto-Generated
-			name = "Khutulun "
+			name = "Хутулун "
 			portrait_path = "gfx/leaders/MON/Portrait_MON_Genepil.png"
 			female = yes
 			traits = {
@@ -9101,7 +9101,7 @@ country_event = {#Empire Time
 					NOT = { has_country_flag = MON_not_firends_with_tang_gang }
 				}
 			}
-		create_faction_from_template = { 
+			create_faction_from_template = { 
 			template = faction_template_generic
 			name = faction_heavenly_pact
 			icon = GFX_faction_tang
@@ -9117,7 +9117,7 @@ country_event = {#Empire Time
 		add_stability = 0.10
 		add_ideas = YUN_poet_of_shangai
 		create_field_marshal = { #Auto-Generated
-			name = "Xue Tao "
+			name = "Сюэ Тао "
 			portrait_path = "gfx/leaders/YUN/Portrait_Yunnan_Eileen.png"
 			female = yes
 			traits = {
@@ -9150,7 +9150,7 @@ country_event = {#Empire Time
 		add_ideas = YUN_lilly_of_shangai2
 		hidden_effect = {
 			create_country_leader = {
-				name = "Wu Zetian of Tang"
+				name = "У Цзэтянь Тан"
 				desc = "POLITICS_YUNNAN_ACTRESS_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Lili.png"
 				expire = "1.1.1"
@@ -9159,7 +9159,7 @@ country_event = {#Empire Time
 				female = yes
 			}
 			create_country_leader = {
-				name = "Wu Zetian of Tang"
+				name = "У Цзэтянь Тан"
 				desc = "POLITICS_YUNNAN_ACTRESS_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Lili.png"
 				expire = "1.1.1"
@@ -9177,7 +9177,7 @@ country_event = {#Empire Time
 		add_ideas = YUN_rose_of_steeps2
 		hidden_effect = {
 			create_country_leader = {
-				name = "Khutulun of Tang"
+				name = "Хутулун Тан"
 				desc = "POLITICS_YUNNAN_MONGOL_WIFU_DESC"
 				picture = "gfx/leaders/MON/Portrait_MON_Genepil.png"
 				expire = "1.1.1"
@@ -9186,7 +9186,7 @@ country_event = {#Empire Time
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Khutulun of Tang"
+				name = "Хутулун Тан"
 				desc = "POLITICS_YUNNAN_MONGOL_WIFU_DESC"
 				picture = "gfx/leaders/MON/Portrait_MON_Genepil.png"
 				expire = "1.1.1"
@@ -9210,7 +9210,7 @@ country_event = {#Empire Time
 		name = yun_tanglarp.24.c
 		hidden_effect = {
 			create_country_leader = {
-				name = "Li of Tang"
+				name = "Ли Тан"
 				desc = "POLITICS_YUNNAN_LI_TANGLARP_DESC"
 				picture = "gfx/leaders/YUN/Portrait_YUN_Tang_Jiyu.png"
 				expire = "1.1.1"
@@ -9218,7 +9218,7 @@ country_event = {#Empire Time
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Li of Tang"
+				name = "Ли Тан"
 				desc = "POLITICS_YUNNAN_LI_TANGLARP_DESC"
 				picture = "gfx/leaders/YUN/Portrait_YUN_Tang_Jiyu.png"
 				expire = "1.1.1"
@@ -9242,7 +9242,7 @@ country_event = {#Empire Time
 		add_ideas = YUN_poet_of_shangai2
 		hidden_effect = {
 			create_country_leader = {
-				name = "Xue Tao of Tang"
+				name = "Сюэ Тао Тан"
 				desc = "POLITICS_YUNNAN_POET_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Eileen.png"
 				expire = "1.1.1"
@@ -9251,7 +9251,7 @@ country_event = {#Empire Time
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Xue Tao of Tang"
+				name = "Сюэ Тао Тан"
 				desc = "POLITICS_YUNNAN_POET_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Eileen.png"
 				expire = "1.1.1"
@@ -9265,7 +9265,7 @@ country_event = {#Empire Time
 		name = yun_tanglarp.24.f
 		hidden_effect = {
 			create_country_leader = {
-				name = "Taizong of Tang"
+				name = "Тай-цзун Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_SON_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Shaoxiang.png"
 				expire = "1.1.1"
@@ -9277,7 +9277,7 @@ country_event = {#Empire Time
 				days = 50
 			}
 			create_country_leader = {
-				name = "Taizong of Tang"
+				name = "Тай-цзун Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_SON_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Shaoxiang.png"
 				expire = "1.1.1"
@@ -9290,7 +9290,7 @@ country_event = {#Empire Time
 		name = yun_tanglarp.24.g
 		hidden_effect = {
 			create_country_leader = {
-				name = "Wenxian of Tang"
+				name = "Вэньсянь Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_NEICE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Shi_Lixia.png"
 				expire = "1.1.1"
@@ -9303,7 +9303,7 @@ country_event = {#Empire Time
 				days = 50
 			}
 			create_country_leader = {
-				name = "Wenxian of Tang"
+				name = "Вэньсянь Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_NEICE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Shi_Lixia.png"
 				expire = "1.1.1"
@@ -9392,12 +9392,12 @@ country_event = {#Empire Time
 
 	option = { #nice
 		name = yun_tanglarp.28.a
-		custom_effect_tooltip = "This will lead the nation to embrace Tribal Paternalism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к племенному патернализму!"
 		remove_ideas = YUN_silkroad_but_opium
 		set_country_flag = YUN_banned_opium
 		hidden_effect = {
 			create_country_leader = {
-				name = "Khutulun of Tang"
+				name = "Хутулун Тан"
 				desc = "POLITICS_YUNNAN_MONGOL_WIFU_DESC"
 				picture = "gfx/leaders/MON/Portrait_MON_Genepil.png"
 				expire = "1.1.1"
@@ -9418,12 +9418,12 @@ country_event = {#Empire Time
 	}
 	option = { #nice
 		name = yun_tanglarp.28.b
-		custom_effect_tooltip = "This will lead the nation to embrace Elective Monarchy!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к избирательной монархии!"
 		remove_ideas = YUN_silkroad_but_opium
 		set_country_flag = YUN_banned_opium
 		hidden_effect = {
 			create_country_leader = {
-				name = "Khutulun of Tang"
+				name = "Хутулун Тан"
 				desc = "POLITICS_YUNNAN_MONGOL_WIFU_DESC"
 				picture = "gfx/leaders/MON/Portrait_MON_Genepil.png"
 				expire = "1.1.1"
@@ -9474,13 +9474,13 @@ country_event = {#Empire Time
 
 	option = { #nice
 		name = yun_tanglarp.30.a
-		custom_effect_tooltip = "This will lead the nation to embrace Warlordism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к варлордизму!"
 		add_political_power = 50
 		add_command_power = 20
 		army_experience = 15
 		hidden_effect = {
 				create_country_leader = {
-				name = "Li of Tang"
+				name = "Ли Тан"
 				desc = "POLITICS_YUNNAN_LI_TANGLARP_DESC"
 				picture = "gfx/leaders/YUN/Portrait_YUN_Tang_Jiyu.png"
 				expire = "1.1.1"
@@ -9495,13 +9495,13 @@ country_event = {#Empire Time
 	}
 	option = { #nice
 		name = yun_tanglarp.30.b
-		custom_effect_tooltip = "This will lead the nation to embrace Oligarchy!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к олигархии!"
 		add_political_power = 50
 		add_command_power = 20
 		army_experience = 15
 		hidden_effect = {
 				create_country_leader = {
-				name = "Li of Tang"
+				name = "Ли Тан"
 				desc = "POLITICS_YUNNAN_LI_TANGLARP_DESC"
 				picture = "gfx/leaders/YUN/Portrait_YUN_Tang_Jiyu.png"
 				expire = "1.1.1"
@@ -9528,7 +9528,7 @@ country_event = {#Empire Time
 	is_triggered_only = yes
 	option = { #nice
 		name = yun_tanglarp.34.a
-		custom_effect_tooltip = "This will lead the nation to embrace Kleptocracy!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к клептократии!"
 		add_political_power = 75
 		set_politics = {
 			ruling_party = national_populist
@@ -9548,7 +9548,7 @@ country_event = {#Empire Time
 				name = YUN_house_of_tang_party
 			}
 			create_country_leader = {
-				name = "Wu Zetian of Tang"
+				name = "У Цзэтянь Тан"
 				desc = "POLITICS_YUNNAN_ACTRESS_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Lili.png"
 				expire = "1.1.1"
@@ -9559,7 +9559,7 @@ country_event = {#Empire Time
 	}
 	option = { #nice
 		name = yun_tanglarp.34.b
-		custom_effect_tooltip = "This will lead the nation to embrace Absolute Monarchy!"
+		custom_effect_tooltip = "Это приведёт нацию к принятию абсолютной монархии!"
 		add_political_power = 75
 		set_politics = {
 			ruling_party = paternal_autocrat
@@ -9579,7 +9579,7 @@ country_event = {#Empire Time
 				name = YUN_house_of_tang_party
 			}
 			create_country_leader = {
-				name = "Wu Zetian of Tang"
+				name = "У Цзэтянь Тан"
 				desc = "POLITICS_YUNNAN_ACTRESS_WIFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Lili.png"
 				expire = "1.1.1"
@@ -9925,7 +9925,7 @@ country_event = {#Empire Time
 
 	option = { #nice
 		name = yun_tanglarp.47.a
-		custom_effect_tooltip = "This will lead the nation to embrace Moderate Authoritarianism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к умеренному авторитаризму!"
 		set_party_name = {
 			ideology = social_conservative
 			long_name = YUN_house_of_tang_poet_long
@@ -9938,7 +9938,7 @@ country_event = {#Empire Time
 		add_authdem_to_coalition = yes
 		add_pataut_to_coalition = yes
 		create_country_leader = {
-			name = "Xue Tao of Tang"
+			name = "Сюэ Тао Тан"
 			desc = "POLITICS_YUNNAN_POET_WIFU_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Eileen.png"
 			expire = "1.1.1"
@@ -9955,7 +9955,7 @@ country_event = {#Empire Time
 	}
 	option = { #nice
 		name = yun_tanglarp.47.b
-		custom_effect_tooltip = "This will lead the nation to embrace Authoritarian Liberalism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к авторитарному либерализму!"
 		set_party_name = {
 			ideology = authoritarian_democrat
 			long_name = YUN_house_of_tang_poet_long
@@ -9967,7 +9967,7 @@ country_event = {#Empire Time
 		}
 		add_pataut_to_coalition = yes
 		create_country_leader = {
-			name = "Xue Tao of Tang"
+			name = "Сюэ Тао Тан"
 			desc = "POLITICS_YUNNAN_POET_WIFU_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Eileen.png"
 			expire = "1.1.1"
@@ -10001,7 +10001,7 @@ country_event = {#Empire Time
 		name = yun_tanglarp.48.b
 		set_country_leader_name = {
 			ideology = authoritarian_democrat
-			name = "Wu Zhao of Zhou"
+			name = "У Чжао Чжоу"
 		}
 		set_party_name = {
 			ideology = authoritarian_democrat
@@ -10010,7 +10010,7 @@ country_event = {#Empire Time
 		}
 		set_country_leader_name = {
 			ideology = paternal_autocrat
-			name = "Wu Zhao of Zhou"
+			name = "У Чжао Чжоу"
 		}
 		set_party_name = {
 			ideology = paternal_autocrat
@@ -10021,7 +10021,7 @@ country_event = {#Empire Time
 			limit = { has_government = national_populist }
 			set_country_leader_name = {
 				ideology = national_populist
-				name = "Wu Zhao of Zhou"
+				name = "У Чжао Чжоу"
 			}
 			set_party_name = {
 				ideology = national_populist
@@ -10062,7 +10062,7 @@ country_event = {#actual son flavor
 	}
 	option = { #nice
 		name = yun_tanglarp.50.b
-				custom_effect_tooltip = "This will lead the nation to embrace Humanistic Capitalism!"
+				custom_effect_tooltip = "Это приведёт нашу нацию к гуманистическому капитализму!"
 
 		set_party_name = {
 			ideology = market_liberal
@@ -10078,7 +10078,7 @@ country_event = {#actual son flavor
 		increase_ruling_party_popularity_by_20 = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Taizong of Tang"
+				name = "Тай-цзун Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_SON_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Shaoxiang.png"
 				expire = "1.1.1"
@@ -10089,7 +10089,7 @@ country_event = {#actual son flavor
 	}
 	option = { #nice
 		name = yun_tanglarp.50.c
-		custom_effect_tooltip = "This will lead the nation to embrace Conservative Populism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к консервативному популизму!"
 		set_party_name = {
 			ideology = social_conservative
 			long_name = YUN_house_of_tang_dem_long
@@ -10104,7 +10104,7 @@ country_event = {#actual son flavor
 		increase_ruling_party_popularity_by_20 = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Taizong of Tang"
+				name = "Тай-цзун Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_SON_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Shaoxiang.png"
 				expire = "1.1.1"
@@ -10126,7 +10126,7 @@ country_event = {#neice flavor
 
 	option = { #nice
 		name = yun_tanglarp.51.a
-		custom_effect_tooltip = "This will lead the nation to embrace Radical Liberalism!"
+		custom_effect_tooltip = "Это приведёт нашу нацию к радикальному либерализму!"
 		set_party_name = {
 			ideology = social_liberal
 			long_name = YUN_house_of_tang_dem_long
@@ -10141,7 +10141,7 @@ country_event = {#neice flavor
 		increase_ruling_party_popularity_by_20 = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Wenxian of Tang"
+				name = "Вэньсянь Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_NEICE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Shi_Lixia.png"
 				expire = "1.1.1"
@@ -10153,7 +10153,7 @@ country_event = {#neice flavor
 	}
 	option = { #nice
 		name = yun_tanglarp.51.b
-			custom_effect_tooltip = "This will lead the nation to embrace Radical Progressivism!"
+			custom_effect_tooltip = "Это приведёт нашу нацию к радикальному прогрессизму!"
 		set_party_name = {
 			ideology = social_democrat
 			long_name = YUN_house_of_tang_dem_long
@@ -10168,7 +10168,7 @@ country_event = {#neice flavor
 		increase_ruling_party_popularity_by_20 = yes
 		hidden_effect = {
 			create_country_leader = {
-				name = "Wenxian of Tang"
+				name = "Вэньсянь Тан"
 				desc = "POLITICS_YUNNAN_ACTUAL_NEICE_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Shi_Lixia.png"
 				expire = "1.1.1"
@@ -10268,7 +10268,7 @@ country_event = {#yuan
 		set_capital = { state = 330 }
 		set_country_leader_name = {
 			ideology = paternal_autocrat
-			name = "Khutulun Khatun of Yuan"
+			name = "Хутулун Хатун Юань"
 		}
 		330 = { remove_claim_by_ROOT_and_add_core_of_ROOT = yes }
 		1084 = { remove_claim_by_ROOT_and_add_core_of_ROOT = yes }
@@ -10421,7 +10421,7 @@ country_event = {#yuan
 				
 				### Leader
 				create_country_leader = {
-					name = "Bogd Khan"
+					name = "Богдо-гэгэн"
 					desc = "POLITICS_BOGD_KHAN_DESC"
 					picture = "gfx/leaders/MON/Portrait_MON_Bogd_Khan.png"
 					expire = "1.1.1"
@@ -10504,9 +10504,9 @@ country_event = {#big cope map
 	tag = YUN
 	has_country_flag = has_united_china
 	OR = {
-		has_country_leader = { name = "Gaozu of Tang" ruling_only = yes }
-		has_country_leader = { name = "Taizong of Tang" ruling_only = yes }
-		has_country_leader = { name = "Li of Tang" ruling_only = yes }
+		has_country_leader = { name = "Гао-цзу Тан" ruling_only = yes }
+		has_country_leader = { name = "Тай-цзун Тан" ruling_only = yes }
+		has_country_leader = { name = "Ли Тан" ruling_only = yes }
 	}
 	}
 

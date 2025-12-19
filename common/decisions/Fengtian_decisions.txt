@@ -97,7 +97,7 @@ political_actions = {
 			FROM = { clr_country_flag = FNG_anguojun_target }
 		}
 	}
-
+	
 	FNG_establish_western_protectorate = {
 		icon = generic_flags
 		allowed = { tag = FNG }
@@ -256,7 +256,7 @@ political_actions = {
 			}
 		}
 	}
-
+	
 	FNG_establish_northern_protectorate = {
 		icon = generic_flags
 		allowed = { tag = FNG }
@@ -351,7 +351,7 @@ political_actions = {
 						}
 					}
 					set_cosmetic_tag = FNG_NORTHPRTC
-
+					
 					#Units
 					division_template = {
 						name = "Shibing"
@@ -435,7 +435,7 @@ political_actions = {
 			}
 		}
 	}
-
+	
 	FNG_establish_southern_protectorate = {
 		icon = generic_flags
 		allowed = { tag = FNG }
@@ -535,7 +535,7 @@ political_actions = {
 						}
 					}
 					set_cosmetic_tag = FNG_SOUTHPRTC
-
+					
 					#Units
 					division_template = {
 						name = "Shibing"
@@ -552,7 +552,7 @@ political_actions = {
 						}
 						priority = 1
 					}
-
+					
 					every_state = {
 						limit = {
 							OR = {
@@ -2726,7 +2726,7 @@ FNG_foreign_policy = { #The Road to Reclamation
 		available = {
 			has_completed_focus = FNG_Open_the_Propaganda_Front
 			QIE = {
-				has_country_leader = { name = "Puyi" ruling_only = yes }
+				has_country_leader = { name = "Пу И" ruling_only = yes }
 			}
 		}
 
@@ -3434,7 +3434,7 @@ FNG_foreign_policy = { #The Road to Reclamation
 
 	FNG_Annex_Shandong_Anqing_Puppet = {
 		icon = GFX_decision_generic_prepare_civil_war
-
+		
 		visible = {
 			has_war_with = 608.owner
 			FROM = { has_country_flag = SQI_projapan_anqing_puppet }
@@ -3479,7 +3479,7 @@ FNG_foreign_policy = { #The Road to Reclamation
 			}
 		}
 	}
-
+	
 	FNG_discredit_KMT = {
 		icon = generic_scorched_earth
 		allowed = { original_tag = FNG }
@@ -3536,7 +3536,7 @@ FNG_foreign_policy = { #The Road to Reclamation
 		}
 		remove_effect = { clr_country_flag = FNG_discrediting_republicanism }
 	}
-
+	
 	FNG_discredit_Feds = {
 		icon = generic_scorched_earth
 		allowed = { original_tag = FNG }

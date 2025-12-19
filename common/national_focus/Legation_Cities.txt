@@ -151,10 +151,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -188,8 +188,8 @@ focus_tree = {
 					currency_reserves_critical = yes
 				}
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
+				has_game_rule = {
+					rule = LEC_path
 						option = LEC_USA
 					}
 					has_game_rule = {
@@ -249,10 +249,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -358,10 +358,10 @@ focus_tree = {
 			modifier = {
 				factor = 100
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -458,10 +458,10 @@ focus_tree = {
 				modifier = {
 					factor = 100
 					OR = {
-						has_game_rule = {
-							rule = LEC_path
-							option = LEC_COLLAPSE
-						}
+					has_game_rule = {
+						rule = LEC_path
+						option = LEC_COLLAPSE
+					}
 						has_game_rule = {
 							rule = LEC_path
 							option = LEC_TRIADS
@@ -606,7 +606,7 @@ focus_tree = {
 		y = 2
 		bypass = {
 			OR = { 
-				has_country_flag = LEC_Triad_Power 
+			has_country_flag = LEC_Triad_Power
 				has_country_flag = LEC_Shuntian_Power
 			} 
 		}
@@ -659,10 +659,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -899,7 +899,7 @@ focus_tree = {
 				random_owned_state = {
 					limit = {
 						free_building_slots = {
-							building = infrastructure
+								building = infrastructure
 							size < 5
 							include_locked = no
 						}
@@ -1020,7 +1020,7 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				has_country_flag = LEC_Triad_Power 
+			has_country_flag = LEC_Triad_Power
 				has_country_flag = LEC_Shuntian_Power
 			}
 		}
@@ -1054,10 +1054,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -1228,10 +1228,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -1965,12 +1965,12 @@ focus_tree = {
 		prerequisite = { focus = LEC_improving_port_facilities }
 		bypass = {
 			OR = {
-				NOT = {
-					OR = {
-					 has_idea = LEC_black_monday3
-					 has_idea = LEC_black_monday2
-					}
-			    }
+			NOT = {
+			   OR = {
+				has_idea = LEC_black_monday3
+				has_idea = LEC_black_monday2
+			   }
+			}
 				has_country_flag = LEC_Triad_Power 
 				has_country_flag = LEC_Shuntian_Power
 			}
@@ -2014,10 +2014,10 @@ focus_tree = {
 				modifier = {
 					factor = 100
 					OR = {
-						has_game_rule = {
-							rule = LEC_path
-							option = LEC_COLLAPSE
-						}
+					has_game_rule = {
+						rule = LEC_path
+						option = LEC_COLLAPSE
+					}
 						has_game_rule = {
 							rule = LEC_path
 							option = LEC_TRIADS
@@ -2434,10 +2434,10 @@ focus_tree = {
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_game_rule = {
-						rule = LEC_path
-						option = LEC_COLLAPSE
-					}
+				has_game_rule = {
+					rule = LEC_path
+					option = LEC_COLLAPSE
+				}
 					has_game_rule = {
 						rule = LEC_path
 						option = LEC_TRIADS
@@ -3291,7 +3291,7 @@ focus_tree = {
 				has_government = social_liberal
 				has_government = authoritarian_democrat
 				custom_trigger_tooltip = {
-					tooltip = "We have been reduced to our holdings in Shanghai"
+					tooltip = "Мы сокращаем наши запасы в Шанхае"
 					has_cosmetic_tag = LEC_japanese_shanghai_tag
 				}
 			}
@@ -3916,7 +3916,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Leaderless Mandate"
+				name = "Мандат без лидера"
 			}
 			has_country_flag = shanghai_chaos
 		}
@@ -3983,7 +3983,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "United Dragon Head Council"
+				name = "Объединённый совет глав Драконов"
 		}
 		hidden_trigger = {
 		NOT = {
@@ -4972,7 +4972,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Jiang Qing"
+				name = "Цзян Цин"
 			}
 		}
 		prerequisite = { focus = LEC_pearls_east_dragons_claw }
@@ -5049,7 +5049,7 @@ focus_tree = {
 		NOT = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 				}
 			}
 		}
@@ -5120,7 +5120,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Zhang Xiaolin"
+				name = "Чжан Сяолинь"
 			}
 		}
 		prerequisite = { focus = LEC_pearls_east_dragons_claw }

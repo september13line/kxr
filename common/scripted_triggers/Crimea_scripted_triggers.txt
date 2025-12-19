@@ -27,15 +27,15 @@ CRM_german_colonial_administration_in_power = {
 		tooltip = CRM_german_colonial_administration_in_power
 		OR = {
 			has_country_leader = {
-				name = "Heinrich XXXIII Reuss of Köstritz"
+				name = "Генрих XXXIII Ройс"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Heinrich"
+				name = "Генрих"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Woldemar Falz-Fein"
+				name = "Вольдемар Фальц-Фейн"
 				ruling_only = yes
 			}
 		}
@@ -43,7 +43,7 @@ CRM_german_colonial_administration_in_power = {
 }
 CRM_crimean_khanate = {
 	has_country_leader = {
-		name = "Sultan Kadyr I"
+		name = "Султан Кадыр I"
 		ruling_only = yes
 	}
 }
@@ -54,7 +54,7 @@ CRM_milliy_firqa = {
 			AND = {
 				has_government = radical_socialist
 				has_country_leader = {
-					name = "Amet Ozenbashly"
+					name = "Амет Озенбашлы"
 					ruling_only = yes
 				}
 			}
@@ -63,7 +63,7 @@ CRM_milliy_firqa = {
 				has_government = social_liberal
 				NOT = {
 					has_country_leader = {
-						name = "Heinrich XXXIII Reuss of Köstritz"
+						name = "Генрих XXXIII Ройс"
 						ruling_only = yes
 					}
 				}
@@ -71,7 +71,7 @@ CRM_milliy_firqa = {
 			AND = {
 				has_government = authoritarian_democrat
 				has_country_leader = {
-					name = "Jafer Seydamet"
+					name = "Джафер Сейдамет"
 					ruling_only = yes
 				}
 			}
@@ -80,13 +80,13 @@ CRM_milliy_firqa = {
 }
 CRM_karaites = {
 	has_country_leader = {
-		name = "Seraya Shapshal"
+		name = "Серая Шапшал"
 		ruling_only = yes
 	}
 }
 CRM_lenin = {
 	has_country_leader = {
-		name = "Dmitriy Ulyanov"
+		name = "Дмитрий Ульянов"
 		ruling_only = yes
 	}
 }
@@ -102,7 +102,7 @@ CRM_can_ally_russia = {
 		limit = { 
 			has_government = radical_socialist
 			has_country_leader = {
-				name = "Amet Ozenbashly"
+				name = "Амет Озенбашлы"
 				ruling_only = yes
 			}
 		}
@@ -137,18 +137,18 @@ CRM_can_ally_ukraine = {
 		limit = { 
 			has_government = radical_socialist
 			has_country_leader = {
-				name = "Amet Ozenbashly"
+				name = "Амет Озенбашлы"
 				ruling_only = yes
 			}
 		}
 		has_completed_focus = CRM_Delegation_To_Internationale
-		var:202.owner = { UKR_has_socialist_government = yes }
+		UKR = { UKR_has_socialist_government = yes }
 	}
 	else = {
 		limit = { 
 			has_government = social_democrat
 		}
-		var:202.owner = { has_left_democratic_government = yes }
+		UKR = { has_left_democratic_government = yes }
 	}
 	CRM_lenin = no
 	var:202.owner = { 

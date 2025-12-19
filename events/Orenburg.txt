@@ -141,10 +141,10 @@ country_event = {
 		add_war_support = 0.10
 		if = {
 			limit = {
-				NOT = { has_template = "Orenburgskaya Kazatskaya Diviziya" }
+				NOT = { has_template = "Оренбургская казачья дивизия" }
 			}
 			division_template = {
-				name = "Orenburgskaya Kazatskaya Diviziya"	# Cossack Division
+				name = "Оренбургская казачья дивизия"	# Cossack Division
 				division_names_group = COS_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -164,14 +164,14 @@ country_event = {
 			transfer_state_to = ORE 
 			add_core_of = ORE
 			create_unit = {
-				division = "division_template = \"Orenburgskaya Kazatskaya Diviziya\" start_experience_factor = 0.2"
+				division = "division_template = \"Оренбургская казачья дивизия\" start_experience_factor = 0.2"
 				allow_spawning_on_enemy_provs = yes
 				owner = ORE
 				count = 1
 				prioritize_location = 10213
 			}
 			create_unit = {
-				division = "division_template = \"Orenburgskaya Kazatskaya Diviziya\" start_experience_factor = 0.2"
+				division = "division_template = \"Оренбургская казачья дивизия\" start_experience_factor = 0.2"
 				allow_spawning_on_enemy_provs = yes
 				owner = ORE
 				count = 1
@@ -835,27 +835,27 @@ country_event = {
 		}
 		hidden_effect = {						
 			create_country_leader = {
-				name = "Aleksandr Vagin"
+				name = "Александр Вагин"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Aleksandr_Vagin.png"
 				expire = "1.1.1"
 				ideology = soccon_cossack_democracy_subtype
 			}
 			create_country_leader = {
-				name = "Aleksandr Vagin"
+				name = "Александр Вагин"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Aleksandr_Vagin.png"
 				expire = "1.1.1"
 				ideology = authdem_cossack_democracy_subtype
 			}
 
 			create_country_leader = {
-				name = "Aleksandr Vagin"
+				name = "Александр Вагин"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Aleksandr_Vagin_military.png"
 				expire = "1.1.1"
 				ideology = pataut_cossack_subtype
 			}
 
 			create_country_leader = {
-				name = "Aleksandr Vagin"
+				name = "Александр Вагин"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Aleksandr_Vagin_military.png"
 				expire = "1.1.1"
 				ideology = militarism_subtype
@@ -1089,7 +1089,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				FROM = { tag = ORE }
-				has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+				has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 			}
 		}
 		#THIS = { set_unit_leader_flag = UCH_member_general }
@@ -1690,7 +1690,7 @@ country_event = {
 			}
 			country_event = uch.14
 		}
-		restore_previous_government_type = yes	
+		restore_previous_government_type = yes		
 		every_subject_country = {
 			get_current_government_type = yes
 			if = {
@@ -1921,7 +1921,7 @@ country_event = {
 				OR = {
 					AND = {
 						tag = DKB
-						has_country_leader = { name = "Pyotr Krasnov" ruling_only = yes }
+						has_country_leader = { name = "Пётр Краснов" ruling_only = yes }
 					}
 					tag = TRB
 					tag = TRM
@@ -2533,7 +2533,7 @@ country_event = {
 			limit = {
 				URL = { 
 					UCH_is_uch_member_tag = yes 
-					has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+					has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 				}
 			}
 			URL = {
@@ -2575,7 +2575,7 @@ country_event = {
 					tag = KUB
 					AND = {
 						tag = URL
-						has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+						has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 					}
 					tag = BRY
 					tag = BKN
@@ -2616,7 +2616,7 @@ country_event = {
 			limit = {
 				URL = { 
 					UCH_is_uch_member_tag = yes 
-					has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+					has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 				}
 			}
 			URL = {
@@ -2658,7 +2658,7 @@ country_event = {
 					tag = KUB
 					AND = {
 						tag = URL
-						has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+						has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 					}
 					tag = BRY
 					tag = BKN
@@ -2759,7 +2759,7 @@ country_event = {
 			}
 			set_politics = { ruling_party = market_liberal }			
 			create_country_leader = {
-				name = "Vasily Maklakov"
+				name = "Василий Маклаков"
 				desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 				expire = "1.1.1"
@@ -2802,7 +2802,7 @@ country_event = {
 			}
 			set_politics = { ruling_party = social_liberal }			
 			create_country_leader = {
-				name = "Nikolay Nekrasov"
+				name = "Николай Некрасов"
 				desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 				expire = "1.1.1"
@@ -2839,7 +2839,7 @@ country_event = {
 			}
 			set_politics = { ruling_party = social_liberal }			
 			create_country_leader = {
-				name = "Nikolay Nekrasov"
+				name = "Николай Некрасов"
 				desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 				expire = "1.1.1"

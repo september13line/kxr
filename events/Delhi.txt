@@ -120,7 +120,7 @@ country_event = {
 		name = delhi.3.a
 
 		create_country_leader = {
-			name = "Chamber of Princes"
+			name = "Палата принцев"
 			desc = "POLITICS_CHAMBER_OF_PRINCES_DESC"
 			picture = "gfx/leaders/DEH/Portrait_DEH_Chamber_of_Princes.png"
 			expire = "1.1.1"
@@ -135,7 +135,7 @@ country_event = {
 	}
 }
 
-#H.M. Edward VIII or Ganga Singh
+#H.M. Эдуард VIII or Ганга Сингх
 country_event = {
 	id = delhi.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event delhi.7" }
@@ -183,7 +183,7 @@ country_event = {
 		}
 	}
 
-	option = { #Ganga Singh as viceroy
+	option = { #Ганга Сингх as viceroy
 		name = delhi.7.b
 		ai_chance = {
 			factor = 90
@@ -204,7 +204,7 @@ country_event = {
 		set_country_flag = DEH_gov_general_singh
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Ganga Singh"
+			name = "Ганга Сингх"
 			desc = "POLITICS_GANGA_SINGH_DESC"
 			picture = "gfx/leaders/DEH/Portrait_DEH_Maharaja_Ganga_Singh.png"
 			expire = "1.1.1"
@@ -370,7 +370,7 @@ country_event = {
 			elections_allowed = no
 			}
 			create_country_leader = {
-			name = "Vacant Leadership"
+			name = "Вакантное лидерство"
 			desc = ""
 			picture = "gfx/leaders/AFG/Portrait_AFG_Vacant_Leadership.png"
 			expire = "1.1.1"
@@ -423,7 +423,7 @@ country_event = {
 			complete_national_focus = AFG_croft
 			remove_ideas = AFG_german_expedition
 			create_country_leader = {
-				name = "Leo Amery"
+				name = "Лео Амери"
 				desc = ""
 				picture = "gfx/leaders/AFG/Portrait_AFG_Leo_Amery.png"
 				expire = "1.1.1"
@@ -436,7 +436,7 @@ country_event = {
 				name = AFG_dominion_party
 			}
 		create_field_marshal = {
-			name = "Leo Amery "
+			name = "Лео Амери "
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_Leo_Amery_Military.png"
 			traits = {
 				politically_connected
@@ -449,7 +449,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Charles Howard Foulkes"
+			name = "Чарльз Фоулкс"
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_Charles_Howard_Foulkes.png"
 			traits = {
 				harsh_leader
@@ -463,22 +463,22 @@ country_event = {
 		}
 		if = {
 			limit = { NOT = { has_country_flag = UZB_malleson_is_in_central_asia } }
-			create_corps_commander = {
-				name = "Wilfrid Malleson "
+		create_corps_commander = {
+			name = "Уилфред Маллесон"
 				portrait_path = "gfx/leaders/UZB/Portrait_UZB_Wilfrid_Malleson.png"
-				traits = {
-					artillery_officer
-					old_guard
-				}
-				skill = 2
-				attack_skill = 2
-				defense_skill = 2
-				planning_skill = 2
-				logistics_skill = 2
+			traits = {
+				artillery_officer
+				old_guard
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			}
 		}
 		create_corps_commander = {
-			name = "Reginald St John Battersby"
+			name = "Реджинальд Сент-Джон Баттерсби"
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_Reginald_Battersby.png"
 			traits = {
 				career_officer
@@ -491,7 +491,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "John Nichols"
+			name = "Джон Николс"
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_John_Nichols.png"
 			traits = {
 				war_hero
@@ -504,7 +504,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Reginald Dyer"
+			name = "Реджинальд Дайер"
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_Reginald_Dyer.png"
 			traits = {
 				harsh_leader
@@ -516,7 +516,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Enoch Powell"
+			name = "Джон Энох Пауэлл"
 			portrait_path = "gfx/leaders/AFG/Portrait_AFG_Enoch_Powell.png"
 			traits = {
 				politically_connected
@@ -572,9 +572,9 @@ country_event = {
 			}
 			hidden_effect = {
 			division_template = {
-					name = "Army of Retribution"
+					name = "Армия возмездия"
 					division_names_group = DEH_INF_01
-	
+
 					regiments = {
 						infantry = { x = 0 y = 0 }
 						infantry = { x = 0 y = 1 }
@@ -590,11 +590,11 @@ country_event = {
 						artillery = { x = 0 y = 0 }
 					}
 					priority = 1
-				}
-				division_template = {
-					name = "North-Western Garrison"
+		}
+		division_template = {
+					name = "Северо-западный гарнизон"
 					division_names_group = DEH_MIL_02
-	
+
 					regiments = {
 						militia = { x = 0 y = 0 }
 						militia = { x = 0 y = 1 }
@@ -607,15 +607,15 @@ country_event = {
 						militia = { x = 2 y = 2 }
 					}
 					priority = 1
-				}
+		}
 				
 		267 = {
 				create_unit = {
-					division = "division_template = \"Army of Retribution\" start_experience_factor = 0.3"
+					division = "division_template = \"Армия возмездия\" start_experience_factor = 0.3"
 					owner = 267.owner
 				}
 				create_unit = {
-					division = "division_template = \"North-Western Garrison\" start_experience_factor = 0.1"
+					division = "division_template = \"Северо-западный гарнизон\" start_experience_factor = 0.1"
 					owner = 267.owner
 				}
 		}
@@ -2348,7 +2348,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Ратанджи Дадабхой Тата"
 					ruling_only = yes
 				}
 			}
@@ -2508,7 +2508,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Ратанджи Дадабхой Тата"
 					ruling_only = yes
 				}
 			}
@@ -2668,7 +2668,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Ратанджи Дадабхой Тата"
 					ruling_only = yes
 				}
 			}
@@ -2816,7 +2816,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Ратанджи Дадабхой Тата"
 					ruling_only = yes
 				}
 			}
@@ -2957,7 +2957,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Ратанджи Дадабхой Тата"
 					ruling_only = yes
 				}
 			}
@@ -3063,7 +3063,7 @@ country_event = {
 # Death Events
 ##############
 
-# Death of Sikandar Hayat Khan
+# Death of Sikander Hayat Khan
 country_event = {
 	id = delhi.150
 	immediate = { log = "[GetDateText]: [Root.GetName]: event delhi.150" }
@@ -3117,7 +3117,7 @@ country_event = {
 	}
 }
 
-# Death of Ganga Singh
+# Death of Ганга Сингх
 country_event = {
 	id = delhi.152
 	title = delhi.152.t
@@ -3163,7 +3163,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Ganga Singh"
+					name = "Ганга Сингх"
 					ruling_only = yes
 				}
 			}
@@ -3175,7 +3175,7 @@ country_event = {
 		name = delhi.152.b #J.R.D. Tata, the brilliant magnate, succeeds him as Viceroy
 		trigger = {
 			has_country_leader = {
-				name = "Ganga Singh"
+				name = "Ганга Сингх"
 				ruling_only = yes
 			}
 		}
@@ -3186,7 +3186,7 @@ country_event = {
 				has_government = market_liberal
 			}
 			create_country_leader = {
-				name = "J. R. D. Tata"
+				name = "Ратанджи Дадабхой Тата"
 				desc = "POLITICS_RATANJI_DADABHOY_TATA_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.png"
 				expire = "1.1.1"
@@ -3198,7 +3198,7 @@ country_event = {
 				has_government = social_liberal
 			}
 			create_country_leader = {
-				name = "J. R. D. Tata"
+				name = "Ратанджи Дадабхой Тата"
 				desc = "POLITICS_RATANJI_DADABHOY_TATA_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.png"
 				expire = "1.1.1"
@@ -3210,7 +3210,7 @@ country_event = {
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "J. R. D. Tata"
+				name = "Ратанджи Дадабхой Тата"
 				desc = "POLITICS_RATANJI_DADABHOY_TATA_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.png"
 				expire = "1.1.1"
@@ -3222,7 +3222,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "J. R. D. Tata"
+				name = "Ратанджи Дадабхой Тата"
 				desc = "POLITICS_RATANJI_DADABHOY_TATA_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.png"
 				expire = "1.1.1"
@@ -3234,7 +3234,7 @@ country_event = {
 		name = delhi.152.c #A.C. Chatterjee, the stern diplomat, succeeds him as Viceroy
 		trigger = {
 			has_country_leader = {
-				name = "Ganga Singh"
+				name = "Ганга Сингх"
 				ruling_only = yes
 			}
 		}
@@ -3245,7 +3245,7 @@ country_event = {
 				has_government = market_liberal
 			}
 			create_country_leader = {
-				name = "Atul Chandra Chatterjee"
+				name = "Атул Чандра Чаттерджи"
 				desc = "POLITICS_ATUL_CHANDRA_CHATTERJEE_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Sir_Atul_Chandra_Chatterjee.png"
 				expire = "1.1.1"
@@ -3257,7 +3257,7 @@ country_event = {
 				has_government = social_liberal
 			}
 			create_country_leader = {
-				name = "Atul Chandra Chatterjee"
+				name = "Атул Чандра Чаттерджи"
 				desc = "POLITICS_ATUL_CHANDRA_CHATTERJEE_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Sir_Atul_Chandra_Chatterjee.png"
 				expire = "1.1.1"
@@ -3269,7 +3269,7 @@ country_event = {
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Atul Chandra Chatterjee"
+				name = "Атул Чандра Чаттерджи"
 				desc = "POLITICS_ATUL_CHANDRA_CHATTERJEE_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Sir_Atul_Chandra_Chatterjee.png"
 				expire = "1.1.1"
@@ -3281,7 +3281,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Atul Chandra Chatterjee"
+				name = "Атул Чандра Чаттерджи"
 				desc = "POLITICS_ATUL_CHANDRA_CHATTERJEE_DESC"
 				picture = "gfx/leaders/DEH/Portrait_DEH_Sir_Atul_Chandra_Chatterjee.png"
 				expire = "1.1.1"
@@ -3320,7 +3320,7 @@ country_event = {
 	}
 }
 
-# Death of Muhammad Ali Jinnah
+# Death of Мухаммад Али Джинна
 country_event = {
 	id = delhi.154
 	immediate = { log = "[GetDateText]: [Root.GetName]: event delhi.154" }
@@ -3396,7 +3396,7 @@ country_event = {
 	}
 }
 
-# Death of Bhupinder Singh
+# Death of Бхупиндер Сингх
 country_event = {
 	id = delhi.157
 	immediate = { log = "[GetDateText]: [Root.GetName]: event delhi.157" }
@@ -4989,13 +4989,13 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Nirmal Kumar Bose"
+					name = "Нирмал Кумар Бозе"
 					ruling_only = yes
 				}
 			}
 			add_political_power = -100
 			create_country_leader = {
-				name = "Jawaharlal Nehru"
+				name = "Джавахарлал Неру"
 				desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
 				picture = "gfx/leaders/BHC/Portrait_BHC_Jawaharlal_Nehru.png"
 				expire = "1.1.1"
@@ -5237,7 +5237,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-                AFG = { has_country_leader = { ruling_only = yes name = "Leo Amery" } }
+                AFG = { has_country_leader = { ruling_only = yes name = "Лео Амери" } }
 			}
 			annex_country = {
 				target = AFG

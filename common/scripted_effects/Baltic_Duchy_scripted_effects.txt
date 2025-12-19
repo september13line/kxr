@@ -182,19 +182,19 @@ baltic_germans_flee = {
 	hidden_effect = {
 		random_unit_leader = {
 			limit = {
-				has_id = 555007 #Johan Pitka
+				has_id = 555007 #Йохан Питка
 			}
 			set_nationality = EST
 		}
 		every_unit_leader = {
 			limit = {
 				OR = {
-					has_id = 555001 #Heinrich von Behr
-					has_id = 555003 #Hans von Manteuffel-Szoege
-					has_id = 555004 #Wessel von Freytagh-Loringhoven
-					has_id = 555005 #Rüdiger von der Goltz
-					has_id = 555006 #Otto Goldfeld
-					has_id = 555008 #Heinrich Himmler
+					has_id = 555001 #Генрих фон Бер
+					has_id = 555003 #Ганс Цеге-фон-Мантейфель
+					has_id = 555004 #Вессель Фрейтаг фон Лорингофен
+					has_id = 555005 #Рюдигер фон дер Гольц
+					has_id = 555006 #Отто Зелтиньш
+					has_id = 555008 #Генрих Гиммлер
 				}
 			}
 			set_nationality = NSW
@@ -230,10 +230,10 @@ baltic_germans_arrive_immediate = {
 			every_unit_leader = {
 				limit = {
 					OR = {
-						has_id = 555001 #Heinrich von Behr
-						has_id = 555004 #Wessel von Freytagh-Loringhoven
-						has_id = 555005 #Rüdiger von der Goltz
-						has_id = 555006 #Otto Goldfeld
+						has_id = 555001 #Генрих фон Бер
+						has_id = 555004 #Вессель Фрейтаг фон Лорингофен
+						has_id = 555005 #Рюдигер фон дер Гольц
+						has_id = 555006 #Отто Зелтиньш
 					}
 				}
 				set_nationality = BAT
@@ -247,10 +247,10 @@ baltic_germans_arrive = {
 		every_unit_leader = {
 			limit = {
 				OR = {
-					has_id = 555001 #Heinrich von Behr
-					has_id = 555004 #Wessel von Freytagh-Loringhoven
-					has_id = 555005 #Rüdiger von der Goltz
-					has_id = 555006 #Otto Goldfeld
+					has_id = 555001 #Генрих фон Бер
+					has_id = 555004 #Вессель Фрейтаг фон Лорингофен
+					has_id = 555005 #Рюдигер фон дер Гольц
+					has_id = 555006 #Отто Зелтиньш
 				}
 			}
 			set_nationality = ROOT

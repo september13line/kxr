@@ -932,7 +932,7 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CAL_hearst_debt"}
 			allowed = { always = no }
 			available = { 
-				has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+				has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 			}
 			picture = WHR_abolition_of_money_shock
 			modifier = {
@@ -3365,7 +3365,11 @@ ideas = {
 				industrial_capacity_dockyard = 0.1
 			}
 			equipment_bonus = {
-				ship_hull_heavy = {
+				submarine = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				destroyer = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
@@ -3373,11 +3377,7 @@ ideas = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
-				ship_hull_light = {
-					build_cost_ic = -0.10
-					instant = yes
-				}
-				ship_hull_submarine = {
+				capital_ship = {
 					build_cost_ic = -0.10
 					instant = yes
 				}

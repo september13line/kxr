@@ -1254,45 +1254,45 @@ country_event = { #Serbian liberation
 			1269 = { retain_state = yes } #Nis
 			SER = {
 				create_country_leader = {
-					name = "Živko Topalović"
+					name = "Живко Топалович"
 					picture = "gfx/leaders/SER/Portrait_SER_Zivko_Topalovic.png"
 					expire = "1.1.1"
 					ideology = social_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Slobodan Jovanović"
+					name = "Йованович Слободан"
 					desc = "POLITICS_SLOBODAN_JOVANOVIC_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Slobodan_Jovanovic.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}	
 				create_country_leader = {
-					name = "Ljubomir Davidović"
+					name = "Любомир Давидович"
 					picture = "gfx/leaders/SER/Portrait_SER_Ljubomir_Davidovic.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Nikola Uzunović"
+					name = "Никола Узунович"
 					picture = "gfx/leaders/SER/Portrait_SER_Nikola_Uzunovic.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Petar Bojović"
+					name = "Петар Бойович"
 					desc = "POLITICS_PETAR_BOJOVIC_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Petar_Bojovic.png"
 					expire = "1.1.1"
 					ideology = authdem_junta_subtype
 				}
 				create_country_leader = {
-					name = "Petar Živković"
+					name = "Петар Живкович"
 					picture = "gfx/leaders/SER/Portrait_SER_Petar_Zivkovic.png"
 					expire = "1.1.1"
 					ideology = yugoslavism_subtype
 				}
 				create_country_leader = {
-					name = "Dragustin Keresovic"
+					name = "Драгустин Кересович"
 					picture = "gfx/leaders/SER/Portrait_SER_Dragutin_Keserovic.png"
 					expire = "1.1.1"
 					ideology = natpop_yugoslavism_subtype
@@ -2061,7 +2061,7 @@ country_event = { #HUN liberation
 			HUN = {
 				if = {
 					limit = {
-						has_country_leader = { name = "IV. Károly" ruling_only = no }
+						has_country_leader = { name = "Карой IV" ruling_only = no }
 					}
 				}
 				remove_ideas = AUS_part_of_the_Empire
@@ -2103,14 +2103,14 @@ country_event = { #HUN liberation
 				limit = { NOT = { tag = AUS } }
 				HUN = {
 				create_country_leader = {
-					name = "László Bárdossy"
+					name = "Ласло Бардоши"
 					picture = "gfx/leaders/HUN/Portrait_HUN_Laszlo_Bardossy.png"
 					expire = "1.1.1"
 					ideology = pataut_christian_democracy_subtype
 					traits = {}
 				}
 				create_country_leader = {
-					name = "István Bethlen"
+					name = "Иштван Бетлен"
 	                desc = "POLITICS_ISTVAN_BETHLEN_DESC"
 	                picture = "gfx/leaders/HUN/Portrait_HUN_Istvan_Bethlen.png"
 					expire = "1.1.1"
@@ -2148,29 +2148,29 @@ country_event = { #HUN liberation
 			add_state_claim = 1108
 			add_state_claim = 1110
 		}
-		every_state = {
-			limit = {
-				OR = {
-					region = 27 #Hungary
-					region = 144 #Transylvania
-					region = 145 #Slovakia
-				}
-				NOT = {
-					state = 80 #Cernauti
-					state = 713 #Suceava
-					AND = {
-						state = 784 #Burgenland
-						ROOT = {
-							NOT = {
-								owns_state = 1137 #Vienna
-								has_country_flag = AUS_CONQ
-								is_ally_with = AUS
+			every_state = {
+				limit = {
+					OR = {
+						region = 27 #Hungary
+						region = 144 #Transylvania
+						region = 145 #Slovakia
+					}
+					NOT = {
+						state = 80 #Cernauti
+						state = 713 #Suceava
+						AND = {
+							state = 784 #Burgenland
+							ROOT = {
+								NOT = {
+									owns_state = 1137 #Vienna
+									has_country_flag = AUS_CONQ
+									is_ally_with = AUS
+								}
 							}
 						}
 					}
 				}
-			}
-			add_core_of = HUN
+				add_core_of = HUN
 		}
 		set_temp_variable = { tag_to_release = HUN }
 		release_targeted_tag = yes
@@ -2432,47 +2432,47 @@ country_event = { #Fate of Karelia
 	}
 
 	option = { #Split (give Petrozavodsk to Russia)
-		name = annex.13.e
-		trigger = {
+	name = annex.13.e
+	trigger = {
 			is_russian_tag_that_can_integrate = no
-			NOT = {
-				tag = FIN
-				tag = SCA
-			}
-			FIN = { ROOT_can_grant_land = yes }
-			var:219.owner = { #Moscow
-				is_russian_tag_that_can_integrate = yes
-				is_ally_with = ROOT
-			}
+		NOT = {
+			tag = FIN
+			tag = SCA
 		}
-		ai_chance = {
-			base = 100
-			modifier = {
-				factor = 0
-				is_german_tag = yes
-				FIN = { ROOT_can_grant_land = yes }
-			}
-			modifier = {
-				factor = 0.25
-				is_ally_with = FIN
-			}
+		FIN = { ROOT_can_grant_land = yes }
+		var:219.owner = { #Moscow
+			is_russian_tag_that_can_integrate = yes
+			is_ally_with = ROOT
 		}
-		set_temp_variable = { tag_to_release = var:219.owner }
-		216 = { transfer_state_and_add_core = yes }
-		custom_effect_tooltip = tooltip_white_line
-		set_temp_variable = { tag_to_release = FIN }
-		every_owned_state = {
-			limit = {
-				OR = {
-					state = 215 #Kem
-					state = 1327 #Petrozavodsk
-				}
-				is_claim_or_core_of_ROOT = no
-			}
-			transfer_state_and_add_claim = yes
-		}
-		recheck_annexations = yes
 	}
+	ai_chance = {
+		base = 100
+		modifier = {
+			factor = 0
+			is_german_tag = yes
+			FIN = { ROOT_can_grant_land = yes }
+		}
+		modifier = {
+			factor = 0.25
+			is_ally_with = FIN
+		}
+	}
+	set_temp_variable = { tag_to_release = var:219.owner }
+	216 = { transfer_state_and_add_core = yes }
+	custom_effect_tooltip = tooltip_white_line
+	set_temp_variable = { tag_to_release = FIN }
+	every_owned_state = {
+		limit = {
+			OR = {
+				state = 215 #Kem
+				state = 1327 #Petrozavodsk
+			}
+			is_claim_or_core_of_ROOT = no
+		}
+		transfer_state_and_add_claim = yes
+	}
+	recheck_annexations = yes
+}
 
 	option = { #Integrate
 		name = annex.integration
@@ -2518,9 +2518,9 @@ country_event = { #Fate of Karelia
 			}
 			if = {
 				limit = { 
-					is_claim_or_core_of_ROOT = no
-				}
-				add_claim_by = ROOT
+				is_claim_or_core_of_ROOT = no
+			}
+			add_claim_by = ROOT
 			}
 			else = {
 				add_core_of = ROOT
@@ -2555,39 +2555,39 @@ country_event = { #Liberation of Austria
 		hidden_effect = {
 			AUS = {
 				create_country_leader = {
-					name = "Karl Renner"
+					name = "Карл Реннер"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner_KX.png"
 					expire = "1.1.1"
 					ideology = austromarxism_subtype
 				}
 				create_country_leader = {
-					name = "Erik von Kuehnelt-Leddihn"
+					name = "Эрик фон Кюнельт-Леддин"
 					desc = ""
 					picture = "gfx/leaders/AUS/Portrait_AUS_Erik_von_Kuehnelt-Leddihn.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Richard von Coudenhove-Kalergi"
+					name = "Рихард Куденхове-Калерги"
 					desc = ""
 					picture = "gfx/leaders/AUS/Portrait_AUS_Richard_von_Coudenhove_Kalergi.png"
 					expire = "1.1.1"
 					ideology = paneuropeanism_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm Miklas"
+					name = "Вильгельм Миклас"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas_KX.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm Miklas"
+					name = "Вильгельм Миклас"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas_KX.png"
 					expire = "1.1.1"
 					ideology = authoritarian_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Engelbert Dollfuss"
+					name = "Энгельберт Дольфус"
 					picture = "gfx/leaders/AUS/Portrait_AUS_dolfuss.png"
 					expire = "1.1.1"
 					ideology = austropopulism_subtype
@@ -4216,32 +4216,32 @@ country_event = { #Liberation of Slovenia
 		recheck_annexations = yes
 	}
 	option = { #integrate
-		name = eurasian_integration.option
-		trigger = {
-			tag = RUS
+	name = eurasian_integration.option
+	trigger = {
+		tag = RUS
+		OR = {
+			has_completed_focus = RUS_Panslavist_Internationalism
+			has_completed_focus = RUS_Panslavist
+		}
+		NOT = { has_country_flag = soviet_russia_restored }
+	}
+	ai_chance = {
+		base = 100
+	}
+	every_owned_state = {
+		limit = {
 			OR = {
-				has_completed_focus = RUS_Panslavist_Internationalism
-				has_completed_focus = RUS_Panslavist
-			}
-			NOT = { has_country_flag = soviet_russia_restored }
-		}
-		ai_chance = {
-			base = 100
-		}
-		every_owned_state = {
-			limit = {
-				OR = {
 					is_core_of = SLO
 					is_claimed_by = SLO
-				}
-				is_claim_or_core_of_ROOT = no
 			}
-			add_claim_by = ROOT
+			is_claim_or_core_of_ROOT = no
 		}
-		occupy_small_country = yes
-		SLO = { enable_coring_at_eighty_compliance = yes }
-		recheck_annexations = yes
+		add_claim_by = ROOT
 	}
+	occupy_small_country = yes
+		SLO = { enable_coring_at_eighty_compliance = yes }
+	recheck_annexations = yes
+}
 	option = { #occupy
 		name = annex.occupation
 		trigger = {
@@ -4387,7 +4387,7 @@ country_event = { #Fate of Poland
 				POL = {
 					set_politics = { ruling_party = totalist }
 					create_country_leader = {
-						name = "Józef Unszlicht"
+						name = "Иосиф Уншлихт"
 						picture = "gfx/leaders/POL/Portrait_POL_Jozef_Unszlicht.png"
 						expire = "1965.1.1"
 						ideology = zinovievism_subtype
@@ -4447,7 +4447,7 @@ country_event = { #Fate of Poland
 				POL = {
 					set_politics = { ruling_party = totalist }
 					create_country_leader = {
-						name = "Józef Unszlicht"
+						name = "Иосиф Уншлихт"
 						picture = "gfx/leaders/POL/Portrait_POL_Jozef_Unszlicht.png"
 						expire = "1965.1.1"
 						ideology = zinovievism_subtype
@@ -5113,7 +5113,7 @@ country_event = { #Fate of Finland
 				}
 				FIN = {
 					create_country_leader = {
-						name = "Yrjö Elfvengren"
+						name = "Юрьё Эльфенгрен"
 						picture = "gfx/leaders/KAR/Portrait_KAR_Georg_Elfvengren.png"
 						desc = "POLITICS_YRJO_ELFVENGREN_DESC"
 						expire = "1.1.1"
@@ -5184,7 +5184,7 @@ country_event = { #Fate of Finland
 						popularity = 60
 					}
 					create_country_leader = {
-						name = "Tsar of All-Russia"
+						name = "Царь Всея Руси"
 						desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 						picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 						expire = "1.1.1"
@@ -5619,7 +5619,7 @@ country_event = { #Fate of Bessarabia / Moldova
 					freedom_level = 0.75
 			}
 			MOL = { 
-				set_cosmetic_tag = ROM_MOL
+					set_cosmetic_tag = ROM_MOL
 				RUS_install_puppet_monarchy = yes
 			}
 		}
@@ -5629,21 +5629,21 @@ country_event = { #Fate of Bessarabia / Moldova
 					has_left_democratic_government = no
 				}
 				MOL = {
-					set_politics = { ruling_party = authoritarian_democrat }
-					set_political_party = {
-						ideology = authoritarian_democrat
-						popularity = 60
+				set_politics = { ruling_party = authoritarian_democrat }
+				set_political_party = {
+					ideology = authoritarian_democrat
+					popularity = 60
 					}
-				}
 			}
-			else_if = {
-				limit = {
+		}
+		else_if = {
+			limit = {
 				ROOT = { has_country_flag = soviet_russia_restored }
 			}
 			set_temp_variable = { target = MOL }
 			SOV_puppet_TARGET_effect = yes
 		}		
-	}
+		}		
 	}
 
 	option = { # Liberate Greater Moldavia
@@ -5690,7 +5690,7 @@ country_event = { #Fate of Bessarabia / Moldova
 					freedom_level = 0.75
 			}
 			MOL = { 
-				set_cosmetic_tag = ROM_MOL
+					set_cosmetic_tag = ROM_MOL
 				RUS_install_puppet_monarchy = yes
 			}
 		}
@@ -5700,15 +5700,15 @@ country_event = { #Fate of Bessarabia / Moldova
 					has_left_democratic_government = no
 				}
 				MOL = {
-					set_politics = { ruling_party = authoritarian_democrat }
-					set_political_party = {
-						ideology = authoritarian_democrat
-						popularity = 60
+				set_politics = { ruling_party = authoritarian_democrat }
+				set_political_party = {
+					ideology = authoritarian_democrat
+					popularity = 60
 					}
-				}
 			}
-			else_if = {
-				limit = {
+		}
+		else_if = {
+			limit = {
 				ROOT = { has_country_flag = soviet_russia_restored }
 			}
 			set_temp_variable = { target = MOL }
@@ -6428,7 +6428,7 @@ country_event = { #Fate of Krakow
 				tag = POL
 				tag = GAL
 				AND = {
-					is_russian_tag_that_can_integrate = yes
+				is_russian_tag_that_can_integrate = yes
 					OR = {
 						10 = { is_claimed_by = ROOT } #== RUS has annexed Poland
 						AND = {
@@ -7247,22 +7247,22 @@ country_event = { #Fate of Kosovo
 		}
 	}
 	option = { #Integrate
-		name = annex.integration
-		trigger = {
-			tag = RUS
-			OR = {
-				has_completed_focus = RUS_Panslavist_Internationalism
-				has_completed_focus = RUS_Panslavist
-			}
-			NOT = { has_country_flag = soviet_russia_restored }
+	name = annex.integration
+	trigger = {
+		tag = RUS
+		OR = {
+			has_completed_focus = RUS_Panslavist_Internationalism
+			has_completed_focus = RUS_Panslavist
 		}
-		ai_chance = {
-			base = 100
-		}
-		add_state_claim = 765
-		765 = { enable_state_integration_80_compliance = yes }
-		recheck_annexations = yes
+		NOT = { has_country_flag = soviet_russia_restored }
 	}
+	ai_chance = {
+		base = 100
+	}
+	add_state_claim = 765
+	765 = { enable_state_integration_80_compliance = yes }
+	recheck_annexations = yes
+}
 
 	option = { #occupy
 		name = annex.occupation
@@ -9635,7 +9635,7 @@ country_event = { #The Fate of Russia
 					long_name = RUS_solidarist_party_long
 				}
 				create_country_leader = {
-					name = "Viktor Baydalakov"
+					name = "Виктор Байдалаков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 					expire = "1.1.1"
 					ideology = solidarism_subtype
@@ -9892,7 +9892,7 @@ country_event = { #The Fate of Russia
 			remove_all_russian_cores = yes
 		}
 	}
-	
+
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
@@ -10362,49 +10362,49 @@ country_event = { #Fate of America
 				limit = { tag = PAP }
 				USA = {
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = socdem_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = soclib_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = marlib_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = autdem_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = pataut_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = fundementalism_subtype
@@ -10462,7 +10462,7 @@ country_event = { #Fate of America
 			    name = NEE_Nordic_League_party 
 		        }
 		        create_country_leader = {
-			    name = "Lothrop Stoddard"
+			    name = "Лотроп Стоддард"
 			    desc = "POLITICS_LOTHROP_STODDARD_DESC"
 			    picture = "gfx/leaders/NEE/Portrait_NEE_Lothrop_Stoddard.png"
 			    expire = "1.1.1"
@@ -10484,9 +10484,9 @@ country_event = { #Fate of America
 			    add_ideas = NEE_Charles_Benedict_Davenport_for_npo
 			    add_ideas = NEE_Harry_H_Laughlin_eco_npo
 			    add_ideas = NEE_John_Bell_sec_npo
-			    } 
+					}
+				}
 			}
-		    }
 			if = {
 			limit = {
 				tag = JAP
@@ -10505,7 +10505,7 @@ country_event = { #Fate of America
 					name = CAL_collab_party
 				}
 				create_country_leader = {
-					name = "Ralph Townsend"
+					name = "Ральф Таунсенд"
 					desc = "POLITICS_RALPH_TOWNSEND_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Ralph_Townsend.png"
 					expire = "1.1.1"
@@ -10537,7 +10537,7 @@ country_event = { #Fate of America
 				}
 			USA = {
 				create_country_leader = {
-					name = "Joseph Grew"
+					name = "Джозеф Грю"
 					picture = "gfx/leaders/USA/Portrait_USA_Joseph_Grew.png"
 					expire = "1.1.1"
 					ideology = marlib_internationalism_subtype
@@ -10645,49 +10645,49 @@ country_event = { #Fate of America
 				limit = { tag = PAP }
 				USA = {
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = socdem_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = soclib_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = marlib_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = autdem_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = pataut_christian_democracy_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Al Smith"
+						name = "Эл Смит"
 						picture = "gfx/leaders/TEX/Portrait_TEX_Al_Smith.png"
 						expire = "1.1.1"
 						ideology = fundementalism_subtype
@@ -10745,7 +10745,7 @@ country_event = { #Fate of America
 			    name = NEE_Nordic_League_party 
 		        }
 		        create_country_leader = {
-			    name = "Lothrop Stoddard"
+			    name = "Лотроп Стоддард"
 			    desc = "POLITICS_LOTHROP_STODDARD_DESC"
 			    picture = "gfx/leaders/NEE/Portrait_NEE_Lothrop_Stoddard.png"
 			    expire = "1.1.1"
@@ -10767,9 +10767,9 @@ country_event = { #Fate of America
 			    add_ideas = NEE_Charles_Benedict_Davenport_for_npo
 			    add_ideas = NEE_Harry_H_Laughlin_eco_npo
 			    add_ideas = NEE_John_Bell_sec_npo
-			    } 
+					}
+				}
 			}
-		    }
 			if = {
 			limit = {
 				tag = JAP
@@ -10788,7 +10788,7 @@ country_event = { #Fate of America
 					name = CAL_collab_party
 				}
 				create_country_leader = {
-					name = "Ralph Townsend"
+					name = "Ральф Таунсенд"
 					desc = "POLITICS_RALPH_TOWNSEND_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Ralph_Townsend.png"
 					expire = "1.1.1"
@@ -10820,7 +10820,7 @@ country_event = { #Fate of America
 				}
 			USA = {
 				create_country_leader = {
-					name = "Joseph Grew"
+					name = "Джозеф Грю"
 					picture = "gfx/leaders/USA/Portrait_USA_Joseph_Grew.png"
 					expire = "1.1.1"
 					ideology = marlib_internationalism_subtype
@@ -11019,21 +11019,21 @@ country_event = { #Fate of America
 				limit = { tag = FIN }
 				CSA = {
 					create_country_leader = {
-						name = "Arvo Kustaa Halberg"
+						name = "Арво Кустаа Хальберг"
 						picture = "gfx/leaders/CSA/Portrait_CSA_Gus_Hall.png"
 						expire = "1.1.1"
 						ideology = popcom_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Arvo Kustaa Halberg"
+						name = "Арво Кустаа Хальберг"
 						picture = "gfx/leaders/CSA/Portrait_CSA_Gus_Hall.png"
 						expire = "1.1.1"
 						ideology = centralized_syndicalism_subtype
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Arvo Kustaa Halberg"
+						name = "Арво Кустаа Хальберг"
 						picture = "gfx/leaders/CSA/Portrait_CSA_Gus_Hall.png"
 						expire = "1.1.1"
 						ideology = radsoc_popcom_subtype
@@ -11222,7 +11222,7 @@ country_event = { #Fate of America
 			limit = {
 				is_american_tag = yes
 				OR = {
-					is_ally_with = ROOT
+				is_ally_with = ROOT
 					is_subject_of = ROOT
 				}
 			}
@@ -11420,15 +11420,15 @@ country_event = { #Fate of Latvia
 	desc = annexation_LAT_CONQ_desc
 	immediate = {
 		hidden_effect = {
-			if = {
-				limit = {
-					NOT = { country_exists = BAT }
-				}
-				every_state = {
-					remove_core_of = BAT
-					remove_claim_by = BAT
-				}
+		if = {
+			limit = {
+				NOT = { country_exists = BAT }
 			}
+			every_state = {
+				remove_core_of = BAT
+				remove_claim_by = BAT
+			}
+		}
 			LAT = { drop_cosmetic_tag = yes }
 			13 = { remove_core_of = LAT }
 			191 = { remove_core_of = LAT }
@@ -11494,7 +11494,7 @@ country_event = { #Fate of Latvia
 						long_name = LAT_national_populist_party_long
 					}
 					create_country_leader = {
-						name = "Gustavs Celmiņš"
+						name = "Густавс Целминьш"
 						picture = "gfx/leaders/LAT/Portrait_LAT_Gustavs_Celmins_kr.png"
 						expire = "1.1.1"
 						ideology = legionarism_subtype
@@ -11508,7 +11508,7 @@ country_event = { #Fate of Latvia
 					}
 					set_cosmetic_tag = LAT_goppers_flag
 					create_country_leader = {
-						name = "Kārlis Goppers"
+						name = "Карлис Гоппер"
 						desc = "POLITICS_KARLIS_GOPPERS_DESC"
 						picture = "gfx/leaders/LAT/Portrait_LAT_Karlis_Goppers.png"
 						expire = "1.1.1"
@@ -11527,7 +11527,7 @@ country_event = { #Fate of Latvia
 					LAT = {
 					set_politics = { ruling_party = totalist }	
 					create_country_leader = {	
-						name = "Ivars Smilga"
+						name = "Ивар Смилга"
 						picture = "gfx/leaders/LAT/Portrait_LAT_Ivar_Smilga.png"
 						expire = "1.1.1"
 						ideology = zinovievism_subtype
@@ -11537,7 +11537,7 @@ country_event = { #Fate of Latvia
 				else = {
 					LAT = {
 					create_country_leader = {	
-						name = "Jēkabs Peterss"
+						name = "Яков Петерс"
 						desc = "POLITICS_JEKABS_PETERSS_DESC"
 						picture = "gfx/leaders/LAT/Portrait_LAT_Jekabs_Peterss.png"
 						expire = "1.1.1"
@@ -11668,7 +11668,7 @@ country_event = { #Fate of Latvia
 							popularity = 60
 						}
 						create_country_leader = {
-							name = "Tsar of All-Russia"
+							name = "Царь Всея Руси"
 							desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 							picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 							expire = "1.1.1"
@@ -11695,7 +11695,7 @@ country_event = { #Fate of Latvia
 						popularity = 50
 					}
 					create_country_leader = {
-						name = "Kārlis Goppers"
+						name = "Карлис Гоппер"
 						desc = "POLITICS_KARLIS_GOPPERS_DESC"
 						picture = "gfx/leaders/LAT/Portrait_LAT_Karlis_Goppers.png"
 						expire = "1.1.1"
@@ -11707,7 +11707,7 @@ country_event = { #Fate of Latvia
 						long_name = LAT_national_populist_party2_long
 					}
 				}
-			}
+			}			
 			else = { 
 				if = {
 					limit = {
@@ -12413,7 +12413,7 @@ country_event = { #The Fate of Spain POR
 			SPR_clear_all_election_flags = yes
 			set_cosmetic_tag = SPR_republic
 			create_country_leader = {
-				name = "Francisco Franco Bahamonde"
+				name = "Франсиско Франко Баамонде"
 				desc = "POLITICS_FRANSISCO_FRANCO_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
 				expire = "1.1.1"
@@ -12489,14 +12489,14 @@ country_event = { # Abkhazia
 			add_state_core = 1190
 		}
 		set_temp_variable = { tag_to_release = ABK }
-		release_targeted_tag = yes	
+		release_targeted_tag = yes
 		if = {
 			limit = {
 				ROOT = { has_country_flag = soviet_russia_restored }
 			}
 			set_temp_variable = { target = ABK }
 			SOV_puppet_TARGET_effect = yes
-		}		
+		}			
 	}
 
 	option = { #Give to georgia
@@ -13042,43 +13042,43 @@ country_event = { #Irish Government
 		IRE = {
 			set_cosmetic_tag = IRE_NFA
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = socdem_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = radical_liberalism_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = futuriblesisme_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = soccon_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = authdem_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = pataut_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "William Lucien Bonaparte-Wyse"
+				name = "Уильям Люсьен Бонапарт-Уайз"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_William_Lucien_Bonaparte_Wyse.png"
 				expire = "1.1.1"
 				ideology = natpop_bonapartism_subtype
@@ -13100,7 +13100,7 @@ country_event = { #Gheoachím I arrives!
 		name = annex.70.a
 		set_cosmetic_tag = IRE_kingdom
 		create_country_leader = {
-			name = "Gheoachím I"
+			name = "Геоахим I"
 			picture = "gfx/leaders/GEO/Portrait_GEO_Prince_Joachim.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -13151,7 +13151,7 @@ country_event = { #The fate of Georgia
 				drop_cosmetic_tag = yes
 				set_country_flag = Ioseb_Jugashvili_dead
 				create_country_leader = {
-					name = "Grigol Orjonikidze"
+					name = "Григол Орджоникидзе"
 					desc = "POLITICS_GRIGOL_DESC"
 					picture = "gfx/leaders/GEO/Portrait_GEO_Grigol_Ordzhonikikdze.png"
 					expire = "1.1.1"
@@ -13168,7 +13168,7 @@ country_event = { #The fate of Georgia
 					long_name = GEO_totalist_party_long
 				}
 				create_country_leader = {
-					name = "Leo Shengelaia"
+					name = "Лео Киачели"
 					desc = "POLITICS_LEO_SHENGELAIA_DESC"
 					picture = "gfx/leaders/GEO/Portrait_GEO_Leo_Shengelaia.png" 
 					expire = "1.1.1"
@@ -13407,19 +13407,19 @@ country_event = { #The fate of Georgia
 					ideology = national_populist
 		}
 		create_country_leader = {
-		name = "Friedrich Kreß von Kressenstein"
+		name = "Фридрих Кресс фон Крессенштейн"
 		picture = "gfx/leaders/GEO/Portrait_GEO_Friedrich_Kress_von_Kressenstein.png"
 		expire = "1.1.1"
 		ideology = authdem_junta_subtype
 			}
 		create_country_leader = {
-		name = "Friedrich Kreß von Kressenstein"
+		name = "Фридрих Кресс фон Крессенштейн"
 		picture = "gfx/leaders/GEO/Portrait_GEO_Friedrich_Kress_von_Kressenstein.png"
 		expire = "1.1.1"
 		ideology = junta_subtype
 				}
 		create_country_leader = {
-		name = "Friedrich Kreß von Kressenstein"
+		name = "Фридрих Кресс фон Крессенштейн"
 		picture = "gfx/leaders/GEO/Portrait_GEO_Friedrich_Kress_von_Kressenstein.png"
 		expire = "1.1.1"
 		ideology = militarism_subtype
@@ -13526,7 +13526,7 @@ country_event = { #The fate of Georgia
 					elections_allowed = yes
 				}
 				create_country_leader = {
-					name = "Arzakan Emukhvari"
+					name = "Арзакан Эмухвари"
 					desc = "POLITICS_EMUKHVARI_DESC"
 					picture = "gfx/leaders/ABK/Portrait_ABK_Arzakan_Emukhvari.png"
 					expire = "1.1.1"
@@ -13690,9 +13690,9 @@ country_event = { #Releasing Spain (if not POR)
 						}
 					}
 				}
-				CAR = {
-					set_cosmetic_tag = CAR_kingdom
-					set_country_flag = released_after_annexation
+			CAR = {
+				set_cosmetic_tag = CAR_kingdom
+				set_country_flag = released_after_annexation
 				}
 			}
 		}
@@ -13866,39 +13866,39 @@ country_event = { #Releasing Spain (if not POR)
 		set_temp_variable = { tag_to_release = SPR }
 		puppet_released_tag = yes
 		hidden_effect = {
-			SPR = {
-				set_cosmetic_tag = SPR_republic
-				create_country_leader = {
-					name = "Francisco Franco Bahamonde"
-					desc = "POLITICS_FRANSISCO_FRANCO_DESC"
-					picture = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
-					expire = "1.1.1"
-					ideology = authdem_junta_subtype
-				}
-				create_country_leader = {
-					name = "Niceto Alcalá-Zamora"
-					picture = "gfx/leaders/CNT/Portrait_CNT_Niceto_Alcala_Zamora.png"
-					expire = "1.1.1"
-					ideology = christian_democracy_subtype
-				}
-				create_country_leader = {
-					name = "Josep Tarradellas"
-					picture = "gfx/leaders/CNT/Portrait_CNT_Josep_Tarradellas.png"
-					expire = "1.1.1"
-					ideology = marlib_national_liberalism_subtype
-				}
-				create_country_leader = {
-					name = "Manuel Azaña Díaz"
-					picture = "gfx/leaders/CNT/Portrait_CNT_Manuel_Azana_Diaz.png"
-					expire = "1.1.1"
-					ideology = radical_liberalism_subtype
-				}
-				create_country_leader = {
-					name = "Augusto Barcia Trelles"
-					picture = "gfx/leaders/CNT/Portrait_CNT_Augusto_Barcia_Trelles.png"
-					expire = "1.1.1"
-					ideology = socdem_democratic_socialism_subtype
-				}
+		SPR = {
+			set_cosmetic_tag = SPR_republic
+			create_country_leader = {
+				name = "Франсиско Франко Баамонде"
+				desc = "POLITICS_FRANSISCO_FRANCO_DESC"
+				picture = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
+				expire = "1.1.1"
+				ideology = authdem_junta_subtype
+			}
+			create_country_leader = {
+				name = "Нисето Алькала Самора"
+				picture = "gfx/leaders/CNT/Portrait_CNT_Niceto_Alcala_Zamora.png"
+				expire = "1.1.1"
+				ideology = christian_democracy_subtype
+			}
+			create_country_leader = {
+				name = "Хосеп Таррадельяс"
+				picture = "gfx/leaders/CNT/Portrait_CNT_Josep_Tarradellas.png"
+				expire = "1.1.1"
+				ideology = marlib_national_liberalism_subtype
+			}
+			create_country_leader = {
+				name = "Мануэль Асанья"
+				picture = "gfx/leaders/CNT/Portrait_CNT_Manuel_Azana_Diaz.png"
+				expire = "1.1.1"
+				ideology = radical_liberalism_subtype
+			}
+			create_country_leader = {
+				name = "Аугусто Барсиа Треллес"
+				picture = "gfx/leaders/CNT/Portrait_CNT_Augusto_Barcia_Trelles.png"
+				expire = "1.1.1"
+				ideology = socdem_democratic_socialism_subtype
+			}
 				if = {
 					limit = {
 						has_government = social_democrat
@@ -13987,7 +13987,7 @@ country_event = { #Releasing Spain (if not POR)
 			set_temp_variable = { tag_to_release = CNT }
 		}
 		else = {
-			every_owned_state = {
+		every_owned_state = {
 			limit = {
 				NOT = { state = 118 } #Gibraltar
 				OR = {
@@ -14009,19 +14009,19 @@ country_event = { #Releasing Spain (if not POR)
 				add_state_core = PREV
 				transfer_state = PREV
 			}
-			}
-			set_temp_variable = { tag_to_release = SPR }
+		}
+		set_temp_variable = { tag_to_release = SPR }
 		}
 		
 		puppet_released_tag = yes
 		hidden_effect = {
-			if = { 
-				limit = { has_socialist_government = yes } 
+		if = { 
+			limit = { has_socialist_government = yes } 
 				SPR = { 
 					set_cosmetic_tag = SPR_republic
 					load_focus_tree = generic_focus 
 				}
-			}
+		}
 			if = {
 				limit = { has_socialist_government = no }
 				SPR_released_after_annexation_full_effect = yes
@@ -14066,7 +14066,7 @@ country_event = { #Pick spanish HOS
 				drop_cosmetic_tag = yes
 			}
 			create_country_leader = {
-				name = "Frederick I"
+				name = "Фредерик I"
 				picture = "gfx/leaders/SPR/Friedrich_Viktor_von_Hohenzollern.png"
 				expire = "1.1.1"
 				ideology = autdem_christian_democracy_subtype
@@ -14079,7 +14079,7 @@ country_event = { #Pick spanish HOS
 		}
 	}
 
-	option = { #Jaime I
+	option = { #Хайме I
 
 		name = annex.74.b
 		ai_chance = {
@@ -14094,7 +14094,7 @@ country_event = { #Pick spanish HOS
 				drop_cosmetic_tag = yes
 			}
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JAIME_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				expire = "1.1.1"
@@ -14123,7 +14123,7 @@ country_event = { #Pick spanish HOS
 				drop_cosmetic_tag = yes
 			}
 			create_country_leader = {
-				name = "Javier I"
+				name = "Хавьер I"
 				picture = "gfx/leaders/CAR/Portrait_Javier_I.png"
 				expire = "1.1.1"
 				ideology = autdem_christian_democracy_subtype
@@ -14240,14 +14240,14 @@ country_event = { #fate of Germany
 				}
 				country_event = part.16
 			}
-		}
+			}
 		if = {
 			limit = {
 				tag = JAP
 			}
-			GRU = {
+				GRU = {
 				create_country_leader = {
-					name = "Friedrich Max Trautz"
+					name = "Фридрих Макс Траутц"
 					picture = "gfx/leaders/GER/Portrait_Germany_Friedrich_Max_Trautz.png"
 					expire = "1.1.1"
 					ideology = authdem_national_conservative_subtype
@@ -14325,7 +14325,7 @@ country_event = { #fate of Germany
 			}
 			GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
-		}
+			}
 			if = {
 				limit = {
 					RUS_russian_monarch = yes
@@ -14403,14 +14403,14 @@ country_event = { #fate of Germany
 			GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		}
-		}
-		if = {
+			}
+			if = {
 			limit = {
 				tag = JAP
 			}
-			GRU = {
+				GRU = {
 				create_country_leader = {
-					name = "Friedrich Max Trautz"
+					name = "Фридрих Макс Траутц"
 					picture = "gfx/leaders/GER/Portrait_Germany_Friedrich_Max_Trautz.png"
 					expire = "1.1.1"
 					ideology = authdem_national_conservative_subtype
@@ -14473,7 +14473,7 @@ country_event = { #fate of Germany
 			GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		}
-		}
+			}
 	}
 	option = { #GROSSDEUTSCHLAND
 		trigger = {
@@ -15388,7 +15388,7 @@ country_event = { #The Annexation of Egypt
 				NOT = { country_exists = SUD }
 				ABK = {
 					has_country_leader = {
-						name = "Abash Shabaan"
+						name = "Шаабан Абаш"
 						ruling_only = yes
 					}
 				}
@@ -15402,7 +15402,7 @@ country_event = { #The Annexation of Egypt
 				limit = { has_government = totalist }
 				EGY = {
 					create_country_leader = {
-						name = "Shuhdi Atiya ash-Shafi"
+						name = "Шухди Атия аш-Шафи"
 						picture = "gfx/leaders/EGY/Portrait_Egypt_Shuhdi_Atiya.png"
 						expire = "1.1.1"
 						ideology = authcom_subtype
@@ -15441,7 +15441,7 @@ country_event = { #The Annexation of Egypt
 				NOT = { country_exists = SUD }
 				ABK = {
 					has_country_leader = {
-						name = "Abash Shabaan"
+						name = "Шаабан Абаш"
 						ruling_only = yes
 					}
 				}
@@ -15455,7 +15455,7 @@ country_event = { #The Annexation of Egypt
 				limit = { has_government = totalist }
 				EGY = {
 					create_country_leader = {
-						name = "Shuhdi Atiya ash-Shafi"
+						name = "Шухди Атия аш-Шафи"
 						picture = "gfx/leaders/EGY/Portrait_Egypt_Shuhdi_Atiya.png"
 						expire = "1.1.1"
 						ideology = authcom_subtype
@@ -15482,7 +15482,7 @@ country_event = { #The Annexation of Egypt
 				NOT = { country_exists = SUD }
 				ABK = {
 					has_country_leader = {
-						name = "Abash Shabaan"
+						name = "Шаабан Абаш"
 						ruling_only = yes
 					}
 				}
@@ -15514,7 +15514,7 @@ country_event = { #The Annexation of Egypt
 				limit = { has_government = totalist }
 				EGY = {
 					create_country_leader = {
-						name = "Shuhdi Atiya ash-Shafi"
+						name = "Шухди Атия аш-Шафи"
 						picture = "gfx/leaders/EGY/Portrait_Egypt_Shuhdi_Atiya.png"
 						expire = "1.1.1"
 						ideology = authcom_subtype
@@ -15544,7 +15544,7 @@ country_event = { #The Annexation of Egypt
 		tag = UKR
 		tag = WHR
 		RUS_russian_monarch = yes
-		has_country_leader = { name = "Sergius" ruling_only = yes }
+		has_country_leader = { name = "Патриарх Сергий" ruling_only = yes }
 			}
 		}
 		ai_chance = {
@@ -15566,7 +15566,7 @@ country_event = { #The Annexation of Egypt
 		EGY = {
 		set_cosmetic_tag = EGY_Coptic
 		create_country_leader = {
-					name = "John XIX"
+					name = "Иоанн XIX"
 					desc = ""
 					picture = "gfx/leaders/EGY/Portrait_EGY_John_XIX.png"
 					expire = "1.1.1"
@@ -15718,26 +15718,26 @@ country_event = { #The Annexation of Persia
 				PER = { 
 					drop_cosmetic_tag = yes 
 					create_country_leader = {
-				    name = "Hassan Taqizādeh"
+				    name = "Сейид Тагизаде"
 					desc = "POLITICS_SAYYED_HASAN_TAQIZADEH_DESC"
 				    picture = "gfx/leaders/PER/Portrait_Persia_Sayyed_Hasan_Taqizadeh.png"
 				    expire = "1.1.1"
 				    ideology = socdem_radical_progressivism_subtype
 			        }
 			        create_country_leader = {
-				    name = "Mohammad-Sadegh Tabatabaei"
+				    name = "Мохаммад-Садег Табатабаи"
 				    picture = "gfx/leaders/PER/Portrait_Persia_Mohammad_Sadegh_Tabatabaei.png"
 				    expire = "1.1.1"
 				    ideology = jadidism_subtype
 			        }
 			        create_country_leader = {
-				    name = "Abdolhossein Teymūrtāsh"
+				    name = "Абдолхоссейн Теймурташ"
 				    picture = "gfx/leaders/PER/Portrait_Persia_Abdolhossein_Teymourtash.png"
 				    expire = "1.1.1"
 				    ideology = marlib_national_liberalism_subtype
 			        }
 			        create_country_leader = {
-				    name = "Hassan Modarres"
+				    name = "Хасан Модаррес"
 				    picture = "gfx/leaders/PER/Portrait_Persia_Hassan_Modarres.png"
 				    expire = "1.1.1"
 				    ideology = soccon_islamism_subtype
@@ -16007,7 +16007,7 @@ country_event = { #The Annexation of Armenia
 		hidden_effect = {
             ARM = {			
 				create_country_leader = {
-					name = "Hayk Asatryan"
+					name = "Айк Асатрян"
 					picture = "gfx/leaders/ARM/Portrait_Armenia_Hayk_Asatryan.png"
 					expire = "1.1.1"
 					ideology = tseghakronism_subtype
@@ -16343,38 +16343,38 @@ country_event = { #The Annexation of India
 						}
 					}
 					create_country_leader = {
-						name = "Ganga Singh"
+						name = "Ганга Сингх"
 						picture = "gfx/leaders/DEH/Portrait_DEH_Maharaja_Ganga_Singh.png"
 						expire = "1.1.1"
 						ideology = pataut_oligarchy_subtype
 					}
 				}
 				create_country_leader = {
-					name = "Ganga Singh"
+					name = "Ганга Сингх"
 					picture = "gfx/leaders/DEH/Portrait_DEH_Maharaja_Ganga_Singh.png"
 					expire = "1.1.1"
 					ideology = oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Ganga Singh"
+					name = "Ганга Сингх"
 					picture = "gfx/leaders/DEH/Portrait_DEH_Maharaja_Ganga_Singh.png"
 					expire = "1.1.1"
 					ideology = soccon_oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "J. R. D. Tata"
+					name = "Джехангир Ратанджи Дадабхой Тата"
 					picture = "gfx/leaders/DEH/Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.png"
 					expire = "1.1.1"
 					ideology = humanistic_capitalism_subtype
 				}
 				create_country_leader = {
-					name = "Atul Chandra Chatterjee"
+					name = "Атул Чандра Чаттерджи"
 	                picture = "gfx/leaders/DEH/Portrait_DEH_Sir_Atul_Chandra_Chatterjee.png"
 	                expire = "1.1.1"
 	                ideology = centrist_subtype
 				}
 				create_country_leader = {
-					name = "Muhammad Ali Jinnah"
+					name = "Мухаммад Али Джинна"
 					picture = "gfx/leaders/DEH/Portrait_DEH_Muhammad_Ali_Jinnah.png"
 					expire = "1.1.1"
 					ideology = socdem_islamism_subtype
@@ -16429,13 +16429,13 @@ country_event = { #The Annexation of India
 					tag = SPR
 				}
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Jean III" }
-				has_country_leader = { ruling_only = yes name = "Henri VI" }
-				has_country_leader = { ruling_only = yes name = "Alfonso XIII" }
-				has_country_leader = { ruling_only = yes name = "Juan III" }
-				has_country_leader = { ruling_only = yes name = "Jaime I" }
-				has_country_leader = { ruling_only = yes name = "Alfonso XIV" }
-				has_country_leader = { ruling_only = yes name = "Gonzalo I" }
+				has_country_leader = { ruling_only = yes name = "Жан III" }
+				has_country_leader = { ruling_only = yes name = "Генри VI" }
+				has_country_leader = { ruling_only = yes name = "Альфонсо XIII" }
+				has_country_leader = { ruling_only = yes name = "Хуан III" }
+				has_country_leader = { ruling_only = yes name = "Хайме I" }
+				has_country_leader = { ruling_only = yes name = "Альфонсо XIV" }
+				has_country_leader = { ruling_only = yes name = "Гонсало I" }
 				}
 			}
 		}
@@ -16507,13 +16507,13 @@ country_event = { #The Annexation of Afghanistan
 		ai_chance = {
 			factor = 99
 		}
-		
+
 		set_temp_variable = { tag_to_release = AFG }
 		release_targeted_tag = yes
 		hidden_effect = {
 			AFG = {
 				create_country_leader = {
-					name = "Ghulam Muhammad Ghobar"
+					name = "Гулам Мухаммад Гобар"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Ghulam_Muhammad_Ghobar.png"
 					expire = "1.1.1"
@@ -16521,7 +16521,7 @@ country_event = { #The Annexation of Afghanistan
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Abdul Rauf Benawa"
+					name = "Абдул Рауф Бенава"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Abdul_Rauf_Benawa.png"
 					expire = "1.1.1"
@@ -16529,7 +16529,7 @@ country_event = { #The Annexation of Afghanistan
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Abdul Hadi Dawi"
+					name = "Абдул Хади Дави"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Abdul_Hadi_Dawi.png"
 					expire = "1.1.1"
@@ -16537,7 +16537,7 @@ country_event = { #The Annexation of Afghanistan
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Muhammad Iqbal"
+					name = "Мухаммад Икбал"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Muhammad_Iqbal.png"
 					expire = "1.1.1"
@@ -16545,7 +16545,7 @@ country_event = { #The Annexation of Afghanistan
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Inayatullah Khan"
+					name = "Инаятулла Хан"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Inayatullah_Khan_Suit.png"
 					expire = "1.1.1"
@@ -16553,7 +16553,7 @@ country_event = { #The Annexation of Afghanistan
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Inayatullah Khan"
+					name = "Инаятулла-хан"
 					desc = ""
 					picture = "gfx/leaders/AFG/Portrait_AFG_Inayatullah_Khan_Suit.png"
 					expire = "1.1.1"
@@ -16570,7 +16570,7 @@ country_event = { #The Annexation of Afghanistan
 						name = AFG_natrev_party
 					}
 					create_country_leader = {
-						name = "Mohammad Daoud Khan"
+						name = "Мухаммед Дауд-хан"
 						desc = "POLITICS_DAOUD_KHAN_DESC"
 						picture = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Daoud_Khan.png"
 						expire = "1.1.1"
@@ -16603,7 +16603,7 @@ country_event = { #The Annexation of Afghanistan
 				}
 				AFG = {
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16611,7 +16611,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16619,7 +16619,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16627,7 +16627,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16635,7 +16635,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16643,7 +16643,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16651,7 +16651,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16659,7 +16659,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16667,7 +16667,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16675,7 +16675,7 @@ country_event = { #The Annexation of Afghanistan
 						traits = { }
 					}
 					create_country_leader = {
-						name = "Abdulrahman Mahmudi"
+						name = "Абдулрахман Махмуди"
 						desc = ""
 						picture = "gfx/leaders/AFG/Portrait_AFG_Abdulrahman_Mahmudi.png"
 						expire = "1.1.1"
@@ -16796,7 +16796,7 @@ country_event = { #The Annexation of Afghanistan
 		set_temp_variable = { ROOT.tag_to_release = event_target:turkestan_ally_target }
 		transfer_territory_from_core_regions_and_add_cores = yes
 		custom_effect_tooltip = TRK_give_lands_to_ally
-	}	
+	}
 	option = { #occupy
 
 		name = annex.occupation
@@ -17429,7 +17429,7 @@ country_event = { #The Conquest of Bohemia
 			CZE = {
 				if = {
 					limit = {
-						has_country_leader = { name = "Johann II zu Schwarzenberg" ruling_only = yes }
+						has_country_leader = { name = "Иоганн II цу Шварценберг" ruling_only = yes }
 					}
 				}
 				remove_ideas = AUS_part_of_the_Empire
@@ -17478,7 +17478,7 @@ country_event = { #The Conquest of Bohemia
 						popularity = 0.15
 					}
 					create_country_leader = {
-						name = "Adolph I"
+						name = "Адольф I"
 						desc = "POLITICS_ADOLF_SCHWARZENBERG_DESC"
 						picture = "gfx/leaders/CZE/CZE_Adolph_Schwarzenberg.png"
 						expire = "1.1.1"
@@ -17499,7 +17499,7 @@ country_event = { #The Conquest of Bohemia
 						popularity = 0.15
 					}
 					create_country_leader = {
-						name = "Maximilian I"
+						name = "Максимилиан I"
 						desc = "POLITICS_MAX_LOBKOWICZ_DESC"
 						picture = "gfx/leaders/CZE/CZE_Max_Lobkowicz.png"
 						expire = "1.1.1"
@@ -17622,7 +17622,7 @@ country_event = { #The Conquest of Bohemia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-				set_cosmetic_tag = CZE_czechoslavakia
+			set_cosmetic_tag = CZE_czechoslavakia
 			}
 			set_country_flag = was_puppeted
 		}
@@ -17643,7 +17643,7 @@ country_event = { #The Conquest of Bohemia
 						popularity = 0.15
 					}
 					create_country_leader = {
-						name = "Adolph I"
+						name = "Адольф I"
 						desc = "POLITICS_ADOLF_SCHWARZENBERG_DESC"
 						picture = "gfx/leaders/CZE/CZE_Adolph_Schwarzenberg.png"
 						expire = "1.1.1"
@@ -17664,7 +17664,7 @@ country_event = { #The Conquest of Bohemia
 						popularity = 0.15
 					}
 					create_country_leader = {
-						name = "Maximilian I"
+						name = "Максимилиан I"
 						desc = "POLITICS_MAX_LOBKOWICZ_DESC"
 						picture = "gfx/leaders/CZE/CZE_Max_Lobkowicz.png"
 						expire = "1.1.1"
@@ -17741,8 +17741,8 @@ country_event = { #The Conquest of Bohemia
 		add_to_temp_array = { target_cores_to_release = SVK }
 		release_targeted_tag_from_core_regions_and_add_cores = yes
 		var:tag_to_release = {
-			if = {
-				limit = {
+		if = {
+			limit = {
 					NOT = { 
 						has_cosmetic_tag = CZE_czechoslavakia 
 						has_cosmetic_tag = CZE_hussite_expasion 
@@ -17774,12 +17774,12 @@ country_event = { #The Conquest of Bohemia
 						has_cosmetic_tag = CZE_agrarian_europe
 						has_cosmetic_tag = CZE_rusmon_puppet
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
-					}
+			}
 				}
 				set_cosmetic_tag = CZE_czechoslavakia
 			}
 			set_country_flag = was_puppeted
-		}
+		}	
 	}
 	option = { #Give to Austria
 		name = annex.122.d
@@ -18013,7 +18013,7 @@ country_event = { #Fate of Ukraine
 		}
 		set_temp_variable = { tag_to_release = UKR }
 		release_targeted_tag = yes
-		UKR_setup_puppet = yes
+		UKR_setup_puppet = yes	
 	}
 	option = { #Puppet
 		name = annex.123.b
@@ -18115,19 +18115,19 @@ country_event = { #Fate of Ukraine
 			}
 			if = {
 				limit = {
-					220 = { has_dynamic_modifier = { modifier = SOV_ukrainian_government } }
-				}
-				220 = {
-					remove_dynamic_modifier = { modifier = SOV_ukrainian_government }
-				}
-				every_owned_state = {
-					limit = {
-							is_ukraine = yes
-					}
-					add_dynamic_modifier = { modifier = SOV_ukrainian_government }
-				}	
+				220 = { has_dynamic_modifier = { modifier = SOV_ukrainian_government } }
 			}
-		}
+			220 = {
+				remove_dynamic_modifier = { modifier = SOV_ukrainian_government }
+			}
+			every_owned_state = {
+				limit = {
+							is_ukraine = yes
+				}
+				add_dynamic_modifier = { modifier = SOV_ukrainian_government }
+				}	
+			}	
+		}		
 		occupy_large_country = yes
 		recheck_annexations = yes
 	}
@@ -18476,7 +18476,7 @@ country_event = { #Fate of Japan
 		if = {
 			limit = {
 				OR = {
-					tag = GER
+				tag = GER
 					tag = GEX
 					tag = GEA
 					tag = MAF
@@ -18484,7 +18484,7 @@ country_event = { #Fate of Japan
 			}
 			JAP = {
 				create_country_leader = {
-					name = "Hiroshi Ōshima"
+					name = "Хироси Осима"
 					picture = "gfx/leaders/JAP/Portrait_JAP_Hiroshi_Oshima_German.png"
 					expire = "1.1.1"
 					ideology = junta_subtype
@@ -19061,7 +19061,7 @@ country_event = { #Fate of Bolivia
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Bonifacio I"
+					name = "Бонифаций I"
 					desc = "POLITICS_BONIFACIO_DESC"
 					picture = "gfx/leaders/BOL/Portrait_Bolivia_Bonifacio_I.png"
 					expire = "1.1.1"
@@ -19103,15 +19103,15 @@ country_event = { #Fate of Bolivia
 				tag = MEX
 				OR = {
 					has_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Nicolás Rodríguez Carrasco"
+						name = "Николас Родригес Карраско"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Itzcoatl II"
+						name = "Ицкоатль II"
 						ruling_only = yes
 						}
 					}
@@ -19275,15 +19275,15 @@ country_event = { #Fate of Peru
 						tag = MEX
 						OR = {
 							has_country_leader = {
-								name = "Moctezuma III"
+								name = "Монтесума III"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Nicolás Rodríguez Carrasco"
+								name = "Николас Родригес Карраско"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Itzcoatl II"
+								name = "Ицкоатль II"
 								ruling_only = yes
 							}
 						}
@@ -19314,15 +19314,15 @@ country_event = { #Fate of Peru
 					tag = MEX
 					OR = {
 						has_country_leader = {
-							name = "Moctezuma III"
+							name = "Монтесума III"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Nicolás Rodríguez Carrasco"
+							name = "Николас Родригес Карраско"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Itzcoatl II"
+							name = "Ицкоатль II"
 							ruling_only = yes
 						}
 					}
@@ -19365,7 +19365,7 @@ country_event = { #Fate of Peru
 					national_populist = 0
 				}
 				create_country_leader = {
-					name = "Pachacutec II"
+					name = "Пачакутек II"
 					desc = "POLITICS_BUSTIOS_DESC"
 					picture = "gfx/leaders/PRU/Portrait_PRU_Pahacutec.png"
 					expire = "1.1.1"
@@ -19503,7 +19503,7 @@ country_event = { #Fate of Ecuador
 		}
 		ECU = {
 		create_country_leader = {
-					name = "Nela Martínez Espinosa"
+					name = "Нела Мартинес"
 					desc = "POLITICS_NELA_MARTINEZ_DESC"
 					picture = "gfx/leaders/ECU/Portrait_Ecuador_Nela_Martinez.png"
 					expire = "1.1.1"
@@ -19970,12 +19970,12 @@ country_event = { #Fate of Haiti
 					has_government = paternal_autocrat
 				}
 				HAI = {
-					has_country_leader = { name = "John Russell" ruling_only = yes }
+					has_country_leader = { name = "Джон Расселл" ruling_only = yes }
 				}
 			}
 			HAI = {
 			create_country_leader = {
-			name = "Franck Lavaud"
+			name = "Франк Лаво"
 			desc = "POLITICS_FRANCK_LAVAUD_DESC"
 			picture = "gfx/leaders/HAI/Portrait_Haiti_Frank_Lavaud.png"
 			expire = "1.1.1"
@@ -19994,13 +19994,13 @@ country_event = { #Fate of Haiti
 				has_government = paternal_autocrat
 				NOT = {
 					HAI = {
-						has_country_leader = { name = "John Russell" ruling_only = yes }
+						has_country_leader = { name = "Джон Расселл" ruling_only = yes }
 					}
 				}
 			}
 			HAI = {
 			create_country_leader = {
-			name = "Paul Magloire"
+			name = "Поль Маглуар"
 			desc = "POLITICS_PAUL_MAGLOIRE_DESC"
 			picture = "gfx/leaders/Hai/Portrait_Haiti_Paul_Magloire.png"
 			expire = "1.1.1"
@@ -20095,7 +20095,7 @@ country_event = { #Fate of the Dominican Republic
 				}
 				DOM = {
 					create_country_leader = {
-						name = "Manuel Troncoso Concha"
+						name = "Мануэль Тронкосо Конча"
 						desc = "POLITICS_MANUEL_CONCHA_DESC"
 						picture = "gfx/leaders/DOM/Portrait_Manuel_Troncoso_Concha.png"
 						expire = "1.1.1"
@@ -20281,16 +20281,16 @@ country_event = { #Fate of Mexico
 				tag = COR
 			}
 			MEX = {
-				create_country_leader = {# Juan Andreu Almazán
-					name = "Juan Andreu Almazán"
+				create_country_leader = {# Хуан Андреу Альмасан
+					name = "Хуан Андреу Альмасан"
 					desc = "POLITICS_JUAN_ALMAZAN_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 					expire = "1.1.1"
 					ideology = authdem_national_conservative_subtype
 					traits = {}
 				}
-				create_country_leader = {# Juan Andreu Almazán
-					name = "Juan Andreu Almazán"
+				create_country_leader = {# Хуан Андреу Альмасан
+					name = "Хуан Андреу Альмасан"
 					desc = "POLITICS_JUAN_ALMAZAN_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 					expire = "1.1.1"
@@ -20332,16 +20332,16 @@ country_event = { #Fate of Mexico
 				tag = COR
 			}
 			MEX = {
-				create_country_leader = {# Juan Andreu Almazán
-					name = "Juan Andreu Almazán"
+				create_country_leader = {# Хуан Андреу Альмасан
+					name = "Хуан Андреу Альмасан"
 					desc = "POLITICS_JUAN_ALMAZAN_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 					expire = "1.1.1"
 					ideology = authdem_national_conservative_subtype
 					traits = {}
 				}
-				create_country_leader = {# Juan Andreu Almazán
-					name = "Juan Andreu Almazán"
+				create_country_leader = {# Хуан Андреу Альмасан
+					name = "Хуан Андреу Альмасан"
 					desc = "POLITICS_JUAN_ALMAZAN_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 					expire = "1.1.1"
@@ -20448,7 +20448,7 @@ country_event = { #Fate of Mexico
 							}
 						}
 						create_country_leader = {
-							name = "María I"
+							name = "Мария I"
 							desc = "POLITICS_DONA_ITURBIDE_DESC"
 							picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 							expire = "1.1.1"
@@ -20457,7 +20457,7 @@ country_event = { #Fate of Mexico
 						}
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20465,7 +20465,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20473,7 +20473,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20481,7 +20481,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20489,7 +20489,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20497,7 +20497,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20505,7 +20505,7 @@ country_event = { #Fate of Mexico
 						female = yes
 					}
 					create_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						desc = "POLITICS_DONA_ITURBIDE_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 						expire = "1.1.1"
@@ -20525,7 +20525,7 @@ country_event = { #Fate of Mexico
 				set_country_flag = MEX_COUNTER_Monarchy_Restored
 				hidden_effect = {
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20533,7 +20533,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20541,7 +20541,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20549,7 +20549,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20557,7 +20557,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20565,7 +20565,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20573,7 +20573,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20610,7 +20610,7 @@ country_event = { #Fate of Mexico
 		}
 		trigger = {
 			OR = {
-			tag = GER
+				tag = GER
 				AND = {
 					tag = TXS
 					has_completed_focus = TXS_texan_kaiserreich
@@ -20644,8 +20644,8 @@ country_event = { #Fate of Mexico
 				}
 				set_cosmetic_tag = MEX_PORFIRIO
 				hidden_effect = {
-					create_country_leader = {# Emergency Council
-						name = "Félix Díaz Prieto"
+					create_country_leader = {# Чрезвычайный совет
+						name = "Феликс Диас Прието"
 						desc = "POLITICS_FELIX_DIAZ_DESC"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Felix_Diaz_Prieto.png"
 						expire = "1.1.1"
@@ -20681,7 +20681,7 @@ country_event = { #Fate of Mexico
 		}
 		trigger = {
 			OR = {
-			tag = GER
+				tag = GER
 				AND = {
 					tag = TXS
 					has_completed_focus = TXS_texan_kaiserreich
@@ -20717,7 +20717,7 @@ country_event = { #Fate of Mexico
 				set_country_flag = MEX_COUNTER_Monarchy_Restored
 				hidden_effect = {
 					create_country_leader = {
-						name = "Porfirio I"
+						name = "Порфирио I"
 						desc = "POLITICS_PORFIRIO_DIAZ_ORTEGA"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Porfirio_Diaz_Ortega.png"
 						expire = "1.1.1"
@@ -20768,7 +20768,7 @@ country_event = { #Fate of Mexico
 						tag = BRA
 						tag = ALA
 						tag = FOP
-					tag = YUC
+						tag = YUC
 					}
 					has_government = national_populist
 				}
@@ -20799,7 +20799,7 @@ country_event = { #Fate of Mexico
 				set_country_flag = MEX_COUNTER_Monarchy_Restored
 				hidden_effect = {
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20807,7 +20807,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20815,7 +20815,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20823,7 +20823,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20831,7 +20831,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20839,7 +20839,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20847,7 +20847,7 @@ country_event = { #Fate of Mexico
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Moctezuma III"
+						name = "Монтесума III"
 						desc = "POLITICS_DON_LUIS"
 						picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 						expire = "1.1.1"
@@ -20903,7 +20903,7 @@ country_event = { #Fate of Mexico
 				factor = 0
 				has_socialist_government = no
 				NOT = {
-				has_government = national_populist
+					has_government = national_populist
 					has_government = paternal_autocrat
 					has_government = authoritarian_democrat
 				}
@@ -21084,7 +21084,7 @@ country_event = { #Fate of Galicia
 				set_cosmetic_tag = GAL_duchy_of_krakow
 				RUS_install_puppet_monarchy = yes
 			}
-		}
+		}	
 		else_if = {
 			limit = {
 				ROOT = { has_country_flag = soviet_russia_restored }
@@ -21207,7 +21207,7 @@ country_event = { #Fate of Galicia
 			OR = {
 				10 = { is_claimed_by = ROOT } #== RUS has annexed Poland
 				AND = {
-					OR = {
+			OR = {
 				has_completed_focus = RUS_Panslavist_Internationalism
 				has_completed_focus = RUS_Panslavist
 					}
@@ -21293,14 +21293,14 @@ country_event = { #Fate of Belarus
 				}
                 WHR = {
 					create_country_leader = {
-						name = "Usievalad Ihnatoŭski"
+						name = "Усевалад Ігнатоўскі"
 						desc = "POLITICS_USIEVALAD_IHNATOUSKI_DESC"
 						picture = "gfx/leaders/WHR/Portrait_WHR_Usevalad_Ihnatouski.png"
 						expire = "1.1.1"
 						ideology = national_communism_subtype
 					}
 					create_country_leader = {
-						name = "Branisłaŭ Taraškievič"
+						name = "Браніслаў Тарашкевіч"
 						desc = "POLITICS_BRANISLAU_TARASKIEVIC_DESC_RADSOC"
 						picture = "gfx/leaders/WHR/Portrait_WHR_Branislau_Taraskievic.png"
 						expire = "1.1.1"
@@ -21769,7 +21769,7 @@ country_event = { #Fate of Slovakia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-				set_cosmetic_tag = CZE_czechoslavakia
+			set_cosmetic_tag = CZE_czechoslavakia
 			}
 		}
 	}
@@ -21879,7 +21879,7 @@ country_event = { #Fate of Slovakia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-				set_cosmetic_tag = CZE_czechoslavakia
+			set_cosmetic_tag = CZE_czechoslavakia
 			}
 		}
 	}	
@@ -22862,7 +22862,7 @@ country_event = { #Albania Liberation
 
 		ALB = {
 			create_country_leader = {
-				name = "Wilhelm zu Wied"
+				name = "Вильгельм цу Вид"
 				desc = "POLITICS_WILLIAM_WIED_DESC"
 				picture = "gfx/leaders/ALB/Portrait_ALB_Wilhelm_Wied.png"
 				expire = "1.1.1"
@@ -23229,12 +23229,12 @@ country_event = { #Netherlands Liberation
 				factor = 4
 				NOT = { has_event_target = belgium }
 						}
-					}
+		}
 		trigger = {
 			NOT = { is_in_faction_with = DEI }
 			is_germany_or_splinter_tag = yes
 			978 = { is_valid_annexation_state = yes } #Limburg
-				}
+					}
 		add_state_claim = 978 #Limburg
 		set_temp_variable = { tag_to_release = HOL }
 		release_targeted_tag = yes
@@ -23242,20 +23242,20 @@ country_event = { #Netherlands Liberation
 		country_event = {
 			id = hol.4
 			days = 2
-			}
-			}
+					}
+				}
 	option = { #Annex Limburg, give BEL its claims, liberate the rest
 		name = annex.154.c
 		ai_chance = {
 			base = 80
-		}
+					}
 		trigger = {
 			NOT = { is_in_faction_with = DEI }
 			has_event_target = belgium
 			is_germany_or_splinter_tag = yes
 			978 = { is_valid_annexation_state = yes } #Limburg
 			979 = { is_valid_annexation_state = yes } #Zeeuws-Vlaanderen
-					}
+				}
 		add_state_claim = 978 #Limburg
 		set_temp_variable = { tag_to_release = event_target:belgium }
 		979 = {
@@ -23270,7 +23270,7 @@ country_event = { #Netherlands Liberation
 		if = {
 			limit = { tag = GER }
 			country_event = hol.4
-					}
+			}
 				}
 	option = { #Annex Limburg + Zeeuws-Vlaanderen, liberate the rest
 		name = annex.154.d
@@ -23466,48 +23466,48 @@ country_event = { #Denmark Liberation
 						date < 1947.05.20
 					}
 					create_country_leader = {
-						name = "Frits Clausen"
+						name = "Фриц Клаузен"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frits_Clausen.png"
 						expire = "1.1.1"
 						ideology = volkism_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
 						ideology = absolute_monarchy_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
 						ideology = prussian_constitutionalism_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
 						ideology = soccon_liberal_conservative_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
 						ideology = marlib_agrarianism_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
 						ideology = soclib_radical_progressivism_subtype
 					}
 					create_country_leader = {
-						name = "Christian X"
+						name = "Кристиан X"
 						desc = "CHRISTIAN_X_DESC"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.png"
 						expire = "1.1.1"
@@ -23524,43 +23524,43 @@ country_event = { #Denmark Liberation
 						date > 1947.05.20
 					}
 					create_country_leader = {
-						name = "Frits Clausen"
+						name = "Фриц Клаузен"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frits_Clausen.png"
 						expire = "1.1.1"
 						ideology = volkism_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = absolute_monarchy_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = prussian_constitutionalism_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = soccon_liberal_conservative_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = marlib_agrarianism_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = soclib_radical_progressivism_subtype
 					}
 					create_country_leader = {
-						name = "Frederick IX"
+						name = "Фредерик IX"
 						picture = "gfx/leaders/DEN/Portrait_Denmark_Frederick.png"
 						expire = "1.1.1"
 						ideology = nordic_model_subtype
@@ -23607,7 +23607,7 @@ country_event = { #Denmark Liberation
 			DEN = {
 				DEN_create_republic = yes
 				create_country_leader = {
-					name = "Max Arildskov"
+					name = "Макс Арилдсков"
 					picture = "gfx/leaders/DEN/Portrait_Denmark_Max_Arildskov.png"
 					expire = "1.1.1"
 					ideology = savinkovism_subtype
@@ -23694,7 +23694,7 @@ country_event = { #Fate of Portugal
 				var:tag_to_release = {
 					set_country_flag = POR_Maria_Ana
 					create_country_leader = {
-						name = "Maria Ana"
+						name = "Мария Ана"
 						desc = "POLITICS_MARIA_PUPPET_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Ana.png"
 						expire = "1.1.1"
@@ -23702,7 +23702,7 @@ country_event = { #Fate of Portugal
 						female = yes
 					}
 					create_country_leader = {
-						name = "Maria Ana"
+						name = "Мария Ана"
 						desc = "POLITICS_MARIA_PUPPET_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Ana.png"
 						expire = "1.1.1"
@@ -23710,7 +23710,7 @@ country_event = { #Fate of Portugal
 						female = yes
 					}
 					create_country_leader = {
-						name = "Maria Ana"
+						name = "Мария Ана"
 						desc = "POLITICS_MARIA_PUPPET_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Ana.png"
 						expire = "1.1.1"
@@ -23726,7 +23726,7 @@ country_event = { #Fate of Portugal
 				var:tag_to_release = {
 					set_country_flag = POR_Maria_Adelaide
 					create_country_leader = {
-						name = "Maria III"
+						name = "Мария III"
 						desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
 						expire = "1.1.1"
@@ -23734,7 +23734,7 @@ country_event = { #Fate of Portugal
 						female = yes
 					}
 					create_country_leader = {
-						name = "Maria III"
+						name = "Мария III"
 						desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
 						expire = "1.1.1"
@@ -23742,7 +23742,7 @@ country_event = { #Fate of Portugal
 						female = yes
 					}
 					create_country_leader = {
-						name = "Maria III"
+						name = "Мария III"
 						desc = "POLITICS_MARIA_ADLEAIDE_BRAGANCA_DESC"
 						picture = "gfx/leaders/POR/Portrait_Portugal_Maria_Adelaide.png"
 						expire = "1.1.1"
@@ -23884,43 +23884,43 @@ country_event = { #Fate of France
 		hidden_effect = {
 			FRP = {
 				create_country_leader = {
-					name = "Eugène Frot"
+					name = "Эжен Фрот"
 					picture = "gfx/leaders/FRP/Portrait_France_Eugene_Frot.png"
 					expire = "1.1.1"
 					ideology = authoritarian_social_democracy_subtype 
 				}
 				create_country_leader = {
-					name = "Maurice Papon"
+					name = "Морис Папон"
 					picture = "gfx/leaders/FRP/Portrait_France_Maurice_Papon.png"
 					expire = "1.1.1"
 					ideology = radical_liberalism_subtype 
 				}
 				create_country_leader = {
-					name = "Joseph Barthélemy"
+					name = "Жозеф Бартелеми"
 					picture = "gfx/leaders/FRP/Portrait_France_Joseph_Barthelemy.png"
 					expire = "1.1.1"
 					ideology = liberal_conservative_subtype 
 				}
 				create_country_leader = {
-					name = "Jacques Le Roy Ladurie"
+					name = "Жак Леруа Ладюри"
 					picture = "gfx/leaders/FRP/Portrait_France_Jacques_Roy_Ladurie.png"
 					expire = "1.1.1"
 					ideology = soccon_agrarianism_subtype 
 				}
 				create_country_leader = {
-					name = "Henri Dorgères"
+					name = "Анри Доржер"
 					picture = "gfx/leaders/FRP/Portrait_France_Henri_Dorgeres.png"
 					expire = "1.1.1"
 					ideology = authdem_agrarianism_subtype 
 				}
 				create_country_leader = {
-					name = "François Lehideux"
+					name = "Франсуа Лидо"
 					picture = "gfx/leaders/FRP/Portrait_France_Francois_Lehideux.png"
 					expire = "1.1.1"
 					ideology = right_technocracy_subtype 
 				}
 				create_country_leader = {
-					name = "Pierre Costantini"
+					name = "Пьер Костантини"
 					picture = "gfx/leaders/FRP/Portrait_France_Pierre_Costantini.png"
 					expire = "1.1.1"
 					ideology = natpop_bonapartism_subtype 
@@ -23994,7 +23994,7 @@ country_event = { #Fate of France
 			}
 			FRA = {
 				create_country_leader = {
-					name = "Léon Jouhaux"
+					name = "Леон Жуо"
 					desc = "POLITICS_LEON_JOUHAUX_DESC"
 					picture = "gfx/leaders/FRA/Portrait_France_Leon_Jouhaux.png"
 					expire = "1.1.1"
@@ -24002,7 +24002,7 @@ country_event = { #Fate of France
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Daniel Guérin"
+					name = "Даниэль Герен"
 					desc = "POLITICS_DANIEL_GUERIN_DESC"
 					picture = "gfx/leaders/FRA/Portrait_France_Daniel_Guerin.png"
 					expire = "1.1.1"
@@ -24126,14 +24126,14 @@ country_event = { #Fate of France
 					has_completed_focus = SIC_mafia_takeover
 					AND = {
 						tag = LEC
-						has_country_leader = { name = "Jiang Qing" ruling_only = yes }
+						has_country_leader = { name = "Цзян Цин" ruling_only = yes }
 					}
 				}
 			}
 			FRP = {
 				set_cosmetic_tag = FRP_milieu
 				create_country_leader = {
-					name = "Paul Bonnaventur Carbone"
+					name = "Поль Боннавентур Карбон"
 					picture = "gfx/leaders/FRP/Portrait_France_Paul_Carbone.png"
 					expire = "1.1.1"
 					ideology = crime_syndicate_subtype
@@ -24354,7 +24354,7 @@ country_event = { #Fate of France
 				OR = {
 					state = 983
 					state = 14
-					is_core_of = BRI
+				is_core_of = BRI
 				}
 				is_not_claim_or_core_of_ROOT = yes
 			}
@@ -24376,7 +24376,7 @@ country_event = { #Fate of France
 			limit = {
 				OR = {
 					state = 15
-					is_core_of = NRM
+				is_core_of = NRM
 				}
 				is_not_claim_or_core_of_ROOT = yes
 			}
@@ -24398,7 +24398,7 @@ country_event = { #Fate of France
 			limit = {
 				OR = {
 					region = 20 #Southern France
-					is_core_of = OCC
+				is_core_of = OCC
 				}
 				is_not_claim_or_core_of_ROOT = yes
 				NOT = {
@@ -24443,7 +24443,7 @@ country_event = { #Fate of France
 					region = 19 #Northern France
 					region = 164 #Western France
 					state = 20 #Lyonnais
-					is_core_of = FRP
+				is_core_of = FRP
 				}
 				is_not_claim_or_core_of_ROOT = yes
 				NOT = {
@@ -24470,8 +24470,8 @@ country_event = { #Fate of France
 					is_owned_by = ROOT
 					is_claim_or_core_of_ROOT = no
 					NOT = { has_variable = ambition_area_@ROOT }
-				}
-				FRP = { transfer_state = PREV }
+			}
+			FRP = { transfer_state = PREV }
 			}
 		}
 
@@ -24487,7 +24487,7 @@ country_event = { #Fate of France
 			BRI = {
 				transfer_technology = yes
 			}
-			NRM = {
+						NRM = {
 				transfer_technology = yes
 			}
 			OCC = {
@@ -24803,7 +24803,7 @@ country_event = { #Fate of Britain
 				}
 			}
 			OR = {
-				has_socialist_government = no
+			has_socialist_government = no
 				AND = {
 					has_socialist_government = yes
 					OR = {
@@ -24855,7 +24855,7 @@ country_event = { #Fate of Britain
 		if = {
 			limit = { tag = GER }
 			country_event = part.61
-		}
+	    }
 	}
 	option = { #divide all
 		name = annex.159.a
@@ -25090,7 +25090,7 @@ country_event = { #Fate of Belgium
 				add_state_core = 741 #Ardennes
 				drop_cosmetic_tag = yes
 				create_country_leader = {
-					name = "Belgian Parliament"
+					name = "Бельгийский парламент"
 					desc = "POLITICS_BELGIAN_PARLIMENT_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Parliament.png"
 					expire = "1.1.1"
@@ -25150,35 +25150,35 @@ country_event = { #Fate of Belgium
 			}
 			BEL = {
 				create_country_leader = {
-					name = "Adelbert"
+					name = "Адальберт"
 					desc = "POLITICS_ADALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 					expire = "1.1.1"
 					ideology = social_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Adelbert"
+					name = "Адальберт"
 					desc = "POLITICS_ADALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Adelbert"
+					name = "Адальберт"
 					desc = "POLITICS_ADALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Adelbert"
+					name = "Адальберт"
 					desc = "POLITICS_ADALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Adelbert"
+					name = "Адальберт"
 					desc = "POLITICS_ADALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 					expire = "1.1.1"
@@ -25199,49 +25199,49 @@ country_event = { #Fate of Belgium
 			limit = { is_in_faction_with = ENT }
 			BEL = {
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = national_populist_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = paternal_autocrat_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = authoritarian_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					desc = "POLITICS_ALBERT_I_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 					expire = "1.1.1"
@@ -25361,7 +25361,7 @@ country_event = { #Fate of Flanders
 					name = FLN_Loyalists_party
 				}
 				create_country_leader = {
-					name = "Karel Van België"
+					name = "Карел Ван Белги"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Karel_Van_Vlaanderen.png"
 					expire = "1.1.1"
 					ideology = prussian_constitutionalism_subtype
@@ -25742,8 +25742,8 @@ country_event = { #Fate of Lithuania
 				every_state = {
 					limit = {
 						AND = {
-							is_core_of = LIT
-						    is_core_of = POL
+						is_core_of = LIT
+						is_core_of = POL
 						}
 					}
 					remove_core_of = POL
@@ -25808,7 +25808,7 @@ country_event = { #Fate of Lithuania
 				if = {
 					limit = { LIT = { NOT = { has_government = national_populist } } }
 						create_country_leader = {
-						name = "Augustinas Voldemaras"
+						name = "Аугустинас Вольдемарас"
 						desc = "POLITICS_VOLDEMARAS_DESC"
 						picture = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras.png"
 						expire = "1.1.1"
@@ -26828,14 +26828,14 @@ country_event = { #Fate of Australasia
 					is_owned_by = ROOT
 				}
 			}
-		}	
+		}
 
 		every_owned_state = {
 			limit = {
 				NOT = {
-					state = 284 #North Island
-					state = 723 #South Island
-				}
+							state = 284 #North Island
+							state = 723 #South Island
+						}
 				OR = {
 					is_core_of = AST
 					AND = {
@@ -26928,7 +26928,7 @@ country_event = { #Fate of Australasia
 					set_country_flag = AST_red_focus_move
 					mark_focus_tree_layout_dirty = yes
 					create_country_leader = {
-			            name = "Alexander Mills"
+			            name = "Александр Миллс"
 			            desc = ""
 			            picture = "gfx/leaders/AST/Portrait_AST_Alexander_Mills.png"
 			            expire = "1.1.1"
@@ -26967,10 +26967,10 @@ country_event = { #Fate of Australasia
 				is_not_claim_or_core_of_ROOT = yes
 			}
 		}
-
+		
 		AST = {
 			set_country_flag = AST_no_new_zealand
-		}
+			}
 		
 		AST = {
 			remove_state_core = 284
@@ -27045,7 +27045,7 @@ country_event = { #Fate of Australasia
 					set_country_flag = AST_red_focus_move
 					mark_focus_tree_layout_dirty = yes
 					create_country_leader = {
-			            name = "Alexander Mills"
+			            name = "Александр Миллс"
 			            desc = ""
 			            picture = "gfx/leaders/AST/Portrait_AST_Alexander_Mills.png"
 			            expire = "1.1.1"
@@ -27145,7 +27145,7 @@ country_event = { #Fate of Australasia
 						name = AST_australia_japan_puppet
 					}
 					create_country_leader = {
-						name = "Sadatoshi Tomioka"
+						name = "Садатоси Томиока"
 						picture = "gfx/leaders/AST/Portrait_AST_Sadatoshi_Tomioka.png"
 						expire = "1.1.1"
 						ideology = autocratic_colonial_govt_subtype 
@@ -27265,7 +27265,7 @@ country_event = { #Fate of Australasia
 						name = AST_australia_german_puppet
 					}
 					create_country_leader = {
-						name = "Albert Hahl"
+						name = "Альберт Халь"
 						picture = "gfx/leaders/AST/Portrait_AST_Albert_Hahl.png"
 						expire = "1.1.1"
 						ideology = autocratic_colonial_govt_subtype
@@ -27978,12 +27978,12 @@ country_event = { #Fate of Tibet
 		set_temp_variable = { tag_to_release = TIB }
 		release_targeted_tag = yes
 		hidden_effect = {
-			setup_puppet_leader_TIB = yes
-			TIB = {
-				add_state_claim = 858 #Tawang
-				add_state_claim = 601 #Xikang
-				add_state_claim = 604 #Xining
-			}
+		setup_puppet_leader_TIB = yes
+		TIB = {
+			add_state_claim = 858 #Tawang
+			add_state_claim = 601 #Xikang
+			add_state_claim = 604 #Xining
+		}
 		}
 	}
 
@@ -28668,7 +28668,7 @@ country_event = { #Fate of Xinjiang
 			}
 			ETS = { 
 				clr_country_flag = turkestan_is_potential_government
-			}
+		}
 		}
 		determine_turkestan_ally = yes
 	}
@@ -28830,7 +28830,7 @@ country_event = { #Fate of the Legation Cities
 		hidden_effect = {
 		LEC = {
 			create_country_leader = {
-				name = "Nelson T. Johnson"
+				name = "Нельсон Т. Джонсон"
 				desc = "POLITICS_Nelson_T_Johnson_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Nelson_Trusler_Johnson.png"
 				expire = "1.1.1"
@@ -28840,7 +28840,7 @@ country_event = { #Fate of the Legation Cities
 				}
 			}
 			create_country_leader = {
-				name = "Siegmund Bodenheimer"
+				name = "Зигмунд Боденхаймер"
 				desc = "POLITICS_SIEGMUND_BODENHEIMER_DESC"
 				picture = "gfx/leaders/LEC/Portrait_LEC_Siegmund_Bodenheimer.png"
 				expire = "1.1.1"
@@ -28938,7 +28938,7 @@ country_event = { #Fate of the Legation Cities
 						national_populist = 2
 					}
 					create_country_leader = {
-					name = "Erwin Ritter von Zach"
+					name = "Эрвин Риттер фон Цах"
 					picture = "gfx/leaders/LEC/Portrait_LEC_Erwin_von_Zach.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -29020,7 +29020,7 @@ country_event = { #Fate of the Legation Cities
 						national_populist = 63
 					}
 					create_country_leader = {
-					name = "Francis Arthur Sutton"
+					name = "Фрэнсис Артур Саттон"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Francis_Arthur_Sutton.png"
 					expire = "1.1.1"
 					ideology = klan_nationalism_subtype
@@ -29426,7 +29426,7 @@ country_event = { #Fate of Argentina
 			}
 			ARG = {
 				create_country_leader = {
-					name = "Miguel de Andrea"
+					name = "Мигель де Андреа"
 					desc = "POLITICS_MIGUEL_DE_ANDREA_DESC"
 					picture = "gfx/leaders/Arg/Portrait_Argentine_miguel_de_andrea.png"
 					expire = "1.1.1"
@@ -29505,7 +29505,7 @@ country_event = { #Fate of Argentina
 		var:tag_to_release = {
 			FOP_remove_all_ideas = yes
 			create_country_leader = {
-				name = "Antoine III"
+				name = "Антуан III"
 				picture = "gfx/leaders/FOP/Portrait_FOP_Jacques_Antoine_Bernard.png"
 				expire = "1.1.1"
 				ideology = natpop_tribal_chiefdom_subtype
@@ -29525,7 +29525,7 @@ country_event = { #Fate of Argentina
 		release_targeted_tag = yes
 		var:tag_to_release = {
 			create_country_leader = {
-				name = "Miguel de Andrea"
+				name = "Мигель де Андреа"
 				desc = "POLITICS_MIGUEL_DE_ANDREA_DESC"
 				picture = "gfx/leaders/Arg/Portrait_Argentine_miguel_de_andrea.png"
 				expire = "1.1.1"
@@ -29696,7 +29696,7 @@ country_event = { #Annexation of Korea
 					set_country_flag = the_constitutionalists_win
 				}
 				create_country_leader = {
-					name = "Yi Kang"
+					name = "Ли Кан"
 					desc = "KOR_yi_kang_leader_desc"
 					picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
 					expire = "1.1.1"
@@ -29704,7 +29704,7 @@ country_event = { #Annexation of Korea
 				}
 				
 				create_country_leader = {
-					name = "Yi Kang"
+					name = "Ли Кан"
 					desc = "KOR_yi_kang_leader_desc"
 					picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
 					expire = "1.1.1"
@@ -29728,7 +29728,7 @@ country_event = { #Annexation of Korea
 			set_politics = { ruling_party = totalist }
 			hidden_effect = { 
 				create_country_leader = {
-					name = "Yi Kang"
+					name = "Ли Кан"
 					desc = "KOR_yi_kang_leader_desc"
 					picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
 					expire = "1.1.1"
@@ -30155,7 +30155,7 @@ country_event = { #Fate of Canada
 			}
 			CAN = {
 				create_country_leader = {
-					name = "John Ross Taylor"
+					name = "Джон Росс Тейлор"
 					picture = "gfx/leaders/CAN/Portrait_Canada_John_Ross_Taylor.png"
 					expire = "1.1.1"
 					ideology = klan_nationalism_subtype
@@ -30168,7 +30168,7 @@ country_event = { #Fate of Canada
 			}
 			CAN = {
 				create_country_leader = {
-					name = "Joshua N. Haldeman"
+					name = "Джошуа Холдеман"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 					expire = "1.1.1"
 					ideology = technocracy_subtype
@@ -30184,7 +30184,7 @@ country_event = { #Fate of Canada
 			}
 			CAN = {
 				create_country_leader = {
-					name = "Joshua N. Haldeman"
+					name = "Джошуа Холдеман"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 					expire = "1.1.1"
 					ideology = right_technocracy_subtype
@@ -30219,13 +30219,13 @@ country_event = { #Fate of Canada
 		if = {
 			limit = {
 				tag = COR
-				has_country_leader = { ruling_only = yes name = "George W. Christians" }
+				has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			}
 		set_autonomy = {
 		target = CAN
 		autonomous_state = kx_colored_puppet
-		}
-		CAN = {
+			}
+		CAN = { 
 			set_cosmetic_tag = CAN_KLAN
 			set_politics = {
 			ruling_party = national_populist
@@ -30288,11 +30288,11 @@ country_event = { #Fate of Canada
 		hidden_effect = {
 		if = {
 			limit = {
-				tag = COR
+				tag = COR 
 			}
 			CAN = {
 				create_country_leader = {
-					name = "John Ross Taylor"
+					name = "Джон Росс Тейлор"
 					picture = "gfx/leaders/CAN/Portrait_Canada_John_Ross_Taylor.png"
 					expire = "1.1.1"
 					ideology = klan_nationalism_subtype
@@ -30305,7 +30305,7 @@ country_event = { #Fate of Canada
 			}
 			CAN = {
 				create_country_leader = {
-					name = "Joshua N. Haldeman"
+					name = "Джошуа Холдеман"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 					expire = "1.1.1"
 					ideology = technocracy_subtype
@@ -30318,7 +30318,7 @@ country_event = { #Fate of Canada
 			}
 			CAN = {
 				create_country_leader = {
-					name = "Joshua N. Haldeman"
+					name = "Джошуа Холдеман"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 					expire = "1.1.1"
 					ideology = right_technocracy_subtype
@@ -30376,13 +30376,13 @@ country_event = { #Fate of Canada
 		if = {
 			limit = {
 				tag = COR
-				has_country_leader = { ruling_only = yes name = "George W. Christians" }
+				has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			}
 		set_autonomy = {
 		target = CAN
 		autonomous_state = kx_colored_puppet
-		}
-		CAN = {
+			}
+		CAN = { 
 			set_cosmetic_tag = CAN_KLAN
 			set_politics = {
 			ruling_party = national_populist
@@ -30903,7 +30903,7 @@ country_event = { #Annexation of Namibia
 			}
 			NMB = { 
 				create_country_leader = {
-					name = "Berthold von Deimling"
+					name = "Бертольд вон Деймлинг"
 					desc = "POLITICS_KIRSCHHEIM_DESC"
 					picture = "gfx/leaders/NMB/Portrait_NMB_Berthold_von_Deimling.png"
 					expire = "1.1.1"
@@ -30978,7 +30978,7 @@ country_event = { #Annexation of Zambia
 			}
 			ZAM = {
 				create_country_leader = {
-					name = "Edward Makuka Nkoloso"
+					name = "Эдвард Макука Нколосо"
 					desc = "POLITICS_EDWARD_NKOLOSO_DESC"
 					picture = "gfx/leaders/ZAM/Portrait_Zambia_Edward_Makuka_Nkoloso.png"
 					expire = "1.1.1"
@@ -32105,25 +32105,25 @@ country_event = { #Annexation of Liberia
 				}
 			}
 			if = {
-				limit = { has_socialist_government = yes }
-				LIB = {
-					set_party_name = {
-						ideology = totalist
-						long_name = LIB_totalist2_party_long
-						name = LIB_totalist2_party
-					}
-					set_party_name = {
-						ideology = syndicalist
+			limit = { has_socialist_government = yes }
+			LIB = {
+				set_party_name = {
+			    ideology = totalist
+			    long_name = LIB_totalist2_party_long
+			    name = LIB_totalist2_party
+		        }
+				set_party_name = {
+			    ideology = syndicalist
 						long_name = LIB_syndicalist2_party_long
 						name = LIB_syndicalist2_party
-					}
-					set_party_name = {
-						ideology = radical_socialist
-						long_name = LIB_radical_socialist2_party_long
-						name = LIB_radical_socialist2_party
-					}
-				}
+		        }
+				set_party_name = {
+			    ideology = radical_socialist
+			    long_name = LIB_radical_socialist2_party_long
+			    name = LIB_radical_socialist2_party
+		        }
 			}
+		    }
 			LIB = { drop_cosmetic_tag = yes }
 			if = {
 				limit = { 
@@ -32137,7 +32137,7 @@ country_event = { #Annexation of Liberia
 						name = LIB_anti_masonic_party
 					}
 					create_country_leader = {
-						name = "Anti-Masonic Council"
+						name = "Антимасонский совет"
 						picture = "gfx/leaders/LIB/Portrait_LIB_Anti_Masonic_Council.png"
 						expire = "1.1.1"
 						ideology = legionarism_subtype
@@ -32423,16 +32423,16 @@ country_event = { #Annexation of South Africa
 				if = { #Clean up governor-general
 					limit = {
 						OR = {
-							has_country_leader = { name = "Patrick Duncan" }
-							has_country_leader = { name = "Nicolaas Jacobus de Wet" }
-							has_country_leader = { name = "Ernest Janssen" }
-							has_country_leader = { name = "George V" }
-							has_country_leader = { name = "Edward VIII" }
-							has_country_leader = { name = "Albert I" }
-							has_country_leader = { name = "Elizabeth II" }
-							has_country_leader = { name = "Henry IX" }
-							has_country_leader = { name = "George VI" }
-							has_country_leader = { name = "George Villiers" }
+							has_country_leader = { name = "Патрик Дункан" }
+							has_country_leader = { name = "Николаас Якобус де Вет" }
+							has_country_leader = { name = "Эрнест Джордж Янсен" }
+							has_country_leader = { name = "Георг V" }
+							has_country_leader = { name = "Эдуард VIII" }
+							has_country_leader = { name = "Альберт I" }
+							has_country_leader = { name = "Елизавета II" }
+							has_country_leader = { name = "Генрих IX" }
+							has_country_leader = { name = "Георг VI" }
+							has_country_leader = { name = "Джордж Вильерс" }
 						}
 					}
 				}
@@ -32552,7 +32552,7 @@ country_event = { #Annexation of South Africa
 			    popularity = 0.6
 			}
 		create_country_leader = {
-			name = "Cyprian Bhekuzulu"
+			name = "Киприан Бекузулу"
 			picture = "gfx/leaders/SAF/Portrait_SAF_Cyprian_Bhekuzulu.png"
 			desc = ""
 			expire = "1.1.1"
@@ -32920,23 +32920,23 @@ country_event = { #Fate of Transamur
 				    remove_claim_by = TRM
 			    }
 			    every_state = {
-					limit = {
-						OR = {
-							state = 408
-							state = 1246
-							state = 409
-							state = 560
-							state = 561
-							state = 657
-							state = 563
-							state = 564
-							state = 565
-							state = 574
-							state = 562
+				limit = {
+					OR = {
+						state = 408
+						state = 1246
+						state = 409
+						state = 560
+						state = 561
+						state = 657
+						state = 563
+						state = 564
+						state = 565
+						state = 574
+						state = 562
 							state = 637
-						}
 					}
-					add_core_of = TRM
+				}
+				add_core_of = TRM
 			    }
 			}
 			TRM = {
@@ -32956,7 +32956,7 @@ country_event = { #Fate of Transamur
 					name = TRM_moryaki_party
 				}
 				create_country_leader = {
-					name = "Georgiy Stark"
+					name = "Георгий Старк"
 					desc = "POLITICS_STARK_DESC"
 					picture = "gfx/leaders/TRM/Portrait_TRM_Stark.png"
 					expire = "1.1.1"
@@ -32970,11 +32970,11 @@ country_event = { #Fate of Transamur
 				}
 				if = {
 					limit = { owns_state = 637 }
-					add_state_claim = 637
+				add_state_claim = 637
 				}
 				if = {
 					limit = { owns_state = 562 }
-					add_state_claim = 562
+				add_state_claim = 562
 				}
 			}
 			537 = { retain_state = yes } #Sakhalin
@@ -33068,7 +33068,7 @@ country_event = { #Fate of Transamur
 		var:tag_to_release = { 
 			set_cosmetic_tag = TRM_GU 
 			create_country_leader = {
-				name = "Yurii Hlushko"
+				name = "Юрій Глушко"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Yurii_Hlushko.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
@@ -33239,7 +33239,7 @@ country_event = { #Fate of Transamur
 		}
 		trigger = {
 			OR = {
-				is_russian_tag_that_can_integrate = yes
+			is_russian_tag_that_can_integrate = yes
 				tag = TRB
 				AND = {
 					tag = YAK
@@ -33374,25 +33374,25 @@ country_event = { #Fate of Malaysia
 						name = MLY_CHI_PAC_puppet_party_name
 					}
 					create_country_leader = {
-						name = "Lai Teck"
+						name = "Лай Тэк"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Lai_Teck.png"
 						expire = "1.1.1"
 						ideology = tot_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Peng Zemin"
+						name = "Пэн Цзэминь"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Peng_Zemin.png"
 						expire = "1.1.1"
 						ideology = syn_internationalism_subtype
 					}
 					create_country_leader = {
-						name = "Zhuang Mingli"
+						name = "Чжуан Минли"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Zhuang_Mingli.png"
 						expire = "1.1.1"
 						ideology = radsoc_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Peng Zemin"
+						name = "Пэн Цзэминь"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Peng_Zemin.png"
 						expire = "1.1.1"
 						ideology = socdem_tridemism_subtype
@@ -33456,25 +33456,25 @@ country_event = { #Fate of Malaysia
 				}
 				SAR = {
 					create_country_leader = {
-						name = "Ong Kee Hui"
+						name = "Онг Ки Хуи"
 						picture = "gfx/leaders/SAR/Portrait_Sarawak_Ong_Kee_Hui.png"
 						expire = "1.1.1"
 						ideology = tot_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Ong Kee Hui"
+						name = "Онг Ки Хуи"
 						picture = "gfx/leaders/SAR/Portrait_Sarawak_Ong_Kee_Hui.png"
 						expire = "1.1.1"
 						ideology = syn_internationalism_subtype
 					}
 					create_country_leader = {
-						name = "Ong Kee Hui"
+						name = "Онг Ки Хуи"
 						picture = "gfx/leaders/SAR/Portrait_Sarawak_Ong_Kee_Hui.png"
 						expire = "1.1.1"
 						ideology = radsoc_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Ong Kee Hui"
+						name = "Онг Ки Хуи"
 						picture = "gfx/leaders/SAR/Portrait_Sarawak_Ong_Kee_Hui.png"
 						expire = "1.1.1"
 						ideology = socdem_tridemism_subtype
@@ -33531,25 +33531,25 @@ country_event = { #Fate of Malaysia
 						name = MLY_CHI_PAC_puppet_party_name
 					}
 					create_country_leader = {
-						name = "Lai Teck"
+						name = "Лай Тэк"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Lai_Teck.png"
 						expire = "1.1.1"
 						ideology = tot_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Peng Zemin"
+						name = "Пэн Цзэминь"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Peng_Zemin.png"
 						expire = "1.1.1"
 						ideology = syn_internationalism_subtype
 					}
 					create_country_leader = {
-						name = "Zhuang Mingli"
+						name = "Чжуан Минли"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Zhuang_Mingli.png"
 						expire = "1.1.1"
 						ideology = radsoc_tridemism_subtype
 					}
 					create_country_leader = {
-						name = "Peng Zemin"
+						name = "Пэн Цзэминь"
 						picture = "gfx/leaders/MLY/Portrait_Malaya_Peng_Zemin.png"
 						expire = "1.1.1"
 						ideology = socdem_tridemism_subtype
@@ -34103,61 +34103,61 @@ country_event = { # Palestine
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Radwan al-Hilu"
+					name = "Радван аль-Хилу"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Radwan_al_Hilu.png"
 					expire = "1.1.1"
 					ideology = authcom_subtype
 				}
 				create_country_leader = {
-					name = "Bulus Farah"
+					name = "Булус Фарах"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Bulus_Farah.png"
 					expire = "1.1.1"
 					ideology = syndicalist_subtype
 				}
 				create_country_leader = {
-					name = "Sami Taha Hamran"
+					name = "Сами Таха Хамран"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Sami_Taha_Hamran.png"
 					expire = "1.1.1"
 					ideology = radsoc_paternal_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Jamal al-Husayni"
+					name = "Джамаль аль-Хусейни"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Jamal_al_Husayni.png"
 					expire = "1.1.1"
 					ideology = popular_patriotism_subtype
 				}
 				create_country_leader = {
-					name = "Haqqi al-Azm"
+					name = "Хакки аль-Азм"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Haqqi_al_Azm.png"
 					expire = "1.1.1"
 					ideology = centrist_subtype
 				}
 				create_country_leader = {
-					name = "Musa al-Alami"
+					name = "Муса аль-Алами"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Musa_al_Alami.png"
 					expire = "1.1.1"
 					ideology = marlib_national_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Awni Abd al-Hadi"
+					name = "Авни Абд аль-Хади"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Awni_Abd_al_Hadi.png"
 					expire = "1.1.1"
 					ideology = soccon_islamism_subtype
 				}
 				create_country_leader = {
-					name = "Esat Sagay"
+					name = "Эсат Сагай"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Esat_Sagay.png"
 					expire = "1.1.1"
 					ideology = kemalism_subtype
 				}
 				create_country_leader = {
-					name = "Albert-Abraham Antébi"
+					name = "Альберт-Абрахам Антеби"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Albert_Abraham_Antebi.png"
 					expire = "1.1.1"
 					ideology = pataut_authoritarian_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Abd al-Qadir al-Husayni"
+					name = "Абд аль-Кадир аль-Хусейни"
 					picture = "gfx/leaders/PAL/Portrait_PAL_Abdul_Qadir_al_Husayni.png"
 					expire = "1.1.1"
 					ideology = militarism_subtype
@@ -35175,7 +35175,7 @@ country_event = { #The Fate of Costa Rica
 			COS = {
 		
 			create_country_leader = {
-				name = "Max Koberg Bolandi"
+				name = "Макс Коберг Боланди"
 				picture = "gfx/leaders/COS/Portrait_COS_Max_Koberg_Bolandi.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
@@ -36481,7 +36481,7 @@ country_event = { #The Annexation of North Germany
 		set_temp_variable = { tag_to_release = NGF }
 		create_hanoverian_cores = yes
 		hidden_effect = {
-		NGF = {
+			NGF = {
 			add_state_core = 42 #Palatinate
 			add_state_core = 51 #Eastern Rhineland
 			add_state_core = 781 #Western Rhineland
@@ -37944,7 +37944,7 @@ country_event = { #The Fate of Northern Italy
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -38227,7 +38227,7 @@ country_event = { #The Fate of Italy
 			set_country_flag = ITA_CONQ
 		}
 	}
-	option = {
+		option = {
 		name = annex.280.m #Release as Italt
 		trigger = {
 			has_socialist_government = no
@@ -38324,7 +38324,7 @@ country_event = { #The Fate of Italy
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -38929,7 +38929,7 @@ country_event = { #The Fate of Lombardy
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -40043,7 +40043,7 @@ country_event = { #The Fate of Emilia
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -40151,7 +40151,7 @@ country_event = { #The Fate of Emilia
 		}
 		reverse_add_opinion_modifier = { target = EMI modifier = KR_liberated_us }
 	}
-	option = {
+		option = {
 		name = annex.288.c #Release as Modena Duchy
 		trigger = {
 			has_socialist_government = no
@@ -40240,7 +40240,7 @@ country_event = { #The Fate of Emilia
 			EMI = {
 				set_cosmetic_tag = EMI_PAR
 				create_country_leader = {
-					name = "Elias I"
+					name = "Элиас I"
 					desc = "POLITICS_DUKE_ELIAS_DESC"
 					picture = "gfx/leaders/EMI/Portrait_EMI_Duke_Elias.png"
 					expire = "1.1.1"
@@ -41041,7 +41041,7 @@ country_event = { #The Fate of Central Italy
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -41605,7 +41605,7 @@ country_event = { #The Fate of Piedmont
 						popularity = 0.2
 					}
 					create_country_leader = {
-						name = "Harukichi Shimoi"
+						name = "Харукити Симои"
 						picture = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 						expire = "1.1.1"
 						ideology = italian_legionarism_subtype
@@ -43424,7 +43424,7 @@ country_event = {
 					}
 					clr_country_flag = Thomas_Blamey_dead
 					create_field_marshal = {
-						name = "Thomas Blamey "
+						name = "Томас Блэми "
 						picture = "gfx/leaders/AST/Portrait_AST_Thomas_Blamey.png"
 						traits = {
 							old_guard
@@ -43492,7 +43492,7 @@ country_event = {
 				}
 				clr_country_flag = Thomas_Blamey_dead
 				create_field_marshal = {
-					name = "Thomas Blamey "
+					name = "Томас Блэми "
 					picture = "gfx/leaders/AST/Portrait_AST_Thomas_Blamey.png"
 					traits = {
 						old_guard
@@ -43731,7 +43731,7 @@ country_event = { #Fate of Papua New Guinea
 				if = {
 					limit = { has_cosmetic_tag = PNG_JAP }
 					create_country_leader = {
-						name = "John Spillard Grimshaw"
+						name = "Джон Спиллард Гримшоу"
 						picture = "gfx/leaders/PNG/Portrait_PNG_John_Spillard_Grimshaw.png"
 						expire = "1.1.1"
 						ideology = pataut_police_state_subtype
@@ -43745,7 +43745,7 @@ country_event = { #Fate of Papua New Guinea
 				if = {
 					limit = { has_country_flag = PNG_became_melanesia }
 					create_country_leader = {
-						name = "Arisimae of Rohinari"
+						name = "Арисимаэ из Рохинари"
 						picture = "gfx/leaders/PNG/Portrait_PNG_Arisimae_of_Rohinari.png"
 						expire = "1.1.1"
 						ideology = autocratic_socialist_subtype
@@ -43782,7 +43782,7 @@ country_event = { #Fate of Papua New Guinea
 			PNG = {
 				set_cosmetic_tag = PNG_JAP
 				create_country_leader = {
-					name = "Shunsuke Kondo"
+					name = "Сюнсукэ Кондо"
 					picture = "gfx/leaders/PNG/Portrait_PNG_Shunsuke_Kondo.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -43829,7 +43829,7 @@ country_event = { #Fate of Papua New Guinea
 				set_cosmetic_tag = PNG_MEL
 				set_country_flag = PNG_became_melanesia
 				create_country_leader = {
-					name = "General Labor Council of Melanesia"
+					name = "Генеральный совет труда Меланезии"
 					picture = "gfx/leaders/PNG/Portrait_PNG_General_Labor_Council_of_Melanesia.png"
 					expire = "1.1.1"
 					ideology = cargo_cult_subtype
@@ -43850,7 +43850,7 @@ country_event = { #Fate of Papua New Guinea
 			PNG = {
 				set_cosmetic_tag = PNG_JAP
 				create_country_leader = {
-					name = "Shunsuke Kondo"
+					name = "Сюнсукэ Кондо"
 					picture = "gfx/leaders/PNG/Portrait_PNG_Shunsuke_Kondo.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype
@@ -43868,7 +43868,7 @@ country_event = { #Fate of Papua New Guinea
 					ideology = paternal_autocrat
 					popularity = 0.5
 				}
-			}	
+			}
 		}
 	}
 
@@ -43893,7 +43893,7 @@ country_event = { #Fate of Papua New Guinea
 		}
 	}
 	
-	option = { #Give it to the Indonesians
+	option = { #Give it to the Insulindians
 		name = annex.299.c
 		ai_chance = {
 			factor = 80
@@ -44003,7 +44003,7 @@ country_event = { #Fate of South Seas Islands
 				PNG = {
 					drop_cosmetic_tag = yes
 					create_country_leader = {
-						name = "Arisimae of Rohinari"
+						name = "Арисимаэ из Рохинари"
 						picture = "gfx/leaders/PNG/Portrait_PNG_Arisimae_of_Rohinari.png"
 						expire = "1.1.1"
 						ideology = autocratic_socialist_subtype
@@ -44034,61 +44034,61 @@ country_event = { #Fate of South Seas Islands
 			}
 			SSI = {
 				create_country_leader = {
-					name = "General Labor Council of Melanesia"
+					name = "Генеральный совет труда Меланезии"
 					picture = "gfx/leaders/PNG/Portrait_PNG_General_Labor_Council_of_Melanesia.png"
 					expire = "1.1.1"
 					ideology = cargo_cult_subtype 
 				}
 				create_country_leader = {
-					name = "Florindo Paladini"
+					name = "Флориндо Паладини"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Florindo_Paladini.png"
 					expire = "1.1.1"
 					ideology = democratic_syndicalism_subtype
 				}
 				create_country_leader = {
-					name = "Joe Nalpin"
+					name = "Джо Налпин"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Joe_Nalpin.png"
 					expire = "1.1.1"
 					ideology = radsoc_cargo_cult_subtype 
 				}
 				create_country_leader = {
-					name = "Ambalal Dahyabhai Patel"
+					name = "Амбалал Дахьябхай Патель"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Ambalal_Dahyabhai_Patel.png"
 					expire = "1.1.1"
 					ideology = socdem_democratic_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Kamisese Mara"
+					name = "Камисесе Мара"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Kamisese_Mara.png"
 					expire = "1.1.1"
 					ideology = centrist_subtype
 				}
 				create_country_leader = {
-					name = "Henri Loste"
+					name = "Анри Лосте"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Henri_Loste.png"
 					expire = "1.1.1"
 					ideology = liberal_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Penaia Ganilau"
+					name = "Пенаиа Ганилау"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Penaia_Ganilau.png"
 					expire = "1.1.1"
 					ideology = soccon_tribal_councilism_subtype
 				}
 				create_country_leader = {
-					name = "Lala Sukuna"
+					name = "Лала Сукуна"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Lala_Sukuna.png"
 					expire = "1.1.1"
 					ideology = tribal_chiefdom_subtype
 				}
 				create_country_leader = {
-					name = "Jimmy Stevens"
+					name = "Джимми Стивенс"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Jimmy_Stevens.png"
 					expire = "1.1.1"
 					ideology = pataut_minarchism_subtype
 				}
 				create_country_leader = {
-					name = "Apolosi Nawai"
+					name = "Аполоси Навай"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Apolosi_Nawai.png"
 					expire = "1.1.1"
 					ideology = occultism_subtype
@@ -44202,61 +44202,61 @@ country_event = { #Fate of South Seas Islands
 		hidden_effect = {
 			SSI = {
 				create_country_leader = {
-					name = "Henry Nanpei"
+					name = "Генри Нанпей"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Henry_Nanpei.png"
 					expire = "1.1.1"
 					ideology = tot_clientelism_subtype
 				}
 				create_country_leader = {
-					name = "Henry Nanpei"
+					name = "Генри Нанпей"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Henry_Nanpei.png"
 					expire = "1.1.1"
 					ideology = syn_clientelism_subtype
 				}
 				create_country_leader = {
-					name = "Henry Nanpei"
+					name = "Генри Нанпей"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Henry_Nanpei.png"
 					expire = "1.1.1"
 					ideology = radsoc_clientelism_subtype
 				}
 				create_country_leader = {
-					name = "Antonio B. Won Pat"
+					name = "Антонио Б. Вон Пат"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Antonio_B_Won_Pat.png"
 					expire = "1.1.1"
 					ideology = socdem_humanistic_capitalism_subtype
 				}
 				create_country_leader = {
-					name = "Joseph Flores"
+					name = "Джозеф Флорес"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Joseph_Flores.png"
 					expire = "1.1.1"
 					ideology = soclib_humanistic_capitalism_subtype
 				}
 				create_country_leader = {
-					name = "Joachim DeBrum"
+					name = "Йоахим ДеБрум"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Joachim_DeBrum.png"
 					expire = "1.1.1"
 					ideology = free_market_capitalist_subtype
 				}
 				create_country_leader = {
-					name = "Carl Heine"
+					name = "Карл Хайне"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Carl_Heine.png"
 					expire = "1.1.1"
 					ideology = christian_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Tem Tekinaiti"
+					name = "Тем Текинайти"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Tem_Tekinaiti.png"
 					expire = "1.1.1"
 					ideology = tribal_chiefdom_subtype
 				}
 				create_country_leader = {
-					name = "Kabua Kabua"
+					name = "Кабуа Кабуа"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Kabua_Kabua.png"
 					expire = "1.1.1"
 					ideology = pataut_tribal_chiefdom_subtype
 				}
 				create_country_leader = {
-					name = "Kabua Kabua"
+					name = "Кабуа Кабуа"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Kabua_Kabua.png"
 					expire = "1.1.1"
 					ideology = natpop_tribal_chiefdom_subtype
@@ -44370,61 +44370,61 @@ country_event = { #Fate of South Seas Islands
 		hidden_effect = {
 			SSI = {
 				create_country_leader = {
-					name = "Étienne Davio"
+					name = "Этьен Давио"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Etienne_Davio.png"
 					expire = "1.1.1"
 					ideology = authcom_subtype
 				}
 				create_country_leader = {
-					name = "Ernest Darling"
+					name = "Эрнест Дарлинг"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Ernest_Darling.png"
 					expire = "1.1.1"
 					ideology = eco_syndicalism_subtype
 				}
 				create_country_leader = {
-					name = "Ernest Darling"
+					name = "Эрнест Дарлинг"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Ernest_Darling.png"
 					expire = "1.1.1"
 					ideology = eco_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Pouvana'a a O'opa"
+					name = "Поувана'а а О'опа"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Pouvanaa_a_Oopa.png"
 					expire = "1.1.1"
 					ideology = socdem_left_nationalism_subtype
 				}
 				create_country_leader = {
-					name = "Olaf Frederick Nelson"
+					name = "Олаф Фредерик Нельсон"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Olaf_Frederick_Nelson.png"
 					expire = "1.1.1"
 					ideology = national_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Eugene Paul"
+					name = "Юджин Пол"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Eugene_Paul.png"
 					expire = "1.1.1"
 					ideology = marlib_oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Tupua Tamasese Lealofi III"
+					name = "Тупуа Тамасесе Леалофи III"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Tupua_Tamasese_Lealofi_III.png"
 					expire = "1.1.1"
 					ideology = christian_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Chris Taliutafa Young"
+					name = "Крис Талиутафа Янг"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Chris_Taliutafa_Young.png"
 					expire = "1.1.1"
 					ideology = authdem_national_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Sālote Tupou III"
+					name = "Салоте Тупу III"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Salote_Tupou_III.png"
 					expire = "1.1.1"
 					ideology = absolute_monarchy_subtype
 				}
 				create_country_leader = {
-					name = "Alfred Matthes"
+					name = "Альфред Маттес"
 					picture = "gfx/leaders/SSI/Portrait_SSI_Alfred_Matthes.png"
 					expire = "1.1.1"
 					ideology = neokonservatismus_subtype
@@ -44546,7 +44546,7 @@ country_event = { #Fate of Sarawak
 		}
 	}
 	
-	option = { #Give it to the Indonesians
+	option = { #Give it to the Insulindians
 		name = annex.299.c
 		ai_chance = {
 			factor = 80
@@ -44601,7 +44601,7 @@ country_event = { #Fate of Scotland
 				}
 				SCT = {
 				create_country_leader = {
-					name = "Jennie Lee"
+					name = "Дженни Ли"
 					desc = "SCT_LEE_DESC"
 					picture = "gfx/leaders/SCT/Portrait_Jennie_Lee.png"
 					expire = "1.1.1"
@@ -44609,7 +44609,7 @@ country_event = { #Fate of Scotland
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Jean Mann"
+					name = "Жан Манн"
 					desc = "SCT_MANN_DESC"
 					picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 					expire = "1.1.1"
@@ -44617,7 +44617,7 @@ country_event = { #Fate of Scotland
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Philip Kerr"
+					name = "Филип Керр"
 					desc = "SCT_KERR_DESC"
 					picture = "gfx/leaders/SCT/Portrait_Phillip_Kerr.png"
 					expire = "1.1.1"
@@ -44625,7 +44625,7 @@ country_event = { #Fate of Scotland
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Tam Galbraith"
+					name = "Тэм Гэлбрейт"
 					desc = "SCT_GALBRAITH_DESC"
 					picture = "gfx/leaders/SCT/Portrait_Tam_Galbraith.png"
 					expire = "1.1.1"
@@ -44633,7 +44633,7 @@ country_event = { #Fate of Scotland
 					traits = {}
 				}
 				create_country_leader = {
-					name = "John MacCormick"
+					name = "Джон МакКормик"
 					desc = "SCT_MACCORKMICK_DESC"
 					picture = "gfx/leaders/SCT/Portrait_John_MacCormick.png"
 					expire = "1.1.1"
@@ -44641,7 +44641,7 @@ country_event = { #Fate of Scotland
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Robert IV"
+					name = "Роберт IV"
 					desc = "SCT_RUPPRECHT_DESC"
 					picture = "gfx/leaders/SCT/Portrait_Wales_Rupprecht_I.png"
 					expire = "1.1.1"
@@ -44756,7 +44756,7 @@ country_event = { #Fate of Wales
 				}
 				WAL = {
 				create_country_leader = {
-					name = "H.R Jones"
+					name = "Х.Р. Джонс"
 	                desc = "POLITICS_HR_JONES_DESC"
 	                picture = "gfx/leaders/WAL/Portrait_WAL_HR_Jones.png"
 	                expire = "1.1.1"
@@ -44764,7 +44764,7 @@ country_event = { #Fate of Wales
 	                traits = {}
 				}
 				create_country_leader = {
-					name = "Saunders Lewis"
+					name = "Сондерс Льюис"
 					desc = "POLITICS_SAUNDERS_LEWIS_DESC"
 					picture = "gfx/leaders/WAL/Portrait_Wales_Saunders_Lewis.png"
 					expire = "1.1.1"
@@ -44838,7 +44838,7 @@ country_event = { #Fate of Prussia
 				every_state  = {
 					remove_core_of = NGF
 					remove_claim_by = NGF
-				}
+			}
 			}
 		}
 	}
@@ -44876,12 +44876,12 @@ country_event = { #Fate of Prussia
 		if = {
 			limit = {
 				tag = RUS
-				OR = {
-					RUS_russian_monarch = yes
-					has_government = totalist
-					has_authoritarian_government = yes	
+					OR = {
+						RUS_russian_monarch = yes
+						has_government = totalist
+						has_authoritarian_government = yes	
+					}
 				}
-			}
 			country_event = part.22
 		}
 			if = {
@@ -46208,7 +46208,7 @@ country_event = { #Fate of Hawaii
 				is_american_tag = yes
 				owns_state = 361
 				OR = {
-					is_ally_with = ROOT
+				is_ally_with = ROOT
 					is_subject_of = ROOT
 				}
 			}
@@ -46286,7 +46286,7 @@ country_event = { #Fate of Alaska
 				}
 				ALA = {
 					create_country_leader = {
-					name = "Joseph F. Jurich"
+					name = "Джозеф Ф. Юрич"
 	                desc = "POLITICS_JURICH_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Joseph_Jurich.png"
 	                expire = "1.1.1"
@@ -46294,7 +46294,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Red Congress of Alaska"
+					name = "Красный конгресс Аляски"
 	                desc = "POLITICS_RED_CONGRESS_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Congress.png"
 	                expire = "1.1.1"
@@ -46302,7 +46302,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "James L. Wickersham"
+					name = "Джеймс Л. Викершем"
 	                desc = "POLITICS_JAMES_WICKERSHAM_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_James_Wickersham.png"
 	                expire = "1.1.1"
@@ -46310,7 +46310,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Anthony Dimond"
+					name = "Энтони Даймонд"
 	                desc = "POLITICS_DIMOND_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Anthony_Dimond.png"
 	                expire = "1.1.1"
@@ -46318,7 +46318,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Ernest Gruening"
+					name = "Эрнест Грунинг"
 	                desc = "POLITICS_ERNEST_GRUENING_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Ernest_Greuning.png"
 	                expire = "1.1.1"
@@ -46326,7 +46326,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Austin E. Lathrop"
+					name = "Остин Э. Лэтроп"
 	                desc = "POLITICS_AUSTIN_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Austin_Lathrop.png"
  	                expire = "1.1.1"
@@ -46334,7 +46334,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Daniel Sutherland"
+					name = "Даниэль Сазерленд"
 	                desc = "POLITICS_SUTHERLAND_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_Alaska_Daniel_Sutherland.png"
 	                expire = "1.1.1"
@@ -46342,7 +46342,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Lord George Pearkes"
+					name = "Лорд Джордж Пиркс"
 	                desc = "POLITICS_PEARKES_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_ALA_George_Pearkes.png"
 					expire = "1.1.1"
@@ -46350,7 +46350,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Simon Guggenheim"
+					name = "Саймон Гуггенхайм"
 					desc = "POLITICS_GUGGENHEIM_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Simon_Guggenheim.png"
 					expire = "1.1.1"
@@ -46358,7 +46358,7 @@ country_event = { #Fate of Alaska
 					traits = {  }
 				    }
 					create_country_leader = {
-					name = "Yasuyo Yamasaki"
+					name = "Ясуё Ямасаки"
 	                desc = "POLITICS_Yamasaki_DESC"
 	                picture = "gfx/leaders/ALA/Portrait_ALA_Yasuyo_Yamasaki.png"
 	                expire = "1.1.1"
@@ -46410,7 +46410,7 @@ country_event = { #Fate of Alaska
 				}
 				ALA = {
 				create_country_leader = {
-					name = "Simon Guggenheim"
+					name = "Саймон Гуггенхайм"
 					desc = "POLITICS_GUGGENHEIM_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Simon_Guggenheim.png"
 					expire = "1.1.1"
@@ -46430,7 +46430,7 @@ country_event = { #Fate of Alaska
 				}
 				ALA = {
 				create_country_leader = {
-					name = "Simon Guggenheim"
+					name = "Саймон Гуггенхайм"
 					desc = "POLITICS_GUGGENHEIM_DESC"
 					picture = "gfx/leaders/ALA/Portrait_Alaska_Simon_Guggenheim.png"
 					expire = "1.1.1"
@@ -46452,7 +46452,7 @@ country_event = { #Fate of Alaska
 				ALA = {
 					set_cosmetic_tag = ALA_FUTURIST
 				create_country_leader = {
-					name = "Chief Flying Eagle"
+					name = "Вождь Летающих Орлов"
 					picture = "gfx/leaders/AIF/Portrait_AIF_Flying_Eagle.png"
 					expire = "1.1.1"
 					ideology = tot_italian_left_futurism_subtype
@@ -46485,7 +46485,7 @@ country_event = { #Fate of Alaska
 				is_american_tag = yes
 				owns_state = 361
 				OR = {
-					is_ally_with = ROOT
+				is_ally_with = ROOT
 					is_subject_of = ROOT
 				}
 			}
@@ -46603,7 +46603,7 @@ country_event = { #Fate of New England
 			NEE = { 
 				drop_cosmetic_tag = yes
 				create_country_leader = {
-					name = "Albert Jay Nock"
+					name = "Альберт Джей Нок"
 					desc = "POLITICS_Albert_Jay_Nock_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 					expire = "1.1.1"
@@ -46611,7 +46611,7 @@ country_event = { #Fate of New England
 					traits = { anti_statist }
 				}
 				create_country_leader = {
-					name = "John Jacob Astor"
+					name = "Джон Джейкоб Эстор"
 					desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_VI.png"
 					expire = "1.1.1"
@@ -46653,7 +46653,7 @@ country_event = { #Fate of New England
 			    name = NEE_Nordic_League_party 
 		        }
 		        create_country_leader = {
-			    name = "Lothrop Stoddard"
+			    name = "Лотроп Стоддард"
 			    desc = "POLITICS_LOTHROP_STODDARD_DESC"
 			    picture = "gfx/leaders/NEE/Portrait_NEE_Lothrop_Stoddard.png"
 			    expire = "1.1.1"
@@ -46702,7 +46702,7 @@ country_event = { #Fate of New England
 				is_american_tag = yes
 				owns_state = 361
 				OR = {
-					is_ally_with = ROOT
+				is_ally_with = ROOT
 					is_subject_of = ROOT
 				}
 			}
@@ -46894,7 +46894,7 @@ country_event = { #Fate of East Prussia
 		}
 		set_temp_variable = { tag_to_release = EPR }
 		release_targeted_tag = yes
-		recheck_annexations = yes		
+		recheck_annexations = yes
 		if = {
 			limit = {
 				ROOT = { has_country_flag = soviet_russia_restored }
@@ -49129,22 +49129,22 @@ country_event = { #Fate of Herceg Novi
 	}
 
 	option = { #Integrate
-		name = annex.integration
-		trigger = {
-			tag = RUS
-			OR = {
-				has_completed_focus = RUS_Panslavist_Internationalism
-				has_completed_focus = RUS_Panslavist
-			}
-			NOT = { has_country_flag = soviet_russia_restored }
+	name = annex.integration
+	trigger = {
+		tag = RUS
+		OR = {
+			has_completed_focus = RUS_Panslavist_Internationalism
+			has_completed_focus = RUS_Panslavist
 		}
-		ai_chance = {
-			base = 100
-		}
-		add_state_claim = 1270
-		1270 = { enable_state_integration_80_compliance = yes }
-		recheck_annexations = yes
+		NOT = { has_country_flag = soviet_russia_restored }
 	}
+	ai_chance = {
+		base = 100
+	}
+	add_state_claim = 1270
+	1270 = { enable_state_integration_80_compliance = yes }
+	recheck_annexations = yes
+}
 
 	option = { #occupy
 		name = annex.occupation
@@ -51015,7 +51015,7 @@ country_event = { #Fate of Urda
 				is_russian_tag_that_can_integrate = yes
 			}
 			OR = {
-				owns_state = 406
+			owns_state = 406
 				owns_state = 217
 			}
 		}
@@ -51028,8 +51028,8 @@ country_event = { #Fate of Urda
 					original_tag = ALO
 					is_russian_tag_that_can_integrate = yes
 				}
-			}
-			add_state_core = 1224
+		}
+		add_state_core = 1224
 		}
 		else = {
 			1224 = {
@@ -51244,7 +51244,7 @@ country_event = { #Fate of North Kazakhstan
 				transfer_state_and_add_claim = yes
 			}
 			else = {
-				transfer_state_and_add_core = yes
+			transfer_state_and_add_core = yes
 			}
 		}
 	}
@@ -51279,8 +51279,8 @@ country_event = { #Fate of North Kazakhstan
 	option = { #Integrate
 		name = annex.integration
 		trigger = {
-			OR = {
-				is_russian_tag_that_can_integrate = yes
+				OR = {
+					is_russian_tag_that_can_integrate = yes
 				turkestan_is_potential_government = yes
 				original_tag = ALO
 			}
@@ -51292,13 +51292,13 @@ country_event = { #Fate of North Kazakhstan
 			limit = {
 				original_tag = ALO
 			}
-			every_owned_state = {
-				limit = {
-					OR = {
-						state = 583 #Kustanai
-						state = 588 #Pavlodar
-					}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 583 #Kustanai
+					state = 588 #Pavlodar
 				}
+			}
 				add_core_of = ALO
 			}
 		}
@@ -51306,22 +51306,22 @@ country_event = { #Fate of North Kazakhstan
 			limit = { is_russian_tag_that_can_integrate = yes }
 			every_owned_state = {
 				limit = {
-					OR = {
+			OR = {
 						state = 583 #Kustanai
 						state = 588 #Pavlodar
-					}
-				}
+			}
+		}
 				add_claim_of_ROOT = yes
 			}
 		}
 		else = {
-			every_owned_state = {
-				limit = {
-					OR = {
-						state = 583 #Kustanai
-						state = 588 #Pavlodar
-					}
+		every_owned_state = {
+			limit = {
+				OR = {
+					state = 583 #Kustanai
+					state = 588 #Pavlodar
 				}
+			}
 				add_claim_of_ROOT = yes
 				ROOT = { PREV = { enable_state_integration_50_compliance = yes } }			
 			}
@@ -51635,7 +51635,7 @@ country_event = { #Fate of Chelm
 				is_ukrainian_tag = yes
 				tag = POL
 				AND = {
-					is_russian_tag_that_can_integrate = yes
+				is_russian_tag_that_can_integrate = yes
 					OR = {
 						owns_state = 93
 						owns_state = 792
@@ -51777,8 +51777,8 @@ country_event = { #Fate of Transbaikalia
 			SIB = {
 				is_ally_of_ROOT = yes
 				ROOT_can_grant_land = yes
+				}
 			}
-		}
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -51789,7 +51789,7 @@ country_event = { #Fate of Transbaikalia
 					is_ally_with = MON
 				}
 			}
-		}
+			}
 		set_temp_variable = { tag_to_release = SIB }
 		every_owned_state = {
 			limit = { 
@@ -51879,8 +51879,8 @@ country_event = { #Fate of Transbaikalia
 			TRB = {
 				is_ally_of_ROOT = yes
 				ROOT_can_grant_land = yes
+				}
 			}
-		}
 		ai_chance = {
 			base = 15
 			modifier = {
@@ -51950,10 +51950,10 @@ country_event = { #Fate of Transbaikalia
 	immediate = {
 		hidden_effect = {
 			every_state = {
-				limit = { 
+			limit = {
 					NOT = {
 						state = 563
-					}
+			}
 				}
 				TRB = { 
 					remove_state_core = PREV 
@@ -51973,7 +51973,7 @@ country_event = { #Fate of Transbaikalia
 			OR = {
 				has_authoritarian_government = yes
 				has_right_democratic_government = yes
-			}
+		}
 			TRM_semyenov_in_power = no
 			NOT = { has_country_flag = RUS_cossack_hosts_dissolved }
 		}
@@ -51997,7 +51997,7 @@ country_event = { #Fate of Transbaikalia
 		set_temp_variable = { tag_to_release = TRB }
 		release_targeted_tag = yes
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					is_russian_tag = yes
 					is_cossack_tag = yes
@@ -52007,11 +52007,11 @@ country_event = { #Fate of Transbaikalia
 			set_autonomy = {
 				target = TRB
 				autonomous_state = kr_cossack_host
-			}
+		}
 		}
 		hidden_effect = {
 			every_possible_country = {
-				limit = { 
+			limit = {
 					any_unit_leader = { has_trait = RUS_far_eastern_cossack }
 				}
 				every_unit_leader = {
@@ -52457,9 +52457,9 @@ country_event = { #The fate of Khiva
 				transfer_state_and_add_claim = yes
 			}
 			else = {
-				transfer_state_and_add_core = yes
-			}
+			transfer_state_and_add_core = yes
 		}
+	}
 		set_temp_variable = { tag_to_release = KHI }
 		release_targeted_tag = yes
 		var:tag_to_release = {
@@ -52547,8 +52547,8 @@ country_event = { #The fate of Khiva
 					country_event = {
 						id = rusfor.500
 						days = 15
-					}
 				}
+			}
 			}
 		}
 		else = {
@@ -52605,7 +52605,7 @@ country_event = { #The fate of Bukhara
 		trigger = {
 			has_authoritarian_government = yes
 		}
-		ai_chance = { 
+		ai_chance = {
 			base = 10
 			modifier = {
 				factor = 0
@@ -52654,8 +52654,8 @@ country_event = { #The fate of Bukhara
 			}
 			set_temp_variable = { target = UZB }
 			turkestan_puppet_TARGET_effect = yes
-		}
-	}
+				}
+			}
 	option = { #Integrate
 		name = annex.integration
 		ai_chance = { base = 100 }
@@ -52685,8 +52685,8 @@ country_event = { #The fate of Bukhara
 					country_event = {
 						id = rusfor.500
 						days = 15
-					}
-				}
+		}
+	}
 			}
 		}
 		else = {
@@ -52778,9 +52778,9 @@ country_event = { #The fate of Turkestan
 				factor = 0
 				OR = {
 					turkestan_is_potential_government = no
-					is_russian_tag_that_can_integrate = yes
-				}
+				is_russian_tag_that_can_integrate = yes
 			}
+		}
 		}
 		set_temp_variable = { tag_to_release = TRK }
 		release_targeted_tag = yes
@@ -52907,7 +52907,7 @@ country_event = { #The fate of Kazakhstan
 				limit = { has_government = national_populist }
 				ALO = {
 				create_country_leader = {
-					name = "Äbdiğapar Janbosynūly"
+					name = "Абдулгафар Жанбосынов"
 					desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 					picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 					expire = "1.1.1"
@@ -52955,14 +52955,14 @@ country_event = { #The fate of Kazakhstan
 			}
 			set_temp_variable = { target = ALO }
 			turkestan_puppet_TARGET_effect = yes
-		}
+				}
 		hidden_effect = {
 			if = {
 				limit = { is_russian_tag_that_can_integrate = yes }
 				ALO = { set_country_flag = ALO_puppeted_by_RUS }
 			}
 		}
-	}
+			}
 	option = { #Integrate
 		name = annex.integration
 		ai_chance = { base = 100 }
@@ -52981,7 +52981,7 @@ country_event = { #The fate of Kazakhstan
 			every_state = {
 				limit = {
 					is_core_of = ALO
-					is_claim_or_core_of_ROOT = no	
+					is_claim_or_core_of_ROOT = no					
 					NOT = { has_state_flag = retain_state_@ROOT }
 				}
 				add_claim_of_ROOT = yes
@@ -53306,7 +53306,7 @@ country_event = { #The fate of Oyil
 			limit = {
 				var:tag_to_release = { is_russian_tag_that_can_integrate = yes }
 			}
-			every_owned_state = {
+		every_owned_state = {
 				limit = { state = 1212 }
 				transfer_state_and_add_claim = yes
 			}
@@ -53388,8 +53388,8 @@ country_event = { #The fate of Oyil
 			event_target:turkestan_ally_target = { 
 				is_ally_of_ROOT = yes
 				ROOT_can_grant_land = yes
+				}
 			}
-		}
 		ai_chance = { base = 80 }
 		set_temp_variable = { ROOT.tag_to_release = event_target:turkestan_ally_target }
 		every_owned_state = {
@@ -53440,7 +53440,7 @@ country_event = { #The fate of Semirechye
 			modifier = {
 				factor = 0.5
 				var:810.owner = {
-					is_ally_of_ROOT = yes
+				is_ally_of_ROOT = yes
 					ROOT_can_grant_land = yes				
 				}
 			}
@@ -53628,7 +53628,7 @@ country_event = { #The fate of Syrdarya
 			limit = {
 				var:tag_to_release = { is_russian_tag_that_can_integrate = yes }
 			}
-			every_owned_state = {
+		every_owned_state = {
 				limit = { state = 1203 }
 				transfer_state_and_add_claim = yes
 			}
@@ -53711,8 +53711,8 @@ country_event = { #The fate of Syrdarya
 			event_target:turkestan_ally_target = { 
 				is_ally_of_ROOT = yes
 				ROOT_can_grant_land = yes
+				}
 			}
-		}
 		ai_chance = { base = 80 }
 		set_temp_variable = { ROOT.tag_to_release = event_target:turkestan_ally_target }
 		every_owned_state = {
@@ -53774,7 +53774,7 @@ country_event = { #The fate of Kyrgyzstan
 			modifier = {
 				factor = 0
 				OR = {
-					is_russian_tag_that_can_integrate = yes
+				is_russian_tag_that_can_integrate = yes
 					turkestan_is_potential_government = yes
 					original_tag = ALO
 					original_tag = TRK
@@ -53821,7 +53821,7 @@ country_event = { #The fate of Kyrgyzstan
 					is_russian_tag_that_can_integrate = yes
 				}
 				is_ally_of_ROOT = yes
-				ROOT_can_grant_land = yes				
+				ROOT_can_grant_land = yes
 			}
 		}
 		ai_chance = {
@@ -53829,7 +53829,7 @@ country_event = { #The fate of Kyrgyzstan
 			modifier = {
 				factor = 0.5
 				var:1279.owner = {
-					is_ally_of_ROOT = yes
+				is_ally_of_ROOT = yes
 					ROOT_can_grant_land = yes				
 				}
 			}
@@ -53920,7 +53920,7 @@ country_event = { #The fate of Orenburg
 		hidden_effect = {
 			every_state = {
 				limit = { 
-					NOT = {
+			NOT = {
 						state = 1208
 						state = 582
 					}
@@ -53961,7 +53961,7 @@ country_event = { #The fate of Orenburg
 			modifier = {
 				factor = 0
 				OR = {
-					is_russian_tag_that_can_integrate = yes
+				is_russian_tag_that_can_integrate = yes
 					turkestan_is_potential_government = yes
 					original_tag = ALO
 				}
@@ -54079,7 +54079,7 @@ country_event = { #The fate of Orenburg
 		ai_chance = { base = 100 }
 		trigger = {
 			OR = {
-				is_russian_tag_that_can_integrate = yes
+			is_russian_tag_that_can_integrate = yes
 				turkestan_is_potential_government = yes
 				original_tag = ALO 
 				original_tag = URL
@@ -54191,7 +54191,7 @@ country_event = { #The fate of Chimkent
 		}
 		set_temp_variable = { tag_to_release = var:1279.owner }
 		if = {
-			limit = {
+				limit = {
 				var:tag_to_release = { is_russian_tag_that_can_integrate = yes }
 			}
 			every_owned_state = {
@@ -54213,8 +54213,8 @@ country_event = { #The fate of Chimkent
 			event_target:turkestan_ally_target = { 
 				is_ally_of_ROOT = yes
 				ROOT_can_grant_land = yes
-			}
-		}
+					}
+				}
 		ai_chance = { base = 80 }
 		set_temp_variable = { ROOT.tag_to_release = event_target:turkestan_ally_target }
 		every_owned_state = {
@@ -54292,9 +54292,9 @@ country_event = { #The fate of Transcaspia
 			}
 		}
 		set_temp_variable = { tag_to_release = KHI }
-		every_owned_state = {
-			limit = { 
-				OR = {
+			every_owned_state = {
+				limit = {
+					OR = {
 					state = 584 
 					state = 1275 
 				}
@@ -54439,9 +54439,9 @@ country_event = { #The fate of Transcaspia
 				add_claim_of_ROOT = yes
 				ROOT = { PREV = { enable_state_integration_50_compliance = yes } }
 			}
-		}			
+		}
 		recheck_annexations = yes
-	}	
+	}
 
 	option = { #occupy
 		name = annex.occupation
@@ -55243,7 +55243,7 @@ country_event = { #Fate of Don
 		set_country_flag = DKB_CONQ
 	}
 }
-
+	
 country_event = { #Fate of KUBAN
 	id = annex.400
 	immediate = { 
@@ -55801,7 +55801,7 @@ country_event = { #Fate of the Crimea
 					long_name = CRM_national_populist_party_long
 				}
 				create_country_leader = {
-					name = "Mustafa Edige Kirimal"
+					name = "Мустафа Эдиге Кырымал"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Mustafa_Edige_Kirimal.png"
 					expire = "1.1.1"
 					ideology = paternal_autocrat_subtype
@@ -55881,28 +55881,28 @@ country_event = { #Fate of the Crimea
 					long_name = CRM_girays_long
 				}
 				create_country_leader = {
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 					desc = "POLITICS_SULTAN_KADYR_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 					expire = "1.1.1"
 					ideology = kemalism_subtype
 				}
 				create_country_leader = {
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 					desc = "POLITICS_SULTAN_KADYR_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 					expire = "1.1.1"
 					ideology = national_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 					desc = "POLITICS_SULTAN_KADYR_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 					expire = "1.1.1"
 					ideology = marlib_kemalism_subtype
 				}
 				create_country_leader = {
-					name = "Sultan Kadyr I"
+					name = "Султан Кадыр I"
 					desc = "POLITICS_SULTAN_KADYR_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Kadyr_Giray.png"
 					expire = "1.1.1"
@@ -55928,7 +55928,7 @@ country_event = { #Fate of the Crimea
 					long_name = CRM_german_party_long
 				}
 				create_country_leader = {
-					name = "Woldemar Falz-Fein"
+					name = "Владимир Фальц-Фейн"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Voldemar_Falz_Fein.png"
 					expire = "1.1.1"
 					ideology = colonial_govt_subtype
@@ -56380,7 +56380,7 @@ country_event = { #Fate of the East Galicia
 					var:202.owner = { transfer_state = PREV }
 				}
 				89 = {
-					if = {
+				if = {
 						limit = { NOT = { is_core_of = ROOT } }
 						add_core_of = ROOT
 					}
@@ -56401,7 +56401,7 @@ country_event = { #Fate of the East Galicia
 					if = {
 						limit = { NOT = { is_claimed_by = ROOT } }
 						add_claim_by = ROOT
-					}
+					}			
 				}
 				1127 = {
 					if = {

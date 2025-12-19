@@ -310,7 +310,7 @@ country_event = { #We Sided with the Germs so Germs Larp
 	}
 }
 
-country_event = { # Things are getting Frosty
+country_event = { # Things are getting Мороз
 	id = cea.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event cea.11" }
 	title = cea.11.t
@@ -369,14 +369,14 @@ country_event = { # Big ass Coronation Event
 		custom_effect_tooltip = CEA_BOKASSA_CROWNED
 		hidden_effect = {
 			create_country_leader = {
-				name = "Bokassa I"
+				name = "Бокасса I"
 				desc = "POLITICS_BOKASSA_EMPEROR_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Bokassa_I.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Bokassa I"
+				name = "Бокасса I"
 				desc = "POLITICS_BOKASSA_EMPEROR_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Bokassa_I.png"
 				expire = "1.1.1"
@@ -385,7 +385,7 @@ country_event = { # Big ass Coronation Event
 			if = {
 				limit = { has_country_flag = CEA_FRENCH_LARP }
 				create_country_leader = {
-					name = "Bokassa I"
+					name = "Бокасса I"
 					desc = "POLITICS_BOKASSA_EMPEROR_DESC"
 					picture = "gfx/leaders/CEA/Portrait_CEA_Bokassa_I.png"
 					expire = "1.1.1"
@@ -394,7 +394,7 @@ country_event = { # Big ass Coronation Event
 			}
 			else = {
 			create_country_leader = {
-				name = "Bokassa I"
+				name = "Бокасса I"
 				desc = "POLITICS_BOKASSA_EMPEROR_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Bokassa_I.png"
 				expire = "1.1.1"
@@ -802,21 +802,21 @@ country_event = { # Bokassa in Paris
 				NFA_George_Lamirand_sec_pau
 			}
 			create_country_leader = {
-				name = "Napoleon II"
+				name = "Наполеон II"
 				desc = "POLITICS_BOKASSA_NAPOLEON_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Napoleon_IV.png"
 				expire = "1.1.1"
 				ideology = pataut_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "Napoleon II"
+				name = "Наполеон II"
 				desc = "POLITICS_BOKASSA_NAPOLEON_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Napoleon_IV.png"
 				expire = "1.1.1"
 				ideology = authdem_bonapartism_subtype
 			}
 			create_country_leader = {
-				name = "Napoleon II"
+				name = "Наполеон II"
 				desc = "POLITICS_BOKASSA_NAPOLEON_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Napoleon_IV.png"
 				expire = "1.1.1"
@@ -873,21 +873,21 @@ country_event = { # We Did it - We Reclaimed MAF
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "John Bedel Bokassa"
+				name = "Жан Бедель Бокасса"
 				desc = "POLITICS_BOKASSA_LEADER_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Jean_Bedel_Bokassa_Germ.png"
 				expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype
 			}
 			create_country_leader = {
-				name = "John Bedel Bokassa"
+				name = "Жан Бедель Бокасса"
 				desc = "POLITICS_BOKASSA_LEADER_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Jean_Bedel_Bokassa_Germ.png"
 				expire = "1.1.1"
 				ideology = colonial_govt_subtype
 			}
 			create_country_leader = {
-				name = "John Bedel Bokassa"
+				name = "Жан Бедель Бокасса"
 				desc = "POLITICS_BOKASSA_LEADER_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Jean_Bedel_Bokassa_Germ.png"
 				expire = "1.1.1"
@@ -930,7 +930,7 @@ country_event = { # The Kaiser is DEAD
 			has_global_flag = Wilhelm_III_Dead
 		}
 		has_country_leader = {
-			name = "John Bedel Bokassa"
+			name = "Жан Бедель Бокасса"
 			ruling_only = yes
 		}
 		has_completed_focus = CEA_host_the_kaiser
@@ -1000,7 +1000,7 @@ country_event = { # Bokassa is now Regent
 }
 
 
-news_event = { #Wilhelm II is Dead
+news_event = { #Вильгельм II is Dead
 	id = cea.29
 	immediate = { log = "[GetDateText]: [Root.GetName]: event cea.29" }
 	title = cea.29.t
@@ -1047,23 +1047,23 @@ news_event = { #Wilhelm II is Dead
 				limit = {
 					OR = {
 						has_country_leader = {
-							name = "Wilhelm III"
+							name = "Вильгельм III"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Weilian"
+							name = "Вэйлянь"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Regency Council"
+					name = "Регентский совет"
 					picture = "gfx/leaders/GER/Portrait_Germany_Vacant_Office.png"
 					expire = "1.1.1"
 					ideology = prussian_constitutionalism_subtype
 				}
 				create_country_leader = {
-					name = "Regency Council"
+					name = "Регентский совет"
 					picture = "gfx/leaders/GER/Portrait_Germany_Vacant_Office.png"
 					expire = "1.1.1"
 					ideology = absolute_monarchy_subtype
@@ -1145,21 +1145,21 @@ country_event = { # Bokassa Crowned Kaiser
 		custom_effect_tooltip = CEA_BOKASSA_CROWNED_GERM
 		hidden_effect = {	
 			create_country_leader = {
-				name = "Fredrick IV"
+				name = "Фредерик IV"
 				desc = "POLITICS_BOKASSA_FREDRICK_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Fredrick_III.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Fredrick IV"
+				name = "Фредерик IV"
 				desc = "POLITICS_BOKASSA_FREDRICK_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Fredrick_III.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Fredrick IV"
+				name = "Фредерик IV"
 				desc = "POLITICS_BOKASSA_FREDRICK_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Fredrick_III.png"
 				expire = "1.1.1"
@@ -1265,21 +1265,21 @@ country_event = { # Frankish Empire?
 		custom_effect_tooltip = CEA_BOKASSA_CROWNED_FRANK
 		hidden_effect = {	
 			create_country_leader = {
-				name = "Charlemagne II"
+				name = "Карл Великий II"
 				desc = "POLITICS_BOKASSA_CHARLEMAGNE_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Charlemagne_II.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Charlemagne II"
+				name = "Карл Великий II"
 				desc = "POLITICS_BOKASSA_CHARLEMAGNE_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Charlemagne_II.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Charlemagne II"
+				name = "Карл Великий II"
 				desc = "POLITICS_BOKASSA_CHARLEMAGNE_DESC"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Charlemagne_II.png"
 				expire = "1.1.1"
@@ -2303,7 +2303,7 @@ country_event = { # French Relations
 			producer = FRA
 		}
 		create_corps_commander = {
-			name = "Pierre Garbay"
+			name = "Пьер Гарбей"
 			portrait_path = "gfx/leaders/CEA/Portrait_CEA_Pierre_Garbay.png"
 			traits = {
 				war_hero
@@ -2795,7 +2795,7 @@ country_event = { # Boganda Plane Crash
 	is_triggered_only = yes
 	trigger = {
 		has_country_leader = {
-			name = "Barthélemy Boganda"
+			name = "Бартелеми Боганда"
 			ruling_only = yes
 		}
 	}
@@ -2814,7 +2814,7 @@ country_event = { # Boganda Plane Crash
 	option = { # Dies
 		name = cea_flavour.58.b
 		create_country_leader = {
-			name = "David Dacko"
+			name = "Давид Дако"
 			desc = "POLITICS_DACKO_DESC"
 			picture = "gfx/leaders/CEA/Portrait_CEA_David_Dacko.png"
 			expire = "1.1.1"
@@ -2822,7 +2822,7 @@ country_event = { # Boganda Plane Crash
 		}
 
 		create_country_leader = {
-			name = "David Dacko"
+			name = "Давид Дако"
 			desc = "POLITICS_DACKO_DESC"
 			picture = "gfx/leaders/CEA/Portrait_CEA_David_Dacko.png"
 			expire = "1.1.1"
@@ -2830,7 +2830,7 @@ country_event = { # Boganda Plane Crash
 		}
 
 		create_country_leader = {
-			name = "David Dacko"
+			name = "Давид Дако"
 			desc = "POLITICS_DACKO_DESC"
 			picture = "gfx/leaders/CEA/Portrait_CEA_David_Dacko.png"
 			expire = "1.1.1"
@@ -2852,7 +2852,7 @@ country_event = { # Sultan Coup
 	option = { # Lives
 		name = cea_flavour.59.a
 		create_country_leader = {
-			name = "Kamoun Mohamed al-Senoussi"
+			name = "Камун Мохамед аль-Сенусси"
 			picture = "gfx/leaders/CEA/Portrait_CEA_Kamoun_Mohamed_Senoussi.png"
 			expire = "1.1.1"
 			ideology = pataut_tribal_chiefdom_subtype
@@ -2978,7 +2978,7 @@ country_event = { # Centralization or Decentralization
 		name = cea_flavour.60.a
 		set_country_flag = CEA_decentralized_sultanate
 		create_country_leader = {
-			name = "Kamoun Mohamed al-Senoussi"
+			name = "Камун Мохамед аль-Сенусси"
 			picture = "gfx/leaders/CEA/Portrait_CEA_Kamoun_Mohamed_Senoussi.png"
 			expire = "1.1.1"
 			ideology = tribal_chiefdom_subtype
@@ -3053,7 +3053,7 @@ country_event = { # Lesser Sultans
 		add_stability = 0.02
 		add_political_power = 10
 		create_corps_commander = {
-			name = "Sultan Hetman of Rafai"
+			name = "Султан Гетман Рафаи"
 			portrait_path = "gfx/leaders/CEA/Portrait_CEA_Sultan_Hetman.png"
 			traits = {
 				war_hero
@@ -3067,7 +3067,7 @@ country_event = { # Lesser Sultans
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Auguste Fatrane of Rafai"
+			name = "Огюст Фатране Рафаи"
 			portrait_path = "gfx/leaders/CEA/Portrait_CEA_Auguste_Fatrane.png"
 			traits = {
 				war_hero
@@ -3081,7 +3081,7 @@ country_event = { # Lesser Sultans
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Amiel Sayo of Bangassou"
+			name = "Амиэль Сайо Бангассу"
 			portrait_path = "gfx/leaders/CEA/Portrait_CEA_Amiel_Sayo.png" #Not actually him
 			traits = {
 				war_hero
@@ -3299,7 +3299,7 @@ country_event = { # Natpop or PatAut
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Kamoun Mohamed al-Senoussi"
+			name = "Камун Мохамед аль-Сенусси"
 			picture = "gfx/leaders/CEA/Portrait_CEA_Kamoun_Mohamed_Senoussi.png"
 			expire = "1.1.1"
 			ideology = natpop_islamism_subtype
@@ -3348,7 +3348,7 @@ country_event = { # Authdem or Radsoc
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Kamoun Mohamed al-Senoussi"
+			name = "Камун Мохамед аль-Сенусси"
 			picture = "gfx/leaders/CEA/Portrait_CEA_Kamoun_Mohamed_Senoussi.png"
 			expire = "1.1.1"
 			ideology = radsoc_indigenous_communitarianism_subtype
@@ -3377,15 +3377,15 @@ country_event = { # Big Fuckoff Formable
 		set_cosmetic_tag = CEA_SULTANATE5
 	}
 	option = { # 
-		name = cea_flavour.73.b
-		every_country = {
-			limit = { is_arabian_tag = yes }
-			create_wargoal = {
-				type = annex_everything 
-				target = PREV
-			}
+	name = cea_flavour.73.b
+	every_country = {
+		limit = { is_arabian_tag = yes }
+		create_wargoal = {
+			type = annex_everything 
+			target = PREV
 		}
 	}
+}
 	option = { # 
 		name = cea_flavour.73.c
 	}
@@ -3506,7 +3506,7 @@ country_event = { # Boganda Picker
 	}
 }
 
-country_event = { # Jane Vialle
+country_event = { # Джейн Виалле
 	id = cea_flavour.75
 	immediate = { log = "[GetDateText]: [Root.GetName]: event cea_flavour.75" }
 	title = cea_flavour.75.t
@@ -3526,7 +3526,7 @@ country_event = { # Jane Vialle
 		if = {
 			limit = { has_government = syndicalist }
 			create_country_leader = {
-				name = "Jane Vialle"
+				name = "Джейн Виалле"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Jane_Vialle.png"
 				expire = "1.1.1"
 				ideology = feminist_syndicalist_subtype
@@ -3557,7 +3557,7 @@ country_event = { # Jane Vialle
 		}
 		else = {
 			create_country_leader = {
-				name = "Jane Vialle"
+				name = "Джейн Виалле"
 				picture = "gfx/leaders/CEA/Portrait_CEA_Jane_Vialle.png"
 				expire = "1.1.1"
 				ideology = socdem_socialist_feminism_subtype

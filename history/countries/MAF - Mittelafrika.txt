@@ -81,37 +81,37 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	ship_hull_super_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		ship_hull_super_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
-	
-	mtg_transport = 1
-}
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		
+		mtg_transport = 1
+	}
 
 complete_special_project = {
 	project = sp:sp_naval_cruiser_submarine
@@ -320,7 +320,7 @@ add_ideas = {
 
 ### Country Leaders ###
 create_country_leader = {
-	name = "Wilhelm Solf"
+	name = "Вильгельм Зольф"
 	desc = "POLITICS_SOLF_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_Solf.png"
 	expire = "1.1.1"
@@ -328,7 +328,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Reinhard Heydrich"
+	name = "Рейнхард Гейдрих"
         desc = "POLITICS_HEYDRICH_MAF_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 	expire = "1.1.1"
@@ -336,7 +336,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Hermann von Göring"
+	name = "Герман Геринг"
 	desc = "POLITICS_GOERING_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Goering_Governor.png"
 	expire = "1.1.1"
@@ -345,7 +345,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Theodor von Hassel"
+	name = "Теодор фон Хассель"
 	desc = "POLITICS_HASSEL_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Theodor_von_Hassel.png"
 	expire = "1.1.1"
@@ -354,7 +354,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jules Cousin"
+	name = "Жюль Кузен"
 	desc = "POLITICS_COUSIN_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Jules_Cousin.png"
 	expire = "1.1.1"
@@ -363,7 +363,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nigel Leaky"
+	name = "Найджел Лики"
 	desc = "POLITICS_LEAKY_DESC"
 	picture = "gfx/leaders/KEN/Portrait_Kenya_Nigel_Leaky.png"
 	expire = "1.1.1"
@@ -372,7 +372,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Albert von Göring"
+	name = "Альберт Геринг"
 	desc = "POLITICS_ALBERT_GORING_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Albert_Goering.png"
 	expire = "1.1.1"
@@ -382,7 +382,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Hermann von Göring "
+	name = "Герман Геринг "
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Goering_army.png"
 	traits = {
 		trait_reckless
@@ -401,7 +401,7 @@ create_field_marshal = {
 ### Corps Commanders ###
 
 create_corps_commander = {
-	name = "Georg Kraut"
+	name = "Георг Краут"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Georg_Kraut.png"
 	traits = {
 		career_officer
@@ -416,7 +416,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = { #Used in GAB
-	name = "Hans Schomburgk"
+	name = "Ганс Шомбургк"
 	portrait_path = "gfx/leaders/GAB/Hans_Schomburgk.png"
 	traits = {
 		media_personality
@@ -429,7 +429,7 @@ create_corps_commander = { #Used in GAB
 }
 
 create_corps_commander = {
-	name = "Theodor von Hippel"
+	name = "Теодор фон Хиппель"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Theodor_von_Hippel.png"
 	traits = {
 		brilliant_strategist
@@ -453,7 +453,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Heinrich Kirchheim"
+	name = "Генрих Кирххайм"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Heinrich_Kircheim.png"
 	traits = {
 		old_guard
@@ -474,7 +474,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Martin Franz Chales de Beaulieu"
+	name = "Мартин Франц Шалес де Болье"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Martin_Franz_Chales_de_Beaulieu.png"
 	traits = {
 		old_guard
@@ -496,7 +496,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Karl Waldeck"
+	name = "Карл Вальдек"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Karl_Waldeck.png"
 	traits = {
 		old_guard
@@ -518,7 +518,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Wilhelm Faupel"
+	name = "Вильгельм Фаупель"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Wilhelm_Faupel.png"
 	traits = {
 		old_guard
@@ -539,7 +539,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Erich von Gilsa"
+	name = "Эрих фон Гильза"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Erich_von_Gilsa.png"
 	traits = {
 		old_guard
@@ -560,7 +560,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Hermann von der Heyde"
+	name = "Херманн Ауф дер Хайде"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Hermann_von_der_Heyde.png"
 	traits = {
 		old_guard
@@ -581,7 +581,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Ludwig von Erstorff"
+	name = "Людвиг фон Эрсторф"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Ludwig_von_Estorff.png"
 	traits = {
 		old_guard
@@ -602,7 +602,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Walter Sobtzick"
+	name = "Уолтер Собтзик"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Walter_Sobtzick.png"
 	traits = {
 		old_guard
@@ -623,7 +623,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Kai-Uwe von Hassel"
+	name = "Кай-Уве фон Хассель"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Kai_Uwe_von_Hassel.png"
 	traits = {
 		harsh_leader
@@ -638,7 +638,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann Detzner"
+	name = "Герман Децнер"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Detzner.png"
 	traits = {
 		war_hero
@@ -653,7 +653,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hans Albert von Lettow-Vorbeck "
+	name = "Ганс Альберт фон Леттов-Ворбек "
 	portrait_path = "gfx/leaders/MAF/MAF_Hans_Albert_Vorbeck_General.png"
 	traits = { infantry_officer }
 	skill = 2
@@ -665,7 +665,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ludwig Mbebe Mpessa"
+	name = "Людвиг Мбебе Мпесса"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Ludwig_Mbebe_Mpessa.png"
 	traits = {
 		trickster
@@ -684,7 +684,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Elo Sambo"
+	name = "Эло Самбо"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Elo_Sambo.png"
 	traits = {
 		harsh_leader
@@ -703,7 +703,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Karl Atangana"
+	name = "Карл Атангана"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Karl_Atangana.png"
 	traits = {
 		career_officer
@@ -724,7 +724,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Arnold Lequis"
+	name = "Арнольд Лекиз"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Arnold_Lequis.png"
 	traits = {
 		career_officer
@@ -745,7 +745,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Kurt Freiherr von Crailsheim-Rügland"
+	name = "Курт фрайхерр фон Крайльсхайм-Рюгланд"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Kurt_von_Crailsheim_Rugland.png"
 	traits = {
 		war_hero
@@ -764,7 +764,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Kurt Strümpell"
+	name = "Курт Штрюмпель"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Kurt_Strumpell.png"
 	traits = {
 		war_hero
@@ -784,7 +784,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Franz von Stephani"
+	name = "Франц Штефани"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_von_Stephani.png"
 	traits = {
 		politically_connected
@@ -798,7 +798,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alexander Douala Manga Bell"
+	name = "Александр Дуала-Белл"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Alexander_Duala_Manga_Bell.png"
 	traits = {
 		career_officer
@@ -818,7 +818,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Carl Heinrich Zimmermann"
+	name = "Карл Генрих Циммерман"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Carl_Heinrich_Zimmerman.png"
 	traits = {
 		career_officer
@@ -838,7 +838,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Berthold von Deimling"
+	name = "Бертольд фон Деймлинг"
 	portrait_path = "gfx/leaders/NMB/Portrait_NMB_Berthold_von_Deimling.png"
 	traits = {
 		old_guard
@@ -860,7 +860,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Erwin Rommel"
+	name = "Эрвин Роммель"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Erwin_Rommel_kr.png"
 	traits = { 
 		trickster 
@@ -877,7 +877,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fritz Bayerlein"
+	name = "Фриц Байерлайн"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Fritz_Bayerlein_kr.png"
 	traits = { }
 	skill = 1
@@ -888,7 +888,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Sepp Dietrich"
+	name = "Зепп Дитрих"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Sepp_Dietrich.png"
 	traits = {
 		trait_reckless
@@ -910,7 +910,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Theodor Eicke"
+	name = "Теодор Эйке"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Theodor_Eicke.png"
 	traits = {
 		harsh_leader
@@ -931,7 +931,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Joachim Peiper"
+	name = "Иоахим Пайпер"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Joachim_Peiper.png"
 	traits = {
 		harsh_leader
@@ -952,7 +952,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Felix Steiner"
+	name = "Феликс Штайнер"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Felix_Steiner.png"
 	traits = {
 		war_hero
@@ -974,7 +974,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Fritz Klingenberg"
+	name = "Фриц Клингенберг"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Fritz_Klingenberg.png"
 	traits = {
 		politically_connected
@@ -995,7 +995,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Hans Frank"
+	name = "Ганс Франк"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Frank.png"
 	traits = {
 		politically_connected
@@ -1015,7 +1015,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Wolfgang Schenck"
+	name = "Вольфганг Шенк"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Wolfgang_Schenck.png"
 	traits = {
 		air_commander
@@ -1034,7 +1034,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Adolf von Duisburg"
+	name = "Адольф фон Дуйсбург"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Adolf_von_Duisburg.png"
 	traits = {
 		guerilla_fighter
@@ -1053,7 +1053,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Hermann Meyer-Rabingen"
+	name = "Герман Мейер-Рабинген"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Meyer_Rabingen.png"
 	traits = {
 		brilliant_strategist
@@ -1074,7 +1074,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Hans Surén"
+	name = "Ханс Сурен"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Suren.png"
 	traits = {
 		war_hero
@@ -1096,7 +1096,7 @@ random_unit_leader = {
 }
 
 create_corps_commander = {
-	name = "Adolf Heusinger"
+	name = "Адольф Хойзингер"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Adolf_Heusinger.png"
 	traits = {
 		war_hero
@@ -1119,7 +1119,7 @@ random_unit_leader = {
 
 ### Navy Commanders ###
 create_navy_leader = {
-	name = "Max von Looff"
+	name = "Макс фон Лофф"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Max_Looff.png"
 	traits = {
 		spotter
@@ -1132,7 +1132,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Reinhard Heydrich"
+	name = "Рейнхард Гейдрих"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 	traits = {}
 	skill = 2
@@ -1144,7 +1144,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ludwig Bockholt"
+	name = "Людвиг Бокхольт"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Ludwig_Bockholt.png"
 	traits = { air_controller }
 	skill = 2
@@ -1161,7 +1161,7 @@ random_unit_leader = {
 }
 
 create_navy_leader = {
-	name = "Ernst-Felix Krüder"
+	name = "Эрнст-Феликс Крюдер"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Ernst_Felix_Krueder.png"
 	traits = { bold }
 	skill = 2

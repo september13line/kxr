@@ -71,29 +71,29 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	coastal_defense_ships = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		coastal_defense_ships = 1
+		
+        basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+        basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-}
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+	}
 
 ### Parliament
 set_variable = { var = representatives_support value = 0 }
@@ -257,28 +257,28 @@ add_ai_strategy = {
 }
 
 create_country_leader = {
-	name = "Reşad Fuad Bey"
+	name = "Резад Фуад-бей"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Resad_Fuad.png"
 	expire = "1.1.1"
 	ideology = authcom_subtype
 }
 
 create_country_leader = {
-	name = "Şefik Hüsnü Bey"
+	name = "Шефик Хюсню-бей"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Sefik_Husnu.png"
 	expire = "1.1.1"
 	ideology = syndicalist_subtype
 }
 
 create_country_leader = {
-	name = "Hikmet Âli Bey"
+	name = "Ахмед Бей Хикмет"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Hikmet_Kivilcimli.png"
 	expire = "1.1.1"
 	ideology = radsoc_communism_subtype
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -289,7 +289,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -300,7 +300,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -311,7 +311,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -322,7 +322,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -333,7 +333,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -344,7 +344,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdülmecid II"
+	name = "Абдул-Меджид II"
 	desc = "POLITICS_ABDULMECID_DESC"
 	picture = "gfx/leaders/OTT/Portrait_OTT_Abdulmecid_II.png"
 	expire = "1.1.1"
@@ -356,7 +356,7 @@ create_country_leader = {
 
 ### Field Marshal
 create_field_marshal = {
-	name = "Osman Fuad Efendi"
+	name = "Осман Фуад Османоглу"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Osman_Fuad.png"
 	traits = {
 		politically_connected
@@ -374,7 +374,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = { #New Portrait
-	name = "Fevzi Paşa"
+	name = "Февзи-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Fevzi.png"
 	traits = {
 		career_officer
@@ -391,7 +391,7 @@ create_field_marshal = { #New Portrait
 }
 
 create_field_marshal = {
-	name = "Mustafa Kemal Paşa"
+	name = "Мустафа Кемаль Ататюрк"
 	id = 670
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Kemal.png"
 	traits = {
@@ -411,7 +411,7 @@ create_field_marshal = {
 ### Corps Commander
 
 create_corps_commander = { #New Portrait
-	name = "Ömer Fahrettin Paşa"
+	name = "Омер Фахреддин Тюрккан"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Omer_Fahrettin_Turkkan.png"
 	traits = {
 		old_guard
@@ -428,7 +428,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = {	#New Portrait
-	name = "Nuri Paşa"
+	name = "Нури-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Nuri_Yamut.png"
 	traits = {
 		artillery_officer
@@ -444,7 +444,7 @@ create_corps_commander = {	#New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Hayrullah Paşa"
+	name = "Хайрулла-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Hayrullah_Fisek.png"
 	traits = {
 		career_officer
@@ -460,7 +460,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Abdurrahman Nafiz Paşa"
+	name = "Абдуррахман Нафиз-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Nafiz_Gurman.png"
 	traits = {
 		war_hero
@@ -475,7 +475,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Mustafa Muglali Paşa"
+	name = "Мустафа Муглали-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Muglali.png"
 	traits = {
 		war_hero
@@ -491,7 +491,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Mehmet Kâzım Paşa"
+	name = "Мехмет Казым-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Kazim_Orbay.png"
 	traits = {
 		war_hero
@@ -507,7 +507,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Cemil Cahit Paşa"
+	name = "Джемиль Кахит-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Cahit_Toydemir.png"
 	traits = {
 		war_hero
@@ -522,7 +522,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait (Iraqi)
-	name = "Yasin al-Hashimi "
+	name = "Ясин аль-Хашими"
 	portrait_path = "gfx/leaders/IRQ/Portrait_IRQ_Yasin_Hashimi_Army.png"
 	traits = {
 		war_hero
@@ -539,7 +539,7 @@ create_corps_commander = { #New Portrait (Iraqi)
 }
 
 create_corps_commander = { #New Portrait
-	name = "Asım Paşa"
+	name = "Ассим-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Asim_Gunduz.png"
 	traits = {
 		war_hero
@@ -554,7 +554,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Mehmet Hayri Paşa"
+	name = "Мехмет Хайри-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mehmet_Hayri_Tarhan.png"
 	traits = {
 		war_hero
@@ -570,7 +570,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #New Portrait
-	name = "Nihat Paşa"
+	name = "Нихат-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Nihat_Anilmis.png"
 	traits = {
 		fortress_buster
@@ -585,7 +585,7 @@ create_corps_commander = { #New Portrait
 }
 
 create_corps_commander = { #close associate of Mustafa Kemal
-	name = "Fahrettin Paşa"
+	name = "Факхри-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Fahrettin_Altay.png"
 	traits = {
 		war_hero
@@ -602,7 +602,7 @@ create_corps_commander = { #close associate of Mustafa Kemal
 }
 
 create_corps_commander = { #New Portrait
-	name = "Tahsin Paşa"
+	name = "Тахсин-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Tahsin_Yazici.png"
 	traits = {
 		armor_officer
@@ -617,7 +617,7 @@ create_corps_commander = { #New Portrait
 
 #son of the sultan and pretty cool lad, also big footbal fan
 create_corps_commander = {
-	name = "Ömer Faruk Efendi"
+	name = "Омер Фарук Османоглу"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Omer_Faruk.png"
 	traits = {
 		war_hero
@@ -632,7 +632,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Süleyman Şefik Paşa"
+	name = "Сюлейман Шефик-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Suleyman_Sefik.png"
 	traits = {
 		career_officer
@@ -649,7 +649,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vecihi Hürkuş"
+	name = "Веджихи Хюркуш"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Vecihi_Hurkus.png"
 	traits = {
 		war_hero
@@ -664,7 +664,7 @@ create_corps_commander = {
 
 ### Navy Leader
 create_navy_leader = {
-	name = "Mehmet Ali Paşa"
+	name = "Мехмед Али-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mehmet_Ali_Ulgen.png"
 	traits = {}
 	skill = 1
@@ -676,7 +676,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Şükrü Paşa"
+	name = "Шюкрю-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Sukru_Okan.png"
 	traits = {}
 	skill = 2
@@ -688,7 +688,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Hüseyin Rauf Paşa"
+	name = "Хусейн Рауф-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Huseyin_Rauf.png"
 	traits = {
 		superior_tactician
@@ -702,7 +702,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Mahmud Muhtar Paşa"
+	name = "Махмуд Мухтар-паша"
 	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Muhtar.png"
 	traits = {
 		seawolf
@@ -719,7 +719,7 @@ create_navy_leader = {
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = "Elyasa Bazna"
+		name = "Эльяс Базна"
 		GFX = GFX_portrait_kr_elyasa_bazna
 		traits = {
 			operative_linguist

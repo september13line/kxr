@@ -142,7 +142,7 @@ country_event = {
 		add_ideas = SKM_peasant_council
 		complete_national_focus = skm_coup_moment
 		create_field_marshal = {
-			name = "Jerman Lepcha "
+			name = "Джерман Лепча "
 			portrait_path = "gfx/leaders/SKM/Portrait_SKM_Jerman_Lepcha.png"
 			traits = {
 			inspirational_leader
@@ -219,7 +219,7 @@ country_event = {
 
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			country_event = { id = sikkim.80 days = 1825 } # Repeat election every 5 years
@@ -638,7 +638,7 @@ country_event = {
 	option = {
 		name = sikkim.16.a
 		create_corps_commander = {
-			name = "Paljor Namgyal "
+			name = "Палджор Намгьял "
 			portrait_path = "gfx/leaders/SKM/Portrait_SKM_Paljor_Namgyal.png"
 			traits = {
 				politically_connected
@@ -1157,7 +1157,7 @@ country_event = {
 		remove_ideas = SKM_peasant_council
 		add_ideas = SKM_aristocratic_government
 		create_field_marshal = {
-			name = "Kazi Lhendup Dorjee "
+			name = "Кази Лхендуп Кхангсарпа "
 			portrait_path = "gfx/leaders/SKM/Portrait_SKM_Lhendup_Dorjee.png"
 			traits = {
 			politically_connected
@@ -1204,7 +1204,7 @@ country_event = {
 	option = {
 		name = sikkim.34.a
 		create_country_leader = {
-			name = "Paljor Namgyal"
+			name = "Палджор Намгьял"
 			desc = "POLITICS_PALJOR_NAMGYAL_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Paljor_Namgyal.png"
 			expire = "1.1.1"
@@ -1226,7 +1226,7 @@ country_event = {
 		remove_ideas = SKM_aristocratic_government
 		add_ideas = SKM_puppet_chogyal
 		set_party_name = {
-			ideology = paternal_autocrat
+				ideology = paternal_autocrat
 			name = SKM_namgyal_party
 			long_name = SKM_namgyal_party_long
 		}
@@ -1235,7 +1235,7 @@ country_event = {
 	option = {
 		name = sikkim.34.b
 		create_country_leader = {
-			name = "Palden Thondup Namgyal"
+			name = "Палден Тондуп Намгьял"
 			desc = "POLITICS_PALDEN_NAMGYAL_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Palden_Namgyal.png"
 			expire = "1.1.1"
@@ -1263,7 +1263,7 @@ country_event = {
 				}
 			}
 			
-		set_party_name = {
+			set_party_name = {
 				ideology = paternal_autocrat
 				name = SKM_namgyal_party
 			    long_name = SKM_namgyal_party_long
@@ -1276,7 +1276,7 @@ country_event = {
 		has_country_flag = skm_backdoor_coup
 		}
 		create_country_leader = {
-			name = "Tashi Namgyal"
+			name = "Таши Намгьял"
 			desc = "POLITICS_TASHI_NAMGYAL_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Tashi_Namgyal.png"
 			expire = "1.1.1"
@@ -1342,7 +1342,7 @@ country_event = {
 		name = sikkim.35.a
 		add_political_power = 50
 		create_operative_leader = {
-		name = "Carole Lombard"
+		name = "Кэрол Ломбард"
 		GFX = GFX_Portrait_SKM_Carole_Lombard
 		traits = { operative_seducer }
 		bypass_recruitment = yes
@@ -1357,7 +1357,7 @@ country_event = {
 	title = sikkim.36.t
 	desc = sikkim.36.d
 	picture = GFX_news_sikkim_crowd
-	
+
 	immediate = {
 		hidden_effect = {
 			country_event = { id = sikkim.81 days = 1825 } # Repeat election every 5 years
@@ -1508,7 +1508,7 @@ country_event = {
 		}
 		add_authdem_to_coalition = yes
 		create_country_leader = {
-			name = "Kazi Lhendup Dorjee"
+			name = "Кази Лхендуп Кхангсарпа"
 			desc = "POLITICS_LHENDUP_DORJEE_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Lhendup_Dorjee.png"
 			expire = "1.1.1"
@@ -1569,8 +1569,8 @@ country_event = { #Sikkim Peace Event
 	
 	trigger = {
 		tag = SKM
-		has_war_with = BHC
-		controls_state = 887
+			has_war_with = BHC
+			controls_state = 887
 		NOT = { owns_state = 887 }
 	}
 
@@ -1650,8 +1650,8 @@ country_event = {
 		name = sikkim.43.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
 		}
 		else = {
 			set_technology = {
@@ -1670,9 +1670,9 @@ country_event = {
 
 	trigger = {
 		tag = SKM
-		owns_state = 439
-		owns_state = 431
-		owns_state = 427
+			owns_state = 439
+			owns_state = 431
+			owns_state = 427
 		has_country_flag = tashi_reforms
 	}
 	fire_only_once = yes
@@ -1735,9 +1735,9 @@ country_event = {
 
 	trigger = {
 		tag = SKM
-		owns_state = 439
-		owns_state = 431
-		owns_state = 427
+			owns_state = 439
+			owns_state = 431
+			owns_state = 427
 		OR = {
 		has_country_flag = SKM_Kazis_Win
 		has_country_flag = SKM_Traditionalists_Win
@@ -1803,9 +1803,9 @@ country_event = {
 
 	trigger = {
 		tag = SKM
-		owns_state = 439
-		owns_state = 431
-		owns_state = 427
+			owns_state = 439
+			owns_state = 431
+			owns_state = 427
 		has_country_flag = peasant_revolution
 	}
 	fire_only_once = yes
@@ -1871,8 +1871,8 @@ country_event = {
 
 	trigger = {
 		tag = SKM
-		owns_state = 608
-		OR = {
+			owns_state = 608
+			OR = {
 			has_country_flag = tashi_reforms
 			has_country_flag = SKM_Traditionalists_Win
 			has_government = totalist
@@ -1985,7 +1985,7 @@ country_event = {
 			}
 		add_manpower = 2500
 	create_corps_commander = {
-		name = "Savitri Devi "
+		name = "Савитри Деви "
 		portrait_path = "gfx/leaders/SKM/Portrait_SKM_Helen_Lepcha.png"
 		female = yes
 		traits = {
@@ -1998,7 +1998,7 @@ country_event = {
 		logistics_skill = 1
 		}
 	create_corps_commander = {
-		name = "Trilochan Pokhrel "
+		name = "Трилочан Покхрел "
 		portrait_path = "gfx/leaders/SKM/Portrait_SKM_Trilochan_Pokhrel.png"
 		traits = {
 		politically_connected
@@ -2314,7 +2314,7 @@ country_event = {
 	option = {
 		name = sikkim.53.a
 	create_country_leader = {
-	name = "Tashi Namgyal"
+	name = "Таши Намгьял"
 	desc = "POLITICS_TASHI_NAMGYAL_DESC"
 	picture = "gfx/leaders/SKM/Portrait_SKM_Tashi_Namgyal.png"
 	expire = "1.1.1"
@@ -2338,10 +2338,10 @@ country_event = {
 		}
 	}
 	set_party_name = {
-		ideology = totalist
+				ideology = totalist
 		name = SKM_tashi_roerich_party
 		long_name = SKM_tashi_roerich_party_long
-	}
+		}
 	}
 }
 
@@ -2391,9 +2391,9 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-	name = sikkim.55.a
+		name = sikkim.55.a
 	create_country_leader = {
-			name = "Rangjung Rigpe Dorje"
+			name = "Рангджунг Ригпе Дордже"
 			desc = "POLITICS_DORJE_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Rangjung_Rigpe_Dorje.png"
 			expire = "1.1.1"
@@ -2401,7 +2401,7 @@ country_event = {
 			traits = {}
 		}
 	create_field_marshal = {
-	name = "Rangjung Rigpe Dorje "
+	name = "Рангджунг Ригпе Дордже "
 	portrait_path = "gfx/leaders/SKM/Portrait_SKM_Rangjung_Rigpe_Dorje.png"
 	traits = {
 		politically_connected
@@ -2426,9 +2426,9 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-	name = sikkim.56.a
+		name = sikkim.56.a
 	create_country_leader = {
-			name = "Rangjung Rigpe Dorje"
+			name = "Рангджунг Ригпе Дордже"
 			desc = "POLITICS_DORJE_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Rangjung_Rigpe_Dorje.png"
 			expire = "1.1.1"
@@ -2436,7 +2436,7 @@ country_event = {
 			traits = {}
 		}
 	create_field_marshal = {
-	name = "Rangjung Rigpe Dorje "
+	name = "Рангджунг Ригпе Дордже "
 	portrait_path = "gfx/leaders/SKM/Portrait_SKM_Rangjung_Rigpe_Dorje.png"
 	traits = {
 		politically_connected
@@ -2449,14 +2449,14 @@ country_event = {
 	}
 	set_cosmetic_tag = SKM_kazis_old
 	hidden_effect = {
-	remove_ideas = SKM_chogyal
+		remove_ideas = SKM_chogyal
+			}
 		}
-	}
 	option = {
 		name = sikkim.56.b
 	increase_ruling_party_popularity_by_5 = yes
 	create_field_marshal = {
-	name = "Rangjung Rigpe Dorje "
+	name = "Рангджунг Ригпе Дордже "
 	portrait_path = "gfx/leaders/SKM/Portrait_SKM_Rangjung_Rigpe_Dorje.png"
 	traits = {
 		politically_connected
@@ -2538,19 +2538,19 @@ country_event = {
 		remove_ideas = SKM_chogyal
 		set_country_flag = NatPop_end_democracy_flag
 		create_country_leader = {
-		name = "Interregnum"
+		name = "Междуцарствие"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Interregnum.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 		}
 		create_country_leader = {
-		name = "Interregnum"
+		name = "Междуцарствие"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Interregnum.png"
 		expire = "1.1.1"
 		ideology = pataut_oligarchy_subtype
 		}
 		create_country_leader = {
-		name = "Interregnum"
+		name = "Междуцарствие"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Interregnum.png"
 		expire = "1.1.1"
 		ideology = fundementalism_subtype
@@ -2587,31 +2587,31 @@ country_event = {
 		add_ideas = SKM_Sonam_Tshering_hog_npo
 		add_ideas = SKM_chogyal
 		create_country_leader = {
-		name = "Tashi Namgyal"
+		name = "Таши Намгьял"
 		desc = "POLITICS_TASHI_NAMGYAL_DESC"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Tashi_Namgyal.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 		}
 		create_country_leader = {
-		name = "Tashi Namgyal"
+		name = "Таши Намгьял"
 		desc = "POLITICS_TASHI_NAMGYAL_DESC"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Tashi_Namgyal.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 		}
 		create_country_leader = {
-		name = "Tashi Namgyal"
+		name = "Таши Намгьял"
 		desc = "POLITICS_TASHI_NAMGYAL_DESC"
 		picture = "gfx/leaders/SKM/Portrait_SKM_Tashi_Namgyal.png"
 		expire = "1.1.1"
 		ideology = fundementalism_subtype
-		}
+			}
 		set_party_name = {
-			ideology = national_populist
+				ideology = national_populist
 			name = SKM_dem_natpop_party
 			long_name = SKM_dem_natpop_party_long
-		}
+			}
 		}
 	}
 	option = {
@@ -2683,17 +2683,17 @@ country_event = {
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SKM_Sonam_Tshering_hog_npo
 		create_country_leader = {
-		name = "Sonam Tshering"
+		name = "Сонам Тшеринг"
 		desc = ""
 		picture = "gfx/leaders/SKM/Portrait_SKM_Sonam_Tshering.png"
 		expire = "1.1.1"
 		ideology = fundementalism_subtype
-		}
+			}
 		set_party_name = {
-			ideology = national_populist
+				ideology = national_populist
 			name = SKM_dem_natpop_party
 			long_name = SKM_dem_natpop_party_long
-		}
+			}
 		}
 		set_country_flag = skm_buddhist
 		complete_national_focus = skm_natpop_victory
@@ -2747,7 +2747,7 @@ country_event = {
 	is_ai = no
 	has_country_flag = skm_roerich
 	TIB = {
-	has_country_leader = { name = "Nicholas Roerich" ruling_only = yes }
+	has_country_leader = { name = "Николай Рерих" ruling_only = yes }
 		}
 	}
 	fire_only_once = yes
@@ -2818,7 +2818,7 @@ country_event = {
 	option = {
 		name = sikkim.66.b
 		create_country_leader = {
-			name = "Savitri Devi"
+			name = "Савитри Деви"
 			female = yes
 			desc = "POLITICS_HELEN_LEPCHA_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Helen_Lepcha.png"
@@ -2833,7 +2833,7 @@ country_event = {
 	option = {
 		name = sikkim.66.c
 		create_country_leader = {
-			name = "Trilochan Pokhrel"
+			name = "Трилочан Покхрел"
 			desc = "POLITICS_TRILOCHAN_POKHREL_DESC"
 			picture = "gfx/leaders/SKM/Portrait_SKM_Trilochan_Pokhrel.png"
 			expire = "1.1.1"
@@ -2874,7 +2874,7 @@ country_event = {
 	create_country_leader = {
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SKM_Nicholas_Roerich_hog_tot
-		name = "Nicholas Roerich"
+		name = "Николай Рерих"
 		desc = "POLITICS_NICHOLAS_ROERICH_DESC"
 		picture = "gfx/leaders/TIB/Portrait_TIB_Nicholas_Roerich.png"
 		expire = "1.1.1"
@@ -2910,7 +2910,7 @@ country_event = {
 
 	trigger = {
         tag = SKM
-		owns_state = 324
+	owns_state = 324
 	BHU = {
 		exists = no
 		}
@@ -2958,7 +2958,7 @@ country_event = {
 
 	trigger = {
 	tag = SKM
-	owns_state = 322
+		owns_state = 322
 	TIB = {
 		exists = no
 		}
@@ -3188,7 +3188,7 @@ country_event = {
 	trigger = {
 	tag = TIB
 	is_ai = no
-	has_country_leader = { name = "Nicholas Roerich" ruling_only = yes }
+	has_country_leader = { name = "Николай Рерих" ruling_only = yes }
 	SKM = {
 	has_country_flag = skm_roerich
 		}

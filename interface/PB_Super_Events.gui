@@ -19,7 +19,7 @@ guiTypes = {
 			spriteType = "GFX_Super_Event_Image_Test"
 			position = { x = -150 y = -45 }
 		}
-
+		
 		iconType = {
 			name ="Super_Event_Image_Second_Weltkrieg"
 			spriteType = "GFX_SPEVNT_Second_Weltkrieg"
@@ -163,13 +163,19 @@ guiTypes = {
 			spriteType = "GFX_SPEVNT_Gamelin_Coup"
 			position = { x = -150 y = -45 }
 		}
+
+		iconType = {
+			name ="Super_Event_Image_Caucasus_Chaos"
+			spriteType = "GFX_SPEVNT_Caucasus_Chaos"
+			position = { x = -150 y = -45 }
+		}
 		
 		iconType = {
 			name ="Super_Event_Image_Capone_CSA"
 			spriteType = "GFX_SPEVNT_Capone_CSA"
 			position = { x = -150 y = -45 }
 		}
-
+		
 		iconType = {
 			name ="Super_Event_Image_Korean_Revolt"
 			spriteType = "GFX_SPEVNT_Korean_Revolt"
@@ -625,13 +631,13 @@ guiTypes = {
 			spriteType = "GFX_SPEVNT_RUSSIAN_UNIFICATION_drozd"
 			position = { x = -150 y = -45 }
 		}
-		
+				
 		iconType = {
 			name = "Super_Event_Image_RUSSIAN_UNIFICATION_krushchev"
 			spriteType = "GFX_SPEVNT_RUSSIAN_UNIFICATION_krushchev"
 			position = { x = -150 y = -45 }
 		}
-		
+
 		iconType = {
 			name = "Super_Event_Image_RUSSIAN_UNIFICATION_skoro"
 			spriteType = "GFX_SPEVNT_RUSSIAN_UNIFICATION_skoro"
@@ -656,12 +662,23 @@ guiTypes = {
 			position = { x = -150 y = -45 }
 		}
 		
-		
+		#####
+
+		iconType = {
+			name = "Super_Event_Image_RUSSIAN_UNIFICATION_stalin"
+			spriteType = "GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin"
+			position = { x = -150 y = -45 }
+		}
+		iconType = {
+			name = "Super_Event_Image_CW_GSV"
+			spriteType = "GFX_SPEVNT_GSV_win"
+			position = { x = -150 y = -45 }
+		}
 
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Title_textbox"
-			position = { x = -50 y = -20 }
-			font = "hoi_36header"
+			position = { x = -50 y = -16 }
+			font = "Pragmata_BAZADARYCH"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_title]"
 			maxWidth = 700
@@ -685,23 +702,23 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Quote_Day_textbox"
 			position = { x = 235 y = 403 }
-			font = "hoi_36header"
+			font = "Pragmata_BAZADARYCH"
 			borderSize = {x = 0 y = 0 }
-			text = "Quote of the Day"
+			text = "Цитата дня"
 			maxWidth = 500
 			maxHeight = 79
-			fixedsize = yes	
+			fixedsize = yes
 			format = center
 		}
 
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Quote_textbox"
-			position = { x = 300 y = 440 }
-			font = "hoi_18mbs"
+			position = { x = 290 y = 440 }
+			font = "OldTyper"
 			borderSize = {x = 0 y = 0}
-			text = "[get_superevent_quote]"
-			maxWidth = 370
-			maxHeight = 79
+			text = "„ [get_superevent_quote]"
+			maxWidth = 400
+			maxHeight = 80
 			fixedsize = yes	
 			format = center
 		}

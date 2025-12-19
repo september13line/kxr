@@ -931,7 +931,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Anastasio Somoza García"
+			name = "Анастасио Сомоса Гарсиа"
 			desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
 			picture = "gfx/leaders/NIC/Portrait_NIC_Anastasio_Somoza_Garcia_KX.png"
 			expire = "1.1.1"
@@ -971,7 +971,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Jorge Ubico Castañeda"
+			name = "Хорхе Убико"
 			picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Casteneda.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1010,7 +1010,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Maximiliano Hernández Martínez"
+			name = "Максимилиано Мартинес"
 			desc = "POLITICS_MAZIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 			picture = "gfx/leaders/ELS/Portrait_ELS_Maximiliano_Martinez.png"
 			expire = "1.1.1"
@@ -1053,7 +1053,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Anastasio Somoza García"
+			name = "Анастасио Сомоса Гарсиа"
 			desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
 			picture = "gfx/leaders/NIC/Portrait_NIC_Anastasio_Somoza_Garcia_KX.png"
 			expire = "1.1.1"
@@ -1089,7 +1089,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Jorge Ubico Castañeda"
+			name = "Хорхе Убико"
 			picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Casteneda.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1125,7 +1125,7 @@ country_event = { # Congress Voted
 			}
 		}
 		create_country_leader = {
-			name = "Maximiliano Hernández Martínez"
+			name = "Максимилиано Мартинес"
 			desc = "POLITICS_MAZIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 			picture = "gfx/leaders/ELS/Portrait_ELS_Maximiliano_Martinez.png"
 			expire = "1.1.1"
@@ -1685,9 +1685,9 @@ country_event = { ### Asking for guarantreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 		give_guarantee = CEN
 		hidden_effect = {
 			CEN = {
-				country_event = {
-					id = cenmil.209
-					days = 2
+			country_event = {
+				id = cenmil.209
+				days = 2
 				}
 			}
 		}
@@ -1707,9 +1707,9 @@ country_event = { ### Asking for guarantreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 		}
 		hidden_effect = {
 			CEN = {
-				country_event = {
-					id = cenmil.210
-					days = 2
+			country_event = {
+				id = cenmil.210
+				days = 2
 				}
 			}
 		}
@@ -1731,9 +1731,9 @@ country_event = { ### Asking to join faction
 		add_to_faction = CEN
 		hidden_effect = {
 			CEN = {
-				country_event = {
-					id = cenmil.211
-					days = 2
+			country_event = {
+				id = cenmil.211
+				days = 2
 				}
 			}
 		}
@@ -1753,9 +1753,9 @@ country_event = { ### Asking to join faction
 		}
 		hidden_effect = {
 			CEN = {
-				country_event = {
-					id = cenmil.212
-					days = 2
+			country_event = {
+				id = cenmil.212
+				days = 2
 				}
 			}
 		}
@@ -3140,11 +3140,11 @@ country_event = { ### destroyers
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event cenmil.247"
 		hidden_effect = {
-			set_technology = {
-				basic_ship_hull_light = 1
-				sonar = 1
-				improved_depth_charges = 1
-				improved_ship_torpedo_launcher = 1
+				set_technology = {
+					basic_ship_hull_light = 1
+					sonar = 1
+					improved_depth_charges = 1
+					improved_ship_torpedo_launcher = 1
 			}
 			CEN_EVENT_DD04_naval_variant = yes
 		}
@@ -4128,7 +4128,7 @@ country_event = { #Form CA - Ubico
 		name = cenmil.1000.a
 		set_cosmetic_tag = GUA_EMPIRE
 		create_country_leader = {
-			name = "Jorge I"
+			name = "Хорхе I"
 			desc = "POLITICS_UBICO_NAPOLEON_DESC"
 			picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Napoleon_LARP.png"
 			expire = "1.1.1"

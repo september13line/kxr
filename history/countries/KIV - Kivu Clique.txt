@@ -22,6 +22,8 @@ add_ideas = {
 	KIV_native_support
 	COG_reliance_on_mercs_idea
 	COG_lack_of_resources
+	MAF_post_collapse_army
+	AFR_post_collapse_instability
 	### MINISTERS ###
 	KIV_Victor_Lundula_hog_pau
 	KIV_Justin_Kokolo_for_pau
@@ -43,7 +45,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Joseph Kasongo"
+	name = "Джозеф Касонго"
 	desc = "POLITICS_KASONGO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Joseph_Kasongo.png"
 	expire = "1.1.1"
@@ -52,7 +54,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Cyrille Adoula"
+	name = "Сирил Адула"
 	desc = "POLITICS_ADOULA_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Cyrille_Adoula.png"
 	expire = "1.1.1"
@@ -61,7 +63,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Iléo"
+	name = "Жозеф Илео"
 	desc = "POLITICS_ILLEO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Joseph_Ileo.png"
 	expire = "1.1.1"
@@ -70,7 +72,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Isaac Kalonji"
+	name = "Исаак Калонджи"
 	desc = "POLITICS_KALONJI_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Isaac_Kalonji.png"
 	expire = "1.1.1"
@@ -79,7 +81,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Kasa-Vubu"
+	name = "Жозеф Каса-Вубу"
 	desc = "POLITICS_KASU_VUBU_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Joseph_Kasa_Vubu.png"
 	expire = "1.1.1"
@@ -88,7 +90,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Moïse Tshombe"
+	name = "Моиз Чомбе"
 	desc = "POLITICS_MOISE_TSHOMBE_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Moise_Tshombe.png"
 	expire = "1.1.1"
@@ -97,7 +99,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean Bolikango"
+	name = "Жан Боликанго"
 	desc = "POLITICS_JEAN_BOLIKANGO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Jean_Bolikango.png"
 	expire = "1.1.1"
@@ -106,7 +108,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Louis de Gonzague Bobozo"
+	name = "Луи де Гонзаг Бобозо"
 	desc = "POLITICS_LOUIS_BOBOZO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo.png"
 	expire = "1.1.1"
@@ -115,7 +117,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Louis de Gonzague Bobozo"
+	name = "Луи де Гонзаг Бобозо"
 	desc = "POLITICS_LOUIS_BOBOZO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo.png"
 	expire = "1.1.1"
@@ -124,7 +126,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Louis de Gonzague Bobozo"
+	name = "Луи де Гонзаг Бобозо"
 	desc = "POLITICS_LOUIS_BOBOZO_DESC"
 	picture = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo.png"
 	expire = "1.1.1"
@@ -134,7 +136,7 @@ create_country_leader = {
 
 ### Corps Commanders ###
 create_corps_commander = {
-	name = "Justin Kokolo"
+	name = "Джастин Коколо"
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Justin_Kokolo.png"
 	traits = {
 		trait_cautious
@@ -149,7 +151,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Louis de Gonzague Bobozo "
+	name = "Луи де Гонзаг Бобозо "
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Louis_de_Gonzague_Bobozo_General.png"
 	traits = {
 		guerilla_fighter
@@ -165,7 +167,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Victor Lundula"
+	name = "Виктор Лундула"
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Victor_Lundula.png"
 	traits = {
 		politically_connected
@@ -180,7 +182,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Léonard Mpoyi "
+	name = "Леонард Мпойи "
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Leonard_Mpoyi_General.png"
 	traits = {
 		adaptable
@@ -194,7 +196,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Isaac Kalonji "
+	name = "Исаак Калонджи "
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Isaac_Kalonji_General.png"
 	traits = {
 		adaptable
@@ -209,7 +211,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Joseph Kasa-Vubu "
+	name = "Жозеф Каса-Вубу "
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Joseph_Kasa_Vubu_General.png"
 	traits = {
 		politically_connected
@@ -223,7 +225,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gaston Soumialot"
+	name = "Гастон Сумиалот"
 	portrait_path = "gfx/leaders/KIV/Portrait_KIV_Gaston_Soumialot.png"
 	traits = {
 		politically_connected
@@ -239,7 +241,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nicholas Olenga"
+	name = "Николас Оленга"
 	portrait_path = "gfx/leaders/KIV/Portrait_Kivu_Nicholas_Olenga.png"
 	traits = {
 		politically_connected

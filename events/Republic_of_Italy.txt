@@ -570,7 +570,7 @@ country_event = { # The 1936 Election
 				ITA_Enrico_Corradini_hog_npo
 				ITA_Ezio_Maria_Gray_for_npo
 				ITA_Alfredo_Rocco_eco_npo
-				ITA_Attilio_Teruzzi_sec_npo 
+				ITA_Attilio_Teruzzi_sec_npo
 			}
 			
 			country_event = {
@@ -681,13 +681,13 @@ country_event = { # Movimento Comunità Leadership Conference
 		}
 	}
 
-	option = { # Adriano Olivetti
+	option = { # Адриано Оливетти
 		name = italianrepublic.16.a
 		ai_chance = {
 			factor = 80
 		}
-		create_country_leader = { # Adriano Olivetti
-			name = "Adriano Olivetti"
+		create_country_leader = { # Адриано Оливетти
+			name = "Адриано Оливетти"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Adriano_Olivetti.png"
 			expire = "1.1.1"
 			ideology = community_movement_subtype
@@ -699,7 +699,7 @@ country_event = { # Movimento Comunità Leadership Conference
 			factor = 20
 		}
 		create_country_leader = {
-			name = "Ferruccio Parri"
+			name = "Ферруччо Парри"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Ferruccio_Parri_KR.png"
 			expire = "1.1.1"
 			ideology = soclib_liberal_socialism_subtype
@@ -735,27 +735,27 @@ country_event = { # Partito Repubblicano Italiano Leadership Conference
 		}
 	}
 
-	option = { # Luigi Einaudi
+	option = { # Луиджи Эйнауди
 		name = italianrepublic.17.a
 		ai_chance = {
 			factor = 80
 		}
 		set_country_flag = ITA_luigi_einaudii_ml_leader
-		create_country_leader = { # Luigi Einaudi
-			name = "Luigi Einaudi"
+		create_country_leader = { # Луиджи Эйнауди
+			name = "Луиджи Эйнауди"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Luigi_Einaudi.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
 		}
 	}
-	option = { # Marcello Soleri
+	option = { # Марчелло Солери
 		name = italianrepublic.17.b
 		ai_chance = {
 			factor = 20
 		}
 		set_country_flag = ITA_marcello_soleri_ml_leader
-		create_country_leader = { # Marcello Soleri
-			name = "Marcello Soleri"
+		create_country_leader = { # Марчелло Солери
+			name = "Марчелло Солери"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Marcello_Soleri.png"
 			expire = "1.1.1"
 			ideology = free_market_capitalist_subtype
@@ -884,31 +884,31 @@ country_event = { # Elections after the first
 		}
 	}
 	option = { # Authoritarian Democrats
-		name = italianrepublic.19.f
-		add_popularity = {
-			ideology = authoritarian_democrat
-			popularity = 0.1
+	name = italianrepublic.19.f
+	add_popularity = {
+		ideology = authoritarian_democrat
+		popularity = 0.1
+	}
+	if = {
+		limit = {
+			NOT = { has_government = authoritarian_democrat }
 		}
-		if = {
-			limit = {
-				NOT = { has_government = authoritarian_democrat }
-			}
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			hidden_effect = {
-				remove_all_ministers = yes
-				add_ideas = {
-					ITA_Ferdinando_Bocca_hog_ade
-					ITA_Carlo_Montu_for_ade
-					ITA_Gino_Olivetti_eco_ade
-					ITA_Demetrio_Asinari_di_Bernezzo_sec_ade
-				}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		hidden_effect = {
+			remove_all_ministers = yes
+			add_ideas = {
+				ITA_Ferdinando_Bocca_hog_ade
+				ITA_Carlo_Montu_for_ade
+				ITA_Gino_Olivetti_eco_ade
+				ITA_Demetrio_Asinari_di_Bernezzo_sec_ade
 			}
 		}
 	}
+}
 }
 country_event = { # Corradini's last hurrah
 	id = italianrepublic.20
@@ -1594,7 +1594,7 @@ country_event = { # Venice decides what to do after winning revolt
 		ITA = {
 			add_ideas = ITA_federation_transition
 			create_country_leader = {
-				name = "Giuseppe Ferdinando I"
+				name = "Джузеппе Фердинандо I"
 				picture = "gfx/leaders/TUS/Portrait_TUS_Giuseppe_Ferdinando.png"
 				expire = "1.1.1"
 				ideology = pataut_oligarchy_subtype
@@ -1691,7 +1691,7 @@ country_event = { # Venice decides what to do after winning revolt
 		ITA = {
 			add_ideas = ITA_federation_transition
 			create_country_leader = {
-				name = "Marcello I"
+				name = "Марчелло I"
 				picture = "gfx/leaders/LOM/Portrait_LOM_Marcello_Visconti_Modrone.png"
 				expire = "1.1.1"
 				ideology = pataut_oligarchy_subtype
@@ -1787,7 +1787,7 @@ country_event = { # Venice decides what to do after winning revolt
 		ITA = {
 			add_ideas = ITA_federation_transition
 			create_country_leader = {
-				name = "Giuseppe Volpi"
+				name = "Джузеппе Вольпи"
 				picture = "gfx/leaders/VNC/Portrait_VNC_Giuseppe_Volpi.png"
 				expire = "1.1.1"
 				ideology = pataut_oligarchy_subtype
@@ -1883,19 +1883,19 @@ country_event = { # The Federation restored - for AUS
 	desc = {
 		text = italianrepublic.43.d.habsburg
 		trigger = {
-			ITA = { has_country_leader = { name = "Giuseppe Ferdinando I" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Джузеппе Фердинандо I" ruling_only = yes } }
 		}
 	}
 	desc = {
 		text = italianrepublic.43.d.visconti
 		trigger = {
-			ITA = { has_country_leader = { name = "Adriano I" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Адриано I" ruling_only = yes } }
 		}
 	}
 	desc = {
 		text = italianrepublic.43.d.volpi
 		trigger = {
-			ITA = { has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes } }
 		}
 	}
 
@@ -1910,7 +1910,7 @@ country_event = { # The Federation restored - for AUS
 		name = italianrepublic.43.a #We welcome them into our alliance
 		trigger = {
 			is_faction_leader = yes
-			ITA = { has_country_leader = { name = "Giuseppe Ferdinando I" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Джузеппе Фердинандо I" ruling_only = yes } }
 			OR = {
 				has_global_flag = second_weltkrieg_has_started
 				NOT = { has_global_flag = KR_italy_balance }
@@ -1935,7 +1935,7 @@ country_event = { # The Federation restored - for AUS
 			factor = 20
 			modifier = {
 				factor = 0.5
-				ITA = { has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes } }
+				ITA = { has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes } }
 			}
 		}
 		give_guarantee = ITA
@@ -2458,7 +2458,7 @@ country_event = { # Imperial Italia
 		NOT = {
 		has_cosmetic_tag = ITA_ANI_KINGDOM
 		has_cosmetic_tag = ITA_Futurist
-		}
+			}
 		}
 		set_cosmetic_tag = ITA_ANI
 		}
@@ -2808,7 +2808,7 @@ country_event = { # Austria wishes to create the Italian Federation
 		}
 		add_ideas = ITA_federation_transition
 		create_country_leader = {
-			name = "Giuseppe Ferdinando I"
+			name = "Джузеппе Фердинандо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Pietro_Ferdinando.png"
 			expire = "1.1.1"
 			ideology = pataut_oligarchy_subtype
@@ -3232,19 +3232,19 @@ country_event = { # Failed assassination attempt on the king
 	desc = {
 		text = italianrepublic.94.d.habsburg
 		trigger = {
-			ITA = { has_country_leader = { name = "Giuseppe Ferdinando I" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Джузеппе Фердинандо I" ruling_only = yes } }
 		}
 	}
 	desc = {
 		text = italianrepublic.94.d.visconti
 		trigger = {
-			ITA = { has_country_leader = { name = "Adriano I" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Адриано I" ruling_only = yes } }
 		}
 	}
 	desc = {
 		text = italianrepublic.94.d.volpi
 		trigger = {
-			ITA = { has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes } }
+			ITA = { has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes } }
 		}
 	}
 
@@ -3263,9 +3263,9 @@ country_event = { # Failed assassination attempt on the king
 			has_idea = ITA_Greenshirt_3
 		}
 		OR = {
-			has_country_leader = { name = "Giuseppe Ferdinando I" ruling_only = yes }
-			has_country_leader = { name = "Adriano I" ruling_only = yes }
-			has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes }
+			has_country_leader = { name = "Джузеппе Фердинандо I" ruling_only = yes }
+			has_country_leader = { name = "Адриано I" ruling_only = yes }
+			has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes }
 		}
 	}
 
@@ -4239,7 +4239,7 @@ country_event = { # Italy informed of withdrawal
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 		remove_ideas = ITA_austrian_occupation_idea
         create_country_leader = {
-			name = "Marcello I"
+			name = "Марчелло I"
 			picture = "gfx/leaders/LOM/Portrait_LOM_Marcello_Visconti_Modrone.png"
 			expire = "1.1.1"
 			ideology = pataut_oligarchy_subtype
@@ -4552,7 +4552,7 @@ country_event = { # Return to the Federation?
 		}
 		add_ideas = ITA_federation_transition
 		create_country_leader = {
-			name = "Giuseppe Ferdinando I"
+			name = "Джузеппе Фердинандо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Giuseppe_Ferdinando.png"
 			expire = "1.1.1"
 			ideology = pataut_oligarchy_subtype
@@ -4606,7 +4606,7 @@ country_event = { # Return to the Federation?
 		}
 		add_ideas = ITA_federation_transition
 		create_country_leader = {
-			name = "Marcello I"
+			name = "Марчелло I"
 			picture = "gfx/leaders/LOM/Portrait_LOM_Marcello_Visconti_Modrone.png"
 			expire = "1.1.1"
 			ideology = pataut_oligarchy_subtype
@@ -5031,7 +5031,7 @@ country_event = { # ANI Attempts a Coup
 				ITA_Enrico_Corradini_hog_npo
 				ITA_Ezio_Maria_Gray_for_npo
 				ITA_Alfredo_Rocco_eco_npo
-				ITA_Attilio_Teruzzi_sec_npo 
+				ITA_Attilio_Teruzzi_sec_npo
 			}
 			random_other_country = {
 				limit = { is_ai = yes }
@@ -5901,7 +5901,7 @@ country_event = {# Fiumean Samurai
 	option = {
 		name = italianrepublic.200.a
 		create_corps_commander = {
-		name = "Harukichi Shimoi"
+		name = "Харукичи Шимой"
 		portrait_path = "gfx/leaders/ITA/Portrait_ITA_Harukichi_Shimoi.png"
 		traits = {
 			ITA_fiamme_nere_trait
@@ -5937,7 +5937,7 @@ country_event = { #
 		name = italianrepublic.201.b
 		add_political_power = 25
 		create_country_leader = {
-			name = "Corrado Gini"
+			name = "Коррадо Джини"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Corrado_Gini.png"
 			expire = "1.1.1"
 			ideology = natpop_right_technocracy_subtype
@@ -5954,7 +5954,7 @@ country_event = { #
 		name = italianrepublic.201.c
 		add_political_power = 25
 		create_country_leader = {
-			name = "Giovanni Papini"
+			name = "Джованни Папини"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Giovanni_Papini.png"
 			expire = "1.1.1"
 			ideology = italian_right_futurism_subtype
@@ -5964,7 +5964,7 @@ country_event = { #
 			ITA_Giovanni_Papini_hog_npo 
 			ITA_Giuseppe_Prezzolini_for_npo 
 			ITA_Alfredo_Rocco_eco_npo
-			ITA_Attilio_Teruzzi_sec_npo 
+			ITA_Attilio_Teruzzi_sec_npo
 		}
 		set_cosmetic_tag = ITA_Futurist
 		hidden_effect = {
@@ -5975,7 +5975,7 @@ country_event = { #
 		name = italianrepublic.201.e
 		add_political_power = 25
 		create_country_leader = {
-			name = "Dino Grandi"
+			name = "Дино Гранди"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Dino_Grandi_KX.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -5995,7 +5995,7 @@ country_event = { #
 		name = italianrepublic.201.f
 		add_political_power = 25
 		create_country_leader = {
-			name = "Galeazzo Ciano"
+			name = "Галеаццо Чиано"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Galeazzo_Ciano.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6027,7 +6027,7 @@ country_event = { # Monarchist ANI (REAL NOT CLICKBAIT)
 		set_cosmetic_tag = ITA_ANI_KINGDOM
 		add_political_power = 50
 		set_country_flag = ITA_is_kingdom
-		set_country_flag = ITA_savoyard_on_throne		
+		set_country_flag = ITA_savoyard_on_throne
 		country_event = italianrepublic.209
 	}
 	option = {
@@ -6055,7 +6055,7 @@ country_event = { # Death of the King
 	option = { # Long Live Umberto
 		name = italianrepublic.203.a
 		create_country_leader = {
-			name = "Umberto II"
+			name = "Умберто II"
 			picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6063,7 +6063,7 @@ country_event = { # Death of the King
 		}
 		random_unit_leader = {
 				limit = { has_id = 504 }
-				set_leader_name = "Umberto II"
+				set_leader_name = "Умберто II"
 		}
 	}
 }
@@ -6085,7 +6085,7 @@ country_event = { # Death of the Austrian King
 		name = italianrepublic.204.a
 		add_political_power = 50
 		create_country_leader = {
-			name = "Pietro Ferdinando I"
+			name = "Пьетро Фердинандо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Pietro_Ferdinando.png"
 			expire = "1948.11.8"
 			ideology = pataut_oligarchy_subtype
@@ -6094,7 +6094,7 @@ country_event = { # Death of the Austrian King
 		hidden_effect = {
 		TUS = {
 		create_country_leader = {
-			name = "Pietro Ferdinando I"
+			name = "Пьетро Фердинандо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Pietro_Ferdinando.png"
 			expire = "1948.11.8"
 			ideology = prussian_constitutionalism_subtype
@@ -6113,7 +6113,7 @@ country_event = { # Death of the Austrian King
 	picture = GFX_SIC_victor_emmanuel_funeral
 	trigger = {
 		date > 1948.11.8
-		has_country_leader = { ruling_only = yes name = "Pietro Ferdinando I" }	
+		has_country_leader = { ruling_only = yes name = "Пьетро Фердинандо I" }	
 	}
 	
 	fire_only_once = yes
@@ -6122,7 +6122,7 @@ country_event = { # Death of the Austrian King
 		name = italianrepublic.205.a
 		add_political_power = 50
 		create_country_leader = {
-			name = "Goffredo I"
+			name = "Гоффредо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Goffredo.png"
 			expire = "1984.1.21"
 			ideology = pataut_oligarchy_subtype
@@ -6131,7 +6131,7 @@ country_event = { # Death of the Austrian King
 		hidden_effect = {
 		TUS = {
 		create_country_leader = {
-			name = "Goffredo I"
+			name = "Гоффредо I"
 			picture = "gfx/leaders/TUS/Portrait_TUS_Goffredo.png"
 			expire = "1984.1.21"
 			ideology = prussian_constitutionalism_subtype
@@ -6200,7 +6200,7 @@ country_event = {
 				}
 			}
 			add_claim_by = FROM
-		}
+			}
 		set_country_flag = ITA_amadeo_spain
 	}
 	option = {
@@ -6239,56 +6239,56 @@ country_event = {
 			load_focus_tree = generic_focus
 			set_cosmetic_tag = SPR_SRD
 			create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = national_populist_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = absolute_monarchy_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = authoritarian_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
 					ideology = social_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Amadeo II"
+					name = "Амадео II"
 					desc = ""
 					picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 					expire = "1.1.1"
@@ -6305,7 +6305,7 @@ country_event = {
 					}
 				}
 				add_core_of = SPR
-				}
+					}
 				every_core_state = {
 				limit = {
 				OR = {	
@@ -6362,7 +6362,7 @@ country_event = {
 				}
 			}
 			add_core_of = FROM
-		}
+			}
 		add_political_power = -100
 		add_stability = -0.1
 	}
@@ -6383,7 +6383,7 @@ country_event = {
 				}
 			}
 			add_core_of = FROM
-		}
+			}
 		add_political_power = -100
 		add_stability = -0.1
 	}
@@ -6405,7 +6405,7 @@ country_event = {
 			factor = 100
 		}
 		create_country_leader = {
-			name = "Luigi Amedeo I"
+			name = "Луиджи Амедео I"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Prince_Luigi_Amedeo.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6425,7 +6425,7 @@ country_event = {
 			factor = 0
 		}
 		create_country_leader = {
-			name = "Eugenio I"
+			name = "Эудженио I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Eugenio.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6436,7 +6436,7 @@ country_event = {
 			random_unit_leader = {
 				limit = { has_id = 514 }
 				set_nationality = ITA
-				set_leader_name = "Eugenio I"
+				set_leader_name = "Эудженио I"
 			}
 			country_event = {
 				id = srd.100
@@ -6450,9 +6450,9 @@ country_event = {
 		SIC = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Julius Evola" }
-		has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-		has_country_leader = { ruling_only = yes name = "Umberto II" }
+		has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
+		has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+		has_country_leader = { ruling_only = yes name = "Умберто II" }
 					}
 				}
 			}
@@ -6462,7 +6462,7 @@ country_event = {
 		}
 		
 		create_country_leader = {
-			name = "Umberto II"
+			name = "Умберто II"
 			picture = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6473,7 +6473,7 @@ country_event = {
 			random_unit_leader = {
 				limit = { has_id = 504 }
 				set_nationality = ITA
-				set_leader_name = "Umberto II"
+				set_leader_name = "Умберто II"
 			}
 			country_event = {
 				id = srd.100
@@ -6487,9 +6487,9 @@ country_event = {
 		SIC = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Julius Evola" }
-		has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-		has_country_leader = { ruling_only = yes name = "Umberto II" }
+		has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
+		has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+		has_country_leader = { ruling_only = yes name = "Умберто II" }
 					}
 				}
 			}
@@ -6499,7 +6499,7 @@ country_event = {
 		}
 		add_political_power = -50
 		create_country_leader = {
-			name = "Victor Emmanuel III"
+			name = "Виктор Эммануил III"
 			picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 			expire = "1.1.1"
 			ideology = italian_legionarism_subtype
@@ -6577,7 +6577,7 @@ country_event = { #alliance name
 				icon = GFX_faction_mediterranean_axis
 			}		
 
-		}
+}
 		set_country_flag = ITA_activate_italian_bloc_decisions
 	}
 }

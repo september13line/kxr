@@ -1,5 +1,5 @@
 ﻿division_template = {# CSA Militia
-	name = "Revolutionary Militia"
+	name = "Революционное ополчение"
 	division_names_group = CSA_GAR_02
 	
 	regiments = {
@@ -15,7 +15,7 @@
 	}
 }
 division_template = {
-	name = "Mounted Revolutionary Militia"
+	name = "Конное революционное ополчение"
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -29,7 +29,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Revolutionary Garrison"
+	name = "Революционный гарнизон"
 	
 	division_names_group = CSA_GAR_02
 	regiments = {
@@ -44,7 +44,7 @@ division_template = {
 	priority = 0
 }
 division_template = {# CSA Army
-	name = "Revolutionary Continental Army"
+	name = "Континентальная революционная армия"
 	division_names_group = CSA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -62,7 +62,7 @@ division_template = {# CSA Army
 	}
 }
 division_template = {
-	name = "Red Guard"
+	name = "Красная гвардия"
 	division_names_group = CSA_GAR_02
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -78,7 +78,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Revolutionary Armor"
+	name = "Революционная танковая дивизия"
 	division_names_group = CSA_ARM_01
 
 	regiments = {
@@ -99,7 +99,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Revolutionary Heavy Armor"
+	name = "Революционная тяжелая танковая дивизия"
 	division_names_group = CSA_ARM_01
 
 	regiments = {
@@ -118,7 +118,7 @@ division_template = {
 	priority = 2
 }
 division_template = {# Motorized
-	name = "Revolutionary Mobile Divisions"
+	name = "Революционная мобильная дивизия"
 	division_names_group = CSA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -131,7 +131,7 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "CSA Resistance"
+	name = "Подразделения сопротивления О.С.А"
 	division_names_group = CSA_INF_01
 	
 	regiments = {
@@ -149,9 +149,9 @@ division_template = {
 
 units = {# Army
 	division = {
-		name = "Haywood's Own"
+		name = "Дивизия Хейвуда"
 		location = 9450
-		division_template = "Revolutionary Continental Army"
+		division_template = "Континентальная революционная армия"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -159,9 +159,9 @@ units = {# Army
 
 units = {# Militia
 	division = {
-		name = "1st 'Joe Hill' Red Guard"
+		name = "1-я красная гвардия 'Джо Хилл'"
 		location = 9450
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -169,9 +169,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "2nd 'Black Cat' Red Guard"
+		name = "2-я красная гвардия 'Чёрный кот'"
 		location = 9450
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -179,9 +179,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "3rd 'Debs' Boys' Red Guard"
+		name = "3-я красная гвардия 'Парни Дебса'"
 		location = 9450
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -189,9 +189,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "4th 'Trade Union Unity League' Red Guard"
+		name = "4-я красная гвардия 'Лига профсоюзного единства'"
 		location = 6710
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -199,9 +199,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "5th 'Arms of the Proletariat' Red Guard"
+		name = "5-я красная гвардия 'Оружие пролетариата'"
 		location = 11800
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -209,9 +209,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "6th 'Fist of Weydemeyer' Red Guard"
+		name = "6-я красная гвардия 'Кулак Вейдемейера'"
 		location = 11800
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.9
 	}
@@ -219,9 +219,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "7th 'Lincolnian' Red Guard"
+		name = "7-я красная гвардия 'Линкольн'"
 		location = 6710
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -229,9 +229,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "8th 'People's Liberation Forces' Red Guard"
+		name = "8-я красная гвардия 'Народно-освободительные силы'"
 		location = 6710
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
@@ -239,9 +239,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "9th 'Marx's Militia' Red Guard"
+		name = "9-я красная гвардия 'ополчение Карла Маркса'"
 		location = 6710
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -249,9 +249,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "10th 'Gompers Unit' Red Guard"
+		name = "10-я красная гвардия 'Отряд Гомперса'"
 		location = 3878
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -259,9 +259,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "10th 'Communist League' Red Guard"
+		name = "10-я красная гвардия 'Коммунистическая лига'"
 		location = 3878
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -269,9 +269,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "11th 'New York Industrial League' Red Guard"
+		name = "11-я красная гвардия 'Нью-Йоркская промышленная лига'"
 		location = 3878
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -279,9 +279,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "12th 'Loyal Workers' Red Guard"
+		name = "12-я красная гвардия 'Преданные рабочие'"
 		location = 11800
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
@@ -289,9 +289,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "13th 'Radical Republican' Red Guard"
+		name = "13-я красная гвардия 'Радикальные республиканцы'"
 		location = 6845
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
@@ -299,9 +299,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "14th 'IWW-UMW' Red Guard"
+		name = "14-я красная гвардия 'ИРМ-ОША'"
 		location = 6845
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -309,9 +309,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "15th 'SPA Protectors' Red Guard"
+		name = "15-я красная гвардия 'Защитники СПА'"
 		location = 6845
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 	}
@@ -319,9 +319,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "16th 'Enemies of Reaction' Red Guard"
+		name = "16-я красная гвардия 'Враги реакции'"
 		location = 6845
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
@@ -329,9 +329,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "17th 'IWW-UIL' Red Guard"
+		name = "17-я красная гвардия 'ИРМ'"
 		location = 10233
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
@@ -339,9 +339,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "18th 'IWW-AWO' Red Guard"
+		name = "18-я красная гвардия 'ИРМ-ОСР'"
 		location = 10233
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
@@ -349,9 +349,9 @@ units = {# Militia
 
 units = {# Militia
 	division = {
-		name = "19th 'People's Party' Red Guard"
+		name = "19-я красная гвардия 'Народная партия'"
 		location = 10233
-		division_template = "Red Guard"
+		division_template = "Красная гвардия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
@@ -359,9 +359,9 @@ units = {# Militia
 
 units = {# Motorized
 	division = {
-		name = "1st 'Teamsters' Mobile Division"
+		name = "1-я мобильная дивизия 'Комрады'"
 		location = 9450
-		division_template = "Revolutionary Mobile Divisions"
+		division_template = "Революционная мобильная дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -369,9 +369,9 @@ units = {# Motorized
 
 units = {# Motorized
 	division = {
-		name = "2nd 'IWW Motorized Unit' Mobile Division"
+		name = "2-я мобильная дивизия 'Моторизованная часть ИРМ'"
 		location = 9450
-		division_template = "Revolutionary Mobile Divisions"
+		division_template = "Революционная мобильная дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -379,9 +379,9 @@ units = {# Motorized
 
 units = {# Motorized
 	division = {
-		name = "3rd 'United Auto Workers' Mobile Division"
+		name = "3-я мобильная дивизия 'Объединённые авторабочие'"
 		location = 9450
-		division_template = "Revolutionary Mobile Divisions"
+		division_template = "Революционная мобильная дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
@@ -389,9 +389,9 @@ units = {# Motorized
 
 units = {# Motorized
 	division = {
-		name = "4th 'Central Ohio Reds' Mobile Division"
+		name = "4-я мобильная дивизия 'Красные Центрального Огайо'"
 		location = 6855
-		division_template = "Revolutionary Mobile Divisions"
+		division_template = "Революционная мобильная дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}

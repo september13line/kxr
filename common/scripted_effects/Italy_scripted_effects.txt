@@ -598,8 +598,8 @@ italy_claim_irredentist_state_effect = {
 					}
 					country_event = italianrepublic.171
 				}
-				if = {
-					limit = { 
+				if = { 
+					limit = {
 						is_in_faction_with = INT
 					}
 					set_country_flag = SRI_left_3i_over_claims
@@ -607,7 +607,7 @@ italy_claim_irredentist_state_effect = {
 				if = { 
 					limit = {
 						is_faction_leader = yes
-					}
+			}
 					event_target:claimed_state.owner = { leave_faction = yes }
 				}
 				else = { leave_faction = yes }
@@ -755,49 +755,49 @@ SIC_create_pope = {
 
 ITA_create_college_of_cardinals = {	
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = italian_legionarism_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = theocracy_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = authdem_austropopulism_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = marlib_qualunquismo_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
 		ideology = soclib_christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "College of Cardinals"
+		name = "Коллегия кардиналов"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_College_of_Cardinals.png"
 		desc = "POLITICS_COLLEGE_CARDINALS_DESC"
 		expire = "1.1.1"
@@ -809,7 +809,7 @@ ITA_create_Pius_XII = {
 	custom_effect_tooltip = ITA_Pius_XII_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -817,7 +817,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -825,7 +825,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -833,7 +833,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -841,7 +841,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -849,7 +849,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -857,7 +857,7 @@ ITA_create_Pius_XII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Pius XII"
+			name = "Пий XII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 			desc = "POLITICS_PIUS_XII_DESC"
 			expire = "1.1.1"
@@ -869,7 +869,7 @@ ITA_create_Pius_XII = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Pius XII"
+				name = "Пий XII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 				desc = "POLITICS_PIUS_XII_DESC"
 				expire = "1.1.1"
@@ -877,7 +877,7 @@ ITA_create_Pius_XII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Pius XII"
+				name = "Пий XII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 				desc = "POLITICS_PIUS_XII_DESC"
 				expire = "1.1.1"
@@ -885,7 +885,7 @@ ITA_create_Pius_XII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Pius XII"
+				name = "Пий XII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Pius_XII.png"
 				desc = "POLITICS_PIUS_XII_DESC"
 				expire = "1.1.1"
@@ -901,7 +901,7 @@ ITA_create_John_XXIII = {
 	custom_effect_tooltip = ITA_John_XXIII_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -909,7 +909,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -917,7 +917,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -925,7 +925,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -933,7 +933,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -941,7 +941,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -949,7 +949,7 @@ ITA_create_John_XXIII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "John XXIII"
+			name = "Иоанн XXIII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 			desc = "POLITICS_JOHN_XXIII_DESC"
 			expire = "1.1.1"
@@ -961,7 +961,7 @@ ITA_create_John_XXIII = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "John XXIII"
+				name = "Иоанн XXIII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 				desc = "POLITICS_JOHN_XXIII_DESC"
 				expire = "1.1.1"
@@ -969,7 +969,7 @@ ITA_create_John_XXIII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII"
+				name = "Иоанн XXIII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 				desc = "POLITICS_JOHN_XXIII_DESC"
 				expire = "1.1.1"
@@ -977,7 +977,7 @@ ITA_create_John_XXIII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII"
+				name = "Иоанн XXIII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John.png"
 				desc = "POLITICS_JOHN_XXIII_DESC"
 				expire = "1.1.1"
@@ -993,7 +993,7 @@ ITA_create_Leo_XIV = {
 	custom_effect_tooltip = ITA_Leo_XIV_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1001,7 +1001,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1009,7 +1009,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1017,7 +1017,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1025,7 +1025,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1033,7 +1033,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1041,7 +1041,7 @@ ITA_create_Leo_XIV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Leo XIV"
+			name = "Лео XIV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 			desc = "POLITICS_LEO_XIV_DESC"
 			expire = "1.1.1"
@@ -1053,7 +1053,7 @@ ITA_create_Leo_XIV = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Leo XIV"
+				name = "Лео XIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 				desc = "POLITICS_LEO_XIV_DESC"
 				expire = "1.1.1"
@@ -1061,7 +1061,7 @@ ITA_create_Leo_XIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Leo XIV"
+				name = "Лео XIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 				desc = "POLITICS_LEO_XIV_DESC"
 				expire = "1.1.1"
@@ -1069,7 +1069,7 @@ ITA_create_Leo_XIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Leo XIV"
+				name = "Лео XIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Leo.png"
 				desc = "POLITICS_LEO_XIV_DESC"
 				expire = "1.1.1"
@@ -1085,7 +1085,7 @@ ITA_create_Benedict_XVI = {
 	custom_effect_tooltip = ITA_Benedict_XVI_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1093,7 +1093,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1101,7 +1101,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1109,7 +1109,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1117,7 +1117,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1125,7 +1125,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1133,7 +1133,7 @@ ITA_create_Benedict_XVI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Benedict XVI"
+			name = "Бенедикт XVI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 			desc = "POLITICS_BENEDICT_XVI_DESC"
 			expire = "1.1.1"
@@ -1145,7 +1145,7 @@ ITA_create_Benedict_XVI = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Benedict XVI"
+				name = "Бенедикт XVI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 				desc = "POLITICS_BENEDICT_XVI_DESC"
 				expire = "1.1.1"
@@ -1153,7 +1153,7 @@ ITA_create_Benedict_XVI = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Benedict XVI"
+				name = "Бенедикт XVI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 				desc = "POLITICS_BENEDICT_XVI_DESC"
 				expire = "1.1.1"
@@ -1161,7 +1161,7 @@ ITA_create_Benedict_XVI = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Benedict XVI"
+				name = "Бенедикт XVI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Benedict.png"
 				desc = "POLITICS_BENEDICT_XVI_DESC"
 				expire = "1.1.1"
@@ -1177,7 +1177,7 @@ ITA_create_Julius_IV = {
 	custom_effect_tooltip = ITA_Julius_IV_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1185,7 +1185,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1193,7 +1193,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1201,7 +1201,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1209,7 +1209,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1217,7 +1217,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1225,7 +1225,7 @@ ITA_create_Julius_IV = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -1243,7 +1243,7 @@ ITA_create_Julius_IV = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Julius IV"
+				name = "Юлий IV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 				desc = "POLITICS_JULIUS_IV_DESC"
 				expire = "1.1.1"
@@ -1251,7 +1251,7 @@ ITA_create_Julius_IV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Julius IV"
+				name = "Юлий IV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 				desc = "POLITICS_JULIUS_IV_DESC"
 				expire = "1.1.1"
@@ -1259,7 +1259,7 @@ ITA_create_Julius_IV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Julius IV"
+				name = "Юлий IV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 				desc = "POLITICS_JULIUS_IV_DESC"
 				expire = "1.1.1"
@@ -1274,7 +1274,7 @@ ITA_create_Adrian_VII = {
 	custom_effect_tooltip = ITA_Adrian_VII_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1282,7 +1282,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1290,7 +1290,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1298,7 +1298,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1306,7 +1306,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1314,7 +1314,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1322,7 +1322,7 @@ ITA_create_Adrian_VII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Adrian VII"
+			name = "Адриан VII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 			desc = "POLITICS_ADRIAN_VII_DESC"
 			expire = "1.1.1"
@@ -1340,7 +1340,7 @@ ITA_create_Adrian_VII = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Adrian VII"
+				name = "Адриан VII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 				desc = "POLITICS_ADRIAN_VII_DESC"
 				expire = "1.1.1"
@@ -1348,7 +1348,7 @@ ITA_create_Adrian_VII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Adrian VII"
+				name = "Адриан VII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 				desc = "POLITICS_ADRIAN_VII_DESC"
 				expire = "1.1.1"
@@ -1356,7 +1356,7 @@ ITA_create_Adrian_VII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Adrian VII"
+				name = "Адриан VII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Adrian.png"
 				desc = "POLITICS_ADRIAN_VII_DESC"
 				expire = "1.1.1"
@@ -1371,7 +1371,7 @@ ITA_create_Gregorius_XVII = {
 	custom_effect_tooltip = ITA_Gregorius_XVII_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1379,7 +1379,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1387,7 +1387,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1395,7 +1395,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1403,7 +1403,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1411,7 +1411,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1419,7 +1419,7 @@ ITA_create_Gregorius_XVII = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Gregorius XVII"
+			name = "Грегориус XVII"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 			desc = "POLITICS_GREGORIUS_XVII_DESC"
 			expire = "1.1.1"
@@ -1431,7 +1431,7 @@ ITA_create_Gregorius_XVII = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Gregorius XVII"
+				name = "Грегориус XVII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 				desc = "POLITICS_GREGORIUS_XVII_DESC"
 				expire = "1.1.1"
@@ -1439,7 +1439,7 @@ ITA_create_Gregorius_XVII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Gregorius XVII"
+				name = "Грегориус XVII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 				desc = "POLITICS_GREGORIUS_XVII_DESC"
 				expire = "1.1.1"
@@ -1447,7 +1447,7 @@ ITA_create_Gregorius_XVII = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Gregorius XVII"
+				name = "Грегориус XVII"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Gregorius_XVII.png"
 				desc = "POLITICS_GREGORIUS_XVII_DESC"
 				expire = "1.1.1"
@@ -1462,101 +1462,101 @@ ITA_create_Gregorius_XVII = {
 ITA_create_John_XXIV = {
 	if = {
 		limit = { has_global_flag = Pope_John_XXIII }
-		custom_effect_tooltip = ITA_John_XXIV_will_become_pope
-		hidden_effect = {
+	custom_effect_tooltip = ITA_John_XXIV_will_become_pope
+	hidden_effect = {
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = italian_legionarism_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = theocracy_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = authdem_austropopulism_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = christian_democracy_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = marlib_qualunquismo_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = soclib_christian_democracy_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		create_country_leader = {
+			name = "Иоанн XXIV"
+			picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
+			desc = "POLITICS_JOHN_XXIV_DESC"
+			expire = "1.1.1"
+			ideology = socdem_christian_socialism_subtype
+			traits = { ITA_the_mfing_pope} 
+		}
+		if = {
+			limit = {
+				tag = SIC
+			}
 			create_country_leader = {
-				name = "John XXIV"
+				name = "Иоанн XXIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
-				ideology = italian_legionarism_subtype
+				ideology = socdem_fascism_subtype
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIV"
+				name = "Иоанн XXIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
-				ideology = theocracy_subtype
+				ideology = fascism_subtype
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIV"
+				name = "Иоанн XXIV"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
-				ideology = authdem_austropopulism_subtype
+				ideology = syn_fascism_subtype
 				traits = { ITA_the_mfing_pope} 
 			}
-			create_country_leader = {
-				name = "John XXIV"
-				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-				desc = "POLITICS_JOHN_XXIV_DESC"
-				expire = "1.1.1"
-				ideology = christian_democracy_subtype
-				traits = { ITA_the_mfing_pope} 
-			}
-			create_country_leader = {
-				name = "John XXIV"
-				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-				desc = "POLITICS_JOHN_XXIV_DESC"
-				expire = "1.1.1"
-				ideology = marlib_qualunquismo_subtype
-				traits = { ITA_the_mfing_pope} 
-			}
-			create_country_leader = {
-				name = "John XXIV"
-				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-				desc = "POLITICS_JOHN_XXIV_DESC"
-				expire = "1.1.1"
-				ideology = soclib_christian_democracy_subtype
-				traits = { ITA_the_mfing_pope} 
-			}
-			create_country_leader = {
-				name = "John XXIV"
-				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-				desc = "POLITICS_JOHN_XXIV_DESC"
-				expire = "1.1.1"
-				ideology = socdem_christian_socialism_subtype
-				traits = { ITA_the_mfing_pope} 
-			}
-			if = {
-				limit = {
-					tag = SIC
-				}
-				create_country_leader = {
-					name = "John XXIV"
-					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-					desc = "POLITICS_JOHN_XXIV_DESC"
-					expire = "1.1.1"
-					ideology = socdem_fascism_subtype
-					traits = { ITA_the_mfing_pope} 
-				}
-				create_country_leader = {
-					name = "John XXIV"
-					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-					desc = "POLITICS_JOHN_XXIV_DESC"
-					expire = "1.1.1"
-					ideology = fascism_subtype
-					traits = { ITA_the_mfing_pope} 
-				}
-				create_country_leader = {
-					name = "John XXIV"
-					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
-					desc = "POLITICS_JOHN_XXIV_DESC"
-					expire = "1.1.1"
-					ideology = syn_fascism_subtype
-					traits = { ITA_the_mfing_pope} 
-				}
-			}
-			set_global_flag = Pope_John_XXIV
+		}
+		set_global_flag = Pope_John_XXIV
 		}
 	}
 	else = {
 		custom_effect_tooltip = ITA_John_XXIII_2_will_become_pope
 		hidden_effect = {
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1564,7 +1564,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1572,7 +1572,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1580,7 +1580,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1588,7 +1588,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1596,7 +1596,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1604,7 +1604,7 @@ ITA_create_John_XXIV = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "John XXIII "
+				name = "Иоанн XXIII "
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 				desc = "POLITICS_JOHN_XXIV_DESC"
 				expire = "1.1.1"
@@ -1616,7 +1616,7 @@ ITA_create_John_XXIV = {
 					tag = SIC
 				}
 				create_country_leader = {
-					name = "John XXIII "
+					name = "Иоанн XXIII "
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 					desc = "POLITICS_JOHN_XXIV_DESC"
 					expire = "1.1.1"
@@ -1624,7 +1624,7 @@ ITA_create_John_XXIV = {
 					traits = { ITA_the_mfing_pope} 
 				}
 				create_country_leader = {
-					name = "John XXIII "
+					name = "Иоанн XXIII "
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 					desc = "POLITICS_JOHN_XXIV_DESC"
 					expire = "1.1.1"
@@ -1632,7 +1632,7 @@ ITA_create_John_XXIV = {
 					traits = { ITA_the_mfing_pope} 
 				}
 				create_country_leader = {
-					name = "John XXIII "
+					name = "Иоанн XXIII "
 					picture = "gfx/leaders/PAP/Portrait_Papal_State_John_XXIV.png"
 					desc = "POLITICS_JOHN_XXIV_DESC"
 					expire = "1.1.1"
@@ -1649,7 +1649,7 @@ ITA_create_Paulus_VI = {
 	custom_effect_tooltip = ITA_Paulus_VI_will_become_pope
 	hidden_effect = {
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1657,7 +1657,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1665,7 +1665,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1673,7 +1673,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1681,7 +1681,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1689,7 +1689,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1697,7 +1697,7 @@ ITA_create_Paulus_VI = {
 			traits = { ITA_the_mfing_pope} 
 		}
 		create_country_leader = {
-			name = "Paulus VI"
+			name = "Павел VI"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 			desc = "POLITICS_PAUL_VI_DESC"
 			expire = "1.1.1"
@@ -1709,7 +1709,7 @@ ITA_create_Paulus_VI = {
 				tag = SIC
 			}
 			create_country_leader = {
-				name = "Paulus VI"
+				name = "Павел VI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 				desc = "POLITICS_PAUL_VI_DESC"
 				expire = "1.1.1"
@@ -1717,7 +1717,7 @@ ITA_create_Paulus_VI = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Paulus VI"
+				name = "Павел VI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 				desc = "POLITICS_PAUL_VI_DESC"
 				expire = "1.1.1"
@@ -1725,7 +1725,7 @@ ITA_create_Paulus_VI = {
 				traits = { ITA_the_mfing_pope} 
 			}
 			create_country_leader = {
-				name = "Paulus VI"
+				name = "Павел VI"
 				picture = "gfx/leaders/PAP/Portrait_Papal_State_Paulus_VI.png"
 				desc = "POLITICS_PAUL_VI_DESC"
 				expire = "1.1.1"
@@ -1740,7 +1740,7 @@ ITA_create_Paulus_VI = {
 PAP_setup_roman_republic_puppet = {
 	set_cosmetic_tag = PAP_republic
 	create_country_leader = {
-		name = "Reginaldo Giuliani"
+		name = "Реджинальдо Джулиани"
 		picture = "gfx/leaders/PAP/Portrait_Papal_State_Reginaldo_Giuliani.png"
 		expire = "1.1.1"
 		ideology = italian_legionarism_subtype
@@ -1752,54 +1752,54 @@ PAP_setup_roman_republic_puppet = {
 		ideology = theocracy_subtype
 	}
 	create_country_leader = {
-		name = "Ludovico Spada Veralli Potenziani"
+		name = "Людовико Спада Вералли Потенциани"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Ludovico_Spada_Veralli_Potenziani.png"
 		expire = "1.1.1"
 		ideology = authdem_austropopulism_subtype
 	}
 	create_country_leader = {
-		name = "Giuseppe Donati"
+		name = "Джузеппе Донати"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Giuseppe_Donati.png"
 		expire = "1.1.1"
 		ideology = christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "Guglielmo Giannini"
+		name = "Гульельмо Джаннини"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Guglielmo_Giannini.png"
 		expire = "1.1.1"
 		ideology = marlib_qualunquismo_subtype
 	}
 	create_country_leader = {
-		name = "Romolo Murri"
+		name = "Ромоло Мурри"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Romolo_Murri.png"
 		expire = "1.1.1"
 		ideology = soclib_christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "Gerardo Bruni"
+		name = "Герардо Бруни"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Gerardo_Bruni.png"
 		expire = "1.1.1"
 		ideology = socdem_christian_socialism_subtype
 	}
 	create_country_leader = {
-		name = "Zeno Saltini"
+		name = "Зено Сальтини"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Zeno_Saltini.png"
 		expire = "1.1.1"
 		ideology = christian_anarchism_subtype
 	}
 	create_country_leader = {
-		name = "Fulvio Milani"
+		name = "Фульвио Милани"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Fulvio_Milani.png"
 		expire = "1.1.1"
 		ideology = christian_syndicalism_subtype
 	}
 	create_country_leader = {
-		name = "Franco Rodano"
+		name = "Франко Родано"
 		picture = "gfx/leaders/PAP/Portrait_PAP_Franco_Rodano.png"
 		expire = "1.1.1"
 		ideology = christian_communism_subtype
 	}
-remove_ideas = PAP_future_past_idea
+	remove_ideas = PAP_future_past_idea
 remove_ideas = PAP_fading_pope_idea	
 remove_ideas = PAP_holy_see
 remove_ideas = PAP_roman_state	
@@ -1840,27 +1840,27 @@ NOT = {
 }
 if = {
 limit = { owns_state = 115 }
-set_cosmetic_tag = SIC_republic
+	set_cosmetic_tag = SIC_republic
 }
 else = {
 set_cosmetic_tag = SIC_nap_republic
 }
 }
-clr_country_flag = LEADER_GUI_VISIBLE
-create_country_leader = {
-	name = "Amadeo Bordiga"
+	clr_country_flag = LEADER_GUI_VISIBLE
+	create_country_leader = {
+	name = "Амадео Бордига"
 	picture = "gfx/leaders/SIC/Portrait_SIC_Amadeo_Bordiga.png"
 	expire = "1.1.1"
 	ideology = bordigism_subtype
 }
 create_country_leader = {
-	name = "Girolamo Li Causi"
+	name = "Джироламо Ли Каузи"
 	picture = "gfx/leaders/SIC/Portrait_SIC_Girolamo_Li_Causi.png"
 	expire = "1.1.1"
 	ideology = syndicalist_subtype
 }
 create_country_leader = {
-	name = "Riccardo Lombardi"
+	name = "Риккардо Ломбарди"
 	picture = "gfx/leaders/SIC/Portrait_SIC_Riccardo_Lombardi.png"
 	expire = "1.1.1"
 	ideology = fascism_subtype
@@ -1896,7 +1896,7 @@ create_country_leader = {
 	ideology = authdem_agrarianism_subtype
 }
 create_country_leader = {
-	name = "Achille Lauro"
+	name = "Акилле Лауро"
 	picture = "gfx/leaders/SIC/Portrait_SIC_Achille_Lauro.png"
 	expire = "1.1.1"
 	ideology = laurismo_subtype

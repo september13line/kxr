@@ -62,31 +62,31 @@ if = {
 
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_naval_mines = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+	
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_country_flag = KX_no_naval_tech_decision_enable
 
@@ -137,39 +137,39 @@ set_power_balance = {
 }
 set_variable = { KUB_integration_process = 12 }
 create_country_leader = {
-	name = "Yan Poluyan"
+	name = "Ян Полуян"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Yan_Polyan.png"
 	expire = "1.1.1"
 	ideology = hardliner_bolshevism_subtype
 }
 create_country_leader = {
-	name = "Sobraniye Aktsionerov Kubsoyuza"
+	name = "Собрание Акционеров Кубсоюза"
 	picture = "gfx/leaders/KUB/Portrait_KUB_kubsoyuz.png"
 	expire = "1.1.1"
 	ideology = agrarian_syndicalism_subtype
 }
 create_country_leader = {
-	name = "Sobraniye Aktsionerov Kubsoyuza"
+	name = "Собрание Акционеров Кубсоюза"
 	picture = "gfx/leaders/KUB/Portrait_KUB_kubsoyuz.png"
 	expire = "1.1.1"
 	ideology = market_socialist_subtype
 }
 create_country_leader = {
-	name = "Luka Bych"
+	name = "Лука Бич"
 	desc = "POLITICS_LUKA_BYCH_DESC"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Luka_Bych.png"
 	expire = "1.1.1"
 	ideology = socdem_cossack_democracy_subtype
 }
 create_country_leader = {
-	name = "Nikolai Ryabovol"
+	name = "Николай Рябовол"
 	desc = "POLITICS_NIKOLAI_RYABOVOL_DESC"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Nikolai_Ryabovol.png"
 	expire = "1.1.1"
 	ideology = soclib_cossack_democracy_subtype
 }
 create_country_leader = {
-	name = "Vasil Ivanis"
+	name = "Василий Иванис"
 	desc = "POLITICS_VASIL_IVANIS_DESC"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Vasil_Ivanis.png"
 	expire = "1.1.1"
@@ -177,27 +177,27 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikolai Bukretov"
+	name = "Николай Букретов"
 	desc = "POLITICS_NIKOLAI_BUKRETOV_DESC"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Nikolay_Bukretov.png"
 	expire = "1.1.1"
 	ideology = soccon_cossack_democracy_subtype
 }
 create_country_leader = {
-	name = "Alexander Filimonov"
+	name = "Александр Филимонов"
 	desc = "POLITICS_ALEXANDER_FILIMONOV_DESC"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Alexander_Filimonov.png"
 	expire = "1.1.1"
 	ideology = authdem_cossack_democracy_subtype
 }
 create_country_leader = {
-	name = "Vasil Ryabokon"
+	name = "Василий Рябоконь"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Vasily_Ryabokon.png"
 	expire = "1.1.1"
 	ideology = pataut_cossack_subtype
 }
 create_country_leader = {
-	name = "Andrey Shkuro"
+	name = "Андрей Шкуро"
 	picture = "gfx/leaders/KUB/Portrait_KUB_Andrei_Shkuro.png"
 	expire = "1.1.1"
 	ideology = militarism_subtype
@@ -206,7 +206,7 @@ create_country_leader = {
 ### Field Marshal
 
 create_field_marshal = { 
-	name = "Alexander Filimonov "
+	name = "Александр Филимонов "
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Alexander_Filimonov.png"
 	traits = { RUS_lineytsy_cossack old_guard defensive_doctrine }
 	skill = 3
@@ -217,7 +217,7 @@ create_field_marshal = {
 	id = 18901
 }
 create_field_marshal = { #Auto-Generated
-	name = "Vasil Ryabokon "
+	name = "Василий Рябоконь "
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Vasily_Ryabokon.png"
 	traits = { RUS_kuban_cossack trait_cautious cavalry_leader offensive_doctrine }
 	skill = 3
@@ -229,7 +229,7 @@ create_field_marshal = { #Auto-Generated
 }
 ### Corps Commander
 create_corps_commander = {
-	name = "Viktor Pokrovsky"
+	name = "Виктор Покровский"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Victor_Pokrovsky.png"
 	traits = { war_hero media_personality trait_reckless career_officer air_commander }
 	skill = 4
@@ -240,7 +240,7 @@ create_corps_commander = {
 	id = 179421
 }
 create_corps_commander = {
-	name = "Vasil Ivanis "
+	name = "Василий Иванис "
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Vasil_Ivanis.png"
 	traits = { RUS_kuban_cossack media_personality artillery_officer }
 	skill = 2
@@ -251,7 +251,7 @@ create_corps_commander = {
 	id = 179431
 }
 create_corps_commander = {
-	name = "Vyacheslav Naumenko"
+	name = "Вячеслав Науменко"
 	desc = "POLITICS_VYACHESLAV_NAUMENKO_DESC"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Vyacheslav_Naumenko.png"
 	traits = { RUS_lineytsy_cossack old_guard cavalry_leader }
@@ -264,7 +264,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Andrey Shkuro "
+	name = "Андрей Шкуро "
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Andrei_Shkuro.png"
 	traits = { RUS_lineytsy_cossack old_guard war_hero politically_connected cavalry_leader }
 	skill = 2
@@ -275,7 +275,7 @@ create_corps_commander = { #Auto-Generated
 	id = 17945
 }
 create_corps_commander = { #Auto-Generated
-	name = "Nikolay Babiyev"
+	name = "Николай Бабиев"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Nikolay_Babiyev.png"
 	traits = { RUS_lineytsy_cossack war_hero artillery_officer cavalry_leader }
 	skill = 3
@@ -286,7 +286,7 @@ create_corps_commander = { #Auto-Generated
 	id = 17946
 }
 create_corps_commander = { #Auto-Generated
-	name = "Nikolay Bukretov"
+	name = "Николай Букретов"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Nikolay_Bukretov.png"
 	traits = { RUS_lineytsy_cossack war_hero }
 	skill = 2
@@ -297,7 +297,7 @@ create_corps_commander = { #Auto-Generated
 	id = 17947
 }
 create_field_marshal = { #Auto-Generated
-	name = "Aleksey Avtonomov"
+	name = "Алексей Автономов"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Aleksey_Avtonomov.png"
 	traits = { cossack_leader }
 	skill = 1
@@ -309,7 +309,7 @@ create_field_marshal = { #Auto-Generated
 }
 
 create_navy_leader = { #
-	name = "Grigory Shchedrin"
+	name = "Григорий Щедрин"
 	portrait_path = "gfx/leaders/KUB/Portrait_KUB_Grigory_Shchedrin.png"
 	traits = { seawolf }
 	skill = 1

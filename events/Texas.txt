@@ -19,7 +19,7 @@ country_event = { # Elections in Texas
 	trigger = {
 		OR = {
 			has_country_leader = {
-				name = "Huey Long"
+				name = "Хьюи Лонг"
 				ruling_only = yes
 			}
 			has_global_flag = USA_garner_is_president
@@ -76,14 +76,14 @@ country_event = { # Supreme Court Decision
 			factor = 40
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = TXS_independence
-					option = TXS_INDEPENDENCE_GUARENTEE
+					has_game_rule = {
+						rule = TXS_independence
+						option = TXS_INDEPENDENCE_GUARENTEE
+					}
 				}
-			}
 		}
 		custom_effect_tooltip = AFP_TEXAS
-	}
+	}		
 
 	option = { # Split Vote
 		name = texas_prewar.1.b
@@ -286,9 +286,9 @@ country_event = { # Allred Resigns
 			}
 		}
 		else = { 
-			country_event = {
-				id = texas_prewar.8
-				days = 1
+		country_event = { 
+			id = texas_prewar.8
+			days = 1
 			}
 		}
 	}
@@ -680,7 +680,7 @@ country_event = { # Murray is Petty
 				has_game_rule = {
 					rule = TXS_independence
 					option = TXS_INDEPENDENCE_GUARENTEE
-				}
+		}
 			}
 		}
 	} 
@@ -720,10 +720,10 @@ country_event = { # Allred Demands
 				has_game_rule = {
 					rule = TXS_independence
 					option = TXS_INDEPENDENCE_GUARENTEE
-				}
+		}
 			}
 		}
-	}
+	} 
 	
 	option = {
 		name = texas_prewar.20.b
@@ -814,7 +814,7 @@ country_event = { # Red River
 				has_game_rule = {
 					rule = TXS_independence
 					option = TXS_INDEPENDENCE_GUARENTEE
-				}
+		}
 			}
 		}
 	} 
@@ -885,7 +885,7 @@ country_event = { # Texan Invasion
 				has_game_rule = {
 					rule = TXS_independence
 					option = TXS_INDEPENDENCE_GUARENTEE
-				}
+		}
 			}
 		}
 		add_political_power = -40
@@ -943,7 +943,7 @@ country_event = { # Home Rule Plan in Texas
 				has_game_rule = {
 					rule = TXS_independence
 					option = TXS_INDEPENDENCE_GUARENTEE
-				}
+		}
 			}
 		}
 		add_political_power = 10
@@ -968,9 +968,9 @@ country_event = { # Home Rule Plan in Texas
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.26
-					days = 1
+			country_event = {
+				id = texas_prewar.26
+				days = 1
 				}
 			}
 		}
@@ -1025,9 +1025,9 @@ country_event = { # Independedce Movement
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.27
-					days = 1
+			country_event = {
+				id = texas_prewar.27
+				days = 1
 				}
 			}
 		}
@@ -1082,9 +1082,9 @@ country_event = { # Crackdown on Seperatists
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.28
-					days = 1
+			country_event = {
+				id = texas_prewar.28
+				days = 1
 				}
 			}
 		}
@@ -1139,9 +1139,9 @@ country_event = { # Texan Crackdown
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.29
-					days = 1
+			country_event = {
+				id = texas_prewar.29
+				days = 1
 				}
 			}
 		}
@@ -1196,9 +1196,9 @@ country_event = { # Army in Texas
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.30
-					days = 1
+			country_event = {
+				id = texas_prewar.30
+				days = 1
 				}
 			}
 			country_event = { 
@@ -1265,9 +1265,9 @@ country_event = { # Economic Intervention Backfires
 				}
 			}
 			else = { 
-				country_event = {
-					id = texas_prewar.7
-					days = 3
+			country_event = {
+				id = texas_prewar.7
+				days = 3
 				}
 			}
 		}
@@ -1422,9 +1422,9 @@ country_event = { # Texan Independence Vote
 			}
 		}
 		else = { 
-			country_event = {
-				id = TXS.1
-				days = 3
+		country_event = {
+			id = TXS.1
+			days = 3
 			}
 		}
 	}
@@ -2035,7 +2035,7 @@ country_event = { # Defection
 					target_country = TXS
 					character = TEX_Frank_Malina
 				}
-			}	
+			}
 		COR = {
 			random_unit_leader = {
 				limit = { has_id = 78900 }			
@@ -2096,9 +2096,9 @@ country_event = { # Fate of Pecos
 		}
 		add_political_power = 100
 		TXS = {
-			country_event = {
-				id = TXS.13
-				days = 1
+		country_event = {
+			id = TXS.13
+			days = 1
 			}
 		}
 	}
@@ -2405,7 +2405,7 @@ country_event = { # New Syndicalist Government
 			factor = 99
 		}
 		create_country_leader = {
-			name = "Union Council"
+			name = "Союзный совет"
 			desc = "POLITICS_SYNDIE_COUNCIL_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Council.png"
 			expire = "1.1.1"
@@ -2739,7 +2739,7 @@ country_event = { # Natpop or PatAut
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.25 }
 			create_country_leader = {
-				name = "Chamber of Executives"
+				name = "Палата представителей"
 				desc = "POLITICS_CHAMBER_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chamber_of_Executives.png"
 				expire = "1.1.1"
@@ -3653,26 +3653,26 @@ country_event = { # America is reunited
 			AND = {
 				NEE = { 
 					exists = yes
-					has_country_flag = NEE_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = NEE_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				NYC = {
 					exists = yes
-					has_country_flag = NYC_can_invade_america
-					is_ally_of_ROOT = no
+				has_country_flag = NYC_can_invade_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				BBR = {
 					exists = yes
-					has_country_flag = BBR_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = BBR_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			has_country_leader = {
-				name = "Thomas Dixon"
+				name = "Томас Диксон"
 				ruling_only = yes
 			}
 			has_cosmetic_tag = TXS_texaco
@@ -3701,19 +3701,19 @@ country_event = { # America is reunited
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Elwood Towner"
+					name = "Элвуд Таунер"
 				}
 			}
 		}
 		set_country_flag = TXS_UNITED_AMERICA
 		if = {
-			limit = {
-				tag = TXS
-				NOT = {
-					has_country_flag = ARZ_GREATER_ARIZONA
-					has_country_flag = PAN_US_PRESIDENT
-				}
+		limit = {
+		tag = TXS
+		NOT = {
+		has_country_flag = ARZ_GREATER_ARIZONA
+		has_country_flag = PAN_US_PRESIDENT
 			}
+		}
 			set_cosmetic_tag = TXS_america
 			set_global_flag = USA_HAS_RETURNED
 		}
@@ -3733,27 +3733,27 @@ country_event = { # America is reunited
 		}
 		if = {
 			limit = { tag = CGL }
-			set_cosmetic_tag = CGL_USA
+		set_cosmetic_tag = CGL_USA
 		}
 		if = {
-			limit = {
+		limit = {
 				OR = {
-					tag = AML
-					tag = AFT
-					tag = ATD
-					tag = IKE
+		tag = AML
+		tag = AFT
+		tag = ATD
+		tag = IKE
 					tag = UOT
-				}
-			}
-			set_cosmetic_tag = AML_USA
+		}
+		}
+		set_cosmetic_tag = AML_USA
 		}
 		if = {
 			limit = { tag = ENC }
-			country_event = enclave.1
+		country_event = enclave.1
 		}
 		if = {
 			limit = { tag = DSR }
-			country_event = utah.42
+		country_event = utah.42
 		}
 		if = {
 			limit = {
@@ -3766,7 +3766,7 @@ country_event = { # America is reunited
 			limit = {
 				AND = {
 					has_country_leader = {
-						name = "Lev Sedov"
+						name = "Лев Седов"
 						ruling_only = yes
 					}
 					tag = ALA
@@ -3785,7 +3785,7 @@ country_event = { # America is reunited
 				AND = {
 					NOT = {
 						has_country_leader = {
-							name = "Lev Sedov"
+							name = "Лев Седов"
 							ruling_only = yes
 						}
 						has_cosmetic_tag = ALA_LIC
@@ -3805,15 +3805,15 @@ country_event = { # America is reunited
 			}
 		}
 		if = {
-			limit = {
-				tag = FSA
+		limit = {
+		tag = FSA
 			}
-			country_event = fsa.1
+		country_event = fsa.1
 		}
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Alisa Rosenbaum"
+					name = "Алиса Розенбаум"
 					ruling_only = yes
 				}
 			}
@@ -3851,9 +3851,9 @@ country_event = { # America is reunited
 			set_cosmetic_tag = CAL_JAP_USA
 		}
 		every_state = {
-			limit = {
-				is_united_states = yes
-			}
+                limit = {
+					is_united_states = yes
+				}
 			add_core_of = ROOT
 		}
 	}
@@ -3877,9 +3877,9 @@ country_event = { # America is reunited
 			}
 		}
 		every_state = {
-			limit = {
-				is_united_states = yes
-			}
+                limit = {
+					is_united_states = yes
+				}
 			add_core_of = ROOT
 		}
 		set_country_flag = TXS_UNITED_AMERICA
@@ -3895,7 +3895,7 @@ country_event = { # America is reunited
 		every_state = {
 			limit = { is_united_states = yes }
 			add_core_of = ROOT
-		}
+			}
 		if = {
 			limit = {
 				CAL = {
@@ -3927,7 +3927,7 @@ country_event = { # America is reunited
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Elwood Towner"
+				name = "Элвуд Таунер"
 			}
 		}
 		set_country_flag = TXS_UNITED_AMERICA
@@ -3963,11 +3963,11 @@ country_event = { # America is reunited
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 				}
 			}
 		}
@@ -3987,7 +3987,7 @@ country_event = { # America is reunited
 			tag = TXS
 				has_country_leader = {
 					ruling_only = yes
-					name = "Maximilian I"
+					name = "Максимилиан I"
 			}
 		}
 		every_state = {
@@ -4007,7 +4007,7 @@ country_event = { # America is reunited
 			tag = TXS
 			has_country_leader = {
 					ruling_only = yes
-					name = "Adolph I"
+					name = "Адольф I"
 			}
 		}
 		every_state = {
@@ -4027,7 +4027,7 @@ country_event = { # America is reunited
 			tag = TXS
 			has_country_leader = {
 					ruling_only = yes
-					name = "Stanley I"
+					name = "Стэнли I"
 			}
 		}
 		every_state = {
@@ -4049,27 +4049,27 @@ country_event = { # America is reunited
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Ariadne I"
+					name = "Ариадна I"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Stanley I"
+					name = "Стэнли I"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Maximilian I"
+					name = "Максимилиан I"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Adolph I"
+					name = "Адольф I"
 				}
 			}
 		}
@@ -4085,16 +4085,16 @@ country_event = { # America is reunited
 			has_country_flag = TXS_kingdom_founded
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ariadne I"
+				name = "Ариадна I"
 			}
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 				}
 			}
 		}
@@ -4103,7 +4103,7 @@ country_event = { # America is reunited
 		set_global_flag = USA_HAS_RETURNED
 	}
 }
-country_event = { #Other factions accept us existing
+country_event = { # Austrian say yes!
 	id = TXS.31
 	immediate = {log = "[GetDateText]: [Root.GetName]: event TXS.31"}
 	title = TXS.31.t
@@ -4163,8 +4163,8 @@ country_event = { # The most decorated soldier
 	
 	option = {
 		name = TXS.33.a
-		create_corps_commander = {# Audie Murphy
-			name = "Audie Murphy"
+		create_corps_commander = {# Оди Мёрфи
+			name = "Оди Мёрфи"
 			desc = ""
 			portrait_path = "gfx/leaders/TXS/Portrait_Texas_Audie_Murphy.png"
 			traits = {
@@ -4207,10 +4207,10 @@ country_event = { # Loyalty to the U.S
 					has_global_flag = PSA_NAVY_MARSHALL_TREATY
 					has_global_flag = CAL_peaceout_with_mac
 				}
-			}
-			declare_war_on = {
-				target = CAL
-				type = annex_everything
+		}
+		declare_war_on = {
+			target = CAL
+			type = annex_everything
 			}
 		}
 		if = {
@@ -4630,7 +4630,7 @@ country_event = { # Mexican Attack
 		country_exists = MEX
 		MEX = {
 		has_war = no
-		has_country_leader = { ruling_only = yes name = "Pancho Villa" }
+		has_country_leader = { ruling_only = yes name = "Панчо Вилья" }
 		}
 	}
 	option = {
@@ -4680,7 +4680,7 @@ country_event = { # Garner Cult
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
-		has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+		has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 	}
 	option = {
 		name = TXS.45.a
@@ -4712,7 +4712,7 @@ country_event = { # The most decorated soldier
 	option = {
 	name = TXS.46.a
 	create_navy_leader = { #Auto-Generated
-		name = "Dorris Miller"
+		name = "Дорис Миллер"
 		portrait_path = "gfx/leaders/BBR/Portrait_BBR_Doris_Dorie_Miller.png"
 		traits = {
 			fly_swatter
@@ -4848,7 +4848,7 @@ country_event = { # Post War Elections
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Homer Brooks"
+				name = "Гомер Брукс"
 				desc = "POLITICS_HOMER_ROSS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Homer_Brooks.png"
 				expire = "1.1.1"
@@ -4957,13 +4957,13 @@ country_event = { # 1941 Election
 	is_triggered_only = yes
 	trigger = {
 		has_government = authoritarian_democrat
-		has_country_leader = { ruling_only = yes name = "Martin Dies Jr." }
+		has_country_leader = { ruling_only = yes name = "Мартин Дайс мл." }
 	}
 	option = {
 		name = TXS.53.a
 		ai_chance = { factor = 50 }
 		create_country_leader = {
-			name = "Martin Dies Jr."
+			name = "Мартин Дайс мл."
 			desc = "POLITICS_MARTIN_DIES_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Martin_Dies_Jr.png"
 			expire = "1.1.1"
@@ -4975,7 +4975,7 @@ country_event = { # 1941 Election
 		name = TXS.53.b
 		ai_chance = { factor = 50 }
 		create_country_leader = {
-			name = "Frank Hamer"
+			name = "Фрэнк Хамер"
 			desc = "POLITICS_FRANK_HAMER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Frank_Hamer.png"
 			expire = "1.1.1"
@@ -4987,7 +4987,7 @@ country_event = { # 1941 Election
 		name = TXS.53.c
 		ai_chance = { factor = 50 }
 		create_country_leader = {
-			name = "Andrew Jackson Houston"
+			name = "Эндрю Джексон Хьюстон"
 			desc = "POLITICS_ANDREW_JACKSON_HOUSTON_DESC"
 			picture = "gfx/leaders/TXS/Portrait_texas_Andrew_Jackson_Houston_civ.png"
 			expire = "1.1.1"
@@ -5021,7 +5021,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_stevenson }
 				create_country_leader = {
-					name = "Coke R. Stevenson"
+					name = "Кок Стивенсон"
 					desc = "POLITICS_COKE_R_STEVENSON_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Coke_Stevenson.png"
 					expire = "1.1.1"
@@ -5029,7 +5029,7 @@ country_event = { # 1941 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Coke R. Stevenson"
+					name = "Кок Стивенсон"
 					desc = "POLITICS_COKE_R_STEVENSON_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Coke_Stevenson.png"
 					expire = "1.1.1"
@@ -5040,7 +5040,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_hunt }
 				create_country_leader = {
-					name = "H.L. Hunt"
+					name = "Гарольд Хант"
 					desc = "POLITICS_HL_HUNT_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 					expire = "1.1.1"
@@ -5048,7 +5048,7 @@ country_event = { # 1941 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "H.L. Hunt"
+					name = "Гарольд Хант"
 					desc = "POLITICS_HL_HUNT_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 					expire = "1.1.1"
@@ -5059,7 +5059,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_odaniel }
 				create_country_leader = {
-					name = "Wilbert Lee O'Daniel"
+					name = "Уилберт Ли О’Дэниел"
 					desc = "POLITICS_WL_ODANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 					expire = "1.1.1"
@@ -5067,7 +5067,7 @@ country_event = { # 1941 Election
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Wilbert Lee O'Daniel"
+					name = "Уилберт Ли О’Дэниел"
 					desc = "POLITICS_WL_ODANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 					expire = "1.1.1"
@@ -5078,7 +5078,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_moody }
 				create_country_leader = {
-					name = "Daniel James Moody"
+					name = "Дэн Муди"
 					desc = "POLITICS_DANIEL_JAMES_MOODY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Dan_Moody.png"
 					expire = "1.1.1"
@@ -5089,7 +5089,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_rogers }
 				create_country_leader = {
-					name = "Will Rogers"
+					name = "Уилл Роджерс"
 					desc = "POLITICS_WILL_ROGERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Will_Rogers.png"
 					expire = "1.1.1"
@@ -5100,7 +5100,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_eisenhower }
 				create_country_leader = {
-					name = "Dwight D. Eisenhower "
+					name = "Дуайт Д. Эйзенхауэр"
 					desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Dwight_Eisenhower.png"
 					expire = "1.1.1"
@@ -5111,7 +5111,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_allred }
 				create_country_leader = {
-					name = "James V Allred"
+					name = "Джеймс Оллред"
 					desc = "POLITICS_JAMES_ALLRED_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_James_V_Allred_Cigar.png"
 					expire = "1.1.1"
@@ -5122,7 +5122,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_mcdonald }
 				create_country_leader = {
-					name = "William Madison McDonald"
+					name = "Уильям Мэдисон Макдональд"
 					desc = "POLITICS_GOOSENECK_BILL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_William_Madison_McDonald.png"
 					expire = "1.1.1"
@@ -5133,7 +5133,7 @@ country_event = { # 1941 Election
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_creager }
 				create_country_leader = {
-					name = "Rentfro Banton Creager"
+					name = "Рентфро Бантон Кригер"
 					desc = "POLITICS_CREAGER_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Rentfro_Banton_Creager.png"
 					expire = "1.1.1"
@@ -5215,7 +5215,7 @@ country_event = { # 1941 Election
 			TXS_Wright_Patman_sec_sli
 		}
 		if = {	
-			limit = { has_country_leader = { name = "James V Allred" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джеймс Оллред" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/TXS/Portrait_Texas_James_V_Allred_Cigar.png"
 			}
@@ -5266,7 +5266,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_shivers }
 				create_country_leader = {
-					name = "Allan Shivers"
+					name = "Аллан Шиверс"
 					desc = "POLITICS_ALLAN_SHIVERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Allan_Shivers.png"
 					expire = "1.1.1"
@@ -5274,7 +5274,7 @@ country_event = { # 1946 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Allan Shivers"
+					name = "Аллан Шиверс"
 					desc = "POLITICS_ALLAN_SHIVERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Allan_Shivers.png"
 					expire = "1.1.1"
@@ -5285,7 +5285,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_daniel }
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5293,7 +5293,7 @@ country_event = { # 1946 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5304,7 +5304,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_connaly }
 				create_country_leader = {
-					name = "Tom Connally"
+					name = "Томас Конналли"
 					desc = "POLITICS_TOM_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Tom_Connally.png"
 					expire = "1.1.1"
@@ -5312,7 +5312,7 @@ country_event = { # 1946 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Tom Connally"
+					name = "Томас Конналли"
 					desc = "POLITICS_TOM_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Tom_Connally.png"
 					expire = "1.1.1"
@@ -5323,7 +5323,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_lbj }
 				create_country_leader = {
-					name = "Lyndon B. Johnson"
+					name = "Линдон Джонсон"
 					desc = "POLITICS_LBJ_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson_2.png"
 					expire = "1.1.1"
@@ -5334,7 +5334,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_yarborough }
 				create_country_leader = {
-					name = "Ralph Yarborough"
+					name = "Ральф Ярборо"
 					desc = "POLITICS_RALPH_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Ralph_Yarborough.png"
 					expire = "1.1.1"
@@ -5345,7 +5345,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_mann }
 				create_country_leader = {
-					name = "Gerald Mann"
+					name = "Джеральд Манн"
 					desc = "POLITICS_GERALD_MANN_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Gerald_Mann.png"
 					expire = "1.1.1"
@@ -5356,7 +5356,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_allred }
 				create_country_leader = {
-					name = "James V Allred"
+					name = "Джеймс Оллред"
 					desc = "POLITICS_JAMES_ALLRED_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_James_V_Allred_Cigar.png"
 					expire = "1.1.1"
@@ -5367,7 +5367,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_moody }
 				create_country_leader = {
-					name = "Daniel James Moody"
+					name = "Дэн Муди"
 					desc = "POLITICS_DANIEL_JAMES_MOODY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Dan_Moody.png"
 					expire = "1.1.1"
@@ -5378,7 +5378,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_rogers }
 				create_country_leader = {
-					name = "Will Rogers"
+					name = "Уилл Роджерс"
 					desc = "POLITICS_WILL_ROGERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Will_Rogers.png"
 					expire = "1.1.1"
@@ -5389,7 +5389,7 @@ country_event = { # 1946 Election
 			if = {	
 				limit = { has_country_flag = TXS_1946_primary_eisenhower }
 				create_country_leader = {
-					name = "Dwight D. Eisenhower "
+					name = "Дуайт Д. Эйзенхауэр"
 					desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Dwight_Eisenhower.png"
 					expire = "1.1.1"
@@ -5510,7 +5510,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_shivers }
 				create_country_leader = {
-					name = "Allan Shivers"
+					name = "Аллан Шиверс"
 					desc = "POLITICS_ALLAN_SHIVERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Allan_Shivers.png"
 					expire = "1.1.1"
@@ -5518,7 +5518,7 @@ country_event = { #
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Allan Shivers"
+					name = "Аллан Шиверс"
 					desc = "POLITICS_ALLAN_SHIVERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Allan_Shivers.png"
 					expire = "1.1.1"
@@ -5529,7 +5529,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_connaly }
 				create_country_leader = {
-					name = "Tom Connally"
+					name = "Томас Конналли"
 					desc = "POLITICS_TOM_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Tom_Connally.png"
 					expire = "1.1.1"
@@ -5537,7 +5537,7 @@ country_event = { #
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Tom Connally"
+					name = "Томас Конналли"
 					desc = "POLITICS_TOM_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Tom_Connally.png"
 					expire = "1.1.1"
@@ -5548,7 +5548,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_daniel }
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5556,7 +5556,7 @@ country_event = { #
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5567,7 +5567,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_lbj }
 				create_country_leader = {
-					name = "Lyndon B. Johnson"
+					name = "Линдон Джонсон"
 					desc = "POLITICS_LBJ_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson_2.png"
 					expire = "1.1.1"
@@ -5578,7 +5578,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_mann }
 				create_country_leader = {
-					name = "Gerald Mann"
+					name = "Джеральд Манн"
 					desc = "POLITICS_GERALD_MANN_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Gerald_Mann.png"
 					expire = "1.1.1"
@@ -5589,7 +5589,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_yarborough }
 				create_country_leader = {
-					name = "Ralph Yarborough"
+					name = "Ральф Ярборо"
 					desc = "POLITICS_RALPH_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Ralph_Yarborough.png"
 					expire = "1.1.1"
@@ -5599,8 +5599,8 @@ country_event = { #
 			}
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_patman }
-				create_country_leader = {
-					name = "Wright Patman"
+					create_country_leader = {
+					name = "Райт Патман"
 					desc = "POLITICS_WRIGHT_PATMAN_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wright_Patman.png"
 					expire = "1.1.1"
@@ -5611,7 +5611,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_eisenhower }
 				create_country_leader = {
-					name = "Dwight D. Eisenhower "
+					name = "Дуайт Д. Эйзенхауэр"
 					desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Dwight_Eisenhower.png"
 					expire = "1.1.1"
@@ -5622,7 +5622,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_rogers }
 				create_country_leader = {
-					name = "Will Rogers"
+					name = "Уилл Роджерс"
 					desc = "POLITICS_WILL_ROGERS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Will_Rogers.png"
 					expire = "1.1.1"
@@ -5633,7 +5633,7 @@ country_event = { #
 			if = {	
 				limit = { has_country_flag = TXS_1951_primary_hutcheson }
 				create_country_leader = {
-					name = "Thad Hutcheson"
+					name = "Тад Хатчерсон"
 					desc = "POLITICS_THAD_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Thad_Hutcheson.png"
 					expire = "1.1.1"
@@ -5741,7 +5741,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_daniel }
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5749,7 +5749,7 @@ country_event = { # 1951 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Price Daniel"
+					name = "Прайс Дэниел"
 					desc = "POLITICS_PRICE_DANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Price_Daniel.png"
 					expire = "1.1.1"
@@ -5760,7 +5760,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_connaly }
 				create_country_leader = {
-					name = "John Connally"
+					name = "Джон Коннали"
 					desc = "POLITICS_JOHN_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_John_Connally.png"
 					expire = "1.1.1"
@@ -5768,7 +5768,7 @@ country_event = { # 1951 Election
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "John Connally"
+					name = "Джон Коннали"
 					desc = "POLITICS_JOHN_CONNALY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_John_Connally.png"
 					expire = "1.1.1"
@@ -5779,7 +5779,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_lbj }
 				create_country_leader = {
-					name = "Lyndon B. Johnson"
+					name = "Линдон Джонсон"
 					desc = "POLITICS_LBJ_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson_2.png"
 					expire = "1.1.1"
@@ -5787,7 +5787,7 @@ country_event = { # 1951 Election
 					traits = {}
 				}
 				if = {	
-					limit = { has_country_leader = { name = "Lyndon B. Johnson" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Линдон Джонсон" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson_2.png"
 					}
@@ -5796,7 +5796,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_yarborough }
 				create_country_leader = {
-					name = "Ralph Yarborough"
+					name = "Ральф Ярборо"
 					desc = "POLITICS_RALPH_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Ralph_Yarborough.png"
 					expire = "1.1.1"
@@ -5807,7 +5807,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_mann }
 				create_country_leader = {
-					name = "Gerald Mann"
+					name = "Джеральд Манн"
 					desc = "POLITICS_GERALD_MANN_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Gerald_Mann.png"
 					expire = "1.1.1"
@@ -5818,7 +5818,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_moody }
 				create_country_leader = {
-					name = "Daniel James Moody"
+					name = "Дэн Муди"
 					desc = "POLITICS_DANIEL_JAMES_MOODY_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Dan_Moody.png"
 					expire = "1.1.1"
@@ -5829,7 +5829,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_eisenhower }
 				create_country_leader = {
-					name = "Dwight D. Eisenhower "
+					name = "Дуайт Д. Эйзенхауэр"
 					desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Dwight_Eisenhower.png"
 					expire = "1.1.1"
@@ -5840,7 +5840,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_hutcheson }
 				create_country_leader = {
-					name = "Thad Hutcheson"
+					name = "Тад Хатчерсон"
 					desc = "POLITICS_THAD_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Thad_Hutcheson.png"
 					expire = "1.1.1"
@@ -5851,7 +5851,7 @@ country_event = { # 1951 Election
 			if = {	
 				limit = { has_country_flag = TXS_1956_primary_patman }
 				create_country_leader = {
-					name = "Wright Patman"
+					name = "Райт Патман"
 					desc = "POLITICS_WRIGHT_PATMAN_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wright_Patman.png"
 					expire = "1.1.1"
@@ -6064,7 +6064,7 @@ country_event = { # Soc Other Elections
 			if = {	
 				limit = { has_country_flag = TXS_socialist_primary_brooks }
 				create_country_leader = {
-					name = "Homer Brooks"
+					name = "Гомер Брукс"
 					desc = "POLITICS_HOMER_ROSS_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Homer_Brooks.png"
 					expire = "1.1.1"
@@ -6075,7 +6075,7 @@ country_event = { # Soc Other Elections
 			if = {	
 				limit = { has_country_flag = TXS_socialist_primary_tenayuca }
 				create_country_leader = {
-					name = "Emma B. Tenayuca"
+					name = "Эмма Б. Тенаюка"
 					desc = "POLITICS_TENAYUCA_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Emma_Tenayuca.png"
 					expire = "1.1.1"
@@ -6367,7 +6367,7 @@ country_event = { # Puppet President
 			}
 		}
 		create_country_leader = {
-			name = "Ira C. Eaker"
+			name = "Айра Икер"
 			desc = "POLITICS_EAKER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Ira_C_Eaker.png"
 			expire = "1.1.1"
@@ -6429,7 +6429,7 @@ country_event = { # Puppet President
 			}
 		}
 			create_country_leader = {
-				name = "Chester W. Nimitz"
+				name = "Честер У. Нимиц"
 				desc = "POLITICS_NIMITZ_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Chester_Nimitz_KR.png"
 				expire = "1.1.1"
@@ -6493,7 +6493,7 @@ country_event = { # Puppet President
 			}
 		}
 		create_country_leader = {
-			name = "Dwight D. Eisenhower"
+			name = "Дуайт Д. Эйзенхауэр"
 			desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Dwight_Eisenhower.png"
 			expire = "1.1.1"
@@ -6532,7 +6532,7 @@ country_event = { # Puppet President
 			}
 		}
 		create_country_leader = {
-			name = "Andrew Jackson Houston"
+			name = "Эндрю Джексон Хьюстон"
 			desc = "POLITICS_ANDREW_JACKSON_HOUSTON_DESC"
 			picture = "gfx/leaders/TXS/Portrait_texas_Andrew_Jackson_Houston_civ.png"
 			expire = "1.1.1"
@@ -6616,7 +6616,7 @@ country_event = { # New Junta
 			name = TXS_texaco_dems_party
 		}
 		create_country_leader = {
-			name = "Wilbert Lee O'Daniel"
+			name = "Уилберт Ли О’Дэниел"
 			desc = "POLITICS_WL_ODANIEL_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 			expire = "1.1.1"
@@ -6832,7 +6832,7 @@ country_event = { # Post-Junta Elections
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_stevenson }
 				create_country_leader = {
-					name = "Coke R. Stevenson"
+					name = "Кок Стивенсон"
 					desc = "POLITICS_COKE_R_STEVENSON_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Coke_Stevenson.png"
 					expire = "1.1.1"
@@ -6840,7 +6840,7 @@ country_event = { # Post-Junta Elections
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Coke R. Stevenson"
+					name = "Кок Стивенсон"
 					desc = "POLITICS_COKE_R_STEVENSON_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Coke_Stevenson.png"
 					expire = "1.1.1"
@@ -6851,7 +6851,7 @@ country_event = { # Post-Junta Elections
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_hunt }
 				create_country_leader = {
-					name = "H.L. Hunt"
+					name = "Гарольд Хант"
 					desc = "POLITICS_HL_HUNT_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 					expire = "1.1.1"
@@ -6859,7 +6859,7 @@ country_event = { # Post-Junta Elections
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "H.L. Hunt"
+					name = "Гарольд Хант"
 					desc = "POLITICS_HL_HUNT_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 					expire = "1.1.1"
@@ -6870,7 +6870,7 @@ country_event = { # Post-Junta Elections
 			if = {	
 				limit = { has_country_flag = TXS_1941_primary_odaniel }
 				create_country_leader = {
-					name = "Wilbert Lee O'Daniel"
+					name = "Уилберт Ли О’Дэниел"
 					desc = "POLITICS_WL_ODANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 					expire = "1.1.1"
@@ -6878,7 +6878,7 @@ country_event = { # Post-Junta Elections
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Wilbert Lee O'Daniel"
+					name = "Уилберт Ли О’Дэниел"
 					desc = "POLITICS_WL_ODANIEL_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 					expire = "1.1.1"
@@ -6887,7 +6887,7 @@ country_event = { # Post-Junta Elections
 				}
 			}
 			create_country_leader = {
-				name = "Daniel James Moody"
+				name = "Дэн Муди"
 				desc = "POLITICS_DANIEL_JAMES_MOODY_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Dan_Moody.png"
 				expire = "1.1.1"
@@ -6982,7 +6982,7 @@ country_event = { # Congrats, You made it to 2019
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -6990,7 +6990,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -6998,7 +6998,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -7006,7 +7006,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -7014,7 +7014,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -7022,7 +7022,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Chuck Norris I"
+				name = "Чак Норрис I"
 				desc = "POLITICS_CHUCK_NORRIS_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Chuck_Norris.png"
 				expire = "1.1.1"
@@ -7030,7 +7030,7 @@ country_event = { # Congrats, You made it to 2019
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Beto O'Rourke"
+				name = "Бето О’Рурк"
 				desc = "POLITICS_BETO_DESC"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Beto_O'Rourke.png"
 				expire = "1.1.1"
@@ -7067,7 +7067,7 @@ country_event = { # Authdem or PatAut
 				elections_allowed = no
 		}
 		create_country_leader = {
-				name = "Chester W. Nimitz"
+				name = "Честер У. Нимиц"
 				desc = "POLITICS_NIMITZ_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Chester_Nimitz_KR.png"
 				expire = "1.1.1"
@@ -7197,7 +7197,7 @@ country_event = { # Dallas Plaza Bombing
 	trigger = {
 		tag = TXS
 		has_completed_focus = TXS_soccon_victory
-		has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+		has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 	}
 	
 	option = {
@@ -7264,7 +7264,7 @@ country_event = { # LBJ Speech
 			ruling_party = radical_socialist
 		}
 		create_country_leader = {
-			name = "Woodie Guthrie"
+			name = "Гомер Брукс"
 			desc = "POLITICS_WOODIE_GURTHIE_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Woody_Guthrie.png"
 			expire = "1.1.1"
@@ -7290,7 +7290,7 @@ country_event = { #HUAC
 	is_triggered_only = yes
 	
 	option = {
-		name = TXS.77.a
+	name = TXS.77.a
 		add_political_power = 100
 		add_ideas = TXS_huac
 	}
@@ -7434,7 +7434,7 @@ country_event = { # Military Removes Texaco
 			}
 		}
 		create_country_leader = {
-			name = "Ira C. Eaker"
+			name = "Айра Икер"
 			desc = "POLITICS_EAKER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Ira_C_Eaker.png"
 			expire = "1.1.1"
@@ -7492,7 +7492,7 @@ country_event = { # Military Removes Texaco
 			}
 		}
 			create_country_leader = {
-				name = "Chester W. Nimitz"
+				name = "Честер У. Нимиц"
 				desc = "POLITICS_NIMITZ_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Chester_Nimitz_KR.png"
 				expire = "1.1.1"
@@ -7551,7 +7551,7 @@ country_event = { # Military Removes Texaco
 			}
 		}
 		create_country_leader = {
-			name = "Dwight D. Eisenhower"
+			name = "Дуайт Д. Эйзенхауэр"
 			desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_Dwight_Eisenhower.png"
 			expire = "1.1.1"
@@ -7585,7 +7585,7 @@ country_event = { # Military Removes Texaco
 			}
 		}
 		create_country_leader = {
-			name = "Andrew Jackson Houston"
+			name = "Эндрю Джексон Хьюстон"
 			desc = "POLITICS_ANDREW_JACKSON_HOUSTON_DESC"
 			picture = "gfx/leaders/TXS/Portrait_texas_Andrew_Jackson_Houston_civ.png"
 			expire = "1.1.1"
@@ -7662,7 +7662,7 @@ country_event = { # B U N G H O L E
 	
 	fire_only_once = yes
 	trigger = {
-		has_country_leader = { ruling_only = yes name = "Lyndon B. Johnson" }
+		has_country_leader = { ruling_only = yes name = "Линдон Джонсон" }
 	}
 	 
 	option = {
@@ -8316,7 +8316,7 @@ country_event = { #Democratic Primary - 1956
 		custom_effect_tooltip = if_candidate_elected_tt
 		custom_effect_tooltip = soccon_soccon_popular_patriotism_subtype_swap_tt
 	}
-	 
+
 	option = { #Allan Shivers
 		name = TXS.105.c
 		set_country_flag = TXS_1946_primary_shivers
@@ -8384,7 +8384,7 @@ country_event = { #Independence Primary - 1956
 	trigger = {
 		has_elected_government = yes
 	}
-	 
+
 	option = { #Wright Patman
 		name = TXS.102.a
 		set_country_flag = TXS_1956_primary_patman
@@ -8458,7 +8458,7 @@ country_event = { #SPTX Primary - 1946
 	picture = TXS_Capitol
 
 	is_triggered_only = yes
-
+	 
 	option = { #Tenayuca
 		name = TXS.1071.a
 		set_country_flag = TXS_socialist_primary_tenayuca
@@ -8658,7 +8658,7 @@ country_event = { #Dem Primary
 		name = TXS.112.q
 		set_country_flag = TXS_dems_garner
 		create_country_leader = {
-			name = "John Nance Garner"
+			name = "Джон Нэнс Гарнер"
 			desc = "POLITICS_JOHN_GARNER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_John_Nance_Garner.png"
 			expire = "1.1.1"
@@ -8666,7 +8666,7 @@ country_event = { #Dem Primary
 			traits = { cactus_jack }
 		}
 		create_country_leader = {
-			name = "John Nance Garner"
+			name = "Джон Нэнс Гарнер"
 			desc = "POLITICS_JOHN_GARNER_DESC"
 			picture = "gfx/leaders/TXS/Portrait_Texas_John_Nance_Garner.png"
 			expire = "1.1.1"
@@ -8792,8 +8792,8 @@ country_event = { #Repay
 		remove_ideas_with_trait = foreign_minister
 		remove_ideas_with_trait = economy_minister
 		}
-		add_ideas = TEX_Little_Caesar_for_sco
-		add_ideas = TEX_Mickey_Wickey_eco_sco
+			add_ideas = TEX_Little_Caesar_for_sco
+			add_ideas = TEX_Mickey_Wickey_eco_sco
 	}
 }
 
@@ -8923,7 +8923,7 @@ country_event = { # Bonnie and Clyde gang
 	option = { #Generals
 		name = TXS.122.a
 		create_corps_commander = { #Auto-Generated
-			name = "Clyde Barrow "
+			name = "Клайд Бэрроу "
 			portrait_path = "gfx/leaders/TXS/Portrait_Texas_Clyde_Barrow.png"
 			traits = {
 				commando
@@ -8935,7 +8935,7 @@ country_event = { # Bonnie and Clyde gang
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Bonnie Parker "
+			name = "Бонни Паркер "
 			portrait_path = "gfx/leaders/TXS/Portrait_Texas_Bonnie_Parker.png"
 			traits = {
 				commando
@@ -9318,7 +9318,7 @@ country_event = {#
 					has_cosmetic_tag = TXS_CONFED_texaco
 				}
 			}
-			set_cosmetic_tag = TXS_MEX_TEXACO
+		set_cosmetic_tag = TXS_MEX_TEXACO
 		}
 		add_state_core = 479
 		add_state_core = 480
@@ -9546,23 +9546,23 @@ country_event = { #Mexican Cession Taken
 					OR = {
 						has_country_leader = {
 							ruling_only = yes
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Wilhelm III"
+							name = "Вильгельм III"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Stanley I"
+							name = "Стэнли I"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Maximilian I"
+							name = "Максимилиан I"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Adolph I"
+							name = "Адольф I"
 						}
 					}
 				}
@@ -9575,11 +9575,11 @@ country_event = { #Mexican Cession Taken
 				OR = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 					}
 					has_country_leader = {
 						ruling_only = yes
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 					}
 				}
 			}
@@ -9590,7 +9590,7 @@ country_event = { #Mexican Cession Taken
 				has_country_flag = TXS_kingdom_founded
 				has_country_leader = {
 					ruling_only = yes
-					name = "Stanley I"
+					name = "Стэнли I"
 				}
 			}
 			set_cosmetic_tag = TXS_WEST_BRIT
@@ -9600,7 +9600,7 @@ country_event = { #Mexican Cession Taken
 				has_country_flag = TXS_kingdom_founded
 				has_country_leader = {
 					ruling_only = yes
-					name = "Maximilian I"
+					name = "Максимилиан I"
 				}
 			}
 			set_cosmetic_tag = TXS_WEST_CZE_LOB
@@ -9610,7 +9610,7 @@ country_event = { #Mexican Cession Taken
 				has_country_flag = TXS_kingdom_founded
 				has_country_leader = {
 					ruling_only = yes
-					name = "Adolph I"
+					name = "Адольф I"
 				}
 			}
 			set_cosmetic_tag = TXS_WEST_CZE_SCH
@@ -9645,8 +9645,8 @@ country_event = { #Johnson Heli
 		name = TXS.135.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 20 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 20 }
 		}
 		else = {
 			set_technology = {
@@ -9774,13 +9774,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "Kenneth R. Kingsbury"
+				name = "Кеннет Р. Кингсбери"
 				picture = "gfx/leaders/OIL/Portrait_Standard_Oil_Kenneth_R_Kingsbury.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "Kenneth_R._Kingsbury"
+				name = "Кеннет Р. Кингсбери"
 				picture = "gfx/leaders/OIL/Portrait_Standard_Oil_Kenneth_R_Kingsbury.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -9850,13 +9850,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "Harry F. Sinclair"
+				name = "Гарри Ф. Синклер"
 				picture = "gfx/leaders/OIL/Portrait_Sinclair_Oil_Harry_F_Sinclair.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "Harry F. Sinclair"
+				name = "Гарри Ф. Синклер"
 				picture = "gfx/leaders/OIL/Portrait_Sinclair_Oil_Harry_F_Sinclair.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -9928,13 +9928,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "E.W. Marland"
+				name = "Э. У. Марланд"
 				picture = "gfx/leaders/TEX/Portrait_TEX_E_W_Marland.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "E.W. Marland"
+				name = "Э. У. Марланд"
 				picture = "gfx/leaders/TEX/Portrait_TEX_E_W_Marland.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -10026,13 +10026,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "H.L. Hunt"
+				name = "Гарольд Хант"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "H.L. Hunt"
+				name = "Гарольд Хант"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Haroldson_Lafayette_Hunt.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -10112,13 +10112,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "Jean Paul Getty"
+				name = "Жан Поль Гетти"
 				picture = "gfx/leaders/OIL/Portrait_Getty_Oil_Jean_Paul_Getty.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "Jean Paul Getty"
+				name = "Жан Поль Гетти"
 				picture = "gfx/leaders/OIL/Portrait_Getty_Oil_Jean_Paul_Getty.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -10186,13 +10186,13 @@ country_event = { #Selling America
 			
 			### Leader
 			create_country_leader = {
-				name = "Walter C. Teagle"
+				name = "Уолтер К. Тигл"
 				picture = "gfx/leaders/OIL/Portrait_Standard_Oil_Walter_C_Teagle.png"
 				expire = "1.1.1"
 				ideology = corporatocracy_subtype
 			}
 			create_country_leader = {
-				name = "Walter C. Teagle"
+				name = "Уолтер К. Тигл"
 				picture = "gfx/leaders/OIL/Portrait_Standard_Oil_Walter_C_Teagle.png"
 				expire = "1.1.1"
 				ideology = natpop_corporatocracy_subtype
@@ -10460,7 +10460,7 @@ country_event = {
 		add_ideas = TXS_illegitimate_kingdom
 		set_country_flag = TXS_kingdom_founded
 		create_country_leader = {
-			name = "Andrew I"
+			name = "Андрей I"
 			desc = "POLITICS_ANDREW_JACKSON_HOUSTON_DESC"
 			picture = "gfx/leaders/TXS/Portrait_texas_Andrew_Jackson_Houston.png"
 			expire = "1.1.1"
@@ -10567,11 +10567,11 @@ country_event = { #elections or king?
 			}
 		}
 		TXS = {
-		country_event = {
-			id = TXSKING.4
-			days = 7
-		}
-     	}
+			country_event = {
+				id = TXSKING.4
+				days = 7
+			}
+			 }
 	}
 }
 
@@ -10588,7 +10588,7 @@ country_event = {
 		add_ideas = TXS_illegitimate_kingdom
 		set_country_flag = TXS_kingdom_founded
 		create_country_leader = {
-			name = "Andrew I"
+			name = "Андрей I"
 			desc = "POLITICS_ANDREW_JACKSON_HOUSTON_DESC"
 			picture = "gfx/leaders/TXS/Portrait_texas_Andrew_Jackson_Houston.png"
 			expire = "1.1.1"
@@ -10733,7 +10733,7 @@ country_event = { #DOKTAH!
 		hidden_effect = {
 			kill_country_leader = yes
 			create_country_leader = {
-				name = "Texas Regency"
+				name = "Регентство Техаса"
 				picture = "gfx/leaders/TXS/Portrait_Texas_National_Committee_of_State.png"
 				expire = "1.1.1"
 				ideology = oligarchy_subtype
@@ -10866,7 +10866,7 @@ country_event = { #AWOOGA
 		set_country_flag = TXS_houston_rule_endures_flag
 		hidden_effect = {
 			create_country_leader = {
-				name = "Ariadne I"
+				name = "Ариадна I"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Ariadne_T_Houston_except_its_actually_Antoinette_Power_Houston_Bringhurst.png"
 				expire = "1.1.1"
 				ideology = longism_subtype
@@ -11063,7 +11063,7 @@ country_event = { #Czechs!
 			set_party_name = { ideology = authoritarian_democrat long_name = TXS_lobkowicz_monarchy_party_long name = TXS_lobkowicz_monarchy_party }
 			set_cosmetic_tag = TXS_CZE_LOB
 			create_country_leader = {
-				name = "Maximilian I"
+				name = "Максимилиан I"
 				desc = "POLITICS_MAX_LOBKOWICZ_DESC"
 				picture = "gfx/leaders/CZE/CZE_Max_Lobkowicz.png"
 				expire = "1.1.1"
@@ -11079,7 +11079,7 @@ country_event = { #Czechs!
 			set_party_name = { ideology = authoritarian_democrat long_name = TXS_schwarzenberg_monarchy_party_long name = TXS_schwarzenberg_monarchy_party }
 			set_cosmetic_tag = TXS_CZE_SCH
 			create_country_leader = {
-				name = "Adolph I"
+				name = "Адольф I"
 				picture = "gfx/leaders/CZE/CZE_Adolph_Schwarzenberg.png"
 				expire = "1.1.1"
 				ideology = prussian_constitutionalism_subtype
@@ -11108,7 +11108,7 @@ country_event = { #UHH BASED
 			if = {
 				limit = { has_global_flag = Wilhelm_II_Dead }
 				create_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					desc = "POLITICS_WILLY_3_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 					expire = "1.1.1"
@@ -11116,7 +11116,7 @@ country_event = { #UHH BASED
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					desc = "POLITICS_WILLY_3_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 					expire = "1.1.1"
@@ -11124,7 +11124,7 @@ country_event = { #UHH BASED
 				}
 				else = {
 					create_country_leader = {
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 						desc = "POLITICS_WILHELM_II_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 						expire = "1.1.1"
@@ -11132,7 +11132,7 @@ country_event = { #UHH BASED
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 						desc = "POLITICS_WILHELM_II_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 						expire = "1.1.1"
@@ -11160,7 +11160,7 @@ country_event = { #ENGLISH CHANNEL?, HAND OVER THE REMOTE
 			set_party_name = { ideology = authoritarian_democrat long_name = TXS_bruce_monarchy_party_long name = TXS_bruce_monarchy_party }
 			set_cosmetic_tag = TXS_KING_BRIT
 			create_country_leader = {
-				name = "Stanley I"
+				name = "Стэнли I"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Stanley_Bruce.png"
 				expire = "1.1.1"
 				ideology = authdem_toryism_subtype
@@ -11187,7 +11187,7 @@ country_event = { #ENGLISH CHANNEL?, HAND OVER THE REMOTE
 			set_party_name = { ideology = authoritarian_democrat long_name = TXS_bruce_monarchy_party_long name = TXS_bruce_monarchy_party }
 			set_cosmetic_tag = TXS_KING_BRIT
 			create_country_leader = {
-				name = "Stanley I"
+				name = "Стэнли I"
 				picture = "gfx/leaders/TXS/Portrait_Texas_Stanley_Bruce.png"
 				expire = "1.1.1"
 				ideology = authdem_toryism_subtype
@@ -11217,7 +11217,7 @@ country_event = { #German Puppeting
 			if = {
 				limit = { has_global_flag = Wilhelm_II_Dead }
 				create_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					desc = "POLITICS_WILLY_3_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 					expire = "1.1.1"
@@ -11225,7 +11225,7 @@ country_event = { #German Puppeting
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					desc = "POLITICS_WILLY_3_DESC"
 					picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 					expire = "1.1.1"
@@ -11233,7 +11233,7 @@ country_event = { #German Puppeting
 				}
 				else = {
 					create_country_leader = {
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 						desc = "POLITICS_WILHELM_II_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 						expire = "1.1.1"
@@ -11241,7 +11241,7 @@ country_event = { #German Puppeting
 						traits = {}
 					}
 					create_country_leader = {
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 						desc = "POLITICS_WILHELM_II_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 						expire = "1.1.1"

@@ -107,7 +107,7 @@ setup_rebel_guangxi = {
 				limit = { check_variable = { guangxi_ideology = token:authoritarian_democrat } }
 				GXC_setup_new_guangxi_clique = yes
 				create_country_leader = {
-					name = "Li Zongren"
+					name = "Ли Цзунжэнь"
 					desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 					picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 					expire = "1.1.1"
@@ -117,7 +117,7 @@ setup_rebel_guangxi = {
 			else = {
 				GXC_setup_old_guangxi_clique = yes
 				create_country_leader = {
-					name = "Ma Ji"
+					name = "Ма Цзы"
 					desc = "POLITICS_GXC_MA_JI_DESC"
 					picture = "gfx/leaders/GXC/Portrait_GXC_Ma_Ji.png"
 					expire = "1.1.1"
@@ -219,11 +219,11 @@ setup_rebel_guangdong = {
 			set_temp_variable = { guangxi_ideology = token:paternal_autocrat }
 		}
 		if = {
-			limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes } }
 			set_temp_variable = { guangdong_ideology = token:radical_socialist }
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Chen Lianbo" ruling_only = yes  } }
+			limit = { has_country_leader = { name = "Чэнь Ляньбо" ruling_only = yes  } }
 			set_temp_variable = { guangdong_ideology = token:market_liberal }
 		}
 		else = {
@@ -261,7 +261,7 @@ setup_rebel_guangdong = {
 			limit = { has_global_flag = GXC_new_guangxi_clique_took_over }
 			GXC_setup_new_guangxi_clique = yes
 			create_country_leader = {
-				name = "Li Zongren"
+				name = "Ли Цзунжэнь"
 				desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 				expire = "1.1.1"
@@ -276,28 +276,28 @@ setup_rebel_guangdong = {
 		var:GXC_civil_war_target = {
 			#set leaders
 			create_country_leader = {
-				name = "Chen Mingshu"
+				name = "Чэнь Миншу"
 				desc = "POLITICS_GXC_CHEN_MINGSHU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Mingshu.png"
 				expire = "1.1.1"
 				ideology = radsoc_tridemism_subtype
 			}
 			create_country_leader = {
-				name = "Chen Qiyou"
+				name = "Чэнь Цюйоу"
 				desc = "POLITICS_GXC_CHEN_QIYOU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 				expire = "1.1.1"
 				ideology = socdem_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Chen Qiyou"
+				name = "Чэнь Цюйоу"
 				desc = "POLITICS_GXC_CHEN_QIYOU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 				expire = "1.1.1"
 				ideology = soclib_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Chen Lianbo"
+				name = "Чэнь Ляньбо"
 				desc = "POLITICS_GXC_CHEN_LIANBO_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Lianbo.png"
 				expire = "1.1.1"
@@ -306,7 +306,7 @@ setup_rebel_guangdong = {
 			if = {
 				limit = { has_unit_leader = 1116 }				
 				create_country_leader = {
-					name = "Chen Jiongming"
+					name = "Чэнь Цзюнмин"
 					desc = "POLITICS_GXC_CHEN_JIONGMING_DESC"
 					picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming.png"
 					expire = "1.1.1"
@@ -580,7 +580,7 @@ GXC_old_guangxi_clique_flees = {
 			SQI = {
 				exists = yes
 				has_country_leader = {
-					name = "Zhang Zongchang"
+					name = "Чжан Цзунчан"
 					ruling_only = yes
 				}
 				NOT = { has_country_flag = refused_old_guangxi_leaders }

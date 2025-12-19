@@ -66,42 +66,42 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
+
+		## Modules##
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_naval_mines = 1
-
-	## Modules##
-	submarine_mine_laying = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	smoke_generator = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		smoke_generator = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 create_intelligence_agency = {
-					name = "Eyes of the New Sons"
+					name = "Глаза новых сыновей"
 					icon = GFX_intelligence_agency_logo_KX_pap_3
 				}
 
@@ -145,7 +145,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ludovico Chigi della Rovere-Albani"
+	name = "Людовико Киджи делла Ровере Альбани"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Ludovico_Chigi_Albani_della_Rovere.png"
 	expire = "1.1.1"
 	ideology = junta_subtype
@@ -153,58 +153,58 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Boffa"
+	name = "Пол Боффа"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Paul_Boffa.png"
 	expire = "1.1.1"
 	ideology = socdem_christian_democracy_subtype
 }
 create_country_leader = {
-	name = "Dominic Mintoff"
+	name = "Доминик Минтофф"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Dominic_Mintoff.png"
 	expire = "1.1.1"
 	ideology = moderate_socialist_subtype
 }
 create_country_leader = {
-	name = "Leadership Committee of the General Workers' Union"
+	name = "Руководящий комитет Всеобщего профсоюза трудящихся"
 	picture = "gfx/leaders/MLT/Portrait_MLT_General_Workers_Union.png"
 	expire = "1.1.1"
 	ideology = syndicalist_subtype
 }
 create_country_leader = {
-	name = "Carmelo Borg Pisani"
+	name = "Кармело Борг Пизани"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Carmelo_Borg_Pisani.png"
 	expire = "1.1.1"
 	ideology = natsynd_subtype
 }
 
 create_country_leader = {
-	name = "Gerald Strickland"
+	name = "Джеральд Стрикленд"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Gerald_Strickland.png"
 	expire = "1.1.1"
 	ideology = liberal_conservative_subtype
 }
 
 create_country_leader = {
-	name = "Mabel Strickland"
+	name = "Мейбл Стрикленд"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Mabel_Strickland.png"
 	expire = "1.1.1"
 	ideology = centrist_subtype
 }
 
 create_country_leader = {
-	name = "Enrico Mizzi"
+	name = "Энрико Мицци"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Enrico_Mizzi.png"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 }
 create_country_leader = {
-	name = "General Council of the Nationalist Party"
+	name = "Генеральный совет Националистической партии"
 	picture = "gfx/leaders/MLT/Portrait_MLT_Nationalist_Party_Council.png"
 	expire = "1.1.1"
 	ideology = oligarchy_subtype
 }
 create_country_leader = {
-	name = "George Borg Olivier"
+	name = "Джордж Борг Оливер"
 	picture = "gfx/leaders/MLT/Portrait_MLT_George_Borg_Olivier.png"
 	expire = "1.1.1"
 	ideology = national_populist_subtype
@@ -212,7 +212,7 @@ create_country_leader = {
 
 ### Generals ###
 create_field_marshal = {# 
-	name = "Ludovico Chigi della Rovere-Albani "
+	name = "Людовико Киджи делла Ровере Альбани "
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Ludovico_Chigi_Albani_della_Rovere.png"
 	traits = {
 		offensive_doctrine
@@ -228,7 +228,7 @@ create_field_marshal = {#
 }
 
 create_field_marshal = {# 
-	name = "Il-Korp tal-Pulizija ta’ Malta"
+	name = "Иль-Корп тал-Полиция та' Мальта"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Police.png"
 	traits = {
 		incorporeal
@@ -241,7 +241,7 @@ create_field_marshal = {#
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Joseph Axisa"
+	name = "Джозеф Аксиса"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Joseph_Axisa.png"
 	traits = {
 		MLT_police_officer
@@ -254,7 +254,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Salvatore Galea"
+	name = "Сальваторе Галеа"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Salvatore_Galea.png"
 	traits = {
 		MLT_police_officer
@@ -266,7 +266,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Joseph Ullo"
+	name = "Джозеф Ульо"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Joseph_Ullo.png"
 	traits = {
 		MLT_police_officer
@@ -278,7 +278,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Herbert Grech"
+	name = "Герберт Грёч"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Herbert_Grech.png"
 	traits = {
 		MLT_police_officer
@@ -290,7 +290,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "George Cachia"
+	name = "Джордж Кашиа"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_George_Cachia.png"
 	traits = {
 		MLT_police_officer
@@ -302,7 +302,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Frank Stivala"
+	name = "Франк Стивала"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Frank_Stivala.png"
 	traits = {
 		MLT_police_officer
@@ -314,7 +314,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Eric Stuart Cole"
+	name = "Эрик Стюарт Коул"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Eric_Cole.png"
 	traits = {
 		engineer_officer
@@ -328,7 +328,7 @@ create_corps_commander = {
 	id = 57
 }
 create_corps_commander = {
-	name = "Alfred Sammut Tagliaferro"
+	name = "Альфред Саммут Тальяферро"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Alfred_Sammut_Tagliaferro.png"
 	traits = {
 		career_officer
@@ -341,7 +341,7 @@ create_corps_commander = {
 	id = 59
 }
 create_corps_commander = {
-	name = "Antonio Cassar-Torreggiani"
+	name = "Антонио Кассар-Торреджиани"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Antonio_Cassar_Torreggiani.png"
 	traits = {
 		artillery_officer
@@ -355,7 +355,7 @@ create_corps_commander = {
 	id = 598
 }
 create_corps_commander = {
-	name = "Angelo de Mojana di Cologna"
+	name = "Анджело де Мохана ди Колонья"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Angelo_de_Mojana_di_Cologna.png"
 	traits = {
 		MLT_order_commander
@@ -368,7 +368,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Bogdan von Hutten-Czapski"
+	name = "Богдан Франциск Серваций Гуттен-Чапский"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Bogdan_von_Hutten_Czapski.png"
 	traits = {
 		MLT_order_commander
@@ -381,7 +381,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_navy_leader = {# 
-	name = "Skwadra Marittima Il-Korp tal-Pulizija ta’ Malta"
+	name = "Сквадра Мариттима Иль-Корп тал-Полиция та' Мальта"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Police_Naval.png"
 	traits = {incorporeal blockade_runner superior_tactician}
 	skill = 3
@@ -391,7 +391,7 @@ create_navy_leader = {#
 	coordination_skill = 3
 }
 create_navy_leader = {# 
-	name = "Alfred Borda"
+	name = "Альфред Борда"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Alfred_Borda.png"
 	traits = {}
 	skill = 1
@@ -401,7 +401,7 @@ create_navy_leader = {#
 	coordination_skill = 1
 }
 create_navy_leader = {# 
-	name = "Carmelo Zahra"
+	name = "Кармело Захра"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Carmelo_Zahra.png"
 	traits = {}
 	skill = 1
@@ -411,7 +411,7 @@ create_navy_leader = {#
 	coordination_skill = 1
 }
 create_navy_leader = {# 
-	name = "Francesco Spiteri"
+	name = "Франческо Спитери"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Francesco_Spiteri.png"
 	traits = {}
 	skill = 1
@@ -421,7 +421,7 @@ create_navy_leader = {#
 	coordination_skill = 1
 }
 create_navy_leader = {# 
-	name = "Giuseppe Zahra"
+	name = "Джузеппе Захра"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Giuseppe_Zahra.png"
 	traits = {}
 	skill = 1
@@ -431,7 +431,7 @@ create_navy_leader = {#
 	coordination_skill = 1
 }
 create_navy_leader = {# 
-	name = "Joseph Bonello"
+	name = "Джозеф Бонелло"
 	portrait_path = "gfx/leaders/MLT/Portrait_MLT_Joseph_Bonello.png"
 	traits = {}
 	skill = 1

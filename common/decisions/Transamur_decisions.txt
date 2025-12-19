@@ -3295,7 +3295,7 @@ TRM_japanese_influence = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_raise_militia"
 			division_template = {
-				name = "Diviziya Opolcheniya"
+				name = "Дивизия ополчения"
 				division_names_group = TRM_INF_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -3306,7 +3306,7 @@ TRM_japanese_influence = {
 			}
 			408 = {
 				create_unit = {
-					division = "division_template = \"Diviziya Opolcheniya\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
 					owner = ROOT
 					count = 4
 				}
@@ -3807,8 +3807,8 @@ TRM_russian_expansion = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_relocate_capital"
 			set_capital = { state = FROM remember_old_capital = yes }
-			if = {
-				limit = {
+				if = {
+					limit = {
 					FROM = {
 						OR = {
 							state = 219
@@ -3818,8 +3818,8 @@ TRM_russian_expansion = {
 				}
 				add_political_power = 100
 				add_stability = 0.10
-			}
-			else = {
+				}
+				else = {
 				add_stability = 0.05				
 				set_temp_variable = { change_morale = 0.10 }
 				RUS_change_siberian_war_morale = yes	

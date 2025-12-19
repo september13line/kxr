@@ -1507,7 +1507,7 @@ country_event = { #Initial event
 		hidden_effect = {
 			1042 = { set_demilitarized_zone = no }
 			determine_destination_of_exile_erk = yes
-			TRK_erk_leaves = yes
+			TRK_erk_leaves = yes			
 			clr_country_flag = TRK_erk_power_struggle			
 		}
 	}
@@ -2844,7 +2844,7 @@ country_event = { #Initial event
 		else = {
 			RUS = { country_event = turkestan.234 }
 		}
-		custom_effect_tooltip = "If they agree:"
+		custom_effect_tooltip = "В случае согласия:"
 		effect_tooltip = {
 			FROM = {
 				puppet = ROOT
@@ -2955,7 +2955,7 @@ country_event = { #Initial event
 			}
 			effect_tooltip = { retire_country_leader = yes }				
 			create_country_leader = {
-				name = "Munawwar Qari Abdurrashidkhan"
+				name = "Мунаввар Кары Абдурашидханов"
 				desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 				expire = "1.1.1"
@@ -3021,7 +3021,7 @@ country_event = { #Initial event
 			}
 		}
 		division_template = {
-			name = "TVO Detachment"
+			name = "Отряд ТВО"
 			division_names_group = COS_MIL_01
 			
 			regiments = {
@@ -3035,7 +3035,7 @@ country_event = { #Initial event
 		}			
 		1279 = {
 			create_unit = {
-				division = "name = \"Tashkentskiy Ofitserskiy Partizanskiy Otryad\" division_template = \"TVO Detachment\" start_experience_factor = 0.9"
+				division = "name = \"Ташкентский офицерский партизанский отряд\" division_template = \"Отряд ТВО\" start_experience_factor = 0.9"
 				owner = PREV
 				count = 1
 			}
@@ -3121,7 +3121,7 @@ country_event = { #Initial event
 		}
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Konstantin Osipov"
+			name = "Константин Осипов"
 			desc = "POLITICS_KONSTANTIN_OSIPOV_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Osipov.png"
 			expire = "1.1.1"
@@ -3171,7 +3171,7 @@ country_event = { #Initial event
 		name = turkestan.256.a
 		effect_tooltip = { kill_country_leader = yes }
 		create_country_leader = {
-			name = "Ivan Zaitsev"
+			name = "Иван Зайцев"
 			desc = "POLITICS_IVAN_ZAITSEV_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Ivan_Zaitsev.png"
 			expire = "1.1.1"
@@ -3264,7 +3264,7 @@ country_event = { #Initial event
 			if = {
 				limit = { TRK_osipov_in_power = no }
 				create_country_leader = {
-					name = "Konstantin Osipov"
+					name = "Константин Осипов"
 					desc = "POLITICS_KONSTANTIN_OSIPOV_DESC"
 					picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Osipov.png"
 					expire = "1.1.1"
@@ -3360,7 +3360,7 @@ country_event = { #Initial event
 				national_populist = party_popularity_100@national_populist
 			}
 			create_country_leader = {
-				name = "Konstantin Osipov"
+				name = "Константин Осипов"
 				desc = "POLITICS_KONSTANTIN_OSIPOV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Osipov.png"
 				expire = "1.1.1"
@@ -3369,7 +3369,7 @@ country_event = { #Initial event
 			if = {
 				limit = { TRK_osipov_in_power = no }
 				create_country_leader = {
-					name = "Konstantin Osipov"
+					name = "Константин Осипов"
 					desc = "POLITICS_KONSTANTIN_OSIPOV_DESC"
 					picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Osipov.png"
 					expire = "1.1.1"
@@ -3439,13 +3439,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -3786,7 +3786,7 @@ country_event = { #Initial event
 		TRK_shokai_pop_medium_decrease_effect = yes
 		custom_effect_tooltip = TRK_Milliy_Ittihod_support_decrease_moderate
 		add_to_variable = { TRK_milliy_ittihod_support = -3 }			
-		add_to_variable = { TRK_muslim_support = -3 }
+		add_to_variable = { TRK_muslim_support = -3 }			
 		country_event = {
 			id = turkestan_jadidist.6
 			days = 5
@@ -3810,7 +3810,7 @@ country_event = { #Initial event
 		TRK_shokai_pop_small_decrease_effect = yes
 		custom_effect_tooltip = TRK_Milliy_Ittihod_support_decrease_moderate
 		add_to_variable = { TRK_milliy_ittihod_support = -3 }			
-		add_to_variable = { TRK_muslim_support = -3 }
+		add_to_variable = { TRK_muslim_support = -3 }		
 		country_event = {
 			id = turkestan_jadidist.6
 			days = 5
@@ -4062,7 +4062,7 @@ country_event = { #Initial event
 		}
 		effect_tooltip = { retire_country_leader = yes }				
 		create_country_leader = {
-			name = "Munawwar Qari Abdurrashidkhan"
+			name = "Мунаввар Кары Абдурашидханов"
 			desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 			expire = "1.1.1"
@@ -4143,7 +4143,7 @@ country_event = { #Initial event
 				long_name = TRK_yosh_turkiston_party_long
 			}
 			create_country_leader = {
-				name = "Mustafa Shokay"
+				name = "Мустафа Шокай"
 				desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Mustafa_Shokay.png"
 				expire = "1.1.1"
@@ -4336,7 +4336,7 @@ country_event = { #Initial event
 			clr_country_flag = TRK_yosh_turkiston_marlib
 			clr_country_flag = TRK_yosh_turkiston_soclib
 			create_country_leader = {
-				name = "Munawwar Qari Abdurrashidkhan"
+				name = "Мунаввар Кары Абдурашидханов"
 				desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 				expire = "1.1.1"
@@ -4437,7 +4437,7 @@ unit_leader_event = { #Initial event
 				long_name = TRK_peasant_army_party_long
 			}
 			create_country_leader = {
-				name = "Konstantin Monstrov"
+				name = "Константин Монстров"
 				desc = "POLITICS_KONSTANTIN_MONSTROV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Monstrov.png"
 				expire = "1.1.1"
@@ -4486,7 +4486,7 @@ unit_leader_event = { #Initial event
 				long_name = TRK_tvo_party_long
 			}							
 			create_country_leader = {
-				name = "Ivan Zaitsev"
+				name = "Иван Зайцев"
 				desc = "POLITICS_IVAN_ZAITSEV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Ivan_Zaitsev.png"
 				expire = "1.1.1"
@@ -4499,13 +4499,13 @@ unit_leader_event = { #Initial event
 				}
 			}
 			delete_unit_template_and_units = {
-				division_template = "Krestyanskaya Diviziya"
+				division_template = "Крестьянская дивизия"
 				disband = yes #will refund equipment and manpower
 			}	
 			if = {
-				limit = { has_template = "TVO Detachment "}
+				limit = { has_template = "Отряд ТВО "}
 				delete_unit_template_and_units = {
-					division_template = "TVO Detachment"
+					division_template = "Отряд ТВО"
 					disband = yes #will refund equipment and manpower
 				}
 			}		
@@ -4553,7 +4553,7 @@ country_event = { #Initial event
 			long_name = TRK_peasant_army_party_long
 		}
 		create_country_leader = {
-			name = "Konstantin Monstrov"
+			name = "Константин Монстров"
 			desc = "POLITICS_KONSTANTIN_MONSTROV_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Monstrov.png"
 			expire = "1.1.1"
@@ -4657,13 +4657,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -4792,13 +4792,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -4962,16 +4962,16 @@ country_event = { #Initial event
 		random_unit_leader = {
 			limit = { has_id = 68617 }
 			promote_to_marshal = yes
-			set_leader_name = "Sayid Muhammad Khudoyar-Khan II"
+			set_leader_name = "Саид Мухаммад Худояр-хан II"
 		}
 		create_country_leader = {
-			name = "Sayid Muhammad Khudoyar-Khan II"
+			name = "Саид Мухаммад Худояр-хан II"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Khudoyarkhan_Islombek.png"
 			expire = "1.1.1"
 			ideology = qadhimism_subtype
 		}
 		create_country_leader = {
-			name = "Sayid Muhammad Khudoyar-Khan II"
+			name = "Саид Мухаммад Худояр-хан II"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Khudoyarkhan_Islombek.png"
 			expire = "1.1.1"
 			ideology = authdem_qadhimism_subtype
@@ -4983,16 +4983,16 @@ country_event = { #Initial event
 		random_unit_leader = {
 			limit = { has_id = 68616 }
 			promote_to_marshal = yes
-			set_leader_name = "Sayid Azamat Khudoyar-Khan"
+			set_leader_name = "Саид Азамат Худояр-Хан"
 		}
 		create_country_leader = {
-			name = "Sayid Azamat Khudoyar-Khan"
+			name = "Саид Азамат Худояр-Хан"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Khudoyarkhan_Azamatbek.png"
 			expire = "1.1.1"
 			ideology = qadhimism_subtype
 		}
 		create_country_leader = {
-			name = "Sayid Azamat Khudoyar-Khan"
+			name = "Саид Азамат Худояр-Хан"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Khudoyarkhan_Azamatbek.png"
 			expire = "1.1.1"
 			ideology = authdem_qadhimism_subtype
@@ -5003,13 +5003,13 @@ country_event = { #Initial event
 		name = turkestan_qadimist.1.b
 		trigger = { has_completed_focus = TRK_Ties_To_Porta }
 		create_country_leader = {
-			name = "Mehmed Abdülkerim"
+			name = "Мехмед Абдулкерим-эфенди"
 			picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 			expire = "1.1.1"
 			ideology = qadhimism_subtype
 		}
 		create_country_leader = {
-			name = "Mehmed Abdülkerim"
+			name = "Мехмед Абдулкерим-эфенди"
 			picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 			expire = "1.1.1"
 			ideology = authdem_qadhimism_subtype
@@ -5020,13 +5020,13 @@ country_event = { #Initial event
 		name = turkestan_qadimist.1.c
 		trigger = { has_completed_focus = TRK_Ties_To_Porta }
 		create_country_leader = {
-			name = "Mehmed Orhan"
+			name = "Мехмед Орхан"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 			expire = "1.1.1"
 			ideology = qadhimism_subtype
 		}
 		create_country_leader = {
-			name = "Mehmed Orhan"
+			name = "Мехмед Орхан"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 			expire = "1.1.1"
 			ideology = authdem_qadhimism_subtype
@@ -5037,13 +5037,13 @@ country_event = { #Initial event
 		name = turkestan_qadimist.1.e
 		trigger = { has_completed_focus = TRK_Ties_To_Porta }
 		create_country_leader = {
-			name = "Mahmud Namik"
+			name = "Махмуд Намык-эфенди"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 			expire = "1.1.1"
 			ideology = qadhimism_subtype
 		}
 		create_country_leader = {
-			name = "Mahmud Namik"
+			name = "Махмуд Намык-эфенди"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 			expire = "1.1.1"
 			ideology = authdem_qadhimism_subtype
@@ -5053,16 +5053,16 @@ country_event = { #Initial event
 	option = {
 		name = turkestan_qadimist.1.f
 		trigger = { TRK_katta_ergash_in_power = yes }
-		set_country_leader_name = { name = "Ergash" }
+		set_country_leader_name = { name = "Эргаш" }
 		create_country_leader = {
-			name = "Ergash"
+			name = "Эргаш"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Katta_Ergash.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
 		}
 		random_unit_leader = {
 			limit = { has_id = 68600 }
-			set_leader_name = "Ergash"
+			set_leader_name = "Эргаш"
 		}
 		set_politics = {
 			ruling_party = paternal_autocrat
@@ -5130,13 +5130,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -5232,7 +5232,7 @@ country_event = { #Initial event
 		set_country_flag = TRK_erk_alliance_with_jadidists
 		effect_tooltip = { retire_ideology_leader = social_liberal }				
 		create_country_leader = {
-			name = "Munawwar Qari Abdurrashidkhan"
+			name = "Мунаввар Кары Абдурашидханов"
 			desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 			expire = "1.1.1"
@@ -5265,7 +5265,7 @@ country_event = { #Initial event
 			long_name = TRK_yosh_turkiston_party_long
 		}
 		create_country_leader = {
-			name = "Mustafa Shokay"
+			name = "Мустафа Шокай"
 			desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Mustafa_Shokay.png"
 			expire = "1.1.1"
@@ -5411,7 +5411,7 @@ country_event = { #Initial event
 		hidden_effect = {						
 			clr_country_flag = TRK_yosh_turkiston_marlib
 			create_country_leader = {
-				name = "Munawwar Qari Abdurrashidkhan"
+				name = "Мунаввар Кары Абдурашидханов"
 				desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 				expire = "1.1.1"
@@ -5525,13 +5525,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -5570,13 +5570,13 @@ country_event = { #Initial event
 			retire = yes
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -5604,13 +5604,13 @@ country_event = { #Initial event
 			retire = yes
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -5699,7 +5699,7 @@ country_event = { #Initial event
 			}
 			effect_tooltip = { retire_country_leader = yes }
 			create_country_leader = {
-				name = "Konstantin Monstrov"
+				name = "Константин Монстров"
 				desc = "POLITICS_KONSTANTIN_MONSTROV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Monstrov.png"
 				expire = "1.1.1"
@@ -5738,10 +5738,10 @@ country_event = { #Initial event
 		basmachi_leave_region = yes		
 		if = {
 			limit = {
-				NOT = { has_template = "Krestyanskaya Diviziya"}
+				NOT = { has_template = "Крестьянская дивизия"}
 			}
 			division_template = {
-				name = "Krestyanskaya Diviziya"
+				name = "Крестьянская дивизия"
 				division_names_group = RUS_MIL_05
 				is_locked = yes
 
@@ -5754,13 +5754,13 @@ country_event = { #Initial event
 		}		
 		else = {
 			set_division_template_lock = {
-				division_template = "Krestyanskaya Diviziya"
+				division_template = "Крестьянская дивизия"
 				is_locked = no
 			}
 		}
 		1279 = {
 			create_unit = {
-				division = "division_template = \"Krestyanskaya Diviziya\" start_experience_factor = 0.1"
+				division = "division_template = \"Крестьянская дивизия\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = PREV
 				count = 3
@@ -5798,7 +5798,7 @@ country_event = { #Initial event
 		TRK_pop_ruling_mega_decrease_effect = yes
 		effect_tooltip = { retire_country_leader = yes }		
 		create_country_leader = {
-			name = "Ergash Bey"
+			name = "Эргаш-курбаши"
 			desc = "POLITICS_KATTA_ERGASH_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Katta_Ergash.png"
 			expire = "1.1.1"
@@ -5995,13 +5995,13 @@ country_event = { #Initial event
 			retire = yes
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -6072,7 +6072,7 @@ country_event = { #Initial event
 			set_faction_name = faction_fergana
 		}
 		else = {
-		create_faction_from_template = { 
+			create_faction_from_template = { 
 			template = faction_template_generic_dominance 
 			name = faction_fergana
 			icon = GFX_faction_cairo_pact_alternate
@@ -6080,7 +6080,7 @@ country_event = { #Initial event
 		}
 		if = {
 			limit = { is_ai = no }
-			every_state = {
+		every_state = {
 			limit = { 
 				OR = {
 					is_core_of = TUR 
@@ -6212,7 +6212,7 @@ country_event = { #Initial event
 		add_popularity = { ideology = syndicalist popularity = 0.03 }
 		effect_tooltip = { retire_ideology_leader = social_liberal }				
 		create_country_leader = {
-			name = "Munawwar Qari Abdurrashidkhan"
+			name = "Мунаввар Кары Абдурашидханов"
 			desc = "POLITICS_MUNAWWAR_ANDURRASHIDKHAN_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Munawwar_Qari_Abdurrashidkhan.png"
 			expire = "1.1.1"
@@ -6609,7 +6609,7 @@ country_event = { #Initial event
 			long_name = TRK_yosh_turkiston_party_long
 		}
 		create_country_leader = {
-			name = "Mustafa Shokay"
+			name = "Мустафа Шокай"
 			desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Mustafa_Shokay.png"
 			expire = "1.1.1"
@@ -6808,13 +6808,13 @@ country_event = { #Initial event
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Krestyanskaya Diviziya"
+			division_template = "Крестьянская дивизия"
 			disband = yes #will refund equipment and manpower
 		}
 		if = {
-			limit = { has_template = "TVO Detachment "}
+			limit = { has_template = "Отряд ТВО "}
 			delete_unit_template_and_units = {
-				division_template = "TVO Detachment"
+				division_template = "Отряд ТВО"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -7033,7 +7033,7 @@ country_event = { #Initial event
 			add_popularity = { ideology = radical_socialist popularity = 0.1 }
 			add_popularity = { ideology = syndicalist popularity = 0.05 }
 			create_country_leader = {
-				name = "Turar Ryskulov"
+				name = "Турар Рыскулов"
 				desc = "POLITICS_TURAR_RYSKULOV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Turar_Ryskulov.png"
 				expire = "1.1.1"
@@ -7222,7 +7222,7 @@ country_event = { #Initial event
 	trigger = { 
 		OR = {
 			TRK_erk_in_power = yes 
-			UZB_has_socialist_government_postwar = yes 
+			UZB_has_socialist_government_postwar = yes
 		}
 	}
 	is_triggered_only = yes
@@ -7278,7 +7278,7 @@ country_event = { #Initial event
 		name = turkestan_socialists.32.a
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		create_country_leader = {
-			name = "Usmon Hoja"
+			name = "Усман Ходжа"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Hodzha.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype 
@@ -7338,7 +7338,7 @@ country_event = { #Initial event
 				long_name = TRK_ERK_syndicalist_party_long
 			}			
 			create_country_leader = {
-				name = "Turar Ryskulov"
+				name = "Турар Рыскулов"
 				desc = "POLITICS_TURAR_RYSKULOV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Turar_Ryskulov.png"
 				expire = "1.1.1"
@@ -7481,7 +7481,7 @@ country_event = { #Initial event
 		if = {
 			limit = { original_tag = KYR }						
 			create_country_leader = {
-				name = "Ishaq Bey"
+				name = "Исхак-бей"
 				picture = "gfx/leaders/ETS/Portrait_ETS_Ishaq_Bey.png"
 				expire = "1.1.1"
 				ideology = national_communism_subtype
@@ -7716,7 +7716,7 @@ country_event = { #Initial event
 			modifier = {
 				factor = 0				
 				has_country_leader = {
-					name = "Nazir Toraqulov"
+					name = "Назир Торакулов"
 					ruling_only = yes
 				}
 			}
@@ -7997,7 +7997,7 @@ country_event = { #Tensions grow
 			set_technology = { irregular_infantry_tech = 1 popup = no }
 		}
 		division_template = {
-			name = "Krestyanskiye Otryady"
+			name = "Крестьянские отряды"
 			division_names_group = RUS_MIL_01
 
 			regiments = {
@@ -8014,17 +8014,17 @@ country_event = { #Tensions grow
 		}
 		1279 = {
 			create_unit = {
-				division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+				division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = PREV
 			}
 			create_unit = {
-				division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+				division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = PREV
 			}
 			create_unit = {
-				division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+				division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = PREV
 			}
@@ -8045,7 +8045,7 @@ country_event = { #Tensions grow
 				long_name = TRK_peasant_army_party_long
 			}
 			division_template = {
-				name = "Krestyanskiye Otryady"
+				name = "Крестьянские отряды"
 				division_names_group = RUS_MIL_01
 
 				regiments = {
@@ -8062,17 +8062,17 @@ country_event = { #Tensions grow
 			}
 			1279 = {
 				create_unit = {
-					division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+					division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					owner = PREV
 				}
 				create_unit = {
-					division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+					division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					owner = PREV
 				}
 				create_unit = {
-					division = "division_template = \"Krestyanskiye Otryady\" start_experience_factor = 0.1"
+					division = "division_template = \"Крестьянские отряды\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					owner = PREV
 				}
@@ -8481,7 +8481,7 @@ country_event = { #East Pamir
 			}
 		}				
 		create_country_leader = {
-			name = "Ivan Zaitsev"
+			name = "Иван Зайцев"
 			desc = "POLITICS_IVAN_ZAITSEV_DESC"
 			picture = "gfx/leaders/TRK/Portrait_TRK_Ivan_Zaitsev.png"
 			expire = "1.1.1"
@@ -8501,7 +8501,7 @@ country_event = { #East Pamir
 		clr_country_flag = TRK_pre_elections_flag
 		hidden_effect = {
 			division_template = {
-				name = "TVO Detachment"
+				name = "Отряд ТВО"
 				division_names_group = COS_MIL_01
 				
 				regiments = {
@@ -8515,7 +8515,7 @@ country_event = { #East Pamir
 			}			
 			1279 = {
 				create_unit = {
-					division = "name = \"Tashkentskiy Ofitserskiy Partizanskiy Otryad\" division_template = \"TVO Detachment\" start_experience_factor = 0.9"
+					division = "name = \"Ташкентский офицерский партизанский отряд\" division_template = \"Отряд ТВО\" start_experience_factor = 0.9"
 					owner = PREV
 					count = 1
 				}
@@ -8791,13 +8791,13 @@ country_event = { #
 			limit = { TRK_monstrov_in_power = yes }
 			set_country_flag = TRK_konstantin_monstrov_arrested
 			delete_unit_template_and_units = {
-				division_template = "Krestyanskaya Diviziya"
+				division_template = "Крестьянская дивизия"
 				disband = yes #will refund equipment and manpower
 			}
 			if = {
-				limit = { has_template = "TVO Detachment "}
+				limit = { has_template = "Отряд ТВО "}
 				delete_unit_template_and_units = {
-					division_template = "TVO Detachment"
+					division_template = "Отряд ТВО"
 					disband = yes #will refund equipment and manpower
 				}
 			}
@@ -8970,7 +8970,7 @@ country_event = { #
 				long_name = TRK_peasant_army_party_long
 			}
 			create_country_leader = {
-				name = "Konstantin Monstrov"
+				name = "Константин Монстров"
 				desc = "POLITICS_KONSTANTIN_MONSTROV_DESC"
 				picture = "gfx/leaders/TRK/Portrait_TRK_Konstantin_Monstrov.png"
 				expire = "1.1.1"
@@ -9002,10 +9002,10 @@ country_event = { #
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Krestyanskaya Diviziya"}
+				NOT = { has_template = "Крестьянская дивизия"}
 			}
 			division_template = {
-				name = "Krestyanskaya Diviziya"
+				name = "Крестьянская дивизия"
 				division_names_group = RUS_MIL_05
 				
 				regiments = {
@@ -9017,13 +9017,13 @@ country_event = { #
 		}
 		else = {
 			set_division_template_lock = {
-				division_template = "Krestyanskaya Diviziya"
+				division_template = "Крестьянская дивизия"
 				is_locked = no
 			}
 		}
 		1279 = {
 			create_unit = {
-				division = "division_template = \"Krestyanskaya Diviziya\" start_experience_factor = 0.1"
+				division = "division_template = \"Крестьянская дивизия\" start_experience_factor = 0.1"
 				allow_spawning_on_enemy_provs = yes
 				owner = PREV
 				count = 3
@@ -9361,7 +9361,7 @@ unit_leader_event = { #East Pamir
 			category = land_doctrine
 		}	
 		division_template = {
-			name = "TVO Detachment"
+			name = "Отряд ТВО"
 			division_names_group = COS_MIL_01
 			
 			regiments = {
@@ -9375,7 +9375,7 @@ unit_leader_event = { #East Pamir
 		}			
 		1279 = {
 			create_unit = {
-				division = "name = \"Tashkentskiy Ofitserskiy Partizanskiy Otryad\" division_template = \"TVO Detachment\" start_experience_factor = 0.9"
+				division = "name = \"Ташкентский офицерский партизанский отряд\" division_template = \"Отряд ТВО\" start_experience_factor = 0.9"
 				owner = PREV
 				count = 1
 			}
@@ -9445,7 +9445,7 @@ unit_leader_event = { #East Pamir
 		name = turkestan.78.a
 		add_popularity = { ideology = paternal_autocrat popularity = 0.07 }
 		division_template = {
-			name = "TVO Detachment"
+			name = "Отряд ТВО"
 			division_names_group = COS_MIL_01
 			
 			regiments = {
@@ -9459,7 +9459,7 @@ unit_leader_event = { #East Pamir
 		}			
 		1279 = {
 			create_unit = {
-				division = "name = \"Tashkentskiy Ofitserskiy Partizanskiy Otryad\" division_template = \"TVO Detachment\" start_experience_factor = 0.9"
+				division = "name = \"Ташкентский офицерский партизанский отряд\" division_template = \"Отряд ТВО\" start_experience_factor = 0.9"
 				owner = PREV
 				count = 1
 			}
@@ -9702,7 +9702,7 @@ country_event = { #Khodja
 			long_name = TRK_syndicalist_party_long
 		}
 		create_country_leader = {
-			name = "Usmon Khodja"
+			name = "Усман Ходжа"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Hodzha.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype 
@@ -9917,7 +9917,7 @@ country_event = { #Alliance
 	option = {
 		name = turkestan.24.a
 		FROM = {
-		create_faction_from_template = { 
+			create_faction_from_template = { 
 			template = faction_template_regional
 			name = faction_tashkent_kabul
 			icon = GFX_faction_kabul_pact
@@ -10829,7 +10829,7 @@ country_event = {
 		name = turkestan_misc.200.a
 		army_experience = 5
 		hidden_effect = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = { has_unit_leader_flag = exiled_mujahideen }
 			clr_unit_leader_flag = exiled_mujahideen
 		    }
@@ -10842,17 +10842,17 @@ country_event = {
 		}
 		army_experience = 5
 		hidden_effect = {
-			determine_where_basmachi_should_go = yes
-			every_unit_leader = {
-				limit = { has_unit_leader_flag = exiled_mujahideen }
-				set_nationality = var:target
-			}
-			var:target = { 
-				if = {
-					limit = { 
-						NOT = { tag = XXA }
-					}
-					country_event = turkestan_misc.200 
+		determine_where_basmachi_should_go = yes
+		every_unit_leader = {
+			limit = { has_unit_leader_flag = exiled_mujahideen }
+			set_nationality = var:target
+		}
+		var:target = { 
+			if = {
+				limit = { 
+					NOT = { tag = XXA }
+				}
+				country_event = turkestan_misc.200 
 				}
 			}
 		}
@@ -11675,11 +11675,11 @@ country_event = { #FROM demands ROOT submit
 			modifier = {
 				factor = 0
 				OR = {
-					has_country_leader = { name = "Aleksandr Dutov" ruling_only = yes }
-					has_country_leader = { name = "Timofey Sedelnikov" ruling_only = yes }
-					has_country_leader = { name = "Aleksandr Ionov" ruling_only = yes }
-					has_country_leader = { name = "Mikhail Borodin" ruling_only = yes }
-					has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+					has_country_leader = { name = "Александр Дутов" ruling_only = yes }
+					has_country_leader = { name = "Тимофей Седельников" ruling_only = yes }
+					has_country_leader = { name = "Александр Ионов" ruling_only = yes }
+					has_country_leader = { name = "Михаил Бородин" ruling_only = yes }
+					has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 					TRK_monstrov_in_power = yes
 					TRK_tvo_in_power = yes
 				}
@@ -12164,7 +12164,7 @@ country_event = { #The Bandits Band Together!
 		}
 		if = { 
 			limit = { NOT = { has_global_flag = CA_turkestan_victorious } } 
-			activate_mission = RUS_defeat_central_asia
+		activate_mission = RUS_defeat_central_asia
 		}
 		set_global_flag = CA_russia_war_started
 	}

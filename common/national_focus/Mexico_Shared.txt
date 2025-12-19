@@ -639,10 +639,10 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_End_The_Rebellion"
 			add_political_power = 300
-			
+
 			if = {
 				limit = { 
-					has_country_leader = { name = "Frida Kahlo" ruling_only = yes } 
+					has_country_leader = { name = "Фрида Кало" ruling_only = yes } 
 				}
 				country_event = {
 					days = 7 id = mexico.3004
@@ -701,7 +701,7 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = "No Other Expansion Focuses are Available"
+				tooltip = "Другие направления фокусов отсутствуют"
 				NOT = {
 					has_government = totalist
 				}
@@ -799,7 +799,7 @@
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = "No Other Expansion Focuses are Available"
+				tooltip = "Другие направления фокусов отсутствуют"
 				MEX_has_vasconcelos = no
 			}
 		}
@@ -1686,10 +1686,10 @@
 				}
 			}
 			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = naval_doctrine
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = naval_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1910,10 +1910,10 @@
 				}
 			}
 			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = naval_doctrine
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = naval_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2465,7 +2465,7 @@
 			add_ideas = MEX_air_idea
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIRFORCE_BONUS }
-	}	
+	}
 	
 	#New econ tree
 	shared_focus = {
@@ -2496,7 +2496,7 @@
 					has_completed_focus = MEX_mexicaytol
 					has_completed_focus = MEX_santa_muerte
 				}
-				tooltip = "Can Focus on Our Economy"
+				tooltip = "Можем сосредоточиться на нашей экономике"
 			}
 		}
 		completion_reward = {
@@ -2590,11 +2590,11 @@
 			has_authoritarian_government = yes
 			NOT = {
 				has_country_leader = {
-					name = "Itzcoatl II"
+					name = "Ицкоатль II"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "María III"
+					name = "Мария III"
 					ruling_only = yes
 				}
 			}

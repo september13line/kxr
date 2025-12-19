@@ -878,7 +878,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				factor = 50
+			factor = 50
 				has_game_rule = {
 					rule = MON_brotherhood_fp
 					option = MON_BROTHERHOOD_ON
@@ -1772,7 +1772,7 @@ focus_tree = {
 								state = 1219
 								state = 584
 							}
-							NOT = { is_core_of = MON }
+								NOT = { is_core_of = MON }
 						}
 					}
 					UZB = {
@@ -1899,7 +1899,7 @@ focus_tree = {
 			QIE = {
 				exists = yes
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				NOT = {
@@ -2038,11 +2038,11 @@ focus_tree = {
 				}
 				OR = {
 					has_country_leader = {
-						name = "Hirohito"
+						name = "Хирохито"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Yasuhito"
+						name = "Ясухито"
 						ruling_only = yes
 					}
 				}
@@ -2232,9 +2232,9 @@ focus_tree = {
 						set_country_flag = won_zhili_manchu_war
 						remove_ideas = QIE_zhili_manchu_war_idea
 						set_country_flag = QIE_manchu_restoration
-						delete_unit_template_and_units = { division_template = "Zhili Infantry Division" }
-						delete_unit_template_and_units = { division_template = "Manchu Cavalry Division" }
-						delete_unit_template_and_units = { division_template = "Manchu Imperial Guard" }
+						delete_unit_template_and_units = { division_template = "Чжилийская Пехотная дивизия" }
+						delete_unit_template_and_units = { division_template = "Маньчжурская Кавалерийская дивизия" }
+						delete_unit_template_and_units = { division_template = "Маньчжурская императорская гвардия" }
 						set_politics = {
 							ruling_party = paternal_autocrat
 						}
@@ -2680,14 +2680,14 @@ focus_tree = {
 				}
 			}
 		bypass = {
-			AND = {
-				219 = {
-					is_controlled_by_ROOT_or_subject = yes
-					is_owned_by_ROOT_or_ally = yes
-				}
-				570 = {
-					is_controlled_by_ROOT_or_subject = yes
-					is_owned_by_ROOT_or_ally = yes
+				AND = {
+					219 = {
+						is_controlled_by_ROOT_or_subject = yes
+						is_owned_by_ROOT_or_ally = yes
+					}
+					570 = {
+						is_controlled_by_ROOT_or_subject = yes
+						is_owned_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -4888,7 +4888,7 @@ focus_tree = {
 		relative_position_id = MON_conscript_siberian_russians
 		x = 0
 		y = 2
-		available = {			
+		available = {
 			custom_trigger_tooltip = {
 				tooltip = MON_sternberg_tooltip
 				MON_sternberg_in_power = yes
@@ -5582,7 +5582,7 @@ focus_tree = {
 						set_country_flag = won_zhili_manchu_war
 						remove_ideas = QIE_zhili_manchu_war_idea
 						set_country_flag = QIE_manchu_restoration
-						delete_unit_template_and_units = { division_template = "Zhili Infantry Division" }
+						delete_unit_template_and_units = { division_template = "Чжилийская Пехотная дивизия" }
 						set_politics = {
 							ruling_party = social_conservative
 						}
@@ -5903,10 +5903,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = TRM_RDS_1
+			add_tech_bonus = {
+				name = TRM_RDS_1
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 				add_breakthrough_progress = {
@@ -6231,7 +6231,7 @@ focus_tree = {
 		completion_reward = {
 			every_state = {
 				limit = {
-					state = 773 #Constantinople
+						state = 773 #Constantinople
 					is_claim_or_core_of_ROOT = no
 				}
 				add_claim_by = ROOT
@@ -6337,8 +6337,8 @@ focus_tree = {
 		will_lead_to_war_with = AFG
 		completion_reward = {
 			create_wargoal = {
-				type = annex_everything
-				target = AFG
+					type = annex_everything
+					target = AFG
 			}
 		}
 	}
@@ -6487,7 +6487,7 @@ focus_tree = {
 
 		bypass = {
 			OR = {
-				NOT = { country_exists = FIN }
+			NOT = { country_exists = FIN }
 				FIN = { is_subject_of = ROOT }
 			}
 			NOT = { country_exists = KAR }

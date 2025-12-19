@@ -1435,7 +1435,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.69.a
 		create_country_leader = {
-			name = "Ho Chi Minh"
+			name = "Хо Ши Мин"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Ho_Chi_Minh.png"
 			expire = "1.1.1"
 			ideology = national_communism_subtype
@@ -1582,7 +1582,7 @@ country_event = {
 			producer = FRA
 		}
 		create_corps_commander = {
-			name = "André Marty"
+			name = "Андре Марти"
 			portrait_path = "gfx/leaders/FRA/Portrait_FRA_Andre_Marty.png"
 			traits = {
 				militias_officer
@@ -1675,7 +1675,7 @@ country_event = {
 				name = FRA_parti_communiste
 			}
 			create_country_leader = {
-				name = "Maurice Thorez"
+				name = "Морис Торез"
 				desc = "POLITICS_MAURICE_THOREZ_DESC"
 				picture = "gfx/leaders/FRA/Portrait_France_Maurice_Thorez.png"
 				expire = "1.1.1"
@@ -1731,7 +1731,7 @@ country_event = {
 		name = BAS.80.a
 		set_cosmetic_tag = BAS_Jacobin_Spain
 		create_country_leader = {
-			name = "Vicente Uribe Galdeano"
+			name = "Висенте Урибе"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Vincente_Uribe.png"
 			expire = "1.1.1"
 			ideology = tot_agrarian_socialism_subtype
@@ -1741,7 +1741,7 @@ country_event = {
 		name = BAS.80.b
 		set_cosmetic_tag = BAS_Jacobin_Spain
 		create_country_leader = {
-		name = "Dolores Ibárruri Gómez"
+		name = "Долорес Ибаррури Гомес"
 		picture = "gfx/leaders/CNT/Portrait_CNT_Dolores_Ibarruri_Gomez.png"
 		expire = "1.1.1"
 		ideology = socialist_feminism_subtype
@@ -1751,7 +1751,7 @@ country_event = {
 		name = BAS.80.c
 		set_cosmetic_tag = BAS_Jacobin_Spain
 		create_country_leader = {
-			name = "José Cazorla Maure"
+			name = "Жозе Касорла Мауре"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Jose_Cazorla_Maure.png"
 			expire = "1.1.1"
 			ideology = hardliner_bolshevism_subtype
@@ -1761,7 +1761,7 @@ country_event = {
 		name = BAS.80.e
 		set_cosmetic_tag = BAS_Jacobin_Spain
 		create_country_leader = {
-			name = "Enrique Líster"
+			name = "Энрике Листер"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Enrique_Lister_Forjan.png"
 			expire = "1.1.1"
 			ideology = red_junta_subtype
@@ -1771,7 +1771,7 @@ country_event = {
 		name = BAS.80.f
 		set_cosmetic_tag = BAS_Jacobin_Spain
 		create_country_leader = {
-			name = "Andres Nin"
+			name = "Андреу Нин"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Andres_Nin_Perez.png"
 			expire = "1.1.1"
 			ideology = internationalism_subtype
@@ -1794,7 +1794,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.81.a
 		create_country_leader = {
-			name = "Maurice Thorez"
+			name = "Морис Торез"
 			picture = "gfx/leaders/FRA/Portrait_France_Maurice_Thorez.png"
 			expire = "1.1.1"
 			ideology = jacobinism_subtype
@@ -1803,7 +1803,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.81.b
 		create_country_leader = {
-			name = "Jacques Doriot"
+			name = "Жак Дорио"
 			picture = "gfx/leaders/FRA/Portrait_France_Jacques_Doriot.png"
 			expire = "1.1.1"
 			ideology = national_jacobinism_subtype
@@ -1812,7 +1812,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.81.c
 		create_country_leader = {
-			name = "Jacques Duclos"
+			name = "Жак Дюкло"
 			picture = "gfx/leaders/FRA/Portrait_France_Jacques_Duclos.png"
 			expire = "1.1.1"
 			ideology = jacobinism_subtype
@@ -1821,7 +1821,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.81.e
 		create_country_leader = {
-			name = "Marcel Cachin"
+			name = "Марсель Кашен"
 			picture = "gfx/leaders/FRA/Portrait_France_Marcel_Cachin.png"
 			expire = "1.1.1"
 			ideology = jacobinism_subtype
@@ -1830,7 +1830,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.81.f
 		create_country_leader = {
-			name = "Andre Marty"
+			name = "Андре Марти"
 			picture = "gfx/leaders/FRA/Portrait_FRA_Andre_Marty.png"
 			expire = "1.1.1"
 			ideology = socialist_security_state_subtype
@@ -1845,7 +1845,7 @@ country_event = {
 		}
 	}
 }
-country_event = { #Ho Chi Minh Jumpscare
+country_event = { #Хо Ши Мин Jumpscare
 	id = BAS.82
 	immediate = {log = "[GetDateText]: [Root.GetName]: event BAS.82"}
 	title = BAS.82.t 
@@ -1946,7 +1946,7 @@ country_event = {
 		set_country_flag = BAS_emb_synd
 		if = {
 			limit = { NOT = { has_cosmetic_tag = BAS_Pyrenees_alt } }
-			set_cosmetic_tag = BAS
+		set_cosmetic_tag = BAS
 		}
 		set_politics = {
 			ruling_party = syndicalist
@@ -1971,13 +1971,13 @@ country_event = {
 		name = BAS_authoritarian_democrat_party_alt1		
 		}
 		create_country_leader = {
-			name = "Elias Gallastegi"
+			name = "Элиас Галластеги"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Elias_Gallastegi.png"
 			expire = "1.1.1"
 			ideology = liberalized_syndicalism_subtype
 		}
 		create_country_leader = {
-			name = "Miguel Ponte"
+			name = "Мигель Понте"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Miguel_Ponte.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
@@ -1993,7 +1993,7 @@ country_event = {
 		set_country_flag = BAS_emb_natpop
 		if = {
 			limit = { NOT = { has_cosmetic_tag = BAS_Pyrenees_alt } }
-			set_cosmetic_tag = BAS
+		set_cosmetic_tag = BAS
 		}
 		set_politics = {
 			ruling_party = national_populist
@@ -2018,13 +2018,13 @@ country_event = {
 		name = BAS_authoritarian_democrat_party_alt1
 		}
 		create_country_leader = {
-			name = "Elias Gallastegi"
+			name = "Элиас Галластеги"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Elias_Gallastegi.png"
 			expire = "1.1.1"
 			ideology = natpop_popular_patriotism_subtype
 		}
 		create_country_leader = {
-			name = "Miguel Ponte"
+			name = "Мигель Понте"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Miguel_Ponte.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
@@ -2122,7 +2122,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.95.a
 		create_country_leader = {
-			name = "Manuel de Irujo Ollo"
+			name = "Мануэль де Ирухо Олло"
 			picture = "gfx/leaders/BAS/Portrait_BAS__manuel_de_irujo.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
@@ -2131,7 +2131,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.95.b
 		create_country_leader = {
-			name = "Candido Saseta"
+			name = "Кандидо Сасета"
 			picture = "gfx/leaders/BAS/Portrait_BAS_candido_saseta.png"
 			expire = "1.1.1"
 			ideology = conservative_populism_subtype
@@ -2140,7 +2140,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.95.c
 		create_country_leader = {
-			name = "José María Arizmendiarrieta"
+			name = "Хосе Мария Арисмендиарриета"
 			picture = "gfx/leaders/BAS/Portrait_BAS_Jose_Maria_Arizmendiarrieta.png"
 			expire = "1.1.1"
 			ideology = christian_technocracy_subtype
@@ -2159,7 +2159,7 @@ country_event = {
 	option = { #oh no
 		name = BAS.96.a
 		create_country_leader = {
-			name = "Manu Robles-Arangiz"
+			name = "Ману Роблес-Арангис"
 			picture = "gfx/leaders/BAS/Portrait_BAS_manu_robles_arangiz.png"
 			expire = "1.1.1"
 			ideology = pataut_right_syndicalism_subtype
@@ -2442,7 +2442,7 @@ country_event = {
 		set_cosmetic_tag = BAS_Navarra_Kingdom
 		set_country_flag = BAS_King_Carlos
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = natpop_carlism_subtype
@@ -2452,7 +2452,7 @@ country_event = {
 		name = BAS.111.b
 		set_cosmetic_tag = BAS_Navarra_Kingdom
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = natpop_carlism_subtype
@@ -2805,13 +2805,13 @@ country_event = { #HRE larp, yay
 	desc = {
 		text = BAS.127.d_cayetano
 		trigger = {
-			has_country_leader = { name = "Cayetano I" ruling_only = yes }
+			has_country_leader = { name = "Каэтано I" ruling_only = yes }
 		}
 	}
 	desc = {
 		text = BAS.127.d_carlos
 		trigger = {
-			has_country_leader = { name = "Carlos VII" ruling_only = yes }
+			has_country_leader = { name = "Карлос VII" ruling_only = yes }
 		}
 	}
 	picture = GFX_report_event_SPR_PNE5
@@ -3012,7 +3012,7 @@ country_event = {
 		name = BAS_national_populist_party_alt1
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = natpop_carlism_subtype
@@ -3034,7 +3034,7 @@ country_event = {
 		elections_allowed = no
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = carlism_subtype
@@ -3058,7 +3058,7 @@ country_event = {
 		elections_allowed = no
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = authdem_iberian_federalism_subtype		
@@ -3081,7 +3081,7 @@ country_event = {
 		elections_allowed = no
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = corporatocracy_subtype
@@ -3103,7 +3103,7 @@ country_event = {
 		elections_allowed = no
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = pataut_agrarianism_subtype
@@ -3121,7 +3121,7 @@ country_event = {
 		name = BAS_national_populist_party_alt5
 		}
 		create_country_leader = {
-		name = "Carlos VIII"
+		name = "Карлос VIII"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 		expire = "1.1.1"
 		ideology = militarism_subtype
@@ -3145,7 +3145,7 @@ country_event = { #Left Carlismo starting event
 		is_ai = no
 		date > 1945.01.5
 		AND = {
-		has_country_leader = { name = "Cayetano I" ruling_only = yes }
+		has_country_leader = { name = "Каэтано I" ruling_only = yes }
 		has_country_flag = BAS_margaritas_banned
 		has_country_flag = BAS_landlord_victory
 		has_country_flag = BAS_socialists_allowed
@@ -3207,8 +3207,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+			name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = natpop_popular_patriotism_subtype
@@ -3216,7 +3216,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = natpop_popular_patriotism_subtype
@@ -3260,8 +3260,8 @@ country_event = {
 		add_natpop_to_coalition = yes
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+		name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = left_carlism_subtype
@@ -3269,11 +3269,11 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = left_carlism_subtype
-		}
+			}
 		}
 		}
 	}
@@ -3380,8 +3380,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+		name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = natpop_carlism_subtype
@@ -3389,7 +3389,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = natpop_carlism_subtype
@@ -3413,8 +3413,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+		name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = carlism_subtype
@@ -3422,7 +3422,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = carlism_subtype
@@ -3448,8 +3448,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+		name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = authdem_iberian_federalism_subtype
@@ -3457,7 +3457,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = authdem_iberian_federalism_subtype
@@ -3482,8 +3482,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+		name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
@@ -3491,7 +3491,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = corporatocracy_subtype
@@ -3515,8 +3515,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+			name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = pataut_agrarianism_subtype
@@ -3524,7 +3524,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = pataut_agrarianism_subtype
@@ -3544,8 +3544,8 @@ country_event = {
 		}
 		if = {
 			limit = { has_country_flag = BAS_King_Carlos }
-			create_country_leader = {
-			name = "Carlos VIII"
+		create_country_leader = {
+			name = "Карлос VIII"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -3553,7 +3553,7 @@ country_event = {
 		}
 		else = {
 		create_country_leader = {
-		name = "Cayetano I"
+		name = "Каэтано I"
 		picture = "gfx/leaders/CAR/Portrait_CAR_Gaetano_de_Borbon-Parma.png"
 		expire = "1.1.1"
 		ideology = militarism_subtype
@@ -5243,7 +5243,7 @@ country_event = {
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Mariano Gámir Ulíbarri"
+				name = "Мариано Гамир Улибарри"
 				picture = "gfx/leaders/CAR/Portrait_CAR_Mariano_Gamir_Ulibarri.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -5797,7 +5797,7 @@ country_event = { #
 		tag = BAS
 		has_completed_focus = BAS_Basque_Irredentism
 		DOM = {
-			has_country_leader = { ruling_only = yes name = "Rafael Trujillo Molina" }
+			has_country_leader = { ruling_only = yes name = "Рафаэль Трухильо" }
 			is_subject = no
 		}
 	}

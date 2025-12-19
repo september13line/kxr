@@ -31,11 +31,11 @@ chinese_unification = {
 				limit = { tag = TAN }
 				OR = {
 					has_country_leader = {
-						name = "Ma Zhongying"
+						name = "Ма Чжунъин"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Fan Yaonan"
+						name = "Фань Яонань"
 						ruling_only = yes
 					}
 				}
@@ -46,11 +46,11 @@ chinese_unification = {
 					OR = {
 						tag = UPC
 						has_country_leader = {
-							name = "Chen Jiongming"
+							name = "Чэнь Цзюнмин"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Ma Ji"
+							name = "Ма Цзы"
 							ruling_only = yes
 						}
 					}
@@ -64,7 +64,7 @@ chinese_unification = {
 					has_focus_tree = Sichuan_Clique_Zhili
 					has_focus_tree = Sichuan_Clique_Federalist
 					has_country_leader = {
-						name = "Liu Xiang"
+						name = "Лю Сян"
 						ruling_only = yes
 					}
 				}
@@ -81,7 +81,7 @@ chinese_unification = {
 				limit = { tag = YUN }
 				NOT = {
 					has_country_leader = {
-						name = "Zhu Peide"
+						name = "Чжу Пэйдэ"
 						ruling_only = yes
 					}
 					has_country_flag = YUN_larp
@@ -273,7 +273,7 @@ chinese_unification = {
 				limit = {
 					tag = TAN
 					has_country_leader = {
-						name = "Ma Zhongying"
+						name = "Ма Чжунъин"
 						ruling_only = yes
 					}  
 				}
@@ -386,7 +386,7 @@ chinese_unification = {
 			}
 			if = {
 				limit = { NOT = { has_country_flag = china_capital_set_flag } }
-				set_capital = { state = 608 }
+			set_capital = { state = 608 }
 			}
 			add_timed_idea = {
 				idea = unite_china_justification_idea
@@ -713,7 +713,7 @@ chinese_unification = {
 			if = {
 				limit = { FROM = { has_autonomy_state = kr_governorate } }
 				OR = {
-					has_global_flag = china_united
+				has_global_flag = china_united
 					AND = {
 						OR = {
 							tag = MON
@@ -1542,11 +1542,11 @@ political_actions = {
 				has_focus_tree = Sichuan_Clique_Federalist
 				has_focus_tree = Sichuan_Clique_Zhili
 				has_country_leader = {
-					name = "Chen Jiongming"
+					name = "Чэнь Цзюнмин"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Zhu Peide"
+					name = "Чжу Пэйдэ"
 					ruling_only = yes
 				}
 			}

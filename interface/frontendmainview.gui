@@ -46,28 +46,25 @@ guiTypes = {
 		}
 		
 	}
-
+	
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y = 1200 }
+		position = { x=0 y =-200 }
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
-		orientation = lower_left
 		
-        ButtonType = {
-            name ="frontend_game_logo"
-            spriteType = "GFX_blank"
-            position = { x= 20 y = 1200 }
-            clicksound = click_default
-            pdx_tooltip = "LOGO_MAIN_MENU_LINK"
-            web_link = "https://discord.gg/BuwGK5j"
-        }
+		#iconType =
+		#{
+		#	name ="frontend_game_logo"
+		#	spriteType = "GFX_frontend_game_logo"
+		#	position = { x= 20 y = 20 }
+		#}
 		
 	}
-
+	
 	#containerWindowType = {
 	#	name  ="frontend_alpha_stamp"
 	#	position = { x=100 y =-100  }
@@ -101,12 +98,12 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 		### KR Logo Button ###
-       
+	   
 		### KX LIVES AND MARCHES ON ###
-        	
+			
 		
 	}		
-
+	
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
@@ -200,16 +197,16 @@ guiTypes = {
 			shortcut = "ESCAPE"
 		}
 	}
-
+	
 	#actual window for buttons
 	#width = 938 height = 75
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =-32}
+		position = { x=0 y =-34}
 		size = { width = 1100 height = 800 }
 		Orientation = CENTER_DOWN
 		Origo = center
-
+	
 		#Pretty, pretty pictures
 		iconType = {
 			name ="GFX_blank"
@@ -227,13 +224,13 @@ guiTypes = {
 			size = { width = 938 height = 400 }
 			Orientation = CENTER
 			Origo = center
-
+	
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_paper_w_frame_bg"
 			}
 		}
-
+	
 		######################################### Buttons at the bottom
 		ButtonType = {
 			name = "single_player_button"
@@ -244,7 +241,7 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
-
+	
 		ButtonType = {
 			name = "multi_player_button"
 			position = { x = 409 y = 130 }
@@ -261,12 +258,12 @@ guiTypes = {
 			position = { x = @warn_icon_x y = 8 }
 			spriteType = "GFX_missing_dlc_warning_sign"
 		}
-
+	
 		instantTextBoxType = {
 			name ="version_label"
-			position = { x = 126 y = 414 }
+			position = { x = 126 y = 390 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "ALPHA"
 			format = centre
@@ -276,9 +273,9 @@ guiTypes = {
 
 		positionType = {
 			name = "version_label_subscription_position"
-			position = { x = 126 y = 344 } #KR: adjusted for subscription widget removal (originally 35,524)
+			position = { x = 126 y = 376 } #KR: adjusted for subscription widget removal (originally 35,524)
 		}
-		
+	
 		############################################## buttons on the side
 		ButtonType = {
 			name = "settings_button"
@@ -287,7 +284,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
-			text = "Settings"
+			text = "Настройки"
 		}
 		
 		buttonType = {
@@ -318,7 +315,7 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
-
+	
 		ButtonType = {
 			name = "credits_button"
 			position = {  x = 25 y = 34 }
@@ -362,7 +359,7 @@ guiTypes = {
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
-
+	
 		ButtonType = {
 			name = "exit_button"
 			position = { x = 409 y = 380 }
@@ -377,9 +374,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="recent_changes"
 			position = { x = 100 y = 100 }
-			font = "hoi_36header"
+			font = "Pragmata_26_BAZADARYCH"
 			borderSize = {x = 0 y = 0}
-			text = "Recent Changes:"
+			text = "Последние изменения:"
 			format = centre
 			maxWidth = 300
 			maxHeight = 20
@@ -387,14 +384,12 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "recent_changes_lmaoooo"
-			position = { x = 120 y = 150 }
-			size = { width = 250 height = 235 } 
+			position = { x = 120 y = 140 }
+			size = { width = 250 height = 245 } 
 			margin = { top = 10 bottom = 10 }
 			Orientation = upper_left
 			clipping = yes
-			
-			verticalScrollbar = "right_vertical_slider"
-			
+						
 			background = {
 				name = "emptybg"
 				quadTextureSprite = "GFX_tiled_window_transparent"
@@ -403,32 +398,33 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="recent_changes_text"
 				position = { x = 20 y = 0 }
-				font = "hoi_18mbs"
+				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
 				text = "RECENT_CHANGES_TEXT"
 				format = center
-				maxWidth = 200
-				maxHeight = 160
+				maxWidth = 220
+				maxHeight = 240
+				fixedsize = yes
 			}
 		}
 		
 		ButtonType = {
-            name ="pdx_int_logo"
-            spriteType = "GFX_pdx_int_logo"
-            position = { x= 800 y = 85 }
-            clicksound = click_default
-            pdx_tooltip = "COOP_MAIN_MENU_LINK"
-            web_link = "https://www.reddit.com/r/kaiserredux/"
-        }
+			name ="pdx_int_logo"
+			spriteType = "GFX_pdx_int_logo"
+			position = { x= 785 y = 85 }
+			clicksound = click_default
+			pdx_tooltip = "COOP_MAIN_MENU_LINK"
+			web_link = "https://boosty.to/ledix_z"
+		}
 		
 		ButtonType = {
-            name ="frontend_dev_logo"
-            spriteType = "GFX_frontend_dev_logo"
-            position = { x= 800 y = 250 }
-            clicksound = click_default
-            pdx_tooltip = "KR_MAIN_MENU_LINK"
-            web_link = "https://discord.gg/BuwGK5j"
-        }
+			name ="frontend_dev_logo"
+			spriteType = "GFX_frontend_dev_logo"
+			position = { x= 785 y = 260 }
+			clicksound = click_default
+			pdx_tooltip = "KR_MAIN_MENU_LINK"
+			web_link = "https://vk.cc/cFegYR"
+		}
 	}
 		
 		### DEFAULT KAISERREICH STUFF ###
@@ -439,7 +435,7 @@ guiTypes = {
 		#	quadTextureSprite ="homepage"
 		#	clicksound = click_default
 		#	pdx_tooltip = "MENU_HOMEPAGE"
-		#	web_link = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
+		#	web_link = "https://discord.gg/KvtNUYUxwB"
 		#}
 		#ButtonType = { #Actually Forum
 		#	name = "forum_button"

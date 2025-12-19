@@ -44,24 +44,24 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-	basic_naval_mines = 1
-}
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+		basic_naval_mines = 1
+	}
 
 set_research_slots = 3
 set_convoys = 20
@@ -99,7 +99,7 @@ country_event = { id = geo.67 days = 270 } # South Ossetian autonomy
 country_event = { id = geo.126 days = 1461 random = 5000 } # Robeson Tune
 
 create_country_leader = {
-	name = "Grigol Orjonikidze"
+	name = "Григол Орджоникидзе"
 	desc = "POLITICS_GRIGOL_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Grigol_Ordzhonikikdze.png"
 	expire = "1.1.1"
@@ -108,16 +108,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ioseb 'Koba' Jughashvili"
+	name = "Иосиф 'Коба' Джугашвили"
 	desc = "POLITICS_STALIN_DESC"
-	picture = "gfx/leaders/GEO/Portrait_GEO_Ioseb_Jughashvili_KX.png"
+	picture = "gfx/leaders/GEO/GEO_Ioseb_Jughashvili.png"
 	expire = "1.1.1"
 	ideology = georgian_socialism_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Leo Shengelaia"
+	name = "Лео Киачели"
 	desc = "POLITICS_LEO_SHENGELAIA_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Leo_Shengelaia.png" 
 	expire = "1.1.1"
@@ -125,15 +125,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
+	name = "Ной Жордания"
 	desc = "POLITICS_NOE_ZHORDANIA_DESC"
-	picture = "gfx/leaders/GEO/Portrait_GEO_Noe_Zhordania_KX.png"
+	picture = "gfx/leaders/GEO/GEO_Noe_Zhordania.png"
 	expire = "1.1.1"
 	ideology = revisionist_marxism_subtype
 }
 
 create_country_leader = {
-	name = "Ioseb Baratashvili"
+	name = "Иосиф Бараташвили"
 	desc = "POLITICS_IOSIF_BARATOV_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Iosif_Baratov.png"
 	expire = "1.1.1"
@@ -141,7 +141,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grigol Veshapeli"
+	name = "Григорий Вешапели"
 	desc = "POLITICS_GRIGORY_VESHAPELI_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Grigory_Veshapeli.png"
 	expire = "1.1.1"
@@ -149,7 +149,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ekvtime Takaishvili"
+	name = "Эквтиме Такаишвили"
 	desc = "POLITICS_EKVTIME_TAKAISHVILI_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Ekvtime_Takaishvili.png"
 	expire = "1.1.1"
@@ -157,34 +157,34 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ioakhim I"
+	name = "Иоахим I"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Prince_Joachim.png"
 	expire = "1.1.1"
 	ideology = prussian_constitutionalism_subtype
 }
 
 create_country_leader = {
-	name = "Shalva Maglakelidze"
-	picture = "gfx/leaders/GEO/Portrait_GEO_Shalva_Maglakelidze_KX.png"
+	name = "Шалва Маглакелидзе"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Shalva_Maglakelidze.png"
 	expire = "1.1.1"
 	ideology = authdem_junta_subtype
 }
 
 create_country_leader = {
-	name = "George IX"
+	name = "Георгий IX"
 	picture = "gfx/leaders/GEO/Portrait_GEO_George_Bagriaton_Mukhraneli.png"
 	expire = "1.1.1"
 	ideology = absolute_monarchy_subtype
 }
 create_country_leader = {
-	name = "Kakutsa Cholokashvili"
+	name = "Кайхосро Чолокашвили"
 	desc = "POLITICS_CHOLOKASHVILI_PATAUT_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Kakutsa_Cholokashvili.png"
 	expire = "1.1.1"
 	ideology = junta_subtype
 }
 create_country_leader = {
-	name = "Mikheil Tsereteli"
+	name = "Михаил Церетели"
 	desc = "POLITICS_MIKHEIL_TSERETELI_DESC"
 	picture = "gfx/leaders/GEO/Portrait_GEO_Mikheil_Tsereteli.png"
 	expire = "1.1.1"
@@ -192,7 +192,7 @@ create_country_leader = {
 }
 ### Field Marshal
 create_field_marshal = {
-	name = "Giorgi Mazniashvili"
+	name = "Георгий Мазниашвили"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Mazniashvili.png"
 	traits = { war_hero career_officer unyielding_defender }
 	skill = 2
@@ -203,7 +203,7 @@ create_field_marshal = {
 	id = 3523
 }
 create_field_marshal = {
-	name = "Aleksandre Dgebuadze"
+	name = "Александр Дгебуадзе"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Aleksandre_Dgebuadze.png"
 	traits = { aggressive_assaulter }
 	skill = 2
@@ -211,11 +211,12 @@ create_field_marshal = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+	id = 3534
 }
 
 ### Corps Commander
 create_corps_commander = {
-	name = "Friedrich Kreß von Kressenstein"
+	name = "Фридрих Кресс фон Крессенштейн"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Friedrich_Kress_von_Kressenstein.png"
 	traits = { GER_bayerische_armee_commander_trait GER_expeditionary_leader desert_fox trait_mountaineer hill_fighter }
 	skill = 4
@@ -224,10 +225,10 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 3
 	id = 172649
-}	
+}
 create_corps_commander = {
-	name = "Ioseb Jughashvili"
-	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Ioseb_Jughashvili_KX.png"
+	name = "Иосиф Джугашвили"
+	portrait_path = "gfx/leaders/GEO/GEO_Ioseb_Jughashvili.png"
 	traits = { harsh_leader organizer politically_connected }
 	skill = 2
 	attack_skill = 1
@@ -235,9 +236,9 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 	id = 577
-}		
+}	
 create_corps_commander = { 
-	name = "Sergo Goglidze"
+	name = "Сергей Гоглидзе"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Sergo_Goglidze.png"
 	traits = { career_officer }
 	id = 172644
@@ -248,7 +249,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Kakutsa Cholokashvili "
+	name = "Кайхосро Чолокашвили "
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Kakutsa_Cholokashvili.png"
 	traits = { guerilla_fighter cavalry_officer trickster aggressive_assaulter }
 	skill = 2
@@ -260,7 +261,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Giorgi Khimshiashvili"
+	name = "Георгий Химшиашвили"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Khimshiashvili.png"
 	traits = { artillery_officer cavalry_officer organizer }
 	skill = 3
@@ -272,8 +273,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Shalva Maglakelidze "
-	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Shalva_Maglakelidze_KX.png"
+	name = "Шалва Маглакелидзе "
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Shalva_Maglakelidze.png"
 	traits = { politically_connected organizer }
 	skill = 2
 	attack_skill = 3
@@ -284,7 +285,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Valiko Jugheli "
+	name = "Валико Джугели"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Valiko_Jugheli.png"
 	traits = { infantry_officer politically_connected trait_engineer fortress_buster }
 	skill = 2
@@ -296,7 +297,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Valerian Tevzadze"
+	name = "Валериан Тевзадзе"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Valerian_Tevzadze.png"
 	traits = { commando }
 	skill = 2
@@ -304,10 +305,11 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 1
+	id = 35043
 }
 
 create_corps_commander = {
-	name = "Vladimer Goguadze"
+	name = "Владимир Гогуадзе"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Vladimer_Goguadze.png"
 	traits = { armor_officer trickster trait_engineer }
 	skill = 2
@@ -315,10 +317,11 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 3
+	id = 35044
 }
 
 create_navy_leader = {
-	name = "Giorgi Abashvili"
+	name = "Георгий Абашвили"
 	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Abashvili.png"
 	traits = { fleet_protector }
 	skill = 1

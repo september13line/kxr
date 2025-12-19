@@ -390,8 +390,8 @@ country_event = { #[BUL.GetLeader]'s popularity is lowering
 		name = kxbul.13.a
 		trigger = {
 			NOT = {
-				has_country_leader = { name = "Ferdinand I" }
-				has_country_leader = { name = "Boris III" }
+				has_country_leader = { name = "Фердинанд I" }
+				has_country_leader = { name = "Борис III" }
 			}
 		}
 		add_stability = -0.05
@@ -407,8 +407,8 @@ country_event = { #[BUL.GetLeader]'s popularity is lowering
 			if = {
 				limit = {
 					OR = {
-					has_country_leader = { name = "Ferdinand I" }
-					has_country_leader = { name = "Boris III" }
+					has_country_leader = { name = "Фердинанд I" }
+					has_country_leader = { name = "Борис III" }
 					}
 				}
 				country_event = {
@@ -434,7 +434,7 @@ country_event = { #No Opposition in Parliament
 	option = { #It's time
 		name = kxbul.14.a
 		create_country_leader = {
-			name = "N.S. Derzhavin"
+			name = "Николай Державин"
 			picture = "gfx/leaders/BUL/Portrait_BUL_NS_Derzhavin.png"
 			expire = "1.1.1"
 			ideology = natpop_neo_feudalism_subtype

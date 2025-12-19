@@ -81,7 +81,7 @@ CHI_is_phase_three_trigger = { #Starts once CHI has occupied Beijing, prepares f
 		NOT = { has_country_flag = CHI_phase_four_begins_flag }
 	}
 }
-CHI_is_phase_four_trigger = { #Chinese Endgame - either Wang Jingwei Holds On, Song Qingling Ousts Wang, Hu Zongnan's Second National Revolution, or Chen Gongbo’s Countercoup
+CHI_is_phase_four_trigger = { #Chinese Endgame - either Ван Цзинвэй Holds On, Сун Цинлин Ousts Wang, Ху Цзуннань's Second National Revolution, or Чэнь Гунбо’s Countercoup
 	custom_trigger_tooltip = {
 		tooltip = CHI_is_phase_four_tt
 		has_country_flag = CHI_phase_four_begins_flag
@@ -91,13 +91,13 @@ CHI_is_phase_four_trigger = { #Chinese Endgame - either Wang Jingwei Holds On, S
 #Endgame Triggers
 CHI_wang_jingwei_in_power = {
 	has_country_leader = { 
-		name = "Wang Jingwei"
+		name = "Ван Цзинвэй"
 		ruling_only = yes
 	}
 }
 CHI_hu_zongnan_in_power = {
 	has_country_leader = { 
-		name = "Hu Zongnan"
+		name = "Ху Цзуннань"
 		ruling_only = yes
 	}
 }
@@ -150,11 +150,11 @@ CHI_Chen_victory_trigger = {
 		CHI_is_phase_four_trigger = yes
 		OR = {
 			has_country_leader = {
-				name = "Zeng Zhongming"
+				name = "Цзэн Чжунмин"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Chen Gongbo"
+				name = "Чэнь Гунбо"
 				ruling_only = yes
 			}
 		}
@@ -179,15 +179,15 @@ CHI_Song_victory_trigger = {
 		CHI_is_phase_four_trigger = yes
 		OR = {
 			has_country_leader = {
-				name = "Song Qingling"
+				name = "Сун Цинлин"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Deng Yanda"
+				name = "Дэн Янда"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Sun Fo"
+				name = "Сунь Фо"
 				ruling_only = yes
 			}
 		}	
@@ -203,16 +203,16 @@ CHI_Hu_victory_trigger = {
 		CHI_is_phase_four_trigger = yes
 		OR = {
 			has_country_leader = {
-				name = "Hu Zongnan"
+				name = "Ху Цзуннань"
 				ruling_only = yes
 			}
 			#Fallback for testing - should never occur in-game			
 			has_country_leader = {
-				name = "Chiang Kai-shek"
+				name = "Чан Кайши"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				ruling_only = yes
 			}
 			has_country_flag = KMT_Chiang_Rules
@@ -230,15 +230,15 @@ CHI_CSP_victory_trigger = {
 		CHI_is_phase_four_trigger = yes
 		OR = {
 			has_country_leader = {
-				name = "Chen Duxiu"
+				name = "Чэнь Дусю"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Yi Peiji"
+				name = "И Пэйцзи"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				ruling_only = yes
 			}
 		}

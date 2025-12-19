@@ -2533,7 +2533,7 @@ ALO_turn_janar_into_authoritarian_party = {
 				long_name = ALO_socdem_party_long
 			}
 			create_country_leader = {
-				name = "Jakhansha Dosmukhamedov"
+				name = "Жаханша Досмухамедов"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Zhakhansha_Dosmukhammedov.png"
 				expire = "1.1.1"
 				ideology = radical_liberalism_subtype
@@ -2545,7 +2545,7 @@ ALO_turn_janar_into_authoritarian_party = {
 		elections_allowed = no
 	}		
 	create_country_leader = {
-		name = "Mirjaqyp Dulatuly"
+		name = "Миржакип Дулатов"
 		desc = "POLITICS_MIRJAKIP_DULATULY_DESC"
 		picture = "gfx/leaders/ALO/Portrait_ALO_Mirzhakip_Dulatov.png"
 		expire = "1.1.1"
@@ -2602,7 +2602,7 @@ ALO_turn_jas_azamat_into_syndicalist_party = {
 		elections_allowed = yes
 	}		
 	create_country_leader = {
-		name = "Smagul Säduaqasov"
+		name = "Смагул Садвакасов"
 		desc = "POLITICS_SMAGUL_SADUAQASOV_DESC"
 		picture = "gfx/leaders/ALO/Portrait_ALO_Smagul_Saduakasov.png"
 		expire = "1.1.1"
@@ -2776,7 +2776,7 @@ ALO_setup_socialist_revolution = {
 				elections_allowed = no
 			}				
 			create_country_leader = {
-				name = "Älibi Jangeldin"
+				name = "Алиби Джангильдин"
 				desc = "POLITICS_ALIBI_JANGILDIN_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Alibi_Dzhangildin.png"
 				expire = "1.1.1"
@@ -2784,14 +2784,14 @@ ALO_setup_socialist_revolution = {
 				traits = { ALO_first_kazakh_bolshevik }
 			}
 			create_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				desc = "POLITICS_MUQAN_AITPENOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Mukan_Aytpenov.png"
 				expire = "1.1.1"
 				ideology = agrarian_syndicalism_subtype
 			}
 			create_country_leader = {
-				name = "Saken Seifullin"
+				name = "Сакен Сейфуллин"
 				desc = "POLITICS_SAKEN_SEIFULLIN_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Saken_Seifullin.png"
 				expire = "1.1.1"
@@ -5040,10 +5040,10 @@ ALO_execute_combat_tribalism_decisions = {
 ALO_setup_monarch_for_natpop_slot = {
 	if = {
 		limit = { 
-			has_country_leader = { name = "Mehmed Abdülkerim" ruling_only = yes } 
+			has_country_leader = { name = "Мехмед Абдулкерим-эфенди" ruling_only = yes } 
 		}
 		create_country_leader = {
-			name = "Mehmed Abdülkerim"
+			name = "Мехмед Абдулкерим-эфенди"
 			picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -5051,10 +5051,10 @@ ALO_setup_monarch_for_natpop_slot = {
 	}
 	else_if = {
 		limit = { 
-			has_country_leader = { name = "Mehmed Orhan" ruling_only = yes } 
+			has_country_leader = { name = "Мехмед Орхан" ruling_only = yes } 
 		}
 		create_country_leader = {
-			name = "Mehmed Orhan"
+			name = "Мехмед Орхан"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -5062,10 +5062,10 @@ ALO_setup_monarch_for_natpop_slot = {
 	}
 	else_if = {
 		limit = { 
-			has_country_leader = { name = "Mahmud Namik" ruling_only = yes }
+			has_country_leader = { name = "Махмуд Намык-эфенди" ruling_only = yes }
 		}
 		create_country_leader = {
-			name = "Mahmud Namik"
+			name = "Махмуд Намык-эфенди"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -5073,10 +5073,10 @@ ALO_setup_monarch_for_natpop_slot = {
 	}
 	else_if = {
 		limit = { 
-			has_country_leader = { name = "Äzimhan" ruling_only = yes }
+			has_country_leader = { name = "Айзимхан" ruling_only = yes }
 		}
 		create_country_leader = {
-			name = "Äzimhan"
+			name = "Айзимхан"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Azimkhan_Kenesarin.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -5219,7 +5219,7 @@ ALO_setup_orenburg = {
 	hidden_effect = {
 		ORE = {
 			division_template = {
-				name = "Kazatskaya Peshaya Diviziya"
+				name = "Казачья пешая дивизия"
 				division_names_group = DKB_INF_01
 				regiments = {
 					irregular_infantry = { x = 0 y = 0 }
@@ -5231,7 +5231,7 @@ ALO_setup_orenburg = {
 			}
 
 			division_template = {
-				name = "Orenburgskaya Kazatskaya Diviziya"	# Cossack Division
+				name = "Оренбургская казачья дивизия"	# Cossack Division
 				division_names_group = COS_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -5246,14 +5246,14 @@ ALO_setup_orenburg = {
 			multiply_temp_variable = { ORE_num_units = 5 }
 			round_temp_variable = ORE_num_units
 			create_unit = {
-				division = "division_template = \"Orenburgskaya Kazatskaya Diviziya\" start_experience_factor = 0.2"
+				division = "division_template = \"Оренбургская казачья дивизия\" start_experience_factor = 0.2"
 				allow_spawning_on_enemy_provs = yes
 				owner = ORE
 				count = var:ORE_num_units
 				prioritize_location = 12128
 			}
 			create_unit = {
-				division = "division_template = \"Kazatskaya Peshaya Diviziya\" start_experience_factor = 0.3"
+				division = "division_template = \"Казачья пешая дивизия\" start_experience_factor = 0.3"
 				allow_spawning_on_enemy_provs = yes
 				owner = ORE
 				count = 1
@@ -5294,7 +5294,7 @@ ALO_setup_uralsk = {
 	hidden_effect = {
 		URL = {
 			division_template = {
-				name = "Kazatskaya Peshaya Diviziya"
+				name = "Казачья пешая дивизия"
 				division_names_group = DKB_INF_01
 				regiments = {
 					irregular_infantry = { x = 0 y = 0 }
@@ -5305,7 +5305,7 @@ ALO_setup_uralsk = {
 				}
 			}
 			division_template = {
-				name = "Uralskaya Kazatskaya Diviziya"	# Cossack Division
+				name = "Уральская казачья дивизия"	# Cossack Division
 				division_names_group = COS_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -5320,7 +5320,7 @@ ALO_setup_uralsk = {
 			multiply_temp_variable = { ORE_num_units = 5 }
 			round_temp_variable = ORE_num_units
 			create_unit = {
-				division = "division_template = \"Uralskaya Kazatskaya Diviziya\" start_experience_factor = 0.3"
+				division = "division_template = \"Уральская казачья дивизия\" start_experience_factor = 0.3"
 				allow_spawning_on_enemy_provs = yes
 				owner = URL
 				count = var:ORE_num_units

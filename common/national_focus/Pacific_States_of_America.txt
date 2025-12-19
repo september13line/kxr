@@ -42,7 +42,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			army_experience = 50
-			hidden_effect = {
+			hidden_effect = {	
 				country_event = { id = ustates.619 days = 670 }
 			}
 		}
@@ -797,8 +797,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_quasi_arms_factories"
 			if = {
 				limit = { has_tech = interwar_antitank }
-				add_equipment_to_stockpile = {
-					type = anti_tank_equipment
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
 					amount = 100
 				}
 			}
@@ -938,8 +938,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_tank_destroyers"
 			if = {
 				limit = { has_tech = interwar_antitank }
-				add_equipment_to_stockpile = {
-					type = anti_tank_equipment
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
 					amount = 100
 				}
 			}
@@ -2067,8 +2067,8 @@ focus_tree = {
 	uses = 1
 	category = naval_doctrine
 			}
-			create_navy_leader = {# Lloyd M. Mustin
-				name = "Lloyd M. Mustin"
+			create_navy_leader = {# Ллойд М. Мустин
+				name = "Ллойд М. Мустин"
 				portrait_path = "gfx/leaders/CAL/Portrait_CAL_Lloyd_Mustin.png"
 				traits = {fly_swatter}
 				skill = 3
@@ -2077,8 +2077,8 @@ focus_tree = {
 				maneuvering_skill = 2
 				coordination_skill = 3
 			}
-			create_navy_leader = {# Richard Nixon
-				name = "Richard M. Nixon"
+			create_navy_leader = {# Ричард Никсон
+				name = "Ричард М. Никсон"
 				portrait_path = "gfx/leaders/CAL/Portrait_CAL_Richard_Nixon_Admiral.png"
 				traits = {}
 				skill = 2
@@ -2781,7 +2781,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2808,7 +2808,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2838,7 +2838,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2913,7 +2913,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2964,7 +2964,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -2999,7 +2999,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3056,7 +3056,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3087,7 +3087,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3121,7 +3121,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3156,7 +3156,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3183,7 +3183,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		select_effect = {
 		country_event = {
@@ -3217,7 +3217,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = authoritarian_democrat
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3252,7 +3252,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3281,7 +3281,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3325,7 +3325,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3362,7 +3362,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		ai_will_do = {
 			factor = 5
@@ -3389,7 +3389,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -3414,7 +3414,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 			owns_state = 629
 		}
 		ai_will_do = {
@@ -3446,7 +3446,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3479,7 +3479,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3516,7 +3516,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 		}
 		ai_will_do = {
 			factor = 5
@@ -3549,7 +3549,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		bypass = {
 			date > 1940.11.14
@@ -3557,7 +3557,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		ai_will_do = {
 			factor = 5
@@ -3585,7 +3585,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		ai_will_do = {
 			factor = 5
@@ -3642,7 +3642,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 			has_completed_focus = CAL_state_trusts
 		}
 		ai_will_do = {
@@ -3676,7 +3676,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 			has_completed_focus = CAL_media_regulation_act
 		}
 		ai_will_do = {
@@ -3711,7 +3711,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		ai_will_do = {
 			factor = 5
@@ -3741,7 +3741,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 		}
 		ai_will_do = {
 			factor = 5
@@ -3772,7 +3772,7 @@ focus_tree = {
 			has_government = authoritarian_democrat
 			has_government = paternal_autocrat
 			}
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" }
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" }
 			has_completed_focus = CAL_tribunals_for_gangsters
 		}
 		ai_will_do = {
@@ -3834,7 +3834,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = {
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" } 
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" } 
 			}
 			NOT = {
 			has_completed_focus = CAL_nation_of_visionaries
@@ -3895,7 +3895,7 @@ focus_tree = {
 			focus = CAL_sane_economy
 		}
 		available = {
-		has_completed_focus = CAL_japan_in_command
+			has_completed_focus = CAL_japan_in_command
 		}
 		mutually_exclusive = {
 			focus = CAL_new_media
@@ -4118,10 +4118,10 @@ focus_tree = {
 			if = {
 				limit = { 
 					NOT = { has_completed_focus = CAL_japan_in_command }
-				}
-				country_event = {
-				id = pacificstates.4009
-				days = 30
+			}
+			country_event = {
+			id = pacificstates.4009
+			days = 30
 				}
 			}
 		}
@@ -4156,7 +4156,7 @@ focus_tree = {
 					HAW = { 
 						exists = yes
 						is_in_faction_with = JAP
-					}
+					}	
 				}
 				country_event = { id = pacificstates.3524 days = 1 }
 			}
@@ -4169,13 +4169,13 @@ focus_tree = {
 			trigger = {
 			NOT = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
-			has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-			has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
-			has_country_leader = { ruling_only = yes name = "Max Thornburg" }
-			has_country_leader = { ruling_only = yes name = "Yasuhito" }
-			has_country_leader = { ruling_only = yes name = "Nobuhito" }
-			has_country_leader = { ruling_only = yes name = "Kan'in Kotohito" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
+			has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+			has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }
+			has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
+			has_country_leader = { ruling_only = yes name = "Ясухито" }
+			has_country_leader = { ruling_only = yes name = "Нобухито" }
+			has_country_leader = { ruling_only = yes name = "Канъин-но-мия Котохито" }
 					}
 				}
 			}
@@ -4184,13 +4184,13 @@ focus_tree = {
 		icon = {
 			trigger = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
-			has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-			has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
-			has_country_leader = { ruling_only = yes name = "Max Thornburg" }
-			has_country_leader = { ruling_only = yes name = "Yasuhito" }
-			has_country_leader = { ruling_only = yes name = "Nobuhito" }
-			has_country_leader = { ruling_only = yes name = "Kan'in Kotohito" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
+			has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+			has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }
+			has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
+			has_country_leader = { ruling_only = yes name = "Ясухито" }
+			has_country_leader = { ruling_only = yes name = "Нобухито" }
+			has_country_leader = { ruling_only = yes name = "Канъин-но-мия Котохито" }
 				}
 			}
 			value = GFX_BBR_black_dragon_society
@@ -4214,13 +4214,13 @@ focus_tree = {
 			limit = {
 			NOT = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
-			has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-			has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
-			has_country_leader = { ruling_only = yes name = "Max Thornburg" }
-			has_country_leader = { ruling_only = yes name = "Yasuhito" }
-			has_country_leader = { ruling_only = yes name = "Nobuhito" }
-			has_country_leader = { ruling_only = yes name = "Kan'in Kotohito" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
+			has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+			has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }
+			has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
+			has_country_leader = { ruling_only = yes name = "Ясухито" }
+			has_country_leader = { ruling_only = yes name = "Нобухито" }
+			has_country_leader = { ruling_only = yes name = "Канъин-но-мия Котохито" }
 					}
 				}
 			}
@@ -4232,13 +4232,13 @@ focus_tree = {
 			if = {
 			limit = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
-			has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-			has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
-			has_country_leader = { ruling_only = yes name = "Max Thornburg" }
-			has_country_leader = { ruling_only = yes name = "Yasuhito" }
-			has_country_leader = { ruling_only = yes name = "Nobuhito" }
-			has_country_leader = { ruling_only = yes name = "Kan'in Kotohito" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
+			has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+			has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }
+			has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
+			has_country_leader = { ruling_only = yes name = "Ясухито" }
+			has_country_leader = { ruling_only = yes name = "Нобухито" }
+			has_country_leader = { ruling_only = yes name = "Канъин-но-мия Котохито" }
 				}
 			}
 			country_event = {
@@ -4294,9 +4294,9 @@ focus_tree = {
 			if = {
 			limit = {
 			OR = {
-			has_country_leader = { name = "Edward Longstreet Bodin" ruling_only = yes }
-			has_country_leader = { name = "L. Ron Hubbard" ruling_only = yes }
-			has_country_leader = { name = "Bernarr Macfadden" ruling_only = yes }
+			has_country_leader = { name = "Эдвард Лонгстрит Бодин" ruling_only = yes }
+			has_country_leader = { name = "Л. Рон Хаббард" ruling_only = yes }
+			has_country_leader = { name = "Бернар Макфадден" ruling_only = yes }
 				}
 			}
 			country_event = {
@@ -4322,7 +4322,7 @@ focus_tree = {
 			}
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst" } 
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" } 
 		}
 		ai_will_do = {
 			factor = 5
@@ -4782,7 +4782,7 @@ focus_tree = {
 				}
 				AND = {
 				has_government = authoritarian_democrat
-				NOT = { has_country_leader = { ruling_only = yes name = "William Randolph Hearst"} }
+				NOT = { has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"} }
 				}
 				has_government = social_conservative
 				has_government = market_liberal
@@ -6291,7 +6291,7 @@ focus_tree = {
 			add_popularity = { ideology = totalist popularity = -0.05 }
 			hidden_effect = {
 				if = {
-				limit = { has_country_leader = { ruling_only = yes name = "William Randolph Hearst" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст" } }
 				country_event = {
 				id = pacificstates.234
 				days = 5
@@ -6760,7 +6760,7 @@ focus_tree = {
 				is_ai = no
 				}
 				NEE = { is_in_faction_with = CAN }
-			}
+			    }
 			}
 			CAN = {
 			country_event = {
@@ -6768,7 +6768,7 @@ focus_tree = {
 			days = 2
 				}
 			}
-		}
+		    }
 			}
 		}
 	}
@@ -6817,7 +6817,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -7944,7 +7944,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -8025,7 +8025,7 @@ focus_tree = {
 		}
 		bypass = {
 			has_government = market_liberal
-		has_country_flag = CAL_republicans_win_twice
+		    has_country_flag = CAL_republicans_win_twice
 		}
 		available_if_capitulated = yes
 		relative_position_id = CAL_market_liberals_in_power
@@ -8464,7 +8464,7 @@ focus_tree = {
 			has_government = social_liberal
 			NOT = {
 			has_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				ruling_only = yes
 			}
 			}
@@ -8473,7 +8473,7 @@ focus_tree = {
 			has_government = social_liberal
 			NOT = {
 			has_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				ruling_only = yes
 			}
 			}
@@ -9032,7 +9032,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -9737,7 +9737,7 @@ focus_tree = {
 			swap_ideas = {
 			remove_idea = CAL_new_nationalism_idea2
 			add_idea = CAL_new_nationalism_idea3
-			}
+			}	
 			add_political_power = 50
 			add_stability = 0.04
 		}
@@ -9861,7 +9861,7 @@ focus_tree = {
 				PAR = {
 					NOT = {
 						has_country_leader = {
-							name = "Señor Largo"
+							name = "Сеньор Ларго"
 							ruling_only = yes
 						}
 					}
@@ -9923,7 +9923,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -9998,7 +9998,7 @@ focus_tree = {
 			has_country_flag = CAL_liberals_won_twice_flag
 			NOT = {
 			has_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				ruling_only = yes
 			}
 			}
@@ -10008,7 +10008,7 @@ focus_tree = {
 			has_country_flag = CAL_liberals_won_twice_flag
 			NOT = {
 			has_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				ruling_only = yes
 			}
 			}
@@ -11213,7 +11213,7 @@ focus_tree = {
 			limit = {
 				has_global_flag = CAL_peaceoutgang
 				}
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}
@@ -11896,7 +11896,7 @@ focus_tree = {
 			add_idea = CAL_cultural_exchange_idea_2
 			}
 			add_stability = 0.05
-			navy_experience = 50
+						navy_experience = 50
 			increase_ruling_party_popularity_by_5 = yes
 			hidden_effect = {
 			country_event = {
@@ -11919,10 +11919,10 @@ focus_tree = {
 		focus = CAL_friends_in_the_east
 		}
 		available = {
-		has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
+		has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }
 		}
 		bypass = {
-		has_country_leader = { ruling_only = yes name = "Ralph Townsend" }
+		has_country_leader = { ruling_only = yes name = "Ральф Таунсенд" }	
 		}
 		mutually_exclusive = {
 		focus = CAL_thornburg_appointed
@@ -12054,10 +12054,10 @@ focus_tree = {
 		focus = CAL_friends_in_the_east
 		}
 		available = {
-		has_country_leader = { ruling_only = yes name = "Max Thornburg" }
+		has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
 		}
 		bypass = {
-		has_country_leader = { ruling_only = yes name = "Max Thornburg" }
+		has_country_leader = { ruling_only = yes name = "Макс Торнбург" }	
 		}
 		mutually_exclusive = {
 		focus = CAL_townsend_appointed
@@ -12178,7 +12178,7 @@ focus_tree = {
 		}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Max Thornburg" }
+		has_country_leader = { ruling_only = yes name = "Макс Торнбург" }
 		}
 		hidden_effect = {
 			country_event = {
@@ -12196,14 +12196,14 @@ focus_tree = {
 		icon = {
 			trigger = {
 			NOT = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 				}
 			}
 			value = GFX_goal_CAL_nomura_appointed
 		}
 		icon = {
 			trigger = {
-			has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+			has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 			}
 			value = GFX_goal_CAL_yamaguchi_appointed
 		}
@@ -12214,15 +12214,15 @@ focus_tree = {
 		}
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-		has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+		has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+		has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 			}
 		}
 		bypass = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-		has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
-			}
+		has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+		has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
+			}	
 		}
 		mutually_exclusive = {
 		focus = CAL_townsend_appointed
@@ -12266,14 +12266,14 @@ focus_tree = {
 		if = {
 		limit = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+		has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 			}
 		}
 		country_event = pacificstates.365
 		}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+		has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 		}
 		country_event = pacificstates.364
 		}
@@ -12331,8 +12331,8 @@ focus_tree = {
 		if = {
 		limit = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Kichisaburō Nomura" }
-		has_country_leader = { ruling_only = yes name = "Tamon Yamaguchi" }
+		has_country_leader = { ruling_only = yes name = "Качисабуро Номура" }
+		has_country_leader = { ruling_only = yes name = "Тамон Ямагути" }
 			}
 		}
 		remove_country_leader_trait = appointed_from_tokyo
@@ -12794,7 +12794,7 @@ focus_tree = {
 				limit = {
 					has_global_flag = CAL_peaceoutgang
 					}
-					hidden_effect = {
+					hidden_effect = {	
 						country_event = { id =  KX_california.48 days = 7 }
 					}
 				}
@@ -12812,7 +12812,7 @@ focus_tree = {
 		available = {
 		has_country_flag = PSA_1937_election_occured
 		OR = { 
-			has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 			has_completed_focus = CAL_the_house_always_wins
 			has_completed_focus = CAL_media_blackout
 			has_government = social_conservative
@@ -12930,8 +12930,8 @@ focus_tree = {
 		focus = CAL_denounce_race_hatred
 		}
 		available = {
-			OR = { 
-				has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+			OR = {
+				has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 				has_completed_focus = CAL_the_house_always_wins
 				has_completed_focus = CAL_media_blackout
 			}
@@ -13025,7 +13025,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+				has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 				has_completed_focus = CAL_the_house_always_wins
 				has_completed_focus = CAL_media_blackout
 			}
@@ -13200,10 +13200,10 @@ focus_tree = {
 				has_completed_focus = CAL_japan_in_command
 				has_completed_focus = CAL_million_sons_saved
 				has_completed_focus = CAL_benevolence_and_progress
-				has_government = social_conservative
-				has_government = market_liberal
-				has_government = social_liberal
-				has_government = social_democrat
+			has_government = social_conservative
+			has_government = market_liberal
+			has_government = social_liberal
+			has_government = social_democrat
 				has_socialist_government = yes
 			}
 		}
@@ -13298,7 +13298,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+				has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 				has_completed_focus = CAL_the_house_always_wins
 				has_completed_focus = CAL_media_blackout
 				has_government = social_conservative
@@ -13403,31 +13403,31 @@ focus_tree = {
 				}
 				NOT = {
 					AND = {
-						NEE = { 
+					NEE = { 
 							exists = yes
-							has_country_flag = NEE_claimed_america
-							is_ally_of_ROOT = no
-						}
+						has_country_flag = NEE_claimed_america
+						is_ally_of_ROOT = no
 					}
+				}
 					AND = {
-						TXS = { 
+					TXS = { 
 							exists = yes
-							has_country_flag = TXS_claimed_america
-							is_ally_of_ROOT = no
-						}
+						has_country_flag = TXS_claimed_america
+						is_ally_of_ROOT = no
 					}
+				}
 					AND = {
-						NYC = {
+					NYC = { 
 							exists = yes
-							has_country_flag = NYC_can_invade_america
-							is_ally_of_ROOT = no
-						}
+						has_country_flag = NYC_can_invade_america
+						is_ally_of_ROOT = no
 					}
+				}
 					AND = {
-						BBR = {
+					BBR = {	
 							exists = yes
-							has_country_flag = BBR_claimed_america
-							is_ally_of_ROOT = no
+						has_country_flag = BBR_claimed_america
+						is_ally_of_ROOT = no
 						}
 					}
 				}
@@ -13990,7 +13990,7 @@ focus_tree = {
 			add_ideas = USA_league_of_america_1
 			if = {
 				limit = { is_in_faction = no }
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_anti_imperial
 				icon = GFX_faction_anti_imperial_league
@@ -14210,7 +14210,7 @@ focus_tree = {
 			if = {
 				limit = {
 				FROM = {
-				is_in_faction_with = ROOT
+					is_in_faction_with = ROOT
 				}
 				}
 				FROM = {
@@ -14222,18 +14222,18 @@ focus_tree = {
 						instant_build = yes
 						}
 					}
-				}
+				}	
 				}
 				else = {
 					random_owned_controlled_state = {
 						add_extra_state_shared_building_slots = 2
-						add_building_construction = {
-							type = arms_factory
-							level = 2
-							instant_build = yes
-							}
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
 					}
 				}
+			}
 			if = {
 				limit = {
 					is_faction_leader = yes
@@ -14470,9 +14470,9 @@ focus_tree = {
 		x = -2
 		y = 2
 		bypass = {
-			AST = {
+		AST = {
 				OR = {
-					exists = no
+		exists = no
 					NOT = { is_in_faction_with = ROOT }
 				}
 			}
@@ -15352,7 +15352,7 @@ focus_tree = {
 				has_socialist_government = yes
 				exists = yes 
 			}
-		}
+		    }
 			create_wargoal = {
 			type = annex_everything
 			target = FOP
@@ -15422,7 +15422,7 @@ focus_tree = {
 		y = 4
 
 		ai_will_do = {
-			factor = 10
+				factor = 10
 		}
 
 		completion_reward = {
@@ -15864,7 +15864,7 @@ focus_tree = {
 		NOT = {
 			controls_state = 101
 				}
-			}	
+			}
 		}
 		relative_position_id = CAL_american_imperialism
 		x = 0
@@ -15883,8 +15883,8 @@ focus_tree = {
 			    }
 			}
 			else = {
-				DEN = {
-				country_event = ustates.670
+			DEN = {
+			country_event = ustates.670
 				}
 			}
 		}
@@ -16258,7 +16258,7 @@ focus_tree = {
 		id = CAL_arnold_coup
 		icon = GFX_goal_CAL_arnold
 		cost = 5.00
-		available = {
+		available = {	
 			always = no
 		}
 		
@@ -16279,7 +16279,7 @@ focus_tree = {
 		id = CAL_nation_of_visionaries
 		icon = GFX_goal_CAL_visionary
 		cost = 5.00
-		available = {
+		available = {	
 			always = no
 		}
 		prerequisite = {
@@ -16310,13 +16310,13 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Howard Hughes"
+				name = "Говард Хьюз"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Howard Hughes"
+				name = "Говард Хьюз"
 				ruling_only = yes
 			}
 		}
@@ -16591,7 +16591,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_nation_of_visionaries"
 			add_ideas = CAL_new_propaganda_machine
-		}
+		}	
 	}
 	focus = {
 		id = CAL_a_dictarorship_of_wealth
@@ -16631,7 +16631,7 @@ focus_tree = {
 			}
 			add_political_power = 150
 			add_war_support = 0.05
-			hidden_effect = {
+			hidden_effect = {	
 				country_event = { id = KX_california.45 days = 13 }
 			}
 		}
@@ -16647,13 +16647,13 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Walt Disney"
+				name = "Уолт Дисней"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Walt Disney"
+				name = "Уолт Дисней"
 				ruling_only = yes
 			}
 		}
@@ -16794,10 +16794,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = CAL_atomic_age
+			add_tech_bonus = {
+				name = CAL_atomic_age
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -16931,7 +16931,7 @@ focus_tree = {
 				remove_idea = CAL_art_of_propaganda
 				add_idea = CAL_cult_of_personality
 			}
-			hidden_effect = {
+			hidden_effect = {	
 				country_event = { id = KX_california.46 days = 13 }
 			}
 		}
@@ -16948,7 +16948,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Howard Hughes"
+				name = "Говард Хьюз"
 				ruling_only = yes
 			}
 		}
@@ -17261,11 +17261,11 @@ focus_tree = {
 		y = 1
 		available = {
 			has_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				ruling_only = yes
 			}
 		}
-		
+
 		cost = 1
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -17356,7 +17356,7 @@ focus_tree = {
 			}
 			CAL_add_research_slot = yes
 			add_political_power = 75
-			add_stability = 0.04
+			add_stability = 0.04	
 			hidden_effect = {
 				country_event = {
 					id = KX_california.21
@@ -17782,7 +17782,7 @@ focus_tree = {
 				name = CAL_japan_junta_party
 			}
 			create_country_leader = {
-				name = "Tamon Yamaguchi"
+				name = "Тамон Ямагути"
 				desc = "POLITICS_TAMON_YAMAGUCHI_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Tamon_Yamaguchi.png"
 				expire = "1.1.1"
@@ -17807,7 +17807,7 @@ focus_tree = {
 			}
 			set_country_flag = CAL_japanese_colony
 			set_cosmetic_tag = CAL_JAP
-			add_popularity = {
+			add_popularity = {	
 				ideology = national_populist
 				popularity = 0.34
 			}
@@ -17969,7 +17969,7 @@ focus_tree = {
 			hidden_effect = {
 				set_country_flag = PSA_Norton_america
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -17979,7 +17979,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -17989,7 +17989,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -17999,7 +17999,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -18009,7 +18009,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -18019,7 +18019,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -18029,7 +18029,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					desc = "POLITICS_CAL_NORTON_II_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_II.png"
 					expire = "1.1.1"
@@ -18426,9 +18426,9 @@ focus_tree = {
 		id = CAL_million_sons_saved
 		icon = GFX_goal_CAL_Saving_Million_Sons
 		cost = 5.00
-		available = {
+		available = {	
 			has_country_flag = CAL_million_sons
-		}
+				}
 		bypass = { 
 			has_country_flag = CAL_million_sons
 		}
@@ -18451,11 +18451,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_million_sons_saved
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -4
@@ -18467,19 +18467,19 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_million_sons_saved"
-			random_owned_state = {
-				limit = {
-					is_core_of = CAL
-					is_controlled_by = CAL
-					industrial_complex > 0
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
+		random_owned_state = {
+			limit = {
+				is_core_of = CAL
+				is_controlled_by = CAL
+				industrial_complex > 0
 			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 		}
 	}
 	focus = {
@@ -18489,10 +18489,10 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_industry_for_million_sons
 		}
-		available = {
+		available = {	
 		OR = {
-			has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-			has_country_leader = { ruling_only = yes name = "George Marshall"}
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
 				}
 		}
 		relative_position_id = CAL_million_sons_saved
@@ -18533,11 +18533,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_industry_for_million_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -5
@@ -18552,18 +18552,18 @@ focus_tree = {
 			add_stability = 0.10
 			increase_ruling_party_popularity_by_5 = yes
 			random_owned_state = {
-				limit = {
-					is_core_of = CAL
-					is_controlled_by = CAL
-					industrial_complex > 0
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
+			limit = {
+				is_core_of = CAL
+				is_controlled_by = CAL
+				industrial_complex > 0
 			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
 		}
 	}
 	focus = {
@@ -18573,11 +18573,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_build_up_lesser_fortunate_areas
 		}
-		available = {
+		available = {	
 		OR = {
-			has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-			has_country_leader = { ruling_only = yes name = "George Marshall"}
-		}
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -5
@@ -18614,10 +18614,10 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_build_up_capital
 		}
-		available = {
+		available = {	
 		OR = {
-			has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-			has_country_leader = { ruling_only = yes name = "George Marshall"}
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
 				}
 		}
 		relative_position_id = CAL_million_sons_saved
@@ -18650,11 +18650,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_towns_into_cities
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -4
@@ -18666,33 +18666,33 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_million_sons_saved"
-			add_ideas = CAL_economy_no_greed 
-			random_owned_state = {
-				limit = {
-					is_core_of = CAL
-					is_controlled_by = CAL
-					industrial_complex > 0
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
+						add_ideas = CAL_economy_no_greed 
+		random_owned_state = {
+			limit = {
+				is_core_of = CAL
+				is_controlled_by = CAL
+				industrial_complex > 0
 			}
-			random_owned_state = {
-				limit = {
-					is_core_of = CAL
-					is_controlled_by = CAL
-					industrial_complex > 0
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
 			}
+		}
+		random_owned_state = {
+			limit = {
+				is_core_of = CAL
+				is_controlled_by = CAL
+				industrial_complex > 0
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 		}
 	}
 	focus = {
@@ -18702,11 +18702,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_million_sons_saved
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 4
@@ -18732,11 +18732,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_army_without_million_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 5
@@ -18759,11 +18759,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_necessary_demobilization
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 5
@@ -18776,10 +18776,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_million_sons_saved"
 			add_research_slot = 1
-			country_event = {
-				id = pacificstates.250
-				days = 1
-			}
+						country_event = {
+							id = pacificstates.250
+							days = 1
+						}
 			add_tech_bonus = {
 				name = infantry_bonus
 				bonus = 1
@@ -18795,11 +18795,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_army_without_million_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 3
@@ -18833,11 +18833,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_lessen_need_for_mils
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 3
@@ -18874,11 +18874,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_found_RAND
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 4
@@ -18890,8 +18890,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_million_sons_saved"
-			decrease_conscription = yes
-			add_ideas = CAL_army_without_sons
+						decrease_conscription = yes
+						add_ideas = CAL_army_without_sons
 			random_owned_state = {
 				add_building_construction = {
 					type = air_base
@@ -18914,11 +18914,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_million_sons_saved
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 0
@@ -18940,11 +18940,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_prosperity_for_million_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 1
@@ -18984,11 +18984,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_no_need_for_political_greed
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 1
@@ -19027,11 +19027,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_prosperity_for_million_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -1
@@ -19073,11 +19073,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_no_need_for_radicals
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 			has_completed_focus = CAL_get_rid_of_ogliarchs
 		}
 		relative_position_id = CAL_million_sons_saved
@@ -19107,11 +19107,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_get_rid_of_ogliarchs
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 0
@@ -19137,11 +19137,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_an_army_withour_our_sons
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 1
@@ -19171,11 +19171,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_prospering_economy_for_prospering_citizens
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = -1
@@ -19188,7 +19188,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAL_million_sons_saved"
 			add_stability = 0.09
-			hidden_effect = {
+			hidden_effect = { 
 				remove_ideas = CAL_army_without_sons 
 			}
 			add_ideas = CAL_marshalls_economy
@@ -19204,11 +19204,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAL_marshall_bros
 		}
-		available = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Henry H. Arnold"}
-				has_country_leader = { ruling_only = yes name = "George Marshall"}
-			}
+		available = {	
+		OR = {
+			has_country_leader = { ruling_only = yes name = "Генри Арнолд"}
+			has_country_leader = { ruling_only = yes name = "Джордж Маршалл"}
+				}
 		}
 		relative_position_id = CAL_million_sons_saved
 		x = 0
@@ -19224,7 +19224,7 @@ focus_tree = {
 			add_ideas = CAL_pacific_dreamin
 			if = {
 				limit = { has_global_flag = CAL_peaceoutgang }
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}

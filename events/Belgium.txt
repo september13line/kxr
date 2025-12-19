@@ -1052,7 +1052,7 @@ country_event = { #NP takes control
 			}
 			BEL = {
 				create_country_leader = {
-					name = "Joris Van Severen"
+					name = "Йорис Ван Северен"
 					desc = "POLITICS_JORIS_SEVEREN_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Joris_Van_Severen.png"
 					expire = "1.1.1"
@@ -1091,7 +1091,7 @@ country_event = { #KP takes control
 
 	is_triggered_only = yes
 
-	option = { #Paul Van Zeeland
+	option = { #Поль ван Зеланд
 		name = bel.38.a
 		set_country_flag = KP
 		BEL = {
@@ -1108,7 +1108,7 @@ country_event = { #KP takes control
 	}
 }
 
-country_event = { #Albert I returns
+country_event = { #Альберт I returns
 	id = bel.41
 	immediate = { log = "[GetDateText]: [Root.GetName]: event bel.41" }
 	title = bel.41.t
@@ -1117,11 +1117,11 @@ country_event = { #Albert I returns
 
 	is_triggered_only = yes
 
-	option = { #Albert I
+	option = { #Альберт I
 		name = bel.41.a
 		remove_ideas = BEL_King_Exile
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1131,7 +1131,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1141,7 +1141,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1151,7 +1151,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1161,7 +1161,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1171,7 +1171,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1181,7 +1181,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			desc = "POLITICS_ALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
@@ -1191,7 +1191,7 @@ country_event = { #Albert I returns
 			}
 		}
 		create_field_marshal = {
-			name = "Albert I "
+			name = "Альберт I "
 			portrait_path = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			traits = {
 				politically_connected
@@ -1205,7 +1205,7 @@ country_event = { #Albert I returns
 			logistics_skill = 2
 		}
 		create_field_marshal = {
-			name = "Leopold III "
+			name = "Леопольд III "
 			portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Leopold_III.png"
 			traits = {
 				politically_connected
@@ -3024,15 +3024,15 @@ country_event = { #France Decides on Wallonian Protection
 			modifier = {
 				add = 100
 				OR = {
-					WLL = {
-						is_ai = no
-					}
+				WLL = {
+					is_ai = no
+				}
 					has_game_rule = {
 						rule = WLL_political_path
 						option = WLL_POLITICAL_PATH_FRANCH_GUARANTEE
-					}
-					has_game_rule = {
-						rule = WLL_political_path
+			}
+				has_game_rule = {
+					rule = WLL_political_path
 						option = WLL_POLITICAL_PATH_FRENCH_INTERNATIONALE
 					}
 				}
@@ -3052,9 +3052,9 @@ country_event = { #France Decides on Wallonian Protection
 			modifier = {
 				factor = 0
 				OR = {
-					WLL = {
-						is_ai = no
-					}
+				WLL = {
+					is_ai = no
+				}
 					has_game_rule = {
 						rule = WLL_political_path
 						option = WLL_POLITICAL_PATH_FRANCH_GUARANTEE
@@ -3462,8 +3462,8 @@ country_event = { #Flanders makes a deal with Germany
 			set_nationality = {
 			target_country = WLL
 			character = BEL_Georges_Lemaitre
+				}
 			}
-		    }
 		}
 		Release_Flanders = yes
 		hidden_effect = {
@@ -3521,8 +3521,8 @@ country_event = { #Flanders makes a deal with Germany
 			set_nationality = {
 			target_country = WLL
 			character = BEL_Georges_Lemaitre
+				}
 			}
-		    }
 		}
 		Release_Flanders = yes
 		hidden_effect = {
@@ -3708,13 +3708,13 @@ country_event = { #Treaty of Terneuzen goes in effect
 		hidden_effect = {
 		if = {
 			limit = { HOL = { NOT = { is_in_faction_with = GER } } }
-			GER = {
+		GER = {
 			country_event = {
 				id = bel.771
 				days = 3
 			}
 			}
-		}
+			}
 		}
 	}
 
@@ -4220,7 +4220,7 @@ country_event = { #German Forces return to Germany
 				name = BEL_Interim_Governement_party
 			}
 			create_country_leader = {
-				name = "Belgian Parliament"
+				name = "Бельгийский парламент"
 				desc = "POLITICS_BELGIAN_PARLIMENT_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Parliament.png"
 				expire = "1.1.1"
@@ -4804,7 +4804,7 @@ country_event = { #
 			}
 			BEL = {
 				create_country_leader = {
-					name = "Joris Van Severen"
+					name = "Йорис Ван Северен"
 					desc = "POLITICS_JORIS_SEVEREN_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Joris_Van_Severen.png"
 					expire = "1.1.1"
@@ -7282,7 +7282,7 @@ country_event = { #Flemish Coup 3
 			set_stability = 0.20
 			add_manpower = -2500
 			create_country_leader = {
-				name = "Joris Van Severen"
+				name = "Йорис Ван Северен"
 				desc = "POLITICS_JORIS_SEVEREN_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Joris_Van_Severen.png"
 				expire = "1.1.1"
@@ -7334,7 +7334,7 @@ country_event = { #Flemish Coup 3
 		BEL = {
 			set_stability = 0.32
 			create_country_leader = {
-				name = "Belgian Parliament"
+				name = "Бельгийский парламент"
 				desc = "POLITICS_BELGIAN_PARLIMENT_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Parliament.png"
 				expire = "1.1.1"
@@ -7409,7 +7409,7 @@ country_event = { #Flemish Coup 4 Choice between dictatorship or democracy
 		}
 		add_stability = 0.100
 		create_country_leader = {
-			name = "Belgian Parliament"
+			name = "Бельгийский парламент"
 			desc = "POLITICS_BELGIAN_PARLIMENT_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Parliament.png"
 			expire = "1.1.1"
@@ -7466,7 +7466,7 @@ country_event = { #Flemish Coup 4 Choice between dictatorship or democracy
 		set_country_flag = Coup
 		add_stability = -0.050
 		create_country_leader = {
-			name = "Joris Van Severen"
+			name = "Йорис Ван Северен"
 			desc = "POLITICS_JORIS_SEVEREN_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Joris_Van_Severen.png"
 			expire = "1.1.1"
@@ -7528,7 +7528,7 @@ country_event = { #The army steps in and restores order
 		name = flawa.34.a
 		add_stability = 0.100
 		create_country_leader = {
-			name = "Georges Deffontaine"
+			name = "Жорж Дефонтен"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Deffontaine.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -7802,7 +7802,7 @@ country_event = { #Elections
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Adelbert"
+			name = "Адальберт"
 			desc = "POLITICS_ADALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 			expire = "1.1.1"
@@ -7851,7 +7851,7 @@ country_event = { #Elections
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Adelbert"
+			name = "Адальберт"
 			desc = "POLITICS_ADALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 			expire = "1.1.1"
@@ -7897,7 +7897,7 @@ country_event = { #Elections
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Adelbert"
+			name = "Адальберт"
 			desc = "POLITICS_ADALBERT_I_DESC"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 			expire = "1.1.1"
@@ -8277,7 +8277,7 @@ country_event = { #The Commune of Belgium declares its independence
 		}
 		WLL = {
 			create_country_leader = {
-				name = "Julien Lahaut"
+				name = "Жюльен Ляо"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Julien_Lahaut.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
@@ -8331,7 +8331,7 @@ country_event = { #De Standaard publishes the Generale Bank dossier
 	}
 }
 
-country_event = { #Paul Van Zeeland speaks to Parliament
+country_event = { #Поль ван Зеланд speaks to Parliament
 	id = flawa.51
 	immediate = { log = "[GetDateText]: [Root.GetName]: event flawa.51" }
 	title = flawa.51.t
@@ -8597,7 +8597,7 @@ country_event = { #1938 Elections
 			add_ideas = BEL_Albert_Janssen_sec_sco
 
 			create_country_leader = {
-				name = "Adelbert"
+				name = "Адальберт"
 				desc = "POLITICS_ADALBERT_I_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
@@ -8633,7 +8633,7 @@ country_event = { #1938 Elections
 			add_ideas = BEL_Albert_Janssen_sec_sco
 
 			create_country_leader = {
-				name = "Adelbert"
+				name = "Адальберт"
 				desc = "POLITICS_ADALBERT_I_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
@@ -8683,7 +8683,7 @@ country_event = { #The first 'Talentelling'
 			name  = BEL_Volksunie_party
 		}
 		create_country_leader = {
-			name = "Corneille Heymans"
+			name = "Корней Хейманс"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Corneille_Heymans.png"
 			expire = "1.1.1"
 			ideology = authdem_flemish_nationalism_subtype

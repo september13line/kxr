@@ -426,11 +426,11 @@ RUS_Duma = {
 			RUS_russian_monarch = no
 			NOT = {
 				has_country_leader = {
-					name = "The State Council"
+					name = "Государственный совет"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "The Senate"
+					name = "Сенат"
 					ruling_only = yes
 				}
 			}
@@ -1404,7 +1404,7 @@ RUS_Duma = {
 			OR = {
 				psr_in_power = yes
 				lkdp_in_power = yes
-				pp_in_power = yes
+			pp_in_power = yes
 			}
 			RUS_russian_monarch = no
 			NOT = { has_country_flag = RUS_president_elections_campaign }
@@ -1867,7 +1867,7 @@ RUS_Duma = {
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = "The electoral threshold is lower than 7%"
+				tooltip = "Избирательный порог ниже 7%"
 				check_variable = { RUS_parliament_barrier < 0.07 }
 			}
 		}
@@ -1879,8 +1879,8 @@ RUS_Duma = {
 		}
 		cost = 50
 		remove_effect = {
-			custom_effect_tooltip = "Right now the electoral threshold is [?RUS_parliament_barrier|:0%]"
-			custom_effect_tooltip = "The electoral threshold will be raised by 1%"
+			custom_effect_tooltip = "В настоящее время избирательный порог составляет [?RUS_parliament_barrier|:0%]"
+			custom_effect_tooltip = "Избирательный порог будет повышен на 1%"
 			add_to_variable = { RUS_parliament_barrier = 0.01 }
 		}
 	}
@@ -1892,7 +1892,7 @@ RUS_Duma = {
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = "The electoral threshold is higher than 0%"
+				tooltip = "Избирательный порог выше 0%"
 				check_variable = { RUS_parliament_barrier > 0 }
 			}
 		}
@@ -1904,8 +1904,8 @@ RUS_Duma = {
 		}
 		cost = 50
 		remove_effect = {
-			custom_effect_tooltip = "Right now the electoral threshold is [?RUS_parliament_barrier|:0%]"
-			custom_effect_tooltip = "The electoral threshold will be lowered by 1%"
+			custom_effect_tooltip = "В настоящее время избирательный порог составляет [?RUS_parliament_barrier|:0%]"
+			custom_effect_tooltip = "Избирательный порог будет снижен на 1%"
 			add_to_variable = { RUS_parliament_barrier = -0.01 }
 		}
 	}
@@ -1932,7 +1932,7 @@ RUS_Duma = {
 			RUS_increase_nsp_pop_small = yes
 			clr_country_flag = bolsheviks_banned
 			clr_country_flag = nsp_banned
-			set_country_flag = bolsheviks_allowed			
+			set_country_flag = bolsheviks_allowed
 			add_stability = 0.07
 		}
 	}
@@ -2411,7 +2411,7 @@ RUS_democratic_politics_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision timeout RUS_petrograd_campaigning"
 			RUS_moscow_campaign = yes
 		}
-	}	
+	}
 	RUS_plsr_campaign = {
 		icon = GFX_decision_eng_propaganda_campaigns
 		visible = {
@@ -2451,7 +2451,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_plsr_campaign"
-			RUS_increase_plsr_pop_election = yes
+				RUS_increase_plsr_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2508,7 +2508,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_nsp_campaign"
-			RUS_increase_nsp_pop_election = yes
+				RUS_increase_nsp_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2565,7 +2565,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_rsdrp_campaign"
-			RUS_increase_rsdrp_pop_election = yes
+				RUS_increase_rsdrp_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2625,7 +2625,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_psr_campaign"
-			RUS_increase_psr_pop_election = yes
+				RUS_increase_psr_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2691,10 +2691,10 @@ RUS_democratic_politics_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_lkdp_campaign"
 			if = {
 				limit = { has_country_flag = kdp_united }
-				RUS_increase_kdp_pop_election = yes
+					RUS_increase_kdp_pop_election = yes
 			}
 			else = {
-				RUS_increase_lkdp_pop_election = yes
+					RUS_increase_lkdp_pop_election = yes
 			}
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
@@ -2745,7 +2745,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_pp_campaign"
-			RUS_increase_pp_pop_election = yes
+				RUS_increase_pp_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2795,7 +2795,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_rkdp_campaign"
-			RUS_increase_rkdp_pop_election = yes
+				RUS_increase_rkdp_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2859,7 +2859,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_vns_campaign"
-			RUS_increase_vns_pop_election = yes
+				RUS_increase_vns_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2915,7 +2915,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_nrpr_campaign"
-			RUS_increase_nrpr_pop_election = yes
+				RUS_increase_nrpr_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2964,7 +2964,7 @@ RUS_democratic_politics_category = {
 		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_nsnp_campaign"
-			RUS_increase_nsnp_pop_election = yes
+				RUS_increase_nsnp_pop_election = yes
 			hidden_effect = { RUS_calculate_polling_averages = yes }
 		}
 	}
@@ -2985,26 +2985,26 @@ RUS_Passing_Laws = {
 		
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision timeout RUS_LAW_DUMA_LEVEL_DEADLINE"
-			set_variable = { RUS_law_level = 2 }
-			if = {
-				limit = {						
-					NOT = { check_variable = { Duma_Bill_Status^3 = 2 } }
-				}
-				activate_mission = RUS_LAW_SENATE_LEVEL_DEADLINE
-			}
-			else = {
-				hidden_effect = { RUS_pass_current_law = yes }
-				clear_law_country_flag = yes
-			}
+					set_variable = { RUS_law_level = 2 }
+					if = {
+						limit = {						
+							NOT = { check_variable = { Duma_Bill_Status^3 = 2 } }
+						}
+						activate_mission = RUS_LAW_SENATE_LEVEL_DEADLINE
+					}
+					else = {
+						hidden_effect = { RUS_pass_current_law = yes }
+						clear_law_country_flag = yes
+					}
 			custom_effect_tooltip = RUS_LAW_PASSED_EFFECTS
 			effect_tooltip = { RUS_pass_current_law = yes }
-		}
+					}
 		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision timeout RUS_LAW_DUMA_LEVEL_DEADLINE"
 			custom_effect_tooltip = RUS_LAW_NOT_PASSED_EFFECTS
 			RUS_not_pass_current_law = yes
-			clear_law_country_flag = yes
-			set_variable = { RUS_law_level = 0 }
+					clear_law_country_flag = yes
+					set_variable = { RUS_law_level = 0 }
 			clr_country_flag = RUS_LAW_CHANGING_CONSTITUTION
 		}
 	}
@@ -3023,33 +3023,33 @@ RUS_Passing_Laws = {
 		
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_LAW_SENATE_LEVEL_DEADLINE"
-			clr_country_flag = RUS_LAW_SENATE_LEVEL
-			if = {
-				limit = {
-					has_country_flag = RUS_monarch_is_president
-					NOT = { check_variable = { Duma_Bill_Status^3 = 2 } }
-				}
-				set_variable = { RUS_law_level = 4 }
-				activate_mission = RUS_LAW_MONARCH_DECIDES_DEADLINE
-			}
-			else_if = {
-				limit = {
-					NOT = { 
-						has_country_leader = { name = "The Senate" ruling_only = yes }
-						has_country_leader = { name = "The State Council" ruling_only = yes }
+					clr_country_flag = RUS_LAW_SENATE_LEVEL
+					if = {
+						limit = {
+							has_country_flag = RUS_monarch_is_president
+							NOT = { check_variable = { Duma_Bill_Status^3 = 2 } }
+						}
+						set_variable = { RUS_law_level = 4 }
+						activate_mission = RUS_LAW_MONARCH_DECIDES_DEADLINE
+					}
+					else_if = {
+						limit = {
+							NOT = { 
+								has_country_leader = { name = "Сенат" ruling_only = yes }
+						has_country_leader = { name = "Государственный совет" ruling_only = yes }
 						check_variable = { Duma_Bill_Status^14 = 3 } 
 						check_variable = { Duma_Bill_Status^3 = 2 } 
 						check_variable = { Duma_Bill_Status^46 = 2 } 
-					}
-					RUS_russian_monarch = no
-				}
+							}
+							RUS_russian_monarch = no
+						}
 				set_variable = { RUS_law_level = 3 }
-				activate_mission = RUS_LAW_PRESIDENT_DECIDES_DEADLINE
-			}
-			else = {
-				hidden_effect = { RUS_pass_current_law = yes }
-				clear_law_country_flag = yes
-			}
+						activate_mission = RUS_LAW_PRESIDENT_DECIDES_DEADLINE
+					}
+					else = {
+						hidden_effect = { RUS_pass_current_law = yes }
+						clear_law_country_flag = yes
+					}
 			custom_effect_tooltip = RUS_LAW_PASSED_EFFECTS
 			effect_tooltip = { RUS_pass_current_law = yes }
 				}
@@ -3087,13 +3087,13 @@ RUS_Passing_Laws = {
 			RUS_pass_current_law = yes
 			clear_law_country_flag = yes
 			add_to_variable = { RUS_president_impeach = -1 }
-		}
-	}
+								}
+							}
 	RUS_LAW_MONARCH_DECIDES_DEADLINE = {
 		icon = GFX_decision_generic_political_discourse
 		activation = { #manually activated
 			always = no 
-		}
+						}
 		available = {
 			hidden_trigger = {
 				always = no
@@ -3108,11 +3108,11 @@ RUS_Passing_Laws = {
 			custom_effect_tooltip = RUS_LAW_PASSED
 			set_variable = { RUS_law_level = 0 }
 			RUS_pass_current_law = yes
-			clear_law_country_flag = yes
+						clear_law_country_flag = yes
 			multiply_variable = { RUS.popular_support_monarchy = 1.1 }
 			multiply_variable = { RUS.workers_support_monarchy = 1.1 }
-		}
-	}
+					}
+				}
 	
 	RUS_LAW_PRESIDENT_VETO = {
 		icon = GFX_decision_generic_political_discourse
@@ -3230,7 +3230,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100			
+			base = 100
 		}
 		cost = 5
 		days_remove = 5
@@ -3459,7 +3459,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_liberal_government = no
@@ -3599,7 +3599,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_liberal_government = no
@@ -3724,7 +3724,7 @@ RUS_Passing_Laws = {
 			if = {
 				limit = { check_variable = { Duma_Bill_Status^3 = 2 } }
 				has_a_lkdp_president = no
-			}		
+			}			
 		}
 		cancel_trigger = {
 			hidden_trigger = {
@@ -3735,7 +3735,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_democratic_government = no
@@ -3870,7 +3870,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_democratic_government = no
@@ -4005,7 +4005,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_democratic_government = no
@@ -4140,7 +4140,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_right_democratic_government = no
@@ -4280,7 +4280,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_right_democratic_government = no
@@ -4547,7 +4547,7 @@ RUS_Passing_Laws = {
 			}
 		}
 		ai_will_do = {
-			base = 100	
+			base = 100
 			modifier = {
 				add = -80
 				has_right_democratic_government = no
@@ -5169,7 +5169,7 @@ RUS_Monarchy_Referendum_category = {
 						AND = {
 							NOT = { has_country_flag = RUS_monarchy_rig }
 							OR = {
-								check_variable = { RUS_monarchy_votes_yes < 0.5 }
+							check_variable = { RUS_monarchy_votes_yes < 0.5 }
 								check_variable = { RUS_monarchy_votes_yes = 0.5 }
 							}
 						}
@@ -5198,7 +5198,7 @@ RUS_Monarchy_Referendum_category = {
 						AND = {
 							has_country_flag = RUS_monarchy_rig
 							OR = {
-								check_variable = { RUS_monarchy_votes_yes < 0.5 }
+							check_variable = { RUS_monarchy_votes_yes < 0.5 }
 								check_variable = { RUS_monarchy_votes_yes = 0.5 }
 							}
 						}

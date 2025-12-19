@@ -65,33 +65,33 @@ if = {
 
 ### Navy - MtG ###
 
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
 	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
 	ship_hull_super_heavy = 1
 	
-	basic_naval_mines = 1
+		basic_naval_mines = 1
 
-	## Modules##
+		## Modules##
 	basic_battery = 1
 	basic_light_battery = 1
 	
 	basic_heavy_battery = 1
 	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
 	### Transport ###
 	mtg_transport = 1
@@ -121,28 +121,28 @@ set_popularities = {
 	national_populist = 0
 }
 create_country_leader = {
-	name = "Rosendo Dorame"
+	name = "Росендо Дораме"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Rosendo_Dorame.png"
 	expire = "1.1.1"
 	ideology = syn_cowboy_communalism_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Fernando Palomares"
+	name = "Фернандо Паломарес"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Fernando_Palomares.png"
 	expire = "1.1.1"
 	ideology = cowboy_communalism_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "PLM-IWW Popular Assembly"
+	name = "Народное собрание ФЛМ-КРП"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_PLM_IWW_Congress.png"
 	expire = "1.1.1"
 	ideology = socdem_cowboy_communalism_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Andrew Jackson Bettwy"
+	name = "Эндрю Джексон Беттви"
 	desc = "POLITICS_BETTWY_DESC"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Andrew_Jackson_Bettwy.png"
 	expire = "1.1.1"
@@ -150,7 +150,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Barry Goldwater"
+	name = "Барри Голдуотер"
 	desc = "POLITICS_GOLDWATER_DESC"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Goldwater.png"
 	expire = "1.1.1"
@@ -158,7 +158,7 @@ create_country_leader = {
 	traits = {ARZ_golden_water}
 }
 create_country_leader = {
-	name = "Robert Taylor Jones"
+	name = "Роберт Тейлор Джонс"
 	desc = "POLITICS_ROBERT_TAYLOR_DESC"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Robert_Taylor_Jones.png"
 	expire = "1.1.1"
@@ -166,7 +166,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Barry Goldwater"
+	name = "Барри Голдуотер"
 	desc = "POLITICS_GOLDWATER_DESC"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Goldwater.png"
 	expire = "1.1.1"
@@ -174,7 +174,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Barry Goldwater"
+	name = "Барри Голдуотер"
 	desc = "POLITICS_GOLDWATER_DESC"
 	picture = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Goldwater.png"
 	expire = "1.1.1"
@@ -192,7 +192,7 @@ add_ideas = {
 }
 ### Field Marshal
 create_field_marshal = {# Harry Wheeler
-	name = "Harry Cornwall Wheeler"
+	name = "Гарри Корнуолл Уилер"
 	desc = "POLITICS_HARRY_WHEELER_DESC"
 	portrait_path = "gfx/leaders/ARZ/Portrait_ARZ_Harry_C_Wheeler.png"
 	traits = {
@@ -211,7 +211,7 @@ create_field_marshal = {# Harry Wheeler
 
 ### Corps Commander
 create_corps_commander = {#
-	name = "Barry Goldwater "
+	name = "Барри Голдуотер "
 	portrait_path = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Goldwater_general.png"
 	traits = {
 		trait_reckless
@@ -228,7 +228,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Pelham D. Glassford"
+	name = "Пелхэм Глассфорд"
 	portrait_path = "gfx/leaders/ARZ/Portrait_ARZ_Pelham_D_Glassford.png"
 	traits = {
 		artillery_officer
@@ -245,7 +245,7 @@ create_corps_commander = {#
 
 ### Navy
 create_navy_leader = {#
-	name = "Marty Robbins"
+	name = "Марти Роббинс"
 	portrait_path = "gfx/leaders/ARZ/Portrait_ARZ_Marty_Robbins.png"
 	traits = {
 		politically_connected

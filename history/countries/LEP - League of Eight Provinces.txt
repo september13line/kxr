@@ -104,19 +104,19 @@ add_offsite_building = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 
 diplomatic_relation = { country = GEA relation = non_aggression_pact }
 GEA = { give_military_access = LEP }
@@ -181,27 +181,27 @@ recruit_character = LEP_Chien_Shiung_Wu
 recruit_character = LEP_Zhu_Jiaren
 
 create_country_leader = {
-	name = "Board of Directors"
+	name = "Совет директоров"
 	picture = "gfx/leaders/AOG/Portrait_AOG_Board.png"
 	expire = "1.1.1"
 	ideology = free_market_capitalist_subtype
 }
 create_country_leader = {
-	name = "Qian Zhuolun"
+	name = "Цянь Чжуорэнь"
 	desc = "POLITICS_LEP_QIAN_ZHUOREN_DESC"
 	picture = "gfx/leaders/LEP/Portrait_LEP_Qian_Zhuoren.png"
 	expire = "1.1.1"
 	ideology = authoritarian_democrat_subtype
 }
 create_country_leader = {
-	name = "Sun Chuanfang"
+	name = "Сунь Чуаньфан"
 	desc = "POLITICS_LEP_SUN_CHUANFANG_DESC"
 	picture = "gfx/leaders/LEP/Portrait_LEP_Sun_Chuanfang.png"
 	expire = "1.1.1"
 	ideology = pataut_warlordism_subtype
 }
 create_country_leader = {
-	name = "Zhang Tianran"
+	name = "Чжан Тяньжань"
 	picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Tianran.png"
 	expire = "1.1.1"
 	ideology = consistent_way_subtype
@@ -210,7 +210,7 @@ create_country_leader = {
 ### Field Marshals ###
 
 create_field_marshal = {
-	name = "Sun Chuanfang "
+	name = "Сунь Чуаньфан"
 	desc = "POLITICS_LEP_SUN_CHUANFANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Sun_Chuanfang.png"
 	traits = {
@@ -232,7 +232,7 @@ create_field_marshal = {
 ### Corps Commanders
 
 create_corps_commander = { # Anhui Province
-	name = "Chen Tiaoyuan"
+	name = "Чэнь Тяоюань"
 	desc = "POLITICS_ANQ_CHEN_TIAOYUAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/ANQ/Portrait_ANQ_Chen_Tiaoyuan.png"
 	traits = {
@@ -250,7 +250,7 @@ create_corps_commander = { # Anhui Province
 }
 
 create_corps_commander = { # Nanjing
-	name = "Qi Xieyuan"
+	name = "Ци Сеюань"
 	desc = "POLITICS_LEP_QI_XIEYUAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Qi_Xieyuan.png"
 	traits = {
@@ -269,7 +269,7 @@ create_corps_commander = { # Nanjing
 }
 
 create_corps_commander = { # Zhejiang Province
-	name = "Chen Yi"
+	name = "Чэнь И"
 	desc = "POLITICS_LEP_CHEN_YI_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Chen_Yi.png"
 	traits = {
@@ -289,7 +289,7 @@ create_corps_commander = { # Zhejiang Province
 }
 
 create_corps_commander = { # Jiangsu Province
-	name = "Zheng Junyan"
+	name = "Чжэн Цзюньян"
 	desc = "POLITICS_LEP_ZHENG_JUNYAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Zheng_Junyan.png"
 	traits = {
@@ -307,7 +307,7 @@ create_corps_commander = { # Jiangsu Province
 }
 
 create_corps_commander = { # Jiangxi Province
-	name = "Deng Ruzuo"
+	name = "Дэн Рузуо"
 	desc = "POLITICS_LEP_DENG_RUZUO_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Deng_Ruzuo.png"
 	traits = {
@@ -328,7 +328,7 @@ create_corps_commander = { # Jiangxi Province
 }
 
 create_corps_commander = { # Fujian Province
-	name = "Zhou Yinren"
+	name = "Чжоу Иньрэн"
 	desc = "POLITICS_LEP_ZHOU_YINREN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Zhou_Yinren.png"
 	traits = {
@@ -347,7 +347,7 @@ create_corps_commander = { # Fujian Province
 }
 
 create_corps_commander = {
-	name = "Shangguan Yunxiang"
+	name = "Шаньгуань Юньсян"
 	desc = "POLITICS_LEP_SHANGGUAN_YUNXIANG_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Shangguan_Yunxiang.png"
 	traits = {
@@ -367,7 +367,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zhou Fengqi"
+	name = "Чжоу Фэнцзи"
 	desc = "POLITICS_LEP_ZHOU_FENGQI_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Zhou_Fengqi.png"
 	traits = {
@@ -382,7 +382,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tang Enbo"
+	name = "Тан Эньбо"
 	desc = "POLITICS_LEP_TANG_ENBO_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Tang_Enbo.png"
 	traits = {
@@ -400,7 +400,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Shi Yousan"
+	name = "Ши Юйсань"
 	desc = "POLITICS_LEP_SHI_YOUSAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Shi_Yousan.png"
 	traits = {
@@ -418,7 +418,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Qian Zhuoren"
+	name = "Цянь Чжуорэнь"
 	desc = "POLITICS_LEP_QIAN_ZHUOREN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Qian_Zhuoren.png"
 	traits = {
@@ -434,7 +434,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Qiu Qingquan"
+	name = "Цюй Цинцюань"
 	desc = "POLITICS_LEP_QIU_QINGQUAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Qiu_Qingquan.png"
 	traits = {
@@ -453,7 +453,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gui Yongqing"
+	name = "Гуй Юнцин"
 	desc = "POLITICS_LEP_GUI_YONGQING_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Gui_Yongqing.png"
 	traits = {
@@ -471,7 +471,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fang Benren"
+	name = "Фан Бэньжэнь"
 	desc = "POLITICS_LEP_FANG_BENREN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Fang_Benren.png"
 	traits = {
@@ -490,7 +490,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ge Jing'en"
+	name = "Гэ Цзиньэнь"
 	desc = "POLITICS_LEP_GE_JINGEN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Ge_Jingen.png"
 	traits = {
@@ -508,7 +508,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Guo Chan"
+	name = "Го Чань"
 	desc = "POLITICS_LEP_GUO_CHAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Guo_Chan.png"
 	traits = {
@@ -526,7 +526,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Li Rentao"
+	name = "Ли Жэньтао"
 	desc = "POLITICS_LEP_LI_RENTAO_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Li_Rentao.png"
 	traits = {
@@ -544,7 +544,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lin Wei"
+	name = "Линь Вэй"
 	desc = "POLITICS_LEP_LIN_WEI_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Lin_Wei.png"
 	traits = {
@@ -562,7 +562,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Liu Zongji"
+	name = "Лю Цзунцзи"
 	desc = "POLITICS_LEP_LIU_ZONGJI_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Liu_Zongji.png"
 	traits = {
@@ -580,7 +580,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ma Yuren"
+	name = "Ма Южэнь"
 	desc = "POLITICS_LEP_MA_YUREN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Ma_Yuren.png"
 	traits = {
@@ -599,7 +599,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Meng Zhaoyue"
+	name = "Мэн Чжаоюэ"
 	desc = "POLITICS_LEP_MENG_ZHAOYUE_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Meng_Zhaoyue.png"
 	traits = {
@@ -616,7 +616,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Qian Zongze"
+	name = "Цянь Цзунцзэ"
 	desc = "POLITICS_LEP_QIAN_ZONGZE_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Qian_Zongze.png"
 	traits = {
@@ -634,7 +634,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wang Haoji"
+	name = "Ван Хаоцзи"
 	desc = "POLITICS_LEP_WANG_HAOJI_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Wang_Haoji.png"
 	traits = {
@@ -652,7 +652,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Xie Hongxun"
+	name = "Се Хунсюнь"
 	desc = "POLITICS_LEP_XIE_HONGXUN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Xie_Hongxun.png"
 	traits = {
@@ -671,7 +671,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Xu Peigen"
+	name = "Сюй Пэйгэн"
 	desc = "POLITICS_LEP_XU_PEIGEN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Xu_Peigen.png"
 	traits = {
@@ -690,7 +690,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zhou Yan"
+	name = "Чжоу Янь"
 	desc = "POLITICS_LEP_ZHOU_YAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Zhou_Yan.png"
 	traits = {
@@ -707,7 +707,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Li Shijia"
+	name = "Ли Шицзя"
 	desc = "POLITICS_LEP_LI_SHIJIA_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Li_Shijia.png"
 	traits = {
@@ -724,7 +724,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Wu Zhennan"
+	name = "У Чжэньнань"
 	desc = "POLITICS_LEP_WU_ZHENNAN_DESC"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Wu_Zhennan.png"
 	traits = {
@@ -742,7 +742,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Yang Shuzhuang"
+	name = "Ян Шуачжуан"
 	portrait_path = "gfx/leaders/LEP/Portrait_LEP_Yang_Shuzhuang.png"
 	desc = "LEP_YANG_SHUZHUANG_DESC"
 	traits = {

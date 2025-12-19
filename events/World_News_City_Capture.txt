@@ -204,6 +204,7 @@ news_event = {
 			tag = event_target:old_controller
 			event_target:new_controller = {
 				tag = FRA
+				tag = GRU
 			}
 		}
 	}
@@ -215,6 +216,7 @@ news_event = {
 			event_target:new_controller = {
 				NOT = {
 					tag = FRA
+					tag = GRU
 				}
 			}
 		}
@@ -226,6 +228,7 @@ news_event = {
 			tag = event_target:new_controller
 			event_target:new_controller = {
 				tag = FRA
+				tag = GRU
 			}
 		}
 	}
@@ -237,6 +240,7 @@ news_event = {
 			event_target:new_controller = {
 				NOT = {
 					tag = FRA
+					tag = GRU
 				}
 			}
 		}
@@ -248,9 +252,20 @@ news_event = {
 			NOT = {
 				tag = event_target:old_controller
 				tag = event_target:new_controller
+				tag = GRU
 			}
 		}
 	}
+
+	option = { #
+	name = worldnews.253.c.gru
+	trigger = {
+		tag = event_target:new_controller
+		event_target:new_controller = {
+			tag = GRU
+		}
+	}
+}
 }
 
 # The Fall of Madrid

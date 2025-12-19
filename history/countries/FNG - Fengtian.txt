@@ -86,23 +86,23 @@ add_offsite_building = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 }
 
 country_event = { #Introduction Event
@@ -268,40 +268,40 @@ set_variable = { FNG_japanese_tensions = 0 }
 set_variable = { FNG_japanese_tensions_frame = 0 }
 
 create_country_leader = {
-	name = "Guan Xiangying"
+	name = "Гуань Сянъин"
 	picture = "gfx/leaders/FNG/Portrait_FNG_Guan_Xiangying.png"
 	expire = "1.1.1"
 	ideology = syn_tridemism_subtype
 	traits = { our_right_to_survive }
 }
 create_country_leader = {
-	name = "Ruan Zhenduo"
+	name = "Руан Чжэньдуо"
 	picture = "gfx/leaders/FNG/Portrait_FNG_Ruan_Zhenduo.png"
 	expire = "1.1.1"
 	ideology = pan_asianism_subtype
 }
 create_country_leader = {
-	name = "Liang Shiyi"
-	picture = "gfx/leaders/FNG/Portrait_FNG_Liang_Shiyi.png"
+	name = "Лян Шии"
+	picture = "gfx/leaders/FNG/Portrait_FNG_Ruan_Zhenduo.png"
 	expire = "1.1.1"
 	ideology = soccon_oligarchy_subtype
 }
 create_country_leader = {
-	name = "Zhang Zuolin"
+	name = "Чжан Цзолинь"
 	desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 	picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 	expire = "1.1.1"
 	ideology = authdem_warlordism_subtype
 }
 create_country_leader = {
-	name = "Zhang Zuolin"
+	name = "Чжан Цзолинь"
 	desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 	picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 	expire = "1.1.1"
 	ideology = pataut_warlordism_subtype
 }
 #create_country_leader = {
-#	name = "Hóngwu"
+#	name = "Хунъу"
 #	desc = "POLITICS_HONGWU_DESC"
 #	picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 #	expire = "1.1.1"
@@ -326,7 +326,7 @@ set_convoys = 30
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Zhang Zuolin "
+	name = "Чжан Цзолинь "
 	desc = "POLITICS_ZHANG_ZUOLIN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 	traits = {
@@ -348,7 +348,7 @@ create_field_marshal = {
 ### Corps Commanders ###
 
 create_corps_commander = {
-	name = "Zhang Xueliang "
+	name = "Чжан Сюэлян "
 	desc = "POLITICS_ZHANG_XUELIANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang_Army.png"
 	traits = {
@@ -366,7 +366,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Francis Arthur Sutton"
+	name = "Фрэнсис Артур Саттон"
 	desc = ""
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Francis_Arthur_Sutton.png"
 	traits = {
@@ -384,7 +384,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wu Junsheng"
+	name = "У Цзюньшэн"
 	desc = "POLITICS_WU_JUNSHENG_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Wu_Junsheng.png"
 	traits = {
@@ -400,7 +400,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zhang Zuoxiang"
+	name = "Чжан Цзосян"
 	desc = "POLITICS_ZHANG_ZUOXIANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuoxiang.png"
 	traits = {
@@ -417,7 +417,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Yang Yuting "
+	name = "Ян Юйтин "
 	desc = "POLITICS_YANG_YUTING_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Yang_Yuting.png"
 	traits = {
@@ -434,7 +434,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wang Shuchang"
+	name = "Ван Шучан"
 	desc = "POLITICS_WANG_SHUCHANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Wang_Shuchang.png"
 	traits = {
@@ -450,7 +450,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ma Zhanshan"
+	name = "Ма Чжаньшань"
 	desc = "POLITICS_MA_ZHANSHAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Ma_Zhanshan.png"
 	traits = {
@@ -466,7 +466,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wan Fulin"
+	name = "Вань Фулинь"
 	desc = "POLITICS_WAN_FULIN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Wan_Fulin.png"
 	traits = {
@@ -482,7 +482,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zang Shiyi "
+	name = "Цзан Шии "
 	desc = "POLITICS_ZANG_SHIYI_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zang_Shiyi.png"
 	traits = {
@@ -499,7 +499,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zhang Haipeng"
+	name = "Чжан Хайпэн"
 	desc = "POLITICS_ZHANG_HAIPENG_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zhang_Haipeng.png"
 	traits = {
@@ -516,7 +516,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tang Yulin"
+	name = "Тан Юйлинь"
 	desc = "POLITICS_TANG_YULIN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Tang_Yulin.png"
 	traits = {
@@ -532,7 +532,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Bao Wenyue"
+	name = "Бао Вэньюэ"
 	desc = "POLITICS_BAO_WENYUE_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Bao_Wenyue.png"
 	traits = {
@@ -546,7 +546,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zhang Jinghui"
+	name = "Чжан Цзинхуэй"
 	desc = "POLITICS_ZHANG_JINGHUI_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zhang_Jinghui.png"
 	traits = {
@@ -562,7 +562,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Feng Zhanhai"
+	name = "Фэн Чжаньхай"
 	desc = "POLITICS_FENG_ZHANHAI_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Feng_Zhanhai.png"
 	traits = {
@@ -577,7 +577,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Su Bingwen"
+	name = "Су Бинвэнь"
 	desc = "POLITICS_SU_BINGWEN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Su_Bingwen.png"
 	traits = {
@@ -592,7 +592,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Yu Zhishan"
+	name = "Юй Чжишань"
 	desc = "POLITICS_YU_ZHISHAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Yu_Zhishan.png"
 	traits = {
@@ -607,7 +607,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Zou Zuoha"
+	name = "Цзоу Цзяхуа"
 	desc = "POLITICS_ZOU_ZUOHA_ARMY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Zou_Zuohua.png"
 	traits = {
@@ -623,7 +623,7 @@ create_corps_commander = {
 ### Admirals ###
 
 create_navy_leader = {
-	name = "Shen Honglie"
+	name = "Шэнь Хунли"
 	desc = "POLITICS_SHEN_HONGLIE_NAVY_DESC"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_Shen_Honglie.png"
 	traits = {
@@ -638,7 +638,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Yin Zuoqian"
+	name = "Инь Цзуоцянь"
 	portrait_path = "gfx/leaders/FNG/Portrait_FNG_yin_zuoqian.png"
 	traits = { cuts_corners spotter }
 	skill = 2

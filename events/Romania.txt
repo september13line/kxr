@@ -1568,8 +1568,8 @@ country_event = {
 			every_other_country = {
 				limit = { is_ally_with = event_target:ROM_transylvania_target }
 				country_event = romania.50
-			}
-			if = {
+				}
+				if = {
 				limit = { event_target:ROM_transylvania_target = { original_tag = TRS } }
 				annex_country = { target = event_target:ROM_transylvania_target transfer_troops = yes }
 			}
@@ -1749,7 +1749,7 @@ country_event = {
 	option = {
 		name = romania.49.a # awesome
 		add_stability = 0.05
-		delete_unit_template_and_units = { division_template = "Transylvanian Militia" }
+		delete_unit_template_and_units = { division_template = "Трансильванское ополчение" }
 		if = {
 			limit = { has_country_flag = ROM_TRS_IG }
 			custom_effect_tooltip = ROM_pol_cap
@@ -2008,7 +2008,7 @@ country_event = {
 
 		army_experience = 5
 		delete_unit_template_and_units = {
-			division_template = "Romanian Volunteers"
+			division_template = "Румынские добровольцы"
 		}
 	}
 }
@@ -2154,7 +2154,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_country_leader = {
-			name = "Carol II"
+			name = "Кароль II"
 			ruling_only = yes
 		}
 	}
@@ -2636,7 +2636,7 @@ country_event = {
 				days = 14
 			}
 			if = {
-				limit = { has_template = "Transylvanian Militia" }
+				limit = { has_template = "Трансильванское ополчение" }
 				country_event = {
 					id = romania.143
 					days = 7
@@ -2973,21 +2973,21 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
 				ideology = legionarism_subtype
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -3456,12 +3456,12 @@ country_event = {
 			if = {
 				limit = { 
 					has_country_leader = { 
-						name = "Nicolae I"
+						name = "Николай I"
 						ruling_only = yes
 					}
 				}
 				create_country_leader = {
-					name = "Mihai I"
+					name = "Михай I"
 					desc = "POLITICS_MICHAEL_I_DESC"
 					picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 					expire = "1.1.1"
@@ -3469,7 +3469,7 @@ country_event = {
 					traits = { ROM_protector_of_democracy }
 				}
 				create_country_leader = {
-					name = "Mihai I"
+					name = "Михай I"
 					desc = "POLITICS_MICHAEL_I_DESC"
 					picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 					expire = "1.1.1"
@@ -3477,7 +3477,7 @@ country_event = {
 					traits = { ROM_protector_of_democracy }
 				}
 				create_country_leader = {
-					name = "Mihai I"
+					name = "Михай I"
 					desc = "POLITICS_MICHAEL_I_DESC"
 					picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 					expire = "1.1.1"
@@ -3501,7 +3501,7 @@ country_event = {
 		text = romania.86.d1
 		trigger = {
 			has_country_leader = {
-				name = "Carol II"
+				name = "Кароль II"
 				ruling_only = yes
 			}
 		}
@@ -3510,7 +3510,7 @@ country_event = {
 		text = romania.86.d2
 		trigger = {
 			has_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				ruling_only = yes
 			}
 			NOT = {
@@ -3522,7 +3522,7 @@ country_event = {
 		text = romania.86.d3
 		trigger = {
 			has_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				ruling_only = yes
 			}
 			has_country_flag = ROM_carol_killed
@@ -3532,7 +3532,7 @@ country_event = {
 		text = romania.86.d4
 		trigger = {
 			has_country_leader = {
-				name = "Nicolae I"
+				name = "Николае I"
 				ruling_only = yes
 			}
 		}
@@ -3548,7 +3548,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Mihai I"
+					name = "Михай I"
 					ruling_only = yes
 				}
 			}
@@ -3560,7 +3560,7 @@ country_event = {
 		name = romania.86.b
 		trigger = {
 			has_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				ruling_only = yes
 			}
 		}
@@ -4023,7 +4023,7 @@ country_event = {
 		hidden_effect = {
 			add_stability = -0.15
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -4031,7 +4031,7 @@ country_event = {
 				traits = { ROM_protector_of_democracy }
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -4039,7 +4039,7 @@ country_event = {
 				traits = { ROM_protector_of_democracy }
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -4149,7 +4149,7 @@ country_event = {
 		name = romania.98.b # officers back michael		
 		trigger = {
 			has_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				ruling_only = yes
 			}
 		}
@@ -4432,8 +4432,8 @@ country_event = {
 			news_event = romania.152 
 			news_event = romania.153 
 			if = {
-				limit = { has_template = "Legionary Veterans" }
-				delete_unit_template_and_units = { division_template = "Legionary Veterans" disband = yes }
+				limit = { has_template = "Легионы ветеранов" }
+				delete_unit_template_and_units = { division_template = "Легионы ветеранов" disband = yes }
 			}
 			if = {
 				limit = {
@@ -5373,7 +5373,7 @@ country_event = {#sham elections for natpop/pataut
 		OR = {
 			has_government = national_populist
 			has_country_leader = {
-				name = "Carol II"
+				name = "Кароль II"
 				ruling_only = yes
 			}
 		}
@@ -5406,7 +5406,7 @@ country_event = {#sham elections for natpop/pataut
 		name = romania.133.b
 		trigger = {
 			has_country_leader = {
-				name = "Carol II"
+				name = "Кароль II"
 				ruling_only = yes
 			}
 		}
@@ -5742,7 +5742,7 @@ country_event = {
 		name = romania.142.a
 		trigger = { has_socialist_government = yes }
 		create_country_leader = {
-			name = "Gheorghe Gheorghiu"
+			name = "Георге Георгиу-Деж"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Gheorghe_Gheorghiu.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -5752,7 +5752,7 @@ country_event = {
 		name = romania.142.b
 		trigger = { has_socialist_government = no }
 		create_country_leader = {
-			name = "Gheorghe Gheorghiu"
+			name = "Георге Георгиу-Деж"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Gheorghe_Gheorghiu.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -5774,7 +5774,7 @@ country_event = {
 	option = {
 		name = romania.143.a
 		delete_unit_template_and_units = {
-			division_template = "Transylvanian Militia"
+			division_template = "Трансильванское ополчение"
 		}
 		add_manpower = 5240
 	}
@@ -6419,7 +6419,7 @@ country_event = {
 	option = {
 		name = romania.172.a
 		create_corps_commander = {
-			name = "Nicolae Radescu"
+			name = "Николае Рэдеску"
 			portrait_path = "gfx/leaders/ROM/Portrait_ROM_Nicolae_Radescu.png"
 			traits = {
 				old_guard
@@ -6449,7 +6449,7 @@ country_event = {
 	option = {
 		name = romania.173.a
 		create_corps_commander = {
-			name = "Constantin Tobescu"
+			name = "Константин Тобеску"
 			portrait_path = "gfx/leaders/ROM/Portrait_ROM_Constantin_Tobescu.png"
 			traits = {
 				infantry_officer
@@ -6522,7 +6522,7 @@ country_event = {
 		name = romania.1750.a #Exile the King
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Corneliu Zelea Codreanu"
+			name = "Корнелиу Зеля Кодряну"
 			desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Corneliu_Zelea_Codreanu.png"
 			expire = "1.1.1"
@@ -6572,13 +6572,13 @@ country_event = {
 		add_stability = 0.05
 		hidden_effect = {
 			set_country_flag = ROM_Nicolae_I
-			country_event = {
-				id = romania.103
-				days = 10
+				country_event = {
+					id = romania.103
+					days = 10
 			}
 		}
 		create_country_leader = {
-			name = "Nicolae I"
+			name = "Николай I"
 			desc = "POLITICS_NICOLAE_I_DESC"
 			picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 			expire = "1.1.1"
@@ -6587,19 +6587,19 @@ country_event = {
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Nicolae I"
+				name = "Николай I"
 				desc = "POLITICS_NICOLAE_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Nicolae I"
+				name = "Николай I"
 				desc = "POLITICS_NICOLAE_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
-			}	
+			}
 		}
 	}
 }
@@ -6692,7 +6692,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Nicolae I"
+					name = "Николай I"
 					ruling_only = yes
 				}
 			}
@@ -7298,7 +7298,7 @@ country_event = { #question of the monarch
 			if = {
 				limit = { 
 					has_country_leader = {
-						name = "Carol II"
+						name = "Кароль II"
 						ruling_only = yes
 					}
 				}
@@ -7492,7 +7492,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Nicolae I"
+			name = "Николай I"
 			desc = "POLITICS_NICOLAE_I_DESC"
 			picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 			expire = "1.1.1"
@@ -7501,14 +7501,14 @@ country_event = {
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Nicolae I"
+				name = "Николай I"
 				desc = "POLITICS_NICOLAE_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Nicolae I"
+				name = "Николай I"
 				desc = "POLITICS_NICOLAE_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_Romania_Nicolae_I.png"
 				expire = "1.1.1"
@@ -8154,19 +8154,19 @@ country_event = {
 	id = romania.224
 	immediate = { log = "[GetDateText]: [Root.GetName]: event romania.224 FROM = [From.GetName]" }
 	title = {
-		trigger = { has_country_leader = { name = "Mihai I" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Михай I" ruling_only = yes } }
 		text = romania.224.a.t
 	}
 	title = {
-		trigger = { has_country_leader = { name = "Nicolae I" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Николай I" ruling_only = yes } }
 		text = romania.224.b.t
 	}
 	desc = {
-		trigger = { has_country_leader = { name = "Mihai I" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Михай I" ruling_only = yes } }
 		text = romania.224.a.d
 	}
 	desc = {
-		trigger = { has_country_leader = { name = "Nicolae I" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Николай I" ruling_only = yes } }
 		text = romania.224.b.d
 	}
 	picture = GFX_report_event_ROM_king_seal
@@ -8176,7 +8176,7 @@ country_event = {
 	option = {
 		name = romania.224.a
 		create_country_leader = {
-			name = "Alexandru Cantacuzino"
+			name = "Александру Кантакузино"
 			desc = "POLITICS_CANTACUZINO_DESC"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Alexandru_Cantacuzino.png"
 			expire = "1.1.1"
@@ -8187,7 +8187,7 @@ country_event = {
 	option = {
 		name = romania.224.b
 		create_country_leader = {
-			name = "Mihai II"
+			name = "Михай II"
 			desc = "POLITICS_MIHAIL_II_STURDZA_DESC"
 			picture = "gfx/leaders/MOL/Portrait_MOL_Mihail_Sturdza.png"
 			expire = "1.1.1"
@@ -8471,7 +8471,7 @@ country_event = {
 			}
 			effect_tooltip = { retire_country_leader = yes }
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -8479,7 +8479,7 @@ country_event = {
 				traits = { ROM_protector_of_democracy }
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
@@ -8487,7 +8487,7 @@ country_event = {
 				traits = { ROM_protector_of_democracy }
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"

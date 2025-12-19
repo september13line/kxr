@@ -103,7 +103,7 @@ country_event = { #Kalmyks
 	
 	option = {
 		name = dkb.5.a
-		add_stability = -0.05				
+		add_stability = -0.05
 		random_unit_leader = {
 			limit = { has_id = 68286 }
 			promote_to_marshal = yes
@@ -200,13 +200,13 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = dkb.6.a				
+		name = dkb.6.a
 		ai_chance = {
 			factor = 55
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = { rule = DKB_path option = DKB_PATH_KRASNOV }
+				has_game_rule = { rule = DKB_path option = DKB_PATH_KRASNOV }
 					has_game_rule = { rule = DKB_path option = DKB_PATH_KRASNOV_IND }
 				}
 			}
@@ -233,7 +233,7 @@ country_event = {
 			}
 		}
 		add_stability = -0.05
-		add_political_power = -50		
+		add_political_power = -50
 		set_country_flag = DKB_krasnov_stays
 		unlock_national_focus = DKB_after
 		add_timed_idea = {
@@ -256,7 +256,7 @@ country_event = { #Anti-Krasnov Coup
 		name = dkb.7.a
 		add_stability = -0.10
 		create_country_leader = {
-			name = "Afrikan Bogaewsky"
+			name = "Африкан Богаевский"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Bogaevskiy.png"
 			expire = "1.1.1"
 			ideology = authdem_cossack_democracy_subtype
@@ -350,7 +350,7 @@ country_event = { #Anti-Krasnov Coup
 			retire = yes
 		}
 		delete_unit_template_and_units = {
-			division_template = "Diviziya ROA"
+			division_template = "Дивизия РОА"
 			disband = yes #will refund equipment and manpower
 		}		
 		every_unit_leader = {
@@ -385,7 +385,7 @@ country_event = { #Anti-Krasnov Coup
 			promote_leader = yes
 		}
 		create_country_leader = {
-			name = "Andrey Vlasov"
+			name = "Андрей Власов"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -420,13 +420,13 @@ country_event = { #Anti-Krasnov Coup
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Bronislav Kaminski"
+				name = "Бронислав Каминский"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Bronislav_Kaminski.png"
 				expire = "1.1.1"
 				ideology = militarism_subtype
 			}
 			create_country_leader = {
-				name = "Boris Shteyfon"
+				name = "Борис Штейфон"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Shteyfon.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -477,7 +477,7 @@ country_event = { #Anti-Krasnov Coup
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Wilhelm Ritter von Leeb"
+				name = "Вильгельм фон Лееб"
 				picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Ritter_von_Leeb_kr.png"
 				expire = "1.1.1"
 				ideology = militarism_subtype
@@ -586,13 +586,13 @@ country_event = {
 		}
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Semyon Budyonny"
+			name = "Семён Будённый"
 			picture = "gfx/leaders/RUS/Portrait_SOV_Semyon_Budyonny.png"
 			expire = "1.1.1"
 			ideology = tot_red_cossack_dictatorship_subtype
 		}
 		create_country_leader = {
-			name = "Semyon Budyonny"
+			name = "Семён Будённый"
 			picture = "gfx/leaders/RUS/Portrait_SOV_Semyon_Budyonny.png"
 			expire = "1.1.1"
 			ideology = red_cossack_dictatorship_subtype
@@ -631,7 +631,7 @@ country_event = {
 				long_name = DKB_totalist_party_long
 			}
 			set_party_name = {
-				ideology = radical_socialist
+			ideology = radical_socialist
 				name = DKB_totalist_party
 				long_name = DKB_totalist_party_long
 			}
@@ -650,13 +650,13 @@ country_event = {
 		}
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Aleksey Avtonomov"
+			name = "Алексей Автономов"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Aleksey_Avtonomov.png"
 			expire = "1.1.1"
 			ideology = red_cossack_dictatorship_subtype
 		}
 		create_country_leader = {
-			name = "Aleksey Avtonomov"
+			name = "Алексей Автономов"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Aleksey_Avtonomov.png"
 			expire = "1.1.1"
 			ideology = tot_red_cossack_dictatorship_subtype
@@ -1150,7 +1150,7 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { 
+			limit = {
 				NOT = { has_completed_focus = DKB_De_Cossackisation }
 			}
 			custom_effect_tooltip = DKB_decossackisation_tt
@@ -1179,8 +1179,8 @@ country_event = {
 					remove_idea = DKB_peoples_cossack_3
 					add_idea = DKB_peoples_don_3
 				}
-			}
-			hidden_effect = {
+		}
+		hidden_effect = {
 				country_event = {
 					id = dkb.14
 					days = 20
@@ -1195,7 +1195,7 @@ country_event = {
 		}
 		add_stability = 0.1
 		add_popularity = { ideology = radical_socialist popularity = 0.10 }
-	}	
+	}
 }
 country_event = { 
 
@@ -1535,7 +1535,7 @@ country_event = { #Revolution
 			DKB_Vselevod_Merkulov_sec_rso
 		}
 		create_country_leader = {
-			name = "Semyon Budyonny"
+			name = "Семён Будённый"
 			picture = "gfx/leaders/RUS/Portrait_SOV_Semyon_Budyonny.png"
 			expire = "1.1.1"
 			ideology = red_cossack_dictatorship_subtype
@@ -1881,7 +1881,7 @@ country_event = { #tsar
 	option = {
 		name = dkb.110.a
 				create_country_leader = {
-			name = "Zemsky Sobor"
+			name = "Земский собор"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tsar_Of_All_Russias.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1913,7 +1913,7 @@ country_event = { #what the tsar doin
 	option = {
 		name = dkb.111.a
 		create_country_leader = {
-			name = "Mikhail II"
+			name = "Михаил II"
 			picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1923,7 +1923,7 @@ country_event = { #what the tsar doin
 	option = {
 		name = dkb.111.b
 			create_country_leader = {
-			name = "Vsevolod I"
+			name = "Всеволод I"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1933,7 +1933,7 @@ country_event = { #what the tsar doin
 	option = {
 	name = dkb.111.c
 		create_country_leader = {
-			name = "Roman I"
+			name = "Роман I"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1943,7 +1943,7 @@ country_event = { #what the tsar doin
 	option = {
 		name = dkb.111.e
 			create_country_leader = {
-			name = "Vladimir III"
+			name = "Владимир III"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1953,7 +1953,7 @@ country_event = { #what the tsar doin
 		option = {
 		name = dkb.111.f
 			create_country_leader = {
-			name = "Felix I"
+			name = "Феликс I"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov_Drip.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -2210,7 +2210,7 @@ country_event = { #expel the garrsion
 		
 		set_province_name = {
 			id = 6174
-			name = "St. Petersburg"
+			name = "Санкт-Петербург"
 		}
 		
 
@@ -2231,7 +2231,7 @@ country_event = { #expel the garrsion
 		add_manpower = 1500
 		hidden_effect = {
             division_template = {
-                name = "Belyye Emigranty"
+                name = "Белые Эмигранты"
 				division_names_group = DKB_INF_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -2241,9 +2241,9 @@ country_event = { #expel the garrsion
 			}
 		}
 		218 = {
-			create_unit = { division = "name = \"Belyye Emigranty 1ya\" division_template = \"Belyye Emigranty\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
-			create_unit = { division = "name = \"Belyye Emigranty 2ya\" division_template = \"Belyye Emigranty\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
-			create_unit = { division = "name = \"Belyye Emigranty 3ya\" division_template = \"Belyye Emigranty\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
+			create_unit = { division = "name = \"1-я дивизия белоэмигрантов\" division_template = \"Белые Эмигранты\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
+			create_unit = { division = "name = \"2-я дивизия белоэмигрантов\" division_template = \"Белые Эмигранты\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
+			create_unit = { division = "name = \"3-я дивизия белоэмигрантов\" division_template = \"Белые Эмигранты\" start_experience_factor = 0.8 start_equipment_factor = 1" owner = DKB }
 		}
 		country_event = {
 		id = dkb.207 
@@ -2306,8 +2306,8 @@ country_event = { #Take shit up north
 	factor = 65
 	}
 	DKB = {
-			set_province_name = { id = 3529 name = "Tsaritsyn"}
-			217 = { set_state_name = "Tsaritsyn" }
+			set_province_name = { id = 3529 name = "Царицын"}
+			217 = { set_state_name = "Царицын" }
 			transfer_state = 217
 			transfer_state = 236
 			every_owned_state = {
@@ -2353,8 +2353,8 @@ country_event = { #Take shit up north
 				add_core_of = DKB
 			}
 		}
-		set_province_name = { id = 3529 name = "Tsaritsyn"}
-		217 = { set_state_name = "Tsaritsyn" }
+		set_province_name = { id = 3529 name = "Царицын"}
+		217 = { set_state_name = "Царицын" }
 		hidden_effect = {
 			SOV = {
 				country_event = {
@@ -2439,7 +2439,7 @@ country_event = {
 		}
                         hidden_effect = {
                         division_template = {
-                name = "Sicherheitsbrigade"
+                name = "Зенитная бригада"
                         division_names_group = DKB_INF_01
                         regiments = {
                         militia = { x = 0 y = 0 }
@@ -2454,11 +2454,11 @@ country_event = {
 			}
 			218 = {
 			create_unit = {
-				division = "name = \"1st Sicherheitsbrigade\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 1 start_equipment_factor = 1"
+				division = "name = \"1-я Зенитная бригада\" division_template = \"Зенитная бригада\" start_experience_factor = 1 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-				division = "name = \"2nd Sicherheitsbrigade\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 1 start_equipment_factor = 1"
+				division = "name = \"2-я Зенитная бригада\" division_template = \"Зенитная бригада\" start_experience_factor = 1 start_equipment_factor = 1"
 			owner = DKB
 			}
 			}
@@ -2480,19 +2480,19 @@ country_event = {
 			}
 			218 = {
 			create_unit = {
-				division = "name = \"1st Ostlegionen\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+				division = "name = \"1-й Остлегион\" division_template = \"Зенитная бригада\" start_experience_factor = 0.5 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-				division = "name = \"2nd Ostlegionen\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+				division = "name = \"2-й Остлегион\" division_template = \"Зенитная бригада\" start_experience_factor = 0.5 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-				division = "name = \"3rd Ostlegionen\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+				division = "name = \"3-й Остлегион\" division_template = \"Зенитная бригада\" start_experience_factor = 0.5 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-				division = "name = \"1st Kaukasisch Sicherheitsbrigade\" division_template = \"Sicherheitsbrigade\" start_experience_factor = 0.5 start_equipment_factor = 1"
+				division = "name = \"1-я Кавказская Зихергайтсбригада\" division_template = \"Зенитная бригада\" start_experience_factor = 0.5 start_equipment_factor = 1"
 			owner = DKB
 			}
 			}
@@ -2554,14 +2554,14 @@ country_event = {
 					}
 				}				
 			create_country_leader = {
-			name = "Vilgelm I"
+			name = "Вильгельм I"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Vilgelm_I.png"
 			expire = "1.1.1"
 			ideology = kleptocracy_subtype
 			traits = {}
 			}
 			create_country_leader = {
-			name = "Vilgelm I"
+			name = "Вильгельм I"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Vilgelm_I.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -2573,14 +2573,14 @@ country_event = {
 					has_global_flag = Wilhelm_II_Dead
 				}				
 			create_country_leader = {
-			name = "Vilgelm I"
+			name = "Вильгельм I"
 			picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III_field_marshall.png"
 			expire = "1.1.1"
 			ideology = kleptocracy_subtype
 			traits = {}
 			}
 			create_country_leader = {
-			name = "Vilgelm I"
+			name = "Вильгельм I"
 			picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III_field_marshall.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -2649,7 +2649,7 @@ country_event = {
 		name = DKB_paternal_autocrat_vlasov
 	}
 	create_country_leader = {
-			name = "Boris Shteyfon"
+			name = "Борис Штейфон"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Shteyfon.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -2741,7 +2741,7 @@ country_event = {
 		name = DKB_sad_pannwitz
 		}
 		create_country_leader = {
-			name = "Helmuth von Pannwitz"
+			name = "Гельмут фон Паннвиц"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Helmuth_von_Pannwitz.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
@@ -2777,7 +2777,7 @@ country_event = {
 		name = DKB_kaminski_pannwitz
 		}
 		create_country_leader = {
-			name = "Bronislav Kaminski"
+			name = "Бронислав Каминский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Bronislav_Kaminski.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2876,7 +2876,7 @@ country_event = {
 		#kill_ideology_leader = national_populist
 		hidden_effect = {
 		create_country_leader = {
-			name = "Konstantin Voskoboinik"
+			name = "Константин Воскобойник"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Konstantin_Voskoboinik.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2900,7 +2900,7 @@ country_event = {
 		#kill_ideology_leader = national_populist
 		hidden_effect = {
 		create_country_leader = {
-			name = "Konstantin Voskoboinik"
+			name = "Константин Воскобойник"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Konstantin_Voskoboinik.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2967,7 +2967,7 @@ country_event = {
 		name = germans.24.a
 		hidden_effect = {
 		create_country_leader = {
-			name = "Collapsed Authority"
+			name = "Рухнувшая власть"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Vacancy.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2995,7 +2995,7 @@ country_event = {
 	option = { #Pannwitz
 		name = germans.240.a
 		create_country_leader = {
-			name = "Helmuth von Pannwitz"
+			name = "Гельмут фон Паннвиц"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Helmuth_von_Pannwitz.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -3009,7 +3009,7 @@ country_event = {
 	option = { #Keitel
 		name = germans.240.b
 		create_country_leader = {
-			name = "Wilhelm Keitel"
+			name = "Вильгельм Кейтель"
 			picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Keitel.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -3084,7 +3084,7 @@ country_event = { #Become authdem
 	option = { #I'm fucking out
 		name = germans.18.b
 		create_country_leader = {
-			name = "Roman I"
+			name = "Роман I"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -3092,7 +3092,7 @@ country_event = { #Become authdem
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Roman I"
+				name = "Роман I"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
@@ -3104,7 +3104,7 @@ country_event = { #Become authdem
 	option = { #fat fuck
 		name = germans.18.e
 		create_country_leader = {
-			name = "Eitel I"
+			name = "Эйтель I"
 			picture = "gfx/leaders/GER/Portrait_Germany_Prince_Eitel_Friedrich.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -3112,7 +3112,7 @@ country_event = { #Become authdem
 		}
 		hidden_effect = {
 		create_country_leader = {
-			name = "Eitel I"
+			name = "Эйтель I"
 			picture = "gfx/leaders/GER/Portrait_Germany_Prince_Eitel_Friedrich.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -3124,7 +3124,7 @@ country_event = { #Become authdem
 	option = { #sovl kino
 		name = germans.18.c
 		create_country_leader = {
-			name = "Ivan VII"
+			name = "Иван VII"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -3132,7 +3132,7 @@ country_event = { #Become authdem
 		}
 		hidden_effect = {
 		create_country_leader = {
-			name = "Ivan VII"
+			name = "Иван VII"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -3144,7 +3144,7 @@ country_event = { #Become authdem
 	option = { #sovl kino
 		name = germans.18.f
 		create_country_leader = {
-			name = "Louis I"
+			name = "Людовик I"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
@@ -3152,7 +3152,7 @@ country_event = { #Become authdem
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Louis I"
+				name = "Людовик I"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
@@ -3173,14 +3173,14 @@ country_event = { # the, the death of vighelm
 	option = {
 		name = germans.23.a
 		create_country_leader = {
-			name = "Vilgelm II"
+			name = "Вильгельм II"
 			picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III_field_marshall.png"
 			expire = "1.1.1"
 			ideology = kleptocracy_subtype
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Vilgelm II"
+				name = "Вильгельм II"
 				picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III_field_marshall.png"
 				expire = "1.1.1"
 				ideology = prussian_constitutionalism_subtype
@@ -3438,7 +3438,7 @@ country_event = { #Birth of the Union for the Struggle for the Liberation of the
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov.png"
 				expire = "1.1.1"
 				ideology = vlasovism_subtype
@@ -3504,14 +3504,14 @@ country_event = { #A New Revolution?
 			}
 			add_authdem_to_coalition = yes
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png"
 				expire = "1.1.1"
 				ideology = socdem_vlasovism_subtype
 				traits = { president_of_russian_fed }
 			}
 			if = {
-				limit = { has_country_leader = { name = "Andrey Vlasov" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Андрей Власов" ruling_only = yes } }
 				set_country_leader_portrait = { portrait = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png" }
 			}
 			country_event = {
@@ -3550,14 +3550,14 @@ country_event = { #A New Revolution?
 			}
 			add_authdem_to_coalition = yes
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png"
 				expire = "1.1.1"
 				ideology = free_market_capitalist_subtype 
 				traits = { president_of_russian_fed }
 			}
 			if = {
-				limit = { has_country_leader = { name = "Andrey Vlasov" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Андрей Власов" ruling_only = yes } }
 				set_country_leader_portrait = { portrait = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png" }
 			}
 			country_event = {
@@ -3595,14 +3595,14 @@ country_event = { #A New Revolution?
 			}
 			add_authdem_to_coalition = yes
 			create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png"
 				expire = "1.1.1"
 				ideology = paternal_socialism_subtype
 				traits = { president_of_russian_fed }
 			}
 			if = {
-				limit = { has_country_leader = { name = "Andrey Vlasov" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Андрей Власов" ruling_only = yes } }
 				set_country_leader_portrait = { portrait = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_suit.png" }
 			}
 			country_event = {
@@ -3674,14 +3674,14 @@ country_event = { #A New Revolution?
 		}
 		add_authdem_to_coalition = yes
 		create_country_leader = {
-			name = "Andrey Vlasov"
+			name = "Андрей Власов"
 			picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_vozhd.png"
 			expire = "1.1.1"
 			ideology = pataut_christian_democracy_subtype
 			traits = { vozhd_of_all_russia_vlasov }
 		}
 			if = {
-				limit = { has_country_leader = { name = "Andrey Vlasov" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Андрей Власов" ruling_only = yes } }
 				set_country_leader_portrait = { portrait = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_vozhd.png" }
 			}
 		}
@@ -3713,7 +3713,7 @@ country_event = { #A New Revolution?
 		}
 		add_authdem_to_coalition = yes
 		create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_vozhd.png"
 				expire = "1.1.1"
 				ideology = solidarism_subtype
@@ -3721,7 +3721,7 @@ country_event = { #A New Revolution?
 			}
 			if = {
 				limit = {
-					has_country_leader = { name = "Andrey Vlasov" ruling_only = yes }
+					has_country_leader = { name = "Андрей Власов" ruling_only = yes }
 				}
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_vozhd.png"
@@ -3779,7 +3779,7 @@ country_event = { #A New Revolution?
 		}
 		add_authdem_to_coalition = yes
 		create_country_leader = {
-				name = "Andrey Vlasov"
+				name = "Андрей Власов"
 				picture = "gfx/leaders/DKB/Portrait_DKB_Andrey_Vlasov_uniform.png"
 				expire = "1.1.1"
 				ideology = clientelism_subtype
@@ -4763,12 +4763,12 @@ country_event = { #Recognize novorossiya?
 		name = novoros.10.b
 		ai_chance = {
 			factor = 100
-		}		
+			}
 		effect_tooltip = {
 			set_autonomy = {
 				target = FROM
 				autonomous_state = kr_cossack_host
-			}
+		}
 		}
 		FROM = {
 			country_event = {
@@ -4797,8 +4797,8 @@ country_event = { #Recognize novorossiya?
 			}
 		}
 		restore_previous_government_type = yes
+		}
 	}
-}
 country_event = { #Recognize novorossiya?
 	id = novoros.12
 	immediate = { log = "[GetDateText]: [Root.GetName]: event novoros.12" }

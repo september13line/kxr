@@ -55,34 +55,34 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -118,14 +118,14 @@ add_ideas = {
 country_event = { id = flnrev.1 days = 2 }
 
 create_country_leader = {
-	name = "Staf De Clercq"
+	name = "Стаф де Клерк"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Staf_De_Clercq.png"
 	expire = "1.1.1"
 	ideology = natpop_flemish_nationalism_subtype 
 }
 
 create_country_leader = {
-	name = "Joris Van Severen"
+	name = "Йорис Ван Северен"
 	desc = "POLITICS_JORIS_SEVEREN_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Joris_Van_Severen.png"
 	expire = "1.1.1"
@@ -133,28 +133,28 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Raad van Vlaanderen"
+	name = "Совет Фландрии"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Flemish_Council.png"
 	expire = "1.1.1"
 	ideology = oligarchy_subtype
 }
 
 create_country_leader = {
-	name = "Frans van Cauwelaert"
+	name = "Франс Ван Каувеларт"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Frans_Van_Cauwelaert.png"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 }
 
 create_country_leader = {
-	name = "Hendrik Borginon"
+	name = "Хендрик Боргинон"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hendrik_Borginon.png"
 	expire = "1.1.1"
 	ideology = marlib_flemish_nationalism_subtype
 }
 
 create_country_leader = {
-	name = "Paul-Henri Spaak"
+	name = "Поль-Анри Спаак"
 	desc = "POLITICS_PAUL_HENRI_SPAAK_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Paul_Henri_Spaak.png"
 	expire = "1.1.1"
@@ -162,35 +162,35 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Camille Huysmans"
+	name = "Камиль Гюисманс"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Camille_Huysmans.png"
 	expire = "1.1.1"
 	ideology = socdem_democratic_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Louis Paul Boon"
+	name = "Луи-Поль Боон"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Louis_Paul_Boon.png"
 	expire = "1.1.1"
 	ideology = radsoc_liberal_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Jef Rens"
+	name = "Джеф Ренс"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Jef_Rens.png"
 	expire = "1.1.1"
 	ideology = democratic_syndicalism_subtype
 }
 
 create_country_leader = {
-	name = "Leo Frenssen"
+	name = "Лео Френссен"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Leo_Frenssen.png"
 	expire = "1.1.1"
 	ideology = technocracy_subtype
 }
 
 create_corps_commander = {
-	name = "Édouard van den Bergen"
+	name = "Эдуард ван ден Берген"
 	portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Edouard_van_den_Bergen.png"
 	traits = { artillery_officer }
 	skill = 2
@@ -201,7 +201,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jean Baptiste Piron"
+	name = "Жан Батист Пирон"
 	portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Jean_Baptiste_Piron.png"
 	traits = { trickster infantry_officer hidden_sympathies }
 	skill = 3
@@ -212,7 +212,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Victor van Strydonck de Burkel"
+	name = "Виктор ван Стридонк де Буркель"
 	portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Victor_van_Strydonck_de_Burkel.png"
 	traits = { cavalry_officer war_hero }
 	skill = 2

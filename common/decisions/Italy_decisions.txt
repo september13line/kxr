@@ -7,7 +7,7 @@ political_actions = {
 
 		visible = {
 			is_ai = no
-			has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
+			has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
 			NOT = { has_cosmetic_tag = ITA_LATIN }
 		}
 		cost = 0
@@ -659,8 +659,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			}
 			NOT = {
 			OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 				}
 			}
 			NOT = { has_war_with = INT }
@@ -1251,7 +1251,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			}
 		}
 	}
-	
+
 	SIC_leave_alliance = {
 		icon = generic_nationalism
 
@@ -1260,9 +1260,9 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 		available = {
 			has_government = national_populist
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Julius Evola" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
+				has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
+				has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+				has_country_leader = { ruling_only = yes name = "Умберто II" }
 			}
 			is_in_faction = yes 
 		}
@@ -1712,8 +1712,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			has_global_flag = FRA_created_phalanstere
 			NOT = {
 			OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 				}
 			}
 		}
@@ -1750,9 +1750,9 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 				add_breakthrough_progress = {
@@ -1871,8 +1871,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -2180,8 +2180,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -2436,8 +2436,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -2490,7 +2490,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			popularity = 0.50
 			}
 			create_country_leader = {
-				name = "Rodolfo Graziani"
+				name = "Родольфо Грациани"
 				desc = ""
 				picture = "gfx/leaders/ITA/Portrait_ITA_Rodolfo_Graziani.png"
 				expire = "1.1.1"
@@ -2528,11 +2528,11 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			if = {
 				limit = {
 				NOT = {
-				has_country_leader = { ruling_only = yes name = "Galeazzo Ciano" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Галеаццо Чиано" }
+				has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+				has_country_leader = { ruling_only = yes name = "Умберто II" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 						}
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA }
@@ -2540,13 +2540,13 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				else_if = {
 				limit = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Galeazzo Ciano" }
-				has_country_leader = { ruling_only = yes name = "Luigi Amedeo I" }
-				has_country_leader = { ruling_only = yes name = "Eugenio I" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
+				has_country_leader = { ruling_only = yes name = "Галеаццо Чиано" }
+				has_country_leader = { ruling_only = yes name = "Луиджи Амедео I" }
+				has_country_leader = { ruling_only = yes name = "Эудженио I" }
+				has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+				has_country_leader = { ruling_only = yes name = "Умберто II" }
 				AND = {
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
 				NOT = { tag = SRD }
 				}
 						}
@@ -2557,53 +2557,53 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				limit = {
 				is_ai = no
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Giuseppe I" }
-				has_country_leader = { ruling_only = yes name = "Pietro Ferdinando I" }
-				has_country_leader = { ruling_only = yes name = "Goffredo I" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе I" }
+				has_country_leader = { ruling_only = yes name = "Пьетро Фердинандо I" }
+				has_country_leader = { ruling_only = yes name = "Гоффредо I" }
 						}
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_HABSBURG }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_BOURBON }
 				}
 				else_if = {
 				limit = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Calogero Vizzini" }
-				has_country_leader = { ruling_only = yes name = "Salvatore Giuliano" }
-				has_country_leader = { ruling_only = yes name = "Giuseppe Genco Russo" }
-				has_country_leader = { ruling_only = yes name = "Achille Lauro" }
-				has_country_leader = { ruling_only = yes name = "Carlo Gambino" }
+				has_country_leader = { ruling_only = yes name = "Калоджеро Виццини" }
+				has_country_leader = { ruling_only = yes name = "Сальваторе Джулиано" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе Генко Руссо" }
+				has_country_leader = { ruling_only = yes name = "Акилле Лауро" }
+				has_country_leader = { ruling_only = yes name = "Карло Гамбино" }
 						}
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_MAFIA }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Renato Ziggiotti" }
+				has_country_leader = { ruling_only = yes name = "Ренато Зиггиотти" }
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_ZIGGI }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 				}
 				ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_BOURBON }
 				}
 				else_if = {
 				limit = {
 					tag = SRD
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
 						}
 						ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_KING_SRD }		
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
 					}
 					ETH = { set_cosmetic_tag = ITA_EAST_AFRICA_GARIBALDI }
 				}
@@ -2639,8 +2639,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-					has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+					has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -2693,7 +2693,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			popularity = 0.50
 			}
 			create_country_leader = {
-				name = "Ettore Bastico"
+				name = "Этторе Бастико"
 				desc = ""
 				picture = "gfx/leaders/ITA/Portrait_ITA_Ettore_Bastico_KX.png"
 				expire = "1.1.1"
@@ -2705,7 +2705,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				ideology = paternal_autocrat
 				long_name = ITA_libya_party_long
 				name = ITA_libya_party
-				}
+					}
 				450 = { add_core_of = LBA }
 				451 = { add_core_of = LBA }
 				663 = { add_core_of = LBA }
@@ -2728,11 +2728,11 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 			    if = {
 				limit = {
 				NOT = {
-				has_country_leader = { ruling_only = yes name = "Galeazzo Ciano" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Галеаццо Чиано" }
+				has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+				has_country_leader = { ruling_only = yes name = "Умберто II" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 						}
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA }
@@ -2740,13 +2740,13 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				else_if = {
 				limit = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Galeazzo Ciano" }
-				has_country_leader = { ruling_only = yes name = "Luigi Amedeo I" }
-				has_country_leader = { ruling_only = yes name = "Eugenio I" }
-				has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }
-				has_country_leader = { ruling_only = yes name = "Umberto II" }
+				has_country_leader = { ruling_only = yes name = "Галеаццо Чиано" }
+				has_country_leader = { ruling_only = yes name = "Луиджи Амедео I" }
+				has_country_leader = { ruling_only = yes name = "Эудженио I" }
+				has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }
+				has_country_leader = { ruling_only = yes name = "Умберто II" }
 				AND = {
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
 				NOT = { tag = SRD }
 				}
 			    }
@@ -2757,53 +2757,53 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				limit = {
 				is_ai = no
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Giuseppe I" }
-				has_country_leader = { ruling_only = yes name = "Pietro Ferdinando I" }
-				has_country_leader = { ruling_only = yes name = "Goffredo I" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе I" }
+				has_country_leader = { ruling_only = yes name = "Пьетро Фердинандо I" }
+				has_country_leader = { ruling_only = yes name = "Гоффредо I" }
 						}
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA_HABSBURG }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA_BOURBON }
 				}
 				else_if = {
 				limit = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Calogero Vizzini" }
-				has_country_leader = { ruling_only = yes name = "Salvatore Giuliano" }
-				has_country_leader = { ruling_only = yes name = "Giuseppe Genco Russo" }
-				has_country_leader = { ruling_only = yes name = "Achille Lauro" }
-				has_country_leader = { ruling_only = yes name = "Carlo Gambino" }
+				has_country_leader = { ruling_only = yes name = "Калоджеро Виццини" }
+				has_country_leader = { ruling_only = yes name = "Сальваторе Джулиано" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе Генко Руссо" }
+				has_country_leader = { ruling_only = yes name = "Акилле Лауро" }
+				has_country_leader = { ruling_only = yes name = "Карло Гамбино" }
 						}
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA_MAFIA }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Renato Ziggiotti" }
+				has_country_leader = { ruling_only = yes name = "Ренато Зиггиотти" }
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA_ZIGGI }
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+				has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 				}
 				LBA = { set_cosmetic_tag = ITA_LIBYA_BOURBON }
 				}
 				else_if = {
 				limit = {
 					tag = SRD
-				has_country_leader = { ruling_only = yes name = "Amedeo I" }
+				has_country_leader = { ruling_only = yes name = "Амадей I" }
 						}
 						LBA = { set_cosmetic_tag = ITA_LIBYA_KING_SRD }		
 				}
 				else_if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
 					}
 					LBA = { set_cosmetic_tag = ITA_LIBYA_GARIBALDI }
 				}
@@ -2837,7 +2837,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-				    has_country_leader = { ruling_only = yes name = "Amedeo I" }
+				    has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -2871,7 +2871,7 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 		country_event = socitaly.226
 		}
 	}
-	
+
 	ITA_unite_spain = {
 		icon = generic_form_nation
 		highlight_states = { highlight_state_targets = { state = 41 } }
@@ -3472,8 +3472,8 @@ ITA_foreign_policy = {# Foreign Policy Stuff
 				AND = {
 					tag = SRI
 					OR = {
-						has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-						has_country_leader = { ruling_only = yes name = "Amedeo I" }
+						has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+						has_country_leader = { ruling_only = yes name = "Амадей I" }
 					}
 				}
 			}
@@ -4161,7 +4161,7 @@ ITA_resorgimento_decisions = {
 			}
 		}
 	}
-	
+
 	SRD_attack_italy = {
 		icon = generic_prepare_civil_war
 		allowed = { always = no }
@@ -4377,7 +4377,7 @@ ITA_resorgimento_decisions = {
 			}
 		}
 	}
-
+	
 	PAP_attack_sri = {
 		icon = generic_prepare_civil_war
 		allowed = { always = no }
@@ -4546,8 +4546,8 @@ ITA_resorgimento_decisions = {
 		visible = {
 			NOT = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-			has_country_leader = { ruling_only = yes name = "Amedeo I" }
+			has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+			has_country_leader = { ruling_only = yes name = "Амадей I" }
 				}
 			}
 		}
@@ -4608,8 +4608,8 @@ ITA_resorgimento_decisions = {
 		}
 		visible = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Giuseppe Garibaldi II" }
-			has_country_leader = { ruling_only = yes name = "Amedeo I" }
+			has_country_leader = { ruling_only = yes name = "Джузеппе Гарибальди II" }
+			has_country_leader = { ruling_only = yes name = "Амадей I" }
 			}
 		}
 		fire_only_once = yes
@@ -4838,9 +4838,9 @@ SRD_invite_into_kingdom = {
 			is_subject = no
 			NOT = { has_country_flag = SIC_confed }
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Victor Emmanuel III" }	
-			has_country_leader = { ruling_only = yes name = "Umberto II" }	
-			has_country_leader = { ruling_only = yes name = "Julius Evola" }
+			has_country_leader = { ruling_only = yes name = "Виктор Эммануил III" }	
+			has_country_leader = { ruling_only = yes name = "Умберто II" }	
+			has_country_leader = { ruling_only = yes name = "Юлиус Эвола" }
 			}	
 		}
 
@@ -4928,7 +4928,7 @@ SRD_invite_into_kingdom = {
 			}
 		}
 	}
-
+	
 	SIC_declare_italian_empire = {
 		icon = italy_flag
 
@@ -5001,18 +5001,18 @@ SRD_invite_into_kingdom = {
 			}
 			if = {
 				limit = {
-					has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 				}
 				set_cosmetic_tag = SIC_ITA
 			}
 			else_if = {
 				limit = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "Calogero Vizzini" }
-				has_country_leader = { ruling_only = yes name = "Salvatore Giuliano" }
-				has_country_leader = { ruling_only = yes name = "Giuseppe Genco Russo" }
-				has_country_leader = { ruling_only = yes name = "Achille Lauro" }
-				has_country_leader = { ruling_only = yes name = "Carlo Gambino" }
+				has_country_leader = { ruling_only = yes name = "Калоджеро Виццини" }
+				has_country_leader = { ruling_only = yes name = "Сальваторе Джулиано" }
+				has_country_leader = { ruling_only = yes name = "Джузеппе Генко Руссо" }
+				has_country_leader = { ruling_only = yes name = "Акилле Лауро" }
+				has_country_leader = { ruling_only = yes name = "Карло Гамбино" }
 						}
 				}
 				set_cosmetic_tag = SIC_mafia_italy
@@ -5060,7 +5060,7 @@ SRD_invite_into_kingdom = {
 				activate_targeted_decision = { target = TUS decision = SIC_invite_into_empire }
 				activate_targeted_decision = { target = LOM decision = SIC_invite_into_empire }
 				if = {
-					limit = { has_country_leader = { ruling_only = yes name = "Ferdinando III" } }
+					limit = { has_country_leader = { ruling_only = yes name = "Фердинанд III" } }
 					if = {
 						limit = { has_idea = SIC_Pietro_Lanza_di_Scalea_hog_ade }
 						set_politics = {
@@ -5409,7 +5409,7 @@ SRD_invite_into_kingdom = {
 				news_event = { id = worldnews.222 days = 1 }
 				ITA_remove_italian_cores = yes
 				if = {
-					limit = { has_country_leader = { ruling_only = yes name = "Ferdinando III" } }
+					limit = { has_country_leader = { ruling_only = yes name = "Фердинанд III" } }
 					if = {
 						limit = { has_idea = SIC_Pietro_Lanza_di_Scalea_hog_ade }
 						set_politics = {
@@ -5587,7 +5587,7 @@ SRD_invite_into_kingdom = {
 			SRD = { country_event = sic.100 }
 		}
 	}
-	
+
 	VNC_unite_italy = {
 		icon = italy_flag
 		allowed = { tag = VNC }
@@ -6203,8 +6203,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6281,8 +6281,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6360,8 +6360,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6435,8 +6435,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6510,8 +6510,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6585,8 +6585,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6666,8 +6666,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -6741,8 +6741,8 @@ SRD_invite_into_kingdom = {
 					}
 				}
 				AND = {
-					has_completed_focus = ITA_Claim_Northeast
-			        ITA_has_irridentist_focus = yes
+			has_completed_focus = ITA_Claim_Northeast
+			ITA_has_irridentist_focus = yes
 				}
 			}
 		}
@@ -7090,7 +7090,7 @@ SRD_invite_into_kingdom = {
 			939 = { add_core_of = VNC }
 		}
 	}
-	
+
 	PAP_restore_the_papal_states = {
 		icon = GFX_decision_papacy2
 

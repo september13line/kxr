@@ -222,7 +222,7 @@ focus_tree = {
 			is_subject = no
 			has_war = no
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat
 				has_government = radical_socialist 
 			}
 		}
@@ -291,11 +291,11 @@ focus_tree = {
 		}
 		available = {	
 			OR = {
-				has_country_flag = NZL_Lee_party 
+			has_country_flag = NZL_Lee_party 
 				has_country_flag = NZL_bellamy_party
 			}
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat
 				has_government = radical_socialist 
 			}
 		}
@@ -312,12 +312,12 @@ focus_tree = {
 				add_stability = 0.04
 				add_political_power = 65
 				increase_ruling_party_popularity_by_5 = yes
-				country_event = { 
-					id = nzl.70 
-					days = 1
-				}
+			country_event = { 
+				id = nzl.70 
+				days = 1
 			}
 		}
+	}	
 	}	
 
 	focus = {
@@ -333,7 +333,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat	
 				has_government = radical_socialist 
 			}	
 		}
@@ -359,7 +359,7 @@ focus_tree = {
 		}
 		available = {	
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat
 				has_government = radical_socialist 
 			}
 		}
@@ -383,7 +383,7 @@ focus_tree = {
 		}
 		available = {	
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat
 				has_government = radical_socialist 
 			}
 		}
@@ -414,7 +414,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = social_democrat
+			has_government = social_democrat	
 				has_government = radical_socialist 
 			}	
 		}
@@ -559,7 +559,7 @@ focus_tree = {
 		}
 		available = {	
 			OR = {
-				has_country_flag = NZL_Lee_party 
+			has_country_flag = NZL_Lee_party 	
 				has_country_flag = NZL_bellamy_party
 			}	
 			OR = {
@@ -592,16 +592,16 @@ focus_tree = {
 				}
 				remove_ideas = NZL_head_tax_idea
 			} else = {
-				country_event = {
-					id = nzl.71
-					days = 1
-				}
-				hidden_effect = { 
-					country_event = { id = nzl.134 days = 74 } 
-				}
-				add_ideas = NZL_party_machine_idea 
+			country_event = {
+				id = nzl.71
+				days = 1
 			}
+			hidden_effect = { 
+				country_event = { id = nzl.134 days = 74 } 
+			}
+			add_ideas = NZL_party_machine_idea 
 		}
+	}
 	}
 
 	focus = {
@@ -627,7 +627,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_flag = NZL_Lee_party 
+			has_country_flag = NZL_Lee_party 	
 				has_country_flag = NZL_bellamy_party
 			}	
 			OR = {
@@ -649,9 +649,9 @@ focus_tree = {
 				}
 				increase_ruling_party_popularity_by_5 = yes
 			} else = {
-				add_ideas = NZL_Social_credit_idea 
-			}
+			add_ideas = NZL_Social_credit_idea 
 		}
+	}
 	}
 
 	### legion 1
@@ -2510,7 +2510,7 @@ focus_tree = {
 				load_oob = NZL_maori 
 			}
 			create_corps_commander = {
-	            name = "Reuben Paniora "
+	            name = "Рубен Паниора "
 	            portrait_path = "gfx/leaders/NZL/Portrait_NZL_Reuben_Paniora.png"
 	            traits = {
 		            infantry_officer
@@ -3625,11 +3625,11 @@ focus_tree = {
 			has_country_flag = NZL_communist_leader_chosen
 			not = {
 				has_country_leader = {
-    					name = "Victor Wilcox"
+    					name = "Виктор Уилкокс"
     					ruling_only = yes
 				}
 				has_country_leader = {
-    					name = "Alexander Galbraith"
+    					name = "Александр Гэлбрейт"
     					ruling_only = yes
 				}
 			}
@@ -3669,7 +3669,7 @@ focus_tree = {
 		available = {
 			has_country_flag = NZL_communist_leader_chosen
 			has_country_leader = {
-    				name = "Alexander Galbraith"
+    				name = "Александр Гэлбрейт"
     				ruling_only = yes
 			}
 		}
@@ -3715,7 +3715,7 @@ focus_tree = {
 		available = {
 			has_country_flag = NZL_communist_leader_chosen
 			has_country_leader = {
-    				name = "Victor Wilcox"
+    				name = "Виктор Уилкокс"
     				ruling_only = yes
 			}
 		}
@@ -3753,7 +3753,7 @@ focus_tree = {
 		available = {
 			has_country_flag = NZL_nzlf_leader_chosen
 			has_country_leader = {
-    				name = "Tom Barker"
+    				name = "Том Баркер"
     				ruling_only = yes
 			}
 		}
@@ -3784,7 +3784,7 @@ focus_tree = {
 			has_country_flag = NZL_nzlf_leader_chosen
 			not = {
 				has_country_leader = {
-    					name = "Tom Barker"
+    					name = "Том Баркер"
     					ruling_only = yes
 				}
 			}
@@ -3844,7 +3844,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		available = {
+		available = {	
 			is_in_faction = no
 		}
 		completion_reward = {
@@ -4436,9 +4436,9 @@ focus_tree = {
 					has_country_flag = kingitanga_victory 
 					HAW = { 
 						OR = { 
-							has_country_leader = { name = "Lydia Liliuokalani" } 
-							has_country_leader = { name = "Jonah Kūhiō Kalaniana'ole" } 
-							has_country_leader = { name = "David Kalākaua" } 
+							has_country_leader = { name = "Лидия Лилиуокалани" } 
+							has_country_leader = { name = "Иона Кухио Каланиана'оле" } 
+							has_country_leader = { name = "Дэвид Калакауа" } 
 						} 
 					}
 				}

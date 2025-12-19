@@ -2169,7 +2169,7 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
-				}
+					}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -3707,7 +3707,7 @@ focus_tree = {
 				remove_idea = ZIP_AOG_idea
 				add_idea = ZIP_AOG_ideaa
 			}
-			custom_effect_tooltip = "Completing this focus will make mobilizing our country for war much easier"
+			custom_effect_tooltip = "Завершение этой работы значительно облегчит мобилизацию страны на войну."
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -3735,7 +3735,7 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
-				}
+					}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -3751,7 +3751,7 @@ focus_tree = {
 						size > 1
 						include_locked = yes
 					}
-				}
+					}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -3779,7 +3779,7 @@ focus_tree = {
 				remove_idea = ZIP_AOG_ideaa
 				add_idea = ZIP_AOG_ideaa2
 			}
-			custom_effect_tooltip = "Completing this focus will remove any lasting impediment to an attempt to mobilize our country properly"
+			custom_effect_tooltip = "Выполнение этого фокуса позволит устранить все долговременные препятствия на пути к мобилизации нашей страны должным образом."
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -3896,7 +3896,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LEP_a_new_power"
 			add_ideas = AOG_murderhobo
-			custom_effect_tooltip = "Claim all recognized Chinese Claims"
+			custom_effect_tooltip = "Будут получены претензии на все китайские территории"
 			hidden_effect = {
 				every_state = {
 					limit = { is_claims_china = yes }

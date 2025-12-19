@@ -116,7 +116,7 @@ country_event = { # Manteuffel's Insurgency
 		RRF = {
 			random_unit_leader = {
 				limit = { has_id = 15016 }
-				set_leader_name = "Karlis Goppers"					
+				set_leader_name = "Карлис Гоппер"					
 				set_nationality = ROOT
 			}
 		}
@@ -193,7 +193,7 @@ country_event = { # RadSoc path unlocked
 			}
 			random_unit_leader = {
 				limit = { has_id = 15016 }			
-				set_leader_name = "Karl Goppers"				
+				set_leader_name = "Карл Гоппер"				
 				set_nationality = RRF
 			}
 			remove_all_ministers = yes
@@ -672,7 +672,7 @@ country_event = {
 		add_soccon_to_coalition = yes
 		add_pataut_to_coalition = yes		
 		create_country_leader = {
-			name = "Kristaps Upelnieks"
+			name = "Кристапс Упелниекс"
 			desc = "POLITICS_KRISTAPS_UPELNIEKS_DESC"
 			picture = "gfx/leaders/LAT/Portrait_LAT_Kristaps_Upelnieks.png"
 			expire = "1.1.1"
@@ -1030,7 +1030,7 @@ country_event = { #Honorary Degree for Kurelis
 	is_triggered_only = yes
 	trigger = { 
 		has_country_leader = { 
-			name = "Jānis Kurelis"
+			name = "Яннис Кунеллис"
 			ruling_only = yes
 		}
 	}
@@ -1052,7 +1052,7 @@ country_event = { #PHD for Kurelis
 
 	trigger = { 
 		has_country_leader = { 
-			name = "Jānis Kurelis"
+			name = "Яннис Кунеллис"
 			ruling_only = yes
 		}
 	}
@@ -1142,7 +1142,7 @@ country_event = { # NatPop path unlocked
 		}
 		set_cosmetic_tag = LAT_goppers_flag
 		create_country_leader = {
-			name = "Kārlis Goppers"
+			name = "Карлис Гоппер"
 			desc = "POLITICS_KARLIS_GOPPERS_DESC"
 			picture = "gfx/leaders/LAT/Portrait_LAT_Karlis_Goppers.png"
 			expire = "1.1.1"
@@ -1362,7 +1362,7 @@ country_event = { # Elections
 			}
 		}
 		create_country_leader = {
-			name = "Jānis Kurelis"
+			name = "Яннис Кунеллис"
 			desc = "POLITICS_JANIS_KURELIS_AUTHDEM_DESC"
 			picture = "gfx/leaders/LAT/Portrait_LAT_Janis_Kurelis.png"
 			expire = "1.1.1"
@@ -1908,7 +1908,7 @@ country_event = { # Elections
 		if = {
 			limit = { 
 				has_country_leader = { 
-					name = "Jānis Kurelis"
+					name = "Яннис Кунеллис"
 					ruling_only = yes
 				}
 			}
@@ -2672,10 +2672,10 @@ country_event = { ###Chekist putsch
 		}
 		if = {
 			limit = { 
-				NOT = { has_country_leader = { name = "Jēkabs Peterss" ruling_only = yes } }
+				NOT = { has_country_leader = { name = "Яков Петерс" ruling_only = yes } }
 			}						
 			create_country_leader = {	
-				name = "Jēkabs Peterss"
+				name = "Яков Петерс"
 				desc = "POLITICS_JEKABS_PETERSS_DESC"
 				picture = "gfx/leaders/LAT/Portrait_LAT_Jekabs_Peterss.png"
 				expire = "1.1.1"

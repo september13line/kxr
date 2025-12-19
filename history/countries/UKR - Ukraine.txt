@@ -70,7 +70,7 @@ if = {
 		gwtank_chassis = 1
 	}
 	create_equipment_variant = {
-		name = "Leichtraktor"
+		name = "Лейхтрактор"
 		type = light_tank_chassis_0
 		parent_version = 0
 		modules = {
@@ -84,31 +84,31 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	
-	### Transport ###
-	mtg_transport = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		
+		### Transport ###
+		mtg_transport = 1
 }
 
 set_research_slots = 3
@@ -336,7 +336,7 @@ create_dynamic_country = {
 	}
 	reserve_dynamic_country = yes
 	division_template = {
-		name = "Pikhotna Dyviziia"
+		name = "Піхотна дивізія"
 		division_names_group = UKR_INF_01
 		regiments = {
 			infantry = { x = 0 y = 0 }
@@ -355,7 +355,7 @@ create_dynamic_country = {
 	}
 
 	division_template = {
-		name = "Motostrilets'ka Dyviziia"
+		name = "Мотострілецька дивізія"
 		division_names_group = UKR_MOT_01
 		regiments = {
 			motorized = { x = 0 y = 0 }
@@ -372,7 +372,7 @@ create_dynamic_country = {
 	}
 
 	division_template = {
-		name = "Kinnyi Dyvizion"
+		name = "Кінний дивізіон"
 		division_names_group = UKR_CAV_01
 		regiments = {
 			cavalry = { x = 0 y = 0 }
@@ -387,7 +387,7 @@ create_dynamic_country = {
 		}
 	}
 	division_template = {
-		name = "Halytskyi korpus Sichovykh Striltsiv"
+		name = "Галицький корпус Січових Стрільців"
 		division_names_group = UKR_ELI_02
 		regiments = {
 			elite_infantry = { x = 0 y = 0 }
@@ -407,7 +407,7 @@ create_dynamic_country = {
 		}
 	}
 	division_template = {
-		name = "Petliurivtsi"
+		name = "Петлюрівці"
 		division_names_group = UKR_INF_02
 		regiments = {
 			irregular_infantry = { x = 0 y = 0 }
@@ -423,7 +423,7 @@ create_dynamic_country = {
 		template_counter = 68
 	}
 	division_template = {
-		name = "Kinnohirskyi Dyvizion"
+		name = "Кінногірський дивізіон"
 		division_names_group = UKR_MTN_02
 		regiments = {
 			artillery_brigade = { x = 0 y = 0 }
@@ -450,7 +450,7 @@ set_party_name = {
 ### COUNTRY LEADERS ###
 
 create_country_leader = {
-	name = "Andriy Richytskyi"
+	name = "Андрій Річицький"
 	desc = "POLITICS_ANDRIY_RYCHYTSKYI_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Richytskyi.png"
 	expire = "1.1.1"
@@ -459,7 +459,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oleksandr Shumskyi"
+	name = "Олександр Шумський"
 	desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 	expire = "1.1.1"
@@ -468,7 +468,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vasyl Shakhrai"
+	name = "Василь Шахрай"
 	desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 	expire = "1.1.1"
@@ -476,7 +476,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Volodymyr Vynnychenko"
+	name = "Володимир Винниченко"
 	desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 	expire = "1.1.1"
@@ -484,7 +484,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Serhiy Yefremov"
+	name = "Сергій Єфремов"
 	desc = "POLITICS_SERHIY_YEFREMOV_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Yefremov.png"
 	expire = "1.1.1"
@@ -492,7 +492,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dmytro Doroshenko"
+	name = "Дмитро Дорошенко"
 	desc = "POLITICS_DMYTRO_DOROSHENKO_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Dmitri_Doroshenko.png"
 	expire = "1.1.1"
@@ -500,7 +500,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dmytro Levytskyi"
+	name = "Дмитро Левицький"
 	desc = "POLITICS_DMYTRO_LEVYTSKYI_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Dmytro_Levytsky.png"
 	expire = "1.1.1"
@@ -508,7 +508,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oleksandr Shapoval"
+	name = "Олександр Шаповал"
 	desc = "POLITICS_OLEKSANDER_SHAPOVAL_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shapoval.png"
 	expire = "1.1.1"
@@ -516,7 +516,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vasyl"
+	name = "Василь"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 	expire = "1.1.1"
@@ -525,7 +525,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vyacheslav Lypynskyi"
+	name = "В'ячеслав Липинський"
 	desc = "POLITICS_VYACHESLAV_LYPYNSKY_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 	expire = "1.1.1"
@@ -533,7 +533,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vasyl"
+	name = "Василь"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 	expire = "1.1.1"
@@ -542,7 +542,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pavlo Skoropadskyi"
+	name = "Павло Скоропадський"
 	desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky.png"
 	expire = "1.1.1"
@@ -550,7 +550,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vasyl"
+	name = "Василь"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 	expire = "1.1.1"
@@ -559,7 +559,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yevhen Konovalets"
+	name = "Євген Коновалець"
 	desc = "POLITICS_YEVHEN_KONOVALETS_DESC"
 	picture = "gfx/leaders/UKR/Portrait_UKR_Yevhen_Konovalets_civilian.png"
 	expire = "1.1.1"
@@ -569,7 +569,7 @@ create_country_leader = {
 ### HETMAN GENERALS ###
 
 create_field_marshal = {
-	name = "Pavlo Skoropadskyi "
+	name = "Павло Скоропадський "
 	desc = "POLITICS_PAVLO_SKOROPADSKYI_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky.png"
 	traits = { organizer old_guard cavalry_officer media_personality }
@@ -581,7 +581,7 @@ create_field_marshal = {
 	id = 17909
 }
 create_field_marshal = {
-	name = "Volodymyr Sikevich"
+	name = "Володимир Сікевич"
 	desc = "POLITICS_VOLODYMYR_SIKEVICH_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Sikevich.png"
 	traits = { thorough_planner defensive_doctrine old_guard }
@@ -593,7 +593,7 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Kostiantyn Prisovskyi"
+	name = "Костянтин Прісовський"
 	desc = "POLITICS_KONSTANTIN_PRISOVSKYI_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Konstantin_Prisovsky.png"
 	traits = { old_guard harsh_leader inflexible_strategist infantry_officer }
@@ -605,7 +605,7 @@ create_corps_commander = {
 	id = 17919
 }
 create_corps_commander = {
-	name = "Yevhen Konovalets "
+	name = "Євген Коновалець "
 	desc = "POLITICS_YEVHEN_KONOVALETS_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Yevhen_Konovalets.png"
 	traits = { winter_specialist hill_fighter politically_connected }
@@ -617,7 +617,7 @@ create_corps_commander = {
 	id = 17907
 }
 create_corps_commander = {
-	name = "Petro Bolbochan "
+	name = "Петро Болбочан "
 	desc = "POLITICS_PETRO_BOLBOCHAN_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Petro_Bolbochan.png"
 	traits = { war_hero fast_planner politically_connected }
@@ -629,7 +629,7 @@ create_corps_commander = {
 	id = 17942
 }
 create_corps_commander = {
-	name = "Vsevolod Petriv"
+	name = "Всеволод Петрів"
 	desc = "POLITICS_VSEVOLOD_PETRIV_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Petriv.png"
 	traits = { infantry_officer }
@@ -641,7 +641,7 @@ create_corps_commander = {
 	id = 17943
 }
 create_corps_commander = {
-	name = "Overkiy Honcharenko"
+	name = "Оверкій Гончаренко"
 	desc = "POLITICS_AVERKIY_HONCHARENKO_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Averkiy_Goncharenko.png"
 	traits = { trickster career_officer harsh_leader }
@@ -653,7 +653,7 @@ create_corps_commander = {
 	id = 17922
 }
 create_corps_commander = {
-	name = "Fedir Chernyk"
+	name = "Федір Черник"
 	desc = "POLITICS_FEDIR_CHERNYK_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Fedir_Chernik.png"
 	traits = { commando artillery_specialist }
@@ -665,7 +665,7 @@ create_corps_commander = {
 	id = 17924
 }
 create_corps_commander = {
-	name = "Petro Diachenko"
+	name = "Петро Дяченко"
 	desc = "POLITICS_PETRO_DIACHENKO_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Diachenko_Petro.png"
 	traits = { infantry_leader cavalry_leader media_personality }
@@ -677,7 +677,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Borys Stelletskyi"
+	name = "Борис Стеллецький"
 	desc = "POLITICS_BORYS_STELLETSKYI_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Borys_Stelletskyi.png"
 	traits = { organizer old_guard }
@@ -689,7 +689,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Mykhailo Omelianovych-Pavlenko"
+	name = "Михайло Омелянович-Павленко"
 	desc = "POLITICS_MYKHAILO_OMELIANOVICH_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Omelianovych_Pavlenko_KX.png"
 	traits = { fortress_buster }
@@ -701,7 +701,7 @@ create_corps_commander = {
 	id = 17911
 }
 create_corps_commander = {
-	name = "Ivan Omelianovych-Pavlenko"
+	name = "Іван Омелянович-Павленко"
 	desc = "POLITICS_IVAN_OMELIANOVICH_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Omelianovych_Pavlenko.png"
 	traits = { cavalry_leader bearer_of_artillery artillery_specialist }
@@ -713,7 +713,7 @@ create_corps_commander = {
 	id = 17901
 }
 create_corps_commander = {
-	name = "Mykola Kapustianskyi"
+	name = "Микола Капустянський"
 	desc = "POLITICS_MYKOLA_KAPUSTYANSKYI_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mykola_Kapustyanskyi.png"
 	traits = { trickster politically_connected }
@@ -725,7 +725,7 @@ create_corps_commander = {
 	id = 17912
 }
 create_corps_commander = {
-	name = "Ivan Poltavets-Ostrianytsia "
+	name = "Іван Полтавець-Остряниця "
 	desc = "POLITICS_IVAN_POLTAVETS_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Poltavets_Ostrianytsia.png"
 	traits = { career_officer cossack_leader cavalry_leader politically_connected }
@@ -737,7 +737,7 @@ create_corps_commander = {
 	id = 17913
 }
 create_corps_commander = {
-	name = "Ivan Voloshyn-Berchak"
+	name = "Іван Волошин-Берчак"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Voloshin_Berchak.png"
 	traits = { career_officer cossack_leader cavalry_leader }
 	skill = 1
@@ -748,7 +748,7 @@ create_corps_commander = {
 	id = 17981
 }
 create_corps_commander = {
-	name = "Oleksandr Hrekiv "
+	name = "Олександр Греків "
 	desc = "POLITICS_OLEKSANDR_HREKIV_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Hrekiv.png"
 	traits = { politically_connected organizer infantry_leader }
@@ -760,7 +760,7 @@ create_corps_commander = {
 	id = 17986
 }
 create_corps_commander = {
-	name = "Wilhelm von Habsburg-Lothringen "
+	name = "Вільгельм фон Габсбург-Лотрінген "
 	desc = "POLITICS_VASYL_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg_army.png"
 	traits = { media_personality politically_connected }
@@ -773,7 +773,7 @@ create_corps_commander = {
 }
 ### UNR Generals ###
 create_field_marshal = {
-	name = "Oleksandr Udovychenko"
+	name = "Олександр Удовиченко"
 	desc = "POLITICS_OLEKSANDR_UDOVYCHENKO_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Udovychenko.png"
 	traits = { infantry_officer infantry_leader }
@@ -785,7 +785,7 @@ create_field_marshal = {
 	id = 17944
 }
 create_field_marshal = {
-	name = "Symon Petliura "
+	name = "Симон Петлюра "
 	desc = "POLITICS_SYMON_PETLIURA_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.png"
 	traits = { trickster irregulars_officer organizer politically_connected }
@@ -797,7 +797,7 @@ create_field_marshal = {
 	id = 17908
 }
 create_corps_commander = {
-	name = "Andriy Melnyk "
+	name = "Андрій Мельник"
 	desc = "POLITICS_ANDRIY_MELNYK_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk.png"
 	traits = { trait_engineer organizer thorough_planner trickster }
@@ -809,7 +809,7 @@ create_corps_commander = {
 	id = 17905
 }
 create_corps_commander = {
-	name = "Omelian Volokh"
+	name = "Омелян Волох"
 	desc = "POLITICS_OMELIAN_VOLOKH_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Omelian_Volokh.png"
 	traits = { infantry_leader trait_reckless }
@@ -821,7 +821,7 @@ create_corps_commander = {
 	id = 17920
 }
 create_corps_commander = {
-	name = "Ivan Honcharenko"
+	name = "Іван Гончаренко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Goncharenko.png"
 	traits = { infantry_officer hill_fighter }
 	skill = 2
@@ -832,7 +832,7 @@ create_corps_commander = {
 	id = 17921
 }
 create_corps_commander = {
-	name = "Hryhoriy Syrotenko"
+	name = "Григорій Сиротенко"
 	desc = "POLITICS_HRYHORI_SYROTENKO_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Grygoriy_Sirotenko.png"
 	traits = { swamp_fox }
@@ -844,7 +844,7 @@ create_corps_commander = {
 	id = 17923
 }
 create_corps_commander = {
-	name = "Yuri Tiutiunnyk"
+	name = "Юрій Тютюнник"
 	desc = "POLITICS_YURI_TIUTIUNNYK_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Yuri_Tiutiunnyk.png"
 	traits = { cavalry_leader trait_reckless }
@@ -856,7 +856,7 @@ create_corps_commander = {
 	id = 17931
 }
 create_corps_commander = {
-	name = "Mykola Kibets-Bondarenko"
+	name = "Микола Кібець-Бондаренко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Kibets_Bondarenko.png"
 	traits = { cavalry_leader harsh_leader }
 	skill = 2
@@ -867,7 +867,7 @@ create_corps_commander = {
 	id = 17937
 }
 create_corps_commander = {
-	name = "Vasyl Shakhrai "
+	name = "Василь Шахрай "
 	desc = "POLITICS_VASYL_SHAKHRAI_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png"
 	traits = { media_personality politically_connected organizer }
@@ -880,7 +880,7 @@ create_corps_commander = {
 }
 ### UGA Generals ###
 create_corps_commander = {
-	name = "Hnat Stefaniv"
+	name = "Гнат Стефанів"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Hnat_Stefaniv_GAL.png"
 	traits = { commando organizer }
 	skill = 2
@@ -891,7 +891,7 @@ create_corps_commander = {
 	id = 17906
 }
 create_corps_commander = {
-	name = "Dmytro Vitovskyi"
+	name = "Дмитро Вітовський"
 	desc = "POLITICS_DMYTRO_VITOVSKYI_GENERAL"
 	portrait_path = "gfx/leaders/GAL/Portrait_GAL_Dmytro_Vitovsky.png"
 	traits = { infantry_leader organizer commando }
@@ -903,7 +903,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Olena Stepaniv"
+	name = "Олена Степанів"
 	desc = "POLITICS_OLENA_STEPANIV_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Olena_Stepaniv.png"
 	traits = { hill_fighter }
@@ -915,7 +915,7 @@ create_corps_commander = {
 	id = 17916
 }
 create_corps_commander = {
-	name = "Mykola Stsiborskyi"
+	name = "Микола Сціборський"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mykola_Stsiborskyi.png"
 	traits = { organizer }
 	skill = 2
@@ -926,7 +926,7 @@ create_corps_commander = {
 	id = 17917
 }
 create_corps_commander = {
-	name = "Kost Voyevidka"
+	name = "Кость Воєвідка"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Kost_Vojevidka.png"
 	traits = { trait_cautious ranger }
 	skill = 2
@@ -937,7 +937,7 @@ create_corps_commander = {
 	id = 17926
 }
 create_corps_commander = {
-	name = "Ivan Chmola"
+	name = "Іван Чмола"
 	desc = "POLITICS_IVAN_CHMOLA_GENERAL"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Chmola.png"
 	traits = { swamp_fox adaptable }
@@ -951,7 +951,7 @@ create_corps_commander = {
 
 ### Borotbyst Generals ###
 create_field_marshal = {
-	name = "Ivan Dubovyi"
+	name = "Іван Дубовий"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Ivan_Dubovoy.png"
 	traits = { offensive_doctrine ranger infantry_leader }
 	skill = 3
@@ -963,7 +963,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Oleksandr Parkhomenko"
+	name = "Олександр Пархоменко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Parkhomenko.png"
 	traits = { cavalry_leader }
 	skill = 1
@@ -974,7 +974,7 @@ create_corps_commander = {
 	id = 17939
 }
 create_corps_commander = {
-	name = "Dmytro Zhloba"
+	name = "Дмитро Жлоба"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Dmytro_Zhloba.png"
 	traits = { trickster organizer }
 	skill = 2
@@ -985,7 +985,7 @@ create_corps_commander = {
 	id = 17933
 }
 create_corps_commander = {
-	name = "Yukhym Bozhko"
+	name = "Юхим Божко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Yukhim_Bozhko.png"
 	traits = { artillery_specialist cavalry_leader }
 	skill = 2
@@ -996,7 +996,7 @@ create_corps_commander = {
 	id = 17934
 }
 create_corps_commander = {
-	name = "Danylo Zinkovskyi"
+	name = "Данило Зіньковський"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Danylo_Zynkovskyi.png"
 	traits = { trait_engineer infantry_leader }
 	skill = 1
@@ -1007,7 +1007,7 @@ create_corps_commander = {
 	id = 17935
 }
 create_corps_commander = {
-	name = "Danylo Terpylo"
+	name = "Данило Терпило"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Danylo_Terpylo.png"
 	traits = { trait_engineer infantry_leader }
 	skill = 2
@@ -1018,7 +1018,7 @@ create_corps_commander = {
 	id = 17936
 }
 create_corps_commander = {
-	name = "Petro Hryhorenko"
+	name = "Петро Григоренко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Petro_Hryhorenko.png"
 	traits = { trait_engineer }
 	skill = 1
@@ -1029,7 +1029,7 @@ create_corps_commander = {
 	id = 17940
 }
 create_corps_commander = {
-	name = "Vitali Primakov"
+	name = "Віталій Примаков"
 	id = 1962	
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Vitaly_Primakov.png"
 	traits = { cossack_leader cavalry_leader ranger combined_arms_expert }	
@@ -1040,7 +1040,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Yefim Shchadenko"
+	name = "Єфим Щаденко"
 	id = 17982	
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Yefim_Shchadenko.png"
 	traits = { cavalry_leader organizer }
@@ -1051,7 +1051,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Mikhail Muravyov"
+	name = "Михайло Муравйов"
 	id = 17983	
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Mikhail_Muravyov.png"
 	traits = { infantry_officer trait_reckless }
@@ -1062,7 +1062,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_field_marshal = {
-	name = "Sergey Kamenev"
+	name = "Сергій Каменєв"
 	id = 17985	
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Sergey_Kamenev.png"
 	traits = { offensive_doctrine trait_cautious inspirational_leader }
@@ -1073,7 +1073,7 @@ create_field_marshal = {
 	logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Sydir Kovpak"
+	name = "Сидор Ковпак"
 	id = 17993
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Sydir_Kovpak.png"
 	traits = { guerilla_officer cavalry_leader }
@@ -1084,7 +1084,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Leonid Brezhnyev"
+	name = "Леонид Брежнев"
 	id = 17990
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Leonid_Brezhnyev.png"
 	traits = { politically_connected expert_improviser }
@@ -1095,7 +1095,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Nikita Kruschev "
+	name = "Никита Хрущев "
 	id = 17991
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Nikita_Kruschev_Cool.png"
 	traits = { politically_connected }
@@ -1106,7 +1106,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Fyodor Sergeyev"
+	name = "Фёдор Сергеев"
 	id = 17992
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Fyodor_Sergeyev.png"
 	traits = { politically_connected organizer }
@@ -1117,7 +1117,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_navy_leader = {
-	name = "Andriy Pokrovskyi"
+	name = "Андрій Покровський"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Andriy_Pokrovsky.png"
 	traits = { old_guard_navy superior_tactician }
 	skill = 3
@@ -1129,7 +1129,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Sviatoslav Shramchenko"
+	name = "Святослав Шрамченко"
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Sviatoslav_Shramchenko.png"
 	traits = { spotter }
 	skill = 2
@@ -1140,7 +1140,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Yurii Svirskyi" 
+	name = "Юрій Свірський" 
 	portrait_path = "gfx/leaders/POL/Portrait_POL_Jerzy_Swirski.png"
 	traits = { }
 	skill = 2
@@ -1152,7 +1152,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Vulf Konovalov" 
+	name = "Вульф Коновалов" 
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Vulf_Konovalov.png"
 	traits = { seawolf }
 	skill = 1
@@ -1163,7 +1163,7 @@ create_navy_leader = {
 }
 
 create_operative_leader = {
-	name = "Osyp Dumin"
+	name = "Осип Думін"
 	GFX = GFX_Portrait_UKR_Osip_Dumin
 	traits = { operative_seducer operative_linguist }
 	bypass_recruitment = yes
@@ -1173,7 +1173,7 @@ create_operative_leader = {
 }
 
 create_operative_leader = {
-	name = "Ostap Bender"
+	name = "Остап Бендер"
 	GFX = GFX_Portrait_UKR_Ostap_Bender
 	traits = { operative_commando operative_well_groomed }
 	bypass_recruitment = yes

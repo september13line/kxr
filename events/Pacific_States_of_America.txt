@@ -109,7 +109,7 @@ country_event = { # Progressive Primary
 		name = pacificstates.2.f
 		trigger = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "George Norris" }
+				has_country_leader = { ruling_only = yes name = "Джордж Норрис" }
 				has_global_flag = USA_president_norris
 			}
 		}
@@ -117,7 +117,7 @@ country_event = { # Progressive Primary
 		add_stability = 0.03
 		hidden_effect = {
 			set_country_flag = PSA_1937_progressive_primary_norris
-			country_event = {
+		country_event = {
 				id = pacificstates.1
 				days = 8
 			}
@@ -138,7 +138,7 @@ country_event = { # 1937 Dem-Rep Primary
 
 	fire_only_once = yes
 
-	option = { # Earl Warren
+	option = { # Эрл Уоррен
 		name = pacificstates.3.a
 		hidden_effect = {
 			set_country_flag = PSA_1937_liberal_primary_warren
@@ -226,7 +226,7 @@ country_event = { # 1937 Dem-Rep Primary
 		name = pacificstates.3.g
 		trigger = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Alf Landon" }
+				has_country_leader = { ruling_only = yes name = "Альфред Лэндон" }
 				has_global_flag = USA_president_landon
 			}
 		}
@@ -255,7 +255,7 @@ country_event = { # 1937 Republican Primary
 
 	fire_only_once = yes
 
-	option = { # Robert Taft
+	option = { # Роберт Тафт
 		name = pacificstates.4.a
 		ai_chance = {
 			factor = 25
@@ -361,7 +361,7 @@ country_event = { # 1937 Republican Primary
 		name = pacificstates.4.h
 		trigger = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Charles Curtis" }
+				has_country_leader = { ruling_only = yes name = "Чарльз Кёртис" }
 				has_global_flag = USA_president_curtis
 			}
 		}
@@ -398,7 +398,7 @@ country_event = { # 1937 Democrat Primary
 
 	fire_only_once = yes
 
-	option = { # Henry J. Kaiser
+	option = { # Генри Д. Кайзер
 		name = pacificstates.5.a
 		hidden_effect = {
 			set_country_flag = PSA_1937_democratic_primary_kaiser
@@ -417,7 +417,7 @@ country_event = { # 1937 Democrat Primary
 		custom_effect_tooltip = soccon_paternal_socialism_subtype_swap_tt
 	}
 	
-	option = { # Charles Martin
+	option = { # Чарльз Мартин
 		name = pacificstates.5.b
 		hidden_effect = {
 			set_country_flag = PSA_1937_democratic_primary_martin
@@ -436,7 +436,7 @@ country_event = { # 1937 Democrat Primary
 		custom_effect_tooltip = soccon_soccon_hamiltonianism_subtype_swap_tt
 	}
 	
-	option = { # Walt Disney
+	option = { # Уолт Дисней
 		name = pacificstates.5.c
 		trigger = {
 			NOT = {
@@ -469,7 +469,7 @@ country_event = { # 1937 Democrat Primary
 		name = pacificstates.5.e
 		trigger = {	
 			OR = {
-				has_country_leader = { ruling_only = yes name = "John Nance Garner" }
+				has_country_leader = { ruling_only = yes name = "Джон Нэнс Гарнер" }
 				has_global_flag = USA_garner_is_president
 			}
 		}
@@ -537,13 +537,13 @@ country_event = { # 1937 Election
 	immediate = {
 		hidden_effect = {
 			set_country_flag = PSA_1937_election_occured
-			if = { # Upton Sinclair
+			if = { # Эптон Синклер
 				limit = {
 					has_country_flag = PSA_1937_commonwealth_primary_sinclair
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Upton Sinclair"
+					name = "Эптон Синклер"
 					desc = "POLITICS_UPTON_SINCLAIR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 					expire = "1.1.1"
@@ -551,13 +551,13 @@ country_event = { # 1937 Election
 					traits = { PSA_an_end_to_poverty }
 				}
 			}
-			if = { # Culbert Olson
+			if = { # Калберт Олсон
 				limit = {
 					has_country_flag = PSA_1937_commonwealth_primary_olson
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Culbert Olson"
+					name = "Калберт Олсон"
 					desc = "POLITICS_CULBERT_OLSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Culbert_Olson.png"
 					expire = "1.1.1"
@@ -565,13 +565,13 @@ country_event = { # 1937 Election
 					traits = { PSA_proud_atheist }
 				}
 			}
-			if = { # Henry Wallace
+			if = { # Генри Уоллес
 				limit = {
 					has_country_flag = PSA_1937_progressive_primary_wallace
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Henry Wallace"
+					name = "Генри Уоллес"
 					desc = "POLITICS_HENRY_WALLACE_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Henry_Wallace.png"
 					expire = "1.1.1"
@@ -579,13 +579,13 @@ country_event = { # 1937 Election
 					traits = { PSA_world_planner }
 				}
 			}
-			if = { # Charles McNary
+			if = { # Чарльз Макнари
 				limit = {
 					has_country_flag = PSA_1937_progressive_primary_mcnary
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Charles McNary"
+					name = "Чарльз Макнари"
 					desc = "POLITICS_CHARLES_MCNARY_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Charles_L_McNary.png"
 					expire = "1.1.1"
@@ -593,13 +593,13 @@ country_event = { # 1937 Election
 					traits = { PSA_electrify_america }
 				}
 			}
-			if = { # Hiram Johnson
+			if = { # Хирам Джонсон
 				limit = {
 					has_country_flag = PSA_1937_progressive_primary_johnson
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Hiram Johnson"
+					name = "Хирам Джонсон"
 					desc = "POLITICS_HIRAM_JOHNSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Hiram_Johnson.png"
 					expire = "1.1.1"
@@ -607,13 +607,13 @@ country_event = { # 1937 Election
 					traits = { PSA_inward_reformer }
 				}
 			}
-			if = { # C.C. Young
+			if = { # К. К. Янг
 				limit = {
 					has_country_flag = PSA_1937_progressive_primary_young
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "C.C. Young"
+					name = "К. К. Янг"
 					desc = "POLITICS_CC_YOUNG_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_CC_Young.png"
 					expire = "1.1.1"
@@ -627,7 +627,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "George Norris"
+					name = "Джордж Норрис"
 					desc = "POLITICS_GEORGE_NORRIS_DESC"
 					picture = "gfx/leaders/USA/Portrait_George_W_Norris.png"
 					expire = "1.1.1"
@@ -641,7 +641,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Earl Warren"
+					name = "Эрл Уоррен"
 					desc = "POLITICS_EARL_WARREN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Earl_Warren.png"
 					expire = "1.1.1"
@@ -649,13 +649,13 @@ country_event = { # 1937 Election
 					traits = { PSA_crusader_of_justice }
 				}
 			}
-			if = { # William Gibbs McAdoo
+			if = { # Уильям Гиббс Мак-Эду
 				limit = {
 					has_country_flag = PSA_1937_liberal_primary_mccadoo
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "William Gibbs McAdoo"
+					name = "Уильям Гиббс Мак-Эду"
 					desc = "POLITICS_WILLIAM_GIBBS_MCADOO_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_William_Gibbs_McAdoo.png"
 					expire = "1.1.1"
@@ -663,13 +663,13 @@ country_event = { # 1937 Election
 					traits = { eco_bank_president }
 				}
 			}
-			if = { # Clarence D. Martin
+			if = { # Кларенс Д. Мартин
 				limit = {
 					has_country_flag = PSA_1937_liberal_primary_martin
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Clarence D. Martin"
+					name = "Кларенс Д. Мартин"
 					desc = "POLITICS_CLARENCE_MARTIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Clarence_Martin.png"
 					expire = "1.1.1"
@@ -677,13 +677,13 @@ country_event = { # 1937 Election
 					traits = { PSA_taming_the_west }
 				}
 			}
-			if = { # Charles A. Sprague
+			if = { # Чарльз Артур Спрейг
 				limit = {
 					has_country_flag = PSA_1937_liberal_primary_sprague
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Charles A. Sprague"
+					name = "Чарльз Артур Спрейг"
 					desc = "POLITICS_CHARLES_SPRAGUE_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Charles_A_Sprague.png"
 					expire = "1.1.1"
@@ -691,13 +691,13 @@ country_event = { # 1937 Election
 					traits = { economic_reformer }
 				}
 			}
-			if = { # Manchester Boddy
+			if = { # Манчестер Боди
 				limit = {
 					has_country_flag = PSA_1937_liberal_primary_boddy
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Manchester Boddy"
+					name = "Манчестер Боди"
 					desc = "POLITICS_MANCHESTOR_BODDY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Manchester_Boddy.png"
 					expire = "1.1.1"
@@ -711,7 +711,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "John Fujio Aiso"
+					name = "Джон Фудзио Айсо"
 					desc = "POLITICS_JOHN_AISO_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_John_Aiso_Civ.png"
 					expire = "1.1.1"
@@ -725,7 +725,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Robert Taft"
+					name = "Роберт Тафт"
 					desc = "POLITICS_Robert_Taft_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Robert_A_Taft.png"
 					expire = "1.1.1"
@@ -734,13 +734,13 @@ country_event = { # 1937 Election
 				}
 			}
 			
-			if = { # Harry Chandler
+			if = { # Гарри Чандлер
 				limit = {
 					has_country_flag = PSA_1937_republican_primary_chandler
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Harry Chandler"
+					name = "Гарри Чандлер"
 					desc = "POLITICS_HARRY_CHANDLER_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Harry_Chandler.png"
 					expire = "1.1.1"
@@ -749,13 +749,13 @@ country_event = { # 1937 Election
 				}
 			}
 
-			if = { # Howard Hughes
+			if = { # Говард Хьюз
 				limit = {
 					has_country_flag = PSA_1937_republican_primary_hughes
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Howard Hughes"
+					name = "Говард Хьюз"
 					desc = "POLITICS_HOWARD_HUGES_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Howard_Hughes_Hat.png"
 					expire = "1.1.1"
@@ -763,20 +763,20 @@ country_event = { # 1937 Election
 					traits = { captain_of_industry }
 				}
 				if = {	
-					limit = { has_country_leader = { name = "Howard Hughes" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Говард Хьюз" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/CAL/Portrait_CAL_Howard_Hughes_Hat.png"
 					}
 				}
 			}
 			
-			if = { # Frank Merriam
+			if = { # Фрэнк Мерриам
 				limit = {
 					has_country_flag = PSA_1937_republican_primary_merriam
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Frank Merriam"
+					name = "Фрэнк Мерриам"
 					desc = "POLITICS_FRANK_MERRIAM_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Frank_Merrimam.png"
 					expire = "1.1.1"
@@ -784,13 +784,13 @@ country_event = { # 1937 Election
 					traits = { PSA_champion_of_the_establishment }
 				}
 			}
-			if = { # Frank Knox
+			if = { # Франклин Нокс
 				limit = {
 					has_country_flag = PSA_1937_republican_primary_knox
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Frank Knox"
+					name = "Франклин Нокс"
 					desc = "POLITICS_FRANK_KNOX_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Frank_Knox.png"
 					expire = "1.1.1"
@@ -804,7 +804,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Louis B. Mayer"
+					name = "Луис Б. Майер"
 					desc = "POLITICS_LOUIS_B_MEYER_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Louis_B_Mayer.png"
 					expire = "1.1.1"
@@ -813,26 +813,26 @@ country_event = { # 1937 Election
 				}
 			}
 			if = { # Charles Curtis
-				limit = {
-					has_country_flag = PSA_1937_republican_primary_curtis
-					NOT = { has_country_flag = CAL_Norton_PSA_flag }
-				}
-				create_country_leader = {
-					name = "Charles Curtis"
-					desc = "POLITICS_CHARLES_CURTIS_DESC"
-					picture = "gfx/leaders/USA/Portrait_USA_Charles_Curtis_Hat.png"
-					expire = "1.1.1"
-					ideology = marlib_classical_liberalism_subtype
-					traits = { the_great_compromiser }
-			    }
+			limit = {
+				has_country_flag = PSA_1937_republican_primary_curtis
+				NOT = { has_country_flag = CAL_Norton_PSA_flag }
 			}
-			if = { # Charles Martin
+			create_country_leader = {
+				name = "Чарльз Кёртис"
+				desc = "POLITICS_CHARLES_CURTIS_DESC"
+				picture = "gfx/leaders/USA/Portrait_USA_Charles_Curtis_Hat.png"
+				expire = "1.1.1"
+				ideology = marlib_classical_liberalism_subtype
+				traits = { the_great_compromiser }
+			}
+		}
+			if = { # Чарльз Мартин
 				limit = {
 					has_country_flag = PSA_1937_democratic_primary_martin
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Charles Martin"
+					name = "Чарльз Мартин"
 					desc = "POLITICS_CHARLES_MARTIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Charles_Henry_Martin.png"
 					expire = "1.1.1"
@@ -840,13 +840,13 @@ country_event = { # 1937 Election
 					traits = { PSA_taming_the_west }
 				}
 			}
-			if = { # Henry J. Kaiser
+			if = { # Генри Д. Кайзер
 				limit = {
 					has_country_flag = PSA_1937_democratic_primary_kaiser
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Henry J. Kaiser"
+					name = "Генри Д. Кайзер"
 					desc = "POLITICS_HENRY_J_KAISER_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Henry_J_Kaiser.png"
 					expire = "1.1.1"
@@ -854,13 +854,13 @@ country_event = { # 1937 Election
 					traits = { eco_industrialiser }
 				}
 			}
-			if = { # Walt Disney
+			if = { # Уолт Дисней
 				limit = {
 					has_country_flag = PSA_1937_democratic_primary_disney
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Walt Disney"
+					name = "Уолт Дисней"
 					desc = "POLITICS_WALT_DISNEY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney.png"
 					expire = "1.1.1"
@@ -868,7 +868,7 @@ country_event = { # 1937 Election
 					traits = { propaganda_expert }
 				}
 				if = {	
-					limit = { has_country_leader = { name = "Walt Disney" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Уолт Дисней" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney.png"
 					}
@@ -880,7 +880,7 @@ country_event = { # 1937 Election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "John S. McGroarty"
+					name = "Джон С. Макгроарти"
 					desc = "POLITICS_JOHN_MCGROARTY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_John_McGroarty.png"
 					expire = "1.1.1"
@@ -980,7 +980,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = socdem_radical_progressivism_subtype
-				}
+			}
 			}
 			if = { # Charles McNary
 				limit = {
@@ -993,7 +993,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = socdem_agrarianism_subtype
-				}
+			}
 			}
 			if = { # Henry Wallace
 				limit = {
@@ -1145,7 +1145,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_humanistic_capitalism_subtype
-				}
+			}
 			}
 			if = { # Manchester Boddy
 				limit = {
@@ -1197,7 +1197,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_humanistic_capitalism_subtype
-				}
+			}
 			}
 			if = { # Alf Landon
 				limit = {
@@ -1303,7 +1303,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = libertarian_subtype
-				}
+			}
 			}
 			if = { # Harry Chandler
 				limit = {
@@ -1316,7 +1316,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_christian_democracy_subtype
-				}
+			}
 			}
 			if = { # Frank Merriam
 				limit = {
@@ -1329,7 +1329,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = liberal_conservative_subtype
-				}
+			}
 			}
 			if = { # Howard Hughes
 				limit = {
@@ -1342,7 +1342,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_oligarchy_subtype
-				}
+			}
 			}
 			if = { # Frank Knox
 				limit = {
@@ -1355,7 +1355,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_national_liberalism_subtype
-				}
+			}
 			}
 			if = { # Louis B. Mayer
 				limit = {
@@ -1368,7 +1368,7 @@ country_event = { # 1937 Election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_hamiltonianism_subtype
-				}
+			}
 			}
 			if = { # Charles Curtis
 				limit = {
@@ -1694,7 +1694,7 @@ country_event = { # 1937 Election
 				limit = {
 					USA = {
 						has_country_leader = {
-						name = "Douglas MacArthur"
+						name = "Дуглас Макартур"
 						ruling_only = yes
 						}
 					}
@@ -2259,8 +2259,8 @@ country_event = { # 1940 Progressive Primary
 		date > 1940.1.1
 		has_country_flag = PSA_1937_election_occured
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 	
@@ -2312,7 +2312,7 @@ country_event = { # 1940 Progressive Primary
 			PAR = {
 				NOT = {
 					has_country_leader = {
-						name = "Señor Largo"
+						name = "Сеньор Ларго"
 						ruling_only = yes
 					}
 				}
@@ -2357,8 +2357,8 @@ country_event = { # 1940 Democratic-Republican Primary
 		tag = CAL
 		has_country_flag = PSA_1937_election_occured
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 	
@@ -2415,13 +2415,13 @@ country_event = { # 1940 Democratic-Republican Primary
 		custom_effect_tooltip = soclib_soclib_humanistic_capitalism_subtype_swap_tt
 	}
 	option = { # Warren Magnuson
-		name = pacificstates.8.h
-		hidden_effect = {
-			set_country_flag = PSA_1940_liberal_primary_magnuson
-		}
+	name = pacificstates.8.h
+	hidden_effect = {
+		set_country_flag = PSA_1940_liberal_primary_magnuson
+	}
 		custom_effect_tooltip = if_candidate_elected_tt
 		custom_effect_tooltip = soclib_soclib_humanistic_capitalism_subtype_swap_tt
-	}
+}
 	option = { # President is re-elected
 		name = pacificstates.8.e
 		trigger = {
@@ -2461,8 +2461,8 @@ country_event = { # 1940 Republican Primary
 		tag = CAL
 		has_country_flag = PSA_1937_election_occured
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 	
@@ -2549,8 +2549,8 @@ country_event = { # 1940 Democrat Primary
 		tag = CAL
 		has_country_flag = PSA_1937_election_occured
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 	
@@ -2624,8 +2624,8 @@ country_event = { # 1940 Commonwealth Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -2683,8 +2683,8 @@ country_event = { # 1940 election
 			is_supposed_to_fire_for_tag = yes
 		}
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -2696,7 +2696,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Upton Sinclair"
+					name = "Эптон Синклер"
 					desc = "POLITICS_UPTON_SINCLAIR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 					expire = "1.1.1"
@@ -2710,7 +2710,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Culbert Olson"
+					name = "Калберт Олсон"
 					desc = "POLITICS_CULBERT_OLSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Culbert_Olson.png"
 					expire = "1.1.1"
@@ -2724,7 +2724,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Henry Wallace"
+					name = "Генри Уоллес"
 					desc = "POLITICS_HENRY_WALLLACE_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Henry_Wallace.png"
 					expire = "1.1.1"
@@ -2732,13 +2732,13 @@ country_event = { # 1940 election
 					traits = { PSA_world_planner }
 				}
 			}
-			if = { # Homer Bone
+			if = { # Гомер Боун
 				limit = {
 					has_country_flag = PSA_1940_progressive_primary_bone
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Homer Bone"
+					name = "Гомер Боун"
 					desc = "POLITICS_HOMER_BONE_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Homer_Bone.png"
 					expire = "1.1.1"
@@ -2746,13 +2746,13 @@ country_event = { # 1940 election
 					traits = { backroom_backstabber }
 				}
 			}
-			if = { # Sheridan Downey
+			if = { # Шеридан Доуни
 				limit = {
 					has_country_flag = PSA_1940_progressive_primary_downey
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Sheridan Downey"
+					name = "Шеридан Доуни"
 					desc = "POLITICS_SHERIDAN_DOWNEY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Sheridan_Downey.png"
 					expire = "1.1.1"
@@ -2760,13 +2760,13 @@ country_event = { # 1940 election
 					traits = { PSA_smiling_oilman }
 				}
 			}
-			if = { # Huey Long
+			if = { # Хьюи Лонг
 				limit = {
 					has_country_flag = PSA_1940_progressive_primary_long
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Huey Long"
+					name = "Хьюи Лонг"
 					desc = "POLITICS_HUEY_LONGDONG_DESC"
 					picture = "gfx/leaders/TEX/Portrait_TEX_Huey_Long_Hat.png"
 					expire = "1.1.1"
@@ -2774,19 +2774,19 @@ country_event = { # 1940 election
 					traits = {the_kingfish}
 				}
 				if = {	
-					limit = { has_country_leader = { name = "Huey Long" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Хьюи Лонг" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/TEX/Portrait_TEX_Huey_Long_Hat.png"
 					}
 				}
 			}
-			if = { # Earl Warren
+			if = { # Эрл Уоррен
 				limit = {
 					has_country_flag = PSA_1940_liberal_primary_warren
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Earl Warren"
+					name = "Эрл Уоррен"
 					desc = "POLITICS_EARL_WARREN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Earl_Warren.png"
 					expire = "1.1.1"
@@ -2794,13 +2794,13 @@ country_event = { # 1940 election
 					traits = { PSA_crusader_of_justice }
 				}
 			}
-			if = { # Clarence D. Martin
+			if = { # Кларенс Д. Мартин
 				limit = {
 					has_country_flag = PSA_1940_liberal_primary_martin
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Clarence D. Martin"
+					name = "Кларенс Д. Мартин"
 					desc = "POLITICS_CLARENCE_MARTIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_clarence_martin.png"
 					expire = "1.1.1"
@@ -2814,7 +2814,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Warren Magnuson"
+					name = "Уоррен Магнусон"
 					desc = "POLITICS_WARREN_MAGNUSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Warren_Magnuson.png"
 					expire = "1.1.1"
@@ -2828,21 +2828,21 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Oswald West"
+					name = "Освальд Уэст"
 					desc = "POLITICS_OSWALD_WEST_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Oswald_West.png"
 					expire = "1.1.1"
-					ideology = soclib_teetotalism_subtype 
+					ideology = soclib_teetotalism_subtype
 					traits = { nationalist_symbol }
 				}
 			}
-			if = { # Edouard Izac
+			if = { # Эдуард Изак
 				limit = {
 					has_country_flag = PSA_1940_liberal_primary_izac
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Edouard Izac"
+					name = "Эдуард Изак"
 					desc = "POLITICS_EDOUARD_IZAC_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Edouard_Izac.png"
 					expire = "1.1.1"
@@ -2850,13 +2850,13 @@ country_event = { # 1940 election
 					traits = { hog_old_admiral }
 				}
 			}
-			if = { # Goodwin Knight
+			if = { # Гудвин Найт
 				limit = {
 					has_country_flag = PSA_1940_liberal_primary_knight
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Goodwin Knight"
+					name = "Гудвин Найт"
 					desc = "POLITICS_GOODWIN_KNIGHT_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Goodwin_Knight.png"
 					expire = "1.1.1"
@@ -2870,7 +2870,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Ralph Lawrence Carr"
+					name = "Ральф Лоуренс Карр"
 					desc = "POLITICS_RALPH_CARR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Ralph_Lawrence_Carr.png"
 					expire = "1.1.1"
@@ -2878,13 +2878,13 @@ country_event = { # 1940 election
 					traits = { divided_interests }
 				}
 			}
-            if = { # Robert Taft
+            if = { # Роберт Тафт
 				limit = {
 					has_country_flag = PSA_1940_republican_primary_taft
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Robert Taft"
+					name = "Роберт Тафт"
 					desc = "POLITICS_Robert_Taft_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Robert_A_Taft.png"
 					expire = "1.1.1"
@@ -2892,13 +2892,13 @@ country_event = { # 1940 election
 					traits = { staunch_constitutionalist }
 				}
 			}
-			if = { # William Wadsworth Hodkinson
+			if = { # Уильям Уодсворт Ходкинсон
 				limit = {
 					has_country_flag = PSA_1940_republican_primary_hodkinson
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "William Wadsworth Hodkinson"
+					name = "Уильям Уодсворт Ходкинсон"
 					desc = "POLITICS_HODKINSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_William_Wadsworth_Hodkinson.png"
 					expire = "1.1.1"
@@ -2912,7 +2912,7 @@ country_event = { # 1940 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Harry Baals"
+					name = "Гарри Баалс"
 					desc = "POLITICS_HARRY_BAALS_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Harry_Baals.png"
 					expire = "1.1.1"
@@ -2920,13 +2920,13 @@ country_event = { # 1940 election
 					traits = { PSA_small_government_firebrand }
 				}
 			}
-			if = { # Joseph Bracken Lee
+			if = { # Джозеф Брекен Ли
 				limit = {
 					has_country_flag = PSA_1940_democratic_primary_lee
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Joseph Bracken Lee"
+					name = "Джозеф Брекен Ли"
 					desc = "POLITICS_JOSEPH_LEE_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Joseph_Bracken_Lee.png"
 					expire = "1.1.1"
@@ -2934,13 +2934,13 @@ country_event = { # 1940 election
 					traits = { PSA_small_government_firebrand }
 				}
 			}
-			if = { # Robert Taylor Jones
+			if = { # Роберт Тейлор Джонс
 				limit = {
 					has_country_flag = PSA_1940_democratic_primary_jones
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Robert Taylor Jones"
+					name = "Роберт Тейлор Джонс"
 					desc = "POLITICS_ROBERT_TAYLOR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Robert_Taylor_Jones.png"
 					expire = "1.1.1"
@@ -2989,7 +2989,7 @@ country_event = { # 1940 election
 					if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = georgism_subtype
-				    }
+					}
 					hidden_effect = {
 					country_event = {
 					id = KX_california.50
@@ -3124,7 +3124,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_humanistic_capitalism_subtype
-				}
+			}
 			}
 			if = { # Oswald West
 				limit = {
@@ -3138,7 +3138,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_teetotalism_subtype
-				}
+			}
 			}
 			if = { # Edouard Izac
 				limit = {
@@ -3152,7 +3152,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = national_liberalism_subtype
-				}
+			}
 			}
 			if = { # Goodwin Knight
 				limit = {
@@ -3212,7 +3212,7 @@ country_event = { # 1940 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Ralph Lawrence Carr
+			if = { # Ральф Лоуренс Карр
 				limit = {
 					has_country_flag = PSA_1940_republican_primary_carr
 				}
@@ -3224,7 +3224,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_classical_liberalism_subtype
-				}
+			}
 			}
 			if = { # Robert Taft
 				limit = {
@@ -3238,7 +3238,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = libertarian_subtype
-				}
+			}
 			}
 			if = { # William Wadsworth Hodkinson
 				limit = {
@@ -3252,7 +3252,7 @@ country_event = { # 1940 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = market_liberal_subtype
-				}
+			}
 			}
 			if = { # Harry Baals
 				limit = {
@@ -3464,8 +3464,8 @@ country_event = { # 1944 Progressive Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -3517,15 +3517,15 @@ country_event = { # 1944 Progressive Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Monrad Wallgren
+	option = { # Монрад Вальгрен
 		name = pacificstates.13.a
 		hidden_effect = {
 			set_country_flag = PSA_1944_progressive_primary_wallgren
@@ -3589,15 +3589,15 @@ country_event = { # 1944 Republican Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = { # Arthur B. Langlie
+	option = { # Артур Б. Лэнгли
 		name = pacificstates.14.a
 		hidden_effect = {
 			set_country_flag = PSA_1944_republican_primary_langlie
@@ -3672,8 +3672,8 @@ country_event = { # 1944 Commonwealth Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -3766,8 +3766,8 @@ country_event = { # 1944 Democrat Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -3823,8 +3823,8 @@ country_event = { # 1944 election
 			has_country_flag = PSA_had_1944_election
 		}
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -3836,7 +3836,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Upton Sinclair"
+					name = "Эптон Синклер"
 					desc = "POLITICS_UPTON_SINCLAIR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 					expire = "1.1.1"
@@ -3844,13 +3844,13 @@ country_event = { # 1944 election
 					traits = { PSA_an_end_to_poverty }
 				}
 			}
-			if = { # Culbert Olson
+			if = { # Калберт Олсон
 				limit = {
 					has_country_flag = PSA_1944_commonwealth_primary_olson
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Culbert Olson"
+					name = "Калберт Олсон"
 					desc = "POLITICS_CULBERT_OLSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Culbert_Olson.png"
 					expire = "1.1.1"
@@ -3864,7 +3864,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Charlie Chaplin"
+					name = "Чарльз Чаплин"
 					desc = "POLITICS_CHARLIE_CHAPLIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Charlie_Chaplin.png"
 					expire = "1.1.1"
@@ -3878,7 +3878,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Robert Heinlein"
+					name = "Роберт Хайнлайн"
 					desc = "POLITICS_ROBERT_HEINLEIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Robert_Heinlein.png"
 					expire = "1.1.1"
@@ -3886,13 +3886,13 @@ country_event = { # 1944 election
 					traits = {  }
 				}
 			}
-			if = { # Glen H. Taylor
+			if = { # Глен Х. Тейлор
 				limit = {
 					has_country_flag = PSA_1944_progressive_primary_taylor
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Glen H. Taylor"
+					name = "Глен Х. Тейлор"
 					desc = "POLITICS_GLEN_TAYLOR_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Glen_Taylor.png"
 					expire = "1.1.1"
@@ -3900,13 +3900,13 @@ country_event = { # 1944 election
 					traits = { PSA_the_singing_cowboy }
 				}
 			}
-			if = { # Monrad Wallgren
+			if = { # Монрад Вальгрен
 				limit = {
 					has_country_flag = PSA_1944_progressive_primary_wallgren
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Monrad Wallgren"
+					name = "Монрад Вальгрен"
 					desc = "POLITICS_MONRAD_WALLGREN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Monrad_Charles_Wallgren.png"
 					expire = "1.1.1"
@@ -3914,13 +3914,13 @@ country_event = { # 1944 election
 					traits = { silent_workhorse }
 				}
 			}
-			if = { # Clyde Tingley
+			if = { # Клайд Тингли
 				limit = {
 					has_country_flag = PSA_1944_progressive_primary_tingley
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Clyde Tingley"
+					name = "Клайд Тингли"
 					desc = "POLITICS_CLYDE_TINGLEY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Clyde_Tingley.png"
 					expire = "1.1.1"
@@ -3934,7 +3934,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "James E. Murray"
+					name = "Джеймс Э. Мюррей"
 					desc = "POLITICS_JAMES_MURRAY_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_James_Murray.png"
 					expire = "1.1.1"
@@ -3948,7 +3948,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Arthur B. Langlie"
+					name = "Артур Б. Лэнгли"
 					desc = "POLITICS_ARTHUR_LANGLIE_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Arthur_B_Langlie.png"
 					expire = "1.1.1"
@@ -3956,13 +3956,13 @@ country_event = { # 1944 election
 					traits = { financial_expert }
 				}
 			}
-			if = { # Douglas McKay
+			if = { # Дуглас Маккей
 				limit = {
 					has_country_flag = PSA_1944_republican_primary_mckay
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Douglas McKay"
+					name = "Дуглас Маккей"
 					desc = "POLITICS_DOUGLAS_MCKAY_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Douglas_McKay.png"
 					expire = "1.1.1"
@@ -3970,13 +3970,13 @@ country_event = { # 1944 election
 					traits = { captain_of_industry }
 				}
 			}
-			if = { # Fletcher Bowron
+			if = { # Флетчер Боурон
 				limit = {
 					has_country_flag = PSA_1944_republican_primary_mckay
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Fletcher Bowron"
+					name = "Флетчер Боурон"
 					desc = "POLITICS_FLETCHER_BOWRON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Fletcher_Bowron.png"
 					expire = "1.1.1"
@@ -3990,7 +3990,7 @@ country_event = { # 1944 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Barry Goldwater"
+					name = "Барри Голдуотер"
 					desc = ""
 					picture = "gfx/leaders/CAL/Portrait_CAL_Barry_Goldwater.png"
 					expire = "1.1.1"
@@ -3998,13 +3998,13 @@ country_event = { # 1944 election
 					traits = { ARZ_golden_water }
 				}
 			}
-			if = { # Daniel I. J. Thornton
+			if = { # Дан Торнтон
 				limit = {
 					has_country_flag = PSA_1944_democrat_primary_thornton
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Daniel I. J. Thornton"
+					name = "Дан Торнтон"
 					desc = "POLITICS_DANIEL_THORNTON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Daniel_I_J_Thornton.png"
 					expire = "1.1.1"
@@ -4012,13 +4012,13 @@ country_event = { # 1944 election
 					traits = { silent_workhorse }
 				}
 			}
-			if = { # Bourke B. Hickenlooper
+			if = { # Бурке Б. Хикенлупер
 				limit = {
 					has_country_flag = PSA_1944_democratic_primary_hickenlooper
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Bourke B. Hickenlooper"
+					name = "Бурке Б. Хикенлупер"
 					desc = "POLITICS_BOURKE_HICKENLOOPER_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Bourke_B_Hickenlooper.png"
 					expire = "1.1.1"
@@ -4049,7 +4049,7 @@ country_event = { # 1944 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Glen H. Taylor
+			if = { # Глен Х. Тейлор
 				limit = {
 					has_country_flag = PSA_1944_progressive_primary_taylor
 				}
@@ -4119,7 +4119,7 @@ country_event = { # 1944 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_radical_progressivism_subtype
-				}
+			}
 			}
 			if = { # Clyde Tingley
 				limit = {
@@ -4205,7 +4205,7 @@ country_event = { # 1944 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_authoritarian_liberalism_subtype
-				}
+			}
 			}
 			if = { # Douglas McKay
 				limit = {
@@ -4219,7 +4219,7 @@ country_event = { # 1944 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_classical_liberalism_subtype
-				}
+			}
 			}
 			if = { # Fletcher Bowron
 				limit = {
@@ -4233,7 +4233,7 @@ country_event = { # 1944 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_centrist_subtype
-				}
+			}
 			}
 			if = { # Barry Goldwater
 				limit = {
@@ -4293,7 +4293,7 @@ country_event = { # 1944 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Daniel I. J. Thornton
+			if = { # Дан Торнтон
 				limit = {
 					has_country_flag = PSA_1944_democrat_primary_thornton
 				}
@@ -4303,7 +4303,7 @@ country_event = { # 1944 election
 				add_ideas = CAL_William_Myron_Keck_eco_sco
 				add_ideas = CAL_Claude_A_Watson_sec_sco
 			}
-			if = { # Bourke B. Hickenlooper
+			if = { # Бурке Б. Хикенлупер
 				limit = {
 					has_country_flag = PSA_1944_democratic_primary_hickenlooper
 				}
@@ -4476,8 +4476,8 @@ country_event = { # 1948 Commonwealth Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4559,8 +4559,8 @@ country_event = { # 1948 Progressive Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4621,8 +4621,8 @@ country_event = { # 1948 Democratic-Republican Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4691,8 +4691,8 @@ country_event = { # 1948 Republican Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4782,8 +4782,8 @@ country_event = { # 1948 Democrat Primary
 			has_government = social_conservative
 		}	
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4845,8 +4845,8 @@ country_event = { # 1948 election
 			is_supposed_to_fire_for_tag = yes
 		}
 		NOT = {
-			has_completed_focus = CAL_pacific_prosperity
-			has_completed_focus = CAL_nation_of_visionaries
+				has_completed_focus = CAL_pacific_prosperity
+				has_completed_focus = CAL_nation_of_visionaries
 		}
 	}
 
@@ -4859,7 +4859,7 @@ country_event = { # 1948 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Upton Sinclair"
+					name = "Эптон Синклер"
 					desc = "POLITICS_UPTON_SINCLAIR_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 					expire = "1.1.1"
@@ -4867,13 +4867,13 @@ country_event = { # 1948 election
 					traits = { PSA_an_end_to_poverty }
 				}
 			}
-			if = { # Culbert Olson
+			if = { # Калберт Олсон
 				limit = {
 					has_country_flag = PSA_1944_commonwealth_primary_olson
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Culbert Olson"
+					name = "Калберт Олсон"
 					desc = "POLITICS_CULBERT_OLSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Culbert_Olson.png"
 					expire = "1.1.1"
@@ -4887,7 +4887,7 @@ country_event = { # 1948 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Charlie Chaplin"
+					name = "Чарльз Чаплин"
 					desc = "POLITICS_CHARLIE_CHAPLIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Charlie_Chaplin.png"
 					expire = "1.1.1"
@@ -4901,7 +4901,7 @@ country_event = { # 1948 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Robert Heinlein"
+					name = "Роберт Хайнлайн"
 					desc = "POLITICS_ROBERT_HEINLEIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Robert_Heinlein.png"
 					expire = "1.1.1"
@@ -4909,13 +4909,13 @@ country_event = { # 1948 election
 					traits = {  }
 				}
 			}
-			if = { # Glen H. Taylor
+			if = { # Глен Х. Тейлор
 				limit = {
 					has_country_flag = PSA_1948_progressive_primary_taylor
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Glen H. Taylor"
+					name = "Глен Х. Тейлор"
 					desc = "POLITICS_GLEN_TAYLOR_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Glen_Taylor.png"
 					expire = "1.1.1"
@@ -4923,13 +4923,13 @@ country_event = { # 1948 election
 					traits = { PSA_the_singing_cowboy }
 				}
 			}
-			if = { # Helen Gahagan Douglas
+			if = { # Хелен Гаган Дуглас
 				limit = {
 					has_country_flag = PSA_1948_progressive_primary_gahagan_douglas
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Helen Gahagan Douglas"
+					name = "Хелен Гаган Дуглас"
 					desc = "POLITICS_HELEN_DOUGLAS_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Helen_Gahagan_Douglas.png"
 					expire = "1.1.1"
@@ -4938,13 +4938,13 @@ country_event = { # 1948 election
 				}
 			}
 			
-			if = { # Amelia Earhart
+			if = { # Амелия Эрхарт
 				limit = {
 					has_country_flag = PSA_1948_progressive_primary_earhart
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Amelia Earhart"
+					name = "Амелия Эрхарт"
 					desc = ""
 					picture = "gfx/leaders/CAL/Portrait_CAL_Amelia_Earhart.png"
 					expire = "1.1.1"
@@ -4953,13 +4953,13 @@ country_event = { # 1948 election
 				}
 			}
 	
-			if = { # Victor Aloysius Meyers
+			if = { # Виктор Алоизиус Мейерс
 				limit = {
 					has_country_flag = PSA_1948_progressive_primary_meyers
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Victor Aloysius Meyers"
+					name = "Виктор Алоизиус Мейерс"
 					desc = "POLITICS_VICTOR_MEYERS_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Victor_Aloysius_Meyers.png"
 					expire = "1.1.1"
@@ -4967,13 +4967,13 @@ country_event = { # 1948 election
 					traits = { figurehead_president }
 				}
 			}
-			if = { # Andrew W. Hockenhull
+			if = { # Эндрю В. Хокенхулл
 				limit = {
 					has_country_flag = PSA_1948_progressive_primary_hockenhull
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Andrew W. Hockenhull"
+					name = "Эндрю В. Хокенхулл"
 					desc = "POLITICS_ANDREW_HOCKENHULL_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Andrew_Hockenhull.png"
 					expire = "1.1.1"
@@ -4981,13 +4981,13 @@ country_event = { # 1948 election
 					traits = { financial_expert }
 				}
 			}
-			if = { # Richard Nixon
+			if = { # Ричард Никсон
 				limit = {
 					has_country_flag = PSA_1948_republican_primary_nixon
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Richard Nixon"
+					name = "Ричард Никсон"
 					desc = "POLITICS_RICHARD_NIXON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Richard_Nixon.png"
 					expire = "1.1.1"
@@ -4995,13 +4995,13 @@ country_event = { # 1948 election
 					traits = { PSA_tricky_dick }
 				}
 			}	
-			if = { # James Dean
+			if = { # Джеймс Дин
 				limit = {
 					has_country_flag = PSA_1948_republican_primary_dean
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "James Dean"
+					name = "Джеймс Дин"
 					desc = "POLITICS_JAMES_DEAN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_James_Dean.png"
 					expire = "1.1.1"
@@ -5009,13 +5009,13 @@ country_event = { # 1948 election
 					traits = { PSA_famed_actor }
 				}
 			}
-			if = { # George N. Craig
+			if = { # Джордж Н. Крейг
 				limit = {
 					has_country_flag = PSA_1948_republican_primary_craig
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "George N. Craig"
+					name = "Джордж Н. Крейг"
 					desc = "POLITICS_GEORGE_CRAIG_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_George_Craig.png"
 					expire = "1.1.1"
@@ -5029,7 +5029,7 @@ country_event = { # 1948 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "William Knowland"
+					name = "Уильям Ноулэнд"
 					desc = "POLITICS_WILLIAM_KNOWLAND_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_William_Knowland.png"
 					expire = "1.1.1"
@@ -5043,7 +5043,7 @@ country_event = { # 1948 election
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Val Peterson"
+					name = "Вэл Петерсон"
 					desc = "POLITICS_VAL_PETERSON_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Val_Peterson.png"
 					expire = "1.1.1"
@@ -5051,13 +5051,13 @@ country_event = { # 1948 election
 					traits = { quartermaster_general }
 				}
 			}
-			if = { # Harry P. Cain
+			if = { # Гарри П. Кейн
 				limit = {
 					has_country_flag = PSA_1948_democratic_primary_cain
 					NOT = { has_country_flag = CAL_Norton_PSA_flag }
 				}
 				create_country_leader = {
-					name = "Harry P. Cain"
+					name = "Гарри П. Кейн"
 					desc = "POLITICS_HARRY_CAIN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Harry_Cain.png"
 					expire = "1.1.1"
@@ -5100,7 +5100,7 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = socdem_humanistic_capitalism_subtype
-				}
+			}
 			}
 			if = { # Helen Gahagan Douglas
 				limit = {
@@ -5114,9 +5114,9 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = socdem_radical_progressivism_subtype
-				}
 			}
 		}
+	}
 	}
 	option = { # Dem-Rep
 		name = pacificstates.21.b
@@ -5150,7 +5150,7 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_radical_progressivism_subtype
-				}
+			}
 			}
 			if = { # Andrew W. Hockenhull
 				limit = {
@@ -5164,7 +5164,7 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = soclib_agrarianism_subtype
-				}
+			}
 			}
 			if = { # Amelia Earhart
 				limit = {
@@ -5214,7 +5214,7 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_national_liberalism_subtype
-				}
+			}
 			}
 			if = { # James Dean
 				limit = {
@@ -5228,7 +5228,7 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = marlib_radical_liberalism_subtype
-				}
+			}
 			}
 			if = { # George N. Craig
 				limit = {
@@ -5280,7 +5280,7 @@ country_event = { # 1948 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Val Peterson
+			if = { # Вэл Петерсон
 				limit = {
 					has_country_flag = PSA_1948_democratic_primary_peterson
 				}
@@ -5290,7 +5290,7 @@ country_event = { # 1948 election
 				add_ideas = CAL_William_Myron_Keck_eco_sco
 				add_ideas = CAL_Claude_A_Watson_sec_sco
 			}
-			if = { # Harry P. Cain
+			if = { # Гарри П. Кейн
 				limit = {
 					has_country_flag = PSA_1948_democratic_primary_cain
 				}
@@ -5403,29 +5403,29 @@ country_event = { # America is reunited
 			AND = {
 				NEE = { 
 					exists = yes
-					has_country_flag = NEE_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = NEE_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				TXS = { 
 					exists = yes
-					has_country_flag = TXS_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = TXS_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				NYC = {
 					exists = yes
-					has_country_flag = NYC_can_invade_america
-					is_ally_of_ROOT = no
+				has_country_flag = NYC_can_invade_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
-				BBR = {
+				BBR = {	
 					exists = yes
-					has_country_flag = BBR_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = BBR_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 		}
@@ -5453,7 +5453,7 @@ country_event = { # America is reunited
 		}
 		if = {
 		limit = {
-		has_country_leader = { name = "Ralph Townsend" ruling_only = yes }
+		has_country_leader = { name = "Ральф Таунсенд" ruling_only = yes }
 		}
 		set_cosmetic_tag = CAL_JAP_REORGANIZED
 		}
@@ -5491,7 +5491,7 @@ country_event = { # America is reunited
 		has_government = radical_socialist
 		has_country_flag = USA_SPIRITUALIST
 		has_country_flag = CAL_JAP_USA
-		has_country_leader = { name = "Ralph Townsend" ruling_only = yes }
+		has_country_leader = { name = "Ральф Таунсенд" ruling_only = yes }
 		has_country_flag = CAL_Norton_PSA_flag
 		has_country_flag = CAL_Wallace_Shalala
 				}
@@ -6116,12 +6116,12 @@ country_event = { # The Immigration Debate
 
 	trigger = {
 		OR = {
-			tag = CAL
+		tag = CAL
 			tag = USA
 		}
 		has_government = social_conservative
 		OR = {
-			has_completed_focus = CAL_immigration_act
+		has_completed_focus = CAL_immigration_act
 			has_completed_focus = USA_immigration_act
 		}
 	}
@@ -6268,7 +6268,7 @@ country_event = { # Trial of the Weapons companies
 	fire_only_once = yes
 
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			country_event = {
@@ -6432,7 +6432,7 @@ country_event = { # Lavender Scare
 
 	trigger = {
 		OR = {
-			tag = CAL
+		tag = CAL
 			tag = USA
 		}
 		has_global_flag = USA_civil_war_over_flag
@@ -6495,11 +6495,11 @@ country_event = { # Amelia Earhart and the 99s
 	trigger = {
 		has_global_flag = USA_civil_war_over_flag
 		OR = {
-			tag = CAL
+		tag = CAL
 			tag = USA
 		}
 		OR = {
-			has_completed_focus = CAL_expand_wasps
+		has_completed_focus = CAL_expand_wasps
 			has_completed_focus = USA_expand_wasps
 		}
 	}
@@ -6650,7 +6650,7 @@ country_event = { # Railroad Nationalization
 
 
 ### Presidential Events 76 - 100 ###
-country_event = { # Howard Hughes and aviation
+country_event = { # Говард Хьюз and aviation
 	id = pacificstates.76
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pacificstates.76"}
 	title = pacificstates.76.t
@@ -6662,7 +6662,7 @@ country_event = { # Howard Hughes and aviation
 	trigger = {
 		tag = CAL
 		has_country_leader = {
-			name = "Howard Hughes"
+			name = "Говард Хьюз"
 			ruling_only = yes
 		}
 	}
@@ -7051,9 +7051,9 @@ country_event = { # Goddard's Successful Launch
 				NOT = { has_tech = atomic_research }
 				NOT = { is_researching_technology = atomic_research }
 			}
-			add_tech_bonus = {
+		add_tech_bonus = {
 				bonus = 0.5
-				uses = 1
+			uses = 1
 				technology = atomic_research
 			}
 			add_breakthrough_progress = {
@@ -7478,7 +7478,7 @@ country_event = {# President Arrives
 	option = {# Garner Arrives
 		set_country_flag = PSA_garner_arrives
 	}
-	option = {# Alf Landon Arrives
+	option = {# Альфред Лэндон Arrives
 		set_country_flag = PSA_landon_arrives
 	}
 	option = {# Curtis Arrives
@@ -7501,7 +7501,7 @@ country_event = {# Hearst Runs
 			OR = {
 				is_supposed_to_fire_for_tag = yes
 				has_country_leader = {
-					name = "Norton II"
+					name = "Нортон II"
 					ruling_only = yes
 				}
 			}
@@ -7519,19 +7519,19 @@ country_event = {# Hearst Runs
 			long_name = CAL_new_aut_dem_party_long
 			name = CAL_new_aut_dem_party }	
 		create_country_leader = {
-			name = "William Randolph Hearst"
+			name = "Уильям Рэндольф Хёрст"
 			desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 			expire = "1.1.1"
-			ideology = hearstian_democracy_subtype 
+			ideology = hearstian_democracy_subtype
 			traits = { sec_media_magnate }
 		}
 		create_country_leader = {
-			name = "William Randolph Hearst"
+			name = "Уильям Рэндольф Хёрст"
 			desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 			expire = "1.1.1"
-			ideology = pataut_hearstian_democracy_subtype 
+			ideology = pataut_hearstian_democracy_subtype
 			traits = { sec_media_magnate }
 		}
 		set_country_flag = CAL_Hearts_Exists
@@ -7719,10 +7719,10 @@ country_event = {# Push For America
 	NOT = {
 		has_global_flag = CAl_peaceoutgang
 	}
-	has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+	has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 	USA = {
 		exists = yes
-		has_country_leader = { ruling_only = yes name = "Douglas MacArthur"}
+		has_country_leader = { ruling_only = yes name = "Дуглас Макартур"}
 		}
 	WCC = {
 		exists = no
@@ -8094,9 +8094,9 @@ country_event = {# Protests Increase
 						rule = CAL_political
 						option = CAL_POLITICAL_PATH_ARNOLD
 					}
-					has_game_rule = {
-						rule = CAL_political
-						option = CAL_POLITICAL_PATH_HEARST
+				has_game_rule = {
+					rule = CAL_political
+					option = CAL_POLITICAL_PATH_HEARST
 					}
 				}
 			}
@@ -8678,7 +8678,7 @@ country_event = {# Military Coups Hearst
 			elections_allowed = yes
 		}
 		create_country_leader = {
-			name = "George Marshall"
+			name = "Джордж Маршалл"
 			desc = "CAL_DADDY_MARSHALL_ARMY_DESC"
 			picture = "gfx/leaders/USA/Portrait_USA_george_marshall.png"
 			expire = "1.1.1"
@@ -8878,12 +8878,12 @@ country_event = {# Snap Election Results
 
 	fire_only_once = yes
 	
-	option = {# George Marshall
+	option = {# Джордж Маршалл
 		name = pacificstates.2490.a
 		trigger = { has_country_flag = PSA_Candidate_Marshall }
 		hidden_effect = {
 		create_country_leader = {
-			name = "George Marshall"
+			name = "Джордж Маршалл"
 			desc = "POLITICS_GEORGE_MARSHALL_DESC"
 			picture = "gfx/leaders/USA/Portrait_USA_george_marshall.png"
 			expire = "1.1.1"
@@ -8896,10 +8896,10 @@ country_event = {# Snap Election Results
 			elections_allowed = yes
 		}	
 	}
-	option = {# Hiram Johnson
+	option = {# Хирам Джонсон
 		name = pacificstates.2490.b
 		create_country_leader = {
-			name = "Hiram Johnson"
+			name = "Хирам Джонсон"
 			desc = "POLITICS_HIRAM_JOHNSON_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Hiram_Johnson.png"
 			expire = "1.1.1"
@@ -8912,10 +8912,10 @@ country_event = {# Snap Election Results
 		}	
 		
 	}
-	option = {# Howard Hughes
+	option = {# Говард Хьюз
 		name = pacificstates.2490.c
 		create_country_leader = {
-					name = "Howard Hughes"
+					name = "Говард Хьюз"
 					desc = "POLITICS_HOWARD_HUGES_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Howard_Hughes_Hat.png"
 					expire = "1.1.1"
@@ -8933,7 +8933,7 @@ country_event = {# Snap Election Results
 			NOT = {
 			has_country_flag = PSA_Candidate_Marshall } }
 			create_country_leader = {
-			name = "Charles A. Sprague"
+			name = "Чарльз Артур Спрейг"
 			desc = "POLITICS_CHARLES_SPRAGUE_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Charles_A_Sprague.png"
 			expire = "1.1.1"
@@ -8945,10 +8945,10 @@ country_event = {# Snap Election Results
 			elections_allowed = yes
 		}
 	}
-	option = {# Henry J. Kaiser
+	option = {# Генри Д. Кайзер
 		name = pacificstates.2490.f
 		create_country_leader = {
-			name = "Henry J. Kaiser"
+			name = "Генри Д. Кайзер"
 			desc = "POLITICS_HENRY_J_KAISER_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Henry_J_Kaiser.png"
 			expire = "1.1.1"
@@ -8996,7 +8996,7 @@ country_event = {# RAND
 
 ##Soc Con PSA##
 
-country_event = {# Walt Disney Accepts
+country_event = {# Уолт Дисней Accepts
 	id = pacificstates.251
 	immediate = {log = "[GetDateText]: [Root.GetName]: event pacificstates.251"}
 	title = pacificstates.251.t
@@ -9151,7 +9151,7 @@ country_event = {# Commando Duck vs the Klan
 	}
 	OR = {
 	date > 1938.1.05
-	has_country_leader = { ruling_only = yes name = "Walt Disney" } 
+	has_country_leader = { ruling_only = yes name = "Уолт Дисней" } 
 		}
 	}
 
@@ -9681,7 +9681,7 @@ country_event = {# Automatic transmission
 	picture = GFX_CAL_Automatic_Transmission
 
 	trigger = {
-	tag = CAL
+		tag = CAL
 	OR = {
 	date > 1938.4.5
 	has_completed_focus = CAL_american_laisze_faire
@@ -10570,9 +10570,9 @@ country_event = {# Anti-Syndicalist Organizations
 						rule = CAL_political
 						option = CAL_POLITICAL_PATH_ARNOLD
 					}
-					has_game_rule = {
-						rule = CAL_political
-						option = CAL_POLITICAL_PATH_HEARST
+				has_game_rule = {
+					rule = CAL_political
+					option = CAL_POLITICAL_PATH_HEARST
 					}
 				}
 			}
@@ -10789,11 +10789,11 @@ country_event = {# Trials of Patton and Pelley
 			factor = 5
 		}
 		create_country_leader = {
-				name = "William Dudley Pelley"
+				name = "Уильям Дадли Пелли"
 				desc = "POLITICS_WILLIAM_DUDLEY_PELLEY"
 				picture = "gfx/leaders/TEX/Portrait_TEX_William_Dudley_Pelley.png"
 				expire = "1.1.1"
-				ideology = pelleyism_subtype 
+				ideology = pelleyism_subtype
 				traits = { authoritarian_tendencies }
 		}
 		add_political_power = -10
@@ -10806,7 +10806,7 @@ country_event = {# Trials of Patton and Pelley
 			factor = 5
 		}
 		create_country_leader = {
-				name = "George Patton"
+				name = "Джордж Паттон"
 				desc = "POLITICS_GEORGE_PATTON_DESC"
 				picture = "gfx/leaders/COR/Portrait_COR_George_Patton.png"
 				expire = "1.1.1"
@@ -10823,15 +10823,15 @@ country_event = {# Trials of Patton and Pelley
 			factor = 5
 		}
 		create_country_leader = {
-				name = "William Dudley Pelley"
+				name = "Уильям Дадли Пелли"
 				desc = "POLITICS_WILLIAM_DUDLEY_PELLEY"
 				picture = "gfx/leaders/TEX/Portrait_TEX_William_Dudley_Pelley.png"
 				expire = "1.1.1"
-				ideology = pelleyism_subtype 
+				ideology = pelleyism_subtype
 				traits = { authoritarian_tendencies }
 		}
 		create_country_leader = {
-				name = "George Patton"
+				name = "Джордж Паттон"
 				desc = "POLITICS_GEORGE_PATTON_DESC"
 				picture = "gfx/leaders/COR/Portrait_COR_George_Patton.png"
 				expire = "1.1.1"
@@ -11195,7 +11195,7 @@ country_event = {# Bodin Addresses Congress
 		add_stability = -0.05
 		add_popularity = { ideology = national_populist popularity = 0.05 }
 		create_country_leader = {#
-			name = "Edward Longstreet Bodin"
+			name = "Эдвард Лонгстрит Бодин"
 			desc = "POLITICS_EDWARD_LONGSTREET_BODIN_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Edward_Longstreet_Bodin.png"
 			expire = "1.1.1"
@@ -11253,7 +11253,7 @@ country_event = { #Meeting in the Cabinet Room
 		tag = CAL
 		has_completed_focus = CAL_sane_economy
 		has_country_leader = {
-			name = "L. Ron Hubbard"
+			name = "Л. Рон Хаббард"
 			ruling_only = yes
 		}
 	}
@@ -11434,7 +11434,7 @@ country_event = {
 		tag = CAL
 		has_completed_focus = CAL_reeducation_effort
 		NOT = { has_completed_focus = CAL_japan_in_command }
-		date > 1939.07.21
+						date > 1939.07.21
 	}
 
 				 option = {
@@ -11631,10 +11631,10 @@ country_event = {# Bodin Removed
 
 	fire_only_once = yes
 	
-	option = {# Max Thornburg
+	option = {# Макс Торнбург
 		name = pacificstates.358.a
 		create_country_leader = {
-		name = "Max Thornburg"
+		name = "Макс Торнбург"
 		desc = "POLITICS_MAX_THORNBURG_DESC"
 		picture = "gfx/leaders/CAL/Portrait_CAL_Max_Thornburg.png"
 		expire = "1.1.1"
@@ -11679,10 +11679,10 @@ country_event = {# Bodin Removed
 		country_event = KX_california.57
 		}
 	}
-	option = {# Ralph Townsend
+	option = {# Ральф Таунсенд
 		name = pacificstates.358.b
 		create_country_leader = {
-		name = "Ralph Townsend"
+		name = "Ральф Таунсенд"
 		desc = "POLITICS_RALPH_TOWNSEND_DESC"
 		picture = "gfx/leaders/CAL/Portrait_CAL_Ralph_Townsend.png"
 		expire = "1.1.1"
@@ -11738,7 +11738,7 @@ country_event = {# Bodin Removed
 		add_to_faction = CAL
 		}
 		create_country_leader = {
-		name = "Kichisaburō Nomura"
+		name = "Качисабуро Номура"
 		desc = "POLITICS_KICHISABURO_NOMURA_DESC"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Kichisaburo_Nomura.png"
 		expire = "1.1.1"
@@ -11839,9 +11839,9 @@ country_event = {# Hubbard Stuff
 	option = {# Deal with him
 		name = pacificstates.3590.a
 		hidden_effect = {
-			country_event = {
-				id = pacificstates.4006
-				days = 90
+		country_event = {
+			id = pacificstates.4006
+			days = 90
 			}
 			country_event = {
 				id = pacificstates.4011
@@ -11878,12 +11878,12 @@ country_event = {# Bodin Dead
 
 	fire_only_once = yes
 	
-	option = {# HOYABEMBE
+	option = {# Pressure
 		name = pacificstates.359.a
 		add_stability = 0.02
 		add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 		create_country_leader = {
-			name = "L. Ron Hubbard"
+			name = "Л. Рон Хаббард"
 			desc = "POLITICS_L_RON_HUBBARD_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_L_Ron_Hubbard.png"
 			expire = "1.1.1"
@@ -11921,13 +11921,13 @@ country_event = {# Bodin Dead
 			}
 		}
 	}
-
+	
 	option = {# LETS GET RIPPED
 		name = pacificstates.359.b
 		add_war_support = 0.02
 		add_popularity = { ideology = national_populist popularity = 0.03 }
 		create_country_leader = {
-			name = "Bernarr Macfadden"
+			name = "Бернар Макфадден"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Bernarr_Macfadden.png"
 			expire = "1.1.1"
 			ideology = spiritualism_subtype
@@ -11985,7 +11985,7 @@ country_event = {# PCC
 	trigger = {
 		tag = CAL
 		has_country_leader = {
-			name = "Bernarr Macfadden"
+			name = "Бернар Макфадден"
 			ruling_only = yes
 		}
 		has_global_flag = USA_civil_war_over_flag
@@ -12003,7 +12003,7 @@ country_event = {# PCC
 			province = 11782
 			value = 20
 		}
-		set_province_name = { id = 11782 name = "Physical Culture City" }
+		set_province_name = { id = 11782 name = "Город физической культуры" }
 		set_capital = { state = 359 }
 	}
 }
@@ -12173,20 +12173,20 @@ country_event = {# The Japanese Prince of Bel-Air
 			factor = 0
 		}
 		create_country_leader = {
-		name = "Yasuhito"
+		name = "Ясухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 		expire = "1.1.1"
 		ideology = natpop_colonial_govt_subtype
 		}
 		set_country_flag = LEADER_GUI_VISIBLE
 	}
-	option = {#Nobuhito
+	option = {#Нобухито
 		name = pacificstates.364.b
 		ai_chance = {
 			factor = 0
 		}
 		create_country_leader = {
-		name = "Nobuhito"
+		name = "Нобухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 		expire = "1.1.1"
 		ideology = natpop_colonial_govt_subtype
@@ -12200,7 +12200,7 @@ country_event = {# The Japanese Prince of Bel-Air
 		}
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Kan'in Kotohito"
+		name = "Канъин-но-мия Котохито"
 		picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 		expire = "1.1.1"
 		ideology = natpop_colonial_govt_subtype
@@ -12245,20 +12245,20 @@ country_event = {#
 		}
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Yasuhito"
+		name = "Ясухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 		}
 	}
-	option = {#Nobuhito
+	option = {#Нобухито
 		name = pacificstates.365.b
 		ai_chance = {
 			factor = 0
 		}
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Nobuhito"
+		name = "Нобухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -12271,7 +12271,7 @@ country_event = {#
 		}
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Kan'in Kotohito"
+		name = "Канъин-но-мия Котохито"
 		picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -12318,14 +12318,14 @@ country_event = {# we should probably merge these paths one day
 		CAL = {
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Yasuhito"
+		name = "Ясухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 			}
 		}
 	}
-	option = {#Nobuhito
+	option = {#Нобухито
 		name = pacificstates.366.b
 		ai_chance = {
 			factor = 30
@@ -12333,7 +12333,7 @@ country_event = {# we should probably merge these paths one day
 		CAL = {
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Nobuhito"
+		name = "Нобухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -12348,7 +12348,7 @@ country_event = {# we should probably merge these paths one day
 		CAL = {
 		set_country_flag = LEADER_GUI_VISIBLE
 		create_country_leader = {
-		name = "Kan'in Kotohito"
+		name = "Канъин-но-мия Котохито"
 		picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -12383,14 +12383,14 @@ country_event = {# we should probably merge these paths one day
 		CAL = {	
 			set_country_flag = LEADER_GUI_VISIBLE
 			create_country_leader = {
-				name = "Yasuhito"
+				name = "Ясухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 				expire = "1.1.1"
 				ideology = natpop_colonial_govt_subtype
 			}
 		}
 	}
-	option = {#Nobuhito
+	option = {#Нобухито
 		name = pacificstates.366.b
 		ai_chance = {
 			factor = 30
@@ -12398,7 +12398,7 @@ country_event = {# we should probably merge these paths one day
 		CAL = {
 			set_country_flag = LEADER_GUI_VISIBLE
 			create_country_leader = {
-				name = "Nobuhito"
+				name = "Нобухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 				expire = "1.1.1"
 				ideology = natpop_colonial_govt_subtype
@@ -12413,7 +12413,7 @@ country_event = {# we should probably merge these paths one day
 		CAL = {
 			set_country_flag = LEADER_GUI_VISIBLE
 			create_country_leader = {
-				name = "Kan'in Kotohito"
+				name = "Канъин-но-мия Котохито"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 				expire = "1.1.1"
 				ideology = natpop_colonial_govt_subtype
@@ -12440,11 +12440,11 @@ country_event = {# Long Returns
 
 
 	option = {# Longism
-		name = pacificstates.400.a	
+	name = pacificstates.400.a	
 		if = {
 			limit = { NOT = { has_country_flag = CAL_Norton_PSA_flag } }
 			create_country_leader = {
-				name = "Huey Long"
+				name = "Хьюи Лонг"
 				desc = "POLITICS_HUEY_LONGDONG_DESC"
 				picture = "gfx/leaders/TEX/Portrait_TEX_Huey_Long_Hat.png"
 				expire = "1.1.1"
@@ -12452,7 +12452,7 @@ country_event = {# Long Returns
 				traits = {the_kingfish}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Huey Long" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Хьюи Лонг" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/TEX/Portrait_TEX_Huey_Long_Hat.png"
 				}
@@ -12559,7 +12559,7 @@ country_event = {# TURN THAT POOP INTO WINE
 			province = 823
 			value = 20
 		}
-		hidden_effect = { set_province_name = { id = 823 name = "Gold Base" } }
+		set_province_name = { id = 823 name = "Золотая основа" }
 		829 = {
 				add_building_construction = {
 					type = bunker
@@ -12575,7 +12575,7 @@ country_event = {# TURN THAT POOP INTO WINE
 			province = 823
 			value = 20
 			}
-		hidden_effect = { set_province_name = { id = 823 name = "Gold Base" } }
+		set_province_name = { id = 823 name = "Золотая основа" }
 		set_capital = { state = 829 }
 		829 = {
 				add_building_construction = {
@@ -12633,7 +12633,7 @@ country_event = {# WHO DO WE WANT? XENU!
 		air_experience = 50
 		navy_experience = 50
 		create_navy_leader = {# L. Ron Hoyabembe
-			name = "Lafayette Ronald Hubbard"
+			name = "Лафайет Рональд Хаббард"
 			portrait_path = "gfx/leaders/CAL/Portrait_CAL_L_Ron_Hubbard.png"
 			traits = {
 			caustic_personality
@@ -12849,7 +12849,7 @@ country_event = { # The Provisional Government
 		log = "[GetDateText]: [Root.GetName]: event KX_california.1"
 		hidden_effect = {
 			create_country_leader = {
-				name = "Walt Disney"
+				name = "Уолт Дисней"
 				desc = "POLITICS_WALT_DISNEY_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney_Democratic.png"
 				expire = "1.1.1"
@@ -12859,13 +12859,13 @@ country_event = { # The Provisional Government
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Walt Disney" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Уолт Дисней" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney_Democratic.png"
 				}
 			}
 			create_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				desc = "POLITICS_JOHN_AISO_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_John_Aiso.png"
 				expire = "1.1.1"
@@ -13128,7 +13128,7 @@ country_event = { # The Provisional Government
 				days = 1297
 			}
 			create_country_leader = {
-				name = "Upton Sinclair"
+				name = "Эптон Синклер"
 				desc = "POLITICS_UPTON_SINCLAIR_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 				expire = "1.1.1"
@@ -13211,19 +13211,19 @@ country_event = { # The Provisional Government
 				long_name = CAL_new_aut_dem_party_long
 				name = CAL_new_aut_dem_party }	
 			create_country_leader = {
-				name = "William Randolph Hearst"
+				name = "Уильям Рэндольф Хёрст"
 				desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 				expire = "1.1.1"
-				ideology = hearstian_democracy_subtype 
+				ideology = hearstian_democracy_subtype
 				traits = { sec_media_magnate }
 			}
 			create_country_leader = {
-				name = "William Randolph Hearst"
+				name = "Уильям Рэндольф Хёрст"
 				desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 				expire = "1.1.1"
-				ideology = pataut_hearstian_democracy_subtype 
+				ideology = pataut_hearstian_democracy_subtype
 				traits = { sec_media_magnate }
 			}
 			add_pataut_to_coalition = yes
@@ -13285,8 +13285,8 @@ country_event = { # The Provisional Government
 				has_global_flag = USA_garner_is_president
 			}
 			set_country_flag = PSA_1937_democratic_primary_garner
-			create_country_leader = {# John Nance Garner
-				name = "John Nance Garner"
+			create_country_leader = {# Джон Нэнс Гарнер
+				name = "Джон Нэнс Гарнер"
 				desc = "POLITICS_JOHN_NANCE_GARNER_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_John_Nance_Garner.png"
 				expire = "1.1.1"
@@ -13324,7 +13324,7 @@ country_event = { # The Provisional Government
 			}
 			set_country_flag = PSA_1937_liberal_primary_landon
 			create_country_leader = {
-				name = "Alf Landon"
+				name = "Альфред Лэндон"
 				desc = "POLITICS_ALF_LANDON_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Alf_Landon_KR.png"
 				expire = "1.1.1"
@@ -13362,7 +13362,7 @@ country_event = { # The Provisional Government
 			}
 			set_country_flag = PSA_1937_republican_primary_curtis
 			create_country_leader = {
-				name = "Charles Curtis"
+				name = "Чарльз Кёртис"
 				desc = "POLITICS_CHARLES_CURTIS_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Charles_Curtis_Hat.png"
 				expire = "1.1.1"
@@ -13400,7 +13400,7 @@ country_event = { # The Provisional Government
 			}
 			set_country_flag = PSA_1937_progressive_primary_norris
 			create_country_leader = {
-				name = "George Norris"
+				name = "Джордж Норрис"
 				desc = "POLITICS_GEORGE_NORRIS_DESC"
 				picture = "gfx/leaders/USA/Portrait_George_W_Norris.png"
 				expire = "1.1.1"
@@ -13660,7 +13660,7 @@ country_event = {
 				days = 2
 			}
 			create_country_leader = {
-				name = "Howard Hughes"
+				name = "Говард Хьюз"
 				desc = "POLITICS_HOWARD_HUGES_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_howard_hughes.png"
 				expire = "1.1.1"
@@ -13670,7 +13670,7 @@ country_event = {
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Howard Hughes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Говард Хьюз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAL/Portrait_CAL_howard_hughes.png"
 				}
@@ -13795,7 +13795,7 @@ country_event = {
 				days = 50
 			}
 			create_country_leader = {
-				name = "Howard Hughes"
+				name = "Говард Хьюз"
 				desc = "POLITICS_HOWARD_HUGES_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_howard_hughes_dictator.png"
 				expire = "1.1.1"
@@ -13805,7 +13805,7 @@ country_event = {
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Howard Hughes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Говард Хьюз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAL/Portrait_CAL_howard_hughes_dictator.png"
 				}
@@ -13851,7 +13851,7 @@ country_event = {
 				days = 50
 			}
 			create_country_leader = {
-				name = "Walt Disney"
+				name = "Уолт Дисней"
 				desc = "POLITICS_WALT_DISNEY_AUTOCRAT_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney_Paternal_Autocrat.png"
 				expire = "1.1.1"
@@ -13861,7 +13861,7 @@ country_event = {
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Walt Disney" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Уолт Дисней" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAL/Portrait_CAL_Walt_Disney_Paternal_Autocrat.png"
 				}
@@ -13984,7 +13984,7 @@ country_event = {
 	option = {
 		name = KX_california.10.a
 		create_country_leader = {
-			name = "Pacific Regency Council"
+			name = "Тихоокеанский регентский совет"
 			desc = "POLITICS_CAL_REGENCY_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Regency_Council.png"
 			expire = "1.1.1"
@@ -14025,7 +14025,7 @@ country_event = {
 			factor = 50
 		}
 		create_country_leader = {
-			name = "Pacific Regency Council"
+			name = "Тихоокеанский регентский совет"
 			desc = "POLITICS_CAL_REGENCY_DESC"
 			picture = "gfx/leaders/CAL/Portrait_CAL_Regency_Council.png"
 			expire = "1.1.1"
@@ -14235,7 +14235,7 @@ country_event = {
 				days = 1297
 			}
 			create_country_leader = {
-				name = "Upton Sinclair"
+				name = "Эптон Синклер"
 				desc = "POLITICS_UPTON_SINCLAIR_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Upton_Sinclair.png"
 				expire = "1.1.1"
@@ -14313,19 +14313,19 @@ country_event = {
 				long_name = CAL_new_aut_dem_party_long
 				name = CAL_new_aut_dem_party }	
 			create_country_leader = {
-				name = "William Randolph Hearst"
+				name = "Уильям Рэндольф Хёрст"
 				desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 				expire = "1.1.1"
-				ideology = hearstian_democracy_subtype 
+				ideology = hearstian_democracy_subtype
 				traits = { sec_media_magnate }
 			}
 			create_country_leader = {
-				name = "William Randolph Hearst"
+				name = "Уильям Рэндольф Хёрст"
 				desc = "POLITICS_WILLIAM_RANDOLPH_HEARST_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_William_Randolph_Hearst.png"
 				expire = "1.1.1"
-				ideology = pataut_hearstian_democracy_subtype 
+				ideology = pataut_hearstian_democracy_subtype
 				traits = { sec_media_magnate }
 			}
 			add_pataut_to_coalition = yes
@@ -14339,7 +14339,7 @@ country_event = {
 		ai_chance = {
 			factor = 5
 			modifier = {
-				factor = 0
+			factor = 0
 				OR = {
 					has_game_rule = {
 						rule = CAL_political
@@ -14383,8 +14383,8 @@ country_event = {
 				has_global_flag = USA_garner_is_president
 			}
 			set_country_flag = PSA_1937_democratic_primary_garner
-			create_country_leader = {# John Nance Garner
-				name = "John Nance Garner"
+			create_country_leader = {# Джон Нэнс Гарнер
+				name = "Джон Нэнс Гарнер"
 				desc = "POLITICS_JOHN_NANCE_GARNER_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_John_Nance_Garner.png"
 				expire = "1.1.1"
@@ -14422,7 +14422,7 @@ country_event = {
 			}
 			set_country_flag = PSA_1937_liberal_primary_landon
 			create_country_leader = {
-				name = "Alf Landon"
+				name = "Альфред Лэндон"
 				desc = "POLITICS_ALF_LANDON_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_Alf_Landon_KR.png"
 				expire = "1.1.1"
@@ -14460,7 +14460,7 @@ country_event = {
 			}
 			set_country_flag = PSA_1937_republican_primary_curtis
 			create_country_leader = {
-					name = "Charles Curtis"
+					name = "Чарльз Кёртис"
 					desc = "POLITICS_CHARLES_CURTIS_DESC"
 					picture = "gfx/leaders/USA/Portrait_USA_Charles_Curtis_Hat.png"
 					expire = "1.1.1"
@@ -14548,8 +14548,8 @@ country_event = {
 	election_frequency = 48
 	elections_allowed = yes
 		}
-			create_country_leader = {# Pacific Congress
-	name = "Pacific Congress"
+			create_country_leader = {# Тихоокеанский конгресс
+	name = "Тихоокеанский конгресс"
 	desc = "POLITICS_PACIFIC_CONGRESS_DESC"
 	picture = "gfx/leaders/CAL/Portrait_CAL_Pacific_Congress.png"
 	expire = "1.1.1"
@@ -14810,7 +14810,7 @@ country_event = {
 		name = KX_california.17.a
 		hidden_effect = {
 			create_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				desc = "POLITICS_JOHN_AISO_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_John_Aiso_Double.png"
 				expire = "1.1.1"
@@ -14821,7 +14821,7 @@ country_event = {
 				}
 			}
 			create_country_leader = {
-				name = "John F. Aiso"
+				name = "Джон Ф. Айсо"
 				desc = "POLITICS_JOHN_AISO_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_John_Aiso_Double.png"
 				expire = "1.1.1"
@@ -14832,7 +14832,7 @@ country_event = {
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "John F. Aiso" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Джон Ф. Айсо" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAL/Portrait_CAL_John_Aiso_Double.png"
 				}
@@ -14875,7 +14875,7 @@ country_event = {
 				add_to_faction = CAL
 			}
 			create_country_leader = {
-				name = "Tamon Yamaguchi"
+				name = "Тамон Ямагути"
 				desc = "POLITICS_TAMON_YAMAGUCHI_DESC"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Tamon_Yamaguchi_KX.png"
 				expire = "1.1.1"
@@ -14906,7 +14906,7 @@ country_event = {
 					CAL_Shiro_Ishii_sec_npo
 				}
 				create_country_leader = {# Earl Warren
-					name = "Earl Warren"
+					name = "Эрл Уоррен"
 					desc = "POLITICS_EARL_WARREN_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Earl_Warren.png"
 					expire = "1.1.1"
@@ -14985,8 +14985,8 @@ country_event = {
 	picture = GFX_CAL_Shiro_Ishii
 
 	is_triggered_only = yes
-	
-	immediate = {
+
+		immediate = {
 		hidden_effect = {
 			country_event = {
 				id = KX_california.25
@@ -15011,7 +15011,7 @@ country_event = {
 			}
 		}
 		create_corps_commander = {
-			name = "Shirō Ishii"
+			name = "Сиро Исии"
 			portrait_path = "gfx/leaders/JAP/Portrait_JAP_Shiro_Ishii.png"
 			traits = {
 				harsh_leader
@@ -15037,7 +15037,7 @@ country_event = {
 		add_war_support = -0.1
 		add_political_power = -30
 		create_corps_commander = {
-			name = "Shirō Ishii"
+			name = "Сиро Исии"
 			portrait_path = "gfx/leaders/JAP/Portrait_JAP_Shiro_Ishii.png"
 			traits = {
 				harsh_leader
@@ -15099,7 +15099,7 @@ country_event = {
 			remove_idea = CAL_JAP_Integration_3
 			add_idea = CAL_JAP_Integration_4
 		}
-	    }
+		}
 		hidden_effect = {
 			country_event = {
 				id = KX_california.26
@@ -15229,11 +15229,11 @@ country_event = {
 	option = {
 		name = KX_california.30.b	
 		797 = {
-			set_state_name = "Norton"
+			set_state_name = "Нортон"
 		}
 		set_province_name = {
 			id = 9671
-			name = "Norton City"
+			name = "Нортон-Сити"
 		}
 		hidden_effect = {
 			country_event = {
@@ -15283,7 +15283,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Norton II"
+			name = "Нортон II"
 			ruling_only = yes
 		}
 		date > 1944.6.2
@@ -15301,7 +15301,7 @@ country_event = {
 			}
 			CAL = {
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15311,7 +15311,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15321,7 +15321,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15331,7 +15331,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15341,7 +15341,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15351,7 +15351,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15361,7 +15361,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Norton_III.png"
 					expire = "1.1.1"
@@ -15389,7 +15389,7 @@ country_event = {
 			}
 			CAL = {
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15399,7 +15399,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15409,7 +15409,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15419,7 +15419,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15429,7 +15429,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15439,7 +15439,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -15449,7 +15449,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-					name = "Norton III"
+					name = "Нортон III"
 					desc = "POLITICS_CAL_NORTON_III_DESC"
 					picture = "gfx/leaders/CAL/Portrait_CAL_Herbert_Fraser_Norton.png"
 					expire = "1.1.1"
@@ -16162,7 +16162,7 @@ country_event = { #do we expand or nah
 	option = {
 		name = KX_california.47.f
 			trigger = {
-				has_country_leader = { ruling_only = yes name = "William Randolph Hearst"}
+				has_country_leader = { ruling_only = yes name = "Уильям Рэндольф Хёрст"}
 				}
 		ai_chance = {
 			factor = 0
@@ -16456,7 +16456,7 @@ country_event = { #sunset flag
 	}
 }
 
-country_event = { #Henry Wallace is nuts
+country_event = { #Генри Уоллес is nuts
 	id = KX_california.50
 	immediate = { 
 	log = "[GetDateText]: [Root.GetName]: event KX_california.50" 
@@ -16695,7 +16695,7 @@ country_event = {#
 			add_state_core = 1170
 			add_state_core = 1171
 			create_country_leader = {
-				name = "Mittie Maude Lena Gordon"
+				name = "Митти Мод Лена Гордон"
 				female = yes
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Mittie_Gordon.png"
@@ -16704,7 +16704,7 @@ country_event = {#
 				traits = { for_great_compromiser }
 			}
 			create_country_leader = {
-				name = "Mittie Maude Lena Gordon"
+				name = "Митти Мод Лена Гордон"
 				female = yes
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Mittie_Gordon.png"
@@ -17529,7 +17529,7 @@ country_event = { #growing distrust
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Henry H. Arnold"
+				name = "Генри Арнолд"
 				desc = "USA_HENRY_H_ARNOLD_ARMY_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Henry_Arnold.png"
 				expire = "1.1.1"
@@ -18080,7 +18080,7 @@ country_event = { #event to shoot out USA
 			USA = {
 				load_focus_tree = generic_focus
 			create_country_leader = {
-				name = "Ralph Townsend"
+				name = "Ральф Таунсенд"
 				desc = "POLITICS_RALPH_TOWNSEND_DESC"
 				picture = "gfx/leaders/CAL/Portrait_CAL_Ralph_Townsend.png"
 				expire = "1.1.1"
@@ -18517,10 +18517,10 @@ country_event = { #begone California
 		add_political_power = 150
 		add_stability = -0.1
 		378 = {
-			set_state_name = "Jefferson"
+			set_state_name = "Джефферсон"
 		}
 		829 = {
-			set_state_name = "Mojave"
+			set_state_name = "Мохаве"
 		}
 	}
 	option = {
@@ -18528,25 +18528,25 @@ country_event = { #begone California
 		add_offsite_building = { type = industrial_complex level = 3 }
 		add_stability = -0.25
 		378 = {
-			set_state_name = "Jefferson"
+			set_state_name = "Джефферсон"
 		}
 		829 = {
-			set_state_name = "Mojave"
+			set_state_name = "Мохава"
 		}
 		798 = {
-			set_state_name = "Angels"
+			set_state_name = "Анджелес"
 		}
 		set_province_name = {
 			id = 9814
-			name = "Angels"
+			name = "Анджелес"
 		}
 		797 = {
-			set_state_name = "Frisco"
+			set_state_name = "Фриско"
 			set_state_flag = CAL_renamed_state_frisco
 		}
 		set_province_name = {
 			id = 9671
-			name = "Frisco"
+			name = "Фриско"
 		}
 	}	
 

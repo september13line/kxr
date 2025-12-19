@@ -1853,8 +1853,8 @@ BAT_riga_decision_category = {
 			add_stability = 0.1
 			set_cosmetic_tag = BAT_rep	
 			if = {
-				limit = { has_template = "Auslands-Festungskommando" }
-				delete_unit_template_and_units = { division_template = "Auslands-Festungskommando" }
+				limit = { has_template = "Аусландс-Фестунгскоммандо" }
+				delete_unit_template_and_units = { division_template = "Аусландс-Фестунгскоммандо" }
 			}
 			hidden_effect = {
 				remove_ideas = {
@@ -2599,7 +2599,7 @@ BAT_eastern_vanguard_decision_category = {
 				add_ideas = BAT_LIT_mission
 				hidden_effect = {
 					every_unit_leader = {
-						limit = { has_id = 555000 } #Harry Lutz
+						limit = { has_id = 555000 } #Гарри Лутц
 						demote_leader = yes
 						set_nationality = NSW
 					}
@@ -2612,7 +2612,7 @@ BAT_eastern_vanguard_decision_category = {
 				add_ideas = BAT_POL_mission
 				hidden_effect = {
 					every_unit_leader = {
-						limit = { has_id = 555001 } #Heinrich von Behr
+						limit = { has_id = 555001 } #Генрих фон Бер
 						demote_leader = yes
 						set_nationality = NSW
 					}

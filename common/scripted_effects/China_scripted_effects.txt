@@ -216,7 +216,7 @@ china_reform_faction = {
 			tag = CHI
 		}
 		if = {
-			limit = { has_country_leader = { name = "Song Qingling" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Сун Цинлин" ruling_only = yes } }
  
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance              
@@ -225,7 +225,7 @@ china_reform_faction = {
 			}			
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Wang Jingwei" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Ван Цзинвэй" ruling_only = yes } }
 
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance              
@@ -236,8 +236,8 @@ china_reform_faction = {
 		else_if = {
 			limit = {
 				OR = {
-					has_country_leader = { name = "Chen Gongbo" ruling_only = yes }
-					has_country_leader = { name = "Zeng Zhongming" ruling_only = yes }
+					has_country_leader = { name = "Чэнь Гунбо" ruling_only = yes }
+					has_country_leader = { name = "Цзэн Чжунмин" ruling_only = yes }
 				}
 			}
 
@@ -248,7 +248,7 @@ china_reform_faction = {
 			}			
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Hu Zongnan" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Ху Цзуннань" ruling_only = yes } }
  
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance              
@@ -865,13 +865,13 @@ china_puppet_setup = {
 					limit = { 
 						NOT = { 
 							has_country_leader = {
-								name = "Yan Huiqing"
+								name = "Янь Хуэйцин"
 								ruling_only = yes
 							}
 						}
 					}
 					create_country_leader = {
-						name = "Yan Huiqing"
+						name = "Янь Хуэйцин"
 						picture = "gfx/leaders/QIE/Portrait_QIE_Yan_Huiqing.png"
 						expire = "1.1.1"
 						ideology = oligarchy_subtype
@@ -905,7 +905,7 @@ china_puppet_setup = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Yang Yuting"
+				name = "Ян Юйтин"
 				desc = "POLITICS_YANG_YUTING_MANCHURIA_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Yang_Yuting.png"
 				expire = "1.1.1"
@@ -1383,14 +1383,14 @@ china_generic_set_government_cosmetic_effect = {
 	else_if = {
 		limit = { original_tag = SZC }
 		if = {
-			limit = { has_country_leader = { name = "Chen Jiongming" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Чэнь Цзюнмин" ruling_only = yes } }
 			set_cosmetic_tag = SZC_Federal
 		}
 		else_if = {
 			limit = {
 				OR = {
-					has_country_leader = { name = "Yan Huiqing" ruling_only = yes }
-					has_country_leader = { name = "Jiang Baili" ruling_only = yes }
+					has_country_leader = { name = "Янь Хуэйцин" ruling_only = yes }
+					has_country_leader = { name = "Цзян Байли" ruling_only = yes }
 				}
 			}
 			set_cosmetic_tag = SZC_Zhili

@@ -2189,7 +2189,7 @@ UKR_remove_king = {
 			if = {
 				limit = { UKR_vasyl_in_power = yes }
 				create_country_leader = {
-					name = "Dmytro Doroshenko"
+					name = "Дмитро Дорошенко"
 					desc = "POLITICS_DMYTRO_DOROSHENKO_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Dmitri_Doroshenko.png"
 					expire = "1.1.1"
@@ -2200,7 +2200,7 @@ UKR_remove_king = {
 			if = {
 				limit = { UKR_vasyl_in_power = yes }
 				create_country_leader = {
-					name = "Dmytro Levytskyi"
+					name = "Дмитро Левицький"
 					desc = "POLITICS_DMYTRO_LEVYTSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Dmytro_Levytsky.png"
 					expire = "1.1.1"
@@ -2213,7 +2213,7 @@ UKR_remove_king = {
 				if = {
 					limit = { has_country_flag = ukr_switched_uskhd_upss }
 					create_country_leader = {
-						name = "Oleksandr Shapoval"
+						name = "Олександр Шаповал"
 						desc = "POLITICS_OLEKSANDER_SHAPOVAL_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shapoval.png"
 						expire = "1.1.1"
@@ -2224,7 +2224,7 @@ UKR_remove_king = {
 							NOT = { has_country_flag = Viacheslav_Lypynskyi_dead }
 						}
 						create_country_leader = {
-							name = "Viacheslav Lypynskyi"
+							name = "В'ячеслав Липинський"
 							desc = "POLITICS_VYACHESLAV_LYPYNSKY_DESC"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 							expire = "1.1.1"
@@ -2233,7 +2233,7 @@ UKR_remove_king = {
 					}
 					else = {
 						create_country_leader = {
-							name = "Serhiy Shemet"
+							name = "Сергій Шемет"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Shemet.png"
 							expire = "1.1.1"
 							ideology = soccon_ukrainian_conservatism_subtype
@@ -2247,7 +2247,7 @@ UKR_remove_king = {
 				if = {
 					limit = { has_country_flag = ukr_switched_uskhd_upss }
 					create_country_leader = {
-						name = "Oleksandr Shapoval"
+						name = "Олександр Шаповал"
 						desc = "POLITICS_OLEKSANDER_SHAPOVAL_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shapoval.png"
 						expire = "1.1.1"
@@ -2258,7 +2258,7 @@ UKR_remove_king = {
 							NOT = { has_country_flag = Viacheslav_Lypynskyi_dead }
 						}
 						create_country_leader = {
-							name = "Viacheslav Lypynskyi"
+							name = "В'ячеслав Липинський"
 							desc = "POLITICS_VYACHESLAV_LYPYNSKY_DESC"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Vyacheslav_Lypynsky.png"
 							expire = "1.1.1"
@@ -2267,7 +2267,7 @@ UKR_remove_king = {
 					}
 					else = {
 						create_country_leader = {
-							name = "Serhiy Shemet"
+							name = "Сергій Шемет"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Shemet.png"
 							expire = "1.1.1"
 							ideology = ukrainian_conservatism_subtype
@@ -2281,7 +2281,7 @@ UKR_remove_king = {
 				if = {
 					limit = { has_global_flag = UKR_konovalets_counet_coup }
 					create_country_leader = {
-						name = "Andriy Melnyk"
+						name = "Андрій Мельник"
 						desc = "POLITICS_ANDRIY_MELNYK_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 						expire = "1.1.1"
@@ -2293,7 +2293,7 @@ UKR_remove_king = {
 						NOT = { has_country_flag = Pavlo_Skoropadskyi_dead }
 					}
 					create_country_leader = {
-						name = "Pavlo Skoropadskyi"
+						name = "Павло Скоропадський"
 						desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky.png"
 						expire = "1.1.1"
@@ -2302,7 +2302,7 @@ UKR_remove_king = {
 				}
 				else = {
 					create_country_leader = {
-						name = "Vasyl Kochubei"
+						name = "Василь Кочубей"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Kochubei.png"
 						expire = "1.1.1"
 						ideology = pataut_ukrainian_conservatism_subtype
@@ -2317,7 +2317,7 @@ UKR_remove_king = {
 UKR_create_vasyl = {
 	hidden_effect = {
 		create_country_leader = {
-			name = "Vasyl"
+			name = "Василь"
 			desc = "POLITICS_VASYL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 			expire = "1.1.1"
@@ -2325,7 +2325,7 @@ UKR_create_vasyl = {
 			traits = { UKR_red_prince UKR_king_title }
 		}
 		create_country_leader = {
-			name = "Vasyl"
+			name = "Василь"
 			desc = "POLITICS_VASYL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 			expire = "1.1.1"
@@ -2333,7 +2333,7 @@ UKR_create_vasyl = {
 			traits = { UKR_red_prince UKR_king_title }
 		}
 		create_country_leader = {
-			name = "Vasyl"
+			name = "Василь"
 			desc = "POLITICS_VASYL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 			expire = "1.1.1"
@@ -2341,7 +2341,7 @@ UKR_create_vasyl = {
 			traits = { UKR_red_prince UKR_king_title }
 		}
 		create_country_leader = {
-			name = "Vasyl"
+			name = "Василь"
 			desc = "POLITICS_VASYL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 			expire = "1.1.1"
@@ -2349,7 +2349,7 @@ UKR_create_vasyl = {
 			traits = { UKR_red_prince UKR_king_title }
 		}
 		create_country_leader = {
-			name = "Vasyl"
+			name = "Василь"
 			desc = "POLITICS_VASYL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg.png"
 			expire = "1.1.1"
@@ -2362,35 +2362,35 @@ UKR_create_vasyl = {
 UKR_create_leo_stefan = {
 	hidden_effect = {
 		create_country_leader = {
-			name = "Lev III"
+			name = "Лев III"
 			desc = "POLITICS_LEO_STEFAN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Leo_Stefan_Habsburg_Child.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
 		}
 		create_country_leader = {
-			name = "Lev III"
+			name = "Лев III"
 			desc = "POLITICS_LEO_STEFAN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Leo_Stefan_Habsburg_Child.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Lev III"
+			name = "Лев III"
 			desc = "POLITICS_LEO_STEFAN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Leo_Stefan_Habsburg_Child.png"
 			expire = "1.1.1"
 			ideology = soccon_ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Lev III"
+			name = "Лев III"
 			desc = "POLITICS_LEO_STEFAN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Leo_Stefan_Habsburg_Child.png"
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Lev III"
+			name = "Лев III"
 			desc = "POLITICS_LEO_STEFAN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Leo_Stefan_Habsburg_Child.png"
 			expire = "1.1.1"
@@ -2493,7 +2493,7 @@ UKR_create_leo_stefan = {
 UKR_create_danylo = {
 	hidden_effect = {
 		create_country_leader = {
-			name = "Danylo II"
+			name = "Данило II"
 			desc = "POLITICS_DANYLO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Danylo_Skoropadsky.png"
 			expire = "1.1.1"
@@ -2501,7 +2501,7 @@ UKR_create_danylo = {
 			traits = { UKR_faithful_son_trait }
 		}
 		create_country_leader = {
-			name = "Danylo II"
+			name = "Данило II"
 			desc = "POLITICS_DANYLO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Danylo_Skoropadsky.png"
 			expire = "1.1.1"
@@ -2509,7 +2509,7 @@ UKR_create_danylo = {
 			traits = { UKR_faithful_son_trait }
 		}
 		create_country_leader = {
-			name = "Danylo II"
+			name = "Данило II"
 			desc = "POLITICS_DANYLO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Danylo_Skoropadsky.png"
 			expire = "1.1.1"
@@ -2517,7 +2517,7 @@ UKR_create_danylo = {
 			traits = { UKR_faithful_son_trait }
 		}
 		create_country_leader = {
-			name = "Danylo II"
+			name = "Данило II"
 			desc = "POLITICS_DANYLO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Danylo_Skoropadsky.png"
 			expire = "1.1.1"
@@ -2525,7 +2525,7 @@ UKR_create_danylo = {
 			traits = { UKR_faithful_son_trait }
 		}
 		create_country_leader = {
-			name = "Danylo II"
+			name = "Данило II"
 			desc = "POLITICS_DANYLO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Danylo_Skoropadsky.png"
 			expire = "1.1.1"
@@ -2547,7 +2547,7 @@ UKR_create_danylo = {
 					remove_country_leader_trait = UKR_king_title
 				}
 				add_country_leader_trait = UKR_hetman_title
-				set_country_leader_name = { name = "Danylo Skoropadskyi" }
+				set_country_leader_name = { name = "Данило Скоропадський" }
 				if = {
 					limit = { has_completed_focus = UKR_Truly_Parliamentary_Hetmanate }
 					add_country_leader_trait = UKR_hetman_only_in_name
@@ -2558,7 +2558,7 @@ UKR_create_danylo = {
 					remove_country_leader_trait = UKR_king_title
 				}
 				add_country_leader_trait = UKR_hetman_title
-				set_country_leader_name = { name = "Danylo Skoropadskyi" }
+				set_country_leader_name = { name = "Данило Скоропадський" }
 				if = {
 					limit = { has_completed_focus = UKR_Truly_Parliamentary_Hetmanate }
 					add_country_leader_trait = UKR_hetman_only_in_name
@@ -2569,7 +2569,7 @@ UKR_create_danylo = {
 					remove_country_leader_trait = UKR_king_title
 				}
 				add_country_leader_trait = UKR_hetman_title
-				set_country_leader_name = { name = "Danylo Skoropadskyi" }
+				set_country_leader_name = { name = "Данило Скоропадський" }
 				if = {
 					limit = { has_completed_focus = UKR_Truly_Parliamentary_Hetmanate }
 					add_country_leader_trait = UKR_hetman_only_in_name
@@ -2580,7 +2580,7 @@ UKR_create_danylo = {
 					remove_country_leader_trait = UKR_king_title
 				}
 				add_country_leader_trait = UKR_hetman_title
-				set_country_leader_name = { name = "Danylo Skoropadskyi" }
+				set_country_leader_name = { name = "Данило Скоропадський" }
 				if = {
 					limit = { has_completed_focus = UKR_Truly_Parliamentary_Hetmanate }
 					add_country_leader_trait = UKR_hetman_only_in_name
@@ -2591,7 +2591,7 @@ UKR_create_danylo = {
 					remove_country_leader_trait = UKR_king_title
 				}
 				add_country_leader_trait = UKR_hetman_title
-				set_country_leader_name = { name = "Danylo Skoropadskyi" }
+				set_country_leader_name = { name = "Данило Скоропадський" }
 				if = {
 					limit = { has_completed_focus = UKR_Truly_Parliamentary_Hetmanate }
 					add_country_leader_trait = UKR_hetman_only_in_name
@@ -2656,7 +2656,7 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_pavlo_skoropadsky_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Pavlo Skoropadskyi"
+				name = "Павло Скоропадський"
 				desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadskyi_Hetman.png"
 				expire = "1.1.1"
@@ -2665,7 +2665,7 @@ UKR_copy_leaders_of_ROOT = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Pavlo Skoropadskyi"
+				name = "Павло Скоропадський"
 				desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky.png"
 				expire = "1.1.1"
@@ -2687,14 +2687,14 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_skrypnyk_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Mykola Skrypnyk"
+				name = "Микола Скрипник"
 				desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 				expire = "1.1.1"
 				ideology = national_communism_subtype
 			}
 			create_country_leader = {
-				name = "Mykola Skrypnyk"
+				name = "Микола Скрипник"
 				desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 				expire = "1.1.1"
@@ -2703,7 +2703,7 @@ UKR_copy_leaders_of_ROOT = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Andriy Richytskyi"
+				name = "Андрій Річицький"
 				desc = "POLITICS_ANDRIY_RYCHYTSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Richytskyi.png"
 				expire = "1.1.1"
@@ -2719,7 +2719,7 @@ UKR_copy_leaders_of_ROOT = {
 				}
 			}
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
+				name = "Володимир Винниченко"
 				desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 				expire = "1.1.1"
@@ -2734,7 +2734,7 @@ UKR_copy_leaders_of_ROOT = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Vasyl Shakhrai"
+				name = "Василь Шахрай"
 				desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 				expire = "1.1.1"
@@ -2746,7 +2746,7 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_vynnychenko_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
+				name = "Володимир Винниченко"
 				desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 				expire = "1.1.1"
@@ -2764,7 +2764,7 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_petliura_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Symon Petliura"
+				name = "Симон Петлюра"
 				desc = "POLITICS_SYMON_PETLIURA_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.png" 
 				expire = "1.1.1"
@@ -2786,13 +2786,13 @@ UKR_copy_leaders_of_ROOT = {
 				limit = {
 					ROOT = { 
 						has_country_leader = {
-							name = "Vsevolod Holubovych"
+							name = "Всеволод Голубович"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Vsevolod Holubovych"
+					name = "Всеволод Голубович"
 					desc = "POLITICS_VSEVOLOD_HOLUBOVYCH_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Holubovych.png" 
 					expire = "1.1.1"
@@ -2803,13 +2803,13 @@ UKR_copy_leaders_of_ROOT = {
 				limit = {
 					ROOT = {
 						has_country_leader = {
-							name = "Mykola Kovalevskyi"
+							name = "Микола Ковалевський"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Mykola Kovalevskyi"
+					name = "Микола Ковалевський"
 					desc = "POLITICS_MYKOLA_KOVALEVSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Kovalevskyi.png"
 					expire = "1.1.1"
@@ -2821,13 +2821,13 @@ UKR_copy_leaders_of_ROOT = {
 				limit = {
 					ROOT = { 
 						has_country_leader = {
-							name = "Pavlo Khristiuk"
+							name = "Павло Христюк"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Pavlo Khristiuk"
+					name = "Павло Христюк"
 					desc = "POLITICS_PAVLO_KHRISTIUK_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Khrystiuk.png"
 					expire = "1.1.1"
@@ -2839,13 +2839,13 @@ UKR_copy_leaders_of_ROOT = {
 				limit = {
 					ROOT = { 
 						has_country_leader = {
-							name = "Mykyta Shapoval"
+							name = "Микита Шаповал"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Mykyta Shapoval"
+					name = "Микита Шаповал"
 					desc = "POLITICS_MYKYTA_SHAPOVAL_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Mykyta_Shapoval.png"
 					expire = "1.1.1"
@@ -2857,13 +2857,13 @@ UKR_copy_leaders_of_ROOT = {
 				limit = {
 					ROOT = { 
 						has_country_leader = {
-							name = "Mykhailo Hrushevskyi"
+							name = "Михайло Грушевський"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Mykhailo Hrushevskyi"
+					name = "Михайло Грушевський"
 					desc = "POLITICS_MYKHAILO_HRUSHEVSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Hrushevsky.png"
 					expire = "1.1.1"
@@ -2890,13 +2890,13 @@ UKR_copy_leaders_of_ROOT = {
 			limit = {
 				ROOT = {
 					has_country_leader = {
-						name = "Oleksandr Shulhyn"
+						name = "Олександр Шульгін"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Oleksandr Shulhyn"
+				name = "Олександр Шульгін"
 				desc = "POLITICS_OLEKSANDER_SHULHYN_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shulhin.png" 
 				expire = "1.1.1"
@@ -2907,13 +2907,13 @@ UKR_copy_leaders_of_ROOT = {
 			limit = {
 				ROOT = {
 					has_country_leader = {
-						name = "Andriy Nikovskyi"
+						name = "Андрій Ніковський"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Andriy Nikovskyi"
+				name = "Андрій Ніковський"
 				desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 				expire = "1.1.1"
@@ -2922,7 +2922,7 @@ UKR_copy_leaders_of_ROOT = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Serhiy Yefremov"
+				name = "Сергій Єфремов"
 				desc = "POLITICS_SERHIY_YEFREMOV_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Yefremov.png"
 				expire = "1.1.1"
@@ -2938,7 +2938,7 @@ UKR_copy_leaders_of_ROOT = {
 			set_country_leader_ideology = centrist_subtype		
 		}
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 			expire = "1.1.1"
@@ -2950,7 +2950,7 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_yevhen_konovalets_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Yevhen Konovalets"
+				name = "Євген Коновалець"
 				desc = "POLITICS_YEVHEN_KONOVALETS_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Yevhen_Konovalets_civilian.png"
 				expire = "1.1.1"
@@ -2963,7 +2963,7 @@ UKR_copy_leaders_of_ROOT = {
 				ROOT = { UKR_dmytro_dontsov_in_power = yes }
 			}
 			create_country_leader = {
-				name = "Dmytro Dontsov"
+				name = "Дмитро Донцов"
 				desc = "POLITICS_DMITRI_DONTSOV_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Dmitri_Dontsov.png"
 				expire = "1.1.1"
@@ -2972,7 +2972,7 @@ UKR_copy_leaders_of_ROOT = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Andriy Melnyk"
+				name = "Андрій Мельник"
 				desc = "POLITICS_ANDRIY_MELNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 				expire = "1.1.1"
@@ -3331,7 +3331,7 @@ UKR_setup_dyrektoria_divisions = {
 	hidden_effect = {
 		disband_twenty_percent_units_delete_equipment = yes
 		division_template = {
-			name = "Petliurivtsi"
+			name = "Петлюрівці"
 			division_names_group = UKR_INF_02
 			regiments = {
 				irregular_infantry = { x = 0 y = 0 }
@@ -3347,7 +3347,7 @@ UKR_setup_dyrektoria_divisions = {
 			template_counter = 68
 		}
 		division_template = {
-			name = "Kinnohirskyi Dyvizion"
+			name = "Кінногірський дивізіон"
 			division_names_group = UKR_MTN_02
 			regiments = {
 				artillery_brigade = { x = 0 y = 0 }
@@ -3364,10 +3364,10 @@ UKR_setup_dyrektoria_divisions = {
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Pikhotna Dyviziia" }
+				NOT = { has_template = "Піхотна дивізія" }
 			}
 			division_template = {
-				name = "Pikhotna Dyviziia"
+				name = "Піхотна дивізія"
 				division_names_group = UKR_INF_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -3387,52 +3387,52 @@ UKR_setup_dyrektoria_divisions = {
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "name = \"Ukrainskyi Korpus\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.2"
+				division = "name = \"Український корпус\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Khersonskaya Diviziia\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.3"
+				division = "name = \"Херсонська дивізія\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.3"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Zaporizkyi Kinnohirskyi Harmatnyi Dyvizion 'Almazivtsi'\" division_template = \"Kinnohirskyi Dyvizion\" start_experience_factor = 0.4"
-				owner = ROOT
-			}
-		}
-		random_owned_controlled_state = {
-			create_unit = {
-				division = "name = \"Sichovyi Zaporizkyi korpus\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.3"
-				owner = ROOT
-			}
-			create_unit = {
-				division = "name = \"Serdiutska Dyviziia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.3"
+				division = "name = \"Запорізький Кінногірський Гарматний дивізіон 'Алмазівці'\" division_template = \"Кінногірський дивізіон\" start_experience_factor = 0.4"
 				owner = ROOT
 			}
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "name = \"Sichova Striletska Dyviziia\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.2"
+				division = "name = \"Січовий Запорозький корпус\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.3"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Striletsko-Kozatska Dyviziia 'Sirozhupannyky'\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.4"
+				division = "name = \"Сердюцька дивізія\" division_template = \"Петлюрівці\" start_experience_factor = 0.3"
+				owner = ROOT
+			}
+		}
+		random_owned_controlled_state = {
+			create_unit = {
+				division = "name = \"Січова Стрілецька Дивізія\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Volynska Striletska Dyviziia\" division_template = \"Pikhotna Dyviziia\" start_experience_factor = 0.1"
+				division = "name = \"Стрілецька козацька дивізія 'Сірожупанники'\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.4"
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Волинська стрілецька дивізія\" division_template = \"Піхотна дивізія\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 		}
 		random_state = {
 			prioritize = { 227 }
 			create_unit = {
-				division = "name = \"Selianska povstanska dyviziia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Селянська повстанська дивізія\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				prioritize_location = 502
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Mariupolskyi povstanskyi polk'\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Маріупольський повітовий полк'\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				prioritize_location = 6420
 				owner = ROOT
@@ -3442,13 +3442,13 @@ UKR_setup_dyrektoria_divisions = {
 					ROOT = { NOT = { has_country_flag = UKR_has_secured_rear } }
 				}
 				create_unit = {
-					division = "name = \"Yuzivskyi selianskyi batalion\" division_template = \"Petliurivtsi\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+					division = "name = \"Юзівський селянський батальйон\" division_template = \"Петлюрівці\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 6474
 					owner = ROOT
 				}
 				create_unit = {
-					division = "name = \"Donetska bryhada'\" division_template = \"Petliurivtsi\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+					division = "name = \"Донецька бригада'\" division_template = \"Петлюрівці\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 6474
 					owner = ROOT
@@ -3458,7 +3458,7 @@ UKR_setup_dyrektoria_divisions = {
 		random_state = {
 			prioritize = { 200 }
 			create_unit = {
-				division = "name = \"Selianska dyviziia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Селянська дивізія\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				prioritize_location = 6596
 				owner = ROOT
@@ -3468,13 +3468,13 @@ UKR_setup_dyrektoria_divisions = {
 					ROOT = { NOT = { has_country_flag = UKR_has_secured_rear } }
 				}
 				create_unit = {
-					division = "name = \"Zaporizkyi selianskyi batalion\" division_template = \"Petliurivtsi\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+					division = "name = \"Запорізький селянський батальйон\" division_template = \"Петлюрівці\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 11405
 					owner = ROOT
 				}
 				create_unit = {
-					division = "name = \"Zaporizkyi povstanskyi kurin'\" division_template = \"Petliurivtsi\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+					division = "name = \"Запорізький надвірний курінь'\" division_template = \"Петлюрівці\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 11405
 					owner = ROOT
@@ -3484,17 +3484,17 @@ UKR_setup_dyrektoria_divisions = {
 		random_state = {
 			prioritize = { 1232 197 192 }
 			create_unit = {
-				division = "name = \"Povstale narodne opolchennia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Повстале народне ополчення\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Povstale narodne opolchennia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Повстале народне ополчення\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 			}
 			create_unit = {
-				division = "name = \"Povstale narodne opolchennia\" division_template = \"Petliurivtsi\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
+				division = "name = \"Повстале народне ополчення\" division_template = \"Петлюрівці\" start_experience_factor = 0.05 start_equipment_factor = 0.8"
 				allow_spawning_on_enemy_provs = yes
 				owner = ROOT
 			}
@@ -3506,14 +3506,14 @@ UKR_setup_dyrektoria_divisions = {
 			}
 			set_country_flag = UPR_uvo_openly_joins_dyrektoria
 			create_country_leader = {
-				name = "Andriy Melnyk"
+				name = "Андрій Мельник"
 				desc = "POLITICS_ANDRIY_MELNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
 			}
 			division_template = {
-				name = "Halytskyi korpus Sichovykh Striltsiv"
+				name = "Галицький корпус Січових Стрільців"
 				division_names_group = UKR_ELI_02
 				regiments = {
 					elite_infantry = { x = 0 y = 0 }
@@ -3534,21 +3534,21 @@ UKR_setup_dyrektoria_divisions = {
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 			}
@@ -3558,10 +3558,10 @@ UKR_setup_dyrektoria_divisions = {
 				}
 				if = {
 					limit = {
-						NOT = { has_template = "Sichovi Striltsi" }
+						NOT = { has_template = "Січові стрільці" }
 					}
 					division_template = {
-						name = "Sichovi Striltsi"
+						name = "Січові стрільці"
 						division_names_group = UKR_ELI_01
 
 						regiments = {
@@ -3586,11 +3586,11 @@ UKR_setup_dyrektoria_divisions = {
 					}
 					random_owned_controlled_state = {
 						create_unit = {
-							division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.9"
+							division = "division_template = \"Січові стрільці\" start_experience_factor = 0.9"
 							owner = ROOT
 						}
 						create_unit = {
-							division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.3"
+							division = "division_template = \"Січові стрільці\" start_experience_factor = 0.3"
 							count = 3
 							owner = ROOT
 						}
@@ -3617,11 +3617,11 @@ UKR_setup_dyrektoria_divisions = {
 		}
 		else = {
 			delete_unit_template_and_units = {
-				division_template = "Sichovi Striltsi"
+				division_template = "Січові стрільці"
 				disband = yes #will refund equipment and manpower
 			}
 			delete_unit_template_and_units = {
-				division_template = "Halytskyi korpus Sichovykh Striltsiv"
+				division_template = "Галицький корпус Січових Стрільців"
 				disband = yes #will refund equipment and manpower
 			}
 		}
@@ -3741,7 +3741,7 @@ UKR_setup_dyrektoria_government = {
 			extensive_conscription
 		}
 		create_country_leader = {
-			name = "Serhiy Yefremov"
+			name = "Сергій Єфремов"
 			desc = "POLITICS_SERHIY_YEFREMOV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Yefremov.png"
 			expire = "1.1.1"
@@ -3758,7 +3758,7 @@ UKR_setup_upss_president = {
 			if = {
 				limit = { has_country_flag = UKR_vasyl_is_known_as_vasyl }
 				create_country_leader = {
-					name = "Vasyl Vyshyvanyi"
+					name = "Василь Вишиваний"
 					desc = "POLITICS_VASYL_PRESIDENT_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg_suit.png"
 					expire = "1.1.1"
@@ -3767,7 +3767,7 @@ UKR_setup_upss_president = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Vilhelm fon Habsburg-Lotarynzkyi"
+					name = "Вільгельм фон Габсбург-Лотаринзький"
 					desc = "POLITICS_VASYL_PRESIDENT_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg_suit.png"
 					expire = "1.1.1"
@@ -3791,13 +3791,13 @@ UKR_setup_upss_president = {
 			limit = { 
 				NOT = {
 					has_country_leader = {
-						name = "Valentyn Otamanovskyi"
+						name = "Валентин Атамановський"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Valentyn Otamanovskyi"
+				name = "Валентин Атамановський"
 				desc = "POLITICS_VALENTYN_OTAMANOVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Valentin_Otamanovskyi.png"
 				expire = "1.1.1"
@@ -3812,7 +3812,7 @@ UKR_setup_upss_president = {
 		if = {
 			limit = { UKR_oleksander_hrekiv_in_power = no }
 			create_country_leader = {
-				name = "Oleksandr Hrekiv"
+				name = "Олександр Греків"
 				desc = "POLITICS_OLEKSANDR_HREKIV_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Hrekiv_civilian.png" 
 				expire = "1.1.1"
@@ -3827,7 +3827,7 @@ UKR_setup_upss_president = {
 		if = {
 			limit = { UKR_opanas_andriyevskyi_in_power = no }
 			create_country_leader = {
-				name = "Opanas Andriyevskyi"
+				name = "Опанас Андрієвський"
 				desc = "POLITICS_OPANAS_ANDRIYEVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Opanas_Andriyevskyi.png"
 				expire = "1.1.1"
@@ -3841,7 +3841,7 @@ UKR_setup_upss_president = {
 		if = {
 			limit = { UKR_oleksander_shapoval_in_power = no }
 			create_country_leader = {
-				name = "Oleksandr Shapoval"
+				name = "Олександр Шаповал"
 				desc = "POLITICS_OLEKSANDER_SHAPOVAL_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shapoval.png"
 				expire = "1.1.1"
@@ -3909,34 +3909,34 @@ UKR_setup_upss_president = {
 }
 UKR_transfer_most_of_fleet_to_crimea = {
 	set_country_flag = UKR_transfered_our_fleet_to_CRM
-	transfer_ship = { prefer_name = "Soborna Ukraina" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Sv. Yevstafii" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Sv. Ivan Zlatoust" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Try Sviatyteli" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Rostyslav" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Heorhii Pobidonosets" type = battleship target = CRM }
-	transfer_ship = { prefer_name = "Hetman Ivan Mazepa" type = heavy_cruiser target = CRM }
-	transfer_ship = { prefer_name = "Svyrepyi" type = light_cruiser target = CRM }
-	transfer_ship = { prefer_name = "Smetlyvyi" type = light_cruiser target = CRM }
-	transfer_ship = { prefer_name = "Strohii" type = light_cruiser target = CRM }
-	transfer_ship = { prefer_name = "Hnivnyi" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Bystryi" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Pospishnyi" type = destroyer target = CRM }	
-	transfer_ship = { prefer_name = "Kyiv" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Chyhyryn" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Baturyn" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Lviv" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Ivan Vygovskyi" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Ivan Sirko" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Pylyp Orlyk" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Kost Hordiyenko" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Martyn Nebaba" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Ivan Pidkova" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Ivan Kotliarevskyi" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Lutsk" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Podniprovia" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Ternopil" type = destroyer target = CRM }
-	transfer_ship = { prefer_name = "Vinnytsia" type = destroyer target = CRM }	
+	transfer_ship = { prefer_name = "Соборна Україна" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Св. Євстафій" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Св. Іван Златоуст" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Святителі" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Ростислав" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Георгій Побідоносець" type = battleship target = CRM }
+	transfer_ship = { prefer_name = "Гетьман Іван Мазепа" type = heavy_cruiser target = CRM }
+	transfer_ship = { prefer_name = "Свирепий" type = light_cruiser target = CRM }
+	transfer_ship = { prefer_name = "Сметливий" type = light_cruiser target = CRM }
+	transfer_ship = { prefer_name = "Строгій" type = light_cruiser target = CRM }
+	transfer_ship = { prefer_name = "Гнівний" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Бистрий" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Поспішний" type = destroyer target = CRM }	
+	transfer_ship = { prefer_name = "Київ" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Чигирин" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Батурин" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Львів" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Іван Виговський" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Іван Сірко" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Пилип Орлик" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Кость Гордієнко" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Мартин Небаба" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Іван Підкова" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Іван Котляревський" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Луцьк" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Подніпров'я" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Тернопіль" type = destroyer target = CRM }
+	transfer_ship = { prefer_name = "Вінниця" type = destroyer target = CRM }	
 	transfer_ship = { prefer_name = "PCh-133" type = submarine target = CRM }
 	transfer_ship = { prefer_name = "PCh-132" type = submarine target = CRM }
 	transfer_ship = { prefer_name = "PCh-131" type = submarine target = CRM }
@@ -3957,34 +3957,34 @@ UKR_transfer_most_of_fleet_to_crimea = {
 }
 
 CRM_transfer_all_fleet_to_UKR = {
-	transfer_ship = { prefer_name = "Soborna Ukraina" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Sv. Yevstafii" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Sv. Ivan Zlatoust" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Try Sviatyteli" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Rostyslav" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Heorhii Pobidonosets" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Hetman Ivan Mazepa" type = heavy_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Svyrepyi" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Smetlyvyi" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Strohii" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Hnivnyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Bystryi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Pospishnyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Kyiv" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Chyhyryn" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Baturyn" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Lviv" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Vygovskyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Sirko" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Pylyp Orlyk" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Kost Hordiyenko" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Martyn Nebaba" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Pidkova" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Kotliarevskyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Lutsk" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Podniprovia" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ternopil" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Vinnytsia" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Соборна Україна" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Св. Євстафій" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Св. Іван Златоуст" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Святителі" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Ростислав" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Георгій Побідоносець" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Гетьман Іван Мазепа" type = heavy_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Свирепий" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Сметливий" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Строгій" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Гнівний" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Бистрий" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Поспішний" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Київ" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Чигирин" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Батурин" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Львів" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Виговський" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Сірко" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Пилип Орлик" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Кость Гордієнко" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Мартин Небаба" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Підкова" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Котляревський" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Луцьк" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Подніпров'я" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Тернопіль" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Вінниця" type = destroyer target = UKR }
 	transfer_ship = { prefer_name = "PCh-133" type = submarine target = UKR }
 	transfer_ship = { prefer_name = "PCh-132" type = submarine target = UKR }
 	transfer_ship = { prefer_name = "PCh-131" type = submarine target = UKR }
@@ -4005,27 +4005,27 @@ CRM_transfer_all_fleet_to_UKR = {
 }
 
 CRM_transfer_half_fleet_to_UKR = {
-	transfer_ship = { prefer_name = "Soborna Ukraina" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Rostyslav" type = battleship target = UKR }
-	transfer_ship = { prefer_name = "Hetman Ivan Mazepa" type = heavy_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Svyrepyi" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Smetlyvyi" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Strohii" type = light_cruiser target = UKR }
-	transfer_ship = { prefer_name = "Kyiv" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Chyhyryn" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Baturyn" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Lviv" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Vygovskyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Sirko" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Pylyp Orlyk" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Kost Hordiyenko" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Martyn Nebaba" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Pidkova" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ivan Kotliarevskyi" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Lutsk" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Podniprovia" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Ternopil" type = destroyer target = UKR }
-	transfer_ship = { prefer_name = "Vinnytsia" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Соборна Україна" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Ростислав" type = battleship target = UKR }
+	transfer_ship = { prefer_name = "Гетьман Іван Мазепа" type = heavy_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Свирепий" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Сметливий" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Строгій" type = light_cruiser target = UKR }
+	transfer_ship = { prefer_name = "Київ" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Чигирин" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Батурин" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Львів" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Виговський" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Сірко" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Пилип Орлик" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Кость Гордієнко" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Мартин Небаба" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Підкова" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Іван Котляревський" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Луцьк" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Подніпров'я" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Тернопіль" type = destroyer target = UKR }
+	transfer_ship = { prefer_name = "Вінниця" type = destroyer target = UKR }
 }
 UKR_setup_borotbyst_victory_no_war = {
 	clr_global_flag = UKR_borotbyst_civil_war
@@ -4208,7 +4208,7 @@ UKR_setup_borotbyst_victory_no_war = {
 	}
 	set_cosmetic_tag = UKR_borotbyst
 	create_country_leader = {
-		name = "Oleksandr Shumskyi"
+		name = "Олександр Шумський"
 		desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 		expire = "1.1.1"
@@ -4216,7 +4216,7 @@ UKR_setup_borotbyst_victory_no_war = {
 		traits = { UKR_fervent_revolutionary }
 	}	
 	create_country_leader = {
-		name = "Oleksandr Shumskyi"
+		name = "Олександр Шумський"
 		desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 		expire = "1.1.1"
@@ -4224,7 +4224,7 @@ UKR_setup_borotbyst_victory_no_war = {
 		traits = { UKR_fervent_revolutionary }
 	}
 	create_country_leader = {
-		name = "Levko Kovaliv"
+		name = "Левко Ковалів"
 		desc = "POLITICS_LEVKO_KOVALIV_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 		expire = "1.1.1"
@@ -4235,19 +4235,19 @@ UKR_setup_borotbyst_victory_no_war = {
 		elections_allowed = no
 	}		
 	delete_unit_template_and_units = {
-		division_template = "Sichovi Striltsi"
+		division_template = "Січові стрільці"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Halytskyi korpus Sichovykh Striltsiv"
+		division_template = "Галицький корпус Січових Стрільців"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Petliurivtsi"
+		division_template = "Петлюрівці"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Kinnohirskyi Dyvizion"
+		division_template = "Кінногірський дивізіон"
 		disband = yes #will refund equipment and manpower
 	}
 	remove_all_ministers = yes		
@@ -4402,7 +4402,7 @@ UKR_setup_borotbyst_victory_over_petliura = {
 	}
 	set_cosmetic_tag = UKR_borotbyst
 	create_country_leader = {
-		name = "Oleksandr Shumskyi"
+		name = "Олександр Шумський"
 		desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 		expire = "1.1.1"
@@ -4410,7 +4410,7 @@ UKR_setup_borotbyst_victory_over_petliura = {
 		traits = { UKR_fervent_revolutionary }
 	}	
 	create_country_leader = {
-		name = "Oleksandr Shumskyi"
+		name = "Олександр Шумський"
 		desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 		expire = "1.1.1"
@@ -4418,7 +4418,7 @@ UKR_setup_borotbyst_victory_over_petliura = {
 		traits = { UKR_fervent_revolutionary }
 	}
 	create_country_leader = {
-		name = "Levko Kovaliv"
+		name = "Левко Ковалів"
 		desc = "POLITICS_LEVKO_KOVALIV_DESC"
 		picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 		expire = "1.1.1"
@@ -4431,19 +4431,19 @@ UKR_setup_borotbyst_victory_over_petliura = {
 		elections_allowed = no
 	}
 	delete_unit_template_and_units = {
-		division_template = "Sichovi Striltsi"
+		division_template = "Січові стрільці"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Halytskyi korpus Sichovykh Striltsiv"
+		division_template = "Галицький корпус Січових Стрільців"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Petliurivtsi"
+		division_template = "Петлюрівці"
 		disband = yes #will refund equipment and manpower
 	}
 	delete_unit_template_and_units = {
-		division_template = "Kinnohirskyi Dyvizion"
+		division_template = "Кінногірський дивізіон"
 		disband = yes #will refund equipment and manpower
 	}
 	every_unit_leader = {
@@ -4456,10 +4456,10 @@ UKR_setup_borotbyst_victory_over_petliura = {
 	set_country_flag = UKR_disable_borotbist_uprisings
 	if = {
 		limit = {
-			NOT = { has_template = "Ukrainska Radianska Dyviziia" }
+			NOT = { has_template = "Українська радіаційна дивізія" }
 		}
 		division_template = {
-			name = "Ukrainska Radianska Dyviziia"
+			name = "Українська радіаційна дивізія"
 			division_names_group = USR_INF_01
 			regiments = {
 				infantry = { x = 0 y = 0 }
@@ -4482,11 +4482,11 @@ UKR_setup_borotbyst_victory_over_petliura = {
 			division_has_majority_template = infantry
 		}
 		change_division_template = {
-			division_template = "Ukrainska Radianska Dyviziia" 
+			division_template = "Українська радіаційна дивізія" 
 		}
 	}
 	division_template = {
-		name = "Chervona Hvardiia"
+		name = "Червона гвардія"
 		division_names_group = UKR_MIL_01
 		regiments = {
 			militia = { x = 0 y = 0 }
@@ -4720,7 +4720,7 @@ WSU_create_rebellion = {
 			}
 		}
 		division_template = {
-			name = "Ukrainska Halytska Armiia"
+			name = "Українська Галицька Армія"
 			division_names_group = UKR_INF_03
 			regiments = {
 				infantry = { x = 0 y = 0 }
@@ -4737,7 +4737,7 @@ WSU_create_rebellion = {
 			}
 		}
 		division_template = {
-			name = "Halytskyi korpus Sichovykh Striltsiv"
+			name = "Галицький корпус Січових Стрільців"
 			division_names_group = UKR_ELI_02
 			regiments = {
 				elite_infantry = { x = 0 y = 0 }
@@ -4753,37 +4753,37 @@ WSU_create_rebellion = {
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "name = \"5-ta Sokalska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.3 start_equipment_factor = 1"
+				division = "name = \"5-та Сокальська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.3 start_equipment_factor = 1"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"6-ta Ravska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.3 start_equipment_factor = 1"
+				division = "name = \"6-та Равська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.3 start_equipment_factor = 1"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"4-ta Zolochivska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.9"
+				division = "name = \"4-та Золочівська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.9"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"3-ta Berezhanska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+				division = "name = \"3-тя Бережанська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"2-ga Kolomyiska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+				division = "name = \"2-га Коломийська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"1-sha Hirska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+				division = "name = \"1-ша Гірська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
 			create_unit = {
-				division = "name = \"1-sha bryhada USS\" division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.9 start_equipment_factor = 0.92"
+				division = "name = \"1-ша бригада УСС\" division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.9 start_equipment_factor = 0.92"
 				allow_spawning_on_enemy_provs = yes
 				owner = WSU
 			}
@@ -4850,49 +4850,49 @@ WSU_setup_ukraine = {
 			set_stability = WSU@stability
 			UKR_remove_king = yes
 			create_country_leader = {
-				name = "Mykola Stsiborskyi"
+				name = "Микола Сціборський"
 				desc = "POLITICS_MYKOLA_STSIBORSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Stsiborskyi.png"
 				expire = "1.1.1"
 				ideology = natsynd_subtype
 			}
 			create_country_leader = {
-				name = "Ivan Maistrenko"
+				name = "Іван Майстренко"
 				desc = "POLITICS_IVAN_MAISTRENKO_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Ivan_Maistrenko.png"
 				expire = "1.1.1"
 				ideology = market_socialist_subtype
 			}
 			create_country_leader = {
-				name = "Yevhen Petrushevych"
+				name = "Євген Петрушевич"
 				desc = "POLITICS_YEVHEN_PETRUSHEVYCH_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Yevhen_Petrushevich.png"
 				expire = "1.1.1"
 				ideology = socdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Mykola Mikhnovskyi"
+				name = "Микола Міхновський"
 				desc = "POLITICS_MYKOLA_MIKHHNOVSKY_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Mikhnovsky.png"
 				expire = "1.1.1"
 				ideology = social_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Dmytro Levytskyi"
+				name = "Дмитро Левицький"
 				desc = "POLITICS_DMYTRO_LEVYTSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Dmytro_Levytsky.png"
 				expire = "1.1.1"
 				ideology = liberal_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Andriy Melnyk"
+				name = "Андрій Мельник"
 				desc = "POLITICS_ANDRIY_MELNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
 			}
 			create_country_leader = {
-				name = "Andriy Melnyk"
+				name = "Андрій Мельник"
 				desc = "POLITICS_ANDRIY_MELNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 				expire = "1.1.1"
@@ -4975,12 +4975,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	if = {
 		limit = {
 			has_country_leader = {
-				name = "Levko Kovaliv"
+				name = "Левко Ковалів"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Levko Kovaliv"
+			name = "Левко Ковалів"
 			desc = "POLITICS_LEVKO_KOVALIV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 			expire = "1.1.1"
@@ -4990,12 +4990,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Mykola Kovalevskyi"
+				name = "Микола Ковалевський"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Mykola Kovalevskyi"
+			name = "Микола Ковалевський"
 			desc = "POLITICS_MYKOLA_KOVALEVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Kovalevskyi.png"
 			expire = "1.1.1"
@@ -5006,12 +5006,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Pavlo Khristiuk"
+				name = "Павло Христюк"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Pavlo Khristiuk"
+			name = "Павло Христюк"
 			desc = "POLITICS_PAVLO_KHRISTIUK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Khrystiuk.png"
 			expire = "1.1.1"
@@ -5022,12 +5022,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Mykyta Shapoval"
+				name = "Микита Шаповал"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Mykyta Shapoval"
+			name = "Микита Шаповал"
 			desc = "POLITICS_MYKYTA_SHAPOVAL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykyta_Shapoval.png"
 			expire = "1.1.1"
@@ -5038,12 +5038,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Mykhailo Hrushevskyi"
+				name = "Михайло Грушевський"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Mykhailo Hrushevskyi"
+			name = "Михайло Грушевський"
 			desc = "POLITICS_MYKHAILO_HRUSHEVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Hrushevsky.png"
 			expire = "1.1.1"
@@ -5056,12 +5056,12 @@ UKR_move_upsr_leader_to_radsoc = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Vsevolod Holubovych"
+				name = "Всеволод Голубович"
 				ruling_only = yes
 			}
 		}
 		create_country_leader = {
-			name = "Vsevolod Holubovych"
+			name = "Всеволод Голубович"
 			desc = "POLITICS_VSEVOLOD_HOLUBOVYCH_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Holubovych.png" 
 			expire = "1.1.1"
@@ -5380,7 +5380,7 @@ UKR_upgrade_template_and_divisions = {
 			check_variable =  { UKR_militia_template_level < 2 }
 		}
 		add_units_to_division_template = {
-			template_name = "Zemske Opolchennia"
+			template_name = "Земське Ополчення"
 			regiments = {
 				militia = 0
 				militia = 0 
@@ -5393,7 +5393,7 @@ UKR_upgrade_template_and_divisions = {
 			check_variable =  { UKR_militia_template_level < 4 }
 		}
 		add_units_to_division_template = {
-			template_name = "Zemske Opolchennia"
+			template_name = "Земське Ополчення"
 			regiments = {
 				militia = 1
 				militia = 1 
@@ -5407,7 +5407,7 @@ UKR_upgrade_template_and_divisions = {
 
 		}
 		add_units_to_division_template = {
-			template_name = "Zemske Opolchennia"
+			template_name = "Земське Ополчення"
 			regiments = {
 				militia = 2
 				militia = 2 
@@ -5421,7 +5421,7 @@ UKR_upgrade_template_and_divisions = {
 
 		}
 		add_units_to_division_template = {
-			template_name = "Zemske Opolchennia"
+			template_name = "Земське Ополчення"
 			regiments = {
 				militia = 3
 				militia = 3 
@@ -5434,7 +5434,7 @@ UKR_upgrade_template_and_divisions = {
 			check_variable =  { UKR_militia_template_level < 10 }
 		}
 		add_units_to_division_template = {
-			template_name = "Zemske Opolchennia"
+			template_name = "Земське Ополчення"
 			regiments = {
 				militia = 4
 				militia = 4 
@@ -5453,7 +5453,7 @@ UKR_upgrade_template_and_divisions = {
 			NOT = { has_variable = UKR_militia_template_level }  
 		}
 		division_template = {
-			name = "Zemske Opolchennia"
+			name = "Земське Ополчення"
 			force_allow_recruiting = yes
 			priority = 1
 			template_counter = 70
@@ -5475,7 +5475,7 @@ UKR_increase_militia_cap = {
 		set_temp_variable = { UKR_new_militia_cap_for_tooltip = UKR_militia_division_cap }
 		add_to_temp_variable = { UKR_new_militia_cap_for_tooltip = UKR_militia_cap_increase }
 		set_division_template_cap = { 
-			division_template = "Zemske Opolchennia" 
+			division_template = "Земське Ополчення" 
 			division_cap = UKR_new_militia_cap_for_tooltip   
 		}
 	}
@@ -5487,7 +5487,7 @@ UKR_increase_militia_cap = {
 			max = UKR_max_militia_division_cap
 		}  
 		set_division_template_cap = { 
-			division_template = "Zemske Opolchennia" 
+			division_template = "Земське Ополчення" 
 			division_cap = UKR_militia_division_cap
 		}
 	}
@@ -8664,7 +8664,7 @@ UKR_setup_puppet = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Pavlo Skoropadskyi"
+					name = "Павло Скоропадський"
 					desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky.png"
 					expire = "1.1.1"
@@ -8797,7 +8797,7 @@ UKR_setup_puppet = {
 							NOT = { has_country_flag = Yevhenia_Bosh_dead }
 						}
 						create_country_leader = {
-							name = "Yevhenia Bosh"
+							name = "Євгенія Бош"
 							desc = "POLITICS_YEVHENIYA_BOSCH_DESC"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Evheniya_Bosch.png"
 							expire = "1.1.1"
@@ -8809,7 +8809,7 @@ UKR_setup_puppet = {
 							NOT = { has_country_flag = UKR_no_khruschev_for_puppet }
 						}
 						create_country_leader = {
-							name = "Nikita Khrushchev"
+							name = "Никита Хрущев"
 							desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Nikita_Kruschev.png"
 							expire = "1.1.1"
@@ -8818,11 +8818,11 @@ UKR_setup_puppet = {
 					}
 					else = {
 						create_country_leader = {
-							name = "Vlas Chubar"
+							name = "Влас Чубар"
 							picture = "gfx/leaders/UKR/Portrait_UKR_Vlas_Chubar.png"
 							expire = "1.1.1"
 							ideology = authcom_subtype
-						}
+						}						
 					}
 				}
 				else = {						
@@ -8845,14 +8845,14 @@ UKR_setup_puppet = {
 						}
 					}
 					create_country_leader = {
-						name = "Mykola Skrypnyk"
+						name = "Микола Скрипник"
 						desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 						expire = "1.1.1"
 						ideology = national_communism_subtype
 					}
 					create_country_leader = {
-						name = "Yakiv Braun"
+						name = "Яків Браун"
 						desc = "POLITICS_YAKIV_BRAUN_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Yakov_Braun.png" 
 						expire = "1.1.1"
@@ -8860,7 +8860,7 @@ UKR_setup_puppet = {
 						traits = { UKR_national_nihilist }
 					}
 					create_country_leader = {
-						name = "Mykola Skrypnyk"
+						name = "Микола Скрипник"
 						desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 						expire = "1.1.1"

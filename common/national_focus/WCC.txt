@@ -253,7 +253,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_manpower = 1500
 			create_corps_commander = {#
-				name = "Hugh B. Brown"
+				name = "Хью Браун"
 				portrait_path = "gfx/leaders/DSR/Portrait_DSR_Hugh_Brown.png"
 				traits = {
 					old_guard
@@ -1253,7 +1253,7 @@ focus_tree = {
 			factor = 50
 		}
 		available = {
-		has_country_leader = { ruling_only = yes name = "Douglas MacArthur" }
+		has_country_leader = { ruling_only = yes name = "Дуглас Макартур" }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus WCC_i_shall_return"
@@ -1627,10 +1627,10 @@ focus_tree = {
 				limit = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
-				}
-				add_tech_bonus = {
+			}
+			add_tech_bonus = {
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -2915,11 +2915,11 @@ focus_tree = {
 		available = {
 			is_subject = no
 			NOT = {
-			ENT = {
-			is_puppet_of = WCC
-			has_war_with = WCC
-			}
-			}
+				ENT = {
+				is_puppet_of = WCC
+				has_war_with = WCC
+				}
+				}
 		}
 		bypass = { is_in_faction_with = ENT }
 		relative_position_id = WCC_new_interventionism
@@ -2964,9 +2964,9 @@ focus_tree = {
 		x = -2
 		y = 2
 		bypass = {
-			AST = {
+		AST = {
 				OR = {
-					exists = no
+		exists = no
 					NOT = { is_in_faction_with = ROOT }
 				}
 			}

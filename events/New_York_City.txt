@@ -486,7 +486,7 @@ country_event = { #Battle
 	option = {
 		name = newyork_prewar.5.a
 		create_country_leader = {
-			name = "Jerry Seinfeld"
+			name = "Джерри Сайнфелд"
 			desc = "POLITICS_JERRY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Jerry_Seinfeld.png"
 			expire = "1.1.1"
@@ -495,7 +495,7 @@ country_event = { #Battle
 		}
 		set_cosmetic_tag = NYC_seinfeld
 		create_field_marshal = {
-			name = "Jerry Seinfeld "
+			name = "Джерри Сайнфелд "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Jerry_Seinfeld.png"
 			traits = {
 				old_guard inflexible_strategist offensive_doctrine
@@ -507,7 +507,7 @@ country_event = { #Battle
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "George Costanza"
+			name = "Джордж Костанза"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_George_Costanza.png"
 			traits = {
 				old_guard inflexible_strategist offensive_doctrine
@@ -767,7 +767,7 @@ country_event = { #sexy oraange NEE or nah
 			}
 			if = {
 				limit = {
-					has_country_leader = { name = "Generoso Pope" ruling_only = yes }
+					has_country_leader = { name = "Генеросо Поуп" ruling_only = yes }
 				}
 				country_event = {
 					id = NYC_flavor.276
@@ -870,7 +870,7 @@ country_event = { #sexy oraange NEE or nah
 				days = 15
 			}
 			if = {
-				limit = { has_country_leader = { name = "Generoso Pope" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Генеросо Поуп" ruling_only = yes } }
 				country_event = {
 					id = NYC_flavor.276
 					days = 23
@@ -991,11 +991,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+			ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1043,11 +1043,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+			ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1091,11 +1091,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+			ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1113,7 +1113,7 @@ country_event = { #Elections
 			NYC_Henry_Valentine_Miller_sec_rso
 		}
 		create_corps_commander = {
-			name = "Edward Ricketts"
+			name = "Эдвард Рикеттс"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Ed_Ricketts_General.png"
 			traits = {  }
 			skill = 1
@@ -1161,11 +1161,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+			ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1206,7 +1206,7 @@ country_event = { #Elections
 	trigger = {
 		OR = {
 			AND = {
-				has_country_leader = { name = "Fred Trump" ruling_only = yes }
+				has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 				has_government = market_liberal
 			}
 			has_government = social_liberal
@@ -1214,7 +1214,7 @@ country_event = { #Elections
 			has_government = radical_socialist
 		}
 	}
-
+	
 	option = { #Laguardia Secured Victory
 		name = NYC.100.a
 		ai_chance = {
@@ -1243,11 +1243,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+			ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1276,7 +1276,7 @@ country_event = { #Elections
 				}
 			}
 			if = {
-				limit = { has_country_leader = { name = "Julius Henry 'Groucho' Marx" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Джулиус Генри «Граучо» Маркс" ruling_only = yes } }
 				remove_all_ministers_but_hog = yes
 		        add_ideas = {
 			    NYC_Arthur_Harpo_Marx_for_sli
@@ -1315,11 +1315,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+			ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1346,7 +1346,7 @@ country_event = { #Elections
 		}
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Dudley Field Malone" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Дадли Филд Мэлоун" ruling_only = yes } }
 		        swap_ideas = {
 			    remove_idea = NYC_Orson_Welles_hog_sde
 				add_idea = NYC_Rose_Schneiderman_hog_syn
@@ -1386,11 +1386,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+			ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1413,7 +1413,7 @@ country_event = { #Elections
 		}
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Dudley Field Malone" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Дадли Филд Мэлоун" ruling_only = yes } }
 		        swap_ideas = {
 			    remove_idea = NYC_John_Steinbeck_hog_rso
 				add_idea = NYC_Rose_Schneiderman_hog_syn
@@ -1457,11 +1457,11 @@ country_event = { #Elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+			ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -1738,7 +1738,7 @@ country_event = {  #Flavour
 			}
 		}
 		create_country_leader = {
-			name = "Lucky Luciano"
+			name = "Чарльз Лучано"
 			desc = "POLITICS_LUCIANO_NYC_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Lucky_Luciano.png"
 			expire = "1.1.1"
@@ -1746,7 +1746,7 @@ country_event = {  #Flavour
 			traits = { }
 		}
 		create_field_marshal = {# 
-			name = "Lucky Luciano "
+			name = "Чарльз Лучано "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Lucky_Luciano.png"
 			traits = {
 				politically_connected
@@ -1760,7 +1760,7 @@ country_event = {  #Flavour
 			id = 15410
 		}
 		create_corps_commander = {
-			name = "Johnny Torrio"
+			name = "Джон Торрио"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Johnny_Torrio.png"
 			traits = {
 				NYC_mobster
@@ -1772,7 +1772,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Joe Profaci"
+			name = "Джо Профачи"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
 			traits = {
 				NYC_mobster
@@ -1784,7 +1784,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Frank Costello"
+			name = "Фрэнк Костелло"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
 			traits = {
 				NYC_mobster
@@ -1796,7 +1796,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Tommy Gagliano"
+			name = "Томми Гаглиано"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Tommy_Gagliano.png"
 			traits = {
 				NYC_mobster
@@ -1808,7 +1808,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Vincent Mangano"
+			name = "Винсент Мангано"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vincent_Mangano.png"
 			traits = {
 				NYC_mobster
@@ -1820,7 +1820,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Joseph Bonnano"
+			name = "Джозеф Бонанно"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joseph_Bonanno.png"
 			traits = {
 				NYC_mobster
@@ -1832,7 +1832,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Vito Genovese"
+			name = "Вито Дженовезе"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vito_Genovese.png"
 			traits = {
 				NYC_mobster
@@ -1864,7 +1864,7 @@ country_event = {  #Flavour
 			}
 		}
 		create_country_leader = {
-			name = "Meyer Lansky"
+			name = "Мейер Лански"
 			desc = "POLITICS_LANSKY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Meyer_Lansky.png"
 			expire = "1.1.1"
@@ -1872,7 +1872,7 @@ country_event = {  #Flavour
 			traits = { }
 		}
 		create_field_marshal = {# 
-			name = "Meyer Lansky "
+			name = "Мейер Лански "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Meyer_Lansky.png"
 			traits = {
 				politically_connected
@@ -1886,7 +1886,7 @@ country_event = {  #Flavour
 			id = 15411
 		}
 		create_corps_commander = {
-			name = "Joe Profaci"
+			name = "Джо Профачи"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joe_Profaci.png"
 			traits = {
 				NYC_mobster
@@ -1898,7 +1898,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Frank Costello"
+			name = "Фрэнк Костелло"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
 			traits = {
 				NYC_mobster
@@ -1910,7 +1910,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Harry Strauss"
+			name = "Гарри Штраус"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
 			traits = {
 				NYC_mobster
@@ -1922,7 +1922,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Abe Reles"
+			name = "Эйб Релес"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Abe_Reles.png"
 			traits = {
 				NYC_mobster
@@ -1934,7 +1934,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Joseph Bonnano"
+			name = "Джозеф Бонанно"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Joseph_Bonanno.png"
 			traits = {
 				NYC_mobster
@@ -1946,7 +1946,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Vito Genovese"
+			name = "Вито Дженовезе"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Vito_Genovese.png"
 			traits = {
 				NYC_mobster
@@ -1980,7 +1980,7 @@ country_event = {  #Flavour
 			}
 		}
 		create_country_leader = {
-			name = "Bugsy Siegel"
+			name = "Багси Сигел"
 			desc = "POLITICS_SIEGEL_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Bugsy_Siegel.png"
 			expire = "1.1.1"
@@ -1988,7 +1988,7 @@ country_event = {  #Flavour
 			traits = { }
 		}
 		create_field_marshal = {# 
-			name = "Bugsy Siegel "
+			name = "Багси Сигел "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Bugsy_Siegel.png"
 			traits = {
 				politically_connected
@@ -2002,7 +2002,7 @@ country_event = {  #Flavour
 			id = 15412
 		}
 		create_corps_commander = {
-			name = "Albert Anastasia"
+			name = "Альберт Анастазия"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Albert_Anastasia.png"
 			traits = {
 				NYC_mobster
@@ -2014,7 +2014,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Louis Buchalter"
+			name = "Луис Бухальтер"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Louis_Buchalter.png"
 			traits = {
 				NYC_mobster
@@ -2026,7 +2026,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Harry Strauss"
+			name = "Гарри Штраус"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Harry_Strauss.png"
 			traits = {
 				NYC_mobster
@@ -2038,7 +2038,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Abe Reles"
+			name = "Эйб Релес"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Abe_Reles.png"
 			traits = {
 				NYC_mobster
@@ -2050,7 +2050,7 @@ country_event = {  #Flavour
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Martin Goldstein"
+			name = "Мартин Гольдштейн"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Martin_Goldstein.png"
 			traits = {
 				NYC_mobster
@@ -2147,7 +2147,7 @@ country_event = { #Valentine Retires
 		date > 1945.5.6
 		tag = NYC
 		has_country_leader = {
-			name = "Lewis J. Valentine"
+			name = "Льюис Дж. Валентайн"
 			ruling_only = yes
 		}
 	}
@@ -2161,7 +2161,7 @@ country_event = { #Valentine Retires
 				retire = yes
 			}
 			create_field_marshal = {# 
-				name = "Arthur William Wallander "
+				name = "Артур Уильям Валландер "
 				portrait_path = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 				traits = {
 					politically_connected
@@ -2186,7 +2186,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.a
 		create_country_leader = {
-			name = "Arthur William Wallander"
+			name = "Артур Уильям Валландер"
 			desc = "POLITICS_WALLANDER_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 			expire = "1.1.1"
@@ -2198,7 +2198,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.b
 		create_country_leader = {
-			name = "John F. O'Ryan"
+			name = "Джон Ф. О'Райан"
 			picture = "gfx/leaders/NYC/Portrait_NYC_John_F_O'Ryan.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2209,7 +2209,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.c
 		create_country_leader = {
-			name = "Louis F. Costuma"
+			name = "Луис Ф. Костума"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Louis_F_Costuma.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2220,7 +2220,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.e
 		create_country_leader = {
-			name = "Samuel J. Battle"
+			name = "Сэмюэл Дж. Баттл"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Samuel_J_Battle.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2231,7 +2231,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.f
 		create_country_leader = {
-			name = "Mary A. Sullivan"
+			name = "Мэри А. Салливан"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Mary_Sullivan.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2242,7 +2242,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.g
 		create_country_leader = {
-			name = "Frank Sinatra"
+			name = "Фрэнк Синатра"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Frank_Sinatra.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2253,7 +2253,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.h
 		create_country_leader = {
-			name = "Charles N. Fitzgerald"
+			name = "Чарльз Н. Фицджеральд"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Charles_N_Fitzgerald.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -2471,7 +2471,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.a
 		create_country_leader = {
-			name = "Jimmy Walker"
+			name = "Джимми Уокер"
 			desc = "POLITICS_WALKER_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Jimmy_Walker.png"
 			expire = "1.1.1"
@@ -2499,7 +2499,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.b
 		create_country_leader = {
-			name = "George Washington Olvany"
+			name = "Джордж Вашингтон Олвани"
 			desc = "POLITICS_OLVANY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_George_Washington_Olvany.png"
 			expire = "1.1.1"
@@ -2524,7 +2524,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.c
 		create_country_leader = {
-			name = "William O'Dwyer"
+			name = "Уильям О'Двайер"
 			desc = "POLITICS_ODWYER_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_William_O_Dwyer.png"
 			expire = "1.1.1"
@@ -2545,7 +2545,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.e
 		create_country_leader = {
-			name = "Adam Clayton Powell Jr."
+			name = "Адам Клэйтон Пауэлл"
 			desc = "POLITICS_POWELL_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Adam_Clayton_Powell_Jr.png"
 			expire = "1.1.1"
@@ -2557,7 +2557,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.f
 		create_country_leader = {
-			name = "Frank Hague"
+			name = "Фрэнк Хейг"
 			desc = "POLITICS_HAGUE_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Frank_Hague.png"
 			expire = "1.1.1"
@@ -2567,11 +2567,11 @@ country_event = { #Tammany Puppet Mayor
 		remove_ideas_with_trait = head_of_government
 		add_ideas = NYC_Frank_Hague_hog_sco
 	}
-
+	
 	option = { #
 		name = NYC.15.g
 		create_country_leader = {
-			name = "Al Smith"
+			name = "Эл Смит"
 			desc = "POLITICS_AL_SMITH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Al_Smith.png"
 			expire = "1.1.1"
@@ -2583,7 +2583,7 @@ country_event = { #Tammany Puppet Mayor
 	option = { #
 		name = NYC.15.h
 		create_country_leader = {
-			name = "Frank Costello"
+			name = "Фрэнк Костелло"
 			desc = "POLITICS_COSTELLO_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Frank_Costello.png"
 			expire = "1.1.1"
@@ -2677,10 +2677,10 @@ country_event = { #Annexing BBR
 	trigger = {
 		BBR = {
 			exists = yes
-			has_country_leader = { name = "A. Philip Randolph" ruling_only = yes }
+			has_country_leader = { name = "Аса Филип Рэндольф" ruling_only = yes }
 		}
 		tag = NYC
-		has_country_leader = { name = "Frank Crosswaith" ruling_only = yes }
+		has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
 	}
 	
 	fire_only_once = yes
@@ -2730,8 +2730,8 @@ country_event = { #Annexing NYC
 		NYC = {
 			exists = yes
 			OR = {
-				has_country_leader = { name = "Frank Crosswaith" ruling_only = yes }
-				has_country_leader = { name = "Hubert Harrison" ruling_only = yes }
+				has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
+				has_country_leader = { name = "Губерт Гаррисон" ruling_only = yes }
 			}
 		}
 		tag = BBR
@@ -2753,8 +2753,8 @@ country_event = { #Annexing NYC
 	
 	option = { #Eat NYC
 		name = NYC.1531.b
-		ai_chance = { 
-			factor = 50 
+		ai_chance = {
+			factor = 50
 			modifier = {
 				factor = 0
 				OR = {
@@ -2843,9 +2843,9 @@ country_event = { #Annexing NYC
 						option = NYC_INDEP_NEUTRALITY
 					}
 					NYC = { is_ai = no }
-				}
 			}
 		}
+	}
 		hidden_effect = {
 			NYC = {
 				transfer_navy = { target = BBR }
@@ -3299,30 +3299,30 @@ country_event = { #America Re-Unified
 			AND = {
 				NEE = { 
 					exists = yes
-					has_country_flag = NEE_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = NEE_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				TXS = { 
 					exists = yes
-					has_country_flag = TXS_claimed_america
+				has_country_flag = TXS_claimed_america
 					is_ally_of_ROOT = no
 				}
 			}
 			AND = {
-				BBR = {
+				BBR = {	
 					exists = yes
-					has_country_flag = BBR_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = BBR_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			OR = {
 				has_government = syndicalist
 				has_country_flag = NYC_harlem_nationalists
-				has_country_leader = { name = "Casper Holstein" ruling_only = yes }
-				has_country_leader = { name = "Stephanie St. Clair" ruling_only = yes }
-				has_country_leader = { name = "Bumpy Johnson" ruling_only = yes }
+				has_country_leader = { name = "Каспер Гольштейн" ruling_only = yes }
+				has_country_leader = { name = "Стефани Сент-Клер" ruling_only = yes }
+				has_country_leader = { name = "Бампи Джонсон" ruling_only = yes }
 			}
 		}
 		controls_all_owned_states = yes
@@ -3350,7 +3350,7 @@ country_event = { #America Re-Unified
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Lewis J. Valentine"
+					name = "Льюис Дж. Валентайн"
 					ruling_only = yes
 				}
 			}
@@ -3367,11 +3367,11 @@ country_event = { #America Re-Unified
 			}
 			set_cosmetic_tag = NYC_USA_FDR
 			hidden_effect = {
-			country_event = {
-				id = NYC_flavor.655
-				days = 30
+				country_event = {
+					id = NYC_flavor.655
+					days = 30
+					}
 				}
-			}
 		}
 		if = {
 			limit = {
@@ -3476,11 +3476,11 @@ country_event = { #Flag Picker
 		name = NYC.157.c
 		set_cosmetic_tag = NEE_america
 	}
-
+	
 	option = { #Ireland
 		name = NYC.159.f
 		trigger = {
-			has_country_leader = { name = "Edward de Valera" ruling_only = yes }
+			has_country_leader = { name = "Имон де Валера" ruling_only = yes }
 		}
 		set_cosmetic_tag = NEE_america_new_ireland
 	}
@@ -3492,19 +3492,19 @@ country_event = { #Flag Picker
 		}
 		if = {
 		limit = {
-		has_country_leader = { name = "Lucky Luciano" ruling_only = yes }
+		has_country_leader = { name = "Чарльз Лучано" ruling_only = yes }
 		}
 		set_cosmetic_tag = NYC_USA_LUCIANO
 		}
 		if = {
 		limit = {
-		has_country_leader = { name = "Meyer Lansky" ruling_only = yes }
+		has_country_leader = { name = "Мейер Лански" ruling_only = yes }
 		}
 		set_cosmetic_tag = NYC_USA_LANSKY
 		}
 		if = {
 		limit = {
-		has_country_leader = { name = "Bugsy Siegel" ruling_only = yes }
+		has_country_leader = { name = "Багси Сигел" ruling_only = yes }
 		}
 		set_cosmetic_tag = NYC_USA_BUGSY
 		}
@@ -3533,7 +3533,7 @@ country_event = { #De Valera Mayor
 		remove_ideas = NYC_George_Washington_Olvany_hog_sco
 		add_ideas = IRE_Eamon_de_Valera_hog_sco
 		create_country_leader = {
-			name = "Edward de Valera"
+			name = "Эдвард де Валера"
 			desc = "POLITICS_EDWARD_DE_VALERA_DESC"
 			picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 			expire = "1.1.1"
@@ -3628,7 +3628,7 @@ country_event = { #Valentine Resigns in Protest
 	option = { #Flavour
 		name = NYC.190.a
 		create_country_leader = {
-			name = "Arthur William Wallander"
+			name = "Артур Уильям Валландер"
 			desc = "POLITICS_WALLANDER_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 			expire = "1.1.1"
@@ -3640,7 +3640,7 @@ country_event = { #Valentine Resigns in Protest
 			retire = yes
 		}
 		create_field_marshal = {# 
-			name = "Arthur William Wallander "
+			name = "Артур Уильям Валландер "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 			traits = {
 				politically_connected
@@ -3769,7 +3769,7 @@ country_event = { #Citizen Kane
 				limit = {
 					CAL = {
 						has_country_leader = {
-							name = "William Randolph Hearst"
+							name = "Уильям Рэндольф Хёрст"
 							ruling_only = yes
 						}
 					}
@@ -3934,7 +3934,7 @@ country_event = { #F-L dude
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Franklin D. Roosevelt Jr."
+					name = "Франклин Д. Рузвельт мл."
 					ruling_only = yes
 				}
 			}
@@ -3953,7 +3953,7 @@ country_event = { #F-L dude
 				popularity = 0.02
 			}
 			create_country_leader = {
-				name = "Dudley Field Malone"
+				name = "Дадли Филд Мэлоун"
 				desc = "POLITICS_MALONE_DESC"
 				picture = "gfx/leaders/NYC/Portrait_NYC_Dudley_Field_Malone.png"
 				expire = "1.1.1"
@@ -3979,7 +3979,7 @@ country_event = { #F-L dude
 				popularity = 0.02
 			}
 			create_country_leader = {
-				name = "Dudley Field Malone"
+				name = "Дадли Филд Мэлоун"
 				desc = "POLITICS_MALONE_DESC"
 				picture = "gfx/leaders/NYC/Portrait_NYC_Dudley_Field_Malone.png"
 				expire = "1.1.1"
@@ -4086,7 +4086,7 @@ country_event = { #MNYCGA
 	fire_only_once = yes
 	
 	trigger = {
-		has_country_leader = { name = "Fred Trump" ruling_only = yes }
+		has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 		has_government = market_liberal
 	}
 
@@ -4105,7 +4105,7 @@ country_event = { #Great Wall
 	fire_only_once = yes
 	
 	trigger = {
-		has_country_leader = { name = "Fred Trump" ruling_only = yes }
+		has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 		has_government = market_liberal
 	}
 
@@ -4142,7 +4142,7 @@ country_event = { #Trump Klan Ties
 	fire_only_once = yes
 	
 	trigger = {
-		has_country_leader = { name = "Fred Trump" ruling_only = yes }
+		has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 		has_government = market_liberal
 	}
 
@@ -4177,7 +4177,7 @@ country_event = { #La Guardia Little Flower
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	trigger = { has_country_leader = { ruling_only = yes name = "Fiorello H. La Guardia" } }
+	trigger = { has_country_leader = { ruling_only = yes name = "Фьорелло Ла Гуардия" } }
 
 	option = { #Flavour
 		name = NYC.34.a
@@ -4205,7 +4205,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.b
 		create_country_leader = {
-			name = "Robert Moses"
+			name = "Роберт Мозес"
 			desc = "POLITICS_MOSES_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Robert_Moses.png"
 			expire = "1.1.1"
@@ -4218,7 +4218,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.c
 		create_country_leader = {
-			name = "Julius Henry 'Groucho' Marx"
+			name = "Джулиус Генри «Граучо» Маркс"
 			desc = "POLITICS_GROUCHO_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Groucho_Marx.png"
 			expire = "1.1.1"
@@ -4237,7 +4237,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.e
 		create_country_leader = {
-			name = "Vincent Impellitteri"
+			name = "Винсент Импеллиттери"
 			desc = "POLITICS_IMPELLITTERI_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Vincent_Impellitteri.png"
 			expire = "1.1.1"
@@ -4268,7 +4268,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.f
 		create_country_leader = {
-			name = "Thomas Dewey"
+			name = "Томас Дьюи"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Thomas_Dewey.png"
 			expire = "1.1.1"
 			ideology = soclib_humanistic_capitalism_subtype
@@ -4280,7 +4280,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.g
 		create_country_leader = {
-			name = "Kermit Roosevelt"
+			name = "Кермит Рузвельт"
 			picture = "gfx/leaders/AML/Portrait_AML_Kermit_Roosevelt.png"
 			expire = "1.1.1"
 			ideology = jeffersonianism_subtype
@@ -4292,7 +4292,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.h
 		create_country_leader = {
-			name = "Wendell Willkie"
+			name = "Уэнделл Уилки"
 			picture = "gfx/leaders/USA/Portrait_USA_Wendell_Willkie_KR.png"
 			expire = "1.1.1"
 			ideology = soclib_internationalism_subtype
@@ -4304,7 +4304,7 @@ country_event = { #La Guardia successors
 	option = { #
 		name = NYC.340.i
 		create_country_leader = {
-			name = "Enoch L. Johnson"
+			name = "Энох Джонсон"
 			desc = "POLITICS_NUCKY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Nucky_Johnson.png"
 			expire = "1.1.1"
@@ -4472,7 +4472,7 @@ country_event = { #Boss Guy Dies
 	option = { name = NYC.43.a }#Flavour
 }
 
-country_event = { #Jimmy Walker Flavour
+country_event = { #Джимми Уокер Flavour
 	id = NYC.44
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC.44"}
 	title = NYC.44.t
@@ -4485,7 +4485,7 @@ country_event = { #Jimmy Walker Flavour
 	option = { name = NYC.44.a }#Flavour
 }
 
-country_event = { #George Washington Olvany Flavour
+country_event = { #Джордж Вашингтон Олвани Flavour
 	id = NYC.45
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC.45"}
 	title = NYC.45.t
@@ -4748,7 +4748,7 @@ country_event = { #Unify with Capone? (Luciano Specific)
 	option = { #Flavour
 		name = NYC.63.a
 		create_country_leader = {
-			name = "Lucky Luciano"
+			name = "Чарльз Лучано"
 			desc = "POLITICS_LUCIANO_NYC_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 			expire = "1.1.1"
@@ -4776,7 +4776,7 @@ country_event = { #Unify with Capone? (Luciano Specific)
 	option = { #Flavour
 		name = NYC.63.b
 		create_country_leader = {
-			name = "Lucky Luciano"
+			name = "Чарльз Лучано"
 			desc = "POLITICS_LUCIANO_NYC_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Lucky_Luciano.png"
 			expire = "1.1.1"
@@ -5110,7 +5110,7 @@ country_event = { #
 			SIC = {
 			load_focus_tree = generic_focus
 			create_country_leader = {
-				name = "Calogero Vizzini"
+				name = "Калоджеро Виццини"
 				desc = "POLITICS_CALOGERO_VIZZINI_DESC"
 				picture = "gfx/leaders/SIC/Portrait_SIC_Calogero_Vizzini.png"
 				expire = "1.1.1"
@@ -5248,7 +5248,7 @@ country_event = { #City Adjusts
 	is_triggered_only = yes
 	
 	fire_only_once = yes
-	trigger = { has_country_leader = { name = "Fred Trump" ruling_only = yes } }
+	trigger = { has_country_leader = { name = "Фред Трамп" ruling_only = yes } }
 
 	option = { #
 		name = NYC_flavor.4.a
@@ -5339,7 +5339,7 @@ country_event = { #Future of the New Union
 		hidden_effect = {
 		if = {
 			limit = {
-				has_country_leader = { name = "Fred Trump" ruling_only = yes }
+				has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 				has_government = market_liberal
 			}
 			country_event = {	
@@ -5351,7 +5351,7 @@ country_event = { #Future of the New Union
 			limit = {
 				has_government = totalist
 				has_country_leader = {
-					name = "Franklin D. Roosevelt Jr."
+					name = "Франклин Д. Рузвельт мл."
 					ruling_only = yes
 				}
 			}
@@ -5400,7 +5400,7 @@ country_event = { #Future of the New Union
 				days = 40
 			}
 		}
-	    }
+		}
 	}
 	title = NYC_flavor.9.t
 	desc = NYC_flavor.9.d
@@ -5795,7 +5795,7 @@ country_event = { #Harlem Coup
 			leave_faction = yes
 		}
 		create_field_marshal = {
-			name = "Bumpy Johnson "
+			name = "Бампи Джонсон "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Bumpy_Johnson.png"
 			traits = {
 				old_guard inflexible_strategist offensive_doctrine NYC_mobster
@@ -5807,7 +5807,7 @@ country_event = { #Harlem Coup
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Finlay Hoskins"
+			name = "Финлей Хоскинс"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Finlay_Hoskins.png"
 			traits = {
 				NYC_mobster
@@ -5819,7 +5819,7 @@ country_event = { #Harlem Coup
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Mayme Hatcher Johnson"
+			name = "Мэйм Хэтчер Джонсон"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Mayme_Hatcher_Johnson.png"
 			traits = {
 				NYC_mobster
@@ -5831,7 +5831,7 @@ country_event = { #Harlem Coup
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Dillard Morrison"
+			name = "Диллард Моррисон"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Dillard_Morrison.png"
 			traits = {
 				NYC_mobster
@@ -5843,7 +5843,7 @@ country_event = { #Harlem Coup
 			logistics_skill = 1
 	}
 	create_navy_leader = {#
-		name = "John Coltrane"
+		name = "Джон Колтрейн"
 		portrait_path = "gfx/leaders/NYC/Portrait_NYC_John_Coltrane.png"
 		traits = {}
 		skill = 1
@@ -5865,7 +5865,7 @@ country_event = { #Harlem Coup
 			ideology = market_liberal
 		}
 		create_country_leader = {
-			name = "Casper Holstein"
+			name = "Каспер Гольштейн"
 			desc = "POLITICS_HOLSTEIN_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Casper_Holstein.png"
 			expire = "1.1.1"
@@ -5873,7 +5873,7 @@ country_event = { #Harlem Coup
 			traits = { hero_harlem }
 		}
 		create_country_leader = {
-			name = "Stephanie St. Clair"
+			name = "Стефани Сент-Клер"
 			desc = "POLITICS_STCLAIR_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Stephanie_St._Clair.png"
 			expire = "1.1.1"
@@ -5886,14 +5886,14 @@ country_event = { #Harlem Coup
 				days = 20
 			}
 		}
-		hidden_effect = {
+        hidden_effect = {
 		   set_party_name = {
 		   	   name = NYC_bumpy_pataut_party
 			   long_name = NYC_bumpy_pataut_party_long
 			   ideology = paternal_autocrat
 		   }
 		   create_country_leader = {
-		   	   name = "Bumpy Johnson"
+		   	   name = "Бампи Джонсон"
 			   desc = ""
 			   picture = "gfx/leaders/NYC/Portrait_NYC_Bumpy_Johnson.png"
 			   expire = "1.1.1"
@@ -5928,7 +5928,7 @@ country_event = { #Harlem Coup
 				id = NYC_flavor.106
 				days = 42
 			}
-		}
+               }
 	}
 	
 	option = { #No
@@ -5953,9 +5953,9 @@ country_event = { #Powerstruggle
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NYC_path
-						option = NYC_PATH_HARLEM_CLAIR
+				has_game_rule = {
+					rule = NYC_path
+					option = NYC_PATH_HARLEM_CLAIR
 					}
 					has_game_rule = {
 						rule = NYC_path
@@ -5973,9 +5973,9 @@ country_event = { #Powerstruggle
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NYC_path
-						option = NYC_PATH_HARLEM_HOLSTEIN
+				has_game_rule = {
+					rule = NYC_path
+					option = NYC_PATH_HARLEM_HOLSTEIN
 					}
 					has_game_rule = {
 						rule = NYC_path
@@ -5992,7 +5992,7 @@ country_event = { #Powerstruggle
 			NYC_Mayme_Hatcher_Johnson_sec_mli
 		}
 		create_corps_commander = {
-			name = "Sufi Abdul Hamid "
+			name = "Суфи Абдул Хамид "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
 			traits = {
 				old_guard inflexible_strategist offensive_doctrine
@@ -6259,15 +6259,15 @@ country_event = { #Fate of America
 		tag = NYC
 		OR = {
 			has_country_leader = {
-				name = "Casper Holstein"
+				name = "Каспер Гольштейн"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Stephanie St. Clair"
+				name = "Стефани Сент-Клер"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Bumpy Johnson"
+				name = "Бампи Джонсон"
 				ruling_only = yes
 			}
 		}
@@ -6290,7 +6290,7 @@ country_event = { #Fate of America
 		if = {
 		limit = {
 		has_country_leader = {
-			name = "Casper Holstein"
+			name = "Каспер Гольштейн"
 			ruling_only = yes
 			}
 		}
@@ -6299,7 +6299,7 @@ country_event = { #Fate of America
 		if = {
 		limit = {
 		has_country_leader = {
-			name = "Bumpy Johnson"
+			name = "Бампи Джонсон"
 			ruling_only = yes
 			}
 		}
@@ -6308,7 +6308,7 @@ country_event = { #Fate of America
 		if = {
 		limit = {
 		has_country_leader = {
-			name = "Stephanie St. Clair"
+			name = "Стефани Сент-Клер"
 			ruling_only = yes
 			}
 		}
@@ -6444,7 +6444,7 @@ country_event = { #Fidel X and Malcom Castro (Bumpy)
         trigger = {
              date > 1945.01.01
 	     has_country_leader = {
-		    name = "Bumpy Johnson"
+		    name = "Бампи Джонсон"
 		    ruling_only = yes
 	     }
         }
@@ -6456,7 +6456,7 @@ country_event = { #Fidel X and Malcom Castro (Bumpy)
 	option = { #Yes
 		name = NYC_flavor.2241.a
 		create_corps_commander = {
-			name = "Fidel Castro"
+			name = "Фидель Кастро"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Fidel_Castro.png"
 			traits = {
 				offensive_doctrine
@@ -6468,7 +6468,7 @@ country_event = { #Fidel X and Malcom Castro (Bumpy)
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Malik el-Shabazz"
+			name = "Малик эш-Шабазз"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Malcolm_X.png"
 			traits = {
 				inflexible_strategist
@@ -6599,7 +6599,7 @@ country_event = { #New York for the People (For Hubert/Crosswaith)
 		}
 	}
 }
-country_event = { #Hubert Harrison(For Hubert/Crosswaith)
+country_event = { #Губерт Гаррисон(For Hubert/Crosswaith)
 	id = NYC_flavor.3335
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3335"}
 	title = NYC_flavor.3335.t
@@ -6621,7 +6621,7 @@ country_event = { #Hubert Harrison(For Hubert/Crosswaith)
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Hubert Harrison"
+			name = "Губерт Гаррисон"
 			desc = "POLITICS_HARRISON_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Hubert_Harrison.png"
 			expire = "1.1.1"
@@ -6630,7 +6630,7 @@ country_event = { #Hubert Harrison(For Hubert/Crosswaith)
 		}
 		hidden_effect = {
 		create_navy_leader = {#
-			name = "John Coltrane"
+			name = "Джон Колтрейн"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_John_Coltrane.png"
 			traits = {}
 			skill = 1
@@ -6731,7 +6731,7 @@ country_event = { #Crosswaith or Harrison (For Hubert/Crosswaith)
 			ideology = syndicalist
 		}
 		create_country_leader = {
-			name = "Frank Crosswaith"
+			name = "Франк Кроссвейт"
 			desc = "POLITICS_CROSSWAITH_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Frank_Rudolph_Crosswaith.png"
 			expire = "1.1.1"
@@ -6764,7 +6764,7 @@ country_event = { #Crosswaith or Harrison (For Hubert/Crosswaith)
 			ideology = syndicalist
 		}
 		create_country_leader = {
-			name = "David Hamilton Jackson"
+			name = "Дэвид Гамильтон Джексон"
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_David_Hamilton_Jackson.png"
 			expire = "1.1.1"
@@ -7127,7 +7127,7 @@ country_event = { #BBR Exiles
 		tag = NYC
 		has_global_flag = BBR_has_risen_up
 		has_government = syndicalist
-		has_country_leader = { name = "Frank Crosswaith" ruling_only = yes }
+		has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
 		BBR = {
 			exists = no
 		}
@@ -7145,7 +7145,7 @@ country_event = { #BBR Exiles
 		name = NYC_flavor.3352.b
 		add_political_power = 25
 		create_field_marshal = {# 
-			name = "Henry Ossian Flipper"
+			name = "Флиппер Генри"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Henry_Ossian_Flipper.png"
 			traits = {
 				fast_planner 
@@ -7157,7 +7157,7 @@ country_event = { #BBR Exiles
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Jackie Robinson"
+			name = "Джеки Робинсон"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Jackie_Robinson.png"
 			traits = {
 				politically_connected
@@ -7170,7 +7170,7 @@ country_event = { #BBR Exiles
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Henry Johnson"
+			name = "Генри Джонсон"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Henry_Johnson.png"
 			traits = {
 				politically_connected
@@ -7183,7 +7183,7 @@ country_event = { #BBR Exiles
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Benjamin O. Davis Sr"
+			name = "Бенджамин Оливер Дэвис "
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Benjamin_O_Davis_Sr.png"
 			traits = {
 				brilliant_strategist
@@ -7200,7 +7200,7 @@ country_event = { #BBR Exiles
 		name = NYC_flavor.3352.c
 		add_stability = 0.05
 		create_country_leader = {
-			name = "A. Philip Randolph"
+			name = "Аса Филип Рэндольф"
 					desc = "BBR_A_PHILIP_RANDOLPH_POLITICS_DESC"
 					picture = "gfx/leaders/BBR/Portrait_BBR_Asa_Philip_Abbott.png"
 			ideology = democratic_syndicalism_subtype
@@ -7235,7 +7235,7 @@ country_event = { #CSA Exiles
 		name = NYC_flavor.3353.b
 		add_political_power = 25
 		create_corps_commander = {# 
-			name = "Oliver Law"
+			name = "Оливер Лоу"
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Oliver_Law.png"
 			traits = {
 				trait_reckless 
@@ -7247,7 +7247,7 @@ country_event = { #CSA Exiles
 			logistics_skill = 1
 		}
 		create_corps_commander = {# 
-			name = "Edward Carter"
+			name = "Эдвард Картер"
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_edward_carter.png"
 			traits = {
 				infantry_officer
@@ -7259,7 +7259,7 @@ country_event = { #CSA Exiles
 			logistics_skill = 2
 		}
 		create_corps_commander = {# 
-			name = "Evans Carlson"
+			name = "Эванс Карлсон"
 			portrait_path = "gfx/leaders/CSA/Portrait_CSA_Evans_Carlson.png"
 			traits = {
 				brilliant_strategist
@@ -7275,7 +7275,7 @@ country_event = { #CSA Exiles
 		name = NYC_flavor.3353.c
 		add_stability = 0.05
 		create_country_leader = {
-			name = "Bayard Rustin"
+			name = "Баярд Растин"
 			desc = "POLITICS_BAYARD_RUSTIN_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Bayard_Rustin.png"
 			expire = "1.1.1"
@@ -7320,7 +7320,7 @@ country_event = { #Second Negro Sanherdrin
 		add_stability = 0.05
 	}
 }
-country_event = { #Otto Huiswoud and Lovette Fort Whitemen
+country_event = { #Отто Хуисвуд and Lovette Fort Whitemen
 	id = NYC_flavor.3356
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3356"}
 	title = NYC_flavor.3356.t
@@ -7371,7 +7371,7 @@ country_event = { #Black is Beautiful
 	trigger = {
 		has_government = syndicalist
 		has_country_leader = {
-			name = "David Hamilton Jackson"
+			name = "Дэвид Гамильтон Джексон"
 			ruling_only = yes
 		}
 	}
@@ -7395,7 +7395,7 @@ country_event = { #Bull and Bread Day
 	trigger = {
 		has_government = syndicalist
 		has_country_leader = {
-			name = "David Hamilton Jackson"
+			name = "Дэвид Гамильтон Джексон"
 			ruling_only = yes
 		}
 	}
@@ -7419,7 +7419,7 @@ country_event = { #Hamilton's Fight for Emancipation
 	trigger = {
 		has_government = syndicalist
 		has_country_leader = {
-			name = "David Hamilton Jackson"
+			name = "Дэвид Гамильтон Джексон"
 			ruling_only = yes
 		}
 	}
@@ -7672,7 +7672,7 @@ country_event = { #Epic Fail
 				long_name = NYC_uanm_party_long
 			}
 			create_country_leader = {
-				name = "Sufi Abdul Hamid"
+				name = "Суфи Абдул Хамид"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
 				expire = "1.1.1"
@@ -7680,7 +7680,7 @@ country_event = { #Epic Fail
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Ira Kemp"
+				name = "Айра Кемп"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Ira_Kemp.png"
 				expire = "1.1.1"
@@ -7688,7 +7688,7 @@ country_event = { #Epic Fail
 				traits = { }
 			}
 			create_country_leader = {
-				name = "James R. Lawson"
+				name = "Джеймс Р. Лоусон"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
 				expire = "1.1.1"
@@ -7696,7 +7696,7 @@ country_event = { #Epic Fail
 				traits = { }
 			}
 			create_navy_leader = {#
-			name = "John Coltrane"
+			name = "Джон Колтрейн"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_John_Coltrane.png"
 			traits = {}
 			skill = 1
@@ -7749,7 +7749,7 @@ country_event = { #Black Nationalist Takeover
 				long_name = NYC_uanm_party_long
 			}
 			create_country_leader = {
-				name = "Sufi Abdul Hamid"
+				name = "Суфи Абдул Хамид"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
 				expire = "1.1.1"
@@ -7757,7 +7757,7 @@ country_event = { #Black Nationalist Takeover
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Ira Kemp"
+				name = "Айра Кемп"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Ira_Kemp.png"
 				expire = "1.1.1"
@@ -7765,7 +7765,7 @@ country_event = { #Black Nationalist Takeover
 				traits = { }
 			}
 			create_country_leader = {
-				name = "James R. Lawson"
+				name = "Джеймс Р. Лоусон"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
 				expire = "1.1.1"
@@ -7918,23 +7918,23 @@ country_event = { #Inshallah Event
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: NYC_flavor.20"
 		hidden_effect = {
-			if = {
-			limit = { is_ai = no }
-			every_country = {
-				limit = { is_in_africa = yes }
-				NYC = {
-					create_wargoal = {
-						target = PREV
-						type = annex_everything
-					}
+		if = {
+		limit = { is_ai = no }
+		every_country = {
+			limit = { is_in_africa = yes }
+			NYC = {
+				create_wargoal = {
+					target = PREV
+					type = annex_everything
 				}
 			}
-			every_state = {
-				limit = { is_on_continent = africa }
-				add_core_of = NYC
-			}
+		}
+		every_state = {
+			limit = { is_on_continent = africa }
+			add_core_of = NYC
 			}
 		}
+	    }
 	}
 	title = NYC_flavor.1348.t
 	desc = NYC_flavor.1348.d
@@ -7956,11 +7956,11 @@ country_event = { #Inshallah Event
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Sufi Abdul Hamid"
+					name = "Суфи Абдул Хамид"
 					ruling_only = yes
 				}
 			}
-			set_country_leader_name = { name = "Amiru Al-Mu-Minin Sufi Abdul Hamid" }
+			set_country_leader_name = { name = "Амиру аль-Му-Минин Суфи Абдул Хамид" }
 		}
 		create_wargoal = {
 			type = annex_everything
@@ -8044,7 +8044,7 @@ country_event = { #Black Jews
 	
 	trigger = {
 		has_country_leader = {
-			name = "Sufi Abdul Hamid"
+			name = "Суфи Абдул Хамид"
 			ruling_only = yes
 		}
 		owns_state = 1167
@@ -8060,7 +8060,7 @@ country_event = { #Black Jews
 		name = NYC_flavor.1349.a
 		ai_chance = { factor = 100 }
 		create_corps_commander = {
-			name = "Wentworth Arthur Matthew"
+			name = "Вентворт Артур Мэтью"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Wentworth_Arthur_Matthew.png"
 			traits = {
 				commando
@@ -8087,7 +8087,7 @@ country_event = { #fake islamists
 
 	trigger = {
 		has_country_leader = {
-			name = "Sufi Abdul Hamid"
+			name = "Суфи Абдул Хамид"
 			ruling_only = yes
 		}
 		owns_state = 1167
@@ -8103,7 +8103,7 @@ country_event = { #fake islamists
 		name = NYC_flavor.1350.a
 		ai_chance = { factor = 100 }
 		create_corps_commander = {
-			name = "Elijah Muhammed"
+			name = "Элайджа Мухаммад"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_Elijah_Muhammad.png"
 			traits = {
 				trickster
@@ -8131,7 +8131,7 @@ country_event = { #SUFI THEY HIT THE FUCKING PENTAGON
 	trigger = {
                 has_completed_focus = NYC_harlem_negro_metropolis
 		has_country_leader = {
-			name = "Sufi Abdul Hamid"
+			name = "Суфи Абдул Хамид"
 			ruling_only = yes
 		}
 	}
@@ -8160,7 +8160,7 @@ country_event = { #MINE EYES HAvE SEEN THE GLORY OF BUDDHA
 	trigger = {
                 has_completed_focus = NYC_future_linked_with_african_brothers
 		has_country_leader = {
-			name = "Sufi Abdul Hamid"
+			name = "Суфи Абдул Хамид"
 			ruling_only = yes
 		}
                 has_government = national_populist
@@ -8186,18 +8186,18 @@ country_event = { #MINE EYES HAvE SEEN THE GLORY OF BUDDHA
 			OR = {
 				  MON = {
 					OR = {
-					 has_country_leader = { name = "Roman von Ungern-Sternberg" ruling_only = yes }
-					 has_country_leader = { name = "Genghis Khan II" ruling_only = yes }
-					 has_country_leader = { name = "Ja Lama" ruling_only = yes }
+					 has_country_leader = { name = "Роман фон Унгерн-Штернберг" ruling_only = yes }
+					 has_country_leader = { name = "Чингисхан II" ruling_only = yes }
+					 has_country_leader = { name = "Жа лам" ruling_only = yes }
 					}
 		 is_faction_leader = yes
 				  }
 			  TIB = {
 					OR = {
-					 has_country_leader = { name = "Nicholas Roerich" ruling_only = yes }
-					 has_country_leader = { name = "Helena Roerich" ruling_only = yes }
-					 has_country_leader = { name = "George de Roerich" ruling_only = yes }
-					 has_country_leader = { name = "Svetoslav Roerich" ruling_only = yes }
+					 has_country_leader = { name = "Николай Рерих" ruling_only = yes }
+					 has_country_leader = { name = "Елена Рерих" ruling_only = yes }
+					 has_country_leader = { name = "Юрий Рерих" ruling_only = yes }
+					 has_country_leader = { name = "Светослав Рерих" ruling_only = yes }
 					}
 		 is_faction_leader = yes
 				}
@@ -8208,20 +8208,20 @@ country_event = { #MINE EYES HAvE SEEN THE GLORY OF BUDDHA
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Sufi Abdul Hamid"
+					name = "Суфи Абдул Хамид"
 					ruling_only = yes
 				}
 			}
-			set_country_leader_name = { name = "Bishop Conshankin" }
+			set_country_leader_name = { name = "Епископ Коншенкин" }
 		}
                 if = {
                     limit = {
 					  NYC = { is_ai = no }
                       MON = {
                         OR = {
-                         has_country_leader = { name = "Roman von Ungern-Sternberg" ruling_only = yes }
-                         has_country_leader = { name = "Genghis Khan II" ruling_only = yes }
-                         has_country_leader = { name = "Ja Lama" ruling_only = yes }
+                         has_country_leader = { name = "Роман фон Унгерн-Штернберг" ruling_only = yes }
+                         has_country_leader = { name = "Чингисхан II" ruling_only = yes }
+                         has_country_leader = { name = "Жа лам" ruling_only = yes }
                         }
 			 is_faction_leader = yes
                       }
@@ -8233,10 +8233,10 @@ country_event = { #MINE EYES HAvE SEEN THE GLORY OF BUDDHA
 					  NYC = { is_ai = no }
                       TIB = {
                         OR = {
-                         has_country_leader = { name = "Nicholas Roerich" ruling_only = yes }
-                         has_country_leader = { name = "Helena Roerich" ruling_only = yes }
-                         has_country_leader = { name = "George de Roerich" ruling_only = yes }
-                         has_country_leader = { name = "Svetoslav Roerich" ruling_only = yes }
+                         has_country_leader = { name = "Николай Рерих" ruling_only = yes }
+                         has_country_leader = { name = "Елена Рерих" ruling_only = yes }
+                         has_country_leader = { name = "Юрий Рерих" ruling_only = yes }
+                         has_country_leader = { name = "Светослав Рерих" ruling_only = yes }
                         }
 			 is_faction_leader = yes
                          OR = {
@@ -8280,10 +8280,10 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: NYC_flavor.20"
 		hidden_effect = {
-			if = {
+		if = {
 			limit = {
 				has_country_leader = {
-					name = "James R. Lawson"
+					name = "Джеймс Р. Лоусон"
 					ruling_only = yes
 				}
 				is_ai = no 
@@ -8333,8 +8333,8 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 				}
 				add_core_of = NYC
 			}
-		    }
-	    }
+			}
+		}
 	}
 	title = NYC_flavor.1352.t
 	desc = NYC_flavor.1352.d
@@ -8343,14 +8343,14 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
-		NOT = { LIB = { has_country_leader = { name = "Marcus Garvey" ruling_only = yes } } }
+		NOT = { LIB = { has_country_leader = { name = "Маркус Гарви" ruling_only = yes } } }
 	}
 
 	option = { #only get the generals
 		name = NYC_flavor.1352.a
 		add_ideas = BBR_Marcus_Garvey_hog_pau
 		create_corps_commander = {
-			name = "James R. Stewart"
+			name = "Джеймс Р. Стюарт"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_James_R_Stewart.png"
 			traits = {
 				inflexible_strategist
@@ -8362,7 +8362,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Marcus Garvey "
+			name = "Маркус Гарви "
 			portrait_path = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 			traits = {
 				commando
@@ -8378,7 +8378,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 	option = { #fuck it, garvey nyc
 		name = NYC_flavor.1352.b
 		create_corps_commander = {
-			name = "James R. Stewart"
+			name = "Джеймс Р. Стюарт"
 			portrait_path = "gfx/leaders/BBR/Portrait_BBR_James_R_Stewart.png"
 			traits = {
 				inflexible_strategist
@@ -8390,7 +8390,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Marcus Garvey "
+			name = "Маркус Гарви "
 			portrait_path = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 			traits = {
 				commando
@@ -8404,7 +8404,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Marcus Garvey"
+				name = "Маркус Гарви"
 				desc = ""
 				picture = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 				expire = "1.1.1"
@@ -8412,7 +8412,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Marcus Garvey"
+				name = "Маркус Гарви"
 				desc = ""
 				picture = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 				expire = "1.1.1"
@@ -8421,7 +8421,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 			}
 		}
 		create_country_leader = {
-			name = "Marcus Garvey"
+			name = "Маркус Гарви"
 			desc = ""
 			picture = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 			expire = "1.1.1"
@@ -8429,7 +8429,7 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 			traits = { }
 		}
 		create_country_leader = {
-			name = "Marcus Garvey"
+			name = "Маркус Гарви"
 			desc = ""
 			picture = "gfx/leaders/LIB/Portrait_LIB_Marcus_Garvey.png"
 			expire = "1.1.1"
@@ -8498,7 +8498,7 @@ country_event = { #fate of harlem organized crime
 	option = { #ally holstein
 		name = NYC_flavor.1355.a
 		create_field_marshal = {
-			name = "Bumpy Johnson "
+			name = "Бампи Джонсон "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Bumpy_Johnson.png"
 			traits = {
 				old_guard inflexible_strategist offensive_doctrine NYC_mobster
@@ -8510,7 +8510,7 @@ country_event = { #fate of harlem organized crime
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Finlay Hoskins"
+			name = "Финлей Хоскинс"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Finlay_Hoskins.png"
 			traits = {
 				NYC_mobster
@@ -8522,7 +8522,7 @@ country_event = { #fate of harlem organized crime
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Mayme Hatcher Johnson"
+			name = "Мэйм Хэтчер Джонсон"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Mayme_Hatcher_Johnson.png"
 			traits = {
 				NYC_mobster
@@ -8534,7 +8534,7 @@ country_event = { #fate of harlem organized crime
 			logistics_skill = 4
 		}
 		create_corps_commander = {
-			name = "Dillard Morrison"
+			name = "Диллард Моррисон"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Dillard_Morrison.png"
 			traits = {
 				NYC_mobster
@@ -8588,7 +8588,7 @@ country_event = { #african blood brothahood
 
 	trigger = {
 		has_country_leader = {
-			name = "Ira Kemp"
+			name = "Айра Кемп"
 			ruling_only = yes
 		}
 		NOT = {
@@ -8619,7 +8619,7 @@ country_event = { #african blood brothahood
 		name = NYC_flavor.1357.c
 		add_ideas = NYC_Ira_Kemp_hog_tot
 		create_country_leader = {
-			name = "Duse Muhammed"
+			name = "Дусе Мухаммед"
 			desc = ""
 			picture = "gfx/leaders/BBR/Portrait_BBR_Duse_Mohamed_Ali.png"
 			expire = "1.1.1"
@@ -8636,27 +8636,27 @@ country_event = { #kemp ideo picker
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Ira Kemp"
+						name = "Айра Кемп"
 						ruling_only = yes
 					}
 					is_ai = no
 				}
-				every_state = {
-					limit = { is_on_continent = africa }
-					add_core_of = NYC
-				}
-				every_country = {
-					limit = { is_in_africa = yes }
-					NYC = {
-						create_wargoal = {
-							target = PREV
-							type = annex_everything
+			every_state = {
+				limit = { is_on_continent = africa }
+				add_core_of = NYC
+			}
+			every_country = {
+				limit = { is_in_africa = yes }
+				NYC = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
 						}
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Ira Kemp"
+				name = "Айра Кемп"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Ira_Kemp.png"
 				expire = "1.1.1"
@@ -8664,7 +8664,7 @@ country_event = { #kemp ideo picker
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Ira Kemp"
+				name = "Айра Кемп"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Ira_Kemp.png"
 				expire = "1.1.1"
@@ -8744,7 +8744,7 @@ country_event = { #kemp shaker
 		name = NYC_flavor.1368.b
 		hidden_effect = {
 			create_country_leader = {
-				name = "Langston Hughes"
+				name = "Лэнгстон Хьюз"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Langston_Hughes.png"
 				expire = "1.1.1"
@@ -8752,7 +8752,7 @@ country_event = { #kemp shaker
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Langston Hughes"
+				name = "Лэнгстон Хьюз"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Langston_Hughes.png"
 				expire = "1.1.1"
@@ -8766,7 +8766,7 @@ country_event = { #kemp shaker
 		name = NYC_flavor.1368.c
 			hidden_effect = {
 				create_country_leader = {
-				name = "Claude McKay"
+				name = "Клод Маккей"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Claude_McKay.png"
 				expire = "1.1.1"
@@ -8774,7 +8774,7 @@ country_event = { #kemp shaker
 				traits = { }
 			}
 			create_country_leader = {
-				name = "Claude McKay"
+				name = "Клод Маккей"
 				desc = ""
 				picture = "gfx/leaders/NYC/Portrait_NYC_Claude_McKay.png"
 				expire = "1.1.1"
@@ -8806,11 +8806,11 @@ country_event = { #NPD
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Ira Kemp"
+						name = "Айра Кемп"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "James R. Lawson"
+						name = "Джеймс Р. Лоусон"
 						ruling_only = yes
 					}
 				}
@@ -8837,7 +8837,7 @@ country_event = { #(lawson/kemp) ALL OF OUR LEADERS JUST KEEP BLOWING UP (arbys 
 		name = NYC_flavor.1359.a
 		add_political_power = 50
 		if = {
-			limit = { has_country_leader = { name = "Ira Kemp" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Айра Кемп" ruling_only = yes } }
 			hidden_effect = {
 				country_event = {
 					id = NYC_flavor.1355
@@ -8855,14 +8855,14 @@ country_event = { #(lawson/sufi) black democracy
 	picture = GFX_report_event_NYC_clayton_powell
 
 	trigger = {
-		has_completed_focus = NYC_future_linked_with_african_brothers
+                has_completed_focus = NYC_reorganize_pickett_lines
 		OR = {
 			has_country_leader = {
-				name = "James R. Lawson"
+				name = "Джеймс Р. Лоусон"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Sufi Abdul Hamid"
+				name = "Суфи Абдул Хамид"
 				ruling_only = yes
 			}
 		}
@@ -8879,117 +8879,117 @@ country_event = { #(lawson/sufi) black democracy
 		name = NYC_flavor.1360.b
 		if = {
 			limit = {
-				has_country_leader = { name = "James R. Lawson" ruling_only = yes }
+				has_country_leader = { name = "Джеймс Р. Лоусон" ruling_only = yes }
 			    has_country_flag = kimbangu_nyc
 			}
-		    create_country_leader = {
-			    name = "James R. Lawson"
-			    desc = ""
-			    picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
-			    expire = "1.1.1"
+			create_country_leader = {
+			    name = "Джеймс Р. Лоусон"
+				desc = ""
+				picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
+				expire = "1.1.1"
 			    ideology = authdem_kimbanguism_subtype
 			    traits = {}
-		    }
+			}
 	    }
 	    else_if = {
 			limit = {
-				has_country_leader = { name = "James R. Lawson" ruling_only = yes }
+				has_country_leader = { name = "Джеймс Р. Лоусон" ruling_only = yes }
 			}
 		    create_country_leader = {
-			    name = "James R. Lawson"
+			    name = "Джеймс Р. Лоусон"
 			    desc = ""
 			    picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
 			    expire = "1.1.1"
 			    ideology = authdem_republican_panafricanism_subtype
 			    traits = {}
-		    }
-	    }
-	    else_if = {
-		limit = { has_country_leader = { name = "Sufi Abdul Hamid" ruling_only = yes } }
-		create_country_leader = {
-			name = "Sufi Abdul Hamid"
-			desc = ""
-			picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
-			expire = "1.1.1"
-			ideology = authdem_republican_panafricanism_subtype
+			}
+		}
+		else_if = {
+		limit = { has_country_leader = { name = "Суфи Абдул Хамид" ruling_only = yes } }
+			create_country_leader = {
+			name = "Суфи Абдул Хамид"
+				desc = ""
+				picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
+				expire = "1.1.1"
+				ideology = authdem_republican_panafricanism_subtype
 			traits = {}
 		}
-	}
-	set_party_name = {
-		ideology = authoritarian_democrat
+			}
+			set_party_name = {
+				ideology = authoritarian_democrat
 		name = NYC_hcl_party
 		long_name = NYC_hcl_party_long
-	}
-	set_politics = {
-		ruling_party = authoritarian_democrat
-	}
-	add_popularity = {
-		ideology = authoritarian_democrat
-		popularity = 0.10
-	}
-	hidden_effect = {
-		set_country_flag = LEADER_GUI_VISIBLE
-		set_country_flag = CLAYTON_POWELL_VISIBLE
-	}
+			}
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.10
+		}
+		hidden_effect = {
+			set_country_flag = LEADER_GUI_VISIBLE
+			set_country_flag = CLAYTON_POWELL_VISIBLE
+		} 
 	}
 
 	option = { #yes but soccon
-	name = NYC_flavor.1360.c
-	if = {
+		name = NYC_flavor.1360.c
+		if = {
 		limit = {
-			has_country_leader = { name = "James R. Lawson" ruling_only = yes }
+			has_country_leader = { name = "Джеймс Р. Лоусон" ruling_only = yes }
 			has_country_flag = kimbangu_nyc
 		}
-		create_country_leader = {
-			name = "James R. Lawson"
-			desc = ""
-			picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
-			expire = "1.1.1"
+			create_country_leader = {
+			name = "Джеймс Р. Лоусон"
+				desc = ""
+				picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
+				expire = "1.1.1"
 			ideology = soccon_kimbanguism_subtype
 			traits = {}
-		}
+			}
 	}
 	else_if = {
 		limit = {
-			has_country_leader = { name = "James R. Lawson" ruling_only = yes }
+			has_country_leader = { name = "Джеймс Р. Лоусон" ruling_only = yes }
 		}
 		create_country_leader = {
-			name = "James R. Lawson"
+			name = "Джеймс Р. Лоусон"
 			desc = ""
 			picture = "gfx/leaders/NYC/Portrait_NYC_James_R_Lawson.png"
 			expire = "1.1.1"
 			ideology = soccon_republican_panafricanism_subtype
 			traits = {}
+			}
 		}
-	}
-	else_if = {
-		limit = { has_country_leader = { name = "Sufi Abdul Hamid" ruling_only = yes } }
-		create_country_leader = {
-			name = "Sufi Abdul Hamid"
-			desc = ""
-			picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
-			expire = "1.1.1"
-			ideology = soccon_republican_panafricanism_subtype
+		else_if = {
+		limit = { has_country_leader = { name = "Суфи Абдул Хамид" ruling_only = yes } }
+			create_country_leader = {
+			name = "Суфи Абдул Хамид"
+				desc = ""
+				picture = "gfx/leaders/NYC/Portrait_NYC_Sufi_Abdul_Hamid.png"
+				expire = "1.1.1"
+				ideology = soccon_republican_panafricanism_subtype
 			traits = {}
 		}
-	}
-	set_party_name = {
-		ideology = social_conservative
+			}
+			set_party_name = {
+				ideology = social_conservative
 		name = NYC_hcl_party
 		long_name = NYC_hcl_party_long
+			}
+			set_politics = {
+				ruling_party = social_conservative
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.10
+		}
+		hidden_effect = {
+			set_country_flag = LEADER_GUI_VISIBLE
+			set_country_flag = CLAYTON_POWELL_VISIBLE
+		} 
 	}
-	set_politics = {
-		ruling_party = social_conservative
-	}
-	add_popularity = {
-		ideology = social_conservative
-		popularity = 0.10
-	}
-	hidden_effect = {
-		set_country_flag = LEADER_GUI_VISIBLE
-		set_country_flag = CLAYTON_POWELL_VISIBLE
-	}
-}
 		
 }
 country_event = { #crakkkas leaving
@@ -9018,15 +9018,15 @@ country_event = { #sun ra sneaks his way into yet another path
 		date < 1940.1.1
 		OR = {
 			has_country_leader = {
-				name = "Ira Kemp"
+				name = "Айра Кемп"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Sufi Abdul Hamid"
+				name = "Суфи Абдул Хамид"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "James R. Lawson"
+				name = "Джеймс Р. Лоусон"
 				ruling_only = yes
 			}
 		}
@@ -9081,11 +9081,11 @@ country_event = { #sun ra sneaks his way into yet another path
 		}
 	}
 	option = { #good riddance
-	name = NYC_flavor.1362.e
+		name = NYC_flavor.1362.e
 	if = {
 		limit = { has_country_flag = kimbangu_nyc }
 		create_country_leader = {
-			name = "Herman Poole Blount"
+			name = "Герман Пул Блаунт"
 			desc = ""
 			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 			expire = "1.1.1"
@@ -9095,7 +9095,7 @@ country_event = { #sun ra sneaks his way into yet another path
 	}
 	else = {
 		create_country_leader = {
-			name = "Herman Poole Blount"
+			name = "Герман Пул Блаунт"
 			desc = ""
 			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 			expire = "1.1.1"
@@ -9105,28 +9105,28 @@ country_event = { #sun ra sneaks his way into yet another path
 	}
 
 	create_country_leader = {
-		name = "Herman Poole Blount"
-		desc = ""
-		picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
-		expire = "1.1.1"
-		ideology = natpop_right_panafricanism_subtype
+		name = "Герман Пул Блаунт"
+			desc = ""
+			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
+			expire = "1.1.1"
+			ideology = natpop_right_panafricanism_subtype
 		traits = { the_hearld_neutral }
-	}
+		}
 
-	create_country_leader = {
-		name = "Herman Poole Blount"
-		desc = ""
-		picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
-		expire = "1.1.1"
-		ideology = tot_right_panafricanism_subtype
+		create_country_leader = {
+		name = "Герман Пул Блаунт"
+			desc = ""
+			picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
+			expire = "1.1.1"
+			ideology = tot_right_panafricanism_subtype
 		traits = { the_hearld_neutral }
-	}
+		}
 
-	hidden_effect = {
+		hidden_effect = {
 		if = {
 			limit = { has_country_flag = kimbangu_nyc }
 			create_country_leader = {
-				name = "Herman Poole Blount"
+				name = "Герман Пул Блаунт"
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 				expire = "1.1.1"
@@ -9136,7 +9136,7 @@ country_event = { #sun ra sneaks his way into yet another path
 		}
 		else = {
 			create_country_leader = {
-				name = "Herman Poole Blount"
+				name = "Герман Пул Блаунт"
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 				expire = "1.1.1"
@@ -9148,7 +9148,7 @@ country_event = { #sun ra sneaks his way into yet another path
 		if = {
 			limit = { has_country_flag = kimbangu_nyc }
 			create_country_leader = {
-				name = "Herman Poole Blount"
+				name = "Герман Пул Блаунт"
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 				expire = "1.1.1"
@@ -9158,16 +9158,16 @@ country_event = { #sun ra sneaks his way into yet another path
 		}
 		else = {
 			create_country_leader = {
-				name = "Herman Poole Blount"
+				name = "Герман Пул Блаунт"
 				desc = ""
 				picture = "gfx/leaders/BBR/Portrait_BBR_Herman_Poole_Blount.png"
 				expire = "1.1.1"
 				ideology = soccon_republican_panafricanism_subtype
 				traits = { the_hearld_neutral }
 			}
+			}
 		}
 	}
-}
 }
 country_event = { #black to africa
 	id = NYC_flavor.1363
@@ -9321,7 +9321,7 @@ country_event = { #deal with the devil
 					name = NEE_Nordic_League_party 
 				}
 				create_country_leader = {
-					name = "Lothrop Stoddard"
+					name = "Лотроп Стоддард"
 					desc = "POLITICS_LOTHROP_STODDARD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Lothrop_Stoddard.png"
 					expire = "1.1.1"
@@ -9384,7 +9384,7 @@ country_event = { #annexing bbr
 	}
 	option = { #wholesome
 		name = NYC_flavor.1366.b
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_regional   
 				name = faction_african_association
 				icon = GFX_faction_generic_pan_african
@@ -9464,7 +9464,7 @@ country_event = { #Fate of America
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Amiru Al-Mu-Minin Sufi Abdul Hamid"
+					name = "Амиру аль-Му-Минин Суфи Абдул Хамид"
 					ruling_only = yes
 				}
 			}
@@ -9473,7 +9473,7 @@ country_event = { #Fate of America
 		else_if = {
 			limit = {
 				has_country_leader = {
-					name = "Bishop Conshankin"
+					name = "Епископ Коншенкин"
 					ruling_only = yes
 				}
 			}
@@ -10015,7 +10015,7 @@ country_event = { #CF Leadership
 			}
 		}
 		create_country_leader = {
-			name = "Joe McWilliams"
+			name = "Джо МакВильямс"
 			desc = "POLITICS_MCWILLIAMS_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Joe_McWilliams.png"
 			expire = "1.1.1"
@@ -10043,7 +10043,7 @@ country_event = { #CF Leadership
 			}
 		}
 		create_country_leader = {
-			name = "Thomas Edmund Molloy"
+			name = "Томас Эдмунд Моллой"
 			desc = "POLITICS_MOLLOY_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Thomas_Edmund_Molloy.png"
 			expire = "1.1.1"
@@ -10071,7 +10071,7 @@ country_event = { #CF Leadership
 			}
 		}
 		create_country_leader = {
-			name = "Generoso Pope"
+			name = "Генеросо Поуп"
 			desc = "POLITICS_GENEROSO_POPE_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Generoso_Pope.png"
 			expire = "1.1.1"
@@ -10104,7 +10104,7 @@ country_event = { #Tommilson (Shared)
 	option = { #Flavour
 		name = NYC_flavor.263.b
 		create_country_leader = {
-			name = "Homer Aubrey Tomlinson"
+			name = "Гомер Обри Томлинсон"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Homer_Aubrey_Tomlinson.png"
 			expire = "1.1.1"
 			ideology = fundementalism_subtype
@@ -10127,7 +10127,7 @@ country_event = { #Tommilson (Shared)
 			}
 		}
 		create_country_leader = {
-			name = "Homer Aubrey Tomlinson"
+			name = "Гомер Обри Томлинсон"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Homer_Aubrey_Tomlinson.png"
 			expire = "1.1.1"
 			ideology = fundementalism_subtype
@@ -10375,7 +10375,7 @@ country_event = { #Rejoin America - TEX Wins
 		tag = NYC
 		NOT = {
 			has_country_leader = {
-				name = "Joe McWilliams"
+				name = "Джо МакВильямс"
 				ruling_only = yes
 			}
 		}
@@ -10514,9 +10514,9 @@ country_event = { #New Italy Moment (Pope Specific)
 	option = { #Name Change 
 		name = NYC_flavor.276.a
 		set_cosmetic_tag = NYC_NEW_ITALY
-		set_province_name = { id = 3878 name = "Nuova Roma"}
+		set_province_name = { id = 3878 name = "Новый Рим"}
 		if = {
-			limit = { has_country_leader = { name = "Generoso Pope" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Генеросо Поуп" ruling_only = yes } }
 			set_country_leader_portrait = { portrait = "gfx/leaders/NYC/Portrait_NYC_Generoso_Pope_Duce.png" }
 		}
 	}
@@ -10797,7 +10797,7 @@ country_event = { #Italy Reclaimed
 			ITA = {
 			set_capital = { state = 2 }
 			create_country_leader = {
-				name = "Luigi Federzoni"
+				name = "Луиджи Федерцони"
 				desc = ""
 				picture = "gfx/leaders/ITA/Portrait_ITA_Luigi_Federzoni.png"
 				expire = "1.1.1"
@@ -10898,7 +10898,7 @@ country_event = { #Italy Reclaimed
 			set_country_flag = LEADER_GUI_VISIBLE
 			set_capital = { state = 2 }
 			create_country_leader = {
-				name = "Victor Emmanuel III"
+				name = "Виктор Эммануил III"
 				desc = ""
 				picture = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.png"
 				expire = "1.1.1"
@@ -10969,7 +10969,7 @@ country_event = { #Italy Reclaimed
 		}
 	}
 	
-	option = { #Install Julius IV
+	option = { #Install Юлий IV
 		name = NYC_flavor.286.c
 		trigger = {
 		NOT = {
@@ -11005,7 +11005,7 @@ country_event = { #Italy Reclaimed
 		}
 			PAP = {
 			create_country_leader = {
-			name = "Julius IV"
+			name = "Юлий IV"
 			picture = "gfx/leaders/PAP/Portrait_Papal_State_Julius.png"
 			desc = "POLITICS_JULIUS_IV_DESC"
 			expire = "1.1.1"
@@ -11107,7 +11107,7 @@ country_event = { #Italy Reclaimed
 		}
 			PAP = {
 			create_country_leader = {
-				name = "Pius XII"
+				name = "Пий XII"
 			   	picture = "gfx/leaders/NFA/Portrait_NFA_Marcel_Lefebvre_white.png"
 				desc = "POLITICS_MARCEL_LEFEBVRE_DESC"
 			 	expire = "1.1.1"
@@ -11211,7 +11211,7 @@ country_event = { #Italy Reclaimed
 		}
 			PAP = {
 			create_country_leader = {
-				name = "Clement XV"
+				name = "Климент XV"
 			   	picture = "gfx/leaders/TEX/Portrait_TEX_Charles_Coughlin_Pope.png"
 				desc = ""
 			 	expire = "1.1.1"
@@ -11327,7 +11327,7 @@ country_event = { #Rejoin America - TEX Wins
 		}
 		tag = NYC
 		has_country_leader = {
-			name = "Joe McWilliams"
+			name = "Джо МакВильямс"
 			ruling_only = yes
 		}
 	}
@@ -11761,12 +11761,12 @@ country_event = { #Return of the Upstate
 			if = {
 				limit = {
 					OR = {
-						has_country_leader = { ruling_only = yes name = "Lucky Luciano"}
-						has_country_leader = { ruling_only = yes name = "Bugsy Siegel"}
-						has_country_leader = { ruling_only = yes name = "Meyer Lansky"}
-						has_country_leader = { ruling_only = yes name = "Casper Holstein"}
-						has_country_leader = { ruling_only = yes name = "Stephanie St. Clair"}
-						has_country_leader = { ruling_only = yes name = "Bumpy Johnson" }
+						has_country_leader = { ruling_only = yes name = "Чарльз Лучано"}
+						has_country_leader = { ruling_only = yes name = "Багси Сигел"}
+						has_country_leader = { ruling_only = yes name = "Мейер Лански"}
+						has_country_leader = { ruling_only = yes name = "Каспер Гольштейн"}
+						has_country_leader = { ruling_only = yes name = "Стефани Сент-Клер"}
+						has_country_leader = { ruling_only = yes name = "Бампи Джонсон" }
 					}
 				}
 				country_event = {
@@ -12174,7 +12174,7 @@ country_event = { #Child Soldiers
 }
 
 
-country_event = { #Frank Sinatra
+country_event = { #Фрэнк Синатра
 	id = NYC_flavor.41
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.41"}
 	title = NYC_flavor.41.t
@@ -12187,7 +12187,7 @@ country_event = { #Frank Sinatra
 	option = { name = NYC_flavor.41.a }#Flavour
 }
 
-country_event = { #Frank Sinatra #2
+country_event = { #Фрэнк Синатра #2
 	id = NYC_flavor.42
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.42"}
 	title = NYC_flavor.42.t
@@ -12201,7 +12201,7 @@ country_event = { #Frank Sinatra #2
 		name = NYC_flavor.42.a
 		add_stability = 0.02
 		create_corps_commander = {
-			name = "Frank Sinatra "
+			name = "Фрэнк Синатра "
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Frank_Sinatra.png"
 			traits = {
 				politically_connected
@@ -12222,7 +12222,7 @@ country_event = { #Frank Sinatra #2
 	}
 }
 
-country_event = { #Frank Sinatra #3
+country_event = { #Фрэнк Синатра #3
 	id = NYC_flavor.43
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.43"}
 	title = NYC_flavor.43.t
@@ -12265,7 +12265,7 @@ country_event = { #Day at the Opera
 	}
 }
 
-country_event = { #Robert Moses
+country_event = { #Роберт Мозес
 	id = NYC_flavor.46
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.46"}
 	title = NYC_flavor.46.t
@@ -12330,7 +12330,7 @@ country_event = { #New Minds
 				NOT = { has_tech = atomic_research }
 				NOT = { is_researching_technology = atomic_research }
 			}
-			add_tech_bonus = {
+		add_tech_bonus = {
 				name = SRI_fermis_nuclear_research
 				ahead_reduction = 1
 				bonus = 0.5
@@ -12385,20 +12385,20 @@ country_event = { #Fate of the SS Bokanowski
 				limit = {
 					NOT = { 
 						has_country_leader = {
-							name = "Lucky Luciano"
+							name = "Лаки Лучано"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Meyer Lansky"
+							name = "Мейер Лански"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Bugsy Siegel"
+							name = "Багси Сигел"
 							ruling_only = yes
 						}
 					}
 				}
-				country_event = {
+			country_event = {
 				id = NYC_flavor.51
 				days = 43
 				}
@@ -12463,7 +12463,7 @@ country_event = { #Long Island Pissed
 		}
 		if = {
 			limit = {
-				has_country_leader = { name = "Fred Trump" ruling_only = yes }
+				has_country_leader = { name = "Фред Трамп" ruling_only = yes }
 				has_government = market_liberal
 			}
 			country_event = {
@@ -12612,7 +12612,7 @@ country_event = { #Halsey returns
 	option = { #Flavour
 		name = NYC_flavor.58.a
 		create_navy_leader = {
-			name = "William Halsey Jr."
+			name = "Уильям Холси мл."
 			portrait_path = "gfx/leaders/USA/Portrait_USA_William_Halsey_Jr_KR.png"
 			traits = {
 				superior_tactician
@@ -12757,7 +12757,7 @@ country_event = { #FDR
 		}
 		trigger = {
 			has_country_leader = {
-				name = "John Steinbeck"
+				name = "Джон Стейнбек"
 				ruling_only = yes
 			}
 		}
@@ -12771,7 +12771,7 @@ country_event = { #FDR
 	}	
 }
 
-country_event = { #Mosley Sends Aid
+country_event = { #Мосли Sends Aid
 	id = NYC_flavor.640
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.640"}
 	title = NYC_flavor.640.t
@@ -12986,7 +12986,7 @@ country_event = { #FDR Jr Marches
 	}	
 }
 
-country_event = { #Wholesome Mosley
+country_event = { #Wholesome Мосли
 	id = NYC_flavor.643
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.643"}
 	title = NYC_flavor.643.t
@@ -13142,7 +13142,7 @@ country_event = { #All in the Family
 	trigger = {
 		tag = NYC
 		has_completed_focus = NYC_red_roosevelt
-		has_country_leader = { name = "Franklin D. Roosevelt Jr." ruling_only = yes }
+		has_country_leader = { name = "Франклин Д. Рузвельт мл." ruling_only = yes }
 		owns_state = 796
 	}
 
@@ -13181,7 +13181,7 @@ country_event = { #New York Blackshirts
 	option = { #Flavour
 		name = NYC_flavor.654.b
 		if = {
-			limit = { has_country_leader = { name = "Franklin D. Roosevelt Jr." ruling_only = yes } }
+			limit = { has_country_leader = { name = "Франклин Д. Рузвельт мл." ruling_only = yes } }
 			set_country_leader_portrait = { portrait = "gfx/leaders/NYC/Portrait_NYC_Franklin_Delano_Roosevelt_Jr_Blackshirt.png" }
 		}
 		set_country_flag = NYC_BLACKSHIRT
@@ -13216,7 +13216,7 @@ country_event = { #An Outcome for the Oyster Bay Clan
 		name = NYC_flavor.655.e
 		add_political_power = -100
 		create_corps_commander = {#
-			name = "Theodore Roosevelt Jr."
+			name = "Теодор Рузвельт мл."
 			portrait_path = "gfx/leaders/AML/Portrait_AML_Theodore_Roosevelt_Jr.png"
 			traits = {
 				trait_reckless
@@ -13230,7 +13230,7 @@ country_event = { #An Outcome for the Oyster Bay Clan
 			logistics_skill = 1
 		}
 		create_corps_commander = {#
-			name = "Archibald Bulloch Roosevelt"
+			name = "Арчибальд Буллок Рузвельт"
 			portrait_path = "gfx/leaders/WCC/Portrait_WCC_Archibald_Bulloch_Roosevelt.png"
 			traits = {
 				infantry_officer
@@ -13243,7 +13243,7 @@ country_event = { #An Outcome for the Oyster Bay Clan
 			logistics_skill = 2
 		}
 		create_corps_commander = {#
-			name = "Kermit Roosevelt"
+			name = "Кермит Рузвельт"
 			portrait_path = "gfx/leaders/AML/Portrait_AML_Kermit_Roosevelt.png"
 			traits = {
 				commando
@@ -13256,7 +13256,7 @@ country_event = { #An Outcome for the Oyster Bay Clan
 			logistics_skill = 3
 		}
 		create_corps_commander = {#
-			name = "Quentin Roosevelt"
+			name = "Квентин Рузвельт"
 			portrait_path = "gfx/leaders/USA/Portrait_USA_quentin_roosevelt.png"
 			traits = {
 			politically_connected
@@ -13268,7 +13268,7 @@ country_event = { #An Outcome for the Oyster Bay Clan
 			logistics_skill = 1
 		}
 		create_corps_commander = {#
-			name = "Quentin Roosevelt II"
+			name = "Квентин Рузвельт II"
 			portrait_path = "gfx/leaders/USA/Portrait_USA_quentin_roosevelt_II.png"
 			traits = {
 			politically_connected
@@ -13295,7 +13295,7 @@ country_event = { #New Democrats
 	option = { #Flavour
 		name = NYC_flavor.65.a
 		create_country_leader = {
-			name = "Adam Clayton Powell Jr."
+			name = "Адам Клэйтон Пауэлл"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Adam_Clayton_Powell_Jr.png"
 			expire = "1.1.1"
 			ideology = conservative_populism_subtype
@@ -13760,7 +13760,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.b
 		create_country_leader = {
-			name = "Morris Hillquit"	
+			name = "Моррис Хилквит"	
 			picture = "gfx/leaders/CSA/Portrait_CSA_Morris_Hillquit.png"
 			expire = "1.1.1"
 			ideology = radsoc_popcom_subtype
@@ -13778,7 +13778,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.c
 		create_country_leader = {
-			name = "Meyer London"
+			name = "Мейер Лондон"
 			desc = "POLITICS_MEYER_LONDON_DESC"
 			picture = "gfx/leaders/CSA/Portrait_CSA_Meyer_London.png"
 			expire = "1.1.1"
@@ -13797,7 +13797,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.e
 		create_country_leader = {
-			name = "August Claessens"
+			name = "Август Клессенс"
 			picture = "gfx/leaders/NYC/Portrait_NYC_August_Claessens.png"
 			expire = "1.1.1"
 			ideology = radsoc_revisionist_marxism_subtype 
@@ -13815,7 +13815,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.f
 		create_country_leader = {
-			name = "Vito Marcantonio"
+			name = "Вито Маркантонио"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Vito_Marcantonio.png"
 			expire = "1.1.1"
 			ideology = radical_progressivism_subtype
@@ -13833,7 +13833,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.g
 		create_country_leader = {
-			name = "Samuel Dashiell Hammett"
+			name = "Дэшил Хэммет"
 			picture = "gfx/leaders/CGL/Portrait_CGL_Samuel_Dashiell_Hammett.png"
 			expire = "1.1.1"
 			ideology = utopian_technocracy_subtype
@@ -13859,15 +13859,15 @@ country_event = { #Mobsters return
 	trigger = {
 		OR = {
 			has_country_leader = {
-				name = "Lucky Luciano"
+				name = "Чарльз Лучано"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Meyer Lansky"
+				name = "Мейер Лански"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Bugsy Siegel"
+				name = "Багси Сигел"
 				ruling_only = yes
 			}
 		}
@@ -13877,7 +13877,7 @@ country_event = { #Mobsters return
 		option = { #
 		name = NYC_flavor.81.a
 		create_field_marshal = {# 
-			name = "Calogero Vizzini"
+			name = "Калоджеро Виццини"
 			portrait_path = "gfx/leaders/SIC/Portrait_SIC_Calogero_Vizzini.png"
 			traits = {
 				politically_connected
@@ -13890,7 +13890,7 @@ country_event = { #Mobsters return
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Carlo Gambino"
+			name = "Карло Гамбино"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Carlo_Gambino.png"
 			traits = {
 				NYC_mobster
@@ -13960,7 +13960,7 @@ country_event = { #Hillquit
 	}
 }
 
-country_event = { #London
+country_event = { #Landon
 	id = NYC_flavor.85
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.83"}
 	title = NYC_flavor.85.t
@@ -14027,7 +14027,7 @@ country_event = { #big greek
 	option = { #cool
 		name = NYC_flavor.88.a
 		create_corps_commander = {
-			name = "William 'Big Bill' Lias"
+			name = "Уильям 'Большой Билл' Лиас"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Big_Bill_Lias.png"
 			traits = {
 				NYC_mobster
@@ -14105,7 +14105,7 @@ country_event = { #Valentine Retires
 				retire = yes
 			}
 			create_field_marshal = {# 
-				name = "Arthur William Wallander "
+				name = "Артур Уильям Валландер "
 				portrait_path = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 				traits = {
 					politically_connected
@@ -14130,7 +14130,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.a
 		create_country_leader = {
-			name = "Arthur William Wallander"
+			name = "Артур Уильям Валландер"
 			desc = "POLITICS_WALLANDER_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Arthur_William_Wallander.png"
 			expire = "1.1.1"
@@ -14142,7 +14142,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.b
 		create_country_leader = {
-			name = "John F. O'Ryan"
+			name = "Джон Ф. О'Райан"
 			picture = "gfx/leaders/NYC/Portrait_NYC_John_F_O'Ryan.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14153,7 +14153,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.c
 		create_country_leader = {
-			name = "Louis F. Costuma"
+			name = "Луис Ф. Костума"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Louis_F_Costuma.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14164,7 +14164,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.e
 		create_country_leader = {
-			name = "Samuel J. Battle"
+			name = "Сэмюэл Дж. Баттл"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Samuel_J_Battle.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14175,7 +14175,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.f
 		create_country_leader = {
-			name = "Mary A. Sullivan"
+			name = "Мэри А. Салливан"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Mary_Sullivan.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14187,7 +14187,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.g
 		create_country_leader = {
-			name = "Frank Sinatra"
+			name = "Фрэнк Синатра"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Frank_Sinatra.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14198,7 +14198,7 @@ country_event = { #Valentine Retires
 	option = { #
 		name = NYC.6.h
 		create_country_leader = {
-			name = "Charles N. Fitzgerald"
+			name = "Чарльз Н. Фицджеральд"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Charles_N_Fitzgerald.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -14356,7 +14356,7 @@ country_event = { #gang cubano
 		puppet = CUB
 		CUB = {
 			create_country_leader = {
-				name = "Fulgencio Batista"
+				name = "Фульхенсио Батиста"
 				desc = "POLITICS_FUGLENCIO_BATISTA_DESC"
 				picture = "gfx/leaders/CUB/Portrait_Cuba_Fulgencio_Batista.png"
 				expire = "1.1.1"
@@ -14506,7 +14506,7 @@ country_event = { #Mel Brooks
 		add_manpower = 2500
 		army_experience = 25
 		create_corps_commander = {
-			name = "Melvin James Kaminsky"
+			name = "Мел Брукс"
 			portrait_path = "gfx/leaders/NYC/Portrait_NYC_Melvin_Kaminsky.png"
 			traits = {  }
 			skill = 1

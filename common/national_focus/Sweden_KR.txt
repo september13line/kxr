@@ -681,7 +681,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SWE_return_of_the_king
+		id = SWE_return_of_the_king_govno
 		icon = GFX_GRE_empower_monarchy
 		cost = 5
 		relative_position_id = SWE_temporary_military_government
@@ -692,7 +692,7 @@ focus_tree = {
 			has_authoritarian_government = yes
 		}
 		select_effect = {
-			log = "[GetDateText]: [Root.GetName]: Select Focus SWE_return_of_the_king"
+			log = "[GetDateText]: [Root.GetName]: Select Focus SWE_return_of_the_king_govno"
 			country_event = { id = swe.18 days = 10 }
 		}
 
@@ -701,7 +701,7 @@ focus_tree = {
 		ai_will_do = { factor = 100 }
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SWE_return_of_the_king"
+			log = "[GetDateText]: [Root.GetName]: Focus SWE_return_of_the_king_govno"
 			country_event = swe.23
 		}
 	}
@@ -715,7 +715,7 @@ focus_tree = {
 		x = -2
 		y = 2
 
-		prerequisite = { focus = SWE_return_of_the_king }
+		prerequisite = { focus = SWE_return_of_the_king_govno }
 
 		available = {
 			has_authoritarian_government = yes
@@ -962,7 +962,7 @@ focus_tree = {
 		y = 2
 		cost = 5
 
-		prerequisite = { focus = SWE_return_of_the_king }
+		prerequisite = { focus = SWE_return_of_the_king_govno }
 		available = {
 			has_authoritarian_government = yes
 			has_country_flag = SWE_permanent_junta
@@ -1081,7 +1081,7 @@ focus_tree = {
 			}
 			NOT = {
 				has_country_leader = {
-					name = "Archibald Douglas"
+					name = "Арчибальд Дуглас"
 					ruling_only = yes
 				}
 			}
@@ -1170,11 +1170,11 @@ focus_tree = {
 			has_government = paternal_autocrat
 			NOT = {
 				has_country_leader = {
-					name = "Oscar Nygren"
+					name = "Оскар Нюгрен"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Archibald Douglas"
+					name = "Арчибальд Дуглас"
 					ruling_only = yes
 				}
 			}
@@ -1183,7 +1183,7 @@ focus_tree = {
 			has_government = paternal_autocrat
 			NOT = {
 				has_country_leader = {
-					name = "Archibald Douglas"
+					name = "Арчибальд Дуглас"
 					ruling_only = yes
 				}
 			}
@@ -1347,7 +1347,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Archibald Douglas"
+						name = "Арчибальд Дуглас"
 						ruling_only = yes
 					}
 				}

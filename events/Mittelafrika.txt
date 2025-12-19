@@ -1000,7 +1000,7 @@ country_event = { #New Colonies MAF
 	}
 }
 
-country_event = { #MAF Portugal murders mayor
+country_event = { #MAF Portugal murders Vorbeck
 	id = mittel.37
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mittel.37" }
 	title = mittel.37.t
@@ -1904,7 +1904,7 @@ country_event = { #The Corruption investigation
 		}
 		add_stability = -0.10
 		create_country_leader = {
-			name = "Reinhard Heydrich"
+			name = "Рейнхард Гейдрих"
 			desc = "POLITICS_MAF_REINHARD_HEYDRICH_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 			expire = "1.1.1"
@@ -1914,7 +1914,7 @@ country_event = { #The Corruption investigation
 			}
 		}
 		create_country_leader = {
-			name = "Reinhard Heydrich"
+			name = "Рейнхард Гейдрих"
 			desc = "POLITICS_MAF_REINHARD_HEYDRICH_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 			expire = "1.1.1"
@@ -1957,7 +1957,7 @@ country_event = { #Arrest warrant for Goering
 			popularity = 0.15
 		}
 		create_country_leader = {
-			name = "Hermann von Göring"
+			name = "Герман Геринг"
 			desc = "POLITICS_GOERING_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Goering.png"
 			expire = "1.1.1"
@@ -2301,7 +2301,7 @@ country_event = { #NKR Stathalter
 	}
 
 	option = {
-		name = mittel.55.b #Franz Ritter von Epp
+		name = mittel.55.b #Франц фон Эпп
 		ai_chance = {
 			factor = 50
 		}
@@ -2315,7 +2315,7 @@ country_event = { #NKR Stathalter
 	}
 
 	option = {
-		name = mittel.55.c #Fritz Thyssen
+		name = mittel.55.c #Фриц Тиссен
 		ai_chance = {
 			factor = 25
 		}
@@ -2327,7 +2327,7 @@ country_event = { #NKR Stathalter
 		}
 		set_country_flag = Fritz_Thyssen_dead
 	}
-	
+		
 	option = {
 		name = mittel.55.e #Karl Ritter
 		ai_chance = {
@@ -2359,7 +2359,7 @@ country_event = { #Ernst Junger
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Ernst Jünger"
+			name = "Эрнст Юнгер"
 			desc = "POLITICS_JUNGER_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Ernst_Junger.png"
 			expire = "1.1.1"
@@ -2379,7 +2379,7 @@ country_event = { #Ernst Junger
 	}
 }
 
-country_event = { #Franz Ritter von Epp
+country_event = { #Франц фон Эпп
 	id = mittel.57
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.57"}
 	title = mittel.57.t
@@ -2396,7 +2396,7 @@ country_event = { #Franz Ritter von Epp
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Franz Ritter von Epp"
+			name = "Франц фон Эпп"
 			desc = "POLITICS_VON_EPP_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			expire = "1.1.1"
@@ -2404,7 +2404,7 @@ country_event = { #Franz Ritter von Epp
 			traits = {}
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Franz Ritter von Epp" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Франц фон Эпп" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 			}
@@ -2422,7 +2422,7 @@ country_event = { #Franz Ritter von Epp
 	}
 }
 
-country_event = { #Fritz Thyssen
+country_event = { #Фриц Тиссен
 	id = mittel.58
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.58"}
 	title = mittel.58.t
@@ -2439,7 +2439,7 @@ country_event = { #Fritz Thyssen
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Fritz Thyssen"
+			name = "Фриц Тиссен"
 			desc = "POLITICS_THYSSEN_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Fritz_Thyssen.png"
 			expire = "1.1.1"
@@ -2476,7 +2476,7 @@ country_event = { #Karl Ritter
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Karl Ritter"
+			name = "Карл Риттер"
 			desc = "POLITICS_KARL_RITTER_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Karl_Ritter.png"
 			expire = "1.1.1"
@@ -2558,7 +2558,7 @@ country_event = { #DKG Stathalter
 	}
 }
 
-country_event = { #Ludwig Bockholt
+country_event = { #Людвиг Бокхольт
 	id = mittel.60
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.60"}
 	title = mittel.60.t
@@ -2575,7 +2575,7 @@ country_event = { #Ludwig Bockholt
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Ludwig Bockholt"
+			name = "Людвиг Бокхольт"
 			desc = "POLITICS_BOCKHOLT_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Ludwig_Bockholt.png"
 			expire = "1.1.1"
@@ -2596,7 +2596,7 @@ country_event = { #Ludwig Bockholt
 	}
 }
 
-country_event = { #Georg Kraut
+country_event = { #Георг Краут
 	id = mittel.61
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.61"}
 	title = mittel.61.t
@@ -2613,7 +2613,7 @@ country_event = { #Georg Kraut
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Georg Kraut"
+			name = "Георг Краут"
 			desc = "POLITICS_KRAUT_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Georg_Kraut.png"
 			expire = "1.1.1"
@@ -2634,7 +2634,7 @@ country_event = { #Georg Kraut
 	}
 }
 
-country_event = { #Rudolf Asmis
+country_event = { #Рудольф Асмис
 	id = mittel.62
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.62"}
 	title = mittel.62.t
@@ -2651,7 +2651,7 @@ country_event = { #Rudolf Asmis
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Rudolf Asmis"
+			name = "Рудольф Асмис"
 			desc = "POLITICS_ASMIS_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Rudolf_Asmis.png"
 			expire = "1.1.1"
@@ -2689,7 +2689,7 @@ country_event = { #Fritz Kolbe
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Fritz Kolbe"
+			name = "Фриц Кольбе"
 			desc = "POLITICS_FRITZ_KOLBE_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Fritz_Kolbe.png"
 			expire = "1.1.1"
@@ -2731,7 +2731,7 @@ country_event = { #Reform Stathalter
 	}
 }
 
-country_event = { #Lettow-Vorbeck Gang
+country_event = { #Vorbeck Gang
 	id = mittel.64
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.64"}
 	title = mittel.64.t
@@ -2748,7 +2748,7 @@ country_event = { #Lettow-Vorbeck Gang
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Hans Albert von Lettow-Vorbeck"
+			name = "Ганс Альберт фон Леттов-Ворбек"
 			desc = "POLITICS_HANS_ALBERT_DESC"
 			picture =  "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Albert_Vorbeck.png"
 			expire = "1.1.1"
@@ -2888,7 +2888,7 @@ country_event = { #Britlands
 					popularity = 0.5
 				}
 				create_country_leader = {
-					name = "Edward Twining"
+					name = "Эдвард Твайнинг"
 					desc = "POLITICS_TWINNING_DESC"
 					picture = "gfx/leaders/NGR/Portrait_Nigeria_Edward_Twinning.png"
 					expire = "1.1.1"
@@ -2914,7 +2914,7 @@ country_event = { #Britlands
 					popularity = 0.5
 				}
 				create_country_leader = {
-					name = "Rea Leaky"
+					name = "Ри Лики"
 					desc = "POLITICS_LEAKY_DESC"
 					picture = "gfx/leaders/Ken/Portrait_Kenya_Rea_Leaky.png"
 					expire = "1.1.1"
@@ -3875,7 +3875,7 @@ id = mittel.102
 				is_ai = yes
 			}
 			has_country_leader = {
-				name = "Hermann von Göring"
+				name = "Герман Геринг"
 				ruling_only = yes
 			}
 			GER = {
@@ -4013,11 +4013,11 @@ id = mittel.102
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "Hermann von Göring"
+							name = "Герман Геринг"
 						}
 					}
 					create_country_leader = {
-						name = "Franz Ritter von Epp"
+						name = "Франц фон Эпп"
 						desc = "POLITICS_VON_EPP_DESC"
 						picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 						expire = "1.1.1"
@@ -4025,7 +4025,7 @@ id = mittel.102
 						traits = {}
 					}
 					if = {	
-						limit = { has_country_leader = { name = "Franz Ritter von Epp" ruling_only = yes } }
+						limit = { has_country_leader = { name = "Франц фон Эпп" ruling_only = yes } }
 						set_country_leader_portrait = {
 							portrait = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 						}
@@ -4134,7 +4134,7 @@ id = mittel.1002
 						load_oob = "TZN"
 						load_oob = "TZN_naval"
 						 create_country_leader = {
-							name = "Mohamed Husen"
+							name = "Мохамед Хусен"
 							desc = "POLITICS_HUSAN_DESC"
 							picture = "gfx/leaders/TZN/Portrait_TZN_Muhamed_Husan.png"
 							expire = "1.1.1"
@@ -4427,7 +4427,7 @@ country_event = { ###New Parties
 			name = MAF_DEM_paternal_autocrat_party
 		}
 		create_country_leader = {
-			name = "Heinrich Kirchheim"
+			name = "Генрих Кирххайм"
 			desc = "POLITICS_KIRCHHEIM_DESC"
 			picture = "gfx/leaders/NMB/Portrait_NMB_Heinrich_Kircheim.png"
 			expire = "1.1.1"
@@ -4440,7 +4440,7 @@ country_event = { ###New Parties
 			name = MAF_DEM_authoritarian_democrat_party
 		}
 		create_country_leader = {
-			name = "Hans Frank"
+			name = "Ганс Франк"
 			desc = "POLITICS_FRANK_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hans_Frank_Suit.png"
 			expire = "1.1.1"
@@ -4511,7 +4511,7 @@ country_event = { ###Reformgruppe Split
 			name = MAF_DEM_social_liberal_party
 		}
 		create_country_leader = {
-			name = "Theodor von Hassel"
+			name = "Теодор фон Хассель"
 			desc = "POLITICS_HASSEL_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Theodor_von_Hassel.png"
 			expire = "1.1.1"
@@ -4736,7 +4736,7 @@ country_event = { ###Asmis Appointed
 	option = {
 		name = mittel.115.a
 		create_country_leader = {
-			name = "Rudolf Asmis"
+			name = "Рудольф Асмис"
 			desc = "POLITICS_ASMIS_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Rudolf_Asmis.png"
 			expire = "1.1.1"
@@ -5004,7 +5004,7 @@ country_event = { ###Theodor appointed
 	}
 }
 
-country_event = { ###Bücher appointed
+country_event = { ###Rathenau appointed
 	id = mittel.122
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mittel.122"}
 	title = mittel.122.t
@@ -5022,7 +5022,7 @@ country_event = { ###Bücher appointed
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Hermann Bücher"
+			name = "Герман Бюхер"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Bucher.png"
 			expire = "1.1.1"
 			ideology = marlib_colonial_govt_subtype
@@ -5640,7 +5640,7 @@ country_event = { #####Amadawa Revolt
 					
 			### Leader
 			create_country_leader = {
-				name = "Joseph Bile"
+				name = "Джозеф Биле"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Joseph_Bile.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
@@ -5648,7 +5648,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Ruben Um Nyobè"
+				name = "Рубен Ум Ниобе"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Ruben_Um_Nyobe.png"
 				expire = "1.1.1"
 				ideology = syndicalist_subtype
@@ -5656,7 +5656,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Ruben Um Nyobè"
+				name = "Рубен Ум Ниобе"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Ruben_Um_Nyobe.png"
 				expire = "1.1.1"
 				ideology = moderate_socialist_subtype
@@ -5664,7 +5664,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Ruben Um Nyobè"
+				name = "Рубен Ум Ниобе"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Ruben_Um_Nyobe.png"
 				expire = "1.1.1"
 				ideology = socdem_democratic_socialism_subtype
@@ -5672,7 +5672,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Salomon Tandeng Muna"
+				name = "Саломон Танденг Муна"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Salomon_Tandeng_Muna.png"
 				expire = "1.1.1"
 				ideology = national_liberalism_subtype
@@ -5680,7 +5680,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Salomon Tandeng Muna"
+				name = "Саломон Танденг Муна"
 				picture = "gfx/leaders/CMR/Portrait_CMR_Salomon_Tandeng_Muna.png"
 				expire = "1.1.1"
 				ideology = marlib_national_liberalism_subtype
@@ -5688,7 +5688,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Alexander Douala Manga Bell"
+				name = "Александр Дуала Белл"
 				desc = "POLITICS_DUALABELL_KAM_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Alexander_Duala_Manga_Bell.png"
 				expire = "1.1.1"
@@ -5697,7 +5697,7 @@ country_event = { #####Amadawa Revolt
 			}
 
 			create_country_leader = {
-				name = "Carl Heinrich Zimmermann"
+				name = "Карл Генрих Циммерман"
 				desc = "POLITICS_CHARLES_KAM_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Carl_Heinrich_Zimmerman.png"
 				expire = "1.1.1"
@@ -6125,8 +6125,8 @@ country_event = {
 		tag = MAF
 		has_global_flag = MAF_POR_border_war
 		OR = {
-			NOT = {
-				has_war_with = POR
+		NOT = {
+			has_war_with = POR
 			}
 			POR = { exists = no }
 		}
@@ -6674,9 +6674,9 @@ country_event = { #Big Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -6737,9 +6737,9 @@ country_event = { #Big Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -6800,9 +6800,9 @@ country_event = { #Ostafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -6851,9 +6851,9 @@ country_event = { #Ostafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -6902,9 +6902,9 @@ country_event = { #Ostafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -6965,9 +6965,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7016,9 +7016,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7067,9 +7067,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7118,9 +7118,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7170,9 +7170,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7222,9 +7222,9 @@ country_event = { #Zentralafrika Collapse Event
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7354,7 +7354,7 @@ id = mittel.187
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "DOAG Board of Directors"
+			name = "DOAG Совет директоров"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_DOAG.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -7449,7 +7449,7 @@ id = mittel.187
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "DOAG Board of Directors"
+			name = "DOAG Совет директоров"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_DOAG.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -7535,9 +7535,9 @@ country_event = { #Big Collapse Event Goering fucked up bad edition
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7598,9 +7598,9 @@ country_event = { #Big Collapse Event Goering fucked up bad edition
 				limit = {
 					country_exists = NFA
 					DAH = { is_subject = no }
-				}
-				NFA = {
-					country_event = dah.8
+			}
+			NFA = {
+				country_event = dah.8
 				}
 			}
 		}
@@ -7623,12 +7623,12 @@ country_event = { #Big Collapse Event Goering fucked up bad edition
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "DOAG Board of Directors"
+					name = "DOAG Совет директоров"
 					ruling_only = yes
 				}
 			}
 			create_country_leader = {
-				name = "Franz Ritter von Epp"
+				name = "Франц фон Эпп"
 				desc = "POLITICS_VON_EPP_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 				expire = "1.1.1"
@@ -7636,7 +7636,7 @@ country_event = { #Big Collapse Event Goering fucked up bad edition
 				traits = {}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Franz Ritter von Epp" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Франц фон Эпп" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/MAF/Portrait_Mittelafrika_Franz_Ritter_von_Epp.png"
 				}
@@ -7860,7 +7860,7 @@ country_event = { #
 		}
 		add_ideas = MAF_Reinhard_Heydrich_hog_npo
 		create_country_leader = {
-			name = "Hermann von Göring"
+			name = "Герман Геринг"
 			desc = "POLITICS_GOERING_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Goering_Governor.png"
 			expire = "1.1.1"
@@ -7919,7 +7919,7 @@ country_event = { ###Goering becoming King of Afrika
 		set_cosmetic_tag = AFK
 		hidden_effect = {
 			create_country_leader = {
-				name = "Hermann I"
+				name = "Герман I"
 				desc = "POLITICS_GOERING_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_King_Goering.png"
 				expire = "1.1.1"
@@ -7930,7 +7930,7 @@ country_event = { ###Goering becoming King of Afrika
 	}
 }
 
-country_event = { #Erwin Rommel
+country_event = { #Эрвин Роммель
 	id = mittel.1189
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mittel.189" }
 	title = mittel.1189.t
@@ -7947,7 +7947,7 @@ country_event = { #Erwin Rommel
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Erwin Rommel"
+			name = "Эрвин Роммель"
 			desc = "POLITICS_ROMMEL_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Erwin_Rommel_kr.png"
 			expire = "1.1.1"
@@ -8244,7 +8244,7 @@ country_event = { #Solf Dies
 		log = "[GetDateText]: [Root.GetName]: event mittelpolitic.7" 
 		hidden_effect = {
 			create_country_leader = {
-				name = "Heinrich Schnee"
+				name = "Генрих Шнее"
 				desc = "POLITICS_SCHNEE_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Heinrich_Schnee.png"
 				expire = "1.1.1"
@@ -8272,7 +8272,7 @@ country_event = { #Solf Dies
 		}
 		add_ideas = MAF_Reinhard_Heydrich_hog_npo
 		create_country_leader = {
-			name = "Hermann von Göring"
+			name = "Герман Геринг"
 			desc = "POLITICS_GOERING_DESC"
 			picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Hermann_Goering_Governor.png"
 			expire = "1.1.1"
@@ -8756,7 +8756,7 @@ country_event = { #maf is doing stuff
 				popularity = 0.3
 			}
 			create_country_leader = {
-				name = "Josef Terboven"
+				name = "Йозеф Тербовен"
 				desc = "POLITICS_TERBOVEN_DESC"
 				picture = "gfx/leaders/NGR/Portrait_NGR_Josef_Terboven.png"
 				expire = "1.1.1"
@@ -8793,7 +8793,7 @@ country_event = { #maf is doing stuff
 				popularity = 0.3
 			}
 			create_country_leader = {
-				name = "Rudolf Hess"
+				name = "Рудольф Гесс"
 				desc = "POLITICS_RUDOLF_HESS_DESC"
 				picture = "gfx/leaders/MAF/Portrait_Kenya_Rudolf_Hess.png"
 				expire = "1.1.1"
@@ -9092,11 +9092,11 @@ country_event = { #fate of westafrika
 				NOT = {
 					OR = {
 						has_country_leader = {
-							name = "Arnold Hodson"
+							name = "Арнольд Ходсон"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Jules Brévie"
+							name = "Жюль Бреви"
 							ruling_only = yes
 						}
 					}
@@ -9114,7 +9114,7 @@ country_event = { #fate of westafrika
 			transfer_state = 1323
 			load_oob = GHA
 			create_country_leader = {
-				name = "Arnold Hodson"
+				name = "Арнольд Ходсон"
 				desc = "POLITICS_FELIX_CIV_BOIGNY_DESC"
 				picture = "gfx/leaders/CIV/CIV_Arnold_Hodson.png"
 				expire = "1.1.1"
@@ -9589,37 +9589,37 @@ country_event = { #willy 2 death
 		name = mafdeathgang.1.a
 		hidden_effect = {
 			create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = socdem_colonial_govt_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = soclib_colonial_govt_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = marlib_colonial_govt_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = soccon_prussian_constitutionalism_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = prussian_constitutionalism_subtype
 				}
 				create_country_leader = {
-					name = "Wilhelm II"
+					name = "Вильгельм II"
 					picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Wilhelm_III.png"
 					expire = "1.1.1"
 					ideology = autocratic_colonial_govt_subtype

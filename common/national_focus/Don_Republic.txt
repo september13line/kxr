@@ -1177,7 +1177,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Pyotr Krasnov"
+					name = "Пётр Краснов"
 					desc = "POLITICS_PETR_KRASNOV_DESC"
 					picture = "gfx/leaders/DKB/Portrait_DKB_Petr_Krasnov.png"
 					expire = "1.1.1"
@@ -1271,7 +1271,7 @@ focus_tree = {
 			    }
 			}
 			create_corps_commander = {
-				name = "Hans von Wolff"
+				name = "Ганс фон Вольф"
 				portrait_path = "gfx/leaders/DKB/Portrait_DKB_Hans_von_Wolff.png"
 				traits = { cavalry_officer }
 				skill = 1
@@ -1524,7 +1524,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Afrikan Bogaewsky"
+					name = "Африкан Богаевский"
 					picture = "gfx/leaders/DKB/Portrait_DKB_Bogaevskiy.png"
 					expire = "1.1.1"
 					ideology = pataut_cossack_subtype
@@ -1812,7 +1812,7 @@ focus_tree = {
 				limit = {
 					URL = { 
 						UCH_is_uch_member_tag = yes 
-						has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+						has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 					}
 				}
 				URL = {
@@ -1854,7 +1854,7 @@ focus_tree = {
 						tag = KUB
 						AND = {
 							tag = URL
-							has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+							has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 						}
 						tag = BRY
 						tag = BKN
@@ -1898,7 +1898,7 @@ focus_tree = {
 				limit = {
 					URL = { 
 						UCH_is_uch_member_tag = yes 
-						has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+						has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 					}
 				}
 				URL = {
@@ -1940,7 +1940,7 @@ focus_tree = {
 						tag = KUB
 						AND = {
 							tag = URL
-							has_country_leader = { name = "Vladimir Tolstov" ruling_only = yes }
+							has_country_leader = { name = "Владимир Толстов" ruling_only = yes }
 						}
 						tag = BRY
 						tag = BKN
@@ -3498,7 +3498,7 @@ focus = {
 			has_socialist_government = yes
 		}
 		bypass = {
-			has_country_leader = { name = "Semyon Budyonny" ruling_only = yes }
+			has_country_leader = { name = "Семён Будённый" ruling_only = yes }
 		}
 		prerequisite = {
 			focus = DKB_Council_Of_Peoples_Deputies
@@ -3693,7 +3693,7 @@ focus = {
 		}
 		completion_reward = {
 			division_template = {
-				name = "Krasnaya Gvardiya"
+				name = "Красная Гвардия"
 				division_names_group = SOV_GAR_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -3710,17 +3710,17 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3728,23 +3728,23 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 219 }
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 			}
 			division_template = {
-				name = "Gorodskaya Militsiya"
+				name = "Городская милиция"
 				division_names_group = SOV_GAR_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -3761,17 +3761,17 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3779,17 +3779,17 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 219 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3797,12 +3797,12 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 242 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3810,7 +3810,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 246 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3818,7 +3818,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 247 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3826,7 +3826,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 223 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3834,7 +3834,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 222 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3842,7 +3842,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 224 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3850,7 +3850,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 220 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3858,7 +3858,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 248 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -3866,7 +3866,7 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 252 }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = DKB
 					allow_spawning_on_enemy_provs = yes
 				}
@@ -5532,7 +5532,7 @@ focus = {
 			    }
 			}
 			create_corps_commander = {
-				name = "Hans von Wolff"
+				name = "Ганс фон Вольф"
 				portrait_path = "gfx/leaders/DKB/Portrait_DKB_Hans_von_Wolff.png"
 				traits = { cavalry_officer }
 				skill = 1
@@ -5648,7 +5648,7 @@ focus = {
 		completion_reward = {
 			add_ideas = DKB_new_patriot_idea
 			set_country_flag = DKB_germanization
-			set_province_name = { id = 9417 name = "Rostow"}
+			set_province_name = { id = 9417 name = "Ростовбург"}
 			hidden_effect = {
 				every_controlled_state = { rename_state_effect = yes }
 			}
@@ -5849,7 +5849,7 @@ focus = {
 				add_claim_by = ROOT
 			}
 			unlock_decision_tooltip = DKU_attack_russia		
-			clear_all_relations = yes
+			clear_all_relations = yes		
 			every_other_country = { embargo_ROOT = yes }
 		}
 	}
@@ -6097,35 +6097,35 @@ focus = {
 					name = DKB_resistance_m
 				}
 				create_country_leader = {
-					name = "Stepan Petrichenko"
+					name = "Степан Петриченко"
 					picture = "gfx/leaders/RUS/Portrait_SOV_Stepan_Petrichenko.png"
 					expire = "1.1.1"
 					ideology = radical_socialist_subtype
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Vasily Chuikov"
+					name = "Василий Чуйков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Chuikov.png"
 					expire = "1.1.1"
 					ideology = syndicalist_subtype
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Sergei Markov"
+					name = "Сергей Марков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Sergei_Markov.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Vasily Maklakov"
+					name = "Василий Маклаков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Vasily Maklakov"
+					name = "Василий Маклаков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
@@ -6311,15 +6311,15 @@ focus = {
 		hidden_effect = {
 		218 = {
 		create_unit = {
-			division = "name = \"1st Kosakenwache\" division_template = \"Spetsotryad Kazakov\" start_experience_factor = 1 start_equipment_factor = 1"
+			division = "name = \"1-я дивизия Козакенвахе\" division_template = \"Спецотряд Казаков\" start_experience_factor = 1 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-			division = "name = \"2nd Kosakenwache\" division_template = \"Spetsotryad Kazakov\" start_experience_factor = 1 start_equipment_factor = 1"
+			division = "name = \"2-я дивизия Козакенвахе\" division_template = \"Спецотряд Казаков\" start_experience_factor = 1 start_equipment_factor = 1"
 			owner = DKB
 			}
 			create_unit = {
-			division = "name = \"3rd Kosakenwache\" division_template = \"Spetsotryad Kazakov\" start_experience_factor = 1 start_equipment_factor = 1"
+			division = "name = \"3-я дивизия Козакенвахе\" division_template = \"Спецотряд Казаков\" start_experience_factor = 1 start_equipment_factor = 1"
 			owner = DKB
 			}
 		}
@@ -6949,7 +6949,7 @@ focus = {
 		x = -2
 		y = 1
 		completion_reward = {
-			set_province_name = { id = 3529 name = "Wolgaburg"}
+			set_province_name = { id = 3529 name = "Волгабург"}
 			swap_ideas = {
 				remove_idea = DKB_admin_strain
 				add_idea = DKB_admin_strain_1
@@ -6959,7 +6959,7 @@ focus = {
 			hidden_effect = {
 				every_controlled_state = { rename_state_effect = yes }
 				create_country_leader = {
-					name = "Konrad Hoffmann"
+					name = "Конрад Гофман"
 					picture = "gfx/leaders/DKB/Portrait_Konrad_Hoffmann.png"
 					expire = "1.1.1"
 					ideology = social_democrat_subtype
@@ -7584,8 +7584,8 @@ focus = {
 		x = 7
 		y = 6
 		completion_reward = {
-			set_province_name = { id = 6380 name = "Moskau"}
-			set_province_name = { id = 6174 name = "Sankt-Petersburg"}
+			set_province_name = { id = 6380 name = "Москау"}
+			set_province_name = { id = 6174 name = "Вильгельмбург"}
 			219 = { add_manpower = -1053 }
 			653 = { add_manpower = 1053 }
 			195 = { add_manpower = -1456 }
@@ -7623,7 +7623,7 @@ focus = {
 			hidden_effect = {
 			SIB = {
 				create_country_leader = {
-					name = "Bronislav Kaminski"
+					name = "Бронислав Каминский"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Bronislav_Kaminski.png"
 					expire = "1.1.1"
 					ideology = national_populist_subtype
@@ -8460,7 +8460,7 @@ focus = {
 				}
 			}
 			create_corps_commander = {
-				name = "Hans von Wolff"
+				name = "Ганс фон Вольф"
 				portrait_path = "gfx/leaders/DKB/Portrait_DKB_Hans_von_Wolff.png"
 				traits = { cavalry_officer }
 				skill = 1
@@ -8681,7 +8681,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus DKB_Appoint_Maltsev"
 			air_experience = 50 
 			create_corps_commander = {
-				name = "Viktor Maltsev"
+				name = "Виктор Мальцев"
 				portrait_path = "gfx/leaders/DKB/Portrait_DKB_Viktor_Maltsev.png"
 				traits = {
 					career_officer
@@ -10428,7 +10428,7 @@ focus = {
 			unlock_decision_category_tooltip = RUS_Alliance_decisions
 			if = {
 				limit = { is_faction_leader = no }
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_axis_liberated_people
 				icon = GFX_faction_axis_liberated_people
@@ -10488,7 +10488,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus DKB_Secure_Straits"
 			every_state = {
 				limit = {
-					state = 773 #Constantinople
+						state = 773 #Constantinople
 					is_claim_or_core_of_ROOT = no
 				}
 				add_claim_by = ROOT

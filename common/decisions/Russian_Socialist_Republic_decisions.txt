@@ -548,7 +548,7 @@ RUS_Alliance_decisions = {
 			if = {
 				limit = {
 					OR = {
-						has_communist_government = yes 
+					has_communist_government = yes
 						has_country_leader_ideology = socialist_security_state_subtype
 					}
 				}
@@ -772,7 +772,7 @@ RUS_Alliance_decisions = {
 				is_subject = no
 				if = {
 					limit = { tag = TRK }
-					has_country_leader = { name = "Nazir Toraqulov" ruling_only = yes }
+					has_country_leader = { name = "Назир Тюрякулов" ruling_only = yes }
 				}
 				else_if = {
 					limit = { tag = ETS }
@@ -1355,7 +1355,7 @@ SOV_politburo_decisions = {
 		priority = 91
 		visible = {
 			OR = {
-				has_country_leader = { name = "Congress of Soviets" ruling_only = yes }
+				has_country_leader = { name = "Съезд Советов" ruling_only = yes }
 				SOV_bukharin_in_power = yes
 				SOV_kosygin_in_power = yes
 				SOV_ryutin_in_power = yes
@@ -1407,7 +1407,7 @@ SOV_politburo_decisions = {
 		priority = 90
 		visible = {
 			OR = {
-				has_country_leader = { name = "Congress of Soviets" ruling_only = yes }
+				has_country_leader = { name = "Съезд Советов" ruling_only = yes }
 				SOV_zhdanov_in_power = yes
 				SOV_kuznetsov_in_power = yes
 				SOV_kosygin_in_power = yes
@@ -1527,7 +1527,7 @@ SOV_politburo_decisions = {
 				RUS_mikhail_frunze_in_power = yes
 				RUS_mikhail_tukhachevsky_in_power = yes
 				has_country_leader = {
-					name = "Aleksandr Yegorov"
+					name = "Александр Егоров"
 					ruling_only = yes
 				}	
 				custom_trigger_tooltip = {
@@ -2124,8 +2124,8 @@ SOV_politburo_decisions = {
 				SOV_has_zinoviev_resistance = no
 				NOT = { has_country_flag = SOV_rkp_in_politburo }
 				AND = {
-					SOV_hardliners_in_power = no
-					SOV_bukharin_in_power = no
+				SOV_hardliners_in_power = no
+				SOV_bukharin_in_power = no
 					SOV_kirov_in_power = no
 					SOV_kamenev_in_power = no
 					SOV_sokolnikov_in_power = no
@@ -2140,7 +2140,7 @@ SOV_politburo_decisions = {
 		days_mission_timeout = SOV_petrograd_rallies_zinovievites_timeout?80
 		
 		cancel_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision cancel SOV_petrograd_rallies_zinovievites"
+			log = "[GetDateText]: [Root.GetName]: Decision cancel SOV_petrograd_rallies_zinovievites"			
 			hidden_effect = {
 				remove_ideas = {
 					SOV_zinovievite_resistance_1
@@ -5572,7 +5572,7 @@ operations = {
 				RUS_mikhail_frunze_in_power = yes
 				RUS_mikhail_tukhachevsky_in_power = yes
 				has_country_leader = {
-					name = "Aleksandr Yegorov"
+					name = "Александр Егоров"
 					ruling_only = yes
 				}	
 				custom_trigger_tooltip = {
@@ -5692,7 +5692,7 @@ RUS_Foreign_Policy_decisions = {
 				ROOT = {
 					annex_country = { target = PREV transfer_troops = yes }
 				}
-			}
+			}			
 			hidden_effect = { annex_country = { target = NSW } }
 			every_owned_state = { add_core_of = ROOT }			
 			set_cosmetic_tag = SOV_world
@@ -6286,7 +6286,7 @@ RUS_Foreign_Policy_decisions = {
 			OR = {
 				POL = {
 					NOT = {
-						has_country_leader = { name = "Józef Unszlicht" ruling_only = yes }
+						has_country_leader = { name = "Иосиф Уншлихт" ruling_only = yes }
 					}
 				}
 				NOT = { country_exists = POL }
@@ -6329,7 +6329,7 @@ RUS_Foreign_Policy_decisions = {
 							has_socialist_government = yes
 							is_subject_of = ROOT
 							NOT = {
-								has_country_leader = { name = "Józef Unszlicht" ruling_only = yes }
+								has_country_leader = { name = "Иосиф Уншлихт" ruling_only = yes }
 							}
 						}
 					}
@@ -6337,7 +6337,7 @@ RUS_Foreign_Policy_decisions = {
 				POL = {
 					set_politics = { ruling_party = totalist }
 					create_country_leader = {
-						name = "Józef Unszlicht"
+						name = "Иосиф Уншлихт"
 						picture = "gfx/leaders/POL/Portrait_POL_Jozef_Unszlicht.png"
 						expire = "1965.1.1"
 						ideology = zinovievism_subtype

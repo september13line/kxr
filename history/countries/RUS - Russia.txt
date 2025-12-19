@@ -197,28 +197,28 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
+		
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_naval_mines = 1
-	
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_heavy_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 starting_train_buffer = 3
 
@@ -411,7 +411,7 @@ add_ai_strategy = { type = ignore_claim	id = "ORE"	value = 1 }
 add_ai_strategy = { type = ignore_claim	id = "URL"	value = 1 }
 
 create_country_leader = {
-	name = "Alexandr Kerensky"
+	name = "Александр Керенский"
 	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Alexander_Kerensky.png"
 	expire = "1.1.1"
@@ -419,7 +419,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grigory Zinoviev"
+	name = "Григорий Зиновьев"
 	desc = "POLITICS_GRIGORY_ZINOVIEV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Grigoriy_Zinoviev.png"
 	expire = "1.1.1"
@@ -428,7 +428,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maria Spiridonova"
+	name = "Мария Спиридонова"
 	desc = "POLITICS_MARIA_SPIRIDONOVA_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Maria_Spiridonova.png"
 	expire = "1.1.1"
@@ -438,7 +438,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikolay Bukharin"
+	name = "Николай Бухарин"
 	desc = POLITICS_NIKOLAI_BUKHARIN_DESC
 	picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 	expire = "1.1.1"
@@ -447,7 +447,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Irakliy Tsereteli"
+	name = "Ираклий Церетели"
 	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 	expire = "1.1.1"
@@ -456,7 +456,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pavel Milyukov"
+	name = "Павел Милюков"
 	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 	expire = "1.1.1"
@@ -465,7 +465,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dmitry Romanov"
+	name = "Дмитрий Романов"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 	expire = "1.1.1"
 	ideology = oligarchy_subtype
@@ -473,7 +473,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lavr Kornilov"
+	name = "Лавр Корнилов"
 	desc = "POLITICS_LAVR_KORNILOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Lavr_Kornilov.png"
 	expire = "1.1.1"
@@ -482,7 +482,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vasiliy Shulgin"
+	name = "Василий Шульгин"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 	expire = "1.1.1"
 	ideology = social_conservative_subtype
@@ -490,7 +490,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Boris Savinkov"
+	name = "Борис Савинков"
 	desc = "POLITICS_BORIS_SAVINKOV_DESC"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Savinkov.png"
 	expire = "1.1.1"
@@ -503,7 +503,7 @@ create_country_leader = {
 ####
 
 create_field_marshal = {
-	name = "Sergey Markov"
+	name = "Сергей Марков"
 	desc = "POLITICS_SERGEI_MARKOV_DESC"
 	id = 416
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Sergei_Markov.png"
@@ -523,7 +523,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Anton Denikin "
+	name = "Антон Деникин"
 	desc = "POLITICS_ANTON_DENIKIN_GENERAL_DESC"	
 	id = 401
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Anton_Denikin.png"
@@ -543,7 +543,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Lavr Kornilov "
+	name = "Лавр Корнилов "
 	desc = "POLITICS_LAVR_KORNILOV_GENERAL_DESC"
 	id = 402
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Lavr_Kornilov_drip.png"
@@ -565,7 +565,7 @@ create_field_marshal = {
 ### Generals ###
 
 create_corps_commander = {
-	name = "Pyotr Wrangel "
+	name = "Пётр Врангель "
 	desc = "POLITICS_PYOTR_WRANGEL_GENERAL_DESC"	
 	id = 400
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel.png"
@@ -583,7 +583,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Yevgeny Miller"
+	name = "Евгений Миллер"
 	id = 399
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Yevgeny_Miller.png"
 	traits = { RUS_denikin_officer trait_cautious }
@@ -595,7 +595,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
+	name = "Александр Василевский"
 	desc = "POLITICS_ALEKSANDR_VASILEVSKIY_DESC"
 	id = 607
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Vasilevskiy.png"
@@ -607,7 +607,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Pavel Shatilov"
+	name = "Павел Шатилов"
 	desc = "POLITICS_PAVEL_SHATILOV_DESC"	
 	id = 403
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Pavel_Shatilov.png"
@@ -626,7 +626,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mikhail Drozdovsky "
+	name = "Михаил Дроздовский "
 	desc = "POLITICS_MIKHAIL_DROZDOVSKY_GENERAL_DESC"
 	id = 405
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Drozdovsky_general.png"
@@ -644,7 +644,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Anton Turkul"
+	name = "Антон Туркул"
 	desc = "POLITICS_ANTON_TURKUL_DESC"
 	id = 496
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Anton_Turkul.png"
@@ -660,7 +660,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mikhail Katukov"
+	name = "Михаил Катуков"
 	desc = "POLITICS_MIKHAIL_KATUKOV_DESC"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Katukov.png"
 	traits = { hidden_sympathies trait_cautious armor_officer trickster }
@@ -671,7 +671,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Pavel Batov"
+	name = "Павел Батов"
 	desc = "POLITICS_PAVEL_BATOV_DESC"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Pavel_Batov.png"
 	traits = {
@@ -687,7 +687,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Mitrofan Nezhentsev"
+	name = "Митрофан Неженцев"
 	id = 409
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mitrofan_Nezhentsev.png"
 	traits = {
@@ -704,7 +704,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Romanovsky"
+	name = "Иван Романовский"
 	desc = "POLITICS_IVAN_ROMANOVSKIY_DESC"
 	id = 456
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Ivan_Romanovsky.png"
@@ -722,7 +722,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vasiliy Chuykov"
+	name = "Василий Чуйков"
 	id = 455
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vasiliy_Chuykov.png"
 	traits = {
@@ -738,7 +738,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksandr Kutepov"
+	name = "Александр Кутепов"
 	id = 411
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Aleksander_Kutepov.png"
 	traits = {
@@ -754,7 +754,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Vladimir Vitkovsky"
+	name = "Владимир Витковский"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Vitkovskiy.png"
 	traits = {
 		RUS_drozdovsky_officer
@@ -768,7 +768,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nikolai Skoblin"
+	name = "Николай Скоблин"
 	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Nikolai_Skoblin.png"
 	traits = {
 		RUS_kornilov_officer
@@ -781,7 +781,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Mikhail Levitov"
+	name = "Михаил Левитов"
 	id = 412
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Levitov.png"
 	traits = {
@@ -797,7 +797,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vladimir Manshteyn"
+	name = "Владимир Манштейн"
 	desc = "POLITICS_VLADIMIR_MANSHTEYN_DESC"
 	id = 413
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vladimir_von_Manstein.png"
@@ -815,7 +815,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Nikolay Vatutin"
+	name = "Николай Ватутин"
 	desc = "POLITICS_NIKOLAY_VATUTIN_DESC"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Vatutin.png"
 	traits = {
@@ -831,7 +831,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Vasiliy Boldyrev"
+	name = "Василий Болдырев"
 	id = 50003
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vasiliy_Boldyrev.png"
 	traits = {
@@ -847,7 +847,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Leonid Govorov"
+	name = "Леонид Говоров"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Leonid_Govorov.png"
 	traits = {
 		artillery_officer
@@ -862,7 +862,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Nikolay Timanovsky"
+	name = "Николай Тимановский"
 	id = 417
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Timanovsky.png"
 	traits = {
@@ -877,7 +877,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Aleksander Bleish"
+	name = "Александр Блейш"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Bleish.png"
 	traits = {
 		RUS_markov_officer
@@ -891,7 +891,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Pyotr Mashin"
+	name = "Пётр Машин"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Mashin.png"
 	traits = {
 		RUS_markov_officer
@@ -908,7 +908,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Boris Shaposhnikov"
+	name = "Борис Шапошников"
 	desc = "POLITICS_BORIS_SHAPOSHNIKOV_DESC"
 	id = 451
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Boris_Shaposhnikov.png"
@@ -925,7 +925,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Aleksandr Yegorov "
+	name = "Александр Егоров "
 	desc = "POLITICS_ALEKSANDR_YEGOROV_DESC"
 	id = 447
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Yegorov.png"
@@ -938,7 +938,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Abram Dragomirov"
+	name = "Абрам Драгомиров"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Abram_Dragomirov.png"
 	traits = {
 		RUS_denikin_officer
@@ -954,7 +954,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Markian Popov"
+	name = "Маркиан Попов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Markian_Popov.png"
 	traits = { brilliant_strategist infantry_officer }
 	skill = 1
@@ -965,7 +965,7 @@ create_corps_commander = {
 	id = 626
 }
 create_corps_commander = {
-	name = "Georgy Zhukov "
+	name = "Георгий Жуков "
 	desc = "POLITICS_GEORGY_ZHUKOV_DESC"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Georgy_Zhukov.png"
 	id = 449
@@ -980,7 +980,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Vasiliy Kuznetsov"
+	name = "Василий Кузнецов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vasily_Kuznetsov.png"
 	id = 448
 	traits = {
@@ -995,7 +995,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Yakov Slashchov"
+	name = "Яков Слащов"
 	portrait_path = "gfx/leaders/TRM/Portrait_TRM_Yakov_Slashchov.png"
 	traits = {
 		old_guard
@@ -1008,7 +1008,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Vladimir Trutovsky "
+	name = "Владимир Трутовский "
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Vladimir_Trutovsky.png"
 	traits = { organizer hidden_sympathies }
 	skill = 2
@@ -1019,7 +1019,7 @@ create_corps_commander = {
 	id = 430
 }
 create_corps_commander = {
-	name = "Yuri Sablin"
+	name = "Юрий Саблин"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Yuri_Sablin.png"
 	traits = { hidden_sympathies politically_connected inspirational_leader organizer }
 	skill = 2
@@ -1030,7 +1030,7 @@ create_corps_commander = {
 	id = 431
 }
 create_corps_commander = {
-	name = "Mikhail Levandovsky"
+	name = "Михаил Левандовский"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Levandovsky.png"
 	traits = {  politically_connected armor_officer infantry_leader trickster }
 	skill = 3
@@ -1042,7 +1042,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Cherniakhovskyi"
+	name = "Иван Черняховский"
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Ivan_Chernyakhovsky.png"
 	traits = { organisational_leader armor_officer }
 	skill = 1
@@ -1054,7 +1054,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Kirill Meretskov"
+	name = "Кирилл Мерецков"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Kirill_Meretskov.png"
 	traits = { trait_reckless militias_officer harsh_leader }
 	skill = 2
@@ -1066,7 +1066,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Maksim Purkayev"
+	name = "Максим Пуркаев"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Maksim_Purkayev.png"
 	traits = { career_officer infantry_leader }
 	skill = 2
@@ -1078,7 +1078,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksandr Gorbatov"
+	name = "Александр Горбатов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Gorbatov.png"
 	traits = { hidden_sympathies career_officer cavalry_officer }
 	skill = 2
@@ -1090,7 +1090,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Semyon Gitler"
+	name = "Семён Гитлер"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Semyon_Hitler.png"
 	traits = { hidden_sympathies infantry_officer inspirational_leader media_personality }
 	skill = 1
@@ -1101,7 +1101,7 @@ create_corps_commander = {
 	id = 17897
 }
 create_corps_commander = {
-	name = "Rodion Malinovsky"
+	name = "Родион Малиновский"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Rodion_Malinovsky.png"
 	traits = { hidden_sympathies career_officer cavalry_officer }
 	skill = 2
@@ -1112,7 +1112,7 @@ create_corps_commander = {
 	id = 17903
 }
 create_corps_commander = {
-	name = "Lev Dovator"
+	name = "Лев Доватор"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Lev_Dovator.png"	
 	traits = { hidden_sympathies trait_reckless cavalry_leader }
 	skill = 2
@@ -1123,7 +1123,7 @@ create_corps_commander = {
 	id = 17904
 }
 create_corps_commander = {
-	name = "Nikolay Krylov"
+	name = "Николай Крылов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Krylov.png"
 	traits = { hidden_sympathies infantry_leader urban_assault_specialist }
 	skill = 2
@@ -1135,7 +1135,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mikhail Tukhachevsky "
+	name = "Михаил Тухачевский "
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Tukhachevskiy.png"
 	traits = { 
 		SOV_bolshevik_officer 
@@ -1153,7 +1153,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vladimir Triandafillov"
+	name = "Владимир Триандафиллов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Triandafillov.png"
 	traits = { SOV_bolshevik_officer brilliant_strategist cavalry_officer combined_arms_expert }
 	skill = 2
@@ -1165,7 +1165,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ieronim Uborevich"
+	name = "Иероним Уборевич"
 	id = 1960
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Ieronim_Uborevich.png"
 	traits = { SOV_bolshevik_officer harsh_leader infantry_leader }
@@ -1176,7 +1176,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Iona Yakir"
+	name = "Иона Якир"
 	id = 1961	
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Iona_Yakir.png"
 	traits = { SOV_bolshevik_officer skilled_staffer inspirational_leader }
@@ -1187,7 +1187,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Yan Gamarnik"
+	name = "Ян Гамарник"
 	id = 1957	
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Yan_Gamarnik.png"
 	traits = { SOV_bolshevik_officer politically_connected harsh_leader organizer }
@@ -1199,7 +1199,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Semyon Budyonny"
+	name = "Семён Буденный"
 	id = 1956	
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Semyon_Budyonny.png"
 	traits = { SOV_bolshevik_officer inspirational_leader media_personality cavalry_officer cavalry_expert skilled_staffer }
@@ -1211,7 +1211,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Kliment Voroshilov"
+	name = "Климент Ворошилов"
 	id = 605
 	portrait_path = "gfx/leaders/UKR/Portrait_UKR_Kliment_Voroshilov.png"
 	traits = { SOV_bolshevik_officer old_guard inflexible_strategist }
@@ -1223,7 +1223,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Semyon Timoshenko"
+	name = "Семён Тимошенко"
 	id = 604
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Semyon_Timoshenko.png"
 	traits = { SOV_bolshevik_officer cavalry_officer politically_connected }
@@ -1234,7 +1234,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Konstantin Rokossovsky"
+	name = "Константин Рокоссовский"
 	id = 606
 	portrait_path = "gfx/leaders/RUS/Portrait_Soviet_Konstantin_Rokossovsky_KX.png"
 	traits = { SOV_bolshevik_officer brilliant_strategist cavalry_leader cavalry_officer }
@@ -1245,7 +1245,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Ivan Konev"
+	name = "Иван Конев"
 	id = 608
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Ivan_Konev.png"
 	traits = { SOV_bolshevik_officer artillery_officer winter_specialist }
@@ -1257,7 +1257,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mikhail Frunze "
+	name = "Михаил Фрунзе "
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Frunze.png"
 	traits = { SOV_bolshevik_officer inspirational_leader offensive_doctrine war_hero politically_connected }
 	id = 1955
@@ -1268,7 +1268,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Vladimir Antonov-Ovseyenko"
+	name = "Владимир Антонов-Овсеенко"
 	id = 1958	
 	portrait_path = "gfx/leaders/RUS/Portrait_SOV_Vladimir_Antonov-Ovseyenko.png"
 	traits = { SOV_bolshevik_officer media_personality infantry_leader infantry_expert harsh_leader hill_fighter urban_assault_specialist }
@@ -1279,7 +1279,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_field_marshal = {
-	name = "Andrei Zhdanov "
+	name = "Андрей Жданов "
 	id = 1941
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Zhdanov_military.png"
 	traits = { politically_connected expert_delegator }
@@ -1296,7 +1296,7 @@ create_field_marshal = {
 ####
 
 create_navy_leader = {
-	name = "Nikolay Kuznetsov"
+	name = "Николай Кузнецов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Kuznetsov.png"
 	traits = { bold aviation_enthusiast superior_tactician }
 	id = 16235
@@ -1308,7 +1308,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ivan Isakov"
+	name = "Иван Исаков"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Ivan_Isakov.png"
 	traits = { blockade_runner fleet_protector }
 	skill = 3
@@ -1319,7 +1319,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Dmitriy Verderevsky"
+	name = "Дмитрий Вердеревский"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Dmitry_Verderevsky.png"
 	traits = { fly_swatter cruiser_captain }
 	skill = 4
@@ -1331,7 +1331,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Mikhail Kedrov"
+	name = "Михаил Кедров"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Kedrov.png"
 	traits = { chief_engineer ironside }
 	skill = 3
@@ -1343,7 +1343,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Mikhail Berens"
+	name = "Михаил Беренс"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Berens.png"
 	traits = { air_controller }
 	skill = 2
@@ -1354,7 +1354,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Neon Antonov"
+	name = "Неон Антонов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Neon_Antonov.png"
 	traits = {}
 	skill = 2
@@ -1365,7 +1365,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nestor Monastyryev"
+	name = "Нестор Монастырев"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nestor_Monastyrev.png"
 	traits = { navy_career_officer seawolf }
 	skill = 2
@@ -1376,7 +1376,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nikolay Kolomeytsev"
+	name = "Николай Коломейцев"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Kolomeitsev.png"
 	traits = { old_guard_navy }
 	skill = 3
@@ -1386,7 +1386,7 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Arseniy Golovko"
+	name = "Арсений Головко"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Arseniy_Golovko.png"
 	traits = { navy_career_officer spotter arctic_water_expert hidden_sympathies }
 	skill = 2
@@ -1398,7 +1398,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Filipp Ivanov"
+	name = "Филипп Иванов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Filipp_Ivanov.png"
 	traits = { ironside hidden_sympathies }
 	skill = 1
@@ -1410,7 +1410,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Gordey Levchenko"
+	name = "Гордей Левченко"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Gordey_Levchenko.png"
 	traits = { hidden_sympathies }
 	skill = 2
@@ -1422,7 +1422,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nikolai Vinogradov"
+	name = "Николай Виноградов"
 	portrait_path = "gfx/leaders/RUS/Portrait_RUS_Nikolai_Vinogradov.png"
 	traits = { hidden_sympathies spotter }
 	skill = 1
@@ -1433,7 +1433,7 @@ create_navy_leader = {
 }
 
 create_operative_leader = {
-	name = "Maria von Glazenap"
+	name = "Мария Станиславовна Борх"
 	GFX = GFX_Portrait_RUS_Maria_von_Glazenap
 	traits = { operative_infiltrator operative_commando }
 	bypass_recruitment = yes
@@ -1441,7 +1441,7 @@ create_operative_leader = {
 	nationalities = { RUS TRM DKB BAT GER }
 }
 create_operative_leader = {
-	name = "Maxim 'Stierlitz' Isayev"
+	name = "Максим «Штирлиц» Исаев"
 	GFX = GFX_Portrait_RUS_Maksim_Isayev
 	traits = { operative_linguist operative_safe_cracker }
 	bypass_recruitment = yes
@@ -1449,7 +1449,7 @@ create_operative_leader = {
 	nationalities = { RUS TRM DKB GER }
 }
 create_operative_leader = {
-	name = "Dmitriy 'Iron Dimon' Medvedev"
+	name = "«Железный Димон»"
 	GFX = GFX_Portrait_RUS_Dmitriy_Medvedev
 	traits = { operative_commando operative_tough }
 	bypass_recruitment = yes

@@ -1723,12 +1723,12 @@ focus_tree = {
 					value = 0.5
 				}
 			}
-			add_tech_bonus = {
-				name = CAN_airspace_defense
-				bonus = 1
-				uses = 1
-				category = radar_tech
-			}
+				add_tech_bonus = {
+					name = CAN_airspace_defense
+					bonus = 1
+					uses = 1
+					category = radar_tech
+				}
 			custom_effect_tooltip = tooltip_white_line
 			random_owned_controlled_state = {
 				prioritize = { 276 }
@@ -1737,12 +1737,12 @@ focus_tree = {
 					has_maximum_radar_station_level = no
 					impassable = no
 				}
-				add_building_construction = {
-					type = radar_station
-					level = 1
-					instant_build = yes
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
 				}
-			}
 			random_owned_controlled_state = {
 				prioritize = { 464 }
 				limit = {
@@ -1750,13 +1750,13 @@ focus_tree = {
 					has_maximum_radar_station_level = no
 					impassable = no
 				}
-				add_building_construction = {
-					type = radar_station
-					level = 1
-					instant_build = yes
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
-		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 	}
 
@@ -2207,10 +2207,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = CAN_chalk_river_labs
+			add_tech_bonus = {
+				name = CAN_chalk_river_labs
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 				add_breakthrough_progress = {
@@ -3957,7 +3957,7 @@ focus_tree = {
 				add_idea = CAN_invasion_plans_1
 			}
 			create_corps_commander = { # Rod Keller
-				name = "Rod Keller"
+				name = "Род Келлер"
 				portrait_path = "gfx/leaders/CAN/Portrait_Canada_Rod_Keller.png"
 				traits = {
 					infantry_officer
@@ -4045,9 +4045,9 @@ focus_tree = {
 				# }
 			# }
 			if = {
-				limit = { NOT = { has_template = "Canadian Marine Division" } }
+				limit = { NOT = { has_template = "Канадская Морская пехота" } }
 				division_template = {
-					name = "Canadian Marine Division"
+					name = "Канадская Морская пехота"
 					division_names_group = CAN_MAR_01
 					regiments = {
 						marine = { x = 0 y = 0 }
@@ -4068,7 +4068,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = { is_in_home_area = yes }
 				create_unit = {
-					division = "division_template = \"Canadian Marine Division\" start_experience_factor = 0.4"
+					division = "division_template = \"Канадская Морская пехота\" start_experience_factor = 0.4"
 					owner = ROOT
 					count = 3
 				}
@@ -4784,7 +4784,7 @@ focus_tree = {
 				}
 			}
 			has_war_with = ENG
-		    }
+			}
 		}
 		prerequisite = {
 			focus = CAN_sabatoge_uob_navy
@@ -4890,7 +4890,7 @@ focus_tree = {
 				}
 			}
 			has_war_with = ENG
-		    }
+			}
 		}
 		prerequisite = {
 			focus = CAN_seize_shetland
@@ -5220,9 +5220,9 @@ focus_tree = {
 						NOT = { is_subject_of = CAN }
 					}
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = 1247.owner
+			create_wargoal = {
+				type = annex_everything
+				target = 1247.owner
 				}
 			}
 			unlock_decision_tooltip = CAN_restore_protectorate
@@ -5696,10 +5696,10 @@ focus_tree = {
 								country_exists = USA
 								country_exists = CAL
 							}
+							}
 						}
 					}
 				}
-			    }
 			}
 		}
 
@@ -5984,8 +5984,8 @@ focus_tree = {
 			unlock_decision_tooltip = CAN_georgian_line
 			unlock_decision_tooltip = CAN_st_lawrence_line
 			unlock_decision_tooltip = CAN_fortify_great_lakes
-			create_corps_commander = { # Thomas George Prince
-				name = "James Sutherland Brown"
+			create_corps_commander = { # Томас Джордж Принц
+				name = "Джеймс Сазерленд Браун"
 				portrait_path = "gfx/leaders/CAN/Portrait_Canada_James_Sutherland_Brown.png"
 				traits = {
 					logistics_wizard
@@ -6040,10 +6040,10 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { NFL = { exists = yes } }
-					country_event = {
-						id = nfl_flavour.12
-						days = 47
-						random_days = 65
+				country_event = {
+					id = nfl_flavour.12
+					days = 47
+					random_days = 65
 					}
 				}
 			}
@@ -8775,7 +8775,7 @@ focus_tree = {
 						has_global_flag = CAN_king_edward_VIII
 					}
 					create_field_marshal = {# Eddy
-						name = "Edward VIII "
+						name = "Эдуард VIII "
 						portrait_path = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII_Army.png"
 						traits = { 
 							politically_connected 
@@ -8795,7 +8795,7 @@ focus_tree = {
 						has_global_flag = CAN_king_henry_IX
 					}
 					create_field_marshal = {# Henry
-						name = "Henry IX "
+						name = "Генрих IX "
 						portrait_path = "gfx/leaders/CAN/Portrait_Canada_Duke_of_Gloucester.png"
 						traits = { 
 							politically_connected 
@@ -8815,7 +8815,7 @@ focus_tree = {
 						has_global_flag = CAN_king_albert_I
 					}
 					create_field_marshal = {# Albert
-						name = "Albert I "
+						name = "Альберт I "
 						portrait_path = "gfx/leaders/CAN/Portrait_Canada_King_Albert_Army.png"
 						traits = { 
 							politically_connected 
@@ -8836,7 +8836,7 @@ focus_tree = {
 						has_global_flag = CAN_king_george_VI
 					}
 					create_field_marshal = {# George
-						name = "George VI "
+						name = "Георг VI "
 						portrait_path = "gfx/leaders/CAN/Portrait_Canada_King_GeorgeVI_General.png"
 						traits = { 
 							politically_connected 
@@ -8857,7 +8857,7 @@ focus_tree = {
 						has_global_flag = CAN_queen_elizabeth_II
 					}
 					create_field_marshal = {# Lizzy
-						name = "Elizabeth II "
+						name = "Елизавета II "
 						portrait_path = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_General.png"
 						traits = { 
 							politically_connected 
@@ -9940,7 +9940,7 @@ focus_tree = {
 			add_country_leader_trait = CAN_commander_king
 			hidden_effect = {
 				create_field_marshal = {# Eddy
-					name = "Edward VIII "
+					name = "Эдуард VIII "
 					portrait_path = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII_Army.png"
 					traits = { 
 						politically_connected 
@@ -9957,7 +9957,7 @@ focus_tree = {
 			}
 			effect_tooltip = {
 				create_field_marshal = {# Eddy
-					name = "Edward VIII "
+					name = "Эдуард VIII "
 					portrait_path = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII_Army.png"
 					traits = { 
 						politically_connected 
@@ -11004,7 +11004,7 @@ focus_tree = {
 		y = 2
 
 		available = {
-
+			
 		}
 
 		ai_will_do = {
@@ -11271,7 +11271,7 @@ focus_tree = {
 		available = {
 			country_exists = GER
 		}
-		
+			
 		bypass = {
 			NOT = { country_exists = GER }
 		}
@@ -11306,7 +11306,7 @@ focus_tree = {
 		available = {
 			country_exists = RUS
 		}
-		
+			
 		bypass = {
 			NOT = { country_exists = RUS }
 		}
@@ -11341,7 +11341,7 @@ focus_tree = {
 		available = {
 			country_exists = AUS
 		}
-		
+			
 		bypass = {
 			NOT = { country_exists = AUS }
 		}
@@ -14740,9 +14740,9 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -14852,8 +14852,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_mcnaughton_plan"
 			if = {
 				limit = { NFA = { is_in_faction_with = CAN } }
-				NFA = {
-					add_ideas = CAN_canadian_aid2
+			NFA = {
+				add_ideas = CAN_canadian_aid2
 				}
 			}
 			GBR = {

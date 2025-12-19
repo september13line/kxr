@@ -3550,13 +3550,13 @@ focus_tree = {
 					NOT = { country_exists = SHX }
 				}
 				if = {
-					limit = { has_country_leader = { name = "Yan Xishan" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Янь Сишань" ruling_only = yes } }
 					CHI_recruit_SHX_generals_from_THIS = yes
 				}
 				else_if = {
 					limit = {
 						SHX = {
-							has_country_leader = { name = "Feng Yuxiang" ruling_only = yes }
+							has_country_leader = { name = "Фэн Юйсян" ruling_only = yes }
 						}
 					}
 					SHX = {
@@ -5089,33 +5089,33 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHI_scavenge_the_beiyang_fleet"
-			if = {
-				limit = { NOT = { has_tech = early_ship_hull_light } }
-				set_technology = { early_ship_hull_light = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = early_ship_hull_cruiser } }
-				set_technology = { early_ship_hull_cruiser = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = coastal_defense_ships } }
-				set_technology = { coastal_defense_ships = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = coastal_defense_ships } }
-				set_technology = { coastal_defense_ships = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = basic_naval_mines } }
-				set_technology = { basic_naval_mines = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = basic_battery } }
-				set_technology = { basic_battery = 1 }
-			}
-			if = {
-				limit = { NOT = { has_tech = basic_torpedo } }
-				set_technology = { basic_torpedo = 1 }
+				if = {
+					limit = { NOT = { has_tech = early_ship_hull_light } }
+					set_technology = { early_ship_hull_light = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = early_ship_hull_cruiser } }
+					set_technology = { early_ship_hull_cruiser = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = coastal_defense_ships } }
+					set_technology = { coastal_defense_ships = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = coastal_defense_ships } }
+					set_technology = { coastal_defense_ships = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = basic_naval_mines } }
+					set_technology = { basic_naval_mines = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = basic_battery } }
+					set_technology = { basic_battery = 1 }
+				}
+				if = {
+					limit = { NOT = { has_tech = basic_torpedo } }
+					set_technology = { basic_torpedo = 1 }
 			}
 			navy_experience = 50
 			QIE = {
@@ -5248,11 +5248,11 @@ focus_tree = {
 				uses = 1
 				category = ss_tech
 			}
-			add_tech_bonus = {
-				name = CHI_death_from_the_depths
-				bonus = 1
-				uses = 1
-				category = cat_torpedoes
+				add_tech_bonus = {
+					name = CHI_death_from_the_depths
+					bonus = 1
+					uses = 1
+					category = cat_torpedoes
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
@@ -5291,11 +5291,11 @@ focus_tree = {
 				uses = 1
 				category = dd_tech
 			}
-			add_tech_bonus = {
-				name = CHI_coastal_defense_stratagems
-				bonus = 1
-				uses = 1
-				category = naval_mines
+				add_tech_bonus = {
+					name = CHI_coastal_defense_stratagems
+					bonus = 1
+					uses = 1
+					category = naval_mines
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
@@ -5538,11 +5538,11 @@ focus_tree = {
 				remove_idea = CHI_republic_of_china_navy_idea
 				add_idea = CHI_republic_of_china_navy_idea2
 			}
-			add_tech_bonus = {
-				name = CHI_fleet_of_the_republic
-				bonus = 0.5
-				uses = 2
-				category = cat_ship_light_battery
+				add_tech_bonus = {
+					name = CHI_fleet_of_the_republic
+					bonus = 0.5
+					uses = 2
+					category = cat_ship_light_battery
 			}
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
@@ -5735,7 +5735,7 @@ focus_tree = {
 				uses = 1
 				category = ca_tech
 			}
-			set_technology = { fire_control_methods_1 = 1 }
+				set_technology = { fire_control_methods_1 = 1 }
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS }
 	}
@@ -5883,8 +5883,8 @@ focus_tree = {
 		available = {
 			OR = {
 				has_socialist_government = yes
-				has_country_leader = { ruling_only = yes name = "Deng Yanda" }
-				has_country_leader = { ruling_only = yes name = "Sun Fo" }
+				has_country_leader = { ruling_only = yes name = "Дэн Янда" }
+				has_country_leader = { ruling_only = yes name = "Сунь Фо" }
 			}
 			num_of_controlled_factories > 50
 		}
@@ -7524,7 +7524,7 @@ focus_tree = {
 				} #Hawaii
 			}
 			if = {
-				limit = { has_country_leader = { name = "Wang Jingwei" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Ван Цзинвэй" ruling_only = yes } }
 				has_idea = CHI_lead_the_liberation_of_asia_wang_idea
 			}
 		}
@@ -7810,7 +7810,7 @@ focus_tree = {
 			OR = {
 				social_liberal > 0.25
 				has_country_leader = {
-					name = "Sun Fo"
+					name = "Сунь Фо"
 					ruling_only = yes
 				}
 			}
@@ -8203,7 +8203,7 @@ focus_tree = {
 			syndicalist > 0.25 
 			NOT = {
 				has_country_leader = {
-					name = "Sun Fo"
+					name = "Сунь Фо"
 					ruling_only = yes
 				}
 			}
@@ -8671,7 +8671,7 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_country_leader = {
-					name = "Sun Fo"
+					name = "Сунь Фо"
 					ruling_only = yes
 				}
 			}
@@ -8933,7 +8933,7 @@ focus_tree = {
 			custom_effect_tooltip = CHI_upgrades_hog
 			CHI_level_up_deng_yanda_effect = yes
 			create_country_leader = {
-				name = "Deng Yanda"
+				name = "Дэн Янда"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Deng_Yanda.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -10310,7 +10310,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHI_the_theatrical_revolutionary_state"
 			custom_effect_tooltip = CHI_the_theatrical_revolutionary_state_tt
-			if = { #Chen Gongbo
+			if = { #Чэнь Гунбо
 				limit = { CHI_Chen_Gongbo_hog = yes }
 				set_temp_variable = { CHI_war_support_gain_var = ROOT.party_popularity@totalist }
 				multiply_temp_variable = { CHI_war_support_gain_var = 0.3 }
@@ -10321,7 +10321,7 @@ focus_tree = {
 				}
 				add_war_support = CHI_war_support_gain_var
 			}
-			if = {  #Zeng Zhongming
+			if = {  #Цзэн Чжунмин
 				limit = { CHI_Gu_Mengyu_hog = yes }
 				set_temp_variable = { CHI_pp_gain_var = ROOT.party_popularity@radical_socialist }
 				multiply_temp_variable = { CHI_pp_gain_var = 100 }
@@ -10332,7 +10332,7 @@ focus_tree = {
 				}
 				add_political_power = CHI_pp_gain_var
 			}
-			if = {  #Gu Mengyu
+			if = {  #Гу Мэнъюй
 				limit = { CHI_Gu_Mengyu_hog = yes }
 				set_temp_variable = { CHI_stability_factor = ROOT.party_popularity@social_democrat }
 				multiply_temp_variable = { CHI_stability_factor = 0.3 }
@@ -12482,7 +12482,7 @@ focus_tree = {
 
 		available = {
 			has_country_leader = {
-				name = "Dai Chunfeng"
+				name = "Дай Ли"
 				ruling_only = yes
 			}
 			has_country_flag = CHI_dai_secured_power
@@ -12616,7 +12616,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = KMT_Dai_Meeting
+		has_country_flag = KMT_Dai_Meeting
 		}
 
 		completion_reward = {
@@ -13611,7 +13611,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHI_proletarian_radicalism_unbridled"
 			create_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 				expire = "1.1.1"
 				ideology = centralized_syndicalism_subtype
@@ -13650,7 +13650,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHI_intrigues_four_elders"
 			create_country_leader = {
-				name = "Yi Peiji"
+				name = "И Пэйцзи"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Yi_Peiji.png"
 				expire = "1.1.1"
 				ideology = anarcho_syndicalist_subtype

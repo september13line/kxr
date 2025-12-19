@@ -2090,7 +2090,7 @@ focus_tree = {
 			custom_effect_tooltip = soclib_will_join_coalition_tt
 			custom_effect_tooltip = radsoc_will_join_coalition_tt
 			create_country_leader = {
-				name = "Joey Smallwood"
+				name = "Джои Смоллвуд"
 				desc = "POLITICS_SMALLWOOD_DESC"
 				picture = "gfx/leaders/NFL/Portrait_Newfoundland_Joey_Smallwood.png"
 				expire = "1965.1.1"
@@ -2186,7 +2186,7 @@ focus_tree = {
 					add_skill_level = 1
 				}
 				create_field_marshal = {
-					name = "Peter John Cashin "
+					name = "Питер Джон Кэшин "
 					portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_Peter_John_Cashin_General.png"
 					traits = {
 						war_hero
@@ -9482,10 +9482,10 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_tech = interwar_antitank }
-				add_equipment_to_stockpile = {
-					type = anti_tank_equipment
-					amount = 570
-					producer = CAN
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 570
+				producer = CAN
 				}
 			}
 			else = {
@@ -10066,7 +10066,7 @@ focus_tree = {
 
 		available = {
 			has_country_leader = {
-				name = "Humphrey T. Walwyn"
+				name = "Хамфри Уолвин"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = NFL_uprising_occured }
@@ -10075,7 +10075,7 @@ focus_tree = {
 		bypass = {
 			NOT = {
 				has_country_leader = {
-					name = "Humphrey T. Walwyn"
+					name = "Хамфри Уолвин"
 					ruling_only = yes
 				}
 			}

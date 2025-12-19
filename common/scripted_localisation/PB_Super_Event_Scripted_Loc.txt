@@ -1,8 +1,8 @@
 defined_text = { #SUPER EVENT TITLES
 	name = get_super_event_title
-	
+
 	text = { 
-		trigger = {
+        trigger = {
 			has_global_flag = GER_Second_Weltkrieg
 		}
 		localization_key = "GFX_SPEVNT_Second_Weltkrieg"
@@ -91,7 +91,7 @@ defined_text = { #SUPER EVENT TITLES
 		}
 		localization_key = "GFX_SPEVNT_Entente_Entry"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = GBR_restoration_super
@@ -133,7 +133,7 @@ defined_text = { #SUPER EVENT TITLES
 		}
 		localization_key = "GFX_SPEVNT_Italian_Reunification"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = CRO_balkan_collapse
@@ -169,7 +169,14 @@ defined_text = { #SUPER EVENT TITLES
 		}
 		localization_key = "GFX_SPEVNT_Gamelin_Coup"
 	}
-
+	
+	text = { 
+		trigger = {
+			has_global_flag = GEO_chaos_in_caucasus
+		}
+		localization_key = "GFX_SPEVNT_Caucasus_Chaos"
+	}
+	
 	text = { 
 		trigger = {
 			has_global_flag = CSA_capone_csa
@@ -183,14 +190,14 @@ defined_text = { #SUPER EVENT TITLES
 		}
 		localization_key = "GFX_SPEVNT_Korean_Revolt"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = CRO_slavic_union
 		}
 		localization_key = "GFX_SPEVNT_Formation_Slavic_Union"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = SCTWAL_celtic_union
@@ -708,6 +715,19 @@ defined_text = { #SUPER EVENT TITLES
 		}
 		localization_key = "GFX_SPEVNT_UKRAINIAN_CW"
 	}
+	#####
+	text = {
+		trigger = {
+			has_global_flag = RUSSIAN_UNIFICATION_stalin
+		}
+		localization_key = "GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin"
+	}
+	text = {
+		trigger = {
+			has_global_flag = GSV_COLLAPS_GSV_win
+		}
+		localization_key = "GFX_SPEVNT_GSV_win"
+	}
 }
 
 defined_text = { #SUPER EVENT QUOTES
@@ -881,6 +901,13 @@ defined_text = { #SUPER EVENT QUOTES
 			has_global_flag = FRA_gamelin_did_coup
 		}
 		localization_key = "GFX_SPEVNT_Gamelin_Coup_TEXT"
+	}
+	
+	text = { 
+		trigger = {
+			has_global_flag = GEO_chaos_in_caucasus
+		}
+		localization_key = "GFX_SPEVNT_Caucasus_Chaos_TEXT"
 	}
 	
 	text = { 
@@ -1420,11 +1447,24 @@ defined_text = { #SUPER EVENT QUOTES
 		}
 		localization_key = "GFX_SPEVNT_UKRAINIAN_CW_TEXT"
 	}
+	#####
+	text = {
+		trigger = {
+			has_global_flag = RUSSIAN_UNIFICATION_stalin
+		}
+		localization_key = "GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin_TEXT"
+	}
+	text = {
+		trigger = {
+			has_global_flag = GSV_COLLAPS_GSV_win
+		}
+		localization_key = "GFX_SPEVNT_GSV_win_TEXT"
+	}
 }
 
 defined_text = { #SUPER EVENT REMARKS
 	name = get_superevent_remark
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = GER_Second_Weltkrieg
@@ -1592,6 +1632,13 @@ defined_text = { #SUPER EVENT REMARKS
 		}
 		localization_key = "GFX_SPEVNT_Gamelin_Coup_REMARK"
 	}
+
+	text = { 
+		trigger = {
+			has_global_flag = GEO_chaos_in_caucasus
+		}
+		localization_key = "GFX_SPEVNT_Caucasus_Chaos_REMARK"
+	}
 	
 	text = { 
 		trigger = {
@@ -1599,21 +1646,21 @@ defined_text = { #SUPER EVENT REMARKS
 		}
 		localization_key = "GFX_SPEVNT_Capone_CSA_REMARK"
 	}
-
+	
 	text = { 
 		trigger = {
 			has_global_flag = KOR_revolution_occurred
 		}
 		localization_key = "GFX_SPEVNT_Korean_Revolt_REMARK"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = CRO_slavic_union
 		}
 		localization_key = "GFX_SPEVNT_Formation_Slavic_Union_REMARK"
 	}
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = SCTWAL_celtic_union
@@ -2131,11 +2178,24 @@ defined_text = { #SUPER EVENT REMARKS
 		}
 		localization_key = "GFX_SPEVNT_UKRAINIAN_CW_REMARK"
 	}
+	####
+	text = {
+		trigger = {
+			has_global_flag = RUSSIAN_UNIFICATION_stalin
+		}
+		localization_key = "GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin_REMARK"
+	}
+	text = {
+		trigger = {
+			has_global_flag = GSV_COLLAPS_GSV_win
+		}
+		localization_key = "GFX_SPEVNT_GSV_win_REMARK"
+	}
 }
 
 defined_text = { #SUPER EVENT DESCS
 	name = get_superevent_desc
-	
+
 	text = { 
 		trigger = {
 			has_global_flag = GER_Second_Weltkrieg
@@ -2306,11 +2366,18 @@ defined_text = { #SUPER EVENT DESCS
 	
 	text = { 
 		trigger = {
+			has_global_flag = GEO_chaos_in_caucasus
+		}
+		localization_key = "GFX_SPEVNT_Caucasus_Chaos_DESC"
+	}
+	
+	text = { 
+		trigger = {
 			has_global_flag = CSA_capone_csa
 		}
 		localization_key = "GFX_SPEVNT_Capone_CSA_DESC"
 	}
-
+	
 	text = { 
 		trigger = {
 			has_global_flag = KOR_revolution_occurred
@@ -2840,6 +2907,19 @@ defined_text = { #SUPER EVENT DESCS
 			has_global_flag = Ukrainian_CW_superev
 		}
 		localization_key = "GFX_SPEVNT_UKRAINIAN_CW_DESC"
+	}
+	#####
+	text = {
+		trigger = {
+			has_global_flag = RUSSIAN_UNIFICATION_stalin
+		}
+		localization_key = "GFX_SPEVNT_RUSSIAN_UNIFICATION_stalin_DESC"
+	}
+	text = {
+		trigger = {
+			has_global_flag = GSV_COLLAPS_GSV_win
+		}
+		localization_key = "GFX_SPEVNT_GSV_win_DESC"
 	}
 }
 

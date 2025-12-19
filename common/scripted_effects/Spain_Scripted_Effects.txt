@@ -1154,7 +1154,7 @@ CAR_setup_carlos_VIII = {
 			remove_unit_leader = yes
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Carlos VIII "
+			name = "Карлос VIII "
 			portrait_path = "gfx/leaders/CAR/Portrait_CAR_Carlos_VIII.png"
 			traits = {
 				media_personality
@@ -1736,7 +1736,7 @@ SRR_civil_war_end_effect = {
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = {
-			name = "Julián Besteiro Fernández"
+			name = "Хулиан Бестейро Фернандес"
 			picture = "gfx/leaders/CNT/Portrait_CNT_Julian_Besteiro_Fernandez.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -1793,14 +1793,14 @@ SRR_civil_war_end_effect = {
 		}
 		drop_cosmetic_tag = yes
 		create_country_leader = {
-			name = "Francisco Franco Bahamonde"
+			name = "Франсиско Франко"
 			desc = "POLITICS_FRANSISCO_FRANCO_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -2292,8 +2292,8 @@ SPR_form_iberia_effect = {
 				has_country_flag = SPR_formed_hre
 			}
 		}
-		set_country_flag = SPR_iberian_union
-		set_cosmetic_tag = SPR_IBERIA
+	set_country_flag = SPR_iberian_union
+	set_cosmetic_tag = SPR_IBERIA
 	}
 	if = {
 		limit = {
@@ -2350,10 +2350,10 @@ SPR_form_iberia_effect = {
 					has_country_flag = SPR_BOURBON
 					has_country_flag = SPR_formed_hre
 				}
-			}
-			country_event = {
-				id = sprd.1137
-				days = 3
+		}
+		country_event = {
+			id = sprd.1137
+			days = 3
 			}
 		}
 	}
@@ -2495,110 +2495,110 @@ SPR_separatist_revolt_effect = {
 		limit = {
 			SPR_separatist_revolt_allowed_trigger = yes
 		}
-		SPR = {
-			set_country_flag = SPR_separatist_revolt_flag
-			activate_mission = SPR_battle_royale_prelude_countdown
+	SPR = {
+		set_country_flag = SPR_separatist_revolt_flag
+		activate_mission = SPR_battle_royale_prelude_countdown
+	}
+	if = {
+		limit = {
+			SPR = { has_country_flag = GLC_in_separatist_revolt }
 		}
-		if = {
-			limit = {
-				SPR = { has_country_flag = GLC_in_separatist_revolt }
-			}
-			171 = {
-				transfer_state_to = GLC
-				if = {
-					limit = {
-						has_dynamic_modifier = { modifier = SPR_galicia_nationalists }
-					}
-					remove_dynamic_modifier = { modifier = SPR_galicia_nationalists }
-				}
-			}
-			GLC = {
-				transfer_technology = yes
-				add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
-				reverse_add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
-			}
-		}
-		if = {
-			limit = {
-				SPR = { has_country_flag = CAT_in_separatist_revolt }
-			}
-			every_state = {
+		171 = {
+			transfer_state_to = GLC
+			if = {
 				limit = {
-					OR = {
-						state = 165
-						state = 167
-						state = 1313
-					}
+					has_dynamic_modifier = { modifier = SPR_galicia_nationalists }
 				}
-				if = {
-					limit = {
-						has_dynamic_modifier = { modifier = SPR_catalan_nationalists }
-					}
-					remove_dynamic_modifier = { modifier = SPR_catalan_nationalists }
-				}
-				transfer_state_to = CAT
-			}
-			CAT = {
-				transfer_technology = yes
-				add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
-				reverse_add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
+				remove_dynamic_modifier = { modifier = SPR_galicia_nationalists }
 			}
 		}
-		if = {
-			limit = {
-				SPR = { has_country_flag = BAS_in_separatist_revolt }
+		GLC = {
+			transfer_technology = yes
+			add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
 			}
-			172 = {
-				transfer_state_to = BAS
-				if = {
-					limit = {
-						has_dynamic_modifier = { modifier = SPR_basque_nationalists }
-					}
-					remove_dynamic_modifier = { modifier = SPR_basque_nationalists }
-				}
-			}
-			BAS = {
-				transfer_technology = yes
-				add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
-				reverse_add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
-				}
+			reverse_add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
 			}
 		}
-		if = {
+	}
+	if = {
+		limit = {
+			SPR = { has_country_flag = CAT_in_separatist_revolt }
+		}
+		every_state = {
 			limit = {
-				SPR = { has_country_flag = RIF_in_separatist_revolt }
-				RIF = { NOT = { has_country_flag = RIF_revolt_not_via_separatist_revolt } }
-			}
-			290 = {
-				transfer_state_to = RIF
-				add_core_of = RIF
-			}
-			RIF = {
-				transfer_technology = yes
-				add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
+				OR = {
+					state = 165
+					state = 167
+					state = 1313
 				}
-				reverse_add_opinion_modifier = {
-					target = SPR
-					modifier = KR_hostile
+			}
+			if = {
+				limit = {
+					has_dynamic_modifier = { modifier = SPR_catalan_nationalists }
+				}
+				remove_dynamic_modifier = { modifier = SPR_catalan_nationalists }
+			}
+			transfer_state_to = CAT
+		}
+		CAT = {
+			transfer_technology = yes
+			add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
+			}
+			reverse_add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
+			}
+		}
+	}
+	if = {
+		limit = {
+			SPR = { has_country_flag = BAS_in_separatist_revolt }
+		}
+		172 = {
+			transfer_state_to = BAS
+			if = {
+				limit = {
+					has_dynamic_modifier = { modifier = SPR_basque_nationalists }
+				}
+				remove_dynamic_modifier = { modifier = SPR_basque_nationalists }
+			}
+		}
+		BAS = {
+			transfer_technology = yes
+			add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
+			}
+			reverse_add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
+			}
+		}
+	}
+	if = {
+		limit = {
+			SPR = { has_country_flag = RIF_in_separatist_revolt }
+			RIF = { NOT = { has_country_flag = RIF_revolt_not_via_separatist_revolt } }
+		}
+		290 = {
+			transfer_state_to = RIF
+			add_core_of = RIF
+		}
+		RIF = {
+			transfer_technology = yes
+			add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
+			}
+			reverse_add_opinion_modifier = {
+				target = SPR
+				modifier = KR_hostile
 				}
 			}
 		}
@@ -2914,42 +2914,42 @@ SPR_released_after_annexation_initial_effects_kingdom = {
 	clr_country_flag = SPR_King_Juan
 	set_country_flag = SPR_King_Jaime
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
 		ideology = militarism_subtype
 	}
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
 		ideology = autdem_christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
 		ideology = christian_democracy_subtype
 	}
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Jaime I"
+		name = "Хайме I"
 		desc = "POLITICS_JAIME_BOURBON_DESC"
 		picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 		expire = "1.1.1"
@@ -2973,14 +2973,14 @@ SPR_released_after_annexation_initial_effects_kingdom = {
 			name = SPR_social_democrat_party_alt
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = socdem_humanistic_capitalism_subtype
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"

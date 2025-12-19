@@ -24,7 +24,7 @@ country_event = { #Introduction to the Shan Confederation
 	}
 }
 
-country_event = { #Sao Yang Wen Pin's Northern Offensive
+country_event = { #Сао Ян Вэнь Пин's Northern Offensive
 	id = shan.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event shan.2" }
 	title = shan.2.t
@@ -90,7 +90,7 @@ country_event = { #The Yawnghwe Haw Conference
 	}
 }
 
-country_event = { #Sao Shwe Thaik's speech at Taunggyi
+country_event = { #Со Шве Тай's speech at Taunggyi
 	id = shan.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event shan.5" }
 	title = shan.5.t
@@ -371,13 +371,13 @@ country_event = { #TRY PLAYING THE SHAN CONFEDERATION NOW YOU STUPID FUCKING BAS
 			ideology = national_populist
 		}
 		create_country_leader = {
-			name = "Patrick Bateman"
+			name = "Патрик Бэйтмен"
 			picture = "gfx/leaders/SHA/Portrait_Shan_Patrick_Bateman.png"
 			expire = "1.1.1"
 			ideology = national_basedism_subtype
 		}
 		create_field_marshal = {
-			name = "Patrick Bateman "
+			name = "Патрик Бэйтмен "
 			portrait_path = "gfx/leaders/SHA/Portrait_Shan_Patrick_Bateman.png"
 			traits = { trickster politically_connected harsh_leader}
 			skill = 5
@@ -387,7 +387,7 @@ country_event = { #TRY PLAYING THE SHAN CONFEDERATION NOW YOU STUPID FUCKING BAS
 			logistics_skill = 4
 		}
 		create_corps_commander = {
-			name = "Paul Allen"
+			name = "Пол Аллен"
 			portrait_path = "gfx/leaders/SHA/Portrait_Shan_Paul_Allen.png"
 			traits = { politically_connected organizer skilled_staffer }
 			skill = 3
@@ -409,21 +409,21 @@ country_event = {
 		log = "[GetDateText]: [Root.GetName]: event shan.18" 
 		hidden_effect = {
 			create_country_leader = {
-				name = "Patrick Bateman"
+				name = "Патрик Бейтман"
 				desc = "POLITICS_BATEMAN_DESC"
 				picture = "gfx/leaders/SHA/Portrait_Shan_Patrick_Bateman.png"
 				expire = "1962.11.21"
 				ideology = national_basedism_subtype
 			}
 			create_country_leader = {
-				name = "T. Rollington Face"
+				name = "T. Роллингтон Фейс"
 				desc = "if you are playing shan, why?"
 				picture = "gfx/leaders/SHA/Portrait_Shan_Trollface_Man_Political.png"
 				expire = "1962.11.21"
 				ideology = radical_socialist_subtype
 			}
 			create_country_leader = {
-				name = "Sir Mittens, Lord Catifax"
+				name = "Сэр Миттенс, лорд Катифакс"
 				desc = "meow"
 				picture = "gfx/leaders/SHA/Portrait_Shan_Cat.png"
 				expire = "1962.11.21"

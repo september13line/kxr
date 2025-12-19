@@ -541,7 +541,7 @@ country_event = { #Worker's militias slaughtered
 		}
 	}
 
-	option = { #Carl August Ehrensvärd
+	option = { #Карл Август Эренсверд
 		name = swe.14.a
 		ai_chance = {
 			factor = 30
@@ -580,7 +580,7 @@ country_event = { #Worker's militias slaughtered
 		remove_ideas = SWE_political_instability_idea
 	}
 
-	option = { #Helge Jung
+	option = { #Хельге Юнг
 		name = swe.14.b
 		ai_chance = {
 			factor = 30
@@ -618,7 +618,7 @@ country_event = { #Worker's militias slaughtered
 		remove_ideas = SWE_political_instability_idea
 	}
 
-	option = { #Archibald Douglas
+	option = { #Арчибальд Дуглас
 		name = swe.14.c
 		ai_chance = {
 			factor = 30
@@ -907,13 +907,13 @@ country_event = { #Militant socialists - restoring the old government after havi
 		custom_effect_tooltip = SWE_tt_Oscar_Nygren_dies
 		hidden_effect = {
 			create_country_leader = {
-				name = "Archibald Douglas"
+				name = "Арчибальд Дуглас"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Archibald Douglas"
+				name = "Арчибальд Дуглас"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -952,13 +952,13 @@ country_event = { #Militant socialists - restoring the old government after havi
 		custom_effect_tooltip = SWE_tt_Oscar_Nygren_dies
 		effect_tooltip = {
 			create_country_leader = {
-				name = "Archibald Douglas"
+				name = "Арчибальд Дуглас"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Archibald Douglas"
+				name = "Арчибальд Дуглас"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -1082,7 +1082,7 @@ country_event = { #Coronation of Gustaf VI Adolf
 	option = { #Hurrah!
 		name = swe.24.a
 		SWE_create_gustaf_adolf_jr = yes
-		drop_cosmetic_tag = yes		
+		drop_cosmetic_tag = yes
 		country_event = { id = swe.25 days = 7 }
 	}
 }
@@ -1136,14 +1136,14 @@ country_event = { #The establishment of the Ehrensvärd cabinet
 		add_ideas = SWE_Carlos_Adlercreutz_sec_ade
 
 		create_country_leader = {
-			name = "Carl August Ehrensvärd"
+			name = "Карл Август Эренсверд"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Carl_August_Ehrensvard.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
 		}
 		
 		create_country_leader = {
-			name = "Carl August Ehrensvärd"
+			name = "Карл Август Эренсверд"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Carl_August_Ehrensvard.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1170,13 +1170,13 @@ country_event = { #The establishment of the Jung Junta
 		add_ideas = SWE_Axel_Rappe_sec_pau
 
 		create_country_leader = {
-			name = "Helge Jung"
+			name = "Хельге Юнг"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Helge_Jung.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Helge Jung"
+			name = "Хельге Юнг"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Helge_Jung.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1203,19 +1203,19 @@ country_event = { #The establishment of the Douglas regime (did not take over Ju
 		add_ideas = SWE_Elof_Eriksson_eco_npo
 		add_ideas = SWE_Martin_Ekstroem_sec_npo
 		create_country_leader = {
-			name = "Archibald Douglas"
+			name = "Арчибальд Дуглас"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Archibald Douglas"
+			name = "Арчибальд Дуглас"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Archibald Douglas"
+			name = "Арчибальд Дуглас"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -1444,7 +1444,7 @@ country_event = { #The establishment of the Douglas regime (did not take over Ju
 		add_ideas = SWE_Martin_Ekstroem_sec_npo
 
 		create_country_leader = {
-			name = "Archibald Douglas"
+			name = "Арчибальд Дуглас"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Archibald_Douglas.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -1452,7 +1452,7 @@ country_event = { #The establishment of the Douglas regime (did not take over Ju
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Archibald Douglas"
+					name = "Арчибальд Дуглас"
 				}
 			}
 			set_country_leader_portrait = {	
@@ -1572,7 +1572,7 @@ country_event = { #Sweden will not join the Third Internationale
 	}
 }
 
-country_event = { #A statue of Per Albin Hansson
+country_event = { #A statue of Пер Альбин Ханссон
 	id = swe.42
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.42" }
 	title = swe.42.t
@@ -2756,7 +2756,7 @@ country_event = { #Hyperinflation
 	}
 }
 
-country_event = { #Death of Gustaf V hidden trigger event
+country_event = { #Death of Густав V hidden trigger event
 	id = swe.72
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.72" }
 
@@ -2771,7 +2771,7 @@ country_event = { #Death of Gustaf V hidden trigger event
 	}
 }
 
-country_event = { #Death of Gustaf V (when you are a monarchy
+country_event = { #Death of Густав V (when you are a monarchy
 	id = swe.73
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.73" }
 	title = swe.73.t
@@ -2789,21 +2789,21 @@ country_event = { #Death of Gustaf V (when you are a monarchy
 	option = { #New king
 		name = swe.73.a
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
 		}
 
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2811,8 +2811,8 @@ country_event = { #Death of Gustaf V (when you are a monarchy
 
 		if = {
 			limit = { has_completed_focus = SWE_new_constitution }
-			create_country_leader = {
-			name = "Gustaf VI Adolf"
+		create_country_leader = {
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = gustavianism_subtype
@@ -2820,7 +2820,7 @@ country_event = { #Death of Gustaf V (when you are a monarchy
 		}
 		else = {
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
@@ -2828,21 +2828,21 @@ country_event = { #Death of Gustaf V (when you are a monarchy
 		}
 
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = market_liberal_subtype
 		}
 
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
 		}
 
 		create_country_leader = {
-			name = "Gustaf VI Adolf"
+			name = "Густав VI Адольф"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Gustaf_Adolf_Sr.png"
 			expire = "1.1.1"
 			ideology = nordic_model_subtype
@@ -3229,7 +3229,7 @@ country_event = { #The writer's union wants to write a biography on the General 
 	}
 }
 
-country_event = { #The Life of Nils Flyg (totalist went nuts with it)
+country_event = { #The Life of Нильс Флиг (totalist went nuts with it)
 	id = swe.87
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.87" }
 	title = swe.87.t
@@ -3258,7 +3258,7 @@ country_event = { #The Life of Nils Flyg (totalist went nuts with it)
 	}
 }
 
-country_event = { #The Life of Nils Flyg (more objective)
+country_event = { #The Life of Нильс Флиг (more objective)
 	id = swe.88
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.88" }
 	title = swe.88.t
@@ -3588,7 +3588,7 @@ country_event = { #General Secretary Election, oops, Linderot isn't a choice
 			}
 		}
 		create_country_leader = {
-			name = "Sven Olov Lindholm"
+			name = "Свен Олов Линдхольм"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Sven_Sven_Olov_Lindholm.png"
 			expire = "1.1.1"
 			ideology = lindholmism_subtype
@@ -3619,7 +3619,7 @@ country_event = { #General Secretary Election, oops, Linderot isn't a choice
 		add_ideas = SWE_Oesten_Unden_eco_rso
 		add_ideas = SWE_Karl_Kilbom_sec_rso
 		create_country_leader = {
-			name = "Karl Kilbom"
+			name = "Карл Чильбум"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.png"
 			expire = "1.1.1"
 			ideology = radical_socialist_subtype
@@ -3675,7 +3675,7 @@ country_event = { #Radsoc Politbureau dissolves congress
 	}
 }
 
-country_event = { #Recall vote on Nils Flyg
+country_event = { #Recall vote on Нильс Флиг
 	id = swe.101
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.101" }
 	title = swe.101.t
@@ -3713,7 +3713,7 @@ country_event = { #Recall vote on Nils Flyg
 		add_ideas = SWE_Oesten_Unden_eco_rso
 		add_ideas = SWE_Karl_Kilbom_sec_rso
 		create_country_leader = {
-			name = "3rd Swedish Worker's Congress"
+			name = "3-й Шведский рабочий конгресс"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Revolutionary_Committee.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -3743,7 +3743,7 @@ country_event = { #Elect General Secretary
 		}
 	}
 
-	option = { # Karl Kilbom
+	option = { # Карл Чильбум
 		name = swe.102.a
 		ai_chance = { factor = 50 }
 		set_politics = {
@@ -3756,14 +3756,14 @@ country_event = { #Elect General Secretary
 		add_ideas = SWE_Oesten_Unden_eco_rso
 		add_ideas = SWE_Karl_Kilbom_sec_rso
 		create_country_leader = {
-			name = "Karl Kilbom"
+			name = "Карл Чильбум"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
 		}
 	}
 
-	option = { # Frans Severin
+	option = { # Франс Северин
 		name = swe.102.b
 		ai_chance = { factor = 25 }
 		set_politics = {
@@ -3777,7 +3777,7 @@ country_event = { #Elect General Secretary
 		add_ideas = SWE_Folke_Fridell_sec_syn
 		add_popularity = { ideology = syndicalist popularity = 0.2 }
 		create_country_leader = {
-			name = "Frans Severin"
+			name = "Франс Северин"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Frans_Severin.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -3791,7 +3791,7 @@ country_event = { #Elect General Secretary
 	}
 }
 
-country_event = { #Nils Flyg ded, Olsson GS
+country_event = { #Нильс Флиг ded, Olsson GS
 	id = swe.103
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.103" }
 	title = swe.103.t
@@ -3814,7 +3814,7 @@ country_event = { #Nils Flyg ded, Olsson GS
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Karl_Kilbom_hog_rso
 		create_country_leader = {
-			name = "Arvid Olsson"
+			name = "Арвид Ольссон"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Arvid_Olsson.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3822,7 +3822,7 @@ country_event = { #Nils Flyg ded, Olsson GS
 	}
 }
 
-country_event = { #Nils Flyg ded, Linderot GS
+country_event = { #Нильс Флиг ded, Linderot GS
 	id = swe.104
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.104" }
 	title = swe.104.t
@@ -3845,7 +3845,7 @@ country_event = { #Nils Flyg ded, Linderot GS
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Sven_Linderot_hog_tot
 		create_country_leader = {
-			name = "Sven Linderot"
+			name = "Свен Линдерут"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Sven_Linderot.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3853,7 +3853,7 @@ country_event = { #Nils Flyg ded, Linderot GS
 	}
 }
 
-country_event = { #Nils Flyg ded, but he didn't matter anymore
+country_event = { #Нильс Флиг ded, but he didn't matter anymore
 	id = swe.105
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.105" }
 	title = swe.105.t
@@ -3879,7 +3879,7 @@ country_event = { #Nils Flyg ded, but he didn't matter anymore
 	}
 }
 
-country_event = { #Nils Flyg ded, but he didn't matter anymore 2
+country_event = { #Нильс Флиг ded, but he didn't matter anymore 2
 	id = swe.106
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.106" }
 	title = swe.106.t
@@ -3902,7 +3902,7 @@ country_event = { #Nils Flyg ded, but he didn't matter anymore 2
 	}
 }
 
-country_event = { #Nils Flyg ded, but he never mattered
+country_event = { #Нильс Флиг ded, but he never mattered
 	id = swe.107
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.107" }
 	title = swe.107.t
@@ -3930,7 +3930,7 @@ country_event = { #Nils Flyg ded, but he never mattered
 	}
 }
 
-country_event = { #Nils Flyg ded, filthy syndie
+country_event = { #Нильс Флиг ded, filthy syndie
 	id = swe.108
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.108" }
 	title = swe.108.t
@@ -3953,7 +3953,7 @@ country_event = { #Nils Flyg ded, filthy syndie
 	}
 }
 
-country_event = { #Nils Flyg ded, because he couldn't be evacuated
+country_event = { #Нильс Флиг ded, because he couldn't be evacuated
 	id = swe.109
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.109" }
 	title = swe.109.t
@@ -3977,7 +3977,7 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Sven_Linderot_hog_tot
 		create_country_leader = {
-			name = "Arvid Olsson"
+			name = "Арвид Ольссон"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Arvid_Olsson.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -3991,7 +3991,7 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Sven_Linderot_hog_tot
 		create_country_leader = {
-			name = "Sven Linderot"
+			name = "Свен Линдерут"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Sven_Linderot.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -4005,14 +4005,14 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Sven_Olov_Lindholm_hog_tot
 		create_country_leader = {
-			name = "Sven Olov Lindholm"
+			name = "Свен Олов Линдхольм"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Sven_Sven_Olov_Lindholm.png"
 			expire = "1.1.1"
 			ideology = lindholmism_subtype
 		}
 	}
 
-	option = { # Karl Kilbom
+	option = { # Карл Чильбум
 		name = swe.109.c
 		ai_chance = {
 			factor = 5
@@ -4035,7 +4035,7 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 		add_ideas = SWE_Oesten_Unden_eco_rso
 		add_ideas = SWE_Karl_Kilbom_sec_rso
 		create_country_leader = {
-			name = "Karl Kilbom"
+			name = "Карл Чильбум"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -4043,7 +4043,7 @@ country_event = { #Nils Flyg ded, because he couldn't be evacuated
 	}
 }
 
-country_event = { #Nils Flyg ded because Stockholm is occupied during his first heart attack
+country_event = { #Нильс Флиг ded because Stockholm is occupied during his first heart attack
 	id = swe.110
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swe.110" }
 	title = swe.110.t
@@ -4068,7 +4068,7 @@ country_event = { #Nils Flyg ded because Stockholm is occupied during his first 
 		remove_ideas_with_trait = head_of_government
 		add_ideas = SWE_Sven_Linderot_hog_tot
 		create_country_leader = {
-			name = "Arvid Olsson"
+			name = "Арвид Ольссон"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Arvid_Olsson.png"
 			expire = "1.1.1"
 			ideology = natsynd_subtype
@@ -4484,7 +4484,7 @@ country_event = { #Riksledare confirmed dead
 		add_political_power = -25
 		set_country_flag = Archibald_Douglas_dead
 		create_country_leader = {
-			name = "Axel Gyllenkrok"
+			name = "Аксель Гилленкрок"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Axel_Gyllenkrok.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -4506,11 +4506,11 @@ country_event = { #Death of the Riksledare
 		NOT = { has_country_flag = Archibald_Douglas_dead }
 	}
 
-	option = { #Axel Gyllenkrok, Archibald's friend
+	option = { #Аксель Гилленкрок, Archibald's friend
 		name = swe.124.a
 		ai_chance = { factor = 40 }
 		create_country_leader = {
-			name = "Axel Gyllenkrok"
+			name = "Аксель Гилленкрок"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Axel_Gyllenkrok.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -4524,7 +4524,7 @@ country_event = { #Death of the Riksledare
 		name = swe.124.b
 		ai_chance = { factor = 30 }
 		create_country_leader = {
-			name = "Martin Ekström"
+			name = "Мартин Экстрём"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Martin_Ekstrom.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -4534,11 +4534,11 @@ country_event = { #Death of the Riksledare
 		set_country_flag = Archibald_Douglas_dead
 	}
 
-	option = { #Birger Furugård, paramilitary leader
+	option = { #Биргер Фуругорд, paramilitary leader
 		name = swe.124.e
 		ai_chance = { factor = 30 }
 		create_country_leader = {
-			name = "Birger Furugård"
+			name = "Биргер Фуругорд"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Birger_Furugard.png"
 			expire = "1.1.1"
 			ideology = legionarism_subtype
@@ -4552,7 +4552,7 @@ country_event = { #Death of the Riksledare
 		name = swe.124.f
 		ai_chance = { factor = 30 }
 		create_country_leader = {
-			name = "Elmo Lindholm"
+			name = "Элмо Линдхольм"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Elmo_Lindholm.png"
 			expire = "1.1.1"
 			ideology = riksvitalism_subtype
@@ -4583,7 +4583,7 @@ country_event = { #Death of the Riksledare
 		add_ideas = SWE_Axel_Rappe_sec_pau
 
 		create_country_leader = {
-			name = "Helge Jung"
+			name = "Хельге Юнг"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Helge_Jung.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -5339,7 +5339,7 @@ country_event = {
 				date < 1943.1.9
 			}
 			create_country_leader = {
-				name = "Nils Flyg"
+				name = "Нильс Флиг"
 				desc = "politics_nils_flyg_desc"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Nils_Flyg.png"
 				expire = "1.1.1"
@@ -5348,7 +5348,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Arvid Olsson"
+				name = "Арвид Ольссон"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Arvid_Olsson.png"
 				expire = "1.1.1"
 				ideology = natsynd_subtype
@@ -5375,7 +5375,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Karl Kilbom"
+			name = "Карл Чильбум"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -5391,7 +5391,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Karin Boye"
+			name = "Карин Бойе"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karin_Boye.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
@@ -5424,7 +5424,7 @@ country_event = {
 		add_ideas = SWE_Gustav_Sjoestroem_eco_syn
 		add_ideas = SWE_Folke_Fridell_sec_syn
 		create_country_leader = {
-			name = "Elise Ottesen-Jensen"
+			name = "Элиза Оттесен-Йенсен"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Elise_Ottesen_Jensen.png"
 			expire = "1.1.1"
 			ideology = syndicalist_subtype
@@ -5444,7 +5444,7 @@ country_event = {
 		add_ideas = SWE_Gustav_Sjoestroem_eco_syn
 		add_ideas = SWE_Folke_Fridell_sec_syn
 		create_country_leader = {
-			name = "Frans Severin"
+			name = "Франс Северин"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Frans_Severin.png"
 			expire = "1.1.1"
 			ideology = syndicalist_subtype
@@ -5503,7 +5503,7 @@ country_event = {
 				date < 1943.1.9
 			}
 			create_country_leader = {
-				name = "Nils Flyg"
+				name = "Нильс Флиг"
 				desc = "politics_nils_flyg_desc"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Nils_Flyg.png"
 				expire = "1.1.1"
@@ -5512,7 +5512,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Arvid Olsson"
+				name = "Арвид Ольссон"
 				picture = "gfx/leaders/SWE/Portrait_Sweden_Arvid_Olsson.png"
 				expire = "1.1.1"
 				ideology = natsynd_subtype
@@ -5536,7 +5536,7 @@ country_event = {
 		add_ideas = SWE_Gustav_Sjoestroem_eco_syn
 		add_ideas = SWE_Folke_Fridell_sec_syn
 		create_country_leader = {
-			name = "Frans Severin"
+			name = "Франс Северин"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Frans_Severin.png"
 			expire = "1.1.1"
 			ideology = syndicalist_subtype
@@ -5559,7 +5559,7 @@ country_event = {
 		add_ideas = SWE_Oesten_Unden_eco_rso
 		add_ideas = SWE_Karl_Kilbom_sec_rso
 		create_country_leader = {
-			name = "Karl Kilbom"
+			name = "Карл Чильбум"
 			picture = "gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.png"
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype

@@ -1,76 +1,61 @@
 defined_text = {
-	name = getSRIarmyfocusname
+	name = getSRInavyfocusname
 	text = {
 		trigger = {
 			has_completed_focus = SRI_garibaldi_ii
 		}
-		localization_key = AuthArmyName
+		localization_key = AuthNavyName
 	}
 	text = {
 		trigger = {
 			NOT = { has_completed_focus = SRI_garibaldi_ii }
 		}
-		localization_key = RedArmyName
+		localization_key = RedNavyName
 	}
 }
 defined_text = {
-	name = getSRImountaineerfocusname
+	name = getSRImarinesfocusname
 	text = {
 		trigger = {
 			has_completed_focus = SRI_garibaldi_ii
 		}
-		localization_key = AuthMountainName
+		localization_key = AuthMarineName
 	}
 	text = {
 		trigger = {
 			NOT = { has_completed_focus = SRI_garibaldi_ii }
 		}
-		localization_key = RedMountainName
+		localization_key = RedMarineName
 	}
 }
 defined_text = {
-	name = getSRIconglomeratename
+	name = getSRIairforcefocusname
 	text = {
 		trigger = {
 			has_completed_focus = SRI_garibaldi_ii
 		}
-		localization_key = AuthConglomerateName
+		localization_key = AuthAirforceName
 	}
 	text = {
 		trigger = {
 			NOT = { has_completed_focus = SRI_garibaldi_ii }
 		}
-		localization_key = RedConglomerateName
+		localization_key = RedAirForceName
 	}
 }
 defined_text = {
-	name = getSRIlegionname
+	name = getSRIjetsfocusname
 	text = {
 		trigger = {
 			has_completed_focus = SRI_garibaldi_ii
 		}
-		localization_key = AuthLegionName
+		localization_key = AuthJetsName
 	}
 	text = {
 		trigger = {
 			NOT = { has_completed_focus = SRI_garibaldi_ii }
 		}
-		localization_key = RedLegionName
-	}
-}
-defined_text = {
-	name = getSRImarenostrumname
-	text = {
-		trigger = {
-			has_completed_focus = SRI_garibaldi_ii
-		}
-		localization_key = AuthNostrumName
-	}
-	text = {
-		trigger = {
-			NOT = { has_completed_focus = SRI_garibaldi_ii }
-		}
-		localization_key = RedNostrumName
+		localization_key = RedJetsName
 	}
 }
 
@@ -79,7 +64,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Napoleon VI"
+				name = "Наполеон VI"
 				ruling_only = yes
 			}
 		}
@@ -89,7 +74,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Napoleon VI"
+					name = "Наполеон VI"
 					ruling_only = yes
 				}
 			}
@@ -103,7 +88,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Napoleon VI"
+				name = "Наполеон VI"
 				ruling_only = yes
 			}
 		}
@@ -113,7 +98,7 @@ defined_text = {
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Napoleon VI"
+					name = "Наполеон VI"
 					ruling_only = yes
 				}
 			}

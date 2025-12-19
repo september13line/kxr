@@ -106,7 +106,7 @@ country_event = { # ACW nation informed that Canada has seized New England
 		text = newengland.2.d.nocsa
 		trigger = { NOT = { country_exists = CSA } }
 	}
-	
+
 	trigger = {
 		NOT = {
 			has_global_flag = CAL_peaceoutgang
@@ -344,7 +344,7 @@ country_event = { # Canada Releases New England
 				limit = { has_dlc = "La Resistance"	}
 				CAN = {
 					create_operative_leader = {
-						name = "Virginia Hall"
+						name = "Вирджиния Холл"
 						GFX = GFX_portrait_kr_virginia_hall
 						traits = { operative_demolition_expert }
 						bypass_recruitment = no
@@ -535,22 +535,22 @@ country_event = { # America is reunited
 			AND = {
 				TXS = { 
 					exists = yes
-					has_country_flag = TXS_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = TXS_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
 				NYC = {
 					exists = yes
-					has_country_flag = NYC_can_invade_america
-					is_ally_of_ROOT = no
+				has_country_flag = NYC_can_invade_america
+				is_ally_of_ROOT = no
 				}
 			}
 			AND = {
-				BBR = {
+				BBR = {	
 					exists = yes
-					has_country_flag = BBR_claimed_america
-					is_ally_of_ROOT = no
+				has_country_flag = BBR_claimed_america
+				is_ally_of_ROOT = no
 				}
 			}
 		}
@@ -597,7 +597,7 @@ country_event = { # America is reunited
 		if = {
 			limit = {
 			    OR = {
-					has_cosmetic_tag = NEE_LERMOND_FLAG
+			   has_cosmetic_tag = NEE_LERMOND_FLAG
 					has_cosmetic_tag = NEE_commoner
 				}
 			}
@@ -646,7 +646,7 @@ country_event = { # America is reunited
 		if = {
 			limit = {
 			   OR = {
-				has_cosmetic_tag = NEE_new_ireland
+			   has_cosmetic_tag = NEE_new_ireland
 				has_cosmetic_tag = NEE_trve_ire
 			   }
 			}
@@ -685,7 +685,7 @@ country_event = { # America is reunited
 			set_country_flag = NEE_groves_post
 			hidden_effect = {
 				create_corps_commander = {
-				name = "William C. Westmoreland"
+				name = "Уильям Ч. Уэстморленд"
 				portrait_path = "gfx/leaders/NEE/Portrait_NEE_William_Westmoreland_general.png"
 				traits = { infantry_officer }
 				skill = 2
@@ -736,10 +736,10 @@ country_event = { # America is reunited
 		}
 		if = {
 			limit = {
-				has_template = "Resistance"
+				has_template = "Подразделение сопротивления"
 			}
 			delete_unit_template_and_units = {
-				division_template = "Resistance"
+				division_template = "Подразделение сопротивления"
 			}
 		}
 		hidden_effect = {
@@ -789,10 +789,10 @@ country_event = { # America is reunited
 		set_cosmetic_tag = NEE_america_lovecraft
 		if = {
 			limit = {
-				has_template = "Resistance"
+				has_template = "Подразделение сопротивления"
 			}
 			delete_unit_template_and_units = {
-				division_template = "Resistance"
+				division_template = "Подразделение сопротивления"
 			}
 		}
 		hidden_effect = {
@@ -1087,8 +1087,8 @@ country_event = { # The Provisional Government
 
 	immediate = { 
 		hidden_effect = {
-			create_country_leader = {# William Averell Harriman
-				name = "William Averell Harriman"
+			create_country_leader = {# Аверелл Гарриман
+				name = "Аверелл Гарриман"
 				desc = "POLITICS_WILLIAM_HARRIMAN_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_william_harriman.png"
 				expire = "1.1.1"
@@ -1097,8 +1097,8 @@ country_event = { # The Provisional Government
 					NEE_committed_diplomat
 				}
 			}
-			create_country_leader = {# Percival P. Baxter
-				name = "Percival P. Baxter"
+			create_country_leader = {# Персиваль П. Бакстер
+				name = "Персиваль П. Бакстер"
 				desc = "POLITICS_PERCIVAL_BAXTER_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Percival_P_Baxter.png"
 				expire = "1.1.1"
@@ -1108,7 +1108,7 @@ country_event = { # The Provisional Government
 				}
 			}
 			create_country_leader = {# Curley
-				name = "James Michael Curley"
+				name = "Джеймс Майкл Керли"
 				desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 				expire = "1.1.1"
@@ -1347,8 +1347,8 @@ country_event = { # The Provisional Government
 			}
 		}
 		name = newengland.20.f
-		create_country_leader = {# Prescott Bush
-			name = "Prescott Bush"
+		create_country_leader = {# Прескотт Буш
+			name = "Прескотт Буш"
 			desc = "POLITICS_PRESCOTT_BUSH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Prescott_Bush.png"
 			expire = "1.1.1"
@@ -1524,7 +1524,7 @@ country_event = { # 1940 Prohibition Party Primary
 
 	is_triggered_only = yes
 
-	option = { # Roger Babson
+	option = { # Роджер Бабсон
 		name = newengland.2122.a
 		hidden_effect = {
 			set_country_flag = NEE_1940_prohibition_primary_babson
@@ -1537,10 +1537,10 @@ country_event = { # 1940 Prohibition Party Primary
 		name = newengland.2122.b
 		hidden_effect = {
 			set_country_flag = NEE_1940_prohibition_primary_upshaw
-		}
+			}
 		custom_effect_tooltip = if_candidate_elected_tt
 		custom_effect_tooltip = socdem_popular_patriotism_subtype_swap_tt
-	}
+		}
 	option = { # Robert Shuler
 		name = newengland.2122.c
 		hidden_effect = {
@@ -1552,7 +1552,7 @@ country_event = { # 1940 Prohibition Party Primary
 	option = { # D. Leigh Colvin
 		name = newengland.2122.e
 		hidden_effect = {
-			set_country_flag = NEE_1940_prohibition_primary_colvin
+		set_country_flag = NEE_1940_prohibition_primary_colvin
 		}
 		custom_effect_tooltip = if_candidate_elected_tt
 		custom_effect_tooltip = socdem_teetotalism_subtype_swap_tt
@@ -1659,7 +1659,7 @@ country_event = { # 1940 Republican Primary
 				factor = 2
 				has_country_leader = {
 					ruling_only = yes
-					name = "Percival P. Baxter"
+					name = "Персиваль П. Бакстер"
 				}
 			}
 		}
@@ -1683,7 +1683,7 @@ country_event = { # 1940 Republican Primary
 				factor = 2
 				has_country_leader = {
 					ruling_only = yes
-					name = "Joseph William Martin Jr."
+					name = "Джозеф Уильям Мартин мл."
 				}
 			}
 		}
@@ -1941,7 +1941,7 @@ country_event = { # 1940 Democrat Primary
 				NOT = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Percival P. Baxter"
+						name = "Персиваль П. Бакстер"
 					}
 				}
 			}
@@ -2028,12 +2028,12 @@ country_event = { # 1940 Election
 
 	immediate = {
 		hidden_effect = {
-			if = { # Joseph Kennedy Sr.
+			if = { # Джозеф Патрик Кеннеди
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_kennedy
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Sr."
+					name = "Джозеф Патрик Кеннеди"
 					desc = "POLITICS_JOSEPH_KENNEDY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_kennedy_sr.png"
 					expire = "1.1.1"
@@ -2047,7 +2047,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_democratic_primary_curley
 				}
 				create_country_leader = {# Curley
-					name = "James Michael Curley"
+					name = "Джеймс Майкл Керли"
 					desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 					expire = "1.1.1"
@@ -2058,12 +2058,12 @@ country_event = { # 1940 Election
 				}
 			}
 
-			if = { # Al Smith
+			if = { # Эл Смит
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_smith
 				}
 				create_country_leader = {
-					name = "Al Smith"
+					name = "Эл Смит"
 					desc = "POLITICS_AL_SMITH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Al_Smith.png"
 					expire = "1.1.1"
@@ -2077,7 +2077,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_democratic_primary_cross
 				}
 				create_country_leader = {
-					name = "Wilbur Lucius Cross"
+					name = "Вилбур Люциус Кросс"
 					desc = "POLITICS_WILBUR_CROSS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Wilbur_Lucius_Cross.png"
 					expire = "1.1.1"
@@ -2086,12 +2086,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # John Gilbert Winant
+			if = { # Джон Гилберт Уайнант
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_winant
 				}
 				create_country_leader = {
-					name = "John Gilbert Winant"
+					name = "Джон Гилберт Уайнант"
 					desc = "POLITICS_JOHN_WINANT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_john_winant.png"
 					expire = "1.1.1"
@@ -2102,12 +2102,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Herbert H. Lehman
+			if = { # Герберт Леман
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_lehman
 				}
 				create_country_leader = {
-					name = "Herbert H. Lehman"
+					name = "Герберт Леман"
 					desc = "POLITICS_HERBERT_LEHMAN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_Lehman.png"
 					expire = "1.1.1"
@@ -2123,7 +2123,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_fish
 				}
 				create_country_leader = {# Fish
-					name = "Hamilton Fish III"
+					name = "Гамильтон Фиш III"
 					desc = "POLITICS_HAMILTON_FISH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Hamilton_Fish_III.png"
 					expire = "1.1.1"
@@ -2139,7 +2139,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_martin
 				}
 				create_country_leader = {# Fish
-					name = "Joseph William Martin Jr."
+					name = "Джозеф Уильям Мартин мл."
 					desc = "POLITICS_HAMILTON_FISH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_martin_jr.png"
 					expire = "1.1.1"
@@ -2150,12 +2150,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Percival P. Baxter
+			if = { # Персиваль П. Бакстер
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_baxter
 				}
 				create_country_leader = {
-					name = "Percival P. Baxter"
+					name = "Персиваль П. Бакстер"
 					desc = "POLITICS_PERCIVAL_BAXTER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Percival_P_Baxter.png"
 					expire = "1.1.1"
@@ -2166,12 +2166,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Prescott Bush
+			if = { # Прескотт Буш
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_bush
 				}
-				create_country_leader = {# Prescott Bush
-					name = "Prescott Bush"
+				create_country_leader = {# Прескотт Буш
+					name = "Прескотт Буш"
 					desc = "POLITICS_PRESCOTT_BUSH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Prescott_Bush.png"
 					expire = "1.1.1"
@@ -2182,12 +2182,12 @@ country_event = { # 1940 Election
 				}
 			}
 
-			if = { # Bingham
+			if = { # Прескотт Буш
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_bingham
 				}
-				create_country_leader = {# Bingham
-					name = "Hiram Bingham III"
+				create_country_leader = {# Прескотт Буш
+					name = "Хайрам Бингем III"
 					desc = "POLITICS_BINGHAM_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III_political.png"
 					expire = "1.1.1"
@@ -2198,12 +2198,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Lewis Barrows
+			if = { # Прескотт Буш
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_barrows
 				}
-				create_country_leader = {# Lewis Barrows
-					name = "Lewis O. Barrows"
+				create_country_leader = {# Прескотт Буш
+					name = "Льюис О. Барроуз"
 					desc = "POLITICS_BARROWS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Lewis_Barrows.png"
 					expire = "1.1.1"
@@ -2214,12 +2214,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Fred Trump
+			if = { # Фред Трамп
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_trump
 				}
-				create_country_leader = {# Fred Trump
-					name = "Fred Trump"
+				create_country_leader = {# Прескотт Буш
+					name = "Фред Трамп"
 					desc = "POLITICS_FRED_TRUMP_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Fred_Trump.png"
 					expire = "1.1.1"
@@ -2235,7 +2235,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_herter
 				}
 				create_country_leader = {
-					name = "Christian Herter"
+					name = "Кристиан Арчибальд Гертер"
 					desc = "POLITICS_CHRISTIAN_HERTER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Christian_Archibald_Herter.png"
 					expire = "1.1.1"
@@ -2244,10 +2244,10 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Thomas Dewey
+			if = { # Томас Дьюи
 				limit = { has_country_flag = NEE_1940_liberal_republican_primary_dewey }
 				create_country_leader = {
-					name = "Thomas Dewey"
+					name = "Томас Дьюи"
 					desc = "POLITICS_THOMAS_DEWEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Thomas_Dewey.png"
 					expire = "1.1.1"
@@ -2261,7 +2261,7 @@ country_event = { # 1940 Election
 			if = { # Charles Hurley
 				limit = { has_country_flag = NEE_1940_liberal_republican_primary_hurley }
 				create_country_leader = {
-					name = "Charles F. Hurley"
+					name = "Чарльз Ф. Херли"
 					desc = "POLITICS_CHARLES_HURLEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Charles_Hurley.png"
 					expire = "1.1.1"
@@ -2277,7 +2277,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_quaker_primary_roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -2293,7 +2293,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_quaker_primary_toomer
 				}
 				create_country_leader = {
-					name = "Jean Toomer"
+					name = "Джин Тумер"
 					desc = "POLITICS_JEAN_TOOMER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Jean_Toomer.png"
 					expire = "1.1.1"
@@ -2361,7 +2361,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_liberal_primary_aiken
 				}
 				create_country_leader = {
-					name = "George Aiken"
+					name = "Джордж Эйкен"
 					desc = "POLITICS_GEORGE_AIKEN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 					expire = "1.1.1"
@@ -2376,12 +2376,12 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Scott_Nearing_eco_sde
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Frances Perkins
+			if = { # Фрэнсис Перкинс
 				limit = {
 					has_country_flag = NEE_1940_liberal_primary_perkins
 				}
 				create_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					desc = "POLITICS_FRANCES_PERKINS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frances_Perkins.png"
 					expire = "1.1.1"
@@ -2427,10 +2427,10 @@ country_event = { # 1940 Election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		if = {
@@ -2536,12 +2536,12 @@ country_event = { # 1940 Election
 		}
 		hidden_effect = {
 			
-			if = { # Roger Babson
+			if = { # Роджер Бабсон
 				limit = {
 					has_country_flag = NEE_1940_prohibition_primary_babson
 				}
 				create_country_leader = {
-					name = "Roger Babson"
+					name = "Роджер Бабсон"
 					desc = "POLITICS_ROGER_BABSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Roger_Babson.png"
 					expire = "1.1.1"
@@ -2556,7 +2556,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_prohibition_primary_upshaw
 				}
 				create_country_leader = {
-					name = "William D. Upshaw"
+					name = "Уильям Апшоу"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 					expire = "1.1.1"
@@ -2571,7 +2571,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_prohibition_primary_shuler
 				}
 				create_country_leader = {
-					name = "Robert P. Shuler"
+					name = "Роберт Шулер"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_P_Shuler.png"
 					expire = "1.1.1"
@@ -2635,7 +2635,7 @@ country_event = { # 1940 Election
 					country_event = { id = miscnee.183 days = 1100 }
 				}
 			}
-			if = { # Thomas Dewey
+			if = { # Томас Дьюи
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_dewey
 				}
@@ -2851,7 +2851,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_William_Stuart_Symington_Jr_eco_sco
 				add_ideas = NEE_Wilbur_Lucius_Cross_sec_sco
 			}
-			if = { # Al Smith
+			if = { # Эл Смит
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_smith
 				}
@@ -3444,12 +3444,12 @@ country_event = { # 1944 election
 
 	immediate = {
 		hidden_effect = {
-			if = { # Eleanor Roosevelt
+			if = { # Элеонора Рузвельт
 				limit = {
 					has_country_flag = NEE_1944_quaker_primary_roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -3459,12 +3459,12 @@ country_event = { # 1944 election
 					}
 				}
 			}
-			if = { # Clarence Pickett
+			if = { # Кларенс Пикетт
 				limit = {
 					has_country_flag = NEE_1944_quaker_primary_pickett
 				}
 				create_country_leader = {
-					name = "Clarence Pickett"
+					name = "Кларенс Пикетт"
 					desc = "POLITICS_CLARENCE_PICKETT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 					expire = "1.1.1"
@@ -3472,12 +3472,12 @@ country_event = { # 1944 election
 					traits = { determined_peacemaker }
 				}
 			}
-			if = { # Wilson A. Head
+			if = { # Уилсон А. Хэд
 				limit = {
 					has_country_flag = NEE_1944_quaker_primary_head
 				}
 				create_country_leader = {
-					name = "Wilson A. Head"
+					name = "Уилсон А. Хэд"
 					desc = "POLITICS_WILSON_HEAD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Wilson_Head.png"
 					expire = "1.1.1"
@@ -3492,7 +3492,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_quaker_primary_toomer
 				}
 				create_country_leader = {
-					name = "Jean Toomer"
+					name = "Джин Тумер"
 					desc = "POLITICS_JEAN_TOOMER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Jean_Toomer.png"
 					expire = "1.1.1"
@@ -3508,7 +3508,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_liberal_republican_primary_roberts
 				}
 				create_country_leader = {
-					name = "Dennis J. Roberts"
+					name = "Деннис Дж. Робертс"
 					desc = "POLITICS_DENNIS_ROBERTS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Dennis_Roberts.png"
 					expire = "1.1.1"
@@ -3516,12 +3516,12 @@ country_event = { # 1944 election
 					traits = { economic_reformer }
 				}
 			}
-			if = { # Peter G. Gerry
+			if = { # Питер Дж. Герри
 				limit = {
 					has_country_flag = NEE_1944_liberal_republican_primary_gerry
 				}
 				create_country_leader = {
-					name = "Peter G. Gerry"
+					name = "Питер Дж. Герри"
 					desc = "POLITICS_PETER_GERRY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Peter_Gerry.png"
 					expire = "1.1.1"
@@ -3529,12 +3529,12 @@ country_event = { # 1944 election
 					traits = { great_survivor }
 				}
 			}
-			if = { # Sherman Adams
+			if = { # Шерман Адамс
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_adams
 				}
 				create_country_leader = {
-					name = "Sherman Adams"
+					name = "Шерман Адамс"
 					desc = "POLITICS_SHERMAN_ADAMS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Sherman_Adams.png"
 					expire = "1.1.1"
@@ -3542,12 +3542,12 @@ country_event = { # 1944 election
 					traits = { quartermaster_general }
 				}
 			}
-			if = { # Robert F. Bradford
+			if = { # Роберт Ф. Брэдфорд
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_bradford
 				}
 				create_country_leader = {
-					name = "Robert F. Bradford"
+					name = "Роберт Ф. Брэдфорд"
 					desc = "POLITICS_ROBERT_BRADFORD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_Bradford.png"
 					expire = "1.1.1"
@@ -3555,12 +3555,12 @@ country_event = { # 1944 election
 					traits = { economist }
 				}
 			}
-			if = { # John Coolidge
+			if = { # Калвин Кулидж
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_coolidge
 				}
 				create_country_leader = {
-					name = "John Coolidge"
+					name = "Калвин Кулидж"
 					desc = "POLITICS_JOHN_COOLIDGE_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Coolidge.png"
 					expire = "1.1.1"
@@ -3568,12 +3568,12 @@ country_event = { # 1944 election
 					traits = { influential_entrepeneur }
 				}
 			}
-			if = { # Raymond Baldwin
+			if = { # Калвин Кулидж
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_baldwin
 				}
 				create_country_leader = {
-					name = "Raymond Baldwin"
+					name = "Раймонд Болдуин"
 					desc = "POLITICS_RAYMOND_BALDWIN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Raymond_Baldwin.png"
 					expire = "1.1.1"
@@ -3586,7 +3586,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_democratic_primary_kennedy
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Sr."
+					name = "Джозеф Патрик Кеннеди"
 					desc = "POLITICS_JOSEPH_KENNEDY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_kennedy_sr.png"
 					expire = "1.1.1"
@@ -3648,12 +3648,12 @@ country_event = { # 1944 election
 			}
 		}
 		hidden_effect = {
-			if = { # Frances Perkins
+			if = { # Фрэнсис Перкинс
 				limit = {
 					has_country_flag = NEE_1944_liberal_primary_perkins
 				}
 				create_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					desc = "POLITICS_FRANCES_PERKINS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frances_Perkins.png"
 					expire = "1.1.1"
@@ -3669,12 +3669,12 @@ country_event = { # 1944 election
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 				
 			}
-			if = { # George Aiken
+			if = { # Джордж Эйкен
 				limit = {
 					has_country_flag = NEE_1944_liberal_primary_aiken
 				}
 				create_country_leader = {
-					name = "George Aiken"
+					name = "Джордж Эйкен"
 					desc = "POLITICS_GEORGE_AIKEN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 					expire = "1.1.1"
@@ -3689,12 +3689,12 @@ country_event = { # 1944 election
 				add_ideas = NEE_Scott_Nearing_eco_sde
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Ernest W. Gibson
+			if = { # Эрнест В. Гибсон
 				limit = {
 					has_country_flag = NEE_1944_liberal_primary_gibson
 				}
 				create_country_leader = {
-					name = "Ernest W. Gibson"
+					name = "Эрнест В. Гибсон"
 					desc = "POLITICS_ERNEST_GIBSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Ernest_William_Gibson_Jr.png"
 					expire = "1.1.1"
@@ -3752,7 +3752,7 @@ country_event = { # 1944 election
 			}
 		}
 		hidden_effect = {
-			if = { # Dennis J. Roberts
+			if = { # Деннис Дж. Робертс
 				limit = {
 					has_country_flag = NEE_1944_liberal_republican_primary_roberts
 				}
@@ -3762,7 +3762,7 @@ country_event = { # 1944 election
 				add_ideas = NEE_Charles_Russell_Clason_eco_sli
 				add_ideas = NEE_Wallace_Humphrey_White_Jr_sec_sli
 			}
-			if = { # Peter G. Gerry
+			if = { # Питер Дж. Герри
 				limit = {
 					has_country_flag = NEE_1944_liberal_republican_primary_gerry
 				}
@@ -3824,7 +3824,7 @@ country_event = { # 1944 election
 			}
 		}
 		hidden_effect = {
-			if = { # Sherman Adams
+			if = { # Шерман Адамс
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_adams
 				}
@@ -3834,7 +3834,7 @@ country_event = { # 1944 election
 				add_ideas = NEE_Harry_Gabriel_Hamlet_eco_mli
 				add_ideas = NEE_Pierrepont_Burt_Noyes_sec_mli
 			}
-			if = { # Robert F. Bradford
+			if = { # Роберт Ф. Брэдфорд
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_bradford
 				}
@@ -3845,7 +3845,7 @@ country_event = { # 1944 election
 				add_ideas = NEE_Pierrepont_Burt_Noyes_sec_mli
 			
 			}
-			if = { # John Coolidge
+			if = { # Калвин Кулидж
 				limit = {
 					has_country_flag = NEE_1944_republican_primary_coolidge
 				}
@@ -4032,10 +4032,10 @@ country_event = { # 1944 election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		if = {
@@ -4136,7 +4136,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_prohibition_primary_colvin
 				}
 				create_country_leader = {
-					name = "D. Leigh Colvin"
+					name = "Лей Колвин"
 					desc = "POLITICS_LEIGH_COLVIN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
 					expire = "1.1.1"
@@ -4149,7 +4149,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_prohibition_primary_babson
 				}
 				create_country_leader = {
-					name = "Roger Babson"
+					name = "Роджер Бабсон"
 					desc = "POLITICS_ROGER_BABSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Roger_Babson.png"
 					expire = "1.1.1"
@@ -4164,7 +4164,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_prohibition_primary_watson
 				}
 				create_country_leader = {
-					name = "Claude A. Watson"
+					name = "Клауд А. Уотсон"
 					desc = "POLITICS_CLAUDE_WATSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Claude_Watson.png"
 					expire = "1.1.1"
@@ -4180,7 +4180,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_prohibition_primary_upshaw
 				}
 				create_country_leader = {
-					name = "William D. Upshaw"
+					name = "Уильям Апшоу"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 					expire = "1.1.1"
@@ -4195,7 +4195,7 @@ country_event = { # 1944 election
 					has_country_flag = NEE_1944_prohibition_primary_shuler
 				}
 				create_country_leader = {
-					name = "Robert P. Shuler"
+					name = "Роберт Шулер"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_P_Shuler.png"
 					expire = "1.1.1"
@@ -4684,7 +4684,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_quaker_primary_roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -4694,12 +4694,12 @@ country_event = { # 1948 election
 					}
 				}
 			}
-			if = { # Clarence Pickett
+			if = { # Кларенс Пикетт
 				limit = {
 					has_country_flag = NEE_1948_quaker_primary_pickett
 				}
 				create_country_leader = {
-					name = "Clarence Pickett"
+					name = "Кларенс Пикетт"
 					desc = "POLITICS_CLARENCE_PICKETT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 					expire = "1.1.1"
@@ -4707,12 +4707,12 @@ country_event = { # 1948 election
 					traits = { determined_peacemaker }
 				}
 			}
-			if = { # Wilson A. Head
+			if = { # Уилсон А. Хэд
 				limit = {
 					has_country_flag = NEE_1948_quaker_primary_head
 				}
 				create_country_leader = {
-					name = "Wilson A. Head"
+					name = "Уилсон А. Хэд"
 					desc = "POLITICS_WILSON_HEAD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Wilson_Head.png"
 					expire = "1.1.1"
@@ -4727,7 +4727,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_quaker_primary_toomer
 				}
 				create_country_leader = {
-					name = "Jean Toomer"
+					name = "Джин Тумер"
 					desc = "POLITICS_JEAN_TOOMER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Jean_Toomer.png"
 					expire = "1.1.1"
@@ -4742,7 +4742,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_liberal_republican_primary_tobin
 				}
 				create_country_leader = {
-					name = "Maurice J. Tobin"
+					name = "Морис Дж. Тобин"
 					desc = "POLITICS_MAURICE_TOBIN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Maurice_Tobin.png"
 					expire = "1.1.1"
@@ -4750,12 +4750,12 @@ country_event = { # 1948 election
 					traits = { NEE_friend_of_labour }
 				}
 			}
-			if = { # Paul A. Dever
+			if = { # Пол А. Девер
 				limit = {
 					has_country_flag = NEE_1948_liberal_republican_primary_dever
 				}
 				create_country_leader = {
-					name = "Paul A. Dever"
+					name = "Пол А. Девер"
 					desc = "POLITICS_PAUL_DEVER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Paul_A_Dever.png"
 					expire = "1.1.1"
@@ -4763,12 +4763,12 @@ country_event = { # 1948 election
 					traits = { armaments_organizer }
 				}
 			}
-			if = { # Chester B. Bowles
+			if = { # Пол А. Девер
 				limit = {
 					has_country_flag = NEE_1948_liberal_republican_primary_bowles
 				}
 				create_country_leader = {
-					name = "Chester B. Bowles"
+					name = "Честер Боулс"
 					desc = "POLITICS_CHESTER_BOWLES_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Chester_Bowles.png"
 					expire = "1.1.1"
@@ -4776,12 +4776,12 @@ country_event = { # 1948 election
 					traits = { NEE_foreign_aid_proponent }
 				}
 			}
-			if = { # Robert F. Bradford
+			if = { # Роберт Ф. Брэдфорд
 				limit = {
 					has_country_flag = NEE_1948_republican_primary_bradford
 				}
 				create_country_leader = {
-					name = "Robert F. Bradford"
+					name = "Роберт Ф. Брэдфорд"
 					desc = "POLITICS_ROBERT_BRADFORD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_Bradford.png"
 					expire = "1.1.1"
@@ -4789,12 +4789,12 @@ country_event = { # 1948 election
 					traits = { economist }
 				}
 			}
-			if = { # Thomas C. Hart
+			if = { # Томас Чарльз Харт
 				limit = {
 					has_country_flag = NEE_1948_democrat_primary_hart
 				}
 				create_country_leader = {
-					name = "Thomas C. Hart"
+					name = "Томас Чарльз Харт"
 					desc = "POLITICS_THOMAS_HART_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Thomas_Hart.png"
 					expire = "1.1.1"
@@ -4855,12 +4855,12 @@ country_event = { # 1948 election
 			}
 		}
 		hidden_effect = {
-			if = { # Frances Perkins
+			if = { # Фрэнсис Перкинс
 				limit = {
 					has_country_flag = NEE_1948_liberal_primary_perkins
 				}
 				create_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					desc = "POLITICS_FRANCES_PERKINS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frances_Perkins.png"
 					expire = "1.1.1"
@@ -4876,12 +4876,12 @@ country_event = { # 1948 election
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 				
 			}
-			if = { # George Aiken
+			if = { # Джордж Эйкен
 				limit = {
 					has_country_flag = NEE_1948_liberal_primary_aiken
 				}
 				create_country_leader = {
-					name = "George Aiken"
+					name = "Джордж Эйкен"
 					desc = "POLITICS_GEORGE_AIKEN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 					expire = "1.1.1"
@@ -4896,12 +4896,12 @@ country_event = { # 1948 election
 				add_ideas = NEE_Scott_Nearing_eco_sde
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Ernest W. Gibson
+			if = { # Эрнест В. Гибсон
 				limit = {
 					has_country_flag = NEE_1948_liberal_primary_gibson
 				}
 				create_country_leader = {
-					name = "Ernest W. Gibson"
+					name = "Эрнест В. Гибсон"
 					desc = "POLITICS_ERNEST_GIBSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Ernest_William_Gibson_Jr.png"
 					expire = "1.1.1"
@@ -4956,7 +4956,7 @@ country_event = { # 1948 election
 			}
 		}
 		hidden_effect = {
-			if = { # Maurice J. Tobin
+			if = { # Морис Дж. Тобин
 				limit = {
 					has_country_flag = NEE_1948_liberal_republican_primary_tobin
 				}
@@ -4973,7 +4973,7 @@ country_event = { # 1948 election
 					}
 				}
 			}
-			if = { # Paul A. Dever
+			if = { # Пол А. Девер
 				limit = {
 					has_country_flag = NEE_1948_liberal_republican_primary_dever
 				}
@@ -4983,7 +4983,7 @@ country_event = { # 1948 election
 				add_ideas = NEE_Ralph_Edward_Flanders_eco_sli
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Paul A. Dever
+			if = { # Пол А. Девер
 				limit = {
 					has_country_flag = NEE_1948_liberal_republican_primary_bowles
 				}
@@ -5034,7 +5034,7 @@ country_event = { # 1948 election
 			}
 		}
 		hidden_effect = {
-			if = { # Robert F. Bradford
+			if = { # Роберт Ф. Брэдфорд
 				limit = {
 					has_country_flag = NEE_1948_republican_primary_bradford
 				}
@@ -5089,7 +5089,7 @@ country_event = { # 1948 election
 			}
 		}
 		hidden_effect = {
-			if = { # Thomas C. Hart
+			if = { # Томас Чарльз Харт
 				limit = {
 					has_country_flag = NEE_1948_democrat_primary_hart
 				}
@@ -5214,10 +5214,10 @@ country_event = { # 1948 election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		if = {
@@ -5310,7 +5310,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_prohibition_primary_colvin
 				}
 				create_country_leader = {
-					name = "D. Leigh Colvin"
+					name = "Лей Колвин"
 					desc = "POLITICS_LEIGH_COLVIN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
 					expire = "1.1.1"
@@ -5323,7 +5323,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_prohibition_primary_babson
 				}
 				create_country_leader = {
-					name = "Roger Babson"
+					name = "Роджер Бабсон"
 					desc = "POLITICS_ROGER_BABSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Roger_Babson.png"
 					expire = "1.1.1"
@@ -5338,7 +5338,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_prohibition_primary_watson
 				}
 				create_country_leader = {
-					name = "Claude A. Watson"
+					name = "Клауд А. Уотсон"
 					desc = "POLITICS_CLAUDE_WATSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Claude_Watson.png"
 					expire = "1.1.1"
@@ -5354,7 +5354,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_prohibition_primary_upshaw
 				}
 				create_country_leader = {
-					name = "William D. Upshaw"
+					name = "Уильям Апшоу"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 					expire = "1.1.1"
@@ -5369,7 +5369,7 @@ country_event = { # 1948 election
 					has_country_flag = NEE_1948_prohibition_primary_shuler
 				}
 				create_country_leader = {
-					name = "Robert P. Shuler"
+					name = "Роберт Шулер"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_P_Shuler.png"
 					expire = "1.1.1"
@@ -5527,7 +5527,7 @@ country_event = { # 1952 Quaker Party Primary
 		trigger = {
 			NOT = { country_exists = CSA }
 			NOT = { country_exists = BBR }
-			NOT = { NYC = { has_country_leader = { name = "Bayard Rustin" ruling_only = yes } } }
+			NOT = { NYC = { has_country_leader = { name = "Баярд Растин" ruling_only = yes } } }
 		}
 		hidden_effect = {
 			set_country_flag = NEE_1952_quaker_primary_rustin
@@ -5867,12 +5867,12 @@ country_event = { # 1952 election
 	immediate = {
 		hidden_effect = {
 			remove_all_ministers = yes
-			if = { # Eleanor Roosevelt
+			if = { # Элеонора Рузвельт
 				limit = {
 					has_country_flag = NEE_1952_quaker_primary_roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -5882,12 +5882,12 @@ country_event = { # 1952 election
 					}
 				}
 			}
-			if = { # Clarence Pickett
+			if = { # Кларенс Пикетт
 				limit = {
 					has_country_flag = NEE_1944_quaker_primary_pickett
 				}
 				create_country_leader = {
-					name = "Clarence Pickett"
+					name = "Кларенс Пикетт"
 					desc = "POLITICS_CLARENCE_PICKETT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 					expire = "1.1.1"
@@ -5895,12 +5895,12 @@ country_event = { # 1952 election
 					traits = { determined_peacemaker }
 				}
 			}
-			if = { # Wilson A. Head
+			if = { # Уилсон А. Хэд
 				limit = {
 					has_country_flag = NEE_1952_quaker_primary_head
 				}
 				create_country_leader = {
-					name = "Wilson A. Head"
+					name = "Уилсон А. Хэд"
 					desc = "POLITICS_WILSON_HEAD_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Wilson_Head.png"
 					expire = "1.1.1"
@@ -5915,7 +5915,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_quaker_primary_rustin
 				}
 				create_country_leader = {
-					name = "Bayard Rustin"
+					name = "Баярд Растин"
 					desc = "POLITICS_BAYARD_RUSTIN_DESC"
 					picture = "gfx/leaders/CSA/Portrait_CSA_Bayard_Rustin.png"
 					expire = "1.1.1"
@@ -5930,7 +5930,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_progressive_primary_dever
 				}
 				create_country_leader = {
-					name = "Paul A. Dever"
+					name = "Пол А. Девер"
 					desc = "POLITICS_PAUL_DEVER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Paul_A_Dever.png"
 					expire = "1.1.1"
@@ -5938,12 +5938,12 @@ country_event = { # 1952 election
 					traits = { armaments_organizer }
 				}
 			}
-			if = { # Charles Poletti
+			if = { # Чарльз Полетти
 				limit = {
 					has_country_flag = NEE_1952_progressive_primary_poletti
 				}
 				create_country_leader = {
-					name = "Charles Poletti"
+					name = "Чарльз Полетти"
 					desc = "POLITICS_CHARLES_POLETTI_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Charles_Poletti.png"
 					expire = "1.1.1"
@@ -5951,12 +5951,12 @@ country_event = { # 1952 election
 					traits = { appeaser }
 				}
 			}
-			if = { # Nelson Rockefeller
+			if = { # Нельсон Рокфеллер
 				limit = {
 					has_country_flag = NEE_1952_republican_primary_rockefeller
 				}
 				create_country_leader = {
-					name = "Nelson Rockefeller"
+					name = "Нельсон Рокфеллер"
 					desc = "POLITICS_NELSON_ROCKEFELLER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Nelson_Rockefeller.png"
 					expire = "1.1.1"
@@ -5964,12 +5964,12 @@ country_event = { # 1952 election
 					traits = { financial_expert }
 				}
 			}
-			if = { # Henry C. Lodge Jr.
+			if = { # Генри Кэбот Лодж
 				limit = {
 					has_country_flag = NEE_1952_republican_primary_lodge
 				}
 				create_country_leader = {
-					name = "Henry C. Lodge Jr."
+					name = "Генри Кэбот Лодж"
 					desc = "POLITICS_HENRY_LODGE_JR_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Henry_Lodge.png"
 					expire = "1.1.1"
@@ -5977,12 +5977,12 @@ country_event = { # 1952 election
 					traits = { war_industrialist  }
 				}
 			}
-			if = { # Thomas C. Hart
+			if = { # Томас Чарльз Харт
 				limit = {
 					has_country_flag = NEE_1952_democratic_primary_hart
 				}
 				create_country_leader = {
-					name = "Thomas C. Hart"
+					name = "Томас Чарльз Харт"
 					desc = "POLITICS_THOMAS_HART_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Thomas_Hart.png"
 					expire = "1.1.1"
@@ -5990,12 +5990,12 @@ country_event = { # 1952 election
 					traits = { quartermaster_general }
 				}
 			}
-			if = { # Styles Bridges
+			if = { # Стайлз Бриджес
 				limit = {
 					has_country_flag = NEE_1952_democratic_primary_bridges
 				}
 				create_country_leader = {
-					name = "Styles Bridges"
+					name = "Стайлз Бриджес"
 					desc = "POLITICS_STYLES_BRIDGES_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Styles_Bridges.png"
 					expire = "1.1.1"
@@ -6033,12 +6033,12 @@ country_event = { # 1952 election
 			clr_country_flag = prohbs_in_power
 		}
 		hidden_effect = {
-			if = { # Frances Perkins
+			if = { # Фрэнсис Перкинс
 				limit = {
 					has_country_flag = NEE_1952_liberal_primary_perkins
 				}
 				create_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					desc = "POLITICS_FRANCES_PERKINS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frances_Perkins.png"
 					expire = "1.1.1"
@@ -6054,12 +6054,12 @@ country_event = { # 1952 election
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 				
 			}
-			if = { # George Aiken
+			if = { # Джордж Эйкен
 				limit = {
 					has_country_flag = NEE_1952_liberal_primary_aiken
 				}
 				create_country_leader = {
-					name = "George Aiken"
+					name = "Джордж Эйкен"
 					desc = "POLITICS_GEORGE_AIKEN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 					expire = "1.1.1"
@@ -6074,12 +6074,12 @@ country_event = { # 1952 election
 				add_ideas = NEE_Scott_Nearing_eco_sde
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Ernest W. Gibson
+			if = { # Эрнест В. Гибсон
 				limit = {
 					has_country_flag = NEE_1952_liberal_primary_gibson
 				}
 				create_country_leader = {
-					name = "Ernest W. Gibson"
+					name = "Эрнест В. Гибсон"
 					desc = "POLITICS_ERNEST_GIBSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Ernest_William_Gibson_Jr.png"
 					expire = "1.1.1"
@@ -6111,7 +6111,7 @@ country_event = { # 1952 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Paul A. Dever
+			if = { # Пол А. Девер
 				limit = {
 					has_country_flag = NEE_1952_progressive_primary_dever
 				}
@@ -6120,7 +6120,7 @@ country_event = { # 1952 election
 				add_ideas = NEE_Ralph_Edward_Flanders_eco_sli
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			else_if = { # Charles Poletti
+			else_if = { # Чарльз Полетти
 				limit = {
 					has_country_flag = NEE_1952_progressive_primary_poletti
 				}
@@ -6147,7 +6147,7 @@ country_event = { # 1952 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Nelson Rockefeller
+			if = { # Нельсон Рокфеллер
 				limit = {
 					has_country_flag = NEE_1952_republican_primary_rockefeller
 				}
@@ -6163,7 +6163,7 @@ country_event = { # 1952 election
 					}
 				}
 			}
-			if = { # Henry C. Lodge Jr.
+			if = { # Генри Кэбот Лодж
 				limit = {
 					has_country_flag = NEE_1952_republican_primary_lodge
 				}
@@ -6190,7 +6190,7 @@ country_event = { # 1952 election
 			elections_allowed = yes
 		}
 		hidden_effect = {
-			if = { # Thomas C. Hart
+			if = { # Томас Чарльз Харт
 				limit = {
 					has_country_flag = NEE_1952_democratic_primary_hart
 				}
@@ -6199,7 +6199,7 @@ country_event = { # 1952 election
 				add_ideas = NEE_Edward_Carleton_Moran_Jr_eco_sco
 				add_ideas = NEE_James_Andrew_Shanley_sec_sco
 			}
-			else_if = { # Styles Bridges
+			else_if = { # Стайлз Бриджес
 				limit = {
 					has_country_flag = NEE_1952_democratic_primary_bridges
 				}
@@ -6248,7 +6248,7 @@ country_event = { # 1952 election
 				add_ideas = NEE_Emily_Greene_Balch_eco_rso
 				add_ideas = NEE_Lizzie_Magie_sec_rso
 			}
-			if = { # Head
+			if = { # Roosevelt
 				limit = {
 					has_country_flag = NEE_1952_quaker_primary_head
 				}
@@ -6298,10 +6298,10 @@ country_event = { # 1952 election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		if = {
@@ -6371,7 +6371,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_prohibition_primary_colvin
 				}
 				create_country_leader = {
-					name = "D. Leigh Colvin"
+					name = "Лей Колвин"
 					desc = "POLITICS_LEIGH_COLVIN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
 					expire = "1.1.1"
@@ -6384,7 +6384,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_prohibition_primary_babson
 				}
 				create_country_leader = {
-					name = "Roger Babson"
+					name = "Роджер Бабсон"
 					desc = "POLITICS_ROGER_BABSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Roger_Babson.png"
 					expire = "1.1.1"
@@ -6399,7 +6399,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_prohibition_primary_watson
 				}
 				create_country_leader = {
-					name = "Claude A. Watson"
+					name = "Клауд А. Уотсон"
 					desc = "POLITICS_CLAUDE_WATSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Claude_Watson.png"
 					expire = "1.1.1"
@@ -6414,7 +6414,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_prohibition_primary_upshaw
 				}
 				create_country_leader = {
-					name = "William D. Upshaw"
+					name = "Уильям Апшоу"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 					expire = "1.1.1"
@@ -6429,7 +6429,7 @@ country_event = { # 1952 election
 					has_country_flag = NEE_1952_prohibition_primary_shuler
 				}
 				create_country_leader = {
-					name = "Robert P. Shuler"
+					name = "Роберт Шулер"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_P_Shuler.png"
 					expire = "1.1.1"
@@ -7116,7 +7116,7 @@ country_event = { # Smuggling operation caught in the Great Lakes Region (Underg
 	option = { # It has become too dangerous
 		name = newengland.53.b
 		custom_effect_tooltip = NEE_ugr_csa_30p_decrease
-		custom_effect_tooltip = "No further smuggling operations will be organised on Lake Erie. Refugees and their resources however will continue trickling down the Railroad"
+		custom_effect_tooltip = "На озере Эри больше не будет организовано никаких контрабандных операций. Однако беженцы и их ресурсы будут продолжать стекаться по железной дороге"
 	}
 }
 
@@ -7375,7 +7375,7 @@ country_event = { # Appointing the New England Poet laureate
 		text = newengland.59_lovecraft
 		trigger = {
 			has_country_leader = {
-				name = "H.P. Lovecraft"
+				name = "Говард Лавкрафт"
 				ruling_only = yes
 			}
 		}
@@ -7385,7 +7385,7 @@ country_event = { # Appointing the New England Poet laureate
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "H.P. Lovecraft"
+					name = "Говард Лавкрафт"
 					ruling_only = yes
 				}
 			}
@@ -7423,7 +7423,7 @@ country_event = { # Intervention for John Winant
 	trigger = {
 		tag = NEE
 		has_country_leader = {
-			name = "John Gilbert Winant"
+			name = "Джон Гилберт Уайнант"
 			ruling_only = yes
 		}
 	}
@@ -7448,7 +7448,7 @@ country_event = { # Gerry Campaigns for King
 	trigger = {
 		tag = NEE
 		has_country_leader = {
-			name = "Peter G. Gerry"
+			name = "Питер Дж. Герри"
 			ruling_only = yes
 		}
 	}
@@ -7475,7 +7475,7 @@ country_event = { # Cocoanut Grove fire traced back to Tobin
 	trigger = {
 		tag = NEE
 		has_country_leader = {
-			name = "Maurice J. Tobin"
+			name = "Морис Дж. Тобин"
 			ruling_only = yes
 		}
 	}
@@ -7500,7 +7500,7 @@ country_event = { # Rockefeller Center artifacts recovered, some defaced
 	trigger = {
 		tag = NEE
 		has_country_leader = {
-			name = "Nelson Rockefeller"
+			name = "Нельсон Рокфеллер"
 			ruling_only = yes
 		}
 	}
@@ -9534,7 +9534,7 @@ country_event = { # The Great Strike-Leftist Victory
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Norman Wallace Lermond"
+			name = "Норман Уоллес Лермонд"
 			desc = "POLITICS_NORMAN_WALLACE_LERMOND_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Norman_Wallace_Lermond.png"
 			expire = "1.1.1"
@@ -9585,7 +9585,7 @@ country_event = { # The Great Strike-Leftist Victory
 		}
 		}
 		create_country_leader = {
-			name = "Norman Wallace Lermond"
+			name = "Норман Уоллес Лермонд"
 			desc = "POLITICS_NORMAN_WALLACE_LERMOND_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Norman_Wallace_Lermond.png"
 			expire = "1.1.1"
@@ -9836,7 +9836,7 @@ country_event = { # Feds appointed
 
 	fire_only_once = yes
 
-	option = { # John Jacob Astor
+	option = { # Джон Джейкоб Эстор
 		name = newengland.107.a
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 35
@@ -9851,7 +9851,7 @@ country_event = { # Feds appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "John Jacob Astor"
+				name = "Джон Джейкоб Эстор"
 				desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_V.png"
 				expire = "1.1.1"
@@ -9866,7 +9866,7 @@ country_event = { # Feds appointed
 			}	
 		}
 	}
-	option = { # Vincent Astor
+	option = { # Винсент Астор
 		name = newengland.107.b
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 35
@@ -9879,7 +9879,7 @@ country_event = { # Feds appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Vincent Astor"
+				name = "Винсент Астор"
 				desc = "NEE_VINCENT_ASTOR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Vincent_Astor.png"
 				expire = "1.1.1"
@@ -9889,7 +9889,7 @@ country_event = { # Feds appointed
 		}
 	}
 	
-	option = { # Harold Stirling Vanderbilt
+	option = { # Гарольд Стирлинг
 		name = newengland.107.c
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 20
@@ -9902,7 +9902,7 @@ country_event = { # Feds appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Harold Stirling Vanderbilt"
+				name = "Гарольд Стирлинг"
 				desc = "NEE_HAROLD_STIRLING_VANDERBILT_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Harold_Stirling_Vanderbilt.png"
 				expire = "1.1.1"
@@ -9912,7 +9912,7 @@ country_event = { # Feds appointed
 		}
 	}
 	
-	option = { # William Kissam Vanderbilt
+	option = { # Уильям Киссам Вандербильт
 		name = newengland.107.e
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 15
@@ -9924,7 +9924,7 @@ country_event = { # Feds appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "William Kissam Vanderbilt"
+				name = "Уильям Киссам Вандербильт"
 				desc = "NEE_WILLIAM_KISSAM_VANDERBILT_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_William_Kissam_Vanderbilt_II.png"
 				expire = "1.1.1"
@@ -10030,7 +10030,7 @@ country_event = { # Federalist Party Sworn in
 		}
 	}
 	
-country_event = { # A New Capital
+	country_event = { # A New Capital
 	id = newengland.110
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.110"}
 	title = newengland.110.t
@@ -10044,15 +10044,15 @@ country_event = { # A New Capital
 		name = newengland.110.b
 		add_stability = 0.04
 	}
-	
+
 	option = { # Just monitor them
 		name = newengland.110.a
 		add_political_power = -20
 		add_popularity = { ideology = radical_socialist popularity = -0.01 }
 		add_stability = 0.02
 		set_capital = { state = 934 }
+		}
 	}
-}
 	
 country_event = { # Ship Contracts
 	id = newengland.111
@@ -10213,13 +10213,13 @@ country_event = { # John Jacob Astor
 		add_manpower = -200
 		add_stability = -0.04
 	}
-	option = { #Usher in John Jacob Astor
+	option = { #Usher in Джон Джейкоб Эстор
 		name = newengland.1160.b
 		add_political_power = -20
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		hidden_effect = {
 			create_country_leader = {
-				name = "John Jacob Astor"
+				name = "Джон Джейкоб Эстор"
 				desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_VI.png"
 				expire = "1.1.1"
@@ -10384,7 +10384,7 @@ country_event = { # Radical Split
 			ideology = national_populist
 		}
 		create_country_leader = {
-			name = "Irenee du Pont"
+			name = "Ирене дю Понт"
 			desc = "POLITICS_Irenee_du_Pont_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Irenee_du_Pont.png"
 			expire = "1.1.1"
@@ -10394,7 +10394,7 @@ country_event = { # Radical Split
 		hidden_effect = {
 			set_cosmetic_tag = NEE_national_populist_ancap
 			create_country_leader = {
-				name = "Albert Jay Nock"
+				name = "Альберт Джей Нок"
 				desc = "POLITICS_Albert_Jay_Nock_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 				expire = "1.1.1"
@@ -10470,7 +10470,7 @@ country_event = { # Radical Split
 			name = NEE_Nordic_League_party 
 		}
 		create_country_leader = {
-			name = "Lothrop Stoddard"
+			name = "Лотроп Стоддард"
 			desc = "POLITICS_LOTHROP_STODDARD_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Lothrop_Stoddard.png"
 			expire = "1.1.1"
@@ -10481,7 +10481,7 @@ country_event = { # Radical Split
 			set_cosmetic_tag = NEE_nordic_league_tag_national_populist
 			set_country_flag = NEE_stoddard_takeover
 			create_country_leader = {
-				name = "Albert Jay Nock"
+				name = "Альберт Джей Нок"
 				desc = "POLITICS_Albert_Jay_Nock_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 				expire = "1.1.1"
@@ -10511,11 +10511,11 @@ country_event = { # Remnant Leader Election
 
 	fire_only_once = yes
 
-	option = { # Albert Jay Nock
+	option = { # Альберт Джей Нок
 		name = newengland.121.a
 		add_political_power = 20
 		create_country_leader = {
-			name = "Albert Jay Nock"
+			name = "Альберт Джей Нок"
 			desc = "POLITICS_Albert_Jay_Nock_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 			expire = "1.1.1"
@@ -10534,7 +10534,7 @@ country_event = { # Remnant Leader Election
 			add_ideas = NEE_Leonard_Read_eco_pau
 			add_ideas = NEE_Lewis_Mumford_sec_pau 
 			create_country_leader = {
-				name = "Irenee du Pont"
+				name = "Ирене дю Понт"
 				desc = "POLITICS_Irenee_du_Pont_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Irenee_du_Pont.png"
 				expire = "1.1.1"
@@ -11032,7 +11032,7 @@ country_event = { #Fate of Democracy
 		}
 		add_pataut_to_coalition = yes
 		create_country_leader = {
-			name = "Albert Jay Nock"
+			name = "Альберт Джей Нок"
 			desc = "POLITICS_Albert_Jay_Nock_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 			expire = "1.1.1"
@@ -12235,7 +12235,7 @@ country_event = {# Second Hartford Convention
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Hartford Convention"
+			name = "Хартфордская конвенция"
 		}
 		OR = {
 			NOT = {
@@ -12311,7 +12311,7 @@ country_event = {# The Quaker Alliance
 	}
 }
 
-country_event = {# Hartford Convention begins
+country_event = {# Хартфордская конвенция begins
 	id = newengland.208
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.208"}
 	title = newengland.208.t
@@ -12472,8 +12472,8 @@ country_event = {# Constitution - Immigration
 			 modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NEE_start_path
+				has_game_rule = {
+					rule = NEE_start_path
 						option = NEE_START_PATH_REPUBLICAN
 					}
 					has_game_rule = {
@@ -12566,8 +12566,8 @@ country_event = {# Constitution - Balance of Power
 			 modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NEE_start_path
+				has_game_rule = {
+					rule = NEE_start_path
 						option = NEE_START_PATH_REPUBLICAN
 					}
 					has_game_rule = {
@@ -12669,8 +12669,8 @@ country_event = {# Constitution - Conscription
 			 modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NEE_start_path
+				has_game_rule = {
+					rule = NEE_start_path
 						option = NEE_START_PATH_REPUBLICAN
 					}
 					has_game_rule = {
@@ -12772,8 +12772,8 @@ country_event = {# Constitution - Supreme Court and Judicial Branch
 			 modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NEE_start_path
+				has_game_rule = {
+					rule = NEE_start_path
 						option = NEE_START_PATH_REPUBLICAN
 					}
 					has_game_rule = {
@@ -12888,8 +12888,8 @@ country_event = {# Constitution - Centralization or Decentralization
 			 modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = NEE_start_path
+				has_game_rule = {
+					rule = NEE_start_path
 						option = NEE_START_PATH_REPUBLICAN
 					}
 					has_game_rule = {
@@ -13084,8 +13084,8 @@ country_event = {# Constitution - Leader until election
 			ruling_party = market_liberal
 			elections_allowed = yes
 		}
-		create_country_leader = {# Joseph William Martin Jr.
-			name = "Hartford Convention"
+		create_country_leader = {# Джозеф Уильям Мартин мл.
+			name = "Хартфордская конвенция"
 			desc = "POLITICS_BOSTON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 			expire = "1.1.1"
@@ -13124,8 +13124,8 @@ country_event = {# Constitution - Leader until election
 			ruling_party = social_conservative
 			elections_allowed = yes
 		}
-		create_country_leader = {# Joseph William Martin Jr.
-			name = "Hartford Convention"
+		create_country_leader = {# Джозеф Уильям Мартин мл.
+			name = "Хартфордская конвенция"
 			desc = "POLITICS_BOSTON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 			expire = "1.1.1"
@@ -13162,7 +13162,7 @@ country_event = {# Constitution - Leader until election
 		}
 		set_country_flag = radicals_in_power
 		create_country_leader = {
-			name = "Clarence Pickett"
+			name = "Кларенс Пикетт"
 			desc = "POLITICS_CLARENCE_PICKETT_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 			expire = "1.1.1"
@@ -13222,14 +13222,14 @@ country_event = {# Constitution - Leader until election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		create_country_leader = {
-			name = "D. Leigh Colvin"
+			name = "Лей Колвин"
 			desc = "POLITICS_LEIGH_COLVIN_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
 			expire = "1.1.1"
@@ -13269,7 +13269,7 @@ country_event = {# Constitution - Leader until election
 			elections_allowed = yes
 		}
 		create_country_leader = {#
-			name = "Hartford Convention"
+			name = "Хартфордская конвенция"
 			desc = "POLITICS_BOSTON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 			expire = "1.1.1"
@@ -13374,7 +13374,7 @@ country_event = {# The King is Crowned
 			}
 			save_global_event_target_as = ENT_Prince_Albert_Target
 			create_country_leader = {#
-				name = "Albert Windsor"
+				name = "Альберт Виндзор"
 				desc = "POLITICS_PRINCE_ALBERT_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Prince_Albert.png"
 				expire = "1.1.1"
@@ -13410,7 +13410,7 @@ country_event = {# The King is Crowned
 			}
 			} 
 			create_country_leader = {#
-				name = "Henry Windsor"
+				name = "Генри Виндзор"
 				desc = "POLITICS_PRINCE_HENRY_DESC"
 				picture = "gfx/leaders/AST/Portrait_AST_Prince_Henry.png"
 				expire = "1.1.1"
@@ -13591,7 +13591,7 @@ country_event = {# Boston Massacre
 					has_game_rule = {
 						rule = NEE_start_path
 						option = NEE_ASTOR_MONARCHY
-					}
+					}	
 					has_game_rule = {
 						rule = NEE_start_path
 						option = NEE_MILITARY_COUP
@@ -13682,7 +13682,7 @@ country_event = {# Lovecraft takes over!
 		remove_state_core = 796
 		796 = { set_demilitarized_zone = yes}
 		create_corps_commander = {
-			name = "August Derleth "
+			name = "Август Дерлет "
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_August_Derleth.png"
 			traits = { politically_connected swordbearer media_personality NEE_providence_guard_commander }
 			skill = 1
@@ -13692,7 +13692,7 @@ country_event = {# Lovecraft takes over!
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Frank Belknap Long "
+			name = "Фрэнк Белнэп Лонг "
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_Frank_Belknap_Long_General.png"
 			traits = { politically_connected media_personality NEE_providence_guard_commander }
 			skill = 1
@@ -13702,7 +13702,7 @@ country_event = {# Lovecraft takes over!
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Henry S. Whitehead "
+			name = "Генри С. Уайтхед "
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_Henry_S_Whitehead_General.png"
 			traits = { politically_connected media_personality NEE_providence_guard_commander }
 			skill = 1
@@ -13712,7 +13712,7 @@ country_event = {# Lovecraft takes over!
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "R. H. Barlow"
+			name = "Роберт Барлоу"
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_RH_Barlow.png"
 			traits = { politically_connected media_personality NEE_providence_guard_commander }
 			skill = 1
@@ -13772,7 +13772,7 @@ country_event = {# Lovecraft Dead
 		add_political_power = -100
 		set_country_flag = NEE_derleth
 		create_country_leader = {
-			name = "August Derleth"
+			name = "Август Дерлет"
 			desc = "POLITICS_AUGUST_DERLETH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_August_Derleth.png"
 			expire = "1.1.1"
@@ -13791,7 +13791,7 @@ country_event = {# Lovecraft Dead
 		add_political_power = -100
 		set_country_flag = NEE_long
 		create_country_leader = {
-			name = "Frank Belknap Long"
+			name = "Фрэнк Белнэп Лонг"
 			desc = "POLITICS_FRANK_BELKNAP_LONG_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Frank_Belknap_Long.png"
 			expire = "1.1.1"
@@ -13806,7 +13806,7 @@ country_event = {# Lovecraft Dead
 		add_political_power = -100
 		set_country_flag = NEE_whitehead
 		create_country_leader = {
-			name = "Henry S. Whitehead"
+			name = "Генри С. Уайтхед"
 			desc = "POLITICS_WHITEHEAD_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Henry_S_Whitehead.png"
 			expire = "1.1.1"
@@ -14119,8 +14119,8 @@ country_event = {# cat
 	is_triggered_only = yes
 	trigger = {
 		NOT = {
-		has_country_leader = { name = "H.P. Lovecraft" ruling_only = yes }
-		has_country_leader = { name = "Howard Phillips Lovecraft" ruling_only = yes }
+		has_country_leader = { name = "Говард Лавкрафт" ruling_only = yes }
+		has_country_leader = { name = "Говард Филлипс Лавкрафт" ruling_only = yes }
 		}
 	}
 	
@@ -14209,7 +14209,7 @@ country_event = {# Whitehead Creatures
 		add_stability = -0.15
 		add_ideas = NEE_whitehead_creature
 		create_corps_commander = {
-			name = "The Creature"
+			name = "Существо"
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_Creature.png"
 			traits = { incorporeal winter_specialist }
 			skill = 1
@@ -14239,9 +14239,9 @@ country_event = {# Ireland reservation
 	option = {
 		name = lovecraftflavor.19.a #
 		add_political_power = 50
-		set_province_name = { id = 11293 name = "The Nameless City" }
+		set_province_name = { id = 11293 name = "Безымянный город" }
 		hidden_effect = {
-			113 = { set_state_name = "The Nameless State" }
+			113 = { set_state_name = "Безымянный штат" }
 		}
 	}
 }
@@ -14272,29 +14272,29 @@ country_event = {# Lovecraftian Empire
 		}
 		add_political_power = 50
 		set_capital = { state = 126 }
-		set_province_name = { id = 6103 name = "Celephaïs" }
+		set_province_name = { id = 6103 name = "Селефаис" }
 		hidden_effect = {
-			126 = { set_state_name = "Celephaïs" }
+			126 = { set_state_name = "Селефаис" }
 		}
-		set_province_name = { id = 12406 name = "New R'lyeh" }
+		set_province_name = { id = 12406 name = "Новый Р'льех" }
 		hidden_effect = {
-			285 = { set_state_name = "New R'lyeh" }
+			285 = { set_state_name = "Новый Р'льех" }
 		}
-		set_province_name = { id = 3778 name = "Kadath" }
+		set_province_name = { id = 3778 name = "Кадатх" }
 		hidden_effect = {
-			739 = { set_state_name = "Kadath" }
+			739 = { set_state_name = "Кадатх" }
 		}
-		set_province_name = { id = 2086 name = "New Sarnath" }
+		set_province_name = { id = 2086 name = "Новый Сарнатх" }
 		hidden_effect = {
-			439 = { set_state_name = "New Sarnath " }
+			439 = { set_state_name = "Новый Сарнатх " }
 		}
-		set_province_name = { id = 3957 name = "Arkham" }
+		set_province_name = { id = 3957 name = "Аркхэм" }
 		hidden_effect = {
-			361 = { set_state_name = "Arkham" }
+			361 = { set_state_name = "Аркхэм" }
 		}
-		set_province_name = { id = 12589 name = "Oriab" }
+		set_province_name = { id = 12589 name = "Ориаб" }
 		hidden_effect = {
-			1176 = { set_state_name = "Oriab" }
+			1176 = { set_state_name = "Ориаб" }
 		}
 	}
 }
@@ -14405,7 +14405,7 @@ country_event = {# The Queen in Yellow
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_country_leader = { name = "Howard Phillips Lovecraft" ruling_only = yes } }
+		NOT = { has_country_leader = { name = "Говард Лавкрафт" ruling_only = yes } }
 	}
 	
 	option = {
@@ -14519,7 +14519,7 @@ country_event = {# MINE EYES HAVE SEEN THE RED GLORY
 		clr_country_flag = NEE_derleth
 		clr_country_flag = lovecraft_dead
 		create_country_leader = {# 
-			name = "Howard Phillips Lovecraft"
+			name = "Говард Филлипс Лавкрафт"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Howard_Phillips_Lovecraft.png"
 			expire = "1.1.1"
 			ideology = leftcraftism_subtype
@@ -14615,7 +14615,7 @@ country_event = {# face obvilion
 				}
 		    }
 			create_country_leader = {
-				name = "Sonia Greene Lovecraft"
+				name = "Соня Грин Шафиркин"
 				desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 				expire = "1.1.1"
@@ -14625,7 +14625,7 @@ country_event = {# face obvilion
 		}	
 		else = {
 			create_country_leader = {
-				name = "Sonia Greene Lovecraft"
+				name = "Соня Грин Шафиркин"
 				desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 				expire = "1.1.1"
@@ -14641,7 +14641,7 @@ country_event = {# face obvilion
 				}
 		    }
 			create_country_leader = {
-				name = "Sonia Greene Lovecraft"
+				name = "Соня Грин Шафиркин"
 				desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 				expire = "1.1.1"
@@ -14651,7 +14651,7 @@ country_event = {# face obvilion
 		}	
 		else = {
 			create_country_leader = {
-				name = "Sonia Greene Lovecraft"
+				name = "Соня Грин Шафиркин"
 				desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 				expire = "1.1.1"
@@ -14796,7 +14796,7 @@ country_event = {# go tot?
 			has_country_leader_ideology = bahai_universalism_subtype
 		}
 		create_country_leader = {# 
-			name = "Howard Phillips Lovecraft"
+			name = "Говард Филлипс Лавкрафт"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Howard_Phillips_Lovecraft.png"
 			expire = "1.1.1"
 			ideology = tot_bahai_universalism_subtype
@@ -14811,7 +14811,7 @@ country_event = {# go tot?
 			}
 		}
 		create_country_leader = {# 
-			name = "Howard Phillips Lovecraft"
+			name = "Говард Филлипс Лавкрафт"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Howard_Phillips_Lovecraft.png"
 			expire = "1.1.1"
 			ideology = tot_leftcraftism_subtype
@@ -14824,7 +14824,7 @@ country_event = {# go tot?
 			has_country_leader_ideology = bahai_universalism_subtype
 		}
 		create_country_leader = {
-			name = "Sonia Greene Lovecraft"
+			name = "Соня Грин Шафиркин"
 			desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 			expire = "1.1.1"
@@ -14840,7 +14840,7 @@ country_event = {# go tot?
 			}
 		}
 		create_country_leader = {
-			name = "Sonia Greene Lovecraft"
+			name = "Соня Грин Шафиркин"
 			desc = "POLITICS_QUEEN_IN_YELLOW_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Sonia_Greene.png"
 			expire = "1.1.1"
@@ -14949,7 +14949,7 @@ country_event = {# epic research buffs
 				NOT = { has_tech = atomic_research }
 				NOT = { is_researching_technology = atomic_research }
 			}
-			add_tech_bonus = {
+		add_tech_bonus = {
 				name = csa.128.t
 				bonus = 0.5
 				uses = 1
@@ -14965,7 +14965,7 @@ country_event = {# epic research buffs
 				specialization = specialization_nuclear
 				value = 0.75
 			}
-		}
+			}
 			add_tech_bonus = {
 				uses = 2
 				bonus = 1
@@ -15227,7 +15227,7 @@ country_event = {# Curley's coup
 			separate_peace_all_wars = yes
 		}
 		create_country_leader = {# Curley
-			name = "James Michael Curley"
+			name = "Джеймс Майкл Керли"
 			desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 			expire = "1.1.1"
@@ -15539,7 +15539,7 @@ country_event = {#Intro event for Curley's IRA
 		IRE = {
 			set_country_flag = IRE_SOCCON_WIN
 			create_country_leader = {
-				name = "Éamon de Valera"
+				name = "Имон де Валера"
 				desc = "POLITICS_DE_VALERA_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 				expire = "1.1.1"
@@ -15626,7 +15626,7 @@ country_event = {# Byrd
 	option = {
 		name = lovecraftflavor.58.a
 		create_navy_leader = {
-			name = "Richard E Byrd"
+			name = "Ричард Бэрд"
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_Richard_Byrd.png"
 			traits = { }
 			skill = 2
@@ -15648,7 +15648,7 @@ country_event = {# Byrd
 	option = {
 		name = lovecraftflavor.58.b
 		create_navy_leader = {
-			name = "Richard E. Byrd"
+			name = "Ричард И. Бэрд"
 			portrait_path = "gfx/leaders/NEE/Portrait_NEE_Richard_Byrd_Admiral.png"
 			traits = { }
 			skill = 2
@@ -15816,7 +15816,7 @@ country_event = { # Dominionists appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Urban Huttleston Broughton"
+				name = "Урбан Хаттлстон Бротон"
 				desc = "NEE_BARON_FAIRHAVEN_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Baron_Fairhaven.png"
 				expire = "1.1.1"
@@ -15849,7 +15849,7 @@ country_event = { # Dominionists appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Henry Rogers Broughton"
+				name = "Генри Роджерс Бротон"
 				desc = "NEE_BURTON_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Henry_Rogers_Broughton.png"
 				expire = "1.1.1"
@@ -15859,7 +15859,7 @@ country_event = { # Dominionists appointed
 		}
 	}
 	
-	option = { # Cornelius Vanderbilt III
+	option = { # Корнелиус III Вандербильт
 		name = newengland.1060.c
 		set_country_flag = NEE_GOV_APPOINTED
 		add_political_power = 30
@@ -15883,7 +15883,7 @@ country_event = { # Dominionists appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Vincent Astor"
+				name = "Винсент Астор"
 				desc = "NEE_CORNELIUS_VANDERBILT_III_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Vincent_Astor_Governor_general.png"
 				expire = "1.1.1"
@@ -15918,7 +15918,7 @@ country_event = { # Dominionists appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Joseph Kennedy"
+				name = "Джозеф Кеннеди"
 				desc = "POLITICS_JOSEPH_KENNEDY_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Kennedy_governor_general.png"
 				expire = "1.1.1"
@@ -16049,7 +16049,7 @@ country_event = { #who king
 			AST = {
 				NOT = {
 					has_country_leader = {
-						name = "Prince Albert"
+						name = "Принц Альберт"
 						ruling_only = yes
 					}
 				}
@@ -16058,7 +16058,7 @@ country_event = { #who king
 		add_stability = 0.05
 		add_political_power = 25
 		create_country_leader = {#
-				name = "Albert I"
+				name = "Альберт I"
 				desc = "POLITICS_KING_ALBERT_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_King_Albert.png"
 				expire = "1.1.1"
@@ -16076,7 +16076,7 @@ country_event = { #who king
 			AST = {
 				NOT = {
 					has_country_leader = {
-						name = "Prince Henry"
+						name = "Принц Генри"
 						ruling_only = yes
 					}
 				}
@@ -16085,7 +16085,7 @@ country_event = { #who king
 		add_stability = 0.05
 		add_political_power = 25
 		create_country_leader = {#
-				name = "Henry I"
+				name = "Генри I"
 				desc = "POLITICS_KING_HENRY_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_King_Henry.png"
 				expire = "1.1.1"
@@ -16101,7 +16101,7 @@ country_event = { #who king
 		add_stability = 0.05
 		add_political_power = 25
 		create_country_leader = {#
-				name = "Alastair I"
+				name = "Аластер I"
 				desc = "POLITICS_KING_ALASTAIR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Alastair_I.png"
 				expire = "1.1.1"
@@ -16117,7 +16117,7 @@ country_event = { #who king
 		add_stability = 0.05
 		add_political_power = 25
 		create_country_leader = {
-				name = "Urban I"
+				name = "Урбан I"
 				desc = "NEE_BARON_FAIRHAVEN_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Baron_Fairhaven.png"
 				expire = "1.1.1"
@@ -16133,7 +16133,7 @@ country_event = { #who king
 		add_stability = 0.05
 		add_political_power = 25
 		create_country_leader = {
-				name = "Joseph I"
+				name = "Джоузеф I"
 				desc = "NEE_BARON_FAIRHAVEN_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Kennedy_governor_general.png"
 				expire = "1.1.1"
@@ -16215,7 +16215,7 @@ country_event = { #King Albert Shot!
 		set_global_flag = ENT_Albert_Dead
 		set_country_flag = NEE_Albert_Dead
 		create_country_leader = {
-				name = "Elizabeth Windsor"
+				name = "Элизабет Виндзор"
 				desc = "NEE_ELIZABETH_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Princess_Elizabeth.png"
 				expire = "1.1.1"
@@ -16244,7 +16244,7 @@ country_event = { #Lizzie's title
 		}
 		hidden_effect = {
 		create_country_leader = {
-				name = "Elizabeth II"
+				name = "Елизавета II"
 				desc = "NEE_ELIZABETH_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_II.png"
 				expire = "1.1.1"
@@ -16260,7 +16260,7 @@ country_event = { #Lizzie's title
 		}
 		hidden_effect = {
 		create_country_leader = {
-				name = "Elizabeth I"
+				name = "Елизавета I"
 				desc = "NEE_ELIZABETH_DESC"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_II.png"
 				expire = "1.1.1"
@@ -16299,7 +16299,7 @@ country_event = { #Return of British Dominion over North America
 				limit = {
 					has_country_leader = {
 					ruling_only = yes
-					name = "Albert I"
+					name = "Альберт I"
 				 }
 				}
 				country_event = { id = neebritishflavor.10 days = 114 } #Death of king Albert
@@ -16335,7 +16335,7 @@ country_event = { #Return of British Dominion over North America
 				limit = {
 					has_country_leader = {
 					ruling_only = yes
-					name = "Albert I"
+					name = "Альберт I"
 				 }
 				}
 				country_event = { id = neebritishflavor.10 days = 114 } #Death of king Albert
@@ -16357,7 +16357,7 @@ country_event = { #Return of British Dominion over North America
 				limit = {
 					has_country_leader = {
 					ruling_only = yes
-					name = "Albert I"
+					name = "Альберт I"
 				 }
 				}
 				country_event = { id = neebritishflavor.10 days = 114 } #Death of king Albert
@@ -16421,7 +16421,7 @@ country_event = { #Albert goes to Canada
 			save_global_event_target_as = ENT_Prince_Albert_Target
 		}
 		create_country_leader = {#
-			name = "Henry I"
+			name = "Генри I"
 			desc = "POLITICS_KING_HENRY_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Henry.png"
 			expire = "1.1.1"
@@ -16626,7 +16626,7 @@ country_event = {# All is ready
 		    }
 		    add_popularity = { ideology = authoritarian_democrat popularity = 0.10 }
 		    create_country_leader = {
-				name = "New England Committee of Safety"
+				name = "Комитет безопасности Новой Англии"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Sons_of_Liberty.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
@@ -16946,8 +16946,8 @@ country_event = {# Monarchists Gain Control
 		}
 		complete_national_focus = NEE_monarchists_in_control
 		set_country_flag = NEE_monarchists_in_power
-		create_country_leader = {# Joseph William Martin Jr.
-			name = "New England Regency Council"
+		create_country_leader = {# Джозеф Уильям Мартин мл.
+			name = "Регентский совет Новой Англии"
 			desc = "POLITICS_BOSTON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 			expire = "1.1.1"
@@ -17008,7 +17008,7 @@ country_event = {#A Leader for the Sons
 			}
 		}
 		create_country_leader = {# Pershing
-			name = "John J. Pershing"
+			name = "Джон Д. Першинг"
 			picture = "gfx/leaders/NEE/Portrait_NEE_John_Pershing.png"
 			expire = "1.1.1"
 			ideology = washingtonism_subtype
@@ -17045,8 +17045,8 @@ country_event = {#A Leader for the Sons
 				}
 			}
 		}
-		create_country_leader = {# Groves
-			name = "Leslie Groves"
+		create_country_leader = {# Pershing
+			name = "Лесли Гровс"
 			picture = "gfx/leaders/NEE/Portrait_NEE_leslie_grooves.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -17085,8 +17085,8 @@ country_event = {#A Leader for the Sons
 				}
 			}	
 		}
-		create_country_leader = {# Bingham
-			name = "Hiram Bingham III"
+		create_country_leader = {# Pershing
+			name = "Хайрам Бингем III"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -17155,7 +17155,7 @@ country_event = {# Canada decides that this isn't worth their time
 		CAN = {
 			white_peace = {
 				tag = NEE
-				message = "Canada has decided to make peace with New England, and focus on retaking the Home Isles"
+				message = "Канада решила заключить мир с Новой Англией и сосредоточить усилия на освобождении родных островов"
 			} 
 		}
     }
@@ -17693,8 +17693,8 @@ country_event = { #said yes to statehood
 		name = newenglandmilflavor.24.a
 		set_country_flag = NEE_nyc_is_state
 		transfer_state = 358
-		358 = { set_state_name = "Gotham" }
-		796 = { set_state_name = "Hudsonia" }
+		358 = { set_state_name = "Готэм" }
+		796 = { set_state_name = "Гудзония" }
 		set_cosmetic_tag = NEE_USNE_NYC
 	}
 }
@@ -17777,8 +17777,8 @@ country_event = { #said yes to statehood
 	
 	option = { #ok sure
 		name = newenglandmilflavor.27.a
-		358 = { set_state_name = "Gotham" }
-		796 = { set_state_name = "Hudsonia" }
+		358 = { set_state_name = "Готэм" }
+		796 = { set_state_name = "Гудзония" }
 		set_cosmetic_tag = NEE_USNE_NYC
 	}
 
@@ -18060,15 +18060,15 @@ country_event = { #the war is over
 				AND = {
 				USA = { is_ai = no }
 				NEE = { is_ai = yes }
-				}
 			}
 		}
-		NEE = {
-			every_unit_leader = {
-				set_nationality = USA
-			}
-		}	
-		USA = {
+	}
+	NEE = {
+		every_unit_leader = {
+			set_nationality = USA
+		}
+	}	
+	USA = {
 			change_tag_from = NEE
 		}
 		USA = {
@@ -18773,19 +18773,19 @@ country_event = {# formation of new parties
 			name = NEE_New_Parties_totalist_party
 			}
 			create_country_leader = {
-			name = "Joe McWilliams"
+			name = "Джо Маквильямс"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Joe_McWilliams.png"
 			expire = "1.1.1"
 			ideology = pataut_christian_democracy_subtype
 			traits = {}
 		    }
 			create_country_leader = {
-			name = "Owen Brewster"
+			name = "Оуэн Брюстер"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Owen_Brewster.png"
 			expire = "1.1.1"
 			ideology = natpop_national_conservative_subtype
 			traits = {}
-		    }
+			}
 			
 			country_event = {
 				id = newenglandmilflavor.42
@@ -19007,7 +19007,7 @@ country_event = {# DR primary
 		}
 	}	
 
-	option = {#Eleanor Roosevelt
+	option = {#Элеонора Рузвельт
 		name = newenglandmilflavor.44.b
 		set_country_flag = NEE_dr_Roosevelt
 		hidden_effect = {
@@ -19018,7 +19018,7 @@ country_event = {# DR primary
 		}
 	}	
 
-	option = {#John Coolidge
+	option = {#Калвин Кулидж
 		name = newenglandmilflavor.44.c
 		set_country_flag = NEE_dr_Coolidge
 		hidden_effect = {
@@ -19094,7 +19094,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_Hughes
 				}
 				create_country_leader = {
-					name = "Charles Evans Hughes"
+					name = "Чарльз Эванс Хьюз"
 					desc = "POLITICS_Charles_Evans_Hughes_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Charles_Evans_Hughes.png"
 					expire = "1.1.1"
@@ -19104,7 +19104,7 @@ country_event = {# pershing elections
 					}
 				}
 				create_country_leader = {
-					name = "Charles Evans Hughes"
+					name = "Чарльз Эванс Хьюз"
 					desc = "POLITICS_Charles_Evans_Hughes_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Charles_Evans_Hughes.png"
 					expire = "1.1.1"
@@ -19122,14 +19122,14 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_grant
 				}
 				create_country_leader = {
-					name = "Ulysses S. Grant III "
+					name = "Улисс С. Грант III "
 					picture = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III_Political.png"
 					expire = "1.1.1"
 					ideology = marlib_hamiltonianism_subtype
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Ulysses S. Grant III "
+					name = "Улисс С. Грант III "
 					picture = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III_Political.png"
 					expire = "1.1.1"
 					ideology = hamiltonianism_subtype
@@ -19144,7 +19144,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_rockefeller
 				}
 				create_country_leader = {
-					name = "Nelson Rockefeller"
+					name = "Нельсон Рокфеллер"
 					desc = "POLITICS_NELSON_ROCKEFELLER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Nelson_Rockefeller.png"
 					expire = "1.1.1"
@@ -19152,7 +19152,7 @@ country_event = {# pershing elections
 					traits = { financial_expert }
 				}
 				create_country_leader = {
-					name = "Nelson Rockefeller"
+					name = "Нельсон Рокфеллер"
 					desc = "POLITICS_NELSON_ROCKEFELLER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Nelson_Rockefeller.png"
 					expire = "1.1.1"
@@ -19168,7 +19168,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_Sinatra 
 				}
 				create_country_leader = {
-					name = "Frank Sinatra "
+					name = "Фрэнк Синатра "
 					desc = "POLITICS_Sinatra_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frank_Sinatra.png"
 					expire = "1.1.1"
@@ -19176,7 +19176,7 @@ country_event = {# pershing elections
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Frank Sinatra "
+					name = "Фрэнк Синатра "
 					desc = "POLITICS_Sinatra_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frank_Sinatra.png"
 					expire = "1.1.1"
@@ -19191,7 +19191,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_Valentine 
 				}
 				create_country_leader = {
-					name = "Lewis J. Valentine"
+					name = "Льюис Дж. Валентайн"
 					desc = "POLITICS_LEWIS_VALENTINE_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Lewis_Joseph_Valentine.png"
 					expire = "1.1.1"
@@ -19199,7 +19199,7 @@ country_event = {# pershing elections
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Lewis J. Valentine"
+					name = "Льюис Дж. Валентайн"
 					desc = "POLITICS_LEWIS_VALENTINE_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Lewis_Joseph_Valentine.png"
 					expire = "1.1.1"
@@ -19214,14 +19214,14 @@ country_event = {# pershing elections
 					has_country_flag = NEE_fed_Kennedy 
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Jr."
+					name = "Джозеф Патрик Кеннеди"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Joe_Kennedy_Jr.png"
 					expire = "1.1.1"
 					ideology = marlib_hamiltonianism_subtype
 					traits = {  }
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Jr."
+					name = "Джозеф Патрик Кеннеди"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Joe_Kennedy_Jr.png"
 					expire = "1.1.1"
 					ideology = hamiltonianism_subtype
@@ -19236,7 +19236,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_McCormick
 				}
 				create_country_leader = {
-					name = "Robert McCormick"
+					name = "Роберт Маккормик"
 					desc = "POLITICS_ROBERT_MCCORMICK_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_R_McCormick.png"
 					expire = "1.1.1"
@@ -19251,7 +19251,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_JPK
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Sr."
+					name = "Джозеф Патрик Кеннеди"
 					desc = "POLITICS_JOSEPH_KENNEDY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_kennedy_sr.png"
 					expire = "1.1.1"
@@ -19267,7 +19267,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_Powell
 				}
 				create_country_leader = {
-					name = "Adam Clayton Powell Jr."
+					name = "Адам Клэйтон Пауэлл"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Adam_Clayton_Powell_Jr.png"
 					expire = "1.1.1"
 					ideology = whiggism_subtype
@@ -19280,8 +19280,8 @@ country_event = {# pershing elections
 				limit = {
 					has_country_flag = NEE_whigg_trump
 				}
-				create_country_leader = {
-					name = "Fred Trump"
+				create_country_leader = {# Прескотт Буш
+					name = "Фред Трамп"
 					desc = "POLITICS_FRED_TRUMP_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Fred_Trump.png"
 					expire = "1.1.1"
@@ -19298,7 +19298,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_curley
 				}
 				create_country_leader = {# Curley
-					name = "James Michael Curley"
+					name = "Джеймс Майкл Керли"
 					desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 					expire = "1.1.1"
@@ -19316,7 +19316,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_curtis
 				}
 				create_country_leader = {# Curley
-					name = "Cathrine Curtis"
+					name = "Катрин Кёртис"
 					desc = "POLITICS_Cathrine_Curtis_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Cathrine_Curtis.png"
 					expire = "1.1.1"
@@ -19334,7 +19334,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_whigg_vanderbilt
 				}
 				create_country_leader = {# Curley
-					name = "Muriel Vanderbilt"
+					name = "Мюриэл Вандербильт"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Muriel_Vanderbilt.png"
 					expire = "1.1.1"
 					ideology = whiggism_subtype
@@ -19345,7 +19345,7 @@ country_event = {# pershing elections
 				clr_country_flag = NEE_whigg_vanderbilt
 
 			}
-
+			
 			### D-Rs ###
 			
 			if = {
@@ -19353,7 +19353,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_jfk
 				}
 				create_country_leader = {
-					name = "John Fitzgerald Kennedy"
+					name = "Джон Фицджеральд Кеннеди"
 					desc = "POLITICS_JFK_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Fitzgerald_Kennedy_Political.png"
 					expire = "1.1.1"
@@ -19363,7 +19363,7 @@ country_event = {# pershing elections
 					}
 				}
 				create_country_leader = {
-					name = "John Fitzgerald Kennedy"
+					name = "Джон Фицджеральд Кеннеди"
 					desc = "POLITICS_JFK_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Fitzgerald_Kennedy_Political.png"
 					expire = "1.1.1"
@@ -19380,7 +19380,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_Roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -19390,7 +19390,7 @@ country_event = {# pershing elections
 					}
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -19408,7 +19408,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_Coolidge
 				}
 				create_country_leader = {
-					name = "John Coolidge"
+					name = "Калвин Кулидж"
 					desc = "POLITICS_JOHN_COOLIDGE_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Coolidge.png"
 					expire = "1.1.1"
@@ -19416,7 +19416,7 @@ country_event = {# pershing elections
 					traits = { influential_entrepeneur }
 				}
 				create_country_leader = {
-					name = "John Coolidge"
+					name = "Калвин Кулидж"
 					desc = "POLITICS_JOHN_COOLIDGE_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Coolidge.png"
 					expire = "1.1.1"
@@ -19426,13 +19426,13 @@ country_event = {# pershing elections
 				clr_country_flag = NEE_dr_Coolidge
 
 			}
-			
+
 			if = {
 				limit = {
 					has_country_flag = NEE_dr_Commoner
 				}
 				create_country_leader = {
-					name = "Barry Commoner"
+					name = "Барри Коммонер"
 					desc = "POLITICS_BARRY_COMMONER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Barry_Commoner.png"
 					expire = "1.1.1"
@@ -19440,7 +19440,7 @@ country_event = {# pershing elections
 					traits = { radical_environmentalist }
 				}
 				create_country_leader = {
-					name = "Barry Commoner"
+					name = "Барри Коммонер"
 					desc = "POLITICS_BARRY_COMMONER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Barry_Commoner.png"
 					expire = "1.1.1"
@@ -19455,7 +19455,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_la_Guardia  
 				}
 				create_country_leader = {
-					name = "Fiorello H. La Guardia"
+					name = "Фьорелло Ла Гуардия"
 					desc = "POLITICS_FIORELLO_H_LA_GUARDIA_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Fiorello_La_Guardia.png"
 					expire = "1.1.1"
@@ -19463,7 +19463,7 @@ country_event = {# pershing elections
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Fiorello H. La Guardia"
+					name = "Фьорелло Ла Гуардия"
 					desc = "POLITICS_FIORELLO_H_LA_GUARDIA_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Fiorello_La_Guardia.png"
 					expire = "1.1.1"
@@ -19479,7 +19479,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_Welles  
 				}
 				create_country_leader = {
-					name = "Orson Welles"
+					name = "Орсон Уэллс"
 					desc = "POLITICS_ORSON_WELLES_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Orson_Welles.png"
 					expire = "1.1.1"
@@ -19487,7 +19487,7 @@ country_event = {# pershing elections
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Orson Welles"
+					name = "Орсон Уэллс"
 					desc = "POLITICS_ORSON_WELLES_DESC"
 					picture = "gfx/leaders/NYC/Portrait_NYC_Orson_Welles.png"
 					expire = "1.1.1"
@@ -19503,7 +19503,7 @@ country_event = {# pershing elections
 					has_country_flag = NEE_dr_nock
 				}
 				create_country_leader = {
-					name = "Albert Jay Nock"
+					name = "Альберт Джей Нок"
 					desc = "POLITICS_Albert_Jay_Nock_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 					expire = "1.1.1"
@@ -19511,7 +19511,7 @@ country_event = {# pershing elections
 					traits = {}
 				}
 				create_country_leader = {
-					name = "Albert Jay Nock"
+					name = "Альберт Джей Нок"
 					desc = "POLITICS_Albert_Jay_Nock_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Albert_Jay_Nock.png"
 					expire = "1.1.1"
@@ -19583,10 +19583,10 @@ country_event = {# pershing elections
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
 		add_pataut_to_coalition = yes
-		country_event = {
-			id = newenglandmilflavor.42
-			days = 1460
-		}
+			country_event = {
+				id = newenglandmilflavor.42
+				days = 1460
+			}
 		}
 	}	
 
@@ -19725,10 +19725,10 @@ country_event = {# pershing army retire
 
 	is_triggered_only = yes
 	
-	option = {# Francis Warren Pershing
+	option = {# Фрэнсис Уоррен Першинг
 		name = newenglandmilflavor.46.a
 		create_country_leader = {
-			name = "Francis Pershing"
+			name = "Френсис Першинг"
 			desc = "POLITICS_FRANCIS_PERSHING_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Francis_Warren_Pershing.png"
 			expire = "1.1.1"
@@ -19752,7 +19752,7 @@ country_event = {# pershing army retire
 	option = {#Grant III
 		name = newenglandmilflavor.46.b
 		create_country_leader = {
-			name = "Ulysses Grant III "
+			name = "Улисс Грант III "
 			desc = "POLITICS_GRANT_III_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III.png"
 			expire = "1.1.1"
@@ -19776,7 +19776,7 @@ country_event = {# pershing army retire
 	option = {#Hamltion
 		name = newenglandmilflavor.46.c
 		create_country_leader = {
-			name = "Pierpont Hamilton"
+			name = "Пьерпонт Гамильтон"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Pierpont_M_Hamilton.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -19799,7 +19799,7 @@ country_event = {# pershing army retire
 	option = {#Edson
 		name = newenglandmilflavor.46.e
 		create_country_leader = {
-			name = "Merritt A. Edson"
+			name = "Мерритт А. Эдсон"
 			picture = "gfx/leaders/NEE/Portrait_NEE_merritt_edson.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -19822,7 +19822,7 @@ country_event = {# pershing army retire
 	option = {#Wild Bill
 		name = newenglandmilflavor.46.f
 		create_country_leader = {
-			name = "William J. Donovan"
+			name = "Уильям Дж. Донован"
 			picture = "gfx/leaders/NEE/Portrait_NEE_William_Donovan.png"
 			expire = "1.1.1"
 			ideology = security_state_subtype
@@ -19850,7 +19850,7 @@ country_event = {# pershing army retire
 		}
 		}
 		create_country_leader = {
-			name = "George C. Marshall"
+			name = "Джордж К. Маршалл"
 			picture = "gfx/leaders/NEE/Portrait_NEE_george_marshall.png"
 			expire = "1.1.1"
 			ideology = washingtonism_subtype
@@ -19869,7 +19869,7 @@ country_event = {# pershing army retire
 		}	
 		
 	}
-
+	
 }
 
 country_event = {# fly me to the moon
@@ -19958,10 +19958,10 @@ country_event = {# groves retire
 
 	is_triggered_only = yes
 	
-	option = {# Adna Chaffee Jr.
+	option = {# Эдна Романца Чаффи
 		name = newenglandmilflavor.49.a
 		create_country_leader = {
-			name = "Adna Chaffee Jr."
+			name = "Эдна Романца Чаффи"
 			desc = "POLITICS_CHAFFEE_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Adna_Chaffee.png"
 			expire = "1.1.1"
@@ -19985,7 +19985,7 @@ country_event = {# groves retire
 	option = {#Westmore
 		name = newenglandmilflavor.49.b
 		create_country_leader = {
-			name = "William Westmoreland"
+			name = "Уильям Чайлдз Уэстморленд"
 			desc = "POLITICS_WESTMORE_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_William_Westmoreland.png"
 			expire = "1.1.1"
@@ -20012,7 +20012,7 @@ country_event = {# groves retire
 			has_country_flag = NEE_grooves_support_jfk
 		}
 		create_country_leader = {
-			name = "John Fitzgerald Kennedy"
+			name = "Джон Фицджеральд Кеннеди"
 			desc = "POLITICS_JFK_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_John_Fitzgerald_Kennedy.png"
 			expire = "1.1.1"
@@ -20087,7 +20087,7 @@ country_event = {# return to democracy
 		name = newenglandmilflavor.51.a
 		set_country_flag = NEE_bingham_primary
 		if = {	
-			limit = { has_country_leader = { name = "Hiram Bingham III" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Хайрам Бингем III" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III_political.png"
 			}
@@ -20127,7 +20127,7 @@ country_event = {# fate of new england
 		set_country_leader_ideology = authoritarian_liberalism_subtype
 		custom_effect_tooltip = authdem_authoritarian_liberalism_subtype_swap_tt
 		if = {	
-			limit = { has_country_leader = { name = "Hiram Bingham III" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Хайрам Бингем III" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III_political.png"
 			}
@@ -20144,8 +20144,8 @@ country_event = {# fate of new england
 		name = newenglandmilflavor.52.c
 		set_country_flag = NEE_bingham_convetion
 		hidden_effect = {
-			create_country_leader = {# Joseph William Martin Jr.
-			name = "Hartford Convention"
+			create_country_leader = {# Джозеф Уильям Мартин мл.
+			name = "Хартфордская конвенция"
 			desc = "POLITICS_BOSTON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 			expire = "1.1.1"
@@ -20327,13 +20327,13 @@ country_event = {# work with BBR?
 		is_ai = no
 		BBR = {
 			exists = yes
-			has_country_leader = { ruling_only = yes name = "Charles Young" }
+			has_country_leader = { ruling_only = yes name = "Чарльз Янг" }
 		}
 	}
 	
 	option = {#So be it
 		name = newenglandmilflavor.60.a
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_regional   
 				name = faction_united_liberty
 				icon = GFX_faction_pershing_young
@@ -20360,7 +20360,7 @@ country_event = {# work with BBR?
 
 	fire_only_once = yes
 	trigger = {
-		tag = NEE
+			tag = NEE
 		is_ai = no
 		NEE = { 
 			has_country_flag = NEE_deseg_faction 
@@ -20368,7 +20368,7 @@ country_event = {# work with BBR?
 		}
 		BBR = {
 			exists = yes
-			has_country_leader = { ruling_only = yes name = "Charles Young" }
+			has_country_leader = { ruling_only = yes name = "Чарльз Янг" }
 			has_war = no
 		}
 		COR = { exists = no }
@@ -20376,14 +20376,14 @@ country_event = {# work with BBR?
 	
 	option = {#So be it
 		name = newenglandmilflavor.601.a
-        BBR = {
-			every_unit_leader = {
-				set_nationality = NEE
-			}	
-		}
-		annex_country = {
-			target = BBR
-			transfer_troops = yes
+			BBR = {
+				every_unit_leader = {
+					set_nationality = NEE
+				}	
+		    }
+			annex_country = {
+				target = BBR
+				transfer_troops = yes
 		}
 	}	
 }
@@ -20401,7 +20401,7 @@ country_event = {# tricorn pershing my beloved
 		name = newenglandmilflavor.61.a
 		set_country_flag = NEE_pershing_larp
 		if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_tricorn.png"
 			}
@@ -20449,7 +20449,7 @@ country_event = {# general of armies
 		name = newenglandmilflavor.63.a
 		set_country_flag = NEE_pershing_gen_of_armies
 		if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_uniform.png"
 			}
@@ -20921,7 +20921,7 @@ country_event = {# stealing dec (liberia)
 
 }	
 
-country_event = {# slapping dec and con in a museum
+country_event = {# slapping dec and con in a meusuem
 	id = newenglandmilflavor.84
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.84.t
@@ -20976,7 +20976,7 @@ country_event = {# leg up
 	}
 }
 
-country_event = {# exploring
+country_event = {# explorin
 	id = newenglandmilflavor.87
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.87.t
@@ -21011,7 +21011,7 @@ country_event = {# bastion
 	}	
 }
 
-country_event = {# time capsule
+country_event = {# time caplse
 	id = newenglandmilflavor.89
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.89.t
@@ -21149,7 +21149,7 @@ country_event = {# national bloc
 	}	
 }
 
-country_event = {# republicans and sentinels
+country_event = {# republicans and senitnals
 	id = newenglandmilflavor.95
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.95.t
@@ -21165,7 +21165,7 @@ country_event = {# republicans and sentinels
 	}	
 }
 
-country_event = {# republican ideology picker
+country_event = {# republican ideogoly pickin
 	id = newenglandmilflavor.96
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.96.t
@@ -21197,7 +21197,7 @@ country_event = {# republican ideology picker
 	}	
 }
 
-country_event = {# whig flavor
+country_event = {# whigg flavor
 	id = newenglandmilflavor.97
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.97.t
@@ -21213,7 +21213,7 @@ country_event = {# whig flavor
 	}	
 }
 
-country_event = {# fed coalition?
+country_event = {# fed colic?
 	id = newenglandmilflavor.98
 	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.238"}
 	title = newenglandmilflavor.98.t
@@ -21331,7 +21331,7 @@ country_event = {# Pershing death
 					remove_unit_leader = yes
 				}
 			create_country_leader = {#
-			name = "Transitionary Executive Council"
+			name = "Переходный исполнительный орган"
 			picture = "gfx/leaders/USA/Portrait_USA_Vacant_Presidency.png"
 			expire = "1.1.1"
 			ideology = washingtonism_subtype
@@ -21389,12 +21389,12 @@ country_event = {# bingham's commie son
 		tag = NEE
 			has_country_leader = {
 					ruling_only = yes
-					name = "Hiram Bingham III"
+					name = "Хайрам Бингем III"
 				}
 		TEX = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alfred Mitchell Bingham"
+					name = "Альфред Митчелл Бингем"
 				}
 		}		
 	}
@@ -21429,7 +21429,7 @@ country_event = { # 1944 Quaker Party Primary
 	
 	is_triggered_only = yes
 
-	option = { # Clarence Pickett
+	option = { # Кларенс Пикетт
 		name = newengland.2121.a
 		hidden_effect = {
 			set_country_flag = NEE_1940_quaker_primary_pickett
@@ -21441,7 +21441,7 @@ country_event = { # 1944 Quaker Party Primary
 			}
 		}
 	}
-	option = { # Eleanor Roosevelt
+	option = { # Элеонора Рузвельт
 		name = newengland.2121.b
 		hidden_effect = {
 			set_country_flag = NEE_1940_quaker_primary_roosevelt
@@ -21494,7 +21494,7 @@ country_event = { # 1944 Prohibition Party Primary
 
 	is_triggered_only = yes
 
-	option = { # Roger Babson
+	option = { # Роджер Бабсон
 		name = newengland.2122.a
 		hidden_effect = {
 			set_country_flag = NEE_1940_prohibition_primary_babson
@@ -21536,7 +21536,7 @@ country_event = { # 1944 Prohibition Party Primary
 
 country_event = { # 1940 National Party Primary
 	id = newenglandmilflavor.106
-	immediate = {log = "[GetDateText]: [Root.GetName]: eventf newengland.21"
+	immediate = {log = "[GetDateText]: [Root.GetName]: event newengland.21"
 	clr_country_flag = NEE_1940_liberal_primary_aiken
 	clr_country_flag = NEE_1940_liberal_primary_perkins
 	  }
@@ -21550,7 +21550,7 @@ country_event = { # 1940 National Party Primary
 
 	
 
-	option = { # George Aiken
+	option = { # Джордж Эйкен
 		name = newengland.21.a
 		hidden_effect = {
 			set_country_flag = NEE_1940_liberal_primary_aiken
@@ -21562,7 +21562,7 @@ country_event = { # 1940 National Party Primary
 			}
 		}
 	}
-	option = { # Frances Perkins
+	option = { # Фрэнсис Перкинс
 		name = newengland.21.b
 		hidden_effect = {
 			set_country_flag = NEE_1940_liberal_primary_perkins
@@ -21594,7 +21594,7 @@ country_event = { # 1940 Republican Primary
 
 	
 
-	option = { # Hamilton Fish III
+	option = { # Гамильтон Фиш III
 		name = newengland.22.a
 		ai_chance = {
 			factor = 50
@@ -21602,7 +21602,7 @@ country_event = { # 1940 Republican Primary
 				factor = 2
 				has_country_leader = {
 					ruling_only = yes
-					name = "Percival P. Baxter"
+					name = "Персиваль П. Бакстер"
 				}
 			}
 		}
@@ -21616,7 +21616,7 @@ country_event = { # 1940 Republican Primary
 			}
 		}
 	}
-	option = { # Joseph William Martin Jr.
+	option = { # Джозеф Уильям Мартин мл.
 		name = newengland.22.b
 		ai_chance = {
 			factor = 50
@@ -21624,7 +21624,7 @@ country_event = { # 1940 Republican Primary
 				factor = 2
 				has_country_leader = {
 					ruling_only = yes
-					name = "Joseph William Martin Jr."
+					name = "Джозеф Уильям Мартин мл."
 				}
 			}
 		}
@@ -21654,7 +21654,7 @@ country_event = { # 1940 Republican Primary
 		}
 	}
 	
-	option = { # Fred Trump
+	option = { # Фред Трамп
 		name = newengland.22.h
 		ai_chance = {
 			factor = 50
@@ -21709,7 +21709,7 @@ country_event = { # 1940 Liberal Republican Primary
 
 	
 
-	option = { # Herbert H. Lehman
+	option = { # Герберт Леман
 		name = newengland.2200.a
 		ai_chance = {
 			factor = 50
@@ -21725,7 +21725,7 @@ country_event = { # 1940 Liberal Republican Primary
 		}
 	}
 	
-	option = { # John Gilbert Winant
+	option = { # Джон Гилберт Уайнант
 		name = newengland.2200.b
 		ai_chance = {
 			factor = 50
@@ -21741,7 +21741,7 @@ country_event = { # 1940 Liberal Republican Primary
 		}
 	}
 	
-	option = { # Thomas Dewey
+	option = { # Томас Дьюи
 		name = newengland.2200.c
 		ai_chance = {
 			factor = 50
@@ -21775,7 +21775,7 @@ country_event = { # 1940 Democrat Primary
 	
 
 
-	option = { # Joseph Kennedy Sr.
+	option = { # Джозеф Патрик Кеннеди
 		name = newengland.23.a
 		ai_chance = {
 			factor = 33
@@ -21784,7 +21784,7 @@ country_event = { # 1940 Democrat Primary
 				NOT = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Percival P. Baxter"
+						name = "Персиваль П. Бакстер"
 					}
 				}
 			}
@@ -21798,7 +21798,7 @@ country_event = { # 1940 Democrat Primary
 		}
 		
 	}
-	option = { # James Michael Curley
+	option = { # Джеймс Майкл Керли
 		name = newengland.23.b
 		ai_chance = {
 			factor = 33
@@ -21812,7 +21812,7 @@ country_event = { # 1940 Democrat Primary
 		}
 		
 	}
-	option = { # Al Smith
+	option = { # Эл Смит
 		name = newengland.23.c
 		ai_chance = {
 			factor = 33
@@ -21857,12 +21857,12 @@ country_event = { # 1940 Election
 
 	immediate = {
 		hidden_effect = {
-			if = { # Joseph Kennedy Sr.
+			if = { # Джозеф Патрик Кеннеди
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_kennedy
 				}
 				create_country_leader = {
-					name = "Joseph Kennedy Sr."
+					name = "Джозеф Патрик Кеннеди"
 					desc = "POLITICS_JOSEPH_KENNEDY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_kennedy_sr.png"
 					expire = "1.1.1"
@@ -21876,7 +21876,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_democratic_primary_curley
 				}
 				create_country_leader = {# Curley
-					name = "James Michael Curley"
+					name = "Джеймс Майкл Керли"
 					desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 					expire = "1.1.1"
@@ -21887,12 +21887,12 @@ country_event = { # 1940 Election
 				}
 			}
 
-			if = { # Al Smith
+			if = { # Эл Смит
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_smith
 				}
 				create_country_leader = {
-					name = "Al Smith"
+					name = "Эл Смит"
 					desc = "POLITICS_AL_SMITH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Al_Smith.png"
 					expire = "1.1.1"
@@ -21906,7 +21906,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_democratic_primary_cross
 				}
 				create_country_leader = {
-					name = "Wilbur Lucius Cross"
+					name = "Вилбур Люциус Кросс"
 					desc = "POLITICS_WILBUR_CROSS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Wilbur_Lucius_Cross.png"
 					expire = "1.1.1"
@@ -21915,12 +21915,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # John Gilbert Winant
+			if = { # Джон Гилберт Уайнант
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_winant
 				}
 				create_country_leader = {
-					name = "John Gilbert Winant"
+					name = "Джон Гилберт Уайнант"
 					desc = "POLITICS_JOHN_WINANT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_john_winant.png"
 					expire = "1.1.1"
@@ -21931,12 +21931,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Herbert H. Lehman
+			if = { # Герберт Леман
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_lehman
 				}
 				create_country_leader = {
-					name = "Herbert H. Lehman"
+					name = "Герберт Леман"
 					desc = "POLITICS_HERBERT_LEHMAN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_Lehman.png"
 					expire = "1.1.1"
@@ -21952,7 +21952,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_fish
 				}
 				create_country_leader = {# Fish
-					name = "Hamilton Fish III"
+					name = "Гамильтон Фиш III"
 					desc = "POLITICS_HAMILTON_FISH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Hamilton_Fish_III.png"
 					expire = "1.1.1"
@@ -21968,7 +21968,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_martin
 				}
 				create_country_leader = {# Fish
-					name = "Joseph William Martin Jr."
+					name = "Джозеф Уильям Мартин мл."
 					desc = "POLITICS_HAMILTON_FISH_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_joseph_martin_jr.png"
 					expire = "1.1.1"
@@ -21979,12 +21979,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Percival P. Baxter
+			if = { # Персиваль П. Бакстер
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_baxter
 				}
 				create_country_leader = {
-					name = "Percival P. Baxter"
+					name = "Персиваль П. Бакстер"
 					desc = "POLITICS_PERCIVAL_BAXTER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Percival_P_Baxter.png"
 					expire = "1.1.1"
@@ -21996,12 +21996,12 @@ country_event = { # 1940 Election
 			}
 			
 
-			if = { # Hiram Bingham III
+			if = { # Прескотт Буш
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_bingham
 				}
-				create_country_leader = {# Hiram Bingham III
-					name = "Hiram Bingham III"
+				create_country_leader = {# Прескотт Буш
+					name = "Хайрам Бингем III"
 					desc = "POLITICS_BINGHAM_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III_political.png"
 					expire = "1.1.1"
@@ -22012,12 +22012,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Fred Trump
+			if = { # Фред Трамп
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_trump
 				}
-				create_country_leader = {# Fred Trump
-					name = "Fred Trump"
+				create_country_leader = {# Прескотт Буш
+					name = "Фред Трамп"
 					desc = "POLITICS_FRED_TRUMP_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Fred_Trump.png"
 					expire = "1.1.1"
@@ -22033,7 +22033,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_republican_primary_herter
 				}
 				create_country_leader = {
-					name = "Christian Herter"
+					name = "Кристиан Арчибальд Гертер"
 					desc = "POLITICS_CHRISTIAN_HERTER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Christian_Archibald_Herter.png"
 					expire = "1.1.1"
@@ -22042,10 +22042,10 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Thomas Dewey
+			if = { # Томас Дьюи
 				limit = { has_country_flag = NEE_1940_liberal_republican_primary_dewey }
 				create_country_leader = {
-					name = "Thomas Dewey"
+					name = "Томас Дьюи"
 					desc = "POLITICS_THOMAS_DEWEY_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Thomas_Dewey.png"
 					expire = "1.1.1"
@@ -22056,12 +22056,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Clarence Pickett
+			if = { # Джордж Эйкен
 				limit = {
 					has_country_flag = NEE_1940_quaker_primary_pickett
 				}
 				create_country_leader = {
-					name = "Clarence Pickett"
+					name = "Кларенс Пикетт"
 					desc = "POLITICS_CLARENCE_PICKETT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 					expire = "1.1.1"
@@ -22070,12 +22070,12 @@ country_event = { # 1940 Election
 				}
 			}
 			
-			if = { # Eleanor Roosevelt
+			if = { # Элеонора Рузвельт
 				limit = {
 					has_country_flag = NEE_1940_quaker_primary_roosevelt
 				}
 				create_country_leader = {
-					name = "Eleanor Roosevelt"
+					name = "Элеонора Рузвельт"
 					desc = "POLITICS_ELANOR_ROOSEVELT_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Eleanor_Roosevelt.png"
 					expire = "1.1.1"
@@ -22127,7 +22127,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_liberal_primary_aiken
 				}
 				create_country_leader = {
-					name = "George Aiken"
+					name = "Джордж Эйкен"
 					desc = "POLITICS_GEORGE_AIKEN_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 					expire = "1.1.1"
@@ -22142,12 +22142,12 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Scott_Nearing_eco_sde
 				add_ideas = NEE_Edith_Nourse_Rogers_sec_sde
 			}
-			if = { # Frances Perkins
+			if = { # Фрэнсис Перкинс
 				limit = {
 					has_country_flag = NEE_1940_liberal_primary_perkins
 				}
 				create_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					desc = "POLITICS_FRANCES_PERKINS_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Frances_Perkins.png"
 					expire = "1.1.1"
@@ -22190,10 +22190,10 @@ country_event = { # 1940 Election
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		if = {
@@ -22258,7 +22258,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_prohibition_primary_babson
 				}
 				create_country_leader = {
-					name = "Roger Babson"
+					name = "Роджер Бабсон"
 					desc = "POLITICS_ROGER_BABSON_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Roger_Babson.png"
 					expire = "1.1.1"
@@ -22273,7 +22273,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_prohibition_primary_upshaw
 				}
 				create_country_leader = {
-					name = "William D. Upshaw"
+					name = "Уильям Апшоу"
 					desc = "POLITICS_WILLIAM_D_UPSHAW_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 					expire = "1.1.1"
@@ -22288,7 +22288,7 @@ country_event = { # 1940 Election
 					has_country_flag = NEE_1940_prohibition_primary_shuler
 				}
 				create_country_leader = {
-					name = "Robert P. Shuler"
+					name = "Роберт Шулер"
 					desc = "POLITICS_ROBERT_SHULER_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_Robert_P_Shuler.png"
 					expire = "1.1.1"
@@ -22296,18 +22296,18 @@ country_event = { # 1940 Election
 					traits = { staunch_prohibitionist }
 				}
 			}
-			if = { # D. Leigh Colvin
+			if = { # Роджер Бабсон
 				limit = {
 					has_country_flag = NEE_1940_prohibition_primary_colvin
 				}
 				create_country_leader = {
-					name = "D. Leigh Colvin"
-					desc = "POLITICS_LEIGH_COLVIN_DESC"
-					picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
-					expire = "1.1.1"
-					ideology = teetotalism_subtype
-					traits = { staunch_prohibitionist }
-				}
+			name = "Лей Колвин"
+			desc = "POLITICS_LEIGH_COLVIN_DESC"
+			picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
+			expire = "1.1.1"
+			ideology = teetotalism_subtype
+			traits = { staunch_prohibitionist }
+		}
 			}
 		}
 	}
@@ -22349,7 +22349,7 @@ country_event = { # 1940 Election
 					country_event = { id = miscnee.183 days = 1100 }
 				}
 			}
-			if = { # Thomas Dewey
+			if = { # Томас Дьюи
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_dewey
 				}
@@ -22359,7 +22359,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Frederick_George_Payne_eco_sli
 				add_ideas = NEE_Ruth_Baker_Pratt_sec_sli
 			}
-			if = { # Thomas Dewey
+			if = { # Томас Дьюи
 				limit = {
 					has_country_flag = NEE_1940_liberal_republican_primary_lehman
 				}
@@ -22394,7 +22394,7 @@ country_event = { # 1940 Election
 			}
 		}
 		hidden_effect = {
-			if = { # Percival P. Baxter
+			if = { # Персиваль П. Бакстер
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_baxter
 				}
@@ -22404,7 +22404,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Pierrepont_Burt_Noyes_sec_mli
 			}
 			
-			if = { # Hamilton Fish III
+			if = { # Гамильтон Фиш III
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_fish
 				}
@@ -22424,7 +22424,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Pierrepont_Burt_Noyes_sec_mli
 			}
 			
-			if = { # Prescott Bush
+			if = { # Прескотт Буш
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_bush
 				}
@@ -22446,7 +22446,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_Pierrepont_Burt_Noyes_sec_mli
 			}
 			
-			if = { # Fred Trump
+			if = { # Фред Трамп
 				limit = {
 					has_country_flag = NEE_1940_republican_primary_trump
 				}
@@ -22492,7 +22492,7 @@ country_event = { # 1940 Election
 			}
 		}
 		hidden_effect = {
-			if = { # Joseph Kennedy
+			if = { # Джозеф Кеннеди
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_kennedy
 				}
@@ -22512,7 +22512,7 @@ country_event = { # 1940 Election
 				add_ideas = NEE_William_Stuart_Symington_Jr_eco_sco
 				add_ideas = NEE_Wilbur_Lucius_Cross_sec_sco
 			}
-			if = { # Al Smith
+			if = { # Эл Смит
 				limit = {
 					has_country_flag = NEE_1940_democratic_primary_smith
 				}
@@ -22676,7 +22676,7 @@ country_event = {# pershing picker
 	option = {#starting
 		name = newenglandmilflavor.1000.a
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing.png"
 			}
@@ -22686,7 +22686,7 @@ country_event = {# pershing picker
 	option = {#suit
 		name = newenglandmilflavor.1000.b
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_suit.png"
 			}
@@ -22699,7 +22699,7 @@ country_event = {# pershing picker
 				has_country_flag = NEE_pershing_gen_of_armies
 			}
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_uniform.png"
 			}
@@ -22712,7 +22712,7 @@ country_event = {# pershing picker
 				has_country_flag = NEE_pershing_larp
 			}
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Д. Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_tricorn.png"
 			}
@@ -22738,7 +22738,7 @@ country_event = {# pershing picker 2
 	option = {#Sash
 		name = newenglandmilflavor.1100.a
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_John_Pershing_Sash.png"
 			}
@@ -22748,7 +22748,7 @@ country_event = {# pershing picker 2
 	option = {#Union
 		name = newenglandmilflavor.1100.b
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/FSA/Portrait_FSA_John_Pershing_union.png"
 			}
@@ -22758,7 +22758,7 @@ country_event = {# pershing picker 2
 	option = {#Union Alt
 		name = newenglandmilflavor.1100.c
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/FSA/Portrait_FSA_John_Pershing_union_alt.png"
 			}
@@ -22768,7 +22768,7 @@ country_event = {# pershing picker 2
 	option = {#Union Alt 2
 		name = newenglandmilflavor.1100.e
 			if = {	
-			limit = { has_country_leader = { name = "John J. Pershing" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джон Першинг" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/FSA/Portrait_FSA_John_Pershing_union_alt_2.png"
 			}
@@ -22794,7 +22794,7 @@ country_event = {# bingham picker
 	option = {#starting
 		name = newenglandmilflavor.1001.a
 			if = {	
-			limit = { has_country_leader = { name = "Hiram Bingham III" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Хайрам Бингем III" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III.png"
 			}
@@ -22804,7 +22804,7 @@ country_event = {# bingham picker
 	option = {#suit
 		name = newenglandmilflavor.1001.b
 			if = {	
-			limit = { has_country_leader = { name = "Hiram Bingham III" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Хайрам Бингем III" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III_political.png"
 			}
@@ -23110,7 +23110,7 @@ country_event = {# grant picker
 	option = {#suit
 		name = newenglandmilflavor.1006.a
 			if = {	
-			limit = { has_country_leader = { name = "Ulysses Grant III " ruling_only = yes } }
+			limit = { has_country_leader = { name = "Улисс Грант III " ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III_Political.png"
 			}
@@ -23120,7 +23120,7 @@ country_event = {# grant picker
 	option = {#green
 		name = newenglandmilflavor.1006.b
 			if = {	
-			limit = { has_country_leader = { name = "Ulysses Grant III " ruling_only = yes } }
+			limit = { has_country_leader = { name = "Улисс Грант III " ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III.png"
 			}
@@ -23130,7 +23130,7 @@ country_event = {# grant picker
 	option = {#blue
 		name = newenglandmilflavor.1006.c
 			if = {	
-			limit = { has_country_leader = { name = "Ulysses Grant III " ruling_only = yes } }
+			limit = { has_country_leader = { name = "Улисс Грант III " ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/FSA/Portrait_FSA_Ulysses_S_Grant_III.png"
 			}
@@ -23140,7 +23140,7 @@ country_event = {# grant picker
 	option = {#beige
 		name = newenglandmilflavor.1006.e
 			if = {	
-			limit = { has_country_leader = { name = "Ulysses Grant III " ruling_only = yes } }
+			limit = { has_country_leader = { name = "Улисс Грант III " ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/ENC/Portrait_ENC_Ulysses_S_Grant_III.png"
 			}
@@ -23448,7 +23448,7 @@ country_event = {# Elizebeth becomes General
 			factor = 100
 		}
 		create_corps_commander = {# Queen Elizabeth
-			name = "Princess Elizabeth of Windsor"
+			name = "Принцесса Елизавета Виндзорская"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Elizabeth_General.png"
 			traits = {
 				politically_connected
@@ -24101,7 +24101,7 @@ country_event = {# The King is Crowned
 	fire_only_once = yes
 	
 	is_triggered_only = yes
-
+	
 	immediate = {
 		hidden_effect ={
 			set_cosmetic_tag = NEE_WASHINGTON
@@ -24114,7 +24114,7 @@ country_event = {# The King is Crowned
 			factor = 100
 		}
 		create_country_leader = {# Dr. George Bolling Lee
-			name = "George II"
+			name = "Георг II"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Dr_George_Bolling_Lee.png"
 			expire = "1.1.1"
 			ideology = pataut_washingtonism_subtype
@@ -24151,7 +24151,7 @@ country_event = {# Who to Crown
 			}
 		}
 		create_country_leader = {
-			name = "Joseph, Baron Kennedy"
+			name = "Джозеф, барон Кеннеди"
 			desc = "POLITICS_JOSEPH_KENNEDY_BARON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Kennedy_governor_general.png"
 			expire = "1.1.1"
@@ -24179,7 +24179,7 @@ country_event = {# Who to Crown
 			}
 		}
 		create_country_leader = {
-			name = "Vincent, Baron Astor"
+			name = "Винсент, барон Астор"
 			desc = "POLITICS_ASTOR_BARON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Vincent_Astor_Governor_general.png"
 			expire = "1.1.1"
@@ -24592,7 +24592,7 @@ country_event = {# Quaker War
 			factor = 100
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Clarence Pickett" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Кларенс Пикетт" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett_A_N_G_E_R_Y.png"
 			}
@@ -24622,7 +24622,7 @@ country_event = {# Quaker War Ends
 			factor = 100
 		}
 		if = {	
-			limit = { has_country_leader = { name = "Clarence Pickett" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Кларенс Пикетт" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 			}
@@ -24807,10 +24807,10 @@ country_event = {# elect a monarch
 	
 	is_triggered_only = yes
 	
-	option = { #Kennedy
+	option = { #kennedy
 		name = newengland.285.a
 		create_country_leader = {
-			name = "Joseph, Baron Kennedy"
+			name = "Джозеф, барон Кеннеди"
 			desc = "POLITICS_JOSEPH_KENNEDY_BARON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Kennedy_governor_general.png"
 			expire = "1.1.1"
@@ -24823,10 +24823,10 @@ country_event = {# elect a monarch
 			ideology = paternal_autocrat
 		}
 	}
-	option = { #Astor
+	option = { #astor
 		name = newengland.285.b
 		create_country_leader = {
-			name = "Vincent, Baron Astor"
+			name = "Винсент, барон Астор"
 			desc = "POLITICS_ASTOR_BARON_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Vincent_Astor_Governor_general.png"
 			expire = "1.1.1"
@@ -24842,8 +24842,8 @@ country_event = {# elect a monarch
 	
 	option = { #Fish
 		name = newengland.285.c
-		create_country_leader = {
-			name = "Hamilton III, Baron Fish"
+		create_country_leader = {# Fish
+			name = "Гамильтон III, барон Фиш"
 			desc = "POLITICS_HAMILTON_FISH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Hamilton_Fish_III_Royal.png"
 			expire = "1.1.1"
@@ -24859,10 +24859,10 @@ country_event = {# elect a monarch
 		}
 	}
 	
-	option = { #Vanderbilt
+	option = { #vanderbuilt
 		name = newengland.285.e
-		create_country_leader = {
-			name = "William Henry III, Baron Vanderbilt"
+		create_country_leader = {# Fish
+			name = "Вандербильт Уильям Генри III "
 			desc = "POLITICS_HAMILTON_FISH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_William_Henry_Vanderbilt_III.png"
 			expire = "1.1.1"
@@ -24878,7 +24878,7 @@ country_event = {# elect a monarch
 		}
 	}
 	
-	option = { #Franz Joseph
+	option = { #Franzjoseph
 		name = newengland.285.f
 		trigger = {
 			ALA = {
@@ -24886,7 +24886,7 @@ country_event = {# elect a monarch
 			}
 		}
 		create_country_leader = {
-			name = "Franz Joseph II"
+			name = "Франциск Иосиф II"
 			desc = "POLITICS_FRANZJOSEPH_II_DESC"
 			picture = "gfx/leaders/ALA/Portrait_ALA_Franz_Joseph_II.png"
 			expire = "1.1.1"
@@ -24939,13 +24939,13 @@ country_event = {# elect a monarch round 2
 		name = newengland.286.a
 		add_political_power = 50
 	}
-	option = { #Trump
+	option = { #trump
 		name = newengland.286.b
 		trigger = {
 			has_country_flag = NEE_trump_accepted_flag
 		}
-		create_country_leader = {
-			name = "Fredrick, Baron Trump"
+		create_country_leader = {# Прескотт Буш
+			name = "Фредрик, барон Трамп"
 			desc = "POLITICS_FRED_TRUMP_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Fred_Trump_Royal.png"
 			expire = "1.1.1"
@@ -24962,13 +24962,13 @@ country_event = {# elect a monarch round 2
 		add_political_power = -50
 	}
 	
-	option = { #Bush
+	option = { #bush
 		name = newengland.286.c
 		trigger = {
 			has_country_flag = NEE_bush_accepted_flag
 		}
-		create_country_leader = {
-			name = "Prescott, Baron Bush"
+		create_country_leader = {# Прескотт Буш
+			name = "Прескотт, барон Буш"
 			desc = "POLITICS_PRESCOTT_BUSH_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Prescott_Bush_Royal.png"
 			expire = "1.1.1"
@@ -25912,7 +25912,7 @@ country_event = {#nordic unity larp
 		}
 		if = {
 			limit = { NOT = { has_cosmetic_tag = NEE_nordic_yggdrasil } }
-			set_cosmetic_tag = NEE_nordic_united
+        set_cosmetic_tag = NEE_nordic_united
 		}
 		983 = { add_core_of = NEE }
 		14 = { add_core_of = NEE }
@@ -26361,7 +26361,7 @@ country_event = { # Sit Down Strikes
 	picture = GFX_report_event_generic_strike
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_socialist_government = no 
 	}
@@ -27268,8 +27268,8 @@ country_event = { # Morgenthau Controversial Plan
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			has_country_leader = { name = "Maurice Tobin" ruling_only = yes }
-			has_country_leader = { name = "William Averell Harriman" ruling_only = yes }
+			has_country_leader = { name = "Морис Тобин" ruling_only = yes }
+			has_country_leader = { name = "Аверелл Гарриман" ruling_only = yes }
 		}
 		781 = { is_owned_and_controlled_by = GER }
 		51 = { is_owned_and_controlled_by = GER }
@@ -27324,7 +27324,7 @@ country_event = { # Wise Men Cabinet
 	trigger = {
 		NOT = {
 		has_country_leader = {
-			name = "William Averell Harriman"
+			name = "Аверелл Гарриман"
 			ruling_only = yes
 		}
 	    }
@@ -27394,7 +27394,7 @@ country_event = { # Perkins calls for better conditions
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Frances Perkins"
+					name = "Фрэнсис Перкинс"
 					ruling_only = yes
 				}
 			}
@@ -27404,7 +27404,7 @@ country_event = { # Perkins calls for better conditions
 		text = miscnee.180.d.president
 		trigger = {
 			has_country_leader = {
-				name = "Frances Perkins"
+				name = "Фрэнсис Перкинс"
 				ruling_only = yes
 			}
 		}
@@ -27661,7 +27661,7 @@ country_event = { # Capital for the new America but sons of liberty
 
 	option = { # Trenton
 	
-		name = "Let me see the other Capitals."
+		name = "Дайте мне посмотреть на другие столицы."
 		ai_chance = {
 			base = 30
 		}
@@ -27730,7 +27730,7 @@ country_event = { # Capital for the new America but sons of liberty
 
 	option = { # Trenton
 	
-		name = "Let me see the other Capitals."
+		name = "Дайте мне посмотреть на другие столицы."
 		ai_chance = {
 			base = 30
 		}
@@ -27742,7 +27742,7 @@ country_event = { # Capital for the new America but sons of liberty
 
 
 
-country_event = { # Eleanor Roosevelt
+country_event = { # Элеонора Рузвельт
 	id = miscnee.186
 	immediate = { log = "[GetDateText]: [Root.GetName]: event miscnee.186 FROM = [From.GetName]" }
 	title = miscnee.186.t
@@ -27817,7 +27817,7 @@ country_event = { # War Bond Drive
 	}
 }
 
-country_event = { # George II Death
+country_event = { # Георг II Death
 	id = miscnee.189
 	immediate = { log = "[GetDateText]: [Root.GetName]: event miscnee.189 FROM = [From.GetName]" }
 	title = miscnee.189.t
@@ -27830,7 +27830,7 @@ country_event = { # George II Death
 	NEE = {
 	has_country_leader = {
 		ruling_only = yes
-		name = "George II"
+		name = "Георг II"
 	}
 	date > 1948.07.13
 		}
@@ -27840,7 +27840,7 @@ country_event = { # George II Death
 		name = miscnee.189.a
 		add_political_power = -15
 		create_country_leader = {# Robert E. Lee IV (source: trust me bro)
-			name = "Robert I"
+			name = "Роберт I"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Robert_E_Lee_V.png"
 			expire = "1.1.1"
 			ideology = pataut_washingtonism_subtype
@@ -27946,14 +27946,14 @@ country_event = { # VVIZARD VVEED
 			}
 		}
 		else = {
-			set_party_name = {
-				name = NEE_social_democrat_party_proh
-				long_name = NEE_social_democrat_party_proh_long
-				ideology = social_democrat
+		set_party_name = {
+			name = NEE_social_democrat_party_proh
+			long_name = NEE_social_democrat_party_proh_long
+			ideology = social_democrat
 			}
 		}
 		create_country_leader = {
-			name = "D. Leigh Colvin"
+			name = "Лей Колвин"
 			desc = "POLITICS_LEIGH_COLVIN_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_D_Leigh_Colvin.png"
 			expire = "1.1.1"
@@ -28497,19 +28497,19 @@ country_event = { #Coalition Picker
 		OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Roger Babson"
+				name = "Роджер Бабсон"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Robert P. Shuler"
+				name = "Роберт Шулер"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "William D. Upshaw"
+				name = "Уильям Апшоу"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Claude A. Watson"
+				name = "Клауд А. Уотсон"
 			}
 		}
 	}
@@ -28525,7 +28525,7 @@ country_event = { #Coalition Picker
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Roger Babson"
+				name = "Роджер Бабсон"
 			}
 		}
 		add_soclib_to_coalition = yes
@@ -28538,7 +28538,7 @@ country_event = { #Coalition Picker
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Robert P. Shuler"
+				name = "Роберт Шулер"
 			}
 		}
 		add_soccon_to_coalition = yes
@@ -28549,7 +28549,7 @@ country_event = { #Coalition Picker
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William D. Upshaw"
+				name = "Уильям Апшоу"
 			}
 		}
 		set_party_name = {
@@ -28558,7 +28558,7 @@ country_event = { #Coalition Picker
 			ideology = national_populist
 		}
 		create_country_leader = {
-			name = "William D. Upshaw"
+			name = "Уильям Апшоу"
 			desc = "POLITICS_ROBERT_SHULER_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_William_D_Upshaw.png"
 			expire = "1.1.1"
@@ -28575,7 +28575,7 @@ country_event = { #Coalition Picker
 		trigger = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Claude A. Watson"
+				name = "Клауд А. Уотсон"
 			}
 		}
 		add_radsoc_to_coalition = yes
@@ -28633,7 +28633,7 @@ country_event = { #Racist grandpa
 		name = miscnee.214.c
 		add_command_power = 50
 		create_country_leader = {
-			name = "Madison Grant"
+			name = "Мэдисон Грант"
 			desc = "POLITICS_MADISON_GRANT_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Madison_Grant.png"
 			expire = "1.1.1"
@@ -28663,7 +28663,7 @@ country_event = {#Lermond dies
 		name = lermond.1.b #Ashes to Ashes...
 		set_country_flag = lermund_dies_bruh
 	create_country_leader = {#
-	name = "Socialist Party of New England Central Committee"
+	name = "Центральный комитет"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 	expire = "1.1.1"
 	ideology = eco_socialism_subtype
@@ -28692,7 +28692,7 @@ country_event = {#Lermond dies
 		name = lermond.111.a #Ashes to Ashes...
 		set_country_flag = lermund_dies_bruh
 	create_country_leader = {#
-	name = "Socialist Party of New England Central Committee"
+	name = "Центральный комитет"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 	expire = "1.1.1"
 	ideology = eco_socialism_subtype
@@ -28718,7 +28718,7 @@ country_event = { #The Congress After Lermond's Freaking Death
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Harry Ault"
+			name = "Гарри Олт"
 			desc = "POLITICS_HARRY_AULT_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Harry_Ault.png"
 			expire = "1.1.1"
@@ -28744,7 +28744,7 @@ country_event = { #The Congress After Lermond's Freaking Death
 		set_cosmetic_tag = NEE_commoner
 		}
 		create_country_leader = {
-			name = "Barry Commoner"
+			name = "Барри Коммонер"
 			desc = "POLITICS_BARRY_COMMONER_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Barry_Commoner.png"
 			expire = "1.1.1"
@@ -28757,7 +28757,7 @@ country_event = { #The Congress After Lermond's Freaking Death
 		set_country_flag = lermund_successor
 		set_country_flag = lermund_protege
 		create_country_leader = {
-			name = "Henry Augustus Pilsbry"
+			name = "Генри Август Пилсбри"
 			desc = "POLITICS_HENRY_AUGUSTUS_PILSBRY_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Henry_Augustus_Pilsbry.png"
 			expire = "1.1.1"
@@ -28770,7 +28770,7 @@ country_event = { #The Congress After Lermond's Freaking Death
 		set_country_flag = lermund_successor
 		set_country_flag = lermund_bff
 		create_country_leader = {
-			name = "Harvey Bulfinch Lovell"
+			name = "Харви Булфинч Ловелл"
 			desc = "POLITICS_HARVEY_BULFINCH_LOVELL_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Harvey_Bulfinch_Lovell.png"
 			expire = "1.1.1"
@@ -28782,7 +28782,7 @@ country_event = { #The Congress After Lermond's Freaking Death
 		name = lermond.2.f
 		set_country_flag = NEE_unabomber
 		create_country_leader = {
-			name = "Paul Goodman"
+			name = "Пол Гудман"
 			desc = "POLITICS_PAUL_GOODMAN_DESC"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Paul_Goodman.png"
 			expire = "1.1.1"
@@ -29240,7 +29240,7 @@ country_event = { #Ault alt
 		name = lermond.19.b
 		add_political_power = 30
 		create_country_leader = {
-			name = "Benton MacKaye"
+			name = "Бентон Маккей"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Benton_MacKaye.png"
 			expire = "1.1.1"
 			ideology = syn_utopian_technocracy_subtype
@@ -29274,7 +29274,7 @@ country_event = { #Pilsbry dough boy
 		name = lermond.20.b
 		add_political_power = 30
 		create_country_leader = {
-			name = "David Brower"
+			name = "Дэвид Брауэр"
 			picture = "gfx/leaders/NEE/Portrait_NEE_David_Brower.png"
 			expire = "1.1.1"
 			ideology = radsoc_jeffersonianism_subtype
@@ -29286,7 +29286,7 @@ country_event = { #Pilsbry dough boy
 		name = lermond.20.c
 		add_political_power = 30
 		create_country_leader = {
-			name = "Ansel Adams"
+			name = "Энсел Адамс"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Ansel_Adams.png"
 			expire = "1.1.1"
 			ideology = bellamyism_subtype
@@ -29314,7 +29314,7 @@ country_event = { #lovell
 		name = lermond.21.b
 		add_political_power = 30
 		create_country_leader = {
-			name = "Rachel Carson"
+			name = "Рейчел Карсон"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Rachel_Carson.png"
 			expire = "1.1.1"
 			ideology = eco_socialism_subtype
@@ -29326,7 +29326,7 @@ country_event = { #lovell
 		name = lermond.21.c
 		add_political_power = 30
 		create_country_leader = {
-			name = "Ed Ricketts"
+			name = "Едвард Рикеттс"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Ed_Ricketts.png"
 			expire = "1.1.1"
 			ideology = bellamyism_subtype
@@ -29354,7 +29354,7 @@ country_event = { #commoner
 		name = lermond.22.b
 		add_political_power = 30
 		create_country_leader = {
-			name = "Gifford Pinchot"
+			name = "Гиффорд Пинчот"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Gifford_Pinchot.png"
 			expire = "1.1.1"
 			ideology = bellamyism_subtype
@@ -29372,7 +29372,7 @@ country_event = { #commoner
 		name = lermond.22.c
 		add_political_power = 30
 		create_country_leader = {
-			name = "Bob Marshall"
+			name = "Боб Маршалл"
 			desc = "POLITICS_BOB_MARSHALL_DESC"
 			picture = "gfx/leaders/ALA/Portrait_Alaska_Bob_Marshall.png"
 			expire = "1.1.1"
@@ -29403,7 +29403,7 @@ country_event = { #HE DEFECATED THROUGH A SUNROOF
 		name = lermond.23.b
 		add_political_power = 30
 		create_country_leader = {
-			name = "Murray Bookchin"
+			name = "Мюррей Букчин"
 			picture = "gfx/leaders/NEE/Portrait_NEE_Murray_Bookchin.png"
 			expire = "1.1.1"
 			ideology = eco_anarchism_subtype

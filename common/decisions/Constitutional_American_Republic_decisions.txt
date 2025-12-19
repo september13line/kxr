@@ -457,7 +457,7 @@ COR_faction_decisions = {
 				is_in_faction = no
 				exists = yes
 				is_subject = no
-				has_country_leader = { ruling_only = yes name = "Émile Janssens" }
+				has_country_leader = { ruling_only = yes name = "Эмиль Янссенс" }
 			}
 		}
 		days_remove = 7
@@ -562,8 +562,8 @@ COR_faction_decisions = {
 		visible = {
 			COR = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 				has_completed_focus = COR_World_Set_Free
 			}
@@ -601,8 +601,8 @@ COR_faction_decisions = {
 		visible = {
 			COR = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 				has_completed_focus = COR_World_Set_Free
 			}
@@ -640,8 +640,8 @@ COR_faction_decisions = {
 		visible = {
 			COR = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 				has_completed_focus = COR_World_Set_Free
 			}
@@ -680,8 +680,8 @@ COR_faction_decisions = {
 		visible = {
 			COR = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 				has_completed_focus = COR_World_Set_Free
 			}
@@ -715,16 +715,16 @@ COR_faction_decisions = {
 		available = {
 			has_completed_focus = COR_World_Set_Free
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 		}
 		
 		visible = {
 			has_completed_focus = COR_World_Set_Free
 			OR = {
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-			has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." }
 			}
 			FROM = { 
 				exists = yes
@@ -758,18 +758,18 @@ COR_faction_decisions = {
 			}
 		}
 	}
-	COR_christians_fire_eating = {
+		COR_christians_fire_eating = {
 	COR_ignite_our_ring = {
 		icon = generic_prepare_civil_war
 		
 		available = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		
 		visible = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		cost = 75
 		
@@ -894,7 +894,7 @@ COR_faction_decisions = {
 		
 		available = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			NOT = {
 				country_exists = MEX
 				country_exists = GUA
@@ -952,7 +952,7 @@ COR_faction_decisions = {
 		
 		visible = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		cost = 150
 		days_remove = 75
@@ -1068,13 +1068,13 @@ COR_faction_decisions = {
 		
 		available = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			hidden_trigger = { has_country_flag = COR_christians_expansion }
 		}
 		
 		visible = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			hidden_trigger = { has_country_flag = COR_christians_expansion }
 			FROM = { 
 				exists = yes
@@ -1118,13 +1118,13 @@ COR_faction_decisions = {
 		
 		available = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			hidden_trigger = { has_country_flag = COR_christians_expansion }
 		}
 		
 		visible = {
 			has_completed_focus = COR_Ring_Of_Fire
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			hidden_trigger = { has_country_flag = COR_christians_expansion }
 			FROM = { 
 				exists = yes
@@ -1214,6 +1214,6 @@ COR_missionaries_decisions = {
 				}
 				add_opinion_modifier = { target = COR modifier = sent_missionaries }
 			}
+			}
 		}
 	}
-}

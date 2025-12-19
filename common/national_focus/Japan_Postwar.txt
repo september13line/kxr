@@ -1073,7 +1073,7 @@ focus_tree = {
 			hidden_effect = {
 				add_stability = -0.05
 				if = {
-					limit = { has_country_leader = { name = "Hirohito" ruling_only = yes} }
+					limit = { has_country_leader = { name = "Хирохито" ruling_only = yes} }
 					JAP_puppet_hirohito_followup_trait_effect = yes
 				}
 				news_event = { id = worldnews.245 days = 1 }
@@ -2198,11 +2198,11 @@ focus_tree = {
 		ai_will_do = { base = 100 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JAP_create_the_mine_warfare_force"
-			add_tech_bonus = {
-				name = JAP_create_the_mine_warfare_force
-				bonus = 1
-				uses = 1
-				category = naval_mines
+				add_tech_bonus = {
+					name = JAP_create_the_mine_warfare_force
+					bonus = 1
+					uses = 1
+					category = naval_mines
 			}
 			effect_tooltip = {
 				swap_ideas = {

@@ -1360,7 +1360,7 @@ country_event = { # Ankara Agreements
 			modifier = {
 				add = 20
 				TUR = { has_war_with = EGY }
-			}		
+			}			
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_fate option = ABK_GUARANTEED_OTT }
@@ -2086,28 +2086,28 @@ country_event = { # Ankara Agreements
 				}
 			}
 			else = {
-				if = {
-					limit = {
-						paternal_autocrat < radical_socialist
-					}
-					country_event = {
-						id = abk.64
-						days = 3
-					}
+			if = {
+				limit = {
+					paternal_autocrat < radical_socialist
 				}
-				else_if = {
-					limit = {
-						has_country_flag = ABK_restoration
-					}
-					country_event = {
-						id = abk.63
-						days = 3
-					}
+				country_event = {
+					id = abk.64
+					days = 3
 				}
-				else = {
-					country_event = {
-						id = abk.59
-						days = 3
+			}
+			else_if = {
+				limit = {
+					has_country_flag = ABK_restoration
+				}
+				country_event = {
+					id = abk.63
+					days = 3
+				}
+			}
+			else = {
+				country_event = {
+					id = abk.59
+					days = 3
 					}
 				}
 			}
@@ -2139,7 +2139,7 @@ country_event = { # Ankara Agreements
 		add_ideas = ABK_Ioseb_Kvaratskhelia_sec_sde
 		hidden_effect = {
 			if = {
-				limit = { 
+				limit = {
 					is_ai = yes 
 					has_game_rule = { rule = ABK_path option = ABK_SPDA }
 				}
@@ -2151,39 +2151,39 @@ country_event = { # Ankara Agreements
 			else = {
 				if = {
 					limit = {
-						social_democrat < radical_socialist
-					}
-					country_event = {
-						id = abk.67
-						days = 3
-					}
+					social_democrat < radical_socialist
 				}
-				else_if = {
-					limit = {
-						social_democrat < paternal_autocrat
-					}
-					if = {
-						limit = { has_country_flag = ABK_restoration }
-						country_event = {
-							id = abk.62
-							days = 3
-						}
-					}
-					else = {
-						country_event = {
-							id = abk.65
-							days = 3
-						}
+				country_event = {
+					id = abk.67
+					days = 3
+				}
+			}
+			else_if = {
+				limit = {
+					social_democrat < paternal_autocrat
+				}
+				if = {
+					limit = { has_country_flag = ABK_restoration }
+					country_event = {
+						id = abk.62
+						days = 3
 					}
 				}
 				else = {
 					country_event = {
-						id = abk.60
+						id = abk.65
 						days = 3
 					}
 				}
 			}
+			else = {
+				country_event = {
+					id = abk.60
+					days = 3
+				}
+			}
 		}
+	}
 	}
 	option = {
 		name = abk.57.c
@@ -2207,7 +2207,7 @@ country_event = { # Ankara Agreements
 		add_ideas = ABK_Samson_Chanba_sec_rso
 		hidden_effect = {
 			if = {
-				limit = { 
+				limit = {
 					is_ai = yes 
 					OR = { 
 						has_game_rule = { rule = ABK_path option = ABK_KIARAZ_COMMUNIST }
@@ -2222,31 +2222,31 @@ country_event = { # Ankara Agreements
 			else = {
 				if = {
 					limit = {
-						radical_socialist < paternal_autocrat
-					}
-					if = {
-						limit = { has_country_flag = ABK_restoration }
-						country_event = {
-							id = abk.62
-							days = 3
-						}
-					}
-					else = {
-						country_event = {
-							id = abk.66
-							days = 3
-						}
+					radical_socialist < paternal_autocrat
+				}
+				if = {
+					limit = { has_country_flag = ABK_restoration }
+					country_event = {
+						id = abk.62
+						days = 3
 					}
 				}
 				else = {
 					country_event = {
-						id = abk.61
+						id = abk.66
 						days = 3
 					}
 				}
 			}
+			else = {
+				country_event = {
+					id = abk.61
+					days = 3
+				}
+			}
 		}
 	}
+}
 }
 country_event = { # Ankara Agreements
 	id = abk.58
@@ -2295,7 +2295,7 @@ country_event = { # Ankara Agreements
 		}
 		complete_national_focus = ABK_Chachba_Restoration
 		create_country_leader = {
-			name = "Aleksandr Shervashidze-Chachba"
+			name = "Александр Шервашидзе-Чачба"
 			desc = "POLITICS_ALEKS_CHACHBA_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Aleksandr_Chachba.png"
 			expire = "1.1.1"
@@ -2348,7 +2348,7 @@ country_event = { # Ankara Agreements
 		}
 		complete_national_focus = ABK_Basaria
 		create_country_leader = {
-			name = "Simon Basaria"
+			name = "Симон Басария"
 			desc = "POLITICS_BASARIA_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Simon_Basaria.png"
 			expire = "1.1.1"
@@ -2407,7 +2407,7 @@ country_event = { # Ankara Agreements
 		remove_ideas_with_trait = head_of_government
 		add_ideas = ABK_Varlam_Shervashidze_hog_sde
 		create_country_leader = {
-			name = "Varlam Shervashidze"
+			name = "Варлам Шервашидзе"
 			desc = "POLITICS_VARLAM_SHERVASHIDZE_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Varlam_Servashidze.png"
 			expire = "1.1.1"
@@ -2415,7 +2415,7 @@ country_event = { # Ankara Agreements
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Simon Basaria"
+				name = "Симон Басария"
 				desc = "POLITICS_BASARIA_DESC"
 				picture = "gfx/leaders/ABK/Portrait_ABK_Simon_Basaria.png"
 				expire = "1.1.1"
@@ -2467,7 +2467,7 @@ country_event = { # Ankara Agreements
 		add_ideas = ABK_Arzakan_Emukhvari_hog_sde
 		hidden_effect = {
 			create_country_leader = {
-				name = "Simon Basaria"
+				name = "Симон Басария"
 				desc = "POLITICS_BASARIA_DESC"
 				picture = "gfx/leaders/ABK/Portrait_ABK_Simon_Basaria.png"
 				expire = "1.1.1"
@@ -2559,7 +2559,7 @@ country_event = { # Ankara Agreements
 		}
 		complete_national_focus = ABK_Chachba_Restoration
 		create_country_leader = {
-			name = "Aleksandr Shervashidze-Chachba"
+			name = "Александр Шервашидзе-Чачба"
 			desc = "POLITICS_ALEKS_CHACHBA_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Aleksandr_Chachba.png"
 			expire = "1.1.1"
@@ -2596,7 +2596,7 @@ country_event = { # Ankara Agreements
 		}
 		complete_national_focus = ABK_Chachba_Restoration
 		create_country_leader = {
-			name = "Aleksandr Shervashidze-Chachba"
+			name = "Александр Шервашидзе-Чачба"
 			desc = "POLITICS_ALEKS_CHACHBA_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Aleksandr_Chachba.png"
 			expire = "1.1.1"
@@ -2869,7 +2869,7 @@ country_event = { # Lakobistan
 		activate_targeted_decision = { target = INT decision = ABK_join_internationale }
 	}
 	option = {
-		name = abk.74.b
+		name = abk.74.b	
 		trigger = { has_completed_focus = ABK_A_State_Built_On_Nationalism }
 		ai_chance = {
 			base = 100
@@ -2920,7 +2920,7 @@ country_event = { # Lakobistan
 					has_game_rule = { rule = ABK_foreign option = ABK_INTERNATIONALE }
 				}
 			}
-		}
+		}		
 		GEO = {
 			country_event = {
 				id = abk.77
@@ -2987,7 +2987,7 @@ country_event = { # Lakobistan
 	option = {
 		name = abk.77.a		
 		ai_chance = {
-			base = 85	
+			base = 85
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_foreign option = ABK_UNION_GEORGIA }
@@ -3003,7 +3003,7 @@ country_event = { # Lakobistan
 	option = {
 		name = abk.77.b	
 		ai_chance = {
-			base = 15	
+			base = 15
 		}
 		FROM = {
 			country_event = {
@@ -3065,7 +3065,7 @@ country_event = { # Lakobistan
 	option = {
 		name = abk.79.a		
 		ai_chance = {
-			base = 85	
+			base = 85
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_foreign option = ABK_INTERNATIONALE }
@@ -3084,7 +3084,7 @@ country_event = { # Lakobistan
 	option = {
 		name = abk.79.b	
 		ai_chance = {
-			base = 15	
+			base = 15
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_foreign option = ABK_WAR_GEORGIA }
@@ -3413,7 +3413,7 @@ country_event = { # Abkhazia
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_foreign option = ABK_FOREIGN_MTR_ANNEX }
-			}
+		}
 		}
 		FROM = {
 			country_event = {
@@ -3502,7 +3502,7 @@ country_event = { # Abkhazia
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = ABK_foreign option = ABK_FOREIGN_MTR_ALLIES }
-			}
+		}
 		}
 		FROM = { set_country_flag = ABK_mtr_refused }
 		add_political_power = -50
@@ -3756,14 +3756,14 @@ country_event = { # Abkhazia
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Abash Shabaan"
+			name = "Шаабан Абаш"
 			desc = "POLITICS_ABASH_SHABAAN_DESC"
 			picture = "gfx/leaders/ABK/Portrait_ABK_Abash_Shaaban.png"
 			expire = "1.1.1"
 			ideology = radsoc_left_panafricanism_subtype
 		}
 		create_corps_commander = {
-			name = "Abash Shabaan "
+			name = "Шаабан Абаш "
 			portrait_path = "gfx/leaders/ABK/Portrait_ABK_Abash_Shaaban.png"
 			traits = {
 				trait_mountaineer
@@ -3927,10 +3927,10 @@ country_event = { # Abkhazia
 	is_triggered_only = yes
 	
 	option = {
-		name = abk.106.a
+		name = abk.106.a	
 		if = {
 			limit = { has_completed_focus = ABK_Chachba_Restoration }
-			set_cosmetic_tag = ABK_abazgia_kingdom
+		set_cosmetic_tag = ABK_abazgia_kingdom
 		}	
 		else = {
 			set_cosmetic_tag = ABK_abazgia

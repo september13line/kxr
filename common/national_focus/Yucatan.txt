@@ -53,10 +53,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_high_command"
 			army_experience = 25
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_RESEARCH }
@@ -286,10 +286,10 @@ focus_tree = {
 			add_equipment_to_stockpile = { type = small_plane_airframe amount = 50 producer = MEX }
 			air_experience = 25
 			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
+	name = air_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = air_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIRFORCE_BONUS }
@@ -390,10 +390,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_modern_division_structure"
 			army_experience = 25
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_RESEARCH }
@@ -480,10 +480,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_protect_coasts"
 			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = naval_doctrine
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 2
+	category = naval_doctrine
 			}
 			add_tech_bonus = {
 				name = YUC_protect_coasts
@@ -575,10 +575,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_aerial_drills"
 			air_experience = 25
 			add_doctrine_cost_reduction = {
-				name = air_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
+	name = air_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = air_doctrine
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIRFORCE_BONUS }
@@ -1069,7 +1069,7 @@ focus_tree = {
 			add_country_leader_trait = YUC_supreme_leader
 			remove_ideas = YUC_division
 			if = {	
-				limit = { has_country_leader = { name = "Tomás Garrido Canabal" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Томас Гарридо Канабаль" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/YUC/Portrait_Yucatan_Tomas_Garrido_Canabal_Mariachi.png"
 				}
@@ -1138,7 +1138,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
-
+	
 	## Syndicalists ##
 	focus = {# Syndicalists
 		id = YUC_syndicalists
@@ -2918,16 +2918,16 @@ focus_tree = {
 					name = YUC_paternal_autocrat_party
 					long_name = YUC_paternal_autocrat_party_long
 				}
-				create_country_leader = {# Salvador Alvarado
-					name = "Salvador Alvarado"
+				create_country_leader = {# Сальвадор Альварадо
+					name = "Сальвадор Альварадо"
 					desc = "POLITICS_ALVORADO_DESC"
 					picture = "Portrait_Salvador_Alvarado.png"
 					expire = "1.1.1"
 					ideology = radsoc_red_junta_subtype
 					traits = {}
 				}
-				create_country_leader = {# Salvador Alvarado
-					name = "Salvador Alvarado"
+				create_country_leader = {# Сальвадор Альварадо
+					name = "Сальвадор Альварадо"
 					desc = "POLITICS_ALVORADO_DESC"
 					picture = "Portrait_Salvador_Alvarado.png"
 					expire = "1.1.1"
@@ -2949,16 +2949,16 @@ focus_tree = {
 					name = YUC_authoritarian_democrat_party
 					long_name = YUC_authoritarian_democrat_party_long
 				}
-				create_country_leader = {# Salvador Alvarado
-					name = "Salvador Alvarado"
+				create_country_leader = {# Сальвадор Альварадо
+					name = "Сальвадор Альварадо"
 					desc = "POLITICS_ALVORADO_DESC"
 					picture = "Portrait_Salvador_Alvarado_President.png"
 					expire = "1.1.1"
 					ideology = radsoc_red_junta_subtype
 					traits = {}
 				}
-				create_country_leader = {# Salvador Alvarado
-					name = "Salvador Alvarado"
+				create_country_leader = {# Сальвадор Альварадо
+					name = "Сальвадор Альварадо"
 					desc = "POLITICS_ALVORADO_DESC"
 					picture = "Portrait_Salvador_Alvarado_President.png"
 					expire = "1.1.1"
@@ -3790,10 +3790,10 @@ focus_tree = {
 				add_state_claim = 311
 				add_state_claim = 313
 				add_state_claim = 475
-				add_state_claim = 1250
-				add_state_claim = 1251
-				add_state_claim = 1252
-				add_state_claim = 1253
+								add_state_claim = 1250
+								add_state_claim = 1251
+								add_state_claim = 1252
+								add_state_claim = 1253
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -3816,8 +3816,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus YUC_reintergrate_the_empire"
 			YUC = {
 				transfer_state = 475
-				transfer_state = 1252
-				transfer_state = 1253
+								transfer_state = 1252
+								transfer_state = 1253
 			}
 			if = {
 				limit = { country_exists = GUA }
@@ -3898,26 +3898,26 @@ focus_tree = {
 				days = 2
 			}
 			if = {
-				limit = {
-					has_country_leader = { name = "Francisco May Pech" ruling_only = yes }
+				limit = { 
+					has_country_leader = { name = "Франсиско Май Печ" ruling_only = yes }
 				}
-				custom_effect_tooltip = YUC_pakal_tt
-			}
-			hidden_effect = {
+			    custom_effect_tooltip = YUC_pakal_tt
+			}	
+			hidden_effect = {	
 				country_event = {
 					id = yuc_flavor.1
 					days = 15
 				}
 				if = {
-					limit = { has_country_leader = { name = "Francisco May Pech" ruling_only = yes } }
-					create_country_leader = {# Pakal IV
-						name = "Pakal IV"
-						desc = "POLITICS_FRANSCISO_MAY_DESC"
-						picture = "gfx/leaders/YUC/Portrait_Yucatan_Pakal_II.png"
-						expire = "1.1.1"
-						ideology = townerism_subtype
-						traits = {}
-					}
+					limit = { has_country_leader = { name = "Франсиско Май Печ" ruling_only = yes } }
+					create_country_leader = {# Пакаль IV
+					name = "Пакаль IV"
+					desc = "POLITICS_FRANSCISO_MAY_DESC"
+					picture = "gfx/leaders/YUC/Portrait_Yucatan_Pakal_II.png"
+					expire = "1.1.1"
+					ideology = townerism_subtype
+					traits = {}
+				    }
 				}
 			}
 		}
@@ -4256,16 +4256,16 @@ focus_tree = {
 			add_state_core = 1071
 			add_state_core = 316
 			add_state_core = 1070
-			add_state_core = 1250
+						add_state_core = 1250
 			add_state_core = 1251
 			add_state_core = 1256
-			add_state_core = 1262
+						add_state_core = 1262
 			add_state_core = 1249
 			add_state_core = 1260
-			add_state_core = 1261
+						add_state_core = 1261
 			add_state_core = 1247
 			add_state_core = 1259
-			add_state_core = 1258
+						add_state_core = 1258
 		}
 		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
 	}

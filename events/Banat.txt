@@ -196,7 +196,7 @@ country_event = { #Royalists flock to Banat
 	}
 }
 
-country_event = { #Avram Imbroane makes a speech
+country_event = { #Аврам Имброане makes a speech
 	id = ban.5
 	title = ban.5.t
 	desc = ban.5.d
@@ -236,7 +236,7 @@ country_event = { #Romania - Influx of Royalists into Banat!
 	}
 }
 
-country_event = { #Attempted murder on Avram Imbroane!
+country_event = { #Attempted murder on Аврам Имброане!
 	id = ban.7
 	title = ban.7.t
 	desc = ban.7.d
@@ -439,7 +439,7 @@ country_event = { #Imbroane dead!
 	}
 }
 
-country_event = { #ROM - Assassinate Otto Roth?
+country_event = { #ROM - Assassinate Отто Рот?
 	id = ban.13
 	title = ban.13.t
 	desc = ban.13.d
@@ -533,7 +533,7 @@ country_event = { #Royalist militia raised!
 	}
 }
 
-country_event = { #Romania attempts assassination on Otto Roth!
+country_event = { #Romania attempts assassination on Отто Рот!
 	id = ban.15
 	title = ban.15.t
 	desc = ban.15.d
@@ -583,7 +583,7 @@ country_event = { #Romania attempts assassination on Otto Roth!
 	
 }
 
-country_event = { #Otto Roth Assassinated by Romanians!
+country_event = { #Отто Рот Assassinated by Romanians!
 	id = ban.16
 	title = ban.16.t
 	desc = ban.16.d
@@ -605,14 +605,14 @@ country_event = { #Otto Roth Assassinated by Romanians!
 		add_stability = -0.2
 		country_event = ban.19
 		create_country_leader = {
-			name = "Albert Bartha"
+			name = "Альберт Барта"
 			desc = "BAN_ALBERT_BARTHA_DESC"
 			picture = "gfx/leaders/BAN/BAN_Albert_Bartha.png"
 			expire = "1.1.1"
 			ideology = socdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Aurel Cosma"
+			name = "Аурел Косма"
 			desc = "BAN_AUREL_COSMA_DESC"
 			picture = "gfx/leaders/BAN/BAN_Aurel_Cosma.png"
 			expire = "1.1.1"
@@ -625,7 +625,7 @@ country_event = { #Otto Roth Assassinated by Romanians!
 		hidden_effect = {
 			remove_ideas = BAN_otto_roth_hog_sde
 			create_country_leader = {
-				name = "Petru Groza"
+				name = "Петру Гроза"
 				desc = "BAN_PETRU_GROZA_DESC"
 				picture = "gfx/leaders/BAN/BAN_petru_groza.png"
 				expire = "1.1.1"
@@ -741,7 +741,7 @@ country_event = { #Bartha's New Government
 			ruling_party = authoritarian_democrat
 		}
 		create_country_leader = {
-			name = "Albert Bartha"
+			name = "Альберт Барта"
 			desc = "BAN_ALBERT_BARTHA_DESC"
 			picture = "gfx/leaders/BAN/BAN_Albert_Bartha.png"
 			expire = "1.1.1"
@@ -999,7 +999,7 @@ country_event = { #The Crowning of the King
 		name = ban.26.a
 		ai_chance = { factor = 60 }
 		create_country_leader = {
-			name = "Carol II"
+			name = "Кароль II"
 			desc = "BAN_CAROL_EXILE_DESC"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Carol_II.png"
 			expire = "1.1.1"
@@ -1458,7 +1458,7 @@ country_event = { #The War is Won!
 		set_capital = { state = 46 }
 		remove_ideas = BAN_multiethnic_coexistence
 		create_country_leader = {
-			name = "Carol II"
+			name = "Кароль II"
 			desc = "BAN_CAROL_EXILE_DESC"
 			picture = "gfx/leaders/ROM/Portrait_ROM_Carol_II.png"
 			expire = "1.1.1"
@@ -1725,7 +1725,7 @@ country_event = { #Using Our Regained Population
 	}
 }
 
-country_event = { #Petru Groza's Appearance
+country_event = { #Петру Гроза's Appearance
 	id = ban.49
 	title = ban.49.t
 	desc = ban.49.d
@@ -1747,7 +1747,7 @@ country_event = { #Petru Groza's Appearance
 			popularity = 0.05
 		}
 		hidden_effect = {
-			country_event = { #Petru Groza Tests Banat Again
+			country_event = { #Петру Гроза Tests Banat Again
 				id = ban.50
 				days = 16
 			}
@@ -1756,7 +1756,7 @@ country_event = { #Petru Groza's Appearance
 	}
 }
 
-country_event = { #Petru Groza Tests Banat Again
+country_event = { #Петру Гроза Tests Banat Again
 	id = ban.50
 	title = ban.50.t
 	desc = ban.50.d
@@ -1868,7 +1868,7 @@ country_event = { #The Temes Bombings
 	}
 }
 
-country_event = { #The Execution of Otto Roth
+country_event = { #The Execution of Отто Рот
 	id = ban.53
 	title = ban.53.t
 	desc = ban.53.d
@@ -1877,7 +1877,7 @@ country_event = { #The Execution of Otto Roth
 	is_triggered_only = yes
 
 	trigger = {
-	has_country_leader = { ruling_only = yes name = "Otto Roth" }
+	has_country_leader = { ruling_only = yes name = "Отто Рот" }
 	}
 	fire_only_once = yes
 	
@@ -1899,7 +1899,7 @@ country_event = { #The Execution of Otto Roth
 	}
 }
 
-country_event = { #FRA - Petru Groza Seeks Support
+country_event = { #FRA - Петру Гроза Seeks Support
 	id = ban.54
 	title = ban.54.t
 	desc = ban.54.d
@@ -2048,7 +2048,7 @@ country_event = { #The Red and Redder Nation
 	option = { #Groza sweeps out all resistance!
 		name = ban.59.a
 		ai_chance = { factor = 180 }
-		country_event = ban.65 #Petru Groza Takes Charge
+		country_event = ban.65 #Петру Гроза Takes Charge
 		remove_ideas = BAN_old_banat_memories
 	}
 	
@@ -3061,7 +3061,7 @@ country_event = { #Romania Agrees to Research Cooperation
 	}
 }
 
-country_event = { #Kidnapping Petru Groza
+country_event = { #Kidnapping Петру Гроза
 	id = ban.95
 	title = ban.95.t
 	desc = ban.95.d
@@ -3464,7 +3464,7 @@ country_event = { #Rounding Up Criminals
 	}
 }
 
-country_event = { #Otto Roth's Statue and Memorial
+country_event = { #Отто Рот's Statue and Memorial
 	id = ban.107
 	title = ban.107.t
 	desc = ban.107.d 
@@ -3850,7 +3850,7 @@ country_event = { #Women Celebrate
 	}
 }
 
-country_event = { #Albert Bartha's Words to Roth
+country_event = { #Альберт Барта's Words to Roth
 	id = ban.123
 	title = ban.123.t
 	desc = ban.123.d #Bartha compliments Banat, how it's been doing, its people, and is generally very happy with Roth
@@ -4060,7 +4060,7 @@ country_event = { #Romanian Generals Defect
 		name = ban.132.a
 		ai_chance = { factor = 101 }
 		create_corps_commander = {
-			name = "Constantin Constantinescu-Claps"
+			name = "Константин Константинеску-Клапс"
 			portrait_path = "gfx/leaders/BAN/Portrait_ROM_Constantin_Constantinescu_Claps.png"
 			traits = {
 				brilliant_strategist
@@ -4074,7 +4074,7 @@ country_event = { #Romanian Generals Defect
 		}
 		
 		create_corps_commander = {
-			name = "Dumitru Popescu"
+			name = "Думитру Попеску"
 			portrait_path = "gfx/leaders/BAN/Portrait_ROM_Dumitru_Popescu.png"
 			traits = {
 				old_guard
@@ -4087,7 +4087,7 @@ country_event = { #Romanian Generals Defect
 		}
 		
 		create_corps_commander = {
-			name = "Ion Glogojanu"
+			name = "Ион Глогояну"
 			portrait_path = "gfx/leaders/BAN/Portrait_ROM_Ion_Glogojanu.png"
 			traits = {
 				career_officer
@@ -4123,7 +4123,7 @@ country_event = { #Signing of the new Constitutia
 		custom_effect_tooltip = BAN_field_marshal_carol
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Carol II "
+				name = "Кароль II "
 				portrait_path = "gfx/leaders/ROM/Portrait_ROM_Carol_II.png"
 				traits = {
 					career_officer
@@ -4139,7 +4139,7 @@ country_event = { #Signing of the new Constitutia
 	}
 }
 
-country_event = { #Carol II Appointed Field Marshal
+country_event = { #Кароль II Appointed Field Marshal
 	id = ban.134
 	title = ban.134.t
 	desc = ban.134.d
@@ -4160,7 +4160,7 @@ country_event = { #Carol II Appointed Field Marshal
 		custom_effect_tooltip = BAN_field_marshal_carol
 		hidden_effect = {
 			create_field_marshal = {
-				name = "Carol II "
+				name = "Кароль II"
 				portrait_path = "gfx/leaders/ROM/Portrait_ROM_Ion_Glogojanu.png"
 				traits = {
 					career_officer
@@ -4684,7 +4684,7 @@ country_event = { #Socialist Violence!
 	}
 }
 
-country_event = { #Corneliu Zelea Codreanu Arrested
+country_event = { #Корнелиу Зеля Кодряну Arrested
 	id = ban.154
 	title = ban.154.t
 	desc = ban.154.d

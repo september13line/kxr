@@ -22,7 +22,7 @@ on_actions = {
 				limit = { has_dlc = "No Step Back" }
 				UKR = {
 					division_template = {
-						name = "Motorizovana Kavaleriiska Dyviziia"
+						name = "Моторизована кавалерійська дивізія"
 						division_names_group = UKR_MOT_01
 						regiments = {
 							motorized = { x = 0 y = 0 }
@@ -42,7 +42,7 @@ on_actions = {
 				}
 				202 = {
 					create_unit = {
-						division = "division_template = \"Motorizovana Kavaleriiska Dyviziia\" start_experience_factor = 0.3 start_equipment_factor = 1"
+						division = "division_template = \"Моторизована кавалерійська дивізія\" start_experience_factor = 0.3 start_equipment_factor = 1"
 						owner = UKR
 						count = 1
 					}
@@ -51,7 +51,7 @@ on_actions = {
 			else = {
 				202 = {
 					create_unit = {
-						division = "division_template = \"Motorizovana Dyviziia\" start_experience_factor = 0.3 start_equipment_factor = 1"
+						division = "division_template = \"Моторизована Дивізія\" start_experience_factor = 0.3 start_equipment_factor = 1"
 						owner = UKR
 						count = 1
 					}
@@ -61,8 +61,8 @@ on_actions = {
 				UKR = { 
 					country_event = ukrsoc.1998 
 					country_event = ukrsoc.1999
-				} 
-			}			
+				}
+			}
 		}
 	}
 	on_government_change = {
@@ -200,7 +200,7 @@ on_actions = {
 							tag = USR
 						}
 					}
-					FROM.FROM = { state = 1228 } #Kyiv
+					FROM.FROM = { state = 1228 } #Київ
 					has_global_flag = UKR_borotbyst_civil_war 
 				}
 				FROM = {
@@ -220,7 +220,7 @@ on_actions = {
 					FROM = { 
 						original_tag = UKR
 					}
-					FROM.FROM = { state = 202 } #Kyiv
+					FROM.FROM = { state = 202 } #Київ
 				}
 				FROM = { country_event = ukrfor.1190 }
 			}	
@@ -449,7 +449,7 @@ on_actions = {
 				ROOT = { 
 					country_event = { id = ukrfor.43 days = 2 }
 				}
-			}			
+			}
 		}
 	}
 	on_peaceconference_ended = {

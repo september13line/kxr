@@ -78,7 +78,7 @@ MIE_move_to_next_intermarium_leader = {
 			if = {
 				limit = { has_event_target = MIE_leader }
 				MIE = {
-					delete_unit_template_and_units = { division_template = "Osteuropäische Interdivision" }
+					delete_unit_template_and_units = { division_template = "Остевропайше Интердивижн" }
 				}
 				clear_global_event_target = MIE_leader
 			}
@@ -111,7 +111,7 @@ MIE_intermarium_disbands = {
 
 MIE_form_armored_interdivision = {
 	division_template = {
-		name = "Osteuropäische Interdivision"
+		name = "Остевропайше Интердивижн"
 
 		regiments = {
 			medium_armor = { x = 0 y = 0 }
@@ -135,7 +135,7 @@ MIE_form_armored_interdivision = {
 		limit = { controls_state = capital }
 		capital_scope = {
 			create_unit = {
-				division = "division_template = \"Osteuropäische Interdivision\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
+				division = "division_template = \"Остевропайше Интердивижн\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
 				owner = ROOT
 				id = 177013
 			}
@@ -145,7 +145,7 @@ MIE_form_armored_interdivision = {
 		limit = { num_of_controlled_states > 0 }
 		random_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Osteuropäische Interdivision\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
+				division = "division_template = \"Остевропайше Интердивижн\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
 				owner = ROOT
 				id = 177013
 			}
@@ -159,7 +159,7 @@ MIE_form_armored_interdivision = {
 			}
 			random_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Osteuropäische Interdivision\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
+					division = "division_template = \"Остевропайше Интердивижн\" name = \"1. Osteuropäische Panzerdivision 'Intermarium'\" start_experience_factor = 0.6"
 					owner = ROOT
 					id = 177013
 				}

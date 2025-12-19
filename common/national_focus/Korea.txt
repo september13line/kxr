@@ -776,7 +776,7 @@ focus_tree = {
 				limit = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Kim Koo"
+						name = "Ким Гу"
 					}
 				}
 				country_event = {
@@ -1274,9 +1274,9 @@ focus_tree = {
 				}
 				QIE = { country_event = korea.55 }
 			}
-			else = {
-				CHI = { country_event = korea.55 }
-			}
+				else = {
+						CHI = { country_event = korea.55 }
+					}
 			custom_effect_tooltip = KOR_buddy_with_china
 		}
 	}
@@ -1383,7 +1383,7 @@ focus_tree = {
 		x = 0
 		y = 5
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 5
 		}
@@ -1416,7 +1416,7 @@ focus_tree = {
 		x = 2
 		y = 4
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 5
 		}
@@ -1454,7 +1454,7 @@ focus_tree = {
 		x = 2
 		y = 5
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 5
 		}
@@ -1488,7 +1488,7 @@ focus_tree = {
 		x = 4
 		y = 1
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 5
 		}
@@ -4552,7 +4552,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Kim Il-Sung"
+				name = "Ким Ир Сен"
 			}
 			has_government = totalist
 			has_completed_focus = KOR_true_freedom
@@ -4830,14 +4830,14 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Kim Il-Sung"
+						name = "Ким Ир Сен"
 						ruling_only = yes
 					}
 				}
 				add_country_leader_trait = eternal_leader
 				country_event = korea.68
 				else = {
-					custom_effect_tooltip = "This will only show effect if Kim-Il Sung is head of state"
+					custom_effect_tooltip = "Это проявится только в том случае, если Ким Ир Сен станет главой государства"
 				}
 			}
 		}

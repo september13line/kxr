@@ -2267,8 +2267,8 @@ focus_tree = {
 		}
 		hidden_effect = {
 		country_event = {
-		id = som.50
-		days = 5
+			id = som.50
+			days = 5
 		}
 		country_event = {
 		id = som.65
@@ -2794,7 +2794,7 @@ focus_tree = {
 		custom_effect_tooltip = somali_foreign.tt
 		add_ideas = SOM_Social_State
 		if = {	
-			limit = { has_country_leader = { name = "Maxamed Siyaad Barre" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Мохаммед Сиад Барре" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/SOM/Portrait_SOM_Mohamed_Siad_Barre_Uniform.png"
 			}
@@ -2833,7 +2833,7 @@ focus_tree = {
 		id = SOM_Faith_And_Tribes
 		icon = GFX_goal_SOM_Faith_And_Tribes
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		prerequisite = {
 			focus = SOM_GSL_Victory
@@ -2856,7 +2856,7 @@ focus_tree = {
 		id = SOM_Militarism_And_Nationalism
 		icon = GFX_goal_SOM_Militarism_And_Nationalism
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		prerequisite = {
 			focus = SOM_Faith_And_Tribes
@@ -2879,7 +2879,7 @@ focus_tree = {
 		id = SOM_Pan_Somali_Herald
 		icon = GFX_goal_SOM_Pan_Somali_Herald
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		prerequisite = {
 			focus = SOM_GSL_Victory
@@ -2907,7 +2907,7 @@ focus_tree = {
 		id = SOM_Somali_Allies
 		icon = GFX_goal_SOM_Somali_Allies
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		prerequisite = {
 			focus = SOM_Pan_Somali_Herald
@@ -2938,7 +2938,7 @@ focus_tree = {
 		id = SOM_Anti_Socialism
 		icon = GFX_goal_SOM_Anti_Socialism
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		prerequisite = {
 			focus = SOM_Somali_Allies
@@ -2969,7 +2969,7 @@ focus_tree = {
 			focus = SOM_Anti_Socialism
 		}
 		available = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3908,14 +3908,14 @@ focus_tree = {
 		has_government = paternal_autocrat
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -3942,14 +3942,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		has_completed_focus = SOM_finishgovermentreforms
@@ -3986,14 +3986,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4022,14 +4022,14 @@ focus_tree = {
 		has_government = authoritarian_democrat
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4056,14 +4056,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		has_completed_focus = SOM_finishgovermentreforms
@@ -4091,14 +4091,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4135,14 +4135,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		has_completed_focus = SOM_finishgovermentreforms
@@ -4173,14 +4173,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4217,14 +4217,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4261,14 +4261,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4295,14 +4295,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4329,14 +4329,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4366,14 +4366,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4403,14 +4403,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}
@@ -4517,14 +4517,14 @@ focus_tree = {
 		available = {
 		NOT = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Xaaji Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Xasan Guuleed Abtidoon" }
-		has_country_leader = { ruling_only = yes name = "Maxamed Siyaad Barre" }
-		has_country_leader = { ruling_only = yes name = "Aadan Cabdulle Cismaan Dacar" }
-		has_country_leader = { ruling_only = yes name = "Yaasiin Haaji 'Ismaan Shirmarke" }
-		has_country_leader = { ruling_only = yes name = "Xaaji Bashiir Ismaaciil Yuusuf" }
-		has_country_leader = { ruling_only = yes name = "Sheekh Mukhtaar Maxamed Xuseen" }
-		has_country_leader = { ruling_only = yes name = "Cabdirashiid Cali Sharmaarke" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Махаммад Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Хассан Гулед Аптидон" }
+		has_country_leader = { ruling_only = yes name = "Мохаммед Сиад Барре" }
+		has_country_leader = { ruling_only = yes name = "Аден Абдулла Осман Даар" }
+		has_country_leader = { ruling_only = yes name = "Ясин Хаджи Осман Шармарке" }
+		has_country_leader = { ruling_only = yes name = "Хаджи Башир Исмаил Юсуф" }
+		has_country_leader = { ruling_only = yes name = "Моктар Мохамед Хусейн" }
+		has_country_leader = { ruling_only = yes name = "Абдирашид Али Шермарк" }
 			}
 		}
 		}

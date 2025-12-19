@@ -1399,7 +1399,7 @@ highlight_state_targets = {
 		
 		cancel_trigger = {
 			OR = {
-				NOT = { has_war_with = OMA }
+			NOT = { has_war_with = OMA }
 				is_valid_peace_target = no
 			}
 		}
@@ -1418,8 +1418,8 @@ highlight_state_targets = {
 			log = "[GetDateText]: [Root.GetName]: Decision SAU_OMA_Whitepeace target: [From.GetName]"
 			effect_tooltip = {
 				set_state_owner = 859 #Oman
-				random_other_country = {
-					limit = { has_guaranteed = OMA }
+			random_other_country = {
+				limit = { has_guaranteed = OMA }
 					country_event = ottomans_foreign_policy_events.41
 				}
 			}
@@ -1432,7 +1432,7 @@ highlight_state_targets = {
 				remove_state_claim = 347 #Khasab
 				remove_state_claim = 859 #Oman
 				remove_state_claim = 1024 #Dhofar
-				OMA = { white_peace_with_ROOT = yes }
+			OMA = { white_peace_with_ROOT = yes }
 			}
 		}
 	}
@@ -1451,7 +1451,7 @@ highlight_state_targets = {
 		
 		cancel_trigger = {
 			OR = {
-				NOT = { has_war_with = SAU }
+			NOT = { has_war_with = SAU }
 				is_valid_peace_target = no
 			}
 		}
@@ -1767,7 +1767,7 @@ highlight_state_targets = {
 						}
 					}
 					create_corps_commander = {
-						name = "Dulaim ibn Barrak"
+						name = "Дулаим ибн Баррак"
 						portrait_path = "gfx/leaders/JBS/Portrait_JBS_Dulaim_ibn_Barrak.png"
 						traits = {
 
@@ -1847,7 +1847,7 @@ highlight_state_targets = {
 						}
 					}
 					create_corps_commander = {
-						name = "Yusuf al-Sa'adun"
+						name = "Юсуф аль-Саадун"
 						portrait_path = "gfx/leaders/IRQ/Portrait_IRQ_Yusuf_Saadun.png"
 						traits = {
 							cavalry_leader
@@ -2164,7 +2164,7 @@ highlight_state_targets = {
 						}
 					}
 					create_corps_commander = {
-						name = "Zaidan ibn Hithlain"
+						name = "Зайдан ибн Хитлейн"
 						portrait_path = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_2.png"
 						traits = {
 
@@ -2264,7 +2264,7 @@ highlight_state_targets = {
 						}
 					}
 					create_corps_commander = {
-						name = "Abd al-Rahman ibn Rubayin"
+						name = "Абд аль-Рахман ибн Рубайин"
 						portrait_path = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_1.png"
 						traits = {
 

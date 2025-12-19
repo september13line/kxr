@@ -326,7 +326,7 @@ country_event = {# Piñares Skirmishes
 }
 
 
-country_event = { # Assassination of Miguel Ponte Manso de Zuniga
+country_event = { # Assassination of Мигель Понте Manso de Zuniga
 	id = sprd.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event sprd.11" }
 	title = sprd.11.t
@@ -1082,7 +1082,7 @@ country_event = {
 	picture = GFX_report_event_SPR_alfonso_xiii
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = sprd.27.a #Name Jaun as Alfonso's successor
 		ai_chance = {
@@ -1096,7 +1096,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
@@ -1118,7 +1118,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -2555,7 +2555,7 @@ country_event = { #searching for allies
 			RUS = {
 				is_faction_leader = yes
 				OR = {
-					has_democratic_socialist_government = yes
+				has_democratic_socialist_government = yes
 					has_country_leader_ideology = revisionist_marxism_subtype
 				}
 				NOT = { has_war_with = SPR }
@@ -3000,14 +3000,14 @@ country_event = { #Alfonso Abdicates
 			popularity = 0.1
 		}
 		create_country_leader = {
-			name = "José Sanjurjo"
+			name = "Хосе Санхурхо"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Sanjurjo_Sacanell.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "J.M. Gil-Robles Quiñones"
+				name = "Хосе Мария Хиль-Роблес"
 				desc = "POLITICS_GIL_ROBLES_QUINONES_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_J_M_Gil_Robles_Quinones.png"
 				expire = "1.1.1"
@@ -3024,7 +3024,7 @@ country_event = { #Alfonso Abdicates
 			long_name = SPR_authoritarian_democrat_party_scw_long
 		}
 		create_country_leader = {
-			name = "J.M. Gil-Robles Quiñones"
+			name = "Хосе Мария Хиль-Роблес"
 			desc = "POLITICS_GIL_ROBLES_QUINONES_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_J_M_Gil_Robles_Quinones.png"
 			expire = "1.1.1"
@@ -3936,35 +3936,35 @@ country_event = { #Constitutional monarchy?
 					has_country_flag = SPR_King_Juan
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
 					ideology = pataut_oligarchy_subtype 
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
 					ideology = autdem_christian_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
 					ideology = progressive_conservatism_subtype
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
 					ideology = marlib_kleptocracy_subtype
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
@@ -3973,14 +3973,14 @@ country_event = { #Constitutional monarchy?
 				if = {
 					limit = { has_country_flag = SPR_allow_psoe }
 					create_country_leader = {
-						name = "Juan III"
+						name = "Хуан III"
 						desc = "POLITICS_JUAN_BOURBON_DESC"
 						picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 						expire = "1.1.1"
 						ideology = socdem_humanistic_capitalism_subtype
 					}
 					create_country_leader = {
-						name = "Juan III"
+						name = "Хуан III"
 						desc = "POLITICS_JUAN_BOURBON_DESC"
 						picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 						expire = "1.1.1"
@@ -3993,35 +3993,35 @@ country_event = { #Constitutional monarchy?
 					has_country_flag = SPR_King_Jaime
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = pataut_oligarchy_subtype 
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = autdem_christian_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = progressive_conservatism_subtype
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = marlib_kleptocracy_subtype
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
@@ -4030,14 +4030,14 @@ country_event = { #Constitutional monarchy?
 				if = {
 					limit = { has_country_flag = SPR_allow_psoe }
 					create_country_leader = {
-						name = "Jaime I"
+						name = "Хайме I"
 						desc = "POLITICS_JAIME_BOURBON_DESC"
 						picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 						expire = "1.1.1"
 						ideology = socdem_humanistic_capitalism_subtype
 					}
 					create_country_leader = {
-						name = "Jaime I"
+						name = "Хайме I"
 						desc = "POLITICS_JAIME_BOURBON_DESC"
 						picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 						expire = "1.1.1"
@@ -4129,7 +4129,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = sprd.101.a #Accion Popular
 		ai_chance = {
@@ -4445,7 +4445,7 @@ country_event = { #Second Elections
 			#}
 		}
 	}
-
+	
 	option = {
 		name = sprd.102.a #PNE
 		ai_chance = {
@@ -4931,7 +4931,7 @@ country_event = { #Reconcile with moderate socialists
 
 	fire_only_once = yes
 	is_triggered_only = yes
-	
+
 	option = { #Yes.
 		name = sprd.104.a
 		ai_chance = {
@@ -4988,9 +4988,9 @@ country_event = { #Franco's Speech
 			SPR = {
 				if = {
 					limit = { SPR_separatist_revolt_allowed_trigger = yes }
-					country_event = {
-						id = sprd.113
-						days = 15
+				country_event = {
+					id = sprd.113
+					days = 15
 					}
 				}
 			}
@@ -5018,9 +5018,9 @@ country_event = { #The King's Speech
 			SPR = {
 				if = {
 					limit = { SPR_separatist_revolt_allowed_trigger = yes }
-					country_event = {
-						id = sprd.113
-						days = 15
+				country_event = {
+					id = sprd.113
+					days = 15
 					}
 				}
 			}
@@ -5074,19 +5074,19 @@ country_event = {
 		set_cosmetic_tag = SPR_BOURBON
 		set_country_flag = SPR_BOURBON
 		set_country_leader_name = {
-			name = "Henri VI"
+			name = "Генри VI"
 		}
 		set_country_leader_description = {
-			desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
+                desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
         }
 		hidden_effect = {
-			add_state_core = 28
+		add_state_core = 28
 		}
 		every_state = {
-			limit = { is_core_of = FRA }
-			add_core_of = SPR
-		}
-	}
+				limit = { is_core_of = FRA }
+				add_core_of = SPR
+				}
+				}
 	option = {
 		name = sprd.109.b
 		if = {
@@ -5100,8 +5100,8 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SPR_iberian_union }
 			}
-			set_cosmetic_tag = SPR_FRANCO_SPAIN
-			set_country_flag = SPR_FRANCO_SPAIN
+		set_cosmetic_tag = SPR_FRANCO_SPAIN
+		set_country_flag = SPR_FRANCO_SPAIN
 		}
 		if = {
 			limit = {
@@ -5120,7 +5120,7 @@ country_event = {
 			}
 		}
 		set_country_leader_name = {
-			name = "Henri VI"
+			name = "Генри VI"
 		}
 		set_country_leader_description = {
 			desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
@@ -5201,49 +5201,49 @@ country_event = {
 					set_state_owner_to = FRP
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = national_populist_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = absolute_monarchy_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = authoritarian_democrat_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Henri VI"
+					name = "Генри VI"
 					desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
@@ -5537,7 +5537,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "José Sanjurjo"
+			name = "Хосе Санхурхо"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Sanjurjo_Sacanell.png"
 			expire = "1.1.1"
 			ideology = caudillo_populism_subtype
@@ -5560,7 +5560,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "José Millan-Astray"
+			name = "Хосе Мильян Астрай"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Millan_Astray.png"
 			expire = "1.1.1"
 			ideology = credo_legionario_subtype
@@ -5583,7 +5583,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "Emilio Mola"
+			name = "Эмилио Мола"
 			picture = "gfx/leaders/CAR/Portrait_CAR_Mola_Vidal.png"
 			expire = "1.1.1"
 			ideology = national_security_state_subtype
@@ -5606,7 +5606,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "Camilo Alonso Vega"
+			name = "Камило Алонсо Вегаa"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alonso_Vega.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -5629,7 +5629,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "Francisco Franco Bahamonde"
+			name = "Франсиско Франко"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -5652,7 +5652,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "Juan Yague"
+			name = "Хуан Ягуэ"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_Yague.png"
 			expire = "1.1.1"
 			ideology = hispanism_subtype
@@ -5675,7 +5675,7 @@ country_event = { #King Flees, Junta Proclaimed, yay, OTL reference
 			popularity = 0.25
 		}
 		create_country_leader = {
-			name = "José Antonio Primo de Rivera"
+			name = "Хосе Антонио Примо де Ривера"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Antonie.png"
 			expire = "1.1.1"
 			ideology = pataut_oligarchy_subtype	
@@ -6038,7 +6038,7 @@ country_event = { #King and Pestana yap
 			has_country_flag = SPR_pne_absolutists
 		}
 		MEX = {
-			has_country_leader = { ruling_only = yes name = "Plutarco Calles" }
+			has_country_leader = { ruling_only = yes name = "Плутарко Кальес" }
 		}
 	}
 
@@ -6262,7 +6262,7 @@ country_event = { #"Anarchism but we have to respect the state enough to acheive
 					has_country_flag = SPR_King_Juan
 				}
 				create_country_leader = {
-					name = "Juan III"
+					name = "Хуан III"
 					desc = "POLITICS_JUAN_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 					expire = "1.1.1"
@@ -6274,7 +6274,7 @@ country_event = { #"Anarchism but we have to respect the state enough to acheive
 					has_country_flag = SPR_King_Jaime
 				}
 				create_country_leader = {
-					name = "Jaime I"
+					name = "Хайме I"
 					desc = "POLITICS_JAIME_BOURBON_DESC"
 					picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 					expire = "1.1.1"
@@ -8671,8 +8671,8 @@ country_event = { #Geoism bros
 			custom_effect_tooltip = soclib_soclib_oligarchy_subtype_swap_tt
 		}
 		else = {
-			set_country_leader_ideology = soccon_oligarchy_subtype
-			custom_effect_tooltip = soccon_soccon_oligarchy_subtype_swap_tt
+		set_country_leader_ideology = soccon_oligarchy_subtype
+		custom_effect_tooltip = soccon_soccon_oligarchy_subtype_swap_tt
 		}
 	}
 
@@ -8699,8 +8699,8 @@ country_event = { #Geoism bros
 			custom_effect_tooltip = soclib_soclib_right_georgism_subtype_swap_tt
 		}
 		else = {
-			set_country_leader_ideology = soccon_right_georgism_subtype
-			custom_effect_tooltip = soccon_soccon_right_georgism_subtype_swap_tt
+		set_country_leader_ideology = soccon_right_georgism_subtype
+		custom_effect_tooltip = soccon_soccon_right_georgism_subtype_swap_tt
 		}
 	}
 	option = { #oh no
@@ -9403,43 +9403,43 @@ country_event = { #democracy time
 		}
 		if = {
 			limit = { has_country_flag = SPR_dood_king_jaime }
-			create_country_leader = {
-			name = "Jaime I"
+		create_country_leader = {
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = solidarism_subtype
-			}
+		}
 			create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
-			}
-			create_country_leader = {
-			name = "Jaime I"
+		}
+		create_country_leader = {
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = clientelism_subtype
 			}
 			create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 			}
 			create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = lerrouxismo_subtype
 			}
 			create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -9449,37 +9449,37 @@ country_event = { #democracy time
 		else_if = {
 			limit = { has_country_flag = SPR_dood_king_alfonso }
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = solidarism_subtype
 			}
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
 			}
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = clientelism_subtype
 			}
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 			}
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = lerrouxismo_subtype
 			}
 			create_country_leader = {
-			name = "Alfonso XIV"
+			name = "Альфонсо XIV"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 			expire = "1.1.1"
 			ideology = socdem_christian_democracy_subtype
@@ -9488,37 +9488,37 @@ country_event = { #democracy time
 		else_if = {
 			limit = { has_country_flag = SPR_dood_king_gonzalo }
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = solidarism_subtype
 			}
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
 			}
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = clientelism_subtype
 			}
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 			}
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = lerrouxismo_subtype
 			}
 			create_country_leader = {
-			name = "Gonzalo I"
+			name = "Гонсало I"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 			expire = "1.1.1"
 			ideology = socdem_christian_democracy_subtype
@@ -9526,47 +9526,47 @@ country_event = { #democracy time
 		}
 		else = {
 			create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = solidarism_subtype
 			}
 			create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = autdem_christian_democracy_subtype
-			}
-			create_country_leader = {
-			name = "Juan III"
+		}
+		create_country_leader = {
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = clientelism_subtype
-			}
-			create_country_leader = {
-			name = "Juan III"
+		}
+		create_country_leader = {
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
-			}
-			create_country_leader = {
-			name = "Juan III"
+		}
+		create_country_leader = {
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = lerrouxismo_subtype
-			}
-			create_country_leader = {
-			name = "Juan III"
+		}
+		create_country_leader = {
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
 			ideology = socdem_christian_democracy_subtype
-			}
+		}
 		}
 	}
 	option = { #Sanjurjo does a Franco
@@ -9689,7 +9689,7 @@ country_event = { #Most Certainly Not Democracy Time
 			name = SPR_national_populist_party_legion
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -10031,7 +10031,7 @@ country_event = { #Gran Turnismo
 		name = sprd.296.a
 		SPR = { country_event = { id = sprd.297 days = 250 } }
 		create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
@@ -10212,28 +10212,28 @@ country_event = { #bayonet charges are a totally viable tactic, trust
 			name = SPR_paternal_autocrat_party_AAR
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = soclib_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = marlib_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
 			ideology = authdem_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -11202,7 +11202,7 @@ country_event = { #Merc time
 		add_stability = -0.02
 		air_experience = 25	
 		create_corps_commander = {
-			name = "Charles Sweeny"
+			name = "Чарльз Суини"
 			portrait_path = "gfx/leaders/RIF/Portrait_RIF_Charles_Sweeny.png"
 			traits = {
 				air_commander
@@ -13238,7 +13238,7 @@ country_event = {#besteiro dööd wat nou
 		}
 	}
 }
-country_event = { #spain's first astronaut
+country_event = {#besteiro dööd wat nou
 	id = sprd.569
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sprd.569"}
 	title = sprd.569.t
@@ -13250,7 +13250,7 @@ country_event = { #spain's first astronaut
 	option = {
 		name = sprd.569.a
 		add_political_power = 5
-	}
+		}
 	option = {
 		name = sprd.569.b
 		hidden_effect = {
@@ -13293,7 +13293,7 @@ country_event = {#jaime död
 		if = {
 			limit = { has_country_leader_ideology = maurrassism_subtype }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = maurrassism_subtype
@@ -13303,7 +13303,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = rexism_subtype 
@@ -13313,7 +13313,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = italian_legionarism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = italian_legionarism_subtype 
@@ -13323,7 +13323,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_legionarism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = pataut_legionarism_subtype 
@@ -13333,7 +13333,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = austropopulism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = austropopulism_subtype 
@@ -13343,7 +13343,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = neo_feudalism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = neo_feudalism_subtype 
@@ -13353,7 +13353,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = prussian_constitutionalism_subtype 
@@ -13363,7 +13363,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = authdem_austropopulism_subtype 
@@ -13373,7 +13373,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = authdem_national_conservative_subtype 
@@ -13383,7 +13383,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soccon_right_georgism_subtype 
@@ -13393,7 +13393,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soccon_agrarianism_subtype 
@@ -13403,7 +13403,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soccon_oligarchy_subtype 
@@ -13413,7 +13413,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = authdem_agrarianism_subtype 
@@ -13423,7 +13423,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = marlib_agrarianism_subtype 
@@ -13433,7 +13433,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soclib_agrarianism_subtype 
@@ -13443,7 +13443,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_maurism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = pataut_maurism_subtype 
@@ -13453,7 +13453,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = pataut_oligarchy_subtype 
@@ -13463,7 +13463,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = oligarchy_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = oligarchy_subtype 
@@ -13473,7 +13473,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = marlib_oligarchy_subtype 
@@ -13483,7 +13483,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soclib_oligarchy_subtype 
@@ -13493,7 +13493,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = pataut_right_georgism_subtype 
@@ -13503,7 +13503,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = authdem_right_georgism_subtype 
@@ -13513,7 +13513,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = right_georgism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = right_georgism_subtype 
@@ -13523,7 +13523,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				ideology = soclib_right_georgism_subtype 
@@ -13536,7 +13536,7 @@ country_event = {#jaime död
 		if = {
 			limit = { has_country_leader_ideology = maurrassism_subtype }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = maurrassism_subtype
 				traits = {}
@@ -13545,7 +13545,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = rexism_subtype 
 				traits = {}
@@ -13554,7 +13554,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = italian_legionarism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = italian_legionarism_subtype 
 				traits = {}
@@ -13563,7 +13563,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_legionarism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_legionarism_subtype 
 				traits = {}
@@ -13572,7 +13572,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = austropopulism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = austropopulism_subtype 
 				traits = {}
@@ -13581,7 +13581,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = neo_feudalism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = neo_feudalism_subtype 
 				traits = {}
@@ -13590,7 +13590,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = prussian_constitutionalism_subtype 
 				traits = {}
@@ -13599,7 +13599,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_austropopulism_subtype 
 				traits = {}
@@ -13608,7 +13608,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_national_conservative_subtype 
 				traits = {}
@@ -13617,7 +13617,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soccon_right_georgism_subtype 
 				traits = {}
@@ -13626,7 +13626,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soccon_agrarianism_subtype 
 				traits = {}
@@ -13635,7 +13635,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soccon_oligarchy_subtype 
 				traits = {}
@@ -13644,7 +13644,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_agrarianism_subtype 
 				traits = {}
@@ -13653,7 +13653,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = marlib_agrarianism_subtype 
 				traits = {}
@@ -13662,7 +13662,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soclib_agrarianism_subtype 
 				traits = {}
@@ -13671,7 +13671,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_maurism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_maurism_subtype 
 				traits = {}
@@ -13680,7 +13680,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_oligarchy_subtype 
 				traits = {}
@@ -13689,7 +13689,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = oligarchy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = oligarchy_subtype 
 				traits = {}
@@ -13698,7 +13698,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = marlib_oligarchy_subtype 
 				traits = {}
@@ -13707,7 +13707,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soclib_oligarchy_subtype 
 				traits = {}
@@ -13716,7 +13716,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_right_georgism_subtype 
 				traits = {}
@@ -13725,7 +13725,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_right_georgism_subtype 
 				traits = {}
@@ -13734,7 +13734,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = right_georgism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = right_georgism_subtype 
 				traits = {}
@@ -13743,7 +13743,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soclib_right_georgism_subtype 
 				traits = {}
@@ -13756,7 +13756,7 @@ country_event = {#jaime död
 		if = {
 			limit = { has_country_leader_ideology = maurrassism_subtype }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = maurrassism_subtype
 				traits = {}
@@ -13765,7 +13765,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = rexism_subtype 
 				traits = {}
@@ -13774,7 +13774,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = italian_legionarism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = italian_legionarism_subtype 
 				traits = {}
@@ -13783,7 +13783,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_legionarism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_legionarism_subtype 
 				traits = {}
@@ -13792,7 +13792,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = austropopulism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = austropopulism_subtype 
 				traits = {}
@@ -13801,7 +13801,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = neo_feudalism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = neo_feudalism_subtype 
 				traits = {}
@@ -13810,7 +13810,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = prussian_constitutionalism_subtype 
 				traits = {}
@@ -13819,7 +13819,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_austropopulism_subtype 
 				traits = {}
@@ -13828,7 +13828,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_national_conservative_subtype 
 				traits = {}
@@ -13837,7 +13837,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soccon_right_georgism_subtype 
 				traits = {}
@@ -13846,7 +13846,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soccon_agrarianism_subtype 
 				traits = {}
@@ -13855,7 +13855,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soccon_oligarchy_subtype 
 				traits = {}
@@ -13864,7 +13864,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_agrarianism_subtype 
 				traits = {}
@@ -13873,7 +13873,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = marlib_agrarianism_subtype 
 				traits = {}
@@ -13882,7 +13882,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soclib_agrarianism_subtype 
 				traits = {}
@@ -13891,7 +13891,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_maurism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_maurism_subtype 
 				traits = {}
@@ -13900,7 +13900,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_oligarchy_subtype 
 				traits = {}
@@ -13909,7 +13909,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = oligarchy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = oligarchy_subtype 
 				traits = {}
@@ -13918,7 +13918,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = marlib_oligarchy_subtype 
 				traits = {}
@@ -13927,7 +13927,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_oligarchy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soclib_oligarchy_subtype 
 				traits = {}
@@ -13936,7 +13936,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_right_georgism_subtype 
 				traits = {}
@@ -13945,7 +13945,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_right_georgism_subtype 
 				traits = {}
@@ -13954,7 +13954,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = right_georgism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = right_georgism_subtype 
 				traits = {}
@@ -13963,7 +13963,7 @@ country_event = {#jaime död
 		else_if = {
 			limit = { has_country_leader_ideology = soclib_right_georgism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soclib_right_georgism_subtype 
 				traits = {}
@@ -13986,7 +13986,7 @@ country_event = {#juan död
 		if = {
 			limit = { has_country_leader_ideology = hispanism_subtype }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = hispanism_subtype
@@ -13996,7 +13996,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_integrism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = natpop_integrism_subtype 
@@ -14006,7 +14006,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = integralism_subtype 
@@ -14016,7 +14016,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_christian_democracy_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = socdem_christian_democracy_subtype 
@@ -14026,7 +14026,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = right_technocracy_subtype
@@ -14036,7 +14036,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = pataut_authoritarian_liberalism_subtype
@@ -14046,7 +14046,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = pataut_security_state_subtype
@@ -14056,7 +14056,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_paneuropeanism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = natpop_paneuropeanism_subtype 
@@ -14066,7 +14066,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = rexism_subtype 
@@ -14076,7 +14076,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = solidarism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = solidarism_subtype 
@@ -14086,7 +14086,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = pataut_national_conservative_subtype 
@@ -14096,7 +14096,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = caudillo_populism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = caudillo_populism_subtype 
@@ -14106,7 +14106,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = revolution_nationale_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = revolution_nationale_subtype 
@@ -14116,7 +14116,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = authdem_austropopulism_subtype 
@@ -14126,7 +14126,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = maurism_subtype 
@@ -14136,7 +14136,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = prussian_constitutionalism_subtype 
@@ -14146,7 +14146,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = authdem_national_conservative_subtype 
@@ -14156,7 +14156,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = clientelism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = clientelism_subtype 
@@ -14166,7 +14166,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = marlib_agrarianism_subtype 
@@ -14176,7 +14176,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_liberal_conservative_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = soccon_liberal_conservative_subtype 
@@ -14186,7 +14186,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = progressive_conservatism_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = progressive_conservatism_subtype 
@@ -14196,7 +14196,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = lerrouxismo_subtype  }
 			create_country_leader = {
-				name = "Jaime I"
+				name = "Хайме I"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 				ideology = lerrouxismo_subtype 
@@ -14210,7 +14210,7 @@ country_event = {#juan död
 		if = {
 			limit = { has_country_leader_ideology = hispanism_subtype }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = hispanism_subtype
 				traits = {}
@@ -14219,7 +14219,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_integrism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = natpop_integrism_subtype 
 				traits = {}
@@ -14228,7 +14228,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_authoritarian_liberalism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_authoritarian_liberalism_subtype 
 				traits = {}
@@ -14237,7 +14237,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_christian_democracy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = socdem_christian_democracy_subtype 
 				traits = {}
@@ -14246,7 +14246,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = right_technocracy_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = right_technocracy_subtype 
 				traits = {}
@@ -14255,7 +14255,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_security_state_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_security_state_subtype 
 				traits = {}
@@ -14264,7 +14264,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = integralism_subtype 
 				traits = {}
@@ -14273,7 +14273,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_paneuropeanism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = natpop_paneuropeanism_subtype 
 				traits = {}
@@ -14282,7 +14282,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = rexism_subtype 
 				traits = {}
@@ -14291,7 +14291,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = solidarism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = solidarism_subtype 
 				traits = {}
@@ -14300,7 +14300,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = pataut_national_conservative_subtype 
 				traits = {}
@@ -14309,7 +14309,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = caudillo_populism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = caudillo_populism_subtype 
 				traits = {}
@@ -14318,7 +14318,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = revolution_nationale_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = revolution_nationale_subtype 
 				traits = {}
@@ -14327,7 +14327,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_austropopulism_subtype 
 				traits = {}
@@ -14336,7 +14336,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = prussian_constitutionalism_subtype 
 				traits = {}
@@ -14345,7 +14345,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = authdem_national_conservative_subtype 
 				traits = {}
@@ -14354,7 +14354,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = clientelism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = clientelism_subtype 
 				traits = {}
@@ -14363,7 +14363,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = marlib_agrarianism_subtype 
 				traits = {}
@@ -14372,7 +14372,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_liberal_conservative_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = soccon_liberal_conservative_subtype 
 				traits = {}
@@ -14381,7 +14381,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = progressive_conservatism_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = progressive_conservatism_subtype 
 				traits = {}
@@ -14390,7 +14390,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = lerrouxismo_subtype  }
 			create_country_leader = {
-				name = "Alfonso XIV"
+				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
 				ideology = lerrouxismo_subtype 
 				traits = {}
@@ -14403,7 +14403,7 @@ country_event = {#juan död
 		if = {
 			limit = { has_country_leader_ideology = hispanism_subtype }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = hispanism_subtype
 				traits = {}
@@ -14412,7 +14412,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_integrism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = natpop_integrism_subtype 
 				traits = {}
@@ -14421,7 +14421,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = right_technocracy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = right_technocracy_subtype 
 				traits = {}
@@ -14430,7 +14430,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_authoritarian_liberalism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_authoritarian_liberalism_subtype 
 				traits = {}
@@ -14439,7 +14439,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = socdem_christian_democracy_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = socdem_christian_democracy_subtype 
 				traits = {}
@@ -14448,7 +14448,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_security_state_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_security_state_subtype
 				traits = {}
@@ -14457,7 +14457,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = integralism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = integralism_subtype 
 				traits = {}
@@ -14466,7 +14466,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = natpop_paneuropeanism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = natpop_paneuropeanism_subtype 
 				traits = {}
@@ -14475,7 +14475,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = rexism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = rexism_subtype 
 				traits = {}
@@ -14484,7 +14484,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = solidarism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = solidarism_subtype 
 				traits = {}
@@ -14493,7 +14493,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = pataut_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = pataut_national_conservative_subtype 
 				traits = {}
@@ -14502,7 +14502,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = caudillo_populism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = caudillo_populism_subtype 
 				traits = {}
@@ -14511,7 +14511,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = revolution_nationale_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = revolution_nationale_subtype 
 				traits = {}
@@ -14520,7 +14520,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_austropopulism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_austropopulism_subtype 
 				traits = {}
@@ -14529,7 +14529,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = prussian_constitutionalism_subtype 
 				traits = {}
@@ -14538,7 +14538,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = authdem_national_conservative_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = authdem_national_conservative_subtype 
 				traits = {}
@@ -14547,7 +14547,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = clientelism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = clientelism_subtype 
 				traits = {}
@@ -14556,7 +14556,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = marlib_agrarianism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = marlib_agrarianism_subtype 
 				traits = {}
@@ -14565,7 +14565,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_liberal_conservative_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = soccon_liberal_conservative_subtype 
 				traits = {}
@@ -14574,7 +14574,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = progressive_conservatism_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = progressive_conservatism_subtype 
 				traits = {}
@@ -14583,7 +14583,7 @@ country_event = {#juan död
 		else_if = {
 			limit = { has_country_leader_ideology = lerrouxismo_subtype  }
 			create_country_leader = {
-				name = "Gonzalo I"
+				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
 				ideology = lerrouxismo_subtype 
 				traits = {}
@@ -15338,8 +15338,8 @@ country_event = {#
 			set_country_flag = SPR_formed_iberia_italy
 		}
 		else = {
-			set_cosmetic_tag = SPR_itaspa
-			set_country_flag = SPR_itaspa
+		set_cosmetic_tag = SPR_itaspa
+		set_country_flag = SPR_itaspa
 		}
 		if = {
 			limit = {
@@ -15486,28 +15486,28 @@ country_event = { #Caribbean Conquest
 		if = {
 			limit = {
 				315 = { NOT = { is_owned_by = SPR } }
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = 315.owner
-			}
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = 315.owner
+		}
 		}
 		if = {
 			limit = {
 				315 = { NOT = { is_owned_by = SPR } }
 			}
-			create_wargoal = {
-				type = annex_everything
-				target = 319.owner
-			}
+		create_wargoal = {
+			type = annex_everything
+			target = 319.owner
+		}
 		}
 		if = {
 			limit = {
 				315 = { NOT = { is_owned_by = SPR } }
 			}
-			create_wargoal = {
-				type = annex_everything
-				target = 686.owner
+		create_wargoal = {
+			type = annex_everything
+			target = 686.owner
 			}
 		}
 	}
@@ -15687,7 +15687,7 @@ country_event = { #Italian Conquest
 		trigger = {
 		SIC = {
 		exists = yes
-		has_country_leader = { ruling_only = yes name = "Ferdinando III" }
+		has_country_leader = { ruling_only = yes name = "Фердинанд III" }
 			}
 		}
 		ai_chance = {
@@ -16108,7 +16108,7 @@ country_event = { #Black Monday is joever
 				name = NZN_paniora_party
 			}
 			create_country_leader = {
-				name = "Reuben Paniora"
+				name = "Рубен Паниора"
 				picture = "gfx/leaders/NZL/Portrait_NZL_Reuben_Paniora.png"
 				expire = "1.1.1"
 				ideology = pataut_kotahitanga_subtype
@@ -16218,7 +16218,7 @@ country_event = { #Iberian Flag Picker Event
 		set_cosmetic_tag = SPR_IBERIA
 		if = {
 			limit = { NOT = { has_country_flag = SPR_iberia_allow_flag_picker_decision } }
-			set_country_flag = SPR_iberia_allow_flag_picker_decision
+		set_country_flag = SPR_iberia_allow_flag_picker_decision
 		}
 	}
 	option = {
@@ -16233,7 +16233,7 @@ country_event = { #Iberian Flag Picker Event
 		set_cosmetic_tag = SPR_IBERIA_1
 		if = {
 			limit = { NOT = { has_country_flag = SPR_iberia_allow_flag_picker_decision } }
-			set_country_flag = SPR_iberia_allow_flag_picker_decision
+		set_country_flag = SPR_iberia_allow_flag_picker_decision
 		}
 	}
 	option = {
@@ -16248,7 +16248,7 @@ country_event = { #Iberian Flag Picker Event
 		set_cosmetic_tag = SPR_IBERIA_austria_larp
 		if = {
 			limit = { NOT = { has_country_flag = SPR_iberia_allow_flag_picker_decision } }
-			set_country_flag = SPR_iberia_allow_flag_picker_decision
+		set_country_flag = SPR_iberia_allow_flag_picker_decision
 		}
 	}
 	option = {
@@ -16284,7 +16284,7 @@ country_event = { #Morocco more like Poorocco
 		name = sprd.1138.a
 		release_puppet = MOR
 		MOR = {
-			set_cosmetic_tag = MOR_SPR_PUPPET
+			set_cosmetic_tag = MOR_SPR_PUPPET				
 			set_party_name = { 
 				ideology = paternal_autocrat
 				long_name = MOR_regulares_long
@@ -16295,7 +16295,7 @@ country_event = { #Morocco more like Poorocco
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Mohamed Meziane"
+				name = "Мохамед Мезиане"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Mohamed_Meziane_Spain.png"
 				expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype
@@ -16307,7 +16307,7 @@ country_event = { #Morocco more like Poorocco
 			every_owned_state = {
 				limit = {
 					has_dynamic_modifier = { modifier = SPR_morocco_modifier }
-				}
+	}	
 				remove_dynamic_modifier = { modifier = SPR_morocco_modifier }
 			}
 			every_owned_state = {
@@ -16480,11 +16480,11 @@ country_event = {
 				factor = 0
 				OR = {
 					SPR = { is_ai = no }
-					has_game_rule = {
-						rule = SPR_forpol
-						option = SPR_FORPOL_AUSTRIA
-					}
+				has_game_rule = {
+					rule = SPR_forpol
+					option = SPR_FORPOL_AUSTRIA
 				}
+			}
 			}
 		}
 		add_political_power = -20
@@ -16762,7 +16762,7 @@ country_event = { #Absolutism event - Juan
 			set_country_flag = SPR_flag_soccon_appointed
 			complete_national_focus = SPR_moderate_absolutism
 			create_country_leader = {
-				name = "Juan III"
+				name = "Хуан III"
 				desc = "POLITICS_JUAN_BOURBON_DESC"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 				expire = "1.1.1"
@@ -16809,7 +16809,7 @@ country_event = { #Absolutism event - Juan
 			popularity = 0.15
 		}
 		create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
@@ -16862,7 +16862,7 @@ country_event = { #Absolutism event - Juan
 			name = SPR_paternal_autocrat_party
 		}
 		create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
@@ -16915,7 +16915,7 @@ country_event = { #Absolutism event - Juan
 			name = SPR_national_populist_party_ae
 		}
 		create_country_leader = {
-			name = "Juan III"
+			name = "Хуан III"
 			desc = "POLITICS_JUAN_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Juan_III.png"
 			expire = "1.1.1"
@@ -16979,7 +16979,7 @@ country_event = { #Absolutism event - Jamie
 			name = SPR_social_conservative_party_pae
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -17027,7 +17027,7 @@ country_event = { #Absolutism event - Jamie
 			popularity = 0.15
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -17080,7 +17080,7 @@ country_event = { #Absolutism event - Jamie
 			name = SPR_paternal_autocrat_party_alt
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -17128,7 +17128,7 @@ country_event = { #Absolutism event - Jamie
 			popularity = 0.15
 		}
 		create_country_leader = {
-			name = "Jaime I"
+			name = "Хайме I"
 			desc = "POLITICS_JAIME_BOURBON_DESC"
 			picture = "gfx/leaders/SPR/Portrait_SPR_Jaime_I.png"
 			expire = "1.1.1"
@@ -17344,7 +17344,7 @@ country_event = { #Kingdom of Iberia
 			}
 		}
 		create_country_leader = {
-			name = "George XIII"
+			name = "Георгий XIII"
 			picture = "gfx/leaders/GEO/Portrait_GEO_George_Bagriaton_Mukhraneli.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -18500,7 +18500,7 @@ country_event = { #Center BoP Reach Out to Germany
 				id = sprd.1201
 				days = 3
 			}
-		}
+			}
 		}
 	}
 }
@@ -19941,8 +19941,8 @@ country_event = {
 		name = sprd.3010.b
 		trigger	= { has_country_flag = SPR_mangada } 
 		add_ideas = SPR_Julio_Mangada_hog_rso
+		}
 	}
-}
 country_event = {
 	id = sprd.3011
 	title = sprd.3011.t 
@@ -19999,8 +19999,8 @@ country_event = {
 		name = sprd.3012.e
 		trigger	= { has_country_flag = SPR_pich_y_pon } 
 		add_ideas = SPR_Juan_Pich_y_Pon_hog_mli
+		}
 	}
-}
 country_event = {
 	id = sprd.3013
 	title = sprd.3013.t 
@@ -20025,8 +20025,8 @@ country_event = {
 		name = sprd.3013.c
 		trigger	= { has_country_flag = SPR_albornoz } 
 		add_ideas = SPR_Alvaro_de_Albornoz_Liminiana_hog_rso
+		}
 	}
-}
 country_event = {
 	id = sprd.3014
 	title = sprd.3014.t 
@@ -20051,8 +20051,8 @@ country_event = {
 		name = sprd.3014.c
 		trigger	= { has_country_flag = SPR_maura } 
 		add_ideas = SPR_Miguel_Maura_Gamazo_hog_sco
-	}
-			
+		}
+	}		
 	option = {
 		name = sprd.3014.c
 		trigger	= { has_country_flag = SPR_aznar } 
@@ -20083,8 +20083,8 @@ country_event = {
 		name = sprd.3015.c
 		trigger	= { has_country_flag = SPR_maura } 
 		add_ideas = SPR_Luis_Lucia_Lucia_hog_ade
+		}
 	}
-}
 country_event = {
 	id = sprd.3016
 	title = sprd.3016.t 
@@ -20109,8 +20109,8 @@ country_event = {
 		name = sprd.3016.c
 		trigger	= { has_country_flag = SPR_sanchez } 
 		add_ideas = SPR_Lucia_Sanchez_Saornil_hog_syn
-	}
-			
+		}
+	}		
 	option = {
 		name = sprd.3016.e
 		trigger	= { has_country_flag = SPR_segui } 
@@ -20153,8 +20153,8 @@ country_event = {
 		name = sprd.3017.e
 		trigger	= { has_country_flag = SPR_calvo_sotelo } 
 		add_ideas = SPR_Jose_Calvo_Sotelo_hog_npo
-	}
-			
+		}
+	}		
 	option = {
 		name = sprd.3017.f
 		trigger	= { has_country_flag = SPR_palau } 
@@ -20167,7 +20167,7 @@ country_event = {
 	desc = sprd.4000.d 
 	is_triggered_only = yes
 	immediate = { log = "[GetDateText]: [Root.GetName]: event sprd.4000" }
-	
+		
 	option = {
 		name = sprd.4000.a
 		log = "[GetDateText]: [Root.GetName]: event option sprd.4000.a"

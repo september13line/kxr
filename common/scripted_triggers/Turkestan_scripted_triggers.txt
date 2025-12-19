@@ -2,29 +2,29 @@ TRK_has_jadidist_government = {
 	OR = {
 		TRK_shokai_in_power = yes
 		has_country_leader = {
-			name = "Munawwar Qari Abdurrashidkhan"
+			name = "Мунаввар Кары Абдурашидханов"
 			ruling_only = yes
 		}
 	}	
 }
 TRK_shokai_in_power = {
 	has_country_leader = {
-		name = "Mustafa Shokay"
+		name = "Мустафа Шокай"
 		ruling_only = yes
 	}
 }
 TRK_erk_in_power = {
 	OR = {
 		has_country_leader = {
-			name = "Turar Ryskulov"
+			name = "Турар Рыскулов"
 			ruling_only = yes
 		}
 		has_country_leader = {
-			name = "Toroqul Januzakov"
+			name = "Торекул Джанузаков"
 			ruling_only = yes
 		}
 		has_country_leader = {
-			name = "Nazir Toraqulov"
+			name = "Назир Тюрякулов"
 			ruling_only = yes
 		}
 	}
@@ -37,14 +37,14 @@ TRK_ferghana_government_in_power = {
 }
 TRK_madamin_bek_in_power = {
 	has_country_leader = {
-		name = "Madamin Bey"
+		name = "Мадамин-бек"
 		ruling_only = yes
 	}
 }
 TRK_monstrov_in_power = {
 	OR = {
-		has_country_leader = {
-		name = "Konstantin Monstrov"
+	has_country_leader = {
+		name = "Константин Монстров"
 		ruling_only = yes
 	    }
 		has_completed_focus = TRK_Restore_The_General_Governorate
@@ -52,14 +52,14 @@ TRK_monstrov_in_power = {
 }
 TRK_kurshirmat_in_power = {
 	has_country_leader = {
-		name = "Korshirmat"
+		name = "Курширмат"
 		ruling_only = yes
 	}
 }
 TRK_tvo_in_power = {
 	OR = {
 		has_country_leader = {
-			name = "Ivan Zaitsev"
+			name = "Иван Зайцев"
 			ruling_only = yes
 		}
 		has_completed_focus = TRK_Zaitsev_Autocratic_Consolidation
@@ -68,8 +68,8 @@ TRK_tvo_in_power = {
 }
 TRK_osipov_in_power = {
 	OR = {
-		has_country_leader = {
-		name = "Konstantin Osipov"
+	has_country_leader = {
+		name = "Константин Осипов"
 		ruling_only = yes
 	    }
 		has_completed_focus = TRK_Osipov_Socialist_Reconstruction
@@ -80,7 +80,7 @@ TRK_katta_ergash_in_power = {
 		limit = {
 			NOT = {
 				has_country_leader = {
-					name = "Ergash Bey"
+					name = "Эргаш-курбаши"
 					ruling_only = yes
 				}
 			}
@@ -93,7 +93,7 @@ TRK_ulema_in_power = {
 		limit = {
 			NOT = {
 				has_country_leader = {
-					name = "Sherali Lapin"
+					name = "Сералы Лапин"
 					ruling_only = yes
 				}
 			}
@@ -102,7 +102,7 @@ TRK_ulema_in_power = {
 	}
 	else = {
 		has_country_leader = {
-			name = "Sherali Lapin"
+			name = "Сералы Лапин"
 			ruling_only = yes
 		}
 	}

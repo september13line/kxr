@@ -14,7 +14,7 @@ focus_tree = {
 			tag = LIB
 		}
 	}
-	
+
 	shared_focus = AMERICA_back_in_business
 
 	### ECONOMIC TREE
@@ -3475,43 +3475,43 @@ focus_tree = {
 					#State
 					if = {
 						limit = { 700 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 700
+					transfer_state = 700
 					}
 					if = {
 						limit = { 807 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 807
+					transfer_state = 807
 					}
 					if = {
 						limit = { 963 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 963
+					transfer_state = 963
 					}
 					if = {
 						limit = { 876 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 876
+					transfer_state = 876
 					}
 					if = {
 						limit = { 806 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 806
+					transfer_state = 806
 					}
 					if = {
 						limit = { 274 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 274
+					transfer_state = 274
 					}
 					if = {
 						limit = { 1321 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 1321
+					transfer_state = 1321
 					}
 					if = {
 						limit = { 1322 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 1322
+					transfer_state = 1322
 					}
 					if = {
 						limit = { 1323 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 1323
+					transfer_state = 1323
 					}
 					if = {
 						limit = { 877 = { is_owned_and_controlled_by = LIB } }
-						transfer_state = 877
+					transfer_state = 877
 					}
 					add_state_core = 700
 					add_state_core = 807
@@ -3526,7 +3526,7 @@ focus_tree = {
 					
 					### Leader
 					create_country_leader = {
-						name = "Frontier Administration"
+						name = "Пограничная администрация"
 						desc = "POLITICS_FRONTIER_ADMINISTRATION_DESC"
 						picture = "gfx/leaders/LIB/Portrait_LIB_Frontier_Administration.png"
 						expire = "1.1.1"
@@ -4102,9 +4102,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_puppetlegislature"
 			add_opinion_modifier = { target = CIV modifier = ITA_likes_govt }
 			country_event = {
-				id = fire.13
-				days = 1
-			}
+					id = fire.13
+					days = 1
+				}
 		}
 		ai_will_do = {
 			factor = 1
@@ -4124,9 +4124,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_puppetlegislature"
 			country_event = {
-				id = fire.1
-				days = 1
-			}
+					id = fire.1
+					days = 1
+				}
 			remove_ideas = LIB_slavery_scandal
 		}
 		ai_will_do = {
@@ -4147,18 +4147,18 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_monrovianovertures"
 			298 = {
-				add_building_construction = {
+			add_building_construction = {
 					type = naval_base
 					level = 2
 					province = 13828
 					instant_build = yes
 				}
-			}
+				}
 			country_event = {
-				id = fire.2
-				days = 1
-			}
-		}
+					id = fire.2
+					days = 1
+				}
+				}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4185,10 +4185,10 @@ focus_tree = {
 			add_popularity = { ideology = market_liberal popularity = 0.05 }
 			add_political_power = 50
 			country_event = {
-				id = fire.12
-				days = 1
+					id = fire.12
+					days = 1
+				}
 			}
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4212,7 +4212,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_deepenourcommitment"
 			add_ideas = LIB_renewed_immigration2
 			create_country_leader = {
-				name = "Lansdell K Christie"
+				name = "Ленсделл К. Кристи"
 				desc = "POLITICS_CHRISTIE_DESC"
 				picture = "gfx/leaders/LIB/Portrait_LIB_Lansdell_K_Christie.png"
 				expire = "1.1.1"
@@ -4221,9 +4221,9 @@ focus_tree = {
 			}
 			add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 			country_event = {
-				id = fire.11
-				days = 1
-			}
+					id = fire.11
+					days = 1
+				}
 		}
 		ai_will_do = {
 			factor = 1
@@ -4243,14 +4243,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_theduke"
 			add_popularity = {
-				ideology = authoritarian_democrat
-				popularity = 0.05
-			}
-			country_event = {
-				id = fire.3
-				days = 1
-			}
+			ideology = authoritarian_democrat
+			popularity = 0.05
 		}
+			country_event = {
+					id = fire.3
+					days = 1
+				}
+				}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4270,10 +4270,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_themercenaries"
 			add_manpower = 25000
 			country_event = {
-				id = fire.4
-				days = 1
-			}
-		}
+					id = fire.4
+					days = 1
+				}
+				}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4307,9 +4307,9 @@ focus_tree = {
 			}
 			add_political_power = -25
 			country_event = {
-				id = fire.14
-				days = 1
-			}
+					id = fire.14
+					days = 1
+				}
 		}
 		ai_will_do = {
 			factor = 1
@@ -4329,17 +4329,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus LIB_onenationundergod"
 			capital_scope = {
-				add_building_construction = {
+					add_building_construction = {
 					type = radar_station
 					level = 1
 					instant_build = yes
 				}
-			}
+				}
 			country_event = {
-				id = fire.5
-				days = 1
-			}
-		}
+					id = fire.5
+					days = 1
+				}
+				}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4365,10 +4365,10 @@ focus_tree = {
 			add_popularity = { ideology = social_conservative popularity = 0.05 }
 			add_political_power = 50
 			country_event = {
-				id = fire.6
-				days = 1
+					id = fire.6
+					days = 1
+				}
 			}
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4391,9 +4391,9 @@ focus_tree = {
 				add_idea = LIB_renewed_immigration3
 			}
 			country_event = {
-				id = fire.7
-				days = 1
-			}
+					id = fire.7
+					days = 1
+				}
 		}
 		ai_will_do = {
 			factor = 1
@@ -4507,7 +4507,7 @@ focus_tree = {
 		y = 8
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4521,7 +4521,7 @@ focus_tree = {
 			country_event = {
 					id = hooverlib.11
 					days = 15
-				}
+				}		
 			}
 		}
 		ai_will_do = {
@@ -4536,7 +4536,7 @@ focus_tree = {
 		relative_position_id = LIB_america_lives_once_more
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4572,7 +4572,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4600,7 +4600,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4628,7 +4628,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4658,7 +4658,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4703,7 +4703,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4758,7 +4758,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4861,7 +4861,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 			owns_state = 361
@@ -4916,7 +4916,7 @@ focus_tree = {
 		relative_position_id = LIB_future_glories
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4947,7 +4947,7 @@ focus_tree = {
 		relative_position_id = LIB_america_lives_once_more
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -4983,7 +4983,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5010,7 +5010,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5038,7 +5038,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 			has_country_flag = LIB_delt_with_exile_shrekregation
@@ -5049,7 +5049,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = LIB_preparing_groundwork
-		}
+		}	
 		cost = 5
 		available_if_capitulated = yes
 		
@@ -5069,7 +5069,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5099,7 +5099,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5129,7 +5129,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5162,7 +5162,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5195,7 +5195,7 @@ focus_tree = {
 		relative_position_id = LIB_curnet_realties
 		available = {
 			has_country_leader = { 
-				name = "Herbert Hoover"
+				name = "Герберт Гувер"
 				ruling_only = yes
 			}
 		}
@@ -5364,7 +5364,7 @@ focus_tree = {
 					NOT = {
 						has_country_flag = LIB_dornan_enclave
 						has_country_flag = LIB_dornan_liberia
-					}
+					}						
 				}
 				set_cosmetic_tag = LIB_GREATER
 				add_ideas = LIB_Manifest_Destiny

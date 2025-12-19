@@ -32,7 +32,7 @@ country_event = { #Intro event
 		SZC = { send_volunteers_to_TARGET = yes }
 		SIK = { send_volunteers_to_TARGET = yes }
 		LEP = { send_volunteers_to_TARGET = yes }
-		name = "Let us hope Fuxiang stays healthy"
+		name = "Будем надеяться, что Фуксиан останется здоров."
 	}
 }
 
@@ -276,7 +276,7 @@ country_event = { #Fuxiang dies, Lin takes power
 	option = {
 		name = mac.10.a
 		create_country_leader = {
-			name = "Ma Hongkui"
+			name = "Ма Хункуй"
 			desc = "POLITICS_XSM_MA_HONGKUI_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Hongkui.png"
 			expire = "1.1.1"
@@ -511,7 +511,7 @@ country_event = { #Xishan blocks men from Yuxiang
 	}
 }
 
-country_event = { #Hidden event to make Ma Biao mission loop
+country_event = { #Hidden event to make Ма Бяо mission loop
 	id = mac.103
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.103" }
 	hidden = yes
@@ -564,7 +564,7 @@ country_event = { #Beginning of Tibetan raids, Tibet event
 	}
 }
 
-country_event = { #Tibet informed of Ma Biao being positioned
+country_event = { #Tibet informed of Ма Бяо being positioned
 	id = mac.106
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.106" }
 	title = mac.106.t
@@ -580,7 +580,7 @@ country_event = { #Tibet informed of Ma Biao being positioned
 	}
 }
 
-country_event = { #Ma Biao's retreat
+country_event = { #Ма Бяо's retreat
 	id = mac.107
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.107" }
 	title = mac.107.t
@@ -641,7 +641,7 @@ country_event = { #Mas reinforcing the border
 	}
 }
 
-country_event = { #Hidden event to make Ma Bufang mission loop
+country_event = { #Hidden event to make Ма Буфан mission loop
 	id = mac.111
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.111" }
 	hidden = yes
@@ -745,7 +745,7 @@ country_event = { #The humiliation
 			XSM_Han_Youwen_for_npo
 		}
 		create_country_leader = {
-			name = "Ma Bufang"
+			name = "Ма Буфан"
 			desc = "POLITICS_XSM_MA_BUFANG_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Bufang_2.png"
 			expire = "1.1.1"
@@ -894,7 +894,7 @@ country_event = {#War begins event chain
 		}
 		custom_effect_tooltip = YUS_conflict_decider
 		hidden_effect = {
-			if = { #Mas win without Ma Biao
+			if = { #Mas win without Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 60 compare = greater_than_or_equals }
 					NOT = {
@@ -905,7 +905,7 @@ country_event = {#War begins event chain
 					id = mac.202 days = 4
 				}
 			}
-			else_if = { #Mas win with Ma Biao
+			else_if = { #Mas win with Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 60 compare = greater_than_or_equals }
 					has_country_flag = XSM_ma_biao_in_yushu
@@ -914,7 +914,7 @@ country_event = {#War begins event chain
 					id = mac.202 days = 4
 				}
 			}
-			else_if = {#Tie without Ma Biao
+			else_if = {#Tie without Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 60 compare = less_than }
 					check_variable = { var = XSM.yushu_control value = 40 compare = greater_than_or_equals }
@@ -926,7 +926,7 @@ country_event = {#War begins event chain
 					id = mac.204 days = 4
 				}
 			}
-			else_if = { #Tie with Ma Biao
+			else_if = { #Tie with Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 60 compare = less_than }
 					check_variable = { var = XSM.yushu_control value = 40 compare = greater_than_or_equals }
@@ -936,7 +936,7 @@ country_event = {#War begins event chain
 					id = mac.204 days = 4
 				}
 			}
-			else_if = { #Tibet winning without Ma Biao
+			else_if = { #Tibet winning without Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 40 compare = less_than }
 					NOT = {
@@ -949,7 +949,7 @@ country_event = {#War begins event chain
 					}
 				}
 			}
-			else_if = { #Tibet winning with Ma Biao
+			else_if = { #Tibet winning with Ма Бяо
 				limit = {
 					check_variable = { var = XSM.yushu_control value = 40 compare = less_than }
 					has_country_flag = XSM_ma_biao_in_yushu
@@ -1067,7 +1067,7 @@ country_event = { #Mas win
 				load_oob = XSM_yushu_garrison_large_biao
 			}
 			create_corps_commander = {
-				name = "Ma Biao "
+				name = "Ма Бяо "
 				desc = "POLITICS_XSM_MA_BIAO_ARMY_DESC"
 				portrait_path = "gfx/leaders/XSM/Portrait_XSM_Ma_Biao.png"
 				traits = {
@@ -1201,7 +1201,7 @@ country_event = { #Tie
 				}
 			}
 			create_corps_commander = {
-				name = "Ma Biao "
+				name = "Ма Бяо "
 				desc = "POLITICS_XSM_MA_BIAO_ARMY_DESC"
 				portrait_path = "gfx/leaders/XSM/Portrait_XSM_Ma_Biao.png"
 				traits = {
@@ -1433,7 +1433,7 @@ country_event = { # Ma survives the Northwest war, starting Gansu conflict
 	}
 }
 
-country_event = { #Agitation between Ma Hongkui and Ma Hongbin
+country_event = { #Agitation between Ма Хункуй and Ма Хунбинь
 	id = mac.209
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.209" }
 	title = mac.209.t
@@ -1469,7 +1469,7 @@ country_event = { #Agitation between Ma Hongkui and Ma Hongbin
 	}
 }
 
-country_event = { #Governor Ma Hongkui of Gansu suggests Ma Liang can assist Ma Hongbin in governing Ningxia
+country_event = { #Governor Ма Хункуй of Gansu suggests Ma Liang can assist Ма Хунбинь in governing Ningxia
 	id = mac.210
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.210" }
 	title = mac.210.t
@@ -1510,7 +1510,7 @@ country_event = { #Governor Ma Hongkui of Gansu suggests Ma Liang can assist Ma 
 	}
 }
 
-country_event = { #Governor Ma Hongbin of Ningxia claims Governor Ma Hongkui of Gansu is serectly funding the Yihewani
+country_event = { #Governor Ма Хунбинь of Ningxia claims Governor Ма Хункуй of Gansu is serectly funding the Yihewani
 	id = mac.211
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.211" }
 	title = mac.211.t
@@ -1547,7 +1547,7 @@ country_event = { #Governor Ma Hongbin of Ningxia claims Governor Ma Hongkui of 
 	}
 }
 
-country_event = { #Governor Ma Hongbin of Ningxia has gathered evidence and presented it to the Xining counsel
+country_event = { #Governor Ма Хунбинь of Ningxia has gathered evidence and presented it to the Xining counsel
 	id = mac.212
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.212" }
 	title = mac.212.t
@@ -1563,7 +1563,7 @@ country_event = { #Governor Ma Hongbin of Ningxia has gathered evidence and pres
 	}
 }
 
-country_event = { #Governor Ma Hongbin of Ningxia has gathered evidence and presented it to the Xining counsel
+country_event = { #Governor Ма Хунбинь of Ningxia has gathered evidence and presented it to the Xining counsel
 	id = mac.213
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.213" }
 	title = mac.213.t
@@ -1579,7 +1579,7 @@ country_event = { #Governor Ma Hongbin of Ningxia has gathered evidence and pres
 	}
 }
 
-country_event = { #Ma Hongkui agrees and the Northern Provinces will consolidate rule around Yinchuan and the clique is again unified under the family of Ma Qianling
+country_event = { #Ма Хункуй agrees and the Northern Provinces will consolidate rule around Yinchuan and the clique is again unified under the family of Ma Qianling
 	id = mac.214
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.214" }
 	title = mac.214.t
@@ -1619,7 +1619,7 @@ country_event = { #Ma Hongkui agrees and the Northern Provinces will consolidate
 	}
 }
 
-country_event = { #Ma Hongbin protests the instatment of Ma Liang as General in Ningxia
+country_event = { #Ма Хунбинь protests the instatment of Ma Liang as General in Ningxia
 	id = mac.220
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.220" }
 	title = mac.220.t
@@ -1658,7 +1658,7 @@ country_event = { #Ma Hongbin protests the instatment of Ma Liang as General in 
 	}
 }
 
-country_event = { #Ma Hongkui agrees and the Northern Provinces will consolidate rule around Yinchuan and the clique is again unified under the family of Ma Qianling
+country_event = { #Ма Хункуй agrees and the Northern Provinces will consolidate rule around Yinchuan and the clique is again unified under the family of Ma Qianling
 	id = mac.221
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.221" }
 	title = mac.221.t
@@ -1699,7 +1699,7 @@ country_event = { #Ma Hongkui agrees and the Northern Provinces will consolidate
 	}
 }
 
-country_event = { # Ma Hongkui, seeing power diffuse in Qinghai, has invited members of the three Ma families to Gansu to see his work.
+country_event = { # Ма Хункуй, seeing power diffuse in Qinghai, has invited members of the three Ma families to Gansu to see his work.
 	id = mac.222
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.222" }
 	title = mac.222.t
@@ -1715,7 +1715,7 @@ country_event = { # Ma Hongkui, seeing power diffuse in Qinghai, has invited mem
 	}
 }
 
-country_event = { # The Ma families is swayed by Ma Hongkui's display
+country_event = { # The Ma families is swayed by Ма Хункуй's display
 	id = mac.223
 	immediate = { log = "[GetDateText]: [Root.GetName]: event mac.223" }
 	title = mac.223.t
@@ -1866,7 +1866,7 @@ country_event = { #The three provinces
 			ruling_party = paternal_autocrat
 		}
 		create_country_leader = {
-			name = "Pugong"
+			name = "Пугонг"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pugong.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1893,7 +1893,7 @@ country_event = {
 		name = mac.20001.a
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Hongbin"
+			name = "Ма Хунбинь"
 			desc = "POLITICS_XSM_MA_HONGBIN_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Hongbin.png"
 			expire = "1.1.1"
@@ -1906,7 +1906,7 @@ country_event = {
 		name = mac.20001.b
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Hongkui"
+			name = "Ма Хункуй"
 			desc = "POLITICS_XSM_MA_HONGKUI_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Hongkui.png"
 			expire = "1.1.1"
@@ -1919,7 +1919,7 @@ country_event = {
 		name = mac.20001.c
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Bufang"
+			name = "Ма Буфан"
 			desc = "POLITICS_XSM_MA_BUFANG_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Bufang_2.png"
 			expire = "1.1.1"
@@ -1932,7 +1932,7 @@ country_event = {
 		name = mac.20001.e
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Lin"
+			name = "Ма Линь"
 			desc = "POLITICS_XSM_MA_LIN_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Lin.png"
 			expire = "1.1.1"
@@ -1945,7 +1945,7 @@ country_event = {
 		name = mac.20001.f
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Buqing"
+			name = "Ма Буцин"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Buqing.png"
 			expire = "1.1.1"
 			ideology = pataut_warlordism_subtype
@@ -1957,7 +1957,7 @@ country_event = {
 		name = mac.20001.g
 		set_politics = { ruling_party = paternal_autocrat }
 		create_country_leader = {
-			name = "Ma Hushan"
+			name = "Ма Хушань"
 			desc = "POLITICS_MA_HUSHAN_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Hushan.png"
 			expire = "1.1.1"
@@ -1968,9 +1968,9 @@ country_event = {
 	}
 	option = {
 		name = mac.20001.h
-		trigger = { has_country_leader = { name = "Ma Zhongying" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Ма Чжунъин" ruling_only = yes } }
 		create_country_leader = {
-			name = "Ma Zhongying"
+			name = "Ма Чжунъин"
 			desc = "POLITICS_XSM_MA_ZHONGYING_ARMY_DESC"
 			picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Zhongying.png"
 			expire = "1.1.1"
@@ -1985,7 +1985,7 @@ country_event = {
 	}
 	option = {
 		name = mac.20001.i
-		trigger = { has_country_leader = { name = "Ma Fuxiang" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Ма Фусян" ruling_only = yes } }
 		add_political_power = 100
 		set_country_leader_portrait = { portrait = "gfx/leaders/XSM/Portrait_XSM_Ma_Fuxiang_Great.png" }
 	}

@@ -83,7 +83,7 @@ country_event = {
 			if = {
 				limit = {
 					EGY = {
-						OR = {
+					OR = {
 							is_subject_of = TUR
 							exists = no
 						}
@@ -406,14 +406,14 @@ country_event = {
 		set_country_flag = GEX_rejected_exiles
 		
 		if = {
-			limit = { has_country_leader = { name = "Jomo Kenyatta" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Джомо Кениата" ruling_only = yes } }
 			add_stability = -0.05
 		}
 		else_if = {
 			limit = {
 				OR = {
-					has_country_leader = { name = "Weilian" ruling_only = yes }
-					has_country_leader = { name = "Weilian II" ruling_only = yes }
+					has_country_leader = { name = "Вэйлянь" ruling_only = yes }
+					has_country_leader = { name = "Вэйлянь II" ruling_only = yes }
 				}
 			}
 			custom_effect_tooltip = AOG_no_more_exile
@@ -422,7 +422,7 @@ country_event = {
 			add_political_power = -100
 			hidden_effect = {
 				create_country_leader = {
-					name = "Board of Directors"
+					name = "Совет директоров"
 					desc = "POLITICS_AOG_BOARD_DESC"
 					picture = "gfx/leaders/AOG/Portrait_AOG_Board.png"
 					expire = "1.1.1"
@@ -431,7 +431,7 @@ country_event = {
 				}
 
 				create_country_leader = {
-					name = "Alexander von Falkenhausen"
+					name = "Александр фон Фалькенхаузен"
 					desc = "POLITICS_ALEXANDER_VON_FALKENHAUSEN_DESC"
 					picture = "gfx/leaders/AOG/Portrait_AOG_Alexander_von_Falkenhausen.png"
 					expire = "1.1.1"
@@ -450,7 +450,7 @@ country_event = {
 	
 	option = {#Lapdogs no longer! Declare the independence of the Mittelafrikan Empire!
 		name = GEX.2.c
-		trigger = { tag = MAF NOT = { has_country_leader = { name = "Jomo Kenyatta" ruling_only = yes } } }
+		trigger = { tag = MAF NOT = { has_country_leader = { name = "Джомо Кениата" ruling_only = yes } } }
 		
 		ai_chance = {	
 			factor = 1
@@ -473,7 +473,7 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_country_leader = { name = "Jomo Kenyatta" ruling_only = yes }
+				has_country_leader = { name = "Джомо Кениата" ruling_only = yes }
 			}
 			add_stability = -0.05
 		}
@@ -491,7 +491,7 @@ country_event = {
 	
 	option = {#Kenyatta says no to Kaiserism
 		name = GEX.2.e
-		trigger = { has_country_leader = { name = "Jomo Kenyatta" } }
+		trigger = { has_country_leader = { name = "Джомо Кениата" } }
 		
 		ai_chance = {	
 			factor = 1
@@ -514,7 +514,7 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_country_leader = { name = "Jomo Kenyatta" ruling_only = yes }
+				has_country_leader = { name = "Джомо Кениата" ruling_only = yes }
 			}
 			add_stability = -0.05
 		}
@@ -1161,7 +1161,7 @@ country_event = {
 					limit = { has_global_flag = Wilhelm_II_Dead }
 					
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1170,7 +1170,7 @@ country_event = {
 					}
 
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1179,7 +1179,7 @@ country_event = {
 					}
 
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1188,7 +1188,7 @@ country_event = {
 					}
 
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1197,7 +1197,7 @@ country_event = {
 					}
 
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1206,7 +1206,7 @@ country_event = {
 					}
 					
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1214,7 +1214,7 @@ country_event = {
 					}
 
 					create_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						desc = "POLITICS_WILLY_3_DESC"
 						picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_III.png"
 						expire = "1.1.1"
@@ -1224,7 +1224,7 @@ country_event = {
 					else = {
 						
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1233,7 +1233,7 @@ country_event = {
 						}
 
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1242,7 +1242,7 @@ country_event = {
 						}
 
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1251,7 +1251,7 @@ country_event = {
 						}
 
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1260,7 +1260,7 @@ country_event = {
 						}
 
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1269,7 +1269,7 @@ country_event = {
 						}
 						
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -1278,7 +1278,7 @@ country_event = {
 						}
 
 						create_country_leader = {
-							name = "Wilhelm II"
+							name = "Вильгельм II"
 							desc = "POLITICS_WILHELM_II_DESC"
 							picture = "gfx/leaders/TXS/Portrait_Texas_Wilhelm_II.png"
 							expire = "1.1.1"
@@ -2348,12 +2348,12 @@ country_event = {
 		
 		option = {#Yes
 			name = GEX_foreign_east.15.a
-			every_country = {
-				limit = {
+				every_country = {
+					limit = {
 					is_in_faction_with = ROOT
-				}
+					}
 				FROM = { add_to_faction = PREV }
-			}
+					}
 		}
 		
 		option = {#No

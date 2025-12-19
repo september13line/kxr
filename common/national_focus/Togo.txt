@@ -965,8 +965,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TOG_aquire_trucks"
 			if = {
 				limit = { has_dlc_got = yes }
-				complete_special_project = sp:sp_air_helicopter
-			    add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 20 }
+			complete_special_project = sp:sp_air_helicopter
+			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 20 }
 			}
 			else = {
 				set_technology = {
@@ -1931,7 +1931,7 @@ focus_tree = {
 			}
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Sylvanus Olympio" }
+		has_country_leader = { ruling_only = yes name = "Силванус Олимпио" }
 			}
 		country_event = {	
 				id = togo.45

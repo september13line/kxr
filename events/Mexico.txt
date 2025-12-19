@@ -140,11 +140,11 @@ country_event = { # assassination attempt
 		set_country_flag = MEX_zapata_is_dead_flag
 		
 		random_unit_leader = {
-			limit = { has_id = 9372 }
+			limit = { has_id = 9372 }			
 			remove_unit_leader = yes
 		}
-		create_country_leader = {# Eufemio Zapata
-			name = "Eufemio Zapata"
+		create_country_leader = {# Эуфемио Сапата
+			name = "Эуфемио Сапата"
 			desc = "POLITICS_EUFEMIO_ZAPATA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Eufemio_Zapata.png"
 			expire = "1.1.1"
@@ -182,16 +182,16 @@ country_event = { # What does Eufemio do?
 		}
 		set_country_flag = MEX_calles_has_power
 		hidden_effect = {
-			create_country_leader = { # Pancho Villa
-				name = "Pancho Villa"
+			create_country_leader = { # Панчо Вилья
+				name = "Панчо Вилья"
 				desc = "POLITICS_PANCHO_VILLA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Pancho_Villa.png"
 				expire = "1.1.1"
 				ideology = agrarian_socialism_subtype
 				traits = { dislikes_politics }
 			}
-			create_country_leader = {# Eufemio Zapata
-				name = "Eufemio Zapata"
+			create_country_leader = {# Эуфемио Сапата
+				name = "Эуфемио Сапата"
 				desc = "POLITICS_EUFEMIO_ZAPATA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Eufemio_Zapata.png"
 				expire = "1.1.1"
@@ -392,8 +392,8 @@ country_event = { # Calles gets Eufemio to resign
 			}
 		}
 		load_focus_tree = mexican_focus
-		create_country_leader = {# Plutarco Calles
-			name = "Plutarco Calles"
+		create_country_leader = {# Плутарко Кальес
+			name = "Плутарко Кальес"
 			desc = "POLITICS_PLUTARCO_CALLES_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Plutarco_Calles.png"
 			expire = "1.1.1"
@@ -470,16 +470,16 @@ country_event = { # Calles marches, Eufemio Killed
 			ruling_party = totalist
 			elections_allowed = yes
 		}
-		create_country_leader = {# Plutarco Calles
-			name = "Plutarco Calles"
+		create_country_leader = {# Плутарко Кальес
+			name = "Плутарко Кальес"
 			desc = "POLITICS_PLUTARCO_CALLES_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Plutarco_Calles.png"
 			expire = "1.1.1"
 			ideology = maximato_subtype
 			traits = {}
 		}
-		create_country_leader = { # Pancho Villa
-			name = "Pancho Villa"
+		create_country_leader = { # Панчо Вилья
+			name = "Панчо Вилья"
 			desc = "POLITICS_PANCHO_VILLA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Pancho_Villa.png"
 			expire = "1.1.1"
@@ -487,7 +487,7 @@ country_event = { # Calles marches, Eufemio Killed
 			traits = { dislikes_politics }
 		}
 		random_unit_leader = {
-			limit = { has_id = 94736 }
+			limit = { has_id = 94736 }			
 			remove_unit_leader = yes
 		}
 		hidden_effect = {
@@ -610,8 +610,8 @@ country_event = { # Villa Attempts Counter Coup
 				days = 10
 			}
 		}
-		create_country_leader = { # Antonio Irineo Villarreal
-			name = "Antonio Irineo Villarreal"
+		create_country_leader = { # Антонио Иринео Вильярреаль
+			name = "Антонио Иринео Вильярреаль"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Antonio_Villarreal.png"
 			expire = "1.1.1"
 			ideology = agrarian_socialism_subtype
@@ -838,8 +838,8 @@ country_event = { # Elections of 1937
 			ideology = totalist
 			popularity = 0.10
 		}
-		create_country_leader = {# Plutarco Calles
-			name = "Plutarco Calles"
+		create_country_leader = {# Плутарко Кальес
+			name = "Плутарко Кальес"
 			desc = "POLITICS_PLUTARCO_CALLES_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Plutarco_Calles.png"
 			expire = "1.1.1"
@@ -965,18 +965,18 @@ country_event = { # Elections of 1937
 			limit = {
 				has_country_flag = MEX_Villa_Runs
 			}
-			create_country_leader = { # Pancho Villa
-				name = "Pancho Villa"
+			create_country_leader = { # Панчо Вилья
+				name = "Панчо Вилья"
 				desc = "POLITICS_PANCHO_VILLA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Pancho_Villa_President.png"
 				expire = "1.1.1"
 				ideology = agrarian_socialism_subtype
 				traits = { dislikes_politics }
 			}
-			if = {
+			if = {	
 				limit = { 
 					has_country_leader = { 
-						name = "Pancho Villa" 
+						name = "Панчо Вилья" 
 						ruling_only = yes 
 					} 
 					has_country_flag = MEX_Villa_Runs_Zapata_Lives
@@ -1007,8 +1007,8 @@ country_event = { # Elections of 1937
 					MEX_Rafael_Buelna_sec_rso
 				}
 			}
-			create_country_leader = { # Antonio Díaz Soto y Gama
-				name = "Antonio Díaz Soto y Gama"
+			create_country_leader = { # Антонио Диас Сото-и-Гама
+				name = "Антонио Диас Сото-и-Гама"
 				desc = "POLITICS_SOTO_Y_GAMA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Antonio_Diaz_Soto_y_Gama.png"
 				expire = "1.1.1"
@@ -1174,10 +1174,10 @@ country_event = { # Assassin cell 'found' - Calles Responsible
 		name = mexico.7.a
 		add_political_power = 20
 		random_unit_leader = {
-			limit = { has_id = 9374 }
+			limit = { has_id = 9374 }			
 			remove_unit_leader = yes
 		}
-		if = {
+		if = {	
 			limit = {
 				has_idea = MEX_Plutarco_Elias_Calles_sec_tot
 			}
@@ -1402,8 +1402,8 @@ country_event = { # Cristero War begins
 			set_country_flag = mex_cristero_flag
 				
 			### Leader
-			create_country_leader = { # Enrique Gorostieta
-				name = "Enrique Gorostieta"
+			create_country_leader = { # Энрике Горостьета
+				name = "Энрике Горостьета"
 				desc = "POLITICS_GOROSTIETA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Enrique_Gorostieta.png"
 				expire = "1.1.1"
@@ -1602,7 +1602,7 @@ country_event = { # Cristero War - factory sabotaged
 			}
 			save_event_target_as = attack_state
 		}
-	    }
+		}
 	}
 
 	option = {
@@ -1661,7 +1661,7 @@ country_event = { # Cristero War - arms factory sabotaged
 			}
 			save_event_target_as = attack_state
 		}
-	    }
+		}
 	}
 
 	option = {
@@ -2080,8 +2080,8 @@ country_event = { # Cristero War - victory for the Criesteros
 			elections_allowed = yes
 		}
 		set_cosmetic_tag = MEX_JESUS
-		create_country_leader = { # Enrique Gorostieta
-			name = "Enrique Gorostieta"
+		create_country_leader = { # Энрике Горостьета
+			name = "Энрике Горостьета"
 			desc = "POLITICS_GOROSTIETA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Enrique_Gorostieta.png"
 			expire = "1.1.1"
@@ -2105,7 +2105,7 @@ country_event = { # Cristero War - victory for the Criesteros
 			limit = { is_in_faction = yes }
 			leave_faction = yes
 		}
-	    }
+	}
 	hidden_effect = {
 		every_army_leader = {
 			limit = {
@@ -2174,13 +2174,13 @@ country_event = { # Cristero War - victory for the Criesteros
 				leave_faction = yes
 			}
 			create_country_leader = {
-			name = "Juan Andreu Almazán"
+			name = "Жуан Андреу Алмазан"
 			desc = "POLITICS_JUAN_ALMAZAN_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
 			traits = {}
-		    }
+			}
 		}
 	}
 	option = { # Become Nat-Pop
@@ -2202,8 +2202,8 @@ country_event = { # Cristero War - victory for the Criesteros
 		set_politics = {
 			ruling_party = national_populist
 		}
-		create_country_leader = {# José Vasconcelos
-			name = "José Vasconcelos"
+		create_country_leader = {# Хосе Васконселос
+			name = "Хосе Васконселос"
 			desc = "POLITICS_VASCONCELOS_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Jose_Vasconcelos.png"
 			expire = "1.1.1"
@@ -2251,7 +2251,7 @@ country_event = { # Cristero War - victory for the Criesteros
 		hidden_effect = { 
 			country_event = { days = 5 id = mexicodemocratic.19 } 
 			create_country_leader = {
-			name = "Juan Andreu Almazán"
+			name = "Жуан Андреу Алмазан"
 			desc = "POLITICS_JUAN_ALMAZAN_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 			expire = "1.1.1"
@@ -2291,13 +2291,13 @@ country_event = { # Cristero War - victory for the Criesteros
 				leave_faction = yes
 			}
 			create_country_leader = {
-			name = "Juan Andreu Almazán"
+			name = "Жуан Андреу Алмазан"
 			desc = "POLITICS_JUAN_ALMAZAN_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
 			traits = {}
-		    }
+			}
 		}
 	}
 }
@@ -2345,7 +2345,7 @@ country_event = { # Calles is dead!
 			set_country_flag = MEX_calles_dead
 			complete_national_focus = MEX_death_of_calles
 			random_unit_leader = {
-				limit = { has_id = 9374 }
+				limit = { has_id = 9374 }			
 				remove_unit_leader = yes
 			}
 		}
@@ -2368,7 +2368,7 @@ country_event = { # Calles is dead!
 			add_ideas = MEX_Manuel_Perez_Trevino_sec_tot
 		}
 		create_country_leader = { # Lazaro Cardenas
-			name = "Lázaro Cárdenas del Rio"
+			name = "Ласаро Карденас"
 			desc = "POLITICS_LAZARO_CARDENAS_TOT_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Lazaro_Cardenas_General.png"
 			expire = "1.1.1"
@@ -2376,7 +2376,7 @@ country_event = { # Calles is dead!
 			traits = {}
 		}
 	}
-	option = { # Emilio Portes Gil
+	option = { # Эмилио Портес Хиль
 		name = mexico.24.b
 		if = {
 			limit = { has_government = totalist }
@@ -2387,8 +2387,8 @@ country_event = { # Calles is dead!
 			add_ideas = MEX_Gonzalo_Natividad_Santos_Rivera_sec_tot
 		}
 		set_country_flag = MEX_gil_succedes_calles
-		create_country_leader = { # Emilio Portes Gil
-			name = "Emilio Portes Gil"
+		create_country_leader = { # Эмилио Портес Хиль
+			name = "Эмилио Портес Хиль"
 			desc = "POLITICS_EMILIO_GIL_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emilio_Gil.png"
 			expire = "1.1.1"
@@ -2396,7 +2396,7 @@ country_event = { # Calles is dead!
 			traits = {}
 		}
 	}
-	option = { # Manuel Perez Treviño
+	option = { # Мануэль Перес Тревиньо
 		name = mexico.24.c
 		set_country_flag = MEX_trevino_succedes_calles
 		if = {
@@ -2407,8 +2407,8 @@ country_event = { # Calles is dead!
 			add_ideas = MEX_Carlos_Riva_Palacio_eco_tot
 			add_ideas = MEX_Tomas_Garrido_Canabal_sec_tot
 		}
-		create_country_leader = { # Manuel Perez Treviño
-			name = "Manuel Perez Treviño"
+		create_country_leader = { # Мануэль Перес Тревиньо
+			name = "Мануэль Перес Тревиньо"
 			desc = "POLITICS_ABELARDO_RODRIGUEZ"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Manuel_Trevibno.png"
 			expire = "1.1.1"
@@ -2438,7 +2438,7 @@ country_event = { # Cardenas and the Maximato
 			elections_allowed = yes
 		}
 		create_country_leader = { # Lazaro Cardenas
-			name = "Lázaro Cárdenas"
+			name = "Ласаро Карденас"
 			desc = "POLITICS_LAZARO_CARDENAS_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Lazaro_Cardenas_kx.png"
 			expire = "1.1.1"
@@ -2474,7 +2474,7 @@ country_event = { # Elections of 1942
 
 	immediate = {
 		hidden_effect = {
-			remove_all_ministers = yes
+		remove_all_ministers = yes
 			if = {
 				limit = {
 					NOT = {
@@ -2641,7 +2641,7 @@ country_event = { # Elections of 1947
 
 	immediate = {
 		hidden_effect = {
-			remove_all_ministers = yes
+		remove_all_ministers = yes
 			if = {
 				limit = {
 					NOT = {
@@ -2809,7 +2809,7 @@ country_event = { # Elections of 1952
 
 	immediate = {
 		hidden_effect = {
-			remove_all_ministers = yes
+		remove_all_ministers = yes
 			if = {
 				limit = {
 					NOT = {
@@ -3374,8 +3374,8 @@ country_event = { # tolenado removed
 
 	option = { # allow it
 		name = mexico.415.a
-		create_country_leader = {# Fidel Velázquez
-			name = "Fidel Velázquez"
+		create_country_leader = {# Фидель Веласкес
+			name = "Фидель Веласкес"
 			desc = "POLITICS_VELASQUEZ_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Fidel_Velazquez.png"
 			expire = "1.1.1"
@@ -3401,8 +3401,8 @@ country_event = { # tolenado totalism time
 
 	option = { # allow it
 		name = mexico.416.a
-		create_country_leader = {# Vicente Toledano
-			name = "Vicente Toledano"
+		create_country_leader = {# Висенте Толедано
+			name = "Висенте Толедано"
 			desc = "POLITICS_VINCENTE_TOLEDANO_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Vincente_Toledano.png"
 			expire = "1.1.1"
@@ -3411,14 +3411,14 @@ country_event = { # tolenado totalism time
 		}
 		if = {
 			limit = {
-				has_country_leader = { name = "Vicente Toledano" ruling_only = yes }
+				has_country_leader = { name = "Висенте Толедано" ruling_only = yes }
 			}
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MEX/Portrait_Mexico_Vincente_Toledano_Authcom.png"
 			}
 		}
-		create_country_leader = { # Rosendo Salazar
-			name = "Rosendo Salazar"
+		create_country_leader = { # Росендо Салазар
+			name = "Росендо Салазар"
 			desc = "POLITICS_ROSENDO_SALAZAR_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Rosendo_Salazar.png"
 			expire = "1.1.1"
@@ -3537,31 +3537,31 @@ country_event = { # what do
 			MEX_create_democratic_generals = yes
 			NSW = {
 				random_unit_leader = {
-					limit = { has_id = 9374 }
+					limit = { has_id = 9374 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 9373 }
+					limit = { has_id = 9373 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94746 }
+					limit = { has_id = 94746 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94747 }
+					limit = { has_id = 94747 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94736 }
+					limit = { has_id = 94736 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94743 }
+					limit = { has_id = 94743 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94744 }
+					limit = { has_id = 94744 }			
 					remove_unit_leader = yes
 				}
 				every_army_leader = {
@@ -3588,8 +3588,8 @@ country_event = { # what do
 			ideology = social_liberal
 			popularity = 0.05
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -3656,8 +3656,8 @@ country_event = { # what do
 			ruling_party = national_populist
 			elections_allowed = no
 		}
-		create_country_leader = {# Anti-Socialist Alliance Council
-			name = "Anti-Socialist Alliance Council"
+		create_country_leader = {# Совет Антисоциалистического альянса
+			name = "Совет Антисоциалистического альянса"
 			desc = "POLITICS_ASA_COUNCIL_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_ASA_Council.png"
 			expire = "1.1.1"
@@ -3799,7 +3799,7 @@ country_event = { # Golshirt Coup
 			}
 		}
 		create_country_leader = {# Golshirt Council
-			name = "Goldshirt Council"
+			name = "Совет Золорубашечников"
 			desc = "POLITICS_GOLDSHIRTS_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Goldshirt_Council.png"
 			expire = "1.1.1"
@@ -3829,7 +3829,7 @@ country_event = { # Golshirt Coup
 		}
 		add_ideas = MEX_anti_goldshirt_resistance_idea
 		hidden_effect = {
-			country_event = {
+			country_event = {	
 				id = mexico.141
 				days = 3
 			}
@@ -3886,8 +3886,8 @@ country_event = { # Sinarquista Coup
 				}
 			}
 		}
-		create_country_leader = {# Jose Antonio Urquiza
-			name = "Jose Antonio Urquiza"
+		create_country_leader = {# Хосе Антонио Уркиза
+			name = "Хосе Антонио Уркиза"
 			desc = "POLITICS_JOSE_URQUIZA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Urquiza.png"
 			expire = "1.1.1"
@@ -3924,8 +3924,8 @@ country_event = { # Sinarquista Coup
 				}
 			}
 		}
-		create_country_leader = {# José Vasconcelos
-			name = "José Vasconcelos"
+		create_country_leader = {# Хосе Васконселос
+			name = "Хосе Васконселос"
 			desc = "POLITICS_VASCONCELOS_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Jose_Vasconcelos.png"
 			expire = "1.1.1"
@@ -3995,7 +3995,7 @@ country_event = { # integralist leadership
 			MEX_Pablo_Garcia_sec_npo
 		}
 		create_country_leader = {
-			name = "Salvador Abascal"
+			name = "Сальвадор Абаскаль"
 			desc = "POLITICS_SALVADOR_ABSCAL"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Salvador_Abascal_Infante.png"
 			expire = "1.1.1"
@@ -4018,8 +4018,8 @@ country_event = { # goldshirt leadership
 
 	option = { #garza
 		name = mexico.4502.a
-		create_country_leader = {# Roque Garza
-			name = "Roque Garza"
+		create_country_leader = {# Роке Гарса
+			name = "Роке Гарса"
 			desc = "POLITICS_ROQUE_GARZA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Roque_Garza.png"
 			expire = "1.1.1"
@@ -4052,8 +4052,8 @@ country_event = { # goldshirt leadership
 	}
 	option = { #carrasco
 		name = mexico.4502.b
-		create_country_leader = {# Nicolás Rodríguez Carrasco
-			name = "Nicolás Rodríguez Carrasco"
+		create_country_leader = {# Николас Родригес Карраско
+			name = "Николас Родригес Карраско"
 			desc = "POLITICS_CARRASCO_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Nicolas_Rodriguez_Carrazco_Militar.png"
 			expire = "1.1.1"
@@ -4063,7 +4063,7 @@ country_event = { # goldshirt leadership
 		if = {
 			limit = {
 				has_country_flag = MEX_Presidential_System
-				has_country_leader = { name = "Nicolás Rodríguez Carrasco" ruling_only = yes }
+				has_country_leader = { name = "Николас Родригес Карраско" ruling_only = yes }
 			}
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MEX/Portrait_Mexico_Nicolas_Rodriguez_Carrazco.png"
@@ -4125,8 +4125,8 @@ country_event = { # garza speech
 				}
 			}
 		}
-		create_country_leader = {# Emergency Council
-			name = "Emergency Council"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Чрезвычайный совет"
 			desc = "POLITICS_EMERGENCY_COUNCIL_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
@@ -4134,7 +4134,7 @@ country_event = { # garza speech
 			traits = {}
 		}
 		random_unit_leader = {
-			limit = { has_id = 93731 }
+			limit = { has_id = 93731 }			
 			remove_unit_leader = yes
 		}
 		set_global_flag = MEX_GARZA_DEAD
@@ -4183,8 +4183,8 @@ country_event = { # garza dead what now
 	option = { # monarchy time
 		name = mexico.460.a
 		set_cosmetic_tag = MEX_PORFIRIO
-		create_country_leader = {# Emergency Council
-			name = "Félix Díaz Prieto"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Феликс Диас Прието"
 			desc = "POLITICS_FELIX_DIAZ_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Felix_Diaz_Prieto.png"
 			expire = "1.1.1"
@@ -4201,8 +4201,8 @@ country_event = { # garza dead what now
 	}
 	option = { # authdem time
 		name = mexico.460.b
-		create_country_leader = {# Juan Barragán Rodríguez
-			name = "Juan Barragán Rodríguez"
+		create_country_leader = {# Хуан Барраган Родригес
+			name = "Хуан Барраган Родригес"
 			desc = "POLITICS_JUAN_BARRAGAN_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Barragan_Rodriguez.png"
 			expire = "1.1.1"
@@ -4318,7 +4318,7 @@ country_event = {
 				has_government = paternal_autocrat
 			}
 			create_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				desc = "POLITICS_DONA_ITURBIDE_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 				expire = "1.1.1"
@@ -4336,7 +4336,7 @@ country_event = {
 				has_government = national_populist
 			}
 			create_country_leader = {
-				name = "María I"
+				name = "Мария I"
 				desc = "POLITICS_DONA_ITURBIDE_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Maria.png"
 				expire = "1.1.1"
@@ -4359,7 +4359,7 @@ country_event = {
 				factor = 20
 				OR = {
 					has_country_leader = {
-						name = "Juan Barragán Rodríguez"
+						name = "Хуан Барраган Родригес"
 						ruling_only = yes
 					}
 					has_government = national_populist
@@ -4372,7 +4372,7 @@ country_event = {
 				has_government = paternal_autocrat
 			}
 			create_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				desc = "POLITICS_DON_LUIS"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 				expire = "1.1.1"
@@ -4390,7 +4390,7 @@ country_event = {
 				has_government = national_populist
 			}
 			create_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				desc = "POLITICS_DON_LUIS"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 				expire = "1.1.1"
@@ -4412,7 +4412,7 @@ country_event = {
 			modifier = {
 				factor = 30
 				has_country_leader = {
-					name = "Félix Díaz Prieto"
+					name = "Феликс Диас Прието"
 					ruling_only = yes
 				}
 			}
@@ -4423,7 +4423,7 @@ country_event = {
 				has_government = paternal_autocrat
 			}
 			create_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				desc = "POLITICS_PORFIRIO_DIAZ_ORTEGA"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Porfirio_Diaz_Ortega.png"
 				expire = "1.1.1"
@@ -4441,7 +4441,7 @@ country_event = {
 				has_government = national_populist
 			}
 			create_country_leader = {
-				name = "Porfirio I"
+				name = "Порфирио I"
 				desc = "POLITICS_PORFIRIO_DIAZ_ORTEGA"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Porfirio_Diaz_Ortega.png"
 				expire = "1.1.1"
@@ -4500,8 +4500,8 @@ country_event = {
 			popularity = 0.10
 		}
 		MEX_authoritarian_democrats_win = yes
-		create_country_leader = {# Juan Andreu Almazán
-			name = "Juan Andreu Almazán "
+		create_country_leader = {# Хуан Андреу Альмасан
+			name = "Хуан Андреу Альмасан "
 			desc = "POLITICS_JUAN_ALMAZAN_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan_Militar.png"
 			expire = "1.1.1"
@@ -4568,7 +4568,7 @@ country_event = { # Campesinos War - factory sabotaged
 			}
 			save_event_target_as = attack_state
 		}
-	    }
+		}
 	}
 
 	option = {
@@ -4619,7 +4619,7 @@ country_event = { # Campesinos War - arms factory sabotaged
 			}
 			save_event_target_as = attack_state
 		}
-	    }
+		}
 	}
 
 	option = {
@@ -4670,7 +4670,7 @@ country_event = { # Campesinos War - Railways attacked
 			}
 			save_event_target_as = attack_state
 		}
-	    }
+		}
 	}
 
 	option = {
@@ -5021,8 +5021,8 @@ country_event = { # Elections of 1937
 			ruling_party = authoritarian_democrat
 			elections_allowed = yes
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype
@@ -5082,8 +5082,8 @@ country_event = { # Elections of 1937
 			MEX_Luis_Montes_de_Oca_eco_sco
 			MEX_Efrain_Gonzalez_Luna_sec_sco
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = christian_democracy_subtype
@@ -5143,8 +5143,8 @@ country_event = { # Elections of 1937
 			MEX_Antonio_Martinez_Baez_eco_mli
 			MEX_Hector_Perez_Martinez_sec_mli
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = marlib_classical_liberalism_subtype
@@ -5204,8 +5204,8 @@ country_event = { # Elections of 1937
 			MEX_Eduardo_Aranzolo_eco_sli
 			MEX_Primo_Villa_Michel_sec_sli
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = soclib_progressive_democracy_subtype
@@ -5264,8 +5264,8 @@ country_event = { # Elections of 1937
 		add_ideas = MEX_Primo_Villa_Michel_for_sde
 		add_ideas = MEX_Alberto_J_Pani_eco_sde
 		add_ideas = MEX_Jose_Aguilar_y_Maya_sec_sde
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
@@ -5359,8 +5359,8 @@ country_event = { # Calles Killed
 	
 	option = {
 		name = mexico.6301.a
-		create_country_leader = { # Emilio Portes Gil
-			name = "Emilio Portes Gil"
+		create_country_leader = { # Эмилио Портес Хиль
+			name = "Эмилио Портес Хиль"
 			desc = "POLITICS_EMILIO_GIL_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emilio_Gil.png"
 			expire = "1.1.1"
@@ -5771,7 +5771,7 @@ country_event = { # Yucatan Wins war with Mexico
 		name = mexico.700.a
 		trigger = {
 			has_country_leader = {
-				name = "Salvador Alvarado"
+				name = "Сальвадор Альварадо"
 				ruling_only = yes
 			}
 		}
@@ -5803,8 +5803,8 @@ country_event = { # Yucatan Wins war with Mexico
 			}
 			MEX = {
 				drop_cosmetic_tag = yes
-				create_country_leader = {# Salvador Alvarado
-					name = "Salvador Alvarado"
+				create_country_leader = {# Сальвадор Альварадо
+					name = "Сальвадор Альварадо"
 					desc = "POLITICS_ALVORADO_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Salvador_Alvarado.png"
 					expire = "1.1.1"
@@ -5833,26 +5833,26 @@ country_event = { # Yucatan Wins war with Mexico
 				set_country_flag = MEX_the_1937_elections_happened
 				set_country_flag = MEX_democracy_survives
 				set_politics = {
-					ruling_party = radical_socialist
-					elections_allowed = yes
-					election_frequency = 60
-				}
-				remove_all_ministers = yes
-				add_ideas = MEX_Pancho_Villa_hog_rso
-				add_ideas = MEX_Francisco_Mendoza_Palma_for_rso
-				add_ideas = MEX_Antonio_Diaz_Soto_y_Gama_eco_rso
-				add_ideas = MEX_Genovevo_de_la_O_sec_rso
+						ruling_party = radical_socialist
+						elections_allowed = yes
+						election_frequency = 60
+					}
+					remove_all_ministers = yes
+					add_ideas = MEX_Pancho_Villa_hog_rso
+			add_ideas = MEX_Francisco_Mendoza_Palma_for_rso
+			add_ideas = MEX_Antonio_Diaz_Soto_y_Gama_eco_rso
+			add_ideas = MEX_Genovevo_de_la_O_sec_rso
 				remove_ideas = MEX_socialist_democratic_resistance_idea
 				remove_ideas = MEX_socialist_democratic_resistance_idea2
 				remove_ideas = MEX_socialist_democratic_resistance_idea3
 				remove_ideas = MEX_socialist_democratic_resistance_idea4
 				remove_ideas = MEX_a_presidential_republic
-			}
+			}	
 			MEX = {
 				annex_country = {
-					target = YUC
-					transfer_troops = yes
-				}
+			target = YUC
+			transfer_troops = yes
+		}
 			}
 		}
 	}
@@ -7259,7 +7259,7 @@ country_event = { # military question
 		add_political_power = 100
 		add_command_power = -50
 		random_unit_leader = {
-			limit = { has_id = 93731 }
+			limit = { has_id = 93731 }			
 			remove_unit_leader = yes
 		}
 	}
@@ -7299,11 +7299,11 @@ country_event = { # Renaming Texas
 	option = { # Tejas it is!
 		name = mexico.102.a
 		375 = {
-			set_state_name = "Norte de Tejas"
+			set_state_name = "Норте-де-Техас"
 			set_state_flag = renamed_state_MEX
 		}
 		833 = {
-			set_state_name = "Sur de Tejas"
+			set_state_name = "Сур де Техас"
 			set_state_flag = renamed_state_MEX
 		}
 	}
@@ -7322,11 +7322,11 @@ country_event = { # Renaming New Mexico
 	option = { # Nuevo Mexico
 		name = mexico.103.a
 		376 = {
-			set_state_name = "Nuevo México"
+			set_state_name = "Нуэво Мексико"
 			set_state_flag = renamed_state_MEX
 		}
 		1161 = {
-			set_state_name = "Este Nuevo México"
+			set_state_name = "Эсте Нуэво Мексико"
 			set_state_flag = renamed_state_MEX
 		}
 	}
@@ -7346,11 +7346,11 @@ country_event = { # Renaming California
 	option = { # Alta and Medio Californias
 		name = mexico.104.a
 		829 = {
-			set_state_name = "Medio California"
+			set_state_name = "Медио Калифорния"
 			set_state_flag = renamed_state_MEX
 		}
 		378 = {
-			set_state_name = "Alta California"
+			set_state_name = "Альта Калифорния"
 			set_state_flag = renamed_state_MEX
 		}
 	}
@@ -7407,7 +7407,7 @@ country_event = { # republic or monarchy
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Salvador Abascal"
+					name = "Сальвадор Абаскаль"
 					ruling_only = yes
 				}
 			}
@@ -7418,7 +7418,7 @@ country_event = { # republic or monarchy
 		}
 		if = {
 			limit = {
-				has_country_leader = { name = "Jose Vasconcelos" ruling_only = yes }
+				has_country_leader = { name = "Хосе Васконселос" ruling_only = yes }
 			}
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MEX/Portrait_Mexico_Jose_Vasconcelos_President.png"
@@ -7529,19 +7529,19 @@ country_event = { # John/Leo/Benedict Choose Luís Maria as Arcbishop
 			OR = {
 				has_government = totalist
 				has_country_leader = {
-					name = "Goldshirt Council"
+					name = "Совет Золорубашечников"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Nicolás Rodríguez Carrasco"
+					name = "Николас Родригес Карраско"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Roque Garza"
+					name = "Роке Гарса"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Itzcoatl II"
+					name = "Ицкоатль II"
 					ruling_only = yes
 				}
 			}
@@ -7569,7 +7569,7 @@ country_event = { # John/Leo/Benedict Choose Luís Maria as Arcbishop
 	}
 }
 
-country_event = { # Pius Choose Miguel Dario as Arcbishop
+country_event = { # Pius Choose Мигель Дарио as Arcbishop
 	id = mexico.111
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.111"}
 	title = mexico.111.t
@@ -7581,19 +7581,19 @@ country_event = { # Pius Choose Miguel Dario as Arcbishop
 			OR = {
 				has_government = totalist
 				has_country_leader = {
-					name = "Goldshirt Council"
+					name = "Совет Золорубашечников"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Nicolás Rodríguez Carrasco"
+					name = "Николас Родригес Карраско"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Roque Garza"
+					name = "Роке Гарса"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Itzcoatl II"
+					name = "Ицкоатль II"
 					ruling_only = yes
 				}
 			}
@@ -7620,7 +7620,7 @@ country_event = { # Pius Choose Miguel Dario as Arcbishop
 	}
 }
 
-country_event = { # Julis Choose José de Jesús as Arcbishop
+country_event = { # Julis Choose Хосе де Хесус as Arcbishop
 	id = mexico.112
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.112"}
 	title = mexico.112.t
@@ -7632,19 +7632,19 @@ country_event = { # Julis Choose José de Jesús as Arcbishop
 			OR = {
 				has_government = totalist
 				has_country_leader = {
-					name = "Goldshirt Council"
+					name = "Совет Золорубашечников"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Nicolás Rodríguez Carrasco"
+					name = "Николас Родригес Карраско"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Roque Garza"
+					name = "Роке Гарса"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Itzcoatl II"
+					name = "Ицкоатль II"
 					ruling_only = yes
 				}
 			}
@@ -7687,7 +7687,7 @@ country_event = { # Archbishop appointed as head of state for Synarchists
 				has_country_flag = MEX_Luis_Maria_Archbishop
 			}
 			create_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				desc = "POLITICS_LUIS_ARCHBISHOP_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Maria_Martinez_KX.png"
 				expire = "1.1.1"
@@ -7709,7 +7709,7 @@ country_event = { # Archbishop appointed as head of state for Synarchists
 				has_country_flag = MEX_Miguel_Dario_Archbishop
 			}
 			create_country_leader = {
-				name = "Miguel Dario"
+				name = "Мигель Дарио"
 				desc = "POLITICS_DARIO_ARCHBISHOP_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Miguel_Dario.png"
 				expire = "1.1.1"
@@ -7722,7 +7722,7 @@ country_event = { # Archbishop appointed as head of state for Synarchists
 				has_country_flag = MEX_Jose_de_Jesus_Archbishop
 			}
 			create_country_leader = {
-				name = "José de Jesús"
+				name = "Хосе де Хесус"
 				desc = "POLITICS_JESUS_ARCHBISHOP_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Jose_de_Jesus.png"
 				expire = "1.1.1"
@@ -7748,10 +7748,10 @@ country_event = { # Martinez does Pro-Democracy Stuff
 	fire_only_once = yes
 
 	is_triggered_only = yes
-	
+
 	trigger = {
-		has_country_leader = {
-			name = "Luis María Martínez"
+		has_country_leader = {	
+			name = "Луис Мария Мартинес"
 			ruling_only = yes
 		}
 	}
@@ -7830,7 +7830,7 @@ country_event = { # Martinez restores democracy
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Luis María Martínez"
+				name = "Луис Мария Мартинес"
 				desc = "POLITICS_LUIS_ARCHBISHOP_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Maria_Martinez_KX.png"
 				expire = "1.1.1"
@@ -7854,31 +7854,31 @@ country_event = { # Martinez restores democracy
 			MEX_create_democratic_generals = yes
 			NSW = {
 				random_unit_leader = {
-					limit = { has_id = 9374 }
+					limit = { has_id = 9374 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 9373 }
+					limit = { has_id = 9373 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94746 }
+					limit = { has_id = 94746 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94747 }
+					limit = { has_id = 94747 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94736 }
+					limit = { has_id = 94736 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94743 }
+					limit = { has_id = 94743 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94744 }
+					limit = { has_id = 94744 }			
 					remove_unit_leader = yes
 				}
 				every_army_leader = {
@@ -7928,31 +7928,31 @@ country_event = { # Martinez restores democracy
 			MEX_create_democratic_generals = yes
 			NSW = {
 				random_unit_leader = {
-					limit = { has_id = 9374 }
+					limit = { has_id = 9374 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 9373 }
+					limit = { has_id = 9373 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94746 }
+					limit = { has_id = 94746 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94747 }
+					limit = { has_id = 94747 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94736 }
+					limit = { has_id = 94736 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94743 }
+					limit = { has_id = 94743 }			
 					remove_unit_leader = yes
 				}
 				random_unit_leader = {
-					limit = { has_id = 94744 }
+					limit = { has_id = 94744 }			
 					remove_unit_leader = yes
 				}
 				every_army_leader = {
@@ -7979,8 +7979,8 @@ country_event = { # Martinez restores democracy
 			ideology = social_liberal
 			popularity = 0.05
 		}
-		create_country_leader = {# Emergency Council
-			name = "Constitutional Committee"
+		create_country_leader = {# Чрезвычайный совет
+			name = "Конституционный комитет"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Emergency_Council.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
@@ -8295,7 +8295,7 @@ country_event = { # Bohemia Poblana
 		add_political_power = 5
 	}
 }
-country_event = { # Kingo Nonaka
+country_event = { # Кинго Нонака
 	id = mexico.137
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.137"}
 	title = mexico.137.t
@@ -8314,8 +8314,8 @@ country_event = { # Kingo Nonaka
 
 	option = { #
 		name = mexico.137.a
-		create_corps_commander = {# Kingo Nonaka
-			name = "Kingo Nonaka"
+		create_corps_commander = {# Кинго Нонака
+			name = "Кинго Нонака"
 			#desc = "ARMY_MEX_KINGO_NONAKA_DESC"
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Kingo_Nonaka.png"
 			traits = { commando }
@@ -8397,7 +8397,7 @@ country_event = { # christ bois gone
 	option = { #
 		name = mexico.143.a
 		random_unit_leader = {
-			limit = { has_id = 104013 }
+			limit = { has_id = 104013 }			
 			remove_unit_leader = yes
 		}
 	}
@@ -8635,7 +8635,7 @@ country_event = { # living dead (rocque)
 		name = mexico.154.a
 		set_country_flag = MEX_rocque_dead
 		random_unit_leader = {
-			limit = { has_id = 120107 }
+			limit = { has_id = 120107 }			
 			remove_unit_leader = yes
 		}
 		hidden_effect = {
@@ -8661,7 +8661,7 @@ country_event = { # living dead (carrasco)
 	option = { #
 		name = mexico.155.a
 		random_unit_leader = {
-			limit = { has_id = 120108 }
+			limit = { has_id = 120108 }			
 			remove_unit_leader = yes
 		}
 		set_country_flag = MEX_carrasco_dead
@@ -8798,7 +8798,7 @@ country_event = { # battle of veracruz
 				days = 2
 			}
 		}
-		custom_effect_tooltip = "Santa Muerte's control over Mexico grows!"
+		custom_effect_tooltip = "Контроль Санта-Муэрте над Мексикой растет!"
 	}
 
 	option = { #cedillo wins
@@ -8919,7 +8919,7 @@ country_event = { # seige of san luis
 				days = 2
 			}
 		}
-		custom_effect_tooltip = "Santa Muerte's control over Mexico grows!"
+		custom_effect_tooltip = "Контроль Санта-Муэрте над Мексикой растет!"
 	}
 	
 	option = { # cedillo wins
@@ -9016,7 +9016,7 @@ country_event = { # battle for mexico city
 				days = 2
 			}
 		}
-		custom_effect_tooltip = "Santa Muerte's control over Mexico grows!"
+		custom_effect_tooltip = "Контроль Санта-Муэрте над Мексикой растет!"
 	}
 	
 	option = { # cedillo wins
@@ -9076,7 +9076,7 @@ country_event = { # battle for mexico city, maria wins
 			}
 		}
 		create_country_leader = {
-			name = "María III"
+			name = "Мария III"
 			desc = "POLITICS_MARIA_III_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_III_Civilian.png"
 			expire = "1.1.1"
@@ -9097,7 +9097,7 @@ country_event = { # battle for mexico city, maria wins
 		}
 		set_cosmetic_tag = MEX_HME
 		create_field_marshal = {
-			name = "María III "
+			name = "Мария III "
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Maria_III_Militar.png"
 			traits = {
 				politically_connected
@@ -9113,7 +9113,7 @@ country_event = { # battle for mexico city, maria wins
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Jose Reyes Vega"
+			name = "Хосе Рейес Вега"
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Jose_Reyes_Vega.png"
 			traits = {
 				politically_connected
@@ -9128,7 +9128,7 @@ country_event = { # battle for mexico city, maria wins
 			logistics_skill = 2
 		}
 		create_field_marshal = {
-			name = "Félix Díaz Prieto "
+			name = "Феликс Диас Прието "
 			#id = 100002
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Felix_Diaz_Prieto.png"
 			traits = { trait_cautious media_personality politically_connected infantry_leader trickster } 
@@ -9139,7 +9139,7 @@ country_event = { # battle for mexico city, maria wins
 			logistics_skill = 2
 		}
 		create_field_marshal = {
-			name = "Porfirio Diaz Jr. "
+			name = "Порфирио Диас мл. "
 			#id = 100002
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Porfirio_Diaz_Ortega.png"
 			traits = { infantry_leader trickster } 
@@ -9150,7 +9150,7 @@ country_event = { # battle for mexico city, maria wins
 			logistics_skill = 2
 		}
 		create_field_marshal = {
-			name = "Don Luis Moctezuma "
+			name = "Дон Луис Монтесума "
 			#id = 100002
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 			traits = { infantry_leader trickster } 
@@ -9249,8 +9249,8 @@ country_event = { #aztec empire restored
 
 	option = { # aztec
 		name = mexico.175.a
-		create_country_leader = {# Itzcoatl II
-			name = "Itzcoatl II"
+		create_country_leader = {# Ицкоатль II
+			name = "Ицкоатль II"
 			desc = "POLITICS_CARRASCO_MEGA_LARP_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Itzcoatl_II.png"
 			expire = "1.1.1"
@@ -9301,23 +9301,23 @@ country_event = { #aztec empire restored
 				}
 				every_army_leader = {
 					limit = { has_id = 120108 }
-					set_leader_name = " Itzcoatl II "
+					set_leader_name = " Ицкоатль II "
 				}
 			}
 		}
 		set_cosmetic_tag = MEX_AZTEC_EMPIRE
-		set_province_name = { id = 13493 name = "Tiwan"}
-		set_province_name = { id = 10848 name = "Yécora"}
-		set_province_name = { id = 2037 name = "Tarahumara"}
-		set_province_name = { id = 5230 name = "Laja"}
-		set_province_name = { id = 12804 name = "Tēpēhuanih"}
-		set_province_name = { id = 12835 name = "Azalapas"}
-		set_province_name = { id = 4956 name = "Tamtok"}
-		set_province_name = { id = 13089 name = "Jaconoxtle"}
-		set_province_name = { id = 12810 name = "Olmeca"}
-		set_province_name = { id = 1965 name = "Mēxihco Tenōchtitlan"}
-		set_province_name = { id = 13451 name = "Huaxyacac"}
-		set_province_name = { id = 13457 name = "Ah Kin Pech"}
+		set_province_name = { id = 13493 name = "Тиван"}
+		set_province_name = { id = 10848 name = "Екора"}
+		set_province_name = { id = 2037 name = "Тараумара"}
+		set_province_name = { id = 5230 name = "Лаха"}
+		set_province_name = { id = 12804 name = "Тепехуани"}
+		set_province_name = { id = 12835 name = "Асалапас"}
+		set_province_name = { id = 4956 name = "Тамток"}
+		set_province_name = { id = 13089 name = "Хаконоштле"}
+		set_province_name = { id = 12810 name = "Ольмека"}
+		set_province_name = { id = 1965 name = "Мехико-Теночтитлан"}
+		set_province_name = { id = 13451 name = "Уаксьяках"}
+		set_province_name = { id = 13457 name = "Ах Кин Печ"}
 	}
 	
 	option = { # meh
@@ -9767,7 +9767,7 @@ country_event = { # mexicali movement takes power
 		add_popularity = {
 			popularity = 0.02
 			ideology = national_populist
-		}
+		}	
 		hidden_effect = {
 			country_event = {
 				id = mexico.183
@@ -9823,7 +9823,7 @@ country_event = { # mexicali movement takes power
 		name = mexico.184.a
 		add_stability = 0.01
 		create_country_leader = {
-			name = "Frida Kahlo"
+			name = "Фрида Кало"
 			desc = "POLITICS_KAHLO_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Frida_Kahlo.png"
 			expire = "1.1.1"
@@ -9836,11 +9836,11 @@ country_event = { # mexicali movement takes power
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+			ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 60
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -9884,7 +9884,7 @@ country_event = { # mexicali movement takes power
 		name = mexico.184.b
 		add_stability = 0.01
 		create_country_leader = {
-			name = "Frida Kahlo"
+			name = "Фрида Кало"
 			desc = "POLITICS_KAHLO_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Frida_Kahlo.png"
 			expire = "1.1.1"
@@ -9897,11 +9897,11 @@ country_event = { # mexicali movement takes power
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+			ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 60
-					elections_allowed = yes
+			elections_allowed = yes
 				}
 			}
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
@@ -10020,7 +10020,7 @@ country_event = { # kahlo flavour
 		add_popularity = {
 			ideology = totalist
 			popularity = 0.03
-		}
+		}	
 		add_popularity = {
 			ideology = syndicalist
 			popularity = 0.03
@@ -10147,7 +10147,7 @@ country_event = { # kahlo flavour
 		add_popularity = {
 			ideology = totalist
 			popularity = 0.04
-		}
+		}	
 		add_popularity = {
 			ideology = syndicalist
 			popularity = 0.04
@@ -10227,7 +10227,7 @@ country_event = { # Elections of 1937
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Frida Kahlo"
+				name = "Фрида Кало"
 				desc = "POLITICS_KAHLO_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Frida_Kahlo.png"
 				expire = "1.1.1"
@@ -10236,7 +10236,7 @@ country_event = { # Elections of 1937
 			}
 			set_country_flag = soc_dems_are_socialists
 			create_country_leader = {
-				name = "Frida Kahlo"
+				name = "Фрида Кало"
 				desc = "POLITICS_KAHLO_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Frida_Kahlo.png"
 				expire = "1.1.1"
@@ -10244,7 +10244,7 @@ country_event = { # Elections of 1937
 				traits = {  }
 			}
 			create_country_leader = {
-				name = "Frida Kahlo"
+				name = "Фрида Кало"
 				desc = "POLITICS_KAHLO_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Frida_Kahlo.png"
 				expire = "1.1.1"
@@ -11243,7 +11243,7 @@ country_event = {
 					days = 2
 				}
 			}
-		}
+		}	
 	}
 	option = {
 		name = mexicodemocratic.10.b
@@ -11275,7 +11275,7 @@ country_event = {
 			country_event = {
 				id = mexico.2424
 				days = 122
-			}
+			}	
 		}
 	}
 }
@@ -11419,7 +11419,7 @@ country_event = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "María I"
+						name = "Мария I"
 						ruling_only = yes
 					}
 				}
@@ -11737,7 +11737,7 @@ country_event = {
 			has_government = social_conservative
 			has_government = market_liberal
 		}
-		NOT = { has_country_leader = { name = "Enrique Gorostieta" ruling_only = yes } }
+		NOT = { has_country_leader = { name = "Энрике Горостьета" ruling_only = yes } }
 	}
 	option = {
 		name = mexicodemocratic.27.a
@@ -11790,8 +11790,8 @@ country_event = {
 	option = {
 		name = mexicodemocratic.30.a
 		hidden_effect = {
-			create_country_leader = { # Manuel Perez Treviño
-			name = "Manuel Perez Treviño"
+			create_country_leader = { # Мануэль Перес Тревиньо
+			name = "Мануэль Перес Тревиньо"
 			desc = "POLITICS_ABELARDO_RODRIGUEZ"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Manuel_Trevibno.png"
 			expire = "1.1.1"
@@ -11823,7 +11823,7 @@ country_event = {
 			has_government = social_conservative
 			has_government = social_democrat
 		}
-		NOT = { has_country_leader = { name = "Enrique Gorostieta" ruling_only = yes } }
+		NOT = { has_country_leader = { name = "Энрике Горостьета" ruling_only = yes } }
 	}
 	option = {
 		name = mexicodemocratic.31.a
@@ -11898,7 +11898,7 @@ country_event = {
 			has_government = authoritarian_democrat
 			has_government = social_democrat
 		}
-		NOT = { has_country_leader = { name = "Enrique Gorostieta" ruling_only = yes } }
+		NOT = { has_country_leader = { name = "Энрике Горостьета" ruling_only = yes } }
 	}
 	option = {
 		name = mexicodemocratic.35.a
@@ -12413,7 +12413,7 @@ country_event = { #####Hold Up Our End?
 			if = { 
 				limit = { 797 = { OR = { is_controlled_by = USA is_controlled_by = WCC } } } 
 				MEX = {transfer_state = 797 }
-			}
+			}	
 			if = { 
 				limit = { 798 = { OR = { is_controlled_by = USA is_controlled_by = WCC } } } 
 				MEX = {transfer_state = 798 }
@@ -12642,7 +12642,7 @@ country_event = { #####mexicans demand texas
 			if = { 
 				limit = { 797 = { is_controlled_by = TEX  } } 
 				MEX = {transfer_state = 797 }
-			}
+			}	
 			if = { 
 				limit = { 798 = { is_controlled_by = TEX  } } 
 				MEX = {transfer_state = 798 }
@@ -14144,11 +14144,11 @@ country_event = {
 		TXS = {
 			transfer_state = 375
 			transfer_state = 833
-		}
+		}	
 		TXS = {
 			add_state_core = 375
 			add_state_core = 833
-		}
+		}	
 		if = {
 			limit = {
 				1166 = {
@@ -14181,7 +14181,7 @@ country_event = {
 				}
 			}
 		TXS = {
-			declare_war_on = {
+			declare_war_on = {	
 				target = MEX
 				type = annex_everything
 			}
@@ -14648,7 +14648,7 @@ country_event = { ######Arizona Revolt
 			transfer_state = 377
 			add_state_core = 377
 			load_oob = ARZMIL
-			declare_war_on = {
+			declare_war_on = {	
 				target = MEX
 				type = annex_everything
 			}
@@ -14672,7 +14672,7 @@ country_event = { ######Arizona Revolt
 			transfer_state = 377
 			add_state_core = 377
 			load_oob = ARZMIL
-			declare_war_on = {
+			declare_war_on = {	
 				target = MEX
 				type = annex_everything
 			}
@@ -14714,7 +14714,7 @@ country_event = { ######Utah Revolt
 			add_state_core = 380
 			transfer_state = 380
 			load_oob = DSRMIL
-			declare_war_on = {
+			declare_war_on = {	
 				target = MEX
 				type = annex_everything
 			}
@@ -14770,7 +14770,7 @@ country_event = { ######California Revolt
 			add_state_core = 797
 			transfer_state = 797
 			load_oob = CAL_COWBOY
-			declare_war_on = {
+			declare_war_on = {	
 				target = MEX
 				type = annex_everything
 			}
@@ -15585,12 +15585,12 @@ country_event = { # reed interviewing Villa
 	trigger = {
 		tag = MEX
 		has_country_leader = { 
-						name = "Pancho Villa" 
+						name = "Панчо Вилья" 
 						ruling_only = yes 
 					}
 		CSA = {
 			exists = yes
-		}
+		}			
 	}
 
 	option = { # a
@@ -15782,7 +15782,7 @@ country_event = { # getting diaz's body(not emp)
 		}
 		NOT = {
 			has_country_leader = { 
-						name = "Porfirio I" 
+						name = "Порфирио I" 
 						ruling_only = yes 
 					} 
 		}
@@ -16060,12 +16060,12 @@ country_event = { # Synarchist Alliance?
 		set_country_flag = MEX_soccons_are_synarchist
 		set_country_leader_ideology = soccon_synarchism_subtype
 		custom_effect_tooltip = soccon_soccon_synarchism_subtype_swap_tt
-		set_party_name = {
+		set_party_name = {	
 			ideology = national_populist
 			name = MEX_synarchist_fusion_party
 			long_name = MEX_synarchist_fusion_party_long
 		}
-		set_party_name = {
+		set_party_name = {	
 			ideology = social_conservative
 			name = MEX_synarchist_fusion_party
 			long_name = MEX_synarchist_fusion_party_long
@@ -16074,9 +16074,9 @@ country_event = { # Synarchist Alliance?
 		hidden_effect = {
 			if = {
 				limit = { has_idea = MEX_DL_the_republic_of_mexico }
-				swap_ideas = {
-					remove_idea = MEX_DL_the_republic_of_mexico
-					add_idea = MEX_DL_the_republic_of_mexico_synarchist
+			swap_ideas = {
+				remove_idea = MEX_DL_the_republic_of_mexico
+				add_idea = MEX_DL_the_republic_of_mexico_synarchist
 				}
 			}
 		}
@@ -16098,7 +16098,7 @@ country_event = { # Herculano de la Rocha event
 		OR = {
 			has_socialist_government = yes
 			has_country_leader = {
-				name = "María III"
+				name = "Мария III"
 				ruling_only = yes
 			}
 		}
@@ -16221,7 +16221,7 @@ country_event = { # soviet cosmetic larp
 		name = mexico.248.b
 		set_cosmetic_tag = MEX_MEXICAN_SOVIET
 		create_country_leader = {
-			name = "Diego Rivera"
+			name = "Диего Ривера"
 			desc = "POLITICS_DIEGO_RIVERA_DESC"
 			picture = "gfx/leaders/MEX/Portrait_Mexico_Diego_Rivera.png"
 			expire = "1.1.1"
@@ -16452,7 +16452,7 @@ country_event = { # industry bros
 		add_stability = -0.15
 		add_manpower = -200
 		random_owned_state = {
-				add_extra_state_shared_building_slots = 3
+			 	add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -16487,7 +16487,7 @@ country_event = { # rando bolshie shows up what do
 			factor = 1
 		}
 		create_corps_commander = {
-			name = "Viktor Nogin"
+			name = "Виктор Ногин"
 			portrait_path = "gfx/leaders/RUS/Portrait_SOV_Viktor_Nogin.png"
 			traits = {
 				politically_connected
@@ -16561,7 +16561,7 @@ country_event = { # trotsky but someother bolshie
 	option = { # a
 		name = mexico.259.a
 		every_country = {
-			limit = {				
+			limit = {
 				OR = {
 					SOV_left_communists_in_power = yes
 					SOV_hardliners_in_power = yes
@@ -16772,7 +16772,7 @@ country_event = { # Gill event
 		increase_ruling_party_popularity_by_2 = yes
 	}
 }
-country_event = { # atheism wins again Roque Garza and Calles
+country_event = { # atheism wins again Роке Гарса and Calles
 	id = mexico.269
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.176"}
 	title = mexico.269.t
@@ -17108,12 +17108,12 @@ country_event = { # Do we eat the world or nah
 		}
 		every_country = {
 			MEX = {
-			create_wargoal = {
+			  create_wargoal = {
 				type = annex_everything
 				target = PREV
-			}
-		}
-	}
+			   }
+		   }
+	   }
 	}
 }
 
@@ -17853,7 +17853,7 @@ country_event = { # Forgotten Revolutionaries
 		increase_ruling_party_popularity_by_2 = yes
 		add_war_support = 0.02
 		create_corps_commander = {
-			name = "Amelio Robles Ávila"
+			name = "Амелио Роблес Авила"
 			portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Amelio_Robles_Avila.png"
 			traits = {
 				cavalry_leader
@@ -17962,7 +17962,7 @@ country_event = { # Death of the Empiress
 					has_country_flag = mexican_monarchy
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -17970,7 +17970,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -17978,7 +17978,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -17986,7 +17986,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -17994,7 +17994,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -18004,7 +18004,7 @@ country_event = { # Death of the Empiress
 			}
 			else = {
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -18012,7 +18012,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 				create_country_leader = {
-					name = "María II"
+					name = "Мария II"
 					desc = "POLITICS_MARIA_II_DESC"
 					picture = "gfx/leaders/MEX/Portrait_Mexico_Maria_II.png"
 					expire = "1.1.1"
@@ -18020,7 +18020,7 @@ country_event = { # Death of the Empiress
 					traits = {}
 				}
 			}
-		}
+		}	
 	}
 	title = mexico.3001.t
 	desc = mexico.3001.d
@@ -18028,7 +18028,7 @@ country_event = { # Death of the Empiress
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "María I"
+			name = "Мария I"
 			ruling_only = yes
 		}
 	}
@@ -18105,7 +18105,7 @@ country_event = { #catholic state or free state
 	}
 }
 
-country_event = { # emmy lou packard
+country_event = { # Бетти Лу Паккард
 	id = mexico.3004
 	immediate = {log = "[GetDateText]: [Root.GetName]: event mexico.3004"}
 	title = mexico.3004.t
@@ -18211,7 +18211,7 @@ country_event = { # emmy lou packard
 				}
 	
 	create_country_leader = {
-					name = "Emmy Lou Packard"
+					name = "Бетти Лу Паккард"
 					desc = ""
 					female = yes
 					picture = "gfx/leaders/CAL/Portrait_CAL_Emmy_Lou_Packard.png"
@@ -18220,7 +18220,7 @@ country_event = { # emmy lou packard
 					traits = {}
 	}	
 	create_country_leader = {
-					name = "Emmy Lou Packard"
+					name = "Бетти Лу Паккард"
 					desc = ""
 					female = yes
 					picture = "gfx/leaders/CAL/Portrait_CAL_Emmy_Lou_Packard.png"
@@ -18229,7 +18229,7 @@ country_event = { # emmy lou packard
 					traits = {}
 	}
 	create_country_leader = {
-					name = "Emmy Lou Packard"
+					name = "Бетти Лу Паккард"
 					desc = ""
 					female = yes
 					picture = "gfx/leaders/CAL/Portrait_CAL_Emmy_Lou_Packard.png"
@@ -18238,7 +18238,7 @@ country_event = { # emmy lou packard
 					traits = {}
 	}
 	create_country_leader = {
-					name = "Emmy Lou Packard"
+					name = "Бетти Лу Паккард"
 					desc = ""
 					female = yes
 					picture = "gfx/leaders/CAL/Portrait_CAL_Emmy_Lou_Packard.png"

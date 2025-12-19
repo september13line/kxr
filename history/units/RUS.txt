@@ -1,6 +1,6 @@
 ﻿##### Division Templates #####
 division_template = {
-	name = "Pekhotnaya Diviziya"			# Infantry Division
+	name = "Пехотная дивизия"			# Стрелковая дивизия
 	division_names_group = RUS_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -18,7 +18,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Gvardeyskaya Diviziya"			# Guard Division
+	name = "Гвардейская дивизия"			# Guard Division
 	division_names_group = RUS_GRD_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -41,7 +41,7 @@ division_template = {
 
 
 division_template = {
-	name = "Gornostrelkovaya Diviziya" # Mountaineer Rifle Division
+	name = "Горно-стрелковая дивизия"		# Mountain Division
 	division_names_group = RUS_MNT_01
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -64,7 +64,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Motostrelkovaya Diviziya"		# Motor Rifle Division
+	name = "Мотострелковая дивизия"		# Motor Rifle Division
 	division_names_group = RUS_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -77,7 +77,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Kavaleriyskaya Diviziya"	# Cavalry Division
+	name = "Кавалерийская дивизия"	# Кавалерийская дивизия
 	division_names_group = RUS_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -95,7 +95,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Mekhanizirovannaya Diviziya" # Mechanized Division
+	name = "Танковая дивизия"
 	division_names_group = RUS_ARM_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -124,7 +124,7 @@ units = {
 			name_order = 1
 		}
 		location = 9140 #Petsamo
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.19
 		start_equipment_factor = 0.94
 	}
@@ -134,7 +134,7 @@ units = {
 			name_order = 2
 		}
 		location = 3134 #Murmansk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.18
 		start_equipment_factor = 0.93
 	}
@@ -144,7 +144,7 @@ units = {
 			name_order = 3
 		}
 		location = 3134 #Murmansk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.91
 	}
@@ -154,7 +154,7 @@ units = {
 			name_order = 4
 		}
 		location = 9195 #Kem
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.23
 		start_equipment_factor = 0.94
 	}
@@ -164,7 +164,7 @@ units = {
 			name_order = 5
 		}
 		location = 3338 #Archangelsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.90
 	}
@@ -174,7 +174,7 @@ units = {
 			name_order = 15
 		}
 		location = 11159 #Petrozavodsk
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -184,7 +184,7 @@ units = {
 			name_order = 7
 		}
 		location = 6174 #Petrograd
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -194,7 +194,7 @@ units = {
 			name_order = 8
 		}
 		location = 6174 #Petrograd
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -204,7 +204,7 @@ units = {
 			name_order = 9
 		}
 		location = 6174 #Petrograd
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
@@ -214,8 +214,8 @@ units = {
 			name_order = 1
 		}
 		location = 6174 #Petrograd
-		division_template = "Mekhanizirovannaya Diviziya"
-		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "BT-5" } }
+		division_template = "Механизированная дивизия"
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "БТ-5" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.00
 	}
@@ -225,8 +225,8 @@ units = {
 			name_order = 3
 		}
 		location = 6174 #Petrograd
-		division_template = "Mekhanizirovannaya Diviziya"
-		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26TU obr.1933" } }
+		division_template = "Механизированная дивизия"
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26ТУ обр.1933 г." } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.00
 	}
@@ -236,7 +236,7 @@ units = {
 			name_order = 10
 		}
 		location = 6174 #Petrograd
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.32
 		start_equipment_factor = 0.99
 	}
@@ -246,7 +246,7 @@ units = {
 			name_order = 11
 		}
 		location = 6174 #Petrograd
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.31
 		start_equipment_factor = 0.96
 	}
@@ -256,7 +256,7 @@ units = {
 			name_order = 12
 		}
 		location = 117 #Novgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.91
 	}
@@ -266,7 +266,7 @@ units = {
 			name_order = 13
 		}
 		location = 117 #Novgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.22
 		start_equipment_factor = 0.91
 	}
@@ -276,7 +276,7 @@ units = {
 			name_order = 14
 		}
 		location = 11349 #Rzhev
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.19
 		start_equipment_factor = 0.94
 	}
@@ -286,7 +286,7 @@ units = {
 			name_order = 18
 		}
 		location = 11202 #Pskov
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.22
 		start_equipment_factor = 0.92
 	}
@@ -296,7 +296,7 @@ units = {
 			name_order = 19
 		}
 		location = 11202 #Pskov
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.91
 	}
@@ -306,7 +306,7 @@ units = {
 			name_order = 16
 		}
 		location = 11241 #Dvinsk
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -316,18 +316,18 @@ units = {
 			name_order = 31
 		}
 		location = 11241 #Dvinsk
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
-	}	
+	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
 		location = 306 #Smolensk
-		division_template = "Mekhanizirovannaya Diviziya"
-		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-7" } }
+		division_template = "Механизированная дивизия"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "БТ-7" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.50
 	}
@@ -337,8 +337,8 @@ units = {
 			name_order = 7
 		}
 		location = 306 #Smolensk
-		division_template = "Mekhanizirovannaya Diviziya"
-		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "BT-5" } }
+		division_template = "Механизированная дивизия"
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "БТ-5" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.50
 	}
@@ -348,7 +348,7 @@ units = {
 			name_order = 26
 		}
 		location = 11248 #Ryazan
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.93
 	}
@@ -358,7 +358,7 @@ units = {
 			name_order = 27
 		}
 		location = 3278 #Roslavl
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.23
 		start_equipment_factor = 0.91
 	}
@@ -368,7 +368,7 @@ units = {
 			name_order = 28
 		}
 		location = 3335 #Bryansk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.18
 		start_equipment_factor = 0.94
 	}
@@ -378,7 +378,7 @@ units = {
 			name_order = 29
 		}
 		location = 3335 #Bryansk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.91
 	}
@@ -388,7 +388,7 @@ units = {
 			name_order = 30
 		}
 		location = 6262 #Tula
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.92
 	}
@@ -398,7 +398,7 @@ units = {
 			name_order = 31
 		}
 		location = 6262 #Tula
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.90
 	}
@@ -408,7 +408,7 @@ units = {
 			name_order = 32
 		}
 		location = 11375 #Nizhny Novgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.93
 	}
@@ -418,7 +418,7 @@ units = {
 			name_order = 33
 		}
 		location = 11375 #Nizhny Novgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.90
 	}
@@ -428,7 +428,7 @@ units = {
 			name_order = 34
 		}
 		location = 121 #Yaroslavl
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.16
 		start_equipment_factor = 0.92
 	}
@@ -438,7 +438,7 @@ units = {
 			name_order = 35
 		}
 		location = 121 #Yaroslavl
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.91
 	}
@@ -448,7 +448,7 @@ units = {
 			name_order = 36
 		}
 		location = 6517 #Belgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.93
 	}
@@ -458,7 +458,7 @@ units = {
 			name_order = 37
 		}
 		location = 6517 #Belgorod
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.23
 		start_equipment_factor = 0.95
 	}
@@ -468,7 +468,7 @@ units = {
 			name_order = 38
 		}
 		location = 9355 #Orel
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.23
 		start_equipment_factor = 0.93
 	}
@@ -478,7 +478,7 @@ units = {
 			name_order = 39
 		}
 		location = 9355 #Orel
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.19
 		start_equipment_factor = 0.92
 	}
@@ -488,7 +488,7 @@ units = {
 			name_order = 11
 		}
 		location = 3580 #Kursk
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -498,7 +498,7 @@ units = {
 			name_order = 41
 		}
 		location = 3580 #Kursk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.19
 		start_equipment_factor = 0.92
 	}
@@ -508,17 +508,17 @@ units = {
 			name_order = 4
 		}
 		location = 378 #Vladimir
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
-	}	
+	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 6380 #Moscow
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -528,7 +528,7 @@ units = {
 			name_order = 9
 		}
 		location = 6380 #Moscow
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -538,7 +538,7 @@ units = {
 			name_order = 5
 		}
 		location = 6380 #Moscow
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -548,10 +548,10 @@ units = {
 			name_order = 4
 		}
 		location = 6380 #Moscow
-		division_template = "Mekhanizirovannaya Diviziya"
+		division_template = "Механизированная дивизия"
 		start_experience_factor = 0.34
 		start_equipment_factor = 1.00
-		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26TU obr.1933" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS creator = RUS version_name = "T-26ТУ обр.1933 г." } }
 	}
 	division = {
 		division_name = {
@@ -559,8 +559,8 @@ units = {
 			name_order = 950
 		}
 		location = 6380 #Moscow
-		division_template = "Mekhanizirovannaya Diviziya"
-		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "BT-7" } }
+		division_template = "Механизированная дивизия"
+		force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = RUS version_name = "БТ-7" } }
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -570,7 +570,7 @@ units = {
 			name_order = 49
 		}
 		location = 6380 #Moscow
-		division_template = "Mekhanizirovannaya Diviziya"
+		division_template = "Механизированная дивизия"
 		start_experience_factor = 0.32
 		start_equipment_factor = 0.99
 	}
@@ -580,7 +580,7 @@ units = {
 			name_order = 50
 		}
 		location = 11225 #Samara
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.18
 		start_equipment_factor = 0.92
 	}
@@ -590,7 +590,7 @@ units = {
 			name_order = 51
 		}
 		location = 11225 #Samara
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.92
 	}
@@ -600,7 +600,7 @@ units = {
 			name_order = 52
 		}
 		location = 3578 #Saratov
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.91
 	}
@@ -610,7 +610,7 @@ units = {
 			name_order = 53
 		}
 		location = 3578 #Saratov
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.22
 		start_equipment_factor = 0.91
 	}
@@ -620,7 +620,7 @@ units = {
 			name_order = 54
 		}
 		location = 11736 #Astrakhan
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.22
 		start_equipment_factor = 0.92
 	}
@@ -630,7 +630,7 @@ units = {
 			name_order = 55
 		}
 		location = 11736 #Astrakhan
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.95
 	}
@@ -640,7 +640,7 @@ units = {
 			name_order = 15
 		}
 		location = 3529 #Volgograd
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.95
 	}
@@ -650,7 +650,7 @@ units = {
 			name_order = 17
 		}
 		location = 3529 #Volgograd
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.95
 	}
@@ -660,7 +660,7 @@ units = {
 			name_order = 6
 		}
 		location = 310 #Dvinsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.00
 	}
@@ -670,7 +670,7 @@ units = {
 			name_order = 18
 		}
 		location = 310 #Dvinsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.00
 	}
@@ -680,7 +680,7 @@ units = {
 			name_order = 8
 		}
 		location = 6174 #Petrograd
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.00
 	}
@@ -690,7 +690,7 @@ units = {
 			name_order = 11
 		}
 		location = 6174 #Petrograd
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.00
 	}
@@ -700,7 +700,7 @@ units = {
 			name_order = 14
 		}
 		location = 7874 #Petropavlovsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -710,7 +710,7 @@ units = {
 			name_order = 20
 		}
 		location = 7874 #Petropavlovsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -720,7 +720,7 @@ units = {
 			name_order = 12
 		}
 		location = 4797 #Irkutsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.00
 	}
@@ -730,7 +730,7 @@ units = {
 			name_order = 17
 		}
 		location = 4797 #Irkutsk
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.00
 	}
@@ -740,7 +740,7 @@ units = {
 			name_order = 2
 		}
 		location = 11701 #Fort-Aleksandrovsky
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -750,7 +750,7 @@ units = {
 			name_order = 19
 		}
 		location = 11701 #Fort-Aleksandrovsky
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}	
@@ -760,7 +760,7 @@ units = {
 			name_order = 6
 		}
 		location = 3529 #Tsaritsyn
-		division_template = "Gvardeyskaya Diviziya"
+		division_template = "Гвардейская дивизия"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.00
 	}
@@ -770,17 +770,17 @@ units = {
 			name_order = 58
 		}
 		location = 3529 #Tsaritsyn
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.31
 		start_equipment_factor = 0.98
-	}	
+	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 65
 		}
 		location = 7274 #Novo-Nikolayevsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.33
 		start_equipment_factor = 0.97
 	}
@@ -790,7 +790,7 @@ units = {
 			name_order = 66
 		}
 		location = 7274 #Novo-Nikolayevsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.34
 		start_equipment_factor = 0.97
 	}
@@ -800,7 +800,7 @@ units = {
 			name_order = 67
 		}
 		location = 7274 #Novo-Nikolayevsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.36
 		start_equipment_factor = 0.97
 	}
@@ -810,7 +810,7 @@ units = {
 			name_order = 68
 		}
 		location = 4724 #Krasnoyarsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.90
 	}
@@ -820,7 +820,7 @@ units = {
 			name_order = 69
 		}
 		location = 4724 #Krasnoyarsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.92
 	}
@@ -830,7 +830,7 @@ units = {
 			name_order = 70
 		}
 		location = 4724 #Krasnoyarsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.93
 	}
@@ -840,7 +840,7 @@ units = {
 			name_order = 71
 		}
 		location = 4797 #Irkutsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.18
 		start_equipment_factor = 0.91
 	}
@@ -850,7 +850,7 @@ units = {
 			name_order = 72
 		}
 		location = 4797 #Irkutsk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.92
 	}
@@ -860,7 +860,7 @@ units = {
 			name_order = 73
 		}
 		location = 10543 #Chita
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.94
 	}
@@ -870,7 +870,7 @@ units = {
 			name_order = 74
 		}
 		location = 10543 #Chita
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.21
 		start_equipment_factor = 0.91
 	}
@@ -880,7 +880,7 @@ units = {
 			name_order = 75
 		}
 		location = 7828 #Rukhlovo
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.91
 	}
@@ -890,7 +890,7 @@ units = {
 			name_order = 76
 		}
 		location = 1792 #Blagoveshchensk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.91
 	}
@@ -900,7 +900,7 @@ units = {
 			name_order = 77
 		}
 		location = 1792 #Blagoveshchensk
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.18
 		start_equipment_factor = 0.95
 	}
@@ -910,7 +910,7 @@ units = {
 			name_order = 78
 		}
 		location = 4737 #Blagoveshchensk state
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.22
 		start_equipment_factor = 0.94
 	}
@@ -920,7 +920,7 @@ units = {
 			name_order = 79
 		}
 		location = 4737 #Blagoveshchensk state
-		division_template = "Pekhotnaya Diviziya"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.90
 	}
@@ -930,7 +930,7 @@ units = {
 			name_order = 20
 		}
 		location = 1591 #Verny
-		division_template = "Gornostrelkovaya Diviziya"
+		division_template = "Горнострелковая дивизия"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.00
 	}
@@ -940,7 +940,7 @@ units = {
 			name_order = 12
 		}
 		location = 1591 #Vladikavkaz
-		division_template = "Gornostrelkovaya Diviziya"
+		division_template = "Горнострелковая дивизия"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.00
 	}
@@ -1001,7 +1001,7 @@ instant_effect = {
 			equipment = {
 				type = light_tank_chassis_2
 				creator = "RUS" 
-				version_name = "BT-7"
+				version_name = "БТ-7"
 			}
 			requested_factories = 1
 			progress = 0.4

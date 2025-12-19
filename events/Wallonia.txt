@@ -1105,7 +1105,7 @@ country_event = { #Rex wins the election!
 		set_country_flag = WLL_Government_Failed
 		add_ideas = WLL_REX
 		create_field_marshal = {
-			name = "Léon Degrelle "
+			name = "Леон Дегрель "
 			portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.png"
 			traits = {
 				politically_connected
@@ -1200,7 +1200,7 @@ country_event = { #Rexist Coup
 		add_ideas = WLL_REX
 		set_country_flag = WLL_Government_Failed
 		create_field_marshal = {
-			name = "Léon Degrelle "
+			name = "Леон Дегрель "
 			portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.png"
 			traits = {
 				defensive_doctrine
@@ -1213,15 +1213,15 @@ country_event = { #Rexist Coup
 			id = 21430
 		}
 		hidden_effect = {
-			if = {
+		if = {
 				limit = { NOT = { has_idea = WLL_Monarchy_Army } }
-				add_ideas = WLL_Monarchy_Army
+			add_ideas = WLL_Monarchy_Army
 			}
 			set_politics = {
 				ruling_party = national_populist
 				elections_allowed = no
 			}
-			remove_all_ministers = yes
+				remove_all_ministers = yes
 			add_ideas = WLL_Jose_Streel_for_npo
 			add_ideas = WLL_Paul_Garain_eco_npo
 			add_ideas = WLL_Andre_Moyen_sec_npo
@@ -1512,7 +1512,7 @@ country_event = { #Flanders-Wallonia reunited
 		}
 		hidden_effect = {
 			create_corps_commander = {
-				name = "Édouard van den Bergen"
+				name = "Эдуард ван ден Берген"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Edouard_van_den_Bergen.png"
 				traits = {
 					artillery_officer
@@ -1525,7 +1525,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Jean Baptiste Piron"
+				name = "Жан Батист Пирон"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Jean_Baptiste_Piron.png"
 				traits = {
 					trickster
@@ -1540,7 +1540,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Victor van Strydonck de Burkel"
+				name = "Виктор ван Стридонк де Буркель"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Victor_van_Strydonck_de_Burkel.png"
 				traits = {
 					cavalry_officer
@@ -1581,7 +1581,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 			if = {
 				limit = {
-					has_government = national_populist
+						has_government = national_populist
 				}
 				set_cosmetic_tag = WLLB
 			}
@@ -1606,7 +1606,7 @@ country_event = { #Flanders-Wallonia reunited
 		puppet = FLN
 		hidden_effect = {
 			create_corps_commander = {
-				name = "Édouard van den Bergen"
+				name = "Эдуард ван ден Берген"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Edouard_van_den_Bergen.png"
 				traits = {
 					artillery_officer
@@ -1619,7 +1619,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Jean Baptiste Piron"
+				name = "Жан Батист Пирон"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Jean_Baptiste_Piron.png"
 				traits = {
 					trickster
@@ -1634,7 +1634,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Victor van Strydonck de Burkel"
+				name = "Виктор ван Стридонк де Буркель"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Victor_van_Strydonck_de_Burkel.png"
 				traits = {
 					cavalry_officer
@@ -1664,7 +1664,7 @@ country_event = { #Flanders-Wallonia reunited
 		set_capital = { state = 6 }
 		hidden_effect = {
 			create_corps_commander = {
-				name = "Édouard van den Bergen"
+				name = "Эдуард ван ден Берген"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Edouard_van_den_Bergen.png"
 				traits = {
 					artillery_officer
@@ -1677,7 +1677,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Jean Baptiste Piron"
+				name = "Жан Батист Пирон"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Jean_Baptiste_Piron.png"
 				traits = {
 					trickster
@@ -1692,7 +1692,7 @@ country_event = { #Flanders-Wallonia reunited
 			}
 
 			create_corps_commander = {
-				name = "Victor van Strydonck de Burkel"
+				name = "Виктор ван Стридонк де Буркель"
 				portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Victor_van_Strydonck_de_Burkel.png"
 				traits = {
 					cavalry_officer
@@ -1762,7 +1762,7 @@ country_event = { #Ultimatum Denied
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Adalbert"
+					name = "Адальберт"
 				}
 			}
 		}
@@ -1943,13 +1943,13 @@ country_event = { #Syndicalism in Wallonia
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = WLL_election
-						option = WLL_ELECTION_SYNDIE
-					}
-					has_game_rule = {
-						rule = WLL_political_path
-						option = WLL_POLITICAL_PATH_FRANCH_GUARANTEE
+				has_game_rule = {
+					rule = WLL_election
+					option = WLL_ELECTION_SYNDIE
+				}
+				has_game_rule = {
+					rule = WLL_political_path
+					option = WLL_POLITICAL_PATH_FRANCH_GUARANTEE
 					}
 					WLL = { 
 						OR = {
@@ -2442,20 +2442,20 @@ country_event = { #Degrelle Shot
 				days = 2
 			}
 			if = {
-				limit = { has_country_leader = { name = "Léon Degrelle" ruling_only = yes } }
-				create_country_leader = {
-					name = "Rexist Leadership"
-					desc = "POLITICS_REX_LEADERSHIP_DESC"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Rexist_Council.png"
-					expire = "1.1.1"
-					ideology = rexism_subtype
+			limit = { has_country_leader = { name = "Леон Дегрель" ruling_only = yes } }
+			create_country_leader = {
+				name = "Конгресс Рексистов"
+				desc = "POLITICS_REX_LEADERSHIP_DESC"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_Rexist_Council.png"
+				expire = "1.1.1"
+				ideology = rexism_subtype
 				}
 			}
 			COG = {
 				if = {
-					limit = { has_country_leader = { name = "Léon Degrelle" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Леон Дегрель" ruling_only = yes } }
 					create_country_leader = {
-						name = "Rexist Leadership"
+						name = "Конгресс Рексистов"
 						desc = "POLITICS_REX_LEADERSHIP_DESC"
 						picture = "gfx/leaders/BEL/Portrait_Belgium_Rexist_Council.png"
 						expire = "1.1.1"
@@ -2465,7 +2465,7 @@ country_event = { #Degrelle Shot
 			}
 			BEL = {
 				create_country_leader = {
-					name = "Rexist Leadership"
+					name = "Конгресс Рексистов"
 					desc = "POLITICS_REX_LEADERSHIP_DESC"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Rexist_Council.png"
 					expire = "1.1.1"
@@ -2476,11 +2476,11 @@ country_event = { #Degrelle Shot
 			add_ideas = WLL_Victor_Matthys_hog_npo
 			set_country_flag = Leon_Degrelle_dead
 		}
-		random_unit_leader = {
+				random_unit_leader = {
 			limit = { has_id = 21430 }
 			retire = yes
-		}
-	}
+				}
+			}
 	option = {
 		name = wll.713.b
 		ai_chance = {
@@ -2576,7 +2576,7 @@ country_event = { #Consultation with Remi
 	}
 }
 
-country_event = { #Georges Deffontaine assumes temporary control
+country_event = { #Жорж Дефонтен assumes temporary control
 	id = wll.717
 	immediate = { log = "[GetDateText]: [Root.GetName]: event wll.717" }
 	title = wll.717.t
@@ -2591,34 +2591,34 @@ country_event = { #Georges Deffontaine assumes temporary control
 		name = wll.717.a
 		add_stability = 0.15
 		if = {
-			limit = { has_country_leader = { name = "Rexist Leadership" ruling_only = yes } }
-			create_country_leader = {
-				name = "Georges Deffontaine"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Deffontaine.png"
-				expire = "1.1.1"
-				ideology = authdem_junta_subtype
+		limit = { has_country_leader = { name = "Конгресс Рексистов" ruling_only = yes } }
+		create_country_leader = {
+			name = "Жорж Дефонтен"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Deffontaine.png"
+			expire = "1.1.1"
+			ideology = authdem_junta_subtype
 			}
-			country_event = {
-				id = wll.1344
-				days = 30
-			}
-		}
-		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Adalbert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = authdem_junta_subtype
+		country_event = {
+					id = wll.1344
+					days = 30
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Albert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-				expire = "1.1.1"
-				ideology = authdem_junta_subtype
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = authdem_junta_subtype
+			}
+		}
+		if = {
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = authdem_junta_subtype
 			}
 		}
 		set_politics = {
@@ -2648,7 +2648,7 @@ country_event = { #Georges Deffontaine assumes temporary control
 			limit = { WLL_is_EVILMAXXED = yes }
 			WLL_DEEVILMAXXIFY_flag = yes
 		}
-		custom_effect_tooltip = "Elections will take place in two months."
+		custom_effect_tooltip = "Выборы состоятся через два месяца."
 	}
 }
 
@@ -2687,70 +2687,70 @@ country_event = { #Elections
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = socdem_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = socdem_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+			limit = { has_country_leader = { name = "Леопольд III" ruling_only = yes } }
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Леопольд III"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = socdem_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Юлиана" ruling_only = yes } }
 			create_country_leader = {
-				name = "Albert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-				expire = "1.1.1"
-				ideology = socdem_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Leopold III" ruling_only = yes } }
-			create_country_leader = {
-				name = "Leopold III"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = socdem_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Juliana" ruling_only = yes } }
-			create_country_leader = {
-				name = "Juliana"
+				name = "Юлиана"
 				female = yes
 				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
 				expire = "1.1.1"
 				ideology = socdem_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Charlotte" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Шарлотта" ruling_only = yes } }
 			create_country_leader = {
-				name = "Charlotte"
+				name = "Шарлотта"
 				female = yes
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 				expire = "1.1.1"
 				ideology = socdem_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Louis II" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Людовик II" ruling_only = yes } }
 			create_country_leader = {
-				name = "Louis II"
+				name = "Людовик II"
 				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
 				expire = "1.1.1"
 				ideology = socdem_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Henri VI" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Анри VI" ruling_only = yes } }
 			create_country_leader = {
-				name = "Henri VI"
+				name = "Анри VI"
 				picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
 				expire = "1.1.1"
 				ideology = socdem_reformed_belgicism_subtype
+				}
 			}
-		}
 		meta_effect = {
 			text = {
 				set_politics = {
@@ -2804,70 +2804,70 @@ country_event = { #Elections
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = soclib_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = soclib_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+			limit = { has_country_leader = { name = "Леопольд III" ruling_only = yes } }
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Леопольд III"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = soclib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Юлиана" ruling_only = yes } }
 			create_country_leader = {
-				name = "Albert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-				expire = "1.1.1"
-				ideology = soclib_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Leopold III" ruling_only = yes } }
-			create_country_leader = {
-				name = "Leopold III"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = soclib_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Juliana" ruling_only = yes } }
-			create_country_leader = {
-				name = "Juliana"
+				name = "Юлиана"
 				female = yes
 				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
 				expire = "1.1.1"
 				ideology = soclib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Charlotte" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Шарлотта" ruling_only = yes } }
 			create_country_leader = {
-				name = "Charlotte"
+				name = "Шарлотта"
 				female = yes
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 				expire = "1.1.1"
 				ideology = soclib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Louis II" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Людовик II" ruling_only = yes } }
 			create_country_leader = {
-				name = "Louis II"
+				name = "Людовик II"
 				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
 				expire = "1.1.1"
 				ideology = soclib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Henri VI" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Анри VI" ruling_only = yes } }
 			create_country_leader = {
-				name = "Henri VI"
+				name = "Анри VI"
 				picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
 				expire = "1.1.1"
 				ideology = soclib_reformed_belgicism_subtype
+				}
 			}
-		}
 		meta_effect = {
 			text = {
 				set_politics = {
@@ -2921,70 +2921,70 @@ country_event = { #Elections
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = marlib_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = marlib_reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+			limit = { has_country_leader = { name = "Леопольд III" ruling_only = yes } }
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Леопольд III"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = marlib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Юлиана" ruling_only = yes } }
 			create_country_leader = {
-				name = "Albert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-				expire = "1.1.1"
-				ideology = marlib_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Leopold III" ruling_only = yes } }
-			create_country_leader = {
-				name = "Leopold III"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = marlib_reformed_belgicism_subtype
-			}
-		}
-		else_if = {
-			limit = { has_country_leader = { name = "Juliana" ruling_only = yes } }
-			create_country_leader = {
-				name = "Juliana"
+				name = "Юлиана"
 				female = yes
 				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
 				expire = "1.1.1"
 				ideology = marlib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Charlotte" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Шарлотта" ruling_only = yes } }
 			create_country_leader = {
-				name = "Charlotte"
+				name = "Шарлотта"
 				female = yes
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 				expire = "1.1.1"
 				ideology = marlib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Louis II" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Людовик II" ruling_only = yes } }
 			create_country_leader = {
-				name = "Louis II"
+				name = "Людовик II"
 				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
 				expire = "1.1.1"
 				ideology = marlib_reformed_belgicism_subtype
+				}
 			}
-		}
 		else_if = {
-			limit = { has_country_leader = { name = "Henri VI" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Анри VI" ruling_only = yes } }
 			create_country_leader = {
-				name = "Henri VI"
+				name = "Анри VI"
 				picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
 				expire = "1.1.1"
 				ideology = marlib_reformed_belgicism_subtype
+				}
 			}
-		}
 		meta_effect = {
 			text = {
 				set_politics = {
@@ -3026,68 +3026,68 @@ country_event = { #Elections
 		if = {
 			limit = { has_government = social_conservative }
 			if = {
-				limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
-				create_country_leader = {
-					name = "Adalbert I"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-					expire = "1.1.1"
-					ideology = marlib_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+			create_country_leader = {
+				name = "Адальберт I"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+				expire = "1.1.1"
+				ideology = marlib_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
-				create_country_leader = {
-					name = "Albert I"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+			create_country_leader = {
+				name = "Альберт I"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Leopold III" ruling_only = yes } }
-				create_country_leader = {
-					name = "Leopold III"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Леопольд III" ruling_only = yes } }
+			create_country_leader = {
+				name = "Леопольд III"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Juliana" ruling_only = yes } }
-				create_country_leader = {
-					name = "Juliana"
-					female = yes
-					picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Юлиана" ruling_only = yes } }
+			create_country_leader = {
+				name = "Юлиана"
+				female = yes
+				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Charlotte" ruling_only = yes } }
-				create_country_leader = {
-					name = "Charlotte"
-					female = yes
-					picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Шарлотта" ruling_only = yes } }
+			create_country_leader = {
+				name = "Шарлотта"
+				female = yes
+				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Louis II" ruling_only = yes } }
-				create_country_leader = {
-					name = "Louis II"
-					picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+			limit = { has_country_leader = { name = "Людовик II" ruling_only = yes } }
+			create_country_leader = {
+				name = "Людовик II"
+				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			else_if = {
-				limit = { has_country_leader = { name = "Henri VI" ruling_only = yes } }
-				create_country_leader = {
-					name = "Henri VI"
+			limit = { has_country_leader = { name = "Анри VI" ruling_only = yes } }
+			create_country_leader = {
+					name = "Анри VI"
 					picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
-					expire = "1.1.1"
-					ideology = soccon_reformed_belgicism_subtype
+				expire = "1.1.1"
+				ideology = soccon_reformed_belgicism_subtype
 				}
 			}
 			meta_effect = {
@@ -3110,99 +3110,99 @@ country_event = { #Elections
 			}
 		}
 		else = {
-			if = {
-				limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
-				create_country_leader = {
-					name = "Adalbert I"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
-				create_country_leader = {
-					name = "Albert I"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Leopold III" ruling_only = yes } }
-				create_country_leader = {
-					name = "Leopold III"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Juliana" ruling_only = yes } }
-				create_country_leader = {
-					name = "Juliana"
-					female = yes
-					picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Charlotte" ruling_only = yes } }
-				create_country_leader = {
-					name = "Charlotte"
-					female = yes
-					picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Louis II" ruling_only = yes } }
-				create_country_leader = {
-					name = "Louis II"
-					picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Henri VI" ruling_only = yes } }
-				create_country_leader = {
-					name = "Henri VI"
-					picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			else_if = {
-				limit = { has_country_leader = { name = "Georges Deffontaine" ruling_only = yes } }
-				create_country_leader = {
-					name = "Georges Prosper Remi"
-					picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
-					expire = "1.1.1"
-					ideology = reformed_belgicism_subtype
-				}
-			}
-			meta_effect = {
-				text = {
-					set_politics = {
-						ruling_party = national_populist
-						last_election = "[CURRENT_DATE]"
-						election_frequency = 48
-						elections_allowed = yes
-					}
-				}
-				CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
-			}
-			effect_tooltip = {
-				set_politics = {
-					ruling_party = national_populist
-					elections_allowed = yes
-					election_frequency = 48
-				}
+		if = {
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = reformed_belgicism_subtype
 			}
 		}
+		else_if = {
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = reformed_belgicism_subtype
+			}
+		}
+		else_if = {
+			limit = { has_country_leader = { name = "Леопольд III" ruling_only = yes } }
+			create_country_leader = {
+				name = "Леопольд III"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+				expire = "1.1.1"
+				ideology = reformed_belgicism_subtype
+				}
+			}
+		else_if = {
+			limit = { has_country_leader = { name = "Юлиана" ruling_only = yes } }
+			create_country_leader = {
+				name = "Юлиана"
+				female = yes
+				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
+				expire = "1.1.1"
+				ideology = reformed_belgicism_subtype
+				}
+			}
+		else_if = {
+			limit = { has_country_leader = { name = "Шарлотта" ruling_only = yes } }
+			create_country_leader = {
+				name = "Шарлотта"
+				female = yes
+				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
+				expire = "1.1.1"
+				ideology = reformed_belgicism_subtype
+				}
+			}
+		else_if = {
+			limit = { has_country_leader = { name = "Людовик II" ruling_only = yes } }
+			create_country_leader = {
+				name = "Людовик II"
+				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
+				expire = "1.1.1"
+				ideology = reformed_belgicism_subtype
+				}
+			}
+		else_if = {
+			limit = { has_country_leader = { name = "Анри VI" ruling_only = yes } }
+			create_country_leader = {
+					name = "Анри VI"
+					picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
+				expire = "1.1.1"
+				ideology = reformed_belgicism_subtype
+				}
+			}
+		else_if = {
+			limit = { has_country_leader = { name = "Жорж Дефонтен" ruling_only = yes } }
+			create_country_leader = {
+			name = "Жорж Проспер Реми"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
+			expire = "1.1.1"
+			ideology = reformed_belgicism_subtype
+			}
+		}
+		meta_effect = {
+			text = {
+				set_politics = {
+					ruling_party = national_populist
+					last_election = "[CURRENT_DATE]"
+					election_frequency = 48
+					elections_allowed = yes
+				}
+			}
+			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
+		}
+		effect_tooltip = {
+			set_politics = {
+				ruling_party = national_populist
+				elections_allowed = yes
+				election_frequency = 48
+				}
+			}
+	    }
 		complete_national_focus = WLL_Herge_Victory
 		set_country_flag = WLL_Post_Death
 		set_country_flag = WLL_HERGE
@@ -3219,11 +3219,11 @@ country_event = { #Elections
 			}
 		}
 		else = {
-			add_popularity = {
-				ideology = national_populist
-				popularity = 0.30
-			}
-	}
+		add_popularity = {
+			ideology = national_populist
+			popularity = 0.30
+		}
+	    }
 		set_party_name = {
 			ideology = national_populist
 			long_name = WLL_unb_party_long
@@ -3255,30 +3255,30 @@ country_event = { #Remi soccon
 	option = {
 		name = wll.719.b
 		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Adalbert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = soccon_reformed_belgicism_subtype
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = soccon_reformed_belgicism_subtype
 			}
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Albert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-				expire = "1.1.1"
-				ideology = soccon_reformed_belgicism_subtype
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Альберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+			expire = "1.1.1"
+			ideology = soccon_reformed_belgicism_subtype
 			}
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Georges Prosper Remi" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Жорж Проспер Реми" ruling_only = yes } }
 			create_country_leader = {
-				name = "Georges Prosper Remi"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
-				expire = "1.1.1"
-				ideology = soccon_reformed_belgicism_subtype
+			name = "Жорж Проспер Реми"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
+			expire = "1.1.1"
+			ideology = soccon_reformed_belgicism_subtype
 			}
 		}
 		set_party_name = {
@@ -3342,7 +3342,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Адальберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3351,7 +3351,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Адальберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3377,7 +3377,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Leopold III"
+				name = "Леопольд III"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Leopold_III.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3386,7 +3386,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Leopold III"
+				name = "Леопольд III"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Leopold_III.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3406,7 +3406,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Juliana"
+				name = "Юлиана"
 				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3416,7 +3416,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Juliana"
+				name = "Юлиана"
 				picture = "gfx/leaders/HOL/Portrait_Holland_Juliana.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3437,7 +3437,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Charlotte"
+				name = "Шарлотта"
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3447,7 +3447,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Charlotte"
+				name = "Шарлотта"
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3471,7 +3471,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Louis II"
+				name = "Людовик II"
 				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3480,7 +3480,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Louis II"
+				name = "Людовик II"
 				picture = "gfx/leaders/OCC/Portrait_Occitany_Louis_Grimaldi.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3503,7 +3503,7 @@ country_event = { #Remi restores the monarchy
 		if = {
 			limit = { has_country_leader_ideology = reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Henri VI"
+				name = "Анри VI"
 				picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
 				expire = "1.1.1"
 				ideology = reformed_belgicism_subtype
@@ -3512,7 +3512,7 @@ country_event = { #Remi restores the monarchy
 		else_if = {
 			limit = { has_country_leader_ideology = soccon_reformed_belgicism_subtype }
 			create_country_leader = {
-				name = "Henri VI"
+				name = "Анри VI"
 				picture = "gfx/leaders/NFA/Portrait_NFA_Henri_VI_Suit.png"
 				expire = "1.1.1"
 				ideology = soccon_reformed_belgicism_subtype
@@ -3567,21 +3567,21 @@ country_event = { #soclib POB
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Adalbert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Adalbert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-				expire = "1.1.1"
-				ideology = soclib_reformed_belgicism_subtype
+		limit = { has_country_leader = { name = "Адальберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+			expire = "1.1.1"
+			ideology = soclib_reformed_belgicism_subtype
 			}
 		}
 		else_if = {
-		limit = { has_country_leader = { name = "Albert I" ruling_only = yes } }
-			create_country_leader = {
-				name = "Adalbert I"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Albert_I.png"
-				expire = "1.1.1"
-				ideology = soclib_reformed_belgicism_subtype
+		limit = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
+		create_country_leader = {
+			name = "Адальберт I"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Albert_I.png"
+			expire = "1.1.1"
+			ideology = soclib_reformed_belgicism_subtype
 			}
 		}
 		add_socdem_to_coalition = yes
@@ -3613,7 +3613,7 @@ country_event = {
 		}
 		set_country_flag = WLL_REX_BURGUNDY
 		if = {
-			limit = { has_country_leader = { name = "Léon Degrelle" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Леон Дегрель" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle_LARP.png"
 			}
@@ -3639,31 +3639,31 @@ country_event = {
 			type = annex_everything
 			target = SWI
 		}
-		custom_effect_tooltip = "We will march to reclaim the former realm of Charles the Bold!"
+		custom_effect_tooltip = "Мы выступим в поход, чтобы вернуть бывшее Королевство Карла Смелого!"
 		hidden_effect = {
-			add_state_core = 27
-			add_state_core = 785
-			add_state_core = 980
-			add_state_core = 17
-			add_state_core = 978
-			add_state_core = 979
-			add_state_core = 35
-			add_state_core = 866
-			add_state_core = 7
-			add_state_core = 36
-			add_state_core = 18
-			add_state_core = 24
-			add_state_core = 20
-			add_state_core = 943
-			add_state_core = 760
-			add_state_core = 779
-			add_state_core = 28
-			add_state_core = 8
-			add_state_core = 42
-			add_state_core = 781
-			add_state_core = 6
-			add_state_core = 29
-			country_event = super.107
+		add_state_core = 27
+		add_state_core = 785
+		add_state_core = 980
+		add_state_core = 17
+		add_state_core = 978
+		add_state_core = 979
+		add_state_core = 35
+		add_state_core = 866
+		add_state_core = 7
+		add_state_core = 36
+		add_state_core = 18
+		add_state_core = 24
+		add_state_core = 20
+		add_state_core = 943
+		add_state_core = 760
+		add_state_core = 779
+		add_state_core = 28
+		add_state_core = 8
+		add_state_core = 42
+		add_state_core = 781
+		add_state_core = 6
+		add_state_core = 29
+		country_event = super.107
 		}
 	}
 	option = { #Lotharingia
@@ -3673,7 +3673,7 @@ country_event = {
 		}
 		set_country_flag = WLL_REX_LOTHARINGIA
 		if = {
-			limit = { has_country_leader = { name = "Léon Degrelle" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Леон Дегрель" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle_LARP.png"
 			}
@@ -3699,31 +3699,31 @@ country_event = {
 			type = annex_everything
 			target = SWI
 		}
-		custom_effect_tooltip = "We will march to reclaim the former realm of Lothair!"
+		custom_effect_tooltip = "Мы выступим в поход, чтобы отвоевать бывшее Королевство Лотаир!"
 		hidden_effect = {
-			add_state_core = 27
-			add_state_core = 785
-			add_state_core = 980
-			add_state_core = 17
-			add_state_core = 978
-			add_state_core = 979
-			add_state_core = 35
-			add_state_core = 866
-			add_state_core = 7
-			add_state_core = 36
-			add_state_core = 18
-			add_state_core = 24
-			add_state_core = 20
-			add_state_core = 943
-			add_state_core = 760
-			add_state_core = 779
-			add_state_core = 28
-			add_state_core = 8
-			add_state_core = 42
-			add_state_core = 781
-			add_state_core = 6
-			add_state_core = 29
-			country_event = super.107
+		add_state_core = 27
+		add_state_core = 785
+		add_state_core = 980
+		add_state_core = 17
+		add_state_core = 978
+		add_state_core = 979
+		add_state_core = 35
+		add_state_core = 866
+		add_state_core = 7
+		add_state_core = 36
+		add_state_core = 18
+		add_state_core = 24
+		add_state_core = 20
+		add_state_core = 943
+		add_state_core = 760
+		add_state_core = 779
+		add_state_core = 28
+		add_state_core = 8
+		add_state_core = 42
+		add_state_core = 781
+		add_state_core = 6
+		add_state_core = 29
+		country_event = super.107
 		}
 	}
 	option = { #Belgium
@@ -3756,14 +3756,14 @@ country_event = { #Question of the King
 		add_political_power = 50
 		GER = { add_opinion_modifier = { target = WLL modifier = medium_increase } }
 		create_country_leader = {
-			name = "Adalbert I"
-			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
-			expire = "1.1.1"
-			ideology = belgicism_subtype
+				name = "Адальберт I"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
+				expire = "1.1.1"
+				ideology = belgicism_subtype
 		}
 		swap_ideas = {
-			remove_idea = WLL_Monarchy_Army
-			add_idea = WLL_REX_ADALBERT
+		remove_idea = WLL_Monarchy_Army
+		add_idea = WLL_REX_ADALBERT
 		}
 		set_country_flag = REX_King_Adalbert
 	}
@@ -3775,8 +3775,8 @@ country_event = { #Question of the King
 		add_political_power = 50
 		add_command_power = 50
 		swap_ideas = {
-			remove_idea = WLL_Monarchy_Army
-			add_idea = WLL_REX_DEGRELLE
+		remove_idea = WLL_Monarchy_Army
+		add_idea = WLL_REX_DEGRELLE
 		}
 		set_country_flag = REX_Degrelle_Alone
 	}
@@ -3923,8 +3923,8 @@ country_event = { #VNV-REX (Flanders Says YES)
 		}
 		WLL = {
 			annex_country = {
-				target = FLN
-				transfer_troops = yes
+			target = FLN
+			transfer_troops = yes
 			}
 		}
 		add_political_power = 50
@@ -3959,14 +3959,14 @@ country_event = { #Albert's Response
 		add_war_support = -0.10
 		add_stability = 0.10
 		create_country_leader = {
-			name = "Albert I"
-			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
-			expire = "1.1.1"
-			ideology = belgicism_subtype
+				name = "Альберт I"
+				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
+				expire = "1.1.1"
+				ideology = belgicism_subtype
 		}
 		swap_ideas = {
-			remove_idea = WLL_Monarchy_Army
-			add_idea = WLL_REX_ALBERT
+		remove_idea = WLL_Monarchy_Army
+		add_idea = WLL_REX_ALBERT
 		}
 		set_country_flag = REX_King_Albert
 	}
@@ -3982,8 +3982,8 @@ country_event = { #Albert's Response
 		}
 		add_war_support = 0.10
 		swap_ideas = {
-			remove_idea = WLL_Monarchy_Army
-			add_idea = WLL_REX_DEGRELLE
+		remove_idea = WLL_Monarchy_Army
+		add_idea = WLL_REX_DEGRELLE
 		}
 		set_country_flag = REX_Degrelle_Alone
 	}
@@ -4065,16 +4065,16 @@ country_event = { #Capitalist support
 	option = {
 		name = wll.1336.a
 		random_owned_state = { 
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
 				type = arms_factory
 				level = 1
 				instant_build = yes
 			}
 		}
 		random_owned_state = { 
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
 				type = industrial_complex
 				level = 1
 				instant_build = yes
@@ -4110,8 +4110,8 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 		tag = WLL
 		WLL = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Léon Degrelle" }
-				has_government = national_populist
+			has_country_leader = { ruling_only = yes name = "Леон Дегрель" }
+			has_government = national_populist
 			}
 			is_subject = no
 			owns_state = 881
@@ -4146,7 +4146,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Адальберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = pataut_belgicism_subtype
@@ -4177,7 +4177,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Albert I"
+				name = "Альберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 				expire = "1.1.1"
 				ideology = pataut_belgicism_subtype
@@ -4207,7 +4207,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Victor Matthys"
+				name = "Виктор Маттис"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Victor_Matthys.png"
 				expire = "1.1.1"
 				ideology = rexism_subtype
@@ -4232,7 +4232,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "José Streel"
+				name = "Жозе Штриль"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Jose_Streel.png"
 				expire = "1.1.1"
 				ideology = rexism_subtype
@@ -4257,7 +4257,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Georges Prosper Remi"
+				name = "Жорж Проспер Реми"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
 				expire = "1.1.1"
 				ideology = belgicism_subtype
@@ -4283,7 +4283,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				popularity = 0.6
 			}
 			create_country_leader = {
-				name = "Edgar Sengier"
+				name = "Эдгар Сенжье"
 				desc = "POLITICS_SENGIER_DESC"
 				picture = "gfx/leaders/COG/UMN_Edgar_Sengier.png"
 				expire = "1.1.1"
@@ -4305,7 +4305,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Émile Janssens"
+				name = "Эмиль Янссенс"
 				desc = POLITICS_JANNSENS_DESC
 				picture = "gfx/leaders/COG/Portrait_COG_Emile_Janssens.png"
 				expire = "1.1.1"
@@ -4331,7 +4331,7 @@ country_event = { # he's so happy to be in his lovely homeland, he'd hate to be 
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Léon Degrelle"
+				name = "Леон Дегрель"
 				desc = "POLITICS_LEON_DEGRELLE_DESC"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle_Beard.png"
 				expire = "1.1.1"
@@ -4406,12 +4406,12 @@ country_event = { #Rexists retake control
 		name = wll.1340.a
 		add_stability = 0.10
 		if = {
-			limit = { has_country_leader = { name = "Rexist Leadership" ruling_only = yes } }
-			create_country_leader = {
-				name = "Victor Matthys"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Victor_Matthys.png"
-				expire = "1.1.1"
-				ideology = rexism_subtype
+		limit = { has_country_leader = { name = "Конгресс Рексистов" ruling_only = yes }  }
+		create_country_leader = {
+			name = "Виктор Маттис"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Victor_Matthys.png"
+			expire = "1.1.1"
+			ideology = rexism_subtype
 			}
 		}
 	}
@@ -4419,12 +4419,12 @@ country_event = { #Rexists retake control
 		name = wll.1340.b
 		add_stability = 0.10
 		if = {
-			limit = { has_country_leader = { name = "Rexist Leadership" ruling_only = yes } }
-			create_country_leader = {
-				name = "José Streel"
-				picture = "gfx/leaders/BEL/Portrait_Belgium_Jose_Streel.png"
-				expire = "1.1.1"
-				ideology = rexism_subtype
+		limit = { has_country_leader = { name = "Конгресс Рексистов" ruling_only = yes }  }
+		create_country_leader = {
+			name = "Жозе Штриль"
+			picture = "gfx/leaders/BEL/Portrait_Belgium_Jose_Streel.png"
+			expire = "1.1.1"
+			ideology = rexism_subtype
 			}
 		}
 		hidden_effect = { remove_ideas_with_trait = head_of_government }
@@ -4432,7 +4432,7 @@ country_event = { #Rexists retake control
 	}
 	option = {
 		name = wll.1340.c
-		trigger = { has_country_leader = { name = "Rexist Leadership" ruling_only = yes } }
+		trigger = { has_country_leader = { name = "Конгресс Рексистов" ruling_only = yes }  }
 		add_stability = 0.10
 	}
 }
@@ -4538,7 +4538,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Victor Matthys"
+				name = "Виктор Маттис"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Jose_Streel.png"
 				expire = "1.1.1"
 				ideology = rexism_subtype
@@ -4568,7 +4568,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "José Streel"
+				name = "Жозе Штриль"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Jose_Streel.png"
 				expire = "1.1.1"
 				ideology = rexism_subtype
@@ -4594,7 +4594,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Émile Janssens"
+				name = "Эмиль Янссенс"
 				desc = "POLITICS_JANNSENS_DESC"
 				picture = "gfx/leaders/COG/Portrait_COG_Emile_Janssens.png"
 				expire = "1.1.1"
@@ -4612,7 +4612,7 @@ country_event = { #The big one (never formed COG)
 		name = wll.1342.e
 		trigger = {
 			OR = {
-				has_government = national_populist
+			has_government = national_populist
 				has_government = social_conservative
 			}
 			has_completed_focus = WLL_Herge_Victory
@@ -4628,7 +4628,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_rex_congo_party
 			}
 			create_country_leader = {
-				name = "Georges Prosper Remi"
+				name = "Жорж Проспер Реми"
 				desc = ""
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
 				expire = "1.1.1"
@@ -4642,7 +4642,7 @@ country_event = { #The big one (never formed COG)
 					name = WLL_rex_congo_party
 				}
 				create_country_leader = {
-					name = "Georges Prosper Remi"
+					name = "Жорж Проспер Реми"
 					picture = "gfx/leaders/BEL/Portrait_Belgium_Georges_Prosper_Remi.png"
 					expire = "1.1.1"
 					ideology = soccon_reformed_belgicism_subtype
@@ -4666,7 +4666,7 @@ country_event = { #The big one (never formed COG)
 			WLL_transfer_congo = yes
 			set_politics = { ruling_party = market_liberal }
 			create_country_leader = {
-				name = "Edgar Sengier"
+				name = "Эдгар Сенжье"
 				desc = "POLITICS_SENGIER_DESC"
 				picture = "gfx/leaders/COG/UMN_Edgar_Sengier.png"
 				expire = "1.1.1"
@@ -4691,7 +4691,7 @@ country_event = { #The big one (never formed COG)
 				long_name = KIV_market_liberal_party_long
 			}
 			create_country_leader = {
-				name = "Moïse Tshombe"
+				name = "Моиз Чомбе"
 				desc = "POLITICS_MOISE_TSHOMBE_DESC"
 				picture = "gfx/leaders/KIV/Portrait_KIV_Moise_Tshombe.png"
 				expire = "1.1.1"
@@ -4731,7 +4731,7 @@ country_event = { #The big one (never formed COG)
 				long_name = LPD_postwar_socon_party_long
 			}
 			create_country_leader = {
-				name = "Daniel Kanza"
+				name = "Даниэль Канза"
 				desc = "POLITICS_KANZA_DESC"
 				picture = "gfx/leaders/COG/Portrait_Congo_Dani_Nkanza.png"
 				expire = "1.1.1"
@@ -4771,7 +4771,7 @@ country_event = { #The big one (never formed COG)
 				long_name = KIV_social_conservative_party_long
 			}
 			create_country_leader = {
-				name = "Jean Bolikango"
+				name = "Жан Боликанго"
 				desc = "POLITICS_JEAN_BOLIKANGO_DESC"
 				picture = "gfx/leaders/KIV/Portrait_KIV_Jean_Bolikango.png"
 				expire = "1.1.1"
@@ -4789,10 +4789,10 @@ country_event = { #The big one (never formed COG)
 	option = {
 		name = wll.1342.j
 		trigger = {
-			OR = {
-				has_government = social_democrat
-				has_government = social_liberal
-				has_government = market_liberal
+		OR = {
+			has_government = social_democrat
+			has_government = social_liberal
+			has_government = market_liberal
 			}
 		}
 		release = COG
@@ -4811,7 +4811,7 @@ country_event = { #The big one (never formed COG)
 				long_name = KIV_social_liberal_party_long
 			}
 			create_country_leader = {
-				name = "Joseph Kasa-Vubu"
+				name = "Жозеф Касавубу"
 				desc = "POLITICS_KASU_VUBU_DESC"
 				picture = "gfx/leaders/KIV/Portrait_KIV_Joseph_Kasa_Vubu.png"
 				expire = "1.1.1"
@@ -4830,8 +4830,8 @@ country_event = { #The big one (never formed COG)
 		name = wll.1342.k
 		trigger = { 
 			OR = {
-				has_government = social_democrat 
-				has_government = social_liberal
+			has_government = social_democrat 
+			has_government = social_liberal
 			}
 		}
 		release = COG
@@ -4841,7 +4841,7 @@ country_event = { #The big one (never formed COG)
 			WLL_transfer_congo = yes
 			set_politics = { ruling_party = social_democrat }
 			create_country_leader = {
-				name = "Albert Decoster"
+				name = "Альберт Декостер"
 				desc = "POLITICS_DECOSTER_DESC"
 				picture = "gfx/leaders/COG/Portrait_COG_Albert_Decoster.png"
 				expire = "1.1.1"
@@ -4859,8 +4859,8 @@ country_event = { #The big one (never formed COG)
 	option = {
 		trigger = { 
 			OR = {
-				has_government = social_democrat 
-				has_government = social_liberal
+			has_government = social_democrat 
+			has_government = social_liberal
 			}
 		}
 		name = wll.1342.l
@@ -4876,7 +4876,7 @@ country_event = { #The big one (never formed COG)
 				long_name = KIV_social_democrat_party_long
 			}
 			create_country_leader = {
-				name = "Isaac Kalonji"
+				name = "Исаак Калонджи"
 				desc = "POLITICS_KALONJI_DESC"
 				picture = "gfx/leaders/KIV/Portrait_KIV_Isaac_Kalonji.png"
 				expire = "1.1.1"
@@ -4905,7 +4905,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_hohenzollern_party
 			}
 			create_country_leader = {
-				name = "Adalbert I"
+				name = "Адальберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 				expire = "1.1.1"
 				ideology = pataut_belgicism_subtype
@@ -4937,7 +4937,7 @@ country_event = { #The big one (never formed COG)
 				name = WLL_belgique_party
 			}
 			create_country_leader = {
-				name = "Albert I"
+				name = "Альберт I"
 				picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 				expire = "1.1.1"
 				ideology = pataut_belgicism_subtype
@@ -5010,7 +5010,7 @@ country_event = { #The King
 		add_stability = 0.075
 		add_war_support = 0.075
 		create_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_King_Albert.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -5037,7 +5037,7 @@ country_event = { #The King
 		add_stability = -0.075
 		add_war_support = -0.075
 		create_country_leader = {
-			name = "Adalbert I"
+			name = "Адальберт I"
 			picture = "gfx/leaders/BEL/Portrait_Belgium_Adalbert_I.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -5260,9 +5260,9 @@ country_event = { #Charles the Bald
 			}
 			if = {
 				limit = {
-					OR = {
-						has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
-						has_idea = WLL_Leon_Degrelle_hog_npo
+				OR = {
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
+				has_idea = WLL_Leon_Degrelle_hog_npo
 					}
 				}
 				country_event = {
@@ -5273,8 +5273,8 @@ country_event = { #Charles the Bald
 			else_if = {
 				limit = { 
 					OR = {
-						has_government = national_populist 
-						has_government = social_conservative
+					has_government = national_populist 
+					has_government = social_conservative
 					}
 				}
 				country_event = {
@@ -5328,9 +5328,9 @@ country_event = { #Charles the Bald
 			}
 			if = {
 				limit = {
-					OR = {
-						has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
-						has_idea = WLL_Leon_Degrelle_hog_npo
+				OR = {
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
+				has_idea = WLL_Leon_Degrelle_hog_npo
 					}
 				}
 				country_event = {
@@ -5341,8 +5341,8 @@ country_event = { #Charles the Bald
 			else_if = {
 				limit = { 
 					OR = {
-						has_government = national_populist 
-						has_government = social_conservative
+					has_government = national_populist 
+					has_government = social_conservative
 					}
 				}
 				country_event = {
@@ -5431,7 +5431,7 @@ country_event = { #Louis the German
 			if = {
 				limit = {
 				OR = {
-				has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
 				has_idea = WLL_Leon_Degrelle_hog_npo
 					}
 				}
@@ -5513,7 +5513,7 @@ country_event = { #Louis the German
 			if = {
 				limit = {
 				OR = {
-				has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
 				has_idea = WLL_Leon_Degrelle_hog_npo
 					}
 				}
@@ -5607,7 +5607,7 @@ country_event = { #Louis the German
 			if = {
 				limit = {
 				OR = {
-				has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
 				has_idea = WLL_Leon_Degrelle_hog_npo
 					}
 				}
@@ -5828,7 +5828,7 @@ country_event = { #Capets (Degrelle)
 			owns_state = 117
 			owns_state = 41
 			OR = {
-				has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
 				has_idea = WLL_Leon_Degrelle_hog_npo
 			}
 		}
@@ -5863,7 +5863,7 @@ country_event = { #Capets (Rex successors)
 			}
 			NOT = { 
 			OR = {
-				has_country_leader = { name = "Léon Degrelle" ruling_only = yes } 
+				has_country_leader = { name = "Леон Дегрель" ruling_only = yes } 
 				has_idea = WLL_Leon_Degrelle_hog_npo
 				}
 			}
@@ -6042,7 +6042,7 @@ country_event = { #They dont wanna join
 			type = annex_everything
 			target = FROM
 		}
-		custom_effect_tooltip = "Claim all starting states in the Bohemia strategic region"
+		custom_effect_tooltip = "Будет получена претензия на все стартовые земли в стратегическом регионе Богемия"
 		hidden_effect = {
 			add_state_claim = 1129
 			add_state_claim = 9
@@ -6101,7 +6101,7 @@ country_event = { #What to do with Bohemia?
 				target = CZE
 			}
 		}
-		custom_effect_tooltip = "Claim all starting states in the Bohemia strategic region"
+		custom_effect_tooltip = "Будет получена претензия на все стартовые земли в стратегическом регионе Богемия"
 		hidden_effect = {
 			add_state_claim = 1129
 			add_state_claim = 9

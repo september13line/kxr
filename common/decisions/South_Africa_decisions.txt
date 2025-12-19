@@ -93,7 +93,7 @@ political_actions = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SAF_core_mozambique"
 			950 = {
-				set_state_name = "South East Africa"
+				set_state_name = "Юго-Восточная Африка"
 				add_core_of = SAF
 			}
 			hidden_effect = { country_event = { id = saf.313 days = 90 random = 30 } }
@@ -1859,7 +1859,7 @@ SAF_SMUT_ENT = {
 		icon = decision_generic_prepare_civil_war
 		available = {
 			OR = {
-				has_completed_focus = SAF_coloured_enfranchisement_act
+			has_completed_focus = SAF_coloured_enfranchisement_act
 				AND = {
 					has_completed_focus = SAF_native_representation_act
 					has_country_flag = SAF_fusion

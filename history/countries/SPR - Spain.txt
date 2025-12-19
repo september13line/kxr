@@ -84,32 +84,32 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 country_event = { id = sprd.1 hours = 2 }
 country_event = { id = sprd.4 days = 13 random_days = 3 }
@@ -201,14 +201,14 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "José Calvo Sotelo"
+	name = "Хосе Кальво Сотело"
 	picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Calvo_Sotelo.png"
 	expire = "1.1.1"
 	ideology = maurrassism_subtype
 }
 
 create_country_leader = {
-	name = "José María Albiñana"
+	name = "Хосе Мария Альбиньяна"
 	desc = "POLITICS_JOSE_MARIA_ALBINANA_DESC"
 	picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Maria_Albinana.png"
 	expire = "1.1.1"
@@ -216,7 +216,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfonso XIII"
+	name = "Альфонсо XIII"
 	desc = "POLITICS_ALPHONSO_BOURBON_DESC"
 	picture = "gfx/leaders/SPR/Portrait_Alfonso_XIII.png"
 	expire = "1.1.1"
@@ -227,7 +227,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Niceto Alcala Zamora"
+	name = "Нисето Алькала Самора"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Niceto_Alcala_Zamora.png"
 	expire = "1.1.1"
 	ideology = progressive_conservatism_subtype
@@ -237,42 +237,42 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alejandro Lerroux"
+	name = "Алехандро Леррус"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Alejandro_Lerroux_Garcia.png"
 	expire = "1.1.1"
 	ideology = marlib_kleptocracy_subtype
 }
 
 create_country_leader = {
-	name = "Diego Martínez Barrio"
+	name = "Диего Мартинес Баррио"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Diego_Martinez_Barrio.png"
 	expire = "1.1.1"
 	ideology = radical_liberalism_subtype
 }
 
 create_country_leader = {
-	name = "Manuel Azana Diaz"
+	name = "Мануэль Асанья-и-Диас"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Manuel_Azana_Diaz.png"
 	expire = "1.1.1"
 	ideology = socdem_humanistic_capitalism_subtype
 }
 
 create_country_leader = {
-	name = "Julián Besteiro Fernández"
+	name = "Хулиан Бестейро Фернандес"
 	picture = "gfx/leaders/CNT/Portrait_CNT_Julian_Besteiro_Fernandez.png"
 	expire = "1.1.1"
 	ideology = moderate_socialist_subtype
 }
 
 create_country_leader = {
-	name = "Angel Pestana Nunez"
+	name = "Анхель Пестана Нуньес"
 	picture = "gfx/leaders/SPR/Portrait_SPR_angel_pestana_nunez.png"
 	expire = "1.1.1"
 	ideology = libertarian_possibilism_subtype
 }
 
 create_country_leader = {
-	name = "Ramiro Ledesma"
+	name = "Рамиро Рамос"
 	picture = "gfx/leaders/SPR/Portrait_SPR_Ramiro_Ledesma.png"
 	expire = "1.1.1"
 	ideology = natsynd_subtype
@@ -280,7 +280,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "José Sanjurjo Sacanell "
+	name = "Хосе Санхурхо Саканель "
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Sanjurjo_Sacanell.png"
 	traits = {
 		politically_connected
@@ -296,7 +296,7 @@ create_field_marshal = {
 	id = 300
 }
 create_field_marshal = { #
-	name = "Emilio Mola Vidal "
+	name = "Эмилио Мола Видаль "
 	portrait_path = "gfx/leaders/CAR/Portrait_CAR_Mola_Vidal.png"
 	traits = {
 		organisational_leader
@@ -311,7 +311,7 @@ create_field_marshal = { #
 	id = 312
 }
 create_field_marshal = {
-	name = "Dámaso Berenguer y Fusté"
+	name = "Дамасо Беренгер и Фусте"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Damaso_Berenguer_Fuste.png"
 	traits = {
 		old_guard
@@ -327,7 +327,7 @@ create_field_marshal = {
 }
 ### Corps Commanders ###
 create_corps_commander = {
-	name = "Francisco Franco Bahamonde "
+	name = "Франсиско Франко Бахамонде "
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Franco_Bahamonde.png"
 	traits = {
 		politically_connected
@@ -342,7 +342,7 @@ create_corps_commander = {
 	id = 301
 }
 create_corps_commander = {
-	name = "Camilo Alonso Vega"
+	name = "Камило Альонсо Вега"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Alonso_Vega.png"
 	traits = {
 		trickster
@@ -356,7 +356,7 @@ create_corps_commander = {
 	id = 302
 }
 create_corps_commander = { #
-	name = "Gonzalo Queipo de Llano"
+	name = "Гонсало Кейпо де Льяно"
 	portrait_path = "gfx/leaders/CAR/Portrait_CAR_Queipo_de_Llano_y_Sierra.png"
 	traits = {
 		trickster
@@ -371,7 +371,7 @@ create_corps_commander = { #
 	id = 313
 }
 create_corps_commander = {
-	name = "Carlos Asensio Cabanillas"
+	name = "Карлос Асенсио Кабанильяс"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Asensio_Cabanillas.png"
 	traits = {
 		ascari_officer
@@ -386,7 +386,7 @@ create_corps_commander = {
 	id = 303
 }
 create_corps_commander = {
-	name = "Fidel Dávila Arrondo"
+	name = "Фидель Давила Аррондо"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Davila_Arrondo.png"
 	traits = {
 		organizer
@@ -400,7 +400,7 @@ create_corps_commander = {
 	id = 304
 }
 create_corps_commander = {
-	name = "Miguel Cabanellas Ferrer"
+	name = "Мигель Кабанельяс Феррер"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Miguel_Cabanellas_Ferrer.png"
 	traits = {
 		old_guard
@@ -415,7 +415,7 @@ create_corps_commander = {
 	id = 305
 }
 create_corps_commander = {
-	name = "Francisco de Borbon y de la Torre"
+	name = "Франсиско де Борбон и де ла Торре"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_de_Borbon_y_de_la_Torre.png"
 	traits = {
 		politically_connected
@@ -431,7 +431,7 @@ create_corps_commander = {
 	id = 306
 }
 create_corps_commander = {
-	name = "Manuel Goded Llopis"
+	name = "Мануэль Годед Ллопис"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Goded_Llopis.png"
 	traits = {
 		naval_invader
@@ -446,7 +446,7 @@ create_corps_commander = {
 	id = 307
 }
 create_corps_commander = {
-	name = "Severiano Martínez Anido"
+	name = "Севериано Мартинес Анидо"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Martinez_Anido.png"
 	traits = {
 		old_guard
@@ -462,7 +462,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Juan de la Ciera y Codorníu"
+	name = "Хуан де ла Сьера и Кодорниу"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Juan_Cierva.png"
 	traits = {
 	politically_connected
@@ -476,7 +476,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "José Millán-Astray "
+	name = "Хосе Мильян-Астрай "
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Jose_Millan_Astray.png"
 	traits = {
 		media_personality
@@ -492,7 +492,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Emilio Barrera Luyando"
+	name = "Эмилио Баррера Луяндо"
 	portrait_path = "gfx/leaders/CAR/Portrait_CAR_Emilio_Barrera.png"
 	traits = {
 		organizer
@@ -506,7 +506,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Leopoldo Saro y Marín"
+	name = "Леопольдо Саро и Марин"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Leopoldo_Saro_Marin.png"
 	traits = {
 	infantry_leader
@@ -521,7 +521,7 @@ create_corps_commander = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Rafael Estrada Arnais"
+	name = "Рафаэль Эстрада Арнайс"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Estrada_Arnais.png"
 	traits = { }
 	skill = 1
@@ -533,7 +533,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Juan Cervera Valderrama"
+	name = "Хуан Сервера Вальдеррама"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Juan_Cervera_Valderrama.png"
 	traits = { }
 	skill = 1
@@ -545,7 +545,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Manuel Vierna Belando"
+	name = "Мануэль Вьерна Беландо"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Manuel_Vierna_Belando.png"
 	traits = { }
 	skill = 1
@@ -556,7 +556,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Salvador Moreno Fernández"
+	name = "Сальвадор Морено Фернандес"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Salvador_Moreno_Fernandez.png"
 	traits = { }
 	skill = 2
@@ -567,7 +567,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Wenceslao Benítez Inglott"
+	name = "Венсеслао Бенитес Инглотт"
 	portrait_path = "gfx/leaders/SPR/Portrait_SPR_Wenceslao_Benitez_Inglott.png"
 	traits = { 
 		career_officer

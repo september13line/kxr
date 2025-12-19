@@ -22,13 +22,13 @@ guiTypes = {
 			spriteType = "GFX_construction_header_bg"
 			position = { x= 5 y = 5 }
 			Orientation = "UPPER_LEFT"
-		}	
+		}
 
 		instantTextboxType = {
 			name = "trade_title"
-			position = { x = 45 y = 8 }
+			position = { x = 45 y = 13 }
 			textureFile = ""
-			font = "hoi_36header"
+			font = "Pragmata_24_BAZADARYCH"
 			borderSize = {x = 0 y = 0}
 			text = "TRADE_TRADE"
 			maxWidth = 440
@@ -56,7 +56,7 @@ guiTypes = {
 			name = "trade_header"
 			position = { x = 125 y = 50 }
 			quadTextureSprite = "GFX_deployment_binding"
-		}
+		}	
 
 		iconType = {
 			name = "civilian_factory_icon"
@@ -176,7 +176,7 @@ guiTypes = {
 				maxHeight = 18
 				format = left
 			}
-
+			
 			instantTextboxType = {
 				name = "special_project_title"
 				position = { x=12 y=118 }
@@ -207,7 +207,7 @@ guiTypes = {
 				format = left
 			}									
 		}
-
+		
 		buttonType = {
 			name = "sort_country"
 			position = {x=17 y=470}
@@ -217,7 +217,7 @@ guiTypes = {
 			buttontext = "TRADE_SORT_COUNTRY"
 			clicksound = click_default
 		}
-
+		
 		buttonType = {
 			name = "sort_export"
 			position = {x=187 y=470}
@@ -227,7 +227,7 @@ guiTypes = {
 			buttontext = "TRADE_SORT_EXPORT"
 			clicksound = click_default
 		}
-
+		
 		buttonType = {
 			name = "sort_request"
 			position = {x=357 y=470}
@@ -246,13 +246,13 @@ guiTypes = {
 			font = "hoi_16mbs"
 			buttontext = "TRADE_SORT_CONVOYS"
 			clicksound = click_default
-		}	
+		}
 		
 		containerWindowType = {
 			name = "filters"
 			position = { x = 113 y = 78 }	
 			size = { width = 422 height = 50 }
-			verticalScrollbar = "right_vertical_slider"			
+			verticalScrollbar = "right_vertical_slider"
 			
 			gridBoxType = {
 				name = "resources_grid"
@@ -262,7 +262,7 @@ guiTypes = {
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
 			}
-		}	
+		}
 		
 		containerWindowType = {
 			name = "country_filters"
@@ -574,7 +574,7 @@ guiTypes = {
 			name ="resources_icon"
 			spriteType = "GFX_resources_strip"
 			position = { x= 14 y = 5 }
-		}
+		}		
 		
 		instantTextboxType = {
 			name = "balance"
@@ -629,7 +629,7 @@ guiTypes = {
 			maxHeight = 18
 			format = right
 		}
-		
+
 		instantTextboxType = {
 			name = "needed"
 			position = { x=20 y=130 }
@@ -676,7 +676,7 @@ guiTypes = {
 			spriteType = "GFX_resources_strip"
 			position = { x= 26 y = 3 }
 			alwaystransparent = yes
-		}	
+		}
 	}
 	
 	containerWindowType = {
@@ -754,7 +754,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
+		
 		instantTextboxType = {
 			name = "exported"
 			position = { x = 365 y = 12 }
@@ -777,7 +777,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
+		
 		instantTextboxType = {
 			name = "available_export"
 			position = { x = 198 y = 12 }
@@ -799,7 +799,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
+		
 		instantTextboxType = {
 			name = "convoys"
 			position = { x = 520 y = 12 }

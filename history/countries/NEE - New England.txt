@@ -112,37 +112,37 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	ship_hull_super_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 complete_special_project = {
 	project = sp:sp_naval_cruiser_submarine
@@ -195,16 +195,16 @@ add_ai_strategy = {
 	value = 1
 }
 
-create_country_leader = {# Joseph William Martin Jr.
-	name = "Hartford Convention"
+create_country_leader = {# Джозеф Уильям Мартин мл.
+	name = "Хартфордская конвенция"
 	desc = "POLITICS_BOSTON_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Boston_Committee.png"
 	expire = "1.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = { provisional_congress }
 }
-create_country_leader = {# Joseph William Martin Jr.
-	name = "Albert Windsor"
+create_country_leader = {# Джозеф Уильям Мартин мл.
+	name = "Альберт Виндзор"
 	desc = "POLITICS_KING_ALBERT_DESC"
 	picture = "gfx/leaders/CAN/Portrait_Canada_Prince_Albert.png"
 	expire = "1.1.1"
@@ -212,7 +212,7 @@ create_country_leader = {# Joseph William Martin Jr.
 	traits = { }
 }
 create_country_leader = {
-	name = "H.P. Lovecraft"
+	name = "Говард Лавкрафт"
 	desc = "POLITICS_LOVECRAFT_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_HP_Lovecraft.png"
 	expire = "1.1.1"
@@ -220,7 +220,7 @@ create_country_leader = {
 	traits = { popular_author }
 }
 create_country_leader = {
-	name = "George Aiken"
+	name = "Джордж Эйкен"
 	desc = "POLITICS_GEORGE_AIKEN_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_George_Aiken.png"
 	expire = "1.1.1"
@@ -230,7 +230,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Leonard Abbott"
+	name = "Леонард Эббот"
 	desc = "POLITICS_LEONARD_ABBOTT_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Leonard_Abbott.png"
 	expire = "1.1.1"
@@ -238,15 +238,15 @@ create_country_leader = {
 	traits = { anarchist_enthusiast }
 }
 create_country_leader = {
-	name = "Clarence Pickett"
+	name = "Кларенс Пикетт"
 	desc = "POLITICS_CLARENCE_PICKETT_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Clarence_Pickett.png"
 	expire = "1.1.1"
 	ideology = quaker_socialism_subtype
 	traits = { determined_peacemaker }
 }
-create_country_leader = {# William Averell Harriman
-	name = "William Averell Harriman"
+create_country_leader = {# Аверелл Гарриман
+	name = "Аверелл Гарриман"
 	desc = "POLITICS_WILLIAM_HARRIMAN_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_william_harriman.png"
 	expire = "1.1.1"
@@ -255,8 +255,8 @@ create_country_leader = {# William Averell Harriman
 		financial_expert
 	}
 }
-create_country_leader = {# Percival P. Baxter
-	name = "Percival P. Baxter"
+create_country_leader = {# Персиваль П. Бакстер
+	name = "Персиваль П. Бакстер"
 	desc = "POLITICS_PERCIVAL_BAXTER_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_Percival_P_Baxter.png"
 	expire = "1.1.1"
@@ -266,7 +266,7 @@ create_country_leader = {# Percival P. Baxter
 	}
 }
 create_country_leader = {# Curley
-	name = "James Michael Curley"
+	name = "Джеймс Майкл Керли"
 	desc = "POLITICS_JAMES_MICHAEL_CURLEY_DESC"
 	picture = "gfx/leaders/NEE/Portrait_NEE_James_Michael_Curley.png"
 	expire = "1.1.1"
@@ -276,7 +276,7 @@ create_country_leader = {# Curley
 	}
 }
 create_country_leader = {
-	name = "Henning A. Blomen"
+	name = "Хеннинг А. Бломен"
 	picture = "gfx/leaders/CSA/Portrait_CSA_Henning_A_Blomen.png"
 	expire = "1.1.1"
 	ideology = popcom_subtype
@@ -333,7 +333,7 @@ country_event = { id = newengland.2011 days = 483 } # Corrigan
 
 ### Field Marshals ###
 create_field_marshal = {# 
-	name = "John J. Pershing "
+	name = "Джон Д. Першинг "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_John_Pershing.png"
 	traits = {
 		old_guard
@@ -352,8 +352,8 @@ create_field_marshal = {#
 	logistics_skill = 3
 }
 
-create_field_marshal = {# Leslie Groves
-	name = "Leslie Groves "
+create_field_marshal = {# Лесли Гровс
+	name = "Лесли Гровс "
 	desc = "NEE_LESLIE_GROVES_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_leslie_grooves.png"
 	traits = {
@@ -371,7 +371,7 @@ create_field_marshal = {# Leslie Groves
 }
 
 create_field_marshal = {#March
-	name = "Peyton C. March"
+	name = "Пейтон К. Марч"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Peyton_C_March.png"
 	traits = { trait_cautious infantry_leader brilliant_strategist career_officer expert_delegator }
 	skill = 4
@@ -381,8 +381,8 @@ create_field_marshal = {#March
 	logistics_skill = 5
 }
 ### Corps Commanders ###
-create_corps_commander = {# Merritt A. Edson
-	name = "Merritt A. Edson"
+create_corps_commander = {# Мерритт А. Эдсон
+	name = "Мерритт А. Эдсон"
 	desc = "NEE_MERRITT_A_EDSON_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_merritt_edson.png"
 	traits = {
@@ -397,7 +397,7 @@ create_corps_commander = {# Merritt A. Edson
 	logistics_skill = 2
 }
 create_corps_commander = {# Vanderbilt
-	name = "Cornelius Vanderbilt III"
+	name = "Корнелиус III Вандербильт"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Cornelius_Vanderbilt_III.png"
 	traits = {
 		old_guard
@@ -411,8 +411,8 @@ create_corps_commander = {# Vanderbilt
 	planning_skill = 3
 	logistics_skill = 2
 }
-create_corps_commander = {# Mark Clark
-	name = "Mark Clark"
+create_corps_commander = {# Марк Кларк
+	name = "Марк Кларк"
 	desc = "NEE_MARK_CLARK_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Mark_Clark.png"
 	traits = {
@@ -425,8 +425,8 @@ create_corps_commander = {# Mark Clark
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander = {# Hiram Bingham III
-	name = "Hiram Bingham III "
+create_corps_commander = {# Хайрам Бингем III
+	name = "Хайрам Бингем III "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Hiram_Bingham_III.png"
 	traits = {
 		politically_connected
@@ -442,7 +442,7 @@ create_corps_commander = {# Hiram Bingham III
 	logistics_skill = 3
 }
 create_corps_commander = {# JFK
-	name = "John F. Kennedy"
+	name = "Джон Ф. Кеннеди"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_John_Fitzgerald_Kennedy.png"
 	traits = {
 		politically_connected
@@ -458,8 +458,8 @@ create_corps_commander = {# JFK
 	planning_skill = 1
 	logistics_skill = 2
 }
-#create_corps_commander = {# George Kenney
-	#name = "George Kenney"
+#create_corps_commander = {# Джордж Кеннан
+	#name = "Джордж Кеннан"
 	#desc = "NEE_GEORGE_KENNEY_ARMY_DESC"
 	#portrait_path = "gfx/leaders/NEE/Portrait_NEE_george_kenney.png"
 	#traits = {
@@ -472,8 +472,8 @@ create_corps_commander = {# JFK
 	#planning_skill = 3
 	#logistics_skill = 1
 #}
-create_corps_commander = {# Willard G. Wyman
-	name = "Willard G. Wyman"
+create_corps_commander = {# Уиллард Г. Вайман
+	name = "Уиллард Г. Вайман"
 	desc = "NEE_WILLARD_G_WYMAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_willard_wyman.png"
 	traits = {
@@ -487,8 +487,8 @@ create_corps_commander = {# Willard G. Wyman
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Ulysses S. Grant III
-	name = "Ulysses S. Grant III"
+create_corps_commander = {# Улисс С. Грант III
+	name = "Улисс С. Грант III"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Ulysses_S_Grant_III.png"
 	traits = { 
 		infantry_leader
@@ -503,8 +503,8 @@ create_corps_commander = {# Ulysses S. Grant III
 	logistics_skill = 3
 }
 
-create_corps_commander = {# Lemuel C. Shepherd Jr
-	name = "Lemuel C. Shepherd Jr."
+create_corps_commander = {# Лемюэл Шеперд
+	name = "Лемюэл Шеперд"
 	desc = "NEE_LEMUEL_SHEPHERD_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_lemuel_shepherd.png"
 	traits = { }
@@ -515,8 +515,8 @@ create_corps_commander = {# Lemuel C. Shepherd Jr
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Robert W. Grow
-	name = "Robert W. Grow"
+create_corps_commander = {# Роберт В. Гроу
+	name = "Роберт В. Гроу"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Robert_W_Grow.png"
 	traits = { 
 		trait_reckless
@@ -529,8 +529,8 @@ create_corps_commander = {# Robert W. Grow
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Pierpont M. Hamilton
-	name = "Pierpont M. Hamilton"
+create_corps_commander = {# Пьерпонт М. Гамильтон
+	name = "Пьерпонт М. Гамильтон"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Pierpont_M_Hamilton.png"
 	traits = { 
 		trait_reckless
@@ -544,8 +544,8 @@ create_corps_commander = {# Pierpont M. Hamilton
 	logistics_skill = 1
 }
 
-create_corps_commander = {# Pierpont M. Hamilton
-	name = "Francis Warren Pershing"
+create_corps_commander = {# Пьерпонт М. Гамильтон
+	name = "Фрэнсис Уоррен Першинг"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Francis_Warren_Pershing.png"
 	traits = { 
 		organizer
@@ -558,8 +558,8 @@ create_corps_commander = {# Pierpont M. Hamilton
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Herbert Thomas Johnson
-	name = "Herbert Thomas Johnson"
+create_corps_commander = {# Герберт Томас Джонсон
+	name = "Герберт Томас Джонсон"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Herbert_Thomas_Johnson.png"
 	traits = { 
 		politically_connected
@@ -573,8 +573,8 @@ create_corps_commander = {# Herbert Thomas Johnson
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Ernest N. Harmon
-	name = "Ernest N. Harmon"
+create_corps_commander = {# Эрнест Н. Хармон
+	name = "Эрнест Н. Хармон"
 	desc = "NEE_ERNEST_HARMON_ARMY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Ernest_Nason_Harmon.png"
 	traits = { 
@@ -589,8 +589,8 @@ create_corps_commander = {# Ernest N. Harmon
 	logistics_skill = 3
 }
 
-create_corps_commander = {# Robert McCormick
-	name = "Robert McCormick "
+create_corps_commander = {# Роберт Маккормик
+	name = "Роберт Маккормик "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Robert_R_McCormick_general.png"
 	traits = {
 		politically_connected
@@ -605,7 +605,7 @@ create_corps_commander = {# Robert McCormick
 }
 
 create_corps_commander = {
-	name = "Russell Hartle"
+	name = "Рассел Хартл"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Russell_P_Hartle.png"
 	traits = { infantry_officer }
 	skill = 1
@@ -617,7 +617,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Cornelius Edward Ryan"
+	name = "Корнелиус Эдвард Райан"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Cornelius_E_Ryan.png"
 	desc = "NEE_CORNELIUS_EDWARD_RYAN_ARMY_DESC"
 	traits = { commando paratrooper panzer_leader }
@@ -629,7 +629,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {#
-	name = "John Basilone"
+	name = "Джон Бейзилон"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_John_Basilone.png"
 	traits = {
 		trait_reckless
@@ -642,7 +642,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Harriet Quimby"
+	name = "Гарриет Куимби"
 	female = yes
 	portrait_path = "gfx/leaders/CGL/Portrait_CGL_Harriet_Quimby.png"
 	traits = { media_personality air_commander }
@@ -654,7 +654,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Rod Serling"
+	name = "Род Серлинг"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Rod_Serling.png"
 	traits = { trait_reckless }
 	id = 9983
@@ -666,7 +666,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Hamilton Fish III "
+	name = "Гамильтон Фиш III "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Hamilton_Fish_III_Military.png"
 	traits = {
 		politically_connected
@@ -683,7 +683,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Earl Shaffer"
+	name = "Эрл Шаффер"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Earl_Shaffer.png"
 	traits = {
 		trait_mountaineer
@@ -697,7 +697,7 @@ create_corps_commander = {#
 
 
 create_corps_commander = {#
-	name = "David Brower "
+	name = "Дэвид Броуэр "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_David_Brower_Military.png"
 	traits = {
 		trait_mountaineer
@@ -711,7 +711,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "James Guthrie Harbord"
+	name = "Джеймс Гатри Харборд"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_James_Guthrie_Harbord.png"
 	traits = {
 		naval_invader
@@ -726,8 +726,8 @@ create_corps_commander = {#
 }
 
 ### Admirals ###
-create_navy_leader = {# Allan Rockwell McCann
-	name = "Allan Rockwell McCann"
+create_navy_leader = {# Аллан Роквелл Мак-Кенн
+	name = "Аллан Роквелл Мак-Кенн"
 	desc = "NEE_ALLAN_MCCANN_NAVY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_allan_mccann.png"
 	traits = {seawolf chief_engineer}
@@ -737,8 +737,8 @@ create_navy_leader = {# Allan Rockwell McCann
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Edward Ellsberg
-	name = "Edward Ellsberg"
+create_navy_leader = {# Эдвард Эллсберг
+	name = "Эдвард Эллсберг"
 	desc = "NEE_EDWARD_ELLSBERG_NAVY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_edward_ellsberg.png"
 	traits = { navy_media_personality }
@@ -749,8 +749,8 @@ create_navy_leader = {# Edward Ellsberg
 	coordination_skill = 2
 }
 
-create_navy_leader = {# Joseph P. Kennedy Jr. - need to delete later, 21 years old
-	name = "Joseph P. Kennedy Jr."
+create_navy_leader = {# Джозеф П. Кеннеди мл. - need to delete later, 21 years old
+	name = "Джозеф П. Кеннеди мл."
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_joseph_kennedy.png"
 	traits = {}
 	skill = 1
@@ -759,8 +759,8 @@ create_navy_leader = {# Joseph P. Kennedy Jr. - need to delete later, 21 years o
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
-create_navy_leader = {# Samuel Eliot Morison - need to delete later, was a historian and joined to navy because FDR asked and made quick promotions
-	name = "Samuel Eliot Morison"
+create_navy_leader = {# Самуэль Элиот Морисон - need to delete later, was a historian and joined to navy because FDR asked and made quick promotions
+	name = "Самуэль Элиот Морисон"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_samuel_morison.png"
 	traits = {}
 	skill = 1
@@ -769,8 +769,8 @@ create_navy_leader = {# Samuel Eliot Morison - need to delete later, was a histo
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
-create_navy_leader = {# Harold Raynsford Stark
-	name = "Harold Raynsford Stark"
+create_navy_leader = {# Гарольд Рэйнсфорд Старк
+	name = "Гарольд Рэйнсфорд Старк"
 	desc = "NEE_HAROLD_STARK_NAVY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Harold_Rainsford_Stark.png"
 	traits = {spotter blockade_runner}
@@ -780,8 +780,8 @@ create_navy_leader = {# Harold Raynsford Stark
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Reginald R. Belknap
-	name = "Reginald R. Belknap"
+create_navy_leader = {# Реджинальд Р. Белкнап
+	name = "Реджинальд Р. Белкнап"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Reginald_R_Belknap.png"
 	traits = {crisis_magician politically_connected}
 	skill = 2
@@ -790,8 +790,8 @@ create_navy_leader = {# Reginald R. Belknap
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Joel T. Boone
-	name = "Joel T. Boone"
+create_navy_leader = {# Джоэл Т. Бун
+	name = "Джоэл Т. Бун"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_joel_t_boone.png"
 	traits = {war_hero safety_first}
 	skill = 2
@@ -801,8 +801,8 @@ create_navy_leader = {# Joel T. Boone
 	coordination_skill = 3
 }
 
-create_navy_leader = {# Thomas Hart
-	name = "Thomas Hart "
+create_navy_leader = {# Томас Харт
+	name = "Томас Харт "
 	desc = "NEE_THOMAS_HART_NAVY_DESC"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Thomas_Hart_Navy.png"
 	traits = { destroyer_leader }
@@ -813,8 +813,8 @@ create_navy_leader = {# Thomas Hart
 	coordination_skill = 2
 }
 
-create_navy_leader = {# William Kissam Vanderbilt II
-	name = "William Kissam Vanderbilt II "
+create_navy_leader = {# Уильям Киссам Вандербильт II
+	name = "Уильям Киссам Вандербильт II "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_William_Kissam_Vanderbilt_II.png"
 	traits = {}
 	skill = 1
@@ -824,8 +824,8 @@ create_navy_leader = {# William Kissam Vanderbilt II
 	coordination_skill = 1
 }
 
-create_navy_leader = {# Harold Stirling Vanderbilt
-	name = "Harold Stirling Vanderbilt "
+create_navy_leader = {# Гарольд Стирлинг
+	name = "Гарольд Стирлинг "
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Harold_Stirling_Vanderbilt.png"
 	traits = {}
 	skill = 1
@@ -838,7 +838,7 @@ create_navy_leader = {# Harold Stirling Vanderbilt
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-	name = "William J. Donovan"
+	name = "Уильям Донован"
 	GFX = GFX_portrait_william_donovan
 	traits = {
 		operative_natural_orator

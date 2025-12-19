@@ -40,28 +40,28 @@ focus_tree = {
 			remove_ideas = SER_political_instability
 			hidden_effect = {
 				create_country_leader = {
-					name = "Alexander II"
+					name = "Александр II"
 					desc = "POLITICS_ALEXANDER_II_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
 				}
 				create_country_leader = {
-					name = "Alexander II"
+					name = "Александр II"
 					desc = "POLITICS_ALEXANDER_II_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 					expire = "1.1.1"
 					ideology = market_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Alexander II"
+					name = "Александр II"
 					desc = "POLITICS_ALEXANDER_II_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 					expire = "1.1.1"
 					ideology = social_liberal_subtype
 				}
 				create_country_leader = {
-					name = "Alexander II"
+					name = "Александр II"
 					desc = "POLITICS_ALEXANDER_II_DESC"
 					picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 					expire = "1.1.1"
@@ -889,7 +889,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				factor = 0
+			factor = 0
 				has_game_rule = {
 					rule = SER_expansionism
 					option = SER_EXPANSIONISM_YUGOSLAVIA
@@ -1105,8 +1105,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SER_conquer_vojvodina"
 			create_wargoal = {
 				target = 45.owner
-				type = take_state_focus
-				generator = { 45 875 }
+						type = take_state_focus
+						generator = { 45 875 }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1163,8 +1163,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SER_albanian_question"
 			create_wargoal = {
-				target = 44.owner
-				type = annex_everything
+					target = 44.owner
+					type = annex_everything
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1305,9 +1305,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SER_free_bosnia"
 			create_wargoal = {
-				target = 104.owner
-				type = take_state_focus
-				generator = { 104 }
+					target = 104.owner
+					type = take_state_focus
+					generator = { 104 }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1466,9 +1466,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SER_claim_dalmatia"
 			create_wargoal = {
-				target = 163.owner
-				type = take_state_focus
-				generator = { 163 103 }
+					target = 163.owner
+					type = take_state_focus
+					generator = { 163 103 }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1871,9 +1871,9 @@ focus_tree = {
 			add_state_core = 1100
 			add_state_core = 1272
 			create_wargoal = {
-				target = 102.owner
-				type = take_state_focus
-				generator = { 102 736 }
+					target = 102.owner
+					type = take_state_focus
+					generator = { 102 736 }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1934,9 +1934,9 @@ focus_tree = {
 			add_state_core = 1111
 			add_state_core = 1105
 			create_wargoal = {
-				target = 1206.owner
-				type = take_state_focus
-				generator = { 1206 1111 1105 }
+					target = 1206.owner
+					type = take_state_focus
+					generator = { 1206 1111 1105 }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }

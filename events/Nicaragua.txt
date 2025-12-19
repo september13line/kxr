@@ -1323,7 +1323,7 @@ country_event = { #Abelardo Cuadra is hired by Sacasa
 				}
 			}
 			create_corps_commander = {
-				name = "Abelardo Cuadra"
+				name = "Абелардо Куадра"
 				desc = "ARMY_NIC_ABELARDO_CUADRA_DESC"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Abelardo_Cuadra.png"
 				traits = {}
@@ -1925,7 +1925,7 @@ country_event = { #Collaborating with Emiliano Chamorro Vargas
 		}
 		add_stability = 0.05
 		create_corps_commander = {
-				name = "Emiliano Chamorro Vargas "
+				name = "Эмилиано Чаморро Варгас "
 				desc = "ARMY_NIC_EMILIANO_CHAMORRO_VARGAS_DESC"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Emiliano_Chamorro_Vargas_general.png"
 				traits = {}
@@ -1936,7 +1936,7 @@ country_event = { #Collaborating with Emiliano Chamorro Vargas
 				logistics_skill = 1
 		}
 		create_corps_commander = {
-				name = "Alejandro Plata"
+				name = "Алехандро Плата"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Alejandro_Plata.png"
 				traits = {}
 				skill = 2
@@ -2627,7 +2627,7 @@ country_event = { #Clash at the capital
 				}
 			}
 			create_corps_commander = {
-				name = "Abelardo Cuadra"
+				name = "Абелардо Куадра"
 				desc = "ARMY_NIC_ABELARDO_CUADRA_DESC"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Abelardo_Cuadra.png"
 				traits = {}
@@ -2646,7 +2646,7 @@ country_event = { #Clash at the capital
 				}
 			}
 			create_corps_commander = {
-				name = "Alejandro Plata"
+				name = "Алехандро Плата"
 				desc = ""
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Alejandro_Plata.png"
 				traits = {}
@@ -2700,7 +2700,7 @@ country_event = { #Elections announced
 		text = nic.73.moreno
 		trigger = {
 			has_country_leader = {
-				name = "Francisco Sequeira Moreno"
+				name = "Франсиско Секейра Морено"
 				ruling_only = yes
 			}
 		}
@@ -2709,7 +2709,7 @@ country_event = { #Elections announced
 		text = nic.73.sandino
 		trigger = {
 			has_country_leader = {
-				name = "Augusto César Sandino"
+				name = "Аугусто Сесар Сандино"
 				ruling_only = yes
 			}
 		}
@@ -3609,7 +3609,7 @@ country_event = { #Clash at the capital! Sandino completely destroys the opposit
 				}
 			}
 			create_field_marshal = {
-				name = "Augusto César Sandino "
+				name = "Аугусто Сесар Сандино "
 				desc = "ARMY_NIC_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "gfx/leaders/NIC/Portrait_NIC_Augusto_Cesar_Sandino.png"
 				traits = {
@@ -3633,7 +3633,7 @@ country_event = { #Clash at the capital! Sandino completely destroys the opposit
 				}
 			}
 			create_corps_commander = {
-				name = "Yank Levy"
+				name = "Янк Леви"
 				desc = "ARMY_NIC_YANK_LEVY_DESC"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Yank_Levy.png"
 				traits = {
@@ -3943,7 +3943,7 @@ country_event = { #Clash at the capital! Contested
 				}
 			}
 			create_field_marshal = {
-				name = "Augusto César Sandino "
+				name = "Аугусто Сесар Сандино "
 				desc = "ARMY_NIC_AUGUSTO_CESAR_SANDINO_DESC"
 				picture = "gfx/leaders/NIC/Portrait_NIC_Augusto_Cesar_Sandino.png"
 				traits = {
@@ -3967,7 +3967,7 @@ country_event = { #Clash at the capital! Contested
 				}
 			}
 			create_corps_commander = {
-				name = "Yank Levy"
+				name = "Янк Леви"
 				desc = "ARMY_NIC_YANK_LEVY_DESC"
 				portrait_path = "gfx/leaders/NIC/Portrait_NIC_Yank_Levy.png"
 				traits = {
@@ -5112,9 +5112,9 @@ country_event = { #Release Nicaragua as Liberal Honduras
 					has_unit_leader = 1600
 				}
 				random_unit_leader = {
-				limit = { has_id = 1600 }			
+			limit = { has_id = 1600 }			
 				set_nationality = NSW
-			}
+		}
 			}
 			if = {
 				limit = {
@@ -5695,15 +5695,15 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 		add_ideas = NIC_no_Support
 		317 = { set_demilitarized_zone = no }
 		create_country_leader = {
-			name = "George Van Horn Moseley" # 
+			name = "Джордж Ван Хорн Мозли" # 
 			desc = "POLITICS_GEORGE_VAN_HORN_MOSELEY"
 			picture = "gfx/leaders/NIC/Portrait_NIC_George_Van_Horn_Moseley.png"
 			expire = "1966.4.13"
 			ideology = militarism_subtype
 			traits = {}
 		}
-		create_field_marshal = {# George Van Horn Moseley
-			name = "George Van Horn Moseley "
+		create_field_marshal = {# Джордж Ван Хорн Мозли
+			name = "Джордж Ван Хорн Мозли "
 			desc = "TEX_GEORGE_MOSELEY_ARMY_DESC"
 			portrait_path = "gfx/leaders/NIC/Portrait_NIC_George_Van_Horn_Moseley.png"
 			traits = {
@@ -5719,8 +5719,8 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			logistics_skill = 3
 			id = 75
 		}
-		create_field_marshal = {# Pedro del Valle
-			name = "Pedro del Valle"
+		create_field_marshal = {# Педро дель Валье
+			name = "Педро дель Валье"
 			desc = "TEX_PEDRO_DEL_VALLE_ARMY_DESC"
 			portrait_path = "gfx/leaders/TEX/Portrait_TEX_Pedro_Del_Valle.png"
 			traits = {
@@ -5746,7 +5746,7 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			country_event = nic.107
 		}
 		create_corps_commander = {
-			name = "Demas T. Craw"
+			name = "Демас Т. Кроу"
 			portrait_path = "gfx/leaders/TEX/Portrait_TEX_Thurlow_Craw.png"
 			traits = { trickster brilliant_strategist }
 			skill = 2
@@ -5756,7 +5756,7 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Augustine Warner Robins"
+			name = "Августин Уорнер Робинс"
 			portrait_path = "gfx/leaders/CAL/Portrait_CAL_Augustine_Warner_Robbins.png"
 			traits = { trickster brilliant_strategist }
 			skill = 1
@@ -5766,7 +5766,7 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			logistics_skill = 3
 		}
 		create_corps_commander = {
-			name = "Claire Lee Chennault"
+			name = "Клэр Ли Шеннолт"
 			portrait_path = "gfx/leaders/NIC/Portrait_NIC_Claire_Lee_Chennault.png"
 			traits = { trickster brilliant_strategist }
 			skill = 1
@@ -5776,7 +5776,7 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			logistics_skill = 3
 		}
 		create_corps_commander = {
-			name = "Charles A. Willoughby "
+			name = "Чарльз Уиллоуби "
 			portrait_path = "gfx/leaders/NIC/Portrait_NIC_Charles_Willoughby.png"
 			traits = { harsh_leader politically_connected }
 			skill = 2
@@ -5786,7 +5786,7 @@ country_event = { #rip Nicaragua, if Honduras is Soc Con or further right
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Dean Ivan Lamb"
+			name = "Дин Иван Ламб"
 			portrait_path = "gfx/leaders/NIC/Portrait_NIC_Dean_Ivan_Lamb.png"
 			traits = { air_commander }
 			skill = 1
@@ -5828,8 +5828,8 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		set_technology = {
-			early_ship_hull_heavy = 1
+			set_technology = {
+				early_ship_hull_heavy = 1
 		}
 		name = nic.10001.a
 		hidden_effect = {

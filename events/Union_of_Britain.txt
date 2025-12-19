@@ -427,7 +427,7 @@ country_event = { # The Resignation of Philip Snowden
 	option = {
 		name = uob.6.a
 		create_country_leader = {
-			name = "Executive Committee"
+			name = "Исполнительный комитет"
 			desc = "POLITICS_INTERIM_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Trade_Union_Congress.png"
 			expire = "1.1.1"
@@ -534,7 +534,7 @@ country_event = { # Maximist Victory
 				}
 			}
 			create_country_leader = {
-				name = "Arthur Horner"
+				name = "Артур Горнер"
 				desc = "POLITICS_ARTHUR_HORNER_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 				expire = "1.1.1"
@@ -566,7 +566,7 @@ country_event = { # Federalist Victory
 			ruling_party = syndicalist
 		}
 		create_country_leader = {
-			name = "Annie Kenney"
+			name = "Энни Кенни"
 			desc = "POLITICS_ANNIE_KENNEY_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Annie_Kenney.png"
 			expire = "1.1.1"
@@ -603,7 +603,7 @@ country_event = { # Federalist Victory
 		retire_country_leader = yes
 		# Since Horner is set as Snowden's successor in the country file, he's automatically be next in line
 		create_country_leader = {
-			name = "Arthur Horner"
+			name = "Артур Хорнер"
 			desc = "POLITICS_ARTHUR_HORNER_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 			expire = "1.1.1"
@@ -679,7 +679,7 @@ country_event = { # Autonomist Victory
 				}
 			}
 			create_country_leader = {
-				name = "Arthur Horner"
+				name = "Артур Горнер"
 				desc = "POLITICS_ARTHUR_HORNER_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 				expire = "1.1.1"
@@ -743,7 +743,7 @@ country_event = { # No majority achieved
 			}
 		}
 		create_country_leader = {
-			name = "Tom Mann"
+			name = "Том Манн"
 			desc = "POLITICS_TOM_MANN_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Tom_Mann.png"
 			expire = "1.1.1"
@@ -770,7 +770,7 @@ country_event = { # No majority achieved
 			name = ENG_FED_syndicalist_party
 		}
 		create_country_leader = {
-			name = "Tom Mann"
+			name = "Том Манн"
 			desc = "POLITICS_TOM_MANN_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Tom_Mann.png"
 			expire = "1.1.1"
@@ -1747,8 +1747,8 @@ country_event = { # News - Canadian Ultimatum
 
 	option = {
 		name = uob.34.a
+		}
 	}
-}
 country_event = { # News - Britain pulls back
 	id = uob.35
 	immediate = { log = "[GetDateText]: [Root.GetName]: event uob.35" }
@@ -1962,8 +1962,8 @@ country_event = { # News - German Ultimatum
 
 	option = {
 		name = uob.40.a
+		}
 	}
-}
 country_event = { # News - Britain pulls back
 	id = uob.41
 	immediate = { log = "[GetDateText]: [Root.GetName]: event uob.41" }
@@ -2641,7 +2641,7 @@ country_event = { # German reaction
 			modifier = {
 				add = 100
 				IRE = { is_ai = no }
-			}
+		}
 		}
 		add_political_power = 25
 		IRE = {
@@ -2926,7 +2926,7 @@ country_event = {
 				is_ai = no
 				NOT = {
 				ENG = {
-					has_country_leader = { name = "Loígaire I" ruling_only = yes}
+					has_country_leader = { name = "Лоэгайре I" ruling_only = yes}
 				}
 				}
 			}
@@ -2974,7 +2974,7 @@ country_event = {
 				is_ai = no
 				NOT = {
 				ENG = {
-					has_country_leader = { name = "Loígaire I" ruling_only = yes}
+					has_country_leader = { name = "Лоэгайре I" ruling_only = yes}
 				}
 				}
 			}
@@ -3126,26 +3126,26 @@ country_event = {
 			load_focus_tree = generic_focus
 			drop_cosmetic_tag = yes
 			create_country_leader = {
-				name = "James Gralton"
+				name = "Джеймс Гралтон"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_James_Gralton.png"
 				expire = "1.1.1"
 				ideology = authcom_subtype
 			}
 			create_country_leader = {
-				name = "Jim Larkin"
+				name = "Джим Ларкин"
 				desc = "POLITICS_JIM_LARKIN_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Jim_Larkin.png"
 				expire = "1.1.1"
 				ideology = centralized_syndicalism_subtype
 			}
 			create_country_leader = {
-				name = "Peadar O'Donnell"
+				name = "Падар О'Доннеллралтон"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Peadar_ODonnell.png"
 				expire = "1.1.1"
 				ideology = left_nationalism_subtype
 			}
 			create_country_leader = {
-				name = "Cathal Brugha"
+				name = "Кахал Бру"
 				desc = "POLITICS_CATHAL_BRUGHA_DESC"
 				picture = "gfx/leaders/IRE/Portrait_Ireland_Cathal_Brugha.png"
 				expire = "1.1.1"
@@ -4476,7 +4476,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Seán Lemass"
+					name = "Шон Лемасс"
 					desc = "POLITICS_SEAN_LEMASS_DESC"
 					picture = "gfx/leaders/Ire/Portrait_Ireland_Sean_Lemass.png"
 					expire = "1.1.1"
@@ -4558,7 +4558,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Seán Lemass"
+					name = "Шон Лемасс"
 					desc = "POLITICS_SEAN_LEMASS_DESC"
 					picture = "gfx/leaders/Ire/Portrait_Ireland_Sean_Lemass.png"
 					expire = "1.1.1"
@@ -4600,7 +4600,7 @@ country_event = {
 					elections_allowed = no
 				}
 				create_country_leader = {
-					name = "Seán Lemass"
+					name = "Шон Лемасс"
 					desc = "POLITICS_SEAN_LEMASS_DESC"
 					picture = "gfx/leaders/Ire/Portrait_Ireland_Sean_Lemass.png"
 					expire = "1.1.1"
@@ -4639,7 +4639,7 @@ country_event = {
 		}
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Oswald Mosley" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Освальд Мосли" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/ENG/Portrait_England_Oswald_Mosley_Grand_Protector.png"
 				}
@@ -4962,22 +4962,22 @@ country_event = {
 				}
 				country_event = uob.204
 			}
-			else = {
-				if = {
-					limit = {
-						has_completed_focus = ENG_merge
-					}
-					random_list = {
-						70 = {
-							country_event = uob.204
-							} # Yay
-						30 = {
-							country_event = uob.205
-							} # Yay...?
-					}
-				}
 				else = {
-					country_event = uob.205 # Yay...?
+					if = {
+						limit = {
+							has_completed_focus = ENG_merge
+						}
+						random_list = {
+							70 = {
+								country_event = uob.204
+								} # Yay
+							30 = {
+								country_event = uob.205
+								} # Yay...?
+					}
+						}
+						else = {
+							country_event = uob.205 # Yay...?
 				}
 			}
 		}
@@ -5047,22 +5047,22 @@ country_event = {
 				}
 				country_event = uob.207
 			}
-			else = {
-				if = {
-					limit = {
-						has_completed_focus = ENG_purge_militia_remains
-					}
-					random_list = {
-						70 = {
-							country_event = uob.207
-							} # Yay
-						30 = {
-							country_event = uob.208
-							} # Yay...?
-					}
-				}
 				else = {
-					country_event = uob.208 # Yay...?
+					if = {
+						limit = {
+							has_completed_focus = ENG_purge_militia_remains
+						}
+						random_list = {
+							70 = {
+								country_event = uob.207
+								} # Yay
+							30 = {
+								country_event = uob.208
+								} # Yay...?
+					}
+						}
+						else = {
+							country_event = uob.208 # Yay...?
 				}
 			}
 		}
@@ -5394,7 +5394,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Arthur Horner"
+			name = "Артур Хорнер"
 			desc = "POLITICS_ARTHUR_HORNER_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 			expire = "1.1.1"
@@ -5407,8 +5407,8 @@ country_event = {
 			modifier = {
 				add = 100
 				OR = {
-					has_game_rule = {
-						rule = ENG_revolution
+				has_game_rule = {
+					rule = ENG_revolution
 						option = ENG_REVOLUTION_FAILURE_RESTORATION
 					}
 					has_game_rule = {
@@ -5482,7 +5482,7 @@ country_event = {
 		name = uob.213.a
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Oswald Mosley" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Освальд Мосли" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/ENG/Portrait_England_Oswald_Mosley_Dictator.png"
 				}
@@ -6141,7 +6141,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "John Strachey"
+			name = "Джон Стрейчи"
 			desc = "POLITICS_JOHN_STRACHEY_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_John_Strachey.png"
 			expire = "1.1.1"
@@ -6162,7 +6162,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Eric Blair"
+			name = "Эрик Блэр"
 			desc = "POLITICS_ERIC_BLAIR_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Eric_Blair.png"
 			expire = "1.1.1"
@@ -6182,7 +6182,7 @@ country_event = {
 			ruling_party = syndicalist
 		}
 		create_country_leader = {
-			name = "Annie Kenney"
+			name = "Энни Кенни"
 			desc = "POLITICS_ANNIE_KENNEY_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Annie_Kenney.png"
 			expire = "1.1.1"
@@ -6265,7 +6265,7 @@ country_event = {
 			factor = 30
 		}
 		create_country_leader = {
-			name = "Sylvia Pankhurst"
+			name = "Сильвия Панкхёрст"
 			picture = "gfx/leaders/ENG/Portrait_England_Sylvia_Pankhurst.png"
 			expire = "1.1.1"
 			ideology = syn_council_communism_subtype
@@ -6309,7 +6309,7 @@ country_event = {
 			ruling_party = syndicalist
 		}
 		create_country_leader = {
-			name = "William Gallacher"
+			name = "Уильям Галлахер"
 			desc = "POLITICS_WILLIAM_GALLACHER_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_William_Gallacher.png"
 			expire = "1.1.1"
@@ -6328,7 +6328,7 @@ country_event = {
 			ruling_party = syndicalist
 		}
 		create_country_leader = {
-			name = "Ebenezer Edwards"
+			name = "Эбенезер Эдвардс"
 			picture = "gfx/leaders/BRG/Portrait_BRG_Ebby_Edwards.png"
 			expire = "1.1.1"
 			ideology = syndicalist_subtype
@@ -6375,7 +6375,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Clem Attlee"
+			name = "Шон Лемасс"
 			desc = "POLITICS_CLEM_ATTLEE_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Clem_Attlee.png"
 			expire = "1.1.1"
@@ -6403,7 +6403,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Barbara Castle"
+			name = "Барбара Кастл"
 			desc = "POLITICS_BARBARA_CASTLE_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Barbara_Castle.png"
 			expire = "1.1.1"
@@ -6506,7 +6506,7 @@ country_event = {
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Eric Blair"
+			name = "Эрик Блэр"
 			desc = "POLITICS_ERIC_BLAIR_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Eric_Blair.png"
 			expire = "1.1.1"
@@ -6536,7 +6536,7 @@ country_event = {
 		set_politics = { ruling_party = syndicalist }
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "T.E. Lawrence"
+			name = "Томас Эдвард Лоуренс"
 			desc = "ENG_lawrence_desc"
 			picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 			expire = "1.1.1"
@@ -6564,7 +6564,7 @@ country_event = {
 	}
 }
 
-# A cold, wet, dark day for Eric Blair
+# A cold, wet, dark day for Эрик Блэр
 
 news_event = {
 	id = uob.362
@@ -7020,7 +7020,7 @@ country_event = {
 	option = {
 		name = uobflavour.15.a
 		create_country_leader = {
-			name = "Arthur Horner"
+			name = "Артур Хорнер"
 			desc = "POLITICS_ARTHUR_HORNER_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 			expire = "1.1.1"
@@ -7052,12 +7052,12 @@ country_event = {
 		name = uobflavour.17.a
 		if = {
 			limit = { has_country_leader = { ruling_only = yes name = "Annie Kenney" } }
-			create_country_leader = {
-				name = "Christabel Pankhurst"
-				picture = "gfx/leaders/ENG/Portrait_England_Christabel_Pankhurst.png"
-				expire = "1.1.1"
-				ideology = feminist_syndicalist_subtype
-			}
+		create_country_leader = {
+			name = "Кристабель Панкхёрст"
+			picture = "gfx/leaders/ENG/Portrait_England_Christabel_Pankhurst.png"
+			expire = "1.1.1"
+			ideology = feminist_syndicalist_subtype
+		}
 		}
 		else = {
 			swap_ideas = {
@@ -7065,7 +7065,7 @@ country_event = {
 				add_idea = ENG_Christabel_Pankhurst_hog_syn
 			}
 		}
-		set_country_flag = Annie_Kenney_dead
+			set_country_flag = Annie_Kenney_dead
 	}
 }
 
@@ -7551,7 +7551,7 @@ country_event = { # Army Begins To Dissolve
 		 
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Home Guard"
+				division_template = "Отряды местной обороны"
 			}
 		}
 		hidden_effect = {
@@ -7580,19 +7580,19 @@ country_event = { # Mutiny Begins
 		 
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Infantry Division"
+				division_template = "Пехотная дивизия"
 			}
 			delete_unit_template_and_units = { 
-				division_template = "Infantry Division with Artillery"
+				division_template = "Пехотная дивизия с поддержкой артиллерии"
 			}
 			delete_unit_template_and_units = { 
-				division_template = "Infantry Division with Tank support"
+				division_template = "Пехотная дивизия с танковой поддержкой"
 			}
 			delete_unit_template_and_units = { 
-				division_template = "Motorized-Division"
+				division_template = "Моторизованная дивизия"
 			}
 			delete_unit_template_and_units = { 
-				division_template = "Armoured-Division"
+				division_template = "Бронетанковая дивизия"
 			}
 		}
 		hidden_effect = {
@@ -7924,7 +7924,7 @@ country_event = { # Peace With Scotland
 		
 		white_peace = {
 			tag = SCT
-			message = "Scotland has won its Independence"
+			message = "Шотландия завоевала свою независимость"
 		}
 		hidden_effect = {
 			SCT = {
@@ -7983,7 +7983,7 @@ country_event = { # Peace With Wales
 		}
 		white_peace = {
 			tag = WAL
-			message = "Wales has won its Independence"
+			message = "Уэльс завоевал свою независимость"
 		}
 		hidden_effect = {
 			WAL = {
@@ -8065,7 +8065,7 @@ country_event = {
 				name = BRG_paternal_autocrat_party
 			}
 				create_country_leader = {# Percy Hobart
-					name = "Percy Hobart"
+					name = "Перси Хобарт"
 					desc = "POLITICS_HOBART_DESC"
 					picture = "gfx/leaders/ENG/Portrait_England_Percy_Hobart.png"
 					expire = "1.1.1"
@@ -8073,7 +8073,7 @@ country_event = {
 					traits = {}
 				}
 				create_country_leader = {# Percy Hobart
-					name = "Percy Hobart"
+					name = "Перси Хобарт"
 					desc = "POLITICS_HOBART_DESC"
 					picture = "gfx/leaders/ENG/Portrait_England_Percy_Hobart.png"
 					expire = "1.1.1"
@@ -8165,7 +8165,7 @@ country_event = {
 			set_politics = { ruling_party = syndicalist }
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "T.E. Lawrence"
+				name = "Томас Эдвард Лоуренс"
 				desc = "POLITICS_TE_LAWRENCE_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence.png"
 				expire = "1.1.1"
@@ -8212,7 +8212,7 @@ country_event = {
 		name = uob.512.a
 		hidden_effect = {
 			create_country_leader = {
-			name = "Eric Blair"
+			name = "Эрик Блэр"
 			desc = "POLITICS_ERIC_BLAIR_DESC"
 			picture = "gfx/leaders/ENG/Portrait_England_Eric_Blair.png"
 			expire = "1.1.1"
@@ -8235,7 +8235,7 @@ country_event = {
 				name = ENG_NAT_radical_socialist_party_long
 			}
 			create_country_leader = {
-				name = "Barbara Castle"
+				name = "Барбара Кастл"
 				desc = "POLITICS_BARBARA_CASTLE_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_Barbara_Castle.png"
 				expire = "1.1.1"
@@ -8260,7 +8260,7 @@ country_event = {
 		hidden_effect = {
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Arthur Horner"
+				name = "Артур Хорнер"
 				desc = "POLITICS_ARTHUR_HORNER_DESC"
 				picture = "gfx/leaders/ENG/Portrait_England_Arthur_Horner.png"
 				expire = "1.1.1"
@@ -8311,9 +8311,9 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	immediate = {
 		hidden_effect = {
-			set_cosmetic_tag = ENG_england 
+			set_cosmetic_tag = ENG_england
 			create_country_leader = {
-				name = "Fenner Brockway"
+				name = "Феннер Броквей"
 				picture = "gfx/leaders/ENG/Portrait_England_Fenner_Brockway.png"
 				expire = "1.1.1"
 				ideology = moderate_socialist_subtype
@@ -8731,7 +8731,7 @@ country_event = { # Ah alright. I wish Mosely could unite Europe without that on
 			}
 		name = uob.1000.b
 		leave_faction = yes
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_generic_dominance 
 				name = faction_maximist_int
 				icon = GFX_faction_maximist_international

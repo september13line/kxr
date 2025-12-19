@@ -47,7 +47,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MLT_towards_grand_harbor"
 			add_political_power = -50
-			add_timed_idea = {
+				add_timed_idea = {
 			idea = MLT_general_strike
 			days = 30
 			}
@@ -497,8 +497,8 @@ focus_tree = {
 		relative_position_id = MLT_democratic_mandate
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
-			increase_ruling_party_popularity_by_10 = yes
-			country_event = mlt.23
+				increase_ruling_party_popularity_by_10 = yes
+				country_event = mlt.23
 			custom_effect_tooltip = MLT_end_democracy_tt
 			set_country_flag = MLT_democracy_ended
 			hidden_effect =  {
@@ -783,7 +783,7 @@ focus_tree = {
 						is_in_faction = no
 					}
 				}
-				country_event = mlt.20
+			country_event = mlt.20
 			}
 			else = {
 				add_command_power = 100
@@ -982,7 +982,7 @@ focus_tree = {
 			add_idea = MLT_noble2
 			}
 			create_corps_commander = {
-				name = "Charles Bonham-Carter"
+				name = "Чарльз Бонэм-Картер"
 				portrait_path = "gfx/leaders/MLT/Portrait_MLT_Charles_Bonham_Carter.png"
 				traits = {
 					career_officer
@@ -996,7 +996,7 @@ focus_tree = {
 				id = 58
 			}
 			create_corps_commander = {
-				name = "Edmond Schreiber"
+				name = "Эдмонд Шрайбер"
 				portrait_path = "gfx/leaders/MLT/Portrait_MLT_Edmond_Schreiber.png"
 				traits = {
 					career_officer
@@ -1141,9 +1141,9 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { has_government = social_democrat }
-					country_event = {
-						id = mlt.108
-						days = 20
+				country_event = {
+					id = mlt.108
+					days = 20
 					}
 				}
 			}
@@ -1860,7 +1860,7 @@ focus_tree = {
 				PAP = {
 					has_socialist_government = yes
 					has_country_leader = {
-				name = "Leo XIV"
+				name = "Лео XIV"
 				ruling_only = yes
 				}
 				}
@@ -2201,7 +2201,7 @@ focus_tree = {
 				SRI = {
 				NOT = {
 					has_country_leader = {
-				name = "Benito Mussolini"
+				name = "Бенито Муссолини"
 				ruling_only = yes
 				}
 				}
@@ -2283,7 +2283,7 @@ focus_tree = {
 				SRI = {
 				NOT = {
 					has_country_leader = {
-				name = "Benito Mussolini"
+				name = "Бенито Муссолини"
 				ruling_only = yes
 				}
 				}
@@ -2477,7 +2477,7 @@ focus_tree = {
 				has_government = paternal_autocrat
 			}
 		}
-		bypass = {
+				bypass = {
 			has_country_flag = MLT_knights_held_on
 			OR = {
 				has_government = authoritarian_democrat
@@ -2763,23 +2763,23 @@ focus_tree = {
 				OR = {
 					has_country_leader = {
 							ruling_only = yes
-							name = "Aléxandros I"
+							name = "Александр I"
 						}
 					has_country_leader = {
 							ruling_only = yes
-							name = "Geórgios II"
+							name = "Георгиос II"
 						}
 					has_country_leader = {
 							ruling_only = yes
-							name = "Pávlos I"
+							name = "Павел I"
 						}
 					has_country_leader = {
 							ruling_only = yes
-							name = "Ioannis Metaxas"
+							name = "Иоаннис Метаксас"
 						}
 					has_country_leader = {
 							ruling_only = yes
-							name = "Alexandros Koryzis"
+							name = "Александрос Коризис"
 						}
 				}
 			}
@@ -3651,7 +3651,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			OR = {
-				has_completed_focus = MLT_take_the_cross
+			has_completed_focus = MLT_take_the_cross
 				has_country_flag = MLT_weareromenow
 			}
 		}
@@ -4837,7 +4837,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
 			set_cosmetic_tag = MLT_JERSUALEM
 			country_event = mlt.16
-			custom_effect_tooltip = "The State shall be reformed into the Kingdom of Jeruslaem, while our other holdings shall be given to revived Crusader States"
+			custom_effect_tooltip = "Регион будет преобразован в Королевство Иеруслам, а другие наши владения будут переданы возрождённым государствам крестоносцев."
 			malta_crusader_kings = yes
 		}
 	}
@@ -4858,7 +4858,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
 			set_cosmetic_tag = MLT_OUTMERE
 			country_event = mlt.17
-			custom_effect_tooltip = "The State shall be reformed into the first Empire of Outremer, at a higher cost of integration."
+			custom_effect_tooltip = "Государство должно быть реформировано в первую Утремерскую Империю, что потребует больших затрат на интеграцию."
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -5024,10 +5024,10 @@ focus_tree = {
 			every_state = {
 				limit = {
 					OR = {
-					is_core_of = SIC
-					is_core_of = PAP
-					is_core_of = SRD
-					}
+						is_core_of = SIC
+						is_core_of = PAP
+						is_core_of = SRD
+						}
 				}
 				add_core_of = MLT
 			}
@@ -5052,9 +5052,9 @@ focus_tree = {
 			every_state = {
 				limit = {
 					OR = {
-					is_core_of = ITA
-                    is_core_of = SRI
-					}
+						is_core_of = ITA
+						is_core_of = SRI
+						}
 				}
 				add_core_of = MLT
 			}
@@ -5482,8 +5482,8 @@ focus_tree = {
 		if = {
 			limit = {
 			OR = {
-			has_country_leader = { name = "Carmelo Borg Pisani" ruling_only = yes }
-			has_country_leader = { name = "Benito Mussolini" ruling_only = yes }
+			has_country_leader = { name = "Кармело Борг Пизани" ruling_only = yes }
+			has_country_leader = { name = "Бенито Муссолини" ruling_only = yes }
 			}
 			}
 			country_event = mlt.148
@@ -5615,7 +5615,7 @@ focus_tree = {
 		relative_position_id = MLT_heil_dir_im_siegerkranz
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
-			custom_effect_tooltip = "By the Graces of the Kaiser, we shall be granted our own, inferior version, of the Mittelmeerflotte!"
+			custom_effect_tooltip = "По милости Кайзера нам будет предоставлена наша собственная, урезанная версия Миттельмеерфлотте!"
 			hidden_effect = {
 				load_oob = MLT_MF
 			}
@@ -5927,7 +5927,7 @@ focus_tree = {
 					has_completed_focus = MLT_german_benafactors
 				}
 			}
-			custom_effect_tooltip = "To begin our naval reforms, we shall seize several German ships in the Grand Harbor and press them into our own service."
+			custom_effect_tooltip = "Чтобы начать наши военно-морские реформы, мы захватим несколько немецких кораблей в Большой гавани и переведем их на свою службу."
 			hidden_effect = {
 				load_oob = MLT_FREEFLEET
 			}

@@ -55,7 +55,7 @@ focus_tree = {
 					NOT =  { 
 						OR = {
 							OR = {
-								has_country_flag = CSA_social_patriot_victory 
+							has_country_flag = CSA_social_patriot_victory 
 								AND = {
 									is_ai = yes
 									OR = {
@@ -91,7 +91,7 @@ focus_tree = {
 								}	
 							}
 							OR = {
-								has_country_flag = CSA_capone_acw_flag
+							has_country_flag = CSA_capone_acw_flag 
 								AND = {
 									is_ai = yes
 									has_game_rule = {
@@ -106,9 +106,9 @@ focus_tree = {
 				country_event = { id = csa.1 days = 4 }
 			}
 			else_if = {
-				limit = {
+			limit = {
 					OR = {
-						has_country_flag = CSA_social_patriot_victory
+				has_country_flag = CSA_social_patriot_victory
 						AND = {
 							is_ai = yes
 							OR = {
@@ -143,13 +143,13 @@ focus_tree = {
 							}
 						}	
 					}
-				}
-				country_event = { id = csa.1000 days = 4 }
+			}
+			country_event = { id = csa.1000 days = 4 }
 			}
 			else_if = {
 				limit = {
 					OR = {
-						has_country_flag = CSA_capone_acw_flag
+					has_country_flag = CSA_capone_acw_flag
 						AND = {
 							is_ai = yes
 							has_game_rule = {
@@ -198,7 +198,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 				ruling_only = yes
-				name = "Provisional Circuit of the Technocratic Revolution"
+				name = "Временный контур технократической революции"
 		}
 				}
 			ai_will_do = {
@@ -223,14 +223,14 @@ focus_tree = {
 			available = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Harold Loeb"
+					name = "Гарольд Лоэб"
 				}
 				has_government = radical_socialist
 				}
 				bypass = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Harold Loeb"
+						name = "Гарольд Лоэб"
 					}
 					has_government = radical_socialist
 				}
@@ -328,7 +328,7 @@ focus_tree = {
 						ideology = radical_socialist
 						popularity = 0.10
 				}
-				add_popularity = {
+								add_popularity = {
 						ideology = social_democrat
 						popularity = 0.10
 				}
@@ -836,7 +836,7 @@ focus_tree = {
 				bypass = {
 					has_country_leader = {
 							ruling_only = yes
-							name = "Howard Scott"
+							name = "Говард Скотт"
 						}
 					has_government = totalist
 				}
@@ -1052,7 +1052,7 @@ focus_tree = {
 					add_stability = 0.06
 					add_war_support = 0.09
 					add_command_power = 125
-			create_faction_from_template = { 
+					create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_tech_union
 				icon = GFX_faction_csa_technocratic
@@ -1577,14 +1577,14 @@ focus_tree = {
 			available = {
 					has_country_leader = {
 							ruling_only = yes
-							name = "Alphonse Capone"
+							name = "Альфонсе Капоне"
 						}
 						has_government = totalist
 				}
 				bypass = {
 					has_country_leader = {
 							ruling_only = yes
-							name = "Alphonse Capone"
+							name = "Альфонсе Капоне"
 						}
 					has_government = totalist
 				}
@@ -1636,7 +1636,7 @@ focus_tree = {
 			ai_will_do = {
 					factor = 50
 				}
-			completion_reward = {
+				completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus CSA_proletariat_of_Chicago"
 							add_ideas = CSA_capone_welfare
 						hidden_effect = {
@@ -1665,7 +1665,7 @@ focus_tree = {
 			ai_will_do = {
 					factor = 50
 				}
-			completion_reward = {
+				completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus CSA_soup_kitchens"
 					swap_ideas = {
 						remove_idea = CSA_capone_welfare
@@ -1854,7 +1854,7 @@ focus_tree = {
 			completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus CSA_found_OSS"
 					create_intelligence_agency = {
-						name = "Revolutionary Office of Strategic Services"
+						name = "Революционное бюро стратегических служб"
 						icon = GFX_intelligence_agency_logo_CSA_ross
 					}
 					add_ideas = CSA_OSS_idea
@@ -1983,7 +1983,7 @@ focus_tree = {
 							limit = {
 									has_country_leader = {
 											ruling_only = yes
-											name = "Alphonse Capone"
+											name = "Альфонсе Капоне"
 										}
 								}
 							add_country_leader_trait = the_boss
@@ -2545,7 +2545,7 @@ focus_tree = {
 			hidden_effect = {
 			if = {
 			limit = {
-			has_country_leader = { ruling_only = yes name = "Johnny Torrio" }
+			has_country_leader = { ruling_only = yes name = "Джон Торрио" }
 			}
 			country_event = {
 				id = csa.3561
@@ -2703,7 +2703,7 @@ focus_tree = {
 			increase_ruling_party_popularity_by_5 = yes
 			add_manpower = -750
 			create_intelligence_agency = {
-					name = "Revolutionary Office of Strategic Services"
+					name = "Революционное бюро стратегических служб"
 					icon = GFX_intelligence_agency_logo_KX_oss
 			}
 			hidden_effect = {
@@ -3546,7 +3546,7 @@ focus_tree = {
 			hidden_effect = {
 			if = {
 			limit = {
-			has_country_leader = { ruling_only = yes name = "Clyde Barrow"}
+			has_country_leader = { ruling_only = yes name = "Клайд Бэрроу"}
 			}
 			country_event = {
 				id = csa.3594
@@ -3594,21 +3594,21 @@ focus_tree = {
 			add_ideas = CSA_empire_of_sin_idea
 			if = {
 			limit = {
-			has_country_leader = { ruling_only = yes name = "Dan Seavey"}
+			has_country_leader = { ruling_only = yes name = "Дэн Сивей"}
 			}
 			country_event = csa.3601
 			}
 			if = {
 			limit = {
-			has_country_leader = { ruling_only = yes name = "René Belbenoît"}
+			has_country_leader = { ruling_only = yes name = "Рене Бельбенуа"}
 			}
 			country_event = csa.3603
 			}
 			if = {
 			limit = {
 			NOT = {
-			has_country_leader = { ruling_only = yes name = "Dan Seavey"}
-			has_country_leader = { ruling_only = yes name = "René Belbenoît"}
+			has_country_leader = { ruling_only = yes name = "Дэн Сивей"}
+			has_country_leader = { ruling_only = yes name = "Рене Бельбенуа"}
 				}
 			}
 			country_event = csa.3602
@@ -3630,7 +3630,7 @@ focus_tree = {
 		cost = 4.25
 		available = {
 			OR = {
-				has_country_flag = CSA_constitutional_convention_done
+			has_country_flag = CSA_constitutional_convention_done
 				hidden_trigger = { has_country_flag = CSA_butler_democracy }
 			}
 			OR = {
@@ -3663,7 +3663,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CSA_american_commonwealth"
-			increase_ruling_party_popularity_by_5 = yes
+				increase_ruling_party_popularity_by_5 = yes
 		}
 	}
 
@@ -3691,18 +3691,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CSA_federalism"
 			add_stability = 0.03
 			hidden_effect = {
-				country_event = {
-					id = csa.328
-					days = 20
-				}
-				country_event = {
-					id = csa.607
-					days = 200
-				}
+			country_event = {
+			id = csa.328
+			days = 20
+			}
+			country_event = {
+				id = csa.607
+				days = 200
+			}
 			}
 		}
 	}
-
+	
 	focus = {# Unite Unskilled Labour in FLUs
 		id = CSA_unite_unskilled_labour_in_flus
 		icon = GFX_goal_syndicalist_industry
@@ -3784,7 +3784,7 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {# Nation United in Brotherhoods, Guilds and Unions
 		id = CSA_nation_united_in_brotherhoods_guilds_and_unions
 		icon = GFX_goal_NFA_bridge_class_divide
@@ -3940,15 +3940,15 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_country_leader = {
-						name = "William Green"
+						name = "Уильям Грин"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "John Lewis"
+						name = "Джон Льюис"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "David Dubinsky"
+						name = "Дэвид Дубинский"
 						ruling_only = yes
 					}
 				}
@@ -3978,7 +3978,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "David Dubinsky"
+				name = "Дэвид Дубинский"
     			ruling_only = yes
 			}
 			has_government = social_democrat
@@ -3996,130 +3996,130 @@ focus_tree = {
 	}
 
 	focus = {# Labour Rewards its Friends
-		id = CSA_labour_rewards_its_friends
-		icon = GFX_goal_CSA_labour_rewards_friends
-		cost = 5
-		bypass = {
+	id = CSA_labour_rewards_its_friends
+	icon = GFX_goal_CSA_labour_rewards_friends
+	cost = 5
+	bypass = {
 			NOT = {
 				OR = {
 					has_country_leader = {
-						name = "William Green"
+						name = "Уильям Грин"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "John Lewis"
+						name = "Джон Льюис"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "David Dubinsky"
+						name = "Дэвид Дубинский"
 						ruling_only = yes
 					}
 				}
 			}
 		}
-		prerequisite = {
-			focus = CSA_unite_unskilled_labour_in_flus
+	prerequisite = {
+		focus = CSA_unite_unskilled_labour_in_flus
+	}
+	prerequisite = {
+		focus = CSA_nation_united_in_brotherhoods_guilds_and_unions
+	}
+	prerequisite = {
+		focus = CSA_resolve_bscp_and_wtul_pressure
+	}
+	prerequisite = {
+		focus = CSA_business_unionism_enforced_by_delegates
+	}
+	mutually_exclusive = {
+		focus = CSA_maintain_craft_union_primacy
+		focus = CSA_syndicalism_without_radicalism
+	}
+	relative_position_id = CSA_american_commonwealth
+	x = -5
+	y = 3
+	ai_will_do = {
+		factor = 50
+	}
+	available = {
+		has_country_leader = {
+			name = "Джон Льюис"
+			ruling_only = yes
 		}
-		prerequisite = {
-			focus = CSA_nation_united_in_brotherhoods_guilds_and_unions
-		}
-		prerequisite = {
-			focus = CSA_resolve_bscp_and_wtul_pressure
-		}
-		prerequisite = {
-			focus = CSA_business_unionism_enforced_by_delegates
-		}
-		mutually_exclusive = {
-			focus = CSA_maintain_craft_union_primacy
-			focus = CSA_syndicalism_without_radicalism
-		}
-		relative_position_id = CSA_american_commonwealth
-		x = -5
-		y = 3
-		ai_will_do = {
-			factor = 50
-		}
-		available = {
-			has_country_leader = {
-    			name = "John Lewis"
-    			ruling_only = yes
-			}
-			has_government = social_democrat
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CSA_labour_rewards_its_friends"
-			add_ideas = CSA_lewis_idea
-			hidden_effect = {
-				country_event = {
-					id = csa.602
-					days = 54
-				}
+		has_government = social_democrat
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CSA_labour_rewards_its_friends"
+		add_ideas = CSA_lewis_idea
+		hidden_effect = {
+			country_event = {
+				id = csa.602
+				days = 54
 			}
 		}
 	}
-
-	focus = {# Maintain Craft Union Primacy
-		id = CSA_maintain_craft_union_primacy
-		icon = GFX_goal_CSA_craft_union_primacy
-		cost = 5
-		bypass = {
+}
+	
+focus = {# Maintain Craft Union Primacy
+id = CSA_maintain_craft_union_primacy
+icon = GFX_goal_CSA_craft_union_primacy
+cost = 5
+bypass = {
 			NOT = {
 				OR = {
 					has_country_leader = {
-						name = "William Green"
+						name = "Уильям Грин"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "John Lewis"
+						name = "Джон Льюис"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "David Dubinsky"
+						name = "Дэвид Дубинский"
 						ruling_only = yes
 					}
 				}
 			}
 		}
-		prerequisite = {
-			focus = CSA_unite_unskilled_labour_in_flus
-		}
-		prerequisite = {
-			focus = CSA_nation_united_in_brotherhoods_guilds_and_unions
-		}
-		prerequisite = {
-			focus = CSA_resolve_bscp_and_wtul_pressure
-		}
-		prerequisite = {
-			focus = CSA_business_unionism_enforced_by_delegates
-		}
-		mutually_exclusive = {
-			focus = CSA_labour_rewards_its_friends
-			focus = CSA_syndicalism_without_radicalism
-		}
-		relative_position_id = CSA_american_commonwealth
-		x = -3
-		y = 3
-		ai_will_do = {
-			factor = 50
-		}
-		available = {
-			has_country_leader = {
-				name = "William Green"
-				ruling_only = yes
-			}
-			has_government = social_democrat
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus CSA_maintain_craft_union_primacy"
-			add_ideas = CSA_green_idea
-			hidden_effect = {
-				country_event = {
-					id = csa.604
-					days = 54
-				}
-			}
+prerequisite = {
+	focus = CSA_unite_unskilled_labour_in_flus
+}
+prerequisite = {
+	focus = CSA_nation_united_in_brotherhoods_guilds_and_unions
+}
+prerequisite = {
+	focus = CSA_resolve_bscp_and_wtul_pressure
+}
+prerequisite = {
+	focus = CSA_business_unionism_enforced_by_delegates
+}
+mutually_exclusive = {
+	focus = CSA_labour_rewards_its_friends
+	focus = CSA_syndicalism_without_radicalism
+}
+relative_position_id = CSA_american_commonwealth
+x = -3
+y = 3
+ai_will_do = {
+	factor = 50
+}
+available = {
+	has_country_leader = {
+		name = "Вильям Грин"
+		ruling_only = yes
+	}
+	has_government = social_democrat
+}
+completion_reward = {
+	log = "[GetDateText]: [Root.GetName]: Focus CSA_maintain_craft_union_primacy"
+	add_ideas = CSA_green_idea
+	hidden_effect = {
+		country_event = {
+			id = csa.604
+			days = 54
 		}
 	}
+}
+}
 
 	focus = {# Establish Jurisdiction Departments
 		id = CSA_establish_jurisdiction_departments
@@ -4614,7 +4614,7 @@ focus_tree = {
 			trigger = {
 				NOT = {
 					has_country_leader = {
-						name = "Jacob Coxey"
+						name = "Джейкоб Кокси"
 						ruling_only = yes
 					}
 				}
@@ -4643,12 +4643,12 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_leader = {
-					name = "Walter Waters"
-					ruling_only = yes
+			has_country_leader = {
+				name = "Вальтер Уотерс"
+    			ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Jacob Coxey"
+					name = "Джейкоб Кокси"
 					ruling_only = yes
 				}
 			}
@@ -4665,7 +4665,7 @@ focus_tree = {
 			trigger = {
 				NOT = {
 					has_country_leader = {
-						name = "Philip Murray"
+						name = "Филип Мюррей"
 						ruling_only = yes
 					}
 				}
@@ -4695,11 +4695,11 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "George Meany"
+					name = "Джордж Мини"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Philip Murray"
+					name = "Филип Мюррей"
 					ruling_only = yes
 				}
 			}
@@ -4771,15 +4771,15 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "William Green"
+					name = "Вильям Грин"
     					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "John Lewis"
+					name = "Джон Льюис"
     					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "David Dubinsky"
+					name = "Дэвид Дубинский"
     					ruling_only = yes
 				}
 			}
@@ -4813,7 +4813,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Ernest Hemingway"
+				name = "Эрнест Хемингуэй"
     			ruling_only = yes
 			}
 		}
@@ -6393,12 +6393,12 @@ focus_tree = {
 				limit = {
 					NOT = {
 						has_country_leader = {
-							name = "James P. Cannon"
+							name = "Джеймс П. Кэннон"
 							ruling_only = yes
 						}
 					}
 				}
-				set_country_leader_ideology = de_leonism_subtype
+			set_country_leader_ideology = de_leonism_subtype
 				custom_effect_tooltip = syn_de_leonism_subtype_swap_tt
 			}
 			hidden_effect = {
@@ -6886,7 +6886,7 @@ focus_tree = {
 			OR = {
 				has_country_flag = CSA_constitutional_convention_done
 				has_country_flag = CSA_Peaceful_Browder
-				has_country_leader = { ruling_only = yes name = "William Z. Foster" }
+				has_country_leader = { ruling_only = yes name = "Уильям З. Фостер" }
 			}
 			has_government = totalist
 			OR = {
@@ -6902,7 +6902,7 @@ focus_tree = {
 				tooltip = CSA_browder_is_leader
 				has_country_leader_ideology = popcom_subtype
 			}
-		    }
+			}
 		}
 		prerequisite = {
 			focus = CSA_second_convention
@@ -7273,7 +7273,7 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_country_leader = { name = "Earl Browder" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Эрл Браудер" ruling_only = yes } }
 				set_country_leader_portrait = {
 						portrait = "gfx/leaders/CSA/Portrait_CSA_Earl_Browder_Hat.png"
 				}
@@ -9424,7 +9424,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_butlers_plan
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 			has_country_flag = CSA_butler_in_charge
 		}
@@ -9438,7 +9438,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+				has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			}
 		}
 		completion_reward = {
@@ -9451,7 +9451,7 @@ focus_tree = {
 		icon = GFX_CSA_finish_centralism
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9476,7 +9476,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_nationalism
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9500,7 +9500,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_peoples_republican_army
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		x = 2
@@ -9520,7 +9520,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_democratic_centralism
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9548,7 +9548,7 @@ focus_tree = {
 		icon = GFX_goal_healthcare
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9578,7 +9578,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_empower_red_militias
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		x = 1
@@ -9602,7 +9602,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_empower_congress
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9626,7 +9626,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_red_marines
 		cost = 5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		x = 2
@@ -9679,7 +9679,7 @@ focus_tree = {
 			focus = CSA_humane_society
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		relative_position_id = CSA_butler_coup
@@ -9703,7 +9703,7 @@ focus_tree = {
 		icon = GFX_goal_CSA_fair_days_pay
 		cost = 5.5
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		prerequisite = {
@@ -9740,7 +9740,7 @@ focus_tree = {
 			focus = CSA_war_is_a_racket
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		relative_position_id = CSA_butler_coup
@@ -9768,7 +9768,7 @@ focus_tree = {
 			focus = CSA_war_is_a_racket
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		relative_position_id = CSA_butler_coup
@@ -9850,7 +9850,7 @@ focus_tree = {
 			focus = CSA_defensive_outlook
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Smedley Butler" }
+			has_country_leader = { ruling_only = yes name = "Смедли Батлер" }
 			has_government = radical_socialist
 		}
 		relative_position_id = CSA_butler_coup
@@ -9983,7 +9983,7 @@ focus_tree = {
 				country_event = { id = csa.20 months = 10 }
 				country_event = { id = csa.24 days = 30 random = 10 }
 				if = {
-				limit = { has_country_leader = { ruling_only = yes name = "William Z. Foster" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Уильям З. Фостер" } }
 				country_event = { id = csa.176 days = 280 random = 10 }
 				}
 			}			
@@ -10186,9 +10186,9 @@ focus_tree = {
 			custom_effect_tooltip = CSA_destroy_longists
 			hidden_effect = {
 				USA_resistance_klan_effect = yes
-				modify_country_flag = {
-					flag = ACW_klan_resistance
-					value = -2
+			modify_country_flag = {
+				flag = ACW_klan_resistance
+				value = -2
 				}
 			}
 		}
@@ -10458,9 +10458,9 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 120
-				producer = CSA
+			type = motorized_equipment
+			amount = 120
+			producer = CSA
 			}
 		}
 	}
@@ -10575,9 +10575,9 @@ focus_tree = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1
-					amount = 45
-					producer = CSA
+				type = light_tank_equipment_1
+				amount = 45
+				producer = CSA
 				}
 			}
 			if = {
@@ -10585,9 +10585,9 @@ focus_tree = {
 					has_dlc = "No Step Back"
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis
-					amount = 45
-					producer = CSA
+				type = light_tank_chassis
+				amount = 45
+				producer = CSA
 				}
 			}			
 		}
@@ -10806,13 +10806,13 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				category = cat_anti_air
-				}
+			}
 			if = {
 				limit = { has_tech = interwar_antitank }
-				add_equipment_to_stockpile = {
-					type = anti_tank_equipment
-					amount = 65
-					producer = CSA
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 65
+				producer = CSA
 				}
 			}
 			add_equipment_to_stockpile = {
@@ -10856,10 +10856,10 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_tech = interwar_antitank }
-				add_equipment_to_stockpile = {
-					type = anti_tank_equipment
-					amount = 15
-					producer = BBR
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 15
+				producer = BBR
 				}
 			}
 			add_equipment_to_stockpile = {
@@ -11469,18 +11469,18 @@ focus_tree = {
 			add_stability = 0.15
 			add_political_power = 100
 			if = {
-			limit = {
-			NOT = {
-			has_country_leader = { ruling_only = yes name = "Walter Waters" }
-				}
-			}
-			hidden_effect = {
-			country_event = {
-			id = csa.90001
-			days = 14
+				limit = {
+				NOT = {
+				has_country_leader = { ruling_only = yes name = "Вальтер Уотерс" }
 					}
 				}
-			}
+				hidden_effect = {
+				country_event = {
+				id = csa.90001
+				days = 14
+						}
+					}
+				}
 		}
 	}
 	focus = {# Military Research
@@ -12403,11 +12403,11 @@ focus_tree = {
 				}
 			}
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "James Burnham" }
-				has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
-				has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-				has_country_leader = { ruling_only = yes name = "Jay Lovestone" }
-				has_country_leader = { ruling_only = yes name = "Benjamin Gitlow" }
+				has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+				has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
+				has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+				has_country_leader = { ruling_only = yes name = "Джей Лавстон" }
+				has_country_leader = { ruling_only = yes name = "Бенджамин Гитлоу" }
 			}
 		}
 		relative_position_id = CSA_back_in_business
@@ -13027,9 +13027,9 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				hidden_effect = {
@@ -13065,9 +13065,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					NOT = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				unlock_decision_tooltip = CSA_form_suca
@@ -13075,9 +13075,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					OR = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				add_state_core = 1251
@@ -13128,9 +13128,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					NOT = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				unlock_decision_tooltip = CSA_form_sugc
@@ -13138,9 +13138,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					OR = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				add_state_core = 304
@@ -13190,9 +13190,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					NOT = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				unlock_decision_tooltip = CSA_form_suc
@@ -13200,9 +13200,9 @@ focus_tree = {
 			if = {
 				limit = { 
 					OR = {
-						has_country_leader = { ruling_only = yes name = "James Burnham" }
-						has_country_leader = { ruling_only = yes name = "Ronald Reagan" }
-						has_country_leader = { ruling_only = yes name = "Lyndon LaRouche" }
+						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
+						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
+						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
 					}
 				}
 				add_state_core = 690
@@ -13992,19 +13992,19 @@ focus_tree = {
 			}	
 			NOT = {
 				OR = {
-				has_country_leader = { ruling_only = yes name = "William Z. Foster" }
-				has_country_leader = { ruling_only = yes name = "William Weinstone" }
-				has_country_leader = { ruling_only = yes name = "James W. Ford" }
-				has_country_leader = { ruling_only = yes name = "Jay Fox" }
-				has_country_leader = { ruling_only = yes name = "Jack Shulman" }
-				has_country_leader = { ruling_only = yes name = "John J. Ballam" }
+				has_country_leader = { ruling_only = yes name = "Уильям З. Фостер" }
+				has_country_leader = { ruling_only = yes name = "Уильям Вайнстоун" }
+				has_country_leader = { ruling_only = yes name = "Джеймс В. Форд" }
+				has_country_leader = { ruling_only = yes name = "Джей Фокс" }
+				has_country_leader = { ruling_only = yes name = "Джек Шульман" }
+				has_country_leader = { ruling_only = yes name = "Джон Дж. Баллам" }
 				AND = {
 					has_completed_focus = CSA_american_syndicalist_union
 					INT = { NOT = { has_government = totalist } }
 				}
 				}
+				}
 			}    
-		    }
 		}
 		relative_position_id = CSA_world_revolution
 		x = 2
@@ -14520,7 +14520,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CSA_master_of_the_west"
 			if = {
 			limit = {
-			CUB = { has_socialist_government = no NOT = { is_subject_of = ROOT } }
+				CUB = { has_socialist_government = no NOT = { is_subject_of = ROOT } }
 			}
 			create_wargoal = {
 			type = annex_everything
@@ -15051,7 +15051,7 @@ focus_tree = {
 		icon = GFX_CSA_president_burhham
 		cost = 1
 		available = {  
-			has_country_leader = { ruling_only = yes name = "James Burnham" }
+			has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
 				has_government = totalist
 		}
 		prerequisite = {
@@ -15084,7 +15084,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 				has_country_leader_ideology = burnhamite_thought_subtype
-				has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+				has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 				}
 			}
 			has_government = totalist
@@ -15110,7 +15110,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 				has_country_leader_ideology = burnhamite_thought_subtype
-				has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+				has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 				}
 			}
 			has_government = totalist
@@ -15161,7 +15161,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15209,7 +15209,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15295,7 +15295,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15346,7 +15346,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15373,7 +15373,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15404,7 +15404,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15434,7 +15434,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15463,7 +15463,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15491,7 +15491,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15518,7 +15518,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15553,7 +15553,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15585,7 +15585,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15617,7 +15617,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15656,7 +15656,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15691,7 +15691,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15727,7 +15727,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15758,7 +15758,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 		    has_government = totalist
@@ -15785,7 +15785,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15818,7 +15818,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15851,7 +15851,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15876,7 +15876,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 		CAN = {
@@ -15907,7 +15907,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -15937,7 +15937,7 @@ focus_tree = {
 				tooltip = CSA_burnham_is_leader
 				OR = {
 					has_country_leader_ideology = burnhamite_thought_subtype
-					has_country_leader = { ruling_only = yes name = "James P. Cannon" }
+					has_country_leader = { ruling_only = yes name = "Джеймс П. Кэннон" }
 					}
 			}
 			has_government = totalist
@@ -16038,7 +16038,7 @@ focus_tree = {
 		tooltip = CSA_lovestone_is_leader
 		has_country_leader_ideology = lovestoneism_subtype
 	    }
-		}
+				}
 		prerequisite = {focus = CSA_final_revolution}
 		x = 0
 		y = 1
@@ -16076,7 +16076,7 @@ focus_tree = {
 		tooltip = CSA_lovestone_is_leader
 		has_country_leader_ideology = lovestoneism_subtype
 	    }
-		}
+				}
 		prerequisite = {focus = CSA_red_patronage}
 		x = -2
 		y = 2

@@ -113,19 +113,19 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 
 country_event = { id = TXS.120 days = 45 }
 country_event = { id = TXS.52 days = 86 }
@@ -201,7 +201,7 @@ set_party_name = {
 }
 
 create_country_leader = {
-	name = "Robert Minor"
+	name = "Роберт Майнор"
 	desc = "POLITICS_BOB_MINOR_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Robert_Minor.png"
 	expire = "1.1.1"
@@ -210,7 +210,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Homer Brooks"
+	name = "Гомер Брукс"
 	desc = "POLITICS_HOMER_ROSS_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Homer_Brooks.png"
 	expire = "1.1.1"
@@ -219,7 +219,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Woodie Guthrie"
+	name = "Вуди Гатри"
 	desc = "POLITICS_WOODIE_GURTHIE_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Woody_Guthrie.png"
 	expire = "1.1.1"
@@ -228,7 +228,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lyndon B. Johnson"
+	name = "Линдон Джонсон"
 	desc = "POLITICS_LBJ_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson.png"
 	expire = "1.1.1"
@@ -237,7 +237,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James V Allred"
+	name = "Джеймс Оллред"
 	desc = "POLITICS_JAMES_ALLRED_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_James_V_Allred.png"
 	expire = "1.1.1"
@@ -246,7 +246,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilbert Lee O'Daniel"
+	name = "Уилберт Ли О’Дэниел"
 	desc = "POLITICS_WL_ODANIEL_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 	expire = "1.1.1"
@@ -255,7 +255,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilbert Lee O'Daniel"
+	name = "Уилберт Ли О’Дэниел"
 	desc = "POLITICS_WL_ODANIEL_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Wilbert_Lee_Odaniel.png"
 	expire = "1.1.1"
@@ -264,7 +264,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Martin Dies Jr."
+	name = "Мартин Дайс мл."
 	desc = "POLITICS_MARTIN_DIES_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Martin_Dies_Jr.png"
 	expire = "1.1.1"
@@ -273,7 +273,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "National Commitee of State"
+	name = "Национальный комитет штатов"
 	desc = "POLITICS_COUNCIL_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_National_Committee_of_State.png"
 	expire = "1.1.1"
@@ -282,7 +282,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Torkild Rieber"
+	name = "Торкильд Рибер"
 	desc = "POLITICS_TORKLID_RIEBER_DESC"
 	picture = "gfx/leaders/TXS/Portrait_Texas_Torkild_Rieber.png"
 	expire = "1.1.1"
@@ -292,7 +292,7 @@ create_country_leader = {
 
 ### Field Marshal
 create_field_marshal = {# 
-	name = "Bruce Palmer Jr."
+	name = "Брюс Палмер мл."
 	desc = ""
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Bruce_Palmer_Jr.png"
 	traits = {
@@ -306,7 +306,7 @@ create_field_marshal = {#
 	logistics_skill = 2
 }
 create_field_marshal = {# 
-	name = "William S. Graves"
+	name = "Уильям С. Грейвс"
 	desc = "ARMY_WILLIAM_GRAVES_DESC"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_William_S_Graves.png"
 	traits = {
@@ -322,7 +322,7 @@ create_field_marshal = {#
 	id = 78989
 }
 create_field_marshal = {# 
-	name = "Ira C. Eaker "
+	name = "Айра Икер "
 	desc = ""
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Ira_C_Eaker.png"
 	traits = {
@@ -343,7 +343,7 @@ create_field_marshal = {#
 }
 ### General ###
 create_corps_commander = {
-	name = "Robert G. Cole"
+	name = "Роберт Г. Коул"
 	desc = "ROBERT_COLE_ARMY_DESC"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Robert_G_Cole.png"
 	traits = {
@@ -361,8 +361,8 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
-create_corps_commander = {# Claire Lee Chennault
-	name = "Claire Lee Chennault"
+create_corps_commander = {# Клэр Ли Шеннолт
+	name = "Клэр Ли Шеннолт"
 	desc = "TEX_CLAIRE_LEE_CHENNAULT_ARMY_DESC"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Claire_Lee_Chennault.png"
 	traits = {
@@ -377,7 +377,7 @@ create_corps_commander = {# Claire Lee Chennault
 	id = 78990
 }
 create_corps_commander = {# 
-	name = "James Earl Rudder"
+	name = "Джеймс Эрл Руддер"
 	desc = ""
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_James_Earl_Rudder.png"
 	traits = {
@@ -395,7 +395,7 @@ create_corps_commander = {#
 	id = 78992
 }
 create_corps_commander = {#
-	name = "Walton Walker"
+	name = "Уолтон Уокер"
 	desc = "TEX_WALTON_WALKER_ARMY_DESC"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Walton_Walker.png"
 	traits = {
@@ -410,7 +410,7 @@ create_corps_commander = {#
 	logistics_skill = 2
 }
 create_corps_commander = {#
-	name = "Edwin Walker"
+	name = "Эдвин Уолкер"
 	desc = ""
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Edwin_Walker.png"
 	traits = {
@@ -425,8 +425,8 @@ create_corps_commander = {#
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander = {# Lucian Truscott
-	name = "Lucian Truscott"
+create_corps_commander = {# Люциан Траскотт
+	name = "Люциан Траскотт"
 	desc = "USA_LUCIAN_TRUSCOTT_ARMY_DESC"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Lucian_Truscott.png"
 	traits = {
@@ -442,7 +442,7 @@ create_corps_commander = {# Lucian Truscott
 	logistics_skill = 2
 }
 create_corps_commander = {# 
-	name = "William Hood Simpson"
+	name = "Уильям Худ Симпсон"
 	desc = "TEX_WILLIAM_SIMPSON_ARMY_DESC"
 	portrait_path = "gfx/leaders/TEX/Portrait_TEX_William_Simpson.png"
 	traits = {
@@ -456,7 +456,7 @@ create_corps_commander = {#
 	logistics_skill = 2
 }
 create_corps_commander = {# 
-	name = "Ralph P. Cousins"
+	name = "Ральф П. Кузинс"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Ralph_Cousins.png"
 	traits = {
 		air_commander
@@ -467,7 +467,7 @@ create_corps_commander = {#
 	logistics_skill = 2
 }
 create_corps_commander = {# 
-	name = "Samuel Tankersley Williams"
+	name = "Сэмюэл Танкерсли Уильямс"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Samuel_Tankersley_Williams.png"
 	traits = {
 		career_officer
@@ -483,7 +483,7 @@ create_corps_commander = {#
 
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
-	name = "Chester W. Nimitz"
+	name = "Честер У. Нимиц"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_Chester_Nimitz_KR.png"
 	traits = {
 		superior_tactician
@@ -499,7 +499,7 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 3
 }
 create_navy_leader = { #Auto-Generated
-	name = "Lyndon Baines Johnson"
+	name = "Линдон Джонсон"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Lyndon_Baines_Johnson_Navy.png"
 	traits = {
 		politically_connected
@@ -514,7 +514,7 @@ create_navy_leader = { #Auto-Generated
 	id = 79999
 }
 create_navy_leader = { #Auto-Generated
-	name = "James L Holloway Jr."
+	name = "Джеймс Холлоуэй-мл."
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_James_L_Holloway_Jr.png"
 	traits = {
 		gunnery_expert
@@ -528,7 +528,7 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 2
 }
 create_navy_leader = { #Auto-Generated
-	name = "Samuel David Delaney"
+	name = "Сэмюэль Д. Дилэни"
 	portrait_path = "gfx/leaders/TXS/Portrait_Texas_Samuel_David_Delaney.png"
 	traits = {
 		gunnery_expert

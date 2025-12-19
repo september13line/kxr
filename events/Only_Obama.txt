@@ -157,7 +157,7 @@ country_event = { #The Great Battle but Kenya
 		KIK = {
 			hidden_effect = {
 				if = {	
-					limit = { has_country_leader = { name = "Mzee Onyango Obama" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Мзи Оньянго Обама" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/KIK/KIK_Punished_Obama.png"
 					}
@@ -492,7 +492,7 @@ country_event = { #Obama
 			}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Ndirangu Mau"
+				name = "Ндирангу Мау"
 				picture = "gfx/leaders/KIK/KIK_Ndirangu_Mau.png"
 				expire = "1.1.1"
 				ideology = mathengeism_subtype
@@ -542,7 +542,7 @@ country_event = { #Obama
 				days = 20
 			}
 			create_country_leader = {
-				name = "Ndirangu Mau"
+				name = "Ндирангу Мау"
 				picture = "gfx/leaders/KIK/KIK_Ndirangu_Mau.png"
 				expire = "1.1.1"
 				ideology = mathengeism_subtype
@@ -575,7 +575,7 @@ country_event = { #Obama
 		hidden_effect = {
 			country_event = redkenya.9
 			create_country_leader = {
-				name = "Fred Kubai"
+				name = "Фред Кубай"
 				desc = "POLITICS_FRED_KUBAI_DESC"
 				picture = "gfx/leaders/KIK/KIK_Fred_Kubai.png"
 				expire = "1.1.1"
@@ -632,7 +632,7 @@ country_event = { #Post Obama
 		hidden_effect = {
 			set_cosmetic_tag = KIK_KENYA_FEDERATION
 			create_country_leader = {
-				name = "Ndirangu Mau"
+				name = "Ндирангу Мау"
 				picture = "gfx/leaders/KIK/KIK_Ndirangu_Mau.png"
 				expire = "1.1.1"
 				ideology = mathengeism_subtype
@@ -657,7 +657,7 @@ country_event = { #Post Obama
 			remove_unit_leader = yes
 		}
 		create_corps_commander = {
-			name = "Ndirangu Mau"
+			name = "Ндирангу Мау"
 			portrait_path = "gfx/leaders/KIK/KIK_Ndirangu_Mau.png"
 			desc = ""
 			traits = { }
@@ -690,7 +690,7 @@ country_event = { #Post Obama
 				days = 15
 			}
 			create_country_leader = {
-				name = "Fred Kubai"
+				name = "Фред Кубай"
 				desc = "POLITICS_FRED_KUBAI_DESC"
 				picture = "gfx/leaders/KIK/KIK_Fred_Kubai.png"
 				expire = "1.1.1"
@@ -784,7 +784,7 @@ country_event = { #pro-bantu
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Stanley Mathenge"
+					name = "Стэнли Мэтендж"
 					ruling_only = yes
 				}
 			}
@@ -833,7 +833,7 @@ country_event = { #Obama cult
 		set_cosmetic_tag = KIK_OBAMA_AFRICA
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Mzee Onyango Obama" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Мзи Оньянго Обама" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/KIK/KIK_Based_Obama.png"
 				}
@@ -844,7 +844,7 @@ country_event = { #Obama cult
 	}
 	
 }
-country_event = { #Obama Mosley
+country_event = { #Obama Мосли
 	id = redkenya.16
 	immediate = {log = "[GetDateText]: [Root.GetName]: event redkenya.15"}
 	title = redkenya.16.t
@@ -1064,7 +1064,7 @@ country_event = { # Baby Obama
 	option = {
 		name = redkenya.24.a
 		create_country_leader = {
-			name = "Barack Obama"
+			name = "Барак Обама"
 			desc = "POLITICS_BABY_OBAMA_DESC"
 			picture = "gfx/leaders/KIK/KIK_Baby_Obama.png"
 			expire = "1.1.1"
@@ -1119,7 +1119,7 @@ country_event = { # Obama 2
 	option = {
 		name = redkenya.26.a
 		create_country_leader = {
-			name = "Barack Obama Jr"
+			name = "Барак Обама мл."
 			picture = "gfx/leaders/KIK/KIK_Babier_Obama.png"
 			expire = "2009.1.1"
 			ideology = moderate_obammunism_subtype
@@ -1128,7 +1128,7 @@ country_event = { # Obama 2
 	option = {
 		name = redkenya.26.b
 		create_country_leader = {
-			name = "Barack Obama Jr"
+			name = "Барак Обама мл."
 			picture = "gfx/leaders/KIK/KIK_Babier_Obama.png"
 			expire = "2009.1.1"
 			ideology = moderate_obammunism_subtype
@@ -1422,7 +1422,7 @@ country_event = {#
 	option = {
 		name = redkenya.33.c
 		create_country_leader = {
-			name = "Bildad Kaggia"
+			name = "Билдад Каггия"
 			desc = "POLITICS_BILDAD_KAGGIA_DESC"
 			picture = "gfx/leaders/KIK/KIK_Bildad_Kaggia.png"
 			expire = "1.1.1"
@@ -1466,7 +1466,7 @@ country_event = {#
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Makhan Singh"
+			name = "Махан Сингх"
 			desc = "POLITICS_MAKHAN_SINGH_DESC"
 			picture = "gfx/leaders/KIK/KIK_Makhan_Singh.png"
 			expire = "1.1.1"
@@ -1582,7 +1582,7 @@ country_event = {#obama fate of diaspora
 	option = {
 		name = redkenya.34.b
 		ai_chance = { factor = 0 }
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_regional   
 				name = faction_afrikan_int
 				icon = GFX_faction_logo_obama
@@ -1639,51 +1639,51 @@ country_event = {#obama fate of diaspora
 					NYC = {
 						OR = {
 							has_country_leader = {
-								name = "Casper Holstein"
+								name = "Каспер Гольштейн"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Bumpy Johnson"
+								name = "Бампи Джонсон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Stephanie St. Clair"
+								name = "Стефани Сент-Клер"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Frank Crosswaith"
+								name = "Франк Кроссвейт"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "A. Philip Randolph"
+								name = "Аса Филип Рэндольф"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "David Hamilton Jackson"
+								name = "Дэвид Гамильтон Джексон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Hubert Harrison"
+								name = "Губерт Гаррисон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Bayard Rustin"
+								name = "Баярд Растин"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "James R. Lawson"
+								name = "Джеймс Р. Лоусон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Sufi Abdul Hamid"
+								name = "Суфи Абдул Хамид"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Ira Kemp"
+								name = "Айра Кемп"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Marcus Garvey"
+								name = "Маркус Гарви"
 								ruling_only = yes
 							}
 						}
@@ -1819,51 +1819,51 @@ country_event = {#kimathi & co fate of diaspora
 					NYC = {
 						OR = {
 							has_country_leader = {
-								name = "Casper Holstein"
+								name = "Каспер Гольштейн"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Bumpy Johnson"
+								name = "Бампи Джонсон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Stephanie St. Clair"
+								name = "Стефани Сент-Клер"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Frank Crosswaith"
+								name = "Франк Кроссвейт"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "A. Philip Randolph"
+								name = "Аса Филип Рэндольф"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "David Hamilton Jackson"
+								name = "Дэвид Гамильтон Джексон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Hubert Harrison"
+								name = "Губерт Гаррисон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Bayard Rustin"
+								name = "Баярд Растин"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "James R. Lawson"
+								name = "Джеймс Р. Лоусон"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Sufi Abdul Hamid"
+								name = "Суфи Абдул Хамид"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Ira Kemp"
+								name = "Айра Кемп"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Marcus Garvey"
+								name = "Маркус Гарви"
 								ruling_only = yes
 							}
 						}

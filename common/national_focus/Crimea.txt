@@ -467,7 +467,7 @@ focus_tree = {
 					}
 				}
 			}
-			add_mines = { region = 30 amount = 120 }
+				add_mines = { region = 30 amount = 120 }
 			random_owned_controlled_state = {
 				prioritize = { 1221 }
 				add_extra_state_shared_building_slots = 2
@@ -1774,7 +1774,7 @@ focus_tree = {
 				long_name = CRM_german_party_long
 			}
 			create_country_leader = {
-				name = "Woldemar Falz-Fein"
+				name = "Вольдемар Фальц-Фейн"
 				picture = "gfx/leaders/CRM/Portrait_CRM_Voldemar_Falz_Fein.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
@@ -1811,7 +1811,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Ties_With_Ottomans"
-			custom_effect_tooltip = "We will align ourselves with Ottoman Empire"
+			custom_effect_tooltip = "Мы объединимся с Османской империей"
 			TUR = { country_event = crm.112 }
 			every_other_country = {
 				limit = {
@@ -1959,7 +1959,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_On_Our_Own"
-			custom_effect_tooltip = "We shall be independent of any foreign influence"
+			custom_effect_tooltip = "Мы станем независимыми от любого иностранного влияния"
 			every_other_country = {
 				limit = {
 					OR = {
@@ -2241,7 +2241,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Directorate_Of_Economy_And_Military"
-			custom_effect_tooltip = "We will start our economic reforms"
+			custom_effect_tooltip = "Мы начнем экономические реформы"
 			add_ideas = CRM_directorate_of_economy_and_military
 		}
 	}
@@ -2272,7 +2272,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Deal_With_Water_Shortage"
-			custom_effect_tooltip = "We will start our efforts to eradicate water shortage"
+			custom_effect_tooltip = "Мы начнем работу по устранению дефицита воды"
 			activate_targeted_decision = { target = 137 decision = CRM_Build_Alminsk_Reservoir }
 			activate_targeted_decision = { target = 137 decision = CRM_Build_Ayan_Reservoir }
 			activate_targeted_decision = { target = 196.owner decision = CRM_northern_crimean_canal }
@@ -3457,7 +3457,7 @@ focus_tree = {
 					days = 2
 				}
 			}
-			custom_effect_tooltip = "If Don and Kuban cossacks become interested in this theory, we will be able to integrate them peacefully"
+			custom_effect_tooltip = "Если донские и кубанские казаки заинтересуются этой теорией, мы сможем их мирно интегрировать"
 		}
 	}
 	focus = {
@@ -3589,7 +3589,7 @@ focus_tree = {
 		will_lead_to_war_with = AZE
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Bring_Cossacks_Into_The_Fold"
-			custom_effect_tooltip = "If Don and Kuban cossacks believe in Khazar myth, we will annex them peacefully"
+			custom_effect_tooltip = "Если донские и кубанские казаки уверуют в хазарский миф, мы их мирно аннексируем"
 			every_other_country = {
 				limit = {
 					OR = {
@@ -4007,7 +4007,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Nationalization_Of_Banks"
-			custom_effect_tooltip = "We will receive a single national spirit, representing all our reforms!"
+			custom_effect_tooltip = "Мы получим единый национальный дух, олицетворяющий все наши реформы!"
 			add_ideas = CRM_nationalized_banks
 		}
 	}
@@ -4150,7 +4150,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Spread_The_Revolution"
-			custom_effect_tooltip = "We will start reclaiming Lenin's Legacy"
+			custom_effect_tooltip = "Мы начнем возвращать себе наследие Ленина"
 			add_war_support = 0.25
 			RUS_enable_integration = yes
 		}
@@ -4396,8 +4396,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRM_Lenin_Lenin_Lenin"
-			custom_effect_tooltip = "We will become Russian Socialist Republic!"
-			custom_effect_tooltip = "We will receive a single national spirit, representing all our reforms!"
+			custom_effect_tooltip = "Мы станем Российской Социалистической Республикой!"
+			custom_effect_tooltip = "Мы получим единый национальный дух, олицетворяющий все наши реформы!"
 			hidden_effect = {
 				remove_ideas = CRM_nationalized_land
 				remove_ideas = 	CRM_soviets_power
@@ -4426,7 +4426,7 @@ focus_tree = {
 				remove_ideas = CRM_water_shortage
 				remove_ideas = CRM_severe_water_shortage
 				create_country_leader = {
-					name = "Dmitriy Ulyanov"
+					name = "Дмитрий Ульянов"
 					desc = "POLITICS_DMITRIY_ULYANOV_DESC"
 					picture = "gfx/leaders/CRM/Portrait_CRM_Dmitry_Ulyanov.png"
 					expire = "1.1.1"

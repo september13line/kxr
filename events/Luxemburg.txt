@@ -70,7 +70,7 @@ country_event = { #congress
 		log = "[GetDateText]: [Root.GetName]: event lux.2" 
 		hidden_effect = {
 			create_country_leader = {
-				name = "Charles Marx"
+				name = "Шарль Маркс"
 				desc = "POLITICS_CHARLES_MARX_DESC"
 				picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charles_Marx.png"
 				expire = "1.1.1"
@@ -216,7 +216,7 @@ country_event = { #counter-revolutionary militias attempt coup
 			ruling_party = authoritarian_democrat
 		}
 		create_country_leader = {
-			name = "Council of State"
+			name = "Государственный совет"
 			picture = "gfx/leaders/LUX/Portrait_Luxemburg_State_Council.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
@@ -309,14 +309,14 @@ country_event = { #Restore the Monarchy?
 		name = lux.7.a
 		add_ideas = LUX_church_question
 		create_country_leader = {
-			name = "Charlotte"
+			name = "Шарлотта"
 			desc = "POLITICS_CHARLOTTE_DESC"
 			picture = "gfx/leaders/LUX/Portrait_Luxemburg_Charlotte.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_field_marshal = {
-			name = "Prince Felix of Bourbon-Parma"
+			name = "Феличе Бурбон-Пармский"
 			portrait_path = "gfx/leaders/LUX/Portrait_LUX_Prince_Felix_of_Bourbon_Parma.png"
 			traits = { politically_connected }
 			skill = 1
@@ -454,8 +454,8 @@ country_event = { # elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+			ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 108
 					elections_allowed = yes
@@ -499,8 +499,8 @@ country_event = { # elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+			ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 108
 					elections_allowed = yes
@@ -534,8 +534,8 @@ country_event = { # elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+			ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 108
 					elections_allowed = yes
@@ -573,8 +573,8 @@ country_event = { # elections
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+			ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 108
 					elections_allowed = yes
@@ -1406,7 +1406,7 @@ country_event = { #princess flavour - GER simps
 	option = { #restore monarch
 		name = lux.35.b
 		create_country_leader = {
-			name = "Maria-Adelheid"
+			name = "Мария-Адельхайд"
 			picture = "gfx/leaders/HOL/Portrait_HOL_Marie_Adelaide.png"
 			expire = "1.1.1"
 			ideology = volkism_subtype
@@ -1519,8 +1519,8 @@ country_event = { #Luxemburger Germany
 	has_country_flag = LUX_GER_ALONE
 	has_government = national_populist
 	OR = {
-	has_country_leader = { ruling_only = yes name = "Damian Kratzenberg" }
-	has_country_leader = { ruling_only = yes name = "Maria-Adelheid" }
+	has_country_leader = { ruling_only = yes name = "Дамиан Кратценберг" }
+	has_country_leader = { ruling_only = yes name = "Мария-Адельхайд" }
 	}
 	owns_state = 8
 		}
@@ -1544,7 +1544,7 @@ country_event = { #Luxemburger Germany
 	option = { #Germany
 		name = lux.39.b
 	trigger = {
-	has_country_leader = { ruling_only = yes name = "Damian Kratzenberg" }
+	has_country_leader = { ruling_only = yes name = "Дамиан Кратценберг" }
 	}
 	set_cosmetic_tag = LUX_GER
 	every_state = {
@@ -1559,7 +1559,7 @@ country_event = { #Luxemburger Germany
 	option = { #Big Willy
 		name = lux.39.c
 	trigger = {
-	has_country_leader = { ruling_only = yes name = "Damian Kratzenberg" }
+	has_country_leader = { ruling_only = yes name = "Дамиан Кратценберг" }
 	}
 	set_cosmetic_tag = LUX_GER_FAKE
 	every_state = {
@@ -1571,7 +1571,7 @@ country_event = { #Luxemburger Germany
 		add_core_of = LUX
 		}
 	create_country_leader = {
-		name = "Wilhelm III"
+		name = "Вильгельм III"
 		desc = "POLITICS_WILLY_3_DESC"
 		picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III.png"
 		expire = "1.1.1"
@@ -1582,7 +1582,7 @@ country_event = { #Luxemburger Germany
 	option = { #Adelheid
 		name = lux.39.f
 	trigger = {
-	has_country_leader = { ruling_only = yes name = "Maria-Adelheid" }
+	has_country_leader = { ruling_only = yes name = "Мария-Адельхайд" }
 	}
 	set_cosmetic_tag = LUX_GER_FAKE
 	every_state = {
@@ -1605,7 +1605,7 @@ country_event = { #Luxemburger Germany
 	remove_state_core = 28
 	remove_state_core = 779
 	create_country_leader = {
-		name = "Wilhelm III"
+		name = "Вильгельм III"
 		desc = "POLITICS_WILLY_3_DESC"
 		picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_III.png"
 		expire = "1.1.1"

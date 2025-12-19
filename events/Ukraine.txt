@@ -483,7 +483,7 @@ country_event = { # Melnyk Returns
 				custom_effect_tooltip = leftist_uvo_becomes_dominant_galicia
 			}
 			create_country_leader = {
-				name = "Mykola Stsiborskyi"
+				name = "Микола Сціборський"
 				desc = "POLITICS_MYKOLA_STSIBORSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Stsiborskyi.png"
 				expire = "1.1.1"
@@ -495,7 +495,7 @@ country_event = { # Melnyk Returns
 					set_unit_leader_flag = UVO_Galicia_leader
 				}
 				create_country_leader = {
-					name = "Mykola Stsiborskyi"
+					name = "Микола Сціборський"
 					desc = "POLITICS_MYKOLA_STSIBORSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Stsiborskyi.png"
 					expire = "1.1.1"
@@ -632,7 +632,7 @@ country_event = { # Arming the Striltsy
 		random_owned_controlled_state = {
 			prioritize = { 202 }
 			create_unit = {
-				division = "division_template = \"Sichovi Striltsi\" start_experience_factor = 0.3"
+				division = "division_template = \"Січові стрільці\" start_experience_factor = 0.3"
 				owner = ROOT
 				prioritize_location = 504
 			}
@@ -706,7 +706,7 @@ country_event = { # Sich Streltsy disbanded!
 		trigger = {	has_completed_focus = UKR_King_Path }
 		UKR_increase_hetman_strength = yes
 		delete_unit_template_and_units = {
-			division_template = "Sichovi Striltsi"
+			division_template = "Січові стрільці"
 			disband = yes #will refund equipment and manpower
 		}
 		add_popularity = {
@@ -719,7 +719,7 @@ country_event = { # Sich Streltsy disbanded!
 		trigger = {	NOT = { has_completed_focus = UKR_King_Path } }
 		UKR_increase_hetman_strength = yes
 		delete_unit_template_and_units = {
-			division_template = "Sichovi Striltsi"
+			division_template = "Січові стрільці"
 			disband = yes #will refund equipment and manpower
 		}
 		add_popularity = {
@@ -755,7 +755,7 @@ country_event = { # Konovalets Dead
 		#event_target:UKR_Yevhen_Konovalets = { retire = yes }
 		#event_target:UKR_Mykola_Kapustyanskyi = { set_nationality = UPR }
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 			expire = "1.1.1"
@@ -769,7 +769,7 @@ country_event = { # Konovalets Dead
 		hidden_effect = {
 			UPR = {
 				create_country_leader = {
-					name = "Andriy Melnyk"
+					name = "Андрій Мельник"
 					desc = "POLITICS_ANDRIY_MELNYK_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 					expire = "1.1.1"
@@ -802,7 +802,7 @@ country_event = { # Konovalets Dead
 		#event_target:UKR_Yevhen_Konovalets = { retire = yes }
 		#event_target:UKR_Mykola_Kapustyanskyi = { set_nationality = UPR }
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 			expire = "1.1.1"
@@ -816,7 +816,7 @@ country_event = { # Konovalets Dead
 		hidden_effect = {
 			UPR = {
 				create_country_leader = {
-					name = "Andriy Melnyk"
+					name = "Андрій Мельник"
 					desc = "POLITICS_ANDRIY_MELNYK_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 					expire = "1.1.1"
@@ -1453,7 +1453,7 @@ country_event = { # Konovalets Counter-Coup
 		}
 		hidden_effect = {
 			division_template = {
-				name = "Halytskyi korpus Sichovykh Striltsiv"
+				name = "Галицький корпус Січових Стрільців"
 				division_names_group = UKR_ELI_02
 				regiments = {
 					elite_infantry = { x = 0 y = 0 }
@@ -1470,12 +1470,12 @@ country_event = { # Konovalets Counter-Coup
 			random_owned_controlled_state = {
 				prioritize = { 1228 }
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 					prioritize_location = 11543
 				}
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 					prioritize_location = 6435
 				}
@@ -1483,12 +1483,12 @@ country_event = { # Konovalets Counter-Coup
 			random_owned_controlled_state = {
 				prioritize = { 792 }
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 					prioritize_location = 572
 				}
 				create_unit = {
-					division = "division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2"
+					division = "division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2"
 					owner = ROOT
 					prioritize_location = 474
 				}
@@ -1619,9 +1619,9 @@ country_event = { # Dyrektoria Uprising
 		clr_country_flag = UKR_dyrektoria_uprising_active
 		remove_ideas = UKR_political_instability
 		hidden_effect = {
-			if = {
-				limit = { country_exists = WSU }
-				UPR = { become_exiled_in = { target = WSU legitimacy = 0.35 } }
+				if = {
+					limit = { country_exists = WSU }
+					UPR = { become_exiled_in = { target = WSU legitimacy = 0.35 } }
 			}
 		}
 		if = {
@@ -2256,12 +2256,12 @@ country_event = { # Victory of Kingdom
 		mark_focus_tree_layout_dirty = yes	
 		remove_ideas = UKR_political_instability
 		hidden_effect = {
-			if = {
-				limit = { country_exists = WSU }
-				UPR = { become_exiled_in = { target = WSU legitimacy = 0.35 } }
-			}
-			else = {
-				UPR = { become_exiled_in = { target = GAL legitimacy = 0.35 } }
+				if = {
+					limit = { country_exists = WSU }
+					UPR = { become_exiled_in = { target = WSU legitimacy = 0.35 } }
+				}
+				else = {
+					UPR = { become_exiled_in = { target = GAL legitimacy = 0.35 } }
 			}
 			UPR = {
 				random_unit_leader = {
@@ -2291,7 +2291,7 @@ country_event = { # Victory of Kingdom
 	}
 }
 
-country_event = { # Fall of Kyiv for Dyrektoria
+country_event = { # Fall of Київ for Dyrektoria
 	id = ukrpol.63
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.63" }
 	title = ukrpol.63.t
@@ -2304,7 +2304,7 @@ country_event = { # Fall of Kyiv for Dyrektoria
 		trigger = { UKR_pavlo_skoropadsky_in_power = yes }
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Vasyl Kochubei"
+			name = "Василь Кочубей"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Kochubei.png"
 			expire = "1.1.1"
 			ideology = pataut_ukrainian_conservatism_subtype
@@ -3030,7 +3030,7 @@ country_event = { # UPSS Ultimatums
 	}	
 }
 ### Skoropadskyi ###
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.100
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.100" }
 	title = ukrpol.100.t
@@ -3049,7 +3049,7 @@ country_event = { # Kyiv Trials
 		set_variable = { UKR_shd_lib = 0 }
 	}	
 }
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.101
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.101" }
 	title = ukrpol.101.t
@@ -3080,7 +3080,7 @@ country_event = { # Kyiv Trials
 		}
 	}	
 }
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.102
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.102" }
 	title = ukrpol.102.t
@@ -3115,7 +3115,7 @@ country_event = { # Kyiv Trials
 		}
 	}	
 }
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.103
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.103" }
 	title = ukrpol.103.t
@@ -3146,7 +3146,7 @@ country_event = { # Kyiv Trials
 	}	
 }
 
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.104
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.104" }
 	title = ukrpol.104.t
@@ -3179,7 +3179,7 @@ country_event = { # Kyiv Trials
 	}
 }
 
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.105
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.105" }
 	title = ukrpol.105.t
@@ -3215,7 +3215,7 @@ country_event = { # Kyiv Trials
 	}	
 }
 
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.106
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.106" }
 	title = ukrpol.106.t
@@ -3247,7 +3247,7 @@ country_event = { # Kyiv Trials
 	}	
 }
 
-country_event = { # Kyiv Trials
+country_event = { # Київ Trials
 	id = ukrpol.107
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.107" }
 	title = ukrpol.107.t
@@ -3283,7 +3283,7 @@ country_event = { # Kyiv Trials
 		}
 	}	
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.108
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.108" }
 	title = ukrpol.108.t
@@ -3303,7 +3303,7 @@ country_event = { # Regency Council
 		}
 	}	
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.109
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.109" }
 	title = ukrpol.109.t
@@ -3322,7 +3322,7 @@ country_event = { # Regency Council
 		}
 	}	
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.110
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.110" }
 	title = ukrpol.110.t
@@ -3341,7 +3341,7 @@ country_event = { # Regency Council
 		}		
 	}	
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.111
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.111" }
 	title = ukrpol.111.t
@@ -3569,10 +3569,10 @@ country_event = { # Vilne Kozatstvo
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -3589,19 +3589,19 @@ country_event = { # Vilne Kozatstvo
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.5"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 		}
@@ -3707,7 +3707,7 @@ country_event = { #
 			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 		}
 		create_country_leader = {
-			name = "Mykola Mikhnovskyi"
+			name = "Микола Міхновський"
 			desc = "POLITICS_MYKOLA_MIKHHNOVSKY_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Mikhnovsky.png"
 			expire = "1.1.1"
@@ -3786,7 +3786,7 @@ country_event = { #
 			set_politics = { ruling_party = paternal_autocrat elections_allowed = no }
 		}
 		create_country_leader = {
-			name = "Mykola Mikhnovskyi"
+			name = "Микола Міхновський"
 			desc = "POLITICS_MYKOLA_MIKHHNOVSKY_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Mikhnovsky_hetman.png"
 			expire = "1.1.1"
@@ -3846,7 +3846,7 @@ country_event = { #
 		}
 	}
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.121
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.121" }
 	title = ukrpol.121.t
@@ -3861,7 +3861,7 @@ country_event = { # Regency Council
 		192 = { increase_state_category_by_one_level = yes }
 	}
 }
-country_event = { # Regency Council
+country_event = { # Регентский совет
 	id = ukrpol.122
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.122" }
 	title = ukrpol.122.t
@@ -4028,7 +4028,7 @@ country_event = { # SHD
 			if = {
 				limit = { UKR_pavlo_skoropadsky_in_power = no }
 				create_country_leader = {
-					name = "Pavlo Skoropadskyi"
+					name = "Павло Скоропадський"
 					desc = "POLITICS_PAVLO_SKOROPADSKYI_HETMAN_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadskyi_Hetman.png"
 					expire = "1.1.1"
@@ -4153,7 +4153,7 @@ country_event = { # SHD
 			if = {
 				limit = { UKR_pavlo_skoropadsky_in_power = yes }
 				create_country_leader = {
-					name = "Pavlo Skoropadskyi"
+					name = "Павло Скоропадський"
 					desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadsky_Civilian.png"
 					expire = "1.1.1"
@@ -4813,7 +4813,7 @@ country_event = { #
 				if = {
 					limit = { UKR_pavlo_skoropadsky_in_power = no }
 					create_country_leader = {
-						name = "Pavlo Skoropadskyi"
+						name = "Павло Скоропадський"
 						desc = "POLITICS_PAVLO_SKOROPADSKYI_HETMAN_DESC"
 						picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Skoropadskyi_Hetman.png"
 						expire = "1.1.1"
@@ -4872,10 +4872,10 @@ country_event = { #Cossack militias rise up as war with Russia happens
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -4896,7 +4896,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			202 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.35 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.35 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -4907,7 +4907,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			193 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 1 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 1 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -4918,7 +4918,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			259 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 1 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 1 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -4929,7 +4929,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			791 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 1 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 1 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -4940,7 +4940,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			221 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.35 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.35 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -4951,7 +4951,7 @@ country_event = { #Cossack militias rise up as war with Russia happens
 			}
 			225 = {
 				create_unit = {
-					division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.35 start_equipment_factor = 1"
+					division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.35 start_equipment_factor = 1"
 					owner = UKR
 				}
 			}
@@ -5582,7 +5582,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 				expire = "1.1.1"
@@ -5590,14 +5590,14 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Vladimir III"
+			name = "Владимир III"
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Vladimir III"
+			name = "Владимир III"
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 			expire = "1.1.1"
@@ -5620,7 +5620,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Pavel II"
+				name = "Павел II"
 				desc = "POLITICS_PAVEL_II_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 				expire = "1.1.1"
@@ -5628,14 +5628,14 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Pavel II"
+			name = "Павел II"
 			desc = "POLITICS_PAVEL_II_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Pavel II"
+			name = "Павел II"
 			desc = "POLITICS_PAVEL_II_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 			expire = "1.1.1"
@@ -5658,7 +5658,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Vsevolod I"
+				name = "Всеволод I"
 				desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"				
 				expire = "1.1.1"
@@ -5666,14 +5666,14 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Vsevolod I"
+			name = "Всеволод I"
 			desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"			
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Vsevolod I"
+			name = "Всеволод I"
 			desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"			
 			expire = "1.1.1"
@@ -5696,7 +5696,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Roman I"
+				name = "Роман I"
 				desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 				expire = "1.1.1"
@@ -5704,14 +5704,14 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Roman I"
+			name = "Роман I"
 			desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"	
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Roman I"
+			name = "Роман I"
 			desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"	
 			expire = "1.1.1"
@@ -5734,7 +5734,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Andrei I"
+				name = "Андрей I"
 				desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 				expire = "1.1.1"
@@ -5742,14 +5742,14 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Andrei I"
+			name = "Андрей I"
 			desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 			expire = "1.1.1"
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Andrei I"
+			name = "Андрей I"
 			desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 			expire = "1.1.1"
@@ -5776,7 +5776,7 @@ country_event = { #
 		if = {
 			limit = { has_government = market_liberal }			
 			create_country_leader = {
-				name = "Pyotr IV"
+				name = "Пётр IV"
 				desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 				expire = "1.1.1"
@@ -5785,7 +5785,7 @@ country_event = { #
 			}
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -5793,7 +5793,7 @@ country_event = { #
 			ideology = ukrainian_conservatism_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -6191,7 +6191,7 @@ country_event = { # Trade Agreements
 				days = 2
 			}
 		}
-		custom_effect_tooltip = "If we agree:"
+		custom_effect_tooltip = "Если мы согласимся:"
 		effect_tooltip = {
 			FROM = { add_ideas = UKR_austrian_trade_ump }
 			AUS = { add_ideas = AUS_ukrainian_trade_ump }
@@ -6628,10 +6628,10 @@ country_event = { # Cossacks
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6648,19 +6648,19 @@ country_event = { # Cossacks
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.5"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 		}
@@ -7625,7 +7625,7 @@ country_event = { # UPSF/PULD(s-f)
 	option = { 
 		name = ukrpol.203.a		
 		create_country_leader = {
-			name = "Serhiy Yefremov"
+			name = "Сергій Єфремов"
 			desc = "POLITICS_SERHIY_YEFREMOV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Serhiy_Yefremov.png" 
 			expire = "1.1.1"
@@ -7644,7 +7644,7 @@ country_event = { # UPSF/PULD(s-f)
 	option = {
 		name = ukrpol.203.b	
 		create_country_leader = {
-			name = "Andriy Nikovskyi"
+			name = "Андрій Ніковський"
 			desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 			expire = "1.1.1"
@@ -7663,7 +7663,7 @@ country_event = { # UPSF/PULD(s-f)
 	option = {
 		name = ukrpol.203.c
 		create_country_leader = {
-			name = "Oleksandr Shulhyn"
+			name = "Олександр Шульгін"
 			desc = "POLITICS_OLEKSANDER_SHULHYN_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shulhin.png" 
 			expire = "1.1.1"
@@ -8002,7 +8002,7 @@ country_event = { # UPSF/PULD(s-f)
 			modifier = {
 				factor = 2
 				has_country_leader = {
-					name = "Oleksandr Shulhyn"
+					name = "Олександр Шульгін"
 					ruling_only = yes
 				}
 			}
@@ -8013,7 +8013,7 @@ country_event = { # UPSF/PULD(s-f)
 					has_game_rule = { rule = UKR_foreign_policy option = UKR_FOREIGN_POLICY_AUSTRIA }
 				}
 			}
-		}
+		}		
 		if = {
 			limit = { is_faction_leader = yes }
 			dismantle_faction = yes
@@ -8161,7 +8161,7 @@ country_event = { # UPSS
 			long_name = UKR_paternal_autocrat_party2_long
 		}
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 			expire = "1.1.1"
@@ -8473,7 +8473,7 @@ country_event = { # UPSS
 		drop_cosmetic_tag = yes
 		UKR_remove_king = yes
 		create_country_leader = {
-			name = "Vilhelm fon Habsburg-Lotarynzkyi"
+			name = "Вільгельм фон Габсбург-Лотаринзький"
 			desc = "POLITICS_VASYL_PRESIDENT_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Habsburg_suit.png"
 			expire = "1.1.1"
@@ -8481,13 +8481,13 @@ country_event = { # UPSS
 		}
 		set_global_flag = UKR_vasyl_a_common_man
 		effect_tooltip = {
-			create_corps_commander = { name = "Vilhelm fon Habsburg-Lotarynzkyi " }
+			create_corps_commander = { name = "Вільгельм фон Габсбург-Лотаринзький" }
 		}
 		hidden_effect = {
 			XXA = {
 				random_unit_leader = {
 					limit = { has_id = 17989 }
-					set_leader_name = "Vilhelm fon Habsburg-Lotarynzkyi "
+					set_leader_name = UKR_wilhelm_franz_von_habsburg_ukrainian
 					set_nationality = ROOT
 				}
 			}
@@ -9322,7 +9322,7 @@ country_event = { # UPSS
 			long_name = UKR_authoritarian_democrat_party2_long
 		}
 		create_country_leader = {
-			name = "Oleksandr Hrekiv"
+			name = "Олександр Греків"
 			desc = "POLITICS_OLEKSANDR_HREKIV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Hrekiv.png" 
 			expire = "1.1.1"
@@ -9439,7 +9439,7 @@ country_event = { # UPSS
 			limit = { UKR_vasyl_in_power = no }
 			set_country_flag = UKR_presidential_elections
 			create_country_leader = {
-				name = "Opanas Andriyevskyi"
+				name = "Опанас Андрієвський"
 				desc = "POLITICS_OPANAS_ANDRIYEVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Opanas_Andriyevskyi.png"
 				expire = "1.1.1"
@@ -9670,7 +9670,7 @@ country_event = { # UPSS
 	picture = GFX_report_event_UKR_vasyl5
 	trigger = {
 		has_country_leader = {
-			name = "Vilhelm fon Habsburg-Lotarynzkyi"
+			name = "Вільгельм фон Габсбург-Лотаринзький"
 			ruling_only = yes
 		}
 	}
@@ -9679,11 +9679,11 @@ country_event = { # UPSS
 		name = ukrpol.256.a		
 		set_country_flag = UKR_vasyl_is_known_as_vasyl
 		set_country_leader_name = {
-			name = "Vasyl Vyshyvanyi"
+			name = "Василь Вишиваний"
 		}
 		random_unit_leader = {
 			limit = { has_id = 17989 }
-			set_leader_name = "Vasyl Vyshyvanyi"
+			set_leader_name = "Василь Вишиваний"
 		}
 	}
 	option = {
@@ -10187,7 +10187,7 @@ country_event = { # UPSS
 
 
 
-country_event = { # Fall of Kyiv for Dyrektoria
+country_event = { # Fall of Київ for Dyrektoria
 	id = ukrpol.630
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrpol.630" }
 	title = ukrpol.630.t
@@ -10237,7 +10237,7 @@ country_event = { # Fall of Kyiv for Dyrektoria
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Ivan_Poltvets_Ostrianytsia_hog_pau
 		create_country_leader = {
-			name = "Ivan Poltavets-Ostrianytsia"
+			name = "Іван Полтавець-Остряниця"
 			desc = "POLITICS_IVAN_POLTAVETS_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Ivan_Poltavets_Ostrianytsia.png"
 			expire = "1.1.1"
@@ -10252,10 +10252,10 @@ country_event = { # Fall of Kyiv for Dyrektoria
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -10272,19 +10272,19 @@ country_event = { # Fall of Kyiv for Dyrektoria
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.5"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 		}
@@ -10324,7 +10324,7 @@ country_event = { # Stsiborskyi Radicals
 		}
 		add_tot_to_coalition = yes
 		create_country_leader = {
-			name = "Mykola Stsiborskyi"
+			name = "Микола Сціборський"
 			desc = "POLITICS_MYKOLA_STSIBORSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Stsiborskyi.png"
 			expire = "1.1.1"
@@ -10801,7 +10801,7 @@ country_event = { # SUN Assembly
 			if = {
 				limit = { UKR_dmytro_dontsov_in_power = no }
 				create_country_leader = {
-					name = "Dmytro Dontsov"
+					name = "Дмитро Донцов"
 					desc = "POLITICS_DMITRI_DONTSOV_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Dmitri_Dontsov.png"
 					expire = "1.1.1"
@@ -10824,7 +10824,7 @@ country_event = { # SUN Assembly
 				}
 				add_pataut_to_coalition = yes
 				create_country_leader = {
-					name = "Andriy Melnyk"
+					name = "Андрій Мельник"
 					desc = "POLITICS_ANDRIY_MELNYK_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 					expire = "1.1.1"
@@ -10840,7 +10840,7 @@ country_event = { # SUN Assembly
 			if = { 
 				limit = { UKR_andriy_melnyk_in_power = no }
 				create_country_leader = {
-					name = "Andriy Melnyk"
+					name = "Андрій Мельник"
 					desc = "POLITICS_ANDRIY_MELNYK_DESC"
 					picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Extra.png"
 					expire = "1.1.1"
@@ -11061,7 +11061,7 @@ country_event = { # Extraordinary congress
 		custom_effect_tooltip = UKR_isolate_uvo
 		hidden_effect = {
 			create_country_leader = {
-				name = "Andriy Richytskyi"
+				name = "Андрій Річицький"
 				desc = "POLITICS_ANDRIY_RYCHYTSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Richytskyi.png"
 				expire = "1.1.1"
@@ -11072,7 +11072,7 @@ country_event = { # Extraordinary congress
 				ideology = totalist
 				long_name = UKR_totalist_party
 				name = UKR_totalist_party_long
-			}
+			}			
 			remove_tot_from_coalition = yes			
 			set_temp_variable = { UKR_new_natpop = party_popularity_100@national_populist}
 			add_to_temp_variable = { UKR_new_natpop = party_popularity_100@totalist  }
@@ -12051,7 +12051,7 @@ country_event = { #
 			long_name = UKR_sun_god_party_long
 		}
 		create_country_leader = {
-			name = "Volodymyr Shaian"
+			name = "Володимир Шаян"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Shaian.png"
 			expire = "1.1.1"
 			ideology = occultism_subtype
@@ -12064,7 +12064,7 @@ country_event = { #
 		add_ideas = UKR_Mykhailo_Havrylko_for_npo
 		add_ideas = UKR_Yurii_Myroliubov_sec_npo
 		division_template = {
-			name = "Lytsary Ordena"
+			name = "Лицарський орден"
 			division_names_group = UKR_INF_03
 			regiments = {
 				irregular_infantry = { x = 0 y = 0 }
@@ -12079,15 +12079,15 @@ country_event = { #
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Lytsary Ordena\" start_experience_factor = 0.8"
+				division = "division_template = \"Лицарський орден\" start_experience_factor = 0.8"
 				owner = PREV
 			}
 			create_unit = {
-				division = "division_template = \"Lytsary Ordena\" start_experience_factor = 0.8"
+				division = "division_template = \"Лицарський орден\" start_experience_factor = 0.8"
 				owner = PREV
 			}
 			create_unit = {
-				division = "division_template = \"Lytsary Ordena\" start_experience_factor = 0.8"
+				division = "division_template = \"Лицарський орден\" start_experience_factor = 0.8"
 				owner = PREV
 			}
 		}
@@ -12332,8 +12332,8 @@ country_event = { #
 		}
 		GER_remove_from_mitteleuropa = yes
 		MIE_remove_from_intermarium = yes
-		remove_from_all_tech_sharing_groups = yes
-			create_faction_from_template = { 
+		remove_from_all_tech_sharing_groups = yes	
+		create_faction_from_template = { 
 				template = faction_template_regional 
 				name = faction_eedp
 				icon = GFX_faction_eastern_europe
@@ -12413,7 +12413,7 @@ country_event = { #
 			}
 			GER = { country_event = LIT.212 }
 			create_country_leader = {
-				name = "Augustinas Voldemaras"
+				name = "Аугустинас Вольдемарас"
 				desc = "POLITICS_VOLDEMARAS_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras_KX.png"
 				expire = "1.1.1"
@@ -12436,7 +12436,7 @@ country_event = { #
 			complete_national_focus = LIT_the_vilnius_coup
 			effect_tooltip = {
 				if = {
-					limit = { has_unit_leader = 76614 } #Vincas Vitkauskas
+					limit = { has_unit_leader = 76614 } #Винцас Виткаускас
 					random_unit_leader = {
 						limit = { has_id = 76614 }			
 						remove_unit_leader = yes
@@ -12570,38 +12570,38 @@ country_event = { #
 					set_cosmetic_tag = POL_REPUBLIC
 					unlock_national_focus = POL_the_great_debate
 					create_country_leader = {
-						name = "Roman Rybarski"
+						name = "Роман Рыбарский"
 						picture = "gfx/leaders/POL/Portrait_POL_Roman_Rybarski.png"
 						expire = "1.1.1"
 						ideology = national_democracy_subtype
 					}
 					create_country_leader = {
-						name = "Bolesław Piasecki"
+						name = "Болеслав Пясецкий"
 						picture = "gfx/leaders/POL/Portrait_POL_Boleslaw_Piasecki_KX.png"
 						expire = "1.1.1"
 						ideology = national_radicalism_subtype
 					}
 					create_country_leader = {
-						name = "Władysław Studnicki"
+						name = "Владислав Студницкий"
 						desc = "POLITICS_WLADYSLAW_STUDNICKI_DESC"
 						picture = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Studnicki.png"
 						expire = "1.1.1"
 						ideology = absolute_monarchy_subtype
 					}
 					create_country_leader = {
-						name = "Julian Leszczyński"
+						name = "Юлиан Лещинский"
 						picture = "gfx/leaders/POL/Portrait_POL_Julian_Leszczynski.png"
 						expire = "1.1.1"
 						ideology = authcom_subtype
 					}
 					create_country_leader = {
-						name = "Alfred Lampe"
+						name = "Альфред Лампе"
 						picture = "gfx/leaders/POL/Portrait_POL_Alfred_Lampe.png"
 						expire = "1.1.1"
 						ideology = centralized_syndicalism_subtype
 					}
 					create_country_leader = {
-						name = "Adolf Warski"
+						name = "Адольф Варски"
 						picture = "gfx/leaders/POL/Portrait_POL_Adolf_Warski.png"
 						expire = "1.1.1"
 						ideology = radsoc_communism_subtype
@@ -13638,7 +13638,7 @@ country_event = { # Victory
 			remove_ideas = UKR_anarchy_in_the_streets
 		}
 		create_country_leader = {
-			name = "Symon Petliura"
+			name = "Симон Петлюра"
 			desc = "POLITICS_SYMON_PETLIURA_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.png" 
 			expire = "1.1.1"
@@ -14135,7 +14135,7 @@ country_event = { # Congress
 			long_name = UKR_radical_socialist_party_long
 		}
 		create_country_leader = {
-			name = "Vasyl Shakhrai"
+			name = "Василь Шахрай"
 			desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 			expire = "1.1.1"
@@ -14152,7 +14152,7 @@ country_event = { # Congress
 		mark_focus_tree_layout_dirty = yes
 		complete_national_focus = UKR_Ukapists
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		hidden_effect = {
@@ -14223,7 +14223,7 @@ country_event = { # Congress
 			long_name = UKR_social_democrat_party2_long
 		}
 		create_country_leader = {
-			name = "Vsevolod Holubovych"
+			name = "Всеволод Голубович"
 			desc = "POLITICS_VSEVOLOD_HOLUBOVYCH_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Holubovych.png" 
 			expire = "1.1.1"
@@ -14306,7 +14306,7 @@ country_event = { # Congress
 		if = {
 			limit = { UKR_vynnychenko_in_power = no }
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
+				name = "Володимир Винниченко"
 				desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 				expire = "1.1.1"
@@ -14679,7 +14679,7 @@ country_event = { # UKP
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Andriy Richytskyi"
+			name = "Андрій Річицький"
 			desc = "POLITICS_ANDRIY_RYCHYTSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Richytskyi.png"
 			expire = "1.1.1"
@@ -14710,7 +14710,7 @@ country_event = { # UKP
 			}
 		}
 		create_country_leader = {
-			name = "Mykola Skrypnyk"
+			name = "Микола Скрипник"
 			desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 			expire = "1.1.1"
@@ -14751,7 +14751,7 @@ country_event = { # UKP
 		if = {
 			limit = { UKR_shakhrai_in_power = no }
 			create_country_leader = {
-				name = "Vasyl Shakhrai"
+				name = "Василь Шахрай"
 				desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 				expire = "1.1.1"
@@ -14900,7 +14900,7 @@ country_event = { # Skrypnyk events
 		}
 	}	
 }
-news_event = { # Kyiv Conference
+news_event = { # Київ Conference
 	id = ukrsoc.34
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.34" }
 	title = ukrsoc.34.t
@@ -15081,7 +15081,7 @@ country_event = { # Richytskyi events
 	option = {
 		name = ukrsoc.43.a
 		division_template = {
-			name = "Interbryhada"
+			name = "Інтербригада"
 			division_names_group = UKR_MIL_01
 			regiments = {
 				infantry = { x = 0 y = 0 }
@@ -15101,7 +15101,7 @@ country_event = { # Richytskyi events
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "name = \"Interbryhada imeni Ivana Franka\" division_template = \"Interbryhada\" start_experience_factor = 0.8"
+				division = "name = \"Інтербригада імені Івана Франка\" division_template = \"Інтербригада\" start_experience_factor = 0.8"
 				owner = ROOT
 			}
 		}
@@ -15310,7 +15310,7 @@ country_event = { # Richytskyi events
 	}	
 }
 
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.50
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.50" }
 	title = ukrsoc.50.t
@@ -15327,7 +15327,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.51
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.51" }
 	title = ukrsoc.51.t
@@ -15353,7 +15353,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.52
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.52" }
 	title = ukrsoc.52.t
@@ -15406,7 +15406,7 @@ country_event = { # Kyiv Conference
 		set_country_flag = KCN_refused_kcn_participation
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.53
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.53" }
 	title = ukrsoc.53.t
@@ -15423,7 +15423,7 @@ country_event = { # Kyiv Conference
 		}		
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.54
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.54" }
 	title = ukrsoc.54.t
@@ -15494,7 +15494,7 @@ country_event = { # Kyiv Conference
 		}
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.55
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.55" }
 	title = ukrsoc.55.t
@@ -15517,7 +15517,7 @@ country_event = { # Kyiv Conference
 		}
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.56
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.56" }
 	title = ukrsoc.56.t
@@ -15555,7 +15555,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.57
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.57" }
 	title = ukrsoc.57.t
@@ -15572,7 +15572,7 @@ country_event = { # Kyiv Conference
 		effect_tooltip = { FROM = { add_ideas = KCN_socialist_aid } }
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.58
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.58" }
 	title = ukrsoc.58.t
@@ -15594,7 +15594,7 @@ country_event = { # Kyiv Conference
 		add_political_power = 25
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.59
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.59" }
 	title = ukrsoc.59.t
@@ -15616,7 +15616,7 @@ country_event = { # Kyiv Conference
 		add_political_power = 25
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.60
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.60" }
 	title = ukrsoc.60.t
@@ -15630,7 +15630,7 @@ country_event = { # Kyiv Conference
 		add_stability = 0.03
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.61
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.61" }
 	title = ukrsoc.61.t
@@ -15653,7 +15653,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.62
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.62" }
 	title = ukrsoc.62.t
@@ -15670,7 +15670,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.63
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.63" }
 	title = ukrsoc.63.t
@@ -15696,7 +15696,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-news_event = { # Kyiv Conference
+news_event = { # Київ Conference
 	id = ukrsoc.64
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.64" }
 	title = ukrsoc.63.t
@@ -15880,7 +15880,7 @@ country_event = { #vote passes
 		name = ukrsoc.68.a
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.69
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.69" }
 	title = {
@@ -15961,7 +15961,7 @@ country_event = { # Kyiv Conference
 		add_stability = -0.1
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.70
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.70" }
 	title = ukrsoc.70.t
@@ -16021,7 +16021,7 @@ country_event = { # Kyiv Conference
 		}		
 	}		
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.71
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.71" }
 	title = ukrsoc.71.t
@@ -16093,7 +16093,7 @@ country_event = { # Kyiv Conference
 		}		
 	}		
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.72
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.72" }
 	title = {
@@ -16164,7 +16164,7 @@ country_event = { # Kyiv Conference
 		add_stability = -0.1
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.73
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.73" }
 	title = ukrsoc.73.t
@@ -16195,7 +16195,7 @@ country_event = { # Kyiv Conference
 		}		
 	}		
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.74
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.74" }
 	title = ukrsoc.74.t
@@ -16437,7 +16437,7 @@ country_event = { #Membership - voting
 		add_to_variable = { global.kcn_abstain_votes = 1 }
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.78
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.78" }
 	title = ukrsoc.78.t
@@ -16449,7 +16449,7 @@ country_event = { # Kyiv Conference
 		name = ukrsoc.78.a
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.79
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.79" }
 	title = {
@@ -16493,7 +16493,7 @@ country_event = { # Kyiv Conference
 		clear_global_event_target = KCN_candidate_membership
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.80
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.80" }
 	title = ukrsoc.80.t
@@ -16511,7 +16511,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.81
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.81" }
 	title = ukrsoc.81.t
@@ -16728,7 +16728,7 @@ country_event = { #Membership - voting
 		add_to_variable = { global.kcn_abstain_votes = 1 }
 	}
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.86
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.86" }
 	title = ukrsoc.86.t
@@ -16744,7 +16744,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.87
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.87" }
 	title = {
@@ -16795,7 +16795,7 @@ country_event = { # Kyiv Conference
 		}
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.88
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.88" }
 	title = ukrsoc.88.t
@@ -16815,7 +16815,7 @@ country_event = { # Kyiv Conference
 		clear_global_event_target = KCN_candidate_membership
 	}	
 }
-country_event = { # Kyiv Conference
+country_event = { # Київ Conference
 	id = ukrsoc.89
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrsoc.89" }
 	title = ukrsoc.89.t
@@ -17203,7 +17203,7 @@ country_event = { # UKP
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Mykola Skrypnyk"
+				name = "Микола Скрипник"
 				desc = "POLITICS_MYKOLA_SKRYPNYK_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Skrypnyk.png"
 				expire = "1.1.1"
@@ -17349,7 +17349,7 @@ country_event = { # UKP
 		UKR_skrypnyk_in_power = yes
 		220 = {
 			NOT = { has_dynamic_modifier = { modifier = SOV_ukrainian_government } }
-		}
+	}
 	}
 	is_triggered_only = yes
 	
@@ -17797,7 +17797,7 @@ country_event = { # USDRP
 			retire = yes
 		}
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		effect_tooltip = { event_target:UKR_Hryhorii_Syrotenko = { retire = yes } }
@@ -18377,9 +18377,9 @@ country_event = { # USDRP
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = UKR_future
-						option = UKR_FUTURE_USDRP
+				has_game_rule = {
+					rule = UKR_future
+					option = UKR_FUTURE_USDRP
 				    }
 					UKR = { is_subject_of = FROM }
 				}
@@ -19099,7 +19099,7 @@ country_event = { # USDRP
 		end_coalition = yes
 		set_country_flag = UKR_usdrp_is_radsoc
 		create_country_leader = {
-			name = "Volodymyr Vynnychenko"
+			name = "Володимир Винниченко"
 			desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 			expire = "1.1.1"
@@ -20078,7 +20078,7 @@ country_event = { # UPSR
 		}
 		custom_effect_tooltip = UKR_upsr_block_the_right_tree
 		create_country_leader = {
-			name = "Levko Kovaliv"
+			name = "Левко Ковалів"
 			desc = "POLITICS_LEVKO_KOVALIV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 			expire = "1.1.1"
@@ -20102,7 +20102,7 @@ country_event = { # UPSR
 			base = 20
 		}
 		create_country_leader = {
-			name = "Mykola Kovalevskyi"
+			name = "Микола Ковалевський"
 			desc = "POLITICS_MYKOLA_KOVALEVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Kovalevskyi.png"
 			expire = "1.1.1"
@@ -20125,7 +20125,7 @@ country_event = { # UPSR
 			base = 20
 		}
 		create_country_leader = {
-			name = "Pavlo Khristiuk"
+			name = "Павло Христюк"
 			desc = "POLITICS_PAVLO_KHRISTIUK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Pavlo_Khrystiuk.png"
 			expire = "1.1.1"
@@ -20146,7 +20146,7 @@ country_event = { # UPSR
 			base = 20
 		}
 		create_country_leader = {
-			name = "Mykyta Shapoval"
+			name = "Микита Шаповал"
 			desc = "POLITICS_MYKYTA_SHAPOVAL_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykyta_Shapoval.png"
 			expire = "1.1.1"
@@ -20167,7 +20167,7 @@ country_event = { # UPSR
 			base = 20
 		}
 		create_country_leader = {
-			name = "Mykhailo Hrushevskyi"
+			name = "Михайло Грушевський"
 			desc = "POLITICS_MYKHAILO_HRUSHEVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Hrushevsky.png"
 			expire = "1.1.1"
@@ -20199,11 +20199,11 @@ country_event = { # UPSR
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Levko Kovaliv"
+					name = "Левко Ковалів"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Mykhailo Hrushevskyi"
+					name = "Михайло Грушевський"
 					ruling_only = yes
 				}
 			}
@@ -20227,7 +20227,7 @@ country_event = { # UPSR
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Levko Kovaliv"
+					name = "Левко Ковалів"
 					ruling_only = yes
 				}
 			}
@@ -20477,7 +20477,7 @@ country_event = { # UPSR
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Levko Kovaliv"
+					name = "Левко Ковалів"
 					ruling_only = yes
 				}
 			}
@@ -20495,7 +20495,7 @@ country_event = { # UPSR
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 	}	
@@ -20590,7 +20590,7 @@ country_event = { # UPSR
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Levko Kovaliv"
+					name = "Левко Ковалів"
 					ruling_only = yes
 				}
 			}
@@ -20627,7 +20627,7 @@ country_event = { # UPSR
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Volodymyr Vynnychenko"
+				name = "Володимир Винниченко"
 				desc = "POLITICS_VOLODYMYR_VYNNYCHENKO_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png" 
 				expire = "1.1.1"
@@ -20647,7 +20647,7 @@ country_event = { # UPSR
 			GER = { country_event = ukrfor.50 }
 		}
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		hidden_effect = {
@@ -21155,7 +21155,7 @@ country_event = { # Borotbysts
 	desc = ukrsoc.205.d
 	
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ukrsoc.205.b
 		country_event = {
@@ -21177,10 +21177,10 @@ country_event = { # Borotbysts
 		army_experience = 30
 		if = {
 			limit = {
-				NOT = { has_template = "Ukrainska Radianska Dyviziia" }
+				NOT = { has_template = "Українська радіаційна дивізія" }
 			}
 			division_template = {
-				name = "Ukrainska Radianska Dyviziia"
+				name = "Українська радіаційна дивізія"
 				division_names_group = USR_INF_01
 				regiments = {
 					infantry = { x = 0 y = 0 }
@@ -21200,27 +21200,27 @@ country_event = { # Borotbysts
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Ukrainska Radianska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Українська радіаційна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 				count = 3
 			}
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Ukrainska Radianska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Українська радіаційна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Ukrainska Radianska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Українська радіаційна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 				count = 4
 			}
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Ukrainska Radianska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Українська радіаційна дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 				count = 2
 			}
@@ -21343,7 +21343,7 @@ country_event = { # Borotbysts
 		if = {
 			limit = { UKR_shumskyi_in_power = no }
 			create_country_leader = {
-				name = "Oleksandr Shumskyi"
+				name = "Олександр Шумський"
 				desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 				expire = "1.1.1"
@@ -21351,7 +21351,7 @@ country_event = { # Borotbysts
 				traits = { UKR_fervent_revolutionary }
 			}
 			create_country_leader = {
-				name = "Oleksandr Shumskyi"
+				name = "Олександр Шумський"
 				desc = "POLITICS_OLEKSANDER_SHUMSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksander_Shumsky.png" 
 				expire = "1.1.1"
@@ -21363,7 +21363,7 @@ country_event = { # Borotbysts
 	option = {
 		name = ukrsoc.215.b	
 		create_country_leader = {
-			name = "Vasyl Ellan-Blakytnyi"
+			name = "Василь Еллан-Блакитний"
 			desc = "POLITICS_VASYL_BLAKYTNYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Ellan_Blakytnyi.png"
 			expire = "1.1.1"
@@ -21371,7 +21371,7 @@ country_event = { # Borotbysts
 			traits = { UKR_poet_of_revolution }
 		}
 		create_country_leader = {
-			name = "Vasyl Ellan-Blakytnyi"
+			name = "Василь Еллан-Блакитний"
 			desc = "POLITICS_VASYL_BLAKYTNYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Ellan_Blakytnyi.png"
 			expire = "1.1.1"
@@ -21382,14 +21382,14 @@ country_event = { # Borotbysts
 	option = {
 		name = ukrsoc.215.c
 		create_country_leader = {
-			name = "Panas Liubchenko"
+			name = "Панас Любченко"
 			desc = "POLITICS_PANAS_LYUBCHENKO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Panas_Liubchenko.png"
 			expire = "1.1.1"
 			ideology = anarcho_syndicalist_subtype
 		}
 		create_country_leader = {
-			name = "Panas Liubchenko"
+			name = "Панас Любченко"
 			desc = "POLITICS_PANAS_LYUBCHENKO_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Panas_Liubchenko.png"
 			expire = "1.1.1"
@@ -21402,21 +21402,21 @@ country_event = { # Borotbysts
 			limit = {
 				NOT = {
 					has_country_leader = {
-						name = "Levko Kovaliv"
+						name = "Левко Ковалів"
 						ruling_only = yes
 					}
 				}
 			}
 			set_country_flag = UKR_kovaliv_premier
 			create_country_leader = {
-				name = "Levko Kovaliv"
+				name = "Левко Ковалів"
 				desc = "POLITICS_LEVKO_KOVALIV_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 				expire = "1.1.1"
 				ideology = anarcho_syndicalist_subtype
 			}
 			create_country_leader = {
-				name = "Levko Kovaliv"
+				name = "Левко Ковалів"
 				desc = "POLITICS_LEVKO_KOVALIV_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Lev_Kovaliv.png"
 				expire = "1.1.1"
@@ -21482,7 +21482,7 @@ country_event = { # Temporary
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Civilian.png"
 			expire = "1.1.1"
@@ -21502,7 +21502,7 @@ country_event = { # Temporary
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Symon Petliura"
+			name = "Симон Петлюра"
 			desc = "POLITICS_SYMON_PETLIURA_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.png"
 			expire = "1.1.1"
@@ -21770,10 +21770,10 @@ country_event = { # Borotbysts
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -21790,7 +21790,7 @@ country_event = { # Borotbysts
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 				owner = ROOT
 				count = 2
 			}
@@ -22192,7 +22192,7 @@ country_event = { # Petliura
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Symon Petliura"
+			name = "Симон Петлюра"
 			desc = "POLITICS_SYMON_PETLIURA_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Symon_Petliura.png"
 			expire = "1.1.1"
@@ -22358,7 +22358,7 @@ country_event = { # Petliura
 		name = ukrsoc.259.a
 		add_ideas = UKR_teroborona_idea
 		division_template = {
-			name = "Teroborona"
+			name = "Тероборона"
 			division_names_group = UKR_MIL_01
 			regiments = {
 				militia = { x = 0 y = 0 }
@@ -22379,7 +22379,7 @@ country_event = { # Petliura
 		}
 		202 = {
 			create_unit = {
-				division = "name = \"Batalion 'Kyivska Rus'\"  division_template = \"Teroborona\" start_experience_factor = 0.4 start_equipment_factor = 1"
+				division = "name = \"Батальйон 'Київська Русь'\"  division_template = \"Тероборона\" start_experience_factor = 0.4 start_equipment_factor = 1"
 				owner = ROOT
 			}
 		}
@@ -22457,10 +22457,10 @@ country_event = { # Petliura
 		USR = {
 			if = {
 				limit = {
-					NOT = { has_template = "Ukrainska Radianska Dyviziia" }
+					NOT = { has_template = "Українська радіаційна дивізія" }
 				}
 				division_template = {
-					name = "Ukrainska Radianska Dyviziia"
+					name = "Українська радіаційна дивізія"
 					division_names_group = USR_INF_01
 					regiments = {
 						infantry = { x = 0 y = 0 }
@@ -22480,7 +22480,7 @@ country_event = { # Petliura
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "division_template = \"Ukrainska Radianska Dyviziia\" start_experience_factor = 0.2"
+					division = "division_template = \"Українська радіаційна дивізія\" start_experience_factor = 0.2"
 					owner = ROOT
 				}
 			}
@@ -22730,7 +22730,7 @@ country_event = { # Petliura
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Vasyl Ellan-Blakytnyi"
+				name = "Василь Еллан-Блакитний"
 				desc = "POLITICS_VASYL_BLAKYTNYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Ellan_Blakytnyi.png"
 				expire = "1.1.1"
@@ -22910,7 +22910,7 @@ country_event = { # Petliura
 			remove_claim_by = USR		
 		}
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		complete_national_focus = UKR_Borotbyst_Revolution
@@ -23054,7 +23054,7 @@ country_event = { # Petliura
 		}
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Andriy Melnyk"
+			name = "Андрій Мельник"
 			desc = "POLITICS_ANDRIY_MELNYK_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk_Civilian.png"
 			expire = "1.1.1"
@@ -23156,7 +23156,7 @@ country_event = { # Petliura
 		random_owned_controlled_state = {
 			prioritize = { 1228 }
 			create_unit = {
-				division = "name = \"Povstanska dyviziia Vasylia Vyshyvanoho\" division_template = \"Petliurivtsi\" start_experience_factor = 0.8"
+				division = "name = \"Povstanska dyviziia Vasylia Vyshyvanoho\" division_template = \"Петлюрівці\" start_experience_factor = 0.8"
 				owner = ROOT
 			}
 		}
@@ -23183,14 +23183,14 @@ country_event = { # Petliura
 		name = ukrsoc.282.c
 		ai_chance = { base = 70 }
 		effect_tooltip = {
-			create_corps_commander = { name = "Vasyl Vyshyvanyi " }
+			create_corps_commander = { name = "Василь Вишиваний" }
 		}
 		hidden_effect = {
 			set_country_flag = UKR_vasyl_is_known_as_vasyl
 			XXA = {
 				random_unit_leader = {
 					limit = { has_id = 17989 }
-					set_leader_name = "Vasyl Vyshyvanyi "
+					set_leader_name = "Василь Вишиваний"
 					set_nationality = ROOT
 				}
 			}
@@ -23651,14 +23651,14 @@ country_event = { # Petliura
 		effect_tooltip = { retire_country_leader = yes }
 		set_country_flag = UKR_petliura_not_in_power_wait_elections
 		create_country_leader = {
-			name = "Isaak Mazepa"
+			name = "Ісаак Мазепа"
 			desc = "POLITICS_ISAAK_MAZEPA_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Isaak_Mazepa.png"
 			expire = "1.1.1"
 			ideology = socdem_democratic_socialism_subtype				
 		}
 		create_country_leader = {
-			name = "Andriy Nikovskyi"
+			name = "Андрій Ніковський"
 			desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 			expire = "1.1.1"
@@ -23667,7 +23667,7 @@ country_event = { # Petliura
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Isaak_Mazepa_hog_sde
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		hidden_effect = {
@@ -23777,14 +23777,14 @@ country_event = { # Petliura
 			elections_allowed = no
 		}			
 		create_country_leader = {
-			name = "Isaak Mazepa"
+			name = "Ісаак Мазепа"
 			desc = "POLITICS_ISAAK_MAZEPA_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Isaak_Mazepa.png"
 			expire = "1.1.1"
 			ideology = socdem_democratic_socialism_subtype				
 		}
 		create_country_leader = {
-			name = "Andriy Nikovskyi"
+			name = "Андрій Ніковський"
 			desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 			expire = "1.1.1"
@@ -23793,7 +23793,7 @@ country_event = { # Petliura
 		remove_all_ministers = yes			
 		add_ideas = UKR_Andriy_Nikovskyi_hog_sli
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = yes #will refund equipment and manpower
 		}
 		hidden_effect = {
@@ -24177,7 +24177,7 @@ country_event = { # Bolsheviks
 		}
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Yevhenia Bosh"
+			name = "Євгенія Бош"
 			desc = "POLITICS_YEVHENIYA_BOSCH_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Evheniya_Bosch.png"
 			expire = "1.1.1"
@@ -24243,11 +24243,11 @@ country_event = { # Bolsheviks
 		}
 		disband_twenty_percent_units = yes
 		delete_unit_template_and_units = {
-			division_template = "Petliurivtsi"
+			division_template = "Петлюрівці"
 			disband = no
 		}
 		delete_unit_template_and_units = {
-			division_template = "Sichovi Striltsi"
+			division_template = "Січові стрільці"
 			disband = no
 		}
 		effect_tooltip = {
@@ -24437,7 +24437,7 @@ country_event = { # Bolsheviks
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Nikita_Kruschev_hog_tot
 		create_country_leader = {
-			name = "Nikita Khrushchev"
+			name = "Никита Хрущев"
 			desc = "POLITICS_NIKITA_KRUSCHEV_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Nikita_Kruschev.png"
 			expire = "1.1.1"
@@ -24455,7 +24455,7 @@ country_event = { # Bolsheviks
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Vlas_Chubar_hog_tot
 		create_country_leader = {
-			name = "Vlas Chubar"
+			name = "Влас Чубар"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vlas_Chubar.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -24481,11 +24481,11 @@ country_event = { # Bolsheviks
 	
 	option = {
 		name = ukrsoc.348.a
-		set_country_leader_name = { name = "Mykyta Khrushchov" }
+		set_country_leader_name = { name = "Микита Хрущов" }
 		set_country_leader_portrait = { portrait = GFX_Portrait_UKR_Nikita_Kruschev_Vyshyvanka }
 		random_unit_leader = {
 			limit = { has_id = 17991 }
-			set_leader_name = "Mykyta Khrushchov "
+			set_leader_name = "Микита Хрущов "
 		}
 		UKR_improve_ukrainisation = yes
 		increase_ruling_party_popularity_by_3 = yes
@@ -24634,7 +24634,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.353.d
 		trigger = {
 			has_country_leader = {
-				name = "Mykyta Khrushchov"
+				name = "Микита Хрущов"
 				ruling_only = yes
 			}
 		}
@@ -24643,7 +24643,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.353.d2
 		trigger = {
 			has_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Никита Хрущев"
 				ruling_only = yes
 			}
 		}
@@ -24678,7 +24678,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.354.d
 		trigger = {
 			has_country_leader = {
-				name = "Mykyta Khrushchov"
+				name = "Микита Хрущов"
 				ruling_only = yes
 			}
 		}
@@ -24687,7 +24687,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.354.d2
 		trigger = {
 			has_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Никита Хрущев"
 				ruling_only = yes
 			}
 		}
@@ -25277,7 +25277,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.378.t
 		trigger = {
 			has_country_leader = {
-				name = "Mykyta Khrushchov"
+				name = "Микита Хрущов"
 				ruling_only = yes
 			}
 		}
@@ -25286,7 +25286,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.378.t2
 		trigger = {
 			has_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Никита Хрущев"
 				ruling_only = yes
 			}
 		}
@@ -25295,7 +25295,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.378.d
 		trigger = {
 			has_country_leader = {
-				name = "Mykyta Khrushchov"
+				name = "Микита Хрущов"
 				ruling_only = yes
 			}
 		}
@@ -25304,7 +25304,7 @@ country_event = { # Bolsheviks
 		text = ukrsoc.378.d2
 		trigger = {
 			has_country_leader = {
-				name = "Nikita Khrushchev"
+				name = "Никита Хрущев"
 				ruling_only = yes
 			}
 		}
@@ -25545,7 +25545,7 @@ country_event = { # Bolsheviks
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Vlas_Chubar_hog_tot
 		create_country_leader = {
-			name = "Vlas Chubar"
+			name = "Влас Чубар"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vlas_Chubar.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -25564,7 +25564,7 @@ country_event = { # Bolsheviks
 		set_country_flag = UKR_no_khruschev_for_puppet
 		UKR_improve_ukrainisation = yes
 		add_stability = 0.1
-	}	
+	}
 }
 
 
@@ -26499,9 +26499,9 @@ country_event = { # Ukraine leaves bread peace?
 			modifier = {
 				factor = 0
 				tag = GER
-				OR = {
-					has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE }
-					has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE_GER_UNION }
+					OR = {
+						has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE }
+						has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE_GER_UNION }
 				}
 			}
 		}
@@ -26570,9 +26570,9 @@ country_event = { # Ukraine leaves bread peace?
 			modifier = {
 				factor = 0
 				tag = GER
-				OR = {
-					has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE }
-					has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE_GER_UNION }
+					OR = {
+						has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE }
+						has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_TRUE_GER_UNION }
 					has_game_rule = { rule = UKR_german_intervetion option = UKR_GERMAN_INTERVENTION_FALSE }
 				}
 			}
@@ -29080,7 +29080,7 @@ country_event = { #Volf Ladezhinskyi
 		set_temp_variable = { UKR_influence_change = 3 }
 		UKR_reform_score = yes
 		create_country_leader = {
-			name = "Volf Ladezhinskyi"
+			name = "Вольф Ладежинський"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Volf_Ladezhinskyi.png" 
 			expire = "1.1.1"
 			ideology = georgism_subtype
@@ -29150,14 +29150,14 @@ country_event = { # WHR & UKR are independent
 	fire_only_once = yes
 	trigger = {
 		original_tag = UKR
-		is_subject = no
-		is_in_faction = no
-		has_war = no
-		NOT = {
-			owns_state = 95
-			owns_state = 194
-		}
-		has_country_flag = UKR_can_secure_power
+			is_subject = no
+			is_in_faction = no
+			has_war = no
+			NOT = {
+				owns_state = 95
+				owns_state = 194
+			}
+			has_country_flag = UKR_can_secure_power
 		WHR = {
 			is_subject = no
 			is_in_faction = no
@@ -29198,7 +29198,7 @@ country_event = { # WHR & UKR are independent
 				random = 48
 			}
 		}
-		custom_effect_tooltip = "If they agree:"
+		custom_effect_tooltip = "Если они согласятся:"
 		effect_tooltip = {
 			create_faction_from_template = { 
 				template = faction_template_regional 
@@ -30552,7 +30552,7 @@ country_event = { #AUS refuses
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrfor.40" }
 	title = ukrfor.40.t
 	desc = ukrfor.40.d
- 
+
 	is_triggered_only = yes
 
 	option = {
@@ -30843,7 +30843,7 @@ country_event = { #for GER, start negotiations with Ukraine
 			modifier = {
 				factor = 0
 				FROM = { at_peace_or_same_enemies_as_ROOT = no }
-			}
+			}			
 		}
 		effect_tooltip = { add_to_faction = FROM }
 		FROM = { country_event = ukrfor.54 }
@@ -31720,19 +31720,19 @@ country_event = { #UKR notification of GER war declaration
 						OR = {
 							has_country_leader = {
 								ruling_only = yes
-								name = "Grigory Zinoviev"
+								name = "Григорий Зиновьев"
 							}
 							has_country_leader = {
 								ruling_only = yes
-								name = "Lev Kamenev"
+								name = "Лев Каменев"
 							}
 							has_country_leader = {
 								ruling_only = yes
-								name = "Grigory Sokolnikov"
+								name = "Григорий Сокольников"
 							}
 							has_country_leader = {
 								ruling_only = yes
-								name = "Mikhail Kalinin"
+								name = "Михаил Калинин"
 							}
 							nsp_in_power = yes
 							has_country_flag = right_communists_victorous
@@ -35461,7 +35461,7 @@ country_event = { #
 		remove_ideas_with_trait = head_of_government
 		add_ideas = UKR_Ivan_Poltvets_Ostrianytsia_hog_pau
 		create_country_leader = {
-			name = "Ivan Poltavets-Ostrianytsia"
+			name = "Іван Полтавець-Остряниця"
 			desc = "POLITICS_IVAN_POLTAVETS_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Ivan_Poltavets_Ostrianytsia.png"
 			expire = "1.1.1"
@@ -35476,10 +35476,10 @@ country_event = { #
 		}
 		if = {
 			limit = {
-				NOT = { has_template = "Kozatska Dyviziia" }
+				NOT = { has_template = "Козацька дивізія" }
 			}
 			division_template = {
-				name = "Kozatska Dyviziia"
+				name = "Козацька дивізія"
 				division_names_group = UKR_CAV_02
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -35496,19 +35496,19 @@ country_event = { #
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.5"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.4"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.2"
+				division = "division_template = \"Козацька дивізія\" start_experience_factor = 0.2"
 				owner = ROOT
 			}
 		}
@@ -35557,13 +35557,13 @@ country_event = { #
 			limit = { 
 				GER = {
 					has_country_leader = {
-						name = "Wilhelm II"
+						name = "Вильгельм II"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Vasyl II"
+				name = "Василь II"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Willy_II_Ukraine.png"
 				expire = "1.1.1"
 				ideology = pataut_ukrainian_conservatism_subtype
@@ -35574,13 +35574,13 @@ country_event = { #
 			limit = { 
 				GER = {
 					has_country_leader = {
-						name = "Wilhelm III"
+						name = "Вильгельм III"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Vasyl II"
+				name = "Василь II"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Willy_III_Ukraine.png"
 				expire = "1.1.1"
 				ideology = pataut_ukrainian_conservatism_subtype
@@ -35601,7 +35601,7 @@ country_event = { #
 	is_triggered_only = yes
 	trigger = {
 		has_country_leader = {
-			name = "Vasyl II"
+			name = "Василь II"
 			ruling_only = yes
 		}
 	}
@@ -35611,7 +35611,7 @@ country_event = { #
 		name = ukrfor.154.a
 		effect_tooltip = { kill_country_leader = yes }
 		create_country_leader = {
-			name = "Vasyl III"
+			name = "Василь III"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Willy_III_Ukraine.png"
 			expire = "1.1.1"
 			ideology = pataut_ukrainian_conservatism_subtype
@@ -38740,7 +38740,7 @@ country_event = { # Petliura
 	option = {
 		name = ukrfor.261.a
 		set_country_flag = UKR_petliura_shumskyi_united_front
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_regional 
 				name = faction_people_ukraine
 				icon = GFX_faction_ukraine
@@ -39379,9 +39379,9 @@ country_event = { #
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ukrfor.300" }
 	title = ukrfor.300.t
 	desc = ukrfor.300.d
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ukrfor.300.a
 		ai_chance = { 
@@ -39448,7 +39448,7 @@ country_event = { #
 	title = ukrfor.301.t
 	desc = ukrfor.301.d
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ukrfor.301.a
 		FROM = { 
@@ -39477,7 +39477,7 @@ country_event = { #
 	title = ukrfor.302.t
 	desc = ukrfor.302.d
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ukrfor.302.a
 		FROM = { 
@@ -39501,7 +39501,7 @@ country_event = { #
 	title = ukrfor.303.t
 	desc = ukrfor.303.d
 	is_triggered_only = yes
-	
+
 	option = {
 		name = ukrfor.303.a		
 		add_political_power = -10
@@ -39974,7 +39974,7 @@ country_event = { #
 					AND = {
 						tag = LAT
 						OR = {
-							has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_ALLIANCE }
+						has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_ALLIANCE }
 							has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_NEUTRALITY }
 						}
 					}
@@ -39998,7 +39998,7 @@ country_event = { #
 							has_game_rule = { rule = ROM_foreign_policy option = ROM_FOREIGN_POLICY_LATIN_UNION }
 							has_game_rule = { rule = ROM_foreign_policy option = ROM_FOREIGN_POLICY_NEUTRALITY }
 						}
-					}
+					}				
 					AND = {
 						tag = CZE
 						OR = {
@@ -40019,7 +40019,7 @@ country_event = { #
 							has_game_rule = { rule = ARM_forpol option = ARM_FORPOL_INT }
 							has_game_rule = { rule = ARM_forpol option = ARM_FORPOL_NEUTRALITY }
 						}
-					}
+					}					
 					AND = {
 						tag = HUN
 						OR = {
@@ -40045,14 +40045,14 @@ country_event = { #
 	option = {
 		name = ukrfor.651.b
 		ai_chance = {
-			base = 15
+			base = 15			
 			modifier = {
 				factor = 0
 				OR = {
 					AND = {
 						tag = POL
 						OR = {
-							has_game_rule = { rule = POL_foreign_policy option = POL_FOREIGN_POLICY_UKRAINE }
+						has_game_rule = { rule = POL_foreign_policy option = POL_FOREIGN_POLICY_UKRAINE }
 							has_game_rule = { rule = PLC_foreign_policy option = PLC_FOREIGN_POLICY_UKRAINE }
 						}
 					}	
@@ -40075,7 +40075,7 @@ country_event = { #
 					AND = {
 						tag = ROM
 						has_game_rule = { rule = ROM_foreign_policy option = ROM_FOREIGN_POLICY_UKRAINE }
-					}
+					}					
 					AND = {
 						tag = CZE
 						has_game_rule = { rule = CZE_forpol option = CZE_FORPOL_UKRAINE }
@@ -40411,7 +40411,7 @@ country_event = { # Elections
 		if = {
 			limit = { UKR_isaak_mazepa_in_power = no }
 			create_country_leader = {
-				name = "Isaak Mazepa"
+				name = "Ісаак Мазепа"
 				desc = "POLITICS_ISAAK_MAZEPA_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Isaak_Mazepa.png"
 				expire = "1.1.1"
@@ -40474,7 +40474,7 @@ country_event = { # Elections
 		if = {
 			limit = { UKR_oleksander_shapoval_in_power = no }
 			create_country_leader = {
-				name = "Oleksandr Shapoval"
+				name = "Олександр Шаповал"
 				desc = "POLITICS_OLEKSANDER_SHAPOVAL_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Shapoval.png"
 				expire = "1.1.1"
@@ -40557,7 +40557,7 @@ country_event = { # Elections
 		if = {
 			limit = { UKR_shakhrai_in_power = no }
 			create_country_leader = {
-				name = "Vasyl Shakhrai"
+				name = "Василь Шахрай"
 				desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 				expire = "1.1.1"
@@ -40570,7 +40570,7 @@ country_event = { # Elections
 			long_name = UKR_radical_socialist_party_long
 		}
 		create_country_leader = {
-			name = "Vasyl Shakhrai"
+			name = "Василь Шахрай"
 			desc = "POLITICS_VASYL_SHAKHRAI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Shakhrai.png" 
 			expire = "1.1.1"
@@ -40627,7 +40627,7 @@ country_event = { # Elections
 			long_name = UKR_social_democrat_party2_long
 		}
 		create_country_leader = {
-			name = "Mykola Kovalevskyi"
+			name = "Микола Ковалевський"
 			desc = "POLITICS_MYKOLA_KOVALEVSKYI_DESC"
 			picture = "gfx/leaders/UKR/Portrait_UKR_Mykola_Kovalevskyi.png"
 			expire = "1.1.1"
@@ -40680,7 +40680,7 @@ country_event = { # Elections
 		if = {
 			limit = { UKR_isaak_mazepa_in_power = no }
 			create_country_leader = {
-				name = "Isaak Mazepa"
+				name = "Ісаак Мазепа"
 				desc = "POLITICS_ISAAK_MAZEPA_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Isaak_Mazepa.png"
 				expire = "1.1.1"
@@ -40732,12 +40732,12 @@ country_event = { # Elections
 		if = {
 			limit = { 
 				has_country_leader = {
-					name = "Andriy Nikovskyi"
+					name = "Андрій Ніковський"
 					ruling_only = yes
 				}
 			}
 			create_country_leader = {
-				name = "Andriy Nikovskyi"
+				name = "Андрій Ніковський"
 				desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 				expire = "1.1.1"
@@ -40809,7 +40809,7 @@ country_event = { # Elections
 		if = {
 			limit = { UKR_isaak_mazepa_in_power = no }
 			create_country_leader = {
-				name = "Isaak Mazepa"
+				name = "Ісаак Мазепа"
 				desc = "POLITICS_ISAAK_MAZEPA_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Isaak_Mazepa.png"
 				expire = "1.1.1"
@@ -40865,12 +40865,12 @@ country_event = { # Elections
 		if = {
 			limit = { 
 				has_country_leader = {
-					name = "Andriy Nikovskyi"
+					name = "Андрій Ніковський"
 					ruling_only = yes
 				}
 			}
 			create_country_leader = {
-				name = "Andriy Nikovskyi"
+				name = "Андрій Ніковський"
 				desc = "POLITICS_ANDRIY_NIKOVSKYI_DESC"
 				picture = "gfx/leaders/UKR/Portrait_UKR_Andriy_Nikovskyi.png"
 				expire = "1.1.1"
@@ -41443,7 +41443,7 @@ country_event = { #
 			if = {
 				limit = { has_intelligence_agency = no }
 				create_intelligence_agency = {
-					name = "Intermarium Defence & Security"
+					name = "Оборона і безпека міжмор'я"
 					icon = GFX_intelligence_agency_logo_kr_miz
 				}
 			}
@@ -42322,7 +42322,7 @@ country_event = { #
 			if = {
 				limit = { has_intelligence_agency = no }
 				create_intelligence_agency = {
-					name = "Intermarium Defence & Security"
+					name = "Оборона і безпека міжмор'я"
 					icon = GFX_intelligence_agency_logo_kr_miz
 				}
 			}
@@ -43139,7 +43139,7 @@ country_event = { #
 					AND = {
 						tag = LAT
 						OR = {
-							has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_ALLIANCE }
+						has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_ALLIANCE }
 							has_game_rule = { rule = LAT_forpol option = LAT_FORPOL_NEUTRALITY }
 						}
 					}
@@ -43250,7 +43250,7 @@ country_event = { #
 	option = {
 		name = mizhmoria.60.b
 		ai_chance = {
-			base = 15	
+			base = 15			
 			modifier = {
 				factor = 0
 				OR = {

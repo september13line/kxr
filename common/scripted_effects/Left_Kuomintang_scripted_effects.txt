@@ -128,7 +128,7 @@ CHI_spawn_fujian_revolt = {
 					irregular_infantry = { x = 1 y = 1 }
 				}
 			}
-			division_template = { #Create a Cavalry Division
+			division_template = { #Create a Кавалерийская дивизия
 				name = "Qibing Shi"
 				division_names_group = CHI_CAV_01
 				regiments = {
@@ -248,7 +248,7 @@ BHC_chinese_advisers_flees = {
 			CHI = { exists = yes }
 		}
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -270,7 +270,7 @@ BHC_chinese_advisers_flees = {
 			}
 		}
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -292,7 +292,7 @@ BHC_chinese_advisers_flees = {
 			}
 		}
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -314,7 +314,7 @@ BHC_chinese_advisers_flees = {
 			}
 		}
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -336,7 +336,7 @@ BHC_chinese_advisers_flees = {
 			}
 		}
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -350,7 +350,7 @@ BHC_chinese_advisers_flees = {
 	}
 	else = {
 		BHC = {
-			every_unit_leader = {
+		every_unit_leader = {
 			limit = {
 				OR = {
 					has_id = 2203 # Xue Yue
@@ -1569,9 +1569,9 @@ CHI_national_economic_recovery_effect = {
 
 CHI_liberation_army_template_setup_effect = {
 	if = {
-		limit = { NOT = { has_template = "Liberation Army Division" } }
+		limit = { NOT = { has_template = "Дивизия армии освобождения" } }
 		division_template = {
-			name = "Liberation Army Division"
+			name = "Дивизия армии освобождения"
 			division_names_group = CHI_MIL_01
 			force_allow_recruiting = yes
 			template_counter = 58
@@ -1595,7 +1595,7 @@ CHI_liberation_army_template_setup_effect = {
 	}
 	else = {
 		set_division_template_cap = {
-			division_template = "Liberation Army Division"
+			division_template = "Дивизия армии освобождения"
 			division_cap = 5
 		}
 	}
@@ -1937,7 +1937,7 @@ CHI_purge_CRS_generals_effect = {
 		}
 	}
 }
-#Special Flag for Song Ziwen because he's a countryleader
+#Special Flag for Сун Цзывэнь because he's a countryleader
 CHI_recruit_song_ziwen_effect = {
 	if = {
 		limit = { NOT = { has_country_flag = CHI_song_ziwen_available_flag } }
@@ -2010,7 +2010,7 @@ CHI_recruit_RF_generals_effect = {
 					OR = {
 						NOT = { 
 							has_country_leader = {
-								name = "Cheng Qian"
+								name = "Чэн Цянь"
 								ruling_only = yes
 							}
 						}
@@ -2114,7 +2114,7 @@ CHI_purge_PAC_advisors_effect = {
 	set_country_flag = He_Xiangning_dead
 	set_country_flag = Peng_Zexiang_dead
 	set_country_flag = Zhang_Yunchuan_dead
-	#Special Flag for Song Ziwen because he's a countryleader
+	#Special Flag for Сун Цзывэнь because he's a countryleader
 	if = {
 		limit = { has_country_flag = CHI_song_ziwen_available_flag }
 		hidden_effect = { clr_country_flag = CHI_song_ziwen_available_flag }
@@ -3202,7 +3202,7 @@ CHI_puppet_setup_gov_effect = {
 		limit = { ROOT = { has_government = syndicalist } }
 		CHI_recruit_LCS_generals_effect = yes
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			desc = "POLITICS_CHI_CHEN_DUXIU_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
@@ -3217,7 +3217,7 @@ CHI_puppet_setup_gov_effect = {
 				long_name = CHI_csp_rad_party_long
 			}
 			create_country_leader = {
-				name = "Chen Shaoyu"
+				name = "Чэнь Шаоюй"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaoyu.png"
 				expire = "1.1.1"
 				ideology = totalist_subtype
@@ -3237,7 +3237,7 @@ CHI_puppet_setup_gov_effect = {
 	else_if = {
 		limit = { ROOT = { has_government = totalist } }
 		create_country_leader = {
-			name = "Hu Zongnan"
+			name = "Ху Цзуннань"
 			desc = "POLITICS_CHI_HU_ZONGNAN_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Hu_Zongnan_KR.png"
 			expire = "1.1.1"
@@ -3263,7 +3263,7 @@ CHI_puppet_setup_gov_effect = {
 		if = {
 			limit = { NOT = { has_country_flag = Wang_Jingwei_dead } }
 			create_country_leader = {
-				name = "Wang Jingwei"
+				name = "Ван Цзинвэй"
 				desc = "POLITICS_CHI_WANG_JINGWEI_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei_KX.png"
 				expire = "1.1.1"
@@ -3306,7 +3306,7 @@ CHI_puppet_setup_gov_effect = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Song Qingling"
+				name = "Сун Цинлин"
 				desc = "POLITICS_CHI_SONG_QINGLING_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
 				expire = "1.1.1"
@@ -3429,7 +3429,7 @@ CHI_recruit_li_zongren_effect = {
 	}
 	CHI = {
 		create_corps_commander = {
-			name = "Li Zongren "
+			name = "Ли Цзунжэнь "
 			desc = "POLITICS_YUNNAN_LI_ZONGREN_ARMY_DESC"
 			portrait_path = "gfx/leaders/GXC/Portrait_GXC_Li_Zongren_LKMT.png"
 			id = 1209

@@ -55,7 +55,7 @@ country_event = { #Rebels in Cape Town, Port Elizabeth and Johannesburg
 			}
 			681 = {
 				create_unit = {
-					division = "name = \"Cape Town Militia\" division_template = \"Loyalist Militia\" start_experience_factor = 0.1"
+					division = "name = \"Cape Town Militia\" division_template = \"Лоялистское ополчение\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 1358
 					owner = SFR
@@ -63,7 +63,7 @@ country_event = { #Rebels in Cape Town, Port Elizabeth and Johannesburg
 			}
 			946 = {
 				create_unit = {
-					division = "name = \"Port Elizabeth Militia\" division_template = \"Loyalist Militia\" start_experience_factor = 0.1"
+					division = "name = \"Port Elizabeth Militia\" division_template = \"Лоялистское ополчение\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 13763
 					owner = SFR
@@ -71,7 +71,7 @@ country_event = { #Rebels in Cape Town, Port Elizabeth and Johannesburg
 			}
 			275 = {
 				create_unit = {
-					division = "name = \"Johannesburg Militia\" division_template = \"Loyalist Militia\" start_experience_factor = 0.1"
+					division = "name = \"Johannesburg Militia\" division_template = \"Лоялистское ополчение\" start_experience_factor = 0.1"
 					allow_spawning_on_enemy_provs = yes
 					prioritize_location = 13799
 					owner = SFR
@@ -345,7 +345,7 @@ country_event = { #The navy defects to SFR
 				}
 			}
 			create_navy_leader = {
-				name = "Guy Hallifax"
+				name = "Гай Халлифакс"
 				portrait_path = "gfx/leaders/SAF/Portrait_SAF_Guy_Hallifax.png"
 				traits = {
 					blockade_runner
@@ -1470,7 +1470,7 @@ country_event = {
 		set_country_flag = saf_flag_elections_held
 	}
 
-	option = { #Heaton Nicholls and the UFP win
+	option = { #Хитон Николс and the UFP win
 		name = natal.25.a
 		ai_chance = {
 			factor = 70
@@ -1533,7 +1533,7 @@ country_event = {
 		}
 	}
 	
-	option = { #Thomas Boydell and the Labour Party with SAP support
+	option = { #Томас Бойделл and the Labour Party with SAP support
 		name = natal.25.c
 		ai_chance = {
 			factor = 10
@@ -1589,21 +1589,21 @@ country_event = { #Victory in the third Boer war
 			ENT = { set_country_flag = sfr_mission_completed }
 			ZIM = { set_country_flag = sfr_mission_completed }
 			create_country_leader = {
-				name = "James La Guma"
+				name = "Джеймс Ла Гума"
 				picture = "gfx/leaders/SAF/Portrait_SAF_James_La_Guma.png"
 				desc = "POLITICS_JIMMY_LA_GUMA_DESC"
 				expire = "1.1.1"
 				ideology = tot_left_panafricanism_subtype
 			}
 			create_country_leader = {
-				name = "Clements Kadalie"
+				name = "Клементс Кадали"
 				picture = "gfx/leaders/SAF/Portrait_SAF_Clement_Kadalie.png"
 				desc = "POLITICS_CLEM_KADALIE_DESC"
 				expire = "1.1.1"
 				ideology = syndicalist_subtype
 			}
 			create_country_leader = {
-				name = "Johannes van Rensburg"
+				name = "Йоханнес ван Ренсбург"
 				desc = "POLITICS_JOHANNES_VAN_RENSBURG_DESC"
 				picture = "gfx/leaders/SAF/Portrait_SAF_Johannes_van_Rensburg.png"
 				expire = "1.1.1"
@@ -1612,7 +1612,7 @@ country_event = { #Victory in the third Boer war
 			719 = {
 				set_province_name = {
 					id = 1468
-					name = "Durban"
+					name = "Дурбан"
 				}
 			}
 			remove_ideas = SFR_idea_indian_diaspora
@@ -1650,7 +1650,7 @@ country_event = {
 		set_country_flag = sfr_flag_fed_elections_held
 	}
 
-	option = { #Heaton Nicholls and the UFP win
+	option = { #Хитон Николс and the UFP win
 		name = natal.27.a
 		ai_chance = {
 			factor = 70
@@ -2125,7 +2125,7 @@ country_event = {
 		}
 	}
 
-	option = { #Heaton Nicholls and the UFP win
+	option = { #Хитон Николс and the UFP win
 		name = natal.52.a
 		ai_chance = {
 			factor = 70
@@ -2155,7 +2155,7 @@ country_event = {
 		}
 	}
 	
-	option = { #Charles Stallard and the Dominion Party
+	option = { #Чарльз Сталлард and the Dominion Party
 		name = natal.52.b
 		ai_chance = {
 			factor = 20
@@ -2180,7 +2180,7 @@ country_event = {
 		}
 	}
 	
-	option = { #Thomas Boydell and the Labour Party with SAP support
+	option = { #Томас Бойделл and the Labour Party with SAP support
 		name = natal.52.c
 		ai_chance = {
 			factor = 10

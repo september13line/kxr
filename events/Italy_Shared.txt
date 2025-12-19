@@ -3333,7 +3333,7 @@ country_event = {
 			is_subject = no
 			}
 			OR = {
-				has_country_leader = { name = "Julius IV" }
+				has_country_leader = { name = "Юлий IV" }
 				NOT = { has_government = national_populist }
 			}
 			NOT = { any_owned_state = { is_core_of = AUS } }
@@ -3678,7 +3678,7 @@ country_event = {
 				LOM = { exists = no }
 			}
 			AND = {
-				country_exists = SRI
+					country_exists = SRI
 				ITA = { exists = no }
 				SRD = { 
 					OR = { 
@@ -3701,7 +3701,7 @@ country_event = {
 				LOM = { exists = no }
 			}
 			AND = {
-				country_exists = SIC
+					country_exists = SIC
 				SRI = { exists = no }
 				ITA = { 
 					OR = {	
@@ -3735,9 +3735,9 @@ country_event = {
 						is_subject_of = SIC
 					}
 				}
-			}
-			AND = {
-				country_exists = PAP
+					}
+					AND = {
+						country_exists = PAP
 				SRI = { exists = no }
 				ITA = { exists = no }
 				SRD = {
@@ -3749,9 +3749,9 @@ country_event = {
 				SIC = { exists = no }
 				VNC = { exists = no }
 				LOM = { exists = no }
-			}
-			AND = {
-				country_exists = VNC
+					}
+					AND = {
+						country_exists = VNC
 				SRI = { exists = no }
 				ITA = { exists = no }
 				SRD = {
@@ -3763,9 +3763,9 @@ country_event = {
 				SIC = { exists = no }
 				PAP = { exists = no }
 				LOM = { exists = no }
-			}
-			AND = {
-				country_exists = LOM
+					}
+					AND = {
+						country_exists = LOM
 				SRI = { exists = no }
 				ITA = { exists = no }
 				SRD = {

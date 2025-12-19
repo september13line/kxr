@@ -814,7 +814,7 @@ news_event = {
 	}
 }
 
-# Chairman Mosley
+# Chairman Мосли
 news_event = {
 	id = worldnews.24
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.24" }
@@ -942,7 +942,7 @@ news_event = {
 	}
 }
 
-# Edward VIII ascends
+# Эдуард VIII ascends
 news_event = {
 	id = worldnews.28
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.28" }
@@ -2034,7 +2034,7 @@ news_event = {
 
 # id = worldnews.79
 # has been deleted it was
-# Ho Chi Minh arrives in Calcutta
+# Хо Ши Мин arrives in Calcutta
 
 # The Bharatiya Commune and Dominion of India unite
 news_event = {
@@ -3522,7 +3522,7 @@ news_event = {
 	picture = GFX_news_event_AST_parliament
 
 	desc = worldnews.127.d.permission
-	
+
 	major = yes
 
 	is_triggered_only = yes
@@ -3551,7 +3551,7 @@ news_event = {
 	picture = GFX_news_event_ast_troops_landing
 
 	desc = worldnews.131.d
-	
+
 	major = yes
 
 	is_triggered_only = yes
@@ -5878,7 +5878,7 @@ news_event = {
 		text = worldnews.210.d.tuscwaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Pietro I" ruling_only = yes }
+				has_country_leader = { name = "Пьетро I" ruling_only = yes }
 				has_country_flag = VNC_accepted_austrian_help
 			}
 		}
@@ -5887,7 +5887,7 @@ news_event = {
 		text = worldnews.210.d.lombwaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Adriano I" ruling_only = yes }
+				has_country_leader = { name = "Адриано I" ruling_only = yes }
 				has_country_flag = VNC_accepted_austrian_help
 			}
 		}
@@ -5896,7 +5896,7 @@ news_event = {
 		text = worldnews.210.d.venwaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes }
+				has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes }
 				has_country_flag = VNC_accepted_austrian_help
 			}
 		}
@@ -5905,7 +5905,7 @@ news_event = {
 		text = worldnews.210.d.tuscnoaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Pietro I" ruling_only = yes }
+				has_country_leader = { name = "Пьетро I" ruling_only = yes }
 				NOT = { has_country_flag = VNC_accepted_austrian_help }
 			}
 		}
@@ -5914,7 +5914,7 @@ news_event = {
 		text = worldnews.210.d.lombnoaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Adriano I" ruling_only = yes }
+				has_country_leader = { name = "Адриано I" ruling_only = yes }
 				NOT = { has_country_flag = VNC_accepted_austrian_help }
 			}
 		}
@@ -5923,7 +5923,7 @@ news_event = {
 		text = worldnews.210.d.vennoaus
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Giuseppe Volpi" ruling_only = yes }
+				has_country_leader = { name = "Джузеппе Вольпи" ruling_only = yes }
 				NOT = { has_country_flag = VNC_accepted_austrian_help }
 			}
 		}
@@ -6091,7 +6091,7 @@ news_event = {
 		text = worldnews.216.d.tusc
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Pietro I" ruling_only = yes }
+				has_country_leader = { name = "Пьетро I" ruling_only = yes }
 				exists = yes
 			}
 		}
@@ -6100,7 +6100,7 @@ news_event = {
 		text = worldnews.216.d.lomb
 		trigger = {
 			ITA = {
-				has_country_leader = { name = "Adriano I" ruling_only = yes }
+				has_country_leader = { name = "Адриано I" ruling_only = yes }
 				exists = yes
 			}
 		}
@@ -6166,7 +6166,7 @@ news_event = {
 		trigger = {
 			ITA = { has_government = national_populist }
 			NOT = {
-				has_country_leader = { ruling_only = yes name = "Luigi I" }
+				has_country_leader = { ruling_only = yes name = "Луиджи I" }
 			}
 		}
 	}
@@ -6174,7 +6174,7 @@ news_event = {
 		text = worldnews.218.d.lui
 		trigger = {
 			ITA = { has_government = national_populist }
-			has_country_leader = { ruling_only = yes name = "Luigi I" }
+			has_country_leader = { ruling_only = yes name = "Луиджи I" }
 		}
 	}
 	desc = {
@@ -6354,9 +6354,9 @@ news_event = {
 		trigger = {
 			LOM = {
 				OR = {
-					has_country_leader = { name = "Marcello Visconti di Modrone" ruling_only = yes }
-					has_country_leader = { name = "Marcello I" ruling_only = yes }
-					has_country_leader = { name = "Adriano I" ruling_only = yes }
+					has_country_leader = { name = "Марчелло Висконти ди Модроне" ruling_only = yes }
+					has_country_leader = { name = "Марчелло I" ruling_only = yes }
+					has_country_leader = { name = "Адриано I" ruling_only = yes }
 				}
 				has_completed_focus = LOM_crown_king
 			}
@@ -6367,9 +6367,9 @@ news_event = {
 		trigger = {
 			LOM = {
 				OR = {
-					has_country_leader = { name = "Marcello Visconti di Modrone" ruling_only = yes }
-					has_country_leader = { name = "Marcello I" ruling_only = yes }
-					has_country_leader = { name = "Adriano I" ruling_only = yes }
+					has_country_leader = { name = "Марчелло Висконти ди Модроне" ruling_only = yes }
+					has_country_leader = { name = "Марчелло I" ruling_only = yes }
+					has_country_leader = { name = "Адриано I" ruling_only = yes }
 				}
 				NOT = { has_completed_focus = LOM_crown_king }
 			}
@@ -6380,9 +6380,9 @@ news_event = {
 		trigger = { 
 			LOM = { 
 				NOT = {
-					has_country_leader = { name = "Marcello Visconti di Modrone" ruling_only = yes }
-					has_country_leader = { name = "Marcello I" ruling_only = yes }
-					has_country_leader = { name = "Adriano I" ruling_only = yes }
+					has_country_leader = { name = "Марчелло Висконти ди Модроне" ruling_only = yes }
+					has_country_leader = { name = "Марчелло I" ruling_only = yes }
+					has_country_leader = { name = "Адриано I" ruling_only = yes }
 				}
 			} 
 		}
@@ -6500,7 +6500,7 @@ news_event = {
 	}
 }
 
-# Papal Conclave elects Leo XIV
+# Papal Conclave elects Лео XIV
 news_event = {
 	id = worldnews.225
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.225" }
@@ -6531,7 +6531,7 @@ news_event = {
 	}
 }
 
-# Papal Conclave elects Benedict XVI
+# Papal Conclave elects Бенедикт XVI
 news_event = {
 	id = worldnews.2251
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2251" }
@@ -6562,7 +6562,7 @@ news_event = {
 	}
 }
 
-# Papal Conclave elects Julius IV
+# Papal Conclave elects Юлий IV
 news_event = {
 	id = worldnews.226
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.226" }
@@ -9104,7 +9104,7 @@ news_event = {
 	}
 }
 
-# Charles Curtis
+# Чарльз Кёртис
 news_event = {
 	id = worldnews.9800
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.9800" }
@@ -9222,7 +9222,7 @@ news_event = {
 	}
 }
 
-# William H. Murray
+# Уильям Мюррей
 news_event = {
 	id = worldnews.2200
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2200" }
@@ -9416,7 +9416,7 @@ news_event = { #O'Daniel brings Texas into the saddle
 		wants_world_news = yes
 		has_country_leader = {
 				ruling_only = yes
-				name = "W. Lee O'Daniel"
+				name = "Уилберт Ли О’Дэниел"
 				}
 		NOT = {
 			tag = TEX
@@ -9531,7 +9531,7 @@ news_event = { #William Zebulon Foster is named President
 	}
 }
 
-news_event = { #Earl Browder is named President
+news_event = { #Эрл Браудер is named President
 	id = worldnews.1015
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1015" }
 	title = worldnews.1015.t
@@ -9566,7 +9566,7 @@ news_event = { #Earl Browder is named President
 	}
 }
 
-news_event = { #General Smedley Butler overthrows the Centralist Clique
+news_event = { #General Смедли Батлер overthrows the Centralist Clique
 	id = worldnews.1016
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1016" }
 	title = worldnews.1016.t
@@ -9691,7 +9691,7 @@ news_event = { #NPP takes power in the AUS
 		TEX = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Philip Fox La Follette."
+				name = "Филипп Фокс Ла Фоллетт."
 			}
 		}
 	}
@@ -9734,7 +9734,7 @@ news_event = { #Pelley seizes control of the AUS
 		TEX = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "William Dudley Pelley"
+				name = "Уильям Дадли Пелли"
 				}
 			}
 		}
@@ -9831,7 +9831,7 @@ news_event = { #William Zebulon Foster is Named President
 	}
 }
 
-news_event = { #Earl Browder is Named President
+news_event = { #Эрл Браудер is Named President
 	id = worldnews.207
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.207" }
 	title = worldnews.207.t
@@ -9866,7 +9866,7 @@ news_event = { #Earl Browder is Named President
 	}
 }
 
-news_event = { #General Smedley Butler overthrows the Centralist Clique
+news_event = { #General Смедли Батлер overthrows the Centralist Clique
 	id = worldnews.208
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.208" }
 	title = worldnews.208.t
@@ -12024,7 +12024,7 @@ news_event = { #RUS intervenes in the 2WK
 
 
 
-# Padre Pio becomes pope
+# Падре Пио becomes pope
 news_event = {
 	id = worldnews.550
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.550" }

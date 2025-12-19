@@ -54,14 +54,14 @@ focus = {
 	cost = 0
 	available = {
 		has_country_leader = {
-			name = "Vladimir Volsky"
+			name = "Владимир Вольский"
 			ruling_only = yes
 		}
 		has_country_flag = soviet_congress_end
 	}
 	bypass = {
 		has_country_leader = {
-			name = "Vladimir Volsky"
+			name = "Владимир Вольский"
 			ruling_only = yes
 		}
 		has_country_flag = soviet_congress_end
@@ -81,14 +81,14 @@ focus = {
 	cost = 0
 	available = {
 		has_country_leader = {
-			name = "Maria Spiridonova"
+			name = "Мария Спиридонова"
 			ruling_only = yes
 		}
 		has_country_flag = soviet_congress_end
 	}
 	bypass = {
 		has_country_leader = {
-			name = "Maria Spiridonova"
+			name = "Мария Спиридонова"
 			ruling_only = yes
 		}
 		has_country_flag = soviet_congress_end
@@ -1777,7 +1777,7 @@ focus = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Vladimir Volsky"
+						name = "Владимир Вольский"
 						ruling_only = yes
 					}
 				}
@@ -1790,7 +1790,7 @@ focus = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Vladimir Volsky"
+						name = "Владимир Вольский"
 						ruling_only = yes
 					}
 				}
@@ -2281,7 +2281,7 @@ focus = {
 	continue_if_invalid = no
 	
 	completion_reward = {
-		custom_effect_tooltip = "According to the Left SR doctrine, the economic control will be in the hands of the elected 'fabkoms' and the political one in the hands of the elected 'soviets'"
+		custom_effect_tooltip = "Согласно доктрине левых эсеров, экономический контроль будет находиться в руках избранных «фабкомов», а политический — в руках избранных «советов»."
 	}
 }
 focus = {
@@ -2384,7 +2384,7 @@ focus = {
 	continue_if_invalid = no
 	
 	completion_reward = {
-		custom_effect_tooltip = "According to the initial PSR doctrine, the Soviets shall be the only political organisation in Russia, sharing both economical and political power."
+		custom_effect_tooltip = "Согласно первоначальной доктрине ПСР, Советы должны быть единственной политической организацией в России, обладающей как экономической, так и политической властью."
 	}
 }
 focus = {
@@ -2429,7 +2429,7 @@ focus = {
 		OR = {
 			custom_trigger_tooltip = {
 				tooltip = plsr_in_power
-				has_idea = RUS_Maria_A_Spiridonova_hog_syn
+					has_idea = RUS_Maria_A_Spiridonova_hog_syn
 			}
 			custom_trigger_tooltip = {
 				tooltip = lpsr_in_power
@@ -2451,7 +2451,7 @@ focus = {
 	continue_if_invalid = no
 	
 	completion_reward = {
-		custom_effect_tooltip = "New elections to the [GetSovietsName] will be held."
+		custom_effect_tooltip = "Будут проведены новые выборы в [GetSovietsName]."
 		hidden_effect = { SOV_run_election = yes }
 	}
 }
@@ -2501,7 +2501,7 @@ focus = {
 			tooltip = left_sr_cheka_in_power_NOT
 			NOT = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2677,7 +2677,7 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2689,7 +2689,7 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2718,11 +2718,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2753,11 +2753,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2799,11 +2799,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2835,11 +2835,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2872,11 +2872,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2908,11 +2908,11 @@ focus = {
 			tooltip = left_sr_cheka_in_power
 			OR = {
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Savinkov"
+					name = "Борис Савинков"
 					ruling_only = yes
 				}
 				has_idea = RUS_Yakov_Fishman_hog_tot
@@ -2944,7 +2944,7 @@ focus = {
 	y = 6
 	available = {
 		has_country_leader = {
-			name = "Vladimir Trutovsky"
+			name = "Владимир Трутовский"
 			ruling_only = yes
 		}
 	}
@@ -2967,7 +2967,7 @@ focus = {
 	y = 1
 	available = {
 		has_country_leader = {
-			name = "Vladimir Trutovsky"
+			name = "Владимир Трутовский"
 			ruling_only = yes
 		}
 	}
@@ -3014,7 +3014,7 @@ focus = {
 	y = 2
 	available = {
 		has_country_leader = {
-			name = "Vladimir Trutovsky"
+			name = "Владимир Трутовский"
 			ruling_only = yes
 		}
 	}
@@ -3053,7 +3053,7 @@ focus = {
 	y = 3
 	available = {
 		has_country_leader = {
-			name = "Vladimir Trutovsky"
+			name = "Владимир Трутовский"
 			ruling_only = yes
 		}
 	}
@@ -7982,13 +7982,13 @@ focus = {
 	available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Pavel Dybenko"
+			name = "Павел Дыбенко"
 		}
 	}
 	bypass = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Pavel Dybenko"
+			name = "Павел Дыбенко"
 		}
 	}
 	cost = 2
@@ -8012,7 +8012,7 @@ focus = {
 	available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Pavel Dybenko"
+			name = "Павел Дыбенко"
 		}
 	}
 	cost = 2
@@ -8065,15 +8065,15 @@ focus = {
 		OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Pavel Dybenko"
+				name = "Павел Дыбенко"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Stepan Petrichenko"
+				name = "Степан Петриченко"
 			}
 						has_country_leader = {
 				ruling_only = yes
-				name = "Nestor Makhno"
+				name = "Нестор Махно"
 			}
 		}
 	}
@@ -8133,18 +8133,18 @@ focus = {
 	available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Pavel Dybenko"
+			name = "Павел Дыбенко"
 		}
 	}
 	bypass = {
 		OR = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Stepan Petrichenko"
+				name = "Степан Петриченко"
 			}
-			has_country_leader = {
+				has_country_leader = {
 				ruling_only = yes
-				name = "Nestor Makhno"
+				name = "Нестор Махно"
 			}
 		}
 	}
@@ -8185,7 +8185,7 @@ focus = {
 		country_event = tsentrobalt.2
 		add_ideas = SOV_anarchist_militia
 		division_template = {
-			name = "Anarchistskaya Militsiya"
+			name = "Анархистская милиция"
 			division_names_group = SOV_GAR_01
 			regiments = {
 				militia = { x = 0 y = 0 }
@@ -8204,17 +8204,17 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 219 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
@@ -8222,17 +8222,17 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 195 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6174
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6174
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6174
 			}
@@ -8240,17 +8240,17 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 219 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6380
 			}
@@ -8258,12 +8258,12 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 242 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 306
 			}
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 11241
 			}
@@ -8271,7 +8271,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 246 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 11349
 			}
@@ -8279,7 +8279,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 247 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6245
 			}
@@ -8287,7 +8287,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 223 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 6262
 			}
@@ -8295,7 +8295,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 222 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 9355
 			}
@@ -8303,7 +8303,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 224 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 3335
 			}
@@ -8311,7 +8311,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 220 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 3580
 			}
@@ -8319,7 +8319,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 248 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 121
 			}
@@ -8327,7 +8327,7 @@ focus = {
 		random_owned_controlled_state = {
 			prioritize = { 252 }
 			create_unit = {
-				division = "division_template = \"Anarchistskaya Militsiya\" start_experience_factor = 0.1"
+				division = "division_template = \"Анархистская милиция\" start_experience_factor = 0.1"
 				owner = ROOT
 				prioritize_location = 11375
 			}
@@ -8450,7 +8450,7 @@ focus = {
 				category = land_doctrine
 			}
 			division_template = {
-				name = "Krasnaya Gvardiya"
+				name = "Красная Гвардия"
 				division_names_group = SOV_GAR_01
 				regiments = {
 					irregular_infantry = { x = 0 y = 0 }
@@ -8471,17 +8471,17 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6174
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6174
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6174
 				}
@@ -8489,17 +8489,17 @@ focus = {
 			random_owned_controlled_state = {
 				prioritize = { 219 }
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6380
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6380
 				}
 				create_unit = {
-					division = "division_template = \"Krasnaya Gvardiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6380
 				}
@@ -8537,7 +8537,7 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_Mobilise_Urban_Militias"
 			division_template = {
-				name = "Gorodskaya Militsiya"
+				name = "Городская милиция"
 				division_names_group = SOV_GAR_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -8555,7 +8555,7 @@ focus = {
 				prioritize = { 195 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 3
 				}
@@ -8564,7 +8564,7 @@ focus = {
 				prioritize = { 219 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 3
 				}
@@ -8573,12 +8573,12 @@ focus = {
 				prioritize = { 242 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 306
 				}
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 11241
 				}
@@ -8587,7 +8587,7 @@ focus = {
 				prioritize = { 246 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 11349
 				}
@@ -8596,7 +8596,7 @@ focus = {
 				prioritize = { 247 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6245
 				}
@@ -8605,7 +8605,7 @@ focus = {
 				prioritize = { 223 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 6262
 				}
@@ -8614,7 +8614,7 @@ focus = {
 				prioritize = { 222 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 9355
 				}
@@ -8623,7 +8623,7 @@ focus = {
 				prioritize = { 224 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 3335
 				}
@@ -8632,7 +8632,7 @@ focus = {
 				prioritize = { 220 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 3580
 				}
@@ -8641,7 +8641,7 @@ focus = {
 				prioritize = { 248 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 121
 				}
@@ -8650,7 +8650,7 @@ focus = {
 				prioritize = { 252 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 11375
 				}
@@ -8659,7 +8659,7 @@ focus = {
 				prioritize = { 260 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					prioritize_location = 413
 				}
@@ -8898,18 +8898,18 @@ focus = {
 				category = land_doctrine
 			}
 			if = {
-				limit = { has_template = "Krasnaya Gvardiya" }
-				delete_unit_template_and_units = { division_template = "Krasnaya Gvardiya" disband = yes }
+				limit = { has_template = "Красная Гвардия" }
+				delete_unit_template_and_units = { division_template = "Красная Гвардия" disband = yes }
 			}
 			if = {
 				limit = { russian_civil_war = no }
 				if = {
-					limit = { has_template = "Gorodskaya Militsiya" }
-					delete_unit_template_and_units = { division_template = "Gorodskaya Militsiya" disband = yes }
+					limit = { has_template = "Городская милиция" }
+					delete_unit_template_and_units = { division_template = "Городская милиция" disband = yes }
 				}
 				if = {
-					limit = { has_template = "Krasnogvardeitsy" }
-					delete_unit_template_and_units = { division_template = "Krasnogvardeitsy" disband = yes }
+					limit = { has_template = "Красногвардейцы" }
+					delete_unit_template_and_units = { division_template = "Красногвардейцы" disband = yes }
 				}
 			}
 			else = {
@@ -9816,9 +9816,9 @@ focus = {
 			set_technology = { penal_infantry = 1 popup = no }
 			hidden_effect = {
 				if = {
-					limit = { NOT = { has_template = "Shtrafnaya Chast" } }
+					limit = { NOT = { has_template = "Штрафная часть" } }
 					division_template = {
-						name = "Shtrafnaya Chast"
+						name = "Штрафная часть"
 						division_names_group = SOV_PEN_01
 						regiments = {
 							penal_battalion = { x = 0 y = 0 }
@@ -9839,7 +9839,7 @@ focus = {
 			}
 			capital_scope = {
 				create_unit = {
-					division = "division_template = \"Shtrafnaya Chast\" start_experience_factor = 0.5"
+					division = "division_template = \"Штрафная часть\" start_experience_factor = 0.5"
 					owner = ROOT
 					count = 10
 				}
@@ -9871,7 +9871,7 @@ focus = {
 				if = {
 					limit = { has_intelligence_agency = no }
 					create_intelligence_agency = {
-						name = "Glavnoye Razvedyvatelnoye Upravleniye"
+						name = "Главное Разведывательное Управление"
 						icon = GFX_intelligence_agency_logo_sov_2
 					}
 				}
@@ -10057,7 +10057,7 @@ focus = {
 					}
 				}
 				create_equipment_variant = {
-					name = "T-34"
+					name = "Т-34"
 					type = medium_tank_chassis_2
 					parent_version = 0
 					modules = {
@@ -10083,7 +10083,7 @@ focus = {
 					}
 				}
 				create_equipment_variant = {
-					name = "T-34"
+					name = "Т-34"
 					type = medium_tank_chassis_2
 					parent_version = 0
 					modules = {
@@ -10106,7 +10106,7 @@ focus = {
 					has_tech = interwar_artillery
 				}
 				create_equipment_variant = {
-					name = "T-34"
+					name = "Т-34"
 					type = medium_tank_chassis_2
 					parent_version = 0
 					modules = {
@@ -10126,7 +10126,7 @@ focus = {
 			}
 			else = { #Don't do this to yourself dude
 				create_equipment_variant = {
-					name = "T-34"
+					name = "Т-34"
 					type = medium_tank_chassis_2
 					parent_version = 0
 					modules = {
@@ -10489,7 +10489,7 @@ focus = {
 				if = {
 					limit = { has_tech = engines_3 }
 					create_equipment_variant = {
-						name = "TB-8"
+						name = "ТБ-8"
 						type = large_plane_airframe_2
 						parent_version = 0
 						modules = {
@@ -10508,7 +10508,7 @@ focus = {
 	}
 				else = {
 					create_equipment_variant = {
-						name = "TB-8"
+						name = "ТБ-8"
 						type = large_plane_airframe_2
 						parent_version = 0
 						modules = {
@@ -10563,12 +10563,12 @@ focus = {
 			custom_effect_tooltip = tooltip_white_line
 			hidden_effect = {
 				if = {
-					limit = { has_template = "Vozdushno-Desantnye Voyska" }
-					delete_unit_template_and_units = { division_template = "Vozdushno-Desantnye Voyska" disband = yes } #no cheating
+					limit = { has_template = "Воздушно-десантные войска" }
+					delete_unit_template_and_units = { division_template = "Воздушно-десантные войска" disband = yes } #no cheating
 				}
 			}
 			division_template = {
-				name = "Vozdushno-Desantnye Voyska"
+				name = "Воздушно-десантные войска"
 				division_names_group = RUS_PAR_01
 				regiments = {
 					paratrooper = { x = 0 y = 0 }
@@ -10583,7 +10583,7 @@ focus = {
 				prioritize = { 219 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Vozdushno-Desantnye Voyska\" start_experience_factor = 0.1"
+					division = "division_template = \"Воздушно-десантные войска\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 2
 				}
@@ -10894,7 +10894,7 @@ focus = {
 				limit = { has_dlc_bba = yes }
 				custom_effect_tooltip = tooltip_white_line
 				create_equipment_variant = {
-					name = "I-18M"
+					name = "И-18M"
 					type = small_plane_airframe_2
 					parent_version = 0
 					modules = {
@@ -10908,7 +10908,7 @@ focus = {
 				if = {
 					limit = { has_tech = engines_3 }
 					create_equipment_variant = {
-						name = "BSh-2"
+						name = "БШ-2"
 						type = small_plane_cas_airframe_2
 						parent_version = 0
 						modules = {
@@ -10922,7 +10922,7 @@ focus = {
 				}
 				else = {
 					create_equipment_variant = {
-						name = "BSh-2"
+						name = "БШ-2"
 						type = small_plane_cas_airframe_2
 						parent_version = 0
 						modules = {
@@ -11009,7 +11009,7 @@ focus = {
 				if = {
 					limit = { has_tech = engines_3 }
 					create_equipment_variant = {
-						name = "SB-6"
+						name = "СБ-6"
 						type = medium_plane_airframe_2
 						parent_version = 0
 						modules = {
@@ -11022,7 +11022,7 @@ focus = {
 						}
 					}
 					create_equipment_variant = {
-						name = "VI-104"
+						name = "ВИ-104"
 						type = medium_plane_fighter_airframe_2
 						parent_version = 0
 						modules = {
@@ -11038,7 +11038,7 @@ focus = {
 				}
 				else = {
 					create_equipment_variant = {
-						name = "SB-6"
+						name = "СБ-6"
 						type = medium_plane_airframe_2
 						parent_version = 0
 						modules = {
@@ -11049,7 +11049,7 @@ focus = {
 						}
 					}
 					create_equipment_variant = {
-						name = "VI-104"
+						name = "ВИ-104"
 						type = medium_plane_fighter_airframe_2
 						parent_version = 0
 						modules = {
@@ -11153,7 +11153,7 @@ focus = {
 				limit = { has_dlc_bba = yes }
 				custom_effect_tooltip = tooltip_white_line
 				create_equipment_variant = {
-					name = "DB-4T"
+					name = "ДЬ-4T"
 					type = small_plane_naval_bomber_airframe_2
 					parent_version = 0
 					modules = {
@@ -11163,7 +11163,7 @@ focus = {
 					}
 				}
 				create_equipment_variant = {
-					name = "DB-4TN"
+					name = "ДБ-4TН"
 					type = large_plane_maritime_patrol_plane_airframe_2
 					parent_version = 0
 					modules = {
@@ -11620,18 +11620,18 @@ focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_SOV_Fleet_Vanguards"
-			add_tech_bonus = {
-				name = RUS_SOV_Fleet_Vanguards
-				bonus = 0.75
-				uses = 3
-				category = cat_gunnery
-				category = cat_targeting
-			}
-			add_tech_bonus = {
-				name = RUS_SOV_Fleet_Vanguards
-				bonus = 0.75
-				uses = 2
-				category = ca_tech
+				add_tech_bonus = {
+					name = RUS_SOV_Fleet_Vanguards
+					bonus = 0.75
+					uses = 3
+					category = cat_gunnery
+					category = cat_targeting
+				}
+				add_tech_bonus = {
+					name = RUS_SOV_Fleet_Vanguards
+					bonus = 0.75
+					uses = 2
+					category = ca_tech
 			}
 		}
 	}
@@ -11677,7 +11677,7 @@ focus = {
 				category = cat_marines_doctrine
 			}
 			division_template = {
-				name = "Morskaya Gvardeyskaya diviziya"
+				name = "Морская Гвардейская дивизия"
 				division_names_group = RUS_GRD_01
 				regiments = {
 					marine = { x = 0 y = 0 }
@@ -11701,7 +11701,7 @@ focus = {
 				prioritize = { 195 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Morskaya Gvardeyskaya diviziya\" start_experience_factor = 1"
+					division = "division_template = \"Морская Гвардейская дивизия\" start_experience_factor = 1"
 					owner = ROOT
 				}
 			}
@@ -12193,12 +12193,12 @@ focus = {
 				uses = 2
 				category = bb_tech
 			}
-			add_tech_bonus = {
-				name = RUS_SOV_Battleship_Development
-				bonus = 0.5
-				uses = 2
-				category = cat_gunnery
-			}
+				add_tech_bonus = {
+					name = RUS_SOV_Battleship_Development
+					bonus = 0.5
+					uses = 2
+					category = cat_gunnery
+			}	
 		}
 	}
 
@@ -12257,20 +12257,20 @@ shared_focus = {
 		russian_civil_war = no
 		OR = {
 			AND = {
-				has_country_flag = soviet_congress_end
+		has_country_flag = soviet_congress_end
 				OR = {
-					custom_trigger_tooltip = {
-						tooltip = plsr_in_power
-						OR = {
-							has_idea = RUS_Maria_A_Spiridonova_hog_syn
-							has_idea = RUS_Yakov_Fishman_hog_tot
-						}
-					}
-					custom_trigger_tooltip = {
-						tooltip = lpsr_in_power
-						has_idea = RUS_Vladimir_K_Volsky_hog_rso
-					}
+			custom_trigger_tooltip = {
+				tooltip = plsr_in_power
+				OR = {
+					has_idea = RUS_Maria_A_Spiridonova_hog_syn
+					has_idea = RUS_Yakov_Fishman_hog_tot
 				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = lpsr_in_power
+				has_idea = RUS_Vladimir_K_Volsky_hog_rso
+					}
+			}
 			}
 			SOV_anarchists_in_power = yes
 		}		
@@ -12696,7 +12696,7 @@ shared_focus = {
 	ai_will_do = { factor = 100 }
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus SOV_Go_On_With_NEP"
-		custom_effect_tooltip = "We will stay with socialist market system" 
+		custom_effect_tooltip = "Мы сохраним систему социалистического рынка" 
 	}
 }
 shared_focus = {
@@ -12964,7 +12964,7 @@ shared_focus = {
 			limit = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Aleksei Gastev"
+					name = "Алексей Гастев"
 				}
 			}
 			has_completed_focus = SOV_Ustanovka

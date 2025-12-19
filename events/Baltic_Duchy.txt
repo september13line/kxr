@@ -1106,7 +1106,7 @@ country_event = { # The Duke's Succession
 
 	trigger = {
 		has_country_leader = {
-			name = "Adolf Friedrich"
+			name = "Адольф Фридрих"
 			ruling_only = yes
 		}
 	}
@@ -1123,7 +1123,7 @@ country_event = { # The Duke's Succession
 		add_political_power = -100
 	}
 }
-country_event = { # Kursell and Adolf Friedrich
+country_event = { # Kursell and Адольф Фридрих
 	id = KRBAT.35
 	immediate = { log = "[GetDateText]: [Root.GetName]: event KRBAT.35 FROM = [From.GetName]" }
 	title = KRBAT.35.t
@@ -1195,7 +1195,7 @@ country_event = { # Goltz dies
 		}
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "The Inner Circle"
+			name = "Внутренний круг"
 			desc = "POLITICS_INNER_CIRCLE_DESC"
 			picture = "gfx/leaders/BAT/Portrait_Baltic_Inner_Circle.png"
 			expire = "1.1.1"
@@ -1511,7 +1511,7 @@ country_event = { # Baltic Brotherhood takeover, event 1
 	option = {
 		name = KRBAT.50.a # Oh no
 		create_country_leader = {
-			name = "Rüdiger von der Goltz"
+			name = "Рюдигер фон дер Гольц"
 			desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_LEADER_DESC"
 			picture = "gfx/leaders/BAT/Portrait_BAT_Rudiger_von_der_Goltz.png"
 			expire = "1.1.1"
@@ -1532,7 +1532,7 @@ country_event = { # Baltic Brotherhood takeover, event 1
 		name = KRBAT.50.b # Who is von der Goltz?
 		ai_chance = { base = 0 }
 		create_country_leader = {
-			name = "Rüdiger von der Goltz"
+			name = "Рюдигер фон дер Гольц"
 			desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_LEADER_DESC"
 			picture = "gfx/leaders/BAT/Portrait_BAT_Rudiger_von_der_Goltz.png"
 			expire = "1.1.1"
@@ -2163,7 +2163,7 @@ country_event = { # CC event 9
 		if = {
 			limit = { 
 				has_country_leader = {
-					name = "Adolf Friedrich"
+					name = "Адольф Фридрих"
 					ruling_only = yes
 				}
 			}
@@ -2215,7 +2215,7 @@ country_event = { # UBD flavor event, Rosenberg
 		owns_state = 13
 		OR = {
 			has_country_leader = {
-				name = "Adolf Friedrich"
+				name = "Адольф Фридрих"
 				ruling_only = yes
 			}
 			has_government = paternal_autocrat
@@ -3079,7 +3079,7 @@ country_event = { # The first Presidential Election
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Harry Lutz"
+			name = "Гарри Лутц"
 			desc = "POLITICS_HARRY_LUTZ_DESC"
 			picture = "gfx/leaders/BAT/Portrait_BAT_Harry_Lutz.png"
 			expire = "1.1.1"
@@ -3117,7 +3117,7 @@ country_event = { # The Duke wins a race
 	
 	trigger = {
 		has_country_leader = {
-			name = "Adolf Friedrich"
+			name = "Адольф Фридрих"
 			ruling_only = yes
 		}
 		NOT = {
@@ -3210,7 +3210,7 @@ country_event = { # Abolition of the Old Testament
 		name = KRBAT.86.a 
 	}
 }
-country_event = { # Adolf Friedrich leaves
+country_event = { # Адольф Фридрих leaves
 	id = KRBAT.87
 	immediate = { log = "[GetDateText]: [Root.GetName]: event KRBAT.87 FROM = [From.GetName]" }
 	title = KRBAT.87.t
@@ -3219,7 +3219,7 @@ country_event = { # Adolf Friedrich leaves
 	
 	trigger = {
 		has_country_leader = {
-			name = "Adolf Friedrich"
+			name = "Адольф Фридрих"
 			ruling_only = yes
 		}
 		has_war = no
@@ -3236,7 +3236,7 @@ country_event = { # Adolf Friedrich leaves
 		}
 	}
 }
-country_event = { # Adolf Friedrich returns
+country_event = { # Адольф Фридрих returns
 	id = KRBAT.88
 	immediate = {log = "[GetDateText]: [Root.GetName]: event KRBAT.88"}
 	title = KRBAT.88.t
@@ -3245,7 +3245,7 @@ country_event = { # Adolf Friedrich returns
 	
 	trigger = {
 		has_country_leader = {
-			name = "Adolf Friedrich"
+			name = "Адольф Фридрих"
 			ruling_only = yes
 		}
 		has_country_flag = BAT_duke_absent_flag
@@ -3519,7 +3519,7 @@ country_event = { # Lost in the jungle
 	
 	trigger = {
 		has_country_leader = {
-			name = "Adolf Friedrich"
+			name = "Адольф Фридрих"
 			ruling_only = yes
 		}
 		has_country_flag = BAT_duke_absent_flag

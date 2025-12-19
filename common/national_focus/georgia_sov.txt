@@ -1,0 +1,4609 @@
+#!gfx:interface\stalinfocuses.gfx
+
+focus_tree = {
+	id = Georgia_SOV_Focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GSV
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 450 y = 1600 }
+
+	focus = {
+		id = GEO_Aftermath_Of_Civil_War
+		icon = GFX_goal_SOV_ussr
+		cost = 1
+		x = 16
+		y = 2
+		available = {
+			NOT = { country_exists = RUS }
+			195 = { is_owned_and_controlled_by = ROOT }
+			219 = { is_owned_and_controlled_by = ROOT }
+			has_government = totalist
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_ideas = GSV_aftermath_idea
+			remove_ideas = { GSV_Sergey_I_Kavtaradze_for_tot }
+			add_ideas = {
+				GSV_Vyacheslav_Molotov_for_tot
+			}
+			custom_effect_tooltip = GEO_geleral_add
+			hidden_effect = {
+				clr_country_flag = STALIN_ORDZ_VISIBLE
+			    clr_country_flag = LEADER_GUI_NOT_VISIBLE
+
+				country_event = {
+					id = super.2000
+					hours = 12
+				}
+				every_state = {
+					limit = {
+						is_core_of = RUS
+						is_owned_and_controlled_by = GSV
+					}
+					add_core_of = GSV
+				}
+				every_state = {
+					limit = {
+						is_core_of = RUS
+						is_owned_and_controlled_by = GSV
+					}
+					remove_core_of = GEO
+				}
+				every_state = {
+					limit = {
+						is_core_of = RUS
+						is_owned_and_controlled_by = GSV
+					}
+					remove_claim_by = GEO
+				}
+				add_ideas = {	
+					GSV_Mikhail_Tukhachevskiy_cos
+					GSV_Aleksandr_I_Yegorov_cos
+					GSV_Georgiy_K_Zhukov_carm
+					RUS_Igor_I_Sikorskiy_cair_sco
+				}
+				random_unit_leader = {
+					limit = { has_id = 3534 }
+					set_nationality = NSW
+				}
+				random_unit_leader = {
+					limit = { has_id = 35043 }
+					set_nationality = NSW
+				}
+				random_unit_leader = {
+					limit = { has_id = 35044 }
+					set_nationality = NSW
+				}
+				set_cosmetic_tag = PPS_A
+
+				set_country_flag = STALIN_MOLOTOV_VISIBLE
+			    set_country_flag = LEADER_GUI_VISIBLE
+			}
+			GEO_recalculate_aftermath_effects = yes
+		}
+	}
+
+	focus = {
+		id = GEO_Deal_With_Opposition
+		icon = GFX_focus_SOV_the_last_purge
+		cost = 5
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -5
+		y = 1
+		prerequisite = {
+			focus = GEO_Aftermath_Of_Civil_War
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			country_event = {
+				id = dkb.67
+				days = 1
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_Establish_the_Politburo
+		text = SOV_Establish_the_Politburo
+		icon = GFX_SOV_form_politburo
+		relative_position_id = GEO_Deal_With_Opposition
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = GEO_Deal_With_Opposition
+		}
+		
+		cost = 5
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			add_ideas = GSV_politburo
+		}
+	}
+
+	focus = {
+		id = GEO_Cleanse_The_Party
+		text = SOV_Cleanse_The_Party
+		icon = GFX_SOV_cleanse_the_party
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -7
+		y = 4
+		prerequisite = {
+			focus = GEO_Chekists
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			add_popularity = {
+				ideology = totalist
+				popularity = 1
+			}
+			add_stability = -0.20
+			add_political_power = 100
+			add_manpower = -10000
+		}
+	}
+
+
+	focus = {
+		id = GEO_Chekists
+		icon = GFX_SOV_power_to_checkists
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -6
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GEO_Establish_the_Politburo
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_Chekists"
+			country_event = {
+				id = geo.704
+				days = 1
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = military_police_tech
+			}
+			else = {
+				add_tech_bonus = {
+					name = RUS_Reinstate_The_Cheka
+					bonus = 1
+					uses = 1
+					category = encryption_tech
+					category = decryption_tech
+				}
+			}
+		}
+	}
+
+
+	focus = {
+		id = GEO_Bureaucratic_Centralism
+		text = RUS_Bureaucratic_Centralism
+		icon = GFX_SOV_Central_Moscow
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -4
+		y = 3
+		prerequisite = {
+			focus = GEO_Establish_the_Politburo
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			add_ideas = GSV_bureaucratic_centralism_1
+		}
+	}
+	focus = {
+		id = GEO_Trade_Unions_Issue
+		icon = GFX_SOV_worker_unions
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -4
+		y = 4
+		prerequisite = {
+			focus = GEO_Bureaucratic_Centralism
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			country_event = {
+				id = geo.699
+				days = 1
+			}
+		}
+	}
+
+
+	focus = {
+		id = GEO_Cement_The_Regime
+		icon = GFX_SOV_integ_com
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -5
+		y = 6
+		prerequisite = {
+			focus = GEO_Fate_Of_Socialist_Parties
+		}
+		prerequisite = {
+			focus = GEO_Trade_Unions_Issue
+		}
+		prerequisite = {
+			focus = GEO_Cleanse_The_Party
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				if = {
+					limit = { has_intelligence_agency = no }
+					create_intelligence_agency = {
+						name = "НКВД"
+						icon = GFX_intelligence_agency_logo_geo
+					}
+					upgrade_intelligence_agency = upgrade_passive_defense
+					upgrade_intelligence_agency = upgrade_anti_partisan
+			
+					upgrade_intelligence_agency = upgrade_training_centers
+					upgrade_intelligence_agency = upgrade_psycho_warfare
+				}
+				else_if = {
+					limit = {
+						NOT = { has_done_agency_upgrade = upgrade_army_department }
+					}
+					upgrade_intelligence_agency = upgrade_army_department
+				}
+				else = {
+					add_political_power = 50
+				}
+			}
+			division_template = {
+				name = "Дивизия НКВД"
+				division_names_group = GSV_NKVD
+				regiments = {
+					NKVD_infantry = { x = 0 y = 0 }
+					NKVD_infantry = { x = 0 y = 1 }
+					NKVD_infantry = { x = 0 y = 2 }
+					NKVD_infantry = { x = 0 y = 3 }
+					NKVD_infantry = { x = 0 y = 4 }
+					NKVD_infantry = { x = 1 y = 0 }
+					NKVD_infantry = { x = 1 y = 1 }
+					NKVD_infantry = { x = 1 y = 2 }
+					NKVD_infantry = { x = 1 y = 3 }
+					NKVD_infantry = { x = 1 y = 4 }
+				}
+				support = {
+					mot_recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					signal_company = { x = 0 y = 2 }
+				}
+				priority = 0
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 217 }
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 231 }
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия НКВД\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		id = GEO_Economic_Integration
+		icon = GFX_GEO_Economic_Integration
+		cost = 5
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = GEO_Aftermath_Of_Civil_War
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			add_timed_idea = {
+				idea = GSV_integration
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = GEO_Complete_Nationalization
+		text = SOV_Complete_Nationalization
+		icon = GFX_SOV_No_Capital
+		relative_position_id = GEO_Economic_Integration
+		x = 0
+		y = 1
+		cost = 8
+		
+		prerequisite = { focus = GEO_Economic_Integration }
+		ai_will_do = { factor = 500 }
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = totalist
+				popularity = -0.20
+			}
+			add_stability = -0.15
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = GEO_Expand_The_Plan
+		icon = GFX_GEO_Expand_The_Plan
+		cost = 5
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 0
+		y = 3
+		
+		prerequisite = {
+			focus = GEO_Complete_Nationalization
+		}
+		prerequisite = {
+			focus = GEO_Industrialize_The_Motherland
+		}
+		prerequisite = {
+			focus = GEO_Mass_Collectivisation
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			modify_timed_idea = {
+				idea = GSV_integration
+				days = -275
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_Industrialize_The_Motherland
+		icon = GFX_SOV_mild_industry
+		cost = 10
+		relative_position_id = GEO_Economic_Integration
+		x = -2
+		y = 1
+		
+		prerequisite = {
+			focus = GEO_Economic_Integration
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			hidden_effect = {
+				activate_targeted_decision = { target = 651 decision = GSV_Develop_Civilian_Industry_In_State } #Ufa
+				activate_targeted_decision = { target = 248 decision = GSV_Develop_Civilian_Industry_In_State } #Yaroslavl
+				activate_targeted_decision = { target = 252 decision = GSV_Develop_Civilian_Industry_In_State } #Nizhny Novgorod
+				activate_targeted_decision = { target = 250 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+				activate_targeted_decision = { target = 224 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+				activate_targeted_decision = { target = 249 decision = GSV_Develop_Military_Industry_In_State } #Kazan
+				activate_targeted_decision = { target = 398 decision = GSV_Develop_Military_Industry_In_State } #Perm
+				activate_targeted_decision = { target = 217 decision = GSV_Develop_Military_Industry_In_State } #Царицын
+				activate_targeted_decision = { target = 247 decision = GSV_Develop_Military_Industry_In_State } #Tver
+				activate_targeted_decision = { target = 566 decision = GSV_Develop_Civilian_Industry_In_State } #Irkutsk
+				activate_targeted_decision = { target = 217 decision = GSV_Develop_Civilian_Industry_In_State } #Царицын
+				activate_targeted_decision = { target = 252 decision = GSV_Develop_Civilian_Industry_In_State } #Nizhny Novgorod
+				activate_targeted_decision = { target = 220 decision = GSV_Develop_Civilian_Industry_In_State } #Kursk
+				activate_targeted_decision = { target = 398 decision = GSV_Develop_Civilian_Industry_In_State } #Perm
+				activate_targeted_decision = { target = 247 decision = GSV_Develop_Military_Industry_In_State } #Tver
+				activate_targeted_decision = { target = 250 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+				activate_targeted_decision = { target = 257 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+				activate_targeted_decision = { target = 224 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+				activate_targeted_decision = { target = 222 decision = GSV_Mechanize_Agriculture_In_State } #Simbirsk
+			} 
+		}
+	}
+
+	focus = {
+		id = GEO_Mass_Collectivisation
+		text = GEO_Mass_Collectivisation
+		icon = GFX_SOV_farm
+		relative_position_id = GEO_Economic_Integration
+		x = 2
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GEO_Economic_Integration
+		}
+		available = {
+			has_government = totalist
+		}
+		ai_will_do = {
+			factor = 500
+			modifier = {
+				factor = 0.25
+				has_stability < 0.25
+			}
+		}
+		completion_reward = {
+			add_stability = -0.15
+			country_event = {
+				id = geo.549
+				days = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = GEO_Towards_Planned_Economy
+		text = RUS_Towards_Planned_Economy
+		icon = GFX_goal_CSA_new_economic_planning
+		cost = 6
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = GEO_a_new_agriculture
+		}
+		prerequisite = {
+			focus = GEO_a_seize_urbans_goods
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			remove_ideas = { GSV_Grigol_Orjonikidze_eco_tot }
+			add_ideas = {
+				GSV_Nikolay_Voznesensky_eco_tot
+			}
+			add_ideas = GSV_gosplan
+			add_ideas = command_economy
+		}
+	}
+	focus = {
+		id = GEO_Emphasis_on_Light_Industry
+		icon = GFX_goal_GEO_Kolkhoz_Farms
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = -2
+		y = 6
+		prerequisite = {
+			focus = GEO_Towards_Planned_Economy
+		}
+		mutually_exclusive = {
+			focus = GEO_Invest_into_Sovkhozes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = -120
+			add_ideas = GSV_Light_Industry_idea
+		}
+	}
+	focus = {
+		id = GEO_Ural_Tractor_Plants
+		text = RUS_Ural_Tractor_Plants
+		icon = GFX_goal_GEO_Tractor
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 2
+		y = 6
+		prerequisite = {
+			focus = GEO_Towards_Planned_Economy
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			swap_ideas = {
+				remove_idea = GSV_gosplan
+				add_idea = GSV_gosplan_2
+			}
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = GEO_Invest_into_Sovkhozes
+		icon = GFX_goal_GEO_Sovkhoz_Farms
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 0
+		y = 6
+		prerequisite = {
+			focus = GEO_Towards_Planned_Economy
+		}
+		mutually_exclusive = {
+			focus = GEO_Emphasis_on_Light_Industry
+		}
+		ai_will_do = {
+			factor = 500
+		}
+		completion_reward = {
+			add_ideas = GSV_Sovkhoz_idea
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = GEO_a_seize_urbans_goods
+		text = SOV_Promote_Urbanisation
+		icon = GFX_SOV_urbanization
+		cost = 5
+		
+		relative_position_id = GEO_Expand_The_Plan
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = GEO_Expand_The_Plan
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_a_seize_urbans_goods"
+			every_owned_state = {
+				add_state_modifier = {
+					modifier = {
+						state_production_speed_industrial_complex_factor = 0.05
+						state_production_speed_arms_factory_factor = 0.05
+						state_production_speed_infrastructure_factor = 0.05
+					}
+				}
+				increase_state_category_by_one_level = yes
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GEO_Russian_Education
+		text = SOV_Russian_Education
+		icon = GFX_SOV_soc_edu
+		relative_position_id = GEO_Expand_The_Plan
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = GEO_Expand_The_Plan
+		}
+		ai_will_do = {
+			factor = 500
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = dispersed_industry_tech
+				category = electronics
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.5
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
+		}
+	}
+	focus = {
+		id = GEO_a_new_agriculture
+		text = SOV_Improve_The_Supplies
+		icon = GFX_SOV_supply_network
+		cost = 5
+
+		relative_position_id = GEO_Expand_The_Plan
+		x = -2
+		y = 1
+		
+		prerequisite = {
+			focus = GEO_Expand_The_Plan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_a_new_agriculture"
+			add_tech_bonus = {
+				name = RUS_Expand_The_Railway_Network 
+				bonus = 0.5
+				uses = 1
+				category = train_tech
+			}
+			build_railway = {
+				level = 5
+				fallback = yes
+				start_province = 4797
+				target_province = 6380
+			}
+			build_railway = {
+				level = 5
+				fallback = yes
+				start_province = 6174
+				target_province = 6380
+			}
+			build_railway = {
+				level = 5
+				fallback = yes
+				start_province = 6380
+				target_province = 1599
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_Fate_Of_Russian_Army
+		icon = GFX_DKB_ban_rus_army
+		cost = 5
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = GEO_Aftermath_Of_Civil_War
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			GEO_recalculate_aftermath_effects = yes
+			country_event = {
+				id = geo.701
+				days = 2
+			}
+		}
+	}
+	focus = {
+		id = GEO_Main_Military_Council
+		text = LAT_SOV_establish_red_army
+		icon = GFX_SOV_army_socialism_restoration
+		cost = 5
+		relative_position_id = GEO_Fate_Of_Russian_Army
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = GEO_Fate_Of_Russian_Army
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			custom_effect_tooltip = GSV_new_division_tlp
+			GEO_recalculate_aftermath_effects = yes
+		}
+	}
+	focus = {
+		id = GEO_Revolutionary_Commissars
+		text = RUS_Revolutionary_Commissars
+		icon = GFX_SOV_rev_commisars
+		relative_position_id = GEO_Main_Military_Council
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GEO_Main_Military_Council
+		}
+		available = {
+			has_completed_focus = GEO_Rebuild_The_Red_Army
+		}
+		ai_will_do = {
+			factor = 35
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GSV_new_red_army_1_2
+				add_idea = GSV_new_red_army_2
+			}
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = GEO_Increase_Military_Budget
+		icon = GFX_goal_GEO_ink_mlt
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = GEO_Revolutionary_Commissars
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_Increase_Military_Budget"
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			random_owned_state = {
+				limit = {
+						free_building_slots = {
+								building = arms_factory
+								size > 2
+								
+							}
+					}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+		}
+	}
+	focus = {
+		id = GEO_Centralised_Command
+		text = RUS_Centralised_Command
+		icon = GFX_BBR_southern_socialist_upsurge
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = GEO_Main_Military_Council
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			army_experience = 50
+		}
+	}
+
+	focus = {
+		id = GEO_Reorganize_Armament
+		icon = GFX_SOV_militarization_labour
+		cost = 4
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = GEO_Centralised_Command
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = industry
+			}
+			add_ideas = GSV_labor_militarization
+		}
+	}
+
+	focus = {
+		id = GEO_Cement_The_Army
+		icon = GFX_SOV_army_purge
+		relative_position_id = GEO_Reorganize_Armament
+		x = -2
+		y = 2
+		cost = 4
+		prerequisite = {
+			focus = GEO_The_Peoples_Logistics_Corps
+		}
+		prerequisite = {
+			focus = GEO_Increase_Military_Budget
+		}
+		prerequisite = {
+			focus = GEO_Reorganize_Armament
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = DKB_reduce_aftermath_tt
+			GEO_recalculate_aftermath_effects = yes
+		}
+		search_filters = { FOCUS_FILTER_ARMY }
+	}
+
+	focus = {
+		id = GEO_Into_The_Future
+		icon = GFX_focus_SOV_stalins_cult_of_personality
+		cost = 3
+		relative_position_id = GEO_Aftermath_Of_Civil_War
+		x = 0
+		y = 7
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			has_completed_focus = GEO_cult_of_stalin
+		}
+		prerequisite = {
+			focus = GEO_Cement_The_Army
+		}
+		prerequisite = {
+			focus = GEO_Cement_The_Regime
+		}
+		completion_reward = {
+			remove_dynamic_modifier = {
+				modifier = GEO_aftermath_modifier
+			}
+			remove_ideas = GSV_aftermath_idea
+		}
+	}
+
+	focus = {
+		id = GEO_Reclaim_Lands
+		text = GEO_Reclaim_Lands
+		icon = GFX_goal_GEO_Reclaim_Lands
+
+		relative_position_id = GEO_Into_The_Future
+		prerequisite = {
+			focus = GEO_Into_The_Future
+		}
+
+		x = 0
+		y = 1
+		
+		cost = 4
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_Reclaim_Lands"
+			every_state = {
+				limit = {
+					NOT = {
+						is_core_of = GSV
+					}
+					OR = {
+						is_finland = yes
+						region = 37 # Baltic States
+						state = 188 #Memel
+						is_central_asia = yes
+						region = 38 # Poland
+						region = 39 # Belarus
+						region = 130
+						region = 165 # Ukraine
+						region = 155 # Galicia
+						region = 134 # Caucasus
+						region = 135 # Kuban
+						is_russian_far_east = yes
+						is_siberia = yes
+						state = 78 #Bessarabia
+						state = 1222 #Bessarabia
+						state = 1320
+						state = 80
+						state = 537
+						state = 555
+						state = 418
+						state = 420
+						state = 1000
+						state = 1001
+						state = 936
+						state = 937
+						state = 909
+						state = 67
+						state = 804
+					}
+				}
+				add_claim_by = GSV
+			}
+			custom_effect_tooltip = TRM_expansion
+		}
+	}
+
+	focus = {
+		id = GEO_SOV_invasion_of_europe
+		text = LAT_SOV_invasion_of_europe
+		icon = GFX_goal_GEO_attk_eu
+		cost = 4
+		relative_position_id = GEO_Reclaim_Lands
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = GEO_Reclaim_Lands
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_SOV_invasion_of_europe"
+			custom_effect_tooltip = GEO_SOV_Attack_Europe_tt
+			hidden_effect = {
+				every_country = {
+					limit = {
+						is_in_europe = yes
+					}
+					GSV = {
+						create_wargoal = {
+							target = PREV
+							type = annex_everything
+						}	
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_SOV_invasion_of_asia
+		text = LAT_SOV_invasion_of_asia
+		icon = GFX_goal_GEO_attk_asia
+		cost = 4
+		relative_position_id = GEO_Reclaim_Lands
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = GEO_Reclaim_Lands
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_SOV_invasion_of_asia"
+			custom_effect_tooltip = GEO_SOV_Attack_Asia_tt
+			hidden_effect = {
+				every_country = {
+					limit = {
+						is_in_asia = yes
+					}
+					GSV = {
+						create_wargoal = {
+							target = PREV
+							type = annex_everything
+						}	
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = GEO_SOV_invasion_of_everyone
+		icon = GFX_SOV_Socialist_Realism
+		cost = 4
+		relative_position_id = GEO_Reclaim_Lands
+		x = 0
+		y = 2
+		available = {
+			NOT = { country_exists = UKR }
+			NOT = { country_exists = WHR }
+			NOT = { country_exists = POL }
+			NOT = { country_exists = LIT }
+			NOT = { country_exists = BAT }
+			NOT = { country_exists = FIN }
+			NOT = { country_exists = ALO }
+			NOT = { country_exists = KYR }
+			NOT = { country_exists = TRK }
+			NOT = { country_exists = UZB }
+			10 = {
+				is_owned_and_controlled_by = GSV
+			}
+			96 = {
+				is_owned_and_controlled_by = GSV
+			}
+			1091 = {
+				is_owned_and_controlled_by = GSV
+			}
+			202 = {
+				is_owned_and_controlled_by = GSV
+			}
+			206 = {
+				is_owned_and_controlled_by = GSV
+			}
+			840 = {
+				is_owned_and_controlled_by = GSV
+			}
+		}
+		prerequisite = {
+			focus = GEO_SOV_invasion_of_europe
+		}
+		prerequisite = {
+			focus = GEO_SOV_invasion_of_asia
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_SOV_invasion_of_everyone"
+			custom_effect_tooltip = LAT_SOV_gain_cores_tt
+			every_state = {
+				limit = {
+					NOT = {
+						is_core_of = GSV
+					}
+					OR = {
+						is_finland = yes
+						region = 37 # Baltic States
+						state = 188 #Memel
+						is_central_asia = yes
+						region = 38 # Poland
+						region = 39 # Belarus
+						region = 130
+						region = 165 # Ukraine
+						region = 155 # Galicia
+						region = 134 # Caucasus
+						region = 135 # Kuban
+						is_russian_far_east = yes
+						is_siberia = yes
+						state = 78 #Bessarabia
+						state = 1222 #Bessarabia
+						state = 1320
+						state = 80
+						state = 537
+						state = 555
+						state = 418
+						state = 420
+						state = 1000
+						state = 1001
+						state = 936
+						state = 937
+						state = 909
+						state = 67
+						state = 804
+					}
+				}
+				add_core_of = GSV
+			}
+			country_event= {
+				id= geo.703
+				days = 2
+			}
+		}
+	}
+	focus = {
+		id = GEO_SOV_world_revolution
+		text = LAT_SOV_world_revolution
+		icon = GFX_goal_communist_world_revolution
+		cost = 4
+		relative_position_id = GEO_SOV_invasion_of_everyone
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = GEO_SOV_invasion_of_everyone
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_SOV_world_revolution"
+			custom_effect_tooltip = GEO_SOV_Attack_all_tt
+			leave_faction = yes
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				leave_faction = yes
+			}
+			add_ideas = GSV_world_revolution_idea
+			country_event = {
+				id = geo.508
+				days = 1
+			}
+			hidden_effect = {
+				every_state = { add_core_of = GSV }
+				every_country = {
+					GSV = {
+						create_wargoal = {
+							target = PREV
+							type = annex_everything
+						}	
+					}
+				}
+			}
+		}
+	}
+
+	#### АРМИЯ
+
+	focus = {
+		id = GEO_Rebuild_The_Red_Army
+		text = RUS_Rebuild_The_Red_Army
+		icon = GFX_goal_SOV_army
+		x = 30
+		y = 3
+		cost = 2
+		available = {
+			has_completed_focus = GEO_Main_Military_Council
+			has_country_flag = GSV_org_army_tlp
+		}
+		ai_will_do = {
+			factor = 500
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Rebuild_The_Red_Army"
+			add_doctrine_cost_reduction = {
+				name = GEO_Rebuild_The_Red_Army
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = GEO_Frunzes_Reform_Plan
+		text = RUS_Frunzes_Reform_Plan
+		icon = GFX_SOV_Frunze_Plan
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = -1
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = GEO_Tukhachevskiys_Reform_Plan
+			focus = GEO_Zhukovs_Reform_Plan
+		}
+		prerequisite = {
+			focus = GEO_Rebuild_The_Red_Army
+		}
+		available = {
+			has_socialist_government = yes
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_tech = mobile_warfare
+					has_tech = superior_firepower
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Frunzes_Reform_Plan"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_superior_firepower
+			}
+			add_ideas = GSV_frunzes_reform_plan_1
+		}
+	}
+	focus = {
+		id = GSV_BT_Cavalry_Tanks
+		icon = GFX_goal_GSV_Make_Thunder_Louder
+		cost = 5
+		prerequisite = {
+			focus = GEO_Frunzes_Reform_Plan
+		}
+		x = -1
+		y = 2
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.75
+				uses = 1
+				category = cat_superior_firepower
+			}
+			add_tech_bonus = {
+				uses = 2
+				bonus = 0.75
+				ahead_reduction = 0.5
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = GSV_Multi_Turreted_Tanks
+		icon = GFX_goal_GSV_T55
+		cost = 5
+		prerequisite = {
+			focus = GEO_Tukhachevskiys_Reform_Plan
+		}
+		x = 1
+		y = 2
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = cat_heavy_armor
+				category = cat_medium_armor
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = GSV_Moscow_Maneuvers
+		icon = GFX_goal_GSV_Kiev_Maneuvers
+		cost = 8
+		available = {
+			202 = {
+				is_owned_and_controlled_by = GSV
+			}
+		}
+		prerequisite = {
+			focus = GSV_Multi_Turreted_Tanks
+			focus = GSV_BT_Cavalry_Tanks
+		}
+		x = 0
+		y = 3
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = GSV_Kiev_Maneuvers
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_doctrine_cost_reduction = {
+				name = GSV_Kiev_Maneuvers
+				cost_reduction = 0.75
+				uses = 2
+				category = air_doctrine
+			}
+			add_tech_bonus = {
+				uses = 2
+				bonus = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = paratroopers3
+			}
+			army_experience = 105
+			air_experience  = 120
+		}
+	}
+	#focus = {
+	#	id = GEO_Zhukovs_Reform_Plan
+	#	text = RUS_Zhukovs_Reform_Plan
+	#	icon = GFX_SOV_Zhukov_Plan
+	#	relative_position_id = GEO_Rebuild_The_Red_Army
+	#	x = 0
+	#	y = 1
+	#	cost = 5
+	#	mutually_exclusive = {
+	#		focus = GEO_Frunzes_Reform_Plan
+	#		focus = GEO_Tukhachevskiys_Reform_Plan
+	#	}
+	#	prerequisite = {
+	#		focus = GEO_Rebuild_The_Red_Army
+	#	}
+	#	available = {
+	#		has_socialist_government = yes
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#		modifier = {
+	#			factor = 3
+	#			has_war = yes
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			OR = {
+	#				has_tech = mass_assault
+	#				has_tech = superior_firepower
+	#			}
+	#		}
+	#	}
+	#	completion_reward = {
+	#		log = "[GetDateText]: [Root.GetName]: Focus RUS_Frunzes_Reform_Plan"
+	#		add_doctrine_cost_reduction = {
+	#			cost_reduction = 0.5
+	#			uses = 3
+	#			category = cat_superior_firepower
+	#		}
+	#		add_ideas = RUS_zhukovs_reform_plan_1
+	#	}
+	#}
+	focus = {
+		id = GEO_Tukhachevskiys_Reform_Plan
+		text = RUS_Tukhachevskiys_Reform_Plan
+		icon = GFX_SOV_Tukhachevskiy_Plan
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = 1
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = GEO_Frunzes_Reform_Plan
+			focus = GEO_Zhukovs_Reform_Plan
+		}
+		prerequisite = {
+			focus = GEO_Rebuild_The_Red_Army
+		}
+		available = {
+			has_socialist_government = yes
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_tech = trench_warfare
+					has_tech = mass_assault
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Tukhachevskiys_Reform_Plan"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mobile_warfare
+			}
+			add_ideas = GSV_tukhachevskiys_reform_plan_1
+		}
+	}
+	#focus = {
+	#	id = GEO_Mass_Conscription_SOV
+	#	text = RUS_Mass_Conscription_SOV
+	#	icon = GFX_goal_ALB_Arme_Municion
+	#	relative_position_id = GEO_Rebuild_The_Red_Army
+	#	x = -1
+	#	y = 3
+	#	cost = 4
+	#	prerequisite = {
+	#		focus = GEO_Zhukovs_Reform_Plan
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#		modifier = {
+	#			factor = 3
+	#			has_war = yes
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			OR = {
+	#				has_tech = mass_assault
+	#				has_tech = superior_firepower
+	#			}
+	#		}
+	#	}
+	#	completion_reward = {
+	#		swap_ideas = {
+	#			remove_idea = RUS_zhukovs_reform_plan_1
+	#			add_idea = RUS_zhukovs_reform_plan_2
+	#		}
+	#	}
+	#}
+	#focus = {
+	#	id = GEO_Standarisation_Of_Equipment_Production_SOV
+	#	text = RUS_Standarisation_Of_Equipment_Production_SOV
+	#	icon = GFX_goal_CSA_proletarian_arms
+	#	relative_position_id = GEO_Rebuild_The_Red_Army
+	#	x = 1
+	#	y = 3
+	#	cost = 4
+	#	prerequisite = {
+	#		focus = GEO_Zhukovs_Reform_Plan
+	#	}
+	#	available = {
+	#		has_completed_focus = GEO_Mass_Conscription_SOV
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#		modifier = {
+	#			factor = 3
+	#			has_war = yes
+	#		}
+	#		modifier = {
+	#			factor = 0.5
+	#			OR = {
+	#				has_tech = mass_assault
+	#				has_tech = superior_firepower
+	#			}
+	#		}
+	#	}
+	#	completion_reward = {
+	#		add_tech_bonus = {
+	#			name = RUS_Land_Air_Integration
+	#			bonus = 0.5
+	#			uses = 2
+	#			category = infantry_weapons
+	#		}
+	#		add_tech_bonus = {
+	#			name = RUS_Land_Air_Integration
+	#			bonus = 0.5
+	#			uses = 2
+	#			category = artillery
+	#		}
+	#		swap_ideas = {
+	#			remove_idea = RUS_zhukovs_reform_plan_2
+	#			add_idea = RUS_zhukovs_reform_plan_3
+	#		}
+	#	}
+	#}
+
+	focus = {
+		id = GSV_Mass_Mechanization
+		icon = GFX_goal_GSV_GENERIC_Mechanization
+		relative_position_id = GEO_Mass_Breakthroughs
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GSV_Multi_Turreted_Tanks
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Mass_Breakthroughs"
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = cat_mechanized_equipment
+			}
+			custom_effect_tooltip = SOV_Mass_Breakthroughs_tooltip
+		}
+	}
+
+	focus = {
+		id = GEO_Mass_Breakthroughs
+		text = RUS_Mass_Breakthroughs
+		icon = GFX_goal_GSV_GENERIC_Grand_Battleplan
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = 3
+		y = 2
+		cost = 4
+		prerequisite = {
+			focus = GEO_Tukhachevskiys_Reform_Plan
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Mass_Breakthroughs"
+			custom_effect_tooltip = SOV_Mass_Breakthroughs_tooltip
+			army_experience  = 50
+		}
+	}
+
+	focus = {
+		id = GEO_Land_Air_Integration
+		text = RUS_Land_Air_Integration
+		icon = GFX_goal_GSV_Shoot_Down_the_Black_Wings
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = 4
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GEO_Mass_Breakthroughs
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Land_Air_Integration"
+			add_tech_bonus = {
+				name = RUS_Land_Air_Integration
+				bonus = 1
+				uses = 2
+				category = cas_bomber
+			}
+			custom_effect_tooltip = SOV_Land_Air_Integration_tooltip
+			air_experience  = 15
+		}
+	}
+	focus = {
+		id = GEO_The_Second_Red_Army
+		text = RUS_The_Second_Red_Army
+		icon = GFX_goal_GSV_great_red_army
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = 0
+		y = 4
+		cost = 8
+		prerequisite = {
+			focus = GEO_Expand_The_High_Command
+			focus = GEO_Land_Air_Integration
+		}
+		available = {
+			OR = {
+				AND = {
+					has_completed_focus = GEO_Expand_The_High_Command
+					has_completed_focus = GSV_Mass_Mobilization
+				}
+				AND = {
+					has_completed_focus = GSV_Mass_Mechanization
+					has_completed_focus = GEO_Land_Air_Integration
+				}
+			}
+			has_completed_focus = GEO_Revolutionary_Commissars
+		}
+		prerequisite = {
+			focus = GEO_Professional_Engineer_Corps
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_The_Second_Red_Army"
+			swap_ideas = {
+				remove_idea = GSV_new_red_army_2
+				add_idea = GSV_new_red_army_3
+			}
+			army_experience = 100
+			hidden_effect = {
+				if= {
+					limit = { has_idea = GSV_tukhachevskiys_reform_plan_1 }
+					swap_ideas = {
+						remove_idea = GSV_tukhachevskiys_reform_plan_1
+						add_idea = GSV_tukhachevskiys_reform_plan_2
+					}
+				}
+				if= {
+					limit = { has_idea = GSV_frunzes_reform_plan_1 }
+					swap_ideas = {
+						remove_idea = GSV_frunzes_reform_plan_1
+						add_idea = GSV_frunzes_reform_plan_2
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_Expand_The_High_Command
+		text = RUS_Expand_The_High_Command
+		icon = GFX_goal_FRA_Command_Control_Centers
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = -4
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GEO_Officer_Training_Academies
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Expand_The_High_Command"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			army_experience  = 50
+		}
+	}
+	focus = {
+		id = GSV_Mass_Mobilization
+		icon = GFX_BBR_red_militia_justice
+		cost = 4
+		prerequisite = {
+			focus = GSV_BT_Cavalry_Tanks
+		}
+		x = -2
+		y = 3
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		completion_reward = {
+			add_stability = -0.10
+			add_political_power = -150
+			add_manpower = 300000
+		}
+	}
+	focus = {
+		id = GEO_Officer_Training_Academies
+		text = RUS_Officer_Training_Academies
+		icon = GFX_goal_GSV_Peoples_Army
+		relative_position_id = GEO_Rebuild_The_Red_Army
+		x = -3
+		y = 2
+		cost = 4
+		prerequisite = {
+			focus = GEO_Frunzes_Reform_Plan
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Officer_Training_Academies"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	#focus = {
+	#	id = GEO_Professional_Engineer_Corps
+	#	text = RUS_Professional_Engineer_Corps
+	#	icon = GFX_goal_ATH_engineering
+	#	relative_position_id = GEO_Rebuild_The_Red_Army
+	#	x = 0
+	#	y = 2
+	#	cost = 4
+	#	prerequisite = {
+	#		focus = GEO_Frunzes_Reform_Plan
+	#		focus = GEO_Tukhachevskiys_Reform_Plan
+	#		focus = GEO_Zhukovs_Reform_Plan
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#		modifier = {
+	#			factor = 3
+	#			has_war = yes
+	#		}
+	#	}
+	#	completion_reward = {
+	#		log = "[GetDateText]: [Root.GetName]: Focus RUS_Professional_Engineer_Corps"
+	#		custom_effect_tooltip = expanded_engineer_corps_tech_effect
+	#		hidden_effect = {
+	#			set_technology = { expanded_engineer_corps_tech = 1 }
+	#		}
+	#	}
+	#}
+
+	
+	### Air Tree ###
+	focus = {
+		id = GSV_SOV_Establish_The_VVS		
+		text = RUS_SOV_Establish_The_VVS
+		icon = GFX_goal_GSV_Red_Airforce
+		x = 26
+		y = 8
+		cost = 1
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		available = {
+			has_completed_focus = GEO_Fate_Of_Russian_Army
+			has_government = totalist
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Establish_The_VVS"
+			air_experience = 50
+			hidden_effect = {
+				country_event = {
+					id = tib.157
+					days = 30
+				}
+			}
+		}
+	}
+	focus = {
+		id = GSV_Standardise_Pilot_Training
+		text = RUS_Standardise_Pilot_Training
+		icon = GFX_MON_air_doctrines_II
+		cost = 3
+	
+		relative_position_id = GSV_SOV_Establish_The_VVS
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = GSV_SOV_Establish_The_VVS
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Standardise_Pilot_Training"
+			air_experience = 20
+			add_doctrine_cost_reduction = {
+				name = GSV_Standardise_Pilot_Training
+				uses = 1
+				cost_reduction = 1 
+				category = air_doctrine		
+			}			
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS }
+	}
+	focus = {
+		id = GSV_The_ORT_System
+		text = RUS_The_ORT_System
+		icon = GFX_RUS_ORT_System
+		relative_position_id = GSV_Standardise_Pilot_Training
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = GSV_Standardise_Pilot_Training
+		}
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_The_ORT_System"
+			add_tech_bonus = {
+				name = RUS_The_ORT_System
+				bonus = 1
+				uses = 2
+				category = radar_tech
+			}
+		}
+	}
+	focus = {
+		id = GSV_Project_Kostikov
+		text = RUS_Project_Kostikov
+		icon = GFX_RUS_Project_Katyusha
+		relative_position_id = GSV_The_ORT_System
+		x = 1
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GSV_The_ORT_System
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Project_Kostikov"
+			add_tech_bonus = {
+				name = RUS_Project_Kostikov
+				bonus = 1
+				uses = 1
+				category = rocketry
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = GSV_Kremlin_Project
+		text = RUS_ec_mutual9
+		icon = GFX_RUS_Kremlin_Project
+		cost = 3
+		prerequisite = {
+			focus = GSV_The_ORT_System
+		}
+		relative_position_id = GSV_The_ORT_System
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Kremlin_Project"
+			add_tech_bonus = {
+				name = RUS_ec_mutual9
+				bonus = 1
+				uses = 1
+				ahead_reduction = 1
+				category = nuclear
+			}
+			country_event = rusd.122
+		}
+	}
+	focus = {
+		id = GSV_Aviation_Bureaus
+		text = RUS_Aviation_Bureaus
+		icon = GFX_goal_WCC_civilian_allies
+		cost = 3
+	
+		relative_position_id = GSV_Standardise_Pilot_Training
+		x = 1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Standardise_Pilot_Training
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Aviation_Bureaus"
+			swap_ideas = {
+				remove_idea = RUS_improved_pilot_training_1
+				add_idea = RUS_improved_pilot_training_4
+			}
+			add_tech_bonus = {
+				name = RUS_Aviation_Bureaus
+				bonus = 0.25
+				uses = 4
+				category = air_equipment
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS }
+	}
+	
+	focus = {
+		id = GSV_Long_Range_Bombing
+		text = RUS_Long_Range_Bombing
+		icon = GFX_MON_bomber_focus
+		cost = 3
+	
+		relative_position_id = GSV_Aviation_Bureaus
+		x = 0
+		y = 2
+	
+		prerequisite = {
+			focus = GSV_Aviation_Bureaus
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_Long_Range_Bombing"
+			if = {
+				limit = { has_dlc_bba = yes }
+				add_tech_bonus = {
+					name = RUS_Long_Range_Bombing
+					bonus = 1
+					uses = 1
+					category = tactical_bomber
+				}
+				add_tech_bonus = {
+					name = RUS_Long_Range_Bombing
+					bonus = 1
+					uses = 1
+					category = cat_strategic_bomber
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = RUS_Long_Range_Bombing
+					bonus = 0.75
+					uses = 2
+					category = tactical_bomber
+					category = cat_strategic_bomber
+				}
+			}
+			if = {
+				limit = { has_dlc_bba = yes }
+				custom_effect_tooltip = tooltip_white_line
+				if = {
+					limit = { has_tech = engines_3 }
+					create_equipment_variant = {
+						name = "TB-8"
+						type = large_plane_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = large_bomb_bay
+							fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+							fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+							fixed_auxiliary_weapon_slot_3 = large_bomb_bay
+							fixed_auxiliary_weapon_slot_4 = large_bomb_bay
+							engine_type_slot = engine_3_6x
+							special_type_slot_1 = hmg_defense_turret_2x
+							special_type_slot_2 = hmg_defense_turret_2x
+							special_type_slot_3 = hmg_defense_turret_2x
+							special_type_slot_4 = hmg_defense_turret_2x
+						}
+					}
+				}
+				else = {
+					create_equipment_variant = {
+						name = "TB-8"
+						type = large_plane_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = large_bomb_bay
+							fixed_auxiliary_weapon_slot_1 = large_bomb_bay
+							fixed_auxiliary_weapon_slot_2 = large_bomb_bay
+							engine_type_slot = engine_2_6x
+							special_type_slot_1 = lmg_defense_turret_2x
+							special_type_slot_2 = lmg_defense_turret_2x
+							special_type_slot_3 = lmg_defense_turret_2x
+						}
+					}
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Create_The_VDV
+		text = RUS_Create_The_VDV
+		icon = GFX_RUS_Create_VDV
+		cost = 3
+	
+		relative_position_id = GSV_Long_Range_Bombing
+		x = -1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Long_Range_Bombing
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_SOV_Nationalise_The_Aircraft_Industry"
+			if = {
+				limit = { has_dlc_aat = yes }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 1
+					uses = 2
+					category = special_forces_doctrine
+				}
+			}
+			division_template = {
+				name = "Десантная дивизия"
+				division_names_group = GSV_PAR_01
+				regiments = {
+					paratrooper = { x = 0 y = 0 }
+					paratrooper = { x = 0 y = 1 }
+					paratrooper = { x = 0 y = 2 }
+					paratrooper = { x = 0 y = 3 }
+
+					paratrooper = { x = 1 y = 0 }
+					paratrooper = { x = 1 y = 1 }
+					paratrooper = { x = 1 y = 2 }
+					paratrooper = { x = 1 y = 3 }
+
+					paratrooper = { x = 2 y = 0 }
+					paratrooper = { x = 2 y = 1 }
+					paratrooper = { x = 2 y = 2 }
+					paratrooper = { x = 2 y = 3 }
+				}
+				priority = 2
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Десантная дивизия\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			add_tech_bonus = {
+				name = GEO_SOV_Create_The_VDV
+				bonus = 1
+				uses = 1
+				category = para_tech
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_AIRFORCE_BONUS }
+	}
+	
+	focus = {
+		id = GSV_Death_From_Above2
+		text = RUS_Death_From_Above2
+		icon = GFX_goal_NEE_winged_death
+		cost = 3
+	
+		relative_position_id = GSV_Long_Range_Bombing
+		x = 1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Long_Range_Bombing
+		}
+		prerequisite = {
+			focus = GSV_Specialise_in_Ground_Support
+			focus = GSV_Maintain_Tactical_Flexibility
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Death_From_Above2"
+			air_experience = 25
+			if = {
+				limit = { has_idea = RUS_aircraft_designs_2 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_2
+					add_idea = RUS_aircraft_designs_6
+				}
+			}
+			else_if = {
+				limit = { has_idea = RUS_aircraft_designs_3 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_3
+					add_idea = RUS_aircraft_designs_7
+				}
+			}
+			else_if = {
+				limit = { has_idea = RUS_aircraft_designs_4 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_4
+					add_idea = RUS_aircraft_designs_8
+				}
+			}
+			else_if = {
+				limit = { has_idea = RUS_aircraft_designs_5 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_5
+					add_idea = RUS_aircraft_designs_9
+				}
+			}
+			else = {
+				effect_tooltip = {
+					swap_ideas = {
+						remove_idea = RUS_aircraft_designs_5
+						add_idea = RUS_aircraft_designs_9
+					}
+				}
+			}
+			add_one_random_military_factory = yes
+			add_one_random_military_factory = yes
+		}
+		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_AIRFORCE_BONUS }
+	}
+	
+	focus = {
+		id = GSV_Transpolar_Flights
+		text = RUS_Transpolar_Flights
+		icon = GFX_RUS_Transpolar_Flights
+		cost = 3
+	
+		relative_position_id = GSV_SOV_Establish_The_VVS
+		x = 0
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_SOV_Establish_The_VVS
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Transpolar_Flights"
+			air_experience = 100
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Expand_The_Aircraft_Industry
+		text = RUS_SOV_Nationalise_The_Aircraft_Industry
+		icon = GFX_goal_CZE_air_industry
+		cost = 3
+	
+		relative_position_id = GSV_SOV_Establish_The_VVS
+		x = 2
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_SOV_Establish_The_VVS
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV__Expand_The_Aircraft_Industry"
+			air_experience = 25
+			custom_effect_tooltip = tooltip_white_line
+			add_one_random_military_factory = yes
+			add_one_random_military_factory = yes
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Airspace_Defence
+		text = RUS_Airspace_Defence
+		icon = GFX_goal_generic_anti_air_gun
+		cost = 3
+	
+		relative_position_id = GSV_Transpolar_Flights
+		x = 1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Transpolar_Flights
+			focus = GSV_Expand_The_Aircraft_Industry
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Airspace_Defence"
+			if = {
+				limit = { has_dlc_bba = yes }
+				add_tech_bonus = {
+					name = RUS_Airspace_Defence
+					bonus = 1
+					uses = 1
+					category = light_fighter
+					category = cat_heavy_fighter
+				}
+				add_tech_bonus = {
+					name = RUS_Airspace_Defence
+					bonus = 1
+					uses = 1
+					category = plane_modules_tech
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = RUS_Airspace_Defence
+					bonus = 0.75
+					uses = 2
+					category = light_fighter
+					category = cat_heavy_fighter
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_RESEARCH }
+	}
+	
+	focus = {
+		id = GSV_Specialise_in_Ground_Support
+		text = RUS_Specialise_in_Ground_Support
+		icon = GFX_goal_USA_organic_air_support
+		cost = 3
+	
+		relative_position_id = GSV_Airspace_Defence
+		x = -1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Airspace_Defence
+		}
+		mutually_exclusive = {
+			focus = GSV_Maintain_Tactical_Flexibility
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Specialise_in_Ground_Support"
+			if = {
+				limit = { has_idea = RUS_aircraft_designs_1 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_1
+					add_idea = RUS_aircraft_designs_4
+				}
+			}
+			else = {
+				add_ideas = RUS_aircraft_designs_2
+			}
+			custom_effect_tooltip = tooltip_white_line
+			if = {
+				limit = { has_dlc_bba = yes }
+				add_tech_bonus = {
+					name = RUS_Specialise_in_Ground_Support
+					bonus = 1
+					uses = 1
+					category = cas_bomber
+				}
+				add_tech_bonus = {
+					name = RUS_Specialise_in_Ground_Support
+					bonus = 1
+					uses = 1
+					category = plane_modules_tech
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = RUS_Specialise_in_Ground_Support
+					bonus = 0.75
+					uses = 2
+					category = cas_bomber
+				}
+			}
+			if = {
+				limit = { has_dlc_bba = yes }
+				custom_effect_tooltip = tooltip_white_line
+				create_equipment_variant = {
+					name = "I-18M"
+					type = small_plane_airframe_2
+					parent_version = 0
+					modules = {
+						fixed_main_weapon_slot = aircraft_cannon_1_1x
+						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
+						engine_type_slot = engine_2_1x
+						special_type_slot_1 = fuel_tanks_small
+						special_type_slot_2 = self_sealing_fuel_tanks_small
+					}
+				}
+				if = {
+					limit = { has_tech = engines_3 }
+					create_equipment_variant = {
+						name = "BSh-2"
+						type = small_plane_cas_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = heavy_bomb_locks
+							fixed_auxiliary_weapon_slot_1 = bomb_locks
+							engine_type_slot = engine_3_1x
+							special_type_slot_1 = dive_brakes_small
+							special_type_slot_2 = armor_plate_small
+						}
+					}
+				}
+				else = {
+					create_equipment_variant = {
+						name = "BSh-2"
+						type = small_plane_cas_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = heavy_bomb_locks
+							engine_type_slot = engine_2_1x
+							special_type_slot_1 = dive_brakes_small
+							special_type_slot_2 = lmg_defense_turret
+						}
+					}
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Maintain_Tactical_Flexibility
+		text = RUS_Maintain_Tactical_Flexibility
+		icon = GFX_goal_taking_to_sky
+		cost = 3
+	
+		relative_position_id = GSV_Airspace_Defence
+		x = 1
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Airspace_Defence
+		}
+		mutually_exclusive = {
+			focus = GSV_Specialise_in_Ground_Support
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Maintain_Tactical_Flexibility"
+			if = {
+				limit = { has_idea = RUS_aircraft_designs_1 }
+				swap_ideas = {
+					remove_idea = RUS_aircraft_designs_1
+					add_idea = RUS_aircraft_designs_5
+				}
+			}
+			else = {
+				add_ideas = RUS_aircraft_designs_3
+			}
+			custom_effect_tooltip = tooltip_white_line
+			if = {
+				limit = { has_dlc_bba = yes }
+				add_tech_bonus = {
+					name = RUS_Maintain_Tactical_Flexibility
+					bonus = 1
+					uses = 1
+					category = tactical_bomber
+				}
+				add_tech_bonus = {
+					name = RUS_Maintain_Tactical_Flexibility
+					bonus = 1
+					uses = 1
+					category = plane_modules_tech
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					name = RUS_Maintain_Tactical_Flexibility
+					bonus = 0.75
+					uses = 2
+					category = tactical_bomber
+				}
+			}
+			if = {
+				limit = { has_dlc_bba = yes }
+				custom_effect_tooltip = tooltip_white_line
+				if = {
+					limit = { has_tech = engines_3 }
+					create_equipment_variant = {
+						name = "SB-6"
+						type = medium_plane_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = medium_bomb_bay
+							fixed_auxiliary_weapon_slot_1 = small_bomb_bay
+							fixed_auxiliary_weapon_slot_2 = small_bomb_bay
+							engine_type_slot = engine_3_2x
+							special_type_slot_1 = hmg_defense_turret_2x
+							special_type_slot_2 = hmg_defense_turret_2x
+						}
+					}
+					create_equipment_variant = {
+						name = "VI-104"
+						type = medium_plane_fighter_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = heavy_mg_4x
+							fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+							fixed_auxiliary_weapon_slot_2 = heavy_mg_2x
+							fixed_auxiliary_weapon_slot_3 = heavy_mg_2x
+							engine_type_slot = engine_3_2x
+							special_type_slot_1 = armor_plate_medium
+							special_type_slot_2 = self_sealing_fuel_tanks_medium
+						}
+					}
+				}
+				else = {
+					create_equipment_variant = {
+						name = "SB-6"
+						type = medium_plane_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = medium_bomb_bay
+							fixed_auxiliary_weapon_slot_1 = small_bomb_bay
+							engine_type_slot = engine_2_2x
+							special_type_slot_1 = lmg_defense_turret
+						}
+					}
+					create_equipment_variant = {
+						name = "VI-104"
+						type = medium_plane_fighter_airframe_2
+						parent_version = 0
+						modules = {
+							fixed_main_weapon_slot = heavy_mg_4x
+							fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+							engine_type_slot = engine_2_2x
+							special_type_slot_1 = lmg_defense_turret_2x
+							special_type_slot_2 = self_sealing_fuel_tanks_medium
+						}
+					}
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Jet_Engine_Experiments
+		text = RUS_Jet_Engine_Experiments
+		icon = GFX_goal_generic_air_jet_2
+		cost = 3
+	
+		relative_position_id = GSV_Airspace_Defence
+		x = 0
+		y = 2
+	
+		prerequisite = {
+			focus = GSV_Specialise_in_Ground_Support
+			focus = GSV_Maintain_Tactical_Flexibility
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Jet_Engine_Experiments"
+			add_tech_bonus = {
+				name = RUS_Jet_Engine_Experiments
+				bonus = 1
+				uses = 1
+				category = air_equipment
+			}
+			custom_effect_tooltip = tooltip_white_line
+			add_tech_bonus = {
+				name = RUS_Jet_Engine_Experiments
+				ahead_reduction = 1
+				bonus = 1.0
+				category = jet_technology
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_INDUSTRY }
+	}
+	
+	focus = {
+		id = GSV_Naval_Bomber_Development
+		text = RUS_Naval_Bomber_Development
+		icon = GFX_goal_FIU_naval_bomber
+		cost = 3
+	
+		relative_position_id = GSV_Expand_The_Aircraft_Industry
+		x = 2
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Expand_The_Aircraft_Industry
+		}
+		prerequisite = {
+			focus = GSV_SOV_Take_To_The_Seas
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				is_in_faction = yes # = started foreign tree
+			}
+			modifier = {
+				factor = 3
+				has_war = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1937.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1938.1.1
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Naval_Bomber_Development"
+			air_experience = 15
+			navy_experience = 15
+			add_tech_bonus = {
+				name = RUS_Naval_Bomber_Development
+				bonus = 1
+				uses = 1
+				category = naval_bomber
+			}
+			if = {
+				limit = { has_dlc_bba = yes }
+				custom_effect_tooltip = tooltip_white_line
+				create_equipment_variant = {
+					name = "DB-4T"
+					type = small_plane_naval_bomber_airframe_2
+					parent_version = 0
+					modules = {
+						fixed_main_weapon_slot = torpedo_mounting_2
+						engine_type_slot = engine_2_1x
+						special_type_slot_1 = floats
+					}
+				}
+				create_equipment_variant = {
+					name = "DB-4TN"
+					type = large_plane_maritime_patrol_plane_airframe_2
+					parent_version = 0
+					modules = {
+						fixed_main_weapon_slot = torpedo_mounting
+						fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+						fixed_auxiliary_weapon_slot_2 = torpedo_mounting
+						engine_type_slot = engine_2_4x
+						special_type_slot_1 = flying_boat_large
+						special_type_slot_2 = lmg_defense_turret_2x
+						special_type_slot_3 = lmg_defense_turret_2x
+					}
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_RESEARCH }
+	}
+	
+	focus = {
+		id = GSV_Carrier_Development
+		text = RUS_Carrier_Development
+		icon = GFX_goal_CAN_Canadian_Carriers
+		cost = 4
+	
+		relative_position_id = GSV_Naval_Bomber_Development
+		x = 0
+		y = 1
+	
+		prerequisite = {
+			focus = GSV_Naval_Bomber_Development
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				has_war = yes
+				enemies_naval_strength_ratio > 2
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_Carrier_Development"
+			add_tech_bonus = {
+				name = RUS_Carrier_Development
+				bonus = 0.5
+				uses = 2
+				category = cv_tech
+			}
+			add_tech_bonus = {
+				name = RUS_Carrier_Development
+				bonus = 0.5
+				uses = 2
+				category = naval_air
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	
+	### Navy Tree ###
+	focus = {
+		id = GSV_SOV_Take_To_The_Seas
+		text = RUS_SOV_Take_To_The_Seas
+		icon = GFX_goal_GSV_Red_Fleet
+		x = 37
+		y = 8
+		cost = 1
+		available = {
+			has_completed_focus = GEO_Fate_Of_Russian_Army
+			has_government = totalist
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Take_To_The_Seas"
+			navy_experience = 50
+			if = {
+				limit = {
+					has_idea = rus_divided_marine
+				}
+				remove_ideas = rus_divided_marine
+			}
+			load_oob = SOV_naval
+			create_navy_leader = {
+				name = "Гордей Левченко"
+				portrait_path = "gfx/leaders/GEO/Portrait_GSV_Gordey_Levchenko.png"
+				traits = { green_water_expert }
+				skill = 2
+			    attack_skill = 2
+			    defense_skill = 2
+			    maneuvering_skill = 1
+			    coordination_skill = 2
+			}
+			create_navy_leader = {
+				name = "Арсений Головко"
+				portrait_path = "gfx/leaders/GEO/Portrait_GSV_Arseniy_Golovko.png"
+				traits = { spotter arctic_water_expert }
+			    skill = 3
+			    attack_skill = 2
+			    defense_skill = 4
+			    maneuvering_skill = 2
+			    coordination_skill = 2
+			}
+			random_unit_leader = {
+				limit = { has_id = 17892 }
+				remove_unit_leader_trait = hidden_sympathies
+				set_nationality = ROOT
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_Floating_Fortresses
+		text = RUS_Floating_Fortresses
+		icon = GFX_RUS_Kolomeitsev_Plan
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -5
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Take_To_The_Seas
+		}
+		mutually_exclusive = {
+			focus = GSV_SOV_Death_From_Above
+			focus = GSV_SOV_War_Under_The_Sea
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = base_strike
+					has_tech = trade_interdiction
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Floating_Fortresses"
+			add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 2
+	category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = GSV_SOV_Death_From_Above
+		text = RUS_Death_From_Above
+		icon = GFX_RUS_Berens_Plan
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -3
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Take_To_The_Seas
+		}
+		mutually_exclusive = {
+			focus = GSV_SOV_Floating_Fortresses
+			focus = GSV_SOV_War_Under_The_Sea
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Death_From_Above"
+			add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 2
+	category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_War_Under_The_Sea
+		text = RUS_War_Under_The_Sea
+		icon = GFX_RUS_Monastyriov_Plan
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -1
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Take_To_The_Seas
+		}
+		mutually_exclusive = {
+			focus = GSV_SOV_Floating_Fortresses
+			focus = GSV_SOV_Death_From_Above
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = base_strike
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_War_Under_The_Sea"
+			add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.5
+	uses = 2
+	category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_The_Invisible_Navy
+		text = RUS_The_Invisible_Navy
+		icon = GFX_goal_AUS_unrestricted_submarine_warfare
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -4
+		y = 2
+		cost = 3
+		prerequisite = {
+			focus = GSV_SOV_Floating_Fortresses
+			focus = GSV_SOV_Death_From_Above
+			focus = GSV_SOV_War_Under_The_Sea
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_The_Invisible_Navy"
+			add_tech_bonus = {
+				name = GSV_SOV_The_Invisible_Navy
+				bonus = 1
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Coastal_Defences
+		text = RUS_Coastal_Defences
+		icon = GFX_goal_generic_coastal_navy2
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -6
+		y = 4
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_The_Invisible_Navy
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_SOV_Coastal_Defences"
+			add_tech_bonus = {
+				name = GSV_SOV_Coastal_Defences
+				bonus = 0.5
+				uses = 2
+				category = naval_mines
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_A_Destroyer_Armada
+		text = RUS_A_Destroyer_Armada
+		icon = GFX_goal_CSA_power_of_red_navy_2
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -2
+		y = 2
+		cost = 3
+		prerequisite = {
+			focus = GSV_SOV_Floating_Fortresses
+			focus = GSV_SOV_Death_From_Above
+			focus = GSV_SOV_War_Under_The_Sea
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_A_Destroyer_Armada"
+			add_tech_bonus = {
+				name = GSV_SOV_A_Destroyer_Armada
+				bonus = 1
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Fleet_Protectors
+		text = RUS_Fleet_Protectors
+		icon = GFX_MAF_naval_aerial_observation
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -5
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_A_Destroyer_Armada
+		}
+		prerequisite = {
+			focus = GSV_SOV_The_Invisible_Navy
+		}
+		mutually_exclusive = {
+			focus = GSV_SOV_Fleet_Vanguards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_SOV_Fleet_Protectors"
+			add_tech_bonus = {
+				name = RUS_SOV_Fleet_Protectors
+				bonus = 0.5
+				uses = 2
+				category = asw_tech
+				category = cat_anti_air
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Fleet_Protectors
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Commerce_Raiders
+		text = RUS_Commerce_Raiders
+		icon = GFX_goal_CAN_Canadian_Cruisers
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -5
+		y = 5
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Fleet_Protectors
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Commerce_Raiders"
+			add_tech_bonus = {
+				name = RUS_SOV_Commerce_Raiders
+				bonus = 0.5
+				uses = 2
+				category = cat_torpedo
+				category = cat_targeting
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Commerce_Raiders
+				bonus = 0.5
+				uses = 1
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Fleet_Vanguards
+		text = RUS_Fleet_Vanguards
+		icon = GFX_goal_FIU_secure_fleet
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -2
+		y = 3
+		offset = {
+			x = -1
+			y = 0
+		}
+		cost = 3
+		prerequisite = {
+			focus = GSV_SOV_A_Destroyer_Armada
+		}
+		prerequisite = {
+			focus = GSV_SOV_The_Invisible_Navy
+		}
+		mutually_exclusive = {
+			focus = GSV_SOV_Fleet_Protectors
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Fleet_Vanguards"
+			add_tech_bonus = {
+				name = RUS_SOV_Fleet_Vanguards
+				bonus = 0.75
+				uses = 3
+				category = cat_gunnery
+				category = cat_targeting
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Fleet_Vanguards
+				bonus = 0.75
+				uses = 2
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Naval_Infantry_MTG
+		text = RUS_Naval_Infantry
+		icon = GFX_goal_generic_Syndicalist_Marines
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -4
+		y = 4
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Fleet_Protectors
+			focus = GSV_SOV_Fleet_Vanguards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Naval_Infantry"
+			add_tech_bonus = {
+				name = GSV_SOV_Naval_Infantry
+				bonus = 1
+				uses = 2
+				category = marine_tech
+				category = tp_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Naval_Infantry
+		text = RUS_Naval_Infantry
+		icon = GFX_goal_generic_Syndicalist_Marines
+		available = {
+			OR = {
+				has_war_with = JAP
+				has_war_with = CAN
+			}
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -2
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = GSV_SOV_Fleet_Vanguards
+			focus = GSV_SOV_New_Tactics_For_New_Ships
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Naval_Infantry"
+			add_tech_bonus = {
+				name = GSV_SOV_Naval_Infantry
+				bonus = 1
+				uses = 2
+				category = marine_tech
+				category = tp_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_New_Tactics_For_New_Ships
+		text = RUS_New_Tactics_For_New_Ships
+		icon = GFX_goal_CRO_naval_academy
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -1
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Floating_Fortresses
+			focus = GSV_SOV_Death_From_Above
+			focus = GSV_SOV_War_Under_The_Sea
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_New_Tactics_For_New_Ships"
+			add_doctrine_cost_reduction = {
+				name = GSV_SOV_Naval_Infantry
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_New_Tactics_For_New_Ships_MTG
+		text = RUS_New_Tactics_For_New_Ships
+		icon = GFX_goal_CRO_naval_academy
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -2
+		y = 4
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Fleet_Protectors
+			focus = GSV_SOV_Fleet_Vanguards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_New_Tactics_For_New_Ships_MTG"
+			add_doctrine_cost_reduction = {
+				name = RUS_SOV_Naval_Infantry
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Modernise_The_Petrograd_Dockyards
+		text = RUS_Modernise_The_Petrograd_Dockyards
+		icon = GFX_RUS_Modernise_Petrograd_Dockyards
+		available = {
+			195 = { is_owned_and_controlled_by = ROOT }
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = GSV_SOV_Take_To_The_Seas
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Modernise_The_Petrograd_Dockyards"
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Modernise_Murmansk
+		text = RUS_Modernise_Murmansk
+		icon = GFX_RUS_Modernise_Murmansk
+		available = {
+			213 = { is_owned_and_controlled_by = ROOT }
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 2
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = GSV_SOV_Modernise_The_Petrograd_Dockyards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Modernise_Murmansk"
+			213 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 3134
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 3134
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Modernise_Murmansk
+				bonus = 1
+				uses = 1
+				ahead_reduction = 2
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Recover_Foreign_Blueprints
+		text = RUS_Recover_Foreign_Blueprints
+		icon = GFX_goal_generic_naval_industry
+		available = {
+			OR = {
+				1221 = { is_owned_and_controlled_by = ROOT }
+				408 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 1
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = GSV_SOV_Modernise_The_Petrograd_Dockyards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Recover_Foreign_Blueprints"
+			add_tech_bonus = {
+				name = GSV_SOV_Recover_Foreign_Blueprints
+				bonus = 1
+				uses = 1
+				ahead_reduction = 3
+				category = cv_tech
+				category = bb_tech
+
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Submarines_In_Kamchatka
+		text = RUS_Submarines_In_Kamchatka
+		icon = GFX_RUS_Submarines_Kamchatka
+		available = {
+			637 = { is_owned_and_controlled_by = ROOT }
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 0
+		y = 2
+		cost = 5
+		prerequisite = {
+			focus = GSV_SOV_Modernise_The_Petrograd_Dockyards
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Submarines_In_Kamchatka"
+			637 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 4728
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 5
+					province = 4728
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Submarines_In_Kamchatka
+				bonus = 1
+				uses = 1
+				ahead_reduction = 2
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Repair_Sevastopol
+		text = RUS_Repair_Sevastopol
+		icon = GFX_RUS_Repair_Sevastopol
+		available = {
+			1221 = { is_owned_and_controlled_by = ROOT }
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 0
+		y = 4
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Recover_Foreign_Blueprints
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Repair_Sevastopol"
+			1221 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 3686
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 3686
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Repair_Vladivostok
+		text = RUS_Repair_Vladivostok
+		icon = GFX_RUS_Repair_Vladivostok
+		available = {
+			408 = { is_owned_and_controlled_by = ROOT }
+		}
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 2
+		y = 4
+		cost = 4
+		prerequisite = {
+			focus = GSV_SOV_Recover_Foreign_Blueprints
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus RUS_SOV_Repair_Vladivostok"
+			408 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 957
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 957
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Battleship_Development
+		text = RUS_Battleship_Development
+		icon = GFX_goal_CAN_Modernize_Naval_Force
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = -1
+		y = 5
+		cost = 5
+		mutually_exclusive = {
+			focus = GSV_SOV_Carrier_Development
+		}
+		prerequisite = {
+			focus = GSV_SOV_Repair_Sevastopol
+			focus = GSV_SOV_Repair_Vladivostok
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Battleship_Development"
+			add_tech_bonus = {
+				name = GSV_SOV_Battleship_Development
+				bonus = 0.5
+				uses = 2
+				category = bb_tech
+			}
+			add_tech_bonus = {
+				name = GSV_SOV_Battleship_Development
+				bonus = 0.5
+				uses = 2
+				category = cat_gunnery
+			}
+		}
+	}
+
+	focus = {
+		id = GSV_SOV_Carrier_Development
+		text = RUS_Carrier_Development
+		icon = GFX_goal_CAN_Canadian_Carriers
+		relative_position_id = GSV_SOV_Take_To_The_Seas
+		x = 2
+		y = 5
+		cost = 5
+		mutually_exclusive = {
+			focus = GSV_SOV_Battleship_Development
+		}
+		prerequisite = {
+			focus = GSV_SOV_Repair_Sevastopol
+			focus = GSV_SOV_Repair_Vladivostok
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 5
+				OR = {
+					has_war_with = USA
+					has_war_with = TEX
+					has_war_with = CAL
+					has_war_with = CAN
+					has_war_with = JAP
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GSV_SOV_Carrier_Development"
+			add_tech_bonus = {
+				name = RUS_SOV_Carrier_Development
+				bonus = 0.5
+				uses = 2
+				category = cv_tech
+			}
+			add_tech_bonus = {
+				name = RUS_SOV_Carrier_Development
+				bonus = 0.5
+				uses = 2
+				category = naval_air
+			}
+		}
+	}
+
+
+	focus = {
+		id = GEO_chairman_stalin
+		text = GEO_chairman_stalin
+		icon = GFX_goal_GSV_chairman_stalin
+		cost = 1
+		x = 4
+		y = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			has_completed_focus = GEO_Aftermath_Of_Civil_War
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: GEO_chairman_stalin"
+			country_event = geo.512
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = GEO_cleansing_opposition
+		text = SOV_cleansing_opposition
+		icon = GFX_goal_SOV_cleaning_opposition
+		relative_position_id = GEO_chairman_stalin
+		cost = 4
+		prerequisite = {
+			focus = GEO_chairman_stalin
+		}
+		available = {
+			has_completed_focus = GEO_Cement_The_Regime
+		}
+		ai_will_do = {
+			factor = 500
+		}	
+		x = 1
+		y = 1
+		completion_reward = {
+			add_stability = -0.05
+			add_timed_idea = {
+					idea = GSV_tuhk_opp
+					days = 90
+				}	
+			}
+	}
+	focus = {
+		id = GEO_Control_Press
+		text = RUS_Control_Press
+		icon = GFX_SOV_pravda
+		relative_position_id = GEO_chairman_stalin
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = GEO_chairman_stalin
+		}
+		cost = 4
+		ai_will_do = {
+			factor = 500
+		}
+		completion_reward = {
+			country_event = { id = russoc.20 }
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = GEO_beria_labour
+		text = beria_labour
+		icon = GFX_SOV_penal_battalions
+		cost = 4
+		prerequisite = {
+			focus = GEO_Control_Press
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+		relative_position_id = GEO_chairman_stalin
+		x = -2
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_beria_labour"
+			add_ideas = GSV_slave_labor
+			random_owned_state = {
+			    limit = {
+			    	free_building_slots = {
+			    		building = arms_factory
+			    		size > 1
+			    		
+			    	}
+			    }
+			    add_extra_state_shared_building_slots = 2
+			    add_building_construction = {
+			    		type = arms_factory
+			    		level = 3
+			    		instant_build = yes
+			    }
+			}
+			random_owned_state = {
+		     	limit = {
+		     		free_building_slots = {
+		     			building = arms_factory
+		     			size > 0
+		     			
+		     		}
+		     	}
+		     	add_extra_state_shared_building_slots = 1
+		     	add_building_construction = {
+		     		type = arms_factory
+		     		level = 3
+		     		instant_build = yes
+		     	}
+		     }
+		}
+	}
+	focus = {
+	    id = GEO_New_Russian_Culture
+		text = SOV_New_Russian_Culture
+	    icon = GFX_SOV_soc_culture
+	    relative_position_id = GEO_beria_gulag
+	    x = 0
+	    y = 1
+	    cost = 4
+		
+		prerequisite = {
+			focus = GEO_beria_gulag
+			focus = GEO_No_Progress_Without_Ideology
+		}
+		mutually_exclusive = {
+			focus = GEO_Soviets_Beyond_Nations
+		}
+	    ai_will_do = {
+	    	factor = 500
+	    }
+	    completion_reward = {
+	    	add_ideas = GSV_cultural_influence_idea
+	    }
+	}
+	focus = {
+		id = GEO_Soviets_Beyond_Nations
+		icon = GFX_SOV_Soviet_Nations
+		relative_position_id = GEO_beria_gulag
+		x = 2
+		y = 1
+		cost = 4
+		prerequisite = {
+			focus = GEO_beria_gulag
+			focus = GEO_No_Progress_Without_Ideology
+		}
+		
+		mutually_exclusive = {
+			focus = GEO_New_Russian_Culture
+		}
+		ai_will_do = { factor = 500 }
+		completion_reward = {
+			add_ideas = GSV_sovietification_3
+		}
+	}
+	focus = {
+		id = GEO_cult_of_stalin
+		icon = GFX_goal_GSV_the_father_of_nations
+		cost = 6
+		prerequisite = {
+			focus = GEO_New_Russian_Culture
+			focus = GEO_Soviets_Beyond_Nations
+		}
+		available = {
+			has_completed_focus = GEO_cleansing_opposition
+			has_completed_focus = GEO_True_Bolshevism
+			has_completed_focus = GEO_No_Progress_Without_Ideology
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		relative_position_id = GEO_chairman_stalin
+		x = 0
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_cult_of_stalin"
+			add_country_leader_trait = stalin_father_of_nations
+		}
+	}
+	focus = {
+		id = GEO_No_Progress_Without_Ideology
+		icon = GFX_SOV_Progress
+		relative_position_id = GEO_chairman_stalin
+		x = 1
+		y = 3
+		cost = 4
+		prerequisite = {
+			focus = GEO_True_Bolshevism
+		}
+		
+		ai_will_do = { factor = 500 }
+		completion_reward = {
+			add_ideas = GSV_tkgosplan_2
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				ahead_reduction = 1
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = GEO_True_Bolshevism
+		text = SOV_True_Bolshevism
+		icon = GFX_SOV_true_lenin
+		relative_position_id = GEO_chairman_stalin
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = GEO_cleansing_opposition
+		}
+		
+		cost = 4
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			add_ideas = GEO_socialism_in_one_contry_policies	
+		}
+	}
+	focus = {
+		id = GEO_beria_gulag
+		text = beria_gulag
+		icon = GFX_SOV_onwards_to_gulag
+		cost = 4
+		prerequisite = {
+			focus = GEO_beria_labour
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+		relative_position_id = GEO_chairman_stalin
+		x = -1
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_beria_gulag"
+			add_ideas = GSV_gulag_ideas
+			unlock_decision_category_tooltip = GEO_gulag_decisions
+			hidden_effect = {
+				activate_targeted_decision = { target = 577 decision = GEO_Develop_gulag_oil_In_State }
+				activate_targeted_decision = { target = 403 decision = GEO_Develop_gulag_oil_In_State }
+				activate_targeted_decision = { target = 1194 decision = GEO_Develop_gulag_oil_In_State }
+				activate_targeted_decision = { target = 569 decision = GEO_Develop_gulag_steel_In_State }
+				activate_targeted_decision = { target = 516 decision = GEO_Develop_gulag_steel_In_State }
+				activate_targeted_decision = { target = 214 decision = GEO_Develop_gulag_chromium_In_State }
+				activate_targeted_decision = { target = 397 decision = GEO_Develop_gulag_chromium_In_State }
+				activate_targeted_decision = { target = 400 decision = GEO_Develop_gulag_aluminium_In_State }
+				activate_targeted_decision = { target = 581 decision = GEO_Develop_gulag_aluminium_In_State }
+			}
+		}
+	}
+}

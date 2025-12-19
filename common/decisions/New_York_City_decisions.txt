@@ -1029,31 +1029,31 @@ NYC_New_Negro_Internationale_decisions = {
 			    NOT = { is_in_faction_with = NYC }
 				OR = {
 					has_country_leader = {
-						name = "Simon Kimbangu"
+						name = "Симон Кимбангу"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Marie Muilu Kiawanga Nzitani"
+						name = "Мари Муилу Киаванга Нзитани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Charles Daniel Kisolokele"
+						name = "Чарльз Дэниел Кисолокеле"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Salomon Dialungana Kiangani"
+						name = "Саломон Диалунгана Киангани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Joseph Diangienda"
+						name = "Джозеф Диандженда"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Simon-Pierre Mpadi"
+						name = "Симон-Пьер Мпади"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Daniel Kanza"
+						name = "Даниэль Канза"
 						ruling_only = yes
 					}
 				}
@@ -1274,7 +1274,7 @@ NYC_New_Negro_Internationale_decisions = {
 				exists = yes
                 is_subject = no
 			    NOT = { is_in_faction_with = NYC }
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		days_remove = 7
@@ -1309,7 +1309,7 @@ NYC_New_Negro_Internationale_decisions = {
 				exists = yes
                 is_subject = no
 			    NOT = { is_in_faction_with = NYC }
-				has_country_leader = {	name = "Haile Selassie" ruling_only = yes }
+				has_country_leader = {	name = "Хайле Селассие" ruling_only = yes }
 			}	
 		}
 		days_remove = 7
@@ -1502,7 +1502,7 @@ NYC_foreign_policy = {
 	NYC_join_int = {
 		icon = generic_prepare_civil_war
 		allowed = { tag = NYC }
-   		visible = {
+		visible = {
 			INT = { exists = yes }
 			is_in_faction = no
 			is_subject = no
@@ -1646,27 +1646,27 @@ NYC_foreign_policy = {
 				exists = yes
 				OR = {
 					has_country_leader = {
-						name = "Simon Kimbangu"
+						name = "Симон Кимбангу"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Marie Muilu Kiawanga Nzitani"
+						name = "Мари Муилу Киаванга Нзитани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Charles Daniel Kisolokele"
+						name = "Чарльз Дэниел Кисолокеле"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Salomon Dialungana Kiangani"
+						name = "Саломон Диалунгана Киангани"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Joseph Diangienda"
+						name = "Джозеф Диандженда"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Simon-Pierre Mpadi"
+						name = "Симон-Пьер Мпади"
 						ruling_only = yes
 					}
 				}
@@ -1884,29 +1884,29 @@ USA_reconstruction_decisions = {
 					AND = {
 						NEE = { 
 							exists = yes
-							has_country_flag = NEE_claimed_america
-							is_ally_of_ROOT = no
+						has_country_flag = NEE_claimed_america
+						is_ally_of_ROOT = no
 						}
 					}
 					AND = {
 						TXS = { 
 							exists = yes
-							has_country_flag = TXS_claimed_america
-							is_ally_of_ROOT = no
+						has_country_flag = TXS_claimed_america
+						is_ally_of_ROOT = no
 						}
 					}
 					AND = {
 						NYC = {
 							exists = yes
-							has_country_flag = NYC_can_invade_america
-							is_ally_of_ROOT = no
+						has_country_flag = NYC_can_invade_america
+						is_ally_of_ROOT = no
 						}
 					}
 					AND = {
-						BBR = {
+						BBR = {	
 							exists = yes
-							has_country_flag = BBR_claimed_america
-							is_ally_of_ROOT = no
+						has_country_flag = BBR_claimed_america
+						is_ally_of_ROOT = no
 						}
 					}
 				}
@@ -1935,14 +1935,14 @@ USA_reconstruction_decisions = {
 				limit = {
 					NOT = {
 						has_country_leader = {
-							name = "Alphonse Capone"
+							name = "Альфонсе Капоне"
 							ruling_only = yes
 						}
 					}
 					NYC = {
 						NOT = {
 							has_country_leader = {
-								name = "Lucky Luciano"
+								name = "Чарльз Лучано"
 								ruling_only = yes
 							}
 						}
@@ -1958,12 +1958,12 @@ USA_reconstruction_decisions = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Alphonse Capone"
+						name = "Альфонсе Капоне"
 						ruling_only = yes
 					}
 					NYC = {
 						has_country_leader = {
-							name = "Lucky Luciano"
+							name = "Чарльз Лучано"
 							ruling_only = yes
 						}
 					}

@@ -826,7 +826,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus TRM_Continue_The_Militarisation"			
+			log = "[GetDateText]: [Root.GetName]: Focus TRM_Continue_The_Militarisation"
 			set_temp_variable = { change_morale = 0.05 }
 			RUS_change_siberian_war_morale = yes
 			army_experience = 25
@@ -838,7 +838,7 @@ focus_tree = {
 			}
 			if = {
 				limit = { NOT = { has_completed_focus = TRM_NRA_Seizes_Control } }
-				swap_ideas = {
+			swap_ideas = {
 				remove_idea = TRM_Siberian_Army
 				add_idea = TRM_Siberian_Army_1
 			    }
@@ -1377,7 +1377,7 @@ focus_tree = {
 				}
 			}
 			division_template = {
-				name = "Motopekhotnaya Diviziya"
+				name = "Мотопехотная дивизия"
 				division_names_group = RUS_MOT_01
 				regiments = {
 					motorized = { x = 0 y = 0 }
@@ -1395,7 +1395,7 @@ focus_tree = {
 				custom_effect_tooltip = TRM_motorised_tooltip
 				hidden_effect = {
 					create_unit = {
-						division = "division_template = \"Motopekhotnaya Diviziya\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
+						division = "division_template = \"Мотопехотная дивизия\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
 						owner = ROOT
 						count = 2
 					}
@@ -1657,12 +1657,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Create_The_VDV"
 			hidden_effect = {
 				if = {
-					limit = { has_template = "Vozdushno-Desantnye Voyska" }
-					delete_unit_template_and_units = { division_template = "Vozdushno-Desantnye Voyska" disband = yes } #no cheating
+					limit = { has_template = "Воздушно-Десантные Войска" }
+					delete_unit_template_and_units = { division_template = "Воздушно-Десантные Войска" disband = yes } #no cheating
 				}
 			}
 			division_template = {
-				name = "Vozdushno-Desantnye Voyska"
+				name = "Воздушно-Десантные Войска"
 				division_names_group = TRM_PAR_01
 				regiments = {
 					paratrooper = { x = 0 y = 0 }
@@ -1679,10 +1679,10 @@ focus_tree = {
 				custom_effect_tooltip = RUS_paratrooper_tooltip
 				hidden_effect = {
 				create_unit = {
-					division = "division_template = \"Vozdushno-Desantnye Voyska\" start_experience_factor = 0.1"
+					division = "division_template = \"Воздушно-Десантные Войска\" start_experience_factor = 0.1"
 					owner = ROOT
 				}
-			}
+				}
 			}
 			add_tech_bonus = {
 				name = TRM_Create_The_VDV
@@ -1882,9 +1882,9 @@ focus_tree = {
 		select_effect = {
 			if = { 
 				limit = { controls_state = 564 }
-				country_event = {
-					id = tram.53
-					days = 5
+			country_event = {
+				id = tram.53
+				days = 5
 				}
 			}
 			else_if = { 
@@ -1893,7 +1893,7 @@ focus_tree = {
 					id = tramsem.4
 					days = 15
 				}
-			}			
+			}
 		}
 		cost = 5
 		ai_will_do = {
@@ -1911,12 +1911,12 @@ focus_tree = {
 					controls_state = 564 
 					controls_state = 563
 				}
-				custom_effect_tooltip = upon_selecting_focus
+			custom_effect_tooltip = upon_selecting_focus
 				effect_tooltip = {
 					country_event = tram.53
 					country_event = tramsem.4
 				}
-				custom_effect_tooltip = effect_upon_focus_completion
+			custom_effect_tooltip = effect_upon_focus_completion
 			}
 			else_if = { 
 				limit = { controls_state = 564 }
@@ -1935,7 +1935,7 @@ focus_tree = {
 				custom_effect_tooltip = effect_upon_focus_completion
 			}		
 			country_event = tram.148
-			custom_effect_tooltip = "Decisions to Crush NRA Partisans will be available"
+			custom_effect_tooltip = "Станет доступно решение о ликвидации НРА"
 		}
 	}
 	focus = {
@@ -2182,7 +2182,7 @@ focus_tree = {
 				}
 				else = {
 					add_tech_bonus = {
-						name = "Czech Legion Loyalty"
+						name = "Преданность Чешского легиона"
 						bonus = 0.5
 						uses = 1
 						category = train_tech
@@ -2190,7 +2190,7 @@ focus_tree = {
 				}
 				create_railway_gun = {
 					equipment = railway_gun_equipment_1
-					name = "Orlik" 
+					name = "Орлик" 
 				}
 			}
 		}
@@ -2668,7 +2668,7 @@ focus_tree = {
 			focus = TRM_Self_Government_Minorities
 			focus = TRM_Martial_Law_In_Minority_Areas
 			focus = TRM_Stake_On_Military
-		}
+		}		
 		cost = 4
 		ai_will_do = {
 			base = 20
@@ -2928,7 +2928,7 @@ focus_tree = {
 			custom_effect_tooltip = TRM_holy_cross_divisions
 			hidden_effect = {
 				division_template = {
-					name = "Druzhina Svyatogo Kresta"
+					name = "Дружина Святого Креста"
 					division_names_group = TRM_INF_01
 					regiments = {
 						irregular_infantry = { x = 0 y = 0 }
@@ -2947,14 +2947,14 @@ focus_tree = {
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = " division_template = \"Druzhina Svyatogo Kresta\" start_experience_factor = 0.4"
+						division = " division_template = \"Дружина Святого Креста\" start_experience_factor = 0.4"
 						count = 3
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = " division_template = \"Druzhina Svyatogo Kresta\" start_experience_factor = 0.4"
+						division = " division_template = \"Дружина Святого Креста\" start_experience_factor = 0.4"
 						count = 3
 						owner = ROOT
 					}
@@ -6087,10 +6087,10 @@ focus = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = TRM_RDS_1
+			add_tech_bonus = {
+				name = TRM_RDS_1
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 				add_breakthrough_progress = {
@@ -6423,7 +6423,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Secure_Straits"
 			every_state = {
 				limit = {
-					state = 773 #Constantinople
+						state = 773 #Constantinople
 					is_claim_or_core_of_ROOT = no
 				}
 				add_claim_by = ROOT
@@ -6918,7 +6918,7 @@ focus = {
 						has_idea = FNG_mantetsu_influence_idea
 					}
 				}
-				country_event = tram.408
+			country_event = tram.408
 			}
 			else = {
 				883 = {
@@ -6995,7 +6995,7 @@ focus = {
 
 		bypass = {
 			OR = {
-				NOT = { country_exists = FIN }
+			NOT = { country_exists = FIN }
 				FIN = { is_subject_of = ROOT }
 			}
 			NOT = { country_exists = KAR }
@@ -7381,7 +7381,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_on_our_own"
 			if = {
 				limit = { TRM_Mlad_in_power = yes }
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_union_people_crowns
 				icon = GFX_faction_union_of_peoples_crowns

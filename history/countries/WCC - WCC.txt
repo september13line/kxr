@@ -119,35 +119,35 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 add_opinion_modifier = { target = LEC modifier = LEC_member }
 add_opinion_modifier = { target = HAI modifier = HAI_foreign_council }
@@ -193,16 +193,16 @@ set_popularities = {
 }
 
 # Resetting politics for all puppets which come earlier in the load order
-create_country_leader = {# Omar Bradley
-	name = "Omar Bradley"
+create_country_leader = {# Омар Брэдли
+	name = "Омар Брэдли"
 	desc = "USA_OMAR_BRADLEY_POLITICS_DESC"
 	picture = "gfx/leaders/WCC/Portrait_WCC_gen_omar_bradley.png"
 	expire = "1.1.1"
 	ideology = authdem_junta_subtype
 	traits = { desperate_defender }
 }
-create_country_leader = {# Omar Bradley
-	name = "Omar Bradley"
+create_country_leader = {# Омар Брэдли
+	name = "Омар Брэдли"
 	desc = "USA_OMAR_BRADLEY_POLITICS_DESC"
 	picture = "gfx/leaders/WCC/Portrait_WCC_gen_omar_bradley.png"
 	expire = "1.1.1"
@@ -210,7 +210,7 @@ create_country_leader = {# Omar Bradley
 	traits = { desperate_defender }
 }
 create_country_leader = {
-	name = "John Galen Locke"
+	name = "Джон Гален Локк"
 	picture = "gfx/leaders/WCC/Portrait_WCC_John_Galen_Locke.png"
 	expire = "1.1.1"
 	ideology = klan_nationalism_subtype
@@ -236,8 +236,8 @@ add_ideas = {
 
 ### Generals ###
 
-create_corps_commander = {# Curtis LeMay
-	name = "Curtis LeMay"
+create_corps_commander = {# Кёртис Лемей
+	name = "Кёртис Лемей"
 	desc = "USA_LEMAY_ARMY_DESC"
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_Curtis_LeMay.png"
 	traits = {
@@ -253,7 +253,7 @@ create_corps_commander = {# Curtis LeMay
 	id = 9651
 }
 create_corps_commander = {# Mac Loyalist, moved to WCC
-	name = "George Kenney"
+	name = "Джордж Кеннан"
 	desc = "NEE_GEORGE_KENNEY_ARMY_DESC"
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_george_kenney.png"
 	traits = {
@@ -266,8 +266,8 @@ create_corps_commander = {# Mac Loyalist, moved to WCC
 	planning_skill = 3
 	logistics_skill = 1
 }
-create_corps_commander = {# Oscar Griswold
-	name = "Oscar Griswold"
+create_corps_commander = {# Оскар Грисуолд
+	name = "Оскар Грисуолд"
 	desc = "USA_OSCAR_GRISWOLD_ARMY_DESC"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_oscar_griswold_HOTB.png"
 	traits = { infantry_officer  }
@@ -277,8 +277,8 @@ create_corps_commander = {# Oscar Griswold
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander = {#John K. Cannon
-	name = "John K. Cannon"
+create_corps_commander = {#Джон К. Кэннон
+	name = "Джон К. Кэннон"
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_John_K_Cannon.png"
 	traits = { 
 		air_commander  
@@ -291,7 +291,7 @@ create_corps_commander = {#John K. Cannon
 	logistics_skill = 2
 }
 create_corps_commander = {#
-	name = "Theodore Roosevelt Jr. "
+	name = "Теодор Рузвельт-мл. "
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_Teddy_Roosevelt_Jr.png"
 	traits = {
 		trait_reckless
@@ -305,7 +305,7 @@ create_corps_commander = {#
 	logistics_skill = 1
 }
 create_corps_commander = {#
-	name = "Archibald Bulloch Roosevelt"
+	name = "Арчибальд Буллок Рузвельт"
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_Archibald_Bulloch_Roosevelt.png"
 	traits = {
 		infantry_officer
@@ -318,8 +318,8 @@ create_corps_commander = {#
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Walter Bedell Smith
-	name = "Walter Bedell Smith"
+create_corps_commander = {# Уолтер Беделл Смит
+	name = "Уолтер Беделл Смит"
 	portrait_path = "gfx/leaders/WCC/Portrait_WCC_Walter_Bedell_Smith.png"
 	traits = { 
 		skilled_staffer 
@@ -333,7 +333,7 @@ create_corps_commander = {# Walter Bedell Smith
 }
 
 create_corps_commander = {#
-	name = "Guy Henry"
+	name = "Гай Генри"
 	portrait_path = "gfx/leaders/UOT/Portrait_UOT_Guy_Henry.png"
 	traits = {
 		career_officer
@@ -348,7 +348,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Keith L. Ware"
+	name = "Кит Л. Уэр"
 	portrait_path = "gfx/leaders/AML/Portrait_AML_Keith_Ware.png"
 	traits = {
 		fortress_buster
@@ -362,7 +362,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "DeWitt Clinton Ramsey"
+	name = "ДеВитт Клинтон Рамси"
 	portrait_path = "gfx/leaders/DSR/Portrait_DSR_DeWitt_Clinton_Ramsey.png"
 	traits = {
 	}
@@ -374,7 +374,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "George Edward Wahlen"
+	name = "Джордж Эдвард Вален"
 	portrait_path = "gfx/leaders/DSR/Portrait_DSR_George_Wahlen.png"
 	traits = {
 		trait_reckless
@@ -388,7 +388,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Vernon E. Prichard"
+	name = "Вернон Причард"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_Vernon_E_Prichard.png"
 	traits = { armor_officer trait_engineer }
 	skill = 2
@@ -399,7 +399,7 @@ create_corps_commander = {#
 }
 
 create_navy_leader = {#
-	name = "Mervyn S. Bennion"
+	name = "Мервин С. Беннион"
 	portrait_path = "gfx/leaders/DSR/Portrait_DSR_Mervyn_Bennion.png"
 	traits = { ironside }
 	skill = 2
@@ -413,7 +413,7 @@ create_navy_leader = {#
 if = {
 	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
-		name = "Claire Phillips"
+		name = "Клэр Филлипс"
 		GFX = GFX_portrait_HOTB_Claire_Phillips
 		traits = {
 			operative_commando

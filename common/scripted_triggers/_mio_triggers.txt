@@ -125,19 +125,28 @@ uses_generic_mios = {
 		original_tag = URL
 		original_tag = TTR
 		original_tag = BKN
+
+		original_tag = GRU
+		original_tag = GSV
 	}
 }
 
 uses_generic_armour_mio = {
 	uses_generic_mios = yes
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_naval_mio = {
 	uses_generic_mios = yes
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_aircraft_mio = {
 	uses_generic_mios = yes
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_artillery_mio = {
@@ -145,6 +154,8 @@ uses_generic_artillery_mio = {
 	NOT = { original_tag = HNN }
 	NOT = { original_tag = XSM }
 	NOT = { original_tag = YUN }
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_infantry_mio = {
@@ -155,6 +166,8 @@ uses_generic_infantry_mio = {
 	NOT = { original_tag = XSM }
 	NOT = { original_tag = YUN }
 	NOT = { original_tag = BKN }
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_support_mio = {
@@ -164,6 +177,8 @@ uses_generic_support_mio = {
 	NOT = { original_tag = SQI }
 	NOT = { original_tag = XSM }
 	NOT = { original_tag = YUN }
+	NOT = { original_tag = GRU }
+	NOT = { original_tag = GSV }
 }
 
 uses_generic_motorised_mio = {

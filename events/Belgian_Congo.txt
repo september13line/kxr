@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # Katanga
 ###########################
 # Pearl of the Jungle
@@ -352,7 +352,7 @@ country_event = { #End of the Siege
 				id = congo.28
 				days = 2
 			}
-			set_stability = 0.50
+		set_stability = 0.50
 		}
 	}
 }
@@ -955,13 +955,13 @@ country_event = { #The Portugese have accepted our offer
 		name = congo.56.a
 		set_cosmetic_tag = POR_MITTEL
 		create_country_leader = {
-				name = "António Lopes Mateus"
+				name = "Антониу Лопес Матеус"
 				picture = "gfx/leaders/POR/Portrait_POR_Antonio_Lopes_Mateus.png"
 				expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype
 		}
 			create_country_leader = {
-				name = "António Lopes Mateus"
+				name = "Антониу Лопес Матеус"
 				picture = "gfx/leaders/POR/Portrait_POR_Antonio_Lopes_Mateus.png"
 				expire = "1.1.1"
 				ideology = natpop_colonial_govt_subtype
@@ -1241,9 +1241,9 @@ country_event = { #Elections Herminestadt
 		}
 		if = {
 			limit = { 
-				NOT = { has_country_leader = { name = "Léo Pétillon" ruling_only = yes } }
-			}
-			set_country_flag = LEADER_GUI_VISIBLE
+				NOT = { has_country_leader = { name = "Леон Петийон" ruling_only = yes } }
+		}
+		set_country_flag = LEADER_GUI_VISIBLE
 		}
 	}
 	
@@ -1266,9 +1266,9 @@ country_event = { #Elections Herminestadt
 		add_ideas = COG_Jean_Paul_Colin_sec_ade
 		if = {
 			limit = { 
-				NOT = { has_country_leader = { name = "Pierre Ryckmans" ruling_only = yes } }
+				NOT = { has_country_leader = { name = "Пьер Рикманс" ruling_only = yes } }
 			}
-			set_country_flag = LEADER_GUI_VISIBLE
+		set_country_flag = LEADER_GUI_VISIBLE
 		}
 	}
 	option = { #UMHK
@@ -1281,7 +1281,7 @@ country_event = { #Elections Herminestadt
 		add_ideas = COG_Henri_De_Pauw_for_sli
 		add_ideas = COG_Jules_Cousin_eco_mli
 		add_ideas = COG_Emile_De_Wildeman_sec_sli
-	
+		
 
 		set_politics = {
 			ruling_party = market_liberal
@@ -1303,7 +1303,7 @@ country_event = { #Elections Herminestadt
 		add_ideas = COG_Henri_De_Pauw_for_sli
 		add_ideas = COG_Albert_Gillain_eco_sli
 		add_ideas = COG_Emile_De_Wildeman_sec_sli
-	
+
 
 		set_politics = {
 			ruling_party = social_liberal
@@ -3388,7 +3388,7 @@ country_event = { #we actually won
 	trigger = {
 		tag = COG
 		has_country_leader = {
-			name = "Albert I"
+			name = "Альберт I"
 		}
 		owns_state = 34
 		owns_state = 6
@@ -3575,7 +3575,7 @@ country_event = { #african hre
 	fire_only_once = yes
 	
 	is_triggered_only = yes
-  
+ 
 	option = { #yes
 		name = congofla.45.a
 		add_political_power = 100
@@ -3709,7 +3709,7 @@ country_event = { #status
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Daniel Kanza"
+				name = "Даниэль Канза"
 				desc = "POLITICS_KANZA_DESC"
 				picture = "gfx/leaders/COG/Portrait_Congo_Dani_Nkanza.png"
 				expire = "1.1.1"

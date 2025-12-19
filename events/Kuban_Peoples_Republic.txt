@@ -262,7 +262,7 @@ unit_leader_event = { #Bukretov Dead
 			add_stability = -0.05
 			effect_tooltip = { kill_ideology_leader = social_conservative }
 			create_country_leader = {
-				name = "Alexander Filimonov"
+				name = "Александр Филимонов"
 				desc = "POLITICS_ALEXANDER_FILIMONOV_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Alexander_Filimonov.png"
 				expire = "1.1.1"
@@ -329,13 +329,13 @@ country_event = { #Election of the Ataman
 			limit = {
 				NOT = {
 					has_country_leader = {
-						name = "Vasil Ivanis"
+						name = "Василий Иванис"
 						ruling_only = yes
 					}
 				}
 			}
 			create_country_leader = {
-				name = "Vasil Ivanis"
+				name = "Василий Иванис"
 				desc = "POLITICS_VASIL_IVANIS_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Vasil_Ivanis.png"
 				expire = "1.1.1"
@@ -395,7 +395,7 @@ country_event = { #Election of the Ataman
 		set_country_flag = KUB_new_ataman_elected
 		hidden_effect = {
 			create_country_leader = {
-				name = "Alexander Filimonov"
+				name = "Александр Филимонов"
 				desc = "POLITICS_ALEXANDER_FILIMONOV_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Alexander_Filimonov.png"
 				expire = "1.1.1"
@@ -441,7 +441,7 @@ country_event = { #Election of the Ataman
 			}
 			add_soclib_to_coalition = yes
 			create_country_leader = {
-				name = "Luka Bych"
+				name = "Лука Бич"
 				desc = "POLITICS_LUKA_BYCH_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Luka_Bych.png"
 				expire = "1.1.1"
@@ -468,7 +468,7 @@ country_event = { #Election of the Ataman
 			}			
 			add_socdem_to_coalition = yes
 			create_country_leader = {
-				name = "Nikolai Ryabovol"
+				name = "Николай Рябовол"
 				desc = "POLITICS_NIKOLAI_RYABOVOL_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Nikolai_Ryabovol.png"
 				expire = "1.1.1"
@@ -1503,7 +1503,7 @@ country_event = {
 			long_name = KUB_social_liberal_party_long
 		}
 		create_country_leader = {
-			name = "Vasil Ivanis"
+			name = "Василий Иванис"
 			desc = "POLITICS_VASIL_IVANIS_DESC"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Vasil_Ivanis.png"
 			expire = "1.1.1"
@@ -1754,7 +1754,7 @@ country_event = { #Initial Events
 		effect_tooltip = { retire_country_leader = yes }
 		decrease_kuban_collapse = yes
 		create_country_leader = {
-			name = "Kraievaya Rada"
+			name = "Краевая Рада"
 			picture = "gfx/leaders/KUB/Portrait_KUB_council.png"
 			expire = "1.1.1"
 			ideology = soclib_cossack_democracy_subtype
@@ -1950,7 +1950,7 @@ country_event = { #Civil War
 		}
 		235 = { set_demilitarized_zone = yes }
 		create_country_leader = {
-			name = "Andrey Shkuro"
+			name = "Андрей Шкуро"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Andrei_Shkuro.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2072,7 +2072,7 @@ country_event = { #Civil War
 		name = kub.1013.a
 		effect_tooltip = { kill_country_leader = yes }
 		create_country_leader = {
-			name = "Andrey Shkuro "
+			name = "Андрей Шкуро "
 			picture = "gfx/leaders/KUB/Portrait_KUB_Andrei_Shkuro.png"
 			expire = "1.1.1"
 			ideology = militarism_subtype
@@ -2113,9 +2113,9 @@ country_event = { #Civil War
 				days = 30
 				random_days = 30
 			}
-			KUB_remove_ukrainian_sentiments = yes			
+			KUB_remove_ukrainian_sentiments = yes
 			if = {
-				limit = { 
+				limit = {
 					DKB = { 
 						has_socialist_government = no
 						NOT = { has_country_flag = DKB_cossacks_go_bye_bye }
@@ -2155,7 +2155,7 @@ country_event = { #Civil War
 			modifier = {
 				factor = 2.5
 				has_country_leader = {
-					name = "Pyotr Krasnov"
+					name = "Пётр Краснов"
 					ruling_only = yes
 				}
 			}
@@ -2176,7 +2176,7 @@ country_event = { #Civil War
 			modifier = {
 				factor = 0.5
 				has_country_leader = {
-					name = "Pyotr Krasnov"
+					name = "Пётр Краснов"
 					ruling_only = yes
 				}
 			}
@@ -2222,10 +2222,10 @@ country_event = { #Civil War
 				popularity = 0
 			}
 			else = {
-				set_political_party = {
-					ideology = authoritarian_democrat
-					popularity = 0
-				}
+		set_political_party = {
+			ideology = authoritarian_democrat
+			popularity = 0
+		}
 			}
 		}		
 		set_global_flag = KUB_lin_cossack_host_restored
@@ -2267,14 +2267,14 @@ country_event = { #Civil War
 				DKB = { 
 					has_socialist_government = no
 					NOT = { has_country_flag = DKB_cossacks_go_bye_bye }
-				}
 			}
-			every_unit_leader = {
+		}
+		every_unit_leader = {
 				limit = { has_trait = RUS_lineytsy_cossack }
-				set_nationality = DKB
-			}
-			hidden_effect = {
-				DKB = { country_event = kub.1017 }
+			set_nationality = DKB
+		}
+		hidden_effect = {
+			DKB = { country_event = kub.1017 }
 			}
 		}
 		else = {
@@ -2306,7 +2306,7 @@ country_event = { #Civil War
 		ai_chance = {
 			base = 100
 		}
-		add_stability = -0.05
+		add_stability = -0.05		
 		set_global_flag = KUB_lin_cossack_host_restored
 	}
 	option = {
@@ -2322,9 +2322,9 @@ country_event = { #Civil War
 			}
 		}
 		hidden_effect = {
-			every_unit_leader = {
+		every_unit_leader = {
 				limit = { has_trait = RUS_lineytsy_cossack }
-				set_nationality = XXA
+			set_nationality = XXA
 			}
 		}
 	}
@@ -2343,9 +2343,9 @@ country_event = { #Civil War
 			235 = { set_demilitarized_zone = no } 
 		}
 		effect_tooltip = {
-			every_unit_leader = {
+		every_unit_leader = {
 				limit = { has_trait = RUS_lineytsy_cossack }
-				retire = yes
+			retire = yes
 			}
 		}
 		hidden_effect = {
@@ -2713,20 +2713,20 @@ country_event = { #Initial Events
 			ruling_party = radical_socialist
 		}
 		create_country_leader = {
-			name = "Aleksey Avtonomov"
+			name = "Алексей Автономов"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Aleksey_Avtonomov.png"
 			expire = "1.1.1"
 			ideology = red_cossack_dictatorship_subtype
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Aleksey Avtonomov"
+				name = "Алексей Автономов"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Aleksey_Avtonomov.png"
 				expire = "1.1.1"
 				ideology = tot_red_cossack_dictatorship_subtype
 			}
 			create_country_leader = {
-				name = "Sobraniye Aktsionerov Kubsoyuza"
+				name = "Собрание Акционеров Кубсоюза"
 				picture = "gfx/leaders/KUB/Portrait_KUB_kubsoyuz.png"
 				expire = "1.1.1"
 				ideology = socdem_agrarianism_subtype
@@ -2745,7 +2745,7 @@ country_event = { #Initial Events
 			add_popularity = { ideology = radical_socialist popularity = KUB_moderate_to_extremist_value }
 		}
 		division_template = {
-			name = "Krasnaya Gvardiya"			# Rifle Division
+			name = "Красная Гвардия"			# Стрелковая дивизия
 			division_names_group = SOV_INF_01
 			regiments = {
 				militia = { x = 0 y = 0 }
@@ -2759,12 +2759,12 @@ country_event = { #Initial Events
 		every_country_division = {
 			limit = { division_has_majority_template = irregular_infantry }
 			change_division_template = {
-				division_template = "Krasnaya Gvardiya" 
+				division_template = "Красная Гвардия" 
 			}
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Peshaya Diviziya"
+				division_template = "Казачья пехотная дивизия"
 				disband = yes
 			}
 		}
@@ -2791,8 +2791,8 @@ country_event = { #Initial Events
 			remove_unit_leader = yes
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Chrezvychayniy Shtab Oborony"
-			desc = "Emergency Defence Headquarters"
+			name = "Чрезвычайный Штаб Обороны"
+			desc = "Штаб защиты от чрезвычайных ситуаций"
 			portrait_path = "gfx/leaders/KUB/Portrait_KUB_Soviet_Army.png"
 			traits = { incorporeal }
 			skill = 1
@@ -2803,7 +2803,7 @@ country_event = { #Initial Events
 			id = 623
 		}
 		division_template = {
-			name = "Krasnaya Gvardiya"			# Rifle Division
+			name = "Красная Гвардия"			# Стрелковая дивизия
 			division_names_group = SOV_INF_01
 			regiments = {
 				militia = { x = 0 y = 0 }
@@ -2815,7 +2815,7 @@ country_event = { #Initial Events
 			}
 		}
 		division_template = {
-			name = "Krasnaya Kavaleriya"	# Kazatskaya Diviziya
+			name = "Красная Кавалерия"	# Казачья дивизия
 			division_names_group = SOV_CAV_01
 			regiments = {
 				cavalry = { x = 0 y = 0 }
@@ -2827,22 +2827,22 @@ country_event = { #Initial Events
 		every_country_division = {
 			limit = { division_has_majority_template = irregular_infantry }
 			change_division_template = {
-				division_template = "Krasnaya Gvardiya" 
+				division_template = "Красная Гвардия" 
 			}
 		}
 		every_country_division = {
 			limit = { division_has_majority_template = irregular_cavalry }
 			change_division_template = {
-				division_template = "Krasnaya Kavaleriya" 
+				division_template = "Красная Кавалерия" 
 			}
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Peshaya Diviziya"
+				division_template = "Казачья пехотная дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 		}
@@ -3172,11 +3172,11 @@ country_event = { #Initial Events
 		NOT = { has_completed_focus = KUB_Deal_With_Pokrovsky_Radicals }
 		OR = {
 			has_country_leader = {
-				name = "Nikolai Ryabovol"
+				name = "Николай Рябовол"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Mykola Riabovil"
+				name = "Микола Рябовіл"
 				ruling_only = yes
 			}
 		}
@@ -3217,7 +3217,7 @@ country_event = { #Initial Events
 			}
 		}
 		create_country_leader = {
-			name = "Kraievaya Rada"
+			name = "Краевая Рада"
 			picture = "gfx/leaders/KUB/Portrait_KUB_council.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
@@ -3315,7 +3315,7 @@ country_event = { #Initial Events
 			NOT = { has_completed_focus = KUB_Formally_Give_Up_Power }
 		}
 		create_country_leader = {
-			name = "Vasil Ryabokon"
+			name = "Василий Рябоконь"
 			picture = "gfx/leaders/KUB/Portrait_KUB_Vasily_Ryabokon.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
@@ -3357,7 +3357,7 @@ country_event = { #Initial Events
 			add_soclib_to_coalition = yes
 			add_pataut_to_coalition = yes
 			create_country_leader = {
-				name = "Luka Bych"
+				name = "Лука Бич"
 				desc = "POLITICS_LUKA_BYCH_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Luka_Bych.png"
 				expire = "1.1.1"
@@ -3385,7 +3385,7 @@ country_event = { #Initial Events
 			add_pataut_to_coalition = yes
 			add_socdem_to_coalition = yes
 			create_country_leader = {
-				name = "Nikolai Ryabovol"
+				name = "Николай Рябовол"
 				desc = "POLITICS_NIKOLAI_RYABOVOL_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Nikolai_Ryabovol.png"
 				expire = "1.1.1"
@@ -3425,14 +3425,14 @@ country_event = { #Initial Events
 			add_popularity = { ideology = social_liberal popularity = KUB_moderate_to_extremist_value }
 			
 			create_country_leader = {
-				name = "Luka Bych"
+				name = "Лука Бич"
 				desc = "POLITICS_LUKA_BYCH_DESC"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Luka_Bych.png"
 				expire = "1.1.1"
 				ideology = centrist_subtype
 			}
 			create_country_leader = {
-				name = "Kraievaya Rada"
+				name = "Краевая Рада"
 				picture = "gfx/leaders/KUB/Portrait_KUB_council.png"
 				expire = "1.1.1"
 				ideology = socdem_democratic_socialism_subtype
@@ -3618,7 +3618,7 @@ country_event = { #
 		}
 		if = {
 			limit = { has_dynamic_modifier = { modifier = UKR_cooperative_movement } }
-			custom_effect_tooltip = "Our structure of cooperatives will change"
+			custom_effect_tooltip = "Структура кооперативов изменится"
 			KUB_merge_with_ukrainian_cooperatives = yes
 		}
 		else = {
@@ -4341,9 +4341,9 @@ country_event = { #Initial Events
 		name = kub.1071.a
 		trigger = {
 			OR = {
-				AND = {
-					NOT = { has_global_flag = GER_withdrew_from_caucasus }
-					is_ally_with = GER
+			AND = {
+				NOT = { has_global_flag = GER_withdrew_from_caucasus }
+				is_ally_with = GER
 				}
 				is_ai = no
 			}
@@ -4399,7 +4399,7 @@ country_event = { #Initial Events
 		log = "[GetDateText]: [Root.GetName]: event kub.1073" 
 		hidden_effect = {							
 			create_country_leader = {
-				name = "Andrey Shkuro"
+				name = "Андрей Шкуро"
 				picture = "gfx/leaders/KUB/Portrait_KUB_Andrei_Shkuro.png"
 				expire = "1.1.1"
 				ideology = pataut_cossack_subtype

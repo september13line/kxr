@@ -27,19 +27,19 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 
 country_event = { id = oma.1 days = 1 } #startup event
 
@@ -71,7 +71,7 @@ country_event = { id = oma.10 days = 150 random_days = 120 } #Imam loyalists ref
 country_event = { id = oma.11 days = 240 random_days = 120 } #Tribal Raids
 
 create_country_leader = {
-	name = "Said ibn Taimur"
+	name = "Саид бен Таймур"
 	desc = "POLITICS_SAID_TAIMUR_DESC"
 	picture = "gfx/leaders/OMA/Portrait_Oman_Said_Ibn_Taimur.png"
 	expire = "1.1.1"
@@ -79,7 +79,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Said ibn Taimur"
+	name = "Саид бен Таймур"
 	desc = "POLITICS_SAID_TAIMUR_DESC"
 	picture = "gfx/leaders/OMA/Portrait_Oman_Said_Ibn_Taimur.png"
 	expire = "1.1.1"
@@ -99,7 +99,7 @@ add_ideas = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Said ibn Taimur "
+	name = "Саид бен Таймур "
 	portrait_path = "gfx/leaders/OMA/Portrait_Oman_Said_Ibn_Taimur.png"
 	traits = {
 		politically_connected
@@ -114,7 +114,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Suleiman bin Himayer Al-Ryami"
+	name = "Сулейман бин Химайер Аль Райами"
 	portrait_path = "gfx/leaders/OMA/Portrait_Oman_Suleiman_Ryami.png"
 	traits = {
 		inflexible_strategist
@@ -129,7 +129,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Talib bin Ali Al-Hinai"
+	name = "Талиб бин Али Аль Хинай"
 	portrait_path = "gfx/leaders/OMA/Portrait_Oman_Talib_Hina.png"
 	traits = {
 		harsh_leader

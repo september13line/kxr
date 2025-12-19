@@ -55,30 +55,30 @@ if = {
 
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_heavy = 1
-	coastal_defense_ships = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		coastal_defense_ships = 1
+		
+        basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+        basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
+		### Transport ###
+		mtg_transport = 1
 }
 
 set_convoys = 40
@@ -125,56 +125,56 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Aris Velouchiotis"
+	name = "Арис Велухиотис"
 	desc = "POLITICS_ARIS_VELOUCHIOTIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Athanasios_Klaras.png"
 	expire = "1.1.1"
 	ideology = national_communism_subtype
 }
 create_country_leader = {
-	name = "Nikos Zachariadis"
+	name = "Никос Захариадис"
 	desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Nikos_Zachariadis_kr.png"
 	expire = "1.1.1"
 	ideology = centralized_syndicalism_subtype
 }
 create_country_leader = {
-	name = "Kostas Gavriilides"
+	name = "Костас Гавриилидис"
 	desc = "POLITICS_KOSTAS_GAVRIILIDES_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Kostas_Gavriilides.png"
 	expire = "1.1.1"
 	ideology = agrarian_socialism_subtype
 }
 create_country_leader = {
-	name = "Alexandros Papanastasiou"
+	name = "Александрос Папанастасиу"
 	desc = "POLITICS_ALEXANDROS_PAPANASTASIOU_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Papanastasiou.png"
 	expire = "1.1.1"
 	ideology = socdem_radical_progressivism_subtype
 }
 create_country_leader = {
-	name = "Geórgios Papandreou"
+	name = "Георгиос Папандреу"
 	desc = "POLITICS_GEORGIOS_PAPANDREOU_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Georgios_Papandreou.png"
 	expire = "1.1.1"
 	ideology = venizelism_subtype
 }
 create_country_leader = {
-	name = "Themistoklis Sofoulis"
+	name = "Темистоклис Софулис"
 	desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Themistoklis_Sofoulis_KX.png"
 	expire = "1.1.1"
 	ideology = marlib_venizelism_subtype
 }
 create_country_leader = {
-	name = "Panagis Tsaldaris"
+	name = "Цалдарис Панагис"
 	desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Pangalis_Tsaldaris.png"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 }
 create_country_leader = {
-	name = "Georgios Kondylis"
+	name = "Георгиос Кондилис"
 	desc = "POLITICS_KONDYLIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Georgios_Kondylis.png"
 	expire = "1.1.1"
@@ -183,14 +183,14 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ioannis Metaxas"
+	name = "Иоаннис Метаксас"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Ioannis_Metaxas_KR.png"
 	expire = "1.1.1"
 	ideology = metaxism_subtype
 }
 create_country_leader = {
-	name = "Georgios Kosmidis"
+	name = "Георгиос Космидис"
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/GRE/Portrait_GRE_Georgios_Kosmidis_KX.png"
 	expire = "1.1.1"
@@ -199,7 +199,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = { #Auto-Generated
-	name = "Alexandros Papagos"
+	name = "Александрос Папагос"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Papagos_kr.png"
 	traits = {
 		cavalry_officer
@@ -214,7 +214,7 @@ create_field_marshal = { #Auto-Generated
 	logistics_skill = 3
 }
 create_field_marshal = { #Auto-Generated
-	name = "Georgios Kondylis "
+	name = "Георгиос Кондилис "
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Georgios_Kondylis.png"
 	traits = {
 		politically_connected
@@ -231,7 +231,7 @@ create_field_marshal = { #Auto-Generated
 ### Corps Commanders ###
 
 create_corps_commander = { 
-	name = "Napoleon Zervas"
+	name = "Наполеон Зервас"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Napoleon_Zervas_kr.png"
 	traits = {
 		harsh_leader
@@ -246,7 +246,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = { 
-	name = "Manolis Mantakas"
+	name = "Эммануил Мандакас"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Manolis_Mantakas.png"
 	traits = {
 		infantry_officer
@@ -259,7 +259,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = { 
-	name = "Konstantinos Bakopoulos"
+	name = "Константинос Бакопулос"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_Bakopoulos.png"
 	traits = {
 		trait_engineer
@@ -272,7 +272,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = { 
-	name = "Georgios Grivas"
+	name = "Георгиос Гривас"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Georgios_Grivas.png"
 	traits = {
 		trickster
@@ -285,7 +285,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Dimitrios Psarros"
+	name = "Димитриос Псаррос"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Dimitrios_Psarros_kr.png"
 	traits = {
 		artillery_officer
@@ -299,7 +299,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Vasileios Vrachnos"
+	name = "Василиос Врахнос"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Vasileios_Vrachnos.png"
 	traits = {
 		career_officer
@@ -313,7 +313,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Georgios Tsolakoglou"
+	name = "Георгиос Цолакоглу"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Georgios_Tsolakoglou.png"
 	traits = {
 		career_officer
@@ -326,7 +326,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Konstantinos Davakis"
+	name = "Константинос Давакис"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_Davakis.png"
 	traits = {
 		skilled_staffer
@@ -343,7 +343,7 @@ create_corps_commander = {
 ### Admirals ###
 
 create_navy_leader = { 
-	name = "Alexandros Sakellariou"
+	name = "Александрос Сакеллариу"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Sakellariou.png"
 	traits = {
 		old_guard_navy
@@ -357,7 +357,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = { 
-	name = "Petros Voulgaris"
+	name = "Петрос Вулгарис"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Petros_Voulgaris.png"
 	traits = { }
 	skill = 2
@@ -368,7 +368,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ioannis Toumbas"
+	name = "Иоаннис Тумбас"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Ioannis_Toumbas.png"
 	traits = {
 		seawolf
@@ -381,7 +381,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = { 
-	name = "Antonis Mezeviris"
+	name = "Антонис Мезевирис"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Antonis_Mezeviris.png"
 	traits = {
 		spotter
@@ -394,7 +394,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = { 
-	name = "Stylianos Lykoudis"
+	name = "Стилианос Ликудис"
 	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Stylianos_Lykoudis.png"
 	traits = {
 		old_guard_navy

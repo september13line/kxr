@@ -6,7 +6,7 @@ setup_backward_industry = {
 remove_backward_industry = {
 		remove_dynamic_modifier = { modifier = RUS_backward_industry_modifier }
 		add_dynamic_modifier = { modifier = RUS_industrialized_nation_modifier }		
-}
+	}
 setup_unfinished_land_reform = {
 	add_ideas = rus_unfinished_land_reform
 	set_variable = { RUS_NEP_global_building_slots_factor = 0.1 }
@@ -21,7 +21,7 @@ setup_unfinished_land_reform = {
 destroy_unfinished_land_reform = {
 	if = {
 		limit = { has_idea = rus_unfinished_land_reform }
-		remove_ideas = rus_unfinished_land_reform
+	remove_ideas = rus_unfinished_land_reform
 	}
 	set_global_flag = RUS_land_reform_finished
 }
@@ -50,7 +50,7 @@ recalculate_monthly_industrialisation_rate = {
 		add_to_variable = { ROOT.RUS_backward_industry_production_speed_buildings = RUS_backward_industry_industrialisation_rate }
 		add_to_variable = { ROOT.RUS_backward_industry_research_speed = RUS_backward_industry_industrialisation_rate }
 		add_to_variable = { ROOT.RUS_backward_industry_political_power_gain = RUS_backward_industry_industrialisation_rate }
-}
+	}
 		force_update_dynamic_modifier = yes
 }
 recalculate_backward_industry_debuff = {
@@ -126,9 +126,9 @@ RUS_can_into_cossack_hosts = {
 		hidden_effect = { set_technology = { cossack_corps_tech = 1 popup = no } }
 		custom_effect_tooltip = RUS_cossack_division_tt
 		division_template = {
-			name = "Kazachya Diviziya"	# Cossack Division
+			name = "Казачья дивизия"	# Cossack Division
 			division_names_group = COS_CAV_01
-			regiments = {
+						regiments = {
 				irregular_cavalry = { x = 0 y = 0 }
 				irregular_cavalry = { x = 0 y = 1 }
 				irregular_cavalry = { x = 0 y = 2 }
@@ -277,7 +277,7 @@ RUS_recheck_president_subideology = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Felix Yusupov"
+					name = "Феликс Юсупов"
 					ruling_only = yes
 				}
 			}
@@ -291,7 +291,7 @@ RUS_recheck_president_subideology = {
 		else_if = {
 			limit = {
 				has_country_leader = {
-					name = "Pyotr Wrangel"
+					name = "Пётр Врангель"
 					ruling_only = yes
 				}
 			}
@@ -366,49 +366,49 @@ RUS_recheck_president_subideology = {
 	
 RUS_setup_president_kamkov = {
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = bukharinist_subtype 
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = anarcho_syndicalist_subtype
 	}	
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Boris Kamkov"
+		name = "Борис Камков"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Kamkov.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -417,49 +417,49 @@ RUS_setup_president_kamkov = {
 }
 RUS_setup_president_shteinberg = {
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = bukharinist_subtype 
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = anarcho_syndicalist_subtype
 	}	
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Isaak Shteinberg"
+		name = "Исаак Штейнберг"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Isaak_Steinberg.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -472,7 +472,7 @@ RUS_setup_president_lozovskiy = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -480,42 +480,42 @@ RUS_setup_president_lozovskiy = {
 		}
 	}
 	create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { trade_union_boss }
 		}
 		create_country_leader = {
-			name = "Solomon Lozovsky"
+			name = "Соломон Лозовский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Solomon_Lozovsky.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -529,7 +529,7 @@ RUS_setup_president_odinets = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Dmitry Odinets"
+			name = "Дмитрий Одинец"
 			desc = "POLITICS_ODINETS_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 			expire = "1.1.1"
@@ -538,7 +538,7 @@ RUS_setup_president_odinets = {
 		}
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -546,7 +546,7 @@ RUS_setup_president_odinets = {
 		traits = { RUS_trudovik_intelligent }
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -554,7 +554,7 @@ RUS_setup_president_odinets = {
 		traits = { RUS_trudovik_intelligent }
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -562,7 +562,7 @@ RUS_setup_president_odinets = {
 		traits = { RUS_trudovik_intelligent }
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -570,7 +570,7 @@ RUS_setup_president_odinets = {
 		traits = { RUS_trudovik_intelligent }
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -578,7 +578,7 @@ RUS_setup_president_odinets = {
 		traits = { RUS_trudovik_intelligent }
 	}
 	create_country_leader = {
-		name = "Dmitry Odinets"
+		name = "Дмитрий Одинец"
 		desc = "POLITICS_ODINETS_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Odinets.png"
 		expire = "1.1.1"
@@ -593,7 +593,7 @@ RUS_setup_president_arkhangelsky = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Aleksey Arkhangelsky"
+			name = "Алексей Архангельский"
 			desc = "POLITICS_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 			expire = "1.1.1"
@@ -601,42 +601,42 @@ RUS_setup_president_arkhangelsky = {
 		}
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Aleksey Arkhangelsky"
+		name = "Алексей Архангельский"
 		desc = "POLITICS_ARKHANGELSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Arkhangelsky.png"
 		expire = "1.1.1"
@@ -650,7 +650,7 @@ RUS_setup_president_baydalakov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Viktor Baydalakov"
+			name = "Виктор Байдалаков"
 			desc = "POLITICS_BAYDALAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 			expire = "1.1.1"
@@ -658,42 +658,42 @@ RUS_setup_president_baydalakov = {
 		}
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Viktor Baydalakov"
+		name = "Виктор Байдалаков"
 		desc = "POLITICS_BAYDALAKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 		expire = "1.1.1"
@@ -707,7 +707,7 @@ RUS_setup_president_vergun = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Kirill Vergun"
+			name = "Кирилл Вергун"
 			desc = "POLITICS_VERGUN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 			expire = "1.1.1"
@@ -715,42 +715,42 @@ RUS_setup_president_vergun = {
 		}
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Kirill Vergun"
+		name = "Кирилл Вергун"
 		desc = "POLITICS_VERGUN_DESC" 
 		picture = "gfx/leaders/RUS/Portrait_RUS_Kirill_Vergun.png"
 		expire = "1.1.1"
@@ -764,7 +764,7 @@ RUS_setup_president_trushnovich = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Aleksandr Trushnovich"
+			name = "Александр Трушнович"
 			desc = "POLITICS_TRUSHNOVICH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 			expire = "1.1.1"
@@ -772,42 +772,42 @@ RUS_setup_president_trushnovich = {
 		}
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Trushnovich"
+		name = "Александр Трушнович"
 		desc = "POLITICS_TRUSHNOVICH_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Trushnovich.png"
 		expire = "1.1.1"
@@ -821,50 +821,50 @@ RUS_setup_president_pryanishnikov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Boris Pryanishnikov"
+			name = "Борис Прянишников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 		}
 		create_country_leader = {
-			name = "Boris Pryanishnikov"
+			name = "Борис Прянишников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 			expire = "1.1.1"
 			ideology = anarcho_syndicalist_subtype
 		}
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Boris Pryanishnikov"
+		name = "Борис Прянишников"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Pryanishnikov.png"
 		expire = "1.1.1"
 		ideology = solidarism_subtype
@@ -877,7 +877,7 @@ RUS_setup_president_georgievsky = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Mikhail Georgievsky"
+			name = "Михаил Георгиевский"
 			desc = "POLITICS_GEORGIEVSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 			expire = "1.1.1"
@@ -885,42 +885,42 @@ RUS_setup_president_georgievsky = {
 		}
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Mikhail Georgievsky"
+		name = "Михаил Георгиевский"
 		desc = "POLITICS_GEORGIEVSKY_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Georgievskiy.png"
 		expire = "1.1.1"
@@ -934,7 +934,7 @@ RUS_setup_president_gershtein = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Lev Gershtein"
+			name = "Лев Герштейн"
 			desc = "POLITICS_GERSHTEIN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 			expire = "1.1.1"
@@ -943,7 +943,7 @@ RUS_setup_president_gershtein = {
 		}
 	}
 	create_country_leader = {
-		name = "Lev Gershtein"
+		name = "Лев Герштейн"
 		desc = "POLITICS_GERSHTEIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 		expire = "1.1.1"
@@ -951,7 +951,7 @@ RUS_setup_president_gershtein = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Lev Gershtein"
+		name = "Лев Герштейн"
 		desc = "POLITICS_GERSHTEIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 		expire = "1.1.1"
@@ -959,7 +959,7 @@ RUS_setup_president_gershtein = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Lev Gershtein"
+		name = "Лев Герштейн"
 		desc = "POLITICS_GERSHTEIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 		expire = "1.1.1"
@@ -967,7 +967,7 @@ RUS_setup_president_gershtein = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Lev Gershtein"
+		name = "Лев Герштейн"
 		desc = "POLITICS_GERSHTEIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 		expire = "1.1.1"
@@ -975,7 +975,7 @@ RUS_setup_president_gershtein = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Lev Gershtein"
+		name = "Лев Герштейн"
 		desc = "POLITICS_GERSHTEIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 		expire = "1.1.1"
@@ -983,7 +983,7 @@ RUS_setup_president_gershtein = {
 		traits = { }
 	}
 	create_country_leader = {
-			name = "Lev Gershtein"
+			name = "Лев Герштейн"
 			desc = "POLITICS_GERSHTEIN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Lev_Gershtein.png"
 			expire = "1.1.1"
@@ -998,7 +998,7 @@ RUS_setup_president_teslenko = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Nikolay Teslenko"
+			name = "Николай Тесленко"
 			desc = "POLITICS_TESLENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 			expire = "1.1.1"
@@ -1007,7 +1007,7 @@ RUS_setup_president_teslenko = {
 		}
 	}
 	create_country_leader = {
-		name = "Nikolay Teslenko"
+		name = "Николай Тесленко"
 		desc = "POLITICS_TESLENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 		expire = "1.1.1"
@@ -1015,7 +1015,7 @@ RUS_setup_president_teslenko = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Nikolay Teslenko"
+		name = "Николай Тесленко"
 		desc = "POLITICS_TESLENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 		expire = "1.1.1"
@@ -1023,7 +1023,7 @@ RUS_setup_president_teslenko = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Nikolay Teslenko"
+		name = "Николай Тесленко"
 		desc = "POLITICS_TESLENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 		expire = "1.1.1"
@@ -1031,7 +1031,7 @@ RUS_setup_president_teslenko = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Nikolay Teslenko"
+		name = "Николай Тесленко"
 		desc = "POLITICS_TESLENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 		expire = "1.1.1"
@@ -1039,7 +1039,7 @@ RUS_setup_president_teslenko = {
 		traits = { }
 	}
 	create_country_leader = {
-		name = "Nikolay Teslenko"
+		name = "Николай Тесленко"
 		desc = "POLITICS_TESLENKO_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 		expire = "1.1.1"
@@ -1047,7 +1047,7 @@ RUS_setup_president_teslenko = {
 		traits = { }
 	}
 	create_country_leader = {
-			name = "Nikolay Teslenko"
+			name = "Николай Тесленко"
 			desc = "POLITICS_TESLENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Teslenko.png"
 			expire = "1.1.1"
@@ -1059,49 +1059,49 @@ RUS_setup_president_teslenko = {
 
 RUS_setup_president_shlyapnikov = {
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { trade_union_boss }
 		}
 	create_country_leader = {
-			name = "Aleksandr Shlyapnikov"
+			name = "Александр Шляпников"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Shliapnikov.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -1111,50 +1111,50 @@ RUS_setup_president_shlyapnikov = {
 	RUS_recheck_president_subideology = yes
 }
 RUS_setup_president_bukharin = {
-	create_country_leader = {
-			name = "Nikolay Bukharin"
+create_country_leader = {
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { RUS_ex_bolshevik  }
 		}
 	create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -1168,44 +1168,44 @@ RUS_setup_president_gvozdev = {
 				has_country_flag = bolsheviks_allowed
 			}
 			create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 		}
 	}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype 
 		}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-			name = "Kuzma Gvozdev"
+			name = "Кузьма Гвоздев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kuzma_Gvozdev.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -1219,7 +1219,7 @@ RUS_setup_president_tsereteli = {
 				has_country_flag = bolsheviks_allowed
 			}
 			create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1228,7 +1228,7 @@ RUS_setup_president_tsereteli = {
 		}
 	}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1236,7 +1236,7 @@ RUS_setup_president_tsereteli = {
 			traits = { RUS_bleeding_heart_socialist }
 		}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1244,7 +1244,7 @@ RUS_setup_president_tsereteli = {
 			traits = { RUS_bleeding_heart_socialist }
 		}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1252,7 +1252,7 @@ RUS_setup_president_tsereteli = {
 			traits = { RUS_bleeding_heart_socialist }
 		}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1260,7 +1260,7 @@ RUS_setup_president_tsereteli = {
 			traits = { RUS_bleeding_heart_socialist }
 		}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1268,7 +1268,7 @@ RUS_setup_president_tsereteli = {
 			traits = { RUS_bleeding_heart_socialist }
 		}
 	create_country_leader = {
-			name = "Irakly Tsereteli"
+			name = "Ираклий Церетели"
 			desc = "POLITICS_IRAKLIY_TSERETELI_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Irakliy_Tsereteli.png"
 			expire = "1.1.1"
@@ -1285,7 +1285,7 @@ RUS_setup_president_potresov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Aleksandr Potresov"
+			name = "Александр Потресов"
 			desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 			expire = "1.1.1"
@@ -1293,42 +1293,42 @@ RUS_setup_president_potresov = {
 		}
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Potresov"
+		name = "Александр Потресов"
 		desc = "POLITICS_ALEKSANDR_POTRESOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Potresov.png"
 		expire = "1.1.1"
@@ -1344,7 +1344,7 @@ RUS_setup_president_chernov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1353,7 +1353,7 @@ RUS_setup_president_chernov = {
 		}
 	}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1361,7 +1361,7 @@ RUS_setup_president_chernov = {
 			traits = { RUS_savvy_politician  }
 		}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1369,7 +1369,7 @@ RUS_setup_president_chernov = {
 			traits = { RUS_savvy_politician  }
 		}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1377,7 +1377,7 @@ RUS_setup_president_chernov = {
 			traits = { RUS_savvy_politician  }
 		}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1385,7 +1385,7 @@ RUS_setup_president_chernov = {
 			traits = { RUS_savvy_politician  }
 		}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1393,7 +1393,7 @@ RUS_setup_president_chernov = {
 			traits = { RUS_savvy_politician  }
 		}
 	create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			desc = "POLITICS_VIKTOR_CHERNOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
@@ -1408,7 +1408,7 @@ RUS_setup_president_vasiliy_arkhangelsky = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
@@ -1416,42 +1416,42 @@ RUS_setup_president_vasiliy_arkhangelsky = {
 		}
 	}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-			name = "Vasily Arkhangelsky"
+			name = "Василий Архангельский"
 			desc = "POLITICS_VASILIY_ARKHANGELSKY_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Arkhangelsky.png"
 			expire = "1.1.1"
@@ -1465,7 +1465,7 @@ RUS_setup_president_gendelman = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
@@ -1473,42 +1473,42 @@ RUS_setup_president_gendelman = {
 		}
 	}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Gendelman"
+			name = "Михаил Гендельман"
 			desc = "POLITICS_MIKHAIL_GENDELMAN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Gendelman.png"
 			expire = "1.1.1"
@@ -1522,7 +1522,7 @@ RUS_setup_president_likhach = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
@@ -1530,42 +1530,42 @@ RUS_setup_president_likhach = {
 		}
 	}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-			name = "Mikhail Likhach"
+			name = "Михаил Лихач"
 			desc = "POLITICS_MIKHAIL_LIKHACH_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Likhach.png"
 			expire = "1.1.1"
@@ -1579,7 +1579,7 @@ RUS_setup_president_ivanov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
@@ -1587,42 +1587,42 @@ RUS_setup_president_ivanov = {
 		}
 	}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-			name = "Nikolay Ivanov"
+			name = "Николай Иванов"
 			desc = "POLITICS_NIKOLAY_IVANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Ivanov.png"
 			expire = "1.1.1"
@@ -1636,44 +1636,44 @@ RUS_setup_president_avksentiev = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
-		}
+			}
 	}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			}
 	create_country_leader = {
-			name = "Nikolay Avksentiev"
+			name = "Николай Авксентьев"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Avksentiev.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -1686,44 +1686,44 @@ RUS_setup_president_sorokin = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Pitirim Sorokin"
+			name = "Питирим Сороким"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 		}
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = centrist_subtype
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Pitirim Sorokin"
+		name = "Питирим Сороким"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pitirim_Sorokin.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -1736,7 +1736,7 @@ RUS_setup_president_milyukov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1745,7 +1745,7 @@ RUS_setup_president_milyukov = {
 		}
 	}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1753,7 +1753,7 @@ RUS_setup_president_milyukov = {
 			traits = { RUS_milyukov_of_the_dardanelles  }
 		}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1761,7 +1761,7 @@ RUS_setup_president_milyukov = {
 			traits = { RUS_milyukov_of_the_dardanelles  }
 		}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1769,7 +1769,7 @@ RUS_setup_president_milyukov = {
 			traits = { RUS_milyukov_of_the_dardanelles  }
 		}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1777,7 +1777,7 @@ RUS_setup_president_milyukov = {
 			traits = { RUS_milyukov_of_the_dardanelles  }
 		}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1785,7 +1785,7 @@ RUS_setup_president_milyukov = {
 			traits = { RUS_milyukov_of_the_dardanelles  }
 		}
 	create_country_leader = {
-			name = "Pavel Milyukov"
+			name = "Павел Милюков"
 			desc = "POLITICS_PAVEL_MILYUKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
 			expire = "1.1.1"
@@ -1800,8 +1800,8 @@ RUS_setup_president_tereschenko = {
 		limit = {
 			has_country_flag = bolsheviks_allowed
 		}
-	create_country_leader = {
-			name = "Mikhail Tereschenko"
+		create_country_leader = {
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1810,7 +1810,7 @@ RUS_setup_president_tereschenko = {
 		}
 	}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1818,7 +1818,7 @@ RUS_setup_president_tereschenko = {
 			traits = { captain_of_industry  }
 		}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1826,7 +1826,7 @@ RUS_setup_president_tereschenko = {
 			traits = { captain_of_industry  }
 		}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1834,7 +1834,7 @@ RUS_setup_president_tereschenko = {
 			traits = { captain_of_industry  }
 		}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1842,7 +1842,7 @@ RUS_setup_president_tereschenko = {
 			traits = { captain_of_industry  }
 		}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1850,7 +1850,7 @@ RUS_setup_president_tereschenko = {
 			traits = { captain_of_industry  }
 		}
 	create_country_leader = {
-			name = "Mikhail Tereschenko"
+			name = "Михаил Терещенко"
 			desc = "POLITICS_MIKHAIL_TERESCHENKO_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Tereschenko.png"
 			expire = "1.1.1"
@@ -1865,7 +1865,7 @@ RUS_setup_president_maklakov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1874,7 +1874,7 @@ RUS_setup_president_maklakov = {
 		}
 	}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1882,7 +1882,7 @@ RUS_setup_president_maklakov = {
 			traits = { RUS_silent_lawyer }
 		}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1890,7 +1890,7 @@ RUS_setup_president_maklakov = {
 			traits = { RUS_silent_lawyer }
 		}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1898,7 +1898,7 @@ RUS_setup_president_maklakov = {
 			traits = { RUS_silent_lawyer }
 		}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1906,7 +1906,7 @@ RUS_setup_president_maklakov = {
 			traits = { RUS_silent_lawyer }
 		}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1914,7 +1914,7 @@ RUS_setup_president_maklakov = {
 			traits = { RUS_silent_lawyer }
 		}
 	create_country_leader = {
-			name = "Vasily Maklakov"
+			name = "Василий Маклаков"
 			desc = "POLITICS_VASILY_MAKLAKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Maklakov.png"
 			expire = "1.1.1"
@@ -1929,7 +1929,7 @@ RUS_setup_president_nerkasov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Nikolay Nekrasov"
+			name = "Николай Некрасов"
 			desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 			expire = "1.1.1"
@@ -1937,42 +1937,42 @@ RUS_setup_president_nerkasov = {
 		}
 	}
 	create_country_leader = {
-		name = "Nikolay Nekrasov"
+		name = "Николай Некрасов"
 		desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Nikolay Nekrasov"
+		name = "Николай Некрасов"
 		desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Nikolay Nekrasov"
+		name = "Николай Некрасов"
 		desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Nikolay Nekrasov"
+		name = "Николай Некрасов"
 		desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Nikolay Nekrasov"
+		name = "Николай Некрасов"
 		desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-			name = "Nikolay Nekrasov"
+			name = "Николай Некрасов"
 			desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 			expire = "1.1.1"
@@ -1986,7 +1986,7 @@ RUS_setup_president_nabokov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Vladimir Nabokov"
+			name = "Владимир Набоков"
 			desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 			expire = "1.1.1"
@@ -1994,42 +1994,42 @@ RUS_setup_president_nabokov = {
 		}
 	}
 	create_country_leader = {
-		name = "Vladimir Nabokov"
+		name = "Владимир Набоков"
 		desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir Nabokov"
+		name = "Владимир Набоков"
 		desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir Nabokov"
+		name = "Владимир Набоков"
 		desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir Nabokov"
+		name = "Владимир Набоков"
 		desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir Nabokov"
+		name = "Владимир Набоков"
 		desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-			name = "Vladimir Nabokov"
+			name = "Владимир Набоков"
 			desc = "POLITICS_VLADIMIR_NABOKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Nabokov.png"
 			expire = "1.1.1"
@@ -2043,7 +2043,7 @@ RUS_setup_president_pletnyov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Dmitry Pletnyov"
+			name = "Дмитрий Плетнёв"
 			desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 			expire = "1.1.1"
@@ -2051,42 +2051,42 @@ RUS_setup_president_pletnyov = {
 		}
 	}
 	create_country_leader = {
-		name = "Dmitry Pletnyov"
+		name = "Дмитрий Плетнёв"
 		desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Dmitry Pletnyov"
+		name = "Дмитрий Плетнёв"
 		desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Dmitry Pletnyov"
+		name = "Дмитрий Плетнёв"
 		desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Dmitry Pletnyov"
+		name = "Дмитрий Плетнёв"
 		desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Dmitry Pletnyov"
+		name = "Дмитрий Плетнёв"
 		desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-			name = "Dmitry Pletnyov"
+			name = "Дмитрий Плетнёв"
 			desc = "POLITICS_DMITRIY_PLETNYOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitriy_Pletnyov.png"
 			expire = "1.1.1"
@@ -2100,7 +2100,7 @@ RUS_setup_president_konovalov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Aleksandr Konovalov"
+			name = "Александр Коновалов"
 			desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 			expire = "1.1.1"
@@ -2108,42 +2108,42 @@ RUS_setup_president_konovalov = {
 		}
 	}
 	create_country_leader = {
-		name = "Aleksandr Konovalov"
+		name = "Александр Коновалов"
 		desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Konovalov"
+		name = "Александр Коновалов"
 		desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Konovalov"
+		name = "Александр Коновалов"
 		desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Konovalov"
+		name = "Александр Коновалов"
 		desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Aleksandr Konovalov"
+		name = "Александр Коновалов"
 		desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-			name = "Aleksandr Konovalov"
+			name = "Александр Коновалов"
 			desc = "POLITICS_ALEKSANDR_KONOVALOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Aleksandr_Konovalov.png"
 			expire = "1.1.1"
@@ -2156,8 +2156,8 @@ RUS_setup_president_yusupov = {
 		limit = {
 			has_country_flag = bolsheviks_allowed
 		}
-	create_country_leader = {
-			name = "Felix Yusupov"
+		create_country_leader = {
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2165,42 +2165,42 @@ RUS_setup_president_yusupov = {
 		}
 	}
 	create_country_leader = {
-			name = "Felix Yusupov"
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_autocratic_charmer }
 		}
 	create_country_leader = {
-			name = "Felix Yusupov"
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_autocratic_charmer }
 		}
 	create_country_leader = {
-			name = "Felix Yusupov"
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_autocratic_charmer }
 		}
 	create_country_leader = {
-			name = "Felix Yusupov"
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = clientelism_subtype
 			traits = { RUS_autocratic_charmer }
 		}
 	create_country_leader = {
-			name = "Felix Yusupov"
+			name = "Феликс Юсупов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { RUS_autocratic_charmer }
 		}
 	create_country_leader = {
-		name = "Felix Yusupov"
+		name = "Феликс Юсупов"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -2213,45 +2213,45 @@ RUS_setup_president_savenko = {
 		limit = {
 			has_country_flag = bolsheviks_allowed
 		}
-	create_country_leader = {
-			name = "Anatoly Savenko"
+		create_country_leader = {
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
 		}
 	}
 	create_country_leader = {
-			name = "Anatoly Savenko"
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 	create_country_leader = {
-			name = "Anatoly Savenko"
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 	create_country_leader = {
-			name = "Anatoly Savenko"
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 	create_country_leader = {
-			name = "Anatoly Savenko"
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 		}
 	create_country_leader = {
-			name = "Anatoly Savenko"
+			name = "Анатолий Савенко"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	create_country_leader = {
-		name = "Anatoly Savenko"
+		name = "Анатолий Савенко"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Savenko.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -2264,7 +2264,7 @@ RUS_setup_president_romanov = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2273,7 +2273,7 @@ RUS_setup_president_romanov = {
 		}
 	}
 	create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2281,7 +2281,7 @@ RUS_setup_president_romanov = {
 			traits = { RUS_banker_prince }
 		}
 	create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2289,7 +2289,7 @@ RUS_setup_president_romanov = {
 			traits = { RUS_banker_prince }
 		}
 	create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2297,7 +2297,7 @@ RUS_setup_president_romanov = {
 			traits = { RUS_banker_prince }
 		}
 	create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2305,7 +2305,7 @@ RUS_setup_president_romanov = {
 			traits = { RUS_banker_prince }
 		}
 	create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			desc = "POLITICS_DMITRI_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
@@ -2313,7 +2313,7 @@ RUS_setup_president_romanov = {
 			traits = { RUS_banker_prince }
 		}
 	create_country_leader = {
-		name = "Dmitry Romanov"
+		name = "Дмитрий Романов"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 		expire = "1.1.1"
@@ -2328,7 +2328,7 @@ RUS_setup_president_shulgin = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2336,42 +2336,42 @@ RUS_setup_president_shulgin = {
 		}
 	}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			
 		}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			
 		}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			
 		}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			
 		}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			
 		}
 	create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -2386,7 +2386,7 @@ RUS_setup_president_vrangel = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2394,42 +2394,42 @@ RUS_setup_president_vrangel = {
 		}
 	}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_black_baron  }
 		}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_black_baron  }
 		}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_black_baron  }
 		}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = soccon_bonapartism_subtype
 			traits = { RUS_black_baron  }
 		}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { RUS_black_baron  }
 		}
 	create_country_leader = {
-			name = "Pyotr Wrangel"
+			name = "Пётр Врангель"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Vrangel_President.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -2444,7 +2444,7 @@ RUS_setup_president_denikin = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Anton Denikin"
+			name = "Антон Деникин"
 			desc = "POLITICS_ANTON_DENIKIN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 			expire = "1.1.1"
@@ -2453,7 +2453,7 @@ RUS_setup_president_denikin = {
 		}
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2461,7 +2461,7 @@ RUS_setup_president_denikin = {
 		traits = { supreme_ruler  }
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2469,7 +2469,7 @@ RUS_setup_president_denikin = {
 		traits = { supreme_ruler  }
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2477,7 +2477,7 @@ RUS_setup_president_denikin = {
 		traits = { supreme_ruler  }
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2485,7 +2485,7 @@ RUS_setup_president_denikin = {
 		traits = { supreme_ruler  }
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2493,7 +2493,7 @@ RUS_setup_president_denikin = {
 		traits = { supreme_ruler  }
 	}
 	create_country_leader = {
-		name = "Anton Denikin"
+		name = "Антон Деникин"
 		desc = "POLITICS_ANTON_DENIKIN_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Civ_Anton_Denikin.png"
 		expire = "1.1.1"
@@ -2513,7 +2513,7 @@ RUS_setup_president_tyrkova = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2522,7 +2522,7 @@ RUS_setup_president_tyrkova = {
 		}
 	}
 	create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
@@ -2530,7 +2530,7 @@ RUS_setup_president_tyrkova = {
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
@@ -2538,7 +2538,7 @@ RUS_setup_president_tyrkova = {
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
@@ -2546,7 +2546,7 @@ RUS_setup_president_tyrkova = {
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
@@ -2554,7 +2554,7 @@ RUS_setup_president_tyrkova = {
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = eurasianism_subtype
@@ -2562,7 +2562,7 @@ RUS_setup_president_tyrkova = {
 			traits = { RUS_eurasianist_ideologue }
 		}
 		create_country_leader = {
-			name = "Ariadna Tyrkova-Williams"
+			name = "Ариадна Тыркова-Вильямс"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Ariadna_Tyrkova_Williams.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -2578,7 +2578,7 @@ RUS_setup_president_trubetzkoy = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2586,42 +2586,42 @@ RUS_setup_president_trubetzkoy = {
 		}
 	}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = eurasianism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Nikolai Trubetzkoy"
+			name = "Николай Трубецкой"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Trubetskoy.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -2636,7 +2636,7 @@ RUS_setup_president_savitskiy = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2644,42 +2644,42 @@ RUS_setup_president_savitskiy = {
 		}
 	}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = eurasianism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Pyotr Savitsky"
+			name = "Пётр Савицкий"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyetr_Savitskiy.png"
 			expire = "1.1.1"
 			ideology = savinkovism_subtype
@@ -2694,7 +2694,7 @@ RUS_setup_president_vernadskiy = {
 			has_country_flag = bolsheviks_allowed
 		}
 		create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype 
@@ -2702,42 +2702,42 @@ RUS_setup_president_vernadskiy = {
 		}
 	}
 	create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-			name = "Georgy Vernadsky"
+			name = "Георгий Вернадский"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 			expire = "1.1.1"
 			ideology = eurasianism_subtype
 			traits = { RUS_eurasianist_ideologue }
 		}
 	create_country_leader = {
-		name = "Georgy Vernadsky"
+		name = "Георгий Вернадский"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Georgiy_Vernadskiy.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -2753,114 +2753,114 @@ RUS_setup_acting_president_senate = {
 		if = {
 			limit = {
 				NOT = { has_country_flag = plsr_banned }
-			}
+	}
 			meta_effect = {
 				text = {
-					create_country_leader = {
+		create_country_leader = {
 						name = "[SENATE_NAME]"
 						desc = "[SENATE_DESC]"
-						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-						expire = "1.1.1"
-						ideology = anarcho_syndicalist_subtype
-					}
-				}
+			picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
+			expire = "1.1.1"
+			ideology = anarcho_syndicalist_subtype
+		}
+		}
 				SENATE_NAME = "[GetUpperChamberName]"
 				SENATE_DESC = "[GetUpperChamberDesc]"
-			}
-		}
+	}
+	}
 		if = {
 			limit = {
 				NOT = { has_country_flag = nsp_banned }
-			}
+	}
 			meta_effect = {
 				text = {
-					create_country_leader = {
+	create_country_leader = {
 						name = "[SENATE_NAME]"
 						desc = "[SENATE_DESC]"
-						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-						expire = "1.1.1"
-						ideology = bukharinist_subtype 
-					}
-				}
+		picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
+		expire = "1.1.1"
+			ideology = bukharinist_subtype 
+	}
+	}
 				SENATE_NAME = "[GetUpperChamberName]"
 				SENATE_DESC = "[GetUpperChamberDesc]"
-			}
-		}
 	}
+	}
+}
 	meta_effect = {
 		text = {
-			create_country_leader = {
+	create_country_leader = {
 				name = "[SENATE_NAME]"
 				desc = "[SENATE_DESC]"
 				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
-				ideology = social_democrat_subtype
-			}
+			expire = "1.1.1"
+			ideology = social_democrat_subtype
 		}
-		SENATE_NAME = "[GetUpperChamberName]"
-		SENATE_DESC = "[GetUpperChamberDesc]"
-	}
-	meta_effect = {
-		text = {
-			create_country_leader = {
-				name = "[SENATE_NAME]"
-				desc = "[SENATE_DESC]"
-				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
-				ideology = social_liberal_subtype
-			}
 		}
 		SENATE_NAME = "[GetUpperChamberName]"
 		SENATE_DESC = "[GetUpperChamberDesc]"
-	}
+		}
 	meta_effect = {
 		text = {
-			create_country_leader = {
+	create_country_leader = {
 				name = "[SENATE_NAME]"
 				desc = "[SENATE_DESC]"
 				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
+			expire = "1.1.1"
+			ideology = social_liberal_subtype
+		}
+}
+		SENATE_NAME = "[GetUpperChamberName]"
+		SENATE_DESC = "[GetUpperChamberDesc]"
+			}
+	meta_effect = {
+		text = {
+		create_country_leader = {
+				name = "[SENATE_NAME]"
+				desc = "[SENATE_DESC]"
+				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
+			expire = "1.1.1"
 				ideology = liberal_conservative_subtype
-			}
+		}
+		}
+		SENATE_NAME = "[GetUpperChamberName]"
+		SENATE_DESC = "[GetUpperChamberDesc]"
+		}
+	meta_effect = {
+		text = {
+	create_country_leader = {
+				name = "[SENATE_NAME]"
+				desc = "[SENATE_DESC]"
+				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
+			expire = "1.1.1"
+			ideology = progressive_conservatism_subtype
+		}
 		}
 		SENATE_NAME = "[GetUpperChamberName]"
 		SENATE_DESC = "[GetUpperChamberDesc]"
 	}
 	meta_effect = {
 		text = {
-			create_country_leader = {
+		create_country_leader = {
 				name = "[SENATE_NAME]"
 				desc = "[SENATE_DESC]"
 				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
-				ideology = progressive_conservatism_subtype
+			expire = "1.1.1"
+			ideology = oligarchy_subtype
 			}
 		}
 		SENATE_NAME = "[GetUpperChamberName]"
 		SENATE_DESC = "[GetUpperChamberDesc]"
-	}
-	meta_effect = {
-		text = {
-			create_country_leader = {
-				name = "[SENATE_NAME]"
-				desc = "[SENATE_DESC]"
-				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
-				ideology = oligarchy_subtype
 			}
-		}
-		SENATE_NAME = "[GetUpperChamberName]"
-		SENATE_DESC = "[GetUpperChamberDesc]"
-	}
 	meta_effect = {
 		text = {
-			create_country_leader = {
+		create_country_leader = {
 				name = "[SENATE_NAME]"
 				desc = "[SENATE_DESC]"
 				picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-				expire = "1.1.1"
+			expire = "1.1.1"
 				ideology = savinkovism_subtype
-			}
+		}
 		}
 		SENATE_NAME = "[GetUpperChamberName]"
 		SENATE_DESC = "[GetUpperChamberDesc]"
@@ -2950,8 +2950,8 @@ RUS_reduce_german_influence = {
 			remove_idea = rus_riga_accords
 			add_idea = rus_riga_accords_1
 		}
+		}
 	}
-}
 RUS_reduce_army_debuff = {
 	RUS_remove_divided_staff_ideas = yes
 }
@@ -3158,7 +3158,7 @@ RUS_setup_russian_monarch = {
 		}
 		RUS_setup_tsar_nicholas = yes
 	}
-	else = { #Kirill is now vanilla choice kinda
+	else = { #Кирилл Is now vanilla choice kinda
 		RUS_setup_tsar_kirill = yes
 	}	
 	RUS_recheck_president_subideology = yes
@@ -3170,7 +3170,7 @@ RUS_setup_tsar_kirill = {
 			NOT = { has_country_flag = Kirill_Romanov_dead }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3178,7 +3178,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3186,7 +3186,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3194,7 +3194,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3202,7 +3202,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3210,7 +3210,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3218,7 +3218,7 @@ RUS_setup_tsar_kirill = {
 			traits = { RUS_self_proclaimed_emperor }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KIRILL_ROMANOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -3233,49 +3233,49 @@ RUS_setup_tsar_kirill = {
 
 RUS_setup_tsar_vladimir = {
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Vladimir III"
+		name = "Владимир III"
 		desc = "POLITICS_VLADIMIR_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.png"
 		expire = "1.1.1"
@@ -3285,7 +3285,7 @@ RUS_setup_tsar_vladimir = {
 }
 RUS_setup_tsar_vsevolod = {
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3293,7 +3293,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3301,7 +3301,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3309,7 +3309,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3317,7 +3317,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3325,7 +3325,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3333,7 +3333,7 @@ RUS_setup_tsar_vsevolod = {
 		traits = { RUS_young_aristocrat }
 	}
 	create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
@@ -3343,7 +3343,7 @@ RUS_setup_tsar_vsevolod = {
 }
 RUS_setup_tsar_roman = {
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3351,7 +3351,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3359,7 +3359,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3367,7 +3367,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3375,7 +3375,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3383,7 +3383,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3391,7 +3391,7 @@ RUS_setup_tsar_roman = {
 		traits = { RUS_poor_health }
 	}
 	create_country_leader = {
-		name = "Roman I"
+		name = "Роман I"
 		desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 		expire = "1.1.1"
@@ -3401,49 +3401,49 @@ RUS_setup_tsar_roman = {
 }
 RUS_setup_tsar_andrei = {
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Andrei I"
+		name = "Андрей I"
 		desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 		expire = "1.1.1"
@@ -3452,7 +3452,7 @@ RUS_setup_tsar_andrei = {
 }
 RUS_setup_tsar_mikhail = {
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3460,7 +3460,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3468,7 +3468,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3476,7 +3476,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3484,7 +3484,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3492,7 +3492,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3500,7 +3500,7 @@ RUS_setup_tsar_mikhail = {
 		traits = { RUS_illegitimate_bastard }
 	}
 	create_country_leader = {
-		name = "Mikhail II"
+		name = "Михаил II"
 		desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 		expire = "1.1.1"
@@ -3510,7 +3510,7 @@ RUS_setup_tsar_mikhail = {
 }
 RUS_setup_tsar_boris = {
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3518,7 +3518,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3526,7 +3526,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3534,7 +3534,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3542,7 +3542,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3550,7 +3550,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3558,7 +3558,7 @@ RUS_setup_tsar_boris = {
 		traits = { RUS_shade_of_brother }
 	}
 	create_country_leader = {
-		name = "Boris II"
+		name = "Борис II"
 		desc = "POLITICS_BORIS_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_I.png"
 		expire = "1.1.1"
@@ -3569,7 +3569,7 @@ RUS_setup_tsar_boris = {
 
 RUS_setup_tsar_dmitriy = {
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3577,7 +3577,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3585,7 +3585,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3593,7 +3593,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3601,7 +3601,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3609,7 +3609,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3617,7 +3617,7 @@ RUS_setup_tsar_dmitriy = {
 		traits = { RUS_autocratic_charmer }
 	}
 	create_country_leader = {
-		name = "Dmitry III"
+		name = "Дмитрий III"
 		desc = "POLITICS_DMITRI_ROMANOV_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.png"
 		expire = "1.1.1"
@@ -3628,56 +3628,56 @@ RUS_setup_tsar_dmitriy = {
 
 RUS_setup_tsar_pavel = {
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
 	}
 	create_country_leader = {
-		name = "Pavel II"
+		name = "Павел II"
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.png"
 		expire = "1.1.1"
@@ -3688,49 +3688,49 @@ RUS_setup_tsar_pavel = {
 
 RUS_setup_tsar_nicholas = {
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Nicholas II"
+		name = "Николай II"
 		desc = "POLITICS_NICHOLAS_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
 		expire = "1.1.1"
@@ -3746,49 +3746,49 @@ RUS_setup_tsar_nicholas = {
 
 RUS_setup_tsar_alexi = {
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Alexei II"
+		name = "Алексей II"
 		desc = "POLITICS_TSAR_ALEXI_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Alexi_Romanov.png"
 		expire = "1.1.1"
@@ -3798,7 +3798,7 @@ RUS_setup_tsar_alexi = {
 
 RUS_setup_tsar_anastasia = {
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3808,7 +3808,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3818,7 +3818,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3828,7 +3828,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3838,7 +3838,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3848,7 +3848,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3858,7 +3858,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3868,7 +3868,7 @@ RUS_setup_tsar_anastasia = {
 			}
 		}
 		create_country_leader = {
-			name = "Anastasia I"
+			name = "Анастасия I"
 			desc = "POLITICS_ANASTASIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 			expire = "1.1.1"
@@ -3881,14 +3881,14 @@ RUS_setup_tsar_anastasia = {
 
 RUS_setup_tsar_wrangel_son = {
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = pataut_bonapartism_subtype 
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
@@ -3897,49 +3897,49 @@ RUS_setup_tsar_wrangel_son = {
 }
 RUS_setup_tsar_wrangel_son_const = {
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = pataut_bonapartism_subtype 
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = soccon_bonapartism_subtype
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Pyotr V"
+		name = "Пётр V"
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_SON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_P_Wrangel.png"
 		expire = "1.1.1"
@@ -3953,7 +3953,7 @@ RUS_setup_tsar_wrangel_const = {
 			NOT = { has_country_flag = Pyetr_Vrangel_dead }
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -3961,7 +3961,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = social_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -3969,7 +3969,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = social_liberal_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -3977,7 +3977,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -3985,7 +3985,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = soccon_bonapartism_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -3993,7 +3993,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = oligarchy_subtype
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -4001,7 +4001,7 @@ RUS_setup_tsar_wrangel_const = {
 			ideology = pataut_bonapartism_subtype 
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -4028,14 +4028,14 @@ RUS_setup_tsar_wrangel = {
 			NOT = { has_country_flag = Pyetr_Vrangel_dead }
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
 			ideology = pataut_bonapartism_subtype 
 		}
 		create_country_leader = {
-			name = "Pyotr IV"
+			name = "Пётр IV"
 			desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 			expire = "1.1.1"
@@ -4063,7 +4063,7 @@ RUS_setup_shatilov = {
 		name = RUS_paternal_autocrat_party
 	}
 		create_country_leader = {
-			name = "Pavel Shatilov"
+			name = "Павел Шатилов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Shatilov.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -4074,18 +4074,18 @@ RUS_setup_shatilov = {
 RUS_install_puppet_monarchy = {
 	if = {
 		limit = { has_government = national_populist }
-		create_country_leader = {
-			name = "Tsar of All-Russia"
-			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
-			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
-			expire = "1.1.1"
+			create_country_leader = {
+				name = "Царь Всея Руси"
+				desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
+				picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
+				expire = "1.1.1"
 			ideology = legionarism_subtype
 		}
 	}
 	else_if = {
 		limit = { has_government = paternal_autocrat }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4095,7 +4095,7 @@ RUS_install_puppet_monarchy = {
 	else_if = {
 		limit = { has_government = authoritarian_democrat }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4105,17 +4105,17 @@ RUS_install_puppet_monarchy = {
 	else_if = {
 		limit = { has_government = social_conservative }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
+			}
 		}
-	}
 	else_if = {
 		limit = { has_government = market_liberal }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4125,7 +4125,7 @@ RUS_install_puppet_monarchy = {
 	else_if = {
 		limit = { has_government = social_liberal }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4135,7 +4135,7 @@ RUS_install_puppet_monarchy = {
 	else_if = {
 		limit = { has_government = social_democrat }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4145,7 +4145,7 @@ RUS_install_puppet_monarchy = {
 	else_if = {
 		limit = { has_government = totalist }
 		create_country_leader = {
-			name = "Tsar of All-Russia"
+			name = "Царь Всея Руси"
 			desc = "POLITICS_TSAR_OF_ALL_RUSSIA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Imperial_Administration.png"
 			expire = "1.1.1"
@@ -4160,43 +4160,43 @@ RUS_install_puppet_monarchy = {
 
 RUS_setup_tsar_ivan_ger = {
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = social_democrat_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = social_liberal_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = liberal_conservative_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = progressive_conservatism_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = oligarchy_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = {
-		name = "Ivan VII"
+		name = "Иван VII"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Louis_Ferdinand.png"
 		expire = "1.1.1"
 		ideology = savinkovism_subtype
@@ -4205,7 +4205,7 @@ RUS_setup_tsar_ivan_ger = {
 reset_russian_leaders = {
 	hidden_effect = {
 		create_country_leader = {
-			name = "Grigory Zinoviev"
+			name = "Григорий Зиновьев"
 			desc = "POLITICS_VYACHESLAV_MOLOTOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Grigoriy_Zinoviev.png"
 			expire = "1.1.1"
@@ -4213,7 +4213,7 @@ reset_russian_leaders = {
 			traits = { SOV_student_of_lenin }
 		}
 		create_country_leader = {
-			name = "Maria Spiridonova"
+			name = "Мария Спиридонова"
 			desc = "POLITICS_MARIA_SPIRIDONOVA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Maria_Spiridonova.png"
 			expire = "1.1.1"
@@ -4222,7 +4222,7 @@ reset_russian_leaders = {
 			traits = { RUS_valkrye_of_revolution }
 		}
 		create_country_leader = {
-			name = "Nikolay Bukharin"
+			name = "Николай Бухарин"
 			desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Bukharin.png"
 			expire = "1.1.1"
@@ -4230,35 +4230,35 @@ reset_russian_leaders = {
 			traits = { RUS_ex_bolshevik  }
 		}
 		create_country_leader = {
-			name = "Viktor Chernov"
+			name = "Виктор Чернов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Chernov.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 			traits = { RUS_savvy_politician  }
 		}
 		create_country_leader = {
-			name = "Nikolay Nekrasov"
+			name = "Николай Некрасов"
 			desc = "POLITICS_NIKOLAY_NEKRASOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Nikolay_Nekrasov.png"
 			expire = "1.1.1"
 			ideology = social_liberal_subtype
 		}
 		create_country_leader = {
-			name = "Dmitry Romanov"
+			name = "Дмитрий Романов"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 			traits = { RUS_banker_prince }
 		}
 		create_country_leader = {
-			name = "Vasily Shulgin"
+			name = "Василий Шульгин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.png"
 			expire = "1.1.1"
 			ideology = progressive_conservatism_subtype
 			traits = {}
 		}
 		create_country_leader = {
-			name = "Boris Savinkov"
+			name = "Борис Савинков"
 			desc = "POLITICS_BORIS_SAVINKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Savinkov.png"
 			expire = "1.1.1"
@@ -5160,7 +5160,7 @@ setup_bjorko_pact = {
 		limit = {
 			has_country_flag = RUS_KER_caucasus_german_oil
 		}
-		custom_effect_tooltip = "Germany will withdraw from Caucasus, but will have rights to own the oil"
+		custom_effect_tooltip = "Германия покинет Кавказ, но будет иметь право на владение нефтью"
 		hidden_effect = {
 			every_other_country = {
 				limit = {
@@ -5230,7 +5230,7 @@ setup_bjorko_pact = {
 						target = PREV
 					}
 				}
-			}			
+			}
 		}
 		hidden_effect = {
 			if = {
@@ -5251,7 +5251,7 @@ setup_bjorko_pact = {
 		limit = {
 			has_country_flag = RUS_KER_only_caucasus
 		}
-		custom_effect_tooltip = "Germany will withdraw only from Don-Kuban. Transcaucasia will stay as German sphere of influence"
+		custom_effect_tooltip = "Германия выведет войска только из Дон-Кубани. Закавказье останется сферой влияния Германии"
 		hidden_effect = {
 			every_other_country = {
 				limit = {
@@ -5340,7 +5340,7 @@ setup_bjorko_pact = {
 			limit = {
 				WHR = { is_subject_of = GER }
 			}
-			custom_effect_tooltip = "White Ruthenia will be annexed"
+			custom_effect_tooltip = "Белая Рутения будет аннексирована"
 			hidden_effect = {
 				ROOT = {
 					annex_country = {
@@ -5353,7 +5353,7 @@ setup_bjorko_pact = {
 			limit = {
 				WHR = { NOT = { is_subject_of = GER } }
 			}
-			custom_effect_tooltip = "We will declare war on White Ruthenia"
+			custom_effect_tooltip = "Мы объявим войну Белой Рутении"
 			hidden_effect = {
 				create_wargoal = {
 					type = annex_everything
@@ -5370,7 +5370,7 @@ setup_bjorko_pact = {
 			limit = {
 				WHR = { is_subject_of = GER }
 			}
-			custom_effect_tooltip = "Eastern White Ruthenia will be annexed"
+			custom_effect_tooltip = "Восточная Белая Рутения будет аннексирована"
 			hidden_effect = {
 				ROOT = { 
 					transfer_state = 1087
@@ -5382,7 +5382,7 @@ setup_bjorko_pact = {
 			limit = {
 				WHR = { NOT = { is_subject_of = GER } }
 			}
-			custom_effect_tooltip = "We will seize Eastern White Ruthenia and declare war"
+			custom_effect_tooltip = "Мы захватим Восточную Белую Рутению и объявим войну"
 			hidden_effect = {
 				ROOT = { 
 					transfer_state = 1087
@@ -5399,7 +5399,7 @@ setup_bjorko_pact = {
 		limit = {
 			has_country_flag = RUS_KER_eastern_ukraine
 		}
-		custom_effect_tooltip = "We will seize Eastern Ukraine"
+		custom_effect_tooltip = "Мы захватим Восточную Украину"
 		hidden_effect = {
 			if = {
 				limit = { 1087 = { is_owned_by = UKR } }
@@ -5428,7 +5428,7 @@ setup_bjorko_pact = {
 		limit = {
 			has_country_flag = RUS_KER_eastern_ukraine_war
 		}
-		custom_effect_tooltip = "Ukraine will be divided between us and Germany"
+		custom_effect_tooltip = "Украина будет поделена между нами и Германией"
 		hidden_effect = {
 			every_state = {
 				limit = {
@@ -5718,7 +5718,7 @@ setup_danzig_treaty = {
 				}
 				is_ally_with = GER
 					has_capitulated = yes
-				}
+			}
 			ROOT = {
 				annex_country = {
 					target = PREV
@@ -5801,7 +5801,7 @@ setup_yerevan_treaty = {
 				is_in_faction_with = TUR
 				is_subject_of = TUR
 			}
-			has_capitulated = yes
+				has_capitulated = yes
 		}
 		ROOT = {
 			annex_country = {
@@ -5813,8 +5813,8 @@ setup_yerevan_treaty = {
 	# Annex Our Claims 
 	TUR = {
 		every_owned_state = {
-			limit = {
-				OR = {
+		limit = {
+			OR = {
 					state = 1213
 					state = 1000
 					state = 1001
@@ -5825,7 +5825,7 @@ setup_yerevan_treaty = {
 			transfer_state_to = ROOT
 		}
 		if = {
-			limit = { 
+			limit = {
 				773 = { 
 					is_claimed_by = ROOT 
 					is_controlled_by_ROOT_or_ally = yes
@@ -5837,8 +5837,8 @@ setup_yerevan_treaty = {
 						state = 773
 						region = 25
 						region = 26
-					}
-				}
+			}
+		}
 				transfer_state_to = ROOT
 			}
 		}
@@ -5884,7 +5884,7 @@ setup_yerevan_treaty = {
 			is_subject_of = TUR
 		}
 		event_target:peace_country = { white_peace = PREV }
-	}
+			}
 	every_enemy_country = {
 		limit = {
 			is_in_faction_with = TUR
@@ -5910,9 +5910,9 @@ setup_yerevan_treaty = {
 							OR = {
 								is_core_of = PREV.PREV
 								is_claimed_by = PREV.PREV
-							}
-						}
 					}
+				}
+			}
 				}
 				any_subject_country = {
 					PREV.PREV = {
@@ -5930,9 +5930,9 @@ setup_yerevan_treaty = {
 							OR = {
 								is_core_of = PREV.PREV
 								is_claimed_by = PREV.PREV
-							}
-						}
-					}
+			}
+		}
+	}
 				}
 			}
 		}
@@ -5941,10 +5941,10 @@ setup_yerevan_treaty = {
 	
 	### Diplomatic Actions ###
 	TUR = {
-		if = {
+	if = {
 			limit = { is_faction_leader = yes }
 			dismantle_faction = yes
-		}
+	}
 		diplomatic_relation = {
 			country = ROOT
 			relation = non_aggression_pact
@@ -5965,14 +5965,14 @@ setup_yerevan_treaty = {
 				active = no
 			}
 		}
-	}
+	}	
 }
 setup_budapest_treaty = {
 	set_global_flag = budapest_treaty_active
 	if = {
 		limit = { has_country_flag = RUS_AUS_all_slavic_lands }
 		every_other_country = {
-			limit = {
+		limit = {
 				OR = {
 					tag = CZE
 					tag = SVK
@@ -5990,10 +5990,10 @@ setup_budapest_treaty = {
 			separate_peace_all_wars = yes
 			RUS = {
 				add_to_faction = PREV
+			}
 		}
-	}
 		every_state = {
-		limit = {
+			limit = { 
 				is_owned_by = AUS
 				OR = {
 					is_core_of = CZE
@@ -6009,25 +6009,25 @@ setup_budapest_treaty = {
 			transfer_state_to = RUS
 		}
 		every_state = {
-			limit = {
+		limit = {
 				OR = {
 					is_owned_by = AUS
 					AND = {
 						is_owned_by = HUN
 						HUN = { is_ally_with = AUS }
-			}
+				}
 			}
 				OR = {
 					state = 73
 					state = 1119
-		}
+				}
 			}
 			transfer_state_to = RUS
-			}
 		}
+	}
 		if = {
 		limit = { has_country_flag = RUS_AUS_hungary }
-		if = {
+	if = {
 			limit = { ROM = { has_war_with = AUS } }
 			every_state = {
 			limit = {
@@ -6060,20 +6060,20 @@ setup_budapest_treaty = {
 			}
 			remove_puppet_and_leave_faction = yes
 			peace_out_non_neighbours_after_leaving_faction = yes
-		}		
+			}
 		every_state = {
-		limit = {
+			limit = {
 				is_owned_by = AUS
 				OR = {
 					is_core_of = HUN
 					is_core_of = TRS
 			}
-		}
+			}
 			transfer_state_to = RUS
-	}
-	}
+			}
+		}
 	every_other_country = {
-		limit = {
+			limit = {
 			OR = {
 				tag = EST
 				tag = LIT
@@ -6102,15 +6102,15 @@ setup_budapest_treaty = {
 			}
 			has_capitulated = no
 			is_ally_with = AUS
-		}
+			}
 		ROOT = {
 			annex_country = {
 				target = PREV
-				}
-			}
 		}
+	}
+			}
 	every_other_country = {
-			limit = {
+		limit = {
 			OR = {
 				tag = EST
 				tag = LIT
@@ -6248,7 +6248,7 @@ RUS_puppet_setup = {
 					}
 				}
 				create_country_leader = {
-					name = "Pavel Bermondt-Avalov"
+					name = "Павел Бермондт-Авалов"
 					desc = "POLITICS_PAVEL_BERMONDT_AVALOV_DESC"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Bermondt_Avalov.png"
 					expire = "1.1.1"
@@ -6267,7 +6267,7 @@ RUS_puppet_setup = {
 					}
 				}
 				create_country_leader = {
-					name = "Vladimir Kappel"
+					name = "Владимир Каппель"
 					desc = "POLITICS_VLADIMIR_KAPPEL_DESC"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 					expire = "1.1.1"
@@ -6287,7 +6287,7 @@ RUS_puppet_setup = {
 				set_country_flag = unlock_congress_sov
 				set_country_flag = Nikolay_I_Bukharin_dead
 				create_country_leader = {
-					name = "Congress of Soviets"
+					name = "Съезд Советов"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Sovnarkom.png"
 					expire = "1.1.1"
 					ideology = radsoc_communism_subtype
@@ -6301,7 +6301,7 @@ RUS_puppet_setup = {
 					}
 				}
 				create_country_leader = {
-					name = "Felix Yusupov"
+					name = "Феликс Юсупов"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov_Drip.png"
 					expire = "1.1.1"
 					ideology = pataut_oligarchy_subtype
@@ -6325,7 +6325,7 @@ RUS_puppet_setup = {
 				}
 				set_country_flag = DM_Can_Empower_Senate
 				create_country_leader = {
-					name = "Felix Yusupov"
+					name = "Феликс Юсупов"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov.png"
 					expire = "1.1.1"
 					ideology = oligarchy_subtype
@@ -6357,7 +6357,7 @@ RUS_puppet_setup = {
 					ROOT = { has_government = paternal_autocrat }
 				}
 				create_country_leader = {
-					name = "Anton Denikin"
+					name = "Антон Деникин"
 					desc = "POLITICS_ANTON_DENIKIN_DESC"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Anton_Denikin.png"
 					expire = "1.1.1"
@@ -6384,7 +6384,7 @@ RUS_puppet_setup = {
 					name = RUS_solidarist_party
 				}
 				create_country_leader = {
-					name = "Viktor Baydalakov"
+					name = "Виктор Байдалаков"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Viktor_Baydalakov.png"
 					expire = "1.1.1"
 					ideology = solidarism_subtype
@@ -6425,28 +6425,28 @@ RUS_puppet_setup = {
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					create_country_leader = {
-						name = "The Senate"
-						desc = "POLITICS_SENATE_DESC"
-						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
-						expire = "1.1.1"
+						create_country_leader = {
+						name = "Сенат"
+							desc = "POLITICS_SENATE_DESC"
+							picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
+							expire = "1.1.1"
 						ideology = progressive_conservatism_subtype
 					}
 				}
 				else_if = {
 					limit = { ROOT = { has_government = market_liberal } }
 					create_country_leader = {
-						name = "The Senate"
+						name = "Сенат"
 						desc = "POLITICS_SENATE_DESC"
 						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
 						expire = "1.1.1"
 						ideology = liberal_conservative_subtype
+						}
 					}
-				}
 				else_if = {
 					limit = { ROOT = { has_government = social_liberal } }
 					create_country_leader = {
-						name = "The Senate"
+						name = "Сенат"
 						desc = "POLITICS_SENATE_DESC"
 						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
 						expire = "1.1.1"
@@ -6456,7 +6456,7 @@ RUS_puppet_setup = {
 				else_if = {
 					limit = { ROOT = { has_government = social_democrat } }
 					create_country_leader = {
-						name = "The Senate"
+						name = "Сенат"
 						desc = "POLITICS_SENATE_DESC"
 						picture = "gfx/leaders/RUS/Portrait_RUS_The_Senate.png"
 						expire = "1.1.1"
@@ -6497,7 +6497,7 @@ RUS_puppet_setup = {
 						long_name = TRM_authoritarian_democrat_party_long
 					}
 					create_country_leader = {
-						name = "Yui Mitsue"
+						name = "Юи Мицуэ"
 						desc = "POLITICS_YUI_DESC"
 						picture = "gfx/leaders/TRM/Portrait_Transamur_Yui_Mitsue.png"
 						expire = "1.1.1"
@@ -6618,7 +6618,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	if = {
 		limit = {
 			OR = {
-				has_idea = RUS_Nikolay_I_Bukharin_hog_rso
+			has_idea = RUS_Nikolay_I_Bukharin_hog_rso
 				SOV_bukharin_in_power = yes
 			}
 		}
@@ -6629,23 +6629,23 @@ RUSSIAN_UNIFICATION_play_superevent = {
 		limit = {
 			OR = {
 				has_country_leader = {
-					name = "Maria Spiridonova"
+					name = "Мария Спиридонова"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Boris Kamkov"
+					name = "Борис Камков"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Isaak Shteinberg"
+					name = "Исаак Штейнберг"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vladimir Trutovsky"
+					name = "Владимир Трутовский"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vladimir Karelin"
+					name = "Владимир Карелин"
 					ruling_only = yes
 				}
 			}
@@ -6658,7 +6658,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			OR = {
 				has_idea = RUS_Yakov_Fishman_hog_tot
 				has_country_leader = {
-					name = "Yakov Fishman"
+					name = "Яков Фишман"
 					ruling_only = yes
 				}
 			}
@@ -6671,12 +6671,12 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			OR = {
 				has_idea = RUS_Sergey_M_Kirov_hog_rso
 				SOV_kirov_in_power = yes
-			}
+				}
 			SOV_kirov_in_power = yes
-		}
+				}
 		custom_effect_tooltip = GFX_SPEVNT_RUSSIAN_UNIFICATION_kirov
 		hidden_effect = { country_event = super.97 }
-	}
+				}
 	else_if = {
 		limit = {
 			OR = {
@@ -6805,9 +6805,9 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	}
 	else_if = {
 		limit = {
-			has_country_leader = {
-				name = "Solomon Lozovsky"
-				ruling_only = yes
+				has_country_leader = {
+				name = "Соломон Лозовский"
+					ruling_only = yes
 			}
 		}
 		custom_effect_tooltip = GFX_SPEVNT_RUSSIAN_UNIFICATION_rsrpi
@@ -6816,7 +6816,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Vladimir Volsky"
+				name = "Владимир Волский"
 				ruling_only = yes
 			}
 		}
@@ -6828,15 +6828,15 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Pavel Dybenko"
+					name = "Павел Дыбенко"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Stepan Petrichenko"
+					name = "Степан Петриченко"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Nestor Makhno"
+					name = "Нестор Махно"
 				}
 			}
 		}
@@ -6846,7 +6846,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Grigory Semyonov"
+				name = "Григорий Семёнов"
 				ruling_only = yes
 			}
 		}
@@ -6873,7 +6873,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 		limit = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Aleksandr Kolchak"
+				name = "Александр Колчак"
 			}
 		}
 		custom_effect_tooltip = GFX_SPEVNT_RUSSIAN_UNIFICATION_kolchak
@@ -6965,7 +6965,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -6978,7 +6978,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -6995,7 +6995,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -7012,7 +7012,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 				}
 			}
 		}
@@ -7030,7 +7030,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Alexandr Kerensky"
+				name = "Александр Керенский"
 				ruling_only = yes
 			}
 		}
@@ -7054,7 +7054,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Mikhail Drozdovsky"
+				name = "Михаил Дроздовский"
 				ruling_only = yes
 			}
 		}
@@ -7064,7 +7064,7 @@ RUSSIAN_UNIFICATION_play_superevent = {
 	else_if = {
 		limit = {
 			has_country_leader = {
-				name = "Viktor Abakumov"
+				name = "Виктор Абакумов"
 				ruling_only = yes
 			}
 		}
@@ -7122,9 +7122,9 @@ RUS_nep_increase_market = {
 	add_to_variable = { RUS_nep_market = 1 }
 	add_to_variable = { RUS_nep_state = -1 }
 	hidden_effect = {
-		add_to_variable = { RUS_NEP_consumer_goods_factor = 0.02 }
-		add_to_variable = { RUS_NEP_party_popularity_stability_factor = 0.02 }
-		add_to_variable = { RUS_NEP_trade_opinion_factor = 0.02 }
+	add_to_variable = { RUS_NEP_consumer_goods_factor = 0.02 }
+	add_to_variable = { RUS_NEP_party_popularity_stability_factor = 0.02 }
+	add_to_variable = { RUS_NEP_trade_opinion_factor = 0.02 }
 		add_to_variable = { RUS_NEP_production_factory_max_efficiency_factor = 0.02 }
 		add_to_variable = { RUS_NEP_production_factory_efficiency_gain_factor = 0.02 }
 	}

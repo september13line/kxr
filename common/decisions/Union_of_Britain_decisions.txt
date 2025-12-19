@@ -241,7 +241,7 @@ political_actions = {
 				country_event = {
 					id = uob.1003
 					days = 12
-				}
+				}	
 			}
 	   }
 	   ai_will_do = {
@@ -336,7 +336,7 @@ political_actions = {
 				country_event = {
 					id = uob.1001
 					days = 5
-				}
+					}
 			}
 	   }
 	   ai_will_do = {
@@ -392,13 +392,13 @@ political_actions = {
 					}
 					GHA = {
 						set_cosmetic_tag = ENG_Max_Africa
-						load_focus_tree = generic_focus
+						load_focus_tree = generic_focus 
 					create_country_leader = {
-						name = "Robert Gordon-Canning"
+						name = "Роберт Гордон-Кэннинг"
 						picture = "gfx/leaders/ENG/Portrait_England_Robert_Gordon_Canning.png"
 						expire = "1.1.1"
 						ideology = british_maximism_subtype
-					}	 
+					}
 					set_party_name = {
 						ideology = totalist
 						long_name = ENG_maxafr_party_long
@@ -408,7 +408,7 @@ political_actions = {
 				    set_politics = {
 					ruling_party = totalist
 					elections_allowed = no
-				    }
+					}
 					add_state_core = PREV
 			        transfer_state = PREV
 					}
@@ -504,7 +504,7 @@ political_actions = {
 						set_cosmetic_tag = ENG_Max_Arabia
 						load_focus_tree = generic_focus 
 					create_country_leader = {
-						name = "Harry St. John Philby"
+						name = "Гарри Сент-Джон Бриджер Филби"
 						picture = "gfx/leaders/ENG/Portrait_England_Harry_St_John_Philby.png"
 						expire = "1.1.1"
 						ideology = british_maximism_subtype

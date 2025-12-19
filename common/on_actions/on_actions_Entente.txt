@@ -198,10 +198,10 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					tag = ENT
-					FROM = { tag = ENG }
-				}
-				news_event = {
+						tag = ENT
+						FROM = { tag = ENG }
+					}
+					news_event = {
 					id = worldnews.471
 					days = 2
 				}
@@ -221,7 +221,7 @@ on_actions = {
 			else_if = {
 				limit = {
 					tag = DEH
-					FROM = { tag = ENT }
+					FROM = { tag = ENT } 
 				}
 				DEH = {
 					country_event = {
@@ -232,7 +232,7 @@ on_actions = {
 			}
 		}
 	}
-
+	
 	on_monthly_CAN = {
 		effect = {
 			if = {
@@ -361,7 +361,7 @@ on_actions = {
 		effect = {
 			if = {
 				limit = { tag = CAN }
-				if = {
+				if = {	
 					limit = {
 						CAN_leader_has_lost_subideology = yes
 					}
@@ -371,7 +371,7 @@ on_actions = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Edward VIII"
+						name = "Эдуард VIII"
 						ruling_only = yes
 					}
 					OR = {
@@ -428,7 +428,7 @@ on_actions = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Albert I"
+						name = "Альберт I"
 						ruling_only = yes
 					}
 					has_country_flag = CAN_humble_trait_improved
@@ -445,7 +445,7 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "Edward VIII"
+							name = "Эдуард VIII"
 							ruling_only = yes
 						}
 					}
@@ -456,7 +456,7 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "George V"
+							name = "Георг V"
 							ruling_only = yes
 						}
 					}
@@ -467,7 +467,7 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "Albert I"
+							name = "Альберт I"
 							ruling_only = yes
 						}
 					}
@@ -478,7 +478,7 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "Henry IX"
+							name = "Генри IX"
 							ruling_only = yes
 						}
 					}
@@ -489,7 +489,7 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "George VI"
+							name = "Георг VI"
 							ruling_only = yes
 						}
 					}

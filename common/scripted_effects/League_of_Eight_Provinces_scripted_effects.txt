@@ -951,7 +951,7 @@ LEP_NKPOP = {
 
 LEP_SETUP_AOG = {
 	create_country_leader = {
-		name = "Alexander von Falkenhausen"
+		name = "Александр фон Фалькенхаузен"
 		desc = "POLITICS_ALEXANDER_VON_FALKENHAUSEN_DESC"
 		picture = "gfx/leaders/AOG/Portrait_AOG_Alexander_von_Falkenhausen.png"
 		expire = "1.1.1"
@@ -963,7 +963,7 @@ LEP_SETUP_AOG = {
 		add_ideas = LEP_german_government
 		set_variable = { LEPAOG_krupp_angery = 0 }
 		create_country_leader = {
-			name = "Board of Directors"
+			name = "Совет директоров"
 			desc = "POLITICS_AOG_BOARD_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Board.png"
 			expire = "1.1.1"
@@ -971,7 +971,7 @@ LEP_SETUP_AOG = {
 			traits = {}
 		}
 		create_country_leader = {
-			name = "Alexander von Falkenhausen"
+			name = "Александр фон Фалькенхаузен"
 			desc = "POLITICS_ALEXANDER_VON_FALKENHAUSEN_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Alexander_von_Falkenhausen.png"
 			expire = "1.1.1"
@@ -995,14 +995,14 @@ AOG_setup_puppet_puyi = {
 	if = {
 		limit = { has_completed_focus = LEP_krupp_victory }
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Suit.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Suit.png"
 			expire = "1.1.1"
@@ -1012,14 +1012,14 @@ AOG_setup_puppet_puyi = {
 	else_if = {
 		limit = { has_country_flag = LEP_AOG_rule }
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 			expire = "1.1.1"
@@ -1028,14 +1028,14 @@ AOG_setup_puppet_puyi = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 			expire = "2165.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Puyi"
+			name = "Пу И"
 			desc = "POLITICS_PUYI_PUPPET_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 			expire = "2165.1.1"
@@ -1047,13 +1047,13 @@ AOG_setup_puppet_pujie = {
 	if = {
 		limit = { has_completed_focus = LEP_krupp_victory }
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
@@ -1062,13 +1062,13 @@ AOG_setup_puppet_pujie = {
 	else_if = {
 		limit = { has_country_flag = LEP_AOG_rule }
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -1076,13 +1076,13 @@ AOG_setup_puppet_pujie = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "2165.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Pujie"
+			name = "Пуцзе"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 			expire = "2165.1.1"
 			ideology = junta_subtype
@@ -1094,13 +1094,13 @@ AOG_setup_puppet_yuxun = {
 	if = {
 		limit = { has_completed_focus = LEP_krupp_victory }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
@@ -1109,13 +1109,13 @@ AOG_setup_puppet_yuxun = {
 	else_if = {
 		limit = { has_country_flag = LEP_AOG_rule }
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "1.1.1"
 			ideology = autocratic_colonial_govt_subtype
@@ -1123,13 +1123,13 @@ AOG_setup_puppet_yuxun = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "2165.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "2165.1.1"
 			ideology = junta_subtype
@@ -1141,14 +1141,14 @@ AOG_setup_puppet_keding = {
 	if = {
 		limit = { has_completed_focus = LEP_krupp_victory }
 		create_country_leader = {
-			name = "Yuan Keding"
+			name = "Юань Кединг"
 			desc = "POLITICS_YUAN_KEDING_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Yuan_Keding.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Yuan Keding"
+			name = "Юань Кединг"
 			desc = "POLITICS_YUAN_KEDING_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Yuan_Keding.png"
 			expire = "1.1.1"
@@ -1157,14 +1157,14 @@ AOG_setup_puppet_keding = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Yuan Keding"
+			name = "Юань Кединг"
 			desc = "POLITICS_YUAN_KEDING_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Yuan_Keding.png"
 			expire = "1.1.1"
 			ideology = colonial_govt_subtype
 		}
 		create_country_leader = {
-			name = "Yuan Keding"
+			name = "Юань Кединг"
 			desc = "POLITICS_YUAN_KEDING_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Yuan_Keding.png"
 			expire = "1.1.1"
@@ -1182,29 +1182,29 @@ AOG_setup_chinesisches_kaiserreich = {
 		}
 		clr_country_flag = AOG_willyii_gang
 		create_country_leader = {
-			name = "Weilian "
+			name = "Вэйлянь "
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_III.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Weilian "
+			name = "Вэйлянь "
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_III.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 	}
 	else_if = {
-		limit = { has_global_flag = Wilhelm_II_Dead }
+		limit = { has_global_flag = wilhelmiided }
 		clr_country_flag = AOG_willyii_gang
 		create_country_leader = {
-			name = "Weilian "
+			name = "Вэйлянь "
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_III.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_country_leader = {
-			name = "Weilian "
+			name = "Вэйлянь "
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_III.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -1214,14 +1214,14 @@ AOG_setup_chinesisches_kaiserreich = {
 		limit = { has_completed_focus = LEP_krupp_victory }
 		set_country_flag = AOG_willyii_gang
 		create_country_leader = {
-			name = "Weilian"
+			name = "Вэйлянь"
 			desc = "POLITICS_WILHELM_II_CHINA_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_II.png"
 			expire = "1.1.1"
 			ideology = corporatocracy_subtype
 		}
 		create_country_leader = {
-			name = "Weilian"
+			name = "Вэйлянь"
 			desc = "POLITICS_WILHELM_II_CHINA_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_II.png"
 			expire = "1.1.1"
@@ -1231,14 +1231,14 @@ AOG_setup_chinesisches_kaiserreich = {
 	else = {
 		set_country_flag = AOG_willyii_gang
 		create_country_leader = {
-			name = "Weilian"
+			name = "Вэйлянь"
 			desc = "POLITICS_WILHELM_II_CHINA_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_II.png"
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 		}
 		create_country_leader = {
-			name = "Weilian"
+			name = "Вэйлянь"
 			desc = "POLITICS_WILHELM_II_CHINA_DESC"
 			picture = "gfx/leaders/AOG/Portrait_AOG_Wilhelm_II.png"
 			expire = "1.1.1"

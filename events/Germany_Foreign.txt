@@ -5156,9 +5156,9 @@ country_event = { # Poland invited to the Völkerbund
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = PLC_foreign_policy
-						option = PLC_FOREIGN_POLICY_NEUTRAL
+				has_game_rule = {
+					rule = PLC_foreign_policy
+					option = PLC_FOREIGN_POLICY_NEUTRAL
 					}
 					has_game_rule = {
 						rule = PLC_foreign_policy
@@ -5375,8 +5375,8 @@ country_event = { # kaisergipfel time
 			  if = {
 				limit = {
 				  AUS = {
-					has_country_leader = { name = "Karl I" ruling_only = yes }
-					has_country_leader = { name = "Otto I" ruling_only = yes }
+					has_country_leader = { name = "Карл I" ruling_only = yes }
+					has_country_leader = { name = "Отто I" ruling_only = yes }
 						}
 					}
 				}
@@ -5741,7 +5741,7 @@ country_event = { # pan europa time
 		every_state = {
 			limit = {
 				OR = {
-					is_on_continent = europe
+				is_on_continent = europe
 					region = 134
 				}
 			}

@@ -72,22 +72,22 @@ focus_tree = {
 			add_war_support = 0.05
 			random_owned_controlled_state = {
 				create_unit = {
-					division = "name = \"7-ma Lvivska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+					division = "name = \"7-ма Львівська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 					allow_spawning_on_enemy_provs = yes
 					owner = WSU
 				}
 				create_unit = {
-					division = "name = \"8-ma Sambirska bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+					division = "name = \"8-ма Самбірська бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 					allow_spawning_on_enemy_provs = yes
 					owner = WSU
 				}
 				create_unit = {
-					division = "name = \"9-ta Belzka bryhada\" division_template = \"Ukrainska Halytska Armiia\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+					division = "name = \"9-та Белзька бригада\" division_template = \"Українська Галицька Армія\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 					allow_spawning_on_enemy_provs = yes
 					owner = WSU
 				}
 				create_unit = {
-					division = "name = \"2-i polk USS\" division_template = \"Halytskyi korpus Sichovykh Striltsiv\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
+					division = "name = \"2-й полк УСС\" division_template = \"Галицький корпус Січових Стрільців\" start_experience_factor = 0.2 start_equipment_factor = 0.95"
 					allow_spawning_on_enemy_provs = yes
 					owner = WSU
 				}				
@@ -465,15 +465,15 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: WSU_Reclaim_Kyiv"
 			hidden_effect = { 
-				add_ideas = WSU_UKR_war 
+				add_ideas = WSU_UKR_war
 				if = {
 					limit = {
 						var:202.owner = { is_ukrainian_tag = yes }
 					}
-					var:202.owner = {
-						every_owned_state = {
-							limit = { is_core_of = PREV }
-							add_claim_by = WSU
+				var:202.owner = {
+					every_owned_state = {
+						limit = { is_core_of = PREV }
+						add_claim_by = WSU
 						}
 					}
 				}
@@ -482,9 +482,9 @@ focus_tree = {
 				limit = {
 					var:202.owner = { is_ukrainian_tag = yes }
 				}
-				declare_war_on = {
-					target = 202.owner
-					type = annex_everything
+			declare_war_on = {
+				target = 202.owner
+				type = annex_everything
 				}
 			}
 		}

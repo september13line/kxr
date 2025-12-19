@@ -224,21 +224,21 @@ country_event = {#Founding of the Czechoslovak Colony in Togo
 		}
 		TOG = {
 			create_country_leader = {
-				name = "Alois Bohdan Brixius"
+				name = "Алоис Богдан Бриксиус"
 				desc = "POLITICS_BOHDAN_BRIXIUS_DESC"
 				picture = "gfx/leaders/CZE/CZE_Alois_Bohdan_Brixius.png"
 				expire = "1.1.1"
 				ideology = colonial_govt_subtype
 			}
 			create_country_leader = {
-				name = "Alois Bohdan Brixius"
+				name = "Алоис Богдан Бриксиус"
 				desc = "POLITICS_BOHDAN_BRIXIUS_DESC"
 				picture = "gfx/leaders/CZE/CZE_Alois_Bohdan_Brixius.png"
 				expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype
 			}
 			create_country_leader = {
-				name = "Alois Bohdan Brixius"
+				name = "Алоис Богдан Бриксиус"
 				desc = "POLITICS_BOHDAN_BRIXIUS_DESC"
 				picture = "gfx/leaders/CZE/CZE_Alois_Bohdan_Brixius.png"
 				expire = "1.1.1"
@@ -345,7 +345,7 @@ country_event = {#Death of T.G. Masaryk
 		}
 		
 		create_country_leader = {
-			name = "Edvard Beneš"
+			name = "Эдвард Бенеш"
 			desc = "POLITICS_EDVARD_BENES_DESC"
 			picture = "gfx/leaders/CZE/CZE_Edvard_Benes.png"
 			expire = "1.1.1"
@@ -390,7 +390,7 @@ country_event = {#Death of T.G. Masaryk
 			}
 		
 			country_event = {
-				id = bdeczenews.4 #Death of T.G. Masaryk
+				id = bdeczenews.4 #Death of Томаш Гарриг Масарик
 				days = 7
 				random = 256
 			}
@@ -420,7 +420,7 @@ country_event = {#Candidate for the National Democrats, dont forget about Vlajka
 	option = { #Frantisek Mares!
 		name = bdeboh.2.a
 		create_country_leader = {
-			name = "František Mareš"
+			name = "Франтишек Мареш"
 			desc = "POLITICS_FRANTISEK_MARES_DESC"
 			picture = "gfx/leaders/CZE/CZE_Frantisek_Mares.png"
 			expire = "1.1.1"
@@ -450,7 +450,7 @@ country_event = {#Candidate for the Social Democrats
 	option = { #Antonin Hampl!
 		name = bdeboh.3.a
 		create_country_leader = {
-			name = "Antonín Hampl"
+			name = "Антонин Гампл"
 			desc = "POLITICS_ANTONIN_HAMPL_DESC"
 			picture = "gfx/leaders/CZE/CZE_Antonin_Hampl.png"
 			expire = "1.1.1"
@@ -477,10 +477,10 @@ country_event = {#Candidate for the Agrarians
 
 	is_triggered_only = yes
 
-	option = { #Jan Malypetr!
+	option = { #Ян Малипетр!
 		name = bdeboh.4.a
 		create_country_leader = {
-			name = "Jan Malypetr"
+			name = "Ян Малипетр"
 			desc = "POLITICS_JAN_MALYPETR_DESC"
 			picture = "gfx/leaders/CZE/Portrait_CZE_Jan_Malypetr.png"
 			expire = "1.1.1"
@@ -489,7 +489,7 @@ country_event = {#Candidate for the Agrarians
 		set_country_flag = CZE_malypetr
 	}
 	
-	option = { #Rudolf Beran!
+	option = { #Рудольф Беран!
 		name = bdeboh.4.b
 		set_country_flag = CZE_beran
 	}
@@ -636,7 +636,7 @@ country_event = {#Election results are in!
 				random = 96
 			}
 			country_event = {
-				id = bdeczeflavor.46 #Vojta Beneš Resigns
+				id = bdeczeflavor.46 #Войта Бенеш Resigns
 				days = 7
 				random = 256
 			}
@@ -884,8 +884,8 @@ country_event = {#Election results are in!
 						# days = 25
 						# random = 48
 					# }
+					# }
 				# }
-			# }
 		}
 	}
 	
@@ -1097,7 +1097,7 @@ country_event = {#The Next King
 
 	is_triggered_only = yes
 
-	option = { #Maximilian I von Lobkowicz
+	option = { #Максимилиан I von Lobkowicz
 		name =  bdeboh.9.a
 		ai_chance = {
 			factor = 50
@@ -1168,7 +1168,7 @@ country_event = {#Crowning of the King of Bohemia
 				popularity = 0.15
 			}
 			create_country_leader = {
-				name = "Adolph I"
+				name = "Адольф I"
 				desc = "POLITICS_ADOLF_SCHWARZENBERG_DESC"
 				picture = "gfx/leaders/CZE/CZE_Adolph_Schwarzenberg.png"
 				expire = "1.1.1"
@@ -1192,7 +1192,7 @@ country_event = {#Crowning of the King of Bohemia
 				popularity = 0.15
 			}
 			create_country_leader = {
-				name = "Maximilian I"
+				name = "Максимилиан I"
 				desc = "POLITICS_MAX_LOBKOWICZ_DESC"
 				picture = "gfx/leaders/CZE/CZE_Max_Lobkowicz.png"
 				expire = "1.1.1"
@@ -1240,7 +1240,7 @@ country_event = {#Hus' Coup
 				ruling_party = social_democrat
 			}
 			create_country_leader = {
-				name = "Frantisek Michalek Bartos"
+				name = "Франтишек Михалек Бартош"
 				desc = "POLITICS_BARTOS_DESC"
 				picture = "gfx/leaders/CZE/CZE_Frantisek_Michalek_Bartos.png"
 				expire = "1.1.1"
@@ -1262,7 +1262,7 @@ country_event = {#Hus' Coup
 				ruling_party = paternal_autocrat
 			}
 			create_country_leader = {
-				name = "Gustav Adolf Procházka"
+				name = "Густав Адольф Прохазка"
 				desc = "POLITICS_PROZCHAZKA_DESC"
 				picture = "gfx/leaders/CZE/CZE_Gustav_Adolf_Prochazka.png"
 				expire = "1.1.1"
@@ -1578,7 +1578,7 @@ country_event = {#Agrarian Candidacy
 
 	is_triggered_only = yes
 
-	option = { #Jan Malypetr
+	option = { #Ян Малипетр
 		name = bdecze.1.a
 		ai_chance = {
 			factor = 50
@@ -1626,7 +1626,7 @@ country_event = {#National Socialist Candidacy
 
 	is_triggered_only = yes
 
-	option = { #Edvard Beneš
+	option = { #Эдвард Бенеш
 		name = bdecze.2.a
 		ai_chance = {
 			factor = 50
@@ -1640,7 +1640,7 @@ country_event = {#National Socialist Candidacy
 		}
 	}
 	
-	option = { #Jan Masaryk
+	option = { #Ян Масарик
 		name = bdecze.2.b
 		ai_chance = {
 			factor = 50
@@ -1956,7 +1956,7 @@ country_event = {#The Party of Moderate Progress Makes a Bid
 	option = { #Do they take this seriously?
 		name = bdecze.8.a
 		create_country_leader = {
-			name = "Jaroslav Hašek"
+			name = "Ярослав Гашек"
 			desc = "POLITICS_JAROSLAV_HASEK_DESC"
 			picture = "gfx/leaders/CZE/CZE_Jaroslav_Hasek.png"
 			expire = "1.1.1"
@@ -2025,7 +2025,7 @@ country_event = {#Election of 1942
 					}
 				}
 				create_country_leader = {
-					name = "Antonín Hampl"
+					name = "Антонин Гампл"
 					desc = "POLITICS_ANTONIN_HAMPL_DESC"
 					picture = "gfx/leaders/CZE/CZE_Antonin_Hampl.png"
 					expire = "1.1.1"
@@ -2039,7 +2039,7 @@ country_event = {#Election of 1942
 				}
 				else = {
 					create_country_leader = {
-						name = "Vojta Beneš"
+						name = "Войта Бенеш"
 						desc = "POLITICS_VOJTA_BENES_DESC"
 						picture = "gfx/leaders/CZE/CZE_Vojta_Benes.png"
 						expire = "1.1.1"
@@ -2091,7 +2091,7 @@ country_event = {#Election of 1942
 			}
 			else = {
 				create_country_leader = {
-					name = "Jan Masaryk"
+					name = "Ян Масарик"
 					desc = "POLITICS_JAN_MASARYK_DESC"
 					picture = "gfx/leaders/CZE/CZE_Jan_Masaryk.png"
 					expire = "1.1.1"
@@ -2132,7 +2132,7 @@ country_event = {#Election of 1942
 				has_country_flag = CZE_milanhodza
 			}
 			create_country_leader = {
-				name = "Milan Hodža"
+				name = "Милан Годжа"
 				desc = "POLITICS_MILAN_HODZA_DESC"
 				picture = "gfx/leaders/CZE/CZE_Milan_Hodza.png"
 				expire = "1.1.1"
@@ -2147,7 +2147,7 @@ country_event = {#Election of 1942
 			}
 			else = {
 				create_country_leader = {
-					name = "Jan Malypetr"
+					name = "Ян Малипетр"
 					desc = "POLITICS_JAN_MALYPETR_DESC"
 					picture = "gfx/leaders/CZE/Portrait_CZE_Jan_Malypetr.png"
 					expire = "1.1.1"
@@ -2227,7 +2227,7 @@ country_event = {#Election of 1942
 				CZE_Frantisek_Hodac_sec_ade
 			}
 			create_country_leader = {
-				name = "Jiří Stříbrný"
+				name = "Иржи Стржибрны"
 				desc = "POLITICS_JIRI_STRIBRNY_DESC"
 				picture = "gfx/leaders/CZE/CZE_Jiri_Stribrny.png"
 				expire = "1.1.1"
@@ -2250,7 +2250,7 @@ country_event = {#Election of 1942
 		set_country_flag = CZE_election_2
 		hidden_effect = {
 			create_country_leader = {
-				name = "Jiří Stříbrný"
+				name = "Иржи Стржибрны"
 				desc = "POLITICS_JIRI_STRIBRNY_DESC"
 				picture = "gfx/leaders/CZE/CZE_Jiri_Stribrny.png"
 				expire = "1.1.1"
@@ -2476,7 +2476,7 @@ country_event = {#Death of Gustav Adolf Prochazka (Hussite HoG - 1942)
 			remove_ideas = CZE_Frantisek_Kovar_hog_sde
 			add_ideas = CZE_Miroslav_Novak_hog_sde
 			create_country_leader = {
-				name = "František Kovář"
+				name = "Франтишек Коварж"
 				desc = "POLITICS_KOVAR_DESC"
 				picture = "gfx/leaders/Fra/Frantisek_Kovar.png"
 				expire = "1.1.1"
@@ -2573,7 +2573,7 @@ country_event = {#Zapotocky's Coup
 			leave_faction = yes
 		}
 		create_country_leader = {
-			name = "Antonín Zápotocký"
+			name = "Антонин Запотоцкий"
 			desc = "POLITICS_ZAPOTOCKY_DESC"
 			picture = "gfx/leaders/CZE/CZE_Antonin_Zapotocky.png"
 			expire = "1.1.1"
@@ -2636,7 +2636,7 @@ country_event = {#Zapotocky's Coup
 			leave_faction = yes
 		}
 		create_country_leader = {
-			name = "Luisa Landová-Štychová"
+			name = "Луиза Ландова-Стыхова"
 			desc = "POLITICS_LANDOVA_STYCHOVA_DESC"
 			picture = "gfx/leaders/CZE/CZE_Luisa_Landova_Stychova.png"
 			expire = "1.1.1"
@@ -3428,7 +3428,7 @@ country_event = {#Crumbling of the National Democratic Party (Turns AuthDem into
 			name = CZE_national_unification_party 
 		}
 		create_country_leader = {
-			name = "Rudolf Mlcoch"
+			name = "Рудольф Мичох"
 			desc = "POLITICS_RUDOLF_MLCOCH_DESC"
 			picture = "gfx/leaders/CZE/CZE_Rudolf_Mlcoch.png"
 			expire = "1.1.1"
@@ -3639,7 +3639,7 @@ country_event = { #Brother Benes (Social-Democrat school inspector)
 	}
 }
 
-country_event = { #Vojta Beneš Resigns
+country_event = { #Войта Бенеш Resigns
 	id = bdeczeflavor.46
 	title = bdeczeflavor.46.t
 	desc = bdeczeflavor.46.d
@@ -5340,7 +5340,7 @@ country_event = { #The Masaryk Line
 	
 }
 
-country_event = { #Ludwig Czech (Wenzel Jaksch too) and the DSAP denounce Czechoslovakist Ideas
+country_event = { #Людвиг Чех (Венцель Якш too) and the DSAP denounce Czechoslovakist Ideas
 	id = bdeczeflavor.85
 	title = bdeczeflavor.85.t
 	desc = bdeczeflavor.85.d
@@ -5357,7 +5357,7 @@ country_event = { #Ludwig Czech (Wenzel Jaksch too) and the DSAP denounce Czecho
 	}
 }
 
-country_event = { #Bruno Kafka and the DDLP Root for Benes (Election II)
+country_event = { #Бруно Кафка and the DDLP Root for Benes (Election II)
 	id = bdeczeflavor.86
 	title = bdeczeflavor.86.t
 	desc = bdeczeflavor.86.d
@@ -5470,7 +5470,7 @@ country_event = { #Social Democrats Critcize Welfare Slowness
 	}
 }
 
-country_event = { #The Old West in the East (Jan Masaryk Speech)
+country_event = { #The Old West in the East (Ян Масарик Speech)
 	id = bdeczeflavor.90
 	title = bdeczeflavor.90.t
 	desc = bdeczeflavor.90.d
@@ -5921,9 +5921,9 @@ country_event = { #Rys-Rozsévač: A Danger?
 			factor = 40
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = CZE_independence
-					option = CZE_INDEPENDENCE_VLAJKA
+					has_game_rule = {
+						rule = CZE_independence
+						option = CZE_INDEPENDENCE_VLAJKA
 				}
 			}
 		}
@@ -5941,10 +5941,10 @@ country_event = { #Rys-Rozsévač: A Danger?
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = CZE_independence
-						option = CZE_INDEPENDENCE_VLAJKA
-					}
+				has_game_rule = {
+					rule = CZE_independence
+					option = CZE_INDEPENDENCE_VLAJKA
+				}
 					has_game_rule = {
 						rule = CZE_independence
 						option = CZE_INDEPENDENCE_SOCDEM
@@ -6354,7 +6354,7 @@ country_event = { #Manifest der Deutsch-Böhmen
 
 	is_triggered_only = yes
 
-	option = { #Ludwig Czech the Anti-Czech? The irony...
+	option = { #Людвиг Чех the Anti-Czech? The irony...
 		name = bdeczeflavor.117.a
 		add_political_power = -30
 		hidden_effect = {
@@ -7725,7 +7725,7 @@ country_event = { #Agrarian Corruption Affair
 	}
 }
 
-country_event = { #Jan Masaryk - On Jews
+country_event = { #Ян Масарик - On Jews
 	id = bdeczeflavor.184
 	title = bdeczeflavor.184.t
 	desc = bdeczeflavor.184.d
@@ -7755,7 +7755,7 @@ country_event = { #The Inauguration Party
 	}
 }
 
-country_event = { #Another Controversial Flag - Hussites (Jan Masaryk)
+country_event = { #Another Controversial Flag - Hussites (Ян Масарик)
 	id = bdeczeflavor.186
 	title = bdeczeflavor.186.t
 	desc = bdeczeflavor.186.d
@@ -9296,7 +9296,7 @@ country_event = { #Early peace
 			has_country_flag = CZE_wonrevolution_flag
 		}
 		OR = {
-			has_war_with = AUS
+		has_war_with = AUS
 			NOT = {
 				country_exists = AUS
 			}
@@ -9961,8 +9961,8 @@ country_event = { #Rename Bratislava
 
 	option = { #Yes
 		name = bdeczefor.1000.a
-		set_province_name = { id = 9692 name = "Bratislava" }
-		1123 = { set_state_name = "Bratislava" }
+		set_province_name = { id = 9692 name = "Братислава" }
+		1123 = { set_state_name = "Братислава" }
 	}
 }
 
@@ -10074,7 +10074,7 @@ news_event = {#Czechoslovakia Earns Recognition
 	
 }
 
-news_event = {#Death of T.G. Masaryk
+news_event = {#Death of Томаш Гарриг Масарик
 	id = bdeczenews.4
 	title = bdeczenews.4.t
 	desc = bdeczenews.4.d
@@ -10153,7 +10153,7 @@ news_event = {#Frantisek Soukup elected Governor of Bohemia
 	}
 }
 
-news_event = {#Rudolf Beran elected Governor of Bohemia
+news_event = {#Рудольф Беран elected Governor of Bohemia
 	id = bdeczenews.8
 	title = bdeczenews.8.t
 	desc = bdeczenews.8.d
@@ -10170,7 +10170,7 @@ news_event = {#Rudolf Beran elected Governor of Bohemia
 	}
 }
 
-news_event = {#Jan Malypetr elected Governor of Bohemia
+news_event = {#Ян МалиПётр elected Governor of Bohemia
 	id = bdeczenews.9
 	title = bdeczenews.9.t
 	desc = bdeczenews.9.d
@@ -10254,7 +10254,7 @@ news_event = {#Frantisek Mares elected Governor of Bohemia
 	}
 }
 
-news_event = {#Jan Rys-Rozsévač's Putsch
+news_event = {#Ян Рыс-Розевач's Putsch
 	id = bdeczenews.14
 	title = bdeczenews.14.t
 	desc = bdeczenews.14.d
@@ -10358,7 +10358,7 @@ news_event = {#Milan Hodza Elected President of Czechoslovakia
 	}
 }
 
-news_event = {#Jan Masaryk Elected President
+news_event = {#Ян Масарик Elected President
 	id = bdeczenews.20
 	title = bdeczenews.20.t
 	desc = bdeczenews.20.d
@@ -10376,7 +10376,7 @@ news_event = {#Jan Masaryk Elected President
 }
 
 
-news_event = {#Rudolf Mlcoch Elected President
+news_event = {#Рудольф Мичох Elected President
 	id = bdeczenews.21
 	title = bdeczenews.21.t
 	desc = bdeczenews.21.d
@@ -10496,7 +10496,7 @@ news_event = {#Kingdom of Bohemia
 #	}
 #}
 #
-#news_event = {#Rudolf Beran Elected President
+#news_event = {#Рудольф Беран Elected President
 #	id = bdeczenews.24
 #	title = bdeczenews.24.t
 #	desc = bdeczenews.24.d

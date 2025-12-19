@@ -49,12 +49,12 @@ country_event = {
 	option = {
 		name = libya.2.a
 		create_country_leader = {
-			name = "Senussi Regency Council"
+			name = "Регентский совет Сенуси"
 			picture = "gfx/leaders/LBA/Portrait_LBA_Regency_Council.png"
 			ideology = pataut_islamism_subtype
 		}
 		create_country_leader = {
-			name = "Senussi Regency Council"
+			name = "Регентский совет Сенуси"
 			picture = "gfx/leaders/LBA/Portrait_LBA_Regency_Council.png"
 			ideology = natpop_islamism_subtype
 		}
@@ -232,42 +232,42 @@ country_event = {
 				popularity = 0.2
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
 				ideology = socdem_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
 				ideology = soclib_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
 				ideology = marlib_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
 				ideology = soccon_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
 				ideology = islamism_subtype
 			}
 			create_country_leader = {
-				name = "Idris I"
+				name = "Идрис I"
 				desc = "POLITICS_IDRIS_DESC"
 				picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 				expire = "1.1.1"
@@ -276,7 +276,7 @@ country_event = {
 		}
 
 		create_field_marshal = {
-			name = "Idris I "
+			name = "Идрис I"
 			portrait_path = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 			skill = 1
 			attack_skill = 1
@@ -353,7 +353,7 @@ country_event = {
 			set_demilitarized_zone = no
 		}
 		create_country_leader = {
-			name = "Umar al-Mukhtar"
+			name = "Омар аль-Мухтар"
 			desc = "POLITICS_MUKHTAR_DESC"
 			picture = "gfx/leaders/LBA/Portrait_LBA_Omar_Mukhtar.png"
 			expire = "1.1.1"
@@ -881,7 +881,7 @@ country_event = { #Formation of Political Parties
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Idris I"
+						name = "Идрис I"
 						ruling_only = yes
 					}
 				}
@@ -1228,7 +1228,7 @@ country_event = { #Death of al-Mukhtar
 		}
 		set_country_flag = Umar_al_Mukhtar_dead
 		create_country_leader = {
-			name = "Yousaf Borahil Al-Msmare"
+			name = "Юсуф Борахиль аль-Мсмар"
 			picture = "gfx/leaders/LBA/Portrait_LBA_Yousaf_Borahil_Al_Msmare.png"
 			ideology = natpop_islamism_subtype
 		}
@@ -1354,19 +1354,19 @@ country_event = { #Caliphate?
 				OR = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Abdülmecid II"
+						name = "Абдул-Меджид II"
 					}
 					has_country_leader = {
 						ruling_only = yes
-						name = "Ahmed IV"
+						name = "Ахмед IV"
 					}
 					has_country_leader = {
 						ruling_only = yes
-						name = "Osman IV"
+						name = "Осман IV"
 					}
 					has_country_leader = {
 						ruling_only = yes
-						name = "Ömer I"
+						name = "Омер I"
 					}
 				}
 			}
@@ -1881,12 +1881,12 @@ country_event = { #General Revolt in Fezzan
 			}
 			448 = {
 				create_unit = {
-					division = "name = \"al-Mushati\" division_template = \"Cavalry Division\"  start_experience_factor = 0.1"
+					division = "name = \"al-Mushati\" division_template = \"Кавалерийская дивизия\"  start_experience_factor = 0.1"
 					owner = "LBA"
 					prioritize_location = 10037
 				}
 				create_unit = {
-					division = "name = \"al-Mushati\" division_template = \"Cavalry Division\"  start_experience_factor = 0.1"
+					division = "name = \"al-Mushati\" division_template = \"Кавалерийская дивизия\"  start_experience_factor = 0.1"
 					owner = "LBA"
 					prioritize_location = 4117
 				}
@@ -1977,7 +1977,7 @@ country_event = { #Fall of Benghazi
 		}
 		450 = {
 			create_unit = {
-				division = "name = \"al-Mushati\" division_template = \"Cavalry Division\"  start_experience_factor = 0.1"
+				division = "name = \"al-Mushati\" division_template = \"Кавалерийская дивизия\"  start_experience_factor = 0.1"
 				owner = "LBA"
 			}
 		}

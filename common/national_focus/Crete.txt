@@ -231,8 +231,8 @@ focus_tree = {
 		icon = GFX_goal_CRE_iron_fist
 		available = {
 			OR = {
-				has_country_leader = { name = "Alexander Andrae" ruling_only = yes }
-				has_country_leader = { name = "Georg Alexander von Müller" ruling_only = yes }
+				has_country_leader = { name = "Александр Андре" ruling_only = yes }
+				has_country_leader = { name = "Георг Александр фон Мюллер" ruling_only = yes }
 			}
 		}
 		prerequisite = {
@@ -257,7 +257,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_country_leader = { name = "Alexander Andrae" ruling_only = yes }
+						has_country_leader = { name = "Александр Андре" ruling_only = yes }
 					}
 					country_event = {
 						id = crete.17
@@ -278,7 +278,7 @@ focus_tree = {
 		id = CRE_unity_govt
 		icon = GFX_goal_CRE_unity_govt
 		available = {
-			has_country_leader = { name = "Theo Osterkamp" ruling_only = yes }
+			has_country_leader = { name = "Теодор Остеркамп" ruling_only = yes }
 		}
 		prerequisite = {
 			focus = CRE_gruss_an_kiel
@@ -322,8 +322,8 @@ focus_tree = {
 		icon = GFX_goal_CRE_paratrooper_state
 		available = {
 			OR = {
-				has_country_leader = { name = "Kurt Student" ruling_only = yes }
-				has_country_leader = { name = "Richard Heidrich" ruling_only = yes }
+				has_country_leader = { name = "Курт Штудент" ruling_only = yes }
+				has_country_leader = { name = "Рихард Хайдрих" ruling_only = yes }
 			}
 		}
 		prerequisite = {
@@ -354,7 +354,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_country_leader = { name = "Richard Heidrich" ruling_only = yes }
+						has_country_leader = { name = "Рихард Хайдрих" ruling_only = yes }
 					}
 					country_event = {
 						id = crete.17
@@ -754,7 +754,7 @@ focus_tree = {
 			custom_effect_tooltip = CRE_regency_council_assembled
 			hidden_effect = {
 				create_country_leader = {
-					name = "Regency Council"
+					name = "Регентский совет"
 					desc = "POLITICS_REGENCY_CRE_DESC"
 					picture = "gfx/leaders/CRE/Portrait_Crete_Council.png"
 					expire = "1.1.1"
