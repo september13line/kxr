@@ -9836,7 +9836,7 @@ country_event = { # Feds appointed
 
 	fire_only_once = yes
 
-	option = { # Джон Джейкоб Эстор
+	option = { # Джон Джейкоб Астор
 		name = newengland.107.a
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 35
@@ -9851,7 +9851,7 @@ country_event = { # Feds appointed
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Джон Джейкоб Эстор"
+				name = "Джон Джейкоб Астор"
 				desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_V.png"
 				expire = "1.1.1"
@@ -9888,9 +9888,29 @@ country_event = { # Feds appointed
 			}
 		}
 	}
-	
-	option = { # Гарольд Стирлинг
+	option = { # Уолдорф Астор
 		name = newengland.107.c
+		set_country_flag = NEE_FEDS_APPOINTED
+		add_political_power = 85
+		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
+		add_stability = 0.02
+		CAN = {
+		add_political_power = 40
+		add_stability = 0.03
+		add_opinion_modifier = { target = NEE modifier = small_increase }
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Уолдорф Астор"
+				picture = "gfx/leaders/NEE/Portrait_NEE_Waldorf_Astor.png"
+				expire = "1.1.1"
+				ideology = hamiltonianism_subtype
+				traits = { elite_family_ties }
+			}
+		}
+	}
+	option = { # Гарольд Стирлинг
+		name = newengland.107.e
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 20
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
@@ -9911,9 +9931,8 @@ country_event = { # Feds appointed
 			}
 		}
 	}
-	
 	option = { # Уильям Киссам Вандербильт
-		name = newengland.107.e
+		name = newengland.107.f
 		set_country_flag = NEE_FEDS_APPOINTED
 		add_political_power = 15
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
@@ -10213,13 +10232,13 @@ country_event = { # John Jacob Astor
 		add_manpower = -200
 		add_stability = -0.04
 	}
-	option = { #Usher in Джон Джейкоб Эстор
+	option = { #Usher in Джон Джейкоб Астор
 		name = newengland.1160.b
 		add_political_power = -20
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		hidden_effect = {
 			create_country_leader = {
-				name = "Джон Джейкоб Эстор"
+				name = "Джон Джейкоб Астор"
 				desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_VI.png"
 				expire = "1.1.1"
@@ -15859,7 +15878,7 @@ country_event = { # Dominionists appointed
 		}
 	}
 	
-	option = { # Корнелиус III Вандербильт
+	option = { # Vincent Astor
 		name = newengland.1060.c
 		set_country_flag = NEE_GOV_APPOINTED
 		add_political_power = 30
@@ -15884,7 +15903,6 @@ country_event = { # Dominionists appointed
 		hidden_effect = {
 			create_country_leader = {
 				name = "Винсент Астор"
-				desc = "NEE_CORNELIUS_VANDERBILT_III_DESC"
 				picture = "gfx/leaders/NEE/Portrait_NEE_Vincent_Astor_Governor_general.png"
 				expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype

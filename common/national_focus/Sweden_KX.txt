@@ -1331,7 +1331,6 @@ focus_tree = {
 				has_completed_focus = SWE_FOP_democractic_light
 				has_completed_focus = SWE_FOP_neutrality_again
 			}
-			is_in_faction = no
 		}
 		allow_branch = {
 			NOT = {
@@ -1403,7 +1402,6 @@ focus_tree = {
 				has_completed_focus = SWE_FOP_realm_of_our_own
 				has_completed_focus = SWE_FOP_neutrality_again
 			}
-			is_in_faction = no
 		}
 		allow_branch = {
 			NOT = {
@@ -1480,10 +1478,6 @@ focus_tree = {
 				has_country_flag = SWE_flag_political_mayhem
 				has_country_flag = SWE_flag_red_in_sweden
 				}
-			OR = {
-				is_in_faction = no
-				is_faction_leader = yes
-			}	
 			}
 
 		completion_reward = {
@@ -5712,6 +5706,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_socialist_government = yes
 			has_country_flag = SWE_flag_red_in_sweden
 		}		
 		allow_branch = {
@@ -5745,7 +5740,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -5803,7 +5798,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -5877,7 +5872,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -5901,7 +5896,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -5927,7 +5922,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -5971,7 +5966,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_red_in_sweden
+			has_socialist_government = yes
 		}		
 		
 		completion_reward = {
@@ -6000,6 +5995,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = radical_socialist
 			has_country_flag = SWE_flag_radsoc_victory
 		}		
 		
@@ -6028,7 +6024,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6058,7 +6054,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6092,8 +6088,8 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
-		}		
+			has_government = radical_socialist
+		}	
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_internationale_aid"
@@ -6126,8 +6122,8 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
-		}		
+			has_government = radical_socialist
+		}	
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_marxism_maintained"
@@ -6154,7 +6150,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6180,7 +6176,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6235,7 +6231,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6262,7 +6258,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6292,7 +6288,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6334,7 +6330,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6367,7 +6363,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6413,7 +6409,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6446,7 +6442,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6497,7 +6493,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6527,7 +6523,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = radical_socialist
 		}		
 		
 		completion_reward = {
@@ -6559,6 +6555,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = syndicalist
 			has_country_flag = SWE_flag_syndie_victory
 		}		
 		
@@ -6584,7 +6581,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -6607,7 +6604,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -6636,7 +6633,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6676,7 +6673,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6714,7 +6711,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6780,7 +6777,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6806,7 +6803,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -6835,7 +6832,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6863,8 +6860,8 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
-		}		
+			has_government = syndicalist
+		}	
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_working_week_plan"
@@ -6887,7 +6884,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6929,7 +6926,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6957,7 +6954,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -6999,7 +6996,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7031,7 +7028,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_syndie_victory
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7065,6 +7062,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = syndicalist
 			has_country_flag = SWE_flag_central_syndie
 		}			
 		
@@ -7087,7 +7085,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7111,7 +7109,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7138,7 +7136,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7188,7 +7186,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -7224,7 +7222,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7256,7 +7254,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7290,7 +7288,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -7315,7 +7313,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}	
 		
 		completion_reward = {
@@ -7346,7 +7344,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7371,7 +7369,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7396,7 +7394,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7421,7 +7419,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7448,8 +7446,8 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
-		}		
+			has_government = syndicalist
+		}	
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_central_planning"
@@ -7479,7 +7477,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7504,7 +7502,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_central_syndie
+			has_government = syndicalist
 		}		
 		
 		completion_reward = {
@@ -7563,6 +7561,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_flyg_victory
 		}		
 		allow_branch = {
@@ -7604,6 +7603,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_flyg_victory
 			NOT = {
 				OR = {
@@ -7636,6 +7636,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_flyg_victory_2
 		}		
 				
@@ -7664,6 +7665,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_flyg_victory_2
 		}		
 				
@@ -7692,7 +7694,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -7742,7 +7744,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7778,7 +7780,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7814,7 +7816,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7846,7 +7848,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7887,7 +7889,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7921,7 +7923,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -7947,7 +7949,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -7981,7 +7983,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8011,7 +8013,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8046,7 +8048,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8088,7 +8090,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_flyg_victory_2
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8128,6 +8130,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_linderot_victory
 		}		
 		allow_branch = {
@@ -8167,7 +8170,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8196,7 +8199,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8229,7 +8232,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8265,8 +8268,8 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_linderot_broad
-			has_country_flag = SWE_flag_linderot_victory
 		}		
 				
 		completion_reward = {
@@ -8294,7 +8297,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 			has_country_flag = SWE_flag_linderot_narrow
 		}		
 				
@@ -8322,7 +8325,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8349,7 +8352,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8379,7 +8382,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 			}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_controlling_the_economy"
@@ -8455,7 +8458,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8504,7 +8507,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8534,7 +8537,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8563,7 +8566,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8605,7 +8608,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8680,7 +8683,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8712,7 +8715,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8741,7 +8744,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 				
 		completion_reward = {
@@ -8768,7 +8771,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-			has_country_flag = SWE_flag_linderot_victory
+			has_government = totalist
 		}		
 			
 		completion_reward = {
@@ -8817,6 +8820,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
+			has_government = totalist
 			has_country_flag = SWE_flag_lindholm_tot
 		}		
 		allow_branch = {
@@ -8853,7 +8857,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -8904,7 +8908,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -8929,7 +8933,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -8954,7 +8958,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -8981,7 +8985,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9057,7 +9061,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9085,7 +9089,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9111,7 +9115,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9139,7 +9143,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9162,7 +9166,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9186,7 +9190,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9209,7 +9213,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9237,7 +9241,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9264,7 +9268,7 @@ focus_tree = {
 			factor = 80 
 		}
 		available = {
-
+			has_government = totalist
 		}		
 		
 		completion_reward = {
@@ -9305,6 +9309,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			has_country_flag = SWE_flag_military_steps_in
 		}
 		allow_branch = {
@@ -9335,7 +9340,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
-
+			has_authoritarian_government = yes
 		}
 		
 		completion_reward = {
@@ -9358,7 +9363,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
-
+			has_authoritarian_government = yes
 		}
 		
 		completion_reward = {
@@ -9416,6 +9421,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			has_completed_focus = SWE_bring_loyal_businesses
 			has_completed_focus = SWE_crackdown_demonstrations
 		}
@@ -9444,7 +9450,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
-
+			has_authoritarian_government = yes
 		}
 		
 		completion_reward = {
@@ -9467,6 +9473,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_government = paternal_autocrat
 			has_country_flag = SWE_flag_jung_junta
 		}
 		allow_branch = {
@@ -9510,6 +9517,7 @@ focus_tree = {
 			}
 		}
 		available = {
+			has_government = national_populist
 			has_country_flag = SWE_flag_archibald_winning
 		}
 		
@@ -9544,6 +9552,7 @@ focus_tree = {
 			}
 		}
 		available = {
+			has_government = authoritarian_democrat
 			has_country_flag = SWE_flag_authdem_junta
 		}
 		
@@ -9570,6 +9579,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			OR = {
 				has_country_flag = SWE_flag_archibald_winning
 				has_country_flag = SWE_flag_jung_junta
@@ -9601,6 +9611,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			OR = {
 				has_country_flag = SWE_flag_archibald_winning
 				has_country_flag = SWE_flag_jung_junta
@@ -9635,6 +9646,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			OR = {
 				has_country_flag = SWE_flag_authdem_junta
 				has_country_flag = SWE_flag_jung_junta
@@ -9671,6 +9683,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = { 
+			has_authoritarian_government = yes
 			OR = {
 				has_country_flag = SWE_flag_authdem_junta
 				has_country_flag = SWE_flag_jung_junta
@@ -9792,7 +9805,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -9824,7 +9836,6 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -9853,7 +9864,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -9901,7 +9911,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -9927,7 +9936,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -9966,7 +9974,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -10013,7 +10020,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 			NOT = {
@@ -10044,7 +10050,6 @@ focus_tree = {
 		}
 
 		available = {
-					has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 
 				has_country_flag = SWE_flag_crown_restored
 		}
@@ -10074,7 +10079,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_country_flag = SWE_flag_no_elmo_nats
 			has_government = national_populist 		
 		
 		}
@@ -10137,7 +10141,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10168,7 +10172,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10205,7 +10209,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10248,7 +10252,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10270,7 +10274,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10297,7 +10301,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10335,7 +10339,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 		}
 		
 		completion_reward = {
@@ -10372,7 +10376,7 @@ focus_tree = {
 		}
 
 		available = { 
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 			NOT = {
 				has_country_flag = SWE_flag_axel_here
 			}
@@ -10414,10 +10418,8 @@ focus_tree = {
 		}
 
 		available = { 
-			AND = {
-			has_country_flag = SWE_flag_jung_junta
+			has_government = paternal_autocrat
 			has_country_flag = SWE_flag_axel_here
-			}
 		}
 		
 		completion_reward = {
@@ -10451,6 +10453,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10477,6 +10480,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10561,6 +10565,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10588,6 +10593,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10610,6 +10616,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10636,6 +10643,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10662,6 +10670,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10708,6 +10717,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10740,6 +10750,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 			NOT = {
 				has_country_flag = SWE_flag_crown_restored
 			}
@@ -10772,6 +10783,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 			has_country_flag = SWE_flag_crown_restored
 		}
 		
@@ -10804,6 +10816,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = authoritarian_democrat
 		}
 		
 		completion_reward = {
@@ -10881,6 +10894,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -10909,6 +10923,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -10960,6 +10975,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -10989,6 +11005,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11014,6 +11031,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11040,6 +11058,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11078,6 +11097,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11104,6 +11124,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11168,6 +11189,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11196,6 +11218,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11242,6 +11265,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11273,6 +11297,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11300,6 +11325,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11377,6 +11403,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11402,6 +11429,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_government = national_populist
 		}
 		
 		completion_reward = {
@@ -11879,13 +11907,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_tank_research"
 		add_doctrine_cost_reduction = {
-			name = SWE_archies_doctrine
+			name = land_doc_bonus
 			cost_reduction = 0.5
 			uses = 2
 			category = land_doctrine
 		}			
 		add_tech_bonus = {
-			name = SWE_import_foreign_spec
+			name = armor_bonus
 			bonus = 0.5
 			uses = 1
 			ahead_reduction = 2
@@ -12330,7 +12358,7 @@ focus_tree = {
 			army_experience = 80
 			add_command_power = 50
 		add_doctrine_cost_reduction = {
-			name = SWE_olof_doctrine
+			name = land_doc_bonus
 			cost_reduction = 0.8
 			uses = 2
 			category = land_doctrine
