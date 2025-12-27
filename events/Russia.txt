@@ -6639,8 +6639,8 @@ country_event = { #Snap elections 1936
 				news_event = {
 					id = russianews.17
 					days = 5
-				}
-			}
+		}
+		}
 		}
 	}
 	option = { #RSDRP victory
@@ -6655,7 +6655,7 @@ country_event = { #Snap elections 1936
 			OR = {
 				RUS_wide_popular_front_victory_in_elections = yes
 				RUS_popular_front_victory_in_elections = yes
-				RUS_rsdrp_victory_in_elections = yes
+			RUS_rsdrp_victory_in_elections = yes
 				AND = {
 					has_game_rule = {
 						rule = RUS_post_assassination
@@ -6670,7 +6670,7 @@ country_event = { #Snap elections 1936
 					}
 					is_ai = yes
 				}
-			}
+		}
 		}
 		ai_chance = {
 			factor = 30
@@ -50231,19 +50231,19 @@ country_event = { #Country wants their claims back
 				has_socialist_government = no
 			}
 		}
-		if = {
-			limit = { has_country_flag = soviet_russia_restored }
-			SOV_puppet_FROM_effect = yes
-		}
-		else = {
-			add_to_faction = FROM
-		}
-		every_owned_state = {
-			limit = { is_claim_or_core_of_FROM = yes }
-			transfer_state_to = FROM
 			if = {
-				limit = { is_claimed_by = ROOT }
-				remove_claim_by = ROOT
+				limit = { has_country_flag = soviet_russia_restored }
+				SOV_puppet_FROM_effect = yes
+			}
+			else = {
+			add_to_faction = FROM
+			}
+			every_owned_state = {
+				limit = { is_claim_or_core_of_FROM = yes }
+			transfer_state_to = FROM
+				if = {
+					limit = { is_claimed_by = ROOT }
+					remove_claim_by = ROOT
 			}
 		}
 		FROM = { country_event = rusfor.59 }
@@ -50288,7 +50288,7 @@ country_event = { #Russia accepts
 	is_triggered_only = yes
 
 	option = {
-		name = rusfor.59.a		
+		name = rusfor.59.a
 	}
 }
 

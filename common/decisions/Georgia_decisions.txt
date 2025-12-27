@@ -153,6 +153,7 @@ GEO_foreign_policy_decisions = {
 				NOT = { has_war_with = ROOT }
 			}
 			has_socialist_government = no
+			NOT = { has_global_flag = GER_withdrew_from_caucasus }
 		}
 
 		fire_only_once = yes
@@ -246,6 +247,13 @@ GEO_foreign_policy_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision GEO_join_internationale target: [From.GetName]"
 			set_country_flag = { flag = GEO_joining_faction days = 15 value = 1 }
 			FROM = { country_event = kx_geo.170 }
+			if = {
+				limit = {
+					FROM = { tag = RUS }
+				}
+				custom_effect_tooltip = if_FROM_agrees
+				effect_tooltip = { FROM = { SOV_puppet_ROOT_effect = yes } }
+			}
 		}
 	}
 	GEO_isolation = {
@@ -398,8 +406,24 @@ GEO_foreign_policy_decisions = {
 		}
 
 		visible = {
-			is_subject = no
 			can_declare_war_on = FROM
+			1213 = { is_owned_and_controlled_by = FROM } #Batumi
+			is_subject = no
+		}
+
+		cancel_trigger = {
+			OR = {
+				NOT = { can_declare_war_on = FROM }
+				NOT = { 1213 = { is_owned_and_controlled_by = FROM } } #Batumi
+				is_subject = yes
+				is_in_faction_with = GER
+			}
+		}
+
+		target_trigger = {
+			can_declare_war_on = FROM
+			1213 = { is_owned_and_controlled_by = FROM } #Batumi
+			is_subject = no
 		}
 
 		cost = 0
@@ -412,32 +436,10 @@ GEO_foreign_policy_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
-				enemies_strength_ratio > 0.8
-			}
-			modifier = {
-				factor = 0
-				surrender_progress > 0
-			}
-			modifier = {
-				factor = 0
-				strength_ratio = { tag = FROM ratio < 1.0 }
-			}
-			modifier = {
-				factor = 0
-				FROM = {
-					is_subject = yes
-					overlord = {
-						strength_ratio = { tag = ROOT ratio > 0.8 }
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				FROM = {
-					is_in_faction = yes
-					faction_leader = {
-						strength_ratio = { tag = ROOT ratio > 0.8 }
-					}
+				OR = {
+					ROOT_is_threatened_cautious = yes
+					FROM = { dont_start_major_faction_wars = yes }
+					FROM = { default_attack_AI_trigger_FROM = yes }
 				}
 			}
 			modifier = {
@@ -1434,9 +1436,6 @@ ABK_foreign_relations = {
 		visible = {
 			can_declare_war_on = FROM
 			is_subject = no
-			231 = { 
-				NOT = { is_owned_and_controlled_by = ROOT }
-			}
 		}
 		
 		cost = 0
@@ -1456,7 +1455,8 @@ ABK_foreign_relations = {
 			log = "[GetDateText]: [Root.GetName]: Decision ABK_attack_georgia"
 			set_country_flag = { flag = imminent_war days = 35 value = 1 }
 			setup_decision_attack_AI = yes
-			FROM = { country_event = kr.political.30 } #warning event	
+			FROM = { country_event = kr.political.30 } #warning event
+			activate_targeted_decision = { target = ROOT decision = ABK_form_greater_abkhazia }			
 		}
 
 		remove_effect = {

@@ -1552,7 +1552,7 @@ country_event = {
 		name = tram.80.b
 		trigger = {
 			OR = {
-				check_variable = { party_popularity@authoritarian_democrat > 0.24 }
+			check_variable = { party_popularity@authoritarian_democrat > 0.24 }
 				AND = {
 					has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_YUI }
 					is_ai = yes
@@ -1573,7 +1573,7 @@ country_event = {
 				autonomous_state = kr_occupied_puppet
 			}
 		}
-		hidden_effect = {
+			hidden_effect = {
 			restore_previous_government_type = yes
 			remove_all_ministers = yes
 			add_ideas = { #Restore original ministers
@@ -1582,24 +1582,24 @@ country_event = {
 				TRM_Ivan_Adrianovich_Mikhailov_eco_pau
 				TRM_Georgiy_Stark_sec_sco
 			}
-			random_other_country = {
-				news_event = {
-					id = tramnews.2
-					days = 1
+				random_other_country = {
+					news_event = {
+						id = tramnews.2
+						days = 1
+					}
 				}
 			}
-		}
 	}
 
 	option = { #Kolchak dead
 		ai_chance = {
 			factor = 70
-			modifier = { 
+			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = TRM_path 
-						option = RULE_OPTION_TRM_KOLCHAK_SECURES_POWER
+				has_game_rule = {
+					rule = TRM_path 
+					option = RULE_OPTION_TRM_KOLCHAK_SECURES_POWER
 					}
 					has_game_rule = {
 						rule = TRM_path 

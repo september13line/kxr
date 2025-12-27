@@ -1357,7 +1357,7 @@ country_event = { # Australia election event
 							ideology = socdem_humanistic_capitalism_subtype 
 							traits = { }
 						}
-					} 
+					}
 					if = { limit = { has_country_flag = AST_NZL_Lee_party }
 						create_country_leader = {
 							name = "Джон Ли"
@@ -3333,7 +3333,7 @@ country_event = {
 		}
 	}
 
-	option = { #Уолтер Нэш
+	option = { #Walter Nash
 		name = austral.109.c
 		clr_country_flag = AST_NZL_intermediate_govt
 		set_country_flag = AST_NZL_nash_party
@@ -8384,7 +8384,7 @@ country_event = { #nat replacement
 		}
 	}
 	option = {
-		name = austral.823.f
+		name = austral.823.e
 		trigger = {
 			check_variable = { 
 				var = AST_election_count
@@ -17038,7 +17038,7 @@ country_event = { #death of savage
 
 	is_triggered_only = yes
 
-	option = { #Уолтер Нэш
+	option = { #Walter Nash
 		name = nzl.64.b
 		clr_country_flag = AST_NZL_savage_party
 		set_country_flag = AST_NZL_nash_party

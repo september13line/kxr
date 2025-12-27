@@ -924,44 +924,44 @@ RUS_change_rkdp_with_pp = {
 		}
 	}
 	else = {
-		clr_country_flag = pp_banned
-		set_country_flag = rkdp_banned
-		set_country_flag = RUS_marlibs_progressives
-		clr_country_flag = RUS_marlibs_ldp
+	clr_country_flag = pp_banned
+	set_country_flag = rkdp_banned
+	set_country_flag = RUS_marlibs_progressives
+	clr_country_flag = RUS_marlibs_ldp
 		clr_country_flag = RUS_marlibs_kdp_progressives
-		# Duma seats
-		set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_vote }
-		multiply_temp_variable = { rkdp_pp_faction = 275 }
-		round_temp_variable = rkdp_pp_faction
-		subtract_from_variable = { Duma_Party_Seats^7 = rkdp_pp_faction }
-		add_to_variable = { Duma_Party_Seats^6 = rkdp_pp_faction }
-		add_to_variable = { Duma_Part_Seats^8 = Duma_Party_Seats^7 }
-		
-		# Senate seats
-		set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_senate_vote }
-		multiply_temp_variable = { rkdp_pp_faction = 25 }
-		round_temp_variable = rkdp_pp_faction
-		subtract_from_variable = { Senate_Party_General_Seats^7 = rkdp_pp_faction }
-		add_to_variable = { Senate_Party_General_Seats^6 = rkdp_pp_faction }
-		add_to_variable = { Senate_Party_General_Seats^8 = Senate_Party_General_Seats^7 }
-		
-		set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_senate_regional_vote }
-		multiply_temp_variable = { rkdp_pp_faction = 25 }
-		round_temp_variable = rkdp_pp_faction
-		subtract_from_variable = { Senate_Party_Regional_Seats^7 = rkdp_pp_faction }
-		add_to_variable = { Senate_Party_Regional_Seats^6 = rkdp_pp_faction }
-		add_to_variable = { Senate_Party_Regional_Seats^8 = Senate_Party_Regional_Seats^7 }
-		
-		remove_add_presidential_senators = yes
-		set_party_name = {
-			ideology = market_liberal
-			name = RUS_progressive_party
-			long_name = RUS_progressive_party_long
-		}
-		mp_support_calc = yes 
-		senators_support_calc = yes	
-		RUS_Get_Lower_House_Array = yes
-		RUS_Get_Senate_Elections_Array = yes
+	# Duma seats
+	set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_vote }
+	multiply_temp_variable = { rkdp_pp_faction = 275 }
+	round_temp_variable = rkdp_pp_faction
+	subtract_from_variable = { Duma_Party_Seats^7 = rkdp_pp_faction }
+	add_to_variable = { Duma_Party_Seats^6 = rkdp_pp_faction }
+	add_to_variable = { Duma_Part_Seats^8 = Duma_Party_Seats^7 }
+	
+	# Senate seats
+	set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_senate_vote }
+	multiply_temp_variable = { rkdp_pp_faction = 25 }
+	round_temp_variable = rkdp_pp_faction
+	subtract_from_variable = { Senate_Party_General_Seats^7 = rkdp_pp_faction }
+	add_to_variable = { Senate_Party_General_Seats^6 = rkdp_pp_faction }
+	add_to_variable = { Senate_Party_General_Seats^8 = Senate_Party_General_Seats^7 }
+	
+	set_temp_variable = { rkdp_pp_faction = RUS_rkdp_percentage_senate_regional_vote }
+	multiply_temp_variable = { rkdp_pp_faction = 25 }
+	round_temp_variable = rkdp_pp_faction
+	subtract_from_variable = { Senate_Party_Regional_Seats^7 = rkdp_pp_faction }
+	add_to_variable = { Senate_Party_Regional_Seats^6 = rkdp_pp_faction }
+	add_to_variable = { Senate_Party_Regional_Seats^8 = Senate_Party_Regional_Seats^7 }
+	
+	remove_add_presidential_senators = yes
+	set_party_name = {
+		ideology = market_liberal
+		name = RUS_progressive_party
+		long_name = RUS_progressive_party_long
+	}
+	mp_support_calc = yes 
+	senators_support_calc = yes	
+	RUS_Get_Lower_House_Array = yes
+	RUS_Get_Senate_Elections_Array = yes
 	}
 }
 RUS_clear_all_coalitions = {

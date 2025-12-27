@@ -743,7 +743,7 @@ focus_tree = {
 				limit = { has_active_mission = SPR_bop_opposing_side_does_something_mission }
 				custom_override_tooltip = {
 					tooltip = SPR_increase_radicals_mission_delay_limit_by_20_tt
-					add_to_variable = { SPR.radicals_mission_duration_limit = 20 }
+				add_to_variable = { SPR.radicals_mission_duration_limit = 20 }
 				}
 			}
 			hidden_effect = {
@@ -2350,7 +2350,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_country_flag = SPR_bop_cleared_by_getting_100
+					has_country_flag = SPR_bop_cleared_by_getting_100
 						has_country_flag = SPR_martial_law_victory
 					}
 				}

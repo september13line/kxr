@@ -2130,7 +2130,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = scandinavia.20.b	
+		name = scandinavia.20.b
 			trigger = {
 				if = { 
 				limit = { 
@@ -2251,7 +2251,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = scandinavia.20.c		
+		name = scandinavia.20.c
 		trigger = {
 				if = { 
 				limit = { 
@@ -2267,11 +2267,11 @@ country_event = {
 					}
 				}
 			} else = {
-			NOT = {
-			tag = ICE			
-			}
+		NOT = {
+		tag = ICE
+		}
 
-		has_elected_government = yes		
+		has_elected_government = yes
 		}
 
 		}
@@ -2507,10 +2507,10 @@ country_event = {
 		trigger = {
 				if = { 
 				limit = { 
-					tag = SWE
+		tag = SWE
 					}		
-			OR = {
-			NOT = {
+		OR = {
+		NOT = {
 			has_country_flag = SWE_flag_red_in_sweden
 			has_cosmetic_tag = SWE_elmo_empire
 			has_cosmetic_tag = SWE_elmo_empire2
@@ -2524,7 +2524,7 @@ country_event = {
 		if = { 
 			limit = {
 				has_government = national_populist 
-			}
+		}
 		set_cosmetic_tag = SWE_EMP_2
 		} else = {
 		set_cosmetic_tag = SWE_EMP_1

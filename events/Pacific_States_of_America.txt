@@ -11377,9 +11377,9 @@ country_event = {# The U.S. has betrayed us!
 					target = CAL 
 					type = annex_everything
 				}
-			}
-			if = {
-				limit = {
+		}
+		if = {
+			limit = {
 					has_global_flag = TXS_ACW_CAL
 				}
 				USA = { 
@@ -11397,15 +11397,15 @@ country_event = {# The U.S. has betrayed us!
 			}
 			if = {
 				limit = {
-					has_global_flag = TXS_ACW_USA
-				}
-				TXS = { 
-					declare_war_on = { 
-						target = CAL 
-						type = annex_everything
-					}
+				has_global_flag = TXS_ACW_USA
+			}
+			TXS = {
+				declare_war_on = {
+				target = CAL
+				type = annex_everything
 				}
 			}
+		}
 		}
 		add_stability = -0.02
 		add_manpower = 5000

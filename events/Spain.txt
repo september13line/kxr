@@ -15440,7 +15440,7 @@ country_event = { #Faction Decision
 			template = faction_template_generic_dominance 
 			name = SPR_faction
 			icon = GFX_faction_hispanosphere
-		}
+		}		
 		set_country_flag = SPR_created_hispanosphere
 		custom_effect_tooltip = SPR_Hispanic_Faction_Invite_tt		
 	}		
@@ -15450,10 +15450,10 @@ country_event = { #Faction Decision
 			template = faction_template_generic_dominance 
 			name = SPR_faction_2
 			icon = GFX_faction_hispanosphere
-		}	
+		}		
 		set_country_flag = SPR_created_hispanosphere
 		custom_effect_tooltip = SPR_Hispanic_Faction_Invite_tt
-			
+ 
 	}		
 	option = { #No fun
 		name = sprd.1113.c 
@@ -18209,7 +18209,7 @@ country_event = { #Center BoP Reach Out to Germany
 				id = sprd.1201
 				days = 3
 				tooltip = sprd.1201.t.germany_helps
-			}
+		}
 		}
 	}
 	option = { #no
@@ -19650,13 +19650,13 @@ country_event = {
 		trigger	= { has_country_flag = SPR_maura } 
 		add_ideas = SPR_Miguel_Maura_Gamazo_hog_sco
 		}
-	}		
+			
 	option = {
 		name = sprd.3014.c
 		trigger	= { has_country_flag = SPR_aznar } 
 		add_ideas = SPR_Severiano_Aznar_hog_sco
 	}
-}
+	}
 country_event = {
 	id = sprd.3015
 	title = sprd.3015.t 
@@ -19708,7 +19708,7 @@ country_event = {
 		trigger	= { has_country_flag = SPR_sanchez } 
 		add_ideas = SPR_Lucia_Sanchez_Saornil_hog_syn
 		}
-	}		
+			
 	option = {
 		name = sprd.3016.e
 		trigger	= { has_country_flag = SPR_segui } 
@@ -19720,7 +19720,7 @@ country_event = {
 		trigger	= { has_country_flag = SPR_villaverde } 
 		add_ideas = SPR_Jose_Villaverde_hog_syn
 	}
-}
+	}
 country_event = {
 	id = sprd.3017
 	title = sprd.3017.t 
@@ -19752,13 +19752,13 @@ country_event = {
 		trigger	= { has_country_flag = SPR_calvo_sotelo } 
 		add_ideas = SPR_Jose_Calvo_Sotelo_hog_npo
 		}
-	}		
+			
 	option = {
 		name = sprd.3017.f
 		trigger	= { has_country_flag = SPR_palau } 
 		add_ideas = SPR_Francisco_Palau_hog_pau
 	}
-}
+	}
 country_event = {
 	id = sprd.4000
 	title = sprd.4000.t 
@@ -19840,13 +19840,13 @@ country_event = {
 					}
 				}
 			}
-		}
-		random_list = {
-			50 = {
+			}
+			random_list = {
+				50 = {
 				set_temp_variable = { temp_days = 14 }
 				SPR_add_days_to_radicals_mission = yes
-			}
-			50 = {
+				}
+				50 = {
 				set_temp_variable = { temp_days = -14 }
 				SPR_add_days_to_radicals_mission = yes
 			}
