@@ -2719,19 +2719,19 @@ country_event = { # HoG
 			var = EGY_pharaonism
 			value = 4
 		}
-		set_province_name = { id = 7011 name = "МемфисМемфис"}
-		set_province_name = { id = 1068 name = "ШедетШедет"}
-		set_province_name = { id = 11974 name = "АхетатенАхетатен"}
-		set_province_name = { id = 12071 name = "ФивыФивы"}
-		set_province_name = { id = 11999 name = "СиенеСиене"}
-		446 = { set_state_name = "МемфисМемфис" }
-		456 = { set_state_name = "ФивыФивы" }
-		1008 = { set_state_name = "АхетатенАхетатен" }
+		set_province_name = { id = 7011 name = "Мемфис"}
+		set_province_name = { id = 1068 name = "Шедет"}
+		set_province_name = { id = 11974 name = "Ахетатен"}
+		set_province_name = { id = 12071 name = "Фивы"}
+		set_province_name = { id = 11999 name = "Сиене"}
+		446 = { set_state_name = "Мемфис" }
+		456 = { set_state_name = "Фивы" }
+		1008 = { set_state_name = "Ахетатен" }
 		if = {
 			limit = {
 				controls_state = 453
 			}
-			set_province_name = { id = 12049 name = "ГелиополисГелиополис"}
+			set_province_name = { id = 12049 name = "Гелиополис"}
 		}
 		hidden_effect = {
 			446 = { set_state_flag = renamed_state_kemet }
