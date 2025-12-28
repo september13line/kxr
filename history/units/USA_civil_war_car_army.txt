@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Ополчение К.А.Р"
+	name = "Ополчение К.А.Р."
 	
 	division_names_group = USA_INF_01
 	regiments = {
@@ -15,7 +15,7 @@
 	}
 }
 division_template = {
-	name = "Конное ополчение К.А.Р"
+	name = "Конное ополчение К.А.Р."
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -29,7 +29,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Гарнизон К.А.Р"
+	name = "Гарнизон К.А.Р."
 	
 	division_names_group = USA_GAR_01
 	regiments = {
@@ -44,7 +44,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Пехотная дивизия К.А.Р"
+	name = "Пехотная дивизия К.А.Р."
 	
 	division_names_group = USA_INF_01
 	regiments = {
@@ -63,7 +63,7 @@ division_template = {
 	}
 }
 division_template = {# Motorized
-	name = "Моторизованная дивизия К.А.Р"
+	name = "Моторизованная дивизия К.А.Р."
 	
 	division_names_group = USA_MOT_01
 	regiments = {
@@ -77,17 +77,16 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "Горнострелковая дивизия"
+	name = "Сопротивление К.А.Р."
 	
 	division_names_group = USA_INF_01
 	
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
@@ -112,231 +111,231 @@ units = {# Army
 	division = {
 		name = "Гвардия штата Теннесси"
 		location = 12501 #Nashville
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Алабама"
 		location = 12735 #Birmingham
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Миссисипи"
 		location = 4565 #Birmingham
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Кентукки"
 		location = 12709 #Louisville
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Индиана"
 		location = 1595 #Indianapolis
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Южная Каролина"
 		location = 7527 #Columbia
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Флорида"
 		location = 10407 #Tallahassee
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Гвардия штата Северная Каролина"
 		location = 10081 #Raleigh
-		division_template = "Гарнизон К.А.Р"
+		division_template = "Гарнизон К.А.Р."
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1-я пехотная дивизия 'Дэвиса'"
 		location = 4464 #Biloxi
-		division_template = "Пехотная дивизия К.А.Р"
+		division_template = "Пехотная дивизия К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2-я пехотная дивизия 'Ублюдки Джексона'"
 		location = 12501 #Nashville
-		division_template = "Пехотная дивизия К.А.Р"
+		division_template = "Пехотная дивизия К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3-я пехотная дивизия 'Основателей'"
 		location = 12384 #Atlanta
-		division_template = "Пехотная дивизия К.А.Р"
+		division_template = "Пехотная дивизия К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "4-я пехотная дивизия 'Верные призраки'"
 		location = 7202 #Charleston
-		division_template = "Пехотная дивизия К.А.Р"
+		division_template = "Пехотная дивизия К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "5-я пехотная дивизия 'Старых добрых парней'"
 		location = 7202 #Charleston
-		division_template = "Пехотная дивизия К.А.Р"
+		division_template = "Пехотная дивизия К.А.Р."
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1-е ополчение 'Клана Джорджии'"
 		location = 12384 #Atlanta
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2-е ополчение 'Клана Миссури'"
 		location = 4569 #Saint Louis
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "3-е ополчение 'Каролинского клана'"
 		location = 10081 
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "4-е ополчение 'Флоридской белой лиги'"
 		location = 1843 #Miami
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "5-е ополчение 'Краснорубашечников'"
 		location = 7202 #Charleston
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "6-е ополчение 'Краснорубашечников'"
 		location = 7202 #Charleston
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "8-е ополчение 'Клана Индианы'"
 		location = 1595 #Indianapolis
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "9-й 'Чёрный легион' дивизия ополчения"
 		location = 1595 #Indianapolis
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "10-й 'Чёрный легион' дивизия ополчения"
 		location = 4601 #Indianapolis
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "11-й 'Чёрный легион' дивизия ополчения"
 		location = 12497 #Springfield
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "12-й 'Клан Миссисипи' дивизия ополчения"
 		location = 4565 #Jackson
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "13-й 'Сыны Кентукки' дивизия ополчения"
 		location = 6696 #Louisville
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "14-й 'Клан Алабамы' дивизия ополчения"
 		location = 860 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "15-й 'Лига белых Вирджинии' дивизия ополчения"
 		location = 9931 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "16-й 'Белая народная лига' дивизия ополчения"
 		location = 12501 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "17-й 'Защитники Свободы' дивизия ополчения"
 		location = 9931 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "18-й 'Орден 76' дивизия ополчения"
 		location = 6696 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "69-я женская дивизия"
 		location = 6696 #Alabama
-		division_template = "Ополчение К.А.Р"
+		division_template = "Ополчение К.А.Р."
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "1-я моторизованная 'Почётная' дивизия"
 		location = 12384 #Atlanta
-		division_template = "Моторизованная дивизия К.А.Р"
+		division_template = "Моторизованная дивизия К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
 	division = {
 		name = "2-я моторизованная 'Кэлхун' дивизия"
 		location = 12384 #Atlanta
-		division_template = "Моторизованная дивизия К.А.Р"
+		division_template = "Моторизованная дивизия К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -357,14 +356,14 @@ units = {# Army
 	division = {
 		name = "1-я Дивизия сопротивления Джона Смита"
 		location = 12384 #Atlanta
-		division_template = "Горнострелковая дивизия"
+		division_template = "Сопротивление К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2-е Дивизия 'Чероки'"
 		location = 12384 #Atlanta
-		division_template = "Горнострелковая дивизия"
+		division_template = "Сопротивление К.А.Р."
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}

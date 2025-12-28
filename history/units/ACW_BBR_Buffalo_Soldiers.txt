@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Ополчение Р.Ч.П"
+	name = "Ополчение Р.Ч.П."
 	division_names_group = USA_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 	}
 }
 division_template = {
-	name = "Конное ополчение Р.Ч.П"
+	name = "Конное ополчение Р.Ч.П."
 	division_names_group = USA_GAR_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -27,7 +27,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Гарнизон Р.Ч.П"
+	name = "Гарнизон Р.Ч.П."
 	division_names_group = USA_GAR_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -41,7 +41,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Пехотная дивизия Р.Ч.П"
+	name = "Пехотная дивизия Р.Ч.П."
 	division_names_group = USA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -59,7 +59,7 @@ division_template = {
 	}
 }
 division_template = {# Motorized
-	name = "Моторизованная дивизия Р.Ч.П"
+	name = "Моторизованная дивизия Р.Ч.П."
 	division_names_group = USA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -72,22 +72,21 @@ division_template = {# Motorized
 	priority = 2
 }
 division_template = {
-	name = "Горнострелковая дивизия"
+	name = "Сопротивление Р.Ч.П."
 	division_names_group = USA_INF_01
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Кавалерийская дивизия Р.Ч.П"
+	name = "Кавалерийская дивизия Р.Ч.П."
 	division_names_group = USA_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -100,18 +99,18 @@ division_template = {
 	}
 }
 
-units = {# Ополчение Р.Ч.П
+units = {# Ополчение Р.Ч.П.
 	division = {
 		name = "1st 'Du Bois' Cavalry"
 		location = 7527 #Columbia
-		division_template = "Кавалерийская дивизия Р.Ч.П"
+		division_template = "Кавалерийская дивизия Р.Ч.П."
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "2nd 'Roosevelt' Cavalry"
 		location = 10407 #Tallahassee
-		division_template = "Кавалерийская дивизия Р.Ч.П"
+		division_template = "Кавалерийская дивизия Р.Ч.П."
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
