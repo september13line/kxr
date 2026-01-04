@@ -203728,9 +203728,61 @@ head_of_government = { ### Head of Government ###
 	}
 
 	chief_of_staff = { ### Chief of Staff ###
+		SWE_Ragnar_Skotte_cos_rso = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Ragnar_Skotte_cos_rso"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_manoeuvre
+			}
+			cancel_if_invalid = yes
+		}
+
+		SWE_Karl_Kalle_Ernstedt_cos_rso = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Karl_Kalle_Ernstedt_cos_rso"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_mass_combat
+			}
+			cancel_if_invalid = yes
+		}
+
+		SWE_Anders_Gustavsson_cos_syn = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Anders_Gustavsson_cos_syn"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_defence
+			}
+			cancel_if_invalid = yes
+		}
+		
 		SWE_Ernst_af_Klercker_cos_mli = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+			}
 			visible = {
 				NOT = { has_country_flag = Ernst_af_Klercker_dead }
 			}
@@ -203746,9 +203798,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Olof_Thoernell_cos_sco = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Olof_Thoernell_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Olof_Thoernell_cos_sco"
@@ -203762,9 +203817,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Oscar_Nygren_cos_ade = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Oscar_Nygren_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Oscar_Nygren_cos_ade"
@@ -203778,9 +203836,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Per_Sylvan_cos_ade = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Per_Sylvan_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Per_Sylvan_cos_ade"
@@ -203794,9 +203855,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Carl_August_Ehrensvaerd_cos_ade = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Carl_August_Ehrensvaerd_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Carl_August_Ehrensvaerd_cos_ade"
@@ -203810,9 +203874,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Axel_Rappe_cos_pau = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Axel_Rappe_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Axel_Rappe_cos_pau"
@@ -203826,7 +203893,16 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Martin_Ekstroem_cos_npo = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				if = {
+					limit = {
+						has_country_flag = SWE_flag_reaction_join_lindholm_tot
+					}
+					has_country_flag = SWE_flag_red_in_sweden
+				} else = {
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+				}
+			}
 			visible = {
 				NOT = { has_country_flag = Martin_Ekstroem_dead }
 			}
@@ -203843,6 +203919,57 @@ head_of_government = { ### Head of Government ###
 	}
 
 	chief_of_army = { ### Chief of Army ###
+		SWE_Ragnar_Skotte_carm_rso = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Ragnar_Skotte_carm_rso"
+			}
+			traits = {
+				chief_of_army
+				carm_decisive_battle_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		SWE_Karl_Kalle_Ernstedt_carm_rso = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Karl_Kalle_Ernstedt_carm_rso"
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+
+		SWE_Anders_Gustavsson_carm_syn = {
+			allowed = { original_tag = SWE }
+			available = { 
+			}
+			visible = {
+				has_country_flag = SWE_flag_red_in_sweden 
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Anders_Gustavsson_carm_syn"
+			}
+			traits = {
+				chief_of_army
+				carm_static_defence_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+	
 		SWE_Axel_Bredberg_carm_sli = {
 			allowed = { original_tag = SWE }
 			available = { }
@@ -203861,9 +203988,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Olof_Thoernell_carm_sco = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Olof_Thoernell_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Olof_Thoernell_carm_sco"
@@ -203877,9 +204007,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Oscar_Nygren_carm_ade = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Oscar_Nygren_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Oscar_Nygren_carm_ade"
@@ -203909,9 +204042,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Axel_Rappe_carm_pau = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Axel_Rappe_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Axel_Rappe_carm_pau"
@@ -203925,9 +204061,12 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Helge_Jung_carm_pau = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Helge_Jung_dead }
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea SWE_Helge_Jung_carm_pau"
@@ -203941,7 +204080,16 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Martin_Ekstroem_carm_npo = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				if = {
+					limit = {
+						has_country_flag = SWE_flag_reaction_join_lindholm_tot
+					}
+					has_country_flag = SWE_flag_red_in_sweden
+				} else = {
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+				}
+			}
 			visible = {
 				NOT = { has_country_flag = Martin_Ekstroem_dead }
 			}
@@ -203957,7 +204105,16 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Archibald_Douglas_carm_npo = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				if = {
+					limit = {
+						has_country_flag = SWE_flag_reaction_join_lindholm_tot
+					}
+					has_country_flag = SWE_flag_red_in_sweden
+				} else = {
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+				}
+			}
 			visible = {
 				NOT = { has_country_flag = Archibald_Douglas_dead }
 			}
@@ -204155,7 +204312,9 @@ head_of_government = { ### Head of Government ###
 
 		SWE_Axel_Gyllenkrok_cair_npo = {
 			allowed = { original_tag = SWE }
-			available = { }
+			available = { 
+				NOT = { has_country_flag = SWE_flag_red_in_sweden }
+			}
 			visible = {
 				NOT = { has_country_flag = Axel_Gyllenkrok_dead }
 			}
