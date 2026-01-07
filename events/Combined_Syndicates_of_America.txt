@@ -21819,14 +21819,14 @@ country_event = { #
 			AND = {
 				tag = NYC
 				OR = {
-					AND = {
-						has_completed_focus = NYC_elect_steinbeck
-				        has_government = radical_socialist
-					}
-					AND = {
-						has_completed_focus = NYC_elect_welles
-				        has_government = social_democrat
-					}
+					has_country_leader = { name = "Орсон Уэллс" ruling_only = yes }
+					has_country_leader = { name = "Джон Стейнбек" ruling_only = yes }
+					has_country_leader = { name = "Дадли Филд Мэлоун" ruling_only = yes }
+					has_country_leader = { name = "Моррис Хилквит" ruling_only = yes }
+					has_country_leader = { name = "Мейер Лондон" ruling_only = yes }
+					has_country_leader = { name = "Август Клессенс" ruling_only = yes }
+					has_country_leader = { name = "Вито Маркантонио" ruling_only = yes }
+					has_country_leader = { name = "Дэшил Хэммет" ruling_only = yes }
 				}
 				owns_state = 361 #Maryland
 		        owns_state = 371 #Louisiana

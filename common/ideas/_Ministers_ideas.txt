@@ -25363,6 +25363,25 @@ ideas = {
             }
         }
 
+	AST_Douglas_Nicholls_hog_sli = {
+            allowed = { original_tag = AST }
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = head_of_gov_available
+                    always = no
+                }
+            }
+            cancel_if_invalid = no
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea AST_Douglas_Nicholls_hog_sli"
+            }
+            traits = {
+                social_liberal
+                head_of_government
+				hog_naive_optimist
+            }
+        }
+
         AST_Perl_Gibbs_hog_sde = {
             allowed = { original_tag = AST }
             available = {
