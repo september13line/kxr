@@ -6004,8 +6004,8 @@ setup_budapest_treaty = {
 					is_core_of = MNT
 					is_core_of = SER
 					is_core_of = BUL
-		}
-	}
+				}
+			}
 			transfer_state_to = RUS
 		}
 		every_state = {
@@ -6030,15 +6030,15 @@ setup_budapest_treaty = {
 	if = {
 			limit = { ROM = { has_war_with = AUS } }
 			every_state = {
-			limit = {
+				limit = {
 					OR = {
 						is_owned_by = HUN
 						is_owned_by = AUS
 						is_owned_by = TRS
-		}
+					}
 					is_core_of = ROM
 					is_controlled_by = ROM
-			}
+				}
 				transfer_state_to = ROM
 			}
 		}
@@ -6049,8 +6049,14 @@ setup_budapest_treaty = {
 			}
 			remove_puppet_and_leave_faction = yes
 			separate_peace_all_wars = yes
-			RUS = {
-				add_to_faction = PREV
+			if = {
+				limit = { both_socialist_or_both_not_socialist = yes }
+				RUS = {
+					add_to_faction = PREV
+				}
+			}
+			else = {
+				RUS = { annex_country = { target = PREV } }
 			}
 		}
 		every_other_country = {
