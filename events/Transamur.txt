@@ -1131,7 +1131,7 @@ country_event = { #
 			set_technology = { tech_assault_battalion = 1 popup = no }
 		}
 		division_template = {
-			name = "Druzhina Svyatogo Kresta"
+			name = "Дружина святого креста"
 			division_names_group = TRM_INF_01
 			regiments = {
 				elite_infantry = { x = 0 y = 0 }
@@ -1524,7 +1524,7 @@ country_event = {
 				check_variable = { CossackOrientation < 0 }
 			}
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			effect_tooltip = {
@@ -2326,7 +2326,7 @@ country_event = {
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4505,7 +4505,7 @@ country_event = { #unite with russian empire
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4540,7 +4540,7 @@ country_event = { #unite with russian empire
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4876,7 +4876,7 @@ country_event = { #russia want const monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4944,7 +4944,7 @@ country_event = { #russia want abs monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5040,7 +5040,7 @@ country_event = { #diterikhs
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5159,7 +5159,7 @@ country_event = { #Eurasia wants monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5934,7 +5934,7 @@ country_event = { #Nra win
 			clr_country_flag = TRM_entente_full_support
 			clr_country_flag = TRM_entente_partial_support
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			set_party_name = {
@@ -5951,7 +5951,7 @@ country_event = { #Nra win
 			set_cosmetic_tag = TRM_NRA
 			hidden_effect = {
 				division_template = {
-					name = "Partizanskaya Diviziya"			# Militia Division
+					name = "Партизанская дивизия"			# Militia Division
 					division_names_group = SOV_MIL_01
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -5967,19 +5967,19 @@ country_event = { #Nra win
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.1"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 2
 					}
@@ -6088,7 +6088,7 @@ country_event = { #Semyenov Splits
 		TRB = { 
 			transfer_technology_without_doctrines = yes
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6102,7 +6102,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 563 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 12641 
 					count = 3
@@ -6111,7 +6111,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 561 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 7816 
 					count = 3
@@ -6128,7 +6128,7 @@ country_event = { #Semyenov Splits
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Kazatskaya Diviziya"
+			division_template = "Казачья дивизия"
 			disband = yes
 		}
 		activate_targeted_decision = { target = TRB decision = TRM_Attack_Yakutia_Buryatia }
@@ -6152,7 +6152,7 @@ country_event = { #Semyenov Splits
 		TRB = { 
 			transfer_technology_without_doctrines = yes
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6166,7 +6166,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 563 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 12641 
 					count = 3
@@ -6175,7 +6175,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 561 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 7816 
 					count = 3
@@ -6192,7 +6192,7 @@ country_event = { #Semyenov Splits
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Kazatskaya Diviziya"
+			division_template = "Казачья дивизия"
 			disband = yes
 		}
 		activate_targeted_decision = { target = TRB decision = TRM_Attack_Yakutia_Buryatia }
@@ -6597,10 +6597,10 @@ country_event = { #Cossacks
 		add_ideas = TRM_red_cossacks
 		if = {
 			limit = {
-				NOT = { has_template = "Kazatskaya Diviziya" }
+				NOT = { has_template = "Казачья дивизия" }
 			}
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -7093,7 +7093,7 @@ country_event = { #Leadership
 		name = trmnra.52.g
 		trigger = {
 			RUS = {
-				NOT = { has_country_leader = { name = "Мартемьян Рютин" ruling_only = yes } }
+				NOT = { has_country_leader = { name = "Мартемян Рютин" ruling_only = yes } }
 			}
 		}
 		ai_chance = { 
@@ -7121,7 +7121,7 @@ country_event = { #Leadership
 			TRM_Matvei_Berman_sec_tot
 		}
 		create_country_leader = {
-			name = "Мартемьян Рютин"
+			name = "Мартемян Рютин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Martemyan_Ryutin.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype
@@ -7201,7 +7201,7 @@ country_event = { #TRM wants to join us
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
