@@ -6142,6 +6142,19 @@ setup_budapest_treaty = {
 		}
 		remove_puppet_and_leave_faction = yes
 	}	
+	save_event_target_as = peace_country
+	every_enemy_country = {
+		limit = {
+			tag = AUS
+		}
+		event_target:peace_country = { white_peace = PREV }
+	}
+	every_enemy_country = {
+		limit = {
+			is_ally_with = AUS
+		}
+		event_target:peace_country = { white_peace = PREV }
+	}
 }
 load_base_russian_tree = {
 	if = {
