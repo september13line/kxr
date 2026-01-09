@@ -442,6 +442,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = TRM
+			RUS_russian_monarch = yes
 			OR = { 
 				has_idea = TRM_Alexander_Kazembek_hog_tot 
 				has_idea = TRM_Anastasiy_Vonsyatsky_hog_npo 
@@ -455,7 +456,10 @@ defined_text = {
 			TRM_kolchak_in_power = yes
 			OR = { 
 				has_idea = TRM_Viktor_N_Pepelyayev_hog_mli
+				has_idea = TRM_Spiridon_Merkulov_hog_sco
 				has_idea = TRM_Grigoriy_M_Semyenov_hog_pau
+				has_idea = TRM_Mikhail_K_Diterikhs_hog_pau
+				has_idea = TRM_Vladimir_Kappel_hog_pau
 			}
 		}
 		localization_key = SR_OR_LEADER
@@ -471,6 +475,22 @@ defined_text = {
 		}
 		localization_key = VD_OR_LEADER
 	}	
+	text = {
+		trigger = {
+			tag = TRM
+			RUS_russian_monarch = yes
+			has_idea = TRM_Vladimir_Gantimurov_hog_ade
+		}
+		localization_key = MS_OR_LEADER
+	}		
+	text = {
+		trigger = {
+			tag = TRM
+			RUS_russian_monarch = yes
+			has_idea = TRM_Aleksandr_Ugrimov_hog_sde 
+		}
+		localization_key = TS_OR_CH
+	}		
 	text = {
 		trigger = {
 			tag = SIC
@@ -1564,6 +1584,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = TRM
+			RUS_russian_monarch = yes
 			OR = { 
 				has_idea = TRM_Alexander_Kazembek_hog_tot 
 				has_idea = TRM_Anastasiy_Vonsyatsky_hog_npo 
@@ -1577,10 +1598,13 @@ defined_text = {
 			TRM_kolchak_in_power = yes
 			OR = { 
 				has_idea = TRM_Viktor_N_Pepelyayev_hog_mli
+				has_idea = TRM_Spiridon_Merkulov_hog_sco
 				has_idea = TRM_Grigoriy_M_Semyenov_hog_pau
+				has_idea = TRM_Mikhail_K_Diterikhs_hog_pau
+				has_idea = TRM_Vladimir_Kappel_hog_pau
 			}
 		}
-		localization_key = PM_OR_LEADER2
+		localization_key = SR_OR_LEADER2
 	}		
 			
 	text = {
@@ -1593,6 +1617,22 @@ defined_text = {
 			}
 		}
 		localization_key = VD_OR_LEADER2
+	}
+	text = {
+		trigger = {
+			tag = TRM
+			RUS_russian_monarch = yes
+			has_idea = TRM_Vladimir_Gantimurov_hog_ade
+		}
+		localization_key = MS_OR_LEADER2
+	}		
+	text = {
+		trigger = {
+			tag = TRM
+			RUS_russian_monarch = yes
+			has_idea = TRM_Aleksandr_Ugrimov_hog_sde 
+		}
+		localization_key = CC_OR_LEADER2
 	}
 	text = {
 		trigger = {
@@ -7974,6 +8014,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = RUS_Ivan_Yefremov_hog_mli
+		}
+		localization_key = RUS_Ivan_Yefremov_hog_mli
+	}
+	text = {
+		trigger = {
 			has_idea = RUS_Vasiliy_V_Shulgin_hog_sco
 		}
 		localization_key = RUS_Vasiliy_V_Shulgin_hog_sco
@@ -10149,6 +10195,12 @@ defined_text = {
 	}
 	text = { #Fired by Minister Ideas
 		trigger = {
+			has_idea = TRM_Aleksandr_Ugrimov_hog_sde
+		}
+		localization_key = TRM_Aleksandr_Ugrimov_hog_sde
+	}
+	text = { #Fired by Minister Ideas
+		trigger = {
 			has_idea = TRM_Anastasiy_Vonsyatsky_hog_npo
 		}
 		localization_key = TRM_Anastasiy_Vonsyatsky_hog_npo
@@ -10161,6 +10213,12 @@ defined_text = {
 	}
 	text = { #Fired by Minister Ideas
 		trigger = {
+			has_idea = TRM_Vladimir_Gantimurov_hog_ade
+		}
+		localization_key = TRM_Vladimir_Gantimurov_hog_ade
+	}
+	text = { #Fired by Minister Ideas
+		trigger = {
 			has_idea = TRM_Vladimir_Kappel_hog_pau
 		}
 		localization_key = TRM_Vladimir_Kappel_hog_pau
@@ -10170,6 +10228,12 @@ defined_text = {
 			has_idea = TRM_Viktor_N_Pepelyayev_hog_mli
 		}
 		localization_key = TRM_Viktor_N_Pepelyayev_hog_mli
+	}
+	text = { #Fired by Minister Ideas
+		trigger = {
+			has_idea = TRM_Spiridon_Merkulov_hog_sco
+		}
+		localization_key = TRM_Spiridon_Merkulov_hog_sco
 	}
 	text = { #Fired by Minister Ideas
 		trigger = {
@@ -15965,6 +16029,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = RUS_Ivan_Yefremov_hog_mli
+		}
+		localization_key = GFX_Yefremov_portrait
+	}
+	text = {
+		trigger = {
 			has_idea = RUS_Vasiliy_V_Shulgin_hog_sco
 		}
 		localization_key = GFX_Shulgin_portrait
@@ -18133,6 +18203,12 @@ defined_text = {
 	}	
 	text = { #Fired by Minister Ideas
 		trigger = {
+			has_idea = TRM_Aleksandr_Ugrimov_hog_sde
+		}
+		localization_key = GFX_Portrait_TRM_Aleksandr_Ugrimov
+	}	
+	text = { #Fired by Minister Ideas
+		trigger = {
 			has_idea = TRM_Anastasiy_Vonsyatsky_hog_npo
 		}
 		localization_key = [GetVonsyatskyPortrait]
@@ -18145,6 +18221,12 @@ defined_text = {
 	}
 	text = { #Fired by Minister Ideas
 		trigger = {
+			has_idea = TRM_Vladimir_Gantimurov_hog_ade
+		}
+		localization_key = GFX_Portrait_TRM_Vladimir_Gantimurov
+	}
+	text = { #Fired by Minister Ideas
+		trigger = {
 			has_idea = TRM_Vladimir_Kappel_hog_pau
 		}
 		localization_key = GFX_Portrait_TRM_Vladimir_Kappel
@@ -18154,6 +18236,12 @@ defined_text = {
 			has_idea = TRM_Viktor_N_Pepelyayev_hog_mli
 		}
 		localization_key = GFX_Portrait_TRM_Victor_Pepelyaev
+	}
+	text = { #Fired by Minister Ideas
+		trigger = {
+			has_idea = TRM_Spiridon_Merkulov_hog_sco
+		}
+		localization_key = GFX_Portrait_TRM_Spiridon_Merkulov
 	}
 	text = { #Fired by Minister Ideas
 		trigger = {
