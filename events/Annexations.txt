@@ -30258,6 +30258,13 @@ country_event = { #Fate of Canada
 					tag = ARZ
 					has_cosmetic_tag = ARZ_USA
 				}
+				AND = {
+					tag = ALA
+					NOT = {
+						has_country_leader = { ruling_only = yes name = "Элвуд Таунер" }
+						has_country_leader = { ruling_only = yes name = "Томас Диксон" }
+					}
+				}
 			}
 		}
 
@@ -30336,6 +30343,17 @@ country_event = { #Fate of Canada
 				AND = {
 				tag = NVN
 				has_cosmetic_tag = NVN_USA
+				}
+				AND = {
+					tag = ARZ
+					has_cosmetic_tag = ARZ_USA
+				}
+				AND = {
+					tag = ALA
+					NOT = {
+						has_country_leader = { ruling_only = yes name = "Элвуд Таунер" }
+						has_country_leader = { ruling_only = yes name = "Томас Диксон" }
+					}
 				}
 			}
 		}
