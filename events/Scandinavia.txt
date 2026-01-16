@@ -2590,12 +2590,9 @@ country_event = {
 	option = {
 		name = scandinavia.20.f
 		trigger = {
-				if = { 
-				limit = { 
-		tag = SWE
-					}		
-		OR = {
-		NOT = {
+			tag = SWE
+			OR = {
+			NOT = {
 			has_country_flag = SWE_flag_red_in_sweden
 			has_cosmetic_tag = SWE_elmo_empire
 			has_cosmetic_tag = SWE_elmo_empire2
@@ -2603,7 +2600,6 @@ country_event = {
 			has_cosmetic_tag = SWE_elmo_empire_herald
 					}
 				}
-			}
 		}
 		
 		if = { 
