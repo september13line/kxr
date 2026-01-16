@@ -7219,6 +7219,11 @@ country_event = { #CSA Exiles
 	trigger = {
 		tag = NYC
 		has_government = syndicalist
+		OR = {
+			has_country_leader = { name = "Губерт Гаррисон" ruling_only = yes }
+			has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
+			has_country_leader = { name = "Дэвид Гамильтон Джексон" ruling_only = yes }
+		}
 		CSA = {
 			exists = no
 		}
