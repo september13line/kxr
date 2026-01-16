@@ -155742,7 +155742,7 @@ ideas = {
   ################################################################################################################################################################################################
 
 	head_of_government = { ### Head of Government ###
-		NEP_Ganga_Lal_Shrestha_hog_syn = {
+		NEP_Kunwar_Indrajit_Singh_hog_tot = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155752,7 +155752,26 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Ganga_Lal_Shrestha_hog_syn"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Kunwar_Indrajit_Singh_hog_tot" 
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_naive_optimist
+			}
+		}
+		
+		NEP_Tanka_Prasad_Acharya_hog_syn = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Tanka_Prasad_Acharya_hog_syn" 
 			}
 			traits = {
 				head_of_government
@@ -155760,8 +155779,8 @@ ideas = {
 				hog_ambitious_union_boss
 			}
 		}
-
-		NEP_Bishweshwar_Prasad_Koirala_hog_sde = {
+		
+		NEP_Bishweshwar_Prasad_Koirala_hog_rso = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155771,16 +155790,16 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bishweshwar_Prasad_Koirala_hog_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bishweshwar_Prasad_Koirala_hog_rso" 
 			}
 			traits = {
 				head_of_government
-				social_democrat
-				hog_naive_optimist
+				radical_socialist
+				hog_political_protege
 			}
 		}
-
-		NEP_Dashrath_Chand_hog_sde = {
+		
+		NEP_Matrika_Prasad_Koirala_hog_sde = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155790,7 +155809,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dashrath_Chand_hog_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Matrika_Prasad_Koirala_hog_sde" 
 			}
 			traits = {
 				head_of_government
@@ -155798,8 +155817,8 @@ ideas = {
 				hog_silent_workhorse
 			}
 		}
-
-		NEP_Subarna_Shamsher_Rana_hog_mli = {
+		
+		NEP_Subarna_Shamsher_Rana_hog_sli = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155809,31 +155828,31 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Subarna_Shamsher_Rana_hog_mli"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Subarna_Shamsher_Rana_hog_sli" 
+			}
+			traits = {
+				head_of_government
+				social_liberal
+				hog_pragmatic_statesman
+			}
+		}
+		
+		NEP_Bhaju_Ratna_Kansakar_hog_mli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bhaju_Ratna_Kansakar_hog_mli" 
 			}
 			traits = {
 				head_of_government
 				market_liberal
-				hog_flamboyant_tough_guy
-			}
-		}
-
-		NEP_Maniraj_Gurung_Sirdar_hog_sco = {
-			allowed = { original_tag = NEP }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = head_of_gov_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Maniraj_Gurung_Sirdar_hog_sco"
-			}
-			traits = {
-				head_of_government
-				social_conservative
-				hog_old_general
+				hog_smiling_oilman
 			}
 		}
 
@@ -155856,7 +155875,7 @@ ideas = {
 			}
 		}
 
-		NEP_Dhammalok_Mahasthavir_hog_ade = {
+		NEP_Tribhuvan_Bir_Bikram_Shah_Dev_hog_ade = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155866,12 +155885,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dhammalok_Mahasthavir_hog_ade"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Tribhuvan_Bir_Bikram_Shah_Dev_hog_ade" 
 			}
 			traits = {
 				head_of_government
 				authoritarian_democrat
-				hog_spiritual_leader
+				hog_pragmatic_statesman
 			}
 		}
 
@@ -155912,12 +155931,50 @@ ideas = {
 				hog_local_tyrant
 			}
 		}
+		
+		NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_hog_pau = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_old_general
+			}
+		}
+		
+		NEP_Mahendra_Bir_Bikram_Shah_Dev_hog_npo = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Mahendra_Bir_Bikram_Shah_Dev_hog_npo" 
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_spiritual_leader
+			}
+		}
 
 	}
 
 	person_of_influence = { ### Person of Influence ###
 		## Foreign Minister ##
-		NEP_Dashrath_Chand_for_sde = {
+		NEP_Keshar_Jung_Rayamajhi_for_tot = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155927,15 +155984,34 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dashrath_Chand_for_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Keshar_Jung_Rayamajhi_for_tot" 
 			}
 			traits = {
 				foreign_minister
-				social_democrat
-				for_ideological_crusader
+				totalist
+				for_tireless_organiser
 			}
 		}
-
+		
+		NEP_Dashrath_Chand_for_syn = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dashrath_Chand_for_syn" 
+			}
+			traits = {
+				foreign_minister
+				syndicalist
+				for_leading_diplomat
+			}
+		}
+		
 		NEP_Matrika_Prasad_Koirala_for_sde = {
 			allowed = { original_tag = NEP }
 			available = {
@@ -155946,16 +156022,16 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Matrika_Prasad_Koirala_for_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Matrika_Prasad_Koirala_for_sde" 
 			}
 			traits = {
 				foreign_minister
 				social_democrat
-				for_great_compromiser
+				for_staunch_idealist
 			}
 		}
-
-		NEP_Chittadhar_Hridaya_for_mli = {
+		
+		NEP_Dilli_Raman_Regmi_for_sde = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155965,16 +156041,54 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Chittadhar_Hridaya_for_mli"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dilli_Raman_Regmi_for_sde" 
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_apologetic_clerk
+			}
+		}
+		
+		NEP_Surya_Prasad_Upadhyaya_for_sli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Surya_Prasad_Upadhyaya_for_sli" 
+			}
+			traits = {
+				foreign_minister
+				social_liberal
+				for_general_staffer
+			}
+		}
+		
+		NEP_Triratna_Man_Tuladhar_for_mli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Triratna_Man_Tuladhar_for_mli" 
 			}
 			traits = {
 				foreign_minister
 				market_liberal
-				for_biased_intellectual
+				for_ideological_crusader
 			}
 		}
-
-		NEP_Phatte_Bahadur_Singh_for_sco = {
+		
+		NEP_Krishna_Shumsher_Jung_for_sco = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -155984,16 +156098,16 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Phatte_Bahadur_Singh_for_sco"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Krishna_Shumsher_Jung_for_sco" 
 			}
 			traits = {
 				foreign_minister
 				social_conservative
-				for_apologetic_clerk
+				for_iron_fisted_brute
 			}
 		}
-
-		NEP_Dharmaditya_Dharmacharya_for_ade = {
+		
+		NEP_Bahadur_Shumsher_Jung_Bahadur_Rana_for_ade = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156003,18 +156117,75 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dharmaditya_Dharmacharya_for_ade"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bahadur_Shumsher_Jung_Bahadur_Rana_for_ade" 
 			}
 			traits = {
 				foreign_minister
 				authoritarian_democrat
-				for_biased_intellectual
+				for_ideological_crusader
+			}
+		}
+		
+		NEP_Purendra_Bikram_Shah_for_ade = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Purendra_Bikram_Shah_for_ade" 
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democrat
+				for_general_staffer
+			}
+		}
+		
+		NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_for_pau = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_for_pau" 
+			}
+			traits = {
+				foreign_minister
+				paternal_autocrat
+				for_general_staffer
+			}
+		}
+		
+		NEP_Gehendra_Bahadur_Rajbhandari_for_npo = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Gehendra_Bahadur_Rajbhandari_for_npo" 
+			}
+			traits = {
+				foreign_minister
+				national_populist
+				for_staunch_idealist
 			}
 		}
 
 
 		## Economy Minister ##
-		NEP_Bishweshwar_Prasad_Koirala_eco_sde = {
+		NEP_Tulsi_Lal_Amatya_eco_tot = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156024,16 +156195,16 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bishweshwar_Prasad_Koirala_eco_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Tulsi_Lal_Amatya_eco_tot" 
 			}
 			traits = {
 				economy_minister
-				social_democrat
-				eco_industrialiser
+				totalist
+				eco_collectivizer
 			}
 		}
-
-		NEP_Bhajuratna_Kansakar_eco_mli = {
+		
+		NEP_Dharma_Bhakta_Mathema_eco_syn = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156043,16 +156214,73 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bhajuratna_Kansakar_eco_mli"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dharma_Bhakta_Mathema_eco_syn" 
+			}
+			traits = {
+				economy_minister
+				syndicalist
+				eco_industrialiser
+			}
+		}
+		
+		NEP_Ganesh_Man_Singh_eco_rso = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Ganesh_Man_Singh_eco_rso" 
+			}
+			traits = {
+				economy_minister
+				radical_socialist
+				eco_reformer
+			}
+		}
+		
+		NEP_Subarna_Shamsher_Rana_eco_sli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Subarna_Shamsher_Rana_eco_sli" 
+			}
+			traits = {
+				economy_minister
+				social_liberal
+				eco_construction_magnate
+			}
+		}
+		
+		NEP_Pushpa_Sundar_Tuladhar_eco_mli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Pushpa_Sundar_Tuladhar_eco_mli" 
 			}
 			traits = {
 				economy_minister
 				market_liberal
-				eco_administrative_genius
+				eco_laissez_faire_capitalist
 			}
 		}
-
-		NEP_Pushpa_Sundar_Tuladhar_eco_sco = {
+		
+		NEP_Toran_Shumsher_Jung_Bahadur_Rana_eco_ade = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156062,37 +156290,56 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Pushpa_Sundar_Tuladhar_eco_sco"
-			}
-			traits = {
-				economy_minister
-				social_conservative
-				eco_bank_president
-			}
-		}
-
-		NEP_Triratna_Man_Tuladhar_eco_ade = {
-			allowed = { original_tag = NEP }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Triratna_Man_Tuladhar_eco_ade"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Toran_Shumsher_Jung_Bahadur_Rana_eco_ade" 
 			}
 			traits = {
 				economy_minister
 				authoritarian_democrat
-				eco_laissez_faire_capitalist
+				eco_corrupt_kleptocrat
+			}
+		}
+		
+		NEP_Asta_Narayan_Manandhar_eco_ade = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Asta_Narayan_Manandhar_eco_ade" 
+			}
+			traits = {
+				economy_minister
+				authoritarian_democrat
+				eco_administrative_genius
+			}
+		}
+		
+		NEP_Gehendra_Bahadur_Rajbhandari_eco_npo = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Gehendra_Bahadur_Rajbhandari_eco_npo" 
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_planned_economy_proponent
 			}
 		}
 
 
 		## Security Minister ##
-		NEP_Dharmachari_Guruma_sec_sde = {
+		NEP_Kunwar_Indrajit_Singh_sec_tot = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156102,16 +156349,16 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dharmachari_Guruma_sec_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Kunwar_Indrajit_Singh_sec_tot" 
 			}
 			traits = {
 				security_minister
-				social_democrat
+				totalist
 				sec_man_of_the_people
 			}
 		}
-
-		NEP_Jagat_Sundar_Malla_sec_ade = {
+		
+		NEP_Gangalal_Shrestha_sec_syn = {
 			allowed = { original_tag = NEP }
 			available = {
 				custom_trigger_tooltip = {
@@ -156121,12 +156368,183 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NEP_Jagat_Sundar_Malla_sec_ade"
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Gangalal_Shrestha_sec_syn" 
+			}
+			traits = {
+				security_minister
+				syndicalist
+				sec_silent_lawyer
+			}
+		}
+		
+		NEP_Prem_Bahadur_Kansakar_sec_rso = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Prem_Bahadur_Kansakar_sec_rso" 
+			}
+			traits = {
+				security_minister
+				radical_socialist
+				sec_progressive_judge
+			}
+		}
+		
+		NEP_Bishweshwar_Prasad_Koirala_sec_rso = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Bishweshwar_Prasad_Koirala_sec_rso" 
+			}
+			traits = {
+				security_minister
+				radical_socialist
+				sec_health_and_safety
+			}
+		}
+		
+		NEP_Dharma_Ratna_Yami_sec_sli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dharma_Ratna_Yami_sec_sli" 
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_great_soul
+			}
+		}
+		
+		NEP_Dharmaditya_Dharmacharya_sec_mli = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Dharmaditya_Dharmacharya_sec_mli" 
+			}
+			traits = {
+				security_minister
+				market_liberal
+				sec_crime_fighter
+			}
+		}
+		
+		NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_sec_ade = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_sec_ade" 
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_prince_of_terror
+			}
+		}
+		
+		NEP_Nir_Shumsher_Jung_Bahadur_Rana_sec_ade = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Nir_Shumsher_Jung_Bahadur_Rana_sec_ade" 
+			}
+			traits = {
+				security_minister
+				authoritarian_democrat
+				sec_elder_aristocrat
+			}
+		}
+		
+		NEP_Balkrishna_Sama_sec_ade = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Balkrishna_Sama_sec_ade" 
 			}
 			traits = {
 				security_minister
 				authoritarian_democrat
 				sec_man_of_the_people
+			}
+		}
+		
+		NEP_Baber_Shumsher_Jung_Bahadur_Rana_sec_pau = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Baber_Shumsher_Jung_Bahadur_Rana_sec_pau" 
+			}
+			traits = {
+				security_minister
+				paternal_autocrat
+				sec_media_magnate
+			}
+		}
+		
+		NEP_Nara_Shumsher_Jang_Bahadur_Rana_sec_npo = {
+			allowed = { original_tag = NEP }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEP_Nara_Shumsher_Jang_Bahadur_Rana_sec_npo" 
+			}
+			traits = {
+				security_minister
+				national_populist
+				sec_prince_of_terror
 			}
 		}
 
