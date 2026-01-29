@@ -13026,13 +13026,7 @@ completion_reward = {
 				}
 			}
 			if = {
-				limit = {
-					OR = {
-						has_country_leader = { ruling_only = yes name = "Джеймс Бернхем" }
-						has_country_leader = { ruling_only = yes name = "Рональд Рейган" }
-						has_country_leader = { ruling_only = yes name = "Линдон Ларуш" }
-					}
-				}
+				limit = { has_country_leader_ideology = burnhamite_thought_subtype }
 				hidden_effect = {
 					country_event = {
 						id = csa.276
