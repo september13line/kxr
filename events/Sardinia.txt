@@ -1311,11 +1311,11 @@ country_event = { # New Political Parties in the Kingdom of Italy
 			name = SRD_rad_socialist_party
 		}
 		create_country_leader = {
-	    name = "Giuseppe Abozzi"
-	    picture = "gfx/leaders/SRD/Portrait_SRD_Giuseppe_Abozzi.png"
-	    expire = "1.1.1"
-	    ideology = moderate_socialist_subtype
-        }
+			name = "Джузеппе Абоцци"
+			picture = "gfx/leaders/SRD/Portrait_SRD_Giuseppe_Abozzi.png"
+			expire = "1.1.1"
+			ideology = moderate_socialist_subtype
+			}
 		set_country_flag = italian_parties
 		hidden_effect = {
 			country_event = { id = srd.38 days = 300 random_days = 100 }
@@ -1802,7 +1802,7 @@ country_event = { # Sardinia Says No
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { #Demand Abdication
+	option = { #Demand Victor Emmanuel Abdicate
 		name = srd.101.a 
 		SRD = {
 			add_opinion_modifier = {
@@ -1827,7 +1827,7 @@ country_event = { # Rejoins Italy
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { #Demand Abdication
+	option = { #Demand Victor Emmanuel Abdicate
 		name = srd.102.a 
 		ITA = {
 			annex_country = {
@@ -1842,14 +1842,14 @@ country_event = { # Rejoins Italy
 			}
 		}
 		if = {
-		limit = { has_country_leader = { name = "Luigi Amedeo I" ruling_only = yes } }
-		hidden_effect = {
-				country_event = {
-					id = italianrepublic.207
-					days = 35
+			limit = { has_country_leader = { name = "Луиджи Амедео I" ruling_only = yes } }
+			hidden_effect = {
+					country_event = {
+						id = italianrepublic.207
+						days = 35
+					}
 				}
 			}
-		}
 	}
 	option = { #
 		name = srd.102.b 
@@ -1858,7 +1858,7 @@ country_event = { # Rejoins Italy
 		has_country_leader_ideology = italian_legionarism_subtype
 		}
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			desc = "POLITICS_AMADEO_SAVOY_DESC"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
@@ -1886,7 +1886,7 @@ country_event = { # Rejoins Italy
 	}
 }
 
-country_event = { # Sardinia Demands Abdication
+country_event = { # Sardinia Demands Victor Emmanuel Abdicate
 	id = srd.103
 	immediate = { log = "[GetDateText]: [Root.GetName]: event srd.103 FROM = [From.GetName]" }
 	title = srd.103.t
@@ -1909,14 +1909,14 @@ country_event = { # Sardinia Demands Abdication
 		}
 		add_political_power = 20
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
 			traits = { SRD_Explorer_King }
 		}
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
@@ -1942,14 +1942,14 @@ country_event = { # Sardinia Demands Abdication
 	}
 	if = {
 		limit = {
-			OR = {
-				has_cosmetic_tag = ITA_ANI_KINGDOM
-				has_cosmetic_tag = ITA_ANI_EMPIRE
+		OR = {
+		has_cosmetic_tag = ITA_ANI_KINGDOM
+		has_cosmetic_tag = ITA_ANI_EMPIRE
 			}
 		}
 		add_political_power = 20
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			desc = "POLITICS_AMADEO_SAVOY_DESC"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
@@ -1957,14 +1957,14 @@ country_event = { # Sardinia Demands Abdication
 			traits = { SRD_Explorer_King }
 		}
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
 			traits = { SRD_Explorer_King }
 		}
 		create_country_leader = {
-			name = "Amedeo I"
+			name = "Амадей I"
 			picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
@@ -1990,14 +1990,14 @@ country_event = { # Sardinia Demands Abdication
 			}
 		}
 		if = {
-			limit = { has_country_leader = { name = "Luigi Amedeo I" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Луиджи Амедео I" ruling_only = yes } }
 			hidden_effect = {
-				country_event = {
-					id = italianrepublic.207
-					days = 35
+					country_event = {
+						id = italianrepublic.207
+						days = 35
+					}
 				}
 			}
-		}
 	}
 }
 

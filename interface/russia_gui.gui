@@ -2,7 +2,7 @@
 @HOG_TEXT_X = 0
 @HEADERS_Y = 130
 @STATUS_Y = 150
-@GOV_STATUS_Y = 130
+@GOV_STATUS_Y = 135
 @HOG_Y = 230 
 @HOG_STATUS_Y = 250
 @PARTIES_STATUS_Y = 240
@@ -11,7 +11,7 @@
 @PRESIDENT_STATUS_Y = 360
 @PRESIDENT_Y = 380
 @SENATE_STATUS_Y = 170
-@SENATE_Y = 190
+@SENATE_Y = 192
 @COL_STATUS_X = 290
 @GOV_STATUS_X = 250
 @COL_STATUS_Y = 190
@@ -180,7 +180,7 @@ guiTypes = {
 		# 282/ 550
 		instantTextBoxType = {
 			name ="coalition_size"
-			position = { x= -30 y = @SENATE_Y }
+			position = { x= -32 y = @SENATE_Y }
 			font = "hoi_18mbs"
 			text = "RUS_duma_coalition_size"
 			pdx_tooltip = "RUS_duma_support_tooltip"
@@ -202,8 +202,8 @@ guiTypes = {
 		# Majority Government #
 		instantTextBoxType = {
 			name ="government_status"
-			position = { x= 125 y = @GOV_STATUS_Y }
-			font = "hoi_24header"
+			position = { x= 108 y = @GOV_STATUS_Y }
+			font = "Pragmata_18_BAZADARYCH"
 			text = "RUS_duma_gov_status"
 			format = center
 			fixedsize = yes
@@ -211,12 +211,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="duma_text"
-			position = { x = 5 y = 215 }
+			position = { x = 16 y = 226 }
 			font = "hoi_16mbs"
 			text = "RUS_duma_text"
 			format = left
 			maxWidth = 480
-		}		
+		}
 	}
 	containerWindowType = {
 		name = "RUS_GUI_Duma"
@@ -239,9 +239,9 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "RUS_Duma_Title"
-			position = { x = 30 y = 20 }
-			font = "hoi_36header"
-			text = "Russian Parliament"
+			position = { x = 25 y = 34 }
+			font = "Pragmata_BAZADARYCH"
+			text = "Российский парламент"
 			format = center
 			maxWidth = 1050
 		}
@@ -263,16 +263,16 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "SRs_Reps_Title"
-					position = { x = 80 y = -80 }
-					font = "hoi_36header"
-					text = "State Duma"
+					position = { x = 88 y = -72 }
+					font = "Pragmata_18_BAZADARYCH"
+					text = "Государственная Дума"
 					format = center
 					maxWidth = 538
 					maxHeight = 20
 				}
 				instantTextBoxType = {
 					name = "Duma_Support_Title"
-					position = { x = 650 y = -15 }
+					position = { x = 650 y = -6 }
 					font = "hoi_18mbs"
 					text = "RUS_2_hog_status"
 					format = left
@@ -308,8 +308,8 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "SRs_Senators_Title"
-					position = { x = 75 y = 35 }
-					font = "hoi_36header"
+					position = { x = 73 y = 45 }
+					font = "Pragmata_18_BAZADARYCH"
 					text = "[GetUpperChamberName]"
 					format = center
 					maxWidth = 538
@@ -317,7 +317,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "Senate_Support_title"
-					position = { x = 650 y = 35 }
+					position = { x = 650 y = 41 }
 					font = "hoi_18mbs"
 					text = "RUS_2_senators_status"
 					format = left
@@ -342,7 +342,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "Head_Of_State_Title"
-				position = { x = 530 y = -695 }
+				position = { x = 528 y = -695 }
 				font = "hoi_24header"
 				text = "RUS_president_header"
 				format = center
@@ -351,9 +351,9 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "Head_Of_Gov_Title"
-				position = { x = 530 y = -420 }
+				position = { x = 528 y = -420 }
 				font = "hoi_24header"
-				text = "Prime-Minister"
+				text = "Премьер-министр"
 				format = center
 				maxWidth = 538
 				maxHeight = 20
@@ -399,7 +399,7 @@ guiTypes = {
 				pdx_tooltip = "Ruling Party"
 				pdx_tooltip_delayed = "RUS_ruling_party_status"
 				scale = 0.6
-			}			
+			}		
 		}
 	}
 

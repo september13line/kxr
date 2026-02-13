@@ -46,7 +46,7 @@ focus_tree = {
 		x = 27
 		y = 7
 		available = {
-			has_country_leader = { name = "Antoine III" ruling_only = yes }
+			has_country_leader = { name = "Антуан III" ruling_only = yes }
 			is_subject = no
 		}
 		ai_will_do = {
@@ -198,7 +198,7 @@ focus_tree = {
 			}
 			add_offsite_building = { type = arms_factory level = -1 }
 			if = {	
-				limit = { has_country_leader = { name = "Antonio Soto" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Антонио Сото" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/FOP/Portrait_FOP_Antonio_Soto_Suit.png"
 				}
@@ -3442,49 +3442,49 @@ focus_tree = {
 		relative_position_id = FOP_naval_necessity
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FOP_argi_navy_is_stronk"
-			if = {
-				limit = {
-					NOT = { has_tech = early_ship_hull_light }
+				if = {
+					limit = {
+						NOT = { has_tech = early_ship_hull_light }
+					}
+					set_technology = { early_ship_hull_light = 1 }
 				}
-				set_technology = { early_ship_hull_light = 1 }
-			}
-			else = {
-				add_tech_bonus = {
-					name = FOP_argi_navy_is_stronk
-					bonus = 1
-					uses = 1
-					category = dd_tech
+				else = {
+					add_tech_bonus = {
+						name = FOP_argi_navy_is_stronk
+						bonus = 1
+						uses = 1
+						category = dd_tech
+					}
 				}
-			}
-			if = {
-				limit = {
-					NOT = { has_tech = early_ship_hull_cruiser }
+				if = {
+					limit = {
+						NOT = { has_tech = early_ship_hull_cruiser }
+					}
+					set_technology = { early_ship_hull_cruiser = 1 }
 				}
-				set_technology = { early_ship_hull_cruiser = 1 }
-			}
-			else = {
-				add_tech_bonus = {
-					name = FOP_argi_navy_is_stronk
-					bonus = 1
-					uses = 1
+				else = {
+					add_tech_bonus = {
+						name = FOP_argi_navy_is_stronk
+						bonus = 1
+						uses = 1
 					category = ca_tech
+					}
 				}
-			}
-			if = {
-				limit = {
-					NOT = { has_tech = basic_ship_hull_submarine }
+				if = {
+					limit = {
+						NOT = { has_tech = basic_ship_hull_submarine }
+					}
+					set_technology = {
+						early_ship_hull_submarine = 1
+						basic_ship_hull_submarine = 1
+					}
 				}
-				set_technology = {
-					early_ship_hull_submarine = 1
-					basic_ship_hull_submarine = 1
-				}
-			}
-			else = {
-				add_tech_bonus = {
-					name = FOP_argi_navy_is_stronk
-					bonus = 1
-					uses = 1
-					category = ss_tech
+				else = {
+					add_tech_bonus = {
+						name = FOP_argi_navy_is_stronk
+						bonus = 1
+						uses = 1
+						category = ss_tech
 				}
 			}		
 			hidden_effect = { load_OOB = FOP_naval_rebuild }
@@ -5387,12 +5387,12 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Homero Rómulo Cristalli"
+					name = "Омеро Ромуло Кристали"
 					ruling_only = yes
 				}
 				hidden_trigger = {
 					has_country_leader = {
-						name = "Juan Posadas"
+						name = "Хуан Посадас"
 						ruling_only = yes
 					}
 				}
@@ -5439,10 +5439,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = BEL_Uranium_Mining
+			add_tech_bonus = {
+				name = BEL_Uranium_Mining
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}

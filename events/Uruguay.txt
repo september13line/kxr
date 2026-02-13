@@ -331,21 +331,21 @@ country_event = { # presidency good
 	option = { #
 		name = urg.12.a
 		create_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			desc = "POLITICS_GABRIEL_TERRA_DESC"
 			picture = "gfx/leaders/URG/Portrait_Uruguay_Gabriel_Terra.png"
 			expire = "1.1.1"
 			ideology = socdem_agrarianism_subtype
 		}
 		create_country_leader = {
-			name = "Luis Alberto de Herrera"
+			name = "Луис Альберто де Эррера"
 			desc = "POLITICS_LUIS_ALBERTO_DE_HERRERA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Luis Herrera.png"
 			expire = "1.1.1"
 			ideology = herrerismo_subtype
 		}
 		create_country_leader = {
-			name = "Luis Batlle Berres"
+			name = "Луис Батлье Беррес"
 			desc = "POLITICS_LUIS_BATLLE_BERRES_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Luis_Batlle_Berres.png"
 			expire = "1.1.1"
@@ -395,7 +395,7 @@ country_event = { # Terra meets with Vargas
 		has_completed_focus = URG_restore_presidentialism
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 		BRA = {
@@ -535,7 +535,7 @@ country_event = { # 1938 council election
 
 	trigger = {
 		has_democratic_government = yes
-		has_country_leader = { name = "Consejo Nacional De Administración" }
+		has_country_leader = { name = "Национальный административный совет" }
 		date < 1939.1.1
 	}
 
@@ -665,7 +665,7 @@ country_event = { # 1942+ council election
 
 	trigger = {
 		has_democratic_government = yes
-		has_country_leader = { name = "Consejo Nacional De Administración" }
+		has_country_leader = { name = "Национальный административный совет" }
 		date > 1939.1.1
 	}
 
@@ -915,7 +915,7 @@ country_event = { # 1938 president election
 				is_subject = no
 			}
 		}
-		NOT = { has_country_leader = { name = "Consejo Nacional De Administración" } }
+		NOT = { has_country_leader = { name = "Национальный административный совет" } }
 		date < 1939.1.1
 	}
 
@@ -1079,7 +1079,7 @@ country_event = { # 1942 presidenct election
 				is_subject = no
 			}
 		}
-		NOT = { has_country_leader = { name = "Consejo Nacional De Administración" } }
+		NOT = { has_country_leader = { name = "Национальный административный совет" } }
 		date > 1939.1.1
 		date < 1943.1.1
 	}
@@ -1090,7 +1090,7 @@ country_event = { # 1942 presidenct election
 	option = { # juan de Amézaga
 		name = urg.31.a
 		create_country_leader = {
-			name = "Juan de Amézaga"
+			name = "Хуан Хосе де Амесага"
 			desc = "POLITICS_JUAN_DE_AMEZAGA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Juan_de_Amezaga.png"
 			expire = "1.1.1"
@@ -1124,7 +1124,7 @@ country_event = { # 1942 presidenct election
 	option = { # Echegoyen
 		name = urg.31.b
 		create_country_leader = {
-			name = "Martín Echegoyen"
+			name = "Мартин Эчегойен"
 			picture = "gfx/leaders/URG/Portrait_URG_Martin_Echegoyen.png"
 			expire = "1.1.1"
 			ideology = herrerismo_subtype
@@ -1195,7 +1195,7 @@ country_event = { # 1946 presidenct election
 				is_subject = no
 			}
 		}
-		NOT = { has_country_leader = { name = "Consejo Nacional De Administración" } }
+		NOT = { has_country_leader = { name = "Национальный административный совет" } }
 		date > 1943.1.1
 		date < 1947.1.1
 	}
@@ -1206,7 +1206,7 @@ country_event = { # 1946 presidenct election
 	option = { # juan de Amézaga
 		name = urg.32.a
 		create_country_leader = {
-			name = "Juan de Amézaga"
+			name = "Хуан Хосе де Амесага"
 			desc = "POLITICS_JUAN_DE_AMEZAGA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Juan_de_Amezaga.png"
 			expire = "1.1.1"
@@ -1240,7 +1240,7 @@ country_event = { # 1946 presidenct election
 	option = { # Echegoyen
 		name = urg.32.b
 		create_country_leader = {
-			name = "Martín Echegoyen"
+			name = "Мартин Эчегойен"
 			picture = "gfx/leaders/URG/Portrait_URG_Martin_Echegoyen.png"
 			expire = "1.1.1"
 			ideology = herrerismo_subtype
@@ -1294,7 +1294,7 @@ country_event = { # terra to run again
 	}
 }
 
-country_event = { # Juan de Amézaga wins support of Colorado party instead of terra
+country_event = { # Хуан Хосе де Амесага wins support of Colorado party instead of terra
 	id = urg.34
 	immediate = { log = "[GetDateText]: [Root.GetName]: event urg.34 FROM = [From.GetName]" }
 	title = urg.34.t
@@ -1363,7 +1363,7 @@ country_event = { # fears about syndicalist victory in argentina
 		has_completed_focus = URG_restore_presidentialism
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 		BRA = {
@@ -1389,7 +1389,7 @@ country_event = { # fears about syndicalist victory in argentina
 	}
 }
 
-country_event = { # Emilio Frugoni holds speech on the Argentine Commune
+country_event = { # Эмилио Фругони holds speech on the Argentine Commune
 	id = urg.37
 	immediate = { log = "[GetDateText]: [Root.GetName]: event urg.37 FROM = [From.GetName]" }
 	title = urg.37.t
@@ -1401,7 +1401,7 @@ country_event = { # Emilio Frugoni holds speech on the Argentine Commune
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1440,7 +1440,7 @@ country_event = { # fears about syndicalist victory in brazil
 		has_completed_focus = URG_restore_presidentialism
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 		BRA = {
@@ -1466,7 +1466,7 @@ country_event = { # fears about syndicalist victory in brazil
 	}
 }
 
-country_event = { # Emilio Frugoni holds speech on the brazilian Commune
+country_event = { # Эмилио Фругони holds speech on the brazilian Commune
 	id = urg.39
 	immediate = { log = "[GetDateText]: [Root.GetName]: event urg.39 FROM = [From.GetName]" }
 	title = urg.39.t
@@ -1478,7 +1478,7 @@ country_event = { # Emilio Frugoni holds speech on the brazilian Commune
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1512,7 +1512,7 @@ country_event = { # Terra speaks to the general assembly
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1546,7 +1546,7 @@ country_event = { # Terra holds speech and announces Emergency Press Act
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1584,7 +1584,7 @@ country_event = { # Socialist march against Terra turns violent
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1619,7 +1619,7 @@ country_event = { # Terra holds speech on the morning the Emergency Press Act vo
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1665,7 +1665,7 @@ country_event = { # Terra proposes modifying the constitution
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1711,7 +1711,7 @@ country_event = { # Anti-Terra riot in Montevideo and other large cities
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1746,7 +1746,7 @@ country_event = { # Terra moves to suspend the constitution indefinitely
 	trigger = {
 		has_government = social_democrat
 		has_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			ruling_only = yes
 		}
 	}
@@ -1782,7 +1782,7 @@ country_event = { # Terra moves to suspend the constitution indefinitely
 		add_stability = -0.20
 		add_political_power = 100
 		create_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			desc = "POLITICS_GABRIEL_TERRA_DESC"
 			picture = "gfx/leaders/URG/Portrait_Uruguay_Gabriel_Terra.png"
 			expire = "1.1.1"
@@ -1824,7 +1824,7 @@ country_event = { # Terra moves to suspend the constitution indefinitely
 		}
 		add_political_power = -100
 		create_country_leader = {
-			name = "Juan de Amézaga"
+			name = "Хуан Хосе де Амесага"
 			desc = "POLITICS_JUAN_DE_AMEZAGA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Juan_de_Amezaga.png"
 			expire = "1.1.1"
@@ -1833,7 +1833,7 @@ country_event = { # Terra moves to suspend the constitution indefinitely
 	}
 }
 
-country_event = { # Luis Batlle Berres denounces Terra’s new regime
+country_event = { # Луис Батлье Беррес denounces Terra’s new regime
 	id = urg.47
 	immediate = { log = "[GetDateText]: [Root.GetName]: event urg.47 FROM = [From.GetName]" }
 	title = urg.47.t
@@ -1880,7 +1880,7 @@ country_event = { # 1950 presidenct election
 				is_subject = no
 			}
 		}
-		NOT = { has_country_leader = { name = "Consejo Nacional De Administración" } }
+		NOT = { has_country_leader = { name = "Национальный административный совет" } }
 		date > 1947.1.1
 		date < 1951.1.1
 	}
@@ -1891,7 +1891,7 @@ country_event = { # 1950 presidenct election
 	option = { # juan de Amézaga
 		name = urg.51.a
 		create_country_leader = {
-			name = "César Batlle Pacheco"
+			name = "Сесар Батлле Пачеко"
 			picture = "gfx/leaders/URG/Portrait_Uruguay_César_Batlle_Pacheco.png"
 			expire = "1.1.1"
 			ideology = batllismo_subtype
@@ -1924,7 +1924,7 @@ country_event = { # 1950 presidenct election
 	option = { # Herrera
 		name = urg.51.b
 		create_country_leader = {
-			name = "Luis Alberto de Herrera"
+			name = "Луис Альберто де Эррера"
 			desc = "POLITICS_LUIS_ALBERTO_DE_HERRERA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Luis Herrera.png"
 			expire = "1.1.1"
@@ -1971,7 +1971,7 @@ country_event = { # 1954 presidenct election
 				is_subject = no
 			}
 		}
-		NOT = { has_country_leader = { name = "Consejo Nacional De Administración" } }
+		NOT = { has_country_leader = { name = "Национальный административный совет" } }
 		date > 1951.1.1
 	}
 
@@ -1981,7 +1981,7 @@ country_event = { # 1954 presidenct election
 	option = { # luis batlle berres
 		name = urg.52.a
 		create_country_leader = {
-			name = "César Batlle Pacheco"
+			name = "Сесар Батлле Пачеко"
 			picture = "gfx/leaders/URG/Portrait_Uruguay_César_Batlle_Pacheco.png"
 			expire = "1.1.1"
 			ideology = batllismo_subtype
@@ -2017,7 +2017,7 @@ country_event = { # 1954 presidenct election
 			base = 0
 		}
 		create_country_leader = {
-			name = "Luis Alberto de Herrera"
+			name = "Луис Альберто де Эррера"
 			desc = "POLITICS_LUIS_ALBERTO_DE_HERRERA_DESC"
 			picture = "gfx/leaders/URG/Portrait_URG_Luis Herrera.png"
 			expire = "1.1.1"
@@ -2111,7 +2111,7 @@ country_event = { # Agricultural strike
 	}
 }
 
-country_event = { # Emilio Frugoni arrested
+country_event = { # Эмилио Фругони arrested
 	id = urg.55
 	immediate = { log = "[GetDateText]: [Root.GetName]: event urg.55 FROM = [From.GetName]" }
 	title = urg.55.t
@@ -2473,7 +2473,7 @@ country_event = { # Socialist Coup Attempt
 		add_stability = -0.05
 		add_political_power = -50
 		create_country_leader = {
-			name = "Gabriel Terra"
+			name = "Габриэль Терра"
 			desc = "POLITICS_GABRIEL_TERRA_DESC"
 			picture = "gfx/leaders/URG/Portrait_Uruguay_Gabriel_Terra.png"
 			expire = "1.1.1"

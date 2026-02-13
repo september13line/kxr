@@ -201,7 +201,7 @@ country_event = { # Zongchang sends an alibi to the Qing
 		add_stability = 0.05
 		hidden_effect = {
 			create_country_leader = {
-				name = "Zhang Zongchang"
+				name = "Чжан Цзунчан"
 				desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
 				picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Zongchang.png"
 				expire = "1.1.1"
@@ -302,7 +302,7 @@ country_event = { # Qing Magistrates Arrest Zongchang
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Song Zheyuan"
+				name = "Сун Чжэюань"
 				desc = "POLITICS_SONG_ZHEYUAN_DESC"
 				picture = "gfx/leaders/SQI/Portrait_Shandong_Song_Zheyuan.png"
 				expire = "1.1.1"
@@ -524,14 +524,14 @@ country_event = { # Tianran Passes Judgement on Zongchang
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Zhang Tianran"
+				name = "Чжан Тяньжань"
 				desc = "POLITICS_ZHANG_TIANRAN_DESC"
 				picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Tianran.png"
 				expire = "1.1.1"
 				ideology = authdem_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Zhang Tianran"
+				name = "Чжан Тяньжань"
 				desc = "POLITICS_ZHANG_TIANRAN_DESC"
 				picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Tianran.png"
 				expire = "1.1.1"
@@ -628,7 +628,7 @@ country_event = { # Zongchang Saves Jinan from Yiguandao Raid
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Zhang Zongchang"
+				name = "Чжан Цзунчан"
 				desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
 				picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Zongchang.png"
 				expire = "1.1.1"
@@ -1262,7 +1262,7 @@ country_event = {# Yiguandao Seeks Modern Weaponry
 	}
 }
 
-country_event = {# Song Zheyuan asks Qing for help against riots
+country_event = {# Сун Чжэюань asks Qing for help against riots
 	id = shandong.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event shandong.21" }
 	title = shandong.21.t
@@ -1567,7 +1567,7 @@ country_event = {# The Qing send further relief to end the riots
 }
 
 #### Related to Anqing (by Erag)
-country_event = {# Fengtian supports Anqing - Chen Tiaoyuan
+country_event = {# Fengtian supports Anqing - Чэнь Тяоюань
 	id = shandong.33
 	immediate = { log = "[GetDateText]: [Root.GetName]: event shandong.33" }
 	title = shandong.33.t
@@ -1847,7 +1847,7 @@ country_event = {
 			requested_factories = 1
 			progress = 0.2
 			amount = 1
-			}		custom_effect_tooltip = "Japan agrees to sell the Dai-7 Kantai"
+			}		custom_effect_tooltip = "Япония соглашается продать Dai-7 Kantai"
 	}
 }
 
@@ -2125,7 +2125,7 @@ country_event = {# tianran secret kmt convert
 		}
 		SQI = {
 			create_field_marshal = {
-				name = "Zhao Hong Wenguo"
+				name = "Чжао Хун Вэньгуо"
 				desc = "SQI_ZHAO_HONG_WENGUO_DESC"
 				portrait_path = "gfx/leaders/SQI/Portrait_Shandong_Zhao_Hong_Wenguo.png"
 				traits = {
@@ -2355,7 +2355,7 @@ country_event = {#
 	}
 }
 
-country_event = {# Song Zheyuan sends a lifeline to Beijing
+country_event = {# Сун Чжэюань sends a lifeline to Beijing
 	id = shandong.410
 	immediate = { log = "[GetDateText]: [Root.GetName]: event shandong.410" }
 	title = shandong.410.t
@@ -2807,7 +2807,7 @@ country_event = { # Death of Zongchang
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Zhang Zongchang"
+			name = "Чжан Цзунчан"
 		}
 	}
 
@@ -2822,7 +2822,7 @@ country_event = { # Death of Zongchang
 		}
 		set_country_flag = Zongchang_dead
 		create_country_leader = {
-			name = "Sun Dianying"
+			name = "Сунь Дяньин"
 			desc = "POLITICS_SUN_DIANYING_DESC"
 			picture = "gfx/leaders/SQI/Portrait_Shandong_Sun_Dianying.png"
 			expire = "1.1.1"
@@ -2843,7 +2843,7 @@ country_event = { # Death of Tianran
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Zhang Tianran"
+			name = "Чжан Тяньжань"
 		}
 	}
 
@@ -2851,7 +2851,7 @@ country_event = { # Death of Tianran
 		name = shandong.436.a
 		set_country_flag = Tianran_dead
 		create_country_leader = {
-			name = "Sun Suzhen"
+			name = "Сунь Сучжэнь"
 			picture = "gfx/leaders/SQI/Portrait_Shandong_Sun_Suzhen.png"
 			expire = "1.1.1"
 			ideology = consistent_way_subtype 
@@ -2871,7 +2871,7 @@ country_event = { # Death of Zheyuan
 	trigger = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Song Zheyuan"
+			name = "Сун Чжэюань"
 		}
 	}
 
@@ -2886,7 +2886,7 @@ country_event = { # Death of Zheyuan
 			}
 		}
 		create_country_leader = {
-			name = "Li Jinglin"
+			name = "Ли Цзинлинь"
 			desc = "POLITICS_LI_JINGLIN_DESC"
 			picture = "gfx/leaders/SQI/Portrait_Shandong_Li_Jinglin.png"
 			expire = "1.1.1"
@@ -3040,7 +3040,7 @@ country_event = { # Shangqing Owns Beijing
 		name = shandong.442.a
 		effect_tooltip = {
 			create_country_leader = {
-				name = "Puyi"
+				name = "Пу И"
 				desc = "POLITICS_PUYI_PUPPET_DESC"
 				picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 				expire = "1.1.1"
@@ -3049,7 +3049,7 @@ country_event = { # Shangqing Owns Beijing
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Puyi"
+				name = "Пу И"
 				desc = "POLITICS_PUYI_PUPPET_DESC"
 				picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Uniform.png"
 				expire = "1.1.1"
@@ -3224,7 +3224,7 @@ country_event = {#
 
 	fire_only_once = yes
 	trigger = {
-	has_country_leader = { name = "Zhang Zongchang" ruling_only = yes }
+	has_country_leader = { name = "Чжан Цзунчан" ruling_only = yes }
 	has_cosmetic_tag = ROC
 	has_war = no
 	owns_state = 608
@@ -3338,7 +3338,7 @@ country_event = {#
 		name = shandong.448.a
 		set_country_leader_ideology = absolute_monarchy_subtype
 		if = {	
-			limit = { has_country_leader = { name = "Zhang Zongchang" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Чжан Цзунчан" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Zongchang_Emperor.png"
 			}
@@ -3409,7 +3409,7 @@ country_event = {#
 	option = {
 		name = shandong.451.a
 		create_country_leader = {
-		name = "Puyi"
+		name = "Пу И"
 		picture = "gfx/leaders/QIE/Portrait_QIE_Puyi_Suit.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3419,7 +3419,7 @@ country_event = {#
 	option = {
 		name = shandong.451.b
 		create_country_leader = {
-		name = "Pujie"
+		name = "Пуцзе"
 		picture = "gfx/leaders/QIE/Portrait_QIE_Pujie.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3429,7 +3429,7 @@ country_event = {#
 	option = {
 		name = shandong.451.c
 		create_country_leader = {
-		name = "Xianyu"
+		name = "Сяньюй"
 		picture = "gfx/leaders/FNG/Portrait_FNG_Xianyu_Qing_Uniform.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3454,20 +3454,20 @@ country_event = {#
 			factor = 20
 		}
 		create_country_leader = {
-		name = "Yasuhito"
+		name = "Ясухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
 		}
 		set_cosmetic_tag = FNG_JAP_empire_direct
 	}
-	option = {#Nobuhito
+	option = {#Нобухито
 		name = shandong.452.b
 		ai_chance = {
 		factor = 20
 		}
 		create_country_leader = {
-		name = "Nobuhito"
+		name = "Нобухито"
 		picture = "gfx/leaders/JAP/Portrait_JAP_Nobuhito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3480,7 +3480,7 @@ country_event = {#
 			factor = 20
 		}
 		create_country_leader = {
-		name = "Kan'in Kotohito"
+		name = "Канъин-но-мия Котохито"
 		picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3517,7 +3517,7 @@ country_event = {#
 	option = {
 		name = shandong.454.a
 		create_country_leader = {
-		name = "Vsevolod I"
+		name = "Всеволод I"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3533,7 +3533,7 @@ country_event = {#
 	option = {
 		name = shandong.454.b
 		create_country_leader = {
-		name = "Pyotr I"
+		name = "Пётр I"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3549,7 +3549,7 @@ country_event = {#
 	option = {
 		name = shandong.454.c
 		create_country_leader = {
-		name = "Felix I"
+		name = "Феликс I"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Felix_Yusupov_Drip.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3565,7 +3565,7 @@ country_event = {#
 	option = {
 		name = shandong.454.e
 		create_country_leader = {
-		name = "Boris I"
+		name = "Борис I"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Annenkov.png"
 		expire = "1.1.1"
 		ideology = absolute_monarchy_subtype
@@ -3609,7 +3609,7 @@ country_event = {#
 	fire_only_once = yes
 	trigger = {
 	tag = SQI
-	has_country_leader = { name = "Song Zheyuan" ruling_only = yes }
+	has_country_leader = { name = "Сун Чжэюань" ruling_only = yes }
 	has_cosmetic_tag = ROC
 	has_war = no
 	owns_state = 608
@@ -3621,7 +3621,7 @@ country_event = {#
 	option = {
 		name = shandong.456.b
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			desc = "POLITICS_HONGWU_DESC"
 			picture = "gfx/leaders/LEC/Portrait_LEC_Hongwu.png"
 			expire = "1.1.1"
@@ -3638,7 +3638,7 @@ country_event = {#
 	option = {
 		name = shandong.456.c
 		create_country_leader = {
-			name = "Da Yi"
+			name = "Да Йи"
 			desc = "SHANG_EMPEROR_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Lingyi.png"
 			expire = "1.1.1"
@@ -3669,7 +3669,7 @@ country_event = { #Kong Lingyi dies (Shandong version)
 	option = {
 		name = qieygd.11.a
 		create_country_leader = {
-			name = "Kong Decheng"
+			name = "Конг Дешенг"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Kong_Decheng.png"
 			desc = ""
 			expire = "1.1.1"

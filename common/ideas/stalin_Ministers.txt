@@ -1,0 +1,185 @@
+ideas = {
+	head_of_government = {
+		GSV_Ioseb_B_Dzughashvili_hog_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ioseb_Jugashvili_dead }
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Ioseb_B_Dzughashvili_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_local_tyrant
+			}
+			
+		}
+	}
+	person_of_influence = {
+		GSV_Sergey_I_Kavtaradze_for_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = {
+					has_completed_focus = GEO_Aftermath_Of_Civil_War
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Sergey_I_Kavtaradze_for_tot"
+			}
+			traits = {
+				foreign_minister
+				totalist
+			}
+		}
+		GSV_Vyacheslav_Molotov_for_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Vyacheslav_Molotov_for_tot"
+			}
+			traits = {
+				foreign_minister
+				totalist
+				for_biased_intellectual
+				for_ideological_crusader
+			}
+		}
+		GEO_Lavrentij_Beria_sec_tot = {
+			allowed = { original_tag = GEO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GEO_Lavrentij_Beria_sec_tot"
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_crime_fighter
+			}
+			
+		}
+		GSV_Lavrentij_Beria_sec_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Lavrentij_Beria_sec_tot"
+			}
+			traits = {
+				security_minister
+				totalist
+				sec_crime_fighter
+			}
+		}
+		GSV_Grigol_Orjonikidze_eco_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			visible = {
+				NOT = {
+					has_completed_focus = GEO_Towards_Planned_Economy
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Grigol_Orjonikidze_eco_tot"
+			}
+			traits = {
+				economy_minister
+				totalist
+				SOV_commissar_of_heavy_industry
+			}
+		}
+		GSV_Nikolay_Voznesensky_eco_tot = {
+			allowed = { original_tag = GSV }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GSV_Nikolay_Voznesensky_eco_tot"
+			}
+			traits = {
+				economy_minister
+				eco_planned_economy_proponent
+				hog_political_survivor
+				eco_efficient_director
+			} 
+		}
+	}
+	chief_of_staff = { ### Chief of Staff ###
+	    GSV_Mikhail_Tukhachevskiy_cos = {
+	    	allowed = { original_tag = GSV }
+	    	available = {
+	    		has_government = totalist
+	    	}
+	    	visible = {
+	    		has_completed_focus = GEO_Aftermath_Of_Civil_War
+	    	}
+	    	on_add = {
+	    		log = "[GetDateText]: [Root.GetName]: add idea GEO_Mikhail_Tukhachevskiy"
+	    	}
+	    	traits = {
+				chief_of_staff
+				RUS_deep_operation_theorist
+			}
+	    	cancel_if_invalid = yes
+	    }
+	    GSV_Aleksandr_I_Yegorov_cos = {
+	    	allowed = { original_tag = GSV }
+	    	available = {
+	    		has_government = totalist
+	    	}
+	    	visible = {
+	    		has_completed_focus = GEO_Aftermath_Of_Civil_War
+	    	}
+	    	on_add = {
+	    		log = "[GetDateText]: [Root.GetName]: add idea GEO_Aleksandr_I_Yegorov"
+	    	}
+	    	traits = {
+	    		chief_of_staff
+	    		chief_of_staff
+				RUS_brilliant_organizer
+	    	}
+	    	cancel_if_invalid = yes
+	    }
+	}
+}

@@ -65,19 +65,19 @@ add_offsite_building = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
@@ -128,49 +128,49 @@ add_ideas = {
 	GXC_Zhao_Dingrong_sec_sli
 }
 create_country_leader = {
-	name = "Chen Mingshu"
+	name = "Чэнь Миншу"
 	desc = "POLITICS_GXC_CHEN_MINGSHU_DESC"
 	picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Mingshu.png"
 	expire = "1.1.1"
 	ideology = radsoc_tridemism_subtype
 }
 create_country_leader = {
-	name = "Chen Jiongming"
+	name = "Чэнь Цзюнмин"
 	desc = "POLITICS_GXC_CHEN_JIONGMING_DESC"
 	picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming.png"
 	expire = "1.1.1"
 	ideology = chinese_federalism_subtype
 }
 create_country_leader = {
-	name = "Chen Jiongming"
+	name = "Чэнь Цзюнмин"
 	desc = "POLITICS_GXC_CHEN_JIONGMING_DESC"
 	picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming.png"
 	expire = "1.1.1"
 	ideology = soclib_chinese_federalism_subtype
 }
 create_country_leader = {
-	name = "Chen Lianbo"
+	name = "Чэнь Ляньбо"
 	desc = "POLITICS_GXC_CHEN_LIANBO_DESC"
 	picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Lianbo.png"
 	expire = "1.1.1"
 	ideology = marlib_warlordism_subtype
 }
 create_country_leader = {
-	name = "Li Zongren"
+	name = "Ли Цзунжэнь"
 	desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 	picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 	expire = "1.1.1"
 	ideology = authdem_tridemism_subtype
 }
 create_country_leader = {
-	name = "Ma Ji"
+	name = "Ма Цзы"
 	desc = "POLITICS_GXC_MA_JI_DESC"
 	picture = "gfx/leaders/GXC/Portrait_GXC_Ma_Ji.png"
 	expire = "1.1.1"
 	ideology = pataut_warlordism_subtype
 }
 create_country_leader = {
-	name = "Zhang Tianran"
+	name = "Чжан Тяньжань"
 	picture = "gfx/leaders/SQI/Portrait_Shandong_Zhang_Tianran.png"
 	expire = "1.1.1"
 	ideology = consistent_way_subtype
@@ -179,7 +179,7 @@ create_country_leader = {
 ### Field Marshals ###
 
 create_field_marshal = { #Guangdong
-	name = "Chen Jiongming "
+	name = "Чэнь Цзюнмин "
 	desc = "POLITICS_GXC_CHEN_JIONGMING_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Chen_Jiongming_Army.png"
 	traits = { old_guard trait_cautious war_hero GXC_guangdong_clique_officer organizer }
@@ -193,7 +193,7 @@ create_field_marshal = { #Guangdong
 }
 
 create_field_marshal = { #Guangxi
-	name = "Ma Ji "
+	name = "Ма Цзы"
 	desc = "POLITICS_GXC_MA_JI_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Ma_Ji.png"
 	traits = { trait_reckless infantry_officer politically_connected war_hero GXC_guangxi_clique_officer trickster harsh_leader }
@@ -207,7 +207,7 @@ create_field_marshal = { #Guangxi
 }
 
 create_field_marshal = {
-	name = "Li Zongren "
+	name = "Ли Цзунжэнь"
 	desc = "POLITICS_YUNNAN_LI_ZONGREN_ARMY_DESC"
 	portrait_path = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 	id = 1209
@@ -220,7 +220,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = { #Guangdong
-	name = "Chen Mingshu "
+	name = "Чэнь Миншу"
 	desc = "POLITICS_GXC_CHEN_MINSHU_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Chen_Mingshu_Army.png"
 	traits = {
@@ -240,7 +240,7 @@ create_field_marshal = { #Guangdong
 }
 
 create_field_marshal = { #Guangdong
-	name = "Chen Lianbo "
+	name = "Чэнь Ляньбо"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Chen_Lianbo_Army.png"
 	traits = {
 		GXC_guangdong_clique_officer
@@ -260,7 +260,7 @@ create_field_marshal = { #Guangdong
 
 
 create_corps_commander = { #Guangdong
-	name = "Chen Jitang"
+	name = "Чэнь Цзитан"
 	desc = "POLITICS_GXC_CHEN_JITANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Chen_Jitang.png"
 	traits = { brilliant_strategist career_officer war_hero GXC_guangdong_clique_officer }
@@ -272,7 +272,7 @@ create_corps_commander = { #Guangdong
 	id = 5051
 }
 create_corps_commander = { #Guangdong
-	name = "Jiang Guangnai"
+	name = "Цзян Гуаннай"
 	desc = "POLITICS_GXC_JIANG_GUANGNAI_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Jiang_Guangnai.png"
 	traits = { career_officer infantry_officer war_hero GXC_guangdong_clique_officer }
@@ -284,7 +284,7 @@ create_corps_commander = { #Guangdong
 	id = 5050
 }
 create_corps_commander = { #Guangdong I mean he's from Guangxi but he's a Federalist
-	name = "Lin Hu"
+	name = "Линь Ху"
 	desc = "POLITICS_GXC_LIN_HU_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Lin_Hu.png"
 	traits = { career_officer politically_connected GXC_guangdong_clique_officer }
@@ -297,7 +297,7 @@ create_corps_commander = { #Guangdong I mean he's from Guangxi but he's a Federa
 	id = 1122
 }
 create_corps_commander = { #Guangxi
-	name = "Lu Yuguang"
+	name = "Лу Юйгуан"
 	desc = "POLITICS_GXC_LU_YUGUANG_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Lu_Yugang.png"
 	traits = { old_guard career_officer trait_reckless politically_connected GXC_guangxi_clique_officer infantry_leader }
@@ -310,7 +310,7 @@ create_corps_commander = { #Guangxi
 	id = 1123
 }
 create_corps_commander = { #Guangdong
-	name = "Cai Tingkai"
+	name = "Цай Тинкай"
 	desc = "POLITICS_GXC_CAI_TINGKAI_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Cai_Tingkai.png"
 	traits = { career_officer infantry_officer GXC_guangdong_clique_officer }
@@ -322,7 +322,7 @@ create_corps_commander = { #Guangdong
 	id = 5058
 }
 create_corps_commander = { #Guangxi
-	name = "Li Pinxian"
+	name = "Ли Пинсянь"
 	desc = "POLITICS_GXC_LI_PINXIAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Li_Pinxian.png"
 	traits = { infantry_officer politically_connected GXC_guangxi_clique_officer }
@@ -334,7 +334,7 @@ create_corps_commander = { #Guangxi
 	id = 5022
 }
 create_corps_commander = { #Guangxi
-	name = "Zhang Gan"
+	name = "Чжан Гань"
 	desc = "POLITICS_GXC_ZHANG_GAN_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Zhang_Gan.png"
 	traits = { old_guard career_officer GXC_guangxi_clique_officer }
@@ -346,7 +346,7 @@ create_corps_commander = { #Guangxi
 	id = 5023
 }
 create_corps_commander = { #Guangdong
-	name = "Hong Zhaolin"
+	name = "Хун Чжаолинь"
 	desc = "POLITICS_GXC_HONG_ZHAOLIN_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Hong_Zhaolin.png"
 	traits = { old_guard career_officer GXC_guangdong_clique_officer }
@@ -359,7 +359,7 @@ create_corps_commander = { #Guangdong
 	id = 1142
 }
 create_corps_commander = { #Guangxi
-	name = "Liu Fei"
+	name = "Лю Фэй"
 	desc = "POLITICS_GXC_LIU_FEI_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Liu_Fei.png"
 	traits = { career_officer GXC_guangxi_clique_officer organizer }
@@ -371,7 +371,7 @@ create_corps_commander = { #Guangxi
 	id = 5054
 }
 create_corps_commander = { #Guangdong
-	name = "Ye Jianying"
+	name = "Е Цзяньин"
 	desc = "POLITICS_GXC_YE_JIANYING_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Ye_Jianying.png"
 	traits = { career_officer GXC_guangdong_clique_officer organizer commando }
@@ -383,7 +383,7 @@ create_corps_commander = { #Guangdong
 	id = 5055
 }
 create_corps_commander = { #Guangdong
-	name = "Li Yangjing"
+	name = "Ли Янцзин"
 	desc = "POLITICS_GXC_LI_YANGJING_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Li_Yangjing.png"
 	traits = { artillery_officer GXC_guangdong_clique_officer }
@@ -394,7 +394,7 @@ create_corps_commander = { #Guangdong
 	logistics_skill = 2
 }
 create_corps_commander = { #Guangdong
-	name = "Ye Ju"
+	name = "Е Цзюй"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Ye_Ju.png"
 	traits = { politically_connected GXC_guangdong_clique_officer }
 	skill = 2
@@ -405,7 +405,7 @@ create_corps_commander = { #Guangdong
 	id = 5026
 }
 create_corps_commander = {
-	name = "Bai Chongxi"
+	name = "Бай Чунси"
 	desc = "POLITICS_YUNNAN_BAI_CHONGXI_ARMY_DESC"
 	portrait_path = "gfx/leaders/YUN/Portrait_Yunnan_Bai_Chongxi.png"
 	skill = 3
@@ -418,7 +418,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Yu Zuobai"
+	name = "Юй Цзуобай"
 	desc = "POLITICS_YUNNAN_YU_ZUOBAI_ARMY_DESC"
 	portrait_path = "gfx/leaders/YUN/Portrait_Yunnan_Yu_Zuobai.png"
 	id = 1144
@@ -430,7 +430,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Yang Kunru"
+	name = "Ян Кунру"
 	desc = "POLITICS_GXC_YANG_KUNRU_ARMY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Yang_Kunru.png"
 	id = 5029
@@ -443,7 +443,7 @@ create_corps_commander = {
 }
 ### Admirals ###
 create_navy_leader = {
-	name = "Li Qingwen"
+	name = "Ли Цинвэнь"
 	desc = "POLITICS_GXC_LI_QINGWEN_NAVY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Li_Qingwen.png"
 	traits = {
@@ -458,7 +458,7 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 create_navy_leader = {
-	name = "Chen Ce"
+	name = "Чэнь Се"
 	desc = "POLITICS_GXC_CHEN_CE_NAVY_DESC"
 	portrait_path = "gfx/leaders/GXC/Portrait_GXC_Chen_Ce.png"
 	traits = {

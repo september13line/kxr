@@ -1400,11 +1400,11 @@ shared_focus = {
 	allow_branch = {
 		OR = {
 			has_country_leader = {
-				name = "Chen Lianbo"
+				name = "Чэнь Ляньбо"
 				ruling_only = yes
 			}
 			has_country_leader = {
-				name = "Ma Ji"
+				name = "Ма Цзы"
 				ruling_only = yes
 			}
 		}
@@ -1618,7 +1618,7 @@ shared_focus = {
 	cost = 5
 	available = {
 		has_country_leader = {
-			name = "Chen Jiongming"
+			name = "Чэнь Цзюнмин"
 			ruling_only = yes
 		}
 		has_country_flag = GXC_guangdong_victory
@@ -1649,7 +1649,7 @@ shared_focus = {
 				YUN = {
 					exists = yes
 					has_country_leader = {
-						name = "Tang Jiyao"
+						name = "Тан Цзияо"
 						ruling_only = yes
 					}
 					NOT = {
@@ -1669,11 +1669,11 @@ shared_focus = {
 					is_in_faction = no
 					OR = {
 						has_country_leader = {
-							name = "Zhao Hengti"
+							name = "Чжао Хэнти"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Tang Shengzhi"
+							name = "Тан Шэнчжи"
 							ruling_only = yes
 						}
 					}
@@ -1687,7 +1687,7 @@ shared_focus = {
 			limit = {
 				SZC = {
 					has_country_leader = {
-						name = "Xiong Kewu"
+						name = "Сюн Кеву"
 						ruling_only = yes
 					}
 					is_subject = no
@@ -2432,7 +2432,7 @@ shared_focus = {
 	cost = 5
 	available = {
 		has_country_leader = {
-			name = "Ma Ji"
+			name = "Ма Цзы"
 			ruling_only = yes
 		}
 		has_country_flag = GXC_guangxi_victory
@@ -2846,7 +2846,7 @@ shared_focus = {
 	cost = 5
 	available = {
 		has_country_leader = {
-			name = "Chen Lianbo"
+			name = "Чэнь Ляньбо"
 			ruling_only = yes
 		}
 		has_country_flag = GXC_guangdong_victory
@@ -3381,7 +3381,7 @@ shared_focus = {
 		if = {
 			limit = { 
 				has_country_leader = {
-					name = "Chen Mingshu"
+					name = "Чэнь Миншу"
 					ruling_only = yes
 				}
 			}
@@ -4182,7 +4182,7 @@ shared_focus = {
 			limit = {
 				can_declare_war_on = SHX
 				SHX = {
-					has_country_leader = { name = "Feng Yuxiang" ruling_only = yes }
+					has_country_leader = { name = "Фэн Юйсян" ruling_only = yes }
 					is_subject = no
 					has_civil_war = no
 					OR = {
@@ -4671,7 +4671,7 @@ shared_focus = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Hu Zongnan"
+				name = "Ху Цзуннань"
 				desc = "POLITICS_CHI_HU_ZONGNAN_DESC"
 				picture = "gfx/leaders/CHI/Portrait_CHI_Hu_Zongnan_KR.png"
 				expire = "1.1.1"
@@ -5206,34 +5206,34 @@ shared_focus = {
 			cost_reduction = 0.5
 			uses = 2
 			category = naval_doctrine
-		}
-		if = {
-			limit = { NOT = { has_tech = early_ship_hull_light } }
-			set_technology = { early_ship_hull_light = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = early_ship_hull_cruiser } }
-			set_technology = { early_ship_hull_cruiser = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = coastal_defense_ships } }
-			set_technology = { coastal_defense_ships = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = coastal_defense_ships } }
-			set_technology = { coastal_defense_ships = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = basic_naval_mines } }
-			set_technology = { basic_naval_mines = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = basic_battery } }
-			set_technology = { basic_battery = 1 }
-		}
-		if = {
-			limit = { NOT = { has_tech = basic_torpedo } }
-			set_technology = { basic_torpedo = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = early_ship_hull_light } }
+				set_technology = { early_ship_hull_light = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = early_ship_hull_cruiser } }
+				set_technology = { early_ship_hull_cruiser = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = coastal_defense_ships } }
+				set_technology = { coastal_defense_ships = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = coastal_defense_ships } }
+				set_technology = { coastal_defense_ships = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = basic_naval_mines } }
+				set_technology = { basic_naval_mines = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = basic_battery } }
+				set_technology = { basic_battery = 1 }
+			}
+			if = {
+				limit = { NOT = { has_tech = basic_torpedo } }
+				set_technology = { basic_torpedo = 1 }
 		}
 
 		custom_effect_tooltip = tooltip_white_line

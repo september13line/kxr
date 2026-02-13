@@ -153,7 +153,7 @@ WHR_setup_republican_leaders = {
 	}
 		
 	create_country_leader = {
-		name = "Jazep Ljosik"
+		name = "Язэп Лёсік"
 		desc = "POLITICS_JAZEP_LJOSIK_DESC"
 		picture = "gfx/leaders/WHR/Portrait_WHR_Jazep_Ljosik.png"
 		expire = "1.1.1"
@@ -161,7 +161,7 @@ WHR_setup_republican_leaders = {
 	}	
 
 	create_country_leader = {
-		name = "Adam Stankievič"
+		name = "Адам Станкевіч"
 		desc = "POLITICS_ADAM_STANKIEVIC_DESC"
 		picture = "gfx/leaders/WHR/Portrait_WHR_Adam_Stankievic.png"
 		expire = "1.1.1"
@@ -169,7 +169,7 @@ WHR_setup_republican_leaders = {
 	}
 
 	create_country_leader = {
-		name = "Adam Stankievič"
+		name = "Адам Станкевіч"
 		desc = "POLITICS_ADAM_STANKIEVIC_DESC"
 		picture = "gfx/leaders/WHR/Portrait_WHR_Adam_Stankievic.png"
 		expire = "1.1.1"
@@ -177,7 +177,7 @@ WHR_setup_republican_leaders = {
 	}
 
 	create_country_leader = {
-		name = "Radasłaŭ Astroŭski"
+		name = "Радаслаў Астроўскі"
 		desc = "POLITICS_RADASLAU_ASTROUSKI_DESC"
 		picture = "gfx/leaders/WHR/Portrait_WHR_Radaslau_Astrouski.png"
 		expire = "1.1.1"
@@ -185,7 +185,7 @@ WHR_setup_republican_leaders = {
 	}
 
 	create_country_leader = {
-		name = "Radasłaŭ Astroŭski"
+		name = "Радаслаў Астроўскі"
 		desc = "POLITICS_RADASLAU_ASTROUSKI_DESC"
 		picture = "gfx/leaders/WHR/Portrait_WHR_Radaslau_Astrouski.png"
 		expire = "1.1.1"
@@ -220,14 +220,14 @@ setup_puppet_belarus = {
 			set_country_flag = sigismund_I_HoS
 			set_cosmetic_tag = WHR_king
 			create_country_leader = {
-				name = "Žyhimont"
+				name = "Жыгімонт"
 				desc = "POLITICS_SIGISMUND_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Zyhimont.png"
 				expire = "1.1.1"
 				ideology = prussian_constitutionalism_subtype
 			}
 			create_country_leader = {
-				name = "Žyhimont"
+				name = "Жыгімонт"
 				desc = "POLITICS_SIGISMUND_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Zyhimont.png"
 				expire = "1.1.1"
@@ -242,7 +242,7 @@ setup_puppet_belarus = {
 				has_country_flag = Sigismund_von_Hohenzollern_dead
 			}
 			create_country_leader = {
-				name = "Werner Kempf"
+				name = "Вернер Кемпф"
 				desc = "POLITICS_WERNER_KEMPF_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Werner_Kempf.png"
 				expire = "1.1.1"
@@ -263,18 +263,18 @@ setup_puppet_belarus = {
 		}
 		else_if = {
 			limit = {
-				ROOT = { has_authoritarian_government = no }
+					ROOT = { has_authoritarian_government = no }
 			}			
 			set_cosmetic_tag = WHR_king
 			create_country_leader = {
-				name = "Uladzimir"
+				name = "Уладзімір"
 				desc = "POLITICS_VLADIMIR_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Uladzimir.png"
 				expire = "1.1.1"
 				ideology = paternal_socialism_subtype
 			}
 			create_country_leader = {
-				name = "Uladzimir"
+				name = "Уладзімір"
 				desc = "POLITICS_VLADIMIR_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Uladzimir.png"
 				expire = "1.1.1"
@@ -328,7 +328,7 @@ setup_puppet_belarus = {
 			}
 			set_cosmetic_tag = WHR_ANDRU
 			create_country_leader = {
-				name = "Stanisłaŭ Bułak-Bałachowič"
+				name = "Станислав Булак-Балахович"
 				desc = "POLITICS_BULAK_BALACHOWIC_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Stanislaw_Bulak_Balachowicz.png"
 				expire = "1.1.1"
@@ -358,8 +358,8 @@ setup_puppet_belarus = {
 				ROOT = { has_country_flag = soviet_russia_restored }
 			}
 			ROOT = {
-				set_temp_variable = { target = WHR }
-				SOV_puppet_TARGET_effect = yes
+			set_temp_variable = { target = WHR }
+			SOV_puppet_TARGET_effect = yes
 			}
 		}
 		else = {

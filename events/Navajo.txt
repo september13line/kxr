@@ -43,7 +43,7 @@ country_event = { #council
 		name = nvn.2.a
 		set_country_flag = nvn_hayes_flag
 		create_country_leader = {
-		name = "Ira Hayes"
+		name = "Айра Хейз"
 		desc = "POLITICS_HAYES_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes.png"
 		expire = "1.1.1"
@@ -56,7 +56,7 @@ country_event = { #council
 		name = nvn.2.b
 		set_country_flag = nvn_chee_flag
 		create_country_leader = {
-		name = "Henry Chee Dodge"
+		name = "Генри Чи Додж"
 		desc = "POLITICS_CHEE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Chee_Dodge.png"
 		expire = "1.1.1"
@@ -146,7 +146,7 @@ country_event = { #hayes elections
 			}
 			hidden_effect = {
 				if = {	
-				limit = { has_country_leader = { name = "Ira Hayes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Айра Хейз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 				}
@@ -169,7 +169,7 @@ country_event = { #hayes elections
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Thomas Banyacya"
+		name = "Томас Баньякья"
 		desc = "POLITICS_THOMAS_BANYACYA_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Thomas_Banyacya.png"
 		expire = "1.1.1"
@@ -185,7 +185,7 @@ country_event = { #hayes elections
 			}
 			hidden_effect = {
 				if = {	
-				limit = { has_country_leader = { name = "Ira Hayes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Айра Хейз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 				}
@@ -220,7 +220,7 @@ country_event = { #hayes elections
 			}
 			hidden_effect = {
 				if = {	
-				limit = { has_country_leader = { name = "Ira Hayes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Айра Хейз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 				}
@@ -255,7 +255,7 @@ country_event = { #hayes elections
 			}
 			hidden_effect = {
 				if = {	
-				limit = { has_country_leader = { name = "Ira Hayes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Айра Хейз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 				}
@@ -286,7 +286,7 @@ country_event = { #hayes elections
 		}
 		set_cosmetic_tag = NVN_comanche
 		create_country_leader = {
-					name = "Emma B. Tenayuca"
+					name = "Эмма Б. Тенаюка"
 					desc = "POLITICS_TENAYUCA_DESC"
 					female = yes
 					picture = "gfx/leaders/TXS/Portrait_Texas_Emma_Tenayuca.png"
@@ -303,7 +303,7 @@ country_event = { #hayes elections
 			}
 			hidden_effect = {
 				if = {	
-				limit = { has_country_leader = { name = "Ira Hayes" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Айра Хейз" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 				}
@@ -967,7 +967,7 @@ country_event = { #Capital
 
 	option = { #oh shit
 		name = nvn.28.a
-		set_province_name = { id = 6897 name = "Tségháhoodzání"}
+		set_province_name = { id = 6897 name = "Цегахудзани"}
 		
 	}
 	
@@ -1871,7 +1871,7 @@ country_event = { #Chief Chee Picker
 	option = { #annie
 		name = nvn.62.a
 	create_country_leader = {
-		name = "Annie Dodge Wauneka"
+		name = "Энни Додж Ваунека"
 		desc = "POLITICS_ANNIE_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Annie_Dodge_Wauneka.png"
 		female = yes
@@ -1883,7 +1883,7 @@ country_event = { #Chief Chee Picker
 	option = { #thomas
 		name = nvn.62.b
 	create_country_leader = {
-		name = "Thomas Henry Dodge"
+		name = "Томас Генри Додж"
 		desc = "POLITICS_THOMAS_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Thomas_Dodge.png"
 		expire = "1.1.1"
@@ -1907,7 +1907,7 @@ country_event = { #Marlib Chee Picker
 	option = { #annie
 		name = nvn.63.a
 	create_country_leader = {
-		name = "Annie Dodge Wauneka"
+		name = "Энни Додж Ваунека"
 		desc = "POLITICS_ANNIE_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Annie_Dodge_Wauneka.png"
 		female = yes
@@ -1919,7 +1919,7 @@ country_event = { #Marlib Chee Picker
 	option = { #thomas
 		name = nvn.63.b
 	create_country_leader = {
-		name = "Thomas Henry Dodge"
+		name = "Томас Генри Додж"
 		desc = "POLITICS_THOMAS_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Thomas_Dodge.png"
 		expire = "1.1.1"
@@ -1933,7 +1933,7 @@ country_event = { #Marlib Chee Picker
 	date < 1947.01.07
 	}
 	create_country_leader = {
-		name = "Henry Chee Dodge"
+		name = "Генри Чи Додж"
 		desc = "POLITICS_CHEE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Chee_Dodge.png"
 		expire = "1.1.1"
@@ -1959,7 +1959,7 @@ country_event = { #Socdem Hayes Picker
 	option = { #lutakawi
 		name = nvn.64.b
 	create_country_leader = {
-		name = "Lutakawi"
+		name = "Лутакави"
 		desc = "POLITICS_LUTAKAWI_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Lutakawi.png"
 		expire = "1.1.1"
@@ -1970,7 +1970,7 @@ country_event = { #Socdem Hayes Picker
 	option = { #yeltsin
 		name = nvn.64.c
 	create_country_leader = {
-		name = "Julius N. Cloud"
+		name = "Джулиус Клауд"
 		desc = "POLITICS_JULIUS_CLOUD_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Julius_Cloud.png"
 		expire = "1.1.1"
@@ -1981,7 +1981,7 @@ country_event = { #Socdem Hayes Picker
 	option = { #tori
 		name = nvn.64.e
 	create_country_leader = {
-		name = "Anselmo Valencia Tori"
+		name = "Ансельмо Валенсия Тори"
 		desc = "POLITICS_ANSELMO_TORI_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Anselmo_Valencia_Tori.png"
 		expire = "1.1.1"
@@ -2004,7 +2004,7 @@ country_event = { #Soccon Hayes Picker
 	option = { #naiche
 		name = nvn.65.a
 		create_country_leader = {
-		name = "Naiche"
+		name = "Найче"
 		desc = "POLITICS_NAICHE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Naiche.png"
 		expire = "1.1.1"
@@ -2015,7 +2015,7 @@ country_event = { #Soccon Hayes Picker
 	option = { #chato
 		name = nvn.65.b
 		create_country_leader = {
-		name = "Chato"
+		name = "Чато"
 		desc = "POLITICS_CHATO_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Chato.png"
 		expire = "1.1.1"
@@ -2058,7 +2058,7 @@ country_event = { #Tenayuca
 	trigger = {
 	tag = NVN	
 	has_government = radical_socialist
-	has_country_leader = { ruling_only = yes name = "Emma B. Tenayuca" }
+	has_country_leader = { ruling_only = yes name = "Эмма Б. Тенаюка" }
 	}
 
 	option = { #nah
@@ -2073,7 +2073,7 @@ country_event = { #Tenayuca
 		name = nvn.68.c
 	trigger = {
 	MEX = {
-	has_country_leader = { ruling_only = yes name = "Frida Kahlo" }
+	has_country_leader = { ruling_only = yes name = "Фрида Кало" }
 		}
 	}
 	set_country_leader_ideology = mexicayotlism_subtype
@@ -2115,7 +2115,7 @@ country_event = { #Tribal Chee Picker
 	option = { #annie
 		name = nvn.70.a
 	create_country_leader = {
-		name = "Annie Dodge Wauneka"
+		name = "Энни Додж Ваунека"
 		desc = "POLITICS_ANNIE_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Annie_Dodge_Wauneka.png"
 		female = yes
@@ -2127,7 +2127,7 @@ country_event = { #Tribal Chee Picker
 	option = { #thomas
 		name = nvn.70.b
 	create_country_leader = {
-		name = "Thomas Henry Dodge"
+		name = "Томас Генри Додж"
 		desc = "POLITICS_THOMAS_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Thomas_Dodge.png"
 		expire = "1.1.1"
@@ -2154,18 +2154,18 @@ country_event = { #Chee dies
 		name = nvn.71.a
 	trigger = {
 	NOT = {
-	has_country_leader = { ruling_only = yes name = "Henry Chee Dodge" }
+	has_country_leader = { ruling_only = yes name = "Генри Чи Додж" }
 		}
 	}
 }
 option = {
 		name = nvn.71.a
 	trigger = {
-	has_country_leader = { ruling_only = yes name = "Henry Chee Dodge" }
+	has_country_leader = { ruling_only = yes name = "Генри Чи Додж" }
 	}
 	set_country_flag = NVN_Chee_Dead
 	create_country_leader = {
-		name = "Navajo Council"
+		name = "Совет Навахо"
 		desc = "POLITICS_NAVAJO_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Council.png"
 		expire = "1.1.1"
@@ -2173,7 +2173,7 @@ option = {
 		traits = {}
 		}
 	create_country_leader = {
-		name = "Navajo Council"
+		name = "Совет Навахо"
 		desc = "POLITICS_NAVAJO_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Council.png"
 		expire = "1.1.1"
@@ -2181,7 +2181,7 @@ option = {
 		traits = {}
 	}
 	create_country_leader = {
-		name = "Navajo Council"
+		name = "Совет Навахо"
 		desc = "POLITICS_NAVAJO_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Council.png"
 		expire = "1.1.1"
@@ -2308,7 +2308,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Ben Reifel"
+		name = "Бен Райфель"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_Ben_Reifel.png"
 		expire = "1.1.1"
@@ -2327,7 +2327,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Joe Medicine Crow"
+		name = "Джо Кроу"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_Medicine_Crow.png"
 		expire = "1.1.1"
@@ -2346,7 +2346,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Charles Curtis"
+		name = "Чарльз Кёртис"
 		desc = ""
 		picture = "gfx/leaders/USA/Portrait_USA_Charles_Curtis.png"
 		expire = "1.1.1"
@@ -2365,7 +2365,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Thomas Henry Dodge"
+		name = "Томас Генри Додж"
 		desc = "POLITICS_THOMAS_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Thomas_Dodge.png"
 		expire = "1.1.1"
@@ -2385,7 +2385,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Annie Dodge Wauneka"
+		name = "Энни Додж Ваунека"
 		desc = "POLITICS_ANNIE_DODGE_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Annie_Dodge_Wauneka.png"
 		female = yes
@@ -2406,7 +2406,7 @@ country_event = { #The First Elections of Our New and Native America
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Ira Hayes"
+		name = "Айра Хейз"
 		desc = "POLITICS_HAYES_DESC"
 		picture = "gfx/leaders/NVN/Portrait_NVN_Ira_Hayes_civ.png"
 		expire = "1.1.1"
@@ -2440,7 +2440,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Emma B. Tenayuca"
+		name = "Эмма Б. Тенаюка"
 		desc = "POLITICS_TENAYUCA_DESC"
 		female = yes
 		picture = "gfx/leaders/TXS/Portrait_Texas_Emma_Tenayuca.png"
@@ -2460,7 +2460,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Zitkala-sa"
+		name = "Зиткала-Ша"
 		desc = ""
 		female = yes
 		picture = "gfx/leaders/AIF/Portrait_AIF_Zitkala_sa.png"
@@ -2480,7 +2480,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Oscar Howe"
+		name = "Оскар Хоу"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_Oscar_Howe.png"
 		expire = "1.1.1"
@@ -2499,7 +2499,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "J.B. Milam"
+		name = "Дж. Б. Миллам"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_JB_Milam.png"
 		expire = "1.1.1"
@@ -2519,7 +2519,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Archie Phinney"
+		name = "Арчибальд Финней"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_Archie_Phinney.png"
 		expire = "1.1.1"
@@ -2541,7 +2541,7 @@ country_event = { #Native American elections part 2
 			popularity = 0.25
 		}
 		create_country_leader = {
-		name = "Elwood Towner"
+		name = "Элвуд Таунер"
 		desc = ""
 		picture = "gfx/leaders/AIF/Portrait_AIF_Elwood_Towner.png"
 		expire = "1.1.1"

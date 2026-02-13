@@ -232,7 +232,7 @@ country_event = {
 			ALO_Muhtar_Auezov_sec_sde
 		}
 		create_country_leader = {
-			name = "Smagul Säduaqasov"
+			name = "Смагул Садвакасов"
 			desc = "POLITICS_SMAGUL_SADUAQASOV_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Smagul_Saduakasov.png"
 			expire = "1.1.1"
@@ -282,7 +282,7 @@ country_event = {
 			ALO_Dauletshe_Kusepkaliev_sec_sli
 		}
 		create_country_leader = {
-			name = "Jahansha Dosmukhamedov"
+			name = "Жаханша Досмухамедов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Zhakhansha_Dosmukhammedov.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype
@@ -1153,7 +1153,7 @@ country_event = {
 		if = {
 			limit = { ALO_amonzholov_in_power = no }						
 			create_country_leader = {
-				name = "Sadyq Amanjolov"
+				name = "Садык Аманжолов"
 				desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 				expire = "1.1.1"
@@ -1232,7 +1232,7 @@ country_event = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Sadyq Amanjolov"
+					name = "Садык Аманжолов"
 					desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 					picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 					expire = "1.1.1"
@@ -1315,7 +1315,7 @@ country_event = {
 		}
 		set_country_flag = ALO_alash_militia_apolitical
 		create_country_leader = {
-			name = "Bazarbay Mametuly"
+			name = "Базарбай Маментов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Bazarbay_Mamentov.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1355,7 +1355,7 @@ country_event = {
 		add_stability = 0.03
 		set_country_flag = ALO_alash_militia_apolitical
 		create_country_leader = {
-			name = "Áskeri Keńes"
+			name = "Аскери Кенес"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Military_Council.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -1596,7 +1596,7 @@ country_event = {
 				NOT = { has_idea = ALO_Qajymuqan_Munaitpasov_hog_rso }
 			}
 			create_country_leader = {
-				name = "Qajymuqan Munaitpasuly"
+				name = "Кажымукан Мунайтпасов"
 				desc = "POLITICS_QAJYMUQAN_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Kazhymukan_Munaitpasov.png"
 				expire = "1.1.1"
@@ -1698,7 +1698,7 @@ country_event = {
 			if = {
 				limit = { ALO_dulatov_in_power = no }				
 				create_country_leader = {
-					name = "Mirjaqyp Dulatuly"
+					name = "Миржакип Дулатов"
 					desc = "POLITICS_MIRJAKIP_DULATULY_DESC"
 					picture = "gfx/leaders/ALO/Portrait_ALO_Mirzhakip_Dulatov.png"
 					expire = "1.1.1"
@@ -1758,7 +1758,7 @@ country_event = {
 		if = {
 			limit = { ALO_yermekov_in_power = no }						
 			create_country_leader = {
-				name = "Älimhan Yermekov"
+				name = "Алимхан Ермеков"
 				desc = "POLITICS_ALIMKHAN_YERMEKOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Alimkhan_Yermekov.png"
 				expire = "1.1.1"
@@ -1820,7 +1820,7 @@ country_event = {
 		if = {
 			limit = { ALO_amonzholov_in_power = no }						
 			create_country_leader = {
-				name = "Sadyq Amanjolov"
+				name = "Садык Аманжолов"
 				desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 				expire = "1.1.1"
@@ -2017,7 +2017,7 @@ country_event = {
 		trigger = {
 			RUS = {
 				has_country_leader = {
-					name = "Alexandr Kerensky"
+					name = "Александр Керенский"
 					ruling_only = yes
 				}
 			}
@@ -2035,7 +2035,7 @@ country_event = {
 		effect_tooltip = { retire_country_leader = yes }
 		remove_ideas_with_trait = head_of_government
 		create_country_leader = {
-			name = "Halyq Keńesi"
+			name = "Халык Кенгеси"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Council.png"
 			expire = "1.1.1"
 			ideology = marlib_centrist_subtype
@@ -2046,7 +2046,7 @@ country_event = {
 				RUS = {
 					NOT = {
 						has_country_leader = {
-							name = "Alexandr Kerensky"
+							name = "Александр Керенский"
 							ruling_only = yes
 						}
 					}
@@ -3366,7 +3366,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Älimhan Yermekov"
+				name = "Алимхан Ермеков"
 				desc = "POLITICS_ALIMKHAN_YERMEKOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Alimkhan_Yermekov.png"
 				expire = "1.1.1"
@@ -3431,7 +3431,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Älimhan Yermekov"
+				name = "Алимхан Ермеков"
 				desc = "POLITICS_ALIMKHAN_YERMEKOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Alimkhan_Yermekov.png"
 				expire = "1.1.1"
@@ -3601,7 +3601,7 @@ country_event = {
 				}
 			}
 			create_country_leader = {
-				name = "Älimhan Yermekov"
+				name = "Алимхан Ермеков"
 				desc = "POLITICS_ALIMKHAN_YERMEKOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Alimkhan_Yermekov.png"
 				expire = "1.1.1"
@@ -3934,7 +3934,7 @@ country_event = {
 		name = alash.863.a
 		set_country_flag = ALO_natpops_part_of_ush_jus
 		create_country_leader = {
-			name = "Äbdiğapar Janbosynūly"
+			name = "Абдулгафар Жанбосынов"
 			desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 			expire = "1.1.1"
@@ -4481,7 +4481,7 @@ country_event = { # Jas Azamat
 		set_country_flag = ALO_political_crisis
 		add_ideas = ALO_political_crisis_idea
 		create_country_leader = {
-			name = "Halyq Keńesi"
+			name = "Халык Кенгеси"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Council.png"
 			expire = "1.1.1"
 			ideology = socdem_radical_progressivism_subtype
@@ -4526,14 +4526,14 @@ country_event = {
 		set_temp_variable = { alash_pop = 10 }
 		every_owned_state = { ALO_alash_pop = yes }
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
 		}
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
@@ -4542,7 +4542,7 @@ country_event = {
 		if = {
 			limit = { ALO_alash_right_independent = no }
 			create_country_leader = {
-				name = "Mukhametjan Tynyshbayuly"
+				name = "Мухамеджан Тынышпаев"
 				desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 				expire = "1.1.1"
@@ -4653,7 +4653,7 @@ country_event = {
 		remove_ideas = ALO_political_crisis_idea
 		add_ideas = ALO_Smagul_Sadvakasov_hog_sde
 		create_country_leader = {
-			name = "Smagul Säduaqasov"
+			name = "Смагул Садвакасов"
 			desc = "POLITICS_SMAGUL_SADUAQASOV_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Smagul_Saduakasov.png"
 			expire = "1.1.1"
@@ -4995,7 +4995,7 @@ country_event = {
 	option = {
 		name = alash.1279.a
 		create_country_leader = {
-			name = "Halyq Keńesi"
+			name = "Халык Кенгеси"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Council.png"
 			expire = "1.1.1"
 			ideology = socdem_radical_progressivism_subtype
@@ -5100,7 +5100,7 @@ country_event = {
 			}
 			set_politics = { ruling_party = radical_socialist elections_allowed = no }
 			create_country_leader = {
-				name = "Smagul Säduaqasov"
+				name = "Смагул Садвакасов"
 				desc = "POLITICS_SMAGUL_SADUAQASOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Smagul_Saduakasov.png"
 				expire = "1.1.1"
@@ -5122,7 +5122,7 @@ country_event = {
 				}
 			}
 			create_country_leader = {
-				name = "Jahansha Dosmukhamedov"
+				name = "Жаханша Досмухамедов"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Zhakhansha_Dosmukhammedov.png"
 				expire = "1.1.1"
 				ideology = socdem_radical_progressivism_subtype 
@@ -5350,7 +5350,7 @@ country_event = {
 			ALO_Muhtar_Auezov_sec_sde
 		}
 		create_country_leader = {
-			name = "Smagul Säduaqasov"
+			name = "Смагул Садвакасов"
 			desc = "POLITICS_SMAGUL_SADUAQASOV_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Smagul_Saduakasov.png"
 			expire = "1.1.1"
@@ -5412,7 +5412,7 @@ country_event = {
 			ALO_Dauletshe_Kusepkaliev_sec_sli
 		}
 		create_country_leader = {
-			name = "Jahansha Dosmukhamedov"
+			name = "Жаханша Досмухамедов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Zhakhansha_Dosmukhammedov.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype
@@ -6476,7 +6476,7 @@ country_event = { #
 		name = alash.787.a
 		effect_tooltip = { retire_country_leader = yes }		
 		create_country_leader = {
-			name = "Mirjaqyp Dulatuly"
+			name = "Миржакип Дулатов"
 			desc = "POLITICS_MIRJAKIP_DULATULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mirzhakip_Dulatov.png"
 			expire = "1.1.1"
@@ -6554,7 +6554,7 @@ country_event = { #
 		name = alash.787.a
 		effect_tooltip = { retire_ideology_leader = market_liberal }		
 		create_country_leader = {
-			name = "Mirjaqyp Dulatuly"
+			name = "Миржакип Дулатов"
 			desc = "POLITICS_MIRJAKIP_DULATULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mirzhakip_Dulatov.png"
 			expire = "1.1.1"
@@ -7303,7 +7303,7 @@ country_event = { #
 			if = {
 				limit = { ALO_yermekov_in_power = no }
 				create_country_leader = {
-					name = "Älimhan Yermekov"
+					name = "Алимхан Ермеков"
 					desc = "POLITICS_ALIMKHAN_YERMEKOV_DESC"
 					picture = "gfx/leaders/ALO/Portrait_ALO_Alimkhan_Yermekov.png"
 					expire = "1.1.1"
@@ -8422,7 +8422,7 @@ country_event = { #
 		if = {
 			limit = { ALO_amonzholov_in_power = no }						
 			create_country_leader = {
-				name = "Sadyq Amanjolov"
+				name = "Садык Аманжолов"
 				desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 				expire = "1.1.1"
@@ -8563,19 +8563,19 @@ country_event = { #
 		if = {
 			limit = { has_country_flag = ALO_khan_abdulkerim }
 			create_country_leader = {
-				name = "Mehmed Abdülkerim"
+				name = "Мехмед Абдулкерим-эфенди"
 				picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Mehmed Abdülkerim"
+				name = "Мехмед Абдулкерим-эфенди"
 				picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Mehmed Abdülkerim"
+				name = "Мехмед Абдулкерим-эфенди"
 				picture = "gfx/leaders/AFG/Portrait_AFG_Sehzade_Mehmed_Abdulkerim.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -8584,19 +8584,19 @@ country_event = { #
 		else_if = {
 			limit = { has_country_flag = ALO_khan_orhan }
 			create_country_leader = {
-				name = "Mehmed Orhan"
+				name = "Мехмед Орхан"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Mehmed Orhan"
+				name = "Мехмед Орхан"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}	
 			create_country_leader = {
-				name = "Mehmed Orhan"
+				name = "Мехмед Орхан"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mehmed_Orhan.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -8605,19 +8605,19 @@ country_event = { #
 		else_if = {
 			limit = { has_country_flag = ALO_khan_namik }
 			create_country_leader = {
-				name = "Mahmud Namik"
+				name = "Махмуд Намык-эфенди"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Mahmud Namik"
+				name = "Махмуд Намык-эфенди"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}	
 			create_country_leader = {
-				name = "Mahmud Namik"
+				name = "Махмуд Намык-эфенди"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mahmud_Namik.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -8626,31 +8626,31 @@ country_event = { #
 		else_if = {
 			limit = { has_country_flag = ALO_khan_gabdulhakim }
 			create_country_leader = {
-				name = "Gabdol-Hakim"
+				name = "Габдулхаким"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 				expire = "1.1.1"
 				ideology = left_nationalism_subtype
 			}
 			create_country_leader = {
-				name = "Gabdol-Hakim"
+				name = "Габдулхаким"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Gabdol-Hakim"
+				name = "Габдулхаким"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}	
 			create_country_leader = {
-				name = "Gabdol-Hakim"
+				name = "Габдулхаким"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
 			}
 			create_country_leader = {
-				name = "Gabdol-Hakim"
+				name = "Габдулхаким"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 				expire = "1.1.1"
 				ideology = natpop_tribal_chiefdom_subtype
@@ -8658,19 +8658,19 @@ country_event = { #
 		}		
 		else = {
 			create_country_leader = {
-				name = "Äzimhan"
+				name = "Азимхан"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Azimkhan_Kenesarin.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Äzimhan"
+				name = "Азимхан"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Azimkhan_Kenesarin.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}	
 			create_country_leader = {
-				name = "Äzimhan"
+				name = "Азимхан"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Azimkhan_Kenesarin.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -8783,19 +8783,19 @@ country_event = { #
 		set_country_flag = ALO_alash_militia_apolitical
 		set_country_flag = national_faction_banned
 		create_country_leader = {
-			name = "Bazarbay Mametuly"
+			name = "Базарбай Маментов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Bazarbay_Mamentov.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Bazarbay Mametuly"
+			name = "Базарбай Маментов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Bazarbay_Mamentov.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
@@ -9228,7 +9228,7 @@ country_event = { # Ush-Juz
 			ALO_ush_zhus_pop = yes
 		}
 		create_country_leader = {
-			name = "Äbdiğapar Janbosynūly"
+			name = "Абдулгафар Жанбосынов"
 			desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 			expire = "1.1.1"
@@ -9239,7 +9239,7 @@ country_event = { # Ush-Juz
 		name = alash.736.b
 		set_country_flag = ALO_natpops_part_of_ush_jus
 		create_country_leader = {
-			name = "Äbdiğapar Janbosynūly"
+			name = "Абдулгафар Жанбосынов"
 			desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 			expire = "1.1.1"
@@ -9400,7 +9400,7 @@ country_event = { # Chaos
 		if = {
 			limit = { ALO_is_monarchy = no }
 			create_country_leader = {
-				name = "Qajymuqan Munaitpasuly"
+				name = "Кажымукан Мунайтпасов"
 				desc = "POLITICS_QAJYMUQAN_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Kazhymukan_Munaitpasov.png"
 				expire = "1.1.1"
@@ -9500,7 +9500,7 @@ country_event = { # Chaos
 		name = alash.731.a
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Äbdiğapar Janbosynūly"
+			name = "Абдулгафар Жанбосынов"
 			desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 			expire = "1.1.1"
@@ -9546,7 +9546,7 @@ country_event = { # Chaos
 		if = {
 			limit = { ALO_amonzholov_in_power = no }						
 			create_country_leader = {
-				name = "Sadyq Amanjolov"
+				name = "Садык Аманжолов"
 				desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 				expire = "1.1.1"
@@ -9615,19 +9615,19 @@ country_event = { # Chaos
 		set_country_flag = ALO_alash_militia_apolitical
 		set_country_flag = national_faction_banned
 		create_country_leader = {
-			name = "Bazarbay Mametuly"
+			name = "Базарбай Маментов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Bazarbay_Mamentov.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Bazarbay Mametuly"
+			name = "Базарбай Маментов"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Bazarbay_Mamentov.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
 		}
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
@@ -9850,7 +9850,7 @@ country_event = { # Chaos
 		set_temp_variable = { ALO_radicalism_change = 0.10 }
 		ALO_change_radicalism = yes		
 		create_country_leader = {
-			name = "Äbdiğapar"
+			name = "Абдулгафар"
 			desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
 			expire = "1.1.1"
@@ -9905,7 +9905,7 @@ country_event = { # Chaos
 		set_temp_variable = { ALO_radicalism_change = 0.05 }
 		ALO_change_radicalism = yes		
 		create_country_leader = {
-			name = "Gabdol-Hakim"
+			name = "Габдулхаким"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Gabdulkhakim_Bukeykhanov.png"
 			expire = "1.1.1"
 			ideology = monsoc_subtype
@@ -10229,7 +10229,7 @@ country_event = { #
 		if = {
 			limit = { ALO_is_monarchy = no }
 			create_country_leader = {
-				name = "Halyq Keńesi"
+				name = "Халык Кенгеси"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Council.png"
 				expire = "1.1.1"
 				ideology = left_nationalism_subtype
@@ -10272,14 +10272,14 @@ country_event = {
 		set_temp_variable = { alash_pop = 10 }
 		every_owned_state = { ALO_alash_pop = yes }
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
 		}
 		create_country_leader = {
-			name = "Mukhametjan Tynyshbayuly"
+			name = "Мухамеджан Тынышпаев"
 			desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 			expire = "1.1.1"
@@ -10288,7 +10288,7 @@ country_event = {
 		if = {
 			limit = { ALO_alash_right_independent = no }
 			create_country_leader = {
-				name = "Mukhametjan Tynyshbayuly"
+				name = "Мухамеджан Тынышпаев"
 				desc = "POLITICS_MUKHAMETJAN_TYBYSHBAYULY_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Mukhamedzhan_Tynyshpaev.png"
 				expire = "1.1.1"
@@ -10357,7 +10357,7 @@ country_event = {
 		if = {
 			limit = { ALO_is_monarchy = no }						
 			create_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				desc = "POLITICS_MUQAN_AITPENOV_DESC"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Mukan_Aytpenov.png"
 				expire = "1.1.1"
@@ -11696,7 +11696,7 @@ country_event = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Sadyq Amanjolov"
+					name = "Садык Аманжолов"
 					desc = "POLITICS_AMANZHOLOV_SADYK_AYUKEVICH_DESC"
 					picture = "gfx/leaders/ALO/Portrait_ALO_Amanzholov_Sadyk_Ayukevich.png"
 					expire = "1.1.1"
@@ -11903,7 +11903,7 @@ country_event = {
 		set_politics = { ruling_party = totalist elections_allowed = no }
 		mark_focus_tree_layout_dirty = yes
 		create_country_leader = {
-			name = "Saken Seifullin"
+			name = "Сакен Сейфуллин"
 			desc = "POLITICS_SAKEN_SEIFULLIN_DESC"
 			picture = "gfx/leaders/ALO/Portrait_ALO_Saken_Seifullin.png"
 			expire = "1.1.1"
@@ -12421,10 +12421,10 @@ country_event = {
 			set_global_flag = renamed_alash_to_semey
 			effect_tooltip = {
 				FROM = {
-					set_state_name = "Semey"
+					set_state_name = "Семей"
 					set_province_name = {
 						id = 10584
-						name = "Semey"
+						name = "Семей"
 					}
 				}
 			}
@@ -12559,7 +12559,7 @@ country_event = {
 		}
 		hidden_effect = { 
 			create_country_leader = {
-				name = "Halyq Keńesi"
+				name = "Халык Кенгеси"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Council.png"
 				expire = "1.1.1"
 				ideology = marlib_centrist_subtype
@@ -12603,7 +12603,7 @@ country_event = {
 	option = {
 		name = alash.655.a
 		TRK = { country_event = alash.654 }
-		custom_effect_tooltip = "If revolution fails:"
+		custom_effect_tooltip = "В случае провала революции:"
 		effect_tooltip = {
 			FROM = {
 				every_unit_leader = {
@@ -12888,7 +12888,7 @@ country_event = { #
 		}
 		SMR = {			
 			create_country_leader = {
-				name = "Nikolay Shcherbakov"
+				name = "Николай Щербаков"
 				picture = "gfx/leaders/ALO/Portrait_ALO_Nikolay_Shcherbakov.png"
 				expire = "1.1.1"
 				ideology = pataut_cossack_subtype
@@ -13668,7 +13668,7 @@ country_event = {
 				set_province_controller = 10680
 				set_province_controller = 4764
 				division_template = {
-					name = "Semirechenskaya Kazatskaya Diviziya"	# Cossack Division
+					name = "Семиреченская казачья дивизия"	# Cossack Division
 					division_names_group = COS_CAV_01
 					regiments = {
 						irregular_cavalry = { x = 0 y = 0 }
@@ -13683,7 +13683,7 @@ country_event = {
 				multiply_temp_variable = { ORE_num_units = 5 }
 				round_temp_variable = ORE_num_units
 				create_unit = {
-					division = "division_template = \"Semirechenskaya Kazatskaya Diviziya\" start_experience_factor = 0.3"
+					division = "division_template = \"Семиреченская казачья дивизия\" start_experience_factor = 0.3"
 					allow_spawning_on_enemy_provs = yes
 					owner = SMR
 					count = var:ORE_num_units
@@ -14825,7 +14825,7 @@ country_event = {
 				autonomous_state = autonomous_territory
 				freedom_level = 0.9
 			}
-		}	
+		}		
 		set_country_flag = ALO_puppeted_by_RUS
 	}
 }		
@@ -14894,14 +14894,14 @@ country_event = {
 			remove_ideas = ALO_russian_pressure_1_RVA
 		}
 		get_current_government_type = yes
-		RUS = {		
+		RUS = {						
 			set_country_flag = RUS_can_annex_ALO
 			set_autonomy = {
 				target = ALO
 				autonomous_state = autonomous_territory
 				freedom_level = 0.9
 			}
-		}	
+		}		
 		restore_previous_government_type = yes
 		set_country_flag = ALO_puppeted_by_RUS
 	}
@@ -15266,7 +15266,7 @@ country_event = { #
 			country_event = alash.400
 			FROM = { country_event = alash.401 }
 		}
-	}
+	}	
 }
 country_event = {
 	id = alash.56

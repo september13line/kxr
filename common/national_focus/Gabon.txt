@@ -147,7 +147,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_mba
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 			hidden_trigger = {
@@ -356,8 +356,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAB_join_entente"
 			if = {
 				limit = { NFA = { is_in_faction_with = ENT } }
-				ENT = {
-					add_to_faction = GAB
+			ENT = {
+				add_to_faction = GAB
 				}
 			}
 			else = {
@@ -425,7 +425,7 @@ focus_tree = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Gabriel Leon M'ba"
+						name = "Леон Мба"
 						ruling_only = yes
 					}
 				}
@@ -521,7 +521,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAB_who_the_hell_needs_democracy"
 			create_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				desc = "POLITICS_MBA_PATAUT_DESC"
 				picture = "gfx/leaders/GAB/Portrait_GAB_Leon.png"
 				expire = "1.1.1"
@@ -531,7 +531,7 @@ focus_tree = {
 				}
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Gabriel Leon M'ba" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Леон Мба" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/GAB/Portrait_GAB_Leon.png"
 				}
@@ -649,7 +649,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			create_country_leader = {
-				name = "Jean-Hilaire Aubame"
+				name = "Жан-Илер Обам"
 				desc = "POLITICS_AUBAME_DESC"
 				picture = "gfx/leaders/GAB/Portrait_GAB_Jean_Hilaire_Aubame.png"
 				expire = "1.1.1"
@@ -1330,7 +1330,7 @@ focus_tree = {
 			}
 			army_experience = 100
 			create_corps_commander = {
-				name = "Hans Schomburgk"
+				name = "Ганс Шомбургк"
 				portrait_path = "gfx/leaders/GAB/Hans_Schomburgk.png"
 				traits = {
 					media_personality
@@ -2748,7 +2748,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_madmen
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 			has_country_flag = GAB_can_do_fp
@@ -2769,7 +2769,7 @@ focus_tree = {
 		icon = GFX_MAF_anti_french_pact
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -2796,7 +2796,7 @@ focus_tree = {
 		icon = GFX_DAH_stand_our_own
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -2821,7 +2821,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_french_congo
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -2862,11 +2862,11 @@ focus_tree = {
 		icon = GFX_goal_GAB_Spanish_Guinea
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 			CAR = {
-				NOT = {
+			NOT = {
 					owns_state = 297
 					owns_state = 1335
 				}
@@ -2894,7 +2894,7 @@ focus_tree = {
 		icon = GFX_goal_KTG_Jungle_Railroad
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -2933,7 +2933,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_take_kamerun
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -2974,7 +2974,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_dethrone_bokassa
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -3008,7 +3008,7 @@ focus_tree = {
 		icon = GFX_settlers
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -3033,7 +3033,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_wadai
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 			NOT = {
@@ -3076,7 +3076,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_hyperpurge
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -3112,7 +3112,7 @@ focus_tree = {
 		icon = GFX_NATFRA_africa
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}
@@ -3144,7 +3144,7 @@ focus_tree = {
 		icon = GFX_goal_GAB_equator_united
 		available = {
 			has_country_leader = {
-				name = "Gabriel Leon M'ba"
+				name = "Леон Мба"
 				ruling_only = yes
 			}
 		}

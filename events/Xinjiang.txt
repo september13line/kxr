@@ -241,7 +241,7 @@ country_event = { #wtf where the momey
 		log = "[GetDateText]: [Root.GetName]: event xin.8"
 		hidden_effect = {
 			YUN = { country_event = { id = xin.110 days = 7 } }
-			country_event = {#Jin Shuren's move
+			country_event = {#Цзинь Шужэнь's move
 				id = xin.9 days = 1
 			}
 		}
@@ -253,7 +253,7 @@ country_event = { #wtf where the momey
 	}
 }
 
-country_event = { #Jin Shuren secures Dihua, Yang disappearence
+country_event = { #Цзинь Шужэнь secures Dihua, Yang disappearence
 	id = xin.9
 	title = xin.9.t
 	desc = xin.9.desc
@@ -279,7 +279,7 @@ country_event = { #Jin Shuren secures Dihua, Yang disappearence
 			}
 		increase_ruling_party_popularity_by_5 = yes
 		create_country_leader = {
-			name = "Jin Shuren"
+			name = "Цзинь Шужэнь"
 			desc = "POLITICS_JIN_SHUREN_DESC"
 			picture = "gfx/leaders/SIK/Portrait_SIK_Jin_Shuren.png"
 			expire = "1.1.1"
@@ -348,7 +348,7 @@ country_event = { #Yang is killed
 				remove_unit_leader = yes
 			}
 		create_country_leader = {
-			name = "Jin Shuren"
+			name = "Цзинь Шужэнь"
 			desc = "POLITICS_JIN_SHUREN_DESC"
 			picture = "gfx/leaders/SIK/Portrait_SIK_Jin_Shuren.png"
 			expire = "1.1.1"
@@ -443,7 +443,7 @@ country_event = { #Yang found dead
 	}
 }
 
-country_event = { #Jin Shuren secures Dihua, Yang death
+country_event = { #Цзинь Шужэнь secures Dihua, Yang death
 	id = xin.15
 	title = xin.15.t
 	desc = xin.15.desc
@@ -468,7 +468,7 @@ country_event = { #Jin Shuren secures Dihua, Yang death
 			}
 		increase_ruling_party_popularity_by_5 = yes
 		create_country_leader = {
-			name = "Jin Shuren"
+			name = "Цзинь Шужэнь"
 			desc = "POLITICS_JIN_SHUREN_DESC"
 			picture = "gfx/leaders/SIK/Portrait_SIK_Jin_Shuren.png"
 			expire = "1.1.1"
@@ -482,7 +482,7 @@ country_event = { #Jin Shuren secures Dihua, Yang death
 	}
 }
 
-country_event = { #Removing Aksu Fan Yaonan
+country_event = { #Removing Aksu Фань Яонань
 	id = xin.16
 	title = xin.16.t
 	desc = xin.16.desc
@@ -514,7 +514,7 @@ country_event = { #Removing Aksu Fan Yaonan
 	}
 }
 
-country_event = { #Jin Shuren's New Groove
+country_event = { #Цзинь Шужэнь's New Groove
 	id = xin.17
 	title = xin.17.t
 	desc = xin.17.desc
@@ -569,7 +569,7 @@ country_event = { #Doubling of the Uyghur tax
 	}
 }
 
-country_event = { #Sheng Shicai, "seduces" Jin and becomes Tao-Yin of Aksu
+country_event = { #Шэн Шицай, "seduces" Jin and becomes Tao-Yin of Aksu
 	id = xin.20
 	title = xin.20.t
 	desc = xin.20.desc
@@ -589,7 +589,7 @@ country_event = { #Sheng Shicai, "seduces" Jin and becomes Tao-Yin of Aksu
 		name = xin.20.a
 		add_political_power = 25
 		create_country_leader = {
-			name = "Sheng Shicai"
+			name = "Шэн Шицай"
 			desc = "POLITICS_SHENG_SHICAI_DESC"
 			picture = "gfx/leaders/SIK/Portrait_SIK_Sheng Shicai.png"
 			expire = "1.1.1"
@@ -601,7 +601,7 @@ country_event = { #Sheng Shicai, "seduces" Jin and becomes Tao-Yin of Aksu
 	}
 }
 
-country_event = { #Jin Shuren invites Nasir
+country_event = { #Цзинь Шужэнь invites Nasir
 	id = xin.21
 	immediate = { log = "[GetDateText]: [Root.GetName]: event xin.21" }
 	title = xin.21.t
@@ -668,7 +668,7 @@ country_event = { #Nasir arrested, Kumul annexed
 				country_event = { id = kumul.5 days = 2 random = 12 }
 				set_country_flag = TAN_annexation_flag
 				create_country_leader = {
-					name = "Jin Shuren"
+					name = "Цзинь Шужэнь"
 					desc = "POLITICS_JIN_SHUREN_DESC"
 					picture = "gfx/leaders/TAN/Portrait_TAN_Jin_Shuren.png"
 					expire = "1.1.1"
@@ -681,11 +681,11 @@ country_event = { #Nasir arrested, Kumul annexed
 					name = TAN_xinjiang_party
 				}
 				1083 = {
-					set_state_name = "Hami"
+					set_state_name = "Хами"
 				}
 				set_province_name = {
 					id = 4704
-					name = "Hami"
+					name = "Хами"
 				}
 				remove_ideas = TAN_keeping_peace
 				set_politics = {
@@ -751,7 +751,7 @@ country_event = { #New Kumul cabinet
 	}
 }
 
-country_event = { #Ma Shaowu's government and trying to hide the Kumul annexation news from the south
+country_event = { #Ма Шаоу's government and trying to hide the Kumul annexation news from the south
 	id = xin.26
 	title = xin.26.t
 	desc = xin.26.desc
@@ -1059,7 +1059,7 @@ country_event = { #Uprisings expand to Kashgar
 	option = {
 		name = xin.34.a
 		create_corps_commander = {
-			name = "Ma Shaowu "
+			name = "Ма Шаоу "
 			desc = "POLITICS_MA_SHAOWU_DESC"
 			portrait_path = "gfx/leaders/SIK/Portrait_SIK_Ma_Shaowu.png"
 			traits = {
@@ -1082,7 +1082,7 @@ country_event = { #Uprisings expand to Kashgar
 	option = {#Play as East Turkestan, be careful of PRC secret police
 		name = xin.34.b
 		create_corps_commander = {
-			name = "Ma Shaowu "
+			name = "Ма Шаоу "
 			desc = "POLITICS_MA_SHAOWU_DESC"
 			portrait_path = "gfx/leaders/SIK/Portrait_SIK_Ma_Shaowu.png"
 			traits = {
@@ -1502,12 +1502,12 @@ country_event = { #Sheng makes his move
 		GXC = { send_volunteers_to_TARGET = yes }
 		random_unit_leader = {
 			limit = {
-				has_id = 1161 # Sheng Shicai
+				has_id = 1161 # Шэн Шицай
 			}
 			promote_leader = yes
 		}
 		create_country_leader = {
-			name = "Sheng Shicai"
+			name = "Шэн Шицай"
 			desc = "POLITICS_SHENG_SHICAI_DESC"
 			picture = "gfx/leaders/SIK/Portrait_SIK_Sheng Shicai.png"
 			expire = "1.1.1"

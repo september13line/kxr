@@ -249,7 +249,7 @@ country_event = { #Become the junta
 		}
 		
 		create_country_leader = {
-			name = "Fritz Bronsart von Schellendorf"
+			name = "Фридрих Бронзарт фон Шеллендорф"
 			desc = "POLITICS_SCHELLENDORF_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Fritz_Bronsart_von_Schellendorf.png"
 			expire = "1.1.1"
@@ -326,8 +326,8 @@ country_event = { #GER - The Ottomans at war!
 			factor = 2
 			modifier = {
 				OR = {
-					TUR = {
-						is_ai = no
+				TUR = {
+					is_ai = no
 					}
 					has_game_rule = {
 						rule = OTT_PATHS
@@ -359,8 +359,8 @@ country_event = { #GER - The Ottomans at war!
 			factor = 1
 			modifier = {
 				OR = {
-					TUR = {
-						is_ai = no
+				TUR = {
+					is_ai = no
 					}
 					has_game_rule = {
 						rule = OTT_PATHS
@@ -390,7 +390,7 @@ country_event = { #Aid from Germany
 		ai_chance = { factor = 1 }
 		set_country_flag = OTT_got_aid
 		create_field_marshal = {
-			name = "Fritz Bronsart von Schellendorf "
+			name = "Фридрих Бронзарт фон Шеллендорф "
 			portrait_path = "gfx/leaders/OTT/Portrait_OTT_Fritz_Bronsart_von_Schellendorf.png"
 			traits = { old_guard harsh_leader aggressive_assaulter GER_expeditionary_leader}
 			skill = 4
@@ -439,8 +439,8 @@ country_event = { #GER - Officers propose another military mission to the Ottoma
 			factor = 1
 			modifier = {
 				OR = {
-					TUR = {
-						is_ai = no
+				TUR = {
+					is_ai = no
 					}
 					has_game_rule = {
 						rule = OTT_PATHS
@@ -542,7 +542,7 @@ country_event = { #German officers demand to take charge of the military
 					option = OTT_PATHS_GERMAN_COUP
 				}
 				factor = 0
-			}
+					}
 		}
 		add_stability = 0.05
 		add_war_support = -0.02
@@ -647,12 +647,12 @@ country_event = { #Wilhelm III
 	trigger = {
 		tag = TUR
 		has_country_leader = {
-			name = "Haiji Vilyam Muhammad"
+			name = "Хайджи Вильям Мухаммад"
 			ruling_only = yes
 		}
 		GER = {
 			has_country_leader = {
-				name = "Wilhelm III"
+				name = "Вильгельм III"
 			}
 		}
 	}
@@ -662,11 +662,11 @@ country_event = { #Wilhelm III
 		ai_chance = { factor = 1 }
 		custom_effect_tooltip = OTT_sultan_willy_2_tt
 		hidden_effect = {
-			create_country_leader = {
-				name = "Haiji Vilyam Muhammad II"
-				desc = "POLITICS_WILHELM_III_DESC"
+		create_country_leader = {
+				name = "Хайджи Вильям Мухаммад II"
+			desc = "POLITICS_WILHELM_III_DESC"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
-				expire = "1.1.1"
+			expire = "1.1.1"
 				ideology = autocratic_colonial_govt_subtype
 			}
 			if = {
@@ -674,7 +674,7 @@ country_event = { #Wilhelm III
 					has_country_leader_ideology = occultism_subtype
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad II"
+					name = "Хайджи Вильям Мухаммад II"
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
 					expire = "1.1.1"
@@ -686,7 +686,7 @@ country_event = { #Wilhelm III
 					has_country_leader_ideology = natpop_islamism_subtype
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad II"
+					name = "Хайджи Вильям Мухаммад II"
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
 					expire = "1.1.1"
@@ -698,7 +698,7 @@ country_event = { #Wilhelm III
 					has_country_leader_ideology = fundementalism_subtype
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad II"
+					name = "Хайджи Вильям Мухаммад II"
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
 					expire = "1.1.1"
@@ -710,7 +710,7 @@ country_event = { #Wilhelm III
 					has_country_leader_ideology = volkism_subtype
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad II"
+					name = "Хайджи Вильям Мухаммад II"
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
 					expire = "1.1.1"
@@ -731,7 +731,7 @@ country_event = { #Join the Entente
 	fire_only_once = yes
 	
 	hidden = yes
-
+	
 	mean_time_to_happen = { days = 1 }
 	
 	trigger = {
@@ -777,7 +777,7 @@ country_event = { #Wilhem as Emperor?
 		custom_effect_tooltip = OTT_sultan_willy_tt
 		hidden_effect = {
 			create_country_leader = {
-				name = "Haiji Vilyam Muhammad"
+				name = "Хайджи Вильям Мухаммад"
 				desc = "POLITICS_WILHELM_II_DESC"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam.png"
 				expire = "1.1.1"
@@ -799,7 +799,7 @@ country_event = { #Wilhem as Emperor?
 		add_stability = 0.03
 		add_political_power = -40
 		create_country_leader = {
-			name = "Fritz Bronsart von Schellendorf"
+			name = "Фридрих Бронзарт фон Шеллендорф"
 			desc = "POLITICS_SCHELLENDORF_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Fritz_Bronsart_von_Schellendorf.png"
 			expire = "1.1.1"
@@ -880,10 +880,10 @@ country_event = { #Schellendorf retires? (monarchy version)
 			}
 			if = {
 				limit = {
-					has_country_leader = { name = "Haiji Vilyam Muhammad" ruling_only = yes }
+					has_country_leader = { name = "Хайджи Вильям Мухаммад" ruling_only = yes }
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad"
+					name = "Хайджи Вильям Мухаммад"
 					desc = "POLITICS_WILHELM_II_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam.png"
 					expire = "1.1.1"
@@ -892,10 +892,10 @@ country_event = { #Schellendorf retires? (monarchy version)
 			}
 			else_if = {
 				limit = {
-					has_country_leader = { name = "Haiji Vilyam Muhammad II" ruling_only = yes }
+					has_country_leader = { name = "Хайджи Вильям Мухаммад II" ruling_only = yes }
 				}
 				create_country_leader = {
-					name = "Haiji Vilyam Muhammad II"
+					name = "Хайджи Вильям Мухаммад II"
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = "gfx/leaders/OTT/Portrait_OTT_Vilyam_II.png"
 					expire = "1.1.1"
@@ -958,7 +958,7 @@ country_event = { #Schellendorf retires? (no-monarchy version)
 			}
 			add_pataut_to_coalition = yes
 			create_country_leader = {
-				name = "Johann von Leers"
+				name = "Йоханн фон Леерс"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Johann_von_Leers.png"
 				expire = "1.1.1"
 				ideology = occultism_subtype
@@ -1016,7 +1016,7 @@ country_event = { #Leers subideo events
 		add_ideas = OTT_mufti_islamism_idea
 		set_country_flag = OTT_Omar_Amin_name_flag
 		if = {	
-			limit = { has_country_leader = { name = "Johann von Leers" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Йоханн фон Леерс" ruling_only = yes } }
 			set_country_leader_name = { name = "Omar Amin" }
 		}
 		country_event = { id = kxott.30 days = 2 }
@@ -1030,7 +1030,7 @@ country_event = { #Leers subideo events
 		add_ideas = OTT_mufti_fundementalism_idea
 		set_country_flag = OTT_Omar_Amin_name_flag
 		if = {	
-			limit = { has_country_leader = { name = "Johann von Leers" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Йоханн фон Леерс" ruling_only = yes } }
 			set_country_leader_name = { name = "Omar Amin" }
 		}
 		country_event = { id = kxott.30 days = 2 }

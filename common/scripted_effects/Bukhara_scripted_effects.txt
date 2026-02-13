@@ -998,7 +998,7 @@ UZB_remove_british_mission = {
 			limit = {
 				AFG = {
 					has_country_leader = {
-						name = "Leo Amery"
+						name = "Лео Амери"
 						ruling_only = yes
 					}
 				}
@@ -1141,7 +1141,7 @@ UZB_remove_russian_residency = {
 			if = {
 				limit = { has_country_flag = Mohammed_Alim_Khan_dead }				
 				create_country_leader = {
-					name = "Sayyid Shahmurad II Alim Khan"
+					name = "Сеид Алим-хан II"
 					desc = "POLITICS_SHAHMURAD_ALIM_DESC"
 					picture = "gfx/leaders/UZB/Portrait_UZB_Shahmurad_Khan.png"
 					expire = "1.1.1"
@@ -1150,7 +1150,7 @@ UZB_remove_russian_residency = {
 			}
 			else = {							
 				create_country_leader = {
-					name = "Sayyid Mir Muhammad Alim Khan"
+					name = "Сеид Алим-хан"
 					desc = "POLITICS_MOHAMMED_ALIM_DESC"
 					picture = "gfx/leaders/UZB/Portrait_UZB_Mohammed_Alim.png"
 					expire = "1.1.1"
@@ -1172,7 +1172,7 @@ UZB_remove_russian_residency = {
 				long_name = UZB_natpop_nationalist_party_long
 			}
 			create_country_leader = {
-				name = "Vali Qayum"
+				name = "Вели Каюм-хан"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Vali_Qayum.png"
 				expire = "1.1.1"
 				ideology = soccon_generic_national_democracy_subtype 
@@ -1180,7 +1180,7 @@ UZB_remove_russian_residency = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Nizomiddin Urganji"
+				name = "Низамаддин Урганджи"
 				picture = "gfx/leaders/Generic/Portrait_India_Generic_new_7.png"
 				expire = "1.1.1"
 				ideology = qadhimism_subtype
@@ -1380,28 +1380,28 @@ UZB_setup_monarchy = {
 		if = {
 			limit = { has_country_flag = Mohammed_Alim_Khan_dead }
 			create_country_leader = {
-				name = "Sayyid Shahmurad II Alim Khan"
+				name = "Сеид Алим-хан II"
 				desc = "POLITICS_SHAHMURAD_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Shahmurad_Khan.png"
 				expire = "1.1.1"
 				ideology = qadhimism_subtype
 			}
 			create_country_leader = {
-				name = "Sayyid Shahmurad II Alim Khan"
+				name = "Сеид Алим-хан II"
 				desc = "POLITICS_SHAHMURAD_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Shahmurad_Khan.png"
 				expire = "1.1.1"
 				ideology = authdem_qadhimism_subtype
 			}	
 			create_country_leader = {
-				name = "Sayyid Shahmurad II Alim Khan"
+				name = "Сеид Алим-хан II"
 				desc = "POLITICS_SHAHMURAD_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Shahmurad_Khan.png"
 				expire = "1.1.1"
 				ideology = pataut_qadhimism_subtype
 			}	
 			create_country_leader = {
-				name = "Sayyid Shahmurad II Alim Khan"
+				name = "Сеид Алим-хан II"
 				desc = "POLITICS_SHAHMURAD_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Shahmurad_Khan.png"
 				expire = "1.1.1"
@@ -1410,7 +1410,7 @@ UZB_setup_monarchy = {
 		}
 		else = {						
 			create_country_leader = {
-				name = "Sayyid Mir Muhammad Alim Khan"
+				name = "Сеид Алим-хан"
 				desc = "POLITICS_MOHAMMED_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Mohammed_Alim.png"
 				expire = "1.1.1"
@@ -1418,7 +1418,7 @@ UZB_setup_monarchy = {
 				traits = { UZB_tenacious_autocrat }
 			}
 			create_country_leader = {
-				name = "Sayyid Mir Muhammad Alim Khan"
+				name = "Сеид Алим-хан"
 				desc = "POLITICS_MOHAMMED_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Mohammed_Alim.png"
 				expire = "1.1.1"
@@ -1426,7 +1426,7 @@ UZB_setup_monarchy = {
 				traits = { UZB_tenacious_autocrat }
 			}
 			create_country_leader = {
-				name = "Sayyid Mir Muhammad Alim Khan"
+				name = "Сеид Алим-хан"
 				desc = "POLITICS_MOHAMMED_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Mohammed_Alim.png"
 				expire = "1.1.1"
@@ -1434,7 +1434,7 @@ UZB_setup_monarchy = {
 				traits = { UZB_tenacious_autocrat }
 			}
 			create_country_leader = {
-				name = "Sayyid Mir Muhammad Alim Khan"
+				name = "Сеид Алим-хан"
 				desc = "POLITICS_MOHAMMED_ALIM_DESC"
 				picture = "gfx/leaders/UZB/Portrait_UZB_Mohammed_Alim.png"
 				expire = "1.1.1"
@@ -1498,66 +1498,66 @@ UZB_setup_republic = {
 			long_name = UZB_natpop_nationalist_party_long
 		}
 		create_country_leader = {
-			name = "Fayzulla Hojaev"
+			name = "Файзулла Ходжаев"
 			desc = "POLITICS_FAYZULLA_KHOJAEV_DESC"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Fayzullah_Khodjaev.png"
 			expire = "1.1.1"
 			ideology = tot_developing_leftism_subtype 
 		}
 		create_country_leader = {
-			name = "Fayzulla Hojaev"
+			name = "Файзулла Ходжаев"
 			desc = "POLITICS_FAYZULLA_KHOJAEV_DESC"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Fayzullah_Khodjaev.png"
 			expire = "1.1.1"
 			ideology = syn_developing_leftism_subtype 
 		}
 		create_country_leader = {
-			name = "Fayzulla Hojaev"
+			name = "Файзулла Ходжаев"
 			desc = "POLITICS_FAYZULLA_KHOJAEV_DESC"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Fayzullah_Khodjaev.png"
 			expire = "1.1.1"
 			ideology = developing_leftism_subtype 
 		}
 		create_country_leader = {
-			name = "Usmon Hoja"
+			name = "Усман Ходжа"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Hodzha.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype 
 		}
 		create_country_leader = {
-			name = "Abdulvohid Burhonov"
+			name = "Абдулвохид Бурхонов"
 			desc = "POLITICS_ABDULVOHID_BURHONOV_DESC"
 			expire = "1.1.1"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Munzim_Mirzo.png"
 			ideology = jadidism_subtype
 		}
 		create_country_leader = {
-			name = "Sadriddin Ayni"
+			name = "Садриддин Айни"
 			expire = "1.1.1"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Sadriddin_Ayni.png"
 			ideology = marlib_jadidism_subtype
 			traits = { UZB_the_peoples_poet }
 		}
 		create_country_leader = {
-			name = "Vali Qayum"
+			name = "Вели Каюм-хан"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Vali_Qayum.png"
 			expire = "1.1.1"
 			ideology = soccon_generic_national_democracy_subtype 
 		}	
 		create_country_leader = {
-			name = "Vali Qayum"
+			name = "Вели Каюм-хан"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Vali_Qayum.png"
 			expire = "1.1.1"
 			ideology = authoritarian_liberalism_subtype 
 		}
 		create_country_leader = {
-			name = "Vali Qayum"
+			name = "Вели Каюм-хан"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Vali_Qayum.png"
 			expire = "1.1.1"
 			ideology = pataut_authoritarian_liberalism_subtype 
 		}
 		create_country_leader = {
-			name = "Vali Qayum"
+			name = "Вели Каюм-хан"
 			picture = "gfx/leaders/UZB/Portrait_UZB_Vali_Qayum.png"
 			expire = "1.1.1"
 			ideology = natpop_islamism_subtype 

@@ -4,7 +4,7 @@
 }
 
 division_template = {
-	name = "National Guard Division"
+	name = "Национальная гвардия"
 	division_names_group = USA_GAR_01
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -20,7 +20,7 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Infantry Division"
+	name = "Пехотная дивизия"
 	division_names_group = USA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -38,7 +38,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Cavalry Division"
+	name = "Кавалерийская дивизия"
 	division_names_group = USA_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -50,7 +50,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Armored Division"
+	name = "Бронетанковая дивизия"
 	division_names_group = USA_ARM_01
 
 	regiments = {
@@ -71,7 +71,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Heavy Armor Division"
+	name = "Тяжелая бронетанковая дивизия"
 	division_names_group = USA_ARM_01
 
 	regiments = {
@@ -90,7 +90,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Marine Division"
+	name = "Морская пехота"
 	division_names_group = USA_MAR_01
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -101,7 +101,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Panama Canal Garrison"
+	name = "Гарнизон Панамского канала"
 	division_names_group = USA_MAR_01
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -112,7 +112,7 @@ division_template = {
 	priority = 2
 }
 division_template = {
-	name = "Motorized Division"
+	name = "Моторизованная дивизия"
 	division_names_group = USA_MOT_01
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -133,7 +133,7 @@ units = {
 			name_order = 1
 		}
 		location = 3957
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.2
 	}
 	division = {
@@ -143,7 +143,7 @@ units = {
 			name_order = 2
 		}
 		location = 9671
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.2
 	}
 	division = {
@@ -153,7 +153,7 @@ units = {
 			name_order = 3
 		}
 		location = 1827
-		division_template = "Infantry Division"
+		division_template = "Пехотная дивизия"
 		start_experience_factor = 0.2
 	}
 	division = {
@@ -163,13 +163,13 @@ units = {
 			name_order = 1
 		}
 		location = 3883
-		division_template = "Cavalry Division"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "Panama Canal Garrison"
+		name = "Гарнизон Панамского канала"
 		location = 7617
-		division_template = "Panama Canal Garrison"
+		division_template = "Гарнизон Панамского канала"
 		start_experience_factor = 0.2
 	}
 

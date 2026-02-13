@@ -28,11 +28,11 @@ country_event = { #We know defeat
 			if = {
 				limit = { is_subject = no }
 				if = {
-					limit = { has_country_leader = { name = "Osman IV" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Осман IV" ruling_only = yes } }
 					country_event = { id = tur.59 days = 5 }
 				}
 				else_if = {
-					limit = { has_country_leader = { name = "Ahmed IV" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Ахмед IV" ruling_only = yes } }
 					if = {
 						limit = { has_event_target = OTT_was_centralist }
 						country_event = { id = tur_osp.1 days = 10 }
@@ -74,56 +74,56 @@ country_event = { #Abdication of Abdulmecid 2
 		set_stability = 0.25
 		set_political_power = 0
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = social_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = centrist_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = liberal_conservative_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = soccon_islamism_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = kemalism_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = kemalism_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Ahmed IV"
+			name = "Ахмед IV"
 			desc = "POLITICS_AHMED_NIHAD_DESC"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmed_IV.png"
 			expire = "1.1.1"
@@ -378,8 +378,8 @@ country_event = {
 	trigger = {
 		has_elections = yes
 		OR = {
-			has_country_leader = { name = "Refet Bele" ruling_only = yes }
-			has_country_leader = { name = "Ömer I" ruling_only = yes }
+			has_country_leader = { name = "Рефет Беле" ruling_only = yes }
+			has_country_leader = { name = "Омер I" }
 		}
 	}
 
@@ -1630,7 +1630,7 @@ country_event = { #Kadroist takes power
 		}
 		TUR_update_traditionalist_resistance_idea = yes
 		create_country_leader = {
-			name = "Mehmet Recep Peker"
+			name = "Мехмет Реджеп Пекер"
 			desc = TUR_mehmet_recep_peker_leader_desc
 			picture = "gfx/leaders/OTT/Portrait_OTT_Recep_Peker_KR.png"
 			ideology = kadroism_subtype
@@ -1745,7 +1745,7 @@ country_event = { #Militarists takes power
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Mustafa Fevzi Çakmak"
+			name = "Мустафа Февзи Чакмак"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Fevzi.png"
 			desc = "TUR_fevzi_cakmak_postwar_leader_desc"
 			expire = "1.1.1"
@@ -2416,7 +2416,7 @@ country_event = { #########meeting on the bosphorus
 	fire_only_once = yes
 
 	trigger = {
-		CAN = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+		CAN = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 	}
 
 	option = {
@@ -3486,14 +3486,14 @@ country_event = { #"an official opponent"
 	option = {
 		name = tur.106.a
 		create_country_leader = {
-			name = "Ahmet Muhtar Cilli"
+			name = "Ахмед Мухтар-паша"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmet_Muhtar.png"
 			ideology = social_liberal_subtype
 			expire = "1.1.1"
 			traits = { }
 		}
 		create_country_leader = {
-			name = "Ahmet Muhtar Cilli"
+			name = "Ахмед Мухтар-паша"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Ahmet_Muhtar.png"
 			ideology = market_liberal_subtype
 			expire = "1.1.1"
@@ -3584,13 +3584,13 @@ country_event = { #Election of Kadroist leadership
 	option = { ###Yakup Kadri###
 		name = tur.111.b
 		create_country_leader = {
-			name = "Yakup Kadri Karaosmanoğlu"
+			name = "Якуп Кадри Караосманоглу"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Yakup_Kadri_Karaosmanoglu.png"
 			expire = "1.1.1"
 			ideology = kadroism_subtype
 		}
 		create_country_leader = {
-			name = "Yakup Kadri Karaosmanoğlu"
+			name = "Якуп Кадри Караосманоглу"
 			picture = "gfx/leaders/OTT/Portrait_OTT_Yakup_Kadri_Karaosmanoglu.png"
 			expire = "1.1.1"
 			ideology = tot_kadroism_subtype

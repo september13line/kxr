@@ -37,7 +37,7 @@ on_actions = {
 			TUR = {
 				calculate_state_values_ott = yes
 				calculate_state_values_ott = yes
-			}
+			}	
 			ARM = {
 				add_manpower = 12000
 			}
@@ -746,13 +746,13 @@ on_actions = {
 						AND = {
 							NOT = { 
 								has_country_leader = {
-									name = "Abdallah ibn Talal al Rashid"
+									name = "Абдаллах ибн Али аль-Рашид"
 									ruling_only = yes
 								}
 							}
 							NOT = { 
 								has_country_leader = {
-									name = "Saud al-Subhan"
+									name = "Сауд аль-Субхан"
 									ruling_only = yes
 								}
 							}
@@ -969,11 +969,11 @@ on_actions = {
 			else_if = {
 				limit = {
 					tag = IKH
-					FROM = {
+					FROM = { 
 						OR = {
-							tag = JBS
+							tag = JBS 
 							tag = SAU
-						}
+						}	
 					}
 				}
 				every_owned_state = {
@@ -1010,7 +1010,7 @@ on_actions = {
 				else_if = {
 					limit = {
 						has_country_leader = {
-							name = "Nidā ibn Nuhair"
+							name = "Нида ибн Нухайр"
 							ruling_only = yes
 						}
 					}
@@ -1019,7 +1019,7 @@ on_actions = {
 				else_if = {
 					limit = {
 						has_country_leader = {
-							name = "Zaidan ibn Hithlain"
+							name = "Зайдан ибн Хитлейн"
 							ruling_only = yes
 						}
 					}
@@ -1028,7 +1028,7 @@ on_actions = {
 				else_if = {
 					limit = {
 						has_country_leader = {
-							name = "Sultan ibn Humaid ibn Bijad"
+							name = "Султан ибн Хумайд ибн Биджад"
 							ruling_only = yes
 						}
 					}
@@ -1301,13 +1301,13 @@ on_actions = {
 			if = {
 				limit = {
 					OR = {
-						tag = GEO
+						tag = GEO 
 						tag = AZE
 					}
 					has_war_with = FROM
 					FROM = {
 						OR = {
-							tag = GEO
+							tag = GEO 
 							tag = AZE
 						}
 					}
@@ -1315,5 +1315,5 @@ on_actions = {
 				AZE = {	country_event = geo.146 }
 			}
 		}
-	}
+	}	
 }

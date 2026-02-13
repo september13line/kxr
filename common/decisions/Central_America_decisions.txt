@@ -77,7 +77,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_socialist_government = yes
+							has_socialist_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -89,7 +89,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_socialist_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -105,7 +105,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_socialist_government = yes
+							has_socialist_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -117,7 +117,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_socialist_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -133,7 +133,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_socialist_government = yes
+							has_socialist_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -145,7 +145,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_socialist_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -161,7 +161,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_socialist_government = yes
+							has_socialist_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -173,7 +173,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_socialist_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -189,7 +189,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_socialist_government = yes
+							has_socialist_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -201,7 +201,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_socialist_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -860,7 +860,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_authoritarian_government = yes
+							has_authoritarian_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -872,7 +872,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_authoritarian_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -888,7 +888,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_authoritarian_government = yes
+							has_authoritarian_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -900,7 +900,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_authoritarian_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -916,7 +916,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_authoritarian_government = yes
+							has_authoritarian_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -928,13 +928,13 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_authoritarian_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 						if = { 
 							limit = { NOT = { tag = NIC } }
-							NOT = {
-								has_country_flag = NIC_USA_JUNTA
+						NOT = {
+							has_country_flag = NIC_USA_JUNTA
 							}
 						}
 					}
@@ -950,7 +950,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_authoritarian_government = yes
+							has_authoritarian_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -962,7 +962,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_authoritarian_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -978,7 +978,7 @@ Forming_Central_America = {
 						has_war = no
 						OR = {
 							AND = {
-								has_authoritarian_government = yes
+							has_authoritarian_government = yes
 								is_subject = no
 							}
 							AND = {
@@ -990,7 +990,7 @@ Forming_Central_America = {
 							}
 							AND = {
 								has_authoritarian_government = yes
-								is_ally_of_ROOT = yes
+							is_ally_of_ROOT = yes
 							}
 						}
 					}
@@ -1048,7 +1048,7 @@ Forming_Central_America = {
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Jorge Ubico Castañeda"
+						name = "Хорхе Убико"
 						ruling_only = yes
 					}
 				}
@@ -1084,11 +1084,11 @@ Forming_Central_America = {
 				limit = {
 					OR = {
 						has_country_leader = {
-							name = "Samuel Zemurray"
+							name = "Сэмюэл Земюррэй"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "George Van Horn Moseley"
+							name = "Джордж Ван Хорн Мозли"
 							ruling_only = yes
 						}
 					}
@@ -1099,25 +1099,25 @@ Forming_Central_America = {
 				limit = {
 					NOT = {
 						has_country_leader = {
-							name = "Samuel Zemurray"
+							name = "Сэмюэл Земюррэй"
 							ruling_only = yes
 						}
 					}
 					NOT = {
 						has_country_leader = {
-							name = "George Van Horn Moseley"
+							name = "Джордж Ван Хорн Мозли"
 							ruling_only = yes
 						}
 					}
 					NOT = {
 						has_country_leader = {
-							name = "Jorge Ubico Castañeda"
+							name = "Хорхе Убико"
 							ruling_only = yes
 						}
 					}
 					NOT = {
 						has_country_leader = {
-							name = "Jorge Ubico Castañeda"
+							name = "Хорхе Убико"
 							ruling_only = yes
 						}
 					}
@@ -3959,12 +3959,12 @@ Forming_Central_America = {
 			has_country_flag = CEN_already_formed_ties_with_HON
 			has_country_flag = CEN_military_pact_founded_country
 			HON = {
-				OR = {
-					has_government = authoritarian_democrat
-					has_government = paternal_autocrat
-					has_government = national_populist
-				}
-				is_in_faction = no
+					OR = {
+						has_government = authoritarian_democrat
+						has_government = paternal_autocrat
+						has_government = national_populist
+					}
+					is_in_faction = no
 				exists = yes
 			}
 		}

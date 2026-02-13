@@ -574,7 +574,7 @@ country_event = { #The election is organised
 			add_ideas = HON_Rafael_Heliodoro_Valle_eco_sde
 			add_ideas = HON_Esteban_Guardiola_sec_sde
 			create_country_leader = {
-				name = "Tiburcio Carías Andino"
+				name = "Тибурсио Кариас Андино"
 				picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_kx.png"
 				expire = "1.1.1"
 				ideology = cariato_subtype
@@ -611,16 +611,16 @@ country_event = { #The election is organised
 			add_ideas = HON_Luis_Segundo_Oyarzun_eco_sco
 			add_ideas = HON_Ramon_Ernesto_Cruz_Ucles_sec_sco
 			create_country_leader = {
-				name = "Tiburcio Carías Andino"
+				name = "Тибурсио Кариас Андино"
 				picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_kx.png"
 				expire = "1.1.1"
 				ideology = cariato_subtype
-			}
+		}
 			set_party_name = {
 				ideology = authoritarian_democrat
 				long_name = HON_national_populist_party_long
 				name = HON_national_populist_party
-			}
+	}
 		}
 	}
 	option = { #Castro and the Military Junta
@@ -651,7 +651,7 @@ country_event = { #The election is organised
 			add_ideas = HON_Miguel_Angel_Oqueli_Bustillo_eco_pau
 			add_ideas = HON_Maximiliano_Sagastume_sec_pau
 			create_country_leader = {
-				name = "Tiburcio Carías Andino"
+				name = "Тибурсио Кариас Андино"
 				picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_kx.png"
 				expire = "1.1.1"
 				ideology = cariato_subtype
@@ -696,7 +696,7 @@ country_event = { #The totalists assume power
 			add_ideas = HON_Gregorio_Ferrera_eco_tot
 			add_ideas = HON_Arturo_Martinez_Galindo_sec_tot
 			create_country_leader = {
-				name = "Tiburcio Carías Andino"
+				name = "Тибурсио Кариас Андино"
 				picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_kx.png"
 				expire = "1.1.1"
 				ideology = cariato_subtype
@@ -734,7 +734,7 @@ country_event = { #The military assumes power
 			add_ideas = HON_Miguel_Angel_Oqueli_Bustillo_eco_pau
 			add_ideas = HON_Maximiliano_Sagastume_sec_pau
 			create_country_leader = {
-				name = "Tiburcio Carías Andino"
+				name = "Тибурсио Кариас Андино"
 				picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Andino_kx.png"
 				expire = "1.1.1"
 				ideology = cariato_subtype
@@ -1270,7 +1270,7 @@ country_event = { #2 subs
 		add_political_power = -50
 		custom_effect_tooltip = honduras_submarines_tt
 		hidden_effect = {
-			set_technology = { early_ship_hull_submarine = 1 popup = no }
+				set_technology = { early_ship_hull_submarine = 1 popup = no }
 			load_oob = "HON_Submarines"
 		}
 	}
@@ -1280,7 +1280,7 @@ country_event = { #2 subs
 			NOT = { has_idea = HON_naval_production_idea }
 			owns_state = 842
 		}
-		set_technology = { early_ship_hull_submarine = 1 popup = no }
+			set_technology = { early_ship_hull_submarine = 1 popup = no }
 		add_timed_idea = {
 			idea = HON_naval_production_idea
 			days = 120
@@ -1298,10 +1298,10 @@ country_event = {
 
 	option = {
 		name = honduras.222.a
-		set_technology = {
-			basic_ship_hull_light = 1
-			basic_ship_hull_cruiser = 1
-		}
+			set_technology = {
+				basic_ship_hull_light = 1
+				basic_ship_hull_cruiser = 1
+			}
 		add_timed_idea = {
 			idea = HON_naval_production_idea
 			days = 180
@@ -1684,7 +1684,7 @@ country_event = {
 		remove_ideas = HON_peasant_republic
 		remove_ideas = HON_december_revolution
 		create_country_leader = {
-			name = "Samuel Zemurray"
+			name = "Сэмюэл Земюррэй"
 			picture = "gfx/leaders/HON/Portrait_HON_Sam_Zemurray.png"
 			desc = "POLITICS_SAM_ZEMURRAY_DESC"
 			expire = "1.1.1"
@@ -1704,7 +1704,7 @@ country_event = {
 			popularity = 0.2
 		}
 		create_field_marshal = {
-			name = "Tracy Richardson"
+			name = "Трейси Ричардсон"
 			picture = "gfx/leaders/HON/Portrait_HON_Tracy_Richardson.png"
 			traits = {
 				war_hero
@@ -1720,7 +1720,7 @@ country_event = {
 		}
 		
 		create_corps_commander = {
-			name = "Sam Dreben"
+			name = "Сэм Дребен"
 			portrait_path = "gfx/leaders/HON/Portrait_HON_Sam_Dreben.png"
 			traits = {
 				war_hero
@@ -1735,7 +1735,7 @@ country_event = {
 		}
 		
 		create_corps_commander = {
-			name = "Guy Molony"
+			name = "Гай Молони"
 			portrait_path = "gfx/leaders/HON/Portrait_HON_Guy_Molony.png"
 			traits = {
 				mercenary_commander
@@ -1749,7 +1749,7 @@ country_event = {
 		}
 		
 		create_corps_commander = {
-			name = "Emil Lewis Holmdahl"
+			name = "Эмиль Льюис Хольмдаль"
 			portrait_path = "gfx/leaders/HON/Portrait_HON_Emil_Lewis_Holmdahl.png"
 			traits = {
 				mercenary_commander
@@ -1787,7 +1787,7 @@ country_event = { #Dictator of the Banana Industry
 		add_political_power = 100
 		hidden_effect = {
 			if = {	
-				limit = { has_country_leader = { name = "Samuel Zemurray" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Сэмюэл Земюррэй" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/HON/Portrait_HON_Sam_Zemurray_El_Presidente.png"
 				}
@@ -1942,7 +1942,7 @@ country_event = { #Flavour
 		has_completed_focus = HON_Influence_Our_Neighbors
 		GUA = {
 			has_country_leader = {
-				name = "Jorge Ubico Castañeda"
+				name = "Хорхе Убико"
 				ruling_only = yes
 			}
 		}

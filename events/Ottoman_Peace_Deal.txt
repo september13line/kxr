@@ -242,7 +242,7 @@ country_event = { #Victory in the Mashriq
 			if = {
 			limit = {
 			is_subject = no
-			has_country_leader = { ruling_only = yes name = "Nasrullah Khan" }
+			has_country_leader = { ruling_only = yes name = "Насрулла Хан" }
 				}
 			country_event = {
 			id = afghanredux.75
@@ -559,7 +559,7 @@ country_event = { #Victory in the Mashriq
 						transfer_state = PREV
 					}
 				}
-			}
+						}
 			if = {
 				limit = {
 					country_exists = USR
@@ -684,6 +684,7 @@ country_event = { #Victory in the Mashriq
 						OR = {
 							AND = {
 								state = 1213 #Batumi
+								1213 = { is_claimed_by = ARM }
 								NOT = { GEO = { has_country_flag = was_at_war_with_OTT } }
 							}
 							state = 998 #Highland Karabagh
@@ -721,10 +722,12 @@ country_event = { #Victory in the Mashriq
 						OR = {
 							is_owned_by = TUR
 							is_owned_by = KUR
+							is_owned_by = GEO
 						}
 						OR = {
 							state = 1213 #Batumi
 							state = 1001 #Lazistan
+							state = 1000 #
 						}
 					}
 					GEO = {
@@ -733,6 +736,25 @@ country_event = { #Victory in the Mashriq
 				}
 				GEO = {
 					country_event = cp.3
+				}
+			}
+			else_if = {
+				limit = {
+					GEO =  {
+						has_country_leader = {
+			            	ruling_only = yes
+			            	name = "Иосиф 'Коба' Джугашвили"
+			            }
+					}
+				}
+				GEO = {
+					transfer_state = 1213
+					transfer_state = 1001
+					transfer_state = 354
+					transfer_state = 355
+					transfer_state = 345
+					transfer_state = 1000
+					transfer_state = 230
 				}
 			}
 			else_if = {
@@ -1241,7 +1263,7 @@ country_event = { #Future of Syria
 		}
 		SYR = {
 			create_country_leader = {
-				name = "Said al-Jazairi"
+				name = "Саид аль-Джазаири"
 				desc = "POLITICS_SAID_JAZAIRI_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Said_Jazairi.png"
 				expire = "1.1.1"
@@ -1287,7 +1309,7 @@ country_event = { #Future of Syria
 		SYR = {
 			set_cosmetic_tag = SYR_sultanate
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
@@ -1328,7 +1350,7 @@ country_event = { #Future of Syria
 		}
 		SYR = {
 			create_country_leader = {
-				name = "Said al-Jazairi"
+				name = "Саид аль-Джазаири"
 				desc = "POLITICS_SAID_JAZAIRI_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Said_Jazairi.png"
 				expire = "1.1.1"
@@ -1529,49 +1551,49 @@ country_event = { #Ottoman Victory in Egypt
 			add_ideas = ott_military_restrictions
 			set_cosmetic_tag = EGYK
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = national_liberalism_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = marlib_national_liberalism_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = soccon_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = islamism_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Abbas II"
+				name = "Аббас II"
 				desc = "POLITICS_ABBAS_II_DESC"
 				picture = "gfx/leaders/EGY/Portrait_Egypt_Abbas_II.png"
 				expire = "1.1.1"
@@ -1677,7 +1699,7 @@ country_event = { #Death of Abbas II Hilmi
 
 	trigger = {
 		has_country_leader = {
-			name = "Abbas II"
+			name = "Аббас II"
 			ruling_only = yes
 		}
 	}
@@ -1691,49 +1713,49 @@ country_event = { #Death of Abbas II Hilmi
 		}
 		EGY = {
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = islamism_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = legionarism_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = soccon_islamism_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = national_liberalism_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Muhammad Abdel I"
+				name = "Мухаммад Абдель I"
 				desc = "POLITICS_ABDEL_MONEIM_DESC"
 				picture = "gfx/leaders/SYR/Portrait_SYR_Moneim.png"
 				expire = "1.1.1"
@@ -1766,7 +1788,7 @@ country_event = { #Mustafa Kemal Takes Up Command
 			factor = 50
 		}
 		create_field_marshal = {
-			name = "Mustafa Kemal Paşa "
+			name = "Мустафа Кемаль Ататюрк "
 			portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Kemal.png"
 			id = 681
 			traits = {
@@ -1877,11 +1899,11 @@ country_event = { #The Cypriot Issue
 			limit = {
 				NOT = {
 					has_tech = mtg_transport
-				}
 			}
-			set_technology = { mtg_transport = 1 }
-		}
+			}
+				set_technology = { mtg_transport = 1 }
 	}
+}
 }
 
 

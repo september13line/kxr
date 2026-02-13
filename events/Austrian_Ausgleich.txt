@@ -786,10 +786,10 @@ country_event = { #Hungarian Demands - Reparation Payments
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = AUS_ausgleich
-						option = AUS_AUSGLEICH_STATUS_QUO
-					}
+				has_game_rule = {
+					rule = AUS_ausgleich
+					option = AUS_AUSGLEICH_STATUS_QUO
+				}
 					has_game_rule = {
 						rule = AUS_ausgleich
 						option = AUS_AUSGLEICH_FEDERATE_SUCCESS
@@ -1587,7 +1587,7 @@ country_event = {
 			remove_ideas = HUN_financial_ties_broken
 			load_oob = HUN_AUS_Civil_war
 		}
-		custom_effect_tooltip = "Ten new militia divisions will be formed"
+		custom_effect_tooltip = "Будут сформированы десять новых дивизий ополчения"
 		declare_war_on = {
 			target = CRO
 			type = annex_everything
@@ -1878,7 +1878,7 @@ country_event = {
 			load_oob = HUN_AUS_Civil_war
 			clr_country_flag = hungary_loyal
 		}
-		custom_effect_tooltip = "Ten new militia divisions will be formed"
+		custom_effect_tooltip = "Будут сформированы десять новых дивизий ополчения"
 		declare_war_on = {
 			target = AUS
 			type = annex_everything
@@ -2397,13 +2397,13 @@ country_event = { #creation of Slovakia?
 				}
 				73 = {
 					AND = {
-                    is_owned_by = ROOT
+					is_owned_by = ROOT
 					is_core_of = GAL
 					}
 				}
 				1119 = {
 					AND = {
-                    is_owned_by = ROOT
+					is_owned_by = ROOT
 					is_core_of = GAL
 					}
 				}
@@ -2627,18 +2627,18 @@ country_event = {
 			add_ideas = AUS_part_of_the_Empire
 			if = {
 				limit = { AUS = { has_country_leader_ideology = ariosophy_subtype } }
-				create_country_leader = {
-					name = "József Ágost Habsburg–Lotaringiai"
-					desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
-					picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
-					expire = "1.1.1"
+					create_country_leader = {
+					name = "Иосиф Август Габсбург-Лотарингский"
+						desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
+						picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
+						expire = "1.1.1"
 					ideology = ariosophy_subtype
 				}
 			}
 			else_if = {
 				limit = { AUS = { has_country_leader_ideology = austropopulism_subtype } }
 				create_country_leader = {
-					name = "József Ágost Habsburg–Lotaringiai"
+					name = "Иосиф Август Габсбург-Лотарингский"
 					desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
 					expire = "1.1.1"
@@ -2648,17 +2648,17 @@ country_event = {
 			else_if = {
 				limit = { AUS = { has_country_leader_ideology = social_conservative_subtype } }
 				create_country_leader = {
-					name = "József Ágost Habsburg–Lotaringiai"
+					name = "Иосиф Август Габсбург-Лотарингский"
 					desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
 					expire = "1.1.1"
 					ideology = social_conservative_subtype
+					}
 				}
-			}
 			else_if = {
 				limit = { AUS = { has_country_leader_ideology = paneuropeanism_subtype } }
 				create_country_leader = {
-					name = "József Ágost Habsburg–Lotaringiai"
+					name = "Иосиф Август Габсбург-Лотарингский"
 					desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
 					expire = "1.1.1"
@@ -2668,7 +2668,7 @@ country_event = {
 			else_if = {
 				limit = { AUS = { has_country_leader_ideology = austromarxism_subtype } }
 				create_country_leader = {
-					name = "József Ágost Habsburg–Lotaringiai"
+					name = "Иосиф Август Габсбург-Лотарингский"
 					desc = "POLITICS_JOSEPH_AUGUST_VON_HABSBURG_DESC"
 					picture = "gfx/leaders/AUS/Portrait_AUS_Joseph_August_von_Habsburg.png"
 					expire = "1.1.1"
@@ -2759,7 +2759,7 @@ country_event = {
 			name = brotherhood_of_slavs
 			icon = GFX_faction_brotherhood_of_slavs
 		}
-		custom_effect_tooltip = "Seven new militia divisions will be formed"
+		custom_effect_tooltip = "Будет сформировано семь новых дивизий ополчения"
 	}
 
 	option = { # no.
@@ -3704,9 +3704,9 @@ country_event = { #Treaty of Budapest
 			        target_country = POL
 			        character = GAL_Stanislaw_Ulam
 			        }
-		            } 
-			        }
-					annex_country = { target = GAL } 
+						}
+					}
+					annex_country = { target = GAL }
 					
 				}
 			}
@@ -4053,12 +4053,12 @@ country_event = { #The Terms of the Treaty of Budapest
 					owner = { is_subject_of = AUS }
 				}
 			}
-			every_owned_state = {
-				limit = {
+		every_owned_state = {
+			limit = {
 					region = 27 #Hungary
-					NOT = { state = 45 } #Vojvodina
-				}
-				AUS = { transfer_state = PREV }
+				NOT = { state = 45 } #Vojvodina
+			}
+			AUS = { transfer_state = PREV }
 			}
 		}
 		if = {
@@ -4528,8 +4528,8 @@ country_event = { #Slovenia Demands Representation
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = ILL_slovenia_crisis
+				has_game_rule = {
+					rule = ILL_slovenia_crisis
 						option = CRO_SLOVENIA_CRISIS_RESOLVED
 					}
 					has_game_rule = {

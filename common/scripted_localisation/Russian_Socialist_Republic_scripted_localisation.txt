@@ -1,3 +1,5 @@
+
+
 defined_text = {
 	name = GetPolitburoLeaderFaction
 	text = {
@@ -165,7 +167,7 @@ defined_text = {
 			has_country_flag = RUS_nsp_is_rkp
 			set_temp_variable = { number = SOV_bolshevik_party_congress_number }
 			add_to_temp_variable = { number = 11 }
-		}		
+		}
 		localization_key = SOV_bolshevik_party_congress_number_loc
 	}
 	text = {
@@ -180,25 +182,25 @@ defined_text = {
 defined_text = {
 	name = GetBolshevikPartyCongressNumberRoman
 	text = {
-		trigger = { 
+		trigger = {
 			check_variable = { number = 1 }
 		}
 		localization_key = "I"
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			check_variable = { number = 2 }
 		}
 		localization_key = "II"
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			check_variable = { number = 3 }
 		}
 		localization_key = "III"
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			check_variable = { number = 4 }
 		}
 		localization_key = "IV"
@@ -363,7 +365,7 @@ defined_text = {
 defined_text = {
 	name = GetPolitburoLeftCommunists
 	text = {
-		trigger = { 
+		trigger = {
 			has_country_flag = SOV_rkp_in_politburo
 			NOT = { 
 				has_country_flag = SOV_zinovievite_bukharinist_bloc_exists 
@@ -379,7 +381,7 @@ defined_text = {
 defined_text = {
 	name = GetPolitburoHardliners
 	text = {
-		trigger = { 
+		trigger = {
 			has_country_flag = SOV_politburo_hardliners_exist
 			NOT = {
 				has_country_flag = SOV_molotovite_bukharinist_bloc_exists
@@ -418,7 +420,7 @@ defined_text = {
 defined_text = {
 	name = GetPolitburoWorkersOpposition
 	text = {
-		trigger = { 
+		trigger = {
 			has_country_flag = SOV_politburo_workers_opposition_exist
 		}
 		localization_key = SOV_politburo_workers_opposition_stats
@@ -430,7 +432,7 @@ defined_text = {
 defined_text = {
 	name = GetPolitburoUnitedOpposition
 	text = {
-		trigger = { 
+		trigger = {
 			has_country_flag = SOV_politburo_united_opposition_exist
 		}
 		localization_key = SOV_politburo_united_opposition_stats
@@ -458,7 +460,7 @@ defined_text = {
 defined_text = {
 	name = GetPolitburoBukharin
 	text = {
-		trigger = { 
+		trigger = {
 			NOT = { 
 				has_country_flag = SOV_politburo_bukharin_banned
 				has_country_flag = SOV_zinovievite_bukharinist_bloc_exists 
@@ -792,7 +794,7 @@ defined_text = {
 			check_variable = { SOV_rsdrp_syndie_votes > 0 }
 		}
 		localization_key = SOV_RSDRP_Syndie_Delegates
-	}
+			}
 	text = {
 		localization_key = ""
 	}
@@ -802,14 +804,14 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_idea = RUS_Restored_Cheka
+			has_idea = RUS_Restored_Cheka
 				has_idea = RUS_Restored_Cheka_lar
-			}
 		}
-		localization_key = "Cheka"
+		}
+		localization_key = "ЧК"
 	}
 	text = {
-		localization_key = "GPU"
+		localization_key = "ГПУ"
 	}
 }
 defined_text = {
@@ -873,17 +875,17 @@ defined_text = {
 			SOV_zinoviev_in_power = yes
 			has_country_leader_with_trait = SOV_communist_world_leader
 		}
-		localization_key = "Leader of the Communist World"
+		localization_key = "Лидер коммунистического мира"
 	}
 	text = {
 		trigger = {
 			SOV_zinoviev_in_power = yes
 			has_country_leader_with_trait = SOV_vozhd_of_proletarian_revolution
 		}
-		localization_key = "Vozhd of the Proletarian Revolution"
+		localization_key = "Вождь пролетарской революции"
 	}
 	text = {
-		localization_key = "Chairman"
+		localization_key = "Председатель"
 	}
 }
 defined_text = {
@@ -1011,7 +1013,7 @@ defined_text = {
 		localization_key = ""
 	}
 	text = {
-		localization_key = " Aleksey Rykov,"
+		localization_key = " Алексей Рыков,"
 	}	
 }
 defined_text = {
@@ -1051,7 +1053,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = "Aleksey Rykov"
+		localization_key = "Алексей Рыков"
 	}
 	text = {
 		trigger = {
@@ -1078,7 +1080,7 @@ defined_text = {
 		localization_key = RUS_Ivar_Smilga_eco_tot
 	}
 	text = {
-		localization_key = "Nikolay Voznesensky"
+		localization_key = "Николай Вознесенский"
 	}
 }
 defined_text = {
@@ -1087,9 +1089,9 @@ defined_text = {
 		trigger = {
 			has_idea = SOV_vtsik_vladimirsky
 		}
-		localization_key = "Vyacheslav Molotov to lead again"
+		localization_key = "Вячеслав Молотов снова возглавит"
 	}
 	text = {
-		localization_key = "Nikolay Voznesensky"
-	}	
+		localization_key = "Николай Вознесенский"
+	}
 }

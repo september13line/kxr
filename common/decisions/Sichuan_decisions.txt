@@ -2176,7 +2176,7 @@ Sichuan_Foreign_Policy_decisions = {
 					is_ruled_by_federalists = yes
 				}
 			}
-			#Lu Chao pushes for KMT alignment
+			#Лу Чао pushes for KMT alignment
 			modifier = {
 				set_temp_variable = { SZC_kmt_faction_desire = party_popularity@social_liberal }
 				multiply_temp_variable = { SZC_kmt_faction_desire = -100 }
@@ -2252,7 +2252,7 @@ Sichuan_Foreign_Policy_decisions = {
 				add = -1000
 				NOT = { has_variable = SZC_opium_crisis_solved }
 			}
-			#Deng Xihou and Xiong Kewu push for Federalist alignment
+			#Дэн Сихоу and Сюн Кеву push for Federalist alignment
 			modifier = {
 				set_temp_variable = { SZC_federalist_faction_desire = party_popularity@social_conservative }
 				add_to_temp_variable = { SZC_federalist_faction_desire = party_popularity@social_liberal }
@@ -2264,7 +2264,7 @@ Sichuan_Foreign_Policy_decisions = {
 					is_ruled_by_federalists = yes
 				}
 			}
-			#Liu Wenhui pushes for KMT alignment
+			#Лю Вэньхуэй pushes for KMT alignment
 			modifier = {
 				set_temp_variable = { SZC_kmt_faction_desire = party_popularity@market_liberal }
 				multiply_temp_variable = { SZC_kmt_faction_desire = 100 }
@@ -3507,7 +3507,7 @@ highlight_state_targets = {
 				if = {
 					limit = {
 						OR = {
-							has_country_leader = { name = "Nelson T. Johnson" ruling_only = yes }
+							has_country_leader = { name = "Нельсон Т. Джонсон" ruling_only = yes }
 							AND = {
 								has_government = paternal_autocrat
 								ROOT = { has_completed_focus = SZC_Contact_An_Old_Ally }
@@ -3534,7 +3534,7 @@ highlight_state_targets = {
 				limit = {
 					FROM = {
 						NOT = {
-							has_country_leader = { name = "Nelson T. Johnson" ruling_only = yes }
+							has_country_leader = { name = "Нельсон Т. Джонсон" ruling_only = yes }
 							AND = {
 								has_government = paternal_autocrat
 								ROOT = { has_completed_focus = SZC_Contact_An_Old_Ally }

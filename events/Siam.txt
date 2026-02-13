@@ -689,7 +689,7 @@ country_event = { # Khana Ratsadon's Provisional Government
 		}
 	}
 }
-country_event = { # Rama VII's Provisional Government
+country_event = { # Прачадипок's Provisional Government
 	id = siamn.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event siamn.11" }
 	title = siamn.11.t
@@ -869,7 +869,7 @@ country_event = { # Pridi and his Yellow Cover Book
 	}
 }
 
-country_event = { # Rama VII strikes back!
+country_event = { # Прачадипок strikes back!
 	id = siamn.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event siamn.13" }
 	title = siamn.13.t
@@ -953,7 +953,7 @@ country_event = { # Rama VII strikes back!
 	}
 }
 
-country_event = { # Rama VII sued!
+country_event = { # Прачадипок sued!
 	id = siamn.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event siamn.14" }
 	title = siamn.14.t
@@ -1058,7 +1058,7 @@ country_event = { # Rama VII sued!
 	}
 }
 
-country_event = { # Luang Phibunsongkhram's Dilemma
+country_event = { # Луанг Пибунсонгкрам's Dilemma
 	id = siamn.15
 	title = siamn.15.t
 	desc = siamn.15.d
@@ -1074,14 +1074,14 @@ country_event = { # Luang Phibunsongkhram's Dilemma
 				last_election = 1936.8.2 # Since [today] - just place here to prevent all the date fck-up
 				elections_allowed = no
 			}
-			create_country_leader = { # 
-				name = "Supha Sirimanon"
+			create_country_leader = { # Pridi Panomyong
+				name = "Супха Сириманон"
 				picture = "gfx/leaders/SIA/Portrait_SIA_supha_sirimanon.png"
 				expire = "1983.5.2"
 				ideology = centralized_syndicalism_subtype
 			}
 			create_country_leader = { # Pridi Panomyong
-				name = "Luang Praditmanutham"
+				name = "Луанг Прадитманутхам"
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 				expire = "1983.5.2"
@@ -2023,8 +2023,8 @@ country_event = { # Down the NatPop path or liberalise?
 		}
 		SIA = {
 			set_global_flag = SIA_IRON_MARSHAL_PLAEK
-			create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-				name = "Plaek Phibunsongkhram"
+			create_country_leader = { # Republican National Populism - Плек Пибунсонгкрам
+				name = "Плек Пибунсонгкрам"
 				desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 				expire = "1964.6.11"
@@ -3204,7 +3204,7 @@ country_event = { # Phibun's Weak Foreign Policy
 	}
 }
 
-### 37th Siamese-Burmese War (Intiated by Plaek Phibunsongkhram's NatPop faction) ###
+### 37th Siamese-Burmese War (Intiated by Плек Пибунсонгкрам's NatPop faction) ###
 country_event = { # Attack Burma or Not? - Plaek not only Protecc but also Attacc here :v
 	id = siamn.32
 	immediate = { log = "[GetDateText]: [Root.GetName]: event siamn.32" }
@@ -4191,7 +4191,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 	}
 
 	option = {
-		name = siamn.47.a # Pick Phao Sriyanond; Republican is clearly superior here
+		name = siamn.47.a # Pick Пхао Шриянонд; Republican is clearly superior here
 		ai_chance = {
 			factor = 70
 			modifier = {
@@ -4203,7 +4203,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4213,7 +4213,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4241,7 +4241,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 		# world news for Plaek's dead
 	}
 	option = {
-		name = siamn.47.b # Pick Sarit Thanarat
+		name = siamn.47.b # Pick Сарит Танарат
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -4253,7 +4253,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4263,7 +4263,7 @@ country_event = { # Phibunsongkhram is Dead (Gunmen shoot him while entering veh
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4355,7 +4355,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 	}
 
 	option = {
-		name = siamn.50.a # Pick Phao Sriyanond
+		name = siamn.50.a # Pick Пхао Шриянонд
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -4367,7 +4367,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4377,7 +4377,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4405,7 +4405,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 		# world news for Plaek's dead
 	}
 	option = {
-		name = siamn.50.b # Pick Sarit Thanarat; Let's return to the old way bois!
+		name = siamn.50.b # Pick Сарит Танарат; Let's return to the old way bois!
 		ai_chance = {
 			factor = 80
 			modifier = {
@@ -4417,7 +4417,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4427,7 +4427,7 @@ country_event = { # Phibunsongkhram is Dead (His gardener shoot him) - who's nex
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4514,7 +4514,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 	}
 
 	option = {
-		name = siamn.52.a # Pick Phao Sriyanond
+		name = siamn.52.a # Pick Пхао Шриянонд
 		trigger = {
 			has_global_flag = SIA_IRON_MARSHAL_PLAEK
 		}
@@ -4529,7 +4529,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4539,7 +4539,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -4559,7 +4559,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 		# world news for Plaek's dead
 	}
 	option = {
-		name = siamn.52.b # Pick Sarit Thanarat; Let's return to the old way bois!
+		name = siamn.52.b # Pick Сарит Танарат; Let's return to the old way bois!
 		trigger = {
 			has_global_flag = SIA_IRON_MARSHAL_PLAEK
 		}
@@ -4574,7 +4574,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4584,7 +4584,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			}
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -4625,7 +4625,7 @@ country_event = { # Phibunsongkhram is dead by natural causes, RIP/Who's next?
 			factor = 100
 		}
 		create_country_leader = {
-			name = "Sarit Thanarat"
+			name = "Сарит Танарат"
 			desc = "POLITICS_SARIT_THANARAT_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sarit_Thanarat.png"
 			expire = "1963.12.8"
@@ -5409,7 +5409,7 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		name = siamn.56.b # Phibunsongkhram
 		trigger = {
 			has_country_leader = {
-				name = "Plaek Phibunsongkhram"
+				name = "Плек Пибунсонгкрам"
 				ruling_only = yes
 			}
 		}
@@ -5424,19 +5424,19 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Rama VIII  "
+					name = "Рама VIII  "
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Rama VIII "
+					name = "Рама VIII "
 					ruling_only = yes
 				}
 			}
@@ -5451,7 +5451,7 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		name = siamn.56.e # Phanomyong
 		trigger = {
 			has_country_leader = {
-				name = "Pridi Phanomyong"
+				name = "Приди Паномионг"
 				ruling_only = yes
 			}
 		}
@@ -5470,10 +5470,10 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		add_stability = 0.01
 	}
 	option = {
-		name = siamn.56.g # Rama VII
+		name = siamn.56.g # Прачадипок
 		trigger = {
 			has_country_leader = {
-				name = "Rama VII"
+				name = "Рама VII"
 				ruling_only = yes
 			}
 		}
@@ -5487,7 +5487,7 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		name = siamn.56.h # Ananda
 		trigger = {
 			has_country_leader = {
-				name = "Rama VIII"
+				name = "Рама VIII"
 				ruling_only = yes
 			}
 		}
@@ -5501,7 +5501,7 @@ country_event = { # Flavour - Finishing the Yanhee dam
 		name = siamn.56.i # Bhumibol
 		trigger = {
 			has_country_leader = {
-				name = "Rama IX"
+				name = "Рама IX"
 				ruling_only = yes
 			}
 		}
@@ -5575,13 +5575,6 @@ country_event = { # Flavour - First Tractor in Ayutthaya- totally not copying Vi
 	option = {
 		name = siamn.60.a # Khun Phra Chuay!
 		custom_effect_tooltip = SIA_tractor_vic2_tt
-		custom_effect_tooltip = tooltip_white_line
-		custom_effect_tooltip = tpaktop_tech_effect
-		hidden_effect = { set_technology = { tpaktop_tech = 1 popup = yes } }
-		add_equipment_to_stockpile = {
-			type = tractor_equipment
-			amount = 20
-		}		
 	}
 }
 
@@ -5933,35 +5926,35 @@ country_event = { # Death of Rama VII - 3967403
 			set_country_flag = King_Prajadhipok_dead
 			SIA = {
 				create_country_leader = {
-					name = "Rama VIII"
+					name = "Рама VIII"
 					desc = "POLITICS_RAMA_VIII_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 					expire = "1946.6.9"
 					ideology = oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Rama VIII"
+					name = "Рама VIII"
 					desc = "POLITICS_RAMA_VIII_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 					expire = "1946.6.9"
 					ideology = socdem_democratic_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Rama VIII"
+					name = "Рама VIII"
 					desc = "POLITICS_RAMA_VIII_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 					expire = "1946.6.9"
 					ideology = soclib_progressive_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Rama VIII"
+					name = "Рама VIII"
 					desc = "POLITICS_RAMA_VIII_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 					expire = "1946.6.9"
 					ideology = free_market_capitalist_subtype
 				}
 				create_country_leader = {
-					name = "Rama VIII"
+					name = "Рама VIII"
 					desc = "POLITICS_RAMA_VIII_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 					expire = "1946.6.9"
@@ -5976,7 +5969,7 @@ country_event = { # Death of Rama VII - 3967403
 						}
 					}
 					create_country_leader = {
-						name = "Rama VIII"
+						name = "Ананда Махидол"
 						desc = "POLITICS_RAMA_VIII_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 						expire = "1946.6.9"
@@ -5991,7 +5984,7 @@ country_event = { # Death of Rama VII - 3967403
 		name = siam.13.a # RIP for him
 	}
 }
-country_event = { # Rama VIII reacts - xxxxxxx (a.k.a. Paribatra line or not)
+country_event = { # Парибатра Сукхумбханд reacts - xxxxxxx (a.k.a. Paribatra line or not)
 	id = siam.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event siam.14" }
 	title = siam.14.t
@@ -6019,42 +6012,42 @@ country_event = { # Rama VIII reacts - xxxxxxx (a.k.a. Paribatra line or not)
 		hidden_effect = {
 			set_global_flag = Paribatra_Line
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII "
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
 				ideology = oligarchy_subtype
 			}
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII "
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
 				ideology = socdem_democratic_socialism_subtype
 			}
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII "
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
 				ideology = soclib_progressive_democracy_subtype
 			}
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII "
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
 				ideology = free_market_capitalist_subtype
 			}
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII "
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
 				ideology = moderate_authoritarianism_subtype
 			}
 			create_country_leader = { # Throne Pretender
-				name = "Rama VIII " 
+				name = "Рама VIII "
 				desc = "POLITICS_SUKHUMBHAND_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 				expire = "1944.1.18"
@@ -6132,35 +6125,35 @@ country_event = { # Death of Rama VIII - xxxxxxx
 			set_country_flag = Ananda_Mahidol_dead
 			SIA = {
 				create_country_leader = {
-					name = "Rama IX"
+					name = "Рама IX"
 					desc = "POLITICS_RAMA_VIX_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 					expire = "2016.10.13"
 					ideology = oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX"
+					name = "Рама IX"
 					desc = "POLITICS_RAMA_VIX_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 					expire = "2016.10.13"
 					ideology = socdem_democratic_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX"
+					name = "Рама IX"
 					desc = "POLITICS_RAMA_VIX_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 					expire = "2016.10.13"
 					ideology = soclib_progressive_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX"
+					name = "Рама IX"
 					desc = "POLITICS_RAMA_VIX_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 					expire = "2016.10.13"
 					ideology = free_market_capitalist_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX"
+					name = "Рама IX"
 					desc = "POLITICS_RAMA_VIX_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 					expire = "2016.10.13"
@@ -6175,7 +6168,7 @@ country_event = { # Death of Rama VIII - xxxxxxx
 						}
 					}
 					create_country_leader = {
-						name = "Rama IX"
+						name = "Рама IX"
 						desc = "POLITICS_RAMA_VIX_DESC"
 						picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 						expire = "2016.10.13"
@@ -6191,7 +6184,7 @@ country_event = { # Death of Rama VIII - xxxxxxx
 	}
 }
 
-country_event = { # Death of Rama VIII (Paribatra Line of Sucession) - xxxxxxx
+country_event = { # Death of Парибатра Сукхумбханд (Paribatra Line of Sucession) - xxxxxxx
 	id = siam.33
 	title = siam.33.t
 	desc = siam.33.d
@@ -6214,42 +6207,42 @@ country_event = { # Death of Rama VIII (Paribatra Line of Sucession) - xxxxxxx
 			set_country_flag = Paribatra_Sukhumbhand_dead
 			SIA = {
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
 					ideology = oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
 					ideology = socdem_democratic_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
 					ideology = soclib_progressive_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
 					ideology = free_market_capitalist_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
 					ideology = moderate_authoritarianism_subtype
 				}
 				create_country_leader = {
-					name = "Rama IX "
+					name = "Рама IX "
 					desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 					expire = "1959.9.15"
@@ -6263,7 +6256,7 @@ country_event = { # Death of Rama VIII (Paribatra Line of Sucession) - xxxxxxx
 		name = siam.15.a # RIP for him
 	}
 }
-country_event = { # Death of Rama IX (Paribatra Line of Sucession) - xxxxxxx
+country_event = { # Death of Чумбхотбонгс Парибатра (Paribatra Line of Sucession) - xxxxxxx
 	id = siam.34
 	title = siam.34.t
 	desc = siam.34.d
@@ -6286,42 +6279,42 @@ country_event = { # Death of Rama IX (Paribatra Line of Sucession) - xxxxxxx
 			set_country_flag = Chumbhotbongs_Paribatra_dead
 			SIA = {
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"
 					ideology = oligarchy_subtype
 				}
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"
 					ideology = socdem_democratic_socialism_subtype
 				}
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"
 					ideology = soclib_progressive_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"
 					ideology = free_market_capitalist_subtype
 				}
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"
 					ideology = moderate_authoritarianism_subtype
 				}
 				create_country_leader = {
-					name = "Rama X"
+					name = "Рама X"
 					desc = "POLITICS_SUKHUMABHININDA_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 					expire = "2003.4.10"

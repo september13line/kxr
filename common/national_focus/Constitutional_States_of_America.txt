@@ -23,7 +23,7 @@ focus_tree = {
 		}
 		bypass = {
 		has_country_flag = COR_memphis_commission 
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
 				}
 		ai_will_do = { factor = 20 }
 		x = 31
@@ -430,15 +430,15 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "William H. Murray"
+					name = "Уильям Мюррей"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Eugene Talmadge"
+					name = "Юджин Талмадж"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Patton"
+					name = "Джордж Паттон"
 				}
 			}
 		}
@@ -447,15 +447,15 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "William H. Murray"
+					name = "Уильям Мюррей"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Eugene Talmadge"
+					name = "Юджин Талмадж"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Patton"
+					name = "Джордж Паттон"
 				}
 			}
 		}
@@ -1439,7 +1439,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}		
@@ -1482,7 +1482,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}	
@@ -1514,7 +1514,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}
@@ -1554,7 +1554,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}
@@ -1619,7 +1619,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}
@@ -1658,7 +1658,7 @@ focus_tree = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "George Van Horn Moseley"
+					name = "Джордж Ван Хорн Мозли"
 				}
 				COR_fordists_in_power = yes		
 			}	
@@ -2496,7 +2496,7 @@ focus_tree = {
 			hidden_effect = {
 			country_event = { id = constate.41 days = 2 }
 			if = {
-				limit = { has_country_leader = { ruling_only = yes name = "Charles Lindbergh" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Чарльз Линдберг" } }
 				country_event = { id = constate.7051 days = 6 }
 			}
 			}
@@ -3128,7 +3128,7 @@ focus_tree = {
 				add_ideas = COR_ford_final_idea
 			}						
 		}
-	}	
+	}
 
 	### Richard Russell Jr. Path ###
 	focus = {# The People's Senator
@@ -3139,14 +3139,14 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		bypass = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		bypass_effect = {
@@ -3160,7 +3160,7 @@ focus_tree = {
 		y = 9
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_peoples_senator"
-			custom_effect_tooltip = unlock_focuses
+		custom_effect_tooltip = unlock_focuses
 		}
 	}
 
@@ -3175,7 +3175,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3224,7 +3224,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3265,7 +3265,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3301,7 +3301,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3340,7 +3340,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3377,7 +3377,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3410,7 +3410,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3471,7 +3471,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3500,7 +3500,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3532,7 +3532,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3561,7 +3561,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3591,7 +3591,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3624,7 +3624,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3667,7 +3667,7 @@ focus_tree = {
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3711,7 +3711,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3746,7 +3746,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3775,7 +3775,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3807,7 +3807,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3842,7 +3842,7 @@ focus_tree = {
 			has_government = social_conservative
 			has_country_leader = {
 				ruling_only = yes
-				name = "Richard Russell Jr."
+				name = "Ричард Рассел-мл."
 			}
 		}
 		available_if_capitulated = yes
@@ -3870,7 +3870,7 @@ focus_tree = {
 		}
 	}
 
-	### George S. Patton Path ###
+	### Джордж С. Паттон Path ###
 	focus = {# Old Blood and Guts
 		id = COR_old_blood_and_guts
 		icon =  GFX_COR_Old_Blood_and_Guts
@@ -4146,10 +4146,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_new_tank_forces"
 			if = {
 				limit = {
-					NOT = { has_template = "Patton Tank Division" }
+					NOT = { has_template = "Танковая дивизия Паттона" }
 				}
 				division_template = {
-					name = "Patton Tank Division"
+					name = "Танковая дивизия Паттона"
 					division_names_group = USA_ARM_01
 					regiments = {
 						light_armor = { x = 0 y = 0 }
@@ -4177,7 +4177,7 @@ focus_tree = {
 			hidden_effect = {
 				361 = {
 					create_unit = {
-						division = "division_template = \"Patton Tank Division\" start_experience_factor = 0.3 start_equipment_factor = 1.0"
+						division = "division_template = \"Танковая дивизия Паттона\" start_experience_factor = 0.3 start_equipment_factor = 1.0"
 						owner = ROOT
 					}
 				}
@@ -4368,7 +4368,7 @@ focus_tree = {
 		cost = 1.25
 		available = {
 			has_government = national_populist
-			has_country_leader = { ruling_only = yes name = "William Joseph Simmons" }
+			has_country_leader = { ruling_only = yes name = "Уильям Джозеф Симмонс" }
 		}
 		ai_will_do = {
 			factor = 20
@@ -4701,13 +4701,13 @@ focus_tree = {
 			hidden_effect = {
 				USA_resistance_socialist_effect = yes
 				USA_resistance_minutemen_effect = yes
-				modify_country_flag = {
-					flag = ACW_minutemen_resistance
-					value = -3
-				}
-				modify_country_flag = {
-					flag = ACW_socialist_resistance
-					value = -3
+			modify_country_flag = {
+			flag = ACW_minutemen_resistance
+			value = -3
+			}
+			modify_country_flag = {
+			flag = ACW_socialist_resistance
+			value = -3
 				}
 			}
 			add_stability = 0.03
@@ -4954,12 +4954,12 @@ focus_tree = {
 		available = {
 			has_government = national_populist
 			OR = {
-			has_country_flag = young_klan_victory
-			has_country_leader = { ruling_only = yes name = "Hiram Wesley Evans" }
-			has_country_leader = { ruling_only = yes name = "James A. Colescott" }
-			has_country_leader = { ruling_only = yes name = "Theodore G. Bilbo" }
-			has_country_leader = { ruling_only = yes name = "Samuel Green" }
-			}
+				has_country_flag = young_klan_victory
+				has_country_leader = { ruling_only = yes name = "Хирам Уэсли Эванс" }
+				has_country_leader = { ruling_only = yes name = "Джеймс А. Колескотт" }
+				has_country_leader = { ruling_only = yes name = "Теодор Г. Бильбо" }
+				has_country_leader = { ruling_only = yes name = "Сэмюэл Грин" }
+		   }
 		}
 		available_if_capitulated = yes
 		x = -10
@@ -5605,7 +5605,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = COR_america_for_christians
-		}
+		}	
 		available_if_capitulated = yes
 		x = 0
 		y = 5
@@ -5624,7 +5624,7 @@ focus_tree = {
 		}
 	}
 	
-	### George W. Christians ###
+	### Джордж У. Кристианс ###
 	
 	focus = {# The Second Southern Revolution
 		id = COR_Second_Southern_Revolution
@@ -5632,10 +5632,10 @@ focus_tree = {
 		cost = 1
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		bypass = {
-		has_country_leader = { ruling_only = yes name = "George W. Christians" }
+		has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		available_if_capitulated = yes
 		x = 26
@@ -5656,7 +5656,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Second_Southern_Revolution
@@ -5701,7 +5701,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Second_Southern_Revolution
@@ -5745,7 +5745,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Second_Southern_Revolution
@@ -5775,7 +5775,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Destroy_Armstrong_Cult
@@ -5808,7 +5808,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Up_With_The_Cross
@@ -5865,7 +5865,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Taking_The_Reins
@@ -5898,7 +5898,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			has_country_flag = COR_Fitzhugh_Influence
 		}
 		prerequisite = {
@@ -5929,7 +5929,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Fitzhughism
@@ -5976,7 +5976,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Fitzhughism
@@ -6000,7 +6000,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Fitzhughism
@@ -6027,7 +6027,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			has_country_flag = COR_Hughes_Influence
 		}
 		prerequisite = {
@@ -6058,7 +6058,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Hughes
@@ -6108,7 +6108,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Hughes
@@ -6132,7 +6132,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Hughes
@@ -6165,7 +6165,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Hughes
@@ -6205,7 +6205,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Hughes
@@ -6257,7 +6257,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 			has_country_flag = COR_De_Bow_Influence
 		}
 		prerequisite = {
@@ -6288,7 +6288,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_De_Bow
@@ -6352,7 +6352,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_De_Bow
@@ -6393,7 +6393,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_De_Bow
@@ -6420,7 +6420,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_government = totalist
-			has_country_leader = { ruling_only = yes name = "George W. Christians" }
+			has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" }
 		}
 		prerequisite = {
 			focus = COR_Warranteeism_Not_Slavery
@@ -6442,7 +6442,7 @@ focus_tree = {
 		is_faction_leader = yes
 			}
 		}
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_fire_eaters
 				icon = GFX_faction_fire_eater_confederacy
@@ -6457,7 +6457,7 @@ focus_tree = {
 		}
 	}
 	
-	
+		
 	focus = {# Deal with the Dixiecrats
 		id = COR_deal_with_the_dixiecrats
 		icon = GFX_goal_COR_deal_with_dixiecrats
@@ -6595,7 +6595,7 @@ focus_tree = {
 			days = 20
 			}
 			if = {	
-				limit = { has_country_leader = { ruling_only = yes name = "Hiram Wesley Evans" } }
+				limit = { has_country_leader = { ruling_only = yes name = "Хирам Уэсли Эванс" } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/COR/Portrait_COR_Hiram_Wesley_Evans_Robes.png"
 					}
@@ -6777,8 +6777,8 @@ focus_tree = {
 			add_stability = 0.05
 			USA_resistance_black_nationalist_effect = yes
 			modify_country_flag = {
-				flag = ACW_black_nationalist_resistance
-				value = -5
+			flag = ACW_black_nationalist_resistance
+			value = -5
 			}
 			swap_ideas = {
 			remove_idea = COR_black_laws_idea
@@ -7177,7 +7177,7 @@ focus_tree = {
 			has_government = national_populist
 			has_country_leader = {
 			ruling_only = yes 
-			name = "D.C. Stephenson"
+			name = "Д.К. Стивенсон"
 			}
 		}
 		available_if_capitulated = yes
@@ -8053,7 +8053,7 @@ focus_tree = {
 		cost = 2
 		available = {
 			has_government = national_populist
-			has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+			has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_mine_have_seen_the_glory
@@ -8083,7 +8083,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8109,7 +8109,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-			has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+			has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8138,7 +8138,7 @@ focus_tree = {
 			focus = COR_the_lord
 		}
 		available = {
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		has_government = national_populist
 		}
 		available_if_capitulated = yes
@@ -8174,7 +8174,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+					has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8218,7 +8218,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+					has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8257,7 +8257,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+					has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8285,7 +8285,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+					has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8336,7 +8336,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8411,7 +8411,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8469,7 +8469,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8509,7 +8509,7 @@ focus_tree = {
 				}
 			}
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8536,7 +8536,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8578,7 +8578,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		available_if_capitulated = yes
 		relative_position_id = COR_the_lord
@@ -8610,7 +8610,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		select_effect = {
 		hidden_effect = {
@@ -8657,7 +8657,7 @@ focus_tree = {
 		}
 		available = {
 			has_government = national_populist
-		has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" }
+		has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" }
 		}
 		select_effect = {
 		country_event = {
@@ -9690,20 +9690,20 @@ focus_tree = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_equipment_1
+				type = light_tank_equipment_1
 					amount = 150
-					producer = COR
-				}
+				producer = COR
+			}
 			}
 			if = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis
+				type = light_tank_chassis
 					amount = 150
-					producer = COR
-				}
+				producer = COR
+			}
 			}
 			
 			add_tech_bonus = {
@@ -9711,7 +9711,7 @@ focus_tree = {
 				uses = 1
 				category = armor
 			}
-			
+
 			random_owned_controlled_state = {
 				limit = {
 					is_mainland_america = yes
@@ -9883,7 +9883,7 @@ focus_tree = {
 				icon = "gfx/interface/technologies/USA/USA_improved_light_tank.png"
 			}
 			division_template = {
-				name = "Light Armored Division"
+				name = "Лёгкая бронетанковая дивизия"
 				division_names_group = USA_ARM_01
 				regiments = {
 					light_armor = { x = 0 y = 0 }
@@ -9895,12 +9895,12 @@ focus_tree = {
 			}
 			365 = {
 				create_unit = {
-					division = "name = \"304th Tank Brigade\" division_template = \"Light Armored Division\" start_experience_factor = 0.50 start_equipment_factor = 1.0"
+					division = "name = \"304-я танковая бригада\" division_template = \"Лёгкая бронетанковая дивизия\" start_experience_factor = 0.50 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
 				create_unit = {
-					division = "name = \"5th Armored Cavalry\" division_template = \"Light Armored Division\" start_experience_factor = 0.50 start_equipment_factor = 1.0"
+					division = "name = \"5-я бронетанковая кавалерийская\" division_template = \"Лёгкая бронетанковая дивизия\" start_experience_factor = 0.50 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
@@ -10014,7 +10014,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
+		focus = {
 		id = COR_Martial_Darwinism
 		icon = GFX_goal_COR_Martial_Darwinism
 		cost = 5.00
@@ -10113,10 +10113,10 @@ focus_tree = {
 				add_idea = COR_Moseley_plan5
 			}
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				ahead_reduction = 1
@@ -10187,17 +10187,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_Bushwhacker_Brigades"
 			swap_ideas = {
-				remove_idea = COR_Almond_Aggression_idea
-				add_idea = COR_Almond_Aggression_idea2
+			remove_idea = COR_Almond_Aggression_idea
+			add_idea = COR_Almond_Aggression_idea2
 			}
 			set_technology = {
 				special_forces_mountaineers = 1
 			}
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				bonus = 0.5
@@ -10227,8 +10227,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_counter_fortifications"
 			swap_ideas = {
-				remove_idea = COR_Almond_Aggression_idea2
-				add_idea = COR_Almond_Aggression_idea3
+			remove_idea = COR_Almond_Aggression_idea2
+			add_idea = COR_Almond_Aggression_idea3
 			}
 			add_tech_bonus = {
 				bonus = 0.5
@@ -10274,10 +10274,10 @@ focus_tree = {
 				category = artillery
 			}
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 		}
 	}
@@ -10309,13 +10309,13 @@ focus_tree = {
 			add_idea = COR_Almond_Aggression_idea4
 			} 
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			division_template = {
-				name = "Rangers"
+				name = "Рейнджеры"
 				division_names_group = USA_INF_01
 				regiments = {
 					mountaineers = { x = 0 y = 0 }
@@ -10325,17 +10325,17 @@ focus_tree = {
 					mountaineers = { x = 1 y = 1 }
 				}
 				support = {
-					rangers_support = { x = 0 y = 0 }
-				}
+						rangers_support = { x = 0 y = 0 }
+					}
 			}
 			365 = {
 				create_unit = {
-					division = "name = \"1st 'Almond's Own' Rangers\" division_template = \"Rangers\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					division = "name = \"1-й полк «Алмондс Оун»\" division_template = \"Рейнджеры\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
 				create_unit = {
-					division = "name = \"2nd 'Copperhead' Rangers\" division_template = \"Rangers\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+					division = "name = \"2-й полк «Копперхед»\" division_template = \"Рейнджеры\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
@@ -10368,8 +10368,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_Revive_the_Rebel_Yell"
 			swap_ideas = {
-				remove_idea = COR_Almond_Aggression_idea4
-				add_idea = COR_Almond_Aggression_idea5
+			remove_idea = COR_Almond_Aggression_idea4
+			add_idea = COR_Almond_Aggression_idea5
 			}
 			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
@@ -10478,10 +10478,10 @@ focus_tree = {
 				add_idea = COR_wickliffe_plan2
 			}
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				bonus = 1
@@ -10512,7 +10512,7 @@ focus_tree = {
 			add_ideas = COR_Cavalry_leaders_idea
 			add_war_support = 0.05
 			division_template = {
-				name = "Mounted Rifles"
+				name = "Конные стрелки"
 				division_names_group = USA_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -10532,22 +10532,22 @@ focus_tree = {
 			}
 			365 = {
 				create_unit = {
-					division = "name = \"1st 'Forrest' Mounted Rifles\" division_template = \"Mounted Rifles\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
+					division = "name = \"1-й кавалерийский полк «Форрест»\" division_template = \"Конные стрелки\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
 				create_unit = {
-					division = "name = \"2nd 'Stuart' Mounted Rifles\" division_template = \"Mounted Rifles\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
+					division = "name = \"2-й кавалерийский полк «Стюарт»\" division_template = \"Конные стрелки\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
 				create_unit = {
-					division = "name = \"3rd 'Mosby' Mounted Rifles\" division_template = \"Mounted Rifles\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
+					division = "name = \"3-й кавалерийский полк «Мосби»\" division_template = \"Конные стрелки\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
 				create_unit = {
-					division = "name = \"4th 'Ashby' Mounted Rifles\" division_template = \"Mounted Rifles\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
+					division = "name = \"4-й кавалерийский полк «Эшби»\" division_template = \"Конные стрелки\" start_experience_factor = 0.75 start_equipment_factor = 1.0"
 					prioritize_location = 12384
 					owner = COR
 				}
@@ -10584,10 +10584,10 @@ focus_tree = {
 			}
 			custom_effect_tooltip = improved_field_hospitals_effect
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				bonus = 0.5
@@ -10667,10 +10667,10 @@ focus_tree = {
 				add_idea = COR_wickliffe_plan5
 			}
 			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
+	name = land_doc_bonus
+	cost_reduction = 0.5
+	uses = 1
+	category = land_doctrine
 			}
 			add_tech_bonus = {
 				ahead_reduction = 1
@@ -12477,36 +12477,36 @@ focus_tree = {
 			has_government = national_populist
 			has_country_leader = {
 				ruling_only = yes
-				name = "Charles Lindbergh"
+				name = "Чарльз Линдберг"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "George Patton"
+				name = "Джордж Паттон"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "James F. Byrnes"
+				name = "Джеймс Фрэнсис Бирнс"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Harry F. Byrd"
+				name = "Гарри Бёрд"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Strom Thurmond"
+				name = "Стром Термонд"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Joseph Raymond McCarthy"
+				name = "Джозеф Рэймонд Маккарти"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "George C. Wallace"
+				name = "Джордж Уоллес"
 			}
 			has_country_leader = {
 				ruling_only = yes
-				name = "Lurleen B. Wallace"
-				}
+				name = "Лурлин Б. Уоллес"
+			}
 			}	
 		}
 
@@ -12691,7 +12691,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 50
+		add_political_power = 50
 			if = {
 				limit = {
 					is_faction_leader = yes
@@ -12699,7 +12699,7 @@ focus_tree = {
 				add_to_tech_sharing_group = us_research
 				set_global_flag = USA_research_sharing
 			}
-			custom_effect_tooltip = COR_factions_tooltip
+		custom_effect_tooltip = COR_factions_tooltip
 			log = "[GetDateText]: [Root.GetName]: Focus COR_lead_south_africa"
 		}
 	}
@@ -12737,7 +12737,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_claim_canada"
-			custom_effect_tooltip = "We shall ensure the stability of our new Southern possessions!"
+			custom_effect_tooltip = "Мы обеспечим стабильность наших новых южных владений!"
 			COR_american_empire_strenghtens = yes
 		}
 	}
@@ -12904,9 +12904,9 @@ focus_tree = {
 		}
 		has_war_with = COR
 		}
-		NOT = { has_country_leader = { ruling_only = yes name = "James K. Vardaman" } }
-		NOT = { has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } }
-		NOT = { has_country_leader = { ruling_only = yes name = "George W. Christians" } }
+		NOT = { has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" } }
+		NOT = { has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } }
+		NOT = { has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" } }
 	    }
 		relative_position_id = COR_back_in_business
 		x = -7
@@ -13495,11 +13495,11 @@ focus_tree = {
 			}
 			has_war_with = COR
 			}
-			NOT = { has_country_leader = { ruling_only = yes name = "Herbert W. Armstrong" } }
-			NOT = { has_country_leader = { ruling_only = yes name = "James F. Byrnes" } }
-			NOT = { has_country_leader = { ruling_only = yes name = "James K. Vardaman" } }
-			NOT = { has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } }
-			NOT = { has_country_leader = { ruling_only = yes name = "George W. Christians" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Герберт В. Армстронг" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Джеймс Фрэнсис Бирнс" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } }
+			NOT = { has_country_leader = { ruling_only = yes name = "Джордж У. Кристианс" } }
 		}
 		mutually_exclusive = {
 			focus = COR_american_empire
@@ -13752,9 +13752,9 @@ focus_tree = {
 					NOT = { 
 			has_country_leader = {
 		ruling_only = yes
-		name = "George Patton"
+		name = "Джордж Паттон"
 			}
-				}
+			}
 			has_country_flag = COR_patton_elections_held	
 			has_democratic_government = yes
 		}
@@ -13950,9 +13950,9 @@ focus_tree = {
 					level = 2
 				}
 			}
-			add_ideas = COR_barnwell_crushed
-			custom_effect_tooltip = USA_political_recovery_tooltip
-			COR_increase_political_recovery = yes
+				add_ideas = COR_barnwell_crushed
+				custom_effect_tooltip = USA_political_recovery_tooltip
+			    COR_increase_political_recovery = yes
 		}
 	}
 	focus = {# Republican Victory
@@ -14049,7 +14049,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_crush_barnwell"
-				add_political_power = 100
+			add_political_power = 100
 			add_stability = 0.1
 			add_ideas = COR_svlid_republic
 			custom_effect_tooltip = USA_political_recovery_tooltip
@@ -14663,7 +14663,7 @@ focus_tree = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Rush Limbaugh Sr."
+					name = "Раш Лимбо-ст."
 				}
 			}
 		}
@@ -15027,14 +15027,14 @@ focus_tree = {
 		cost = 1
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		bypass = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		ai_will_do = { factor = 20 }
@@ -15052,8 +15052,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15080,8 +15080,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15112,8 +15112,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15138,8 +15138,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15170,8 +15170,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15205,8 +15205,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15256,8 +15256,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15314,8 +15314,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15348,8 +15348,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15393,8 +15393,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15437,8 +15437,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15472,8 +15472,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15509,8 +15509,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15541,8 +15541,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15569,8 +15569,8 @@ focus_tree = {
 		cost = 5
 		available = {
 		OR = { 
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman" }
-		has_country_leader = { ruling_only = yes name = "James K. Vardaman Jr." } 
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман" }
+		has_country_leader = { ruling_only = yes name = "Джеймс Вардаман мл." } 
 			}
 		}
 		prerequisite = {
@@ -15594,7 +15594,7 @@ focus_tree = {
 		is_faction_leader = yes
 			}
 		}
-			create_faction_from_template = { 
+		create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_partnership_self_gov
 				icon = GFX_faction_partnership_for_self_governance
@@ -15621,7 +15621,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15641,7 +15641,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15665,7 +15665,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15720,7 +15720,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15754,7 +15754,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15781,7 +15781,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15816,7 +15816,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15889,7 +15889,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15920,7 +15920,7 @@ focus_tree = {
 		available = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "George Van Horn Moseley"
+			name = "Джордж Ван Хорн Мозли"
 			}
 			has_government = paternal_autocrat
 		}
@@ -15936,7 +15936,7 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus COR_Military_With_A_State"
-			country_event = constate.7676
+						country_event = constate.7676
 			add_political_power = 100
 			add_ideas = COR_washingtonian_army
 			army_experience = 50
@@ -15958,19 +15958,19 @@ focus_tree = {
 				OR = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -15978,19 +15978,19 @@ focus_tree = {
 				OR = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16010,19 +16010,19 @@ focus_tree = {
 				OR = {
 		has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16053,19 +16053,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16102,19 +16102,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16140,19 +16140,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16180,19 +16180,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16216,19 +16216,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16262,19 +16262,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16306,19 +16306,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16368,19 +16368,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16412,7 +16412,7 @@ focus_tree = {
 				NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "David Bibb Graves"
+					name = "Дэвид Бибб Грейвс"
 				}
 			    }
 			}
@@ -16422,7 +16422,7 @@ focus_tree = {
 			trigger = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "David Bibb Graves"
+					name = "Дэвид Бибб Грейвс"
 				}
 			}
 			value = GFX_goal_COR_Humanize_Klan
@@ -16433,19 +16433,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16489,19 +16489,19 @@ focus_tree = {
 				OR = {
 			has_country_leader = {
 			ruling_only = yes
-			name = "Rush Limbaugh Sr."
+			name = "Раш Лимбо-ст."
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "David Bibb Graves"
+			name = "Дэвид Бибб Грейвс"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "William Alexander Percy"
+			name = "Вильям Александер Перси"
 			}
 		has_country_leader = {
 			ruling_only = yes
-			name = "Al Gore"
+			name = "Эл Гор"
 			}
 					}
 		}
@@ -16573,13 +16573,13 @@ focus_tree = {
 			}
 		}
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
 		}
 	    }
 		prerequisite = { focus = COR_crumps_machine focus = COR_new_forty_eighters }
@@ -16603,13 +16603,13 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
 		}
 		}
 		prerequisite = { focus = COR_america_preserved }
@@ -16631,13 +16631,14 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
+
 		}
 		}
 		prerequisite = { focus = COR_reconstruction_finance_corporation }
@@ -16662,13 +16663,13 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
 		}
 		}
 		prerequisite = { focus = COR_america_preserved }
@@ -16712,13 +16713,13 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
 		}
 		}
 		prerequisite = { focus = COR_second_dick_act }
@@ -16811,13 +16812,13 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Rush Limbaugh Sr." }
-		has_country_leader = { ruling_only = yes name = "David Bibb Graves" }
-		has_country_leader = { ruling_only = yes name = "William Alexander Percy" }
-		has_country_leader = { ruling_only = yes name = "Al Gore" }	
-		has_country_leader = { ruling_only = yes name = "E.H. Crump" }
-		has_country_leader = { ruling_only = yes name = "Georgia Tann" }
-		has_country_leader = { ruling_only = yes name = "N.J. Ford" }	
+		has_country_leader = { ruling_only = yes name = "Раш Лимбо-ст." }
+		has_country_leader = { ruling_only = yes name = "Дэвид Бибб Грейвс" }
+		has_country_leader = { ruling_only = yes name = "Вильям Александер Перси" }
+		has_country_leader = { ruling_only = yes name = "Эл Гор" }	
+		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп" }
+		has_country_leader = { ruling_only = yes name = "Джорджия Танн" }
+		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд" }	
 		}
 		}
 		prerequisite = { focus = COR_decentralized_armaments_industry }

@@ -458,7 +458,7 @@ focus_tree = {
 			add_manpower = 14000
 			add_stability = 0.02
 			create_corps_commander = {
-				name = "Victor Barker"
+				name = "Виктор Баркер"
 				portrait_path = "gfx/leaders/ENG/Portrait_England_Victor_Barker.png"
 				traits = {
 					politically_connected
@@ -1409,7 +1409,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_officer_corps_experience"
 			army_experience = 30
 			create_corps_commander = {
-				name = "Thomas Jacomb Hutton"
+				name = "Томас Хаттон"
 				portrait_path = "gfx/leaders/ENG/Portrait_England_Thomas_Jacomb_Hutton.png"
 				traits = {
 		            organizer
@@ -1420,11 +1420,11 @@ focus_tree = {
 	            skill = 3
 	            attack_skill = 3
 	            defense_skill = 1
-	            planning_skill = 3
+				planning_skill = 3
 	            logistics_skill = 3
 			}
 			create_navy_leader = {
-				name = "Algernon Willis"
+				name = "Алджернон Уиллис"
 				portrait_path = "gfx/leaders/ENG/Portrait_England_Algernon_Willis.png"
 				traits = { spotter }
 				skill = 3
@@ -1484,7 +1484,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_women_soldiers"
 			add_ideas = ENG_women_soldiers_idea
 			create_corps_commander = {
-				name = "Felicia Browne"
+				name = "Фелиция Браун"
 				portrait_path = "gfx/leaders/ENG/Portrait_England_Felicia_Browne.png"
 				traits = { infantry_officer }
 				skill = 3
@@ -2117,17 +2117,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_submarines"
 			navy_experience = 20
-			add_tech_bonus = {
-				name = ENG_submarines
-				bonus = 0.75
-				uses = 2
-				category = cat_torpedoes
-			}
-			add_tech_bonus = {
-				name = ENG_submarines
-				bonus = 1
-				uses = 1
-				category = ss_tech
+				add_tech_bonus = {
+					name = ENG_submarines
+					bonus = 0.75
+					uses = 2
+					category = cat_torpedoes
+				}
+				add_tech_bonus = {
+					name = ENG_submarines
+					bonus = 1
+					uses = 1
+					category = ss_tech
 			}
 			CAN = { add_to_variable = { ENG_naval_focuses_done = 1 } }
 		}
@@ -2164,11 +2164,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_destroyers"
 			navy_experience = 20
-			add_tech_bonus = {
-				name = ENG_destroyers
-				bonus = 1
-				uses = 2
-				category = dd_tech
+				add_tech_bonus = {
+					name = ENG_destroyers
+					bonus = 1
+					uses = 2
+					category = dd_tech
 			}
 			CAN = { add_to_variable = { ENG_naval_focuses_done = 1 } }
 		}
@@ -2390,17 +2390,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_battlecruisers"
 			navy_experience = 20
-			add_tech_bonus = {
-				name = ENG_battlecruisers
-				bonus = 0.75
-				uses = 2
-				category = naval_equipment
-			}
-			add_tech_bonus = {
-				name = ENG_battlecruisers
-				bonus = 1
-				uses = 1
-				category = bc_tech
+				add_tech_bonus = {
+					name = ENG_battlecruisers
+					bonus = 0.75
+					uses = 2
+					category = naval_equipment
+				}
+				add_tech_bonus = {
+					name = ENG_battlecruisers
+					bonus = 1
+					uses = 1
+					category = bc_tech
 			}
 			CAN = { add_to_variable = { ENG_naval_focuses_done = 1 } }
 		}
@@ -2437,11 +2437,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_battleships"
 			navy_experience = 20
-			add_tech_bonus = {
-				name = ENG_battleships
-				bonus = 0.75
-				uses = 2
-				category = ship_modules_tech
+				add_tech_bonus = {
+					name = ENG_battleships
+					bonus = 0.75
+					uses = 2
+					category = ship_modules_tech
 			}
 			CAN = { add_to_variable = { ENG_naval_focuses_done = 1 } }
 		}
@@ -4489,7 +4489,7 @@ focus_tree = {
 							exists = yes
 							owns_state = 1235
 						}
-						has_country_leader = { name = "Francis Joseph I" ruling_only = yes }
+						has_country_leader = { name = "Франциск Джозеф I" ruling_only = yes }
 					}
 					unlock_decision_tooltip = BRG_request_liechtenstein
 				}
@@ -4504,7 +4504,7 @@ focus_tree = {
 						owns_state = 1235
 						}
 					}
-					has_country_leader = { name = "Francis Joseph I" ruling_only = yes }
+					has_country_leader = { name = "Франциск Джозеф I" ruling_only = yes }
 				}
 				unlock_decision_tooltip = BRG_invade_lic
 			}
@@ -4531,16 +4531,16 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BRG_to_new_world"
 			unlock_decision_tooltip = BRG_new_world_foothold
 			if = {
-				limit = { has_country_leader = { name = "Mataoka II" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Матаока II" ruling_only = yes } }
 				unlock_decision_tooltip = BRG_reclaim_tsenacommacah
 			}
 			if = {
 				limit = {
 					TEX = {
-						has_country_leader = { name = "James IV" ruling_only = yes }
+						has_country_leader = { name = "Джеймс IV" ruling_only = yes }
 					}
 					OR = {
-						has_country_leader = { name = "Robert I" ruling_only = yes }
+						has_country_leader = { name = "Роберт I" ruling_only = yes }
 						has_country_flag = BRG_jacobite_stuff
 					}
 				}
@@ -4557,7 +4557,7 @@ focus_tree = {
 						is_in_faction_with = AUS
 						has_country_flag = ALA_purchase_liechtenstein
 					}
-					has_country_leader = { name = "Francis Joseph I" ruling_only = yes }
+					has_country_leader = { name = "Франциск Джозеф I" ruling_only = yes }
 				}
 				unlock_decision_tooltip = BRG_request_alaska
 			}
@@ -5229,7 +5229,7 @@ focus_tree = {
 					ruling_party = totalist
 				}
 				create_country_leader = {
-					name = "T.E. Lawrence"
+					name = "Томас Лоуренс"
 					desc = "POLITICS_TE_LAWRENCE_DESC"
 					picture = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence_dictator.png"
 					expire = "1.1.1"
@@ -5237,7 +5237,7 @@ focus_tree = {
 					traits = { dictator }
 				}
 				if = {	
-					limit = { has_country_leader = { name = "T.E. Lawrence" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Томас Лоуренс" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/ENG/Portrait_England_T_E_Lawrence_dictator.png"
 					}
@@ -5399,7 +5399,7 @@ focus_tree = {
 				limit = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "T.E. Lawrence"
+						name = "Томас Лоуренс"
 					}
 				}
 				add_country_leader_trait = grand_protector
@@ -5781,7 +5781,7 @@ focus_tree = {
 			completion_reward = {
 				log = "[GetDateText]: [Root.GetName]: Focus ENG_moderate_british_socialism"
 				create_country_leader = {
-					name = "Clem Attlee"
+					name = "Клемент Эттли"
 					desc = "POLITICS_CLEM_ATTLEE_DESC"
 					picture = "gfx/leaders/ENG/Portrait_England_Clem_Attlee.png"
 					expire = "1.1.1"

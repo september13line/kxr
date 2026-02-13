@@ -1,7 +1,7 @@
 ﻿##### Division Templates #####
-###Rifle Division
+###Стрелковая дивизия
 division_template = {
-	name = "Kazatskaya Peshaya Diviziya"
+	name = "Казачья пехотная дивизия"
 	division_names_group = DKB_INF_01
 	regiments = {
 		irregular_infantry = { x = 0 y = 0 }
@@ -13,7 +13,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Kazatskaya Diviziya"	# Cossack Division
+	name = "Казачья дивизия"	# Казачьи дивизии
 	division_names_group = DKB_CAV_01
 	regiments = {
 		irregular_cavalry = { x = 0 y = 0 }
@@ -24,7 +24,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Kavaleriyskaya Diviziya"	# Kavaleriyskaya Diviziya
+	name = "Кавалерийская дивизия"	# Кавалерийская дивизия
 	division_names_group = RUS_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -35,7 +35,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Diviziya ROA"	# Kavaleriyskaya Diviziya
+	name = "Дивизия РОА"	# Кавалерийская дивизия
 	division_names_group = DKB_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -50,77 +50,77 @@ division_template = {
 units = {
 
 	division = {
-		name = "atamana Kaledina Kazatskaya Diviziya"
+		name = "Казачья дивизия Атамана Каледина"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 6493
-		division_template = "Kazatskaya Diviziya"
+		division_template = "Казачья дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 	}
 
 	division = {
-		name = "atamana Nazarova Kazatskaya Diviziya"
+		name = "Казачья дивизия Атамана Назарова"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
 		location = 3417
-		division_template = "Kazatskaya Diviziya"
+		division_template = "Казачья дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 
 	division = {
-		name = "3. Svodno-Kazatskaya Diviziya"
+		name = "3. Сводный казачий дивизион"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
 		location = 6490
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
 
 	division = {
-		name = "Gundorovskaya Georgievskaya Kazatskaya Diviziya"
+		name = "Гундоровская Георгиевская казачья дивизия"
 		location = 6490
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Кавалерийская дивизия"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 	}
 
 	division = {
-		name = "Voronezhskiy Korpus Osoboy Yuzhnoy Armii"
+		name = "Воронежский корпус Особой Южной Армии"
 		location = 9417
-		division_template = "Kazatskaya Peshaya Diviziya"
+		division_template = "Казачья пехотная дивизия"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
 	
 	division = {
-		name = "1ya Donskaya Pekhotnaya Diviziya"
+		name = "1-я Донская пехотная дивизия"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 11559
-		division_template = "Kazatskaya Peshaya Diviziya"
+		division_template = "Казачья пехотная дивизия"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
 	division = {
-		name = "1ya Diviziya ROA"
+		name = "1-я Дивизия РОА"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 11559
-		division_template = "Diviziya ROA"
+		division_template = "Дивизия РОА"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}	

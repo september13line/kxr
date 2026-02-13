@@ -183,13 +183,13 @@ SIA_set_up_RadSoc_government = {
 		SIA_Thawan_Thamrongnawasawat_sec_rso
 	}
 	create_country_leader = { # Pridi Panomyong
-		name = "Supha Sirimanon"
+		name = "Супха Сириманон"
 		picture = "gfx/leaders/SIA/Portrait_SIA_supha_sirimanon.png"
 		expire = "1983.5.2"
 		ideology = centralized_syndicalism_subtype
 	}
 	create_country_leader = { # Pridi Panomyong
-		name = "Pridi Phanomyong"
+		name = "Приди Паномионг"
 		desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 		expire = "1983.5.2"
@@ -216,21 +216,21 @@ SIA_set_up_Boworadet_government = {
 		SIA_Chao_Phraya_Mahitorn_sec_npo
 	}
 	create_country_leader = { # Start Leader
-		name = "Rama VII"
+		name = "Прачадипок"
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 		expire = "1941.5.30"
 		ideology = moderate_authoritarianism_subtype
 	}
 	create_country_leader = { # Start Leader
-		name = "Rama VII"
+		name = "Прачадипок"
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 		expire = "1941.5.30"
 		ideology = absolute_monarchy_subtype
 	}
 	create_country_leader = { # Start Leader
-		name = "Rama VII"
+		name = "Прачадипок"
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 		expire = "1941.5.30"
@@ -259,7 +259,7 @@ SIA_set_up_Royalists_government = { # As in the "Government" side
 		}
 	}
 	create_country_leader = { # Just in case
-		name = "Rama VII"
+		name = "Прачадипок"
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 		expire = "1941.5.30"
@@ -280,7 +280,7 @@ SIA_set_up_Parliamentarians_government = { # As in the "Government" side
 		}
 	}
 	create_country_leader = { # Just in case
-		name = "Rama VII"
+		name = "Прачадипок"
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 		expire = "1941.5.30"
@@ -346,7 +346,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			VIN = { is_subject_of = ROOT }
 			owns_state = 286 # Saigon
-			286 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 286 }
 		VIN = { transfer_state = 286 }
@@ -355,7 +354,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			CAM = { is_subject_of = ROOT }
 			owns_state = 286 # Saigon
-			286 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 286 }
 		CAM = { transfer_state = 286 }
@@ -364,7 +362,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = { is_subject_of = ROOT }
 			owns_state = 286 # Saigon
-			286 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 286 }
 		INC = { transfer_state = 286 }
@@ -388,7 +385,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			VIN = { is_subject_of = ROOT }
 			owns_state = 856 # Mekong Delta
-			856 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 856 }
 		VIN = { transfer_state = 856 }
@@ -397,7 +393,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			CAM = { is_subject_of = ROOT }
 			owns_state = 856 # Mekong Delta
-			856 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 856 }
 		CAM = { transfer_state = 856 }
@@ -406,7 +401,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = { is_subject_of = ROOT }
 			owns_state = 856 # Mekong Delta
-			856 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 856 }
 		INC = { transfer_state = 856 }
@@ -428,7 +422,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			CAM = { is_subject_of = ROOT }
 			owns_state = 825 # Phra Tabong
-			825 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 825 }
 		CAM = { transfer_state = 825 }
@@ -437,7 +430,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = { is_subject_of = ROOT }
 			owns_state = 825 # Phra Tabong
-			825 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 825 }
 		INC = { transfer_state = 825 }
@@ -459,7 +451,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			CAM = { is_subject_of = ROOT }
 			owns_state = 750 # Phnom Penh
-			750 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 750 }
 		CAM = { transfer_state = 750 }
@@ -468,7 +459,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = { is_subject_of = ROOT }
 			owns_state = 750 # Phnom Penh
-			750 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 750 }
 		INC = { transfer_state = 750 }
@@ -494,7 +484,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			CAM = { is_subject_of = ROOT }
 			owns_state = 826 # Stung Treng
-			826 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 826 }
 		CAM = { transfer_state = 826 }
@@ -503,7 +492,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			VIN = { is_subject_of = ROOT }
 			owns_state = 826 # Stung Treng
-			826 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 826 }
 		VIN = { transfer_state = 826 }
@@ -512,7 +500,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = {	is_subject_of = ROOT }
 			owns_state = 826 # Stung Treng
-			826 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 826 }
 		INC = { transfer_state = 826 }
@@ -536,7 +523,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			LAO = { is_subject_of = ROOT }
 			owns_state = 670 # Laos
-			670 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 670 }
 		LAO = { transfer_state = 670 }
@@ -544,8 +530,7 @@ SIA_divide_up_the_non-core_areas = {
 	if = {
 		limit = {
 			INC = { is_subject_of = ROOT }
-			owns_state = 670 # Laos
-			670 = { is_claim_or_core_of_ROOT = no } 
+			owns_state = 826 # Stung Treng
 		}
 		SIA = { remove_state_core = 670 }
 		INC = { transfer_state = 670 }
@@ -565,7 +550,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			LAO = { is_subject_of = ROOT }
 			owns_state = 882 # Chaiyaburi
-			882 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 882 }
 		LAO = { transfer_state = 882 }
@@ -574,7 +558,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			INC = { is_subject_of = ROOT }
 			owns_state = 882 # Chaiyaburi
-			882 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 882 }
 		INC = { transfer_state = 882 }
@@ -605,7 +588,6 @@ SIA_divide_up_the_non-core_areas = {
 				is_subject_of = ROOT
 			}
 			owns_state = 751 # Sirat Malai
-			751 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 751 }
 		MLY = {
@@ -630,7 +612,6 @@ SIA_divide_up_the_non-core_areas = {
 				is_subject_of = ROOT
 			}
 			owns_state = 999 # Syburi
-			999 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 999 }
 		MLY = {
@@ -653,7 +634,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			MLY = { is_subject_of = ROOT }
 			owns_state = 846 # Malaya
-			846 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 846 }
 		MLY = {
@@ -673,7 +653,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			MLY = {	is_subject_of = ROOT }
 			owns_state = 830 # Pattani
-			830 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 830	}
 		MLY = {
@@ -699,7 +678,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			SHA = { is_subject_of = ROOT }
 			owns_state = 72 # Upper Shan
-			72 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 72 }
 		SHA = { transfer_state = 72 }
@@ -708,7 +686,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			BRM = { is_subject_of = ROOT }
 			owns_state = 72 # Upper Shan
-			72 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 72 }
 		BRM = { transfer_state = 72 }
@@ -729,7 +706,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			SHA = { is_subject_of = ROOT }
 			owns_state = 756 # Lower Shan
-			756 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 756 }
 		SHA = { transfer_state = 756 }
@@ -738,7 +714,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			BRM = { is_subject_of = ROOT }
 			owns_state = 756 # Lower Shan
-			756 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 756 }
 		BRM = { transfer_state = 756 }
@@ -756,7 +731,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			BRM = { is_subject_of = ROOT }
 			owns_state = 831 # Morlamaeng
-			831 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 831 }
 		BRM = { transfer_state = 831 }
@@ -773,7 +747,6 @@ SIA_divide_up_the_non-core_areas = {
 		limit = {
 			BRM = { is_subject_of = ROOT }
 			owns_state = 749 # Tanaosri
-			749 = { is_claim_or_core_of_ROOT = no } 
 		}
 		SIA = { remove_state_core = 749 }
 		BRM = { transfer_state = 749 }
@@ -1221,7 +1194,7 @@ SIA_setup_for_SIACW = {
 			limit = { has_global_flag = Plaek_Parliamentarian }
 			SIA_add_parliamentarian_generals = yes
 			create_country_leader = { # Pridi Panomyong - Temporary
-				name = "Luang Praditmanutham"
+				name = "Приди Паномионг"
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 				expire = "1983.5.2"
@@ -1239,7 +1212,7 @@ SIA_setup_for_SIACW = {
 			limit = { has_global_flag = Plaek_Royalist }
 			SIA_add_royalist_generals  = yes
 			create_country_leader = { # Pridi Panomyong - Temporary
-				name = "Luang Praditmanutham"
+				name = "Приди Паномионг"
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 				expire = "1983.5.2"
@@ -1291,7 +1264,7 @@ SIA_setup_for_SIACW = {
 					popularity = 0.20
 				}
 				create_country_leader = { # Pridi Panomyong - Temporary
-					name = "Luang Praditmanutham"
+					name = "Приди Паномионг"
 					desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 					expire = "1983.5.2"
@@ -1347,7 +1320,7 @@ SIA_setup_for_SIACW = {
 				popularity = 0.20
 			}
 			create_country_leader = { # Pridi Panomyong - Temporary
-				name = "Luang Praditmanutham"
+				name = "Луанг Прадитманутхам"
 				desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 				picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 				expire = "1983.5.2"
@@ -1380,7 +1353,7 @@ SIA_setup_for_SIACW = {
 				SIA_add_parliamentarian_generals = yes
 				SIA_transfer_par_state = yes
 				create_country_leader = { # Pridi Panomyong - Temporary
-					name = "Luang Praditmanutham"
+					name = "Луанг Прадитманутхам"
 					desc = "POLITICS_PRIDI_PANOMYONG_DESC"
 					picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 					expire = "1983.5.2"
@@ -1500,8 +1473,8 @@ SIA_setup_for_SIACW = {
 #############################
 
 SIA_create_republican_leaders = {
-	create_country_leader = { # Republican Totalism - Song Noppakul
-		name = "Song Noppakul"
+	create_country_leader = { # Republican Totalism - Сон Ноппакул
+		name = "Сон Ноппакул"
 		desc = "POLITICS_SONG_NOPPAKUL_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Song_Noppakul.png"
 		expire = "2012.11.27"
@@ -1510,42 +1483,42 @@ SIA_create_republican_leaders = {
 			permanent_revolutionary
 		}
 	}
-	create_country_leader = { 
-		name = "Supha Sirimanon"
+	create_country_leader = { # Pridi Panomyong
+		name = "Супха Сириманон"
 		picture = "gfx/leaders/SIA/Portrait_SIA_supha_sirimanon.png"
 		expire = "1983.5.2"
 		ideology = centralized_syndicalism_subtype
 	}
 	create_country_leader = { # Pridi Panomyong
-		name = "Pridi Phanomyong"
+		name = "Приди Паномионг"
 		desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 		expire = "1983.5.2"
 		ideology = moderate_socialist_subtype
 	}
 	create_country_leader = { # Pridi Panomyong
-		name = "Pridi Phanomyong"
+		name = "Приди Паномионг"
 		desc = "POLITICS_PRIDI_PANOMYONG_REBEL_WIN_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Pridi_Panomyong.png"
 		expire = "1983.5.2"
 		ideology = socdem_democratic_socialism_subtype
 	}
 	create_country_leader = { # Social Liberal
-		name = "Thawan Thamrongnawasawat"
+		name = "Тавал Тамронгнавасават"
 		desc = "POLITICS_THAWAN_THAMRONGNAWASAWAT_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Thawan_Thamrongnawasawat.png"
 		expire = "1988.12.3"
 		ideology = soclib_progressive_democracy_subtype
 	}
 	create_country_leader = { # Market Liberal
-		name = "Pote Sarasin"
+		name = "Пот Сарасин"
 		desc = "POLITICS_POTE_SARASIN_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Pote_Sarasin.png"
 		expire = "2000.9.28"
 		ideology = free_market_capitalist_subtype
 	}
 	create_country_leader = { # Social Conservative
-		name = "Kuekrit Pramoj"
+		name = "Кыкрит Прамот"
 		desc = "POLITICS_KUEKRIT_PRAMOJ_DESC"
 		picture = "gfx/leaders/SIA/Portrait_Siam_Kuekrit_Pramoj.png"
 		expire = "1995.10.9"
@@ -1557,8 +1530,8 @@ SIA_create_republican_leaders = {
 				has_country_flag = Plaek_Khittasangkha_dead
 			}
 		}
-		create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-			name = "Plaek Phibunsongkhram"
+		create_country_leader = { # Republican National Populism - Плек Пибунсонгкрам
+			name = "Плек Пибунсонгкрам"
 			desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 			expire = "1964.6.11"
@@ -1567,8 +1540,8 @@ SIA_create_republican_leaders = {
 				dictator
 			}
 		}
-		create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-			name = "Plaek Phibunsongkhram"
+		create_country_leader = { # Republican National Populism - Плек Пибунсонгкрам
+			name = "Плек Пибунсонгкрам"
 			desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 			expire = "1964.6.11"
@@ -1577,8 +1550,8 @@ SIA_create_republican_leaders = {
 				dictator
 			}
 		}
-		create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-			name = "Plaek Phibunsongkhram"
+		create_country_leader = { # Republican National Populism - Плек Пибунсонгкрам
+			name = "Плек Пибунсонгкрам"
 			desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Plaek_Phibunsongkhram.png"
 			expire = "1964.6.11"
@@ -1590,7 +1563,7 @@ SIA_create_republican_leaders = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -1600,7 +1573,7 @@ SIA_create_republican_leaders = {
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -1610,7 +1583,7 @@ SIA_create_republican_leaders = {
 			}
 		}
 		create_country_leader = {
-			name = "Phao Sriyanond"
+			name = "Пхао Шриянонд"
 			desc = "POLITICS_PHAO_SRIYANOND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Phao_Sriyanond.png"
 			expire = "1960.11.21"
@@ -1634,42 +1607,42 @@ SIA_create_mahidol_leaders = {
 			date < 1941.5.30
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = { # Start Leader
-			name = "Rama VII"
+			name = "Рама VII"
 			desc = "POLITICS_RAMA_VII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VII.png"
 			expire = "1941.5.30"
@@ -1682,42 +1655,42 @@ SIA_create_mahidol_leaders = {
 			date < 1946.6.9
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Rama VIII"
+			name = "Рама VIII"
 			desc = "POLITICS_RAMA_VIII_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_VIII_Civilian.png"
 			expire = "1946.6.9"
@@ -1729,42 +1702,42 @@ SIA_create_mahidol_leaders = {
 			date > 1946.6.8
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX"
+			name = "Рама IX"
 			desc = "POLITICS_RAMA_VIX_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Rama_IX.png"
 			expire = "2016.10.13"
@@ -1781,42 +1754,42 @@ SIA_create_mahidol_leaders = {
 
 SIA_create_chakrabongse_leaders = {
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
 		ideology = socdem_democratic_socialism_subtype
 	}
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
 		ideology = soclib_progressive_democracy_subtype
 	}
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
 		ideology = free_market_capitalist_subtype
 	}
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
 		ideology = moderate_authoritarianism_subtype
 	}
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
 		ideology = authoritarian_democrat_subtype
 	}
 	create_country_leader = { # Chakrabongse Line of Succession
-		name = "Rama VIII  "
+		name = "Рама VIII  "
 		desc = "POLITICS_CHULA_CHAKRABONGSE_DESC"
 		picture = "gfx/leaders/SIA/Portrait_SIA_Chula_Chakrabongse.png"
 		expire = "1963.12.30"
@@ -1831,95 +1804,95 @@ SIA_create_chakrabongse_leaders = {
 #############################
 
 SIA_create_paribatra_leaders = {
-	if = { # Rama VIII
+	if = { # Парибатра Сукхумбханд
 		limit = {
 			date < 1944.1.18
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = { # Throne Pretender
-			name = "Rama VIII "
+			name = "Рама VIII "
 			desc = "POLITICS_SUKHUMBHAND_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Paribatra_Sukhumbhand.png"
 			expire = "1944.1.18"
 			ideology = absolute_monarchy_subtype
 		}
 	}
-	else_if = { # Rama IX
+	else_if = { # Чумбхотбонгс Парибатра
 		limit = {
 			date > 1944.1.17
 			date < 1959.9.15
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
 			ideology = authoritarian_democrat_subtype
 		}
 		create_country_leader = {
-			name = "Rama IX "
+			name = "Рама IX "
 			desc = "POLITICS_CHUMBHOTBONGS_PARIBATRA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Chumbhotbongs_Paribatra.png"
 			expire = "1959.9.15"
@@ -1931,42 +1904,42 @@ SIA_create_paribatra_leaders = {
 			date > 1959.9.14
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"
 			ideology = socdem_democratic_socialism_subtype
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"
 			ideology = soclib_progressive_democracy_subtype
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"
 			ideology = free_market_capitalist_subtype
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"
 			ideology = moderate_authoritarianism_subtype
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"
 			ideology = absolute_monarchy_subtype
 		}
 		create_country_leader = {
-			name = "Rama X"
+			name = "Рама X"
 			desc = "POLITICS_SUKHUMABHININDA_DESC"
 			picture = "gfx/leaders/SIA/Portrait_Siam_Sukhumapinan_Paribatra.png"
 			expire = "2003.4.10"

@@ -1275,7 +1275,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JBS_distribute_oil_rights"
 			country_event = jbs.27
-			custom_effect_tooltip = "We will receive the following effects after we pick a company:"
+			custom_effect_tooltip = "Выбрав компанию, мы получим следующие эффекты:"
 			effect_tooltip = {
 				add_offsite_building = {
 					type = industrial_complex
@@ -1420,10 +1420,10 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Abdallah ibn Talal al Rashid"
+					name = "Абдаллах ибн Али аль-Рашид"
 				}
 				has_country_leader = {
-					name = "Saud al-Subhan"
+					name = "Сауд аль-Субхан"
 				}
 			}
 		}
@@ -1525,8 +1525,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JBS_integrate_trucial_coast"
 			add_state_core = 658
-			create_corps_commander = {# Shakbut bin Sultan al Nahyan
-				name = "Shakbut bin Sultan al Nahyan"
+			create_corps_commander = {# Шахбут ибн Султан Аль Нахайян
+				name = "Шахбут ибн Султан Аль Нахайян"
 				portrait_path = "gfx/leaders/TRU/Portrait_TRU_Shakbut_Nahyan.png"
 				traits = {
 					politically_connected
@@ -1670,7 +1670,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus JBS_Fundamental_Provisions"
 			custom_effect_tooltip = jbs_fundamental_provisions_tt
 			if = {
-				limit = { has_country_leader = { name = "Saud al-Subhan" } }
+				limit = { has_country_leader = { name = "Сауд аль-Субхан" } }
 				set_cosmetic_tag = JBS_subhan_ARA
 			}
 			else = {

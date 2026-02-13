@@ -1,3 +1,5 @@
+#!gfx:interface\stalinfocuses.gfx
+
 focus_tree = {
 	id = Georgia_Focus
 
@@ -10,17 +12,17 @@ focus_tree = {
 	}
 
 	default = no
-	continuous_focus_position = { x = 1100 y = 700 }
+	continuous_focus_position = { x = 1300 y = 865 }
 
 	### Black Monday ###
 	focus = {
 		id = GEO_black_monday
-		icon = GFX_HUN_blackest_monday
+		icon = GFX_focus_generic_price_controls
 		available = {
 			always = no
 		}
 		cost = 0
-		x = 3
+		x = 1
 		y = 0
 
 		ai_will_do = {
@@ -34,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_pipeline_issue
-		icon = GFX_goal_NFA_review_economy
+		icon = GFX_focus_RAJ_red_in_the_shadows
 		available = {
 			has_idea = GEO_black_monday_hits
 		}
@@ -51,13 +53,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_pipeline_issue"
-			custom_effect_tooltip = "The Fate of the German-Georgian Relationship lies in the Balance"
+			custom_effect_tooltip = "Судьба германо-грузинских отношений находится на волоске"
 			country_event = geo.2
 		}
 	}
 	focus = {
 		id = GEO_pipeline_seized
-		icon = GFX_goal_skull_treaty
+		icon = GFX_focus_BRA_repeale_national_security_law
 		available = {
 			has_country_flag = GEO_end_treaty
 		}
@@ -89,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_kept_pipeline
-		icon = GFX_germanprimacy
+		icon = GFX_focus_RAJ_go_into_hiding
 		available = {
 			has_country_flag = GEO_keep_treaty
 		}
@@ -120,8 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_nationalisation
-		icon = GFX_RUS_Partial_Nationalization
-
+		icon = GFX_focus_AUS_raid_military_storages
 		prerequisite = {
 			focus = GEO_pipeline_seized
 		}
@@ -142,19 +143,19 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
+				add_political_power = 50
 			}
 		}
 	}
 	focus = {
 		id = GEO_farmers_fund
-		icon = GFX_USA_sweep_farm_tariffs
-
+		icon = GFX_focus_ICE_embrace_the_workers_revolution
 		prerequisite = {
 			focus = GEO_nationalisation
 		}
@@ -166,16 +167,26 @@ focus_tree = {
 		ai_will_do = {
 			factor = 20
 		}
-
+		bypass = {
+			has_country_leader = {
+				ruling_only = yes
+				name = "Иосиф 'Коба' Джугашвили"
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_farmers_fund"
 			add_ideas = GEO_farmers_relief
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
 		}
 	}
 	focus = {
 		id = GEO_seize_companies
-		icon = GFX_focus_rus_industry
-
+		icon = GFX_focus_generic_agricultural_subsidies
 		prerequisite = {
 			focus = GEO_pipeline_seized
 		}
@@ -194,12 +205,12 @@ focus_tree = {
 				remove_idea = GEO_black_monday_hits
 				add_idea = GEO_black_monday_2
 			}
+			add_political_power = 75
 		}
 	}
 	focus = {
 		id = GEO_expand_batumi_harbour
 		icon = GFX_USA_ports_atlantic
-
 		prerequisite = {
 			focus = GEO_seize_companies
 		}
@@ -216,15 +227,15 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_expand_batumi_harbour"
 			231 = {
 				add_building_construction = {
-					type = coastal_bunker
+					type = naval_base
 					level = 3
 					province = 772
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
-					type = naval_base
-					level = 3
-					province = 772
+					type = dockyard
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -232,14 +243,14 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_dam
-		icon = GFX_goal_VNC_vajont_dam
+		icon = GFX_focus_BEL_dam_the_consequences
 		prerequisite = {
 			focus = GEO_expand_batumi_harbour
 		}
 		prerequisite = {
 			focus = GEO_farmers_fund
 		}
-		cost = 5
+		cost = 4
 		relative_position_id = GEO_farmers_fund
 		x = -1
 		y = 1
@@ -258,11 +269,24 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_state_bank
-		icon = GFX_goal_generic_banking_legislation
-
+		icon = GFX_focus_generic_improve_the_administration
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_pipeline_seized
 			focus = GEO_kept_pipeline
+		}
+		bypass = {
+			has_country_leader = {
+				ruling_only = yes
+				name = "Иосиф 'Коба' Джугашвили"
+			}
 		}
 		cost = 5
 		relative_position_id = GEO_pipeline_seized
@@ -281,8 +305,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_infrastructure_program
-		icon = GFX_BAY_RAILWAYS
-
+		icon = GFX_focus_PER_feat_of_engineering
 		prerequisite = {
 			focus = GEO_state_bank
 		}
@@ -309,12 +332,23 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			build_railway = {
+				path = { 1599 6671 3658 14766 772 11599 11617 11647 9663 3698 }
+				level = 1
+			}
 		}
 	}
 	focus = {
 		id = GEO_modernize_existing_industry
-		icon = GFX_goal_KIV_modern
-
+		icon = GFX_focus_generic_university_1
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_infrastructure_program
 		}
@@ -332,15 +366,22 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GEO_modernize_existing_industry
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = construction_tech
 			}
 		}
 	}
 	focus = {
 		id = GEO_bailouts
-		icon = GFX_goal_bag_of_money
-
+		icon = GFX_focus_generic_welfare
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_kept_pipeline
 		}
@@ -364,8 +405,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_manganese
-		icon = GFX_RUS_Money_For_Industrialization
-
+		icon = GFX_focus_generic_currency_reforms
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_bailouts
 		}
@@ -398,8 +446,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_tiflis_coal_power_plant
-		icon = GFX_RUS_Rural_Electro
-
+		icon = GFX_focus_ARG_develop_the_electricity_sector
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_manganese
 		}
@@ -425,8 +480,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_german_recovery_model
-		icon = GFX_MAF_african_war_industries
-
+		icon = GFX_focus_SWI_issue_war_bonds
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_kept_pipeline
 		}
@@ -458,8 +520,15 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_krupp
-		icon = GFX_goal_LEP_krupp_industial
-
+		icon = GFX_focus_SWE_landsverk
+		available = {
+			NOT = {
+				has_country_leader = {
+					ruling_only = yes
+					name = "Иосиф 'Коба' Джугашвили"
+				}
+			}
+		}
 		prerequisite = {
 			focus = GEO_german_recovery_model
 		}
@@ -498,7 +567,6 @@ focus_tree = {
 	focus = {
 		id = GEO_the_azeri_armenian_pipeline
 		icon = GFX_goal_generic_pipeline
-
 		prerequisite = {
 			focus = GEO_modernize_existing_industry
 		}
@@ -506,30 +574,28 @@ focus_tree = {
 			focus = GEO_tiflis_coal_power_plant
 			focus = GEO_dam
 		}
-		available = {
-			is_subject = no
-			AZE = { is_ally_of_ROOT = no }
+		bypass = {
+			has_war_with = AZE
 		}
-		bypass_if_unavailable = yes
-		
-		cost = 5
+		cost = 2
 		relative_position_id = GEO_modernize_existing_industry
 		x = 0
 		y = 1
 
 		ai_will_do = {
-			factor = 15
+			factor = 20
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_the_azeri_armenian_pipeline"
 			country_event = geo.3
+			add_opinion_modifier = { target = AZE modifier = small_increase }
+			AZE = { add_opinion_modifier = { target = GEO modifier = small_increase } }
 		}
 	}
 	focus = {
 		id = GEO_black_monday_solved
-		icon = GFX_GRU_german_industrial_miracle-4038
-
+		icon = GFX_focus_RAJ_the_sun_sets
 		prerequisite = {
 			focus = GEO_the_azeri_armenian_pipeline
 		}
@@ -545,7 +611,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_black_monday_solved"
 			remove_ideas = GEO_black_monday_2
-			add_political_power = 50
+			add_political_power = 150
+			add_stability = 0.20
 			if = {
 				limit = { has_idea = GEO_food_commission }
 				remove_ideas = GEO_food_commission
@@ -561,8 +628,8 @@ focus_tree = {
 		icon = GFX_goal_georgian_army
 		available_if_capitulated = yes
 		cost = 6
-		x = 7
-		y = 8
+		x = 6
+		y = 9
 
 		ai_will_do = {
 			factor = 5
@@ -588,8 +655,8 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_officer_training_scheme
-		icon = GFX_goal_LPD_white_officer_primacy
-		cost = 6
+		icon = GFX_focus_SWE_varnplikt
+		cost = 5
 		prerequisite = {
 			focus = GEO_army_focus
 		}
@@ -622,16 +689,16 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_officer_training_scheme"
 			add_doctrine_cost_reduction = {
 				name = GEO_officer_training_scheme
-				cost_reduction = 0.5
-				uses = 1
+				cost_reduction = 0.75
+				uses = 2
 				category = land_doctrine
 			}
 		}
 	}
 	focus = {
 		id = GEO_small_arms_development
-		icon = GFX_BBR_building_our_arms
-		cost = 6
+		icon = GFX_focus_SWI_issue_war_bonds
+		cost = 5
 		prerequisite = {
 			focus = GEO_officer_training_scheme
 		}
@@ -660,16 +727,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_small_arms_development"
 			add_tech_bonus = {
 				name = GEO_small_arms_development
-				bonus = 1
-				uses = 1
+				bonus = 0.75
+				uses = 2
 				category = infantry_weapons
 			}
+
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_artillery_investments
-		icon = GFX_goal_generic_mountain_artillery
-		cost = 6
+		icon = GFX_focus_RAJ_mountain_guns
+		cost = 4
 		prerequisite = {
 			focus = GEO_small_arms_development
 		}
@@ -698,16 +767,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_artillery_investments"
 			add_tech_bonus = {
 				name = GEO_artillery_investments
-				bonus = 1
-				uses = 1
+				bonus = 0.75
+				uses = 2
 				category = artillery
 			}
+
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_aa_investments
-		icon = GFX_focus_generic_air_defense2
-		cost = 6
+		icon = GFX_focus_PER_construct_air_defenses
+		cost = 4
 		prerequisite = {
 			focus = GEO_artillery_investments
 		}
@@ -736,16 +807,18 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_aa_investments"
 			add_tech_bonus = {
 				name = GEO_aa_investments
-				bonus = 1
-				uses = 1
+				bonus = 0.75
+				uses = 2
 				category = cat_anti_air
 			}
+
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_at_investments
-		icon = GFX_focus_generic_tank_destroyer
-		cost = 6
+		icon = GFX_focus_generic_tank_assembly
+		cost = 5
 		prerequisite = {
 			focus = GEO_artillery_investments
 		}
@@ -773,17 +846,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_at_investments"
 			add_tech_bonus = {
-				name = GEO_at_investments
-				bonus = 1
-				uses = 1
-				category = cat_anti_tank
-			}
+		    	bonus = 0.5
+		    	uses = 2
+		    	category = armor
+		    }
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_special_operations
-		icon = GFX_goal_generic_army_training
-		cost = 6
+		icon = GFX_focus_RAJ_war_taxes
+		cost = 5
 		prerequisite = { focus= GEO_officer_training_scheme }
 		x = 1
 		y = 2
@@ -811,16 +884,18 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GEO_special_operations
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = mountaineers_tech
 				category = signal_company_tech
 				category = recon_tech
 			}
+
+			army_experience = 20
 		}
 	}
 	focus = {
 		id = GEO_support_equipment_development
-		icon = GFX_goal_generic_support_equipment
+		icon = GFX_focus_generic_supply_line
 		cost = 6
 		prerequisite = { focus= GEO_special_operations }
 		x = 0
@@ -848,15 +923,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_support_equipment_development"
 			add_tech_bonus = {
 				name = GEO_support_equipment_development
-				bonus = 1
-				uses = 1
+				bonus = 0.75
+				uses = 3
 				category = support_tech
 			}
+
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_mountaineers
-		icon = GFX_goal_generic_mountain_warfare2
+		icon = GFX_focus_AUS_osterreichische_gebirgsjager
 		cost = 6
 		prerequisite = { focus= GEO_special_operations }
 		x = 2
@@ -886,13 +963,15 @@ focus_tree = {
 			hidden_effect = { set_technology = { tech_ski_infantry = 1 popup = no } }
 			custom_effect_tooltip = tech_ski_infantry_effect
 			hidden_effect = { load_oob = GEO_mountain_divisions }
+
+			army_experience = 15
 		}
 	}
 	focus = {
 		id = GEO_unified_training
-		icon = GFX_goal_KEN_officer_corps
-		cost = 10
-		prerequisite = { focus= GEO_support_equipment_development focus= GEO_mountaineers }
+		icon = GFX_focus_RAJ_forge_the_kshatriya_army
+		cost = 8
+		prerequisite = { focus = GEO_support_equipment_development focus = GEO_mountaineers }
 		x = 1
 		y = 4
 		ai_will_do = {
@@ -919,10 +998,12 @@ focus_tree = {
 			add_research_slot_until_five = yes
 			add_doctrine_cost_reduction = {
 				name = GEO_unified_training
-				cost_reduction = 0.5
-				uses = 1
+				cost_reduction = 0.75
+				uses = 2
 				category = land_doctrine
 			}
+
+			army_experience = 15
 		}
 	}
 
@@ -930,7 +1011,7 @@ focus_tree = {
 	focus = {
 		id = GEO_navy_focus
 		icon = GFX_goal_georgian_navy
-		cost = 6
+		cost = 5
 		prerequisite = { focus = GEO_army_focus }
 		x = 4
 		y = 1
@@ -964,8 +1045,8 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_poti_dockyard
-		icon = GFX_goal_generic_naval_base
-		cost = 6
+		icon = GFX_focus_SWE_coastal_support
+		cost = 5
 		prerequisite = { focus = GEO_navy_focus }
 		x = 4
 		y = 2
@@ -1037,14 +1118,13 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_convoy_raiding
-		icon = GFX_goal_ENG_Q_Ships
-
-		cost = 6
-		x = 0
-		y = 1
-		relative_position_id = GEO_poti_dockyard
+		icon = GFX_focus_ARG_study_the_battle_of_the_river_plate
+		cost = 4
+		x = 5
+		y = 4
+		relative_position_id = GEO_army_focus
 		prerequisite = {
-			focus = GEO_poti_dockyard
+			focus = GEO_submarine_tech
 		}
 		ai_will_do = {
 			factor = 2
@@ -1067,17 +1147,36 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_convoy_raiding"
 			add_ideas = GEO_idea_convoy_raiding
+			add_tech_bonus = {
+		    	bonus = 1
+		    	uses = 1
+		    	ahead_reduction = 2
+		    	category = dd_tech
+		    }
+			add_tech_bonus = {
+		    	bonus = 0.5
+		    	uses = 1
+		    	category = bb_tech
+		    }
+		    if = {
+		    	limit = { has_dlc_mtg = yes }
+		    	add_tech_bonus = {
+		    		bonus = 0.5
+		    		uses = 2
+		    		category = cat_gunnery
+		    	}
+		    }
 		}
 	}
 	focus = {
 		id = GEO_submarine_tactics
-		icon = GFX_goal_generic_navy_submarine
-		cost = 6
-		x = -1
-		y = 1
-		relative_position_id = GEO_convoy_raiding
+		icon = GFX_focus_generic_cruiser_submarines
+		cost = 4
+		x = 3
+		y = 4
+		relative_position_id = GEO_army_focus
 		prerequisite = {
-			focus = GEO_convoy_raiding
+			focus = GEO_submarine_tech
 		}
 		ai_will_do = {
 			factor = 2
@@ -1105,17 +1204,22 @@ focus_tree = {
 				uses = 2
 				category = naval_doctrine
 			}
+			add_tech_bonus = {
+		    	bonus = 1
+		    	uses = 2
+		    	category = ss_tech
+		    }
 		}
 	}
 	focus = {
 		id = GEO_submarine_tech
-		icon = GFX_goal_MAG_naval_research_department
+		icon = GFX_focus_generic_navy_research_bonus
 		cost = 6
-		x = 1
-		y = 1
-		relative_position_id = GEO_convoy_raiding
+		x = 4
+		y = 3
+		relative_position_id = GEO_army_focus
 		prerequisite = {
-			focus = GEO_convoy_raiding
+			focus = GEO_poti_dockyard
 		}
 		ai_will_do = {
 			factor = 2
@@ -1140,14 +1244,14 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GEO_submarine_tech
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = naval_equipment
 			}
 		}
 	}
 	focus = {
 		id = GEO_oil_tankers
-		icon = GFX_USA_navy_top
+		icon = GFX_focus_generic_offshore_oil_rig
 		cost = 6
 		x = 2
 		y = 1
@@ -1181,8 +1285,8 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_navy_excercise
-		icon = GFX_MAF_naval_aerial_observation
-		cost = 6
+		icon = GFX_focus_generic_merchant_fleet
+		cost = 5
 		x = 0
 		y = 1
 		relative_position_id = GEO_oil_tankers
@@ -1210,14 +1314,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_navy_excercise"
-			navy_experience = 65
+			navy_experience = 100
 		}
 	}
 	###Air Force Tree###
 	focus = {
 		id = GEO_air_focus
 		icon = GFX_goal_georgian_air_force
-		cost = 6
+		cost = 5
 		x = -5
 		y = 1
 		relative_position_id = GEO_army_focus
@@ -1253,7 +1357,7 @@ focus_tree = {
 
 	focus = {
 		id = GEO_air_academy
-		icon = GFX_goal_USA_organic_air_support
+		icon = GFX_focus_FIN_expand_air_force_academy
 		cost = 6
 		x = 1
 		y = 1
@@ -1282,11 +1386,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_air_academy"
 			add_ideas = GEO_idea_air_academy
+			air_experience = 75
 		}
 	}
 	focus = {
 		id = GEO_air_investments
-		icon = GFX_goal_CZE_air_industry
+		icon = GFX_focus_SMB_purchase_aircraft
 		cost = 6
 		x = -1
 		y = 1
@@ -1317,14 +1422,14 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				name = GEO_air_investments
 				cost_reduction = 0.5
-				uses = 1
+				uses = 2
 				category = air_doctrine
 			}
 		}
 	}
 	focus = {
 		id = GEO_air_tech
-		icon = GFX_HUN_fighters
+		icon = GFX_focus_generic_air_bases
 		cost = 6
 		x = 1
 		y = 1
@@ -1353,18 +1458,34 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_air_tech"
-			add_tech_bonus = {
-				name = GEO_air_tech
-				bonus = 1
-				uses = 1
-				category = air_equipment
-			}
+			if = {
+			    limit = { has_dlc_bba = yes }
+		    	add_tech_bonus = {
+		    		bonus = 1
+		    		uses = 1
+		    		category = tactical_bomber
+		    	}
+		    	add_tech_bonus = {
+		    		bonus = 1
+		    		uses = 1
+		    		category = cat_strategic_bomber
+		    	}
+		    }
+		    else = {
+		    	add_tech_bonus = {
+		    		name = RUS_Long_Range_Bombing
+		    		bonus = 0.75
+		    		uses = 2
+		    		category = tactical_bomber
+		    		category = cat_strategic_bomber
+		    	}
+		    }
 		}
 	}
 	focus = {
 		id = GEO_night_bombing
-		icon = GFX_goal_HOL_night_fighter
-		cost = 6
+		icon = GFX_focus_SWE_marauder_bombers
+		cost = 4
 		x = 0
 		y = 1
 		relative_position_id = GEO_air_tech
@@ -1521,7 +1642,7 @@ focus_tree = {
 		available = {
 			has_government = social_conservative
 			has_country_leader = {
-				name = "Giorgi XIII"
+				name = "Георгий IX"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1607,7 +1728,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Ioakhim I"
+				name = "Иоахим I"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1635,7 +1756,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_increase_kings_power
-		icon = GFX_GRE_empower_monarchy
+		icon = GFX_focus_generic_monarchist_sentiment
 		cost = 6
 		x = -2
 		y = 4
@@ -1645,7 +1766,7 @@ focus_tree = {
 		available = {
 			has_government = social_conservative
 			has_country_leader = {
-				name = "Giorgi XIII"
+				name = "Георгий IX"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1717,7 +1838,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Ioakhim I"
+				name = "Иоахим I"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1749,7 +1870,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_nationalise_entrenched_german_industry
-		icon = GFX_goal_MLT_fuck_germany
+		icon = GFX_focus_GER_integrated_economies
 		cost = 6
 		x = -3
 		y = 5
@@ -1759,7 +1880,7 @@ focus_tree = {
 		available = {
 			has_government = social_conservative
 			has_country_leader = {
-				name = "Giorgi XIII"
+				name = "Георгий IX"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1794,7 +1915,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_rural_development_scheme
-		icon = GFX_goal_CZE_rural_god
+		icon = GFX_focus_generic_price_controls
 		cost = 6
 		x = -1
 		y = 5
@@ -1834,7 +1955,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_reinforce_constituent_assembly_power
-		icon = GFX_goal_NFA_empower_parliament
+		icon = GFX_focus_RAJ_kingmaker
 		cost = 6
 		x = 1
 		y = 5
@@ -1875,7 +1996,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_german_road_investments
-		icon = GFX_COR_national_highway_system
+		icon = GFX_focus_generic_road_investment
 		cost = 6
 		x = 3
 		y = 5
@@ -1884,7 +2005,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Ioakhim I"
+				name = "Иоахим I"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1912,7 +2033,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_strive_for_autarky
-		icon = GFX_goal_generic_autarky
+		icon = GFX_focus_GER_autarky_ambitions
 		cost = 6
 		x = -2
 		y = 6
@@ -1922,7 +2043,7 @@ focus_tree = {
 		available = {
 			has_government = social_conservative
 			has_country_leader = {
-				name = "Giorgi XIII"
+				name = "Георгий IX"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -1948,7 +2069,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_lower_taxes
-		icon = GFX_GRU_CONS_TAX_CUT
+		icon = GFX_focus_generic_welfare
 		cost = 6
 		x = 0
 		y = 6
@@ -1975,7 +2096,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_german_arms_deals
-		icon = GFX_MAF_air_mobile_infantry
+		icon = GFX_focus_GER_monarchy_compromise
 		cost = 6
 		x = 2
 		y = 6
@@ -1984,7 +2105,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Ioakhim I"
+				name = "Иоахим I"
 				ruling_only = yes
 			}
 			NOT = { has_country_flag = GEO_snap_elections }
@@ -2014,7 +2135,7 @@ focus_tree = {
 		id = GEO_mmep_victorous
 		icon = GFX_goal_GEO_MMEP
 		cost = 2
-		x = 22
+		x = 21
 		y = 0
 		available = {
 			has_government = market_liberal
@@ -2206,7 +2327,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_expand_krupp_georgien
-		icon = GFX_goal_Krupp_Artillery
+		icon = GFX_focus_SWI_issue_war_bonds
 		cost = 5
 		relative_position_id = GEO_mmep_victorous
 		x = 2
@@ -2218,8 +2339,8 @@ focus_tree = {
 		bypass = {
 			OR = {
 				AND = {
-				is_subject = yes
-			    overlord = { 
+			is_subject = yes
+			overlord = { 
 				NOT = { 
 					is_ally_with = GER 
 					tag = GER
@@ -2258,7 +2379,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_free_trade_economy
-		icon = GFX_goal_MEX_open_markets_for_entente
+		icon = GFX_focus_RAJ_trickle_down_economics
 		cost = 6
 		relative_position_id = GEO_mmep_victorous
 		x = 0
@@ -2326,7 +2447,7 @@ focus_tree = {
 		id = GEO_SR
 		icon = GFX_goal_GEO_Socialist_Revolutionaries
 		cost = 0
-		x = 10
+		x = 9
 		y = 0
 		ai_will_do = {
 			factor = 100
@@ -2344,7 +2465,7 @@ focus_tree = {
 		id = GEO_SSPRP
 		icon = GFX_goal_GEO_Socialist_Federalists
 		cost = 0
-		x = 16
+		x = 15
 		y = 0
 		ai_will_do = {
 			factor = 100
@@ -2362,7 +2483,7 @@ focus_tree = {
 		id = GEO_SSDP_victory
 		icon = GFX_goal_GEO_Mensheviks
 		cost = 0
-		x = 13
+		x = 12
 		y = 0
 		ai_will_do = {
 			factor = 100
@@ -2398,8 +2519,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_Support_Smallholders"
-			add_political_power = 25
-			add_stability = 0.05
+			add_political_power = 75
+			add_stability = 0.10
 			random_owned_state = {
 				prioritize = { 231 }
 				add_extra_state_shared_building_slots = 1
@@ -2438,7 +2559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_Establish_Ties_With_Commune
-		icon = GFX_RUS_Internationalists
+		icon = GFX_focus_RAJ_a_policy_of_silence
 		cost = 6
 		x = -3
 		y = 1
@@ -2458,6 +2579,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_Establish_Ties_With_Commune"
 			activate_targeted_decision = { target = INT decision = GEO_join_phalanstere }
+			add_opinion_modifier = { target = FRA modifier = small_increase }
+			FRA = { add_opinion_modifier = { target = GEO modifier = small_increase } }
 		}
 	}
 
@@ -2466,7 +2589,7 @@ focus_tree = {
 		icon = GFX_DKB_People
 		cost = 6
 		x = 0
-		y = 2
+		y = 3
 		ai_will_do = {
 			factor = 12
 		}
@@ -2490,7 +2613,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_government_security
-		icon = GFX_goal_HOL_sustain_neutrality
+		icon = GFX_focus_PER_strengthen_the_tudeh
 		cost = 6
 		x = -1
 		y = 1
@@ -2515,12 +2638,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_government_security"
 			add_political_power = 125
-			add_stability = 0.05
+			add_stability = 0.10
 		}
 	}
 	focus = {
 		id = GEO_education_development
-		icon = GFX_NEE_education_spending
+		icon = GFX_focus_generic_university_1
 		cost = 6
 		x = 1
 		y = 1
@@ -2549,10 +2672,10 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_state_propaganda
-		icon = GFX_GRU_PIECK_propaganda
+		icon = GFX_focus_CHL_union_of_hispanic_republics
 		cost = 6
 		x = -1
-		y = 3
+		y = 4
 		ai_will_do = {
 			factor = 12
 		}
@@ -2571,6 +2694,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_state_propaganda"
+			add_stability = 0.1
+			add_war_support = 0.5
 			increase_ruling_party_popularity_by_10 = yes
 			add_popularity = {
 				ideology = social_conservative
@@ -2592,10 +2717,10 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_entrench_political_freedoms
-		icon = GFX_RUS_Progressive_Bloc
+		icon = GFX_focus_NOR_broken_gun_policies
 		cost = 6
 		x = 1
-		y = 3
+		y = 4
 		ai_will_do = {
 			factor = 12
 		}
@@ -2625,7 +2750,7 @@ focus_tree = {
 		icon = GFX_DKB_Welfare_All
 		cost = 6
 		x = 0
-		y = 4
+		y = 5
 		ai_will_do = {
 			factor = 12
 		}
@@ -2642,14 +2767,14 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_increase_welfare"
 			add_popularity = {
 				ideology = social_democrat
-				popularity = 0.05
+				popularity = 0.20
 			}
 			add_ideas = GEO_welfare_state
 		}
 	}
 	focus = {
 		id = GEO_political_decentralisation
-		icon = GFX_RUS_Decentralize_Power
+		icon = GFX_focus_RAJ_give_me_blood_and_i_will_grant_you_freedom
 		cost = 6
 		x = 2
 		y = 2
@@ -2680,7 +2805,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_autonomous_agricultural_bodies
-		icon = GFX_RUS_Peasant_Councils
+		icon = GFX_focus_FIN_finnish_federation_of_trade_unions
 		cost = 6
 		x = 3
 		y = 3
@@ -2709,10 +2834,10 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2724,7 +2849,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_expand_the_constituent_assembly
-		icon = GFX_goal_CZE_provincial_assembly
+		icon = GFX_focus_ARG_defense_and_democracy
 		cost = 6
 		x = 3
 		y = 4
@@ -2744,7 +2869,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_expand_the_constituent_assembly"
 			add_popularity = {
 				ideology = social_liberal
-				popularity = 0.05
+				popularity = 0.20
 			}
 			swap_ideas = {
 				remove_idea = GEO_political_decentralisation_idea
@@ -2754,7 +2879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_increase_unionism
-		icon = GFX_goal_syndicalist_industry
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		cost = 6
 		x = -2
 		y = 2
@@ -2792,7 +2917,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_agrarian_socialism
-		icon = GFX_goal_FRA_farm_outreach
+		icon = GFX_focus_AUS_danubian_socialist_communes
 		cost = 6
 		x = -3
 		y = 3
@@ -2816,11 +2941,15 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_agrarian_socialism"
 			add_ideas = GEO_agrarian_socialism_idea
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = 0.10
+			}
 		}
 	}
 	focus = {
 		id = GEO_land_socialisation
-		icon = GFX_RUS_Land_Socialization
+		icon = GFX_focus_generic_agricultural_subsidies
 		cost = 6
 		x = -4
 		y = 2
@@ -2845,23 +2974,23 @@ focus_tree = {
 					is_core_of = ROOT
 					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			add_ideas = GEO_land_socialisation_idea
 			add_popularity = {
 				ideology = radical_socialist
-				popularity = 0.05
+				popularity = 0.10
 			}
 		}
 	}
 	focus = {
 		id = GEO_Soviet_Republic
-		icon = GFX_SOV_soviet_workers_peasants_system
+		icon = GFX_focus_AFG_integrate_tajik_and_uzbek_republics
 		cost = 6
 		x = -3
 		y = 4
@@ -2879,13 +3008,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_Soviet_Republic"
-			set_politics = {
-				ruling_party = radical_socialist
-				elections_allowed = no
-			}
 			add_popularity = {
 				ideology = radical_socialist
-				popularity = 0.05
+				popularity = 0.20
 			}
 			swap_ideas = {
 				remove_idea = GEO_socialism_idea
@@ -2900,9 +3025,9 @@ focus_tree = {
 
 	focus = {
 		id = GEO_pataut_georgia
-		icon = GFX_goal_GEO_royal_house
+		icon = GFX_goal_GEO_Kings_Government
 		cost = 0
-		x = 37
+		x = 38
 		y = 0
 		ai_will_do = {
 			factor = 100
@@ -2918,7 +3043,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_secret_police
-		icon = GFX_goal_secret_agents
+		icon = GFX_focus_RAJ_red_in_the_shadows
 		cost = 4
 		x = -3
 		y = 1
@@ -2938,50 +3063,15 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_secret_police"
 			add_popularity = {
 				ideology = paternal_autocrat
-				popularity = 0.05
+				popularity = -0.10
 			}
-			if = {
-				limit = { has_dlc = "La Resistance"}
-				if = {
-					limit = { has_intelligence_agency = yes }
-					if = {
-						limit = { NOT = { has_done_agency_upgrade = upgrade_commando_training } }
-						upgrade_intelligence_agency = upgrade_commando_training
-					}
-					if = {
-						limit = { NOT = { has_done_agency_upgrade = upgrade_crypto_strength } }
-						upgrade_intelligence_agency = upgrade_crypto_strength
-					}
-					if = {
-						limit = { NOT = { has_done_agency_upgrade = upgrade_decryption_boost } }
-						upgrade_intelligence_agency = upgrade_decryption_boost
-					}
-					if = {
-						limit = {
-							OR = {
-								has_done_agency_upgrade = upgrade_commando_training
-								has_done_agency_upgrade = upgrade_crypto_strength
-								has_done_agency_upgrade = upgrade_decryption_boost
-							}
-							NOT = { has_done_agency_upgrade = upgrade_training_centers }
-						}
-						upgrade_intelligence_agency = upgrade_training_centers
-					}
-				}
-				else = {
-					create_intelligence_agency = yes
-					gain_random_agency_upgrade = yes
-				}
-			}
-			else = {
-				add_ideas = GEO_secret_police_idea
-			}
-			#EVENT
+			add_stability = -0.10
+			add_ideas = GEO_secret_police_idea2
 		}
 	}
 	focus = {
 		id = GEO_purge_socialist_politicans
-		icon = GFX_focus_rus_witch
+		icon = GFX_focus_GER_integration_of_puppet_economies
 		cost = 4
 		x = -1
 		y = 1
@@ -2999,17 +3089,17 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_purge_socialist_politicans"
-			add_political_power = -100
+			add_political_power = -200
 			add_popularity = {
 				ideology = paternal_autocrat
-				popularity = 0.05
+				popularity = 0.25
 			}
-			#EVENT
+			add_stability = 0.25
 		}
 	}
 	focus = {
 		id = GEO_crush_socialist_rebels
-		icon = GFX_RUS_Ban_All_Socialist_Parties
+		icon = GFX_focus_BRA_utilize_security_law
 		cost = 4
 		x = 1
 		y = 1
@@ -3027,17 +3117,25 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_crush_socialist_rebels"
-			add_manpower = -5000
+			add_manpower = -21325
 			add_popularity = {
-				ideology = paternal_autocrat
-				popularity = 0.05
+				ideology = totalist
+				popularity = -1
+			}
+			add_popularity = {
+				ideology = syndicalist
+				popularity = -1
+			}
+			add_popularity = {
+				ideology = radical_socialist
+				popularity = -1
 			}
 			#REMOVE SOCIALIST REBELS IDEA
 		}
 	}
 	focus = {
 		id = GEO_media_crackdown
-		icon = GFX_goal_WCC_silence_critics
+		icon = GFX_focus_RAJ_circuvment_demobilization_restrictions
 		cost = 4
 		x = 3
 		y = 1
@@ -3065,7 +3163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_form_a_government
-		icon = GFX_focus_geo_georgian_king
+		icon = GFX_focus_AFG_retire_the_uncles
 		cost = 4
 		x = 0
 		y = 2
@@ -3096,7 +3194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_expand_police_force
-		icon = GFX_GRU_CORPORATE_POLICE
+		icon = GFX_focus_FIN_parmis_devils
 		cost = 6
 		x = 2
 		y = 3
@@ -3115,20 +3213,15 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_expand_police_force"
 			if = {
-				limit = { has_dlc = "La Resistance" }
-				add_ideas = GEO_secret_police_idea_lar
-			}
-			else = {
-			swap_ideas = {
-				remove_idea = GEO_secret_police_idea
-				add_idea = GEO_secret_police_idea2
-			}
-		}
+	         	limit = { has_dlc = "La Resistance" }
+	         	create_intelligence_agency = yes
+	        }
+			add_manpower = 20000
 	}
 	}
 	focus = {
 		id = GEO_state_media
-		icon = GFX_goal_NFA_national_propaganda
+		icon = GFX_focus_ARG_keep_it_in_the_party
 		cost = 6
 		x = 1
 		y = 4
@@ -3146,13 +3239,13 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_state_media"
-			add_war_support = 0.05
-			increase_ruling_party_popularity_by_10 = yes
+			add_war_support = 0.2
+			increase_ruling_party_popularity_by_20 = yes
 		}
 	}
 	focus = {
 		id = GEO_connect_the_country
-		icon = GFX_thenorthernraillink
+		icon = GFX_focus_generic_road_investment
 		cost = 6
 		x = 3
 		y = 4
@@ -3170,6 +3263,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_connect_the_country"
 			add_stability = 0.05
+			add_political_power = -200
 			random_owned_controlled_state = {
 				prioritize = { 231 }
 				limit = {
@@ -3178,7 +3272,43 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 1188 }
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0  }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 1080 }
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0  }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 1190 }
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = { building = infrastructure size > 0  }
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -3186,7 +3316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_general_training
-		icon = GFX_goal_NFA_review_army
+		icon = GFX_focus_RAJ_a_private_military
 		cost = 6
 		x = 2
 		y = 5
@@ -3209,13 +3339,19 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_general_training"
 			every_army_leader = {
 				add_max_trait = 1
+				add_skill_level = 1
+				add_logistics = 1
 				add_planning = 1
+				add_defense = 1
+				add_attack = 2
 			}
+			add_war_support = 0.5
+			add_manpower = 50000
 		}
 	}
 	focus = {
 		id = GEO_militerise_the_state
-		icon = GFX_goal_Focus_Military_Mobilisation
+		icon = GFX_focus_generic_reorient_production
 		cost = 6
 		x = -2
 		y = 3
@@ -3233,7 +3369,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_militerise_the_state"
-			add_political_power = 50
 			activate_targeted_decision = { target = THIS decision = GEO_troop_training_decision }
 			activate_targeted_decision = { target = 231 decision = GEO_milfac_kutais_decision }
 			activate_targeted_decision = { target = 1080 decision = GEO_milfac_sukhum_decision }
@@ -3241,7 +3376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_georgian_ultranationalism
-		icon = GFX_BAY_SECURING_OUR_KINGDOM
+		icon = GFX_goal_NFA_Cleanse_Rome
 		cost = 6
 		x = -3
 		y = 4
@@ -3265,7 +3400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_state_orthodoxy
-		icon = GFX_goal_orthodox_state
+		icon = GFX_goal_MNT_orthodoxy
 		cost = 6
 		x = -1
 		y = 4
@@ -3283,13 +3418,14 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_state_orthodoxy"
-			add_political_power = 100
-			increase_ruling_party_popularity_by_5 = yes
+			add_political_power = 200
+			add_war_support = 0.15
+			increase_ruling_party_popularity_by_15 = yes
 		}
 	}
 	focus = {
 		id = GEO_paternal_king
-		icon = GFX_goal_GEO_Kings_Government
+		icon = GFX_focus_generic_monarchist_sentiment
 		cost = 6
 		x = -2
 		y = 5
@@ -3310,7 +3446,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_paternal_king"
-			increase_ruling_party_popularity_by_5 = yes
+			increase_ruling_party_popularity_by_20 = yes
 			swap_ideas = {
 				remove_idea = GEO_ultranationalist_program_idea
 				add_idea = GEO_ultranationalist_program_idea2
@@ -3320,7 +3456,7 @@ focus_tree = {
 #############BATUMI
 	focus = {
 		id = GEO_batumi_returned
-		icon = GFX_goal_generic_black_sea
+		icon = GFX_SOV_reinforce_southern_naval_bases_ccp_2d_sov_compatibility
 		cost = 0
 		x = 8
 		y = 1
@@ -3355,10 +3491,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GEO_rebuilding_batumi"
 			1213 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -3370,7 +3506,7 @@ focus_tree = {
 
 	focus = {
 		id = GEO_expand_the_tanker_fleet
-		icon = GFX_goal_generic_buy_ships
+		icon = GFX_focus_SWE_italian_destroyers
 		available = {
 			controls_state = 1213
 		}
@@ -3409,7 +3545,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_protect_batumi
-		icon = GFX_goal_nested_fortifications
+		icon = GFX_focus_FIN_coastal_defense
 		cost = 6
 		x = 0
 		y = 1
@@ -3448,6 +3584,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+		    	bonus = 0.5
+		    	uses = 2
+		    	category = naval_mines
+		    }
 		}
 	}
 	## Based KX Stuff ##
@@ -3460,7 +3601,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		ai_will_do = {
@@ -3481,7 +3622,7 @@ focus_tree = {
 			focus = GEO_georgian_socialism_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = -1
@@ -3489,7 +3630,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3501,12 +3642,12 @@ focus_tree = {
 	focus = {
 		id = GEO_new_army_focus
 		icon = GFX_goal_GEO_Root_Out_Resistance_Military
-		cost = 4
+		cost = 5
 		prerequisite = {
 			focus = GEO_peoples_guard_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = -2
@@ -3514,7 +3655,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3531,7 +3672,7 @@ focus_tree = {
 			focus = GEO_new_army_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = -3
@@ -3540,31 +3681,23 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus mountain_gulags_focus"
 			random_owned_state = {
 				limit = {
-					free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
+					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_state = {
 				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
+					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -3586,20 +3719,17 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus loyal_workers_focus"
 			add_popularity = {
 				ideology = totalist
-				popularity = 0.15
+				popularity = 0.2
 			}
-			add_stability = 0.05
-			swap_ideas = {
-				remove_idea = GEO_guard_idea
-				add_idea = GEO_guard_idea2
-			}
+			add_stability = 0.50
+			remove_idea = GEO_guard_idea
 		}
 	}
 	focus = {
@@ -3610,7 +3740,7 @@ focus_tree = {
 			focus = GEO_georgian_socialism_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = 0
@@ -3618,7 +3748,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3642,7 +3772,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3667,7 +3797,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3695,7 +3825,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3704,7 +3834,19 @@ focus_tree = {
 				ideology = totalist
 				popularity = 0.15
 			}
-			add_manpower = 5000
+			add_manpower = 20000
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Tsiteli Mtkhvrebi\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = GEO
+					prioritize_location = 11609
+				}
+				create_unit = {
+					division = "division_template = \"Tsiteli Mtkhvrebi\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = GEO
+					prioritize_location = 14780
+				}
+			}
 		}
 	}
 	focus = {
@@ -3723,13 +3865,13 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus end_mensheviks_focus"
 			country_event = kx_geo.11
-			add_political_power = 50
+			add_political_power = 100
 		}
 
 	}
@@ -3767,26 +3909,25 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus industry_focus"
 			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
+				bonus = 0.75
+				uses = 2
 				category = construction_tech
 			}
 			random_owned_controlled_state = {
 				prioritize = { 231 }
 				limit = {
 					is_core_of = ROOT
-					free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -3794,12 +3935,11 @@ focus_tree = {
 				prioritize = { 231 }
 				limit = {
 					is_core_of = ROOT
-					free_building_slots = { building = arms_factory size > 0 include_locked = yes }
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
-					type = arms_factory
-					level = 1
+					type = industrial_complex
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -3814,7 +3954,7 @@ focus_tree = {
 			focus = GEO_georgian_socialism_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = 1
@@ -3822,7 +3962,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3855,7 +3995,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3863,7 +4003,7 @@ focus_tree = {
 			add_tech_bonus = {
 				bonus = 1
 				uses = 2
-				category = dispersed_industry_category
+				category = dispersed_industry_tech
 				category = electronics
 			}
 			add_research_slot_until_five = yes
@@ -3872,7 +4012,7 @@ focus_tree = {
 	focus = {
 		id = GEO_chairman_focus
 		icon = GFX_goal_GEO_Jugashvili_is_Georgia
-		cost = 5.5
+		cost = 2
 		prerequisite = {
 			focus = GEO_expand_state_focus
 		}
@@ -3891,24 +4031,28 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus chairman_focus"
 			custom_effect_tooltip = GEO_supreme_tooltip
 			country_event = kx_geo.155
+			country_event = {
+				id= geo.513
+				days = 1
+			}
 		}
 	}
 	focus = {
 		id = GEO_georgian_culture_focus
 		icon = GFX_goal_GEO_Promoting_Georgian_Culture
-		cost = 4
+		cost = 5
 		prerequisite = {
 			focus = GEO_resist_russia_focus
 		}
 		ai_will_do = {
-			factor = 12
+			factor = 1000
 		}
 		relative_position_id = GEO_georgian_socialism_focus
 		x = 2
@@ -3916,7 +4060,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3941,12 +4085,12 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus georgian_strength_focus"
-			add_war_support = 0.05
+			add_war_support = 0.60
 			swap_ideas = {
 				remove_idea = GEO_nationalism_idea
 				add_idea = GEO_nationalism_idea2
@@ -3970,7 +4114,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Ioseb 'Koba' Jughashvili"
+				name = "Иосиф 'Коба' Джугашвили"
 			}
 		}
 		completion_reward = {
@@ -3978,6 +4122,20 @@ focus_tree = {
 			custom_effect_tooltip = GEO_strength_tooltip
 			activate_targeted_decision = { target = AZE decision = GEO_attack_country }
 			activate_targeted_decision = { target = ARM decision = GEO_attack_country }
+			hidden_effect = {
+				GEO = {
+	    	    	add_ai_strategy = {
+	    	        	type = prepare_for_war
+	    	        	id = AZE
+	    	        	value = 1000
+					}
+	    		    add_ai_strategy = {
+	                	type = conquer
+	                	id = AZE
+	                	value = 1000
+					}
+	    	   }
+			}
 		}
 	}	
 	
@@ -3989,7 +4147,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 12
 		}
-		x = 22
+		x = 21
 		y = 8
 		available = {
 			hidden_trigger = { always = no }
@@ -4011,7 +4169,7 @@ focus_tree = {
 		y = 1
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4033,7 +4191,7 @@ focus_tree = {
 		y = 2
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4055,7 +4213,7 @@ focus_tree = {
 		y = 3
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4082,7 +4240,7 @@ focus_tree = {
 		y = 4
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4112,7 +4270,7 @@ focus_tree = {
 		y = 2
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4137,7 +4295,7 @@ focus_tree = {
 		y = 3
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4152,7 +4310,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GEO_Agricultural_Municipal
-		icon = GFX_RUS_Municipalization_Of_Land
+		icon = GFX_TRM_Join_Big_Brother
 		cost = 5
 		ai_will_do = {
 			factor = 12
@@ -4162,7 +4320,7 @@ focus_tree = {
 		y = 2
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4184,7 +4342,7 @@ focus_tree = {
 		y = 3
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4218,7 +4376,7 @@ focus_tree = {
 		y = 4
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4243,7 +4401,7 @@ focus_tree = {
 		y = 5
 		available = {
 			has_country_leader = {
-				name = "Valiko Jugheli"
+				name = "Валико Джугели"
 				ruling_only = yes
 			}
 		}
@@ -4265,7 +4423,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		x = 37
+		x = 38
 		y = 8
 		available = {
 			hidden_trigger = { always = no }
@@ -4288,7 +4446,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_mkhedrioni_coup }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4312,7 +4470,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_mkhedrioni_coup }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4324,7 +4482,7 @@ focus_tree = {
 	focus = {
 		id = GEO_komisarta_sabcho
 		icon = GFX_focus_SOV_the_supreme_soviet
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 12
 		}
@@ -4335,7 +4493,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_the_new_georgian_age }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4361,7 +4519,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_the_new_georgian_age }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4396,7 +4554,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_nationalization }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4461,7 +4619,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_komisarta_sabcho }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4483,7 +4641,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_the_new_georgian_age }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4505,7 +4663,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_infusion_of_Baudelaireism }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4527,7 +4685,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_komisarta_sabcho }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4550,7 +4708,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_confer_new_knighthoods }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4588,7 +4746,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_eliminate_foreign_rule }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4617,7 +4775,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_martyrdom_of_pirosmani }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4642,7 +4800,7 @@ focus_tree = {
 		prerequisite = { focus = GEO_anarchist_art_forms }
 		available = {
 			has_country_leader = {
-				name = "Iakob Nikoladze"
+				name = "Яков Николадзе"
 				ruling_only = yes
 			}
 		}
@@ -4653,5 +4811,578 @@ focus_tree = {
 			add_political_power = 200
 		}
 	}
-	
+	focus = {
+		id = GEO_the_georgian_state_focus
+		icon = GFX_goal_GEO_Defending_the_Motherland
+		cost = 1
+		x = 1
+		y = 1
+		relative_position_id = GEO_chairman_focus
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = GEO_chairman_focus
+		}
+		available = {
+			has_country_flag = GEO_not_grt_amb_tl
+		}
+		mutually_exclusive = {
+			focus = GEO_trans_state_focus
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GEO_georgian_state_focus"
+			add_ideas = GEO_isolation_idea
+			add_political_power = 200
+		}
+	}
+
+	focus = {
+		id = GEO_trans_state_focus
+		icon = GFX_goal_GEO_Transcaucasian_Union
+		cost = 1
+		prerequisite = {
+			focus = GEO_chairman_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		relative_position_id = GEO_chairman_focus
+		x = -1
+		y = 1
+		available = {
+			has_country_flag = GEO_grt_amb_tl
+		}
+		mutually_exclusive = {
+			focus = GEO_the_georgian_state_focus
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus trans_state_focus"
+			custom_effect_tooltip = GEO_trans_tooltip_2
+			set_country_flag = GEO_can_form_transcaucasia
+			activate_targeted_decision = { target = THIS decision = GEO_form_transcaucasia }
+		}
+	}
+
+	focus = {
+		id = GEO_expand_motherland_focus
+		icon = GFX_goal_GEO_Expanding_the_Motherland
+		relative_position_id = GEO_chairman_focus
+		cost = 2
+		x = 0
+		y = 2
+		available = { always = yes }
+		allow_branch = {
+			has_global_flag = GEO_add_caucasus_ambitions
+		}
+		bypass = {
+			has_global_flag = GEO_add_caucasus_ambitions
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus expand_motherland_focus"
+			custom_effect_tooltip = GEO_expand_tooltip_2
+			add_war_support = 0.05
+			remove_ideas = GEO_minority_problem
+			hidden_effect = {
+				remove_ideas = GEO_minority_problem_nice
+				remove_ideas = GEO_minority_problem_mean
+			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 1001
+						state = 355
+						state = 354
+						state = 352
+						state = 417
+						state = 419
+					}
+				}
+				add_claim_by = GEO
+			}
+		}
+	}
+
+
+	focus = {
+		id = GEO_don_kuban_focus
+		icon = GFX_KLY_decossackisation
+		cost = 2
+		relative_position_id = GEO_expand_motherland_focus
+		prerequisite = {
+			focus = GEO_expand_motherland_focus
+		}
+		ai_will_do = {
+			factor = 50
+		}
+		x = 0
+		y = 1
+		available = {
+			has_government = totalist
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus don_kuban_focus"
+			custom_effect_tooltip = RUS_Attack_Caucasus_DKB_tooltip
+			activate_targeted_decision = { target = DKB decision = GEO_Attack_Caucasus }
+			if = {
+				limit = { 
+					country_exists = KUB
+				}
+				activate_targeted_decision = { target = KUB decision = GEO_Attack_Caucasus }
+			}
+			if = {
+				limit = {
+					country_exists = KLY
+				}
+				activate_targeted_decision = { target = KLY decision = GEO_Attack_Caucasus }
+			}
+			if = {
+				limit = { 
+					country_exists = MTR 
+				}
+				activate_targeted_decision = { target = MTR decision = GEO_Attack_Caucasus }
+			}
+			hidden_effect = {
+				GER = {
+				    diplomatic_relation = {
+				    	country = DKB
+				    	relation = guarantee
+				    	active = no
+				    }	
+				    remove_from_faction = DKB
+				}
+				UKR = {
+				    diplomatic_relation = {
+				    	country = KUB
+				    	relation = guarantee
+				    	active = no
+				    }	
+				    remove_from_faction = KUB
+				}
+				activate_targeted_decision = { target = DKB decision = GEO_Attack_Caucasus }
+				every_state = {
+					limit = {
+						OR = {
+							is_core_of = MTR
+							is_core_of = KUB
+							is_core_of = KLY
+							is_core_of = DKB
+						}
+					}	
+					add_claim_by = GEO
+				}
+
+				complete_national_focus = GEO_pipeline_seized
+
+				RUS_enable_integration = yes
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_1st_Caucasian_Congress_focus
+		icon = GFX_goal_GEO_1st_congress
+		cost = 5
+		relative_position_id = GEO_expand_motherland_focus
+		ai_will_do = {
+			factor = 100
+		}
+		x = 0
+		y = 2
+		available = {
+			has_government = totalist
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = totalist
+				popularity = 0.20
+			}
+			GEO = {
+				country_event= {
+					id= geo.507
+					days = 3
+				}
+			}	
+		}
+		prerequisite = {
+			focus = GEO_don_kuban_focus
+		}
+	}
+
+	focus = {
+		id = GEO_attack_Ukraine
+		icon = GFX_goal_GEO_attack_Ukraine
+		cost = 5
+		relative_position_id = GEO_expand_motherland_focus
+		ai_will_do = {
+			factor = 100
+		}
+		x = -2
+		y = 3
+		available = {
+			has_government = totalist
+		}
+		bypass = {
+			has_war_with = UKR
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GEO_attack_Ukraine_decision
+		}
+		prerequisite = {
+			focus = GEO_1st_Caucasian_Congress_focus
+		}
+	}
+	focus = {
+		id = GEO_attack_Ottoman
+		icon = GFX_goal_GEO_attack_Ottoman
+		cost = 5
+		relative_position_id = GEO_expand_motherland_focus
+		ai_will_do = {
+			factor = 100
+		}
+		x = 2
+		y = 3
+		available = {
+			has_government = totalist
+		}
+		bypass = {
+			has_war_with = TUR
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GEO_attack_Ottoman_decision
+		}
+		prerequisite = {
+			focus = GEO_1st_Caucasian_Congress_focus
+		}
+	}
+
+	focus = {
+		id = GEO_second_red_october_focus
+		icon = GFX_goal_GEO_sec_red_oct
+		cost = 4
+		relative_position_id = GEO_expand_motherland_focus
+		ai_will_do = {
+			factor = 20
+			modifier = {
+				factor = 2
+				RUS = {
+					has_war = yes
+				}
+			}
+			modifier = {
+				factor = 4
+				RUS = {
+					surrender_progress > 0.1
+				}
+			}
+		}
+		x = 0
+		y = 3
+		available = {
+			is_neighbor_of = RUS
+			has_government = totalist
+		}
+		bypass = {
+			hidden_trigger = {
+				NOT = { country_exists = RUS }
+			}
+		}
+		select_effect = {
+	    	hidden_effect = {
+	    	    GEO = {
+	    	    	add_ai_strategy = {
+	    	        	type = prepare_for_war
+	    	        	id = RUS
+	    	        	value = 1000
+	    	       }
+	    			add_ai_strategy = {
+	                	type = conquer
+	                	id = RUS
+	                	value = 1000
+	               }
+	    	   }
+	    	}
+	    	add_named_threat = { threat = 20 name = GRU_named_threat_4 }
+	    }
+		completion_reward = {
+			set_cosmetic_tag = PPS
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/GEO/Portrait_Soviet_Joseph_Stalin_3.png"
+			}
+			every_state = {
+				limit = {
+					is_core_of = RUS
+					is_owned_and_controlled_by = RUS
+				}
+				add_claim_by = ROOT
+			}
+			declare_war_on = {
+				target = RUS
+				type = annex_everything
+			}
+			country_event = {
+				id= geo.5077
+				days = 1
+			}
+			hidden_effect = {
+				news_event = {
+					id = geo.502
+					days = 2
+				}
+				activate_targeted_decision = { target = GEO decision = GEO_SOV_Create_Soviet_Union_2 }
+			}
+		}
+		prerequisite = {
+			focus = GEO_1st_Caucasian_Congress_focus
+		}
+	}
+
+	focus = {
+		id = GEO_Rise_The_Resistance
+		icon = GFX_goal_GEO_The_Peoples_War
+		cost = 2
+		relative_position_id = GEO_expand_motherland_focus
+		x = -1
+		y = 4
+		available = {
+			has_war_with = RUS
+		}
+		prerequisite = {
+			focus = GEO_second_red_october_focus
+		}
+		ai_will_do = {
+			factor = 70
+		}
+		completion_reward = {
+			add_manpower = 200000
+			division_template = {
+				name = "Красная Гвардия"
+				division_names_group = GEO_SOV_MIL_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+
+					infantry = { x = 2 y = 0 }
+					infantry = { x = 2 y = 1 }
+					infantry = { x = 2 y = 2 }
+					infantry = { x = 2 y = 2 }
+
+					infantry = { x = 3 y = 0 }
+					artillery_brigade = { x = 3 y = 1 }
+					artillery_brigade = { x = 3 y = 2 }
+				}
+				support = {
+					recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					signal_company = { x = 0 y = 2 }
+					field_hospital = { x = 0 y = 3 }
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+				create_unit = {
+					division = "division_template = \"Красная Гвардия\" start_experience_factor = 0.2"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			division_template = {
+				name = "Дивизия ополчения"
+				division_names_group = SOV_MIL_02
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+					militia = { x = 2 y = 0 }
+					militia = { x = 2 y = 1 }
+					militia = { x = 2 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6174
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6380
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 242 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 306
+				}
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 11241
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 246 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 11349
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 247 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6245
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 223 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 6262
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 222 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 9355
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 224 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 3335
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 220 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 3580
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 248 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 121
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 252 }
+				create_unit = {
+					division = "division_template = \"Дивизия ополчения\" start_experience_factor = 0.1"
+					owner = ROOT
+					prioritize_location = 11375
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GEO_Socialist_Propaganda
+		icon = GFX_goal_GEO_soc_propaganda
+		cost = 2
+		relative_position_id = GEO_expand_motherland_focus
+		x = 1
+		y = 4
+		available = {
+			has_war_with = RUS
+		}
+		prerequisite = {
+			focus = GEO_second_red_october_focus
+		}
+		ai_will_do = {
+			factor = 60
+		}
+		completion_reward = {
+			RUS = {
+				add_timed_idea = {
+					idea = GSV_soc_prop_in_russia
+					days = 120
+				}
+			}
+		}
+		prerequisite = {
+			focus = GEO_second_red_october_focus
+		}
+	}
 }

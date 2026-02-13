@@ -152,7 +152,7 @@ country_event = {
 			is_subject = yes
 		}
 	}
-
+	
 	option = {
 		name = kr.hungary.2.a
 		ai_chance = {
@@ -187,7 +187,7 @@ country_event = {
 		}
 
 		create_country_leader = {
-			name = "István Bethlen"
+			name = "Иштван Бетлен"
 			desc = "POLITICS_ISTVAN_BETHLEN_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Istvan_Bethlen.png"
 			expire = "1.1.1"
@@ -257,7 +257,7 @@ country_event = {
 		}
 
 		create_country_leader = {
-			name = "Mihály Károlyi"
+			name = "Михай Каройи"
 			desc = "POLITICS_MIHALY_KAROLYI_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Mihaly_Karolyi_KX.png"
 			expire = "1.1.1"
@@ -319,7 +319,7 @@ country_event = {
 		}
 
 		create_country_leader = {
-			name = "Árpád Szakasits"
+			name = "Арпад Сакашич"
 			desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Arpad_Szakasits_KX.png"
 			expire = "1.1.1"
@@ -962,7 +962,7 @@ country_event = {
 					transfer_troops = no
 				}
 				clr_country_flag = POL_joined_HUN_war
-			}			
+			}
 			if = {
 				limit = {
 					country_exists = WSU
@@ -1258,7 +1258,7 @@ country_event = {
 		ai_chance = {
 			factor = 20
 			modifier = {
-				factor = 0
+			factor = 0
 				OR = {
 					has_game_rule = {
 						rule = HUN_forpol
@@ -1293,10 +1293,10 @@ country_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
-				factor = 0
+			factor = 0
 				OR = {
 					AND = {
-						POL = { is_ai = no }
+				POL = { is_ai = no }
 						has_game_rule = {
 							rule = HUN_forpol
 							option = DEFAULT
@@ -1465,7 +1465,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Béla Kun"
+			name = "Бела Кун"
 			desc = "POLITICS_BELA_KUN_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Bela_Kun.png"
 			expire = "1.1.1"
@@ -1785,7 +1785,7 @@ country_event = {
 	option = {
 		name = kr.hungary.38.a #Rakosi Takes Control
 		create_country_leader = {
-			name = "Mátyás Rákosi"
+			name = "Матьяш Ракоши"
 			desc = "POLITICS_MATYAS_RAKOSI_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Matyas_Rakosi_KX.png"
 			expire = "1.1.1"
@@ -2401,7 +2401,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Hungarian National Defense League"
+			name = "Венгерская национальная оборонительная лига"
 			desc = "POLITICS_HUN_MOVE_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_MOVE.png"
 			expire = "1.1.1"
@@ -2558,7 +2558,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Pál Prónay"
+			name = "Пал Пронаи"
 			desc = "POLITICS_PAL_PRONAY_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Pal_Pronay2.png"
 			expire = "1950.1.1"
@@ -2566,7 +2566,7 @@ country_event = {
 			traits = {}
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Pál Pronay "
+			name = "Пал Пронаи "
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Pal_Pronay_KX.png"
 			traits = {
 				harsh_leader
@@ -2614,7 +2614,7 @@ country_event = {
 	option = {
 		name = kr.hungary.219.a #Knew He Was Trouble
 		create_country_leader = {
-			name = "Anton Freiherr von Lehár"
+			name = "Антон Барон фон Легар"
 			desc = "POLITICS_ANTON_LEHAR_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Anton_Lehar.png"
 			expire = "1962.11.12"
@@ -2622,7 +2622,7 @@ country_event = {
 			traits = {}
 		}
 		create_field_marshal = { #Auto-Generated
-			name = "Anton Lehár"
+			name = "Антон Легар"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Anton_Lehar.png"
 			traits = {
 				inspirational_leader
@@ -2953,7 +2953,7 @@ country_event = {
 	option = {
 		name = kr.hungary.252.a #The Kaiser
 		create_country_leader = {
-			name = "IV. Károly"
+			name = "Карой IV"
 			desc = "POLITICS_KARL_DESC"
 			picture = "gfx/leaders/AUS/Portrait_AUS_Karl_I3.png"
 			expire = "1.1.1"
@@ -2963,9 +2963,9 @@ country_event = {
 		add_political_power = 100
 	}
 	option = {
-		name = kr.hungary.252.b #Archduke Joseph August
+		name = kr.hungary.252.b #Эрцгерцог Иосиф Август
 		create_country_leader = {
-			name = "Archduke Joseph August"
+			name = "Эрцгерцог Иосиф Август"
 			desc = "POLITICS_JOSEPH_AUGUST_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Joseph_August.png"
 			expire = "1962.7.2"
@@ -2978,7 +2978,7 @@ country_event = {
 	option = {
 		name = kr.hungary.252.c #Baron Lehar
 		create_country_leader = {
-			name = "Anton Freiherr von Lehár"
+			name = "Антон Барон фон Легар"
 			desc = "POLITICS_ANTON_LEHAR_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Anton_Lehar.png"
 			expire = "1962.11.12"
@@ -3108,7 +3108,7 @@ country_event = {
 		set_country_flag = Gyula_Goemboes_de_Jakfa_dead
 		hidden_effect = {
 			create_country_leader = {
-				name = "Pál Teleki"
+				name = "Пал Телеки"
 				desc = "POLITICS_"
 				picture = "gfx/leaders/HUN/Portrait_HUN_Pal_Teleki.png"
 				expire = "1.1.1"
@@ -3159,7 +3159,7 @@ country_event = {
 			remove_unit_leader = yes
 		}		
 		create_corps_commander = { #Auto-Generated
-			name = "Máté Zalka"
+			name = "Мате Залка"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Mate_Zalka.png"
 			traits = {
 				trait_reckless
@@ -3173,7 +3173,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Géza Révész"
+			name = "Геза Ревес"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Geza_Revesz.png"
 			traits = {}
 			id = 4020
@@ -3184,7 +3184,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "András Tömpe"
+			name = "Андраш Тёмпе"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Andras_Tompe.png"
 			traits = {}
 			id = 4021
@@ -3195,7 +3195,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Gábor Péter"
+			name = "Габор Петер"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Gabor_Peter.png"
 			traits = {
 				harsh_leader
@@ -3208,7 +3208,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Dezső Jász"
+			name = "Дезсо Яш"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Dezso_Jasz.png"
 			traits = {}
 			id = 4023
@@ -3219,7 +3219,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Ottó Steinbrück"
+			name = "Отто Оттович Штейнбрюк"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Otto_Steinbruck.png"
 			traits = {}
 			id = 4024
@@ -3230,7 +3230,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Gyorgy Porffy"
+			name = "Дьёрдь Порфи"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Gyorgy_Porffy.png"
 			traits = {}
 			id = 4025
@@ -3241,7 +3241,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "János Kádár"
+			name = "Янош Кадар"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Janos_Kadar.png"
 			traits = {}
 			id = 4026
@@ -3252,7 +3252,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Jenő Tombor"
+			name = "Енё Томбор"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Jeno_Tombor.png"
 			traits = {}
 			id = 4027
@@ -3263,7 +3263,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "István Bata"
+			name = "Иштван Бата"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Istvan_Bata.png"
 			traits = {}
 			id = 4029
@@ -3274,7 +3274,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = { #Auto-Generated
-			name = "Tibor Szamuely"
+			name = "Тибор Самуэли"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Tibor_Szamuely.png"
 			traits = {
 				harsh_leader
@@ -3324,7 +3324,7 @@ country_event = {
 			remove_unit_leader = yes
 		}
 		create_field_marshal = {
-			name = "Ferenc Szombathelyi"
+			name = "Ференц Сомбатхейи"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Ferenc_Szombathelyi.png"
 			traits = {
 				defensive_doctrine
@@ -3338,7 +3338,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Kocsárd Janky"
+			name = "Кочард Янки"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Janky_Kocsard.png"
 			traits = {
 				old_guard
@@ -3353,7 +3353,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Géza Lakatos"
+			name = "Геза Лакатош"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Geza_Lakatos.png"
 			traits = {
 				infantry_officer
@@ -3369,7 +3369,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Dezső László"
+			name = "Ласло Дежё"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Dezso_Laszlo.png"
 			traits = {}
 			id = 50071
@@ -3380,7 +3380,7 @@ country_event = {
 			logistics_skill = 1
 		}
 		create_corps_commander = {
-			name = "Gusztáv Jány"
+			name = "Густав Яни"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Jany_Gusztav.png"
 			traits = {
 				old_guard
@@ -3395,7 +3395,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Lajos Veress"
+			name = "Лайош Вересс"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Lajos_Veress.png"
 			traits = {
 				armor_officer
@@ -3408,7 +3408,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Gusztáv Denk"
+			name = "Густав Денк"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Gusztav_Denk.png"
 			traits = {
 				old_guard
@@ -3423,7 +3423,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Döme Sztójay"
+			name = "Дёме Стояи"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Dome_Sztojay.png"
 			traits = {
 				old_guard
@@ -3438,7 +3438,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Szilárd Bakay"
+			name = "Силард Бакай"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Szilard_Bakay.png"
 			traits = {
 				brilliant_strategist
@@ -3453,7 +3453,7 @@ country_event = {
 			logistics_skill = 3
 		}
 		create_corps_commander = {
-			name = "Elemér Gorondy-Novák"
+			name = "Элемер Горонди-Новак"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Elemer_Gorondy-Novak.png"
 			traits = {
 				old_guard
@@ -3468,7 +3468,7 @@ country_event = {
 		}
 
 		create_corps_commander = {
-			name = "Ferenc Farkas"
+			name = "Ференц Фаркаш"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Ferenc_Farkas.png"
 			traits = {
 				career_officer
@@ -3484,7 +3484,7 @@ country_event = {
 		}
 
 		create_corps_commander = {
-			name = "Sándor Szurmay"
+			name = "Шандор Шурмай"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Sandor_Szurmay.png"
 			traits = {
 				old_guard
@@ -3497,7 +3497,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_navy_leader = { #Auto-Generated
-			name = "Miklós Horthy"
+			name = "Миклош Хорти"
 			portrait_path = "gfx/leaders/HUN/Miklos_Horthy.png"
 			traits = {
 				old_guard_navy
@@ -3510,7 +3510,7 @@ country_event = {
 			coordination_skill = 2
 		}
 		create_corps_commander = {
-			name = "Károly Kratochvil"
+			name = "Карой Кратохвиль"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Karoly_Kratochvil.png"
 			traits = {
 				old_guard
@@ -3526,7 +3526,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "Ferenc Feketehalmy-Czeydner"
+			name = "Ференц Фекетехальми-Чейднер"
 			portrait_path = "gfx/leaders/HUN/Portrait_HUN_Ferenc_Feketehalmy-Czeydner.png"
 			traits = {
 				bearer_of_artillery
@@ -3588,7 +3588,7 @@ country_event = {
 	option = {
 		name = kr.hungary.316.a #Very good.
 		create_country_leader = {
-			name = "Anton Freiherr von Lehár"
+			name = "Антон Барон фон Легар"
 			desc = "Anton_Lehar_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Anton_Lehar.png"
 			expire = "1962.11.12"
@@ -3718,7 +3718,7 @@ country_event = {
 			is_in_faction_with = HUN
 		}
 	}
-	
+
 	fire_only_once = yes
 
 	option = {
@@ -3790,7 +3790,7 @@ country_event = {
 		add_stability = 0.10
 		add_popularity = { ideology = national_populist popularity = 0.075 }
 		create_country_leader = {
-			name = "Pál Teleki"
+			name = "Пал Телеки"
 			desc = "Pal_Teleki_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Pal_Teleki.png"
 			expire = "1.1.1"
@@ -3823,7 +3823,7 @@ country_event = {
 		add_political_power = -100
 		add_stability = -0.10
 		create_country_leader = {
-			name = "Pál Teleki"
+			name = "Пал Телеки"
 			desc = "POLITICS_PAL_TELEKI_NP_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Pal_Teleki.png"
 			expire = "1.1.1"
@@ -3934,7 +3934,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Gyula Károlyi"
+			name = "Дьюла Каройи"
 			desc = "POLITICS_GYULA_KAROLYI_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Gyula_Karolyi.png"
 			expire = "1.1.1"
@@ -3962,7 +3962,7 @@ country_event = {
 			elections_allowed = yes
 		}
 		create_country_leader = {
-			name = "Pál Teleki"
+			name = "Пал Телеки"
 			desc = "POLITICS_PAL_TELEKI_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Pal_Teleki.png"
 			expire = "1.1.1"
@@ -3990,7 +3990,7 @@ country_event = {
 			elections_allowed = yes
 		}
 		create_country_leader = {
-			name = "Miklós Kállay"
+			name = "Миклош Каллаи"
 			desc = "POLITICS_MIKLOS_KALLAY_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Miklos_Kallay.png"
 			expire = "1.1.1"
@@ -4046,7 +4046,7 @@ country_event = {
 			elections_allowed = yes
 		}
 		create_country_leader = {
-			name = "István Friedrich"
+			name = "Иштван Фридрих"
 			desc = "POLITICS_ISTVAN_FRIEDRICH_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Istvan_Friedrich.png"
 			expire = "1.1.1"
@@ -4074,7 +4074,7 @@ country_event = {
 			elections_allowed = yes
 		}
 		create_country_leader = {
-			name = "Gyula Károlyi"
+			name = "Дьюла Каройи"
 			desc = "POLITICS_GYULA_KAROLYI_DESC"
 			picture = "gfx/leaders/HUN/Portrait_HUN_Gyula_Karolyi.png"
 			expire = "1.1.1"
@@ -4100,7 +4100,7 @@ country_event = {
 			has_government = national_populist
 		}
 	}
-	
+
 	fire_only_once = yes
 
 	option = {
@@ -4127,7 +4127,7 @@ country_event = {
 		tag = HUN
 		date > 1945.2.25
 	}
-	
+
 	fire_only_once = yes
 
 	option = {

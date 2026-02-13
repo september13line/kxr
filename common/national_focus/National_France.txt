@@ -848,7 +848,7 @@ focus_tree = {
 		select_effect = {
 			country_event = { id = natfra.33 days = 5 }
 			country_event = { id = natfra.37 days = 40 }
-		}
+		}			
 		available = {
 			has_country_flag = NFA_junta_stays
 		}
@@ -1006,7 +1006,7 @@ focus_tree = {
 				type = arms_factory 
 				level = 2
 				}
-			}
+			}			
 			460 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -1122,7 +1122,7 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = NFA_chantiers_de_la_jeunesse
 				add_idea = NFA_dictatorship_of_morals
-			}
+			}	
 		}
 	}
 	
@@ -1275,12 +1275,12 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = 9
-			y = 0
-			trigger = {
-				has_country_flag = NFA_de_la_rocque_in_charge 
-			}
+		x = 9
+		y = 0
+		trigger = {
+			has_country_flag = NFA_de_la_rocque_in_charge 
 		}
+	}
 		completion_reward = {
 			set_politics = {
 			ruling_party = paternal_autocrat
@@ -1360,7 +1360,7 @@ focus_tree = {
 				type = industrial_complex 
 				level = 1
 				}
-			}
+			}			
 			add_ideas = NFA_business_alliance
 			country_event = { id = natfra.81 days = 1 }
 		}
@@ -1487,7 +1487,7 @@ focus_tree = {
 				type = industrial_complex 
 				level = 1
 				}
-			}
+			}			
 			460 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1758,7 +1758,7 @@ focus_tree = {
 				type = industrial_complex 
 				level = 1
 				}
-			}
+			}			
 			460 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1840,7 +1840,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = unlock_focuses
 		}
-	}
+	}	
 
 	focus = {
 		id = NFA_la_restauration
@@ -1877,7 +1877,7 @@ focus_tree = {
 				}
 			}
 		}
-	}
+	}	
 	
 	focus = {
 		id = NFA_emphasise_maurrasisme
@@ -1922,7 +1922,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_camelots_du_roi
 			create_corps_commander = {
-				name = "Gabriel Jeantet"
+				name = "Габриэль Жанте"
 				portrait_path = "gfx/leaders/NFA/Portrait_NFA_Gabriel_Jeantet.png"
 				traits = {
 					politically_connected
@@ -2081,7 +2081,7 @@ focus_tree = {
 				type = industrial_complex 
 				level = 1
 				}
-			}
+			}			
 			460 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -2198,14 +2198,14 @@ focus_tree = {
 				type = arms_factory 
 				level = 1
 				} 
-			}
+			}			
 			460 = {
-			add_extra_state_shared_building_slots = 2
+			add_extra_state_shared_building_slots = 2			
 			add_building_construction = {
 				type = industrial_complex 
 				level = 1
 				}
-			}
+			}			
 			460 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2371,10 +2371,10 @@ focus_tree = {
 				add_idea = NFA_maurrasisme_4
 			}
 			hidden_effect = {
-				if = {
-					limit = { has_completed_focus = NFA_return_of_the_king }
-					country_event = { id = natfra.233 days = 10 }
-				}
+			if = {
+				limit = { has_completed_focus = NFA_return_of_the_king }
+				country_event = { id = natfra.233 days = 10 }
+			}
 			}
 		}
 	}
@@ -2826,7 +2826,7 @@ focus_tree = {
 			remove_idea = NFA_militia_state_idea_2
 			add_idea = NFA_militia_state_idea_3
 			}
-			custom_effect_tooltip = "We will find a way to make the Maréchal resign!"
+			custom_effect_tooltip = "Мы найдем способ заставить Марешаля уйти в отставку!"
 		}
 	}
 	
@@ -4154,7 +4154,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_frenchunion
-			custom_effect_tooltip = "We shall gain cores on Algeria, with reduced manpower and mobilization"
+			custom_effect_tooltip = "Мы получим национальные территории в Алжире, сократив численность личного состава и мобилизацию."
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -4194,7 +4194,7 @@ focus_tree = {
 			controls_all_owned_states = yes
 		}
 		completion_reward = {
-			custom_effect_tooltip = "We shall create a new French African colony to better govern our holdings"
+			custom_effect_tooltip = "Мы создадим новую французскую африканскую колонию, чтобы лучше управлять нашими владениями"
 			hidden_effect = {
 				remove_ideas = {
 					NFA_native_autonomy_idea
@@ -4260,10 +4260,10 @@ focus_tree = {
 							state = 459
 							state = 460
 							state = 805
-						}
+						}	
 					}
 					remove_core_of = NFA
-				remove_claim_by = NFA
+				    remove_claim_by = NFA
 				}
 				NFA = {
 					puppet = FAR
@@ -4354,7 +4354,7 @@ focus_tree = {
 						}
 					}
 					remove_core_of = NFA
-				remove_claim_by = NFA
+				    remove_claim_by = NFA
 				}
 				NFA = {
 					puppet = FAR
@@ -4446,7 +4446,7 @@ focus_tree = {
 						}
 					}
 					remove_core_of = NFA
-				remove_claim_by = NFA
+				    remove_claim_by = NFA
 				}
 				NFA = {
 					puppet = FAR
@@ -4473,11 +4473,11 @@ focus_tree = {
 							authoritarian_democrat = 8
 							paternal_autocrat = 27
 							national_populist = 2
-							}
 						}
 					}
 				}
-			}
+				}
+			}	
 		}
 	}
 
@@ -5792,7 +5792,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -5826,7 +5826,7 @@ focus_tree = {
 					days = 5
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -5849,7 +5849,7 @@ focus_tree = {
 				remove_idea = NFA_postwar_devastation_1
 				add_idea = NFA_postwar_devastation_2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -5905,7 +5905,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -5925,8 +5925,8 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = NFA_postwar_devastation_3
 				add_idea = NFA_postwar_devastation_4
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -5950,7 +5950,7 @@ focus_tree = {
 			add_popularity = {
 				ideology = totalist
 				popularity = -0.02
-			}
+			}	
 			add_popularity = {
 				ideology = syndicalist
 				popularity = -0.02
@@ -5958,8 +5958,8 @@ focus_tree = {
 			add_popularity = {
 				ideology = radical_socialist
 				popularity = -0.02
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -5987,7 +5987,7 @@ focus_tree = {
 					days = 5
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6013,7 +6013,7 @@ focus_tree = {
 					days = 5
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6054,7 +6054,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6070,7 +6070,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_urban_resurgence	
-		}
+		}		
 	}
 
 	focus = {
@@ -6086,7 +6086,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_global_trade_deals
-		}
+		}		
 	}
 
 	focus = {
@@ -6107,7 +6107,7 @@ focus_tree = {
 				remove_idea = NFA_urban_resurgence 
 				add_idea = NFA_boom_years
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6183,7 +6183,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6201,8 +6201,8 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = NFA_global_trade_deals
 				add_idea = NFA_worldwide_financial_power
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -6219,8 +6219,8 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.04
 			add_command_power = 25
-			army_experience = 30
-		}
+			army_experience = 30	
+		}		
 	}
 
 	focus = {
@@ -6236,7 +6236,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = { id = natfra.145 days = 1 }
-		}
+		}		
 	}
 
 	focus = {
@@ -6254,7 +6254,7 @@ focus_tree = {
 			add_war_support = 0.07
 			add_manpower = 10000
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -6275,9 +6275,9 @@ focus_tree = {
 			country_event = {
 				id = napfra.15
 				days = 15
+			}	
 			}
-			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6293,7 +6293,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_strengthened_intelligence
-		}
+		}		
 	}
 
 	focus = {
@@ -6313,7 +6313,7 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					name = UMN_uranium_diplomacy
 					bonus = 0.5
 					uses = 1
@@ -6330,7 +6330,7 @@ focus_tree = {
 					value = 0.5
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6347,7 +6347,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			unlock_decision_category_tooltip = NFA_french_diplomacy_decisions
-		}
+		}		
 	}
 
 	focus = {
@@ -6463,7 +6463,7 @@ focus_tree = {
 					add_ideas = NFA_french_friendship
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6486,7 +6486,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 30
 			add_war_support = 0.02
-		}
+		}		
 	}
 
 	focus = {
@@ -6518,7 +6518,7 @@ focus_tree = {
 			GER = {
 				country_event = { id = natfra.181 days = 1 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6536,9 +6536,9 @@ focus_tree = {
 			add_ideas = NFA_franco_german_trade
 			GER = {
 				add_ideas = NFA_franco_german_trade
-			}
+			}		
 			country_event = { id = natfra.183 days = 1 }
-		}
+		}		
 	}
 	
 	focus = {
@@ -6556,7 +6556,7 @@ focus_tree = {
 			GER = {
 				country_event = { id = natfra.185 days = 1 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6580,7 +6580,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_war_support = 0.03
 			GER = { country_event = { id = natfra.188 days = 1 } }
-		}
+		}		
 	}
 
 	focus = {
@@ -6601,7 +6601,7 @@ focus_tree = {
 			add_state_claim = 462
 			add_state_claim = 807
 			add_state_claim = 963
-			add_state_claim = 876
+			add_state_claim = 876	
 			add_state_claim = 975
 			add_state_claim = 660
 			add_state_claim = 971
@@ -6630,7 +6630,7 @@ focus_tree = {
 			add_state_claim = 1095
 			add_state_claim = 635
 			add_state_claim = 641
-		}
+		}		
 	}
 
 	focus = {
@@ -6650,7 +6650,7 @@ focus_tree = {
 				country_event = { id = natfra.189 days = 1 }
 			}
 			set_global_flag = CAN_german_tension
-		}
+		}		
 	}
 
 	focus = {
@@ -6693,7 +6693,7 @@ focus_tree = {
 					}
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6715,12 +6715,12 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = NFA_franco_german_trade
 				add_idea = NFA_peace_in_our_time
-			}
+			}	
 			GER = {
 				swap_ideas = {
-					remove_idea = NFA_franco_german_trade
-					add_idea = NFA_peace_in_our_time
-				}
+				remove_idea = NFA_franco_german_trade
+				add_idea = NFA_peace_in_our_time
+				}	
 			}
 			hidden_effect = {
 				country_event = {
@@ -6728,7 +6728,7 @@ focus_tree = {
 					days = 15
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6754,8 +6754,8 @@ focus_tree = {
 			add_manpower = 15000
 			add_command_power = 20
 			add_war_support = 0.03
-			add_stability = -0.05
-		}
+			add_stability = -0.05	
+		}		
 	}
 
 	focus = {
@@ -6807,7 +6807,7 @@ focus_tree = {
 			country_event = { id = natfra.149 days = 1 }
 			add_war_support = 0.02
 			set_global_flag = CAN_german_tension
-		}
+		}		
 	}
 
 	focus = {
@@ -6828,12 +6828,12 @@ focus_tree = {
 		completion_reward = {
 			GER = {
 				country_event = { id = natfra.150 days = 1 }
-			}
+			}	
 			add_war_support = 0.05
 			add_command_power = 30
 			add_manpower = 5000
 			add_stability = -0.07
-		}
+		}		
 	}
 
 	focus = {
@@ -6854,11 +6854,11 @@ focus_tree = {
 		completion_reward = {
 			GER = {
 				country_event = { id = natfra.159 days = 1 }
-			}
+			}	
 			add_stability = 0.03
 			add_war_support = -0.01
 			add_political_power = 35
-		}
+		}		
 	}
 
 	focus = {
@@ -6886,7 +6886,7 @@ focus_tree = {
 					country_event = { id = natfra.166 days = 1 }
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -6929,7 +6929,7 @@ focus_tree = {
 			add_war_support = 0.02
 			add_command_power = 10
 			add_political_power = 45
-		}
+		}		
 	}
 
 	focus = {
@@ -6965,7 +6965,7 @@ focus_tree = {
 					country_event = { id = natfra.168 days = 60 }
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7025,7 +7025,7 @@ focus_tree = {
 					country_event = { id = natfra.201 days = 10 }
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7042,7 +7042,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 35
 			add_ideas = NFA_nationwide_martial_law
-		}
+		}		
 	}
 
 	focus = {
@@ -7063,7 +7063,7 @@ focus_tree = {
 			add_popularity = {
 				ideology = totalist
 				popularity = -0.04
-			}
+			}	
 			add_popularity = {
 				ideology = syndicalist
 				popularity = -0.04
@@ -7071,8 +7071,8 @@ focus_tree = {
 			add_popularity = {
 				ideology = radical_socialist
 				popularity = -0.04
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -7089,7 +7089,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_veteran_favouritism
 			add_political_power = 15
-		}
+		}		
 	}
 
 	focus = {
@@ -7120,7 +7120,7 @@ focus_tree = {
 					days = 25
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7146,7 +7146,7 @@ focus_tree = {
 				remove_idea = NFA_nationwide_martial_law
 				add_idea = NFA_empowered_executive
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7183,7 +7183,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7209,7 +7209,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-			add_political_power = -10
+			add_political_power = -10		
 		}
 	}
 
@@ -7236,7 +7236,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.211 days = 5 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7258,8 +7258,8 @@ focus_tree = {
 			add_popularity = {
 				ideology = paternal_autocrat
 				popularity = 0.04
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -7288,8 +7288,8 @@ focus_tree = {
 					is_core_of = ROOT
 				}
 				add_extra_state_shared_building_slots = 1
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -7317,7 +7317,7 @@ focus_tree = {
 				ideology = paternal_autocrat
 				popularity = 0.05
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7339,7 +7339,7 @@ focus_tree = {
 				remove_idea = NFA_empowered_executive
 				add_idea = NFA_empowered_executive2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7359,7 +7359,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = natfra.214
 			add_political_power = 35
-		}
+		}		
 	}
 
 	focus = {
@@ -7379,7 +7379,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = natfra.215
 			add_manpower = 2000
-		}
+		}		
 	}
 
 	focus = {
@@ -7401,7 +7401,7 @@ focus_tree = {
 			add_war_support = 0.07
 			add_manpower = 6000
 			army_experience = 20
-		}
+		}		
 	}
 
 	focus = {
@@ -7424,7 +7424,7 @@ focus_tree = {
 				remove_idea = NFA_centralised_economy
 				add_idea = NFA_centralised_economy2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7446,7 +7446,7 @@ focus_tree = {
 			add_political_power = 150
 			add_war_support = 0.06
 			add_stability = 0.06
-		}
+		}		
 	}
 
 	focus = {
@@ -7468,7 +7468,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -7497,7 +7497,7 @@ focus_tree = {
 			country_event = natfra.216
 			add_war_support = 0.08
 			add_command_power = 30
-		}
+		}		
 	}
 
 	focus = {
@@ -7517,7 +7517,7 @@ focus_tree = {
 		completion_reward = {
 			unlock_decision_category_tooltip = NFA_darlan_fp_decisions
 			add_political_power = 40
-		}
+		}		
 	}
 
 	focus = {
@@ -7540,7 +7540,7 @@ focus_tree = {
 				add_idea = NFA_naval_dominance
 			}
 			navy_experience = 40
-		}
+		}		
 	}
 
 	focus = {
@@ -7565,7 +7565,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.218 days = 5 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7611,7 +7611,7 @@ focus_tree = {
 				amount = 200
 				producer = NFA
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7639,7 +7639,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = flavorfra.65 days = 15 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7662,7 +7662,7 @@ focus_tree = {
 			add_war_support = 0.07
 			navy_experience = 20
 			add_manpower = 3500
-		}
+		}		
 	}
 
 	focus = {
@@ -7707,7 +7707,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7729,7 +7729,7 @@ focus_tree = {
 			add_political_power = 35
 			increase_ruling_party_popularity_by_3 = yes
 			country_event = natfra.219
-		}
+		}		
 	}
 
 	focus = {
@@ -7752,7 +7752,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_naval_propaganda
 			increase_ruling_party_popularity_by_5 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -7776,7 +7776,7 @@ focus_tree = {
 			add_command_power = 15
 			add_political_power = 25
 			navy_experience = 20
-		}
+		}		
 	}
 
 	focus = {
@@ -7798,7 +7798,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -7859,7 +7859,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.221 days = 10 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7880,7 +7880,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 20
 			add_ideas = NFA_market_relations
-		}
+		}		
 	}
 
 	focus = {
@@ -7903,7 +7903,7 @@ focus_tree = {
 				add_idea = NFA_market_relations2
 			}
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -7922,7 +7922,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = natfra.222
-		}
+		}		
 	}
 
 	focus = {
@@ -7941,7 +7941,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_civilianisation
-		}
+		}		
 	}
 
 	focus = {
@@ -7966,7 +7966,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.223 days = 5 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -7991,7 +7991,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.224 days = 45 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8020,7 +8020,7 @@ focus_tree = {
 					days = 45
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8065,7 +8065,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8092,7 +8092,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = flavorfra.68 days = 19 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8118,7 +8118,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = flavorfra.98 days = 19 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8140,7 +8140,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -8163,7 +8163,7 @@ focus_tree = {
 				add_idea = NFA_military_state
 			}
 			add_manpower = 4500
-		}
+		}		
 	}
 
 	focus = {
@@ -8183,7 +8183,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_moral_order
 			increase_ruling_party_popularity_by_5 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -8205,7 +8205,7 @@ focus_tree = {
 			country_event = natfra.226
 			add_stability = 0.06
 			add_command_power = 25
-		}
+		}		
 	}
 
 	focus = {
@@ -8227,7 +8227,7 @@ focus_tree = {
 				remove_idea = NFA_moral_order
 				add_idea = NFA_moral_order2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8249,7 +8249,7 @@ focus_tree = {
 			add_political_power = 55
 			add_war_support = 0.02
 			add_stability = -0.03
-		}
+		}		
 	}
 
 	focus = {
@@ -8276,7 +8276,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.229 days = 10 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8300,7 +8300,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = flavorfra.68 days = 27 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8337,7 +8337,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8367,7 +8367,7 @@ focus_tree = {
 					days = 45
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8393,7 +8393,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = flavorfra.98 days = 19 }
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -8428,11 +8428,11 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
+			has_country_leader = { ruling_only = yes name = "Максим Вейган" }
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = "Maxime Weygand has suceeded the Marechal!"
+			custom_effect_tooltip = "Максим Вейган стал преемником Марешаля!"
 			add_command_power = 30
 			hidden_effect = {
 				country_event = { id = flavorfra.95 days = 86 }
@@ -8452,7 +8452,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
+			has_country_leader = { ruling_only = yes name = "Максим Вейган" }
 		}
 		
 		completion_reward = {
@@ -8476,7 +8476,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
+			has_country_leader = { ruling_only = yes name = "Максим Вейган" }
 		}
 		
 		completion_reward = {
@@ -8502,7 +8502,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
+			has_country_leader = { ruling_only = yes name = "Максим Вейган" }
 		}
 		
 		completion_reward = {
@@ -8527,11 +8527,11 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+			has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = "Jacques Isorni has suceeded the Marechal!"
+			custom_effect_tooltip = "Жак Изорни стал преемником Марешаля!"
 			add_political_power = 30
 			hidden_effect = {
 				country_event = { id = flavorfra.96 days = 72 }
@@ -8551,7 +8551,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+			has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 		}
 		
 		completion_reward = {
@@ -8574,7 +8574,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+			has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 		}
 		
 		completion_reward = {
@@ -8605,7 +8605,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+			has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 		}
 		
 		completion_reward = {
@@ -8629,7 +8629,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+			has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 		}
 		
 		completion_reward = {
@@ -8651,11 +8651,11 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+			has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = "Henry du Moulin de Labarthète has suceeded the Marechal!"
+			custom_effect_tooltip = "Анри дю Мулен де Лабартет преемник Марешаля!"
 			add_war_support = 0.03
 			hidden_effect = {
 				country_event = { id = flavorfra.97 days = 81 }
@@ -8675,7 +8675,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+			has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 		}
 		
 		completion_reward = {
@@ -8699,7 +8699,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+			has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 		}
 		
 		completion_reward = {
@@ -8730,7 +8730,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+			has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 		}
 		
 		completion_reward = {
@@ -8757,7 +8757,7 @@ focus_tree = {
 			factor = 80
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+			has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 		}
 		
 		completion_reward = {
@@ -8793,8 +8793,8 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
-				has_country_leader = { ruling_only = yes name = "Jacques Isorni" }
+				has_country_leader = { ruling_only = yes name = "Максим Вейган" }
+				has_country_leader = { ruling_only = yes name = "Жак Изорни" }
 			}
 		}
 		
@@ -8851,8 +8851,8 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_country_leader = { ruling_only = yes name = "Maxime Weygand" }
-				has_country_leader = { ruling_only = yes name = "Henry du Moulin de Labarthète" }
+				has_country_leader = { ruling_only = yes name = "Максим Вейган" }
+				has_country_leader = { ruling_only = yes name = "Анри дю Мулен де Лабартет" }
 			}
 		}
 		
@@ -8922,7 +8922,7 @@ focus_tree = {
 				country_event = { id = natfra.233 days = 10 }
 				country_event = { id = flavorfra.105 days = 43 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8945,7 +8945,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8966,7 +8966,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.04
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -8987,7 +8987,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.250 days = 5 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9005,7 +9005,7 @@ focus_tree = {
 			add_political_power = 35
 			add_command_power = 10
 			custom_effect_tooltip = NFA_syndie_resistance_big_decline
-		}
+		}		
 	}
 
 	focus = {
@@ -9028,7 +9028,7 @@ focus_tree = {
 				remove_idea = NFA_decentralised_reconstruction
 				add_idea = NFA_regional_autonomy
 			}
-			add_manpower = 2500
+			add_manpower = 2500	
 		}
 	}
 
@@ -9052,7 +9052,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.252 days = 10 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9095,7 +9095,7 @@ focus_tree = {
 				ideology = social_democrat
 				popularity = -0.02
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9127,7 +9127,7 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9147,7 +9147,7 @@ focus_tree = {
 				add_idea = NFA_camelots_du_roi2
 			}
 			add_manpower = 3000
-		}
+		}		
 	}
 
 	focus = {
@@ -9155,7 +9155,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_restore_provincial_parliaments }
 		prerequisite = { focus = NFA_party_dominance }
 		icon = GFX_USA_sweep_farm_tariffs
-		x = -1
+		x = -1	
 		y = 4
 		relative_position_id = NFA_maurrasians_hold_on
 		cost = 4
@@ -9176,7 +9176,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9184,7 +9184,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_party_dominance }
 		prerequisite = { focus = NFA_compulsory_camelot_membership }
 		icon = GFX_goal_NFA_union_royale_de_travaile
-		x = 1
+		x = 1	
 		y = 4
 		relative_position_id = NFA_maurrasians_hold_on
 		cost = 5
@@ -9227,7 +9227,7 @@ focus_tree = {
 					level = 1
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9252,7 +9252,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.254 days = 5 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9275,7 +9275,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.04
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9337,7 +9337,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9406,7 +9406,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = "The Orthodox Maurassians has maintained their primacy!"
+			custom_effect_tooltip = "Ортодоксальные маврикийцы сохранили своё первенство!"
 			add_stability = 0.03
 			hidden_effect = {
 				country_event = { id = flavorfra.111 days = 87 }
@@ -9509,7 +9509,7 @@ focus_tree = {
 			has_idea = NFA_Pierre_Boutang_hog_npo
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Pierre Boutang has suceeded the Maitre!"
+			custom_effect_tooltip = "Пьер Пужад сменил Мэтра!"
 			add_political_power = 30
 			hidden_effect = {
 				country_event = { id = flavorfra.110 days = 93 }
@@ -9643,7 +9643,7 @@ focus_tree = {
 			has_idea = NFA_Jean_Marie_Le_Pen_hog_npo
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Jean-Marie Le Pen has suceeded the Maitre!"
+			custom_effect_tooltip = "Жан-Мари Ле Пен стал преемником Мэтра!"
 			add_war_support = 0.03
 			hidden_effect = {
 				country_event = { id = flavorfra.112 days = 89 }
@@ -9752,7 +9752,7 @@ focus_tree = {
 					name = NFA_soccon_fn_party
 				}
 				create_country_leader = {
-					name = "Pierre Poujade"
+					name = "Пьер Пужад"
 					picture = "gfx/leaders/OCC/Portrait_OCC_Pierre_Poujade.png"
 					expire = "1.1.1"
 					ideology = authdem_poujadisme_subtype 
@@ -9872,7 +9872,7 @@ focus_tree = {
 				uses = 2
 				category = industry
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9895,7 +9895,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9916,7 +9916,7 @@ focus_tree = {
 			add_ideas = NFA_heroic_idealism
 			add_command_power = 15
 			add_political_power = 20
-		}
+		}		
 	}
 
 	focus = {
@@ -9943,7 +9943,7 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9968,7 +9968,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.255 days = 15 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -9993,7 +9993,7 @@ focus_tree = {
 			}
 			add_political_power = 20
 			add_stability = -0.03
-		}
+		}		
 	}
 
 	focus = {
@@ -10010,7 +10010,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_cagoulard_intelligence
 			add_command_power = 15
-		}
+		}		
 	}
 
 	focus = {
@@ -10038,7 +10038,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10060,7 +10060,7 @@ focus_tree = {
 			add_political_power = 55
 			add_war_support = 0.04
 			add_command_power = 25
-		}
+		}		
 	}
 
 	focus = {
@@ -10109,7 +10109,7 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = -0.04
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10129,7 +10129,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10149,7 +10149,7 @@ focus_tree = {
 				add_idea = NFA_revolutionary_nationalism2
 			}
 			add_manpower = 2000
-		}
+		}		
 	}
 
 	focus = {
@@ -10169,7 +10169,7 @@ focus_tree = {
 				add_idea = NFA_cagoulard_capitalism2
 			}
 			add_political_power = 35
-		}
+		}		
 	}
 
 	focus = {
@@ -10192,7 +10192,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = 0.05
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10234,7 +10234,7 @@ focus_tree = {
 					level = 1
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10254,7 +10254,7 @@ focus_tree = {
 			add_war_support = 0.1
 			add_stability = 0.02
 			add_command_power = 20
-		}
+		}		
 	}
 
 	focus = {
@@ -10286,7 +10286,7 @@ focus_tree = {
 					days = 25
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10315,7 +10315,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.261 days = 10 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10348,7 +10348,7 @@ focus_tree = {
 				ideology = totalist
 				popularity = -0.04
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10370,7 +10370,7 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = 0.05
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10392,7 +10392,7 @@ focus_tree = {
 				ideology = national_populist
 				popularity = -0.06
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10416,7 +10416,7 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = 0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10434,7 +10434,7 @@ focus_tree = {
 			add_manpower = 3500
 			add_war_support = 0.02
 			army_experience = 15
-		}
+		}		
 	}
 
 	focus = {
@@ -10456,7 +10456,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = NFA_cdg_elections
 			add_political_power = 50
-		}
+		}		
 	}
 
 	focus = {
@@ -10479,8 +10479,8 @@ focus_tree = {
 			add_popularity = {
 				ideology = market_liberal
 				popularity = 0.06
-			}
-		}
+			}	
+		}		
 	}
 
 	focus = {
@@ -10499,7 +10499,7 @@ focus_tree = {
 				remove_idea = NFA_new_liberal_government
 				add_idea = NFA_new_liberal_government2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10520,7 +10520,7 @@ focus_tree = {
 				popularity = 0.04
 			}
 			add_political_power = 35
-		}
+		}		
 	}
 
 	focus = {
@@ -10576,7 +10576,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10592,7 +10592,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_a_responsible_market
-		}
+		}		
 	}
 
 	focus = {
@@ -10614,7 +10614,7 @@ focus_tree = {
 				ideology = market_liberal
 				popularity = 0.08
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10638,7 +10638,7 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = 0.06
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10657,7 +10657,7 @@ focus_tree = {
 				remove_idea = NFA_new_centralisation
 				add_idea = NFA_new_centralisation2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10690,9 +10690,9 @@ focus_tree = {
 				ideology = authoritarian_democrat
 				popularity = 0.02
 			}
-		}
+		    }
 			add_command_power = 15
-		}
+		}		
 	}
 
 	focus = {
@@ -10708,7 +10708,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_centralised_economy
-		}
+		}		
 	}
 
 	focus = {
@@ -10727,7 +10727,7 @@ focus_tree = {
 				remove_idea = NFA_centralised_economy
 				add_idea= NFA_centralised_economy2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10759,12 +10759,12 @@ focus_tree = {
 				}
 			}
 			else = {
-				add_popularity = {
-					ideology = authoritarian_democrat
-					popularity = 0.03
-				}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.03
 			}
-		}
+		    }
+		}		
 	}
 
 	focus = {
@@ -10785,7 +10785,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_command_power = 5
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -10824,7 +10824,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.266 days = 15 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10846,7 +10846,7 @@ focus_tree = {
 			add_popularity = {
 				ideology = radical_socialist
 				popularity = -0.03
-			}
+			}	
 			add_popularity = {
 				ideology = syndicalist
 				popularity = -0.03
@@ -10855,7 +10855,7 @@ focus_tree = {
 				ideology = totalist
 				popularity = -0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10876,7 +10876,7 @@ focus_tree = {
 				ideology = paternal_autocrat
 				popularity = 0.03
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10895,7 +10895,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = natfra.267
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10915,7 +10915,7 @@ focus_tree = {
 				remove_idea = NFA_populist_dominance
 				add_idea = NFA_populist_dominance2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10937,7 +10937,7 @@ focus_tree = {
 				ideology = paternal_autocrat
 				popularity = 0.02
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10961,7 +10961,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.271 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -10981,7 +10981,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -11004,7 +11004,7 @@ focus_tree = {
 			add_popularity = {
 				ideology = social_liberal
 				popularity = -0.03
-			}
+			}	
 			add_popularity = {
 				ideology = market_liberal
 				popularity = -0.04
@@ -11013,7 +11013,7 @@ focus_tree = {
 				ideology = social_conservative
 				popularity = -0.02
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11077,7 +11077,7 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}	
 	}
 
 	focus = {
@@ -11121,7 +11121,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11149,7 +11149,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.282 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11176,7 +11176,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.281 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11199,7 +11199,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11248,7 +11248,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 
 	}
 
@@ -11272,7 +11272,7 @@ focus_tree = {
 				remove_idea = NFA_modern_bonapartism_idea
 				add_idea = NFA_modern_bonapartism_idea2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11292,7 +11292,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -11313,7 +11313,7 @@ focus_tree = {
 				remove_idea = NFA_social_catholic_politics
 				add_idea = NFA_social_catholic_politics2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11333,7 +11333,7 @@ focus_tree = {
 				remove_idea = NFA_populist_dominance2
 				add_idea = NFA_populist_dominance3
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11380,7 +11380,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.274 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11389,7 +11389,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_steady_continuity }
 		icon = GFX_goal_NFA_Social_Catholicism
 		x = 0
-		y = 2
+		y = 2	
 		relative_position_id = NFA_vallin
 		cost = 5
 		ai_will_do = {
@@ -11406,7 +11406,7 @@ focus_tree = {
 				remove_idea = NFA_social_catholic_politics2
 				add_idea = NFA_social_catholic_politics3
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11414,7 +11414,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_steady_continuity }
 		icon = GFX_goal_NFA_Corporatism_Working_Man
 		x = -2
-		y = 2
+		y = 2	
 		relative_position_id = NFA_vallin
 		cost = 5
 		ai_will_do = {
@@ -11444,7 +11444,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11455,7 +11455,7 @@ focus_tree = {
 		mutually_exclusive = { focus = NFA_maintain_legalist_power }
 		icon = GFX_goal_NFA_Necessity_Reform
 		x = -1
-		y = 3
+		y = 3	
 		relative_position_id = NFA_vallin
 		cost = 5
 		ai_will_do = {
@@ -11463,7 +11463,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = natfra.272
-		}
+		}		
 	}
 
 	focus = {
@@ -11474,7 +11474,7 @@ focus_tree = {
 		mutually_exclusive = { focus = NFA_necessity_of_reform }
 		icon = GFX_goal_NFA_Legalism
 		x = 1
-		y = 3
+		y = 3	
 		relative_position_id = NFA_vallin
 		cost = 5
 		ai_will_do = {
@@ -11482,7 +11482,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = natfra.273
-		}
+		}		
 	}
 
 	focus = {
@@ -11490,7 +11490,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_maintain_legalist_power }
 		icon = GFX_goal_NFA_Lorraine_Girl
 		x = 2
-		y = 4
+		y = 4	
 		relative_position_id = NFA_vallin
 		cost = 3
 		ai_will_do = {
@@ -11509,7 +11509,7 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11517,7 +11517,7 @@ focus_tree = {
 		prerequisite = { focus = NFA_necessity_of_reform }
 		icon = GFX_goal_NFA_Peel_Back_Repression
 		x = -2
-		y = 4
+		y = 4	
 		relative_position_id = NFA_vallin
 		cost = 3
 		ai_will_do = {
@@ -11541,7 +11541,7 @@ focus_tree = {
 				ideology = market_liberal
 				popularity = 0.01
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11569,20 +11569,20 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 350
-				producer = NFA
+			type = infantry_equipment
+			amount = 350
+			producer = NFA
 			}
 			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 200
-				producer = FRA
+			type = support_equipment
+			amount = 200
+			producer = FRA
 			}
 			swap_ideas = {
 				remove_idea = NFA_social_catholic_politics3
 				add_idea = NFA_social_catholic_politics4
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11600,7 +11600,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_etat_presidentiel
 			country_event = natfra.275
-		}
+		}		
 	}
 
 	focus = {
@@ -11618,7 +11618,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = NFA_la_democratie_populiste
 			country_event = natfra.276
-		}
+		}		
 	}
 
 	focus = {
@@ -11638,7 +11638,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			increase_ruling_party_popularity_by_3 = yes
-		}
+		}		
 	}
 
 	focus = {
@@ -11659,7 +11659,7 @@ focus_tree = {
 				popularity = 0.01
 			}
 			add_ideas = NFA_the_new_generation
-		}
+		}		
 	}
 
 	focus = {
@@ -11700,7 +11700,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.279 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11717,7 +11717,7 @@ focus_tree = {
 		completion_reward = {
 			add_command_power = 35
 			add_ideas = NFA_fraternal_france
-		}
+		}		
 	}
 
 	focus = {
@@ -11744,7 +11744,7 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11763,7 +11763,7 @@ focus_tree = {
 			add_stability = -0.03
 			add_war_support = 0.07
 			add_command_power = 50
-		}
+		}		
 	}
 
 	focus = {
@@ -11786,7 +11786,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.277 }
 			}
-		}
+		}	
 	}
 
 	focus = {
@@ -11820,7 +11820,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { id = natfra.278 }
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11836,13 +11836,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-				ideology = paternal_autocrat
-				popularity = 0.05
+			ideology = paternal_autocrat
+			popularity = 0.05
 			}
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 1000
-				producer = NFA
+			type = infantry_equipment
+			amount = 1000
+			producer = NFA
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -11859,7 +11859,7 @@ focus_tree = {
 				remove_idea = NFA_the_new_generation
 				add_idea = NFA_the_new_generation2
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -11887,7 +11887,7 @@ focus_tree = {
 					days = 56
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -11915,11 +11915,11 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -29
-			y = -20
-			trigger = {
-				has_country_flag = NFA_compromised_with_liberals 
-			}
+		x = -29
+		y = -20
+		trigger = {
+			has_country_flag = NFA_compromised_with_liberals 
+		}
 		}
 		completion_reward = {
 			custom_effect_tooltip = NFA_democrats_liberation_tooltip
@@ -11944,7 +11944,7 @@ focus_tree = {
 			add_popularity = {
 				ideology = radical_socialist
 				popularity = -0.02
-			}
+			}	
 			add_popularity = {
 				ideology = syndicalist
 				popularity = -0.04
@@ -11959,7 +11959,7 @@ focus_tree = {
 					days = 17
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -12007,7 +12007,7 @@ focus_tree = {
 					days = 49
 				}
 			}
-		}
+		}		
 	}
 
 	focus = {
@@ -12031,7 +12031,7 @@ focus_tree = {
 					days = 34
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12054,7 +12054,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = NFA_new_presidents_tooltip
-		}
+		}		
 	}
 	
 	focus = {
@@ -12073,7 +12073,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = natfra.286
-		}
+		}		
 	}
 	
 	focus = {
@@ -12095,8 +12095,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Parti Radical have won the election!"
-		}
+			custom_effect_tooltip = "Радикальная партия победила на выборах!"
+		}		
 	}
 	
 	focus = {
@@ -12132,7 +12132,7 @@ focus_tree = {
 				limit = { has_government = social_democrat }
 				add_soclib_to_coalition = yes
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12153,8 +12153,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = NFA_liberty_no_compromise
-		}
+					add_ideas = NFA_liberty_no_compromise
+		}		
 	}
 	
 	focus = {
@@ -12180,14 +12180,14 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = NFA_traditional_parliament
+						add_ideas = NFA_traditional_parliament
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.43
 					days = 63
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12219,11 +12219,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			swap_ideas = {
-				add_idea = NFA_PR_economic_liberalisation_idea
-				remove_idea = NFA_start_economic_liberalisation_idea
-			}
-		}
+						swap_ideas = {
+							add_idea = NFA_PR_economic_liberalisation_idea
+							remove_idea = NFA_start_economic_liberalisation_idea
+						}
+		}		
 	}
 	
 	focus = {
@@ -12245,7 +12245,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			increase_ruling_party_popularity_by_5 = yes
-			add_political_power = -35
+						add_political_power = -35
 			add_stability = 0.05
 			add_popularity = {
 				ideology = social_democrat
@@ -12255,7 +12255,7 @@ focus_tree = {
 				ideology = radical_socialist
 				popularity = 0.06
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12276,8 +12276,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = NFA_welfare_le_people
-		}
+						add_ideas = NFA_welfare_le_people
+		}		
 	}
 	
 	focus = {
@@ -12298,8 +12298,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = NFA_hate_clericals
-		}
+						add_ideas = NFA_hate_clericals
+		}		
 	}
 	
 	focus = {
@@ -12332,7 +12332,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12353,14 +12353,14 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_ideas = NFA_honored_rev
+						add_ideas = NFA_honored_rev
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.44
 					days = 3
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12390,10 +12390,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						add_political_power = 100
 			add_stability = 0.10
-			add_ideas = NFA_social_rep
-		}
+						add_ideas = NFA_social_rep
+		}		
 	}
 	
 	focus = {
@@ -12412,8 +12412,8 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Alliance Démocratique have won the election!"
-		}
+			custom_effect_tooltip = "Демократический альянс победил на выборах!"
+		}		
 	}
 	
 	focus = {
@@ -12431,7 +12431,7 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			add_ideas = NFA_political_unity
+						add_ideas = NFA_political_unity
 			add_popularity = {
 				ideology = social_democrat
 				popularity =  0.02
@@ -12448,7 +12448,7 @@ focus_tree = {
 				ideology = social_conservative
 				popularity = 0.04
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12467,9 +12467,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			increase_ruling_party_popularity_by_5 = yes
-			add_political_power = 50
+						add_political_power = 50
 			add_stability = -0.05
-		}
+		}		
 	}
 	
 	focus = {
@@ -12492,14 +12492,14 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			add_ideas = NFA_guizeau_legacy
+						add_ideas = NFA_guizeau_legacy
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.45
 					days = 2
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12517,11 +12517,11 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			swap_ideas = {
-				add_idea = NFA_AD_economic_liberalisation_idea
-				remove_idea = NFA_start_economic_liberalisation_idea
-			}
-		}
+						swap_ideas = {
+							add_idea = NFA_AD_economic_liberalisation_idea
+							remove_idea = NFA_start_economic_liberalisation_idea
+						}
+		}		
 	}
 	
 	focus = {
@@ -12550,7 +12550,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_political_power = -50
+						add_political_power = -50
 			add_stability = 0.05
 			hidden_effect = {
 				country_event = {
@@ -12558,7 +12558,7 @@ focus_tree = {
 					days = 29
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12576,8 +12576,8 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			add_ideas = NFA_launch_business
-		}
+						add_ideas = NFA_launch_business
+		}		
 	}
 	
 	focus = {
@@ -12606,8 +12606,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = NFA_reaffirmed_laicity
-		}
+						add_ideas = NFA_reaffirmed_laicity
+		}		
 	}
 	
 	focus = {
@@ -12641,7 +12641,7 @@ focus_tree = {
 				ideology = syndicalist
 				popularity = -0.07
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12659,8 +12659,8 @@ focus_tree = {
 			has_government = market_liberal
 		}
 		completion_reward = {
-			add_ideas = NFA_republican_patriots
-		}
+						add_ideas = NFA_republican_patriots
+		}		
 	}
 	
 	focus = {
@@ -12687,10 +12687,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						add_political_power = 100
 			add_stability = 0.10
-			add_ideas = NFA_theory_milieu
-		}
+						add_ideas = NFA_theory_milieu
+		}		
 	}
 	
 	focus = {
@@ -12709,8 +12709,8 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Fédération Républicaine have won the election!"
-		}
+			custom_effect_tooltip = "Республиканская федерация победила на выборах!"
+		}		
 	}
 	
 	focus = {
@@ -12744,7 +12744,7 @@ focus_tree = {
 				ideology = syndicalist
 				popularity = -0.10
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12762,7 +12762,7 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_ideas = NFA_rad_allies 
+						add_ideas = NFA_rad_allies 
 			add_popularity = {
 				ideology = paternal_autocrat
 				popularity = 0.02
@@ -12777,7 +12777,7 @@ focus_tree = {
 					days = 69
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12800,8 +12800,8 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_ideas = NFA_republican_nat_conservativism
-		}
+						add_ideas = NFA_republican_nat_conservativism
+		}		
 	}
 	
 	focus = {
@@ -12830,11 +12830,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			swap_ideas = {
-				add_idea = NFA_FR_economic_liberalisation_idea
-				remove_idea = NFA_start_economic_liberalisation_idea
-			}
-		}
+						swap_ideas = {
+							add_idea = NFA_FR_economic_liberalisation_idea
+							remove_idea = NFA_start_economic_liberalisation_idea
+						}
+		}		
 	}
 	
 	focus = {
@@ -12852,10 +12852,10 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						increase_ruling_party_popularity_by_10 = yes
+						add_political_power = 100
 			add_stability = 0.05
-		}
+		}		
 	}
 	
 	focus = {
@@ -12873,8 +12873,8 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_ideas = NFA_middle_class_triumph
-		}
+						add_ideas = NFA_middle_class_triumph
+		}		
 	}
 	
 	focus = {
@@ -12892,7 +12892,7 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_ideas = NFA_secular_faithful
+						add_ideas = NFA_secular_faithful
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = ROOT
@@ -12904,7 +12904,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12922,9 +12922,9 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_political_power = -50
+						add_political_power = -50
 			add_stability = 0.10
-		}
+		}		
 	}
 	
 	focus = {
@@ -12942,14 +12942,14 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			add_ideas = NFA_dont_forgor_1872
+						add_ideas = NFA_dont_forgor_1872
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.47
 					days = 4
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -12975,11 +12975,11 @@ focus_tree = {
 			has_government = social_conservative
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						increase_ruling_party_popularity_by_10 = yes
+						add_political_power = 100
 			add_stability = 0.10
-			add_ideas = NFA_duces_france
-		}
+						add_ideas = NFA_duces_france
+		}		
 	}
 	
 	focus = {
@@ -12998,8 +12998,8 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			custom_effect_tooltip = "La Croix-De-Feu have won the election!"
-		}
+			custom_effect_tooltip = "La Croix-De-Feu победили на выборах!"
+		}		
 	}
 	
 	focus = {
@@ -13017,8 +13017,8 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			add_ideas = NFA_convinced_deps
-		}
+						add_ideas = NFA_convinced_deps
+		}		
 	}
 	
 	focus = {
@@ -13036,15 +13036,15 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_5 = yes
-			add_political_power = 100
+						increase_ruling_party_popularity_by_5 = yes
+						add_political_power = 100
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.49
 					days = 29
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13067,8 +13067,8 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			add_ideas = NFA_death_to_republic
-			add_popularity = {
+						add_ideas = NFA_death_to_republic
+						add_popularity = {
 				ideology = social_liberal
 				popularity = -0.20
 			}
@@ -13090,7 +13090,7 @@ focus_tree = {
 					days = 6
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13108,8 +13108,8 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			add_ideas = NFA_world_war_vets
-		}
+						add_ideas = NFA_world_war_vets
+		}		
 	}
 	
 	focus = {
@@ -13137,7 +13137,7 @@ focus_tree = {
 					days = 5
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13155,8 +13155,8 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			add_ideas = NFA_reaffirm_church
-		}
+						add_ideas = NFA_reaffirm_church
+		}		
 	}
 	
 	focus = {
@@ -13185,11 +13185,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			swap_ideas = {
-				add_idea = NFA_CDG_social_republic_idea
-				remove_idea = NFA_start_economic_liberalisation_idea
-			}
-		}
+						swap_ideas = {
+							add_idea = NFA_CDG_social_republic_idea
+							remove_idea = NFA_start_economic_liberalisation_idea
+						}
+		}		
 	}
 	
 	focus = {
@@ -13207,7 +13207,7 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			add_popularity = {
+						add_popularity = {
 				ideology = syndicalist
 				popularity = -0.50
 			}
@@ -13223,7 +13223,7 @@ focus_tree = {
 				ideology = radical_socialist
 				popularity = -0.50
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13252,8 +13252,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = NFA_people_coporatist_eco
-		}
+						add_ideas = NFA_people_coporatist_eco
+		}		
 	}
 	
 	focus = {
@@ -13279,11 +13279,11 @@ focus_tree = {
 			has_government = paternal_autocrat
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						increase_ruling_party_popularity_by_10 = yes
+						add_political_power = 100
 			add_stability = 0.10
-			add_ideas = NFA_fourth_repub_chads
-		}
+						add_ideas = NFA_fourth_repub_chads
+		}		
 	}
 	
 	focus = {
@@ -13302,8 +13302,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			custom_effect_tooltip = "Action Française have won the election!"
-		}
+			custom_effect_tooltip = "Франзузское действие выиграло выборы!"
+		}		
 	}
 	
 	focus = {
@@ -13321,8 +13321,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_5 = yes
-			add_political_power = 50
+						increase_ruling_party_popularity_by_5 = yes
+						add_political_power = 50
 			add_stability = 0.10
 			hidden_effect = {
 				country_event = {
@@ -13330,7 +13330,7 @@ focus_tree = {
 					days = 78
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13359,11 +13359,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			swap_ideas = {
-				add_idea = NFA_AF_syndie_to_corpo_idea
-				remove_idea = NFA_start_economic_liberalisation_idea
-			}
-		}
+						swap_ideas = {
+							add_idea = NFA_AF_syndie_to_corpo_idea
+							remove_idea = NFA_start_economic_liberalisation_idea
+						}
+		}		
 	}
 	
 	focus = {
@@ -13386,10 +13386,10 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_5 = yes
-			add_political_power = 50
-			add_ideas = NFA_righting_theirs_wrongs
-		}
+						increase_ruling_party_popularity_by_5 = yes
+						add_political_power = 50
+						add_ideas = NFA_righting_theirs_wrongs
+		}		
 	}
 	
 	focus = {
@@ -13407,8 +13407,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			add_ideas = NFA_toned_rhetoric
-		}
+						add_ideas = NFA_toned_rhetoric
+		}		
 	}
 	
 	focus = {
@@ -13426,8 +13426,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			add_ideas = NFA_mod_camelots
-		}
+						add_ideas = NFA_mod_camelots
+		}		
 	}
 	
 	focus = {
@@ -13445,14 +13445,14 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			add_ideas = NFA_mc_mahon_legacy
+						add_ideas = NFA_mc_mahon_legacy
 			hidden_effect = {
 				country_event = {
 					id = flavorfra.51
 					days = 7
 				}
 			}
-		}
+		}		
 	}
 	
 	focus = {
@@ -13481,8 +13481,8 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = NFA_decen_france
-		}
+						add_ideas = NFA_decen_france
+		}		
 	}
 	
 	focus = {
@@ -13503,7 +13503,7 @@ focus_tree = {
 			add_political_power = 100
 			army_experience = 75
 			add_manpower = 3500
-		}
+		}		
 	}
 	
 	focus = {
@@ -13521,8 +13521,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			add_ideas = NFA_local_cultures_reaffirmed
-		}
+						add_ideas = NFA_local_cultures_reaffirmed
+		}		
 	}
 	
 	focus = {
@@ -13548,11 +13548,11 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			increase_ruling_party_popularity_by_10 = yes
-			add_political_power = 100
+						increase_ruling_party_popularity_by_10 = yes
+						add_political_power = 100
 			add_stability = 0.10
-			add_ideas = NFA_organic_republic
-		}
+						add_ideas = NFA_organic_republic
+		}		
 	}
 
 		#Darnand Post Lib
@@ -13574,12 +13574,12 @@ focus_tree = {
 			has_country_flag = NFA_france_free
 		}
 		offset = {
-			x = -36
-			y = -4
-			trigger = {
-				has_country_flag = NFA_darnand_in_charge 
-			}
+		x = -36
+		y = -4
+		trigger = {
+			has_country_flag = NFA_darnand_in_charge 
 		}
+	}
 		allow_branch = {
 			NOT = {
 				OR = {
@@ -13593,14 +13593,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = NFA_darnand_liberation_tooltip
-		}
+		}		
 	}
 	focus = {
 		id = NFA_master_dillemma
 		icon = GFX_goal_NFA_Master_Stage
 		x = 0
 		y = 1
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 3
 		ai_will_do = {
 			factor = 80
@@ -13616,19 +13616,19 @@ focus_tree = {
 					days = 92
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_noveau_saint_pere
 		icon = GFX_goal_NFA_New_Holy_Father
 		x = -2
 		y = 2
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 1
 		ai_will_do = {
 			factor = 80
 		}
-		mutually_exclusive = { focus = NFA_maitre_de_france focus = NFA_couronne_ma_glorie }
+				mutually_exclusive = { focus = NFA_maitre_de_france focus = NFA_couronne_ma_glorie }
 		prerequisite = {
 			focus = NFA_master_dillemma
 		}
@@ -13643,19 +13643,19 @@ focus_tree = {
 					days = 137
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_maitre_de_france
 		icon = GFX_goal_NFA_Maintain_Master_France
 		x = 0
 		y = 2
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 1
 		ai_will_do = {
 			factor = 80
 		}
-		mutually_exclusive = { focus = NFA_noveau_saint_pere focus = NFA_couronne_ma_glorie }
+				mutually_exclusive = { focus = NFA_noveau_saint_pere focus = NFA_couronne_ma_glorie }
 		prerequisite = {
 			focus = NFA_master_dillemma
 		}
@@ -13670,19 +13670,19 @@ focus_tree = {
 					days = 124
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_couronne_ma_glorie
 		icon = GFX_goal_NFA_Take_Crown
 		x = 2
 		y = 2
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 1
 		ai_will_do = {
 			factor = 80
 		}
-		mutually_exclusive = { focus = NFA_noveau_saint_pere focus = NFA_maitre_de_france }
+				mutually_exclusive = { focus = NFA_noveau_saint_pere focus = NFA_maitre_de_france }
 		prerequisite = {
 			focus = NFA_master_dillemma
 		}
@@ -13697,33 +13697,33 @@ focus_tree = {
 					days = 119
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_long_chermin
 		icon = GFX_goal_NFA_Long_Wait
 		x = 0
 		y = 3
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
 		}
 		prerequisite = {
 			focus = NFA_couronne_ma_glorie
-			focus = NFA_noveau_saint_pere
-			focus = NFA_maitre_de_france
+						focus = NFA_noveau_saint_pere
+						focus = NFA_maitre_de_france
 		}
 		completion_reward = {
 			add_ideas = NFA_long_march
-		}
+		}		
 	}
 	focus = {
 		id = NFA_exterminate_vermin
 		icon = GFX_goal_NFA_Kill_Rats
 		x = 0
 		y = 4
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13737,14 +13737,14 @@ focus_tree = {
 				add_idea = NFA_long_march2
 			}
 			custom_effect_tooltip = NFA_syndie_resistance_big_decline
-		}
+		}	
 	}
 	focus = {
 		id = NFA_chained_economy
 		icon = GFX_goal_NFA_Put_Chains_Labour
 		x = -2
 		y = 4
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13776,14 +13776,14 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_strict_moral_codes
 		icon = GFX_goal_NFA_Restore_Medieval_Morals
 		x = 2
 		y = 4
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13793,14 +13793,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_moral_codes
-		}
+		}		
 	}
 	focus = {
 		id = NFA_fidel_youth
 		icon = GFX_goal_NFA_Youth_Devotion
 		x = 4
 		y = 5
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13810,14 +13810,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_legionary_youth
-		}
+		}		
 	}
 	focus = {
 		id = NFA_ancien_combatants
 		icon = GFX_goal_NFA_Ancient_Combatants
 		x = 2
 		y = 5
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13836,14 +13836,14 @@ focus_tree = {
 			hidden_effect = {
 				country_event = darnfra.7
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_legioneers_at_helm
 		icon = GFX_goal_NFA_Legion_Control
 		x = -4
 		y = 5
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13878,14 +13878,14 @@ focus_tree = {
 			hidden_effect = {
 				country_event = darnfra.6
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_travail_obligatoire
 		icon = GFX_goal_NFA_Mandatory_Work_Service
 		x = -2
 		y = 5
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13898,14 +13898,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_work_now
-		}
+		}		
 	}
 	focus = {
 		id = NFA_reward_loyalty
 		icon = GFX_goal_NFA_Reward_Loyal_Men
 		x = 0
 		y = 5
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 3
 		ai_will_do = {
 			factor = 80
@@ -13916,14 +13916,14 @@ focus_tree = {
 		completion_reward = {
 			increase_ruling_party_popularity_by_5 = yes
 			add_political_power = 25
-		}
+		}		
 	}
 	focus = {
 		id = NFA_magnifique_recompense
 		icon = GFX_goal_NFA_Magnificent_Reward
 		x = 0
 		y = 6
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13948,14 +13948,14 @@ focus_tree = {
 				remove_idea = NFA_long_march2
 				add_idea = NFA_long_march3
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_pure_immaculee
 		icon = GFX_goal_NFA_Restore_Purity
 		x = -1
 		y = 7
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13972,14 +13972,14 @@ focus_tree = {
 			hidden_effect = {
 				country_event = darnfra.5
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_forte_courageuse
 		icon = GFX_goal_NFA_Strong_Courage
 		x = 1
 		y = 7
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 5
 		ai_will_do = {
 			factor = 80
@@ -13989,14 +13989,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_epic_army
-		}
+		}		
 	}
 	focus = {
 		id = NFA_dardand_france_eternelle
 		icon = GFX_goal_NFA_Eternal_France
 		x = 0
 		y = 8
-		relative_position_id = NFA_la_france_nouvelle
+				relative_position_id = NFA_la_france_nouvelle
 		cost = 6
 		ai_will_do = {
 			factor = 80
@@ -14012,7 +14012,7 @@ focus_tree = {
 				remove_idea = NFA_long_march3
 				add_idea = NFA_long_march4
 			}
-		}
+		}		
 	}
 	##pope pius xii##
 	focus = {
@@ -14028,7 +14028,7 @@ focus_tree = {
 		available = {
 			has_country_flag = NFA_pius_is_actual_pope
 		}
-		allow_branch = {
+				allow_branch = {
 			NOT = {
 				OR = {
 					has_country_flag = NFA_compromised_with_liberals
@@ -14042,7 +14042,7 @@ focus_tree = {
 		bypass = {
 			has_country_flag = NFA_pius_is_actual_pope
 		}
-		offset = {
+				offset = {
 			x = -12
 			y = 0
 			trigger = {
@@ -14051,7 +14051,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = unlock_focuses
-		}
+		}		
 	}
 	focus = {
 		id = NFA_cleanse_rome
@@ -14074,7 +14074,7 @@ focus_tree = {
 				idea = NFA_cleanse_rome_idea
 				days = 180
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_fix_federalism
@@ -14100,7 +14100,7 @@ focus_tree = {
 					days = 25
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_sins_of_holy_father
@@ -14130,8 +14130,8 @@ focus_tree = {
 			focus = NFA_sede_es_petri
 		}
 		completion_reward = {
-			custom_effect_tooltip = "The actions of the Roman Pretender shall be reviewed"
-		}
+			custom_effect_tooltip = "Действия римского притворщика должны быть пересмотрены"
+		}		
 	}
 	focus = {
 		id = NFA_second_council_of_trent
@@ -14162,14 +14162,14 @@ focus_tree = {
 			focus = NFA_sins_of_holy_father
 		}
 		completion_reward = {
-			custom_effect_tooltip = "The Second Council of Trent shal be held, and the Church shall be made to see that Legionarism is Catholicism, and Catholicism is Legionarism."
+			custom_effect_tooltip = "Должен состояться Второй Трентский собор, и Церковь должна увидеть, что легионерство - это католицизм, а католицизм - это легионерство."
 			hidden_effect = {
 				country_event = {
 					id = popefra.13
 					days = 50
 				}
 			}
-		}
+		}		
 	}
 	focus = {
 		id = NFA_implment_council
@@ -14189,7 +14189,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = NFA_council_of_trent
-		}
+		}		
 	}
 	focus = {
 		id = NFA_reform_papal_succesion
@@ -14215,7 +14215,7 @@ focus_tree = {
 					days = 120
 				}
 			}
-		}
+		}		
 	}
 	##Fp##
 	focus = {
@@ -14269,7 +14269,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_war_support = 0.15
-		}
+		}			
 	}
 	focus = {
 		id = NFA_kill_germany_now
@@ -14292,7 +14292,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = "It's time to end the German menace once and for all!"
+			custom_effect_tooltip = "Пришло время покончить с немецкой угрозой раз и навсегда!"
 			create_wargoal = {
 				type = annex_everything
 				target = GER
@@ -14323,7 +14323,7 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 5000
 			add_political_power = 50
-		}
+		}			
 	}
 	focus = {
 		id = NFA_africa_colony
@@ -14352,142 +14352,142 @@ focus_tree = {
 		}
 		completion_reward = {
 			if = {
-				limit = {
-					has_global_flag = MAF_collapse
-					NOT = {
-						FAR = {
-							is_subject_of = NFA
+					limit = {
+						has_global_flag = MAF_collapse
+						NOT = {
+							FAR = {
+								is_subject_of = NFA
+							}
 						}
 					}
-				}
 				custom_effect_tooltip = NFA_African_Claims_tt
-				claim_mittelafrika = yes
+					claim_mittelafrika = yes
 				wargoals_on_mittelafrika = yes
-			}
-			else_if = {
-				limit = {
-					has_global_flag = MAF_collapse
-					FAR = { is_subject_of = NFA }
 				}
+				else_if = {
+					limit = {
+						has_global_flag = MAF_collapse
+					FAR = { is_subject_of = NFA }
+					}
 				wargoals_on_mittelafrika = yes
 				FAR = { claim_mittelafrika = yes }
 				every_state = {
 					limit = { is_claimed_by = FAR }
 					FAR = { add_state_core = PREV }
 				}
-			}
-			else_if = {
-				limit = {
+				}
+				else_if = {
+					limit = {
 					MAF = { exists = yes }
 					NOT = { FAR = { is_subject_of = NFA } }
-				}
-				every_state = {
-					limit = {
-						is_owned_by = MAF
 					}
-					add_claim_by = NFA
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = MAF
-				}
-				every_state = {
-					limit = {
-						is_owned_by = COG
+					every_state = {
+						limit = {
+							is_owned_by = MAF
+						}
+						add_claim_by = NFA
 					}
-					add_claim_by = NFA
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = COG
-				}
-				every_state = {
-					limit = {
-						is_owned_by = MAG
-					}
-					add_claim_by = NFA
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = MAG
-				}
-				every_state = {
-					limit = {
-						is_owned_by = CIV
-					}
-					add_claim_by = NFA
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = CIV
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = MAF
 			}
-			else_if = {
-				limit = {
-					MAF = {
-						exists = yes
+					every_state = {
+						limit = {
+							is_owned_by = COG
+						}
+						add_claim_by = NFA
 					}
-					FAR = {
-						is_subject_of = NFA
-					}
-				}
-				every_state = {
-					limit = {
-						is_owned_by = MAF
-					}
-					add_core_of = FAR
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = MAF
-				}
-				every_state = {
-					limit = {
-						is_owned_by = COG
-					}
-					add_core_of = FAR
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = COG
-				}
-				every_state = {
-					limit = {
-						is_owned_by = MAG
-					}
-					add_core_of = FAR
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = MAG
-				}
-				every_state = {
-					limit = {
-						is_owned_by = CIV
-					}
-					add_core_of = FAR
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = CIV
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = COG
 			}
-			if = {
-				limit = {
-					FAR = {
-						is_subject_of = NFA
+					every_state = {
+						limit = {
+							is_owned_by = MAG
+						}
+						add_claim_by = NFA
 					}
-				}
-				every_state = {
-					limit = {
-						is_on_continent = africa
-					}
-					FAR = {
-						add_state_core = PREV
-					}
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = MAG
 			}
-		}
+					every_state = {
+						limit = {
+							is_owned_by = CIV
+						}
+						add_claim_by = NFA
+					}
+						create_wargoal = {
+			type = annex_everything
+			target = CIV
+			}
+				}
+				else_if = {
+					limit = {
+						MAF = {
+							exists = yes
+						}
+						FAR = {
+							is_subject_of = NFA
+							}
+					}
+					every_state = {
+						limit = {
+							is_owned_by = MAF
+						}
+						add_core_of = FAR
+					}
+					create_wargoal = {
+			type = annex_everything
+			target = MAF
+			}
+					every_state = {
+						limit = {
+							is_owned_by = COG
+						}
+						add_core_of = FAR
+					}
+					create_wargoal = {
+			type = annex_everything
+			target = COG
+			}
+					every_state = {
+						limit = {
+							is_owned_by = MAG
+						}
+						add_core_of = FAR
+					}
+					create_wargoal = {
+			type = annex_everything
+			target = MAG
+			}
+					every_state = {
+						limit = {
+							is_owned_by = CIV
+						}
+						add_core_of = FAR
+					}
+						create_wargoal = {
+			type = annex_everything
+			target = CIV
+			}
+				}
+					if = {
+					limit = {
+						FAR = {
+							is_subject_of = NFA
+						}
+					}
+					every_state = {
+						limit = {
+							is_on_continent = africa
+						}
+						FAR = {
+							add_state_core = PREV
+						}
+					}
+				}
+		}			
 	}
 	focus = {
 		id = NFA_return_to_indochina
@@ -14514,23 +14514,23 @@ focus_tree = {
 				}
 				NFA = { add_state_claim = PREV }
 			}
-			create_wargoal = {
-				type = annex_everything
-				target = 750.owner
+				create_wargoal = {
+			type = annex_everything
+			target = 750.owner
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = 670.owner
+			type = annex_everything
+			target = 670.owner
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = 286.owner
+			type = annex_everything
+			target = 286.owner
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = 827.owner
+			type = annex_everything
+			target = 827.owner
 			}
-		}
+		}			
 	}
 	focus = {
 		id = NFA_trve_colonies
@@ -14566,8 +14566,8 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { is_faction_leader = yes }
-				if = {
-					limit = {
+			if = {
+				limit = {
 						USA = {
 							is_in_faction_with = NFA
 							is_subject = no
@@ -14961,72 +14961,72 @@ focus_tree = {
 				leave_faction = yes
 			}
 			371 = { add_claim_by = NFA }
-			370 = { add_claim_by = NFA }
-			1168 = { add_claim_by = NFA }
-			1156 = { add_claim_by = NFA }
-			372 = { add_claim_by = NFA }
-			368 = { add_claim_by = NFA }
-			373 = { add_claim_by = NFA }
-			1163 = { add_claim_by = NFA }
-			369 = { add_claim_by = NFA }
-			261 = { add_claim_by = NFA }
-			1153 = { add_claim_by = NFA }
-			1151 = { add_claim_by = NFA }
-			1154 = { add_claim_by = NFA }
-			396 = { add_claim_by = NFA }
-			395 = { add_claim_by = NFA }
-			392 = { add_claim_by = NFA }
-			393 = { add_claim_by = NFA }
-			1152 = { add_claim_by = NFA }
-			394 = { add_claim_by = NFA }
-			1173 = { add_claim_by = NFA }
-			391 = { add_claim_by = NFA }
-			371 = { add_claim_by = NFA }
-			682 = { add_claim_by = NFA }
-			276 = { add_claim_by = NFA }
-			739 = { add_claim_by = NFA }
-			468 = { add_claim_by = NFA }
-			465 = { add_claim_by = NFA }
-			832 = { add_claim_by = NFA }
-			466 = { add_claim_by = NFA }
-			683 = { add_claim_by = NFA }
-			318 = { add_claim_by = NFA }
-			464 = { add_claim_by = NFA }
-			1330 = { add_claim_by = NFA }
-			1331 = { add_claim_by = NFA }
-			331 = { add_claim_by = NFA }
-			332 = { add_claim_by = NFA }
-			470 = { add_claim_by = NFA }
-			469 = { add_claim_by = NFA }
-			467 = { add_claim_by = NFA }
-			375 = { add_claim_by = NFA }
-			374 = { add_claim_by = NFA }
-			383 = { add_claim_by = NFA }
-			384 = { add_claim_by = NFA }
-			390 = { add_claim_by = NFA }
-			389 = { add_claim_by = NFA }
-			1175 = { add_claim_by = NFA }
-			1174 = { add_claim_by = NFA }
-			382 = { add_claim_by = NFA }
-			1150 = { add_claim_by = NFA }
-			381 = { add_claim_by = NFA }
-			388 = { add_claim_by = NFA }
-			387 = { add_claim_by = NFA }
-			1164 = { add_claim_by = NFA }
-			367 = { add_claim_by = NFA }
-			1167 = { add_claim_by = NFA }
-			1172 = { add_claim_by = NFA }
-			1157 = { add_claim_by = NFA }
-			730 = { add_claim_by = NFA }
+		370 = { add_claim_by = NFA }
+		1168 = { add_claim_by = NFA }
+		1156 = { add_claim_by = NFA }
+		372 = { add_claim_by = NFA }
+		368 = { add_claim_by = NFA }
+		373 = { add_claim_by = NFA }
+		1163 = { add_claim_by = NFA }
+		369 = { add_claim_by = NFA }
+		261 = { add_claim_by = NFA }
+		1153 = { add_claim_by = NFA }
+		1151 = { add_claim_by = NFA }
+		1154 = { add_claim_by = NFA }
+		396 = { add_claim_by = NFA }
+		395 = { add_claim_by = NFA }
+		392 = { add_claim_by = NFA }
+		393 = { add_claim_by = NFA }
+		1152 = { add_claim_by = NFA }
+		394 = { add_claim_by = NFA }
+		1173 = { add_claim_by = NFA }
+		391 = { add_claim_by = NFA }
+		371 = { add_claim_by = NFA }
+		682 = { add_claim_by = NFA }
+		276 = { add_claim_by = NFA }
+		739 = { add_claim_by = NFA }
+		468 = { add_claim_by = NFA }
+		465 = { add_claim_by = NFA }
+		832 = { add_claim_by = NFA }
+		466 = { add_claim_by = NFA }
+		683 = { add_claim_by = NFA }
+		318 = { add_claim_by = NFA }
+		464 = { add_claim_by = NFA }
+		1330 = { add_claim_by = NFA }
+		1331 = { add_claim_by = NFA }
+		331 = { add_claim_by = NFA }
+		332 = { add_claim_by = NFA }
+		470 = { add_claim_by = NFA }
+		469 = { add_claim_by = NFA }
+		467 = { add_claim_by = NFA }
+		375 = { add_claim_by = NFA }
+		374 = { add_claim_by = NFA }
+		383 = { add_claim_by = NFA }
+		384 = { add_claim_by = NFA }
+		390 = { add_claim_by = NFA }
+		389 = { add_claim_by = NFA }
+		1175 = { add_claim_by = NFA }
+		1174 = { add_claim_by = NFA }
+		382 = { add_claim_by = NFA }
+		1150 = { add_claim_by = NFA }
+		381 = { add_claim_by = NFA }
+		388 = { add_claim_by = NFA }
+		387 = { add_claim_by = NFA }
+		1164 = { add_claim_by = NFA }
+		367 = { add_claim_by = NFA }
+		1167 = { add_claim_by = NFA }
+		1172 = { add_claim_by = NFA }
+		1157 = { add_claim_by = NFA }
+		730 = { add_claim_by = NFA }
 			create_wargoal = {
-				type = annex_everything
-				target = 466.owner
+			type = annex_everything
+			target = 466.owner
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = 371.owner
+			type = annex_everything
+			target = 371.owner
 			}
-		}
+		}			
 	}
 	focus = {
 		id = NFA_great_peace
@@ -15047,8 +15047,8 @@ focus_tree = {
 			has_government = national_populist
 		}
 		completion_reward = {
-			custom_effect_tooltip = NFA_greatpeace_TT	
-			hidden_effect = {
+		custom_effect_tooltip = NFA_greatpeace_TT	
+		hidden_effect = {
 				NFA_montreal_peace_create_navajo = yes
 				NFA_montreal_peace_create_tlingit = yes
 				NFA_montreal_peace_create_wabanaki = yes
@@ -15091,7 +15091,7 @@ focus_tree = {
 			add_state_core = 165
 			add_state_core = 29
 			add_state_core = 1313
-		}
+		}		
 	}
 	focus = {
 		id = NFA_fuck_belgum
@@ -15108,18 +15108,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			create_wargoal = {
-				type = annex_everything
-				target = BEL
+			type = annex_everything
+			target = BEL
 			}
 			create_wargoal = {
-				type = annex_everything
-				target = WLL
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = FLN
-			}
+			type = annex_everything
+			target = WLL
 		}
+		create_wargoal = {
+			type = annex_everything
+			target = FLN
+		}
+		}			
 	}
 	focus = {
 		id = NFA_fuck_italy
@@ -15138,19 +15138,19 @@ focus_tree = {
 			create_wargoal = {
 				type = annex_everything
 				target = ITA
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SRI
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = PAP
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SIC
-			}
+				}
+		create_wargoal = {
+			type = annex_everything
+			target = SRI
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = PAP
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SIC
+		}
 			if  = {
 				limit = {
 					SCL = { exists = yes }
@@ -15160,7 +15160,7 @@ focus_tree = {
 					target = SCL
 				}
 			}
-		}
+		}			
 	}
 	focus = {
 		id = NFA_fuck_swiss
@@ -15180,7 +15180,7 @@ focus_tree = {
 			type = annex_everything
 			target = SWI
 			}
-		}
+		}			
 	}
 	focus = {
 		id = NFE_abandon_the_entente
@@ -15209,16 +15209,16 @@ focus_tree = {
 			add_state_claim = 1037
 			add_state_claim = 694
 			hidden_effect = {
-				if = {
+					if = {
 					limit = { is_in_faction_with = GER }
-					leave_faction = yes
-				}
+				leave_faction = yes
+			}
 				if = {
-					limit = {
-						is_in_faction_with = ENT
-					}
-					leave_faction = yes
+				limit = {
+					is_in_faction_with = ENT
 				}
+				leave_faction = yes
+			}
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_cont_system
@@ -15261,50 +15261,50 @@ focus_tree = {
 					country_exists = WGR
 					NOT = { is_in_faction_with = WGR }
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = WGR
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = WGR
+			}
 			}
 			if = {
 				limit = {
 					country_exists = GER
 					NOT = { is_in_faction_with = GER }
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = GER
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = GER
+			}
 			}
 			if = {
 				limit = {
 					country_exists = BAY
 					NOT = { is_in_faction_with = BAY }
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = BAY
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = BAY
+			}
 			}
 			if = {
 				limit = {
 					country_exists = DDR
 					NOT = { is_in_faction_with = DDR }
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = DDR
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = DDR
+			}
 			}
 			if = {
 				limit = {
 					country_exists = NGF
 					NOT = { is_in_faction_with = NGF }
 				}
-				create_wargoal = {
-					type = annex_everything
-					target = NGF
-				}
+					create_wargoal = {
+			type = annex_everything
+			target = NGF
+			}
 			}
 			
 			if = {
@@ -15724,13 +15724,13 @@ focus_tree = {
 					owns_state = 109
 				}
 				AND = {
-					owns_state = 103
-					owns_state = 163
-					owns_state = 1098
-					owns_state = 1099
-					owns_state = 1105
-					owns_state = 109
-				}
+				owns_state = 103
+				owns_state = 163
+				owns_state = 1098
+				owns_state = 1099
+				owns_state = 1105
+				owns_state = 109
+			}
 				CRO = { is_puppet_of = NFA }
 			}
 		}
@@ -15987,7 +15987,7 @@ focus_tree = {
 		
 		bypass = {
 			OR = {
-				NOT = { country_exists = MEX }
+			NOT = { country_exists = MEX }
 				MEX = { is_puppet_of = NFA }
 			}
 		}

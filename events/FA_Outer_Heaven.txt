@@ -395,7 +395,7 @@ country_event = { #fun with portraits
 	option = { #epic armor
 		name = outerheaven.9.b
 		if = {	
-			limit = { has_country_leader = { name = "Jacques Massu" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Жак Массю" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MSF/MSF_Jacques_Massu_Knight.png"
 			}
@@ -427,7 +427,7 @@ country_event = { #fun with portraits
 	option = { #epic armor
 		name = outerheaven.90.b
 		if = {	
-			limit = { has_country_leader = { name = "Jacques Massu" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Жак Массю" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/MSF/MSF_Jacques_Massu_Knight.png"
 			}
@@ -666,7 +666,7 @@ country_event = { #fuck goering
 		tag = MSF
 		has_war_with = TZN
 		has_country_leader = {
-			name = "Carl Gustav von Rosen"
+			name = "Карл Густав фон Розен"
 		}
 	}
   
@@ -912,7 +912,7 @@ country_event = { #miss e
 		name = outerheaven.24.a
 		army_experience = 15
 		create_field_marshal = { 
-			name = "Verna Erikson"
+			name = "Верна Эриксон"
 			portrait_path = "gfx/leaders/MSF/MSF_Verna_Erikson.png"
 			traits = {
 				politically_connected
@@ -1127,13 +1127,13 @@ country_event = { #Helicopters
 	fire_only_once = yes
 	
 	is_triggered_only = yes
- 
+  
 	option = { #yes
 		name = outerheaven.33.a
 		if = {
 			limit = { has_dlc_got = yes }
-			complete_special_project = sp:sp_air_helicopter
-			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 1200 }
+		complete_special_project = sp:sp_air_helicopter
+		add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 1200 }
 		}
 		else = {
 			set_technology = {
@@ -1813,15 +1813,15 @@ country_event = {
 				limit = {
 					OR = {
 						has_country_leader = {
-							name = "Torkild Rieber"
+							name = "Торкильд Рибер"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "National Commitee of State"
+							name = "Национальный комитет штатов"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Chamber of Executives"
+							name = "Палата представителей"
 							ruling_only = yes
 						}
 						has_country_flag = TXS_facade

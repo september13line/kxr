@@ -1,0 +1,52 @@
+category = {
+	name = "Superevent Audios"
+	soundeffects = {
+	    superev_RUSSIAN_UNIFICATION_stalin
+	    super_GSV_win
+		superev_caucasus
+	}
+}
+
+########### AUDIO ASSETS
+sound = {
+	name = "super_RUSSIAN_UNIFICATION_stalin"
+	file = "superevents/RUSSIAN_UNIFICATION_stalin.wav"
+	volume = 2
+	always_load = yes
+}
+##
+sound = {
+	name = "super_GSV_win"
+	file = "superevents/super_win_stalin.wav"
+	volume = 2
+	always_load = yes
+}
+sound = {
+	name = "superev_caucasus"
+	file = "superevents/superev_caucasus.wav"
+	volume = 1
+	always_load = yes
+}
+
+########## SOUND EFFECTS
+soundeffect = {
+	name = "superev_RUSSIAN_UNIFICATION_stalin"
+	sounds = {
+		sound = "super_RUSSIAN_UNIFICATION_stalin"
+	}
+	volume = 2
+}
+soundeffect = {
+	name = "super_GSV_win"
+	sounds = {
+		sound = "super_GSV_win"
+	}
+	volume = 2
+}
+soundeffect = {
+	name = "superev_caucasus"
+	sounds = {
+		sound = "superev_caucasus"
+	}
+	volume = 1.1
+}

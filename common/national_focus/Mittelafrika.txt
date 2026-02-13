@@ -3387,7 +3387,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAF_Konigsburg_Gunners"
 			create_corps_commander = {
-				name = "Richard Wenig"
+				name = "Ричард Вениг"
 				portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Richard_Wenig.png"
 				traits = {
 					trait_reckless
@@ -3574,7 +3574,7 @@ focus_tree = {
 		icon = GFX_MAF_the_end_of_heydrich
 		bypass = {
 			has_country_leader = {
-				name = "Reinhard Heydrich"
+				name = "Рейнхард Гейдрих"
 				ruling_only = yes
 			}
 		}
@@ -4679,8 +4679,8 @@ focus_tree = {
 		}
 		available = {	
 			OR = {
-				SAF = {
-					exists = yes
+			SAF = {
+				exists = yes
 				}
 				SFR = {
 					exists = yes
@@ -4719,9 +4719,9 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				SAF = {
-					country_event = { 
-						id = mittel.105
+			SAF = {
+				country_event = { 
+					id = mittel.105
 					}
 				}
 			}

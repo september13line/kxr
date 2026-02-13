@@ -7,7 +7,7 @@ add_namespace = nig
 ### Boko Haram Gang
 
 country_event = { # Happening
-	id = nig.1
+		id = nig.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nig.1"}
 	title = nig.1.t
 	desc = nig.1.d
@@ -134,7 +134,7 @@ country_event = { # 3rd Nigerian Parliamentary Election
 				popularity = 0.5
 				}
 		create_country_leader = {
-				name = "Edward Twining"
+				name = "Эдвард Твайнинг"
 				desc = "POLITICS_TWINING_DESC"
 				picture = "gfx/leaders/NGR/Portrait_NGR_Edward_Twinning.png"
 				expire = "1.1.1"
@@ -176,7 +176,7 @@ country_event = { # 3rd Nigerian Parliamentary Election
 				popularity = 0.5
 				}
 		create_country_leader = {
-				name = "Benjamin Nnamdi Azikiwe"
+				name = "Ннамди Азикиве"
 				desc = "POLITICS_NNAMDI_DESC"
 				picture = "gfx/leaders/NGR/Portrait_NGR_Benjamin_Azikiwe.png"
 				expire = "1.1.1"
@@ -276,12 +276,12 @@ country_event = { # Expanding Native Rights
 				factor = 0
 				has_government = social_conservative
 				NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 			}
 			modifier = {
 				factor = 3
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		add_political_power = 30
@@ -296,12 +296,12 @@ country_event = { # Expanding Native Rights
 				factor = 3
 				has_government = social_conservative
 				NOT = {
-					has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+					has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 				}
 			}
 			modifier = {
 				factor = 0
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		add_political_power = -5
@@ -548,7 +548,7 @@ country_event = { # Emergency Parliament Meeting!
 	trigger = {
 		has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -556,7 +556,7 @@ country_event = { # Emergency Parliament Meeting!
 	desc = {
 	text = nig.13.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -595,7 +595,7 @@ country_event = { # Diplomatic Overtures
 	trigger = {
 		has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -603,7 +603,7 @@ country_event = { # Diplomatic Overtures
 	desc = {
 	text = nig.14.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -623,7 +623,7 @@ country_event = { # Diplomatic Overtures
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		ai_chance = {
@@ -638,7 +638,7 @@ country_event = { # Diplomatic Overtures
 	option = {
 		name = nig.14.b #Appeal to the Nigerian People
 		trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 		ai_chance = {
 			factor = 100
@@ -731,7 +731,7 @@ country_event = { # Diplomatic Overtures
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -739,7 +739,7 @@ country_event = { # Diplomatic Overtures
 	desc = {
 	text = nig.16.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -759,7 +759,7 @@ country_event = { # Diplomatic Overtures
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		ai_chance = {
@@ -777,7 +777,7 @@ country_event = { # Diplomatic Overtures
 	option = {
 		name = nig.16.b #Ethiopia
 		trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 		ai_chance = {
 			factor = 100
@@ -813,7 +813,7 @@ country_event = { # The New Order
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -821,7 +821,7 @@ country_event = { # The New Order
 	desc = {
 	text = nig.17.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -856,7 +856,7 @@ country_event = { # Diplomatic Overtures 2
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -864,7 +864,7 @@ country_event = { # Diplomatic Overtures 2
 	desc = {
 	text = nig.18.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -896,7 +896,7 @@ country_event = { # Diplomatic Overtures 2
 	option = {
 		name = nig.18.b #Nigeria
 		trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 		ai_chance = {
 			factor = 100
@@ -910,7 +910,7 @@ country_event = { # Diplomatic Overtures 2
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 		ai_chance = {
@@ -1124,7 +1124,7 @@ country_event = {# Begin Negotiations
 		trigger = {
 			has_government = social_conservative
 			NOT = {
-				has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+				has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 			}
 		}
 	}
@@ -1132,7 +1132,7 @@ country_event = {# Begin Negotiations
 	desc = {
 	text = nig.26.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 
@@ -1294,7 +1294,7 @@ country_event = { # Federal System Decision
 			OR = {
 				has_government = social_conservative
 				NOT = {
-					has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+					has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 				}
 				has_government = authoritarian_democrat
 			}
@@ -1304,7 +1304,7 @@ country_event = { # Federal System Decision
 	desc = {
 	text = nig.30.d.native
 	trigger = {
-		has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+		has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 		}
 	}
 	picture = GFX_report_event_generic_diplomacy2
@@ -1387,16 +1387,16 @@ country_event = {# End Negotiations
 		name = nig.31.b
 		trigger = {
 			OR = {
-				NOT = {
-					has_country_flag = {
-						flag = NGR_successful_talks
+		NOT = {
+		has_country_flag = {
+			flag = NGR_successful_talks
 						value > 2
 					}
 				}
 				has_country_flag = {
 					flag = NGR_failure_talks
-					value > 2
-				}
+			value > 2
+			}
 			}
 		}
 		if = {
@@ -1543,7 +1543,7 @@ country_event = { # Nationalist Lore
 
 	trigger = {
 	tag = NGR
-	has_country_leader = {	name = "Benjamin Nnamdi Azikiwe" ruling_only = yes }
+	has_country_leader = {	name = "Ннамди Азикиве" ruling_only = yes }
 	date > 1937.1.1
 	}
 
@@ -1582,7 +1582,7 @@ country_event = { # Nationalists
 	option = {
 		name = nig.37.a #natpop
 		create_country_leader = {
-			name = "Benjamin Nnamdi Azikiwe"
+			name = "Ннамди Азикиве"
 			desc = "POLITICS_NNAMDI_DESC"
 			picture = "gfx/leaders/NGR/Portrait_NGR_Benjamin_Azikiwe.png"
 			expire = "1.1.1"
@@ -1616,7 +1616,7 @@ country_event = { # Nationalists
 	option = {
 		name = nig.37.b #pataut
 		create_country_leader = {
-			name = "Benjamin Nnamdi Azikiwe"
+			name = "Ннамди Азикиве"
 			desc = "POLITICS_NNAMDI_DESC"
 			picture = "gfx/leaders/NGR/Portrait_NGR_Benjamin_Azikiwe.png"
 			expire = "1.1.1"
@@ -1650,7 +1650,7 @@ country_event = { # Nationalists
 	option = {
 		name = nig.37.c #soccon
 		create_country_leader = {
-			name = "Benjamin Nnamdi Azikiwe"
+			name = "Ннамди Азикиве"
 			desc = "POLITICS_NNAMDI_DESC"
 			picture = "gfx/leaders/NGR/Portrait_NGR_Benjamin_Azikiwe.png"
 			expire = "1.1.1"

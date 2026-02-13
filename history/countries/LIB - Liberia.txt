@@ -11,35 +11,35 @@ set_technology = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
 	
-	basic_naval_mines = 1
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_research_slots = 2
 
@@ -75,7 +75,7 @@ set_popularities = {
 set_country_flag = William_H_Carter_dead
 
 create_country_leader = {
-	name = "Charles D. B. King"
+	name = "Чарльз Д. Б. Кинг"
 	desc = "POLITICS_CHARLES_KING_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Charles_D_B_King.png"
 	expire = "1.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	traits = { slave_profiteer }
 }
 create_country_leader = {
-	name = "Albert Massaquoi"
+	name = "Алифу Массакуа"
 	desc = "POLITICS_MOMOLU_MASSAQUOI_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Momolu_Massaquoi.png"
 	expire = "1.1.1"
@@ -92,7 +92,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Harvey Firestone"
+	name = "Гарви Файрстоун"
 	desc = "POLITICS_HARVEY_FIRESTONE_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Harvey_Firestone.png"
 	expire = "1.1.1"
@@ -100,7 +100,7 @@ create_country_leader = {
 	traits = { rubber_magnate }
 }
 create_country_leader = {
-	name = "Charles D. B. King"
+	name = "Чарльз Д. Б. Кинг"
 	desc = "POLITICS_CHARLES_KING_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Charles_D_B_King.png"
 	expire = "1.1.1"
@@ -108,7 +108,7 @@ create_country_leader = {
 	traits = { slave_profiteer }
 }
 create_country_leader = {
-	name = "William Tubman"
+	name = "Уильям Табмен"
 	desc = "POLITICS_WILLIAM_TUBMAN_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_William_Tubman.png"
 	expire = "1.1.1"
@@ -116,7 +116,7 @@ create_country_leader = {
 	traits = { war_industrialist }
 }
 create_country_leader = {
-	name = "Louis Arthur Grimes"
+	name = "Луи Артур Граймс"
 	desc = "POLITICS_LOUIS_GRIMES_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Louis_Grimes.png"
 	expire = "1.1.1"
@@ -124,7 +124,7 @@ create_country_leader = {
 	traits = { tenacious_negotiator }
 }
 create_country_leader = {
-	name = "Anthony Dashward Wilson"
+	name = "Энтони Дэшворд Уилсон"
 	desc = "POLITICS_ANTHONY_DASH_WILSON_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Anthony_Wilson.png"
 	expire = "1.1.1"
@@ -132,7 +132,7 @@ create_country_leader = {
 	traits = { sec_silent_lawyer }
 }
 create_country_leader = {
-	name = "Thomas J. Faulkner"
+	name = "Томас Д. Фолкнер"
 	desc = "POLITICS_FAULKNER_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_Thomas_J_Faulkner.png"
 	expire = "1.1.1"
@@ -140,7 +140,7 @@ create_country_leader = {
 	traits = { captain_of_industry }
 }
 create_country_leader = {
-	name = "No Leadership"
+	name = "Отсутствие правителя"
 	desc = ""
 	picture = "gfx/leaders/LIB/Portrait_LIB_Mud_Hut.png"
 	expire = "1.1.1"
@@ -148,7 +148,7 @@ create_country_leader = {
 	traits = {  }
 }
 create_country_leader = {
-	name = "George Padmore"
+	name = "Джордж Падмор"
 	desc = "POLITICS_GEORGE_PADMORE_DESC"
 	picture = "gfx/leaders/LIB/Portrait_LIB_George_Padmore.png"
 	expire = "1.1.1"
@@ -169,7 +169,7 @@ add_ideas = {
 ### Field Marshal
 ### Corps Commander
 create_field_marshal = { #Auto-Generated
-	name = "Alford Russ"
+	name = "Алфорд Расс"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Alford_Russ.png"
 	traits = {
 		infantry_leader
@@ -183,7 +183,7 @@ create_field_marshal = { #Auto-Generated
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Jenkins Yancey"
+	name = "Дженкинс Янси"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Jenkins_Yancey.png"
 	traits = {
 		trickster
@@ -196,7 +196,7 @@ create_corps_commander = { #Auto-Generated
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Wilson Ballard"
+	name = "Уилсон Баллард"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Wilson_Ballard.png"
 	traits = {
 		jungle_rat
@@ -210,7 +210,7 @@ create_corps_commander = { #Auto-Generated
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Arthur Brown"
+	name = "Артур Браун"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Arthur_Brown.png"
 	traits = {
 		career_officer
@@ -224,7 +224,7 @@ create_corps_commander = { #Auto-Generated
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Richard Newton"
+	name = "Ричард Ньютон"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Richard_Newton.png"
 	traits = {
 		infantry_officer
@@ -240,7 +240,7 @@ create_corps_commander = { #Auto-Generated
 ### Navy Leader
 
 create_navy_leader = { #Auto-Generated
-	name = "Reginald Brandon"
+	name = "Реджинальд Брэндон"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Reginald_Brandon.png"
 	traits = {
 		superior_tactician
@@ -253,7 +253,7 @@ create_navy_leader = { #Auto-Generated
 }
 
 create_navy_leader = { #Auto-Generated
-	name = "Gerald Ford"
+	name = "Джеральд Форд"
 	portrait_path = "gfx/leaders/LIB/Portrait_LIB_Gerald_Ford.png"
 	traits = {
 		superior_tactician

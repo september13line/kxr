@@ -217,7 +217,7 @@ country_event = { # Germany "Asks" For A Restoration
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Syndicalist Militia"
+				division_template = "Синдикалистское ополчение"
 			}
 		}
 	}
@@ -289,7 +289,7 @@ country_event = { # Germany Restores Him Anyway
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Syndicalist Militia"
+				division_template = "Синдикалистское ополчение"
 			}
 		}
 	}
@@ -349,7 +349,7 @@ country_event = { # Canada "Asks" For A Restoration
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Bernard Montgomery"
+				name = "Бернард Монтгомери"
 				desc = "SCT_MONTGOMERY_DESC"
 				picture = "gfx/leaders/SCT/Portrait_England_Bernard_Montgomery.png"
 				expire = "1.1.1"
@@ -364,7 +364,7 @@ country_event = { # Canada "Asks" For A Restoration
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Syndicalist Militia"
+				division_template = "Синдикалистское ополчение"
 			}
 		}
 		hidden_effect = {
@@ -434,7 +434,7 @@ country_event = { # Canada Does It Anyway
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Bernard Montgomery"
+				name = "Бернард Монтгомери"
 				desc = "SCT_MONTGOMERY_DESC"
 				picture = "gfx/leaders/SCT/Portrait_England_Bernard_Montgomery.png"
 				expire = "1.1.1"
@@ -449,7 +449,7 @@ country_event = { # Canada Does It Anyway
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Syndicalist Militia"
+				division_template = "Синдикалистское ополчение"
 			}
 		}
 		hidden_effect = {
@@ -520,7 +520,7 @@ country_event = { # Provisional Government
 		}
 		
 		create_country_leader = {
-			name = "Scottish Provisional Government"
+			name = "Временное правительство Шотландии"
 			desc = "SCT_PROVISIONAL_DESC"
 			picture = "gfx/leaders/SCT/Portrait_Provisional_Government.png"
 			expire = "1.1.1"
@@ -576,7 +576,7 @@ country_event = { # Syndies Protest
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "Syndicalist Militia"
+				division_template = "Синдикалистское ополчение"
 			}
 		}
 	}
@@ -641,8 +641,8 @@ country_event = { # Syndies Attempt A Coup
 			factor = 60
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = SCT_political_path
+					has_game_rule = {
+						rule = SCT_political_path
 					option = SCT_SYNDIE
 				}
 			}
@@ -714,8 +714,8 @@ country_event = { # Watch Called In
 			factor = 30
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = SCT_political_path
+					has_game_rule = {
+						rule = SCT_political_path
 					option = SCT_SYNDIE
 				}
 			}
@@ -741,8 +741,8 @@ country_event = { # Watch Called In
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = SCT_political_path
+				has_game_rule = {
+					rule = SCT_political_path
 						option = SCT_DEMOCRACY
 					}
 					has_game_rule = {
@@ -1997,7 +1997,7 @@ country_event = { # Crackdown Over
 			ideology = radical_socialist popularity = -0.05
 		}
 		create_country_leader = {
-			name = "No Central Authority"
+			name = "Отсутствие центрального органа"
 			desc = "SCT_AUTHORITY_TOTALIST_DESC"
 			picture = "gfx/leaders/SCT/Portrait_No_Central_Authority.png"
 			expire = "1.1.1"
@@ -2005,7 +2005,7 @@ country_event = { # Crackdown Over
 			traits = {}
 		}
 		create_country_leader = {
-			name = "No Central Authority"
+			name = "Отсутствие центрального органа"
 			desc = "SCT_AUTHORITY_TOTALIST_DESC"
 			picture = "gfx/leaders/SCT/Portrait_No_Central_Authority.png"
 			expire = "1.1.1"
@@ -2630,7 +2630,7 @@ country_event = { # Proroguing Parliament
 		set_cosmetic_tag = SCT_homeland_watch
 		
 		create_country_leader = {
-			name = "John MacCormick"
+			name = "Джон МакКормик"
 			desc = "SCT_MACCORKMICK_DESC"
 			picture = "gfx/leaders/SCT/Portrait_John_MacCormick.png"
 			expire = "1.1.1"
@@ -2681,7 +2681,7 @@ country_event = { # The Restoration of Democracy
 		}
 		
 		create_country_leader = {
-			name = "John MacCormick"
+			name = "Джон МакКормик"
 			desc = "SCT_MACCORKMICK_DESC"
 			picture = "gfx/leaders/SCT/Portrait_John_MacCormick.png"
 			expire = "1.1.1"
@@ -2689,7 +2689,7 @@ country_event = { # The Restoration of Democracy
 			traits = {}
 		}
 		create_country_leader = {
-			name = "Interim Administration"
+			name = "Временная администрация"
 			desc = "SCT_INTERIM_DESC"
 			picture = "gfx/leaders/SCT/Portrait_Interim_Government.png"
 			expire = "1.1.1"
@@ -2745,7 +2745,7 @@ country_event = { # The Election Results come in!
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Jean Mann"
+				name = "Жан Манн"
 				desc = "SCT_MANN_DESC"
 				picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 				expire = "1.1.1"
@@ -2784,7 +2784,7 @@ country_event = { # The Election Results come in!
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Jean Mann"
+				name = "Жан Манн"
 				desc = "SCT_MANN_DESC"
 				picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 				expire = "1.1.1"
@@ -2823,7 +2823,7 @@ country_event = { # The Election Results come in!
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Jean Mann"
+				name = "Жан Манн"
 				desc = "SCT_MANN_DESC"
 				picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 				expire = "1.1.1"
@@ -2862,7 +2862,7 @@ country_event = { # The Election Results come in!
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Jean Mann"
+				name = "Жан Манн"
 				desc = "SCT_MANN_DESC"
 				picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 				expire = "1.1.1"
@@ -3119,7 +3119,7 @@ country_event = { # The Governor's Powers
 		}
 		remove_ideas = SCT_political_chaos
 		create_country_leader = {
-			name = "Executive Committee"
+			name = "Исполнительный комитет"
 			desc = "SCT_EXECUTIVE_DESC"
 			picture = "gfx/leaders/SCT/Portrait_Provisional_Government.png"
 			expire = "1.1.1"
@@ -4711,7 +4711,7 @@ country_event = { # Picking A King
 		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Heinrich I"
+				name = "Генрих I"
 				desc = "SCT_HEINRICH_DESC"
 				picture = "gfx/leaders/SCT/Portrait_Prince_Heinrich.png"
 				expire = "1.1.1"

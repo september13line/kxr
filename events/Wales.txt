@@ -67,8 +67,8 @@ country_event = { # Negotiations
 	trigger = { WAL = { is_subject = no } }
 
 	option = { #Accept all Radsoc Demands
-	    ai_chance = {
-		    factor = 33
+		ai_chance = {
+			factor = 33
 			modifier = {
 				factor = 0
 				OR = {
@@ -156,7 +156,7 @@ country_event = { # Negotiations
 	}
 	option = { #Accept all pataut demands
 		ai_chance = {
-			factor = 33
+		factor = 33
 			modifier = {
 				factor = 0
 				OR = {
@@ -182,11 +182,11 @@ country_event = { # Negotiations
 		name = wales.2.c
 		set_country_flag = WAL_radcoc_demands
 		hidden_effect = {
-			country_event = {
+				country_event = {
 				id = wales.3
-				days = 4
+					days = 4
+				}
 			}
-		}
 		custom_effect_tooltip = WAL_the_negotiations_begin
 	}
 }
@@ -205,7 +205,7 @@ country_event = { # Negotiations Suceed!
 		WAL = { complete_national_focus = WAL_negotiations_succeed }
 		set_country_flag = WAL_socialist
 		create_field_marshal = {
-			name = "Saunders Lewis "
+			name = "Сондерс Льюис "
 			picture = "gfx/leaders/WAL/Portrait_Wales_Saunders_Lewis_General.png"
 			traits = {
 				trickster
@@ -320,7 +320,7 @@ country_event = { # Lewis attempts a coup!
 			elections_allowed = no
 		}
 		create_field_marshal = {
-			name = "Saunders Lewis "
+			name = "Сондерс Льюис "
 			picture = "gfx/leaders/WAL/Portrait_Wales_Saunders_Lewis_General.png"
 			traits = {
 				trickster
@@ -343,7 +343,7 @@ country_event = { # Lewis attempts a coup!
 			WAL_J_Kitchener_Davies_sec_pau
 		}
 		delete_unit_template_and_units = { 
-			division_template = "Syndicalist Militia"
+			division_template = "Синдикалистское ополчение"
 		}
 		set_country_flag = WAL_coup_sucess
 		hidden_effect = {
@@ -381,7 +381,7 @@ country_event = { # Everything is Fine
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_SYNDIE
 				    }
@@ -406,7 +406,7 @@ country_event = { # Everything is Fine
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_RADICAL_SOCIALIST
 				    }
@@ -438,7 +438,7 @@ country_event = { # Everything is Fine
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_RADICAL_SOCIALIST
 				    }
@@ -548,7 +548,7 @@ country_event = { # Foreign Policy
 	immediate = {
 		hidden_effect = {
 			create_country_leader = {
-				name = "Saunders Lewis"
+				name = "Сондерс Льюис"
 				desc = "POLITICS_SAUNDERS_LEWIS_DESC"
 				picture = "gfx/leaders/WAL/Portrait_Wales_Saunders_Lewis.png"
 				expire = "1.1.1"
@@ -569,7 +569,7 @@ country_event = { # Foreign Policy
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_KAISER
 				    }
@@ -589,7 +589,7 @@ country_event = { # Foreign Policy
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_KING
 				    }
@@ -609,7 +609,7 @@ country_event = { # Foreign Policy
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_KAISER
 				    }
@@ -630,7 +630,7 @@ country_event = { # Foreign Policy
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
+				has_game_rule = {
 					rule = WAL_political_path
 					option = WAL_KAISER
 				    }
@@ -669,8 +669,8 @@ country_event = { #Protests against Canadians
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = WAL_political_path
+				has_game_rule = {
+					rule = WAL_political_path
 						option = WAL_PATAUT
 					}
 					has_game_rule = {
@@ -700,8 +700,8 @@ country_event = { #Protests against Canadians
 			factor = 25
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = WAL_political_path
+					has_game_rule = {
+						rule = WAL_political_path
 					option = WAL_KING
 				}
 			}
@@ -709,7 +709,7 @@ country_event = { #Protests against Canadians
 		name = wales.10.b
 		set_country_flag = WAL_everything_is_absolutley_fine
 		CAN = {
-			remove_state_claim = 122
+				remove_state_claim = 122
 			remove_state_claim = 1225
 		}
 	}
@@ -733,8 +733,8 @@ country_event = { #Protests against Germans
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = WAL_political_path
+				has_game_rule = {
+					rule = WAL_political_path
 						option = WAL_PATAUT
 					}
 					has_game_rule = {
@@ -746,14 +746,14 @@ country_event = { #Protests against Germans
 		}
 		name = wales.11.a
 		create_country_leader = {
-			name = "Oskar I"
+			name = "Оскар I"
 			desc = "POLITICS_OSKAR_DESC"
 			picture = "gfx/leaders/WAL/Portrait_Oskar_I.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
 		}
 		create_country_leader = {
-			name = "Oskar I"
+			name = "Оскар I"
 			desc = "POLITICS_OSKAR_DESC"
 			picture = "gfx/leaders/WAL/Portrait_Oskar_I.png"
 			expire = "1.1.1"
@@ -777,8 +777,8 @@ country_event = { #Protests against Germans
 			factor = 25
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = WAL_political_path
+					has_game_rule = {
+						rule = WAL_political_path
 					option = WAL_KAISER
 				}
 			}
@@ -864,7 +864,7 @@ country_event = { #Sack Lewis, become a republic
 		set_cosmetic_tag = WAL_republic
 	}
 }
-country_event = { #Regency Council Set Up
+country_event = { #Регентский совет Set Up
 	id = wales.13
 	immediate = {log = "[GetDateText]: [Root.GetName]: event wales.13"}
 	title = wales.13.t
@@ -882,7 +882,7 @@ country_event = { #Regency Council Set Up
 			name = WAL_paternal_autocrat_party_long2
 		}
 		create_country_leader = {
-			name = "Welsh Regency Council"
+			name = "Уэльский регентский совет"
 			desc = "POLITICS_WAL_REGENCY_DESC"
 			picture = "gfx/leaders/WAL/Regency_Council_Wales.png"
 			expire = "1.1.1"
@@ -949,14 +949,14 @@ country_event = { #A True Welsh King
 		add_political_power = 200
 		hidden_effect = {
 			create_country_leader = {
-				name = "Owain IV"
+				name = "Оуайн IV"
 				desc = "POLITICS_OSKAR_DESC"
 				picture = "gfx/leaders/WAL/Portrait_Owain_IV.png"
 				expire = "1.1.1"
 				ideology = oligarchy_subtype
 			}
 			create_country_leader = {
-				name = "Owain IV"
+				name = "Оуайн IV"
 				desc = "POLITICS_OSKAR_DESC"
 				picture = "gfx/leaders/WAL/Portrait_Owain_IV.png"
 				expire = "1.1.1"

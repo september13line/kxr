@@ -48,20 +48,20 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 
 set_research_slots = 3
 set_convoys = 50
@@ -119,14 +119,14 @@ MAD = {
 }
 
 create_country_leader = {
-	name = "Qasim Razvi"
+	name = "Касим Разви"
 	picture = "gfx/leaders/PRF/Portrait_PRF_Qasim_Razvi.png"
 	expire = "1.1.1"
 	ideology = natpop_islamism_subtype
 }
 
 create_country_leader = {
-	name = "Osman Ali Khan"
+	name = "Осман Али Хан"
 	desc = "POLITICS_OSMAN_ALI_KHAN_DESC"
 	picture = "gfx/leaders/PRF/Portrait_Princely_Osman_Ali_Khan.png"
 	expire = "1.1.1"
@@ -134,7 +134,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Osman Ali Khan"
+	name = "Осман Али Хан"
 	desc = "POLITICS_OSMAN_ALI_KHAN_DESC"
 	picture = "gfx/leaders/PRF/Portrait_Princely_Osman_Ali_Khan.png"
 	expire = "1.1.1"
@@ -142,7 +142,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Krishnaraja Wadiyar IV"
+	name = "Кришнараджа Водеяр IV"
 	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
 	picture = "gfx/leaders/PRF/Portrait_PRF_Raja_Wadiyar_IV.png"
 	expire = "1.1.1"
@@ -150,21 +150,21 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Madapati Hanumantha Rao"
+	name = "Мадапати Ханумантха Рао"
 	picture = "gfx/leaders/PRF/Portrait_Princely_Madapati_Hanumantha_Rao.png"
 	expire = "1.1.1"
 	ideology = market_liberal_subtype
 }
 
 create_country_leader = {
-	name = "Madapati Hanumantha Rao"
+	name = "Мадапати Хануманта Рао"
 	picture = "gfx/leaders/PRF/Portrait_Princely_Madapati_Hanumantha_Rao.png"
 	expire = "1.1.1"
 	ideology = social_liberal_subtype
 }
 
 create_country_leader = {
-	name = "Madapati Hanumantha Rao"
+	name = "Мадапати Хануманта Рао"
 	picture = "gfx/leaders/PRF/Portrait_Princely_Madapati_Hanumantha_Rao.png"
 	expire = "1.1.1"
 	ideology = social_democrat_subtype
@@ -182,7 +182,7 @@ add_ideas = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Ali Khan Siddiqi"
+	name = "Али Хан Сиддики"
 	portrait_path = "gfx/leaders/PRF/Portrait_Princely_Osman_Ali_Khan.png"
 	traits = {
 		old_guard
@@ -200,7 +200,7 @@ create_field_marshal = {
 
 ### Corps Commanders ###
 create_corps_commander = {
-	name = "Azam Jah"
+	name = "Азам Джах"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Azam_Jah_army.png"
 	traits = {
 		politically_connected
@@ -215,7 +215,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Khan Chhatari"
+	name = "Хан Чхатари"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Khan_Chhatari.png"
 	traits = {
 		career_officer
@@ -229,23 +229,23 @@ create_corps_commander = {
 	id = 1252
 }
 
-create_corps_commander = {
-	name = "Kodandera Madappa Cariappa"
-	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Cariappa.png"
-	traits = {
-		infantry_officer
-		organizer
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-	id = 1253
+		create_corps_commander = {
+			name = "Кодандера Мадаппа Кариаппа"
+			portrait_path = "gfx/leaders/PRF/Portrait_PRF_Cariappa.png"
+			traits = {
+				infantry_officer
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			id = 1253
 }
 
 create_corps_commander = {
-	name = "Krishnaraja Wadiyar IV "
+	name = "Кришнараджа Водеяр IV "
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Raja_Wadiyar_IV_army.png"
 	traits = {
 		old_guard
@@ -260,7 +260,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jayachamarajendra Wadiyar"
+	name = "Джаячамараджендра Водеяр"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Jayachamarajendra_Wadiyar.png"
 	traits = {
 		trait_engineer
@@ -275,7 +275,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Rajaram III of Kolhapur"
+	name = "Раджарам III"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Rajaram_III_of_Kolhapur.png"
 	traits = {
 		politically_connected
@@ -290,7 +290,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ahmad Ali of Malerjotla"
+	name = "Ахмад Али Малерджотла"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Ahmad_Ali_of_Malerjotla.png"
 	traits = { }
 	skill = 1
@@ -302,7 +302,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Moazzam Jah"
+	name = "Моаззам Джах"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Moazzam_Jah.png"
 	traits = {
 		politically_connected
@@ -317,7 +317,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Balarama Varma of Travancore"
+	name = "Баларама Варма Траванкора"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Balarama_Varma_of_Travancore.png"
 	traits = {
 		politically_connected
@@ -332,7 +332,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ardeshir Tarapore"
+	name = "Ардешир Тарапоре"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Tarapore.png"
 	traits = {
 		cavalry_officer
@@ -345,23 +345,23 @@ create_corps_commander = {
 	id = 1260
 }
 
-create_corps_commander = {
-	name = "Jayanto Nath Chaudhuri"
-	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Chaudhari.png"
-	traits = {
-		harsh_leader
-		ambusher
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-	id = 1261
+		create_corps_commander = {
+			name = "Джаянто Натх Чаудхури"
+			portrait_path = "gfx/leaders/PRF/Portrait_PRF_Chaudhari.png"
+			traits = {
+				harsh_leader
+				ambusher
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			id = 1261
 }
 
 create_corps_commander = {
-	name = "Syed Ahmed El-Edroos"
+	name = "Саид Ахмед Эль-Эдроос"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_El_Edroos.png"
 	traits = {
 		brilliant_strategist
@@ -375,7 +375,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "N. Chandrasekharan Nair"
+	name = "Чандрасекхаран Наир"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Chandrasekharan_Nair.png"
 	traits = {
 		trickster
@@ -389,7 +389,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Kishore Debbarman"
+	name = "Кишор Деббарман"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Kishore_Debbarman.png"
 	traits = { }
 	skill = 1
@@ -401,7 +401,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mahadeo Singh"
+	name = "Махадео Сингх"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Mahadeo_Singh.png"
 	traits = {
 		infantry_officer
@@ -415,7 +415,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hashim Nawaz Jung"
+	name = "Хашим Наваз Джанг"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Hashim_Nawaz_Jung.png"
 	traits = { }
 	skill = 1
@@ -427,7 +427,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ali Haidar"
+	name = "Али Хайдар"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Ali_Haidar.png"
 	traits = {
 		commando
@@ -440,7 +440,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Shah Nawaz Khan"
+	name = "Шах Наваз Хан"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Shah_Nawaz_Khan.png"
 	traits = {
 		politically_connected
@@ -454,7 +454,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mahmood Khan Durrani"
+	name = "Махмуд Хан Дуррани"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Mahmood_Khan_Durrani.png"
 	traits = {
 		trait_reckless
@@ -468,7 +468,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Qasim Razvi "
+	name = "Касим Разви"
 	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Qasim_Razvi.png"
 	traits = {
 		trait_reckless

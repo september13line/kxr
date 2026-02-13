@@ -167,13 +167,13 @@ country_event = {
 	trigger = {
 		tag = TRM
 		has_country_leader = {
-			name = "Ivan Lavrov"
+			name = "Иван Лавров"
 			ruling_only = yes
 		}
 		SIB = {
 			exists = yes
 			has_country_leader = {
-				name = "Ivan Lavrov"
+				name = "Иван Лавров"
 				ruling_only = yes
 			}
 		}
@@ -251,11 +251,11 @@ unit_leader_event = { #Diterikhs dies
 				limit = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Mikhail Diterikhs"
+						name = "Михаил Дитерихс"
 					}
 				}
 				create_country_leader = {
-					name = "Vladimir Kappel"
+					name = "Владимир Каппель"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 					expire = "1.1.1"
 					ideology = junta_subtype
@@ -276,7 +276,7 @@ unit_leader_event = { #Diterikhs dies
 		trigger = {
 			ROOT = {
 				has_country_leader = {
-					name = "Nikita I"
+					name = "Никита I"
 					ruling_only = yes
 				}
 				has_idea = TRM_Nikolay_Merkulov_eco_sco
@@ -309,7 +309,7 @@ unit_leader_event = { #Diterikhs dies
 		trigger = {
 			ROOT = {
 				has_country_leader = {
-					name = "Nikita I"
+					name = "Никита I"
 					ruling_only = yes
 				}
 				has_idea = TRM_Vladimir_Gantimurov_sec_ade
@@ -373,7 +373,7 @@ unit_leader_event = { #Diterikhs dies
 					NOT = { has_government = paternal_autocrat }
 				}
 				create_country_leader = {
-					name = "Vladimir Kappel"
+					name = "Владимир Каппель"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 					expire = "1.1.1"
 					ideology = junta_subtype
@@ -1098,7 +1098,7 @@ country_event = { #
 				long_name = TRM_social_democrat_party_long
 			}
 			create_country_leader = {
-				name = "Yevgeniy Kolosov"
+				name = "Евгений Колосов"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Evgeniy_Kolosov.png"
 				expire = "1.1.1"
 				ideology = narodism_subtype
@@ -1139,7 +1139,7 @@ country_event = { #
 			set_technology = { tech_assault_battalion = 1 popup = no }
 		}
 		division_template = {
-			name = "Druzhina Svyatogo Kresta"
+			name = "Дружина святого креста"
 			division_names_group = TRM_INF_01
 			regiments = {
 				elite_infantry = { x = 0 y = 0 }
@@ -1532,7 +1532,7 @@ country_event = {
 				check_variable = { CossackOrientation < 0 }
 			}
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			effect_tooltip = {
@@ -1619,7 +1619,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = Mikhail_Diterikhs_dead }
 			create_country_leader = {
-				name = "Vladimir Kappel"
+				name = "Владимир Каппель"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 				expire = "1.1.1"
 				ideology = junta_subtype
@@ -1628,7 +1628,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Mikhail Diterikhs"
+				name = "Михаил Дитерихс"
 				desc = "POLITICS_MIKHAIL_DITERIKHS"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Diterikhs.png"
 				expire = "1.1.1"
@@ -1784,7 +1784,7 @@ country_event = {
 		complete_national_focus = TRM_Siberian_Suvorov_Regime
 		set_cosmetic_tag = TRM_PEPEL
 		create_country_leader = {
-			name = "Anatoliy Pepelyaev"
+			name = "Анатолий Пепеляев"
 			desc = "POLITICS_ANATOLIY_PEPELYAEV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Anatoliy_Pepelyaev.png"
 			expire = "1.1.1"
@@ -1853,7 +1853,7 @@ country_event = {
 		set_politics = { ruling_party = authoritarian_democrat }
 		add_pataut_to_coalition = yes
 		create_country_leader = {
-			name = "Grigory Semyonov"
+			name = "Григорий Семёнов"
 			picture = "gfx/leaders/BRY/Portrait_BRT_Grigory_Semyonov.png"
 			expire = "1.1.1"
 			ideology = pataut_cossack_subtype
@@ -2179,14 +2179,14 @@ country_event = {
 	desc = {
 		text = tram.90.d
 		trigger = {
-			has_country_leader = { name = "Yui Mitsue" ruling_only = yes }
+			has_country_leader = { name = "Юи Мицуэ" ruling_only = yes }
 		}
 	}
 	desc = {
 		text = tram.90.d2
 		trigger = {
 			NOT = { 
-				has_country_leader = { name = "Yui Mitsue" ruling_only = yes }
+				has_country_leader = { name = "Юи Мицуэ" ruling_only = yes }
 			}
 		}
 	}
@@ -2196,11 +2196,11 @@ country_event = {
 	option = { #Yui died
 		name = tram.90.a
 		trigger = {
-			has_country_leader = { name = "Yui Mitsue" ruling_only = yes }
+			has_country_leader = { name = "Юи Мицуэ" ruling_only = yes }
 		}
 		JAP = { country_event = { id = tram.91 hours = 1 } }
 		create_country_leader = {
-			name = "Ōi Shigemoto"
+			name = "Ои Сигэмото"
 			picture = "gfx/leaders/JAP/Portrait_JAP_Oi_Shigemoto.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -2210,7 +2210,7 @@ country_event = {
 		name = tram.90.b
 		trigger = {
 			NOT = { 
-				has_country_leader = { name = "Yui Mitsue" ruling_only = yes }
+				has_country_leader = { name = "Юи Мицуэ" ruling_only = yes }
 			}
 		}
 		add_political_power = 5
@@ -2276,7 +2276,7 @@ country_event = {
 		NOT = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Aleksandr Kolchak"
+				name = "Александр Колчак"
 			}
 		}
 		RUS = { has_socialist_government = no }
@@ -2334,7 +2334,7 @@ country_event = {
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4521,7 +4521,7 @@ country_event = { #unite with russian empire
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4556,7 +4556,7 @@ country_event = { #unite with russian empire
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4595,7 +4595,7 @@ country_event = { #russian empire in exile
 		effect_tooltip = { retire_country_leader = yes }
 		set_cosmetic_tag = TRM_TSAR
 		create_country_leader = {
-			name = "Nikita I"
+			name = "Никита I"
 			desc = "POLITICS_NIKITA_ROMANOV_ABS_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Nikita_Aleksandrovich.png"
 			expire = "1.1.1"
@@ -4633,7 +4633,7 @@ country_event = { # czech legioneers
 	option = {
 		name = tram.156.a
 		create_country_leader = {
-			name = "Sergey Voytsekhovskiy"
+			name = "Сергей Войцеховский"
 			desc = "POLITICS_SERGEY_VOYTSEKHOVSKIY_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Sergey_Wojciechowski.png"
 			expire = "1.1.1"
@@ -4769,7 +4769,7 @@ country_event = { #russian empire restored in transamur
 				add = 100
 				has_country_leader = {
 					ruling_only = yes
-					name = "Lavr Kornilov"
+					name = "Лавр Корнилов"
 				}
 			}
 		}
@@ -4896,7 +4896,7 @@ country_event = { #russia want const monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -4967,7 +4967,7 @@ country_event = { #russia want abs monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5067,7 +5067,7 @@ country_event = { #diterikhs
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5190,7 +5190,7 @@ country_event = { #Eurasia wants monarchy
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -5854,7 +5854,7 @@ country_event = { #Nra win
 			if = {
 				limit = { has_country_flag = Mikhail_Diterikhs_dead }
 				create_country_leader = {
-					name = "Vladimir Kappel"
+					name = "Владимир Каппель"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 					expire = "1.1.1"
 					ideology = junta_subtype
@@ -5863,7 +5863,7 @@ country_event = { #Nra win
 			}
 			else = {
 				create_country_leader = {
-					name = "Mikhail Diterikhs"
+					name = "Михаил Дитерихс"
 					desc = "POLITICS_MIKHAIL_DITERIKHS"
 					picture = "gfx/leaders/TRM/Portrait_TRM_Diterikhs.png"
 					expire = "1.1.1"
@@ -5943,7 +5943,7 @@ country_event = { #Nra win
 				if = {
 					limit = { has_country_flag = Mikhail_Diterikhs_dead }
 					create_country_leader = {
-						name = "Vladimir Kappel"
+						name = "Владимир Каппель"
 						picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Kappel.png"
 						expire = "1.1.1"
 						ideology = junta_subtype
@@ -5952,7 +5952,7 @@ country_event = { #Nra win
 				}
 				else = {
 					create_country_leader = {
-						name = "Mikhail Diterikhs"
+						name = "Михаил Дитерихс"
 						desc = "POLITICS_MIKHAIL_DITERIKHS"
 						picture = "gfx/leaders/TRM/Portrait_TRM_Diterikhs.png"
 						expire = "1.1.1"
@@ -5969,7 +5969,7 @@ country_event = { #Nra win
 			clr_country_flag = TRM_entente_full_support
 			clr_country_flag = TRM_entente_partial_support
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			set_party_name = {
@@ -5978,7 +5978,7 @@ country_event = { #Nra win
 				name = TRM_NRA_party
 			}
 			create_country_leader = {
-				name = "Pyetr Nikiforov"
+				name = "Пётр Никифоров"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Pyetr_Nikiforov.png"
 				expire = "1965.1.1"
 				ideology = authcom_subtype
@@ -5986,7 +5986,7 @@ country_event = { #Nra win
 			set_cosmetic_tag = TRM_NRA
 			hidden_effect = {
 				division_template = {
-					name = "Partizanskaya Diviziya"			# Militia Division
+					name = "Партизанская дивизия"			# Militia Division
 					division_names_group = SOV_MIL_01
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -6002,19 +6002,19 @@ country_event = { #Nra win
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.1"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.1"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Partizanskaya Diviziya\" start_experience_factor = 0.2"
+						division = "division_template = \"Партизанская дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 						count = 2
 					}
@@ -6123,7 +6123,7 @@ country_event = { #Semyenov Splits
 		TRB = { 
 			transfer_technology_without_doctrines = yes
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6137,7 +6137,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 563 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 12641 
 					count = 3
@@ -6146,7 +6146,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 561 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 7816 
 					count = 3
@@ -6163,7 +6163,7 @@ country_event = { #Semyenov Splits
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Kazatskaya Diviziya"
+			division_template = "Казачья дивизия"
 			disband = yes
 		}
 		activate_targeted_decision = { target = TRB decision = TRM_Attack_Yakutia_Buryatia }
@@ -6187,7 +6187,7 @@ country_event = { #Semyenov Splits
 		TRB = { 
 			transfer_technology_without_doctrines = yes
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6201,7 +6201,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 563 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 12641 
 					count = 3
@@ -6210,7 +6210,7 @@ country_event = { #Semyenov Splits
 			random_owned_controlled_state = {
 				prioritize = { 561 }
 				create_unit = {
-					division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+					division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 					owner = TRB
 					prioritize_location = 7816 
 					count = 3
@@ -6227,7 +6227,7 @@ country_event = { #Semyenov Splits
 			}
 		}
 		delete_unit_template_and_units = {
-			division_template = "Kazatskaya Diviziya"
+			division_template = "Казачья дивизия"
 			disband = yes
 		}
 		activate_targeted_decision = { target = TRB decision = TRM_Attack_Yakutia_Buryatia }
@@ -6632,10 +6632,10 @@ country_event = { #Cossacks
 		add_ideas = TRM_red_cossacks
 		if = {
 			limit = {
-				NOT = { has_template = "Kazatskaya Diviziya" }
+				NOT = { has_template = "Казачья дивизия" }
 			}
 			division_template = {
-				name = "Kazatskaya Diviziya"
+				name = "Казачья дивизия"
 				division_names_group = TRM_CAV_01
 				regiments = {
 					irregular_cavalry = { x = 0 y = 0 }
@@ -6907,14 +6907,14 @@ country_event = { #Leadership
 		add_synd_to_coalition = yes
 		add_radsoc_to_coalition = yes
 		create_country_leader = {
-			name = "Yemelyan Yaroslavsky"
+			name = "Емельян Ярославский"
 			desc = "POLITICS_YAROSLAVSKY_DESC"
 			picture = "gfx/leaders/BRY/Portrait_BRY_Yaroslavsky.png"
 			expire = "1.1.1"
 			ideology = militant_atheism_subtype
 		}
 		create_country_leader = {
-			name = "Yemelyan Yaroslavsky"
+			name = "Емельян Ярославский"
 			desc = "POLITICS_YAROSLAVSKY_DESC"
 			picture = "gfx/leaders/BRY/Portrait_BRY_Yaroslavsky.png"
 			expire = "1.1.1"
@@ -6977,7 +6977,7 @@ country_event = { #Leadership
 			TRM_Matvei_Berman_sec_tot
 		}
 		create_country_leader = {
-			name = "Pyetr Nikiforov"
+			name = "Пётр Никифоров"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Pyetr_Nikiforov.png"
 			expire = "1.1.1"
 			ideology = authcom_subtype
@@ -6988,7 +6988,7 @@ country_event = { #Leadership
 			set_country_leader_ideology = zinovievism_subtype
 		}
 		create_country_leader = {
-			name = "Pyetr Nikiforov"
+			name = "Пётр Никифоров"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Pyetr_Nikiforov.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype
@@ -7088,7 +7088,7 @@ country_event = { #Leadership
 			TRM_Matvei_Berman_sec_tot
 		}
 		create_country_leader = {
-			name = "Aleksandr Krasnoshchyekov"
+			name = "Александр Краснощёков"
 			desc = "POLITICS_KRASNOSHCHYEKOV_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Alexander_Krasnoshchyokov.png"
 			expire = "1.1.1"
@@ -7128,7 +7128,7 @@ country_event = { #Leadership
 		name = trmnra.52.g
 		trigger = {
 			RUS = {
-				NOT = { has_country_leader = { name = "Martemyan Ryutin" ruling_only = yes } }
+				NOT = { has_country_leader = { name = "Мартемьян Рютин" ruling_only = yes } }
 			}
 		}
 		ai_chance = { 
@@ -7156,7 +7156,7 @@ country_event = { #Leadership
 			TRM_Matvei_Berman_sec_tot
 		}
 		create_country_leader = {
-			name = "Martemyan Ryutin"
+			name = "Мартемьян Рютин"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Martemyan_Ryutin.png"
 			expire = "1.1.1"
 			ideology = bukharinist_subtype
@@ -7236,7 +7236,7 @@ country_event = { #TRM wants to join us
 		TRM = {
 			disband_one_to_three_divisions = yes
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
@@ -8326,7 +8326,7 @@ country_event = {
 							has_country_flag = SOV_congress_elections_after_nep
 							has_country_flag = SOV_congress_elections_after_nep_success
 						}
-						has_country_leader = { name = "Congress of Soviets" ruling_only = yes }
+						has_country_leader = { name = "Съезд Советов" ruling_only = yes }
 					}
 				}
 			}
@@ -8334,7 +8334,7 @@ country_event = {
 				limit = {
 					FROM = { 
 						has_country_leader = {
-							name = "Pyetr Nikiforov"
+							name = "Пётр Никифоров"
 							ruling_only = yes
 						}
 					}
@@ -8346,7 +8346,7 @@ country_event = {
 				limit = {
 					FROM = { 
 						has_country_leader = {
-							name = "Yemelyan Yaroslavsky"
+							name = "Емельян Ярославский"
 							ruling_only = yes
 						}
 					}
@@ -8359,11 +8359,11 @@ country_event = {
 					FROM = { 
 						OR = {
 							has_country_leader = {
-								name = "Nikolay Kalashnikov"
+								name = "Николай Калашников"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Yevgeniy Kolosov"
+								name = "Евгений Колосов"
 								ruling_only = yes
 							}
 						}
@@ -8386,11 +8386,11 @@ country_event = {
 					FROM = { 
 						OR = {
 							has_country_leader = {
-								name = "Nikolay Kalashnikov"
+								name = "Николай Калашников"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Yevgeniy Kolosov"
+								name = "Евгений Колосов"
 								ruling_only = yes
 							}
 						}
@@ -8509,7 +8509,7 @@ country_event = { #Legion
 		add_natpop_to_coalition = yes
 		remove_all_ministers = yes
 		create_country_leader = {
-			name = "Sergey Voytsekhovskiy"
+			name = "Сергей Войцеховский"
 			desc = "POLITICS_SERGEY_VOYTSEKHOVSKIY_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Sergey_Wojciechowski.png"
 			expire = "1.1.1"
@@ -8517,7 +8517,7 @@ country_event = { #Legion
 			traits = { RUS_supreme_ruler }
 		}
 		create_country_leader = {
-			name = "Radola Gajda"
+			name = "Радола Гайда"
 			desc = "POLITICS_GAJDA_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Radola_Gajda.png"
 			expire = "1.1.1"
@@ -8930,7 +8930,7 @@ country_event = {
 		if = {
 			limit = { TRM_semyenov_in_power = no }
 			create_country_leader = {
-				name = "Grigory Semyonov"
+				name = "Григорий Семёнов"
 				picture = "gfx/leaders/BRY/Portrait_BRT_Grigory_Semyonov.png"
 				expire = "1.1.1"
 				ideology = authdem_cossack_subtype
@@ -9015,7 +9015,7 @@ country_event = {
 			restore_previous_government_type = yes
 		}		
 		create_country_leader = {
-			name = "Spiridon Merkulov"
+			name = "Спиридон Меркулов"
 			desc = "POLITICS_MERKULOV_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Spiridon_Merkulov.png"
 			expire = "1.1.1"
@@ -9406,7 +9406,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = Kirill_Romanov_dead }
 			create_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Vladimir_III.png"
 				expire = "1965.1.1"
@@ -9416,7 +9416,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Kirill I"
+				name = "Кирилл I"
 				desc = "POLITICS_KYRIL_ROMANOV_MLAD_DESC"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Tsar_Kyril.png"
 				expire = "1965.1.1"
@@ -9442,7 +9442,7 @@ country_event = {
 		set_country_flag = TRM_Monarchy_flag
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		create_country_leader = {
-			name = "Roman I"
+			name = "Роман I"
 			desc = "POLITICS_ROMAN_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Roman_I.png"
 			expire = "1965.1.1"
@@ -9458,7 +9458,7 @@ country_event = {
 		set_country_flag = TRM_Monarchy_flag
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		create_country_leader = {
-			name = "Vsevolod IV"
+			name = "Всеволод IV"
 			desc = "POLITICS_VSEVOLOD_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Vsevolod_I.png"
 			expire = "1965.1.1"
@@ -9478,7 +9478,7 @@ country_event = {
 		set_country_flag = TRM_Monarchy_flag
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		create_country_leader = {
-			name = "Andrei IV"
+			name = "Андрей IV"
 			desc = "POLITICS_ANDREI_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Andrei_Romanov.png"
 			expire = "1965.1.1"
@@ -9497,7 +9497,7 @@ country_event = {
 		set_country_flag = TRM_Monarchy_flag
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		create_country_leader = {
-			name = "Mikhail II"
+			name = "Михаил II"
 			desc = "POLITICS_MIKHAIL_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/MON/Portrait_MON_Mikhail_II.png"
 			expire = "1965.1.1"
@@ -9883,15 +9883,15 @@ country_event = {
 			NOT = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Kirill I"
+					name = "Кирилл I"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Vladimir III"
+					name = "Владимир III"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Andrei IV"
+					name = "Андрей IV"
 				}
 			}
 		}
@@ -9911,18 +9911,18 @@ country_event = {
 						has_country_flag = Kirill_Romanov_dead 
 						has_country_leader = {
 							ruling_only = yes
-							name = "Kirill I"
+							name = "Кирилл I"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Vladimir III"
+							name = "Владимир III"
 						}
 					}
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KYRIL_ROMANOV_MLAD_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Tsar_Kyril.png"
 			expire = "1.1.1"
@@ -9931,7 +9931,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Kirill I"
+				name = "Кирилл I"
 				desc = "POLITICS_KYRIL_ROMANOV_MLAD_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 				expire = "1.1.1"
@@ -9962,18 +9962,18 @@ country_event = {
 						has_country_flag = Kirill_Romanov_dead 
 						has_country_leader = {
 							ruling_only = yes
-							name = "Kirill I"
+							name = "Кирилл I"
 						}
 						has_country_leader = {
 							ruling_only = yes
-							name = "Vladimir III"
+							name = "Владимир III"
 						}
 					}
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Vladimir III"
+			name = "Владимир III"
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Vladimir_III.png"
 			expire = "1.1.1"
@@ -9982,7 +9982,7 @@ country_event = {
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Vladimir III"
+				name = "Владимир III"
 				desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Vladimir_III.png"
 				expire = "1.1.1"
@@ -10007,13 +10007,13 @@ country_event = {
 				NOT = { 
 					has_country_leader = {
 						ruling_only = yes
-						name = "Andrei IV"
+						name = "Андрей IV"
 					}
 				}
 			}		
 		}
 		create_country_leader = {
-			name = "Andrei IV"
+			name = "Андрей IV"
 			desc = "POLITICS_ANDREI_ROMANOV_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Andrei_Romanov.png"
 			expire = "1.1.1"
@@ -10022,7 +10022,7 @@ country_event = {
 		}		
 		hidden_effect = {
 			create_country_leader = {
-				name = "Andrei IV"
+				name = "Андрей IV"
 				desc = "POLITICS_ANDREI_ROMANOV_DESC"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Andrei_Romanov.png"
 				expire = "1.1.1"
@@ -10057,11 +10057,11 @@ country_event = {
 			OR = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Kirill I"
+					name = "Кирилл I"
 				}
 				has_country_leader = {
 					ruling_only = yes
-					name = "Vladimir III"
+					name = "Владимир III"
 				}
 			}
 		}
@@ -10438,7 +10438,7 @@ country_event = {
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Kirill I"
+					name = "Кирилл I"
 					ruling_only = yes
 				}
 			}
@@ -10716,11 +10716,11 @@ country_event = {
 			RUS = {
 				NOT = {
 					has_country_leader = {
-						name = "Kirill I"
+						name = "Кирилл I"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Vladimir III"
+						name = "Владимир III"
 						ruling_only = yes
 					}
 					has_country_flag = Kirill_Romanov_dead
@@ -10729,7 +10729,7 @@ country_event = {
 			NOT = { has_country_flag = Kirill_Romanov_dead }
 		}
 		create_country_leader = {
-			name = "Kirill I"
+			name = "Кирилл I"
 			desc = "POLITICS_KYRIL_ROMANOV_MLAD_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.png"
 			expire = "1.1.1"
@@ -10744,13 +10744,13 @@ country_event = {
 					has_country_flag = Kirill_Romanov_dead
 					NOT = {
 						has_country_leader = {
-							name = "Kirill I"
+							name = "Кирилл I"
 							ruling_only = yes
 						}
 					}
 					NOT = {
 						has_country_leader = {
-							name = "Vladimir III"
+							name = "Владимир III"
 							ruling_only = yes
 						}
 					}	
@@ -10758,7 +10758,7 @@ country_event = {
 			}
 		}
 		create_country_leader = {
-			name = "Vladimir III"
+			name = "Владимир III"
 			desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Vladimir_III_Nat.png"
 			expire = "1.1.1"
@@ -10771,24 +10771,24 @@ country_event = {
 			RUS = {
 				OR = {
 					has_country_leader = {
-						name = "Kirill I"
+						name = "Кирилл I"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Vladimir III"
+						name = "Владимир III"
 						ruling_only = yes
 					}
 				}
 				NOT = {
 					has_country_leader = {
-						name = "Andrei IV"
+						name = "Андрей IV"
 						ruling_only = yes
 					}
 				}
 			}
 		}
 		create_country_leader = {
-			name = "Andrei IV"
+			name = "Андрей IV"
 			desc = "POLITICS_ANDRE_ROMANOV_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Andrei_Romanov.png"
 			expire = "1.1.1"
@@ -11538,14 +11538,14 @@ country_event = {
 			long_name = TRM_social_democrat_kolchak_long
 		}
 		create_country_leader = {
-			name = "Georgy Gins"
+			name = "Георгий Гинс"
 			desc = "POLITICS_GINS_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Gins.png"
 			expire = "1.1.1"
 			ideology = radsoc_popular_patriotism_subtype
 		}
 		create_country_leader = {
-			name = "Georgy Gins"
+			name = "Георгий Гинс"
 			desc = "POLITICS_GINS_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Gins.png"
 			expire = "1.1.1"
@@ -11722,7 +11722,7 @@ country_event = {
 			long_name = RUS_national_populist_party_long
 		}
 		create_country_leader = {
-			name = "Boris Savinkov"
+			name = "Борис Савинков"
 			desc = "POLITICS_BORIS_SAVINKOV_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Boris_Savinkov.png"
 			expire = "1.1.1"
@@ -11898,7 +11898,7 @@ country_event = {
 		if = {
 			limit = { TRM_kolchak_in_power = yes }
 			create_country_leader = {
-				name = "Aleksandr Kolchak"
+				name = "Александр Колчак"
 				desc = "POLITICS_ALEXANDR_KOLCHAK_DESC"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Aleksandr_Kolchak.png"
 				expire = "1.1.1"
@@ -11908,7 +11908,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Anatoliy Pepelyaev"
+				name = "Анатолий Пепеляев"
 				desc = "POLITICS_ANATOLIY_PEPELYAEV_DESC"
 				picture = "gfx/leaders/RUS/Portrait_RUS_Anatoliy_Pepelyaev.png"
 				expire = "1.1.1"
@@ -11993,14 +11993,14 @@ country_event = {
 			long_name = TRM_social_democrat_kolchak_long
 		}
 		create_country_leader = {
-			name = "Georgy Gins"
+			name = "Георгий Гинс"
 			desc = "POLITICS_GINS_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Gins.png"
 			expire = "1.1.1"
 			ideology = radsoc_popular_patriotism_subtype
 		}
 		create_country_leader = {
-			name = "Georgy Gins"
+			name = "Георгий Гинс"
 			desc = "POLITICS_GINS_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Gins.png"
 			expire = "1.1.1"
@@ -12473,7 +12473,7 @@ country_event = {
 			if = {
 				limit = { TRM_Pepelyaev_coup = yes }
 				create_country_leader = {
-					name = "Aleksey Grishin-Almazov"
+					name = "Алексей Гришин-Алмазов"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Aleksey_Grishin_Almazov.png"
 					expire = "1.1.1"
 					ideology = junta_subtype
@@ -12481,7 +12481,7 @@ country_event = {
 			}
 			else = {
 				create_country_leader = {
-					name = "Anatoliy Pepelyaev"
+					name = "Анатолий Пепеляев"
 					desc = "POLITICS_ANATOLIY_PEPELYAEV_DESC"
 					picture = "gfx/leaders/RUS/Portrait_RUS_Anatoliy_Pepelyaev.png"
 					expire = "1.1.1"
@@ -12489,19 +12489,19 @@ country_event = {
 				}
 			}
 			create_country_leader = {
-				name = "Viktor Pepelyaev"
+				name = "Виктор Пепеляев"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Victor_Pepelyaev.png"
 				expire = "1.1.1"
 				ideology = authoritarian_liberalism_subtype
 			}
 			create_country_leader = {
-				name = "Viktor Pepelyaev"
+				name = "Виктор Пепеляев"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Victor_Pepelyaev.png"
 				expire = "1.1.1"
 				ideology = soclib_liberal_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Viktor Pepelyaev"
+				name = "Виктор Пепеляев"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Victor_Pepelyaev.png"
 				expire = "1.1.1"
 				ideology = soccon_liberal_conservative_subtype
@@ -13603,7 +13603,7 @@ country_event = {
 			}
 			set_cosmetic_tag = MON_RUS
 			create_country_leader = {
-				name = "Boris Rezukhin"
+				name = "Борис Резухин"
 				desc = "POLITICS_REZUKHIN_LEADER_DESC"
 				picture = "gfx/leaders/MON/Portrait_MON_Boris_Rezukhin.png"
 				expire = "1.1.1"

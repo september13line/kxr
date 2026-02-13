@@ -225,7 +225,7 @@ focus_tree = {
 			remove_ideas = PRF_rule_of_princes_2
 			hidden_effect = {
 				create_country_leader = {
-					name = "Osman Ali Khan I"
+					name = "Осман Али Хан I"
 					desc = "POLITICS_OSMAN_ALI_KHAN2_DESC"
 					picture = "gfx/leaders/PRF/Portrait_Princely_Osman_Ali_Khan.png"
 					expire = "1.1.1"
@@ -1328,10 +1328,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					name = BEL_Uranium_Mining
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -4033,7 +4033,7 @@ focus_tree = {
 							owns_state = 431 #West Bengal
 							has_country_leader = {
 								ruling_only = yes
-								name = "Mohandas Karamchand Gandhi"
+								name = "Махатма Ганди"
 							}
 						}
 					}

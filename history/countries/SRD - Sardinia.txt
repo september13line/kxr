@@ -63,33 +63,33 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	pre_dreadnoughts = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 country_event = { id = srd.0 days = 1 }
 
 set_convoys = 100
@@ -138,7 +138,7 @@ add_ideas = {
 }
 
 create_country_leader = {#
-	name = "Paolo Orano"
+	name = "Паоло Орано"
 	picture = "gfx/leaders/SRD/Portrait_SRD_Paolo_Orano.png"
 	desc = "POLITICS_ORANO_DESC"
 	expire = "1.1.1"
@@ -146,7 +146,7 @@ create_country_leader = {#
 }
 
 create_country_leader = {#
-	name = "Aurelio Chessa"
+	name = "Аурелио Чесса"
 	picture = "gfx/leaders/SRD/Portrait_SRD_Aurelio_Chessa.png"
 	desc = "POLITICS_CHESSA_DESC"
 	expire = "1.1.1"
@@ -154,62 +154,62 @@ create_country_leader = {#
 }
 
 create_country_leader = {#
-	name = "Michele Schirru"
+	name = "Мишель Ширру"
 	picture = "gfx/leaders/SRD/Portrait_SRD_Michele_Schirru.png"
 	expire = "1.1.1"
 	ideology = illegalism_subtype
 }
 
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = sardism_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = soclib_sardism_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = marlib_national_liberalism_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = authdem_junta_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
 	ideology = pataut_national_conservative_subtype
 	traits = { SRD_Explorer_King }
 }
-create_country_leader = {# King Amedeo I
-	name = "Amedeo I"
+create_country_leader = {# King Амадей I
+	name = "Амадей I"
 	picture = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	desc = "POLITICS_AMADEO_SAVOY_DESC"
 	expire = "1.1.1"
@@ -218,8 +218,8 @@ create_country_leader = {# King Amedeo I
 }
 
 ### Field Marshals ###
-create_field_marshal = {# Amedeo di Savoia-Aosta
-	name = "Amedeo di Savoia-Aosta"
+create_field_marshal = {# Амадей Савойский-Аостский
+	name = "Амадей Савойский-Аостский"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_King_Amedeo.png"
 	traits = {
 		politically_connected
@@ -234,7 +234,7 @@ create_field_marshal = {# Amedeo di Savoia-Aosta
 	logistics_skill = 2
 }
 create_field_marshal = {
-	name = "Pietro Badoglio"
+	name = "Пьетро Бадольо"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Pietro_Badoglio.png"
 	traits = {
 		old_guard
@@ -249,8 +249,8 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 ### Corps Commanders ###
-create_corps_commander = {# Mario Roatta
-	name = "Mario Roatta"
+create_corps_commander = {# Марио Роатта
+	name = "Марио Роатта"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Mario_Roatta.png"
 	traits = {
 		brilliant_strategist
@@ -264,8 +264,8 @@ create_corps_commander = {# Mario Roatta
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander = {# Giuseppe Valle
-	name = "Giuseppe Valle"
+create_corps_commander = {# Джузеппе Валле
+	name = "Джузеппе Валле"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Giuseppe_Valle.png"
 	traits = {
 		career_officer
@@ -279,7 +279,7 @@ create_corps_commander = {# Giuseppe Valle
 	logistics_skill = 2
 }
 create_corps_commander = {# Raffaele Cadorna Jr.
-	name = "Raffaele Cadorna Jr."
+	name = "Раффаэле Кадорна мл."
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Raffaele_Cadorna.png"
 	traits = {
 	career_officer
@@ -292,7 +292,7 @@ create_corps_commander = {# Raffaele Cadorna Jr.
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Pietro Pintor"
+	name = "Пьетро Пинтор"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Pietro_Pintor.png"
 	traits = {trait_engineer}
 	id = 503
@@ -303,7 +303,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Prince Umberto"
+	name = "Принц Умберто"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Prince_Umberto.png"
 	traits = {
 		politically_connected
@@ -317,8 +317,8 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
-create_corps_commander = {# Filiberto Duca di Pistoia
-	name = "Filiberto Duca di Pistoia"
+create_corps_commander = {# Филиберто герцог Пистойи
+	name = "Филиберто герцог Пистойи"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Duca_Pistoia.png"
 	traits = {
 		politically_connected
@@ -332,8 +332,8 @@ create_corps_commander = {# Filiberto Duca di Pistoia
 	planning_skill = 2
 	logistics_skill = 2
 }
-create_corps_commander = {# Amadeo Guillet
-	name = "Amadeo Guillet"
+create_corps_commander = {# Амадео Гилье
+	name = "Амадео Гилье"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Amadeo_Guillet.png"
 	traits = {
 		cavalry_officer
@@ -345,8 +345,8 @@ create_corps_commander = {# Amadeo Guillet
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Giuseppe Cordero Lanza di Montezemolo
-	name = "Giuseppe Cordero Lanza di Montezemolo"
+create_corps_commander = {# Джузеппе Кордеро Ланца ди Монтедземоло
+	name = "Джузеппе Кордеро Ланца ди Монтедземоло"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Giuseppe_Cordero.png"
 	traits = {
 		politically_connected
@@ -361,7 +361,7 @@ create_corps_commander = {# Giuseppe Cordero Lanza di Montezemolo
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Prince Adalberto"
+	name = "Принц Адальберто"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Prince_Adalberto.png"
 	traits = {
 		politically_connected
@@ -375,7 +375,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Bruno Malaguti"
+	name = "Бруно Малагути"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Bruno_Malaguti.png"
 	traits = {
 		career_officer
@@ -389,7 +389,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Prince Eugenio"
+	name = "Эудженио Савойский"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Prince_Eugenio.png"
 	traits = {
 		politically_connected
@@ -402,7 +402,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Antonio Gandin"
+	name = "Антонио Гандин"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Antonio_Gandin.png"
 	traits = {
 	career_officer
@@ -415,7 +415,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Luigi Gherzi"
+	name = "Луиджи Герци"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Luigi_Gherzi.png"
 	traits = {
 	career_officer
@@ -427,7 +427,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Giovan Battista Volpini"
+	name = "Джован Баттиста Вольпини"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Giovan_Battista_Volpini.png"
 	traits = {
 		career_officer
@@ -441,8 +441,8 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 ##Admirals
-create_navy_leader = {# Aimone di Savoia-Aosta
-	name = "Aimone di Savoia-Aosta"
+create_navy_leader = {# Аймон Савойско-Аостский
+	name = "Аймон Савойско-Аостский"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Aimone.png"
 	id = 509
 	traits = { }
@@ -452,8 +452,8 @@ create_navy_leader = {# Aimone di Savoia-Aosta
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Domenico Cavagnari
-	name = "Domenico Cavagnari"
+create_navy_leader = {# Доменико Каваньяри
+	name = "Доменико Каваньяри"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Domenico_Cavagnari.png"
 	traits = {seawolf  }
 	id = 510
@@ -464,7 +464,7 @@ create_navy_leader = {# Domenico Cavagnari
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Angelo Iachino"
+	name = "Анджело Якино"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Angelo_Iachino.png"
 	traits = {fleet_protector}
 	id = 511
@@ -475,7 +475,7 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Angelo Parona"
+	name = "Анджело Парона"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Angelo_Parona.png"
 	traits = {seawolf}
 	skill = 2
@@ -485,7 +485,7 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Ferdinando di Savoia-Genova"
+	name = "Фердинанд Савойский-Генуя"
 	portrait_path = "gfx/leaders/SRD/Portrait_SRD_Prince_Ferdinando.png"
 	traits = {superior_tactician}
 	id = 512

@@ -48,7 +48,7 @@ political_actions = {
 		visible = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "John J. Pershing"
+					name = "Джон Д. Першинг"
 				}
 			is_ai = no
 		}
@@ -71,7 +71,7 @@ political_actions = {
 		visible = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Ulysses Grant III "
+					name = "Улисс Грант III "
 				}
 			is_ai = no
 		}
@@ -95,7 +95,7 @@ political_actions = {
 		visible = {
 				has_country_leader = {
 					ruling_only = yes
-					name = "Hiram Bingham III"
+					name = "Хайрам Бингем III"
 				}
 			is_ai = no
 		}
@@ -412,7 +412,7 @@ NEE_entente_allies = {
 		available = {
 			controls_all_owned_states = yes
 			custom_trigger_tooltip = {
-				tooltip = "Legitimacy greater than 40"
+				tooltip = "Легитимность свыше - 40"
 				check_variable = { NEE_legitimacy > 40 }
 			}
 		}
@@ -478,7 +478,7 @@ NEE_entente_allies = {
 		available = {
 			controls_all_owned_states = yes
 			custom_trigger_tooltip = {
-				tooltip = "Canadian Influence greater than 40"
+				tooltip = "Влияние Канады более «40»"
 				check_variable = { NEE_canadian_influence > 40 }
 			}
 		}
@@ -856,7 +856,7 @@ NEE_reclaiming_america = {
 				is_subject = no
 				controls_all_owned_states = yes
 				custom_trigger_tooltip = {
-					tooltip = "Legitimacy greater than 25"
+					tooltip = "Легитимность более 25"
 					check_variable = { NEE_legitimacy > 25 }
 				}
 			}
@@ -882,7 +882,7 @@ NEE_reclaiming_america = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_war = yes
+				has_war = yes
 					AND = {
 						any_other_country = {
 							is_american_tag = yes
@@ -919,7 +919,7 @@ NEE_reclaiming_america = {
 			can_declare_war_on = FROM
 			NOT = { has_wargoal_against = FROM }
 			custom_trigger_tooltip = {
-				tooltip = "Legitimacy greater than 35"
+				tooltip = "Легитимность более 35"
 				check_variable = { NEE_legitimacy > 35 }
 			}
 		}
@@ -1073,7 +1073,7 @@ NEE_power_of_business = {
 			is_subject = no
 			controls_all_owned_states = yes
 			custom_trigger_tooltip = {
-				tooltip = "Legitimacy greater than 35"
+				tooltip = "Легитимность более 35"
 				check_variable = { NEE_legitimacy > 35 }
 			}
 		}
@@ -2395,7 +2395,7 @@ NEE_Lermond_Faction = {
 			}
 		}
 	}
-	NEE_invite_mongolia = {
+		NEE_invite_mongolia = {
 		cost = 25
 		icon = GFX_decision_generic_nationalism
 		allowed = { original_tag = NEE }

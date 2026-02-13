@@ -1220,12 +1220,12 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_buy_modern_warships"
-			add_tech_bonus = {
-				name = TUR_buy_modern_warships
-				bonus = 0.75
-				uses = 2
-				category = ship_modules_tech
-			}
+				add_tech_bonus = {
+					name = TUR_buy_modern_warships
+					bonus = 0.75
+					uses = 2
+					category = ship_modules_tech
+				}
 			add_tech_bonus = {
 				name = TUR_buy_modern_warships
 				bonus = 1
@@ -1727,7 +1727,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TUR_personality_cult"
 			if = {
-				limit = { has_country_leader = { name = "İsmet Reşit" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Исмет Решит" ruling_only = yes } }
 				add_country_leader_trait = Ikinci_adam
 			}
 			add_stability = 0.05
@@ -2678,7 +2678,7 @@ focus_tree = {
 			}
 			add_tot_to_coalition = yes
 			create_country_leader = {
-				name = "Mehmet Recep Peker"
+				name = "Мехмет Реджеп Пекер"
 				desc = TUR_mehmet_recep_peker_leader_desc
 				picture = "gfx/leaders/OTT/Portrait_OTT_Recep_Peker_KR.png"
 				ideology = tot_kadroism_subtype
@@ -3019,7 +3019,7 @@ focus_tree = {
 			}
 			OTT_changes_into_turkey = yes
 			create_country_leader = {
-				name = "Mustafa Fevzi Çakmak"
+				name = "Мустафа Февзи Чакмак"
 				desc = "TUR_fevzi_cakmak_postwar_leader_desc"
 				picture = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Fevzi.png"
 				expire = "1.1.1"

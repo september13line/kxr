@@ -903,12 +903,12 @@ KUB_Kuban_Ukrainian_category = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove UKR_Invest_In_Kuban_Fleet target: [From.GetName]"
 			effect_tooltip = {
-				transfer_ship = { prefer_name = "Strohii" type = destroyer target = KUB }
-				transfer_ship = { prefer_name = "Pospishnyi" type = destroyer target = KUB }
+				transfer_ship = { prefer_name = "Строгій" type = destroyer target = KUB }
+				transfer_ship = { prefer_name = "Поспішний" type = destroyer target = KUB }
 			}
 			hidden_effect = {
-				transfer_ship = { prefer_name = "Strohii" type = destroyer target = UKR }
-				transfer_ship = { prefer_name = "Pospishnyi" type = destroyer target = UKR }
+				transfer_ship = { prefer_name = "Строгій" type = destroyer target = UKR }
+				transfer_ship = { prefer_name = "Поспішний" type = destroyer target = UKR }
 				annex_country = { target = XXA }			
 			}
 			KUB = { country_event = kub.1029 }

@@ -32,31 +32,31 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	coastal_defense_ships = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		coastal_defense_ships = 1
+		
+		basic_naval_mines = 1
+		
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_naval_mines = 1
-	
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_stability = -0.2
 set_war_support = 0.35
@@ -105,7 +105,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Oscar Benavides Larrea"
+	name = "Оскар Бенавидес"
 	desc = "POLITICS_OSCAR_BENAVIDES_LARREA_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Oscar_Benavides_Larrea.png"
 	expire = "1.1.1"
@@ -114,7 +114,7 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Manuel Vicente Villarán"
+	name = "Мануэль Висенте Вильяран"
 	desc = "POLITICS_VILLARAN_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Manuel_Villaran.png"
 	expire = "1.1.1"
@@ -122,7 +122,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "José de la Riva Agüero"
+	name = "Хосе де ла Рива Агуэро"
 	desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Aguero.png"
 	expire = "1.1.1"
@@ -130,7 +130,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Luis Antonio Eguiguren"
+	name = "Луис Антонио Эгигурен"
 	desc = "POLITICS_EGUIGUREN_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Luis_Antonio_Eguiguren.png"
 	expire = "1.1.1"
@@ -138,7 +138,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jorge Prado Ugarteche"
+	name = "Хорхе Прадо Угартече"
 	desc = "POLITICS_UGARTECHE_DESC"
 	picture = "gfx/leaders/PRU/Portrait_PRU_Jorge_Ugarteche.png"
 	expire = "1.1.1"
@@ -146,7 +146,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Victor R. Haya de la Torre"
+	name = "Виктор Айя де ла Торре"
 	desc = "POLITICS_HAYA_TORRE_DESC"
 	picture = "gfx/leaders/PRU/Portrait_PRU_Victor_Raul_Haya.png"
 	expire = "1.1.1"
@@ -154,7 +154,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gamaliel Churata"
+	name = "Гамалиэль Чурата"
 	desc = "POLITICS_CHURATA_DESC"
 	picture = "gfx/leaders/PRU/Portrait_PRU_Gamaliel_Churata.png"
 	expire = "1.1.1"
@@ -162,7 +162,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eudocio Ravines"
+	name = "Эудосио Равинес"
 	desc = "POLITICS_EUDCAIO_RAVINES_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Eudocio_Ravines.png"
 	expire = "1.1.1"
@@ -170,7 +170,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jorge Prado Ugarteche"
+	name = "Хорхе Прадо Угартече"
 	desc = "POLITICS_UGARTECHE_DESC"
 	picture = "gfx/leaders/PRU/Portrait_PRU_Jorge_Ugarteche.png"
 	expire = "1.1.1"
@@ -178,7 +178,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Oscar Benavides Larrea"
+	name = "Оскар Бенавидес"
 	desc = "POLITICS_OSCAR_BENAVIDES_LARREA_DESC"
 	picture = "gfx/leaders/PRU/Portrait_Peru_Oscar_Benavides_Larrea.png"
 	expire = "1.1.1"
@@ -187,7 +187,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Oscar Benavides Larrea "
+	name = "Оскар Бенавидес"
 	desc = "PRU_Oscar_Benavides_Larrea_DESC"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Oscar_Benavides_Larrea.png"
 	traits = {
@@ -205,7 +205,7 @@ create_field_marshal = {
 
 ### Corps Commanders ###
 create_corps_commander = {
-	name = "Manuel A. Odría"
+	name = "Мануэль Одриа"
 	desc = "PRU_Manuel_Odria_DESC"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Manuel_Odria.png"
 	traits = {
@@ -220,7 +220,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Eloy G. Ureta"
+	name = "Элой Г. Урета"
 	desc = "PRU_Eloy_Ureta_DESC"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Eloy_Ureta.png"
 	traits = {
@@ -235,7 +235,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Carlos Miro Quesada"
+	name = "Карлос Миро Кесада"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Carlos_Miro_Quesada.png"
 	traits = {
 		career_officer
@@ -248,7 +248,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Luis Flores"
+	name = "Луис Флорес"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Luis_Flores.png"
 	traits = {
 		infantry_officer
@@ -263,7 +263,7 @@ create_corps_commander = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Carlos Rotalde"
+	name = "Карлос Ротальд"
 	portrait_path = "gfx/leaders/PRU/Portrait_Peru_Carlos_Rotalde.png"
 	traits = { }
 	skill = 1
@@ -274,7 +274,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Roque Augusto Saldías Maninat"
+	name = "Роке Аугусто Сальдиас Манинат"
 	portrait_path = "gfx/leaders/PRU/Portrait_PRU_Roque_Augusto_Saldias_Maninat.png"
 	traits = { }
 	skill = 1

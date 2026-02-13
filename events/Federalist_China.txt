@@ -159,7 +159,7 @@ country_event = {#Finalize the Conference (join UPC?)
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Tang Shengzhi"
+					name = "Тан Шэнчжи"
 					ruling_only = yes
 				}
 			}
@@ -290,7 +290,7 @@ country_event = {#Finalize the Conference (join UPC?), but Tang is a moron
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Tang Shengzhi"
+					name = "Тан Шэнчжи"
 					ruling_only = yes
 				}
 			}
@@ -586,7 +586,7 @@ country_event = {#CZGP congress
 		}
 	}
 
-	option = {#Chen Qiyou
+	option = {#Чэнь Цюйоу
 		name = lngupc.11.a
 		ai_chance = {
 			factor = 80
@@ -602,7 +602,7 @@ country_event = {#CZGP congress
 			long_name = UPC_social_democrat_party_long
 		}
 	}
-	option = {#Tang Jiyao (lmao)
+	option = {#Тан Цзияо (lmao)
 		name = lngupc.11.b
 		ai_chance = {
 			factor = 20
@@ -613,7 +613,7 @@ country_event = {#CZGP congress
 		custom_effect_tooltip = UPC_tang_will_become_CE
 		set_country_flag = UPC_tang_jiyao_somehow_leads
 		create_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			desc = "POLITICS_UPC_TANG_JIYAO_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Jiyao.png"
 			expire = "1.1.1"
@@ -650,10 +650,10 @@ country_event = {#SocCon congress
 		}
 	}
 
-	option = {#Yan Huiqing
+	option = {#Янь Хуэйцин
 		name = lngupc.12.a
 		create_country_leader = {
-			name = "Yan Huiqing"
+			name = "Янь Хуэйцин"
 			desc = "POLITICS_UPC_YAN_HUIQING_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Yan_Huiqing.png"
 			expire = "1.1.1"
@@ -666,7 +666,7 @@ country_event = {#SocCon congress
 		}
 		set_country_flag = UPC_DCP_Yan
 	}
-	option = {#Tang Jiyao (lmao)
+	option = {#Тан Цзияо (lmao)
 		name = lngupc.12.b
 		trigger = {
 			has_country_flag = UPC_tang_is_a_good_boi
@@ -674,7 +674,7 @@ country_event = {#SocCon congress
 		}
 		custom_effect_tooltip = UPC_tang_will_become_CE
 		create_country_leader = {
-			name = "Tang Jiyao"
+			name = "Тан Цзияо"
 			desc = "POLITICS_UPC_TANG_JIYAO_SOCCON_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Tang_Jiyao.png"
 			expire = "1.1.1"
@@ -690,7 +690,7 @@ country_event = {#SocCon congress
 	option = {#Hu Shih
 		name = lngupc.12.c
 		create_country_leader = {
-			name = "Hu Shih"
+			name = "Ху Ши"
 			desc = "POLITICS_UPC_HU_SHIH_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Hu_Shih.png"
 			ideology = progressive_conservatism_subtype
@@ -722,7 +722,7 @@ country_event = {#CDL congress
 		}
 	}
 
-	option = {#Zhang Junmai leads both MarLib and Soclib even though he's SocDem frankly because he's the only one with a decent source and it took a deep dive to find and we already have a million different SocDems
+	option = {#Чжан Цзюньмай leads both MarLib and Soclib even though he's SocDem frankly because he's the only one with a decent source and it took a deep dive to find and we already have a million different SocDems
 		name = lngupc.13.a
 		if = {
 			limit = {
@@ -734,7 +734,7 @@ country_event = {#CDL congress
 				}
 			}
 			create_country_leader = {
-				name = "Zhang Junmai"
+				name = "Чжан Цзюньмай"
 				desc = "POLITICS_UPC_ZHANG_JUNMAI_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 				expire = "1.1.1"
@@ -748,7 +748,7 @@ country_event = {#CDL congress
 			set_country_flag = UPC_CDL_electable
 		}
 		create_country_leader = {
-			name = "Zhang Junmai"
+			name = "Чжан Цзюньмай"
 			desc = "POLITICS_UPC_ZHANG_JUNMAI_DESC"
 			picture = "gfx/leaders/GXC/Portrait_GXC_Zhang_Junmai.png"
 			expire = "1.1.1"
@@ -780,7 +780,7 @@ country_event = {#KMT congress
 		}
 	}
 
-	option = {#Song Qingling of course
+	option = {#Сун Цинлин of course
 		name = lngupc.14.a
 		set_party_name = {
 			ideology = radical_socialist
@@ -788,7 +788,7 @@ country_event = {#KMT congress
 			long_name = UPC_radical_socialist_party_long
 		}
 		create_country_leader = {
-			name = "Song Qingling"
+			name = "Сун Цинлин"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
 			expire = "1.1.1"
 			ideology = radsoc_tridemism_subtype
@@ -814,7 +814,7 @@ country_event = {#CSP congress
 		}
 	}
 
-	option = {#Chen Duxiu leads the fringe party
+	option = {#Чэнь Дусю leads the fringe party
 		name = lngupc.15.a
 		set_party_name = {
 			ideology = syndicalist
@@ -822,7 +822,7 @@ country_event = {#CSP congress
 			long_name = UPC_syndicalist_party_long
 		}
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			desc = "POLITICS_UPC_CHEN_DUXIU_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
@@ -834,7 +834,7 @@ country_event = {#CSP congress
 			long_name = UPC_totalist_party_long
 		}
 		create_country_leader = {
-			name = "Chen Duxiu"
+			name = "Чэнь Дусю"
 			desc = "POLITICS_UPC_CHEN_DUXIU_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Duxiu.png"
 			expire = "1.1.1"
@@ -860,7 +860,7 @@ country_event = {#beginning of a progressive democracy?
 			long_name = UPC_authoritarian_democrat_party_long
 		}
 		create_country_leader = {
-			name = "Zhang Xueliang"
+			name = "Чжан Сюэлян"
 			desc = "POLITICS_UPC_ZHANG_XUELIANG_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang.png"
 			expire = "1.1.1"
@@ -877,7 +877,7 @@ country_event = {#beginning of a progressive democracy?
 			long_name = UPC_national_populist_party_long
 		}
 		create_country_leader = {
-			name = "Sun Suzhen"
+			name = "Сунь Сучжэнь"
 			desc = "POLITICS_UPC_ZHANG_TIANRAN_DESC"
 			picture = "gfx/leaders/SQI/Portrait_Shandong_Sun_Suzhen.png"
 			expire = "1.1.1"
@@ -902,7 +902,7 @@ country_event = {#Thinly-veiled ultimatum
 			modifier = {
 				factor = 8
 				has_country_leader = {
-					name = "Tang Shengzhi"
+					name = "Тан Шэнчжи"
 					ruling_only = yes
 				}
 			}
@@ -923,7 +923,7 @@ country_event = {#Thinly-veiled ultimatum
 			modifier = {
 				factor = 10
 				has_country_leader = {
-					name = "Tang Jiyao"
+					name = "Тан Цзияо"
 					ruling_only = yes
 				}
 				has_country_flag = YUN_federalists_chosen
@@ -964,14 +964,14 @@ country_event = {#Thinly-veiled ultimatum
 			modifier = {
 				factor = 0.2
 				has_country_leader = {
-					name = "Tang Shengzhi"
+					name = "Тан Шэнчжи"
 					ruling_only = yes
 				}
 			}
 			modifier = {
 				factor = 0
 				has_country_leader = {
-					name = "Tang Jiyao"
+					name = "Тан Цзияо"
 					ruling_only = yes
 				}
 				has_country_flag = YUN_federalists_chosen
@@ -1025,7 +1025,7 @@ country_event = {#x submits
 			limit = {
 				FROM = {
 					has_country_leader = {
-						name = "Tang Jiyao"
+						name = "Тан Цзияо"
 						ruling_only = yes
 					}
 				}
@@ -1258,7 +1258,7 @@ country_event = {#first national assembly election
 		}
 	}
 
-	option = {#CZGP (Chen Qiyou)
+	option = {#CZGP (Чэнь Цюйоу)
 		name = lngupc.29.a
 		ai_chance = {
 			factor = 100
@@ -1271,7 +1271,7 @@ country_event = {#first national assembly election
 		}
 		set_sdfed_ministers = yes
 		create_country_leader = {
-			name = "Chen Qiyou"
+			name = "Чэнь Цюйоу"
 			desc = "POLITICS_UPC_CHEN_QIYOU_DESC"
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 			expire = "1.1.1"
@@ -1300,7 +1300,7 @@ country_event = {#first national assembly election
 			popularity = 0.10
 		}
 	}
-	option = {#CZGP (Tang Jiyao
+	option = {#CZGP (Тан Цзияо
 		name = lngupc.29.b
 		ai_chance = {
 			factor = 20
@@ -1329,7 +1329,7 @@ country_event = {#first national assembly election
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Chen Qiyou"
+				name = "Чэнь Цюйоу"
 				desc = "POLITICS_UPC_CHEN_QIYOU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 				expire = "1.1.1"

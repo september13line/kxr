@@ -100,38 +100,38 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	ship_hull_super_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		cruiser_submarines = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		ship_hull_super_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 complete_special_project = {
 	project = sp:sp_naval_cruiser_submarine
@@ -220,7 +220,7 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 600 produce
 add_manpower = 35000
 ### Country Leader
 create_country_leader = {
-	name = "Hellmuth von Mücke"
+	name = "Гельмут фон Мюкке"
 	desc = "POLITICS_HELLMUTH_VON_MUCKE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke.png"
 	expire = "1.1.1"
@@ -231,7 +231,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Albert Ballin"
+	name = "Альберт Баллин"
 	desc = "POLITICS_BALLIN_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Albert_Ballin.png"
 	expire = "1.1.1"
@@ -242,7 +242,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Heye"
+	name = "Вильгельм Хейе"
 	desc = "POLITICS_HEYE_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Wilhelm_Heye.png"
 	expire = "1.1.1"
@@ -252,7 +252,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ferdinand Schörner"
+	name = "Фердинанд Шёрнер"
 	desc = "POLITICS_SCHORNER_DESC"
 	picture = "gfx/leaders/GEA/Portrait_GEA_Ferdinand_Schorner.png"
 	expire = "1.1.1"
@@ -264,7 +264,7 @@ create_country_leader = {
 
 ### Field Marshals ###
 create_field_marshal = {
-	name = "Wilhelm Heye "
+	name = "Вильгельм Хейе "
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Wilhelm_Heye.png"
 	traits = {
 		war_hero
@@ -281,7 +281,7 @@ create_field_marshal = {
 ### Corps Commanders ### -
 
 create_corps_commander = {
-	name = "Prinz Oskar von Preußen"
+	name = "Оскар Прусский"
 	portrait_path = "gfx/leaders/WAL/Portrait_Oskar_I.png"
 	traits = {
 		war_hero
@@ -294,10 +294,10 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Prinz Josias zu Waldeck und Pyrmont"
+	name = "Йозиас Вальдек-Пирмонт"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Prinz_Josias_Waldeck-Prymont.png"
 	traits = {
-		politically_connected # Wilhelmina's cousin
+		politically_connected # Вильгельмина's cousin
 		trait_reckless # Often injured back in the Weltkrieg
 		infantry_officer
 	}
@@ -308,7 +308,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Friedrich von Kessinger" # Marines commander
+	name = "Фридрих фон Кессингер" # Marines commander
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Friedrich_von_Kessinger.png"
 	traits = {
 		naval_invader
@@ -320,7 +320,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Emil Krebs" 
+	name = "Эмиль Кребс" 
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Emil_Krebs.png"
 	traits = {
 	}
@@ -333,7 +333,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Ferdinand Schörner "
+	name = "Фердинанд Шёрнер "
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Ferdinand_Schorner.png"
 	traits = {
 		harsh_leader
@@ -346,7 +346,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Claus von Stauffenberg"
+	name = "Клаус фон Штауффенберг"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Claus_von_Stauffenberg.png"
 	traits = {
 		cavalry_officer
@@ -359,7 +359,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Henning von Tresckow"
+	name = "Хеннинг фон Тресков"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Henning_von_Tresckow.png"
 	traits = {
 		war_hero
@@ -375,7 +375,7 @@ create_corps_commander = {
 
 ### AOG Corps Commanders
 create_corps_commander = {
-	name = "Hermann Voigt-Ruscheweyh"
+	name = "Герман Фойгт-Рушевайх"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Hermann_Voigt_Ruscheweyh.png"
 	traits = {
 		hill_fighter
@@ -389,7 +389,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dietrich von Saucken"
+	name = "Дитрих фон Заукен"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Dietrich_von_Saucken.png"
 	traits = {
 		cavalry_officer
@@ -403,7 +403,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fritz Sachße"
+	name = "Фриц Закс"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Fritz_Sachsse.png"
 	traits = {
 		naval_invader
@@ -417,7 +417,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Hermann Ehrhardt"
+	name = "Герман Эрхардт"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Herman_Ehrhardt.png"
 	traits = { cavalry_officer }
 	skill = 2
@@ -428,7 +428,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Heinz Trettner"
+	name = "Хайнрих Треттнер"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Heinz_Trettner.png"
 	traits = { commando paratrooper }
 	skill = 2
@@ -440,7 +440,7 @@ create_corps_commander = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Hellmuth von Mücke "
+	name = "Гельмут фон Мюкке "
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_von_Mucke_Admiral.png"
 	traits = { }
 	skill = 4
@@ -451,7 +451,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Otto Ciliax"
+	name = "Отто Цилиакс"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Otto_Ciliax.png"
 	traits = { superior_tactician blockade_runner }
 	skill = 3
@@ -462,7 +462,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Felix von Luckner" # "Sea Devil"
+	name = "Феликс фон Люкнер" # "Sea Devil"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Felix_Von_Luckner.png"
 	traits = { superior_tactician }
 	skill = 3
@@ -472,7 +472,7 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Rudolph Firle" # Specialised in fast-paced naval combat, some hands-on exp from WK
+	name = "Рудольф Фирле" # Specialised in fast-paced naval combat, some hands-on exp from WK
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Rudolph_Firle.png"
 	traits = { blockade_runner }
 	skill = 2
@@ -482,7 +482,7 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 create_navy_leader = {
-	name = "Gunther Plüschow" # Ex-Naval Pilot, pretty much lack naval battle exp though
+	name = "Гюнтер Плюшов" # Ex-Naval Pilot, pretty much lack naval battle exp though
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Gunther_Pluschow.png"
 	traits = { air_controller }
 	skill = 1
@@ -493,7 +493,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Hellmuth Heye"
+	name = "Гельмут Хейе"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Hellmuth_Heye.png"
 	traits = { cruiser_captain }
 	skill = 2
@@ -504,7 +504,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Conrad Patzig"
+	name = "Конрад Патциг"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Conrad_Patzig.png"
 	traits = { }
 	skill = 3
@@ -515,7 +515,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ernst von Weizsäcker"
+	name = "Эрнст фон Вайцзеккер"
 	portrait_path = "gfx/leaders/GEA/Portrait_GEA_Ernst_von_Weizsacker.png"
 	traits = { gentlemanly fleet_protector }
 	skill = 2

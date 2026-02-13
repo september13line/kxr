@@ -743,7 +743,7 @@ focus_tree = {
 				limit = { has_active_mission = SPR_bop_opposing_side_does_something_mission }
 				custom_override_tooltip = {
 					tooltip = SPR_increase_radicals_mission_delay_limit_by_20_tt
-					add_to_variable = { SPR.radicals_mission_duration_limit = 20 }
+				add_to_variable = { SPR.radicals_mission_duration_limit = 20 }
 				}
 			}
 			hidden_effect = {
@@ -2321,7 +2321,7 @@ focus_tree = {
 			y = -6
 			trigger = {
 				OR = {
-					has_allied_with_anyone_kingdom = yes
+				has_allied_with_anyone_kingdom = yes
 					has_completed_focus = SPR_absolutism
 				}
 			}
@@ -2350,7 +2350,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_country_flag = SPR_bop_cleared_by_getting_100
+					has_country_flag = SPR_bop_cleared_by_getting_100
 						has_country_flag = SPR_martial_law_victory
 					}
 				}
@@ -6629,10 +6629,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_support_sardinia"
 			if = {
 				limit = { has_idea = SPR_mediterranean_allies1 }
-				swap_ideas = {
-					remove_idea = SPR_mediterranean_allies1
-					add_idea = SPR_mediterranean_allies2
-				}
+			swap_ideas = {
+				remove_idea = SPR_mediterranean_allies1
+				add_idea = SPR_mediterranean_allies2
+			}
 			}
 			else = { add_ideas = SPR_mediterranean_allies1 }
 			if = {
@@ -6675,7 +6675,7 @@ focus_tree = {
 				add_ideas = SPR_anti_syndicalist_struggle_PS
 			}
 			else = {
-				add_ideas = SPR_anti_syndicalist_struggle
+			add_ideas = SPR_anti_syndicalist_struggle
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -7693,7 +7693,7 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-			has_country_leader = { name = "Jaime I" }
+			has_country_leader = { name = "Хайме I" }
 			NOT = { is_in_faction_with = FRA }
 			NOT = { is_in_faction_with = NFA }
 			NOT = { has_country_flag = SPR_itaspa }
@@ -7738,7 +7738,7 @@ focus_tree = {
 			owns_state = 16
 			has_war = no
 			is_subject = no
-			has_country_leader = { name = "Jaime I" }
+			has_country_leader = { name = "Хайме I" }
 			NOT = { country_exists = FRA }
 			NOT = { is_in_faction_with = NFA }
 		}
@@ -7770,7 +7770,7 @@ focus_tree = {
 			owns_state = 16
 			has_war = no
 			is_subject = no
-			has_country_leader = { name = "Henri VI" }
+			has_country_leader = { name = "Генри VI" }
 			NOT = { country_exists = FRA }
 			NOT = { is_in_faction_with = NFA }
 		}
@@ -7803,7 +7803,7 @@ focus_tree = {
 			owns_state = 16
 			has_war = no
 			is_subject = no
-			has_country_leader = { name = "Henri VI" }
+			has_country_leader = { name = "Генри VI" }
 			NOT = { country_exists = FRA }
 			NOT = { is_in_faction_with = NFA }
 		}
@@ -7836,7 +7836,7 @@ focus_tree = {
 			owns_state = 16
 			has_war = no
 			is_subject = no
-			has_country_leader = { name = "Henri VI" }
+			has_country_leader = { name = "Генри VI" }
 			NOT = { country_exists = FRA }
 			NOT = { is_in_faction_with = NFA }
 		}
@@ -8157,7 +8157,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			MOR = { is_subject_of = SPR }
+		MOR = { is_subject_of = SPR }
 		}
 
 		ai_will_do = {

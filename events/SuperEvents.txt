@@ -52,7 +52,7 @@ country_event = {		#2ACW
 				has_war_with = CSA
 				has_war_with = TEX
 			}
-		}
+		} 
 		NOT = { has_global_flag = KX_superevent_total_off } 
 	}
 
@@ -561,12 +561,12 @@ country_event = {		#American Giant Wakes
 					AND = {
 						tag = NEE
 						has_country_flag = NEE_claimed_america
-					}
+				}
 					AND = {
 						tag = NYC
 						has_country_flag = NYC_can_invade_america
-					}
-					AND = {
+			}
+			AND = {
 						tag = TXS
 						has_country_flag = TXS_claimed_america
 					}
@@ -579,7 +579,7 @@ country_event = {		#American Giant Wakes
 			}
 			AND = {
 				OR = {
-					tag = CSA
+				tag = CSA
 					AND = {
 						tag = NYC
 						has_country_flag = NYC_can_invade_america
@@ -1282,22 +1282,22 @@ country_event = {		#PSA Victory
 					exists = yes
 					has_country_flag = NEE_claimed_america
 					is_ally_of_ROOT = no
-				}
-			}
+		}
+		}
 			AND = {
 				TXS = { 
-					exists = yes
+			exists = yes
 					has_country_flag = TXS_claimed_america
 					is_ally_of_ROOT = no
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 					is_ally_of_ROOT = no
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1309,7 +1309,7 @@ country_event = {		#PSA Victory
 		CAL = {
 			NOT = {
 				has_country_leader = {
-					name = "Walt Disney"
+					name = "Уолт Дисней"
 					ruling_only = yes
 				}
 				has_government = paternal_autocrat
@@ -1363,20 +1363,20 @@ country_event = {		#WCC Victory
 				NEE = { 
 					exists = yes
 					has_country_flag = NEE_claimed_america
-				}
-			}
+		}
+		}
 			AND = {
 				TXS = { 
-					exists = yes
+			exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1433,19 +1433,19 @@ country_event = {		#USA Victory
 					exists = yes
 					has_country_flag = NEE_claimed_america
 				}
-			}
+		}
 			AND = {
 				TXS = { 
 					exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1501,19 +1501,19 @@ country_event = {		#CAR Victory
 					exists = yes
 					has_country_flag = NEE_claimed_america
 				}
-			}
+		}
 			AND = {
 				TXS = { 
 					exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1569,19 +1569,19 @@ country_event = {		#AUS Victory
 					exists = yes
 					has_country_flag = NEE_claimed_america
 				}
-			}
+		}
 			AND = {
 				TXS = { 
-					exists = yes
+			exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1636,20 +1636,20 @@ country_event = {		#CSA Victory
 				NEE = { 
 					exists = yes
 					has_country_flag = NEE_claimed_america
-				}
+		}
 			}
 			AND = {
 				TXS = { 
-					exists = yes
+			exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -1979,7 +1979,7 @@ country_event = {		#Bolsheviks Return
 	is_triggered_only = yes
 	
 	trigger = {
-		RUS = {			
+		RUS = {
 			OR = {
 				SOV_left_communists_in_power = yes
 				SOV_hardliners_in_power = yes
@@ -2514,7 +2514,7 @@ country_event = {		#RUSSIAN UNIFICATION COSSACKS
 					has_global_flag = KX_superevent_sounds_off
 				}
 			}
-			scoped_sound_effect = "superev_RUSSIAN_UNIFICATION_cossacks"
+			scoped_sound_effect = "super_DHH_win"
 		}
 	}
 }
@@ -2574,7 +2574,7 @@ country_event = {		#RUSSIAN UNIFICATION SAVINKOV
 					has_global_flag = KX_superevent_sounds_off
 				}
 			}
-			scoped_sound_effect = "superev_RUSSIAN_UNIFICATION_savinkov"
+			scoped_sound_effect = "super_RFF_win"
 		}
 	}
 }
@@ -2934,7 +2934,7 @@ country_event = {		#RUSSIAN UNIFICATION GORGULOV
 					has_global_flag = KX_superevent_sounds_off
 				}
 			}
-			scoped_sound_effect = "superev_RUSSIAN_UNIFICATION_gorgulov"
+			scoped_sound_effect = "super_GRG_win"
 		}
 	}
 }
@@ -3384,7 +3384,7 @@ country_event = {		#RUSSIAN UNIFICATION DROZD
 					has_global_flag = KX_superevent_sounds_off
 				}
 			}
-			scoped_sound_effect = "superev_RUSSIAN_UNIFICATION_drozd"
+			scoped_sound_effect = "super_RVV_win"
 		}
 	}
 }
@@ -3411,20 +3411,20 @@ country_event = {		#Disney Victory
 				NEE = { 
 					exists = yes
 					has_country_flag = NEE_claimed_america
-				}
-			}
+		}
+		}
 			AND = {
 				TXS = { 
-					exists = yes
+			exists = yes
 					has_country_flag = TXS_claimed_america
 				}
-			}
+		}
 			AND = {
 				NYC = {
 					exists = yes
 					has_country_flag = NYC_can_invade_america
 				}
-			}
+		}
 			AND = {
 				BBR = {
 					exists = yes
@@ -3434,7 +3434,7 @@ country_event = {		#Disney Victory
 		}
 		CAL = {
 			has_country_leader = {
-				name = "Walt Disney"
+				name = "Уолт Дисней"
 				ruling_only = yes
 			}
 			has_government = paternal_autocrat

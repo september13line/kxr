@@ -1,5 +1,5 @@
 ﻿###########################
-# Independent Indonesia Events - by Thomahawk2k
+# Independent Insulindia Events - by Thomahawk2k
 ###########################
 
 add_namespace = ins
@@ -49,10 +49,10 @@ country_event = { #Assassination attempt on Sukarno
 		}
 		add_stability = -0.1
 		create_country_leader = {
-			name = "Mohammed Hatta"
+			name = "Мохаммад Хатта"
 			picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 			expire = "1.1.1"
-			ideology = marhaenism_subtype
+			ideology = authoritarian_democrat_subtype
 		}
 		add_ideas = INS_Mohammed_Hatta_hog_ade
 		set_country_flag = Sukarno_dead
@@ -145,11 +145,6 @@ country_event = { #Darul Islam tries to coup the government
 			INS_Ki_Bagus_Hadikusumo_sec_pau
 		}
 		set_country_flag = ins_darul_islam_took_over
-		set_party_name = {
-			ideology = paternal_autocrat
-			long_name = INS_darul_party_long
-			name = INS_darul_party
-		}
 		#disable all royalist/westernizer ministers
 		set_country_flag = Hamengkubuwono_IX_dead
 		set_country_flag = Albertus_Sugiyapranata_dead
@@ -243,11 +238,6 @@ country_event = { #Royalist Countercoup
 		clr_country_flag = Soepomo_dead
 		clr_country_flag = Ignatius_Slamet_Rijadi_dead
 		set_country_flag = ins_sultans_countercoup
-		set_party_name = {
-			ideology = paternal_autocrat
-			long_name = INS_hamengkubuwono_party_long
-			name = INS_hamengkubuwono_party
-		}
 		#Disable the islamist ministers
 		set_country_flag = Sekarmadji_Kartosoewirjo_dead
 		set_country_flag = Abdul_Kahar_Muzakkar_dead
@@ -259,7 +249,7 @@ country_event = { #Royalist Countercoup
 		set_country_flag = Hasan_Tiro_dead
 		set_cosmetic_tag = INSULT
 		create_country_leader = {
-			name = "Hamengkubuwono IX"
+			name = "Хаменгкубувоно IX"
 			picture = "gfx/leaders/INS/Portrait_Indonesia_Hamengkubuwono_IX.png"
 			expire = "1.1.1"
 			ideology = paternal_autocrat_subtype
@@ -273,7 +263,7 @@ country_event = { #Royalist Countercoup
 	}
 }
 
-country_event = { #First Indonesian elections
+country_event = { #First Insulindian elections
 	id = ins.4
 	title = ins.4.t
 	desc = ins.4.d
@@ -326,18 +316,18 @@ country_event = { #First Indonesian elections
 				has_country_flag = Sukarno_dead
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1.1.1"
-				ideology = radsoc_national_communism_subtype
+				ideology = radical_socialist_subtype
 			}
 			else = {
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 					expire = "1.1.1"
-					ideology = radsoc_national_communism_subtype
+					ideology = radical_socialist_subtype
 				}
 			}
 		}
@@ -388,18 +378,18 @@ country_event = { #First Indonesian elections
 				has_country_flag = Sukarno_dead
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1.1.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 			else = {
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 					expire = "1.1.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 		}
@@ -842,13 +832,13 @@ country_event = { #Autocoup: Stage 1: eliminate the president - succesful
 
 	option = { #Woohoo!
 		name = ins.16.a
-		effect_tooltip = { #In fact Tan Malaka is already hidden behind Sukarno
+		effect_tooltip = { #In fact Тан Малака is already hidden behind Sukarno
 			create_country_leader = {
-				name = "Tan Malaka"
+				name = "Тан Малака"
 				desc = "POLITICS_TAN_MALAKA_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Tan_Malaka.png"
 				expire = "1.1.1"
-				ideology = radsoc_national_communism_subtype
+				ideology = radical_socialist_subtype
 			}
 		}
 		hidden_effect = {
@@ -971,13 +961,8 @@ country_event = { #Autocoup: Stage 2: Eliminate the opposition - failed, sultans
 		set_country_flag = Daud_Beureueh_dead
 		set_country_flag = Hasan_Tiro_dead
 		set_country_flag = ins_sultans_countercoup
-		set_party_name = {
-			ideology = paternal_autocrat
-			long_name = INS_hamengkubuwono_party_long
-			name = INS_hamengkubuwono_party
-		}
 		create_country_leader = {
-			name = "Hamengkubuwono IX"
+			name = "Хаменгкубувоно IX"
 			picture = "gfx/leaders/INS/Portrait_Indonesia_Hamengkubuwono_IX.png"
 			expire = "1.1.1"
 			ideology = paternal_autocrat_subtype
@@ -1003,7 +988,7 @@ country_event = { #Autocoup Succesful, Nusantara Communes proclaimed!
 		}
 	}
 
-	option = { #Semaun as gs
+	option = { #Семаун as gs
 		name = ins.20.a
 		ai_chance = {
 			factor = 20
@@ -1044,7 +1029,7 @@ country_event = { #Autocoup Succesful, Nusantara Communes proclaimed!
 		}
 	}
 
-	option = { #Tan Malaka can handle both
+	option = { #Тан Малака can handle both
 		name = ins.20.c
 		ai_chance = {
 			factor = 20
@@ -1111,7 +1096,7 @@ country_event = { #Occupy East Timor
 	}
 }
 
-country_event = { #Indonesia moves to occupy East Timor
+country_event = { #Insulindia moves to occupy East Timor
 	id = ins.23
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.23" }
 	title = ins.23.t
@@ -1134,7 +1119,7 @@ country_event = { #Indonesia moves to occupy East Timor
 		}
 	}
 
-	option = { #Issue an ultimatum to the Indonesian government
+	option = { #Issue an ultimatum to the Insulindian government
 		name = ins.23.b
 		ai_chance = {
 			factor = 100
@@ -1202,7 +1187,7 @@ country_event = { #Portugal issues an ultimatum!
 	}
 }
 
-country_event = { #Peace event when the Indonesians occupy Timor for a while
+country_event = { #Peace event when the Insulindians occupy Timor for a while
 	id = ins.26
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.26" }
 	title = ins.26.t
@@ -1317,7 +1302,7 @@ country_event = { #Portugal surrenders!
 	}
 }
 
-country_event = { #Peace with Indonesia: they demand Papua
+country_event = { #Peace with Insulindia: they demand Papua
 	id = ins.28
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.28" }
 	title = ins.28.t
@@ -1614,7 +1599,7 @@ country_event = { #The Portuguese accept our peace offer
 	}
 }
 
-country_event = { #Indonesia wants to buy our part of New Guinea
+country_event = { #Insulindia wants to buy our part of New Guinea
 	id = ins.37
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.37" }
 	title = ins.37.t
@@ -1756,7 +1741,7 @@ country_event = { #Australasia wants more!
 	}
 }
 
-country_event = { #Indonesia accepts!
+country_event = { #Insulindia accepts!
 	id = ins.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.40" }
 	title = ins.40.t
@@ -1778,7 +1763,7 @@ country_event = { #Indonesia accepts!
 	}
 }
 
-country_event = { #Indonesia refuses!
+country_event = { #Insulindia refuses!
 	id = ins.41
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.41" }
 	title = ins.41.t
@@ -1806,7 +1791,7 @@ country_event = { #Australasia refuses!
 	}
 }
 
-country_event = { #Indonesia demands the rest of the Indies
+country_event = { #Insulindia demands the rest of the Indies
 	id = ins.43
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.43" }
 	title = ins.43.t
@@ -2008,7 +1993,7 @@ country_event = { #Peace event when the Dutch are utterly defeated
 	}
 }
 
-country_event = { #Peace event when the Indonesians are utterly defeated
+country_event = { #Peace event when the Insulindians are utterly defeated
 	id = ins.47
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.47" }
 	title = ins.47.t
@@ -2079,7 +2064,7 @@ country_event = { #The Dutch surrender!
 	is_triggered_only = yes
 	picture = GFX_report_event_INS_independence_rally
 
-	option = { #Long live Indonesia Raya!
+	option = { #Long live Insulindia Raya!
 		name = ins.47.a
 		INS = {
 			if = {
@@ -2120,7 +2105,7 @@ country_event = { #The Dutch surrender!
 	}
 }
 
-country_event = { #The Indonesians surrender!
+country_event = { #The Insulindians surrender!
 	id = ins.49
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.49" }
 	title = ins.49.t
@@ -2282,7 +2267,7 @@ country_event = { #Australia surrenders!
 	}
 }
 
-country_event = { #Peace with Indonesia: they demand Timor
+country_event = { #Peace with Insulindia: they demand Timor
 	id = ins.53
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.53" }
 	title = ins.53.t
@@ -2476,7 +2461,7 @@ country_event = { #Australia demands our surrender!
 	}
 }
 
-country_event = { #Indonesia doesn't accept our peace offer
+country_event = { #Insulindia doesn't accept our peace offer
 	id = ins.59
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.59" }
 	title = ins.59.t
@@ -2816,7 +2801,7 @@ country_event = { #Sarawak stronk!
 	}
 }
 
-country_event = { #The Kanun Azasy - the islamic constitution of Indonesia
+country_event = { #The Kanun Azasy - the islamic constitution of Insulindia
 	id = ins.68
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.68" }
 	title = ins.68.t
@@ -2846,7 +2831,7 @@ country_event = { #The Kanun Azasy - the islamic constitution of Indonesia
 	}
 }
 
-country_event = { #First election year + 4 years * amount of elections Indonesian elections (not full democracy)
+country_event = { #First election year + 4 years * amount of elections Insulindian elections (not full democracy)
 	id = ins.69
 	title = ins.69.t
 	desc = ins.69.d
@@ -2929,18 +2914,18 @@ country_event = { #First election year + 4 years * amount of elections Indonesia
 				has_country_flag = Sukarno_dead
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1.1.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 			else = {
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 					expire = "1.1.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 		}
@@ -3319,7 +3304,7 @@ country_event = { #Dealing with the Borobudur
 	}
 }
 
-country_event = { #Changing the capital of Indonesia to Yogyakarta if you're monarchist
+country_event = { #Changing the capital of Insulindia to Yogyakarta if you're monarchist
 	id = ins.79
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.79" }
 	title = ins.79.t
@@ -3436,7 +3421,7 @@ country_event = { #The Royalist Constitution - Executive power
 		}
 	}
 
-	option = { #Executive power lies with the council of princes
+	option = { #Executive power lies with the Совет Принцев
 		name = ins.82.a
 		ai_chance = {
 			factor = 60
@@ -3586,7 +3571,7 @@ country_event = { #[INS.GetNameDef] wants to join the coprosperity sphere
 		}
 	}
 
-	option = { #Indonesia? Aren't you supposed to be our colony?
+	option = { #Insulindia? Aren't you supposed to be our colony?
 		name = ins.87.b
 		ai_chance = {
 			factor = 10
@@ -3663,7 +3648,7 @@ country_event = { #[INS.GetNameDef] wants us to join Maliphinsul
 		}
 	}
 
-	option = { #Malphilinsul? Surely this is a Filipino-Indonesian scheme to end Malaysia!
+	option = { #Malphilinsul? Surely this is a Filipino-Insulindian scheme to end Malaysia!
 		name = ins.90.b
 		ai_chance = {
 			factor = 10
@@ -3925,11 +3910,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sjahrir
 				}
 				create_country_leader = {
-					name = "Sutan Sjahrir"
+					name = "Сутан Шарир"
 					desc = "POLITICS_SUTAN_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 					expire = "1965.10.1"
-					ideology = socdem_democratic_socialism_subtype
+					ideology = social_democrat_subtype
 				}
 			}
 			if = {
@@ -3937,11 +3922,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_asyari
 				}
 				create_country_leader = {
-					name = "Hashim As'yari"
+					name = "Хашим Ас'яри"
 					desc = "POLITICS_HASHIM_ASYARI_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = socdem_democratic_socialism_subtype
+					ideology = social_democrat_subtype
 				}
 			}
 			if = {
@@ -3949,11 +3934,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sukarno
 				}
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = socdem_democratic_socialism_subtype
+					ideology = social_democrat_subtype
 				}
 			}
 			if = {
@@ -3961,20 +3946,20 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_hatta
 				}
 				create_country_leader = {
-					name = "Mohammed Hatta"
+					name = "Мохаммад Хатта"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 					expire = "1.1.1"
-					ideology = socdem_democratic_socialism_subtype
+					ideology = social_democrat_subtype
 				}
 			}
 		}
 		else = {
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 	}
@@ -4008,11 +3993,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sjahrir
 				}
 				create_country_leader = {
-					name = "Sutan Sjahrir"
+					name = "Сутан Шарир"
 					desc = "POLITICS_SUTAN_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 					expire = "1965.10.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 			if = {
@@ -4020,11 +4005,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_asyari
 				}
 				create_country_leader = {
-					name = "Hashim As'yari"
+					name = "Хашим Ас'яри"
 					desc = "POLITICS_HASHIM_ASYARI_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 			if = {
@@ -4032,11 +4017,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sukarno
 				}
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 			if = {
@@ -4044,20 +4029,20 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_hatta
 				}
 				create_country_leader = {
-					name = "Mohammed Hatta"
+					name = "Мохаммад Хатта"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 					expire = "1.1.1"
-					ideology = soccon_jadidism_subtype
+					ideology = social_conservative_subtype
 				}
 			}
 		}
 		else = {
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 	}
@@ -4091,11 +4076,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sjahrir
 				}
 				create_country_leader = {
-					name = "Sutan Sjahrir"
+					name = "Сутан Шарир"
 					desc = "POLITICS_SUTAN_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 					expire = "1965.10.1"
-					ideology = marhaenism_subtype
+					ideology = authoritarian_democrat_subtype
 				}
 			}
 			if = {
@@ -4103,11 +4088,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_asyari
 				}
 				create_country_leader = {
-					name = "Hashim As'yari"
+					name = "Хашим Ас'яри"
 					desc = "POLITICS_HASHIM_ASYARI_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = marhaenism_subtype
+					ideology = authoritarian_democrat_subtype
 				}
 			}
 			if = {
@@ -4115,11 +4100,11 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_sukarno
 				}
 				create_country_leader = {
-					name = "Sukarno"
+					name = "Сукарно"
 					desc = "POLITICS_SUKARNO_DESC"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 					expire = "1965.10.1"
-					ideology = marhaenism_subtype
+					ideology = authoritarian_democrat_subtype
 				}
 			}
 			if = {
@@ -4127,10 +4112,10 @@ country_event = { #Full democracy
 					has_country_flag = ins_elected_hatta
 				}
 				create_country_leader = {
-					name = "Mohammed Hatta"
+					name = "Мохаммад Хатта"
 					picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 					expire = "1.1.1"
-					ideology = marhaenism_subtype
+					ideology = authoritarian_democrat_subtype
 				}
 			}
 		}
@@ -4139,19 +4124,19 @@ country_event = { #Full democracy
 				has_country_flag = Sukarno_dead
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1.1.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		else = {
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 	}
@@ -4171,7 +4156,7 @@ country_event = { #Electing a president
 	fire_only_once = yes
 	picture = GFX_report_event_INS_independence_rally
 
-	option = { #Sutan Sjahrir
+	option = { #Сутан Шарир
 		name = ins.99.a
 		ai_chance = {
 			factor = 90
@@ -4181,11 +4166,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4193,11 +4178,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4205,7 +4190,7 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
@@ -4225,11 +4210,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4237,11 +4222,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4249,7 +4234,7 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
@@ -4274,11 +4259,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4286,11 +4271,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4298,11 +4283,11 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_sukarno
@@ -4321,10 +4306,10 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4332,10 +4317,10 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4343,10 +4328,10 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_hatta
@@ -4371,7 +4356,7 @@ country_event = { #Electing a president
 		}
 	}
 
-	option = { #Sutan Sjahrir
+	option = { #Сутан Шарир
 		name = ins.100.a
 		ai_chance = {
 			factor = 90
@@ -4381,11 +4366,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4393,11 +4378,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4405,11 +4390,11 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Sutan Sjahrir"
+				name = "Сутан Шарир"
 				desc = "POLITICS_SUTAN_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sutan_Sjahrir.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_sjahrir
@@ -4425,11 +4410,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4437,11 +4422,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4449,11 +4434,11 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Hashim As'yari"
+				name = "Хашим Ас'яри"
 				desc = "POLITICS_HASHIM_ASYARI_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Hashim_Asyari.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_asyari
@@ -4474,11 +4459,11 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4486,11 +4471,11 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4498,11 +4483,11 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Sukarno"
+				name = "Сукарно"
 				desc = "POLITICS_SUKARNO_DESC"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Sukarno.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_sukarno
@@ -4521,10 +4506,10 @@ country_event = { #Electing a president
 				has_government = social_democrat
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = socdem_democratic_socialism_subtype
+				ideology = social_democrat_subtype
 			}
 		}
 		if = {
@@ -4532,10 +4517,10 @@ country_event = { #Electing a president
 				has_government = social_conservative
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = soccon_jadidism_subtype
+				ideology = social_conservative_subtype
 			}
 		}
 		if = {
@@ -4543,10 +4528,10 @@ country_event = { #Electing a president
 				has_government = authoritarian_democrat
 			}
 			create_country_leader = {
-				name = "Mohammed Hatta"
+				name = "Мохаммад Хатта"
 				picture = "gfx/leaders/INS/Portrait_Indonesia_Mohammad_Hatta.png"
 				expire = "1965.10.1"
-				ideology = marhaenism_subtype
+				ideology = authoritarian_democrat_subtype
 			}
 		}
 		set_country_flag = ins_elected_hatta
@@ -4947,7 +4932,7 @@ country_event = { #Hari Merdeka Day
 	}
 }
 
-country_event = { #The Indonesian language
+country_event = { #The Insulindian language
 	id = ins.112
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.112" }
 
@@ -4969,7 +4954,7 @@ country_event = { #The Indonesian language
 	}
 }
 
-country_event = { #The Indonesian language
+country_event = { #The Insulindian language
 	id = ins.113
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.113" }
 	title = ins.113.t
@@ -5024,7 +5009,7 @@ country_event = { #Organise the Ulema Grand Council
 	}
 }
 
-country_event = { #Tan Malaka gang wants to join the Vietcong
+country_event = { #Тан Малака gang wants to join the Vietcong
 	id = ins.115
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.115" }
 	title = ins.115.t
@@ -5071,7 +5056,7 @@ country_event = { #Tan Malaka gang wants to join the Vietcong
 	}
 }
 
-country_event = { #Tan Malaka returns
+country_event = { #Тан Малака returns
 	id = ins.116
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.116" }
 	title = ins.116.t
@@ -5114,7 +5099,7 @@ country_event = { #Tan Malaka returns
 	}
 }
 
-country_event = { #Tan Malaka returns
+country_event = { #Тан Малака returns
 	id = ins.117
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ins.117" }
 	title = ins.117.t
@@ -5163,35 +5148,27 @@ country_event = { #Aslia
 		set_cosmetic_tag = INS_ASLIA
 		every_state = {
 			limit = { is_core_of = MLY }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		every_state = {
 			limit = { is_core_of = SAR }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		every_state = {
 			limit = { is_core_of = PHI }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		every_state = {
 			limit = { is_core_of = SIA }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		every_state = {
 			limit = { is_core_of = BRM }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		every_state = {
 			limit = { is_core_of = VIN }
-			add_claim_by = INS
-		}
-		every_state = {
-			limit = { is_core_of = LAO }
-			add_claim_by = INS
-		}
-		every_state = {
-			limit = { is_core_of = CAM }
-			add_claim_by = INS
+			add_claim_by = FROM
 		}
 		add_state_claim = 987
 		add_state_claim = 520
@@ -5201,7 +5178,7 @@ country_event = { #Aslia
 		add_state_claim = 737
 		create_wargoal = {
 			type = annex_everything
-			target = DEI
+			target = DEN
 		}
 		create_wargoal = {
 			type = annex_everything

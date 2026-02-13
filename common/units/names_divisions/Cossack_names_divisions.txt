@@ -32,204 +32,204 @@
 #									the current game version.
 
 COS_INF_01 = {
-	name = "Infantry Division"
+	name = "Пехотная дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "infantry" "irregular_infantry" }
 
 	link_numbering_with = { COS_MOT_01 COS_MEC_01 }
 
-	fallback_name = "%dya Strelkovaya Diviziya"
+	fallback_name = "%d-я стрелковая дивизия"
 
 	ordered = {
-		1 = { "1ya Strelkovaya Diviziya" } #historical (Army of Far East Republic)
-		2 = { "2ya Strelkovaya Diviziya" } #historical (Siberian Army of Russian State)
-		3 = { "3ya Strelkovaya Diviziya" } #historical (Army of Far East Republic)
-		4 = { "4ya Strelkovaya Diviziya" } #historical (Siberian Army of Russian State)
-		5 = { "%dya Strelkovaya Diviziya" }
-		6 = { "%dya Strelkovaya Diviziya" }
-		7 = { "%dya Strelkovaya Diviziya" }
-		8 = { "8ya Strelkovaya Diviziya" } #historical (Siberian Army of Russian State)
-		9 = { "9ya Strelkovaya Diviziya" } #historical (Siberian Army of Russian State)
-		10 = { "%dya Strelkovaya Diviziya" }
+		1 = { "1-я стрелковая дивизия" } #historical (Army of Far East Republic)
+		2 = { "2-я стрелковая дивизия" } #historical (Siberian Army of Russian State)
+		3 = { "3-я стрелковая дивизия" } #historical (Army of Far East Republic)
+		4 = { "4-я стрелковая дивизия" } #historical (Siberian Army of Russian State)
+		5 = { "%d-я стрелковая дивизия" }
+		6 = { "%d-я стрелковая дивизия" }
+		7 = { "%d-я стрелковая дивизия" }
+		8 = { "8-я стрелковая дивизия" } #historical (Siberian Army of Russian State)
+		9 = { "9-я стрелковая дивизия" } #historical (Siberian Army of Russian State)
+		10 = { "%d-я стрелковая дивизия" }
 	}
 }
 
 COS_CAV_01 = {
-	name = "Cossack Division"
+	name = "Казачья дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "irregular_cavalry" "cavalry" }
 
-	fallback_name = "%dya Kazatskaya Diviziya"
+	fallback_name = "%d-я казачья дивизия"
 
 	ordered = {
-		1 = { "%dya Kazatskaya Diviziya" }
-		2 = { "%dya Kazatskaya Diviziya" }
-		3 = { "%dya Kazatskaya Diviziya" }
-		4 = { "%dya Kazatskaya Diviziya" }
-		5 = { "%dya Kazatskaya Diviziya" }
-		6 = { "%dya Kazatskaya Diviziya" }
-		7 = { "%dya Kazatskaya Diviziya" }
-		8 = { "%dya Kazatskaya Diviziya" }
-		9 = { "%dya Kazatskaya Diviziya" }
-		10 = { "%dya Kazatskaya Diviziya" }
+		1 = { "%d-я казачья дивизия" }
+		2 = { "%d-я казачья дивизия" }
+		3 = { "%d-я казачья дивизия" }
+		4 = { "%d-я казачья дивизия" }
+		5 = { "%d-я казачья дивизия" }
+		6 = { "%d-я казачья дивизия" }
+		7 = { "%d-я казачья дивизия" }
+		8 = { "%d-я казачья дивизия" }
+		9 = { "%d-я казачья дивизия" }
+		10 = { "%d-я казачья дивизия" }
 	}
 }
 
 COS_MOT_01 = {
-	name = "Motor Rifle Division"
+	name = "Мотострелковая дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = {"motorized" }
 
 	link_numbering_with = { COS_INF_01 COS_MEC_01 }
 
-	fallback_name = "%dya Motostrelkovaya Diviziya"
+	fallback_name = "%d-я мотострелковая дивизия"
 
 	ordered = {
-		1 = { "%dya Motostrelkovaya Diviziya" }
-		2 = { "%dya Motostrelkovaya Diviziya" }
-		3 = { "%dya Motostrelkovaya Diviziya" }
-		4 = { "%dya Motostrelkovaya Diviziya" }
-		5 = { "%dya Motostrelkovaya Diviziya" }		
-		6 = { "%dya Motostrelkovaya Diviziya" }		
-		7 = { "%dya Motostrelkovaya Diviziya" }		
-		8 = { "%dya Motostrelkovaya Diviziya" }		
-		9 = { "%dya Motostrelkovaya Diviziya" }		
-		10 = { "%dya Motostrelkovaya Diviziya" }		
+		1 = { "%d-я мотострелковая дивизия" }
+		2 = { "%d-я мотострелковая дивизия" }
+		3 = { "%d-я мотострелковая дивизия" }
+		4 = { "%d-я мотострелковая дивизия" }
+		5 = { "%d-я мотострелковая дивизия" }		
+		6 = { "%d-я мотострелковая дивизия" }		
+		7 = { "%d-я мотострелковая дивизия" }		
+		8 = { "%d-я мотострелковая дивизия" }		
+		9 = { "%d-я мотострелковая дивизия" }		
+		10 = { "%d-я мотострелковая дивизия" }		
 	}
 }
 
 COS_MEC_01 = {
-	name = "Mechanized Division"
+	name = "Механизированная дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "mechanized" "motorized" }
 	link_numbering_with = { COS_INF_01 COS_MOT_01 }
 
-	fallback_name = "%dya Mekhanizirovanaya Diviziya"
+	fallback_name = "%d-я механизированная дивизия"
 
 	ordered = {
-		1 = { "%dya Mekhanizirovanaya Diviziya" }
-		2 = { "%dya Mekhanizirovanaya Diviziya" }
-		3 = { "%dya Mekhanizirovanaya Diviziya" }
-		4 = { "%dya Mekhanizirovanaya Diviziya" }
-		5 = { "%dya Mekhanizirovanaya Diviziya" }
-		6 = { "%dya Mekhanizirovanaya Diviziya" }
-		7 = { "%dya Mekhanizirovanaya Diviziya" }
-		8 = { "%dya Mekhanizirovanaya Diviziya" }
-		9 = { "%dya Mekhanizirovanaya Diviziya" }
-		10 = { "%dya Mekhanizirovanaya Diviziya" }
+		1 = { "%d-я механизированная дивизия" }
+		2 = { "%d-я механизированная дивизия" }
+		3 = { "%d-я механизированная дивизия" }
+		4 = { "%d-я механизированная дивизия" }
+		5 = { "%d-я механизированная дивизия" }
+		6 = { "%d-я механизированная дивизия" }
+		7 = { "%d-я механизированная дивизия" }
+		8 = { "%d-я механизированная дивизия" }
+		9 = { "%d-я механизированная дивизия" }
+		10 = { "%d-я механизированная дивизия" }
 	}
 }
 
 COS_ARM_01 = {
-	name = "Tank Division"
+	name = "Танковая дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
-	fallback_name = "%dya Tankovaya Diviziya"
+	fallback_name = "%d-я танковая дивизия"
 
 	ordered = {
-		1 = { "%dya Tankovaya Diviziya" }
-		2 = { "%dya Tankovaya Diviziya" }
-		3 = { "%dya Tankovaya Diviziya" }
-		4 = { "%dya Tankovaya Diviziya" }
-		5 = { "%dya Tankovaya Diviziya" }
-		6 = { "%dya Tankovaya Diviziya" }
-		7 = { "%dya Tankovaya Diviziya" }
-		8 = { "%dya Tankovaya Diviziya" }
-		9 = { "%dya Tankovaya Diviziya" }
-		10 = { "%dya Tankovaya Diviziya" }
+		1 = { "%d-я танковая дивизия" }
+		2 = { "%d-я танковая дивизия" }
+		3 = { "%d-я танковая дивизия" }
+		4 = { "%d-я танковая дивизия" }
+		5 = { "%d-я танковая дивизия" }
+		6 = { "%d-я танковая дивизия" }
+		7 = { "%d-я танковая дивизия" }
+		8 = { "%d-я танковая дивизия" }
+		9 = { "%d-я танковая дивизия" }
+		10 = { "%d-я танковая дивизия" }
 	}
 }
 
 COS_PAR_01 = {
-	name = "Paratrooper Division"
+	name = "Десантная дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "paratrooper" }
 
-	fallback_name = "%dya Vozdushno-Desantnaya Diviziya"
+	fallback_name = "%d-я воздушно-десантная дивизия"
 
 	ordered = {
-		1 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		2 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		3 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		4 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		5 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		6 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		7 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		8 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		9 = { "%dya Vozdushno-Desantnaya Diviziya" }
-		10 = { "%dya Vozdushno-Desantnaya Diviziya" }
+		1 = { "%d-я воздушно-десантная дивизия" }
+		2 = { "%d-я воздушно-десантная дивизия" }
+		3 = { "%d-я воздушно-десантная дивизия" }
+		4 = { "%d-я воздушно-десантная дивизия" }
+		5 = { "%d-я воздушно-десантная дивизия" }
+		6 = { "%d-я воздушно-десантная дивизия" }
+		7 = { "%d-я воздушно-десантная дивизия" }
+		8 = { "%d-я воздушно-десантная дивизия" }
+		9 = { "%d-я воздушно-десантная дивизия" }
+		10 = { "%d-я воздушно-десантная дивизия" }
 	}
 }
 
 COS_MAR_01 = {
-	name = "Marine Division"
+	name = "Морская пехота"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "marine" }
 
-	fallback_name = "%dya Diviziya Morskoy Pekhoty"
+	fallback_name = "%d-я дивизия морской пехоты"
 
 	ordered = {
-		1 = { "%dya Diviziya Morskoy Pekhoty" }
-		2 = { "%dya Diviziya Morskoy Pekhoty" }
-		3 = { "%dya Diviziya Morskoy Pekhoty" }
-		4 = { "%dya Diviziya Morskoy Pekhoty" }
-		5 = { "%dya Diviziya Morskoy Pekhoty" }
-		6 = { "%dya Diviziya Morskoy Pekhoty" }
-		7 = { "%dya Diviziya Morskoy Pekhoty" }
-		8 = { "%dya Diviziya Morskoy Pekhoty" }
-		9 = { "%dya Diviziya Morskoy Pekhoty" }
-		10 = { "%dya Diviziya Morskoy Pekhoty" }
+		1 = { "%d-я дивизия морской пехоты" }
+		2 = { "%d-я дивизия морской пехоты" }
+		3 = { "%d-я дивизия морской пехоты" }
+		4 = { "%d-я дивизия морской пехоты" }
+		5 = { "%d-я дивизия морской пехоты" }
+		6 = { "%d-я дивизия морской пехоты" }
+		7 = { "%d-я дивизия морской пехоты" }
+		8 = { "%d-я дивизия морской пехоты" }
+		9 = { "%d-я дивизия морской пехоты" }
+		10 = { "%d-я дивизия морской пехоты" }
 	}
 }
 
 COS_MNT_01 = {
-	name = "Mountain Rifle Division"
+	name = "Горнострелковая дивизия"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "mountaineers" }
 
-	fallback_name = "%dya Plastunskaya Kazatskaya Diviziya"
+	fallback_name = "%d-я пластунская казачья дивизия"
 
 	ordered = {
-		1 = { "2ya Plastunskaya Kazatskaya Diviziya" }
-		2 = { "3ya Plastunskaya Kazatskaya Diviziya" }
-		3 = { "4ya Plastunskaya Kazatskaya Diviziya" }
-		4 = { "5ya Plastunskaya Kazatskaya Diviziya" }
-		5 = { "6ya Plastunskaya Kazatskaya Diviziya" }
-		6 = { "6ya Plastunskaya Kazatskaya Diviziya" }
-		7 = { "6ya Plastunskaya Kazatskaya Diviziya" }
-		8 = { "6ya Plastunskaya Kazatskaya Diviziya" }
-		9 = { "6ya Plastunskaya Kazatskaya Diviziya" }
-		10 = { "6ya Plastunskaya Kazatskaya Diviziya" }
+		1 = { "2ya пластунская казачья дивизия" }
+		2 = { "3ya пластунская казачья дивизия" }
+		3 = { "4ya пластунская казачья дивизия" }
+		4 = { "5ya пластунская казачья дивизия" }
+		5 = { "6ya пластунская казачья дивизия" }
+		6 = { "6ya пластунская казачья дивизия" }
+		7 = { "6ya пластунская казачья дивизия" }
+		8 = { "6ya пластунская казачья дивизия" }
+		9 = { "6ya пластунская казачья дивизия" }
+		10 = { "6ya пластунская казачья дивизия" }
 	}
 }
 
 COS_MIL_01 = {
-	name = "Militia Division"
+	name = "Дивизия ополчения"
 	for_countries = { DKB KUB ORE URL TRB }
 	can_use = { always = yes }
 	division_types = { "militia" }
 
-	fallback_name = "%dya Diviziya Opolcheniya"
+	fallback_name = "%d-я ополченская дивизия"
 
 	ordered = {
-		1 = { "%dya Diviziya Opolcheniya" }
-		2 = { "%dya Diviziya Opolcheniya" }
-		3 = { "%dya Diviziya Opolcheniya" }
-		4 = { "%dya Diviziya Opolcheniya" }
-		5 = { "%dya Diviziya Opolcheniya" }
-		6 = { "%dya Diviziya Opolcheniya" }
-		7 = { "%dya Diviziya Opolcheniya" }
-		8 = { "%dya Diviziya Opolcheniya" }
-		9 = { "%dya Diviziya Opolcheniya" }
-		10 = { "%dya Diviziya Opolcheniya" }
+		1 = { "%d-я ополченская дивизия" }
+		2 = { "%d-я ополченская дивизия" }
+		3 = { "%d-я ополченская дивизия" }
+		4 = { "%d-я ополченская дивизия" }
+		5 = { "%d-я ополченская дивизия" }
+		6 = { "%d-я ополченская дивизия" }
+		7 = { "%d-я ополченская дивизия" }
+		8 = { "%d-я ополченская дивизия" }
+		9 = { "%d-я ополченская дивизия" }
+		10 = { "%d-я ополченская дивизия" }
 	}
 }

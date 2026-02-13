@@ -206,12 +206,12 @@ country_event = { #ZIM - ZAM Accepts
 		add_state_core = 955
 		add_state_core = 871
 		add_state_core = 813
-		813 = { set_state_name = "North-Western Rhodesia" }
-		871 = { set_state_name = "Nyasaland" }
-		955 = { set_state_name = "Chewaland" }
-		956 = { set_state_name = "North-Eastern Rhodesia" }
-		957 = { set_state_name = "Western Barotseland" }
-		958 = { set_state_name = "Eastern Barotseland" }
+		813 = { set_state_name = "Северо-Западная Родезия" }
+		871 = { set_state_name = "Ньясаленд" }
+		955 = { set_state_name = "Чеваланд" }
+		956 = { set_state_name = "Северо-Восточная Родезия" }
+		957 = { set_state_name = "Западный Баротселенд" }
+		958 = { set_state_name = "Восточный Баротселенд" }
 		set_cosmetic_tag = ZIM_federation
 		hidden_effect = {
 			country_event = {
@@ -308,12 +308,12 @@ country_event = { #ZIM - ZAM Accepts
 		add_state_core = 955
 		add_state_core = 871
 		add_state_core = 813
-		813 = { set_state_name = "North-Western Rhodesia" }
-		871 = { set_state_name = "Nyasaland" }
-		955 = { set_state_name = "Chewaland" }
-		956 = { set_state_name = "North-Eastern Rhodesia" }
-		957 = { set_state_name = "Western Barotseland" }
-		958 = { set_state_name = "Eastern Barotseland" }
+		813 = { set_state_name = "Северо-Западная Родезия" }
+		871 = { set_state_name = "Ньясаленд" }
+		955 = { set_state_name = "Чеваланд" }
+		956 = { set_state_name = "Северо-Восточная Родезия" }
+		957 = { set_state_name = "Западный Баротселенд" }
+		958 = { set_state_name = "Восточный Баротселенд" }
 		hidden_effect = {
 			country_event = {
 				id = nrho.19
@@ -530,7 +530,7 @@ country_event = { #Burke Vote of No Confidence
 		if = { 
 			limit = { has_country_flag = ZIM_pm_is_hos }
 			create_country_leader = {
-				name = "Ian Smith"
+				name = "Ян Смит"
 				desc = "POLITICS_SMITH_DESC"
 				picture = "gfx/leaders/ZIM/Portrait_Zimbabwe_Ian_Smith.png"
 				expire = "1.1.1"
@@ -539,7 +539,7 @@ country_event = { #Burke Vote of No Confidence
 			}
 		}
 		create_corps_commander = {
-			name = "Ian Smith "
+			name = "Ян Смит "
 			portrait_path = "gfx/leaders/ZIM/Portrait_Zimbabwe_Ian_Smith_General.png"
 			traits = {
 				politically_connected
@@ -1387,7 +1387,7 @@ country_event = {
 			if = { 
 				limit = { has_country_flag = ZIM_pm_is_hos }
 				create_country_leader = {
-					name = "Reginald Stephen Garfield Todd"
+					name = "Гарфилд Тодд"
 					desc = "POLITICS_GARFIELD_DESC"
 					picture = "gfx/leaders/ZIM/Portrait_Zimbabwe_Garfield_Todd.png"
 					expire = "1.1.1"
@@ -1417,7 +1417,7 @@ country_event = {
 			if = { 
 				limit = { has_country_flag = ZIM_pm_is_hos }
 				create_country_leader = {
-					name = "Winston Joseph Field"
+					name = "Уинстон Филд"
 					desc = "POLITICS_FIELD_DESC"
 					picture = "gfx/leaders/ZIM/Portrait_ZIM_Winston_Field.png"
 					expire = "1.1.1"
@@ -1645,27 +1645,27 @@ country_event = { #Governor General
 		ZIM_create_governor_stanley = yes
 		set_country_flag = ZIM_first_round
 		if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 	}
@@ -1682,27 +1682,27 @@ country_event = { #Governor General
 		ZIM_create_governor_baring = yes
 		set_country_flag = ZIM_first_round
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 	}
@@ -1716,27 +1716,27 @@ country_event = { #Governor General
 		}
 		set_country_flag = ZIM_first_round
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 		set_country_flag = ZIM_third_round_candidates
@@ -1747,27 +1747,27 @@ country_event = { #Governor General
 		ZIM_create_governor_welsh = yes
 		set_country_flag = ZIM_first_round
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 	}
@@ -1780,27 +1780,27 @@ country_event = { #Governor General
 		}
 		ZIM_create_governor_bomber_harris = yes
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 		set_country_flag = ZIM_third_round_candidates
@@ -1814,32 +1814,32 @@ country_event = { #Governor General
 		ZIM_create_governor_baden_powell = yes
 		set_country_flag = ZIM_first_round
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Clifford Dupont" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Клиффорд Дюпон" ruling_only = yes } }
 			set_country_flag  = ZIM_dupont_replaced
 		}
 	}
 	
-	option = { #Clifford Dupont
+	option = { #Клиффорд Дюпон
 		name = zim.50.h #
 		trigger = { 
 			has_country_flag = ZIM_third_round_candidates 
@@ -1847,27 +1847,27 @@ country_event = { #Governor General
 		}
 		ZIM_create_governor_dupont = yes
 		if = {
-			limit = { has_country_leader = { name = "Herbert James Stanley" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Герберт Джеймс Стэнли" ruling_only = yes } }
 			set_country_flag  = ZIM_herbert_stanley_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Evelyn Baring" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Эвелин Бэринг" ruling_only = yes } }
 			set_country_flag  = ZIM_baring_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "William Campbell Tait" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Уильям Кэмпбелл Тейт" ruling_only = yes } }
 			set_country_flag  = ZIM_tait_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Allan Ross Welsh" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Аллан Росс Уэлш" ruling_only = yes } }
 			set_country_flag  = ZIM_welsh_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Arthur Harris" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Артур Харрис" ruling_only = yes } }
 			set_country_flag  = ZIM_harris_replaced
 		}
 		else_if = {
-			limit = { has_country_leader = { name = "Robert Baden-Powell" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Роберт Баден-Пауэлл" ruling_only = yes } }
 			set_country_flag  = ZIM_baden_powell_replaced
 		}
 	}
@@ -1914,7 +1914,7 @@ country_event = {
 			if = { 
 				limit = { has_country_flag = ZIM_pm_is_hos }
 				create_country_leader = {
-					name = "Reginald Stephen Garfield Todd"
+					name = "Гарфилд Тодд"
 					desc = "POLITICS_GARFIELD_DESC"
 					picture = "gfx/leaders/ZIM/Portrait_Zimbabwe_Garfield_Todd.png"
 					expire = "1.1.1"
@@ -1944,7 +1944,7 @@ country_event = {
 			if = { 
 				limit = { has_country_flag = ZIM_pm_is_hos }
 				create_country_leader = {
-					name = "Winston Joseph Field"
+					name = "Уинстон Филд"
 					desc = "POLITICS_FIELD_DESC"
 					picture = "gfx/leaders/ZIM/Portrait_ZIM_Winston_Field.png"
 					expire = "1.1.1"

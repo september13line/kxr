@@ -1,0 +1,82 @@
+country_event = {
+	id = super.1999
+	title = super.1999.t
+	desc = super.1999.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	trigger = {
+		GEO = {
+			has_country_flag = GEO_chaos_occurring
+		}
+		NOT = { has_global_flag = KX_superevent_total_off }
+	}
+
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = super.1999.a
+
+		set_global_flag = Super_Event_Visible
+		set_global_flag = GEO_chaos_in_caucasus
+		every_country = {
+			limit = {
+				NOT = {
+					is_ai = yes
+					has_global_flag = KX_superevent_sounds_off
+				}
+			}
+			scoped_sound_effect = "superev_caucasus"
+		}
+	}
+}
+country_event = {
+	id = super.200
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.37.a
+
+		set_global_flag = Super_Event_Visible
+		set_global_flag = RUSSIAN_UNIFICATION_stalin
+		every_country = {
+			limit = {
+				NOT = {
+					is_ai = yes
+					has_country_flag = KX_superevent_sounds_off
+				}
+			}
+			scoped_sound_effect = "superev_RUSSIAN_UNIFICATION_stalin"
+		}
+	}
+}
+country_event = {
+	id = super.2000
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	hidden = yes
+
+	option = {
+		name = super.2000.a
+
+		set_global_flag = Super_Event_Visible
+		set_global_flag = GSV_COLLAPS_GSV_win
+		every_country = {
+			limit = {
+				NOT = {
+					is_ai = yes
+					has_country_flag = KX_superevent_sounds_off
+				}
+			}
+			scoped_sound_effect = "super_GSV_win"
+		}
+	}
+}

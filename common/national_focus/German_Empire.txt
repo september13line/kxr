@@ -209,18 +209,18 @@ focus_tree = {
 		bypass = {
 			has_completed_focus = GER_empower_the_verdeckte_reichspolizei
 			has_country_leader = {
-				name = "Wilhelm III"
+				name = "Вильгельм III"
 				ruling_only = yes
 			}
 		}
 		available = {
 			has_country_leader = {
-				name = "Wilhelm II"
+				name = "Вильгельм II"
 				ruling_only = yes
 			}
 			NOT = {
 				has_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					ruling_only = yes
 				}
 			}
@@ -373,7 +373,7 @@ focus_tree = {
 			MAF = {
 				exists = yes
 				has_country_leader = {
-					name = "Hermann von Göring"
+					name = "Герман Геринг"
 					ruling_only = yes
 				}
 			}
@@ -573,7 +573,7 @@ focus_tree = {
 		bypass = {
 			has_completed_focus = GER_empower_the_verdeckte_reichspolizei
 			has_country_leader = {
-				name = "Wilhelm III"
+				name = "Вильгельм III"
 				ruling_only = yes
 			}
 		}
@@ -584,12 +584,12 @@ focus_tree = {
 		has_completed_focus = GER_drinks_with_the_crown_prince
 			has_government = paternal_autocrat
 			has_country_leader = {
-				name = "Wilhelm II"
+				name = "Вильгельм II"
 				ruling_only = yes
 			}
 			NOT = {
 				has_country_leader = {
-					name = "Wilhelm III"
+					name = "Вильгельм III"
 					ruling_only = yes
 				}
 			}
@@ -1859,10 +1859,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = GER_hahn_meitner
+			add_tech_bonus = {
+				name = GER_hahn_meitner
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 			}
@@ -6936,7 +6936,7 @@ focus_tree = {
 			NOT = {
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_idea = GER_Kurt_von_Schleicher_hog_pau
+					has_idea = GER_Kurt_von_Schleicher_hog_pau
 			}
 		}
 		bypass = {
@@ -6947,7 +6947,7 @@ focus_tree = {
 			NOT = {
 				has_government = paternal_autocrat
 				has_government = national_populist
-				has_idea = GER_Kurt_von_Schleicher_hog_pau
+					has_idea = GER_Kurt_von_Schleicher_hog_pau
 			}
 		}
 		x = 3

@@ -4,7 +4,7 @@
 
 add_namespace = utah
 
-country_event = { #Barry Goldwater Declares Arizona Independent
+country_event = { #Барри Голдуотер Declares Arizona Independent
 	id = utah.21
 	immediate = {log = "[GetDateText]: [Root.GetName]: event utah.21"}
 	title = utah.21.t
@@ -26,7 +26,7 @@ country_event = { #Barry Goldwater Declares Arizona Independent
 		}
 		hidden_effect = {
 			delete_unit_template_and_units = { 
-				division_template = "National Guard"
+				division_template = "Национальная гвардия"
 			}
 			load_oob = DSR_2MIL
 		}
@@ -44,7 +44,7 @@ country_event = { #Barry Goldwater Declares Arizona Independent
 		}
 		ARZ = {
 			create_country_leader = {
-				name = "Barry Goldwater"
+				name = "Барри Голдуотер"
 				desc = "POLITICS_GOLDWATER_DESC"
 				picture = "gfx/leaders/ARZ/Portrait_ARZ_Barry_Goldwater.png"
 				expire = "1.1.1"
@@ -518,7 +518,7 @@ country_event = {#
 		name = "Test"
 		add_political_power = -200
 		create_country_leader = {
-			name = "Theodore Roosevelt Jr."
+			name = "Теодор Рузвельт-мл."
 			desc = "TEDDY_ROOSEVELT_JR_DESC"
 			picture = "gfx/leaders/AML/Portrait_AML_Theodore_Roosevelt_Jr.png"
 			expire = "1.1.1"
@@ -757,7 +757,7 @@ country_event = {#
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "George Marshall"
+				name = "Джордж Маршалл"
 				desc = "POLITICS_MARSHALL_WARLORD_DESC"
 				picture = "gfx/leaders/UOT/Portrait_UOT_george_marshal.png"
 				expire = "1.1.1"
@@ -765,7 +765,7 @@ country_event = {#
 				traits = {}
 			}
 			create_country_leader = {
-				name = "George Marshall"
+				name = "Джордж Маршалл"
 				desc = "POLITICS_MARSHALL_WARLORD_DESC"
 				picture = "gfx/leaders/UOT/Portrait_UOT_george_marshal.png"
 				expire = "1.1.1"
@@ -822,7 +822,7 @@ country_event = {#
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Omar Bradley"
+				name = "Омар Брэдли"
 				desc = "POLITICS_BRADLEY_WARLORD_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_gen_omar_bradley.png"
 				expire = "1.1.1"
@@ -830,7 +830,7 @@ country_event = {#
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Omar Bradley"
+				name = "Омар Брэдли"
 				desc = "POLITICS_BRADLEY_WARLORD_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_gen_omar_bradley.png"
 				expire = "1.1.1"
@@ -888,7 +888,7 @@ country_event = {#
 			}
 			add_ideas = AML_Dwight_D_Eisenhower_hog_pau
 			create_country_leader = {
-				name = "Dwight D. Eisenhower"
+				name = "Дуайт Д. Эйзенхауэр"
 				desc = "POLITICS_EISENHOWER_WARLORD_DESC"
 				picture = "gfx/leaders/IKE/Portrait_UOT_Dwight_Eisenhower.png"
 				expire = "1.1.1"
@@ -896,7 +896,7 @@ country_event = {#
 				traits = {}
 			}
 			create_country_leader = {
-				name = "Dwight D. Eisenhower"
+				name = "Дуайт Д. Эйзенхауэр"
 				desc = "POLITICS_EISENHOWER_WARLORD_DESC"
 				picture = "gfx/leaders/IKE/Portrait_UOT_Dwight_Eisenhower_augustus.png"
 				expire = "1.1.1"
@@ -955,7 +955,7 @@ country_event = {#
 			}
 			add_popularity = { ideology = national_populist popularity = 0.25 }
 			create_country_leader = {
-				name = "George Patton"
+				name = "Джордж Паттон"
 				desc = "POLITICS_PATTON_WARLORD_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_George_Patton.png"
 				expire = "1.1.1"
@@ -963,7 +963,7 @@ country_event = {#
 				traits = { }
 			}
 			create_country_leader = {
-				name = "George Patton"
+				name = "Джордж Паттон"
 				desc = "POLITICS_PATTON_WARLORD_DESC"
 				picture = "gfx/leaders/USA/Portrait_USA_George_Patton.png"
 				expire = "1.1.1"
@@ -1051,7 +1051,7 @@ country_event = { # Edsel convincing his dad to resign
 	fire_only_once = yes
 	
 	option = {
-		name = "Edsel takes over now that Ford is gone"
+		name = "Эдсел берёт на себя управление, поскольку Форда больше нет."
 		ai_chance = {
 			factor = 50
 		}
@@ -1061,7 +1061,7 @@ country_event = { # Edsel convincing his dad to resign
 		}
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.20 }
 		create_country_leader = {
-			name = "Edsel Ford"
+			name = "Эдсел Форд"
 			desc = "POLITICS_EDSEL_FORD_DESC"
 			picture = "gfx/leaders/CGL/Portrait_CGL_Edsel_Ford.png"
 			expire = "1.1.1"
@@ -1083,7 +1083,7 @@ country_event = { # Edsel convincing his dad to resign
 			factor = 0
 		}
 		create_country_leader = {
-			name = "Harry Bennett"
+			name = "Гарри Беннетт"
 			desc = "POLITICS_BENNETT_DESC"
 			picture = "gfx/leaders/CGL/Portrait_CGL_Harry_Bennett.png"
 			expire = "1.1.1"
@@ -1281,7 +1281,7 @@ country_event = { #Edsel Dead
 				
 		name = CGL.4.a
 		create_country_leader = {
-			name = "Harry Bennett"
+			name = "Гарри Беннетт"
 			desc = "POLITICS_BENNETT_DESC"
 			picture = "gfx/leaders/CGL/Portrait_CGL_Harry_Bennett.png"
 			expire = "1.1.1"
@@ -1310,7 +1310,7 @@ country_event = { #Edsel Dead
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "George Edward Deatherage"
+			name = "Джордж Эдвард Дитрейдж"
 			desc = "POLITICS_DEATHERAGE_DESC"
 			picture = "gfx/leaders/CGL/Portrait_CGL_George_E_Deatherage.png"
 			expire = "1.1.1"

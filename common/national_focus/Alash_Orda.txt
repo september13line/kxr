@@ -356,7 +356,7 @@ focus_tree = {
 					value = -1000
 				}			
 			}
-			custom_effect_tooltip = "If they agree:"
+			custom_effect_tooltip = "Если они согласятся:"
 			event_option_tooltip = alash.660.a
 			ALO = {
 				add_ai_strategy = {
@@ -638,7 +638,7 @@ focus_tree = {
 			has_country_flag = ALO_communist_party_established 
 		}
 		bypass = {
-			has_country_leader = { name = "Jumabay Shaiahmetov" ruling_only = yes }
+			has_country_leader = { name = "Жумабай Шаяхметов" ruling_only = yes }
 		}
 		ai_will_do = {
 			factor = 80
@@ -771,7 +771,7 @@ focus_tree = {
 			has_country_flag = ALO_communist_party_established
 		}
 		bypass = {
-			has_country_leader = { name = "Jumabay Shaiahmetov" ruling_only = yes }
+			has_country_leader = { name = "Жумабай Шаяхметов" ruling_only = yes }
 		}
 		ai_will_do = {
 			factor = 80
@@ -914,7 +914,7 @@ focus_tree = {
 				if = {
 					limit = { has_intelligence_agency = no }
 					create_intelligence_agency = {
-						name = "Cheka"
+						name = "ЧК"
 						icon = GFX_intelligence_agency_logo_sov_2
 					}
 				}
@@ -1774,7 +1774,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ALO_Qazaq_Ethnostate }
 		available = {
 			has_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				ruling_only = yes
 			}
 			has_socialist_government = yes
@@ -1924,7 +1924,7 @@ focus_tree = {
 			}
 			add_synd_to_coalition = yes
 			create_country_leader = {
-				name = "Imanaly Aydarbekov"
+				name = "Иманали Айдарбеков"
 				picture = "gfx/leaders/KYR/Portrait_KYR_Imanaly_Aydarbekov.png"
 				expire = "1.1.1"
 				ideology = syn_developing_leftism_subtype
@@ -1997,7 +1997,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ALO_Validi }
 		available = {
 			has_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				ruling_only = yes
 			}
 			NOT = { has_completed_focus = ALO_Fight_Islamism }
@@ -2012,7 +2012,7 @@ focus_tree = {
 			if = {
 				limit = { 
 					country_exists = TTR 
-					TTR = { has_country_leader = { name = "Mirsäyet Soltanğäliev" ruling_only = yes } }
+					TTR = { has_country_leader = { name = "Мирсаид Султан-Галиев" ruling_only = yes } }
 				}
 				TTR = {
 					country_event = turkestan_events.7
@@ -2046,7 +2046,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ALO_Soltangaliev }
 		available = {
 			has_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				ruling_only = yes
 			}
 			has_completed_focus = ALO_Fight_Islamism
@@ -2095,7 +2095,7 @@ focus_tree = {
 				573 = { add_core_of = BKN }
 				BKN = {
 					set_politics = { ruling_party = syndicalist }
-					become_exiled_in = { target = ROOT }
+						become_exiled_in = { target = ROOT }
 				}
 				activate_targeted_decision = { target = BKN decision = TRK_liberate_idel_ural }
 			}
@@ -2114,7 +2114,7 @@ focus_tree = {
 		}
 		available = {
 			has_country_leader = {
-				name = "Müqan Äitpenov"
+				name = "Мукан Айтпенов"
 				ruling_only = yes
 			}
 			has_socialist_government = yes
@@ -2862,7 +2862,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ALO_Develop_Qazaq_Democracy"
 			TRK_increase_political_modernisation = yes
 			set_country_flag = ALO_young_citizens_goals_completed
-			custom_effect_tooltip = "We will be able to join the Internationale"
+			custom_effect_tooltip = "Мы сможем присоединиться к Интернационалу"
 		}
 	}
 	focus = {
@@ -3201,7 +3201,7 @@ focus_tree = {
 		y = 0
 		available = { 
 			custom_trigger_tooltip = {
-				tooltip = "Alash Party re-elected"
+				tooltip = "Партия «Алаш» - переизбрана"
 				always = no
 			}
 		}
@@ -4038,7 +4038,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = { rule = ALO_monarchy option = ALO_MONARCHY_NO }
+				has_game_rule = { rule = ALO_monarchy option = ALO_MONARCHY_NO }
 					has_country_flag = ALO_ai_republic
 				}
 			}
@@ -4391,7 +4391,7 @@ focus_tree = {
 				TRK = {
 					country_event = alash.746
 				}
-				custom_effect_tooltip = "If they agree:"
+				custom_effect_tooltip = "Если они согласятся:"
 				event_option_tooltip = alash.746.a
 			}
 			else = {
@@ -4944,7 +4944,7 @@ focus_tree = {
 		available = { 
 			ALO_alash_party_in_power = yes
 			OR = {
-				ALO_has_russian_influence = no
+			ALO_has_russian_influence = no
 				RUS = { is_subject_of = ALO }
 			}
 			is_subject = no
@@ -7237,7 +7237,7 @@ focus_tree = {
 				else = {
 					effect_tooltip = {								
 						create_corps_commander = {
-							name = "Abdusamat Taymetov"
+							name = "Абдусамат Тайметов"
 						}
 					}
 					hidden_effect = {

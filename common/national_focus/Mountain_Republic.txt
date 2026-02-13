@@ -104,7 +104,7 @@ focus_tree = {
 			focus = MTR_Terek_Cossacks_Tactics
 		}
 		completion_reward = {
-			unlock_decision_tooltip = MTR_Motorized_Cossacks
+				unlock_decision_tooltip = MTR_Motorized_Cossacks
 			activate_targeted_decision = { target = GER decision = KUB_buy_motorized }
 		}
 	}
@@ -983,7 +983,7 @@ focus_tree = {
 					add_idea = MTR_Social_Democratic_2
 				}
 			}
-			set_cosmetic_tag = MTR_federation						
+			set_cosmetic_tag = MTR_federation
 		}
 	}
 	focus = {
@@ -1106,7 +1106,7 @@ focus_tree = {
 				add_ideas = MTR_secret_police_lar
 			}
 			else = {
-				add_ideas = MTR_secret_police
+			add_ideas = MTR_secret_police
 			}
 		}
 	}
@@ -1201,7 +1201,7 @@ focus_tree = {
 				elections_allowed = no
 			}
 			create_country_leader = {
-				name = "Mahti Voj Ibrahim"
+				name = "Махти Вой Ибрахим"
 				picture = "gfx/leaders/MTR/Portrait_MTR_Ibragim_Chulikov.png"
 				expire = "1.1.1"
 				ideology = oligarchy_subtype
@@ -1447,11 +1447,11 @@ focus_tree = {
 				add_idea = MTR_Dictatorship_3
 			}
 			set_country_leader_name = {
-				name = "Nuh-Bek I"
+				name = "Нух-Бек I"
 			}
 			random_unit_leader = {
 				limit = { has_id = 49998 }
-				set_leader_name = "Nuh-Bek I"
+				set_leader_name = "Нух-Бек I"
 			}
 			set_country_leader_ideology = pataut_islamism_subtype
 			custom_effect_tooltip = pataut_pataut_islamism_subtype_swap_tt

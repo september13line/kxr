@@ -1,0 +1,74 @@
+GSV_foreign_policy_decisions = {
+	icon = generic_foreign_policy
+	allowed = {
+		tag = GSV
+	}
+	visible = {
+		has_completed_focus = GEO_Aftermath_Of_Civil_War
+	}
+}
+
+GSV_Great_Amb = {
+	icon = sov_great_patriotic_war
+	priority = 80
+
+	allowed = {
+		tag = GSV
+	}
+
+	visible = {
+		has_completed_focus = GEO_Aftermath_Of_Civil_War
+	}
+}
+GSV_red_army_rg = {
+	icon = NOR_fascist_deploy_prep
+	priority = 100
+
+	allowed = {
+		tag = GSV
+	}
+
+	visible = {
+		has_completed_focus = GEO_Main_Military_Council
+	}
+}
+GSV_economic_decisions = {
+	icon = SOV_permanent_revolution
+
+	priority = 75
+	
+	allowed = {
+		tag = GSV
+	}
+
+	visible = {
+		has_completed_focus = GEO_Industrialize_The_Motherland
+	}
+}
+
+GEO_Spreading_The_Revolution_decisions = {
+	icon = GFX_decision_category_export_revolution
+	priority = 100
+
+	allowed = {
+		OR = {
+			tag = GEO
+		}
+	}
+
+	visible = {
+		is_subject = no
+
+		has_completed_focus = GEO_Reclaim_Lands
+
+	}
+}
+
+GEO_gulag_decisions = {
+	icon = GFX_decision_category_nkvd
+	priority = 80
+
+	allowed = {
+		has_completed_focus = GEO_beria_gulag
+	}
+}

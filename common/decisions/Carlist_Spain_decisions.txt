@@ -237,18 +237,17 @@ CAR_invite_mexico = {
 		is_faction_leader = yes
 		}
 		MEX = {
+		OR = {
+		has_government = paternal_autocrat
+		has_government = national_populist
+		}
 			OR = {
-				has_government = paternal_autocrat
-				has_government = national_populist
-			}
-			OR = {
-				MEX_has_monarchy_leader = yes
+		MEX_has_monarchy_leader = yes
 				MEX_has_vasconcelos = yes
 			}
-			is_in_faction = no
-			is_faction_leader = no
-			is_subject = no
-		}
+		is_in_faction = no
+		is_subject = no
+			}
 		}
 		
 		visible = {
@@ -256,16 +255,16 @@ CAR_invite_mexico = {
 				has_completed_focus = CAR_foreign_focus
 			}
 			MEX = {
+			OR = {
+			has_government = paternal_autocrat
+			has_government = national_populist
+			}
 				OR = {
-					has_government = paternal_autocrat
-					has_government = national_populist
-				}
-				OR = {
-					MEX_has_monarchy_leader = yes
+			MEX_has_monarchy_leader = yes
 					MEX_has_vasconcelos = yes
 				}
-				is_in_faction = no
-				is_subject = no
+			is_in_faction = no
+			is_subject = no
 			}
 		}
 		days_remove = 7
@@ -618,7 +617,7 @@ CAR_invite_romania = {
 		is_faction_leader = yes
 		}
 		LUX = {
-		has_country_leader = { ruling_only = yes name = "Charlotte" }
+		has_country_leader = { ruling_only = yes name = "Шарлотта" }
 		is_in_faction = no
 		is_faction_leader = no
 		is_subject = no
@@ -630,7 +629,7 @@ CAR_invite_romania = {
 				has_completed_focus = CAR_foreign_focus
 			}
 			LUX = {
-				has_country_leader = { ruling_only = yes name = "Charlotte" }
+				has_country_leader = { ruling_only = yes name = "Шарлотта" }
 			}
 		}
 		days_remove = 7
@@ -693,7 +692,7 @@ CAR_viceroyalties = {
 			}
 			COL = {
 			create_country_leader = {
-				name = "Laureano Goméz Castro"
+				name = "Лауреано Гомес Кастро"
 				desc = ""
 				picture = "gfx/leaders/COL/Portrait_Columbia_Lauro_Gomez_Castro.png"
 				expire = "1.1.1"
@@ -702,7 +701,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Laureano Goméz Castro"
+				name = "Лауреано Гомес Кастро"
 				desc = ""
 				picture = "gfx/leaders/COL/Portrait_Columbia_Lauro_Gomez_Castro.png"
 				expire = "1.1.1"
@@ -786,7 +785,7 @@ CAR_viceroyalties = {
 				}
 			ECU = {
 			create_country_leader = {
-				name = "Julio Tobar Donoso"
+				name = "Хулио Тобар Доносо"
 				desc = ""
 				picture = "gfx/leaders/ECU/Portrait_ECU_Julio_Tobar_Donoso.png"
 				expire = "1.1.1"
@@ -795,7 +794,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Julio Tobar Donoso"
+				name = "Хулио Тобар Доносо"
 				desc = ""
 				picture = "gfx/leaders/ECU/Portrait_ECU_Julio_Tobar_Donoso.png"
 				expire = "1.1.1"
@@ -871,7 +870,7 @@ CAR_viceroyalties = {
 				}
 			PRU = {
 			create_country_leader = {
-				name = "José de la Riva Agüero"
+				name = "Хосе де ла Рива Агуэро"
 				desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
 				picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Aguero.png"
 				expire = "1.1.1"
@@ -880,7 +879,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "José de la Riva Agüero"
+				name = "Хосе де ла Рива Агуэро"
 				desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
 				picture = "gfx/leaders/PRU/Portrait_Peru_Jose_Aguero.png"
 				expire = "1.1.1"
@@ -956,7 +955,7 @@ CAR_viceroyalties = {
 				}
 			CHL = {
 			create_country_leader = {
-				name = "Jaime Eyzaguirre"
+				name = "Хайме Эйсагирре"
 				desc = ""
 				picture = "gfx/leaders/CHL/Portrait_CHL_Jaime_Eyzaguirre.png"
 				expire = "1.1.1"
@@ -965,7 +964,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Osvaldo Lira"
+				name = "Освальдо Лира"
 				desc = ""
 				picture = "gfx/leaders/CHL/Portrait_CHL_Osvaldo_Lira.png"
 				expire = "1.1.1"
@@ -1041,7 +1040,7 @@ CAR_viceroyalties = {
 				}
 			ARG = {
 			create_country_leader = {
-				name = "Maria Ana Vitória de Sousa Coutinho"
+				name = "Мария Ана Виториа де Соуза Коутиньо"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/ARG/Portrait_Argentina_Maria_Ana.png"
@@ -1051,7 +1050,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Maria Ana Vitória de Sousa Coutinho"
+				name = "Мария Ана Виториа де Соуза Коутиньо"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/ARG/Portrait_Argentina_Maria_Ana.png"
@@ -1139,7 +1138,7 @@ CAR_viceroyalties = {
 				}
 			BRA = {
 			create_country_leader = {
-				name = "Pedro III"
+				name = "Педро III"
 				desc = "POLITICS_PEDRO_IV_BRA_DESC"
 				picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique_KX.png"
 				expire = "1.1.1"
@@ -1149,7 +1148,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Pedro III"
+				name = "Педро III"
 				desc = "POLITICS_PEDRO_IV_BRA_DESC"
 				picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique_KX.png"
 				expire = "1.1.1"
@@ -1235,7 +1234,7 @@ CAR_viceroyalties = {
 				set_state_owner_to = MEX
 				}
 				create_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				desc = "POLITICS_DON_LUIS"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 				expire = "1.1.1"
@@ -1243,7 +1242,7 @@ CAR_viceroyalties = {
 				traits = {}
 				}
 				create_country_leader = {
-				name = "Moctezuma III"
+				name = "Монтесума III"
 				desc = "POLITICS_DON_LUIS"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Luis_Moctezuma.png"
 				expire = "1.1.1"
@@ -1309,14 +1308,14 @@ CAR_viceroyalties = {
 				}
 			BOL = {
 			create_country_leader = {
-				name = "Bonifacio I"
+				name = "Бонифаций I"
 				desc = "POLITICS_BONIFACIO_DESC"
 				picture = "gfx/leaders/BOL/Portrait_Bolivia_Bonifacio_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 				}
 				create_country_leader = {
-				name = "Bonifacio I"
+				name = "Бонифаций I"
 				desc = "POLITICS_BONIFACIO_DESC"
 				picture = "gfx/leaders/BOL/Portrait_Bolivia_Bonifacio_I.png"
 				expire = "1.1.1"
@@ -1398,7 +1397,7 @@ CAR_viceroyalties = {
 				}
 			PHI = {
 			create_country_leader = {
-				name = "Andrés Soriano"
+				name = "Андрес Сориано"
 				desc = ""
 				picture = "gfx/leaders/PHI/Portrait_Philippines_Andres_Soriano.png"
 				expire = "1.1.1"
@@ -1407,7 +1406,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Andrés Soriano"
+				name = "Андрес Сориано"
 				desc = ""
 				picture = "gfx/leaders/PHI/Portrait_Philippines_Andres_Soriano.png"
 				expire = "1.1.1"
@@ -1490,7 +1489,7 @@ CAR_viceroyalties = {
 			CEN = {
 			load_focus_tree = generic_focus
 			create_country_leader = {
-				name = "Juan Federico Ponce Vaides"
+				name = "Хуан Федерико Понсе Вайдес"
 				desc = ""
 				picture = "gfx/leaders/GUA/Portrait_GUA_Federico_Ponce_Vaides.png"
 				expire = "1.1.1"
@@ -1499,7 +1498,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Juan Federico Ponce Vaides"
+				name = "Хуан Федерико Понсе Вайдес"
 				desc = ""
 				picture = "gfx/leaders/GUA/Portrait_GUA_Federico_Ponce_Vaides.png"
 				expire = "1.1.1"
@@ -1599,7 +1598,7 @@ CAR_viceroyalties = {
 				}
 			PAN = {
 			create_country_leader = {
-				name = "Arnulfo Arias Madrid"
+				name = "Арнульфо Ариас Мадрид"
 				desc = ""
 				picture = "gfx/leaders/PAN/Portrait_PAN_Arnulfo_Arias_Madrid.png"
 				expire = "1.1.1"
@@ -1608,7 +1607,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Arnulfo Arias Madrid"
+				name = "Арнульфо Ариас Мадрид"
 				desc = ""
 				picture = "gfx/leaders/PAN/Portrait_PAN_Arnulfo_Arias_Madrid.png"
 				expire = "1.1.1"
@@ -1687,7 +1686,7 @@ CAR_viceroyalties = {
 				}
 			YUC = {
 			create_country_leader = {
-				name = "Colonial Administration"
+				name = "Колониальная администрация"
 				desc = ""
 				picture = "gfx/leaders/CAR/Portrait_CAR_Colonial_Administration.png"
 				expire = "1.1.1"
@@ -1696,7 +1695,7 @@ CAR_viceroyalties = {
 					}
 				}
 				create_country_leader = {
-				name = "Colonial Administration"
+				name = "Колониальная администрация"
 				desc = ""
 				picture = "gfx/leaders/CAR/Portrait_CAR_Colonial_Administration.png"
 				expire = "1.1.1"

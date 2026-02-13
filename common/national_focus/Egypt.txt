@@ -3259,7 +3259,7 @@ focus_tree = {
 			"LBA" = {
 				is_subject_of = TUR
 				has_country_leader = {
-					name = "Senussi Regency Council"
+					name = "Регентский совет Сенуси"
 				}
 			}
 			is_subject = no
@@ -3284,7 +3284,7 @@ focus_tree = {
 		bypass = {
 			"LBA" = {
 				has_country_leader = {
-					name = "Idris I"
+					name = "Идрис I"
 				}
 			}
 		}
@@ -4390,7 +4390,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = EGY_Red_Sea_Trade
 		icon = GFX_HUN_trade_war
@@ -4404,7 +4404,7 @@ focus_tree = {
 			controls_state = 1007
 			679 = {
 				OR = {
-					is_owned_by_ROOT_or_ally = yes
+				is_owned_by_ROOT_or_ally = yes
 					is_owned_by_ROOT_or_subject = yes
 				}
 				OWNER = {
@@ -4470,7 +4470,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = EGY_Pan_Arab_Federation
 		icon = GFX_goal_EGY_Pan_Arab_Dream
@@ -4512,7 +4512,7 @@ focus_tree = {
 							has_cosmetic_tag = EGY_Kemet_Republic
 						}
 					}
-					set_cosmetic_tag = EGY_UAS
+				set_cosmetic_tag = EGY_UAS
 				}
 				if = {
 					limit = {
@@ -4657,7 +4657,7 @@ focus_tree = {
 		available = {
 			450 = {
 				OR = {
-					is_owned_by_ROOT_or_ally = yes
+				is_owned_by_ROOT_or_ally = yes
 					is_owned_by_ROOT_or_subject = yes
 				}
 				OWNER = {
@@ -4669,13 +4669,13 @@ focus_tree = {
 			}
 			451 = {
 				OR = {
-					is_owned_by_ROOT_or_ally = yes
+				is_owned_by_ROOT_or_ally = yes
 					is_owned_by_ROOT_or_subject = yes
 				}
 			}
 			452 = {
 				OR = {
-					is_owned_by_ROOT_or_ally = yes
+				is_owned_by_ROOT_or_ally = yes
 					is_owned_by_ROOT_or_subject = yes
 				}
 			}
@@ -4725,8 +4725,8 @@ focus_tree = {
 			}
 			build_railway = {
 				path = { 4076 4145 1071 11910 10061 11967 9989 7079 10120 4136 1130 9992 7082 1204 4151 12094 10123 11954 }
-			}
 		}
+	}
 	}
 	focus = {
 		id = EGY_Joint_Defence_Council
@@ -4765,10 +4765,10 @@ focus_tree = {
 				}
 				add_political_power = 100
 				add_doctrine_cost_reduction = {
-				name = EGY_Joint_Defence_Council
+					name = EGY_Joint_Defence_Council
 				cost_reduction = 0.5
 				uses = 2
-				category = land_doctrine
+					category = land_doctrine
 				}
 			}
 			else = {
@@ -4781,10 +4781,10 @@ focus_tree = {
 					}
 					add_political_power = 100
 					add_doctrine_cost_reduction = {
-					name = EGY_Joint_Defence_Council
+						name = EGY_Joint_Defence_Council
 					cost_reduction = 0.5
 					uses = 2
-					category = land_doctrine
+						category = land_doctrine
 					}
 				}
 			}
@@ -4968,7 +4968,7 @@ focus_tree = {
 				NOT = {
 					has_country_leader = {
 						ruling_only = yes
-						name = "Yusuf I"
+						name = "Юсуф I"
 					}
 				}
 			}
@@ -5006,7 +5006,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				is_in_faction_with = IRQ
+			is_in_faction_with = IRQ
 				IRQ = { is_subject_of = EGY }
 				owns_state = 291
 			}

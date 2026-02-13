@@ -101,7 +101,7 @@ political_actions = {
 					}
 				}
 				set_cosmetic_tag = NFE
-				custom_effect_tooltip = "We shall use the normal French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать обычный флаг Французской империи"
 			}
 			else_if = {
 				limit = {
@@ -111,7 +111,7 @@ political_actions = {
 					}
 				}
 				set_cosmetic_tag = NFE_JP
-				custom_effect_tooltip = "We shall use the Jeunesses Patriotes' French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать флаг Французской империи Jeunesses Patriotes."
 			}
 			else_if = {
 				limit = {
@@ -121,7 +121,7 @@ political_actions = {
 					}
 				}
 				set_cosmetic_tag = NFE_AF
-				custom_effect_tooltip = "We shall use the AF French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать флаг АФ Французской империи"
 			}
 			else_if = {
 				limit = {
@@ -131,7 +131,7 @@ political_actions = {
 					}
 				}
 				set_cosmetic_tag = NFE_LEGION
-				custom_effect_tooltip = "We shall use the Legion French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать флаг Легиона Французской империи"
 			}
 			else_if = {
 				limit = {
@@ -143,7 +143,7 @@ political_actions = {
 				NFA = {
 					country_event = flavorfra.84
 				}
-				custom_effect_tooltip = "We shall use the Social French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать флаг Социальной Французской Империи"
 			}
 			else_if = {
 				limit = {
@@ -153,7 +153,7 @@ political_actions = {
 					}
 				}
 				set_cosmetic_tag = NFE_LARP
-				custom_effect_tooltip = "We shall use the Larp First French Empire flag"
+				custom_effect_tooltip = "Мы будем использовать флаг Первой Французской Империи"
 			}
 		}
 	}
@@ -236,7 +236,7 @@ NFA_darlan_fp_decisions = { # diplo options fired by Loose Ends
 					limit = {
 						country_exists = SRI
 						has_country_flag = SRI_garibaldi_republic
-						NOT = {
+			NOT = {
 							SIC = {
 								is_in_faction_with = NFA
 								is_subject = no
@@ -246,7 +246,7 @@ NFA_darlan_fp_decisions = { # diplo options fired by Loose Ends
 					SRI = {
 						#has_country_flag = SRI_italy_unified_flag
 						is_subject = no
-						has_socialist_government = no
+				has_socialist_government = no
 					}
 				}
 			}

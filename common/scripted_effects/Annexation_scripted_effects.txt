@@ -961,27 +961,27 @@ setup_brazilian_splinters = {
 }
 
 remove_portuguese_monarchy = {
-	create_country_leader = {
-		name = "António de Oliveira Salazar"
-		desc = ""
-		picture = "gfx/leaders/POR/Portrait_POR_Antonio_Salazar.png"
-		expire = "1.1.1"
+			create_country_leader = {
+				name = "Антониу ди Салазар"
+				desc = ""
+				picture = "gfx/leaders/POR/Portrait_POR_Antonio_Salazar.png"
+				expire = "1.1.1"
 		ideology = estado_novo_subtype
-	}
-	create_country_leader = {
-		name = "António Óscar de Fragoso Carmona"
-		desc = ""
-		picture = "gfx/leaders/POR/Portrait_Portugal_Antonio_Carmona.png"
-		expire = "1.1.1"
-		ideology = junta_subtype
-	}
-	create_country_leader = {
-		name = "Francisco Rolão Preto"
-		desc = ""
-		picture = "gfx/leaders/POR/Portrait_POR_Francisco_Rolao_Preto.png"
-		expire = "1.1.1"
-		ideology = right_syndicalism_subtype
-	}
+			}
+			create_country_leader = {
+				name = "Антониу Ошкар Фрагозу Кармона"
+				desc = ""
+				picture = "gfx/leaders/POR/Portrait_Portugal_Antonio_Carmona.png"
+				expire = "1.1.1"
+				ideology = junta_subtype
+			}
+			create_country_leader = {
+				name = "Франсишку Ролан Прету"
+				desc = ""
+				picture = "gfx/leaders/POR/Portrait_POR_Francisco_Rolao_Preto.png"
+				expire = "1.1.1"
+				ideology = right_syndicalism_subtype
+	}	
 }
 
 setup_puppet_lithuania = {
@@ -993,13 +993,13 @@ setup_puppet_lithuania = {
 		LIT = {
 			LIT_create_vytautas = yes
 			hidden_effect = {
-				create_country_leader = {
-					name = "Mindaugas III"
+					create_country_leader = {
+						name = "Миндаугас III"
 					desc = "POLITICS_VYTAUTAS_II_DESC"
-					picture = "gfx/leaders/LIT/Portrait_LIT_Mindaugas_III.png"
-					expire = "1.1.1"
+						picture = "gfx/leaders/LIT/Portrait_LIT_Mindaugas_III.png"
+						expire = "1.1.1"
 					ideology = national_populist_subtype
-				}
+					}
 			}
 			set_country_flag = was_puppeted
 		}
@@ -1012,43 +1012,43 @@ setup_puppet_lithuania = {
 		}
 		LIT = {
 			set_cosmetic_tag = LIT_monarchy
-			create_country_leader = {
-				name = "Kazimieras II"
-				desc = "POLITICS_KAZIMIERAS_II_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
-				expire = "1.1.1"
+					create_country_leader = {
+						name = "Казимир II"
+						desc = "POLITICS_KAZIMIERAS_II_DESC"
+						picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
+						expire = "1.1.1"
 				ideology = revisionist_marxism_subtype
 			}
 			create_country_leader = {
-				name = "Kazimieras II"
+				name = "Казимир II"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
 				ideology = centrist_subtype
 			}
 			create_country_leader = {
-				name = "Kazimieras II"
+				name = "Казимир II"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Kazimieras II"
+				name = "Казимир II"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
 				ideology = christian_democracy_subtype
 			}
 			create_country_leader = {
-				name = "Kazimieras II"
+				name = "Казимир II"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Kazimieras II"
+				name = "Казимир II"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
@@ -1056,7 +1056,7 @@ setup_puppet_lithuania = {
 			}
 			hidden_effect = {
 				create_country_leader = {
-					name = "Kazimieras II"
+					name = "Казимир II"
 					desc = "POLITICS_KAZIMIERAS_II_DESC"
 					picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 					expire = "1.1.1"
@@ -1068,49 +1068,49 @@ setup_puppet_lithuania = {
 	}
 	else = {
 		LIT = { 
-			set_cosmetic_tag = LIT_republican
-			create_country_leader = {
-				name = "Steponas Kairys"
-				desc = "POLITICS_STEPONAS_KAIRYS_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Steponas_Kairys.png"
-				expire = "1.1.1"
-				ideology = revisionist_marxism_subtype
-			}
-			create_country_leader = {
-				name = "Stanislaw Narutowicz"
-				desc = "POLITICS_STANISLAW_NARUTOWICZ_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Stanislaw_Narutowicz.png"
-				expire = "1.1.1"
-				ideology = centrist_subtype
-			}
-			create_country_leader = {
-				name = "Vaclovas Sidzikauskas"
-				desc = "POLITICS_VACLOVAS_SIDZIKAUSKAS_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Vaclovas_Sidzikauskas.png"
-				expire = "1.1.1"
-				ideology = market_liberal_subtype
-			}
-			create_country_leader = {
-				name = "Stasys Salkauskis"
-				desc = "POLITICS_STASYS_SALKAUSKIS_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Stasys_Salkauskis.png"
-				expire = "1.1.1"
-				ideology = optimal_system_subtype
-			}
-			create_country_leader = {
-				name = "Antanas Smetona"
-				desc = "POLITICS_ANTANAS_SMETONA_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona_KR.png"
-				expire = "1.1.1"
-				ideology = authoritarian_democrat_subtype
-			}
-			create_country_leader = {
-				name = "Povilas Plechavičius"
-				desc = "POLITICS_POVILAS_PLECHAVICIUS_DESC"
-				picture = "gfx/leaders/LIT/Portrait_LIT_Povilas_Plechavicius.png"
-				expire = "1.1.1"
-				ideology = junta_subtype
-			}
+		set_cosmetic_tag = LIT_republican
+		create_country_leader = {
+			name = "Степонас Кайрис"
+			desc = "POLITICS_STEPONAS_KAIRYS_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Steponas_Kairys.png"
+			expire = "1.1.1"
+			ideology = revisionist_marxism_subtype
+		}
+		create_country_leader = {
+			name = "Станислав Нарутович"
+			desc = "POLITICS_STANISLAW_NARUTOWICZ_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Stanislaw_Narutowicz.png"
+			expire = "1.1.1"
+			ideology = centrist_subtype
+		}
+		create_country_leader = {
+			name = "Вацловас Сидзикаускас"
+			desc = "POLITICS_VACLOVAS_SIDZIKAUSKAS_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Vaclovas_Sidzikauskas.png"
+			expire = "1.1.1"
+			ideology = market_liberal_subtype
+		}
+		create_country_leader = {
+			name = "Стасис Шалкаускис"
+			desc = "POLITICS_STASYS_SALKAUSKIS_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Stasys_Salkauskis.png"
+			expire = "1.1.1"
+			ideology = optimal_system_subtype
+		}
+		create_country_leader = {
+			name = "Антанас Сметона"
+			desc = "POLITICS_ANTANAS_SMETONA_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona_KR.png"
+			expire = "1.1.1"
+			ideology = authoritarian_democrat_subtype
+		}
+		create_country_leader = {
+			name = "Повилас Плехавичюс"
+			desc = "POLITICS_POVILAS_PLECHAVICIUS_DESC"
+			picture = "gfx/leaders/LIT/Portrait_LIT_Povilas_Plechavicius.png"
+			expire = "1.1.1"
+			ideology = junta_subtype
+		}
 	    }
 		if = {
 			limit = {
@@ -1202,7 +1202,7 @@ setup_puppet_baltic_union = {
 				}
 			}
 			create_corps_commander = {
-				name = "Jēkabs Peterss "
+				name = "Яков Петерс "
 				portrait_path = "gfx/leaders/LAT/Portrait_LAT_Jekabs_Peterss.png"
 				traits = { politically_connected }
 				skill = 2
@@ -1288,17 +1288,17 @@ setup_romanian_puppet_leaders = {
 		}
 		if = {
 			limit = {
-				has_country_leader = { name = "Carol II" ruling_only = yes }
+				has_country_leader = { name = "Кароль II" ruling_only = yes }
 			}
 			create_country_leader = {
-				name = "Mihai I"
+				name = "Михай I"
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Michael_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
 			}
 			create_country_leader = {
-				name = "Alexandru Cantacuzino"
+				name = "Александру Кантакузино"
 				desc = "POLITICS_CANTACUZINO_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Alexandru_Cantacuzino.png"
 				expire = "1.1.1"
@@ -1309,10 +1309,10 @@ setup_romanian_puppet_leaders = {
 		if = {
 			limit = {
 				has_government = national_populist
-				has_country_leader = { name = "Mihai I" ruling_only = yes }
+				has_country_leader = { name = "Михай I" ruling_only = yes }
 			}
 			create_country_leader = {
-				name = "Alexandru Cantacuzino"
+				name = "Александру Кантакузино"
 				desc = "POLITICS_CANTACUZINO_DESC"
 				picture = "gfx/leaders/ROM/Portrait_ROM_Alexandru_Cantacuzino.png"
 				expire = "1.1.1"
@@ -1417,7 +1417,7 @@ setup_puppet_mexico = {
 		if = {
 			limit = { 
 				OVERLORD = {
-					has_government = totalist
+				has_government = totalist 
 					has_communist_government = no
 				}
 			}
@@ -1426,13 +1426,13 @@ setup_puppet_mexico = {
 		else_if = {
 			limit = { 
 				OVERLORD = {
-					has_government = totalist
+						has_government = totalist 
 					has_communist_government = yes
 				}
 			}
 			complete_national_focus = MEX_PCM_the_lenin_of_the_west
-			create_country_leader = {# Vicente Toledano
-				name = "Vicente Toledano"
+			create_country_leader = {# Висенте Толедано
+				name = "Висенте Толедано"
 				desc = "POLITICS_VINCENTE_TOLEDANO_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Vincente_Toledano.png"
 				expire = "1.1.1"
@@ -1475,8 +1475,8 @@ setup_puppet_mexico = {
 			}
 			complete_national_focus = MEX_JUNTA_president_garza
 			complete_national_focus = MEX_JUNTA_military_junta
-			create_country_leader = {# Pablo Gonzalez Garza
-				name = "Pablo Gonzalez Garza"
+			create_country_leader = {# Пабло Гонсалес Гарса
+				name = "Пабло Гонсалес Гарса"
 				desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Pablo_Garza_Civilian.png"
 				expire = "1.1.1"
@@ -1497,8 +1497,8 @@ setup_puppet_mexico = {
 				has_global_flag = MEX_GARZA_DEAD
 			}
 			complete_national_focus = MEX_juan_barragan
-			create_country_leader = {# Juan Barragán Rodríguez
-				name = "Juan Barragán Rodríguez"
+			create_country_leader = {# Хуан Барраган Родригес
+				name = "Хуан Барраган Родригес"
 				desc = "POLITICS_JUAN_BARRAGAN_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Barragan_Rodriguez.png"
 				expire = "1.1.1"
@@ -1520,8 +1520,8 @@ setup_puppet_mexico = {
 				}
 			}
 			complete_national_focus = MEX_felix_diaz
-			create_country_leader = {# Emergency Council
-				name = "Félix Díaz Prieto"
+			create_country_leader = {# Чрезвычайный совет
+				name = "Феликс Диас Прието"
 				desc = "POLITICS_FELIX_DIAZ_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Felix_Diaz_Prieto.png"
 				expire = "1.1.1"
@@ -1543,8 +1543,8 @@ setup_puppet_mexico = {
 					}
 				}
 			}
-			create_country_leader = {# José Vasconcelos
-				name = "José Vasconcelos"
+			create_country_leader = {# Хосе Васконселос
+				name = "Хосе Васконселос"
 				desc = "POLITICS_VASCONCELOS_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Jose_Vasconcelos.png"
 				expire = "1.1.1"
@@ -1567,8 +1567,8 @@ setup_puppet_mexico = {
 					}
 				}
 			}
-			create_country_leader = {# Jose Antonio Urquiza
-			name = "Jose Antonio Urquiza"
+			create_country_leader = {# Хосе Антонио Уркиза
+			name = "Хосе Антонио Уркиза"
 				desc = "POLITICS_JOSE_URQUIZA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Urquiza.png"
 				expire = "1.1.1"
@@ -1591,8 +1591,8 @@ setup_puppet_mexico = {
 					}
 				}
 			}
-			create_country_leader = {# Nicolás Rodríguez Carrasco
-				name = "Nicolás Rodríguez Carrasco"
+			create_country_leader = {# Николас Родригес Карраско
+				name = "Николас Родригес Карраско"
 				desc = "POLITICS_CARRASCO_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Nicolas_Rodriguez_Carrazco_Militar.png"
 				expire = "1.1.1"
@@ -1620,8 +1620,8 @@ setup_puppet_mexico = {
 					}
 				}
 			}
-			create_country_leader = {# Roque Garza
-				name = "Roque Garza"
+			create_country_leader = {# Роке Гарса
+				name = "Роке Гарса"
 				desc = "POLITICS_ROQUE_GARZA_DESC"
 				picture = "gfx/leaders/MEX/Portrait_Mexico_Roque_Garza.png"
 				expire = "1.1.1"
@@ -1877,7 +1877,7 @@ determine_chinese_ally = {
 						exists = yes
 						NOT = { 
 							has_country_leader = { 
-								name = "Puyi"
+								name = "Пу И"
 								ruling_only = yes
 							}
 						}
@@ -1936,7 +1936,7 @@ setup_puppet_leader_TIB = {
 				popularity = 0.5
 			}
 			create_country_leader = {
-				name = "Ma Biao"
+				name = "Ма Бяо"
 				desc = "POLITICS_XSM_MA_BIAO_ARMY_DESC"
 				picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Biao.png"
 				expire = "1.1.1"
@@ -1945,7 +1945,7 @@ setup_puppet_leader_TIB = {
 			set_country_flag = was_puppeted
 		}
 	}
-	#Setup Abdullah Bughra
+	#Setup Абдулла Бугра
 	else_if = {
 		limit = {
 			tag = ETS
@@ -1965,7 +1965,7 @@ setup_puppet_leader_TIB = {
 				popularity = 0.5
 			}
 			create_country_leader = {
-				name = "Abdullah Bughra"
+				name = "Абдулла Бугра"
 				picture = "gfx/leaders/ETS/Portrait_ETS_Abdullah_Bughra.png"
 				expire = "1.1.1"
 				ideology = natpop_warlordism_subtype
@@ -1973,7 +1973,7 @@ setup_puppet_leader_TIB = {
 			set_country_flag = was_puppeted
 		}
 	}
-	#Setup He Guoguang
+	#Setup Хэ Гогуан
 	else_if = {
 		limit = {
 			NOT = {
@@ -2001,7 +2001,7 @@ setup_puppet_leader_TIB = {
 				popularity = 0.5
 			}
 			create_country_leader = {
-				name = "He Guoguang"
+				name = "Хэ Гогуан"
 				desc = "POLITICS_SZC_HE_GUOGUANG_DESC"
 				picture = "gfx/leaders/SZC/Portrait_SZC_He_Guoguang.png"
 				expire = "1.1.1"
@@ -2052,7 +2052,7 @@ setup_puppet_leader_TIB = {
 			set_country_flag = was_puppeted
 		}
 	}
-	#Setup Huang Musong
+	#Setup Хуан Мусон
 	else_if = {
 		limit = {
 			NOT = {
@@ -2080,7 +2080,7 @@ setup_puppet_leader_TIB = {
 				popularity = 0.5
 			}
 			create_country_leader = {
-				name = "Huang Musong"
+				name = "Хуан Мусон"
 				picture = "gfx/leaders/TIB/Portrait_TIB_Huang_Musong.png"
 				expire = "1.1.1"
 				ideology = pataut_warlordism_subtype
@@ -2129,7 +2129,7 @@ setup_puppet_leader_TIB = {
 			name = TIB_ariosophy_party
 	        }
 	        create_country_leader = {
-		    name = "Karl Maria Wiligut"
+		    name = "Карл Мария Вилигут"
 		    picture = "gfx/leaders/TIB/Portrait_TIB_Karl_Maria_Wiligut.png"
 		    expire = "1.1.1"
 		    ideology = ariosophy_subtype
@@ -2149,7 +2149,7 @@ setup_puppet_leader_TIB = {
 			set_politics = {
 			ruling_party = national_populist
 			elections_allowed = no
-		    }
+			}
 		}
 	}
 }
@@ -2263,7 +2263,7 @@ setup_puppet_leader_MON = {
 				popularity = 0.5
 			}
 			create_country_leader = {
-				name = "Serengdongrub"
+				name = "Сэрэндонров"
 				picture = "gfx/leaders/MON/Portrait_MON_Serengdongrub.png"
 				expire = "1.1.1"
 				ideology = radsoc_tridemism_subtype
@@ -2286,7 +2286,7 @@ setup_puppet_leader_MON = {
 			}
 			MON = { 
 				create_country_leader = {
-					name = "Bogd Khan"
+					name = "Богдо-гэгэн"
 					desc = "POLITICS_BOGD_KHAN_DESC"
 					picture = "gfx/leaders/MON/Portrait_MON_Bogd_Khan.png"
 					expire = "1.1.1"
@@ -2313,32 +2313,32 @@ setup_puppet_leader_MON = {
 				target = MON
 				autonomous_state = kr_autonomy_russian_general_governorate
 				freedom_level = 0.75
+		}
+		MON = {
+			set_country_flag = MON_soyombo_in_power_flag
+			set_politics = {
+				ruling_party = paternal_autocrat
+				elections_allowed = no
 			}
-			MON = {
-				set_country_flag = MON_soyombo_in_power_flag
-				set_politics = {
-					ruling_party = paternal_autocrat
-					elections_allowed = no
-				}
-				set_party_name = {
-					ideology = paternal_autocrat
-					long_name = MON_RUS_party_long
-					name = MON_RUS_party
-				}
-				set_cosmetic_tag = MON_RUS
-				create_country_leader = {
-					name = "Boris Rezukhin"
-					desc = "POLITICS_REZUKHIN_LEADER_DESC"
-					picture = "gfx/leaders/MON/Portrait_MON_Boris_Rezukhin.png"
-					expire = "1.1.1"
-					ideology = junta_subtype
-				}
-				remove_all_ministers = yes
-				add_ideas = {
-					MON_Boris_Rezukhin_hog_pau
-					MON_Ferdynand_Ossendowski_for_pau
-					MON_Rinchen_Sengge_eco_ade
-					MON_Leonid_Sipaylov_sec_pau
+			set_party_name = {
+				ideology = paternal_autocrat
+				long_name = MON_RUS_party_long
+				name = MON_RUS_party
+			}
+			set_cosmetic_tag = MON_RUS
+			create_country_leader = {
+				name = "Борис Резухин"
+				desc = "POLITICS_REZUKHIN_LEADER_DESC"
+				picture = "gfx/leaders/MON/Portrait_MON_Boris_Rezukhin.png"
+				expire = "1.1.1"
+				ideology = junta_subtype
+			}
+			remove_all_ministers = yes
+			add_ideas = {
+				MON_Boris_Rezukhin_hog_pau
+				MON_Ferdynand_Ossendowski_for_pau
+				MON_Rinchen_Sengge_eco_ade
+				MON_Leonid_Sipaylov_sec_pau
 				}
 			}
 		}
@@ -2346,7 +2346,7 @@ setup_puppet_leader_MON = {
 }
 
 setup_puppet_leader_XSM = {
-	#Setup Tashi Döndrub
+	#Setup Таши Дёндруб
 	if = {
 		limit = {
 			has_socialist_government = no
@@ -2374,29 +2374,29 @@ setup_puppet_leader_XSM = {
 					name = XSM_syndicalist_party
 				}
 			}
-			create_country_leader = {
-				name = "Tashi Döndrub"
-				desc = "POLITICS_TAISHI_DONDRUBN_DESC"
-				picture = "gfx/leaders/TIB/Portrait_TIB_Tashi_Dondrub.png"
-				expire = "1.1.1"
+					create_country_leader = {
+						name = "Таши Дёндруб"
+						desc = "POLITICS_TAISHI_DONDRUBN_DESC"
+						picture = "gfx/leaders/TIB/Portrait_TIB_Tashi_Dondrub.png"
+						expire = "1.1.1"
 				ideology = natpop_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Tashi Döndrub"
+				name = "Таши Дёндруб"
 				desc = "POLITICS_TAISHI_DONDRUBN_DESC"
 				picture = "gfx/leaders/TIB/Portrait_TIB_Tashi_Dondrub.png"
 				expire = "1.1.1"
 				ideology = pataut_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Tashi Döndrub"
+				name = "Таши Дёндруб"
 				desc = "POLITICS_TAISHI_DONDRUBN_DESC"
 				picture = "gfx/leaders/TIB/Portrait_TIB_Tashi_Dondrub.png"
 				expire = "1.1.1"
 				ideology = authdem_warlordism_subtype
 			}
 			create_country_leader = {
-				name = "Tashi Döndrub"
+				name = "Таши Дёндруб"
 				desc = "POLITICS_TAISHI_DONDRUBN_DESC"
 				picture = "gfx/leaders/TIB/Portrait_TIB_Tashi_Dondrub.png"
 				expire = "1.1.1"

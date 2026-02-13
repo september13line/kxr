@@ -62,36 +62,36 @@ if = {
 	}
 }
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
-	sonar = 1
-	
-	mtg_transport = 1
-}
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		sonar = 1
+		
+		mtg_transport = 1
+	}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -114,14 +114,14 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "William Weir Gilmour"
+	name = "Вильям Вейр Гилмор"
 	picture = "gfx/leaders/SCT/Portrait_SCT_William_Weir_Gilmour.png"
 	expire = "1.1.1"
 	ideology = natsynd_subtype
 	traits = {}
 }
 create_country_leader = {
-	name = "Willie Gallacher"
+	name = "Уильям Галлахер"
 	desc = "SCT_GALLACHER_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Willie_Gallacher.png"
 	expire = "1.1.1"
@@ -129,7 +129,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "James Maxton"
+	name = "Джеймс Макстон"
 	desc = "SCT_MAXTON_DESC"
 	picture = "gfx/leaders/SCT/Portrait_James_Maxton.png"
 	expire = "1.1.1"
@@ -137,7 +137,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Jennie Lee"
+	name = "Дженни Ли"
 	desc = "SCT_LEE_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Jennie_Lee.png"
 	expire = "1.1.1"
@@ -145,7 +145,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Jean Mann"
+	name = "Жан Манн"
 	desc = "SCT_MANN_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Jean_Mann.png"
 	expire = "1.1.1"
@@ -153,7 +153,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Philip Kerr"
+	name = "Филип Керр"
 	desc = "SCT_KERR_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Phillip_Kerr.png"
 	expire = "1.1.1"
@@ -161,7 +161,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Tam Galbraith"
+	name = "Тэм Гэлбрейт"
 	desc = "SCT_GALBRAITH_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Tam_Galbraith.png"
 	expire = "1.1.1"
@@ -169,7 +169,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "John MacCormick"
+	name = "Джон МакКормик"
 	desc = "SCT_MACCORKMICK_DESC"
 	picture = "gfx/leaders/SCT/Portrait_John_MacCormick.png"
 	expire = "1.1.1"
@@ -177,7 +177,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Robert IV"
+	name = "Роберт IV"
 	desc = "SCT_RUPPRECHT_DESC"
 	picture = "gfx/leaders/SCT/Portrait_Wales_Rupprecht_I.png"
 	expire = "1.1.1"
@@ -185,7 +185,7 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "John White"
+	name = "Преподобный Джон Уайт"
 	desc = "SCT_WHITE_DESC"
 	picture = "gfx/leaders/SCT/Portrait_John_White.png"
 	expire = "1.1.1"
@@ -195,7 +195,7 @@ create_country_leader = {
 
 ### Field Marshal
 create_field_marshal = {
-	name = "Bernard Fergusson"
+	name = "Бернард Фергюссон"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Bernard_Fergusson.png"
 	traits = { infantry_officer commando }
 	skill = 4
@@ -204,8 +204,8 @@ create_field_marshal = {
     planning_skill = 5
     logistics_skill = 5
 }
-create_field_marshal = {# David Stirling
-	name = "David Stirling"
+create_field_marshal = {# Дэвид Стирлинг
+	name = "Дэвид Стирлинг"
 	portrait_path = "gfx/leaders/SCT/Portrait_England_David_Stirling.png"
 	traits = {
 		infantry_officer
@@ -219,7 +219,7 @@ create_field_marshal = {# David Stirling
 	id = 9502
 }
 create_field_marshal = {
-	name = "Edmund Hakewell Smith"
+	name = "Эдмунд Хейквелл Смит"
 	portrait_path = "gfx/leaders/SCT/Portrait_Scotland_Edmund_Hakewell_Smith.png"
 	traits = {
 		career_officer
@@ -233,8 +233,8 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 ### Corps Commander
-create_corps_commander = {# George Sutherland Aitken
-	name = "George Sutherland Aitken"
+create_corps_commander = {# Джордж Сазерленд Эйткен
+	name = "Джордж Сазерленд Эйткен"
 	portrait_path = "gfx/leaders/SCT/Portrait_England_George_Aitken.png"
 	traits = {
 		infantry_officer
@@ -248,7 +248,7 @@ create_corps_commander = {# George Sutherland Aitken
 	id = 9501
 }
 create_corps_commander = { #Auto-Generated
-	name = "Alan Gordon Cunningham"
+	name = "Аллан Каннингем"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Alan_Gordon_Cunningham.png"
 	traits = {infantry_officer desert_fox naval_liason }
 	skill = 3
@@ -258,7 +258,7 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 3
 }
 create_corps_commander = { #Auto-Generated
-	name = "John Rennie"
+	name = "Джон Ренни"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_John_Rennie.png"
 	traits = {trait_reckless war_hero }
 	skill = 1
@@ -268,7 +268,7 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 1
 }
 create_corps_commander = { #Auto-Generated
-	name = "Douglas Ford"
+	name = "Дуглас Форд"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Douglas_Ford.png"
 	traits = { war_hero brilliant_strategist}
 	skill = 2
@@ -278,7 +278,7 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 2
 }
 create_corps_commander = { #Auto-Generated
-	name = "Edward Douglas Loch"
+	name = "Эдвард Дуглас Лоч"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Edward_Douglas_Loch.png"
 	traits = {old_guard war_hero politically_connected}
 	skill = 1
@@ -288,7 +288,7 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 2
 }
 create_corps_commander = { #Auto-Generated
-	name = "Roderick Sinclair"
+	name = "Джеймс Родерик Синклер"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Roderick_Sinclair.png"
 	traits = {politically_connected infantry_officer }
 	skill = 2
@@ -298,7 +298,7 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Douglas Douglas-Hamilton"
+	name = "Дуглас Дуглас-Гамильтон"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Douglas_Douglas-Hamilton.png"
 	traits = { politically_connected trait_reckless }
 	skill = 3
@@ -308,7 +308,7 @@ create_corps_commander = {
     logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Roy Urquhart"
+	name = "Рой Уркхарт"
 	portrait_path = "gfx/leaders/SCT/Portrait_Scotland_Roy_Urquhart.png"
 	traits = {
 		trickster
@@ -322,7 +322,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Alexander Biggam"
+	name = "Александр Биггам"
 	portrait_path = "gfx/leaders/SCT/Portrait_Scotland_Alexander_Biggam.png"
 	traits = {
 		organizer
@@ -335,7 +335,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Derek Lang"
+	name = "Дерек Лэнг"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Derek_Lang.png"
 	traits = {
 		infantry_officer
@@ -348,8 +348,8 @@ create_corps_commander = {
 }
 
 ### Navy Leader
-create_navy_leader = {# Edmund Anstice
-	name = "Edmund Anstice"
+create_navy_leader = {# Эдмунд Энстис
+	name = "Эдмунд Энстис"
 	portrait_path = "gfx/leaders/SCT/Portrait_England_Edmund_Anstice.png"
 	traits = { air_controller }
 	skill = 3
@@ -359,8 +359,8 @@ create_navy_leader = {# Edmund Anstice
 	coordination_skill = 3
 	id = 9503
 }
-create_navy_leader = {# Andrew Cunningham
-	name = "Andrew Cunningham"
+create_navy_leader = {# Эндрю Браун Каннингем
+	name = "Эндрю Браун Каннингем"
 	portrait_path = "gfx/leaders/CAN/Portrait_England_Andrew_Cunningham.png"
 	traits = { blockade_runner superior_tactician }
 	skill = 5
@@ -371,7 +371,7 @@ create_navy_leader = {# Andrew Cunningham
 }
 
 create_navy_leader = {
-	name = "Bruce Fraser"
+	name = "Брюс Фрейзер"
 	portrait_path = "gfx/leaders/SCT/Portrait_SCT_Bruce_Fraser.png"
 	traits= { aviation_enthusiast naval_lineage blockade_runner }
 	skill=4
@@ -381,7 +381,7 @@ create_navy_leader = {
 	coordination_skill=4
 }
 create_navy_leader = {
-	name = "Anthony Miers"
+	name = "Энтони Миерс"
 	portrait_path = "gfx/leaders/SCT/Portrait_Scotland_Anthony_Miers.png"
 	traits = { seawolf }
 	skill = 3

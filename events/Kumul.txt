@@ -195,7 +195,7 @@ country_event = { #tax collector gets massacred and the revolt starts
 	option = {
 		name = kumul.9.a
 		create_country_leader = {
-			name = "Yulbars Khan"
+			name = "Юлбарс-хан"
 			picture = "gfx/leaders/TAN/Portrait_TAN_Yulbars_Khan.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -309,7 +309,7 @@ country_event = { #zhongying is here, wartime
 					NOT = { QIE = { has_idea = QIE_zhili_manchu_war_idea } }
 				}
 				QIE = { country_event = { id = qiefor.140 days = 5 } }
-			}			
+			}
 		}
 	}
 
@@ -394,7 +394,7 @@ country_event = { #nasir returns
 		name = kumul.16.a
 		add_stability = 0.05
 		create_country_leader = {
-			name = "Nasīr Shah"
+			name = "Насир Шах"
 			picture = "gfx/leaders/TAN/Portrait_TAN_Nasir.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -458,7 +458,7 @@ country_event = { # new leader
 			name = TAN_bashir_pataut_party
 		}
 		create_country_leader = {
-			name = "Bashir Shah"
+			name = "Башир Шах"
 			picture = "gfx/leaders/TAN/Portrait_TAN_Bashir.png"
 			expire = "1.1.1"
 			ideology = absolute_monarchy_subtype
@@ -467,7 +467,7 @@ country_event = { # new leader
 			}
 		}
 		create_country_leader = {
-			name = "Bashir Shah"
+			name = "Башир Шах"
 			picture = "gfx/leaders/TAN/Portrait_TAN_Bashir.png"
 			expire = "1.1.1"
 			ideology = oligarchy_subtype
@@ -476,7 +476,7 @@ country_event = { # new leader
 			}
 		}
 		create_country_leader = {
-			name = "Bashir Shah"
+			name = "Башир Шах"
 			picture = "gfx/leaders/TAN/Portrait_TAN_Bashir.png"
 			expire = "1.1.1"
 			ideology = soccon_oligarchy_subtype
@@ -824,7 +824,7 @@ country_event = { # our administration is spread really thin, but Fan has just c
 	is_triggered_only = yes
 	fire_only_once = yes
 
-	option = { # call on Fan Yaonan
+	option = { # call on Фань Яонань
 		name = kumul.50.a
 		ai_chance = {
 			factor = 1
@@ -954,7 +954,7 @@ country_event = { # Fan speaks to influential bussiness leaders
 	}
 }
 
-country_event = { # Ma Zhongying rides out
+country_event = { # Ма Чжунъин rides out
 	id = kumul.53
 	title = kumul.53.t
 	desc = kumul.53.d
@@ -1198,7 +1198,7 @@ country_event = { # increasing immigration
 	}
 }
 
-country_event = { # Hoja-Niyaz fights bandits of Ma Zhongying cus they wuz raiding
+country_event = { # Ходжа Нияз fights bandits of Ма Чжунъин cus they wuz raiding
 	id = kumul.58
 	title = kumul.58.t
 	desc = kumul.58.d
@@ -1339,7 +1339,7 @@ country_event = { # lacking in taxes because normally we got chedder from Xinjia
 	}
 }
 
-country_event = { # Ma Zhongying retreats to the hills to chill out and smoke opium
+country_event = { # Ма Чжунъин retreats to the hills to chill out and smoke opium
 	id = kumul.71
 	immediate = { log = "[GetDateText]: [Root.GetName]: event kumul.71" }
 	title = kumul.71.t
@@ -1538,7 +1538,7 @@ country_event = { #hoja-niyaz
 		custom_effect_tooltip = TAN_hoja_focus_tree_tooltip
 		hidden_effect = {
 			create_country_leader = {
-				name = "Hoja-Niyaz"
+				name = "Ходжа Нияз"
 				picture = "gfx/leaders/TAN/Portrait_TAN_Hoja_Niyaz_Haji.png"
 				expire = "1.1.1"
 				ideology = pataut_warlordism_subtype
@@ -1615,7 +1615,7 @@ country_event = { #fan yaonan
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Fan Yaonan"
+				name = "Фань Яонань"
 				picture = "gfx/leaders/SIK/Portrait_SIK_Fan_Yaonan.png"
 				expire = "1.1.1"
 				ideology = socdem_warlordism_subtype
@@ -1652,7 +1652,7 @@ country_event = { #fan yaonan
 				name = TAN_fan_party
 			}
 			create_field_marshal = {
-				name = "Sheng Shicai "
+				name = "Шэн Шицай "
 				portrait_path = "gfx/leaders/SIK/Portrait_SIK_Sheng Shicai Shicai_Sheng Shicai.png"
 				traits = {
 					politically_connected
@@ -1666,7 +1666,7 @@ country_event = { #fan yaonan
 				logistics_skill = 2
 			}
 			create_corps_commander = {
-				name = "Burhan Shahidi "
+				name = "Бурган Шахиди "
 				portrait_path = "gfx/leaders/SIK/Portrait_SIK_Burhan_Shahidi.png"
 				traits = {
 					cavalry_officer
@@ -1727,7 +1727,7 @@ country_event = { #zhongying
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Ma Zhongying"
+				name = "Ма Чжунъин"
 				desc = "POLITICS_XSM_MA_ZHONGYING_ARMY_DESC"
 				picture = "gfx/leaders/XSM/Portrait_XSM_Ma_Zhongying.png"
 				expire = "1.1.1"

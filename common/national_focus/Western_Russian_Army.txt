@@ -98,7 +98,7 @@ focus_tree = {
 			custom_effect_tooltip = WRA_Baltic_Volunteers_tt
 			hidden_effect = {
 				division_template = {
-					name = "German-Baltic Combat Battalion"
+					name = "Немецко-балтийский батальон"
 					division_names_group = RUS_GAR_01
 					regiments = {
 						infantry = { x = 0 y = 0 }
@@ -109,7 +109,7 @@ focus_tree = {
 					}
 				}				
 				division_template = {
-					name = "Russian Volunteer Detachment"
+					name = "Русский добровольческий отряд"
 					division_names_group = RUS_MIL_01
 					regiments = {
 						infantry = { x = 0 y = 0 }
@@ -117,7 +117,7 @@ focus_tree = {
 					}
 				}
 				division_template = {
-					name = "Latvian Kurzeme Brigade"
+					name = "Латышская Курземская бригада"
 					division_names_group = RUS_GAR_01
 					regiments = {
 						infantry = { x = 0 y = 0 }
@@ -136,7 +136,7 @@ focus_tree = {
 					}
 				}
 				division_template = {
-					name = "Kavaleriyskaya Diviziya"
+					name = "Кавалерийская дивизия"
 					division_names_group = RUS_CAV_01
 					regiments = {
 						cavalry = { x = 0 y = 0 }
@@ -148,36 +148,36 @@ focus_tree = {
 				random_owned_controlled_state = {
 					limit = { valid_state_for_spawning_friendly_unit = yes }
 					create_unit = {
-						division = "name = \"I. Nemetsko-Baltiskiy Boyevoy Batalyon\" division_template = \"German-Baltic Combat Battalion\" start_experience_factor = 0.2"
+						division = "name = \"I. Немецко-Балтийский Батальон\" division_template = \"Немецко-балтийский батальон\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"II. Nemetsko-Baltiskiy Boyevoy Batalyon\" division_template = \"German-Baltic Combat Battalion\" start_experience_factor = 0.2"
+						division = "name = \"II. Немецко-Балтийский Батальон\" division_template = \"Немецко-балтийский батальон\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 					create_unit = {
-						division = "name = \"III. Nemetsko-Baltiskiy Boyevoy Batalyon\" division_template = \"German-Baltic Combat Battalion\" start_experience_factor = 0.2"
-						owner = ROOT
-					}
-				}
-				random_owned_controlled_state = {
-					limit = { valid_state_for_spawning_friendly_unit = yes }
-					create_unit = {
-						division = "name = \"Latviyskaya Kurzemskaya Brigada\" division_template = \"Latvian Kurzeme Brigade\" start_experience_factor = 0.2"
+						division = "name = \"III. Немецко-Балтийский Батальон\" division_template = \"Немецко-балтийский батальон\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					limit = { valid_state_for_spawning_friendly_unit = yes }
 					create_unit = {
-						division = "name = \"Russkiy Libavskiy Dobrovolcheskiy Otryad\" division_template = \"Russian Volunteer Detachment\" start_experience_factor = 0.8"
+						division = "name = \"Латвийская Курземская бригада\" division_template = \"Латвийская Курземская бригада\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 				}
 				random_owned_controlled_state = {
 					limit = { valid_state_for_spawning_friendly_unit = yes }
 					create_unit = {
-						division = "division_template = \"Kavaleriyskaya Diviziya\" start_experience_factor = 0.2"
+						division = "name = \"Русский Либавский Добровольческий Отряд\" division_template = \"Русский добровольческий отряд\" start_experience_factor = 0.8"
+						owner = ROOT
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"Кавалерийская дивизия\" start_experience_factor = 0.2"
 						owner = ROOT
 					}
 				}
@@ -185,7 +185,7 @@ focus_tree = {
 					prioritize = { 880 }
 					limit = { valid_state_for_spawning_friendly_unit = yes }
 					create_unit = {
-						division = "name = \"Latgalskaya Partizanskaya Diviziya\" division_template = \"Russian Volunteer Detachment\" start_experience_factor = 0.3"
+						division = "name = \"Латгальская партизанская дивизия\" division_template = \"Русский добровольческий отряд\" start_experience_factor = 0.3"
 						owner = ROOT
 					}
 				}
@@ -304,7 +304,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus WRA_Mobilize_Supporters"
 			division_template = {
-				name = "Gorodskaya Militsiya"
+				name = "Городская милиция"
 				division_names_group = RUS_GAR_01
 				regiments = {
 					militia = { x = 0 y = 0 }
@@ -321,7 +321,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 3
 				}
@@ -329,7 +329,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 2
 				}
@@ -337,7 +337,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 2
 				}
@@ -345,7 +345,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Gorodskaya Militsiya\" start_experience_factor = 0.1"
+					division = "division_template = \"Городская милиция\" start_experience_factor = 0.1"
 					owner = ROOT
 				}
 			}

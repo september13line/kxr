@@ -934,14 +934,14 @@ focus_tree = {
 			hidden_effect = {
 				remove_ideas = FNG_Disastrous_Governance
 				create_country_leader = {
-					name = "Zhang Zuolin"
+					name = "Чжан Цзолинь"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 					expire = "1.1.1"
 					ideology = generic_national_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Zhang Zuolin"
+					name = "Чжан Цзолинь"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 					expire = "1.1.1"
@@ -1885,14 +1885,14 @@ focus_tree = {
 				limit = { has_country_flag = FNG_zhuolin_takes_over }
 				hidden_effect = {
 					create_country_leader = {
-						name = "Zhang Zuolin"
+						name = "Чжан Цзолинь"
 						desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 						picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 						expire = "1.1.1"
 						ideology = authdem_junta_subtype
 					}
 					create_country_leader = {
-						name = "Zhang Zuolin"
+						name = "Чжан Цзолинь"
 						desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 						picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 						expire = "1.1.1"
@@ -1903,14 +1903,14 @@ focus_tree = {
 			else = {
 				retire_country_leader = yes
 				create_country_leader = {
-					name = "Zhang Xueliang"
+					name = "Чжан Сюэлян"
 					desc = "POLITICS_ZHANG_XUELIANG_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang.png"
 					expire = "1.1.1"
 					ideology = authdem_junta_subtype
 				}
 				create_country_leader = {
-					name = "Zhang Xueliang"
+					name = "Чжан Сюэлян"
 					desc = "POLITICS_ZHANG_XUELIANG_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang.png"
 					expire = "1.1.1"
@@ -1946,7 +1946,7 @@ focus_tree = {
 				limit = {
 					has_country_flag = Zhang_Zuolin_dead
 					has_country_leader = {
-						name = "Zhang Xueliang"
+						name = "Чжан Сюэлян"
 						ruling_only = yes
 					}
 				}
@@ -2014,7 +2014,7 @@ focus_tree = {
 			has_completed_focus = FNG_The_Ultimatum
 		}
 		#prerequisite = { focus = FNG_The_Ultimatum }
-		x = -11
+			x = -11
 		y = 6
 		relative_position_id = FNG_The_Ultimatum
 		ai_will_do = { factor = 80 }
@@ -2053,7 +2053,7 @@ focus_tree = {
 				if = {
 					limit = { has_country_flag = FNG_concordia_association_active }
 					create_country_leader = {
-						name = "Hongzhi"
+						name = "Хунчжи"
 						desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 						picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 						expire = "1.1.1"
@@ -2062,7 +2062,7 @@ focus_tree = {
 				}
 				else = {
 					create_country_leader = {
-						name = "Hongzhi"
+						name = "Хунчжи"
 						desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 						picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 						expire = "1.1.1"
@@ -2070,21 +2070,21 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Hongzhi"
+					name = "Хунчжи"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 					expire = "1.1.1"
 					ideology = socdem_tridemism_subtype
 				}
 				create_country_leader = {
-					name = "Hongzhi"
+					name = "Хунчжи"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 					expire = "1.1.1"
 					ideology = soclib_progressive_democracy_subtype
 				}
 				create_country_leader = {
-					name = "Hongzhi"
+					name = "Хунчжи"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 					expire = "1.1.1"
@@ -2516,7 +2516,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_country_leader = {
-					name = "Yang Yuting"
+					name = "Ян Юйтин"
 					ruling_only = yes
 				}
 				has_global_flag = MON_FNG_new_mandate_enforced
@@ -3880,9 +3880,9 @@ focus_tree = {
 			FNG_dynastic_own_libtards = yes
 			if = {
 				limit = {
-					has_country_leader = {
-						name = "Hirohito"
-						ruling_only = yes
+						has_country_leader = {
+							name = "Хирохито"
+							ruling_only = yes
 					}
 				}
 				country_event = fngdynasty.5
@@ -3946,7 +3946,7 @@ focus_tree = {
 					NOT = {
 						JAP = {
 							has_country_leader = {
-								name = "Hirohito"
+								name = "Хирохито"
 								ruling_only = yes
 							}
 						}
@@ -4349,7 +4349,7 @@ focus_tree = {
 		prerequisite = { focus = FNG_Treaty_of_Friendship_and_Cooperation }
 		available = {
 			has_country_leader = {
-				name = "Yang Yuting"
+				name = "Ян Юйтин"
 				ruling_only = yes
 			}
 		}
@@ -4535,7 +4535,7 @@ focus_tree = {
 			has_country_flag = FNG_conference_federalist_support
 			has_completed_focus = FNG_The_Ultimatum
 		}
-		x = 25
+			x = 25
 		y = -9
 		relative_position_id = FNG_The_Ultimatum
 		ai_will_do = { factor = 80 }
@@ -4547,7 +4547,7 @@ focus_tree = {
 			clr_country_flag = FNG_recovery_league_active
 			clr_country_flag = FNG_zhang_clique_active
 			create_country_leader = {
-				name = "Zhang Zuolin"
+				name = "Чжан Цзолинь"
 				desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin.png"
 				expire = "1.1.1"

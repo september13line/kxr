@@ -52,20 +52,20 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	early_ship_hull_submarine = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
-}
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
+	}
 set_research_slots = 3
 
 add_ideas = {
@@ -151,26 +151,26 @@ country_event = { id = irelandflavour.1010 days = 602 } 					# Dáil debate - Me
 country_event = { id = irelandflavour.1011 days = 623 }				 	# Radio Free Scotland. 14/09/37.
 
 create_country_leader = {
-	name = "James Gralton"
+	name = "Джеймс Гралтон"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_James_Gralton.png"
 	expire = "1.1.1"
 	ideology = authcom_subtype
 }
 create_country_leader = {
-	name = "Jim Larkin"
+	name = "Джеймс Ларкин"
 	desc = "POLITICS_JIM_LARKIN_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Jim_Larkin.png"
 	expire = "1.1.1"
 	ideology = centralized_syndicalism_subtype
 }
 create_country_leader = {
-	name = "Peadar O'Donnell"
+	name = "Падар О'Доннеллралтон"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Peadar_ODonnell.png"
 	expire = "1.1.1"
 	ideology = left_nationalism_subtype
 }
 create_country_leader = {
-	name = "Cathal Brugha"
+	name = "Кахал Бру"
 	desc = "POLITICS_CATHAL_BRUGHA_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Cathal_Brugha.png"
 	expire = "1.1.1"
@@ -178,7 +178,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Michael Collins"
+	name = "Майкл Коллинз"
 	desc = "POLITICS_MICHAEL_COLLINS_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.png"
 	expire = "1.1.1"
@@ -186,7 +186,7 @@ create_country_leader = {
 	traits = { IRE_Waining_Personality }
 }
 create_country_leader = {
-	name = "Frank MacDermot"
+	name = "Фрэнк Макдермот"
 	desc = "POLITICS_FRANK_MACDERMOT_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Frank_MacDermot.png"
 	expire = "1.1.1"
@@ -194,7 +194,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Éamon de Valera"
+	name = "Имон де Валера"
 	desc = "POLITICS_DE_VALERA_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 	expire = "1.1.1"
@@ -202,7 +202,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Éamon de Valera"
+	name = "Имон де Валера"
 	desc = "POLITICS_DE_VALERA_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera_kr.png"
 	expire = "1.1.1"
@@ -210,7 +210,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eoin O'Duffy"
+	name = "Оуэн О’Даффи"
 	desc = "POLITICS_O_DUFFY_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.png"
 	expire = "1.1.1"
@@ -218,7 +218,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gearóid Ó Cuinneagáin"
+	name = "Джерард О'Канниган"
 	desc = "POLITICS_GEAROID_O_CUINNEAGAIN_DESC"
 	picture = "gfx/leaders/IRE/Portrait_Ireland_Gearoid_O_Cuinneagain.png"
 	expire = "1.1.1"
@@ -228,7 +228,7 @@ create_country_leader = {
 ### Field Marshals ###
 
 create_field_marshal = {
-	name = "Michael Collins "
+	name = "Майкл Коллинз "
 	id = 9821
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Michael_Collins_General.png"
 	traits = {
@@ -245,7 +245,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Cathal Brugha "
+	name = "Кахал Бру "
 	id = 9920
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Cathal_Brugha_General.png"
 	traits = {
@@ -260,7 +260,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Liam Lynch"
+	name = "Лиам Линч"
 	id = 9910
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Liam_Lynch.png"
 	desc = "ARMY_LIAM_LYNCH_DESC"
@@ -277,7 +277,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "W.J. Brennan-Whitmore"
+	name = "У. Бреннан-Уитмор"
 	id = 8929
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_WJ_Brennan_Whitmore.png"
 	desc = "ARMY_WJ_BRENNAN_WHITMORE_DESC"
@@ -290,7 +290,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Jack White"
+	name = "Джек Уайт"
 	id = 8930
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Jack_White.png"
 	desc = "ARMY_JACK_WHITE_DESC"
@@ -305,7 +305,7 @@ create_field_marshal = {
 ### Corps Commanders ###
 
 create_corps_commander = {
-	name = "Eoin O'Duffy "
+	name = "Оуэн О’Даффи "
 	id = 9911
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.png"
 	desc = "ARMY_EOIN_O_DUFFY_DESC"
@@ -322,7 +322,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Richard Mulcahy "
+	name = "Ричард Мулкахи "
 	id = 9912
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Richard_Mulcahy.png"
 	desc = "ARMY_RICHARD_MULCAHY_DESC"
@@ -339,7 +339,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Hugo MacNeill"
+	name = "Хьюго Макнил"
 	id = 9913
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Hugo_MacNeill.png"
 	desc = "ARMY_HUGO_MACNEILL_DESC"
@@ -355,7 +355,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Tom Barry"
+	name = "Том Барри"
 	id = 9914
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Tom_Barry.png"
 	desc = "ARMY_TOM_BARRY_DESC"
@@ -370,8 +370,8 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "J.J. O'Connell"
-	
+	name = "Джеремия Джозеф О'Коннелл"
+
 	id = 9915
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_JJ_OConnell.png"
 	desc = "ARMY_JJ_O_CONNELL_DESC"
@@ -383,7 +383,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Daniel McKenna"
+	name = "Дэниел Маккенна"
 	id = 9916
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Daniel_McKenna.png"
 	desc = "ARMY_DANIEL_MCKENNA_DESC"
@@ -398,7 +398,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Tom Maguire"
+	name = "Том Магуайр"
 	id = 9917
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Tom_Maguire.png"
 	traits = {
@@ -412,7 +412,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Daniel Hogan"
+	name = "Дэниел Хоган"
 	id = 9918
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Daniel_Hogan.png"
 	desc = "ARMY_DANIEL_HOGAN_DESC"
@@ -427,7 +427,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Michael Joe Costello"
+	name = "Майкл Джо Костелло"
 	id = 8919
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Michael_Joe_Costello.png"
 	traits = {
@@ -441,7 +441,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "Michael Brennan"
+	name = "Майкл Бреннан"
 	id = 8920
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Michael_Brennan.png"
 	traits = {
@@ -455,7 +455,7 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
-	name = "Seán Mac Eoin"
+	name = "Шон Мак Эоин"
 	id = 8924
 	desc = "ARMY_SEAN_MAC_EOIN_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Sean_Mac_Eoin.png"
@@ -467,7 +467,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Rory O'Connor"
+	name = "Рори О'Коннор"
 	id = 8925
 	desc = "ARMY_RORY_O_CONNOR_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Rory_OConnor.png"
@@ -479,7 +479,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "James Steele"
+	name = "Джеймс Стил"
 	id = 8926
 	desc = "ARMY_JAMES_STEELE_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_James_Steele.png"
@@ -491,7 +491,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Séamus O'Donovan"
+	name = "Сеамус О'Донован"
 	id = 8927
 	desc = "ARMY_SEAMUS_O_DONNOVAN_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Seamus_ODonovan.png"
@@ -504,7 +504,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Neven Hénaff"
+	name = "Невен Хенафф"
 	id = 8928
 	desc = "ARMY_NEVEN_HENAFF_DESC"
 	portrait_path = "gfx/leaders/BRI/Portrait_Britanny_Celestin_Laine.png"
@@ -516,7 +516,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Seán Russell"
+	name = "Шон Рассел"
 	id = 8931
 	desc = "ARMY_SEAN_RUSSELL_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Sean_Russell.png"
@@ -540,7 +540,7 @@ random_unit_leader = {
 
 ### Admirals ###
 create_navy_leader = {
-	name = "Jonathan King"
+	name = "Джонатан Кинг"
 	id = 9919
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Jonathan_King.png"
 	traits = { }
@@ -551,7 +551,7 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 create_navy_leader = {
-	name = "Seamus O'Muiris"
+	name = "Шеймус О’Мурис"
 	id = 9921
 	desc = "NAVY_SEAMUS_O_MURIS_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Seamus_OMuiris.png"
@@ -566,7 +566,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Henry H.G. Stoker"
+	name = "Генри Стокер"
 	id = 9922
 	desc = "NAVY_HENRY_HG_STOKER_DESC"
 	portrait_path = "gfx/leaders/IRE/Portrait_Ireland_Henry_HG_Stoker.png"

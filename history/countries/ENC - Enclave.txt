@@ -63,37 +63,37 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
 	cruiser_submarines = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
 	ship_hull_super_heavy = 1
-	
-	basic_naval_mines = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
+		## Modules##
 	basic_battery = 1
 	basic_light_battery = 1
 	
 	basic_heavy_battery = 1
 	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
-
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		
 	### Transport ###
-	mtg_transport = 1
-}
+		mtg_transport = 1
+	}
 
 set_research_slots = 5
 set_stability = 0.15
@@ -120,7 +120,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "William Joseph 'Wild Bill' Donovan"
+	name = "«Дикий Билл» Донован"
 	desc = "POLITICS_WILD_BILL_DESC"
 	picture = "gfx/leaders/ENC/Portrait_ENC_William_Joseph_Wild_Bill_Donovan.png"
 	expire = "1.1.1"
@@ -128,7 +128,7 @@ create_country_leader = {
 	traits = { hog_respected_war_hero for_the_cloak_n_dagger_schemer }
 }
 create_country_leader = {
-	name = "William Joseph 'Wild Bill' Donovan"
+	name = "Уильям Джозеф «Дикий Билл» Донован"
 	desc = "POLITICS_WILD_BILL_DESC"
 	picture = "gfx/leaders/ENC/Portrait_ENC_William_Joseph_Wild_Bill_Donovan.png"
 	expire = "1.1.1"
@@ -143,7 +143,7 @@ add_ideas = {
 
 ### Field Marshal
 create_field_marshal = { #McNair
-	name = "William Joseph 'Wild Bill' Donovan "
+	name = "Уильям Джозеф «Дикий Билл» Донован "
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_William_Joseph_Wild_Bill_Donovan.png"
 	traits = {
 		media_personality
@@ -161,8 +161,8 @@ create_field_marshal = { #McNair
 	logistics_skill = 6
 }
 
-create_field_marshal = {#Swing
-	name = "Joseph May Swing"
+create_field_marshal = {#March
+	name = "Джозеф Мэй Свинг"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_Joseph_Swing.png"
 	traits = {
 		war_hero
@@ -179,7 +179,7 @@ create_field_marshal = {#Swing
 }
 ### Corps Commander
 create_corps_commander = {#
-	name = "Stafford LeRoy Irwin"
+	name = "Стаффорд Лерой Ирвин"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_Stafford_LeRoy_Irwin.png"
 	traits = {
 		artillery_officer
@@ -194,7 +194,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "John Basilone"
+	name = "Джон Бейзилон"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_John_Basilone.png"
 	traits = {
 		naval_invader
@@ -210,7 +210,7 @@ create_corps_commander = {#
 }
 
 create_corps_commander = {#
-	name = "Curtis LeMay"
+	name = "Кёртис Лемей"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_Curtis_LeMay.png"
 	traits = {
 		air_controller
@@ -223,7 +223,7 @@ create_corps_commander = {#
 	logistics_skill = 3
 }
 create_corps_commander = {#
-	name = "'Iron Mike' Wilson O'Daniel"
+	name = "'Железный Майк' Уилсон О'Дэниел"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_John_Iron_Mike_Wilson_O_Daniel.png"
 	traits = {
 		war_hero
@@ -236,7 +236,7 @@ create_corps_commander = {#
 	logistics_skill = 3
 }
 create_corps_commander = {#
-	name = "Alfred M. Gruenther"
+	name = "Альфред М. Грюнтер"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_Alfred_M_Gruenther.png"
 	traits = {
 		organizer
@@ -249,7 +249,7 @@ create_corps_commander = {#
 	logistics_skill = 1
 }
 create_corps_commander = {#
-	name = "Ulysses S. Grant III"
+	name = "Улисс С. Грант III"
 	portrait_path = "gfx/leaders/ENC/Portrait_ENC_Ulysses_S_Grant_III.png"
 	traits = {
 		naval_invader
@@ -263,8 +263,8 @@ create_corps_commander = {#
 }
 
 ### Navy Leader
-create_navy_leader = {# Arleigh Burke
-	name = "Arleigh Burke"
+create_navy_leader = {# Арли Берк
+	name = "Арли Берк"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_Arleigh_Burke_KR.png"
 	traits = {old_guard_navy superior_tactician}
 	skill = 4
@@ -274,8 +274,8 @@ create_navy_leader = {# Arleigh Burke
 	coordination_skill = 4
 }
 
-create_navy_leader = {# Frank Jack Fletcher
-	name = "Frank Jack Fletcher"
+create_navy_leader = {# Фрэнк Флетчер
+	name = "Фрэнк Флетчер"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_adm_Frank_Fletcher.png"
 	traits = {spotter superior_tactician}
 	skill = 3
@@ -285,8 +285,8 @@ create_navy_leader = {# Frank Jack Fletcher
 	coordination_skill = 3
 }
 
-create_navy_leader = {# Harold Raynsford Stark
-	name = "Harold Raynsford Stark"
+create_navy_leader = {# Гарольд Рэйнсфорд Старк
+	name = "Гарольд Рэйнсфорд Старк"
 	portrait_path = "gfx/leaders/NEE/Portrait_NEE_Harold_Rainsford_Stark.png"
 	traits = {spotter blockade_runner}
 	skill = 2
@@ -296,8 +296,8 @@ create_navy_leader = {# Harold Raynsford Stark
 	coordination_skill = 2
 }
 
-create_navy_leader = {# Raymond A. Spruance
-	name = "Raymond A. Spruance"
+create_navy_leader = {# Рэймонд Э. Спрюэнс
+	name = "Рэймонд Э. Спрюэнс"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_Raymond_Spruance_KR.png"
 	traits = {superior_tactician}
 	skill = 4
@@ -307,8 +307,8 @@ create_navy_leader = {# Raymond A. Spruance
 	coordination_skill = 4
 }
 
-create_navy_leader = {# Alfred M. Pride
-	name = "Alfred M. Pride"
+create_navy_leader = {# Альфред М. Прайд
+	name = "Альфред М. Прайд"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_alfred_pride.png"
 	traits = {air_controller}
 	skill = 2
@@ -318,8 +318,8 @@ create_navy_leader = {# Alfred M. Pride
 	coordination_skill = 2
 }
 
-create_navy_leader = {# Jerauld Wright
-	name = "Jerauld Wright"
+create_navy_leader = {# Джеральд Райт
+	name = "Джеральд Райт"
 	portrait_path = "gfx/leaders/USA/Portrait_USA_jerauld_wright.png"
 	traits = {ironside superior_tactician}
 	skill = 3

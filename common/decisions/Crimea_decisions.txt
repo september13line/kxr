@@ -693,7 +693,7 @@ CRM_water_resources = {
 		days_re_enable = 30
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision CRM_import_water target: [From.GetName]"
-			custom_effect_tooltip = "We will start importing water from [FROM.GetName]"
+			custom_effect_tooltip = "Мы начнём импортировать воду из [FROM.GetName]."
 			add_opinion_modifier = {
 				target = FROM
 				modifier = small_increase
@@ -701,7 +701,7 @@ CRM_water_resources = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove CRM_import_water target: [From.GetName]"
-			custom_effect_tooltip = "The [FROM.GetAdjective] supplies will end"
+			custom_effect_tooltip = "[FROM.GetAdjective]ие поставки - прекратятся"
 			add_to_variable = { CRM_water_resources_status = -1 }
 			if = {
 				limit = {
@@ -950,7 +950,7 @@ CRM_alliance = {
 				AND = {
 					has_government = radical_socialist
 					has_country_leader = {
-						name = "Amet Ozenbashly"
+						name = "Амет Озенбашлы"
 						ruling_only = yes
 					}
 				}				
@@ -1902,5 +1902,5 @@ foreign_politics = {
 				add_core_of = CRM
 			}
 		}
-	}
+	}	
 }

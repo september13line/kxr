@@ -4,13 +4,13 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_flag = UKR_DAN
-				has_country_leader = { name = "Danylo" ruling_only = no }
+				has_country_leader = { name = "Данило" ruling_only = no }
 			}
 		}
-		localization_key = "Danylo"
+		localization_key = "Данило"
 	}
 	text = {
-		localization_key = "Leo Stefan"
+		localization_key = "Лео Стефан"
 	}
 }
 
@@ -20,13 +20,13 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_country_flag = UKR_DAN
-				has_country_leader = { name = "Danylo" ruling_only = no }
+				has_country_leader = { name = "Данило" ruling_only = no }
 			}
 		}
-		localization_key = "Danylo Skoropadsky"
+		localization_key = "Данило Скоропадський"
 	}
 	text = {
-		localization_key = "Leo Stefan Habsburg"
+		localization_key = "Лео Штефан фон Габсбург"
 	}
 }
 
@@ -369,27 +369,27 @@ defined_text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_militarism > 0.799 }
 		}
-		localization_key = "predominantly"
+		localization_key = "преимущественно"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_militarism < 0.8 }
 			check_variable = { UKR_triumvirs_militarism > 0.599 }
 		}
-		localization_key = "largely"
+		localization_key = "в основном"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_militarism < 0.6 }
 			check_variable = { UKR_triumvirs_militarism > 0.399 }
 		}
-		localization_key = "in majority"
+		localization_key = "в большинстве"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_militarism < 0.4 }
 		}
-		localization_key = "moderately"
+		localization_key = "умеренно"
 	}	
 }
 defined_text = {
@@ -398,27 +398,27 @@ defined_text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_nationalism > 0.799 }
 		}
-		localization_key = "predominantly"
+		localization_key = "преимущественно"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_nationalism < 0.8 }
 			check_variable = { UKR_triumvirs_nationalism > 0.599 }
 		}
-		localization_key = "largely"
+		localization_key = "в основном"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_nationalism < 0.6 }
 			check_variable = { UKR_triumvirs_nationalism > 0.399 }
 		}
-		localization_key = "in majority"
+		localization_key = "в большинстве"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_nationalism < 0.4 }
 		}
-		localization_key = "moderately"
+		localization_key = "умеренно"
 	}	
 }
 defined_text = {
@@ -427,27 +427,27 @@ defined_text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_socialism > 0.799 }
 		}
-		localization_key = "predominantly"
+		localization_key = "преимущественно"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_socialism < 0.8 }
 			check_variable = { UKR_triumvirs_socialism > 0.599 }
 		}
-		localization_key = "largely"
+		localization_key = "в основном"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_socialism < 0.6 }
 			check_variable = { UKR_triumvirs_socialism > 0.399 }
 		}
-		localization_key = "in majority"
+		localization_key = "в большинстве"
 	}
 	text = {
 		trigger = {
 			check_variable = { UKR_triumvirs_socialism < 0.4 }
 		}
-		localization_key = "moderately"
+		localization_key = "умеренно"
 	}	
 }
 defined_text = {
@@ -476,7 +476,7 @@ defined_text = {
 			NOT = { has_country_leader_with_trait = UKR_hetman_title }
 			NOT = { has_country_leader_with_trait = UKR_king_title }
 		}
-		localization_key = "Vozhd"
+		localization_key = "Вождь"
 	}
 	text = {
 		trigger = {
@@ -506,7 +506,7 @@ defined_text = {
 		localization_key = UKR_regency_title_king
 	}
 	text = {
-		localization_key = "Prime-Minister"
+		localization_key = "Прем'єр-міністр"
 	}
 }
 defined_text = {
@@ -514,14 +514,14 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_leader = {
-				name = "Mykyta Khrushchov"
+				name = "Микита Хрущов"
 				ruling_only = yes
 			}
 		}
-		localization_key = "Khrushchov"
+		localization_key = "Хрущов"
 	}
 	text = {
-		localization_key = "Khrushchev"
+		localization_key = "Хрущов"
 	}
 }
 defined_text = {
@@ -615,19 +615,19 @@ defined_text = {
 	name = Get_UKR_Vasyl_Vyshyvanyi_hog_ade
 	text = {
 		trigger = { UKR_vasyl_in_power = yes }
-		localization_key = "Vasyl"
+		localization_key = "Василь"
 	}
 	text = {
 		trigger = { 
 			has_country_leader = {
-				name = "Vasyl Vyshyvanyi"
+				name = "Василь Вишиваний"
 				ruling_only = yes
 			}
 		}
-		localization_key = "Vasyl Vyshyvanyi"
+		localization_key = "Василь Вишиваний"
 	}
 	text = {
-		localization_key = "Vilgelm fon Habsburg-Lotarynzkyi"
+		localization_key = "Вильгельм фон Габсбург-Лотарингский"
 	}
 }
 defined_text = {
@@ -798,10 +798,10 @@ defined_text = {
 		trigger = {
 			UKR_borotbysts_village = no
 		}
-		localization_key = "Worker-Peasant Soviet Power"
+		localization_key = "Рабоче-крестьянская Советская власть"
 	}
 	text = {
-		localization_key = "Peasant-Worker Soviet Power"
+		localization_key = "Крестьянско-рабочая советская власть"
 	}
 }
 defined_text = {
@@ -2584,11 +2584,11 @@ defined_text = {
 				tag = WSU
 			}
 		}
-		localization_key = "Konservatyvnyi Soiuz Mizhmoria"
+		localization_key = "Союз консерваторів міжмор'е"
 	}
 	text = { 
 		trigger = { tag = WHR }
-		localization_key = "Kanservatyuny Sayuz Mizhmoria"
+		localization_key = "Союз консерваторів міжмор'е"
 	}
 	text = { 
 		trigger = { 
@@ -2597,7 +2597,7 @@ defined_text = {
 				tag = GAL
 			}
 		}
-		localization_key = "Unia Konserwatywna Międzymorza"
+		localization_key = "Союз консерваторів міжмор'е"
 	}
 	text = { 
 		trigger = { tag = LIT }

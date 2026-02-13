@@ -915,7 +915,7 @@ country_event = { # Anarchist Victory
 			}
 			
 			create_country_leader = {
-				name = "Pak Hon-yong"
+				name = "Пак Хон Ён"
 				desc = "KOR_pak_hon_yong_leader_desc"
 				picture = "gfx/leaders/KOR/Portrait_KOR_Pak_Hon_yong.png"
 				ideology = authcom_subtype
@@ -2320,13 +2320,13 @@ country_event = { #Chinese accept
 					QIE = { is_faction_leader = yes }
 				}
 			}
-			QIE = {
-				add_to_faction = KOR
-			}
+		QIE = {
+			add_to_faction = KOR
+		}
 		}
 		else = {
-			CHI = {
-				add_to_faction = KOR
+		CHI = {
+			add_to_faction = KOR
 			}
 		}
 	}
@@ -2519,7 +2519,7 @@ country_event = { #Korea In The Internationale?
 	option = { #Let's Join China!
 		trigger = {
 			CHI = { is_faction_leader = yes }
-		}
+				}
 		name = korea.64.c
 		ai_chance = {
 			factor = 80
@@ -2729,8 +2729,8 @@ country_event = { #The Dream of Korea’s Former Zenith
 		name = korea.68.c
 		trigger = {
 		OR = {
-		has_country_leader = { name = "Yi Un" ruling_only = yes}
-		has_country_leader = { name = "Yi Kang" ruling_only = yes}
+		has_country_leader = { name = "Йи Ун" ruling_only = yes}
+		has_country_leader = { name = "Ли Кан" ruling_only = yes}
 			}
 		}
 		ai_chance = {
@@ -3055,7 +3055,7 @@ country_event = { # choose your collaborator
 		add_stability = 0.01
 		
 		create_corps_commander = {
-			name = "Kim Suk-won"
+			name = "Ким Сук Вон"
 			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
 			traits = {
 				skilled_staffer
@@ -3068,7 +3068,7 @@ country_event = { # choose your collaborator
 		}
 
 		create_corps_commander = {
-			name = "Lee Eung-jun "
+			name = "Ли Ын Чжун "
 			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_Jun.png"
 			traits = {
 				infantry_officer
@@ -3084,7 +3084,7 @@ country_event = { # choose your collaborator
 		name = kor.3.b
 		add_political_power = 10
 		create_country_leader = {
-			name = "Lee Eung-jun "
+			name = "Ли Ын Чжун "
 			picture = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_Jun.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
@@ -3092,7 +3092,7 @@ country_event = { # choose your collaborator
 		}
 		
 		create_corps_commander = {
-			name = "Kim Suk-won"
+			name = "Ким Сук Вон"
 			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
 			traits = {
 				skilled_staffer
@@ -3105,7 +3105,7 @@ country_event = { # choose your collaborator
 		}
 
 		create_corps_commander = {
-			name = "Lee Eung-jun "
+			name = "Ли Ын Чжун "
 			portrait_path = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_Jun.png"
 			traits = {
 				infantry_officer
@@ -3136,7 +3136,7 @@ country_event = { # The Head of the Royal Family
 		name = kor.4.b
 		add_political_power = 25
 		create_country_leader = {
-			name = "Yi Kang"
+			name = "Ли Кан"
 			desc = "KOR_yi_kang_leader_desc"
 			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
 			expire = "1.1.1"
@@ -3145,7 +3145,7 @@ country_event = { # The Head of the Royal Family
 		}
 		
 		create_country_leader = {
-			name = "Yi Kang"
+			name = "Ли Кан"
 			desc = "KOR_yi_kang_leader_desc"
 			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
 			expire = "1.1.1"
@@ -3190,7 +3190,7 @@ country_event = { #Lefistist leader choice
 		}
 		
 		create_country_leader = {
-			name = "Kim Wonbong"
+			name = "Ким Вонбон"
 			desc = "KOR_kim_wonbong_civilian_desc"
 			picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Won_Bong.png"
 			expire = "1.1.1"

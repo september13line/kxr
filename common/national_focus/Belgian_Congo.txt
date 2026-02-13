@@ -50,7 +50,7 @@ focus_tree = {
 		available = {
 			#has_country_flag = COG_COLONIAL_RULE
 		}
-
+		
 		complete_tooltip = {}
 
 		completion_reward = {
@@ -58,7 +58,7 @@ focus_tree = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.20 }
 			hidden_effect = {
 				create_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					desc = "POLITICS_VON_EPP_CONGO_DESC"
 					picture = "gfx/leaders/COG/Portrait_Congo_Franz_Ritter_von_Epp.png"
 					expire = "1.1.1"
@@ -105,7 +105,7 @@ focus_tree = {
 			}
 			NOT = {
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -204,19 +204,19 @@ focus_tree = {
 				add_idea = COG_Mission_To_Civilise
 			}
 			hidden_effect = {
-			if = {
-			limit = {
-			NOT = {
-			has_idea = COG_Jules_Cousin_hog_sli
-			has_idea = COG_Edgar_Sengier_hog_mli
-				}
-			}
-			country_event = {
-				id = congofla.5
-				months = 32
+				if = {
+				limit = {
+				NOT = {
+				has_idea = COG_Jules_Cousin_hog_sli
+				has_idea = COG_Edgar_Sengier_hog_mli
 					}
 				}
-			}
+				country_event = {
+					id = congofla.5
+					months = 32
+						}
+					}
+				}
 		}
 	}
 
@@ -244,7 +244,7 @@ focus_tree = {
 			}
 			NOT = {
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -252,7 +252,7 @@ focus_tree = {
 				tooltip = COG_epp_not_in_power
 				NOT = {
 					has_country_leader = {
-						name = "Franz Ritter von Epp"
+						name = "Франц фон Эпп"
 						ruling_only = yes
 					}
 				}
@@ -356,19 +356,19 @@ focus_tree = {
 				add_idea = COG_Colour_Gap
 			}
 			hidden_effect = {
-			if = {
-			limit = {
-			NOT = {
-			has_idea = COG_Jules_Cousin_hog_sli
-			has_idea = COG_Edgar_Sengier_hog_mli
-				}
-			}
-			country_event = {
-				id = congofla.5
-				months = 32
+				if = {
+				limit = {
+				NOT = {
+				has_idea = COG_Jules_Cousin_hog_sli
+				has_idea = COG_Edgar_Sengier_hog_mli
 					}
 				}
-			}
+				country_event = {
+					id = congofla.5
+					months = 32
+						}
+					}
+				}
 		}
 	}
 
@@ -1763,7 +1763,7 @@ focus_tree = {
 			}
 			has_idea = COG_No_Sea_Access
 		}
-		
+				
 		mutually_exclusive = {
 			focus = COG_Daressalam_Port
 			focus = COG_Belgian_Connection
@@ -3141,7 +3141,7 @@ focus_tree = {
 				if = {
 					limit = {
 						has_country_leader = {
-							name = "Pierre Ryckmans"
+							name = "Пьер Райкманс"
 							ruling_only = yes
 						}
 						has_country_flag = COG_ricky_collapse
@@ -4001,7 +4001,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_leo_in_power
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -4041,7 +4041,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_leo_in_power
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -4079,7 +4079,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_leo_in_power
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -4121,7 +4121,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_leo_in_power
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -4169,7 +4169,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_leo_in_power
 				has_country_leader = {
-					name = "Léo Pétillon"
+					name = "Лео Петийон"
 					ruling_only = yes
 				}
 			}
@@ -4243,7 +4243,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -4287,7 +4287,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -4307,7 +4307,7 @@ focus_tree = {
 					days = 10
 				}
 			}
-			set_province_name = { id = 13950 name = "Neue-Wilhelmsburg"}
+			set_province_name = { id = 13950 name = "Нойе-Вильгельмсбург"}
 			hidden_effect = {
 				881 = { set_state_flag = renamed_state_wilhelmsburg }
 				every_controlled_state = { rename_state_effect = yes }
@@ -4330,7 +4330,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -4392,7 +4392,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -4437,7 +4437,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -4505,7 +4505,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_ryckmans_in_power
 				has_country_leader = {
-					name = "Pierre Ryckmans"
+					name = "Пьер Райкманс"
 					ruling_only = yes
 				}
 			}
@@ -4556,7 +4556,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_ryckmans_in_power
 				has_country_leader = {
-					name = "Pierre Ryckmans"
+					name = "Пьер Райкманс"
 					ruling_only = yes
 				}
 			}
@@ -4594,7 +4594,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_ryckmans_in_power
 				has_country_leader = {
-					name = "Pierre Ryckmans"
+					name = "Пьер Райкманс"
 					ruling_only = yes
 				}
 			}
@@ -4630,7 +4630,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_ryckmans_in_power
 				has_country_leader = {
-					name = "Pierre Ryckmans"
+					name = "Пьер Райкманс"
 					ruling_only = yes
 				}
 			}
@@ -4672,7 +4672,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_ryckmans_in_power
 				has_country_leader = {
-					name = "Pierre Ryckmans"
+					name = "Пьер Райкманс"
 					ruling_only = yes
 				}
 			}
@@ -4696,7 +4696,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+		
 	### Decoster ###
 	
 	focus = {
@@ -4746,7 +4746,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_decoster_in_power
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -4806,7 +4806,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_decoster_in_power
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -4864,7 +4864,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_decoster_in_power
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -4918,7 +4918,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_decoster_in_power
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -4965,7 +4965,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_decoster_in_power
 				has_country_leader = {
-					name = "Albert Decoster"
+					name = "Альберт Декостер"
 					ruling_only = yes
 				}
 			}
@@ -5008,7 +5008,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5018,7 +5018,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5050,7 +5050,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5091,7 +5091,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5132,7 +5132,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5178,7 +5178,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5218,7 +5218,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5258,7 +5258,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5299,7 +5299,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5343,7 +5343,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5402,7 +5402,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5448,7 +5448,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5506,7 +5506,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5545,7 +5545,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5583,7 +5583,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5621,7 +5621,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5658,7 +5658,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}
@@ -5698,7 +5698,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = COG_epp_still_in_power
 				has_country_leader = {
-					name = "Franz Ritter von Epp"
+					name = "Франц фон Эпп"
 					ruling_only = yes
 				}
 			}

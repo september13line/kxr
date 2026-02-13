@@ -756,9 +756,9 @@ focus_tree = {
 				}
 			}
 			else = {
-				swap_ideas = {
-					remove_idea = AST_labor_term_1_idea
-					add_idea = AST_labor_term_2_idea
+			swap_ideas = {
+				remove_idea = AST_labor_term_1_idea
+				add_idea = AST_labor_term_2_idea
 				}
 			}
 		}
@@ -838,11 +838,11 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_lang_greater_than_lenin"
 			if = { 
 				limit = { has_idea = AST_lang_term_1_idea }
-				swap_ideas = {
-					remove_idea = AST_lang_term_1_idea
-					add_idea = AST_lang_term_2_idea
-				}
+			swap_ideas = {
+				remove_idea = AST_lang_term_1_idea
+				add_idea = AST_lang_term_2_idea
 			}
+		}
 			else = {
 				swap_ideas = {
 					remove_idea = AST_labor_term_1_idea
@@ -5867,7 +5867,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Alexander Mills"
+					name = "Александер Миллс"
 					desc = ""
 					picture = "gfx/leaders/AST/Portrait_AST_Alexander_Mills.png"
 					expire = "1.1.1"
@@ -8356,7 +8356,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AST_form_the_commonwealth_security_service"
 			create_intelligence_agency = {
-    			name = "Commonwealth Security Service"
+    			name = "Содружество Служб Безопасности"
     			icon = GFX_intelligence_agency_logo_kr_ast
 			}
 			add_ideas = AST_asio_1_idea
@@ -8611,7 +8611,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_blamey_tt		
-				has_unit_leader = 2100
+			has_unit_leader = 2100
 			}
 			has_country_flag = AST_political_chaos_ended
 		}
@@ -8641,7 +8641,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_blamey_tt		
-				has_unit_leader = 2100
+			has_unit_leader = 2100
 			}
 		}
 		completion_reward = {
@@ -8667,7 +8667,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_blamey_tt		
-				has_unit_leader = 2100
+			has_unit_leader = 2100
 			}
 		}
 		completion_reward = {
@@ -8693,7 +8693,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_blamey_tt		
-				has_unit_leader = 2100
+			has_unit_leader = 2100
 			}
 		}
 		completion_reward = {
@@ -8720,7 +8720,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_benett_tt		
-				has_unit_leader = 2113
+			has_unit_leader = 2113
 			}
 			has_country_flag = AST_political_chaos_ended
 		}
@@ -8750,7 +8750,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_benett_tt		
-				has_unit_leader = 2113
+			has_unit_leader = 2113
 			}
 		}
 		completion_reward = {
@@ -8776,7 +8776,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_benett_tt		
-				has_unit_leader = 2113
+			has_unit_leader = 2113
 			}
 		}
 		completion_reward = {
@@ -8802,7 +8802,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_benett_tt		
-				has_unit_leader = 2113
+			has_unit_leader = 2113
 			}
 		}
 		completion_reward = {
@@ -8829,7 +8829,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_lavarack_tt		
-				has_unit_leader = 2102
+			has_unit_leader = 2102
 			}
 			has_country_flag = AST_political_chaos_ended
 		}
@@ -8859,7 +8859,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_lavarack_tt		
-				has_unit_leader = 2102
+			has_unit_leader = 2102
 			}
 		}
 		completion_reward = {
@@ -8885,7 +8885,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_lavarack_tt		
-				has_unit_leader = 2102
+			has_unit_leader = 2102
 			}
 		}
 		completion_reward = {
@@ -8911,7 +8911,7 @@ focus_tree = {
 		available = {	
 			custom_trigger_tooltip = {
 				tooltip = AST_lavarack_tt		
-				has_unit_leader = 2102
+			has_unit_leader = 2102
 			}
 		}
 		completion_reward = {
@@ -9581,12 +9581,12 @@ focus_tree = {
 					has_maximum_radar_station_level = no
 					impassable = no
 				}
-				add_building_construction = {
-					type = radar_station
-					level = 1
-					instant_build = yes
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
+					}
 				}
-			}
 			random_owned_controlled_state = {
 				prioritize = { 517 }
 				limit = {
@@ -9594,10 +9594,10 @@ focus_tree = {
 					has_maximum_radar_station_level = no
 					impassable = no
 				}
-				add_building_construction = {
-					type = radar_station
-					level = 1
-					instant_build = yes
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes
 				}
 			}
 		}
@@ -9835,10 +9835,10 @@ focus_tree = {
 					NOT = { has_tech = atomic_research }
 					NOT = { is_researching_technology = atomic_research }
 				}
-				add_tech_bonus = {
-					name = AST_uranium_mining
+			add_tech_bonus = {
+				name = AST_uranium_mining
 					bonus = 0.5
-					uses = 1
+				uses = 1
 					technology = atomic_research
 				}
 				add_breakthrough_progress = {
@@ -9979,7 +9979,7 @@ focus_tree = {
 		relative_position_id = AST_snowy_mountain_scheme
 		cost = 5
 		ai_will_do = {
-		    factor = 2
+			factor = 2
 		}
 		available = {	
 		}
@@ -12337,7 +12337,7 @@ focus_tree = {
 					NOT = { has_country_flag = AST_red_focus_move }
 				}
 			}
-			is_puppet = no
+			is_puppet = no	
 			LEC = {
 				NOT = {
 					has_country_flag = LEC_Triad_Power 
@@ -12562,7 +12562,7 @@ focus_tree = {
 		available = {	
 			OR = {
 				AND = {
-					has_country_flag = AST_red_focus_move
+				has_country_flag = AST_red_focus_move
 					has_country_flag = AST_political_chaos_ended
 				}
 				AND = {

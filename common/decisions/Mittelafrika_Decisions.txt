@@ -174,7 +174,7 @@ political_actions = {
 					}
 				}
 				create_corps_commander = { 
-					name = "Hermann Fegelein "
+					name = "Герман Фегелейн "
 					portrait_path = "gfx/leaders/COG/Portrait_COG_Hermann_Fegelein.png"
 					traits = {
 						politically_connected	
@@ -187,7 +187,7 @@ political_actions = {
 					id = 79992
 				}
 				create_corps_commander = { 
-					name = "Wilhelm Mohnke "
+					name = "Вильгельм Монке "
 					portrait_path = "gfx/leaders/COG/Portrait_COG_Wilhelm_Mohnke.png"
 					traits = {
 						politically_connected	
@@ -202,7 +202,7 @@ political_actions = {
 				}
 				
 				create_corps_commander = { 
-					name = "Ernst Röhm "
+					name = "Эрнст Рём "
 					portrait_path = "gfx/leaders/COG/Portrait_COG_Ernst_Rohm.png"
 					traits = {
 						politically_connected	
@@ -871,7 +871,7 @@ MAF_Settler_actions = {
 	visible = {
 		has_completed_focus = MAF_theschutzgebietebeckon
 		OR = {
-			has_government = authoritarian_democrat
+		has_government = authoritarian_democrat
 			has_government = social_conservative
 			has_government = market_liberal
 			has_government = social_liberal
@@ -909,7 +909,7 @@ MAF_the_belgians = {
 	visible = {
 		has_completed_focus = MAF_theschutzgebietebeckon
 		OR = {
-			has_government = authoritarian_democrat
+		has_government = authoritarian_democrat
 			has_government = social_conservative
 			has_government = market_liberal
 			has_government = social_liberal
@@ -947,7 +947,7 @@ MAF_the_british = {
 	visible = {
 		has_completed_focus = MAF_theschutzgebietebeckon
 		OR = {
-			has_government = authoritarian_democrat
+		has_government = authoritarian_democrat
 			has_government = social_conservative
 			has_government = market_liberal
 			has_government = social_liberal
@@ -985,7 +985,7 @@ MAF_the_mercs = {
 	visible = {
 		has_completed_focus = MAF_theschutzgebietebeckon
 		OR = {
-			has_government = authoritarian_democrat
+		has_government = authoritarian_democrat
 			has_government = social_conservative
 			has_government = market_liberal
 			has_government = social_liberal
@@ -1452,14 +1452,14 @@ MAF_collapse_actions = {
 				}
 			}
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		visible = {
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		cost = 30
@@ -1553,14 +1553,14 @@ MAF_collapse_actions = {
 				}
 			}
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		visible = {
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		cost = 30
@@ -1607,14 +1607,14 @@ MAF_collapse_actions = {
 				}
 			}
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		visible = {
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		cost = 30
@@ -1661,14 +1661,14 @@ MAF_collapse_actions = {
 				}
 			}
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		visible = {
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		cost = 30
@@ -1715,14 +1715,14 @@ MAF_collapse_actions = {
 				}
 			}
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		visible = {
 			NOT = {
-				has_government = paternal_autocrat
-				has_government = national_populist
+					has_government = paternal_autocrat
+					has_government = national_populist
 			}
 		}
 		cost = 30
@@ -2448,7 +2448,7 @@ MAF_madagascar_centralization_actions = {
 		visible = {
 			MAG = {
 				has_country_leader = {
-					name = "Reinhard Heydrich"
+					name = "Рейнхард Гейдрих"
 				}
 			}
 		}
@@ -2490,7 +2490,7 @@ MAF_madagascar_centralization_actions = {
 		visible = {
 			MAG = {
 				has_country_leader = {
-					name = "Reinhard Heydrich"
+					name = "Рейнхард Гейдрих"
 				}
 			}
 		}
@@ -3257,7 +3257,7 @@ MAF_nigeria_centralization_actions = {
 						has_government = authoritarian_democrat
 					}
 					create_country_leader = {
-						name = "Josef Terboven"
+						name = "Йозеф Тербовен"
 						desc = "POLITICS_TERBOVEN_DESC"
 						picture = "gfx/leaders/NGR/Portrait_NGR_Josef_Terboven.png"
 						expire = "1.1.1"

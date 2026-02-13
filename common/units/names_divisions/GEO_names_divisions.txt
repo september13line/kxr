@@ -79,6 +79,75 @@ GEO_INF_01 = {
 		30 = { "%d. Kveiti Ganqopileba" }
 	}
 }
+GEO_INF_NASRAL = {
+	name = "Tsiteli Mtkhvrebi"
+
+	for_countries = { GEO }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GEO_INF_NASRAL }
+
+	fallback_name = "%d. Tsiteli Mtkhvrebi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d. Tsiteli Mtkhvrebi 'Amirani'" }  # Амирани — кавказский Прометей, герой, восставший против богов.  
+        2 = { "%d. Tsiteli Mtkhvrebi 'Torgva'" }  # Торгва — легендарный грузинский воин, символизирует бесстрашие.  
+        3 = { "%d. Tsiteli Mtkhvrebi 'Ujvari'" }  # Ужвари — шторм, буря, разрушение старого порядка.  
+        4 = { "%d. Tsiteli Mtkhvrebi 'Dzlevai'" }  # Дзлеваи — Непобедимые.  
+        5 = { "%d. Tsiteli Mtkhvrebi 'Kherkheulni'" }  # Херкхеулни — Железные.  
+        6 = { "%d. Tsiteli Mtkhvrebi 'Mshvidoba'" }  # Мшвидоба — Мир, но через войну.  
+        7 = { "%d. Tsiteli Mtkhvrebi 'Armkhe'" }  # Армхе — Гром войны.  
+        8 = { "%d. Tsiteli Mtkhvrebi 'Gmiri'" }  # Гмири — Герои.  
+        9 = { "%d. Tsiteli Mtkhvrebi 'Lashkroba'" }  # Лашкроба — Армия.  
+        10 = { "%d. Tsiteli Mtkhvrebi 'Kazbegi'" }  # Казбеги — Символ гордого Кавказа.  
+        11 = { "%d. Tsiteli Mtkhvrebi 'Khvarshi'" }  # Хварши — Огонь.  
+        12 = { "%d. Tsiteli Mtkhvrebi 'Mkhedari'" }  # Мхедари — Всадники.  
+        13 = { "%d. Tsiteli Mtkhvrebi 'Tetri'" }  # Тетри — Белые (чистота революции).  
+        14 = { "%d. Tsiteli Mtkhvrebi 'Shavpari'" }  # Шавпари — Чёрный Клинок.  
+        15 = { "%d. Tsiteli Mtkhvrebi 'Mtsikhe'" }  # Мцихе — Крепость.  
+        16 = { "%d. Tsiteli Mtkhvrebi 'Gurgeni'" }  # Гурген — Лев Грузии.  
+        17 = { "%d. Tsiteli Mtkhvrebi 'Darbazi'" }  # Дарбази — Совет, элита власти.  
+        18 = { "%d. Tsiteli Mtkhvrebi 'Jikhvi'" }  # Джихви — Кинжал.  
+        19 = { "%d. Tsiteli Mtkhvrebi 'Gveleshapi'" }  # Гвелешапи — Кавказский дракон.  
+        20 = { "%d. Tsiteli Mtkhvrebi 'Dzlevi'" }  # Дзлеви — Несгибаемые.  
+        21 = { "%d. Tsiteli Mtkhvrebi 'Mtieli'" }  # Мтиели — Горцы, хозяева вершин.  
+        22 = { "%d. Tsiteli Mtkhvrebi 'Berdzeni'" }  # Бердзени — Мудрые, но жестокие.  
+        23 = { "%d. Tsiteli Mtkhvrebi 'Kvareli'" }  # Кварели — Оплот силы.  
+        24 = { "%d. Tsiteli Mtkhvrebi 'Samshoblo'" }  # Самшобло — Родина.  
+        25 = { "%d. Tsiteli Mtkhvrebi 'Tetri Gmiri'" }  # Тетри Гмири — Белый Герой.  
+        26 = { "%d. Tsiteli Mtkhvrebi 'Erovnuli'" }  # Еровнули — Народные.  
+        27 = { "%d. Tsiteli Mtkhvrebi 'Kamikheti'" }  # Камихети — Месть.  
+        28 = { "%d. Tsiteli Mtkhvrebi 'Tskhovreba'" }  # Цховреба — Жизнь через борьбу.  
+        29 = { "%d. Tsiteli Mtkhvrebi 'Tetri Mkhedari'" }  # Тетри Мхедари — Белые Всадники.  
+        30 = { "%d. Tsiteli Mtkhvrebi 'Shav Tsikhe'" }  # Шав Цихе — Чёрная Крепость.  
+        31 = { "%d. Tsiteli Mtkhvrebi 'Gagrani'" }  # Гаграни — Победители.  
+        32 = { "%d. Tsiteli Mtkhvrebi 'Sikvaruli'" }  # Сикварули — Любовь к Родине, но как фанатизм.  
+        33 = { "%d. Tsiteli Mtkhvrebi 'Marmari'" }  # Мармари — Молния войны.  
+        34 = { "%d. Tsiteli Mtkhvrebi 'Khareba'" }  # Хареба — Справедливость.  
+        35 = { "%d. Tsiteli Mtkhvrebi 'Jvari'" }  # Джвари — Крест, символ национал-большевизма.  
+        36 = { "%d. Tsiteli Mtkhvrebi 'Bagineti'" }  # Багинети — Древняя столица, символ наследия.  
+        37 = { "%d. Tsiteli Mtkhvrebi 'Rkinis Mteli'" }  # Ркинис Мтели — Железные Воины.  
+        38 = { "%d. Tsiteli Mtkhvrebi 'Saberdzneti'" }  # Сабердзнети — Готовые умереть.  
+        39 = { "%d. Tsiteli Mtkhvrebi 'Tsisperi'" }  # Циспери — Синие (цвет свободы).  
+        40 = { "%d. Tsiteli Mtkhvrebi 'Meskhi'" }  # Месхи — Наследники древнего воинства.  
+        41 = { "%d. Tsiteli Mtkhvrebi 'Chabukiani'" }  # Чабукиани — Ураган войны.  
+        42 = { "%d. Tsiteli Mtkhvrebi 'Khvarbebi'" }  # Хварбеби — Огненные.  
+        43 = { "%d. Tsiteli Mtkhvrebi 'Armazi'" }  # Армази — Древний бог войны Грузии.  
+        44 = { "%d. Tsiteli Mtkhvrebi 'Modzgvari'" }  # Модзгвари — Каратели врагов.  
+        45 = { "%d. Tsiteli Mtkhvrebi 'Medea'" }  # Медея — Колдунья, символ возмездия.  
+        46 = { "%d. Tsiteli Mtkhvrebi 'Batumeli'" }  # Батумели — Гвардия Батумской линии.  
+        47 = { "%d. Tsiteli Mtkhvrebi 'Pirosmani'" }  # Пиросмани — Символ культурного наследия, но в контексте — искусство войны.  
+        48 = { "%d. Tsiteli Mtkhvrebi 'Iveria'" }  # Иверия — Древнее имя Грузии.  
+        49 = { "%d. Tsiteli Mtkhvrebi 'Samkaro'" }  # Самкаро — Мир, который нужно завоевать.  
+        50 = { "%d. Tsiteli Mtkhvrebi 'Gmirebi'" }  # Гмиреби — Легендарные Герои.  
+	}
+}
 
 GEO_CAV_01 = {
 	name = "Cavalry Division"
@@ -367,5 +436,36 @@ GEO_MIL_01 = {
 		18 = { "%d. Militsia Ganqopileba" }
 		19 = { "%d. Militsia Ganqopileba" }
 		20 = { "%d. Militsia Ganqopileba" }
+	}
+}
+GSV_NKVD = {
+	name = "Дивизия НКВД"
+
+	for_countries = { GSV }
+
+	can_use = { always = yes }
+
+	division_types = { "NKVD_infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GEO_INF_01 }
+
+	fallback_name = "%d. Дивизия НКВД"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%d-я дивизия войск НКВД имени Феликса Дзержинского" }
+		2 = { "%d-я дивизия особого назначения внутренних войск НКВД" }
+		3 = { "%d-я стрелковая дивизия войск НКВД имени В.Р. Менжинского" }
+		4 = { "%d-я дивизия войск НКВД «Красногвардейская»" }
+		5 = { "%d-я мотострелковая дивизия войск НКВД «Щит революции»" }
+		6 = { "%d-я дивизия войск НКВД особого назначения «Баррикадная»" }
+		7 = { "%d-я стрелковая дивизия войск НКВД имени Я.М. Свердлова" }
+		8 = { "%d-я дивизия войск НКВД «За социализм!»" }
+		9 = { "%d-я дивизия войск НКВД «Пограничная»" }
+		10 = { "%d-я дивизия войск НКВД «Кремлёвская»" }
+		11 = { "%d-я дивизия войск НКВД «Московская имени Дзержинского»" }
+		12 = { "%d-я стрелковая дивизия войск НКВД «За Ленина»" }
 	}
 }

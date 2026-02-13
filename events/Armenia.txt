@@ -295,7 +295,7 @@ country_event = { # communists takes power
 		add_popularity = { ideology = totalist popularity = 0.10 }
 		complete_national_focus = ARM_communist_victory
 		create_corps_commander = {
-			name = "Hakob Melkumyan"
+			name = "Акоп Мелкумян"
 			portrait_path = "gfx/leaders/ARM/Portrait_Armenia_Hakob_Melkumyan.png"
 			traits = {
 				harsh_leader
@@ -835,7 +835,7 @@ country_event = { # Armenian Presidential elections
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
 		create_country_leader = {
-			name = "Garegin Nzhdeh"
+			name = "Гарегин Нжде"
 			desc = "POLITICS_GAREGIN_NZHDEH_DESC"
 			picture = "gfx/leaders/ARM/Portrait_Armenia_Garegin_Nzhdeh_civilian.png"
 			expire = "1.1.1"
@@ -1262,7 +1262,7 @@ country_event = { #Boghos Bey Succeeds
 			ARM_Boghos_Bey_Dadian_sec_ade
 		}
 		create_country_leader = {
-			name = "Hayk Asatryan"
+			name = "Айк Асатрян"
 			picture = "gfx/leaders/ARM/Portrait_Armenia_Hayk_Asatryan.png"
 			expire = "1.1.1"
 			ideology = tseghakronism_subtype
@@ -1739,7 +1739,7 @@ country_event = { #Boghos Bey and other Ottoman soldiers desert
 			producer = TUR
 		}
 		create_country_leader = {
-			name = "Boghos Bey Dadian"
+			name = "Богос Бей Дадиан"
 			desc = "POLITICS_BOGHOS_BEY_DADIAN_DESC"
 			picture = "gfx/leaders/ARM/Portrait_Armenia_Boghos_Dadian.png"
 			expire = "1.1.1"
@@ -2300,7 +2300,7 @@ country_event = { # Armenian Presidential elections
 		name = arm.115.c
 		trigger = { 
 			has_country_leader = {
-				name = "Garegin Nzhdeh"
+				name = "Гарегин Нжде"
 				ruling_only = yes
 			}
 		}
@@ -2330,7 +2330,7 @@ country_event = { # Armenian Presidential elections
 		trigger = { 
 			NOT = {
 				has_country_leader = {
-					name = "Garegin Nzhdeh"
+					name = "Гарегин Нжде"
 					ruling_only = yes
 				}
 			}
@@ -2796,7 +2796,7 @@ country_event = { # Liberation of Karabakh
 		increase_ruling_party_popularity_by_3 = yes
 		add_political_power = 25
 		add_war_support = 0.05
-	}
+	}	
 }
 
 country_event = { #
@@ -2816,7 +2816,7 @@ country_event = { #
 			retire = yes
 		}
 		create_country_leader = {
-			name = "Berc Keresteciyan"
+			name = "Берк Керестечиян"
 			picture = "gfx/leaders/ARM/Portrait_Armenia_Keresteciyan.png"
 			expire = "1.1.1"
 			desc = "POLITICS_BERC_KERESTIYAN_DESC"
@@ -3616,7 +3616,7 @@ country_event = { #
 			}
 			create_faction_from_template = { 
 				template = faction_template_generic
-				name = faction_transcaucasian
+				name = "Закавказский Союз"
 				icon = GFX_faction_caucasia
 			}
 		}
@@ -3809,7 +3809,7 @@ country_event = { #
 					long_name = ARM_national_party_long
 				}
 				create_country_leader = {
-					name = "Mihran Damadian"
+					name = "Михран Дамадьян"
 					desc = "POLITICS_MIHRAN_DAMADIAN_DESC"
 					picture = "gfx/leaders/ARM/Portrait_Armenia_Mihran_Damadian.png"
 					expire = "1.1.1"
@@ -3884,5 +3884,5 @@ country_event = { #
 		add_state_claim = 992
 		add_state_claim = 454
 		add_state_claim = 455
-   }
+}
 }

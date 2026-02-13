@@ -129,14 +129,14 @@ country_event = { #Zivkovic Requests the Crown Prince's Return
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = SER_government_path
-						option = SER_GOVERNMENT_PATH_REGENT
-					}
+				has_game_rule = {
+					rule = SER_government_path
+					option = SER_GOVERNMENT_PATH_REGENT
+				}
 					has_game_rule = {
 						rule = SER_government_path
 						option = SER_GOVERNMENT_PATH_BLACK_HAND
-					}
+			}
 					has_game_rule = {
 						rule = SER_government_path
 						option = SER_GOVERNMENT_PATH_REPUBLIC_MARLIB
@@ -184,7 +184,7 @@ country_event = { #The Return of Alexander
 		name = serbia.12.a
 		effect_tooltip = { retire_country_leader = yes }
 		create_country_leader = {
-			name = "Alexander II"
+			name = "Александр II"
 			desc = "POLITICS_ALEXANDER_II_DESC"
 			picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 			expire = "1.1.1"
@@ -192,14 +192,14 @@ country_event = { #The Return of Alexander
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Alexander II"
+				name = "Александр II"
 				desc = "POLITICS_ALEXANDER_II_DESC"
 				picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 				expire = "1.1.1"
 				ideology = yugoslavism_subtype
 			}
 			create_country_leader = {
-				name = "Alexander II"
+				name = "Александр II"
 				desc = "POLITICS_ALEXANDER_II_DESC"
 				picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 				expire = "1.1.1"
@@ -245,14 +245,14 @@ country_event = { #The March on Belgrade
 			modifier = {
 				factor = 0
 				OR = {
-					has_game_rule = {
-						rule = SER_government_path
-						option = SER_GOVERNMENT_PATH_REGENT
-					}
+				has_game_rule = {
+					rule = SER_government_path
+					option = SER_GOVERNMENT_PATH_REGENT
+				}
 					has_game_rule = {
 						rule = SER_government_path
 						option = SER_GOVERNMENT_PATH_BLACK_HAND
-					}
+			}
 					has_game_rule = {
 						rule = SER_government_path
 						option = SER_GOVERNMENT_PATH_REPUBLIC_MARLIB
@@ -496,7 +496,7 @@ country_event = { #The Vojvoda Weathers the Storm
 				SER_Svetislav_Milosavljevic_eco_ade
 				SER_Dragisa_Cvetkovic_sec_ade
 			}
-			country_event = { id = dhserbia.1 days = 9 }
+						country_event = { id = dhserbia.1 days = 9 }
 		}
 	}
 }
@@ -780,7 +780,7 @@ country_event = { #fire Macedonian resistance events
 
 	option = {
 		trigger = {
-			has_country_leader = { name = "Alexander II" }
+			has_country_leader = { name = "Александр II" }
 			check_variable = { SER_macedonian_attacks > 6 }
 		}
 		ai_chance = { base = 10000 }
@@ -940,7 +940,7 @@ country_event = { #King Alexander Shot Dead!
 	desc = serbia.30.d
 
 	trigger = {
-		has_country_leader = { name = "Alexander II" }
+		has_country_leader = { name = "Александр II" }
 		owns_state = 106
 		has_idea = SER_macedonian_resistance
 	}
@@ -953,31 +953,31 @@ country_event = { #King Alexander Shot Dead!
 		add_political_power = -150
 		hidden_effect = {
 			create_country_leader = {
-				name = "Peter II"
+				name = "Пётр II"
 				picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 				expire = "1.1.1"
 				ideology = authoritarian_democrat_subtype
 			}
 			create_country_leader = {
-				name = "Peter II"
+				name = "Пётр II"
 				picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 				expire = "1.1.1"
 				ideology = social_conservative_subtype
 			}
 			create_country_leader = {
-				name = "Peter II"
+				name = "Пётр II"
 				picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Peter II"
+				name = "Пётр II"
 				picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 				expire = "1.1.1"
 				ideology = social_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Peter II"
+				name = "Пётр II"
 				picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -985,7 +985,7 @@ country_event = { #King Alexander Shot Dead!
 			country_event = { id = serbia.31 days = 10 }
 		}
 		create_country_leader = {
-			name = "Peter II"
+			name = "Пётр II"
 			picture = "gfx/leaders/SER/Portrait_SER_Peter_II.png"
 			expire = "1.1.1"
 			ideology = yugoslavism_subtype
@@ -1093,7 +1093,7 @@ country_event = { #Chetniks Rise Up in Bosnia
 		name = serbia.41.a
 		hidden_effect = {
 			division_template = {
-				name = "Cetnici"
+				name = "Четники"
 				division_names_group = SER_MTN_01
 				regiments = {
 					mountaineers = { x = 0 y = 0 }
@@ -1113,7 +1113,7 @@ country_event = { #Chetniks Rise Up in Bosnia
 		}
 		104 = {
 			create_unit = {
-				division = "division_template = \"Cetnici\" start_experience_factor = 0.15 start_equipment_factor = 0.9"
+				division = "division_template = \"Четники\" start_experience_factor = 0.15 start_equipment_factor = 0.9"
 				owner = ROOT
 				allow_spawning_on_enemy_provs = yes
 				count = SER_chetnik_count
@@ -1926,12 +1926,12 @@ country_event = {
 				transfer_state = PREV
 			}
 		}
-		
+
 		if = {
 			limit = {
 				ALB = { is_subject = no }
 			}
-			puppet = ALB
+		puppet = ALB
 		}
 
 		ALB = {
@@ -2062,7 +2062,7 @@ country_event = {#want some black hand love?
 						drop_cosmetic_tag = yes
 			complete_national_focus = SER_black_hand
 			create_country_leader = {
-				name = "Alexander II"
+				name = "Александр II"
 				desc = "POLITICS_ALEXANDER_II_DESC"
 				picture = "gfx/leaders/SER/Portrait_SER_Alexander_II.png"
 				expire = "1.1.1"
@@ -2073,7 +2073,7 @@ country_event = {#want some black hand love?
 	option = {
 		name = dhserbia.1.b
 
-		ai_chance = { 
+			ai_chance = { 
 			factor = 30 
 			modifier = {
 				factor = 0
@@ -2101,7 +2101,7 @@ country_event = {#want some black hand love?
 						drop_cosmetic_tag = yes
 			complete_national_focus = SER_black_hand
 			create_country_leader = {
-				name = "George I"
+				name = "Георгий I"
 				desc = ""
 				 picture = "gfx/leaders/SER/Portrait_SER_Prince_George.png"
 				expire = "1.1.1"
@@ -2141,7 +2141,7 @@ country_event = {#what now?
 		ai_chance = { factor = 50 }
 		
 		create_country_leader = {
-			name = "Dragutin Keresovic"
+			name = "Драгутин Кересович"
 			desc = "Dragustin_Keresovic_DESC"
 			picture = "gfx/leaders/SER/Portrait_SER_Dragutin_Keserovic.png"
 			expire = "1.1.1"
@@ -2165,7 +2165,7 @@ country_event = {#what now?
 		ai_chance = { factor = 50 }
 		
 		create_country_leader = {
-			name = "Dimitrije Ljotic"
+			name = "Димитрие Лётич"
 			desc = "Dimitrije_Ljotic_DESC"
 			picture = "gfx/leaders/SER/Portrait_SER_Dimitrije_Ljotic.png"
 			expire = "1.1.1"
@@ -2300,7 +2300,7 @@ country_event = {#youth organization
 
 	is_triggered_only = yes
 	fire_only_once = yes
-
+	
 	option = {
 		name = dhserbia.6.a
 		

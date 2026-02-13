@@ -44,7 +44,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = totalist
-					has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" }
+					has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" }
 				}
 			}
 			modifier = {
@@ -310,12 +310,12 @@ ideas = {
 				has_government = totalist
 			}
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.05
-				line_change_production_efficiency_factor = 0.05
-				consumer_goods_factor = 0.1
-				conversion_cost_mil_to_civ_factor = -0.3
-				trade_opinion_factor = 0.5
-				monthly_population = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			line_change_production_efficiency_factor = 0.05
+			consumer_goods_factor = 0.1
+			conversion_cost_mil_to_civ_factor = -0.3
+			trade_opinion_factor = 0.5
+			monthly_population = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_workers_market
@@ -327,11 +327,11 @@ ideas = {
 				has_government = totalist
 			}
 			modifier = {
-				stability_weekly_factor = 0.005
-				party_popularity_stability_factor = 0.15
+			stability_weekly_factor = 0.005
+			party_popularity_stability_factor = 0.15
 				conscription_factor = 0.05
-				surrender_limit = 0.1
-				army_morale_factor = 0.05
+			surrender_limit = 0.1
+			army_morale_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_socialist_civic_identity
@@ -345,13 +345,13 @@ ideas = {
 				has_government = syndicalist
 			}
 			modifier = {
-				surrender_limit = 0.05
-				consumer_goods_factor = -0.15
-				industrial_capacity_factory	= -0.02
-				production_factory_start_efficiency_factor = 0.3
-				production_factory_max_efficiency_factor = -0.3
-				production_factory_efficiency_gain_factor = -0.05	
-				party_popularity_stability_factor = 0.05
+			surrender_limit = 0.05
+			consumer_goods_factor = -0.15
+			industrial_capacity_factory	= -0.02
+			production_factory_start_efficiency_factor = 0.3
+			production_factory_max_efficiency_factor = -0.3
+			production_factory_efficiency_gain_factor = -0.05	
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_equal_distribution
@@ -363,12 +363,12 @@ ideas = {
 				has_government = syndicalist
 			}
 			modifier = {
-				stability_weekly_factor = 0.005
-				consumer_goods_factor = -0.16
-				surrender_limit = 0.05
-				production_factory_start_efficiency_factor = 0.3
-				production_factory_max_efficiency_factor = -0.1
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.005
+			consumer_goods_factor = -0.16
+			surrender_limit = 0.05
+			production_factory_start_efficiency_factor = 0.3
+			production_factory_max_efficiency_factor = -0.1
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_workers_coupon
@@ -380,15 +380,15 @@ ideas = {
 				has_government = syndicalist
 			}
 			modifier = {
-				minimum_training_level = -0.05
-				surrender_limit = 0.05
-				army_morale_factor = 0.05
-				max_planning = -0.1
-				political_power_gain = 0.02
-				conscription_factor = 0.02
-				out_of_supply_factor = -0.1
-				org_loss_when_moving = -0.05
-				army_core_attack_factor	= 0.05
+			minimum_training_level = -0.05
+			surrender_limit = 0.05
+			army_morale_factor = 0.05
+			max_planning = -0.1
+			political_power_gain = 0.02
+			conscription_factor = 0.02
+			out_of_supply_factor = -0.1
+			org_loss_when_moving = -0.05
+			army_core_attack_factor	= 0.05
 			}
 			removal_cost = -1
 			picture = BBR_syndie_militias
@@ -400,10 +400,10 @@ ideas = {
 				has_government = syndicalist
 			}
 			modifier = {
-				stability_factor = 0.02
-				conscription_factor = 0.02
-				research_speed_factor = 0.05
-				production_factory_max_efficiency_factor = 0.1
+			stability_factor = 0.02
+			conscription_factor = 0.02
+			research_speed_factor = 0.05
+			production_factory_max_efficiency_factor = 0.1
 			}
 			removal_cost = -1
 			picture = USA_fighting_for_america
@@ -415,9 +415,9 @@ ideas = {
 				has_government = syndicalist
 			}
 			modifier = {
-				training_time_factor = -0.01
-				military_leader_cost_factor = -0.1
-				decryption = 0.03			
+			training_time_factor = -0.01
+			military_leader_cost_factor = -0.1
+			decryption = 0.03			
 			}
 			removal_cost = -1
 			picture = BBR_internationale_help
@@ -427,13 +427,13 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_solidarity_economics_idea"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.005
-				consumer_goods_factor = -0.06
-				industry_repair_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
-				production_factory_start_efficiency_factor = -0.05
-				production_factory_max_efficiency_factor = 0.1
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.005
+			consumer_goods_factor = -0.06
+			industry_repair_factor = 0.05
+			production_speed_industrial_complex_factor = 0.05
+			production_factory_start_efficiency_factor = -0.05
+			production_factory_max_efficiency_factor = 0.1
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_solidarism
@@ -442,13 +442,13 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_solidarity_economics_idea_2"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.007
-				monthly_population = 0.03
-				consumer_goods_factor = -0.14
-				industry_repair_factor = 0.08
-				production_factory_start_efficiency_factor = -0.03
-				production_factory_max_efficiency_factor = 0.1
-				party_popularity_stability_factor = 0.1
+			stability_weekly_factor = 0.007
+			monthly_population = 0.03
+			consumer_goods_factor = -0.14
+			industry_repair_factor = 0.08
+			production_factory_start_efficiency_factor = -0.03
+			production_factory_max_efficiency_factor = 0.1
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_solidarism_2
@@ -457,15 +457,15 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_solidarity_economics_idea_3"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.01
-				monthly_population = 0.05
-				production_speed_infrastructure_factor = 0.05
-				production_speed_industrial_complex_factor = 0.08
-				consumer_goods_factor = -0.16
-				industry_repair_factor = 0.1
-				production_factory_start_efficiency_factor = -0.02
-				production_factory_max_efficiency_factor = 0.15
-				party_popularity_stability_factor = 0.15
+			stability_weekly_factor = 0.01
+			monthly_population = 0.05
+			production_speed_infrastructure_factor = 0.05
+			production_speed_industrial_complex_factor = 0.08
+			consumer_goods_factor = -0.16
+			industry_repair_factor = 0.1
+			production_factory_start_efficiency_factor = -0.02
+			production_factory_max_efficiency_factor = 0.15
+			party_popularity_stability_factor = 0.15
 			}
 			removal_cost = -1
 			picture = BBR_solidarism_3
@@ -474,17 +474,17 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_solidarity_economics_idea_4"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.012
+			stability_weekly_factor = 0.012
 				conscription_factor = 0.02
-				monthly_population = 0.1
-				research_speed_factor = 0.05
-				production_speed_infrastructure_factor = 0.05
-				production_speed_industrial_complex_factor = 0.08
-				consumer_goods_factor = -0.15
-				industry_repair_factor = 0.1
-				production_factory_start_efficiency_factor = -0.02
-				production_factory_max_efficiency_factor = 0.15
-				party_popularity_stability_factor = 0.20
+			monthly_population = 0.1
+			research_speed_factor = 0.05
+			production_speed_infrastructure_factor = 0.05
+			production_speed_industrial_complex_factor = 0.08
+			consumer_goods_factor = -0.15
+			industry_repair_factor = 0.1
+			production_factory_start_efficiency_factor = -0.02
+			production_factory_max_efficiency_factor = 0.15
+			party_popularity_stability_factor = 0.20
 			}
 			removal_cost = -1
 			picture = BBR_solidarism_4
@@ -493,10 +493,10 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_talented_tenth_idea"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.005
-				research_speed_factor = 0.05
-				party_popularity_stability_factor = 0.05
-				global_building_slots = 1
+			stability_weekly_factor = 0.005
+			research_speed_factor = 0.05
+			party_popularity_stability_factor = 0.05
+			global_building_slots = 1
 			}
 			removal_cost = -1
 			picture = BBR_talented_10th
@@ -508,12 +508,12 @@ ideas = {
 				has_government = radical_socialist
 			}
 			modifier = {
-				encryption = 0.03
-				stability_weekly_factor = 0.01
-				political_power_gain = 0.02
-				consumer_goods_factor = -0.11
-				research_speed_factor = 0.03
-				party_popularity_stability_factor = 0.05
+			encryption = 0.03
+			stability_weekly_factor = 0.01
+			political_power_gain = 0.02
+			consumer_goods_factor = -0.11
+			research_speed_factor = 0.03
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_free_thought_societies
@@ -525,13 +525,13 @@ ideas = {
 				has_government = radical_socialist
 			}
 			modifier = {
-				encryption = 0.03
-				stability_weekly_factor = 0.015
-				political_power_gain = 0.02
-				monthly_population = 0.05
-				consumer_goods_factor = -0.15
-				research_speed_factor = 0.03
-				party_popularity_stability_factor = 0.1
+			encryption = 0.03
+			stability_weekly_factor = 0.015
+			political_power_gain = 0.02
+			monthly_population = 0.05
+			consumer_goods_factor = -0.15
+			research_speed_factor = 0.03
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_free_thought_societies
@@ -543,12 +543,12 @@ ideas = {
 				has_government = radical_socialist
 			}
 			modifier = {
-				stability_weekly_factor = 0.003
-				monthly_population = -0.03
-				consumer_goods_factor = -0.15
-				research_speed_factor = 0.03
-				party_popularity_stability_factor = 0.1
-				war_stability_factor = 0.05
+			stability_weekly_factor = 0.003
+			monthly_population = -0.03
+			consumer_goods_factor = -0.15
+			research_speed_factor = 0.03
+			party_popularity_stability_factor = 0.1
+			war_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_birth_control_idea
@@ -561,12 +561,12 @@ ideas = {
 				has_government = social_democrat
 			}
 			modifier = {
-				consumer_goods_factor = 0.13
-				political_power_gain = 0.03
-				production_factory_start_efficiency_factor = 0.1
-				production_factory_efficiency_gain_factor = -0.03
-				production_factory_max_efficiency_factor = -0.1
-				party_popularity_stability_factor = -0.05
+			consumer_goods_factor = 0.13
+			political_power_gain = 0.03
+			production_factory_start_efficiency_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.03
+			production_factory_max_efficiency_factor = -0.1
+			party_popularity_stability_factor = -0.05
 			}
 			removal_cost = -1
 			picture = BBR_freedom_budget
@@ -578,15 +578,15 @@ ideas = {
 				has_government = social_democrat
 			}
 			modifier = {
-				consumer_goods_factor = 0.11
-				political_power_gain = 0.03
-				monthly_population = 0.02
-				production_factory_start_efficiency_factor = 0.15
-				production_factory_efficiency_gain_factor = -0.05
-				production_factory_max_efficiency_factor = -0.1
-				production_speed_infrastructure_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
-				party_popularity_stability_factor = 0.05
+			consumer_goods_factor = 0.11
+			political_power_gain = 0.03
+			monthly_population = 0.02
+			production_factory_start_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			production_speed_infrastructure_factor = 0.05
+			production_speed_industrial_complex_factor = 0.05
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_freedom_budget
@@ -598,16 +598,16 @@ ideas = {
 				has_government = social_democrat
 			}
 			modifier = {
-				consumer_goods_factor = -0.1
-				political_power_gain = 0.04
-				monthly_population = 0.05
+			consumer_goods_factor = -0.1
+			political_power_gain = 0.04
+			monthly_population = 0.05
 				conscription_factor = 0.01
-				production_factory_start_efficiency_factor = 0.15
-				production_factory_efficiency_gain_factor = -0.04
-				production_factory_max_efficiency_factor = -0.1
-				production_speed_infrastructure_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
-				party_popularity_stability_factor = 0.1
+			production_factory_start_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = -0.04
+			production_factory_max_efficiency_factor = -0.1
+			production_speed_infrastructure_factor = 0.05
+			production_speed_industrial_complex_factor = 0.05
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_freedom_budget
@@ -619,15 +619,15 @@ ideas = {
 				has_government = social_democrat
 			}
 			modifier = {
-				consumer_goods_factor = -0.14
-				political_power_gain = 0.05
-				monthly_population = 0.06
+			consumer_goods_factor = -0.14
+			political_power_gain = 0.05
+			monthly_population = 0.06
 				conscription_factor = 0.01
-				production_factory_start_efficiency_factor = 0.2
-				production_factory_efficiency_gain_factor = 0.03
-				production_factory_max_efficiency_factor = -0.05
-				production_speed_buildings_factor = 0.1
-				party_popularity_stability_factor = 0.15
+			production_factory_start_efficiency_factor = 0.2
+			production_factory_efficiency_gain_factor = 0.03
+			production_factory_max_efficiency_factor = -0.05
+			production_speed_buildings_factor = 0.1
+			party_popularity_stability_factor = 0.15
 			}
 			removal_cost = -1
 			picture = BBR_freedom_budget
@@ -639,15 +639,15 @@ ideas = {
 				has_government = social_democrat
 			}
 			modifier = {
-				consumer_goods_factor = -0.14
-				political_power_gain = 0.03
-				monthly_population = 0.08
+			consumer_goods_factor = -0.14
+			political_power_gain = 0.03
+			monthly_population = 0.08
 				conscription_factor = 0.03
-				production_factory_start_efficiency_factor = 0.2
-				production_factory_efficiency_gain_factor = 0.05
-				production_factory_max_efficiency_factor = -0.02
-				production_speed_buildings_factor = 0.1
-				party_popularity_stability_factor = 0.2
+			production_factory_start_efficiency_factor = 0.2
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = -0.02
+			production_speed_buildings_factor = 0.1
+			party_popularity_stability_factor = 0.2
 			}
 			removal_cost = -1
 			picture = BBR_freedom_budget
@@ -656,13 +656,13 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_living_wage_idea"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.06
+			consumer_goods_factor = -0.06
 				conscription_factor = 0.01
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = -0.02
-				production_speed_buildings_factor = -0.02
-				party_popularity_stability_factor = 0.05
-				surrender_limit	= 0.05
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = -0.02
+			production_speed_buildings_factor = -0.02
+			party_popularity_stability_factor = 0.05
+			surrender_limit	= 0.05
 			}
 			removal_cost = -1
 			picture = BBR_wage_floors
@@ -671,14 +671,14 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_living_wage_idea_2"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.1
-				research_speed_factor = 0.01
+			consumer_goods_factor = -0.1
+			research_speed_factor = 0.01
 				conscription_factor = 0.02
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = -0.01
-				production_speed_buildings_factor = -0.01
-				party_popularity_stability_factor = 0.1
-				surrender_limit	= 0.1
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = -0.01
+			production_speed_buildings_factor = -0.01
+			party_popularity_stability_factor = 0.1
+			surrender_limit	= 0.1
 			}
 			removal_cost = -1
 			picture = BBR_wage_floors
@@ -687,13 +687,13 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_civil_rights_act_idea"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.06
-				research_speed_factor = 0.02
-				stability_weekly_factor = 0.005
-				conscription_factor = 0.01
-				production_factory_efficiency_gain_factor = 0.02
-				party_popularity_stability_factor = -0.02
-				surrender_limit	= 0.1
+			consumer_goods_factor = -0.06
+			research_speed_factor = 0.02
+			stability_weekly_factor = 0.005
+			conscription_factor = 0.01
+			production_factory_efficiency_gain_factor = 0.02
+			party_popularity_stability_factor = -0.02
+			surrender_limit	= 0.1
 			}
 			removal_cost = -1
 			picture = BBR_civil_rights_act_idea
@@ -703,10 +703,10 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_expand_tuskeegee_idea"}
 			allowed = { always = no }
 			modifier = {
-				line_change_production_efficiency_factor = 0.1
-				research_speed_factor = 0.03
-				production_factory_efficiency_gain_factor = 0.02
-				production_factory_max_efficiency_factor = 0.02
+			line_change_production_efficiency_factor = 0.1
+			research_speed_factor = 0.03
+			production_factory_efficiency_gain_factor = 0.02
+			production_factory_max_efficiency_factor = 0.02
 			}
 			removal_cost = -1
 			picture = BBR_expand_tuskegee
@@ -715,10 +715,10 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_bookerite_education"}
 			allowed = { always = no }
 			modifier = {
-				line_change_production_efficiency_factor = 0.12
-				research_speed_factor = 0.06
-				production_factory_efficiency_gain_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
+			line_change_production_efficiency_factor = 0.12
+			research_speed_factor = 0.06
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_bookerite_education_idea
@@ -730,12 +730,12 @@ ideas = {
 				has_government = market_liberal
 			}
 			modifier = {
-				stability_weekly_factor = 0.001
-				political_power_gain = 0.05
+			stability_weekly_factor = 0.001
+			political_power_gain = 0.05
 				conscription_factor = 0.02
-				party_popularity_stability_factor = 0.2
-				production_speed_buildings_factor = -0.05
-				consumer_goods_factor = 0.11
+			party_popularity_stability_factor = 0.2
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = 0.11
 			}
 			removal_cost = -1
 			picture = BBR_new_republican_machine
@@ -744,11 +744,11 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_nnbl_idea"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.14
-				political_power_gain = -0.03
+			consumer_goods_factor = -0.14
+			political_power_gain = -0.03
 				local_resources_factor = 0.01
-				production_factory_efficiency_gain_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_nnbl_1
@@ -757,14 +757,14 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_nnbl_idea_2"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.17
-				stability_weekly_factor = 0.002
-				political_power_gain = -0.03
+			consumer_goods_factor = -0.17
+			stability_weekly_factor = 0.002
+			political_power_gain = -0.03
 				local_resources_factor = 0.01
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.06
-				production_factory_max_efficiency_factor = 0.06
-				party_popularity_stability_factor = 0.05
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.06
+			production_factory_max_efficiency_factor = 0.06
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_nnbl_2
@@ -773,14 +773,14 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_nnbl_idea_3"}
 			allowed = { always = no }
 			modifier = {
-				consumer_goods_factor = -0.3
-				stability_weekly_factor = 0.005
-				political_power_gain = -0.03
+			consumer_goods_factor = -0.3
+			stability_weekly_factor = 0.005
+			political_power_gain = -0.03
 				local_resources_factor = 0.03
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
-				party_popularity_stability_factor = 0.1
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_nnbl_3
@@ -792,12 +792,12 @@ ideas = {
 				has_government = market_liberal
 			}
 			modifier = {
-				consumer_goods_factor = -0.06
-				industrial_capacity_factory = 0.02
-				industrial_capacity_dockyard = 0.02
-				production_factory_efficiency_gain_factor = 0.02
-				production_lack_of_resource_penalty_factor = -0.01
-				trade_opinion_factor = 0.2
+			consumer_goods_factor = -0.06
+			industrial_capacity_factory = 0.02
+			industrial_capacity_dockyard = 0.02
+			production_factory_efficiency_gain_factor = 0.02
+			production_lack_of_resource_penalty_factor = -0.01
+			trade_opinion_factor = 0.2
 			}
 			removal_cost = -1
 			picture = generic_trade
@@ -811,11 +811,11 @@ ideas = {
 				has_government = social_liberal
 			}
 			modifier = {
-				political_power_gain = 0.02
-				consumer_goods_factor = 0.11
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = -0.02
-				party_popularity_stability_factor = 0.05
+			political_power_gain = 0.02
+			consumer_goods_factor = 0.11
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = -0.02
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_fairer_taxes
@@ -827,11 +827,11 @@ ideas = {
 				has_government = social_liberal
 			}
 			modifier = {
-				stability_weekly_factor = 0.002
-				political_power_gain = 0.03
-				production_factory_start_efficiency_factor = 0.08
-				production_factory_efficiency_gain_factor = -0.02
-				party_popularity_stability_factor = 0.1
+			stability_weekly_factor = 0.002
+			political_power_gain = 0.03
+			production_factory_start_efficiency_factor = 0.08
+			production_factory_efficiency_gain_factor = -0.02
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_wage_floors
@@ -840,11 +840,11 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_minor_farm_aid"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.001
-				monthly_population = 0.08
-				min_export = -0.01
-				consumer_goods_factor = 0.11
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.001
+			monthly_population = 0.08
+			min_export = -0.01
+			consumer_goods_factor = 0.11
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_rural_aid
@@ -853,9 +853,9 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_elderly_support_idea"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.003
-				consumer_goods_factor = -0.06
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.003
+			consumer_goods_factor = -0.06
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_pensions
@@ -864,13 +864,13 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_vet_support_idea"}
 			allowed = { always = no }
 			modifier = {
-				stability_weekly_factor = 0.001
-				political_power_gain = 0.01
-				consumer_goods_factor = -0.11
-				army_morale_factor	= 0.05
-				conscription_factor = 0.01
-				production_factory_efficiency_gain_factor = -0.01
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.001
+			political_power_gain = 0.01
+			consumer_goods_factor = -0.11
+			army_morale_factor	= 0.05
+			conscription_factor = 0.01
+			production_factory_efficiency_gain_factor = -0.01
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_veteran_support
@@ -884,15 +884,15 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				stability_weekly_factor = 0.003
-				consumer_goods_factor = -0.06
-				research_speed_factor = -0.05
-				encryption = 0.05
-				political_power_gain = -0.02
-				line_change_production_efficiency_factor = 0.1
-				production_factory_max_efficiency_factor = -0.05
-				production_factory_efficiency_gain_factor = -0.05
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.003
+			consumer_goods_factor = -0.06
+			research_speed_factor = -0.05
+			encryption = 0.05
+			political_power_gain = -0.02
+			line_change_production_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.05
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_cash_only_exchange_idea
@@ -904,15 +904,15 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				stability_weekly_factor = 0.006
-				consumer_goods_factor = -0.15
-				research_speed_factor = -0.03
-				encryption = 0.05
-				political_power_gain = -0.01
-				line_change_production_efficiency_factor = 0.1
-				production_factory_max_efficiency_factor = -0.04
-				production_factory_efficiency_gain_factor = -0.03
-				party_popularity_stability_factor = 0.1
+			stability_weekly_factor = 0.006
+			consumer_goods_factor = -0.15
+			research_speed_factor = -0.03
+			encryption = 0.05
+			political_power_gain = -0.01
+			line_change_production_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = -0.04
+			production_factory_efficiency_gain_factor = -0.03
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_economic_independence
@@ -924,15 +924,15 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				stability_weekly_factor = 0.01
-				consumer_goods_factor = -0.18
-				research_speed_factor = -0.02
-				monthly_population = 0.05
-				encryption = 0.05
-				line_change_production_efficiency_factor = 0.1
-				production_factory_max_efficiency_factor = -0.03
-				production_factory_efficiency_gain_factor = -0.02
-				party_popularity_stability_factor = 0.2
+			stability_weekly_factor = 0.01
+			consumer_goods_factor = -0.18
+			research_speed_factor = -0.02
+			monthly_population = 0.05
+			encryption = 0.05
+			line_change_production_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = -0.03
+			production_factory_efficiency_gain_factor = -0.02
+			party_popularity_stability_factor = 0.2
 			}
 			removal_cost = -1
 			picture = BBR_economic_independence_2
@@ -944,11 +944,11 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				stability_weekly_factor = 0.001
-				political_power_gain = 0.01
-				consumer_goods_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.02
-				party_popularity_stability_factor = 0.2
+			stability_weekly_factor = 0.001
+			political_power_gain = 0.01
+			consumer_goods_factor = -0.1
+			production_factory_efficiency_gain_factor = -0.02
+			party_popularity_stability_factor = 0.2
 			}
 			removal_cost = -1
 			picture = BBR_modesty_codes
@@ -960,13 +960,13 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				stability_weekly_factor = 0.002
-				political_power_gain = 0.05
-				supply_consumption_factor = -0.05
-				consumer_goods_factor = -0.15
-				local_resources_factor = 0.02
-				production_factory_efficiency_gain_factor = -0.01
-				party_popularity_stability_factor = 0.2
+			stability_weekly_factor = 0.002
+			political_power_gain = 0.05
+			supply_consumption_factor = -0.05
+			consumer_goods_factor = -0.15
+			local_resources_factor = 0.02
+			production_factory_efficiency_gain_factor = -0.01
+			party_popularity_stability_factor = 0.2
 			}
 			removal_cost = -1
 			picture = BBR_modesty_codes
@@ -978,14 +978,14 @@ ideas = {
 				has_government = social_conservative
 			}
 			modifier = {
-				conscription_factor = -0.02
-				decryption = 0.05
-				stability_weekly_factor = 0.001
-				political_power_gain = 0.02
-				justify_war_goal_time = 1
-				research_sharing_per_country_bonus = 0.1
-				trade_opinion_factor = 0.8
-				offensive_war_stability_factor = -0.05
+			conscription_factor = -0.02
+			decryption = 0.05
+			stability_weekly_factor = 0.001
+			political_power_gain = 0.02
+			justify_war_goal_time = 1
+			research_sharing_per_country_bonus = 0.1
+			trade_opinion_factor = 0.8
+			offensive_war_stability_factor = -0.05
 			}
 			removal_cost = -1
 			picture = BBR_international_peace_movement
@@ -994,10 +994,10 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_interracial_faith"}
 			allowed = { always = no }
 			modifier = {
-				monthly_population = 0.05
-				stability_weekly_factor = 0.003
-				political_power_gain = 0.03
-				party_popularity_stability_factor = 0.05
+			monthly_population = 0.05
+			stability_weekly_factor = 0.003
+			political_power_gain = 0.03
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_interracial_faith
@@ -1006,14 +1006,14 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BBR_interracial_faith_2"}
 			allowed = { always = no }
 			modifier = {
-				monthly_population = 0.08
-				stability_weekly_factor = 0.005
-				political_power_gain = 0.05
-				party_popularity_stability_factor = 0.1
-				defensive_war_stability_factor = 0.05
-				offensive_war_stability_factor = -0.05
-				mobilization_speed = 0.1
-				weekly_manpower	= 20
+			monthly_population = 0.08
+			stability_weekly_factor = 0.005
+			political_power_gain = 0.05
+			party_popularity_stability_factor = 0.1
+			defensive_war_stability_factor = 0.05
+			offensive_war_stability_factor = -0.05
+			mobilization_speed = 0.1
+			weekly_manpower	= 20
 			}
 			removal_cost = -1
 			picture = BBR_interracial_faith
@@ -1027,12 +1027,12 @@ ideas = {
 				has_government = authoritarian_democrat
 			}
 			modifier = {
-				stability_weekly_factor = 0.002
-				industry_free_repair_factor	= 0.05
-				line_change_production_efficiency_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = -0.03
-				party_popularity_stability_factor = 0.05
+			stability_weekly_factor = 0.002
+			industry_free_repair_factor	= 0.05
+			line_change_production_efficiency_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = -0.03
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_workers_market
@@ -1044,13 +1044,13 @@ ideas = {
 				has_government = authoritarian_democrat
 			}
 			modifier = {
-				stability_weekly_factor = 0.002
+			stability_weekly_factor = 0.002
 				conscription_factor = 0.05
 				local_resources_factor = 0.05
-				consumer_goods_factor = 0.11
-				monthly_population = 0.05
-				production_factory_max_efficiency_factor = 0.05
-				party_popularity_stability_factor = 0.05
+			consumer_goods_factor = 0.11
+			monthly_population = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_rural_aid
@@ -1115,12 +1115,12 @@ ideas = {
 				has_government = authoritarian_democrat
 			}
 			modifier = {
-				stability_weekly_factor = 0.002
-				political_power_gain = -0.02
-				consumer_goods_factor = -0.15
-				line_change_production_efficiency_factor = 0.03
-				production_factory_max_efficiency_factor = 0.03
-				production_factory_efficiency_gain_factor = 0.03
+			stability_weekly_factor = 0.002
+			political_power_gain = -0.02
+			consumer_goods_factor = -0.15
+			line_change_production_efficiency_factor = 0.03
+			production_factory_max_efficiency_factor = 0.03
+			production_factory_efficiency_gain_factor = 0.03
 			}
 			removal_cost = -1
 			picture = BBR_equal_opportunity_economy
@@ -1132,16 +1132,16 @@ ideas = {
 				has_government = authoritarian_democrat
 			}
 			modifier = {
-				stability_weekly_factor = 0.005
-				consumer_goods_factor = -0.14
-				research_speed_factor = 0.02
-				line_change_production_efficiency_factor = 0.05
+			stability_weekly_factor = 0.005
+			consumer_goods_factor = -0.14
+			research_speed_factor = 0.02
+			line_change_production_efficiency_factor = 0.05
 				conscription_factor = 0.02
-				production_speed_buildings_factor = 0.05
-				production_factory_start_efficiency_factor = 0.02
-				production_factory_max_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.03
-				party_popularity_stability_factor = 0.05
+			production_speed_buildings_factor = 0.05
+			production_factory_start_efficiency_factor = 0.02
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.03
+			party_popularity_stability_factor = 0.05
 			}
 			removal_cost = -1
 			picture = BBR_paternalistic_economy_idea
@@ -1153,16 +1153,16 @@ ideas = {
 				has_government = authoritarian_democrat
 			}
 			modifier = {
-				stability_weekly_factor = 0.01
-				consumer_goods_factor = -0.1
-				research_speed_factor = 0.04
-				line_change_production_efficiency_factor = 0.05
+			stability_weekly_factor = 0.01
+			consumer_goods_factor = -0.1
+			research_speed_factor = 0.04
+			line_change_production_efficiency_factor = 0.05
 				conscription_factor = 0.05
-				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
-				production_factory_start_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.03
-				party_popularity_stability_factor = 0.1
+			production_speed_buildings_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_start_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.03
+			party_popularity_stability_factor = 0.1
 			}
 			removal_cost = -1
 			picture = BBR_rooseveltian_economy
@@ -1218,7 +1218,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" }
+					has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" }
 				}
 			}
 			modifier = {
@@ -1280,7 +1280,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				training_time_army_factor = -0.05
@@ -1301,7 +1301,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				consumer_goods_factor = -0.15
@@ -1322,7 +1322,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				research_speed_factor = 0.02
@@ -1342,7 +1342,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				research_speed_factor = 0.02
@@ -1363,7 +1363,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				political_power_gain = 0.03
@@ -1382,7 +1382,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				political_power_gain = 0.03
@@ -1398,7 +1398,7 @@ ideas = {
 			allowed = { always = no }
 			available = {
 				has_government = national_populist
-				NOT = { has_country_leader = { ruling_only = yes name = "Wentworth Arthur Matthew" } }
+				NOT = { has_country_leader = { ruling_only = yes name = "Вентворт Артур Мэтью" } }
 			}
 			modifier = {
 				political_power_gain = 0.15
@@ -1643,7 +1643,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.15
 				conscription_factor = 0.1
-				political_power_factor = 0.2
+				political_power_factor = 0.2			
 			}
 			removal_cost = -1
 			picture = BBR_african_nat
@@ -1722,7 +1722,7 @@ ideas = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
-			}
+				}
 			removal_cost = -1
 			picture = BBR_patterson_motorization_spirit
 		}
@@ -1939,7 +1939,7 @@ ideas = {
 				resistance_growth_on_our_occupied_states = 0.3
 				resistance_damage_to_garrison_on_our_occupied_states = 0.3
 				operative_slot = 1
-			}
+				}
 			removal_cost = -1
 			picture = BBR_page_plan_spirit
 		}
@@ -1984,14 +1984,14 @@ ideas = {
 			modifier = {
 				army_morale_factor = 0.10
 				coordination_bonus = 0.1
-			}
-			equipment_bonus = {
+				}
+				equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = 0.05
 					soft_attack = 0.10
 					instant = yes
+					}
 				}
-			}
 			removal_cost = -1
 			picture = BBR_squad_spirit
 		}
@@ -2006,14 +2006,14 @@ ideas = {
 				initiative_factor = 0.20
 				army_speed_factor = 0.05
 				army_attack_speed_factor = 0.05
-			}
-			equipment_bonus = {
+				}
+				equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = 0.05
 					soft_attack = 0.10
 					instant = yes
+					}
 				}
-			}
 			removal_cost = -1
 			picture = BBR_squad_spirit
 		}
@@ -2093,7 +2093,7 @@ ideas = {
 				production_speed_naval_base_factor = 0.10
 				bunker_max_level_terrain_limit = 3
 				coastal_bunker_max_level_terrain_limit = 3
-			}
+				}
 			removal_cost = -1
 			picture = BBR_heroes_spirit
 		}

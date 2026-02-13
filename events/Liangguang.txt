@@ -189,9 +189,9 @@ country_event = {#GXC
 			limit = { 
 				NOT = { has_non_aggression_pact_with = HNN }
 			}
-			diplomatic_relation = {
-				country = HNN
-				relation = non_aggression_pact
+		diplomatic_relation = {
+			country = HNN
+			relation = non_aggression_pact
 			}
 		}
 	}
@@ -213,9 +213,9 @@ country_event = {#HNN
 			limit = { 
 				NOT = { has_non_aggression_pact_with = GXC }
 			}
-			diplomatic_relation = {
-				country = GXC
-				relation = non_aggression_pact
+		diplomatic_relation = {
+			country = GXC
+			relation = non_aggression_pact
 			}
 		}
 	}
@@ -538,7 +538,7 @@ country_event = {#Fighting illegal gambling (Chen is very big on this)
 		}
 	}
 }
-country_event = {#Chen questioned as 2ACW rages
+country_event = {#Chen questioned as 2.А-ГВ rages
 	id = lng.17
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lng.17" }
 	title = lng.17.t
@@ -923,7 +923,7 @@ country_event = {#Lu Rongting dies
 	}
 }
 ###We interrupt this program to bring you the New Guangxi Clique's invasion of Guangxi
-country_event = {#Li Zongren occupies Baise
+country_event = {#Ли Цзунжэнь occupies Baise
 	id = lnggxwar.1
 	title = lnggxwar.1.t
 	desc = lnggxwar.1.d
@@ -1032,7 +1032,7 @@ country_event = {#NGxC takes Wuzhou, tough battle at Baise
 		}
 	}
 
-	option = {#Reinforce Ma Ji
+	option = {#Reinforce Ма Цзы
 		name = lnggxwar.2.a
 		ai_chance = {
 			base = 1
@@ -1073,7 +1073,7 @@ country_event = {#NGxC takes Wuzhou, tough battle at Baise
 		#tt
 	}
 }
-country_event = {#Li Zongren is forced out, Old Guangxi Clique wins
+country_event = {#Ли Цзунжэнь is forced out, Old Guangxi Clique wins
 	id = lnggxwar.3
 	title = lnggxwar.3.t
 	desc = lnggxwar.3.d
@@ -1107,7 +1107,7 @@ country_event = {#Li Zongren is forced out, Old Guangxi Clique wins
 		GXC_new_guangxi_clique_flees = yes
 	}
 }
-country_event = {#Li Zongren easily defeats split forces
+country_event = {#Ли Цзунжэнь easily defeats split forces
 	id = lnggxwar.4
 	title = lnggxwar.4.t
 	desc = lnggxwar.4.d
@@ -1128,11 +1128,11 @@ country_event = {#Li Zongren easily defeats split forces
 		}
 	}
 
-	option = {#Li Zongren marches on Nanning
+	option = {#Ли Цзунжэнь marches on Nanning
 		name = lnggxwar.4.a
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes  } }
+				limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes  } }
 				country_event = { id = lngcivilwar.21 days = 2 }
 			}
 			else = {
@@ -1191,7 +1191,7 @@ country_event = {#Diversion! Small force defeated at Wuzhou, Nanning falls
 				set_demilitarized_zone = yes
 			}
 			if = {
-				limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes  } }
+				limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes  } }
 				country_event = { id = lngcivilwar.21 days = 2 }
 			}
 			else = {
@@ -1224,11 +1224,11 @@ country_event = {#Attack fails; Old Guangxi Clique disintegrates
 		}
 	}
 
-	option = {#Li Zongren secures Guangxi
+	option = {#Ли Цзунжэнь secures Guangxi
 		name = lnggxwar.6.a
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes  } }
+				limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes  } }
 				country_event = { id = lngcivilwar.21 days = 2 }
 			}
 			else = {
@@ -1265,11 +1265,11 @@ country_event = {#Turns out that logistics is a thing and the Guangxi Army is co
 		}
 	}
 
-	option = {#Li Zongren secures Guangxi here too
+	option = {#Ли Цзунжэнь secures Guangxi here too
 		name = lnggxwar.7.a
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes  } }
+				limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes  } }
 				country_event = { id = lngcivilwar.21 days = 2 }
 			}
 			else = {
@@ -1365,11 +1365,11 @@ country_event = {#Attack fails on fortified Wuzhou; bloody battle in Nanning lea
 		}
 	}
 
-	option = {#Li Zongren wins- barely
+	option = {#Ли Цзунжэнь wins- barely
 		name = lnggxwar.9.a
 		hidden_effect = {
 			if = {
-				limit = { has_country_leader = { name = "Chen Mingshu" ruling_only = yes  } }
+				limit = { has_country_leader = { name = "Чэнь Миншу" ruling_only = yes  } }
 				country_event = { id = lngcivilwar.21 days = 2 }
 			}
 			else = {
@@ -1388,7 +1388,7 @@ country_event = {#Attack fails on fortified Wuzhou; bloody battle in Nanning lea
 		GXC_old_guangxi_clique_flees = yes
 	}
 }
-country_event = {#Li Zongren is defeated and retreats
+country_event = {#Ли Цзунжэнь is defeated and retreats
 	id = lnggxwar.10
 	title = lnggxwar.10.t
 	desc = lnggxwar.10.d
@@ -1433,7 +1433,7 @@ country_event = {#Li Zongren is defeated and retreats
 		#tt
 	}
 }
-country_event = {#Li Zongren is forced out, decisive Old Guangxi Clique victory
+country_event = {#Ли Цзунжэнь is forced out, decisive Old Guangxi Clique victory
 	id = lnggxwar.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lnggxwar.11" }
 	title = lnggxwar.11.t
@@ -1450,7 +1450,7 @@ country_event = {#Li Zongren is forced out, decisive Old Guangxi Clique victory
 		GXC_new_guangxi_clique_flees = yes
 	}
 }
-country_event = {#Chen Mingshu plots to coup
+country_event = {#Чэнь Миншу plots to coup
 	id = lnggxwar.12
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lnggxwar.12" }
 	title = lnggxwar.12.t
@@ -1516,7 +1516,7 @@ country_event = {#Aftermath of KMT coup
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Chen Qiyou"
+			name = "Чэнь Цюйоу"
 			desc = "POLITICS_GXC_CHEN_QIYOU_DESC"
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 			expire = "1.1.1"
@@ -1528,7 +1528,7 @@ country_event = {#Aftermath of KMT coup
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Chen Mingshu"
+				name = "Чэнь Миншу"
 				desc = "POLITICS_GXC_CHEN_MINGSHU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Mingshu.png"
 				expire = "1.1.1"
@@ -1633,7 +1633,7 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 		}
 	}
 
-	option = {#Chen Mingshu
+	option = {#Чэнь Миншу
 		name = lngcivilwar.4.a
 		ai_chance = {
 			base = 10
@@ -1647,12 +1647,12 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 				}
 			}
 		}
-		# Chen Jiongming died and his party collapsed.
+		# Чэнь Цзюнмин died and his party collapsed.
 		effect_tooltip = { 
 			kill_ideology_leader = social_democrat 
 			kill_ideology_leader = social_liberal
 		}
-		# Chen Jiongming died and his party collapsed.
+		# Чэнь Цзюнмин died and his party collapsed.
 		if = {
 			limit = { has_unit_leader = 1116 }
 			random_unit_leader = {
@@ -1661,7 +1661,7 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 			}
 		}
 		create_country_leader = {
-			name = "Chen Qiyou"
+			name = "Чэнь Цюйоу"
 			desc = "POLITICS_GXC_CHEN_QIYOU_DESC"
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 			expire = "1.1.1"
@@ -1696,7 +1696,7 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 		}
 	}
 
-	option = {#Chen Lianbo
+	option = {#Чэнь Ляньбо
 		name = lngcivilwar.4.b
 		ai_chance = {
 			base = 10
@@ -1705,12 +1705,12 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 				has_game_rule = { rule = GXC_path option = GXC_PATH_PATAUT_RADSOC }
 			}
 		}
-		# Chen Jiongming died and his party collapsed.
+		# Чэнь Цзюнмин died and his party collapsed.
 		effect_tooltip = { 
 			kill_ideology_leader = social_democrat 
 			kill_ideology_leader = social_liberal
 		}
-		# Chen Jiongming died and his party collapsed.
+		# Чэнь Цзюнмин died and his party collapsed.
 		if = {
 			limit = { has_unit_leader = 1116 }
 			random_unit_leader = {
@@ -1719,7 +1719,7 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 			}
 		}
 		create_country_leader = {
-			name = "Chen Qiyou"
+			name = "Чэнь Цюйоу"
 			desc = "POLITICS_GXC_CHEN_QIYOU_DESC"
 			picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Qiyou.png"
 			expire = "1.1.1"
@@ -1729,7 +1729,7 @@ country_event = {#Chen gunned down; which Chen becomes the new Big Chen?
 		add_stability = -0.50
 		hidden_effect = {
 			create_country_leader = {
-				name = "Chen Lianbo"
+				name = "Чэнь Ляньбо"
 				desc = "POLITICS_GXC_CHEN_LIANBO_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Lianbo.png"
 				expire = "1.1.1"
@@ -1818,7 +1818,7 @@ country_event = {#Guangxi-Guangdong Split
 		setup_rebel_guangdong = yes
 	}
 }
-country_event = {#GXC victory (Ma Ji)
+country_event = {#GXC victory (Ма Цзы)
 	id = lngcivilwar.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngcivilwar.13" }
 	title = lngcivilwar.13.t
@@ -1847,7 +1847,7 @@ country_event = {#GXC victory (Ma Ji)
 		set_global_flag = GXC_civil_war_over
 	}
 }
-country_event = {#GXC victory (Chen Lianbo)
+country_event = {#GXC victory (Чэнь Ляньбо)
 	id = lngcivilwar.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngcivilwar.14" }
 	title = lngcivilwar.14.t
@@ -1877,7 +1877,7 @@ country_event = {#GXC victory (Chen Lianbo)
 		set_merchant_ministers = yes
 	}
 }
-country_event = {#GXC victory (Chen Mingshu)
+country_event = {#GXC victory (Чэнь Миншу)
 	id = lngcivilwar.15
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngcivilwar.15" }
 	title = lngcivilwar.15.t
@@ -1903,7 +1903,7 @@ country_event = {#GXC victory (Chen Mingshu)
 		set_global_flag = GXC_civil_war_over
 	}
 }
-country_event = {#GXC victory (Chen Jiongming)
+country_event = {#GXC victory (Чэнь Цзюнмин)
 	id = lngcivilwar.16
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngcivilwar.16" }
 	title = lngcivilwar.16.t
@@ -1915,7 +1915,7 @@ country_event = {#GXC victory (Chen Jiongming)
 	trigger = {
 		original_tag = GXC
 		has_civil_war = no
-		has_country_leader = { name = "Chen Jiongming" ruling_only = yes }
+		has_country_leader = { name = "Чэнь Цзюнмин" ruling_only = yes }
 		NOT = { has_country_flag = GXC_guangdong_victory }
 	}
 
@@ -2075,7 +2075,7 @@ country_event = {#Ma and Lu flee to other clique (Zhili first, then Shandong, th
 	}
 }
 
-country_event = {#GXC victory (Li Zongren)
+country_event = {#GXC victory (Ли Цзунжэнь)
 	id = lngcivilwar.20
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngcivilwar.20" }
 	title = lngcivilwar.20.t
@@ -2145,7 +2145,7 @@ country_event = {#KMT controls both provinces
 		}
 	}
 
-	option = {#Choose Chen Mingshu
+	option = {#Choose Чэнь Миншу
 		name = lngcivilwar.21.a
 		ai_chance = {
 			base = 10
@@ -2170,7 +2170,7 @@ country_event = {#KMT controls both provinces
 		}
 		hidden_effect = {
 			create_country_leader = {
-				name = "Chen Mingshu"
+				name = "Чэнь Миншу"
 				desc = "POLITICS_GXC_CHEN_MINGSHU_DESC"
 				picture = "gfx/leaders/GXC/Portrait_GXC_Chen_Mingshu.png"
 				expire = "1.1.1"
@@ -2184,7 +2184,7 @@ country_event = {#KMT controls both provinces
 			set_ppp_ministers = yes
 		}
 	}
-	option = {#Choose Li Zongren
+	option = {#Choose Ли Цзунжэнь
 		name = lngcivilwar.21.b
 		ai_chance = {
 			base = 10
@@ -2196,7 +2196,7 @@ country_event = {#KMT controls both provinces
 		custom_effect_tooltip = GXC_reintegrate_gx_army
 		set_country_flag = GXC_KMT_takeover		
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
@@ -2254,7 +2254,7 @@ country_event = {#YUN: NGxC clique returns to NRA YUN
 	}
 }
 
-### Ma Ji's border shenanigans
+### Ма Цзы's border shenanigans
 country_event = {#Raid GEA
 	id = lngraids.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngraids.1" }
@@ -3079,7 +3079,7 @@ country_event = {#FROM submits
 		}
 	}
 }
-country_event = {#Li Zongren Proclaims Republic 2
+country_event = {#Ли Цзунжэнь Proclaims Republic 2
 	id = lngkmt.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event lngkmt.4" }
 	title = lngkmt.4.t
@@ -3149,13 +3149,13 @@ country_event = {#appointing a premier (a very meaningless event)
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {#Sun Fo
+	option = {#Сунь Фо
 		name = lngkmt.7.a
 		add_stability = 0.10
 		remove_ideas_with_trait = head_of_government
 		add_ideas = CHI_Sun_Fo_hog_sli
 	}
-	option = {#Zhu Peide
+	option = {#Чжу Пэйдэ
 		name = lngkmt.7.b
 		add_war_support = 0.10
 		remove_ideas_with_trait = head_of_government
@@ -3593,8 +3593,8 @@ country_event = {
 			every_unit_leader = {
 				limit = {
 					OR = {
-						has_id = 2203 # Xue Yue
-						has_id = 2204 # Zhang Fakui
+						has_id = 2203 # Сюэ Юэ
+						has_id = 2204 # Чжан Факуй
 					}
 				}
 				set_nationality = ROOT
@@ -3642,7 +3642,7 @@ country_event = { #The Ratification of the Constitution
 				has_unit_leader = 3003
 			}			
 			create_country_leader = {
-				name = "Li Zongren"
+				name = "Ли Цзунжэнь"
 				desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 				picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 				expire = "1.1.1"
@@ -3658,7 +3658,7 @@ country_event = { #The Ratification of the Constitution
 				popularity = 0.15
 			}
 			create_country_leader = {
-				name = "Chen Guofu"
+				name = "Чэнь Гофу"
 				desc = "POLITICS_YUNNAN_CHEN_GUOFU_DESC"
 				picture = "gfx/leaders/YUN/Portrait_YUN_Chen_Guofu.png"
 				expire = "1.1.1"
@@ -3690,7 +3690,7 @@ country_event = { #otl KMT larp - host the Conference
 	option = {
 		name = lngkmt.50.a		
 		create_country_leader = {
-			name = "Wang Jingwei"
+			name = "Ван Цзинвэй"
 			desc = "POLITICS_CHI_WANG_JINGWEI_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei_KX.png"
 			expire = "1.1.1"
@@ -3698,21 +3698,21 @@ country_event = { #otl KMT larp - host the Conference
 			traits = { CHI_exiled_chairman }
 		}
 		create_country_leader = {
-			name = "Song Qingling"
+			name = "Сун Цинлин"
 			desc = "POLITICS_CHI_SONG_QINGLING_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Song_Qingling.png"
 			expire = "1.1.1"
 			ideology = socdem_tridemism_subtype
 		}
 		create_country_leader = {
-			name = "Sun Fo"
+			name = "Сунь Фо"
 			desc = "POLITICS_CHI_SUN_FO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Sun_Fo.png"
 			expire = "1.1.1"
 			ideology = soclib_tridemism_subtype
 		}
 		create_country_leader = {
-			name = "The Four Elders"
+			name = "Четверо старейшин"
 			expire = "1.1.1"
 			ideology = anarcho_syndicalist_subtype
 		}
@@ -3726,33 +3726,33 @@ country_event = { #otl KMT larp - host the Conference
 			}
 		}
 		create_country_leader = {
-			name = "Zhang Qun"
+			name = "Чжан Цюнь"
 			expire = "1.1.1"
 			ideology = market_liberal_subtype
 		}		
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
 			ideology = authdem_tridemism_subtype
 		}
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
 			ideology = junta_subtype
 		}
 		create_country_leader = {
-			name = "Li Zongren"
+			name = "Ли Цзунжэнь"
 			desc = "POLITICS_GXC_LI_ZONGREN_DESC"
 			picture = "gfx/leaders/YUN/Portrait_Yunnan_Li_Zongren.png"
 			expire = "1.1.1"
 			ideology = national_populist_subtype
 		}
 		create_country_leader = {
-			name = "Lin Sen"
+			name = "Линь Сэнь"
 			expire = "1.1.1"
 			ideology = social_conservative_subtype
 		}	
@@ -3825,7 +3825,7 @@ country_event = { #National Reconstruction
 		name = lngkmt.54.a
 		add_stability = 0.05		
 		create_country_leader = {
-			name = "Chen Gongbo"
+			name = "Чэнь Гунбо"
 			desc = "POLITICS_CHI_CHEN_GONGBO_DESC"
 			picture = "gfx/leaders/CHI/Portrait_CHI_Chen_Gongbo.png"
 			expire = "1.1.1"

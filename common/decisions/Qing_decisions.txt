@@ -1311,7 +1311,7 @@ QIE_buy_german_eqip_decisions = { #purchase german small arms
 			has_country_flag = QIE_can_buy_german_ships
 			NOT = { has_war_with = JAP }
 			has_completed_focus = QIE_kriegsmarine
-			has_tech = early_ship_hull_submarine
+				has_tech = early_ship_hull_submarine
 		}
 
 		fire_only_once = yes
@@ -1581,7 +1581,7 @@ QIE_hire_mercenaries_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove QIE_hire_american_company"
 			create_corps_commander = {
-				name = "Joseph Stilwell " #punished stillwell
+				name = "Джозеф Стилуэлл " #punished stillwell
 				portrait_path = "gfx/leaders/QIE/Portrait_QIE_punished_stillwell.png"
 				desc = QIE_STILLWELL_ARMY_DESC
 				traits = {
@@ -1831,7 +1831,7 @@ QIE_comission_sicilian_ships = {
 		available = {
 			is_subject = no
 			NOT = { has_war_with = JAP }
-			has_tech = early_ship_hull_submarine
+				has_tech = early_ship_hull_submarine
 		}
 		fire_only_once = yes
 		days_remove = 200
@@ -2675,7 +2675,7 @@ QIE_zhili_reunite_china_decisions_category = {
 			can_declare_war_on = FROM
 			FROM = {
 				has_country_leader = {
-					name = "Song Zheyuan"
+					name = "Сун Чжэюань"
 					ruling_only = yes
 				}
 			}
@@ -2686,7 +2686,7 @@ QIE_zhili_reunite_china_decisions_category = {
 			can_declare_war_on = FROM
 			FROM = {
 				has_country_leader = {
-					name = "Song Zheyuan"
+					name = "Сун Чжэюань"
 					ruling_only = yes
 				}
 			}
@@ -7607,7 +7607,7 @@ QIE_endgame_FP_decisions_category = {
 			FROM = {
 				OR = {
 					has_country_leader = {
-						name = "Nelson T. Johnson"
+						name = "Нельсон Т. Джонсон"
 						ruling_only = yes
 					}
 					AND = {
@@ -7647,7 +7647,7 @@ QIE_endgame_FP_decisions_category = {
 			FROM = {
 				OR = {
 					has_country_leader = {
-						name = "Nelson T. Johnson"
+						name = "Нельсон Т. Джонсон"
 						ruling_only = yes
 					}
 					AND = {

@@ -2426,7 +2426,7 @@ country_event = { #Resume the Wang Yongjiang Reforms
 		set_country_flag = Sun_Qichang_Reforms
 	}
 
-	option = { #Appoint Ruan Zhenduo
+	option = { #Appoint Руан Чжэньдуо
 		name = fengtian.57.e
 		hidden_effect = {
 			remove_ideas_with_trait = economy_minister
@@ -5312,7 +5312,7 @@ country_event = { #honghuzi Attacks in Heilongjiang
 		}
 	}
 
-	option = { #Ma Zhanshan will lead the expedition personally
+	option = { #Ма Чжаньшань will lead the expedition personally
 		name = fengtian.117.c
 		trigger = {
 			has_idea = FNG_Ma_Zhanshan_sec_pau
@@ -7569,7 +7569,7 @@ country_event = { #Japan Lashes Out!
 	}
 }
 
-country_event = { #Ma Zhanshan Offers to Defect!
+country_event = { #Ма Чжаньшань Offers to Defect!
 	id = fengtian.167
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.167" }
 	title = fengtian.167.t
@@ -7645,7 +7645,7 @@ country_event = { #Ma Zhanshan Offers to Defect!
 	}
 }
 
-country_event = { #Ma Zhanshan has defected!
+country_event = { #Ма Чжаньшань has defected!
 	id = fengtian.168
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.168" }
 	title = fengtian.168.t
@@ -7673,7 +7673,7 @@ country_event = { #Ma Zhanshan has defected!
 	}
 }
 
-country_event = { #Ma Zhanshan has double-crossed us!
+country_event = { #Ма Чжаньшань has double-crossed us!
 	id = fengtian.169
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.169" }
 	title = fengtian.169.t
@@ -7713,7 +7713,7 @@ country_event = { #Ma Zhanshan has double-crossed us!
 	}
 }
 
-country_event = { #Ma Zhanshan Turns Traitor!
+country_event = { #Ма Чжаньшань Turns Traitor!
 	id = fengtian.170
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.170" }
 	title = fengtian.170.t
@@ -7750,7 +7750,7 @@ country_event = { #Ma Zhanshan Turns Traitor!
 	}
 }
 
-country_event = { #Ma Zhanshan Returns a Hero/Ma Zhanshan Dies a Hero!
+country_event = { #Ма Чжаньшань Returns a Hero/Ма Чжаньшань Dies a Hero!
 	id = fengtian.171
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.171" }
 
@@ -7996,7 +7996,7 @@ country_event = { #Sun Qichang Development Scandal
 	}
 }
 
-country_event = { #Ruan Zhenduo Development Scandal
+country_event = { #Руан Чжэньдуо Development Scandal
 	id = fengtian.179
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.179" }
 	title = fengtian.179.t
@@ -8015,7 +8015,7 @@ country_event = { #Ruan Zhenduo Development Scandal
 	}
 }
 
-country_event = { #Tang Yulin Rides a Tiger
+country_event = { #Тан Юйлинь Rides a Tiger
 	id = fengtian.180
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fengtian.180" }
 	title = fengtian.180.t
@@ -8810,7 +8810,7 @@ country_event = { #Japan Returns Our Code Book
 	}
 }
 
-country_event = { #Japan Demands Ruan Zhenduo's Reinstatement
+country_event = { #Japan Demands Руан Чжэньдуо's Reinstatement
 	id = fengtian.199
 	title = fengtian.199.t
 	desc = fengtian.199.d
@@ -13276,7 +13276,7 @@ country_event = { #The Shikan Clique Protests!
 		name = fengtian.288.a
 		hidden_effect = {
 			create_country_leader = {
-				name = "Yang Yuting"
+				name = "Ян Юйтин"
 				desc = "POLITICS_YANG_YUTING_ARMY_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Yang_Yuting.png"
 				expire = "1.1.1"
@@ -13398,14 +13398,14 @@ country_event = { #Ambush in Shenyang
 				remove_unit_leader = yes
 			}
 			create_country_leader = {
-				name = "Zhang Xueliang"
+				name = "Чжан Сюэлян"
 				desc = "POLITICS_ZHANG_XUELIANG_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang.png"
 				expire = "1.1.1"
 				ideology = authdem_junta_subtype
 			}
 			create_country_leader = {
-				name = "Zhang Xueliang"
+				name = "Чжан Сюэлян"
 				desc = "POLITICS_ZHANG_XUELIANG_DESC"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xueliang.png"
 				expire = "1.1.1"
@@ -13604,7 +13604,7 @@ country_event = { #A Mystery
 		text = fengtian.293.d.zuolin
 		trigger = {
 			has_country_leader = {
-				name = "Zhang Zuolin"
+				name = "Чжан Цзолинь"
 				ruling_only = yes
 			}
 		}
@@ -13613,7 +13613,7 @@ country_event = { #A Mystery
 		text = fengtian.293.d.xueliang
 		trigger = {
 			has_country_leader = {
-				name = "Zhang Xueliang"
+				name = "Чжан Сюэлян"
 				ruling_only = yes
 			}
 		}
@@ -13634,7 +13634,7 @@ country_event = { #A Mystery
 			if = {
 				limit = {
 					has_country_leader = {
-						name = "Zhang Xueliang"
+						name = "Чжан Сюэлян"
 						ruling_only = yes
 					}
 				}
@@ -13705,7 +13705,7 @@ country_event = { #Japan is the True Enemy
 		text = fengtian.296.d.zuolin
 		trigger = {
 			has_country_leader = {
-				name = "Zhang Zuolin"
+				name = "Чжан Цзолинь"
 				ruling_only = yes
 			}
 		}
@@ -13714,7 +13714,7 @@ country_event = { #Japan is the True Enemy
 		text = fengtian.296.d.xueliang
 		trigger = {
 			has_country_leader = {
-				name = "Zhang Xueliang"
+				name = "Чжан Сюэлян"
 				ruling_only = yes
 			}
 		}
@@ -13765,7 +13765,7 @@ country_event = { #Fengtian Denounces Us!
 		trigger = {
 			FROM = {
 				has_country_leader = {
-					name = "Zhang Zuolin"
+					name = "Чжан Цзолинь"
 					ruling_only = yes
 				}
 			}
@@ -13776,7 +13776,7 @@ country_event = { #Fengtian Denounces Us!
 		trigger = {
 			FROM = {
 				has_country_leader = {
-					name = "Zhang Xueliang"
+					name = "Чжан Сюэлян"
 					ruling_only = yes
 				}
 			}
@@ -14500,7 +14500,7 @@ country_event = { #Debate over who to entrone, Japanese
 		trigger = {
 			JAP = {
 				has_country_leader = {
-					name = "Hirohito"
+					name = "Хирохито"
 					ruling_only = yes
 				}
 			}
@@ -14526,7 +14526,7 @@ country_event = { #Debate over who to entrone, Japanese
 		trigger = {
 			JAP = {
 				has_country_leader = {
-					name = "Hirohito"
+					name = "Хирохито"
 					ruling_only = yes
 				}
 			}
@@ -14543,7 +14543,7 @@ country_event = { #Debate over who to entrone, Japanese
 		trigger = {
 			JAP = {
 				has_country_leader = {
-					name = "Yasuhito"
+					name = "Ясухито"
 					ruling_only = yes
 				}
 			}
@@ -14584,7 +14584,7 @@ country_event = { #Coronation
 			}
 			JAP = {
 				has_country_leader = {
-					name = "Hirohito"
+					name = "Хирохито"
 					ruling_only = yes
 				}
 			}
@@ -14600,7 +14600,7 @@ country_event = { #Coronation
 			has_country_flag = FNG_chosen_kotohito_regent
 			JAP = {
 				has_country_leader = {
-					name = "Yasuhito"
+					name = "Ясухито"
 					ruling_only = yes
 				}
 			}
@@ -14616,7 +14616,7 @@ country_event = { #Coronation
 			has_country_flag = FNG_chosen_yasuhito_regent
 			JAP = {
 				has_country_leader = {
-					name = "Yasuhito"
+					name = "Ясухито"
 					ruling_only = yes
 				}
 			}
@@ -14635,7 +14635,7 @@ country_event = { #Coronation
 			has_country_flag = FNG_ming_emperor
 		}
 		create_country_leader = {
-			name = "Hóngwu"
+			name = "Хунъу"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Hongwu.png"
 			expire = "2165.1.1"
 			ideology = pan_asianism_subtype
@@ -14667,7 +14667,7 @@ country_event = { #Coronation
 				has_country_flag = FNG_hirohito_emperor
 			}
 			create_country_leader = {
-				name = "Hirohito"
+				name = "Хирохито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
@@ -14678,7 +14678,7 @@ country_event = { #Coronation
 				has_country_flag = FNG_chosen_kotohito_regent
 			}
 			create_country_leader = {
-				name = "Kan'in Kotohito"
+				name = "Канъин-но-мия Котохито"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
@@ -14689,7 +14689,7 @@ country_event = { #Coronation
 				has_country_flag = FNG_chosen_yasuhito_regent
 			}
 			create_country_leader = {
-				name = "Yasuhito"
+				name = "Ясухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
@@ -14711,7 +14711,7 @@ country_event = { #Coronation
 			has_country_flag = FNG_qing_empress
 		}
 		create_country_leader = {
-			name = "Xianyu"
+			name = "Сяньюй"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Xianyu_Qing_Uniform.png"
 			expire = "2165.1.1"
 			ideology = pan_asianism_subtype
@@ -14927,13 +14927,13 @@ country_event = { #DIRECT RULE FROM TOKYO(de jure)
 				has_country_flag = FNG_hirohito_emperor
 			}
 			create_country_leader = {
-				name = "Hirohito"
+				name = "Хирохито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
 				expire = "1.1.1"
 				ideology = authdem_pan_asianism_subtype
 			}
 			create_country_leader = {
-				name = "Hirohito"
+				name = "Хирохито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
 				expire = "1.1.1"
 				ideology = pataut_pan_asianism_subtype
@@ -14944,13 +14944,13 @@ country_event = { #DIRECT RULE FROM TOKYO(de jure)
 				has_country_flag = FNG_chosen_kotohito_regent
 			}
 			create_country_leader = {
-				name = "Kan'in Kotohito"
+				name = "Канъин-но-мия Котохито"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 				expire = "1.1.1"
 				ideology = authdem_pan_asianism_subtype
 			}
 			create_country_leader = {
-				name = "Kan'in Kotohito"
+				name = "Канъин-но-мия Котохито"
 				picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
 				expire = "1.1.1"
 				ideology = pataut_pan_asianism_subtype
@@ -14961,13 +14961,13 @@ country_event = { #DIRECT RULE FROM TOKYO(de jure)
 				has_country_flag = FNG_chosen_yasuhito_regent
 			}
 			create_country_leader = {
-				name = "Yasuhito"
+				name = "Ясухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 				expire = "1.1.1"
 				ideology = authdem_pan_asianism_subtype
 			}
 			create_country_leader = {
-				name = "Yasuhito"
+				name = "Ясухито"
 				picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
 				expire = "1.1.1"
 				ideology = pataut_pan_asianism_subtype
@@ -15430,14 +15430,14 @@ country_event = { #Crown Zuolin, common Mandate W
 	option = { #ITS TIME
 		name = fngnap.4.a
 		create_country_leader = {
-			name = "Hongzhi"
+			name = "Хунчжи"
 			desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 			expire = "1.1.1"
 			ideology = authdem_bonapartism_subtype
 		}
 		create_country_leader = {
-			name = "Hongzhi"
+			name = "Хунчжи"
 			desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 			picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 			expire = "1.1.1"
@@ -15517,7 +15517,7 @@ country_event = { #Zhili defectors reshuffle the political scene
 			add_popularity = { ideology = radical_socialist popularity = 0.04 }
 			hidden_effect = {
 				create_country_leader = {
-					name = "Hongzhi"
+					name = "Хунчжи"
 					desc = "POLITICS_ZHANG_ZUOLIN_DESC"
 					picture = "gfx/leaders/FNG/Portrait_FNG_Zhang_Zuolin_Emperor.png"
 					expire = "1.1.1"
@@ -16300,7 +16300,7 @@ country_event = { #Clear out railway variables
 	}
 }
 
-country_event = { #Ma Zhanshan defection
+country_event = { #Ма Чжаньшань defection
 	id = fngsystem.15
 	immediate = { log = "[GetDateText]: [Root.GetName]: event fngsystem.15" }
 	hidden = yes

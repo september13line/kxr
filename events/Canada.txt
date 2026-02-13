@@ -88,7 +88,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_country_leader = { name = "George V" ruling_only = yes }
+		has_country_leader = { name = "Георг V" ruling_only = yes }
 	}
 
 	option = {
@@ -128,7 +128,7 @@ country_event = {
 			if = {
 				limit = { country_exists = TRM }
 				TRM = { country_event = tram.125 }
-			}
+		    }
 			if = {
 				limit = { country_exists = IRE }
 				IRE = { country_event = irelandflavour.200 }
@@ -152,7 +152,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_country_leader = { name = "Edward VIII" ruling_only = yes }
+		has_country_leader = { name = "Эдуард VIII" ruling_only = yes }
 	}
 
 	option = {
@@ -649,7 +649,7 @@ country_event = {
 	}
 }
 
-# Fate of the Senate (fired by focus)
+# Fate of Сенат (fired by focus)
 country_event = {
 	id = canada.9
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.9" }
@@ -704,7 +704,7 @@ country_event = {
 	}
 }
 
-# The Senate Bill
+# Сенат Bill
 country_event = {
 	id = canada.1010
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.1010" }
@@ -738,7 +738,7 @@ country_event = {
 	}
 }
 
-# The Senate refuses the bill
+# Сенат refuses the bill
 country_event = {
 	id = canada.10
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.10" }
@@ -761,7 +761,7 @@ country_event = {
 	}
 }
 
-# The Senate refuses the bill
+# Сенат refuses the bill
 country_event = {
 	id = canada.1011
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.10" }
@@ -784,7 +784,7 @@ country_event = {
 	}
 }
 
-# The Senate agrees to the bill
+# Сенат agrees to the bill
 country_event = {
 	id = canada.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.11" }
@@ -822,7 +822,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = canada.12.a #Percy Nelles
+		name = canada.12.a #Перси Неллс
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -844,7 +844,7 @@ country_event = {
 		CAN_improve_canadian_influence_small_bop = yes
 	}
 	option = {
-		name = canada.12.b #Sir Roger Backhouse
+		name = canada.12.b #Sir Роджер Бэкхаус
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -957,7 +957,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = canada.13.a #Georges Vanier
+		name = canada.13.a #Жорж Ванье
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -1042,7 +1042,7 @@ country_event = {
 	}
 
 	option = {
-		name = canada.14.a #Sir Edmund Ironside
+		name = canada.14.a #Sir Эдмунд Айронсайд
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -1066,7 +1066,7 @@ country_event = {
 		add_political_power = 50
 	}
 	option = {
-		name = canada.14.c #Harry Crerar
+		name = canada.14.c #Харри Крирар
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -1082,7 +1082,7 @@ country_event = {
 		add_war_support = 0.10
 	}
 	option = {
-		name = canada.14.e #Kenneth Stuart
+		name = canada.14.e #Кеннет Стюарт
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -1406,7 +1406,7 @@ country_event = {
 	}
 }
 
-# Maurice Duplessis becomes Premier of Quebec
+# Морис Дюплесси becomes Premier of Quebec
 country_event = {
 	id = canada.29
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.29" }
@@ -2181,7 +2181,7 @@ country_event = {
 				has_global_flag = NO_ANIMATED_PORTRAITS
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII_Liberal.png"
 				}
@@ -2189,7 +2189,7 @@ country_event = {
 		}
 		else = {
 			if = {	
-				limit = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "GFX_Portrait_Canada_Edward_VII_BOOF_animated"
 				}
@@ -2301,7 +2301,7 @@ country_event = {
 				has_global_flag = NO_ANIMATED_PORTRAITS
 			}
 			if = {	
-				limit = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII_Liberal.png"
 				}
@@ -2309,7 +2309,7 @@ country_event = {
 		}
 		else = {
 			if = {	
-				limit = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+				limit = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				set_country_leader_portrait = {
 					portrait = "GFX_Portrait_Canada_Edward_VII_BOOF_animated"
 				}
@@ -2942,7 +2942,7 @@ country_event = {
 		custom_effect_tooltip = CAN_secret_police_rcmp
 	}
 	option = {
-		name = canada.57.e #Secret Police under Maxwell Knight
+		name = canada.57.e #Secret Police under Максвелл Найт
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -2973,7 +2973,7 @@ country_event = {
 		custom_effect_tooltip = CAN_secret_police_st_laurent
 	}
 	option = {
-		name = canada.57.g #Secret Police under Ernest Lapointe
+		name = canada.57.g #Secret Police under Эрнест Лапуант
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -4076,31 +4076,31 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
 			if = {
 				limit = {
-					NEE = { has_country_leader = { name = "Albert I" ruling_only = yes } }
+					NEE = { has_country_leader = { name = "Альберт I" ruling_only = yes } }
 				}
 				NEE = {
 					country_event = {
@@ -4167,31 +4167,31 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
 			if = {
 				limit = {
-					AST = { has_country_leader = { ruling_only = yes name = "Prince Henry" } }
+					AST = { has_country_leader = { ruling_only = yes name = "Принц Генри" } }
 				}
 				AST = { country_event = entente.113 }
 			}
@@ -4237,31 +4237,31 @@ country_event = {
 
 			if = {
 				limit = {
-					DEH = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					DEH = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				DEH = { DEH_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SCT = { has_country_leader = { name = "Edward II" ruling_only = yes } }
+					SCT = { has_country_leader = { name = "Эдуард II" ruling_only = yes } }
 				}
 				SCT = { create_windsor_scottish_monarchy = yes }
 			}
 			if = {
 				limit = {
-					SAF = { has_country_leader = { name = "Edward VIII" ruling_only = yes } }
+					SAF = { has_country_leader = { name = "Эдуард VIII" ruling_only = yes } }
 				}
 				SAF = { SAF_create_monarchy = yes }
 			}
 			if = {
 				limit = {
-					ICE = { has_country_leader = { name = "Játvarður VIII" ruling_only = yes } }
+					ICE = { has_country_leader = { name = "Ятвардр VIII" ruling_only = yes } }
 				}
 				ICE = { ICE_create_british_monarchy = yes }
 			}
 			if = {
 				limit = {
-					AST = { has_country_leader = { ruling_only = yes name = "Prince George" } }
+					AST = { has_country_leader = { ruling_only = yes name = "Принц Джордж" } }
 				}
 				AST = { country_event = entente.113 }
 			}
@@ -4413,7 +4413,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Arthur Meighen"
+				name = "Артур Мейен"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Arthur_Meighen.png"
 				expire = "1.1.1"
 				ideology = moderate_authoritarianism_subtype
@@ -4880,13 +4880,13 @@ country_event = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			hidden_effect = {
 				create_country_leader = {
-					name = "Louis St. Laurent"
+					name = "Луи Сен-Лоран"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Louis_St_Laurent.png"
 					expire = "1.1.1"
 					ideology = national_liberalism_subtype
 				}
 				create_country_leader = {
-					name = "Charles Gavan Power"
+					name = "Чарльз Гэван Пауэр"
 					picture = "gfx/leaders/CAN/Portrait_Canada_Charles_Gavan_Power.png"
 					expire = "1.1.1"
 					ideology = marlib_national_liberalism_subtype
@@ -5226,7 +5226,7 @@ country_event = {
 
 }
 
-# R.B. Bennett Retires
+# Ричард Бэдфорд Беннетт Retires
 country_event = {
 	id = canada.71
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.71" }
@@ -5257,7 +5257,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Robert Manion"
+				name = "Роберт Мэнион"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Robert_Manion.png"
 				expire = "1.1.1"
 				ideology = toryism_subtype
@@ -5414,7 +5414,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Henry Herbert Stevens"
+				name = "Генри Герберт Стивенс"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Henry_Herbert_Stevens.png"
 				expire = "1.1.1"
 				ideology = national_conservative_subtype
@@ -5515,7 +5515,7 @@ country_event = {
 	}
 }
 
-# J.S. Woodsworth loses CCF leadership to Coldwell
+# Дж. С. Вудсворт loses CCF leadership to Coldwell
 country_event = {
 	id = canada.72
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.72" }
@@ -5567,7 +5567,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Major James Coldwell"
+				name = "Мейджор Джеймс Колдуэлл"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Major_James_Coldwell.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -5590,7 +5590,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Major James Coldwell"
+				name = "Мейджор Джеймс Колдуэлл"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Major_James_Coldwell.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -5620,7 +5620,7 @@ country_event = {
 	}
 }
 
-# J.S. Woodsworth dies
+# Дж. С. Вудсворт dies
 country_event = {
 	id = canada.720
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.720" }
@@ -5669,7 +5669,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Major James Coldwell"
+				name = "Мейджор Джеймс Колдуэлл"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Major_James_Coldwell.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -6436,7 +6436,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Bracken"
+				name = "Джон Брэкен"
 				picture = "gfx/leaders/CAN/Portrait_Canada_John_Bracken.png"
 				expire = "1.1.1"
 				ideology = toryism_subtype
@@ -6499,7 +6499,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Diefenbaker"
+				name = "Джон Дифенбейкер"
 				picture = "gfx/leaders/CAN/Portrait_Canada_John_Diefenbaker.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -6527,7 +6527,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "George A. Drew"
+				name = "Джордж Дрю"
 				picture = "gfx/leaders/CAN/Portrait_Canada_George_A_Drew.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -6585,7 +6585,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Diefenbaker"
+				name = "Джон Дифенбейкер"
 				picture = "gfx/leaders/CAN/Portrait_Canada_John_Diefenbaker.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -6624,7 +6624,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Erik Nielsen"
+				name = "Эрик Нилсен"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Erik_Nielsen.png"
 				expire = "1.1.1"
 				ideology = progressive_conservatism_subtype
@@ -6676,7 +6676,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Lester B. Pearson"
+				name = "Лестер Пирсон"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Lester_B_Pearson.png"
 				expire = "1.1.1"
 				ideology = national_liberalism_subtype
@@ -6717,7 +6717,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Paul Martin"
+				name = "Пол Мартин"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Paul_Martin.png"
 				expire = "1.1.1"
 				ideology = marlib_national_liberalism_subtype
@@ -6774,7 +6774,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Tommy Douglas"
+				name = "Томми Дуглас"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Tommy_Douglas.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -6812,7 +6812,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Hazen Argue"
+				name = "Хейзен Аргью"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Hazen_Argue.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -6863,7 +6863,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Tommy Douglas"
+				name = "Томми Дуглас"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Tommy_Douglas.png"
 				expire = "1.1.1"
 				ideology = social_democrat_subtype
@@ -6921,7 +6921,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Horne Blackmore"
+				name = "Джон Хорн Блэкмор"
 				picture = "gfx/leaders/CAN/Portrait_Canada_JH_Blackmore.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -6951,7 +6951,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Réal Caouette"
+				name = "Риал Кауэтт"
 				picture = "gfx/leaders/QUE/Portrait_Quebec_Real_Caouette.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -6986,7 +6986,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "W.A.C. Bennett"
+				name = "У. Э. С. Беннетт"
 				picture = "gfx/leaders/CAN/Portrait_Canada_W_A_C_Bennett.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -7013,7 +7013,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Joshua N. Haldeman"
+				name = "Джошуа Холдеман"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -7062,7 +7062,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Solon Earl Low"
+				name = "Солон Эрл Лоу"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Solon_Earl_Low.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -7092,7 +7092,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Réal Caouette"
+				name = "Риал Кауэтт"
 				picture = "gfx/leaders/QUE/Portrait_Quebec_Real_Caouette.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -7127,7 +7127,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "W.A.C. Bennett"
+				name = "У. Э. С. Беннетт"
 				picture = "gfx/leaders/CAN/Portrait_Canada_W_A_C_Bennett.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -7154,7 +7154,7 @@ country_event = {
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Joshua N. Haldeman"
+				name = "Джошуа Холдеман"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -8835,7 +8835,7 @@ country_event = {
 		OR = {
 			ENG = { has_war_with = GER }
 			AND = {
-				has_tech = mtg_transport
+					has_tech = mtg_transport
 				has_completed_focus = CAN_project_plough
 				has_completed_focus = CAN_economic_recovery
 				has_completed_focus = CAN_deal_with_admiralty
@@ -9057,7 +9057,7 @@ country_event = {
 					add_popularity = { ideology = paternal_autocrat popularity = 0.35 }
 					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500 producer = CAN }
 					create_country_leader = {
-						name = "Gearóid Ó Cuinneagáin"
+						name = "Джерард О'Канниган"
 						desc = "POLITICS_GEAROID_O_CUINNEAGAIN_DESC"
 						picture = "gfx/leaders/IRE/Portrait_Ireland_Gearoid_O_Cuinneagain.png"
 						expire = "1.1.1"
@@ -9464,7 +9464,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = canada.201.e #We support Huey Long
+		name = canada.201.e #We support Хьюи Лонг
 		trigger = {
 			country_exists = TEX
 		}
@@ -11294,10 +11294,10 @@ country_event = {
 			if = {
 				limit = {
 					NFL = { exists = yes }
-				}
-				country_event = {
-					id = canada.325
-					days = 55
+			}
+			country_event = {
+				id = canada.325
+				days = 55
 				}
 			}
 			if = {
@@ -11559,7 +11559,7 @@ country_event = {
 			NEE = {
 				NOT = {
 					has_country_leader = {
-						name = "Albert I"
+						name = "Альберт I"
 						ruling_only = yes
 					}
 				}
@@ -11777,18 +11777,18 @@ country_event = {
 				NEE = {	
 					OR = {
 						has_country_leader = {
-							name = "Albert I"
+							name = "Альберт I"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Albert Windsor"
+							name = "Альберт Виндзор"
 							ruling_only = yes
 						}
 					}
 				}
 				AST = {
 					has_country_leader = {
-						name = "Prince Albert"
+						name = "Принц Альберт"
 						ruling_only = yes
 					}
 				}
@@ -11804,18 +11804,18 @@ country_event = {
 			NEE = {	
 				OR = {
 					has_country_leader = {
-						name = "Albert I"
+						name = "Альберт I"
 						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Albert Windsor"
+						name = "Альберт Виндзор"
 						ruling_only = yes
 					}
 				}
 			}
 			AST = {
 				has_country_leader = {
-					name = "Prince Albert"
+					name = "Принц Альберт"
 					ruling_only = yes
 				}
 			}
@@ -11835,18 +11835,18 @@ country_event = {
 					NEE = {	
 						OR = {
 							has_country_leader = {
-								name = "Albert I"
+								name = "Альберт I"
 								ruling_only = yes
 							}
 							has_country_leader = {
-								name = "Albert Windsor"
+								name = "Альберт Виндзор"
 								ruling_only = yes
 							}
 						}
 					}
 					AST = {
 						has_country_leader = {
-							name = "Prince Albert"
+							name = "Принц Альберт"
 							ruling_only = yes
 						}
 					}
@@ -12218,7 +12218,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Frederick Banting"
+			name = "Фредерик Бантинг"
 			ruling_only = yes
 		}
 	}
@@ -12241,7 +12241,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Andrew McNaughton"
+			name = "Эндрю Макнотон"
 			ruling_only = yes
 		}
 	}
@@ -12264,7 +12264,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Georges Vanier"
+			name = "Жорж Ванье"
 			ruling_only = yes
 		}
 	}
@@ -12287,7 +12287,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Vincent Massey"
+			name = "Винсент Мэсси"
 			ruling_only = yes
 		}
 	}
@@ -12310,7 +12310,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Prince Albert"
+			name = "Принц Альберт"
 			ruling_only = yes
 		}
 	}
@@ -12333,7 +12333,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Harold Alexander"
+			name = "Харольд Александер"
 			ruling_only = yes
 		}
 	}
@@ -12356,7 +12356,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "John Buchan"
+			name = "Джон Бакен"
 			ruling_only = yes
 		}
 	}
@@ -12379,7 +12379,7 @@ country_event = {
 	
 	trigger = {
 		has_country_leader = {
-			name = "Alexander Cambridge"
+			name = "Александр Кембридж"
 			ruling_only = yes
 		}
 	}
@@ -13114,7 +13114,7 @@ country_event = {
 		unlock_decision_tooltip = CAN_claim_maine
 		set_country_flag = CAN_canadian_expansionism_flag
 		create_country_leader = {
-			name = "George Grant"
+			name = "Джордж Грант"
 			picture = "gfx/leaders/CAN/Portrait_Canada_George_Grant.png"
 			expire = "1.1.1"
 			ideology = natpop_popular_patriotism_subtype
@@ -13641,7 +13641,7 @@ country_event = {
 	option = {
 		name = canada.327.a
 		create_corps_commander = {
-			name = "John Hamilton Roberts"
+			name = "Джон Гамильтон Робертс"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_John_Hamilton_Roberts.png"
 			traits = {
 				war_hero
@@ -13655,7 +13655,7 @@ country_event = {
 			logistics_skill = 4
 		}
 		create_corps_commander = {
-			name = "H.L.N. Salmon"
+			name = "Гарри Салмон"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_HLN_Salmon.png"
 			traits = {
 				infantry_officer
@@ -13669,7 +13669,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {
-			name = "George Kitching"
+			name = "Джордж Китчинг"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_George_Kitching.png"
 			traits = {
 				career_officer
@@ -13683,7 +13683,7 @@ country_event = {
 			logistics_skill = 3
 		}
 		create_corps_commander = {
-			name = "Garner Ormsby Currie"
+			name = "Гарнер Ормсби Карри"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Garner_Ormsby_Currie.png"
 			traits = {
 				infantry_officer
@@ -13695,8 +13695,8 @@ country_event = {
 			planning_skill = 2
 			logistics_skill = 3
 		}
-		create_corps_commander = { # Thomas George Prince
-			name = "Thomas George Prince"
+		create_corps_commander = { # Томас Джордж Принц
+			name = "Томас Джордж Принц"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Thomas_Prince.png"
 			traits = {
 				career_officer
@@ -13709,8 +13709,8 @@ country_event = {
 			planning_skill = 4
 			logistics_skill = 5
 		}
-		create_corps_commander = { # Léo Major
-			name = "Léo Major"
+		create_corps_commander = { # Лео Мажор
+			name = "Лео Мажор"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Leo_Major.png"
 			traits = {
 				commando
@@ -13725,7 +13725,7 @@ country_event = {
 			logistics_skill = 5
 		}
 		create_navy_leader = {
-			name = "Horatio Nelson Lay"
+			name = "Горацио Нельсон Лэй"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Horatio_Lay.png"
 			traits = {
 				fly_swatter
@@ -13888,7 +13888,7 @@ country_event = { #Appointing Bible Bill
 	}
 }
 
-# Arthur Currie Death
+# Артур Карри Death
 country_event = {
 	id = canada.402
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.402" }
@@ -14859,7 +14859,7 @@ country_event = { # Rotha (Absolutists)
 		add_political_power = 10
 		decrease_ruling_party_popularity_by_2 = yes
 		create_corps_commander = {
-			name = "Rotha Lintorn-Orman"
+			name = "Рота Линторн-Орман"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Rotha_Lintorn_Orman.png"
 			traits = {
 				war_hero
@@ -14996,13 +14996,13 @@ country_event = { # Appoint Hargrave
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Hargrave"
+				name = "Джон Харгрейв"
 				picture = "gfx/leaders/CAN/Portrait_Britain_John_Hargrave.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
 			}
 			create_country_leader = {
-				name = "John Hargrave"
+				name = "Джон Харгрейв"
 				picture = "gfx/leaders/CAN/Portrait_Britain_John_Hargrave.png"
 				expire = "1.1.1"
 				ideology = social_credit_subtype
@@ -15110,8 +15110,8 @@ country_event = { # William Guy Carr
 	option = { #Work with him
 		name = canada.423.b
 		add_political_power = -10
-		create_navy_leader = {# William Guy Carr
-			name = "William Guy Carr"
+		create_navy_leader = {# Уильям Гай Карр
+			name = "Уильям Гай Карр"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Bernard_Rawlings.png"
 			traits = { 
 				seawolf 
@@ -15126,7 +15126,7 @@ country_event = { # William Guy Carr
 	}
 }
 
-country_event = { # The Death of William Aberhart
+country_event = { # The Death of Уильям Аберхарт
 	id = canada.424
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.424" }
 	title = canada.424.t
@@ -15256,7 +15256,7 @@ country_event = { # The Death of William Aberhart
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Ernest Manning"
+				name = "Эрнест Мэннинг"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Ernest_Manning.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15302,7 +15302,7 @@ country_event = { # The Death of William Aberhart
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Horne Blackmore"
+				name = "Джон Хорн Блэкмор"
 				picture = "gfx/leaders/CAN/Portrait_Canada_JH_Blackmore.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15330,7 +15330,7 @@ country_event = { # The Death of William Aberhart
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Réal Caouette"
+				name = "Риал Кауэтт"
 				picture = "gfx/leaders/QUE/Portrait_Quebec_Real_Caouette.png"
 				expire = "1.1.1"
 				ideology = social_credit_subtype
@@ -15364,7 +15364,7 @@ country_event = { # The Death of William Aberhart
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "C. H. Douglas"
+				name = "Клиффорд Дуглас"
 				picture = "gfx/leaders/CAN/Portrait_Britain_Clifford_Hugh_Douglas.png"
 				expire = "1.1.1"
 				ideology = social_credit_subtype
@@ -15386,7 +15386,7 @@ country_event = { # The Death of William Aberhart
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Joshua N. Haldeman"
+				name = "Джошуа Холдеман"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Joshua_N_Haldeman.png"
 				expire = "1.1.1"
 				ideology = social_credit_subtype
@@ -15442,7 +15442,7 @@ country_event = { # Manning goes SocCon
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Ernest Manning"
+				name = "Эрнест Мэннинг"
 				picture = "gfx/leaders/CAN/Portrait_Canada_Ernest_Manning.png"
 				expire = "1.1.1"
 				ideology = moderate_authoritarianism_subtype
@@ -15480,7 +15480,7 @@ country_event = { # SocCred leadership Convention After Aberhart Dead (Not in Po
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "John Horne Blackmore"
+				name = "Джон Хорн Блэкмор"
 				picture = "gfx/leaders/CAN/Portrait_Canada_JH_Blackmore.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15494,7 +15494,7 @@ country_event = { # SocCred leadership Convention After Aberhart Dead (Not in Po
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "Réal Caouette"
+				name = "Риал Кауэтт"
 				picture = "gfx/leaders/QUE/Portrait_Quebec_Real_Caouette.png"
 				expire = "1.1.1"
 				ideology = social_credit_subtype
@@ -15508,7 +15508,7 @@ country_event = { # SocCred leadership Convention After Aberhart Dead (Not in Po
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "C. H. Douglas"
+				name = "Клиффорд Дуглас"
 				picture = "gfx/leaders/CAN/Portrait_Britain_Clifford_Hugh_Douglas.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15522,7 +15522,7 @@ country_event = { # SocCred leadership Convention After Aberhart Dead (Not in Po
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "W.A.C. Bennett"
+				name = "У. Э. С. Беннетт"
 				picture = "gfx/leaders/CAN/Portrait_Canada_W_A_C_Bennett.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15561,7 +15561,7 @@ country_event = { # New Democracy Movement Merges with SocCreds
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "William Duncan Herridge"
+				name = "Уильям Дункан Херридж"
 				picture = "gfx/leaders/CAN/Portrait_Canada_William_Duncan_Herridge.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15580,7 +15580,7 @@ country_event = { # New Democracy Movement Merges with SocCreds
 		if = {
 			limit = { has_country_flag = CAN_pm_is_hos }
 			create_country_leader = {
-				name = "William Aberhart"
+				name = "Уильям Аберхарт"
 				picture = "gfx/leaders/CAN/Portrait_Canada_William_Aberhart.png"
 				expire = "1.1.1"
 				ideology = authdem_social_credit_subtype
@@ -15646,7 +15646,7 @@ country_event = { # UK Reclaimed
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Edward VIII"
+					name = "Эдуард VIII"
 					ruling_only = yes
 				}
 			}
@@ -15657,7 +15657,7 @@ country_event = { # UK Reclaimed
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "George V"
+					name = "Георг V"
 					ruling_only = yes
 				}
 			}
@@ -15668,7 +15668,7 @@ country_event = { # UK Reclaimed
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Albert I"
+					name = "Альберт I"
 					ruling_only = yes
 				}
 			}
@@ -15679,7 +15679,7 @@ country_event = { # UK Reclaimed
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "Henry IX"
+					name = "Генри IX"
 					ruling_only = yes
 				}
 			}
@@ -15690,7 +15690,7 @@ country_event = { # UK Reclaimed
 		if = {
 			limit = {
 				has_country_leader = {
-					name = "George VI"
+					name = "Георг VI"
 					ruling_only = yes
 				}
 			}
@@ -15985,7 +15985,7 @@ country_event = { # Rotha (Mistery +Eyes Wide Shut party)
 		add_political_power = 10
 		decrease_ruling_party_popularity_by_2 = yes
 		create_corps_commander = {
-			name = "Rotha Lintorn-Orman"
+			name = "Рота Линторн-Орман"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Rotha_Lintorn_Orman.png"
 			traits = {
 				war_hero
@@ -16602,7 +16602,7 @@ country_event = {
 
 }
 
-# Tommy Douglas
+# Томми Дуглас
 country_event = {
 	id = canada.452
 	immediate = { log = "[GetDateText]: [Root.GetName]: event canada.452" }
@@ -16683,8 +16683,8 @@ country_event = {
 
 	option = { #Promote
 		name = canada.455.b
-		create_corps_commander = {# Francis 'Peggy' Pegahmagabow
-			name = "Francis 'Peggy' Pegahmagabow"
+		create_corps_commander = {# Фрэнсис Пегамагабо
+			name = "Фрэнсис «Пегги» Пегамагабо"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_Francis_Pegahmagabow.png"
 			traits = { 
 				war_hero
@@ -16698,7 +16698,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		create_corps_commander = {#  J.R. Stacey
-			name = "J.R. Stacey"
+			name = "Джон Рэндольф Стейси"
 			portrait_path = "gfx/leaders/CAN/Portrait_Canada_John_Randolph_Stacey.png"
 			traits = {
 				politically_connected
@@ -17062,11 +17062,11 @@ country_event = {# Denmark Accepts Claim
 					has_socialist_government = no
 					NOT = {
 						is_subject_of = CAN
-					}
 				}
-				country_event = {
-					id = canada.662 #Canada Demands we Submit
-					days = 2
+			}
+			country_event = {
+				id = canada.662 #Canada Demands we Submit
+				days = 2
 				}
 			}
 		}

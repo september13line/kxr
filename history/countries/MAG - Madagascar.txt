@@ -48,34 +48,34 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	pre_dreadnoughts = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		pre_dreadnoughts = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
-	
-	mtg_transport = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		
+		mtg_transport = 1
 }
 
 set_politics = {
@@ -128,8 +128,8 @@ country_event = {
 set_cosmetic_tag = MAG_GER
 
 create_country_leader = {
-	name = "Reinhard Heydrich"
-	desc = "POLITICS_HEYDRICH_MAG_DESC"
+	name = "Рейнхард Гейдрих"
+        desc = "POLITICS_HEYDRICH_MAG_DESC"
 	picture = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 	expire = "1.1.1"
 	ideology = colonial_govt_subtype
@@ -153,7 +153,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jacques Rabemananjara"
+	name = "Жак Рабеманандзара"
 	picture = "gfx/leaders/MAG/Portrait_MAG_Jacques_Rabemananjara.png"
 	expire = "1.1.1"
 	ideology = negritude_subtype
@@ -161,7 +161,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philibert Tsiranana"
+	name = "Филибер Циранана"
 	picture = "gfx/leaders/MAG/Portrait_MAG_Philibert_Tsiranana.png"
 	expire = "1.1.1"
 	ideology = authoritarian_social_democracy_subtype
@@ -169,7 +169,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "André Sanglier"
+	name = "Андре Санглие"
 	picture = "gfx/leaders/MAG/Portrait_MAG_Andre_Sanglier.png"
 	expire = "1.1.1"
 	ideology = radical_liberalism_subtype
@@ -177,7 +177,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Norbert Zafimahova"
+	name = "Норберт Зафимахова"
 	picture = "gfx/leaders/MAG/Portrait_MAG_Norbert_Zafimahova.png"
 	expire = "1.1.1"
 	ideology = liberal_conservative_subtype
@@ -185,7 +185,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Michel Randria"
+	name = "Мишель Рандрия"
 	picture = "gfx/leaders/MAG/Portrait_MAG_Michel_Randria.png"
 	expire = "1.1.1"
 	ideology = paternal_socialism_subtype
@@ -193,8 +193,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Léon Cayla"
-    desc = "POLITICS_LEON_CAYLA_DESC"
+	name = "Леон Кайла"
+        desc = "POLITICS_LEON_CAYLA_DESC"
 	picture = "gfx/leaders/MAG/MAG_Leon_Cayla.png"
 	expire = "1.1.1"
 	ideology = revolution_nationale_subtype
@@ -202,8 +202,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean-Joseph Rabearivelo"
-    desc = "POLITICS_RABEARIVELIO_DESC"
+	name = "Жан Жозеф Рабеаривелу"
+        desc = "POLITICS_RABEARIVELIO_DESC"
 	picture = "gfx/leaders/MAG/MAG_Jean-Joseph_Rabearivelo.png"
 	expire = "1.1.1"
 	ideology = maurrassism_subtype
@@ -211,7 +211,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Reinhard Heydrich "
+	name = "Рейнхард Гейдрих "
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 	traits = {
 		politically_connected
@@ -227,7 +227,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Herbert Gille"
+	name = "Герберт Отто Гилле"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Herbert_Gille.png"
 	traits = {
 		politically_connected
@@ -243,7 +243,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Walther von Brauchitsch"
+	name = "Вальтер фон Браухич"
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Walther_von_Brauchitsch.png"
 	traits = {
 		cavalry_leader
@@ -259,7 +259,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Armand Annet"
+	name = "Арманд Аннет"
 	portrait_path = "gfx/leaders/MAG/MAG_Armand_Annet.png"
 	traits = {
 		politically_connected
@@ -273,7 +273,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Emil Maurice"
+	name = "Эмиль Морис"
 	portrait_path = "gfx/leaders/MAG/MAG_Emil_Maurice.png"
 	traits = {
 		politically_connected
@@ -286,7 +286,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gabriel Ramanantsoa"
+	name = "Габриэль Рамананцуа"
 	portrait_path = "gfx/leaders/MAG/MAG_Gabriel_Ramanantsoa.png"
 	traits = { 
 		career_officer
@@ -300,7 +300,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Reinhard Heydrich "
+	name = "Рейнхард Гейдрих "
 	portrait_path = "gfx/leaders/MAF/Portrait_Mittelafrika_Reinhard_Heydrich.png"
 	traits = { caustic_personality GER_expeditionary_leader }
 	skill = 2

@@ -116,35 +116,35 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_politics = {
 	ruling_party = paternal_autocrat
@@ -167,61 +167,61 @@ set_popularities = {
 }
 
 create_country_leader = {# James Dole
-	name = "James Dole"
+	name = "Джим Доул"
 	picture = "gfx/leaders/HAW/Portrait_HAW_James_Dole.png"
 	expire = "1.1.1"
 	ideology = corporatocracy_subtype
 }
 create_country_leader = {
-	name = "House of Nobles"
+	name = "Палата Лордов"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Peoples_Council.png"
 	expire = "1.1.1"
 	ideology = national_populist_subtype
 }
 create_country_leader = {
-	name = "House of Nobles"
+	name = "Палата Лордов"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Peoples_Council.png"
 	expire = "1.1.1"
 	ideology = oligarchy_subtype
 }
 create_country_leader = {
-	name = "Henry Alexander Baldwin"
+	name = "Генри Александр Болдуин"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Alexander_Baldwin.png"
 	expire = "1.1.1"
 	ideology = soccon_oligarchy_subtype
 }
 create_country_leader = {
-	name = "Lawrence McCully Judd"
+	name = "Лоуренс Маккалли Джадд"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Lawrence_Judd.png"
 	expire = "1.1.1"
 	ideology = humanistic_capitalism_subtype
 }
 create_country_leader = {
-	name = "Samuel Wilder King"
+	name = "Самуэль Вайлдер Кинг"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Samuel_King.png"
 	expire = "1.1.1"
 	ideology = centrist_subtype
 }
 create_country_leader = {
-	name = "John Henry Wilson"
+	name = "Джон Генри Уилсон"
 	picture = "gfx/leaders/HAW/Portrait_HAW_John_Henry_Wilson.png"
 	expire = "1.1.1"
 	ideology = socdem_left_nationalism_subtype
 }
 create_country_leader = {
-	name = "Arthur Rutledge"
+	name = "Артур Ратледж"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Arthur_Rutledge.png"
 	expire = "1.1.1"
 	ideology = radsoc_clientelism_subtype
 }
 create_country_leader = {
-	name = "Jack Hall"
+	name = "Джек Холл"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Jack_Hall.png"
 	expire = "1.1.1"
 	ideology = syndicalist_subtype
 }
 create_country_leader = {
-	name = "Jack Denichi Kimoto"
+	name = "Джек Деничи Кимото"
 	picture = "gfx/leaders/HAW/Portrait_HAW_Jack_Denichi_Kimoto.png"
 	expire = "1.1.1"
 	ideology = authcom_subtype
@@ -240,8 +240,8 @@ add_ideas = {
 
 ### Field Marshals ###
 	
-create_field_marshal = {# "Walter Campbell Short"
-	name = "Walter Campbell Short"
+create_field_marshal = {# "Уолтер Кэмпбелл Шорт"
+	name = "Уолтер Кэмпбелл Шорт"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Walter_Short.png"
 	traits = { skilled_staffer }
 	skill = 3
@@ -251,8 +251,8 @@ create_field_marshal = {# "Walter Campbell Short"
 	logistics_skill = 3
 }	
 	
-create_field_marshal = {# "Charles Douglas Herron"
-	name = "Charles Douglas Herron"
+create_field_marshal = {# "Чарльз Дуглас Херрон"
+	name = "Чарльз Дуглас Херрон"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Charles_Herron.png"
 	traits = { defensive_doctrine old_guard }
 	skill = 3
@@ -264,8 +264,8 @@ create_field_marshal = {# "Charles Douglas Herron"
 
 ### Corps Commanders ###
 
-create_corps_commander = {# "Kendall Jordan Fielder"
-	name = "Kendall Jordan Fielder"
+create_corps_commander = {# "Кендалл Джордан Филдер"
+	name = "Кендалл Джордан Филдер"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Kendall_Fielder.png"
 	traits = { artillery_officer }
 	skill = 2
@@ -275,8 +275,8 @@ create_corps_commander = {# "Kendall Jordan Fielder"
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Delos Carleton Emmons
-	name = "Delos Carleton Emmons"
+create_corps_commander = {# Делос Карлетон Эммонс
+	name = "Делос Карлетон Эммонс"
 	desc = "HAW_DELOS_EMMONS_ARMY_DESC"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Delos_Emmons.png"
 	traits = {
@@ -289,8 +289,8 @@ create_corps_commander = {# Delos Carleton Emmons
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Barney F. Hajiro
-	name = "Barney F. Hajiro"
+create_corps_commander = {# Барни Хадзиро
+	name = "Барни Хадзиро"
 	desc = "HAW_BARNEY_HAJIRO_ARMY_DESC"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Barney_Hajiro.png"
 	traits = {
@@ -303,8 +303,8 @@ create_corps_commander = {# Barney F. Hajiro
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Robert C. Richardson Jr.
-	name = "Robert C. Richardson Jr."
+create_corps_commander = {# Роберт К. Ричардсон мл.
+	name = "Роберт К. Ричардсон мл."
 	desc = "HAW_ROBERT_RICHARDSON_ARMY_DESC"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Robert_Richardson.png"
 	traits = {
@@ -319,7 +319,7 @@ create_corps_commander = {# Robert C. Richardson Jr.
 }
 
 create_corps_commander = {# "Clarence Tinker"
-	name = "Clarence Tinker"
+	name = "Кларенс Тинкер"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Clarence_Tinker.png"
 	traits = { air_commander }
 	skill = 2
@@ -330,8 +330,8 @@ create_corps_commander = {# "Clarence Tinker"
 }
 
 ### Admirals ###
-create_navy_leader = {# Luke McNamee
-	name = "Luke McNamee"
+create_navy_leader = {# Люк МакНейми
+	name = "Люк МакНейми"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Luke_McNamee.png"
 	traits = {
 		ironside
@@ -343,8 +343,8 @@ create_navy_leader = {# Luke McNamee
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-create_navy_leader = {# Gordon Pai'ea Chung-Hoon
-	name = "Gordon Pai'ea Chung-Hoon"
+create_navy_leader = {# Гордон Пай'еа Чунг-Хун
+	name = "Гордон Пай'еа Чунг-Хун"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Gordon_Hoon.png"
 	traits = {spotter}
 	skill = 1
@@ -353,8 +353,8 @@ create_navy_leader = {# Gordon Pai'ea Chung-Hoon
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
-create_navy_leader = {# Benjamin McCandlish
-	name = "Benjamin McCandlish"
+create_navy_leader = {# Бенджамин МакКэндлиш
+	name = "Бенджамин МакКэндлиш"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Benjamin_McCandlish.png"
 	traits = {old_guard_navy}
 	skill = 2
@@ -364,8 +364,8 @@ create_navy_leader = {# Benjamin McCandlish
 	coordination_skill = 3
 }
 
-create_navy_leader = {# "Husband Edward Kimmel"
-	name = "Husband Edward Kimmel"
+create_navy_leader = {# "Хазбенд Киммел"
+	name = "Хазбенд Киммел"
 	portrait_path = "gfx/leaders/HAW/Portrait_HAW_Husband_Kimmel.png"
 	traits = { old_guard_navy politically_connected }
 	skill = 1

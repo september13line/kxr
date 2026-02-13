@@ -1071,17 +1071,17 @@ NFL_uprising_preperation = {
 		
 		cancel_trigger = {
 			OR = {
-				custom_trigger_tooltip = {
-					tooltip = NFL_canadian_suspicion_below_4
-					check_variable = {
-						var = NFL_uprising_suspicion
-						value = 4
-						compare = less_than
+			custom_trigger_tooltip = {
+				tooltip = NFL_canadian_suspicion_below_4
+				check_variable = {
+					var = NFL_uprising_suspicion
+					value = 4
+					compare = less_than
 					} 
 				}
 				hidden_trigger = {
 					has_country_flag = NFL_uprising_occured
-				}
+				} 
 			}
 		}
 
@@ -1961,7 +1961,7 @@ naval_decisions = {
 			set_country_flag = NFL_schwert_flag
 			custom_effect_tooltip = NFL_schwert_tt
 			create_navy_leader = {
-				name = "C.M.R. Schwerdt"
+				name = "Чарльз М.Р. Швердт"
 				portrait_path = "gfx/leaders/NFL/Portrait_Newfoundland_C_M_R_Schwerdt.png"
 				traits = { politically_connected fleet_protector torpedo_expert fly_swatter }
 				skill = 2

@@ -3229,7 +3229,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_boganda_coup"
@@ -3254,7 +3254,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_de_bokassaization"
@@ -3286,7 +3286,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_foundations_of_democracy"
@@ -3319,7 +3319,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_freedom_from_colonialism"
@@ -3352,7 +3352,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_cleanse_MESAN"
@@ -3377,7 +3377,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_foundations_of_a_nation"
@@ -3402,7 +3402,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_christian_democracy"
@@ -3436,7 +3436,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_into_modernity"
@@ -3466,7 +3466,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_economic_health"
@@ -3513,7 +3513,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_functioning_government"
@@ -3544,7 +3544,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_country_leader = { name = "Barthélemy Boganda" ruling_only = yes }
+			has_country_leader = { name = "Бартелеми Боганда" ruling_only = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CEA_united_states_of_latin_africa"
@@ -3554,7 +3554,7 @@ focus_tree = {
 					days = 5
 				}
 			}
-
+			
 			create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_latin_africa
@@ -3714,7 +3714,7 @@ focus_tree = {
 			remove_ideas_with_trait = security_minister
 			add_ideas = CEA_Jane_Vialle_sec_sde
 			create_corps_commander = {
-				name = "Jane Vialle "
+				name = "Джейн Виалле "
 				portrait_path = "gfx/leaders/CEA/Portrait_CEA_Jane_Vialle.png"
 				traits = {
 					politically_connected
@@ -3820,9 +3820,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			OR = {
-			has_government = social_democrat
-			has_government = syndicalist
+				OR = {
+				has_government = social_democrat
+				has_government = syndicalist
 			}
 		}
 		completion_reward = {
@@ -3849,9 +3849,9 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			OR = {
-			has_government = social_democrat
-			has_government = syndicalist
+				OR = {
+				has_government = social_democrat
+				has_government = syndicalist
 			}
 		}
 		completion_reward = {
@@ -4195,7 +4195,7 @@ focus_tree = {
 				set_faction_leader = yes
 			}
 			else = {
-			create_faction_from_template = { 
+				create_faction_from_template = { 
 				template = faction_template_generic_dominance              
 				name = faction_equatorial_africa
 				icon = GFX_faction_equatorial_africa

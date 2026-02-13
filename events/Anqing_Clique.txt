@@ -143,7 +143,7 @@ country_event = { #wu says no
 	}
 }
 
-country_event = { #Chen Yi approaches Chen Tiaoyuan and asks him to switch to Fengtian/Japan
+country_event = { #Чэнь И approaches Чэнь Тяоюань and asks him to switch to Fengtian/Japan
 	id = anq.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event anq.5" }
 	title = anq.5.t
@@ -323,7 +323,7 @@ country_event = { #Japan has pledged support, attack now
 			}
 			hidden_effect = {
 				if = {	
-					limit = { has_country_leader = { name = "Chen Tiaoyuan" ruling_only = yes } }
+					limit = { has_country_leader = { name = "Чэнь Тяоюань" ruling_only = yes } }
 					set_country_leader_portrait = {
 						portrait = "gfx/leaders/ANQ/Portrait_ANQ_Chen_Double.png"
 					}
@@ -387,7 +387,7 @@ country_event = { # Chen Sides with Fengtian
 	}
 }
 
-country_event = { #Wu Peifu reconsiders his position
+country_event = { #У Пэйфу reconsiders his position
 	id = anq.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event anq.8" }
 	title = anq.8.t
@@ -3069,14 +3069,14 @@ country_event = { # Puppet for pro-japan ANQ
 				add_state_core = 1065
 				add_state_core = 1064
 				create_country_leader = {
-					name = "Liu Heding"
+					name = "Лю Хэдинг"
 					desc = "POLITICS_SQI_LIU_HEDING_ARMY_DESC"
 					picture = "gfx/leaders/ANQ/Portrait_ANQ_Liu_Heding.png"
 					expire = "1.1.1"
 					ideology = pataut_warlordism_subtype
 				}
 				create_country_leader = {
-					name = "Liu Heding"
+					name = "Лю Хэдинг"
 					desc = "POLITICS_SQI_LIU_HEDING_ARMY_DESC"
 					picture = "gfx/leaders/ANQ/Portrait_ANQ_Liu_Heding.png"
 					expire = "1.1.1"
@@ -5884,7 +5884,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 		trigger = {
 			QIE = {
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				NOT = { has_country_flag = QIE_manchu_restoration }
@@ -5896,7 +5896,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 		trigger = {
 			QIE = {
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				has_country_flag = QIE_manchu_restoration
@@ -5909,7 +5909,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 			QIE = {
 				NOT = {
 					has_country_leader = {
-						name = "Puyi"
+						name = "Пу И"
 						ruling_only = yes
 					}
 				}
@@ -5925,7 +5925,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 		trigger = {
 			QIE = {
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				NOT = { has_country_flag = QIE_manchu_restoration }
@@ -5984,7 +5984,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 		trigger = {
 			QIE = {
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				has_country_flag = QIE_manchu_restoration
@@ -6017,7 +6017,7 @@ country_event = { # anti concessionist opinion of qing (pro-fengtian)
 			QIE = {
 				NOT = {
 					has_country_leader = {
-						name = "Puyi"
+						name = "Пу И"
 						ruling_only = yes
 					}
 				}
@@ -6047,7 +6047,7 @@ country_event = { # anti-concessions for reclamation
 		trigger = {
 			QIE = {
 				has_country_leader = {
-					name = "Puyi"
+					name = "Пу И"
 					ruling_only = yes
 				}
 				has_country_flag = QIE_manchu_restoration
@@ -6089,7 +6089,7 @@ country_event = { # anti-concessions against reclamation
 			QIE = {
 				NOT = {
 					has_country_leader = {
-						name = "Puyi"
+						name = "Пу И"
 						ruling_only = yes
 					}
 				}

@@ -1420,7 +1420,7 @@ country_event = {
 	CEN = {
 	set_capital = { state = 317 }
 	create_country_leader = {
-				name = "Lillian I"
+				name = "Лилиан I"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/NIC/Portrait_NIC_Lillian_Somoza.png"
@@ -1430,7 +1430,7 @@ country_event = {
 					}
 				}
 				create_country_leader = {
-				name = "Lillian I"
+				name = "Лилиан I"
 				desc = ""
 				female = yes
 				picture = "gfx/leaders/NIC/Portrait_NIC_Lillian_Somoza.png"
@@ -1489,22 +1489,22 @@ country_event = { # Join Latin Union
 				OR = {
 					AND = {
 						tag = IRE
-						has_game_rule = {
-							rule = IRE_forpol
+							has_game_rule = {
+								rule = IRE_forpol
 							option = IRE_FORPOL_LATIN_UNION
 						}
 					}
 					AND = {
 						tag = MLT
-						has_game_rule = {
-							rule = MLT_foreign
+							has_game_rule = {
+								rule = MLT_foreign
 							option = MLT_FOREIGN_LATIN_UNION
 						}
 					}
 					AND = {
 						tag = MEX
-						has_game_rule = {
-							rule = MEX_foreign_policy
+							has_game_rule = {
+								rule = MEX_foreign_policy
 							option = MEX_FOREIGN_POLICY_LATIN_UNION
 						}
 					}
@@ -1523,20 +1523,20 @@ country_event = { # Join Latin Union
 					}
 					AND = {
 						tag = ENG
-						has_game_rule = {
-							rule = BRG_forpol
+							has_game_rule = {
+								rule = BRG_forpol
 							option = BRG_FORPOL_MED_PACT
 						}
 					}
 					AND = {
 						tag = ROM
-						has_game_rule = {
-							rule = ROM_foreign_policy
+							has_game_rule = {
+								rule = ROM_foreign_policy
 							option = ROM_FOREIGN_POLICY_LATIN_UNION
 						}
+							}
+						}
 					}
-				}
-			}
 		}
 		CAR = {
 		country_event = carfor.476
@@ -1588,7 +1588,7 @@ country_event = {#
 	option = { #oh no
 		name = carfor.477.a
 		create_country_leader = {
-			name = "Javier I"
+			name = "Хавьер I"
 			picture = "gfx/leaders/CAR/Portrait_Javier_I.png"
 			expire = "1.1.1"
 			ideology = left_carlism_subtype

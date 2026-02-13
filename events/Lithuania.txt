@@ -816,7 +816,7 @@ country_event = { #Death of the King!
 			LIT_assasinate_Vytautas = yes
 			remove_all_ministers = yes
 			create_country_leader = {
-				name = "Povilas Plechavičius"
+				name = "Повилас Плехавичюс"
 				desc = "LIT_GENERAL_PLECHAVICIUS_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Povilas_Plechavicius.png"
 				expire = "1.1.1"
@@ -866,7 +866,7 @@ country_event = { #King Assasinated!
 			LIT_assasinate_Vytautas = yes
 			remove_all_ministers = yes
 			create_country_leader = {
-				name = "Stanisław Narutowicz"
+				name = "Станислав Нарутович"
 				desc = "POLITICS_STANISLAW_NARUTOWICZ_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Stanislaw_Narutowicz.png"
 				expire = "1.1.1"
@@ -3780,7 +3780,7 @@ country_event = { # D-B Ost factory opening
 }
 
 ### LAF Insurgency ###
-country_event = { # National Guard 'Iron Wolf'
+country_event = { # Национальная гвардия 'Iron Wolf'
 	id = LIT.249
 	immediate = { log = "[GetDateText]: [Root.GetName]: event LIT.249 FROM = [From.GetName]" }
 	title = LIT.249.t
@@ -4392,7 +4392,7 @@ country_event = { #The Vilnius Uprising
 		}
 		GER = { country_event = LIT.212 }
 		create_country_leader = {
-			name = "Augustinas Voldemaras"
+			name = "Аугустинас Вольдемарас"
 			desc = "POLITICS_VOLDEMARAS_DESC"
 			picture = "gfx/leaders/LIT/Portrait_LIT_Augustinas_Voldemaras_KX.png"
 			expire = "1.1.1"
@@ -4415,7 +4415,7 @@ country_event = { #The Vilnius Uprising
 		complete_national_focus = LIT_the_vilnius_coup
 		effect_tooltip = {
 			if = {
-				limit = { has_unit_leader = 76614 } #Vincas Vitkauskas
+				limit = { has_unit_leader = 76614 } #Винцас Виткаускас
 				random_unit_leader = {
 					limit = { has_id = 76614 }			
 					remove_unit_leader = yes
@@ -4625,7 +4625,7 @@ country_event = { # RIP Voldemaras
 			name = LIT_national_populist_vairas_party
 		}
 		create_country_leader = {
-			name = "Vytautas Alantas"
+			name = "Витаутас Алантас"
 			desc = "POLITICS_VYTAUTAS_ALANTAS_DESC"
 			picture = "gfx/leaders/LIT/Portrait_LIT_Vytautas_Alantas.png"
 			expire = "1.1.1"
@@ -4643,7 +4643,7 @@ country_event = { # RIP Voldemaras
 			name = LIT_national_populist_romuva_party
 		}
 		create_country_leader = {
-			name = "Antanas Maceina"
+			name = "Антанас Мацейна"
 			desc = "POLITICS_ANTANAS_MACEINA_DESC"
 			picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Maceina.png"
 			expire = "1.1.1"
@@ -4705,7 +4705,7 @@ country_event = { # Eberhard's coronation
 	option = { #Welcome your rightful ruler peasants
 		name = LIT.311.a
 		create_country_leader = {
-			name = "Mindaugas IV"
+			name = "Миндаугас IV"
 			desc = "LIT_MINDAUGAS_III_DESC"
 			picture = "gfx/leaders/LIT/Portrait_LIT_Eberhard_von_Urach.png"
 			expire = "1.1.1"
@@ -5355,25 +5355,25 @@ country_event = { #An Astonishing Session within the Seimas
 		hidden_effect = {
 			country_event = { id = LIT.353 days = 30 }
 			create_country_leader = {
-				name = "Stasys Salkauskis"
+				name = "Стасис Шалкаускис"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Stasys_Salkauskis.png"
 				expire = "1.1.1"
 				ideology = optimal_system_subtype
 			}
 			create_country_leader = {
-				name = "Vaclovas Sidzikauskas"
+				name = "Вацловас Сидзикаускас"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Vaclovas_Sidzikauskas.png"
 				expire = "1.1.1"
 				ideology = market_liberal_subtype
 			}
 			create_country_leader = {
-				name = "Steponas Kairys"
+				name = "Степонас Кайрис"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Steponas_Kairys.png"
 				expire = "1.1.1"
 				ideology = revisionist_marxism_subtype
 			}
 			create_country_leader = {
-				name = "Juozas Butkus"
+				name = "Юозас Буткус"
 				desc = "POLITICS_JUOZAS_BUTKUS_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Juozas_Butkus.png"
 				expire = "1.1.1"
@@ -5381,7 +5381,7 @@ country_event = { #An Astonishing Session within the Seimas
 			}
 
 			create_country_leader = {
-				name = "Juozas Butkus"
+				name = "Юозас Буткус"
 				desc = "POLITICS_JUOZAS_BUTKUS_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Juozas_Butkus.png"
 				expire = "1.1.1"
@@ -5389,21 +5389,21 @@ country_event = { #An Astonishing Session within the Seimas
 			}
 
 			create_country_leader = {
-				name = "Vincas Mickevičius-Kapsukas"
+				name = "Винцас Мицкявичюс-Капсукас"
 				desc = "POLITICS_VINCAS_MINCKEVICIUS_KAPSUKAS_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Vincas_Mickevicius_Kapsukas.png"
 				expire = "1.1.1"
 				ideology = radsoc_austromarxism_subtype
 			}
 			create_country_leader = {
-				name = "Antanas Smetona"
+				name = "Антанас Сметона"
 				desc = "POLITICS_ANTANAS_SMETONA_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Antanas_Smetona_KR.png"
 				expire = "1.1.1"
 				ideology = authdem_national_conservative_subtype
 			}
 			create_country_leader = {
-				name = "The Privy Council"
+				name = "Тайный совет"
 				desc = "POLITICS_LIT_PRIVY_COUNCIL_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Privy Council.png"
 				expire = "1.1.1"
@@ -5411,7 +5411,7 @@ country_event = { #An Astonishing Session within the Seimas
 			}
 
 			create_country_leader = {
-				name = "Collective Leadership"
+				name = "Коллективное лидерство"
 				desc = "POLITICS_LIT_COLLECTIVE_LEADERSHIP_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Activist_Collective.png"
 				expire = "1.1.1"
@@ -5793,7 +5793,7 @@ country_event = { #May 3 Constitution
 	}
 }
 
-country_event = { # Silvestras Žukauskas dies
+country_event = { # Сильвестрас Жукаускас dies
 	id = LITFLA.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event LITFLA.11 FROM = [From.GetName]" }
 	title = LITFLA.11.t
@@ -6157,7 +6157,7 @@ country_event = {
 				RUS = { RUS_russian_monarch = yes }
 			}
 			create_country_leader = {
-				name = "Kazimieras II Tiskevicius"
+				name = "Казимерас II Тишкевичюс"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"
@@ -6166,7 +6166,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Kazimieras II Tiskevicius"
+				name = "Казимерас II Тишкевичюс"
 				desc = "POLITICS_KAZIMIERAS_II_DESC"
 				picture = "gfx/leaders/LIT/Portrait_LIT_Kazimieras_Tiskevicius.png"
 				expire = "1.1.1"

@@ -543,8 +543,8 @@ country_event = {
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_GERMAN_GOVERNMENT }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_BULAK_BALAKHOVICH }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_KRYVIA }
-				}
-			}
+	}
+}
 		}
 		add_stability = 0.02
 	}
@@ -725,11 +725,11 @@ country_event = {
 
 	option = {
 		name = whiteruthenia.40.a
-		country_event = {
-			id = whiteruthenia.42
-			days = 2
-		}
-	}
+				country_event = {
+					id = whiteruthenia.42
+					days = 2
+				}
+			}
 	option = {
 		name = whiteruthenia.40.b
 		add_stability = -0.05
@@ -770,9 +770,9 @@ country_event = {
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_GERMAN_GOVERNMENT }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_BULAK_BALAKHOVICH }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_KRYVIA }
+					}
 				}
 			}
-		}
 		set_politics = { ruling_party = paternal_autocrat }
 		add_popularity = {
 			ideology = paternal_autocrat
@@ -825,7 +825,7 @@ country_event = {
 				WHR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade
 				WHR_Andrej_Jakubiecki_eco_ade
 				WHR_Sigismund_von_Hohenzollern_sec_pau
-			}
+		}
 		}
 		set_country_flag = sigismund_I_HoS
 	}
@@ -884,7 +884,7 @@ country_event = {
 		set_country_flag = Sigismund_von_Hohenzollern_dead
 		hidden_effect = {
 			create_country_leader = {
-				name = "Radasłaŭ Astroŭski"
+				name = "Радаслаў Астроўскі"
 				desc = "POLITICS_RADASLAU_ASTROUSKI_DESC"
 				picture = "gfx/leaders/WHR/Portrait_WHR_Radaslau_Astrouski.png"
 				expire = "1.1.1"
@@ -3150,9 +3150,9 @@ country_event = { #future of monarchy?
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_GERMAN_GOVERNMENT }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_BULAK_BALAKHOVICH }
 					has_game_rule = { rule = WHR_situation option = WHR_SITUATION_KRYVIA }
-					}
-					}
-					}
+				}
+			}
+		}
 		add_stability = -0.1
 		add_popularity = {
 			ideology = social_democrat
@@ -3214,7 +3214,7 @@ country_event = { #invite to faction
 	is_triggered_only = yes
 
 	option = {
-		name = whiteruthenia.1002.a 
+		name = whiteruthenia.1002.a
 		if = {
 			limit = {
 				is_in_faction = yes
@@ -3497,11 +3497,11 @@ country_event = { # PatAut Coup
 			country_event = { id = whrpol.28 days = 5 }
 			if = {
 				limit = { 95 = { is_owned_and_controlled_by = ROOT } }
-				95 = { set_demilitarized_zone = yes }
+			95 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 207 = { is_owned_and_controlled_by = ROOT } }
-				207 = { set_demilitarized_zone = yes }
+			207 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 95 = { is_owned_and_controlled_by = ROOT } }
@@ -3509,23 +3509,23 @@ country_event = { # PatAut Coup
 			}
 			if = {
 				limit = { 1087 = { is_owned_and_controlled_by = ROOT } }
-				1087 = { set_demilitarized_zone = yes }
+			1087 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 1294 = { is_owned_and_controlled_by = ROOT } }
-				1294 = { set_demilitarized_zone = yes }
+			1294 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 1295 = { is_owned_and_controlled_by = ROOT } }
-				1295 = { set_demilitarized_zone = yes }
+			1295 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 204 = { is_owned_and_controlled_by = ROOT } }
-				204 = { set_demilitarized_zone = yes }
+			204 = { set_demilitarized_zone = yes }
 			}
 			if = {
 				limit = { 194 = { is_owned_and_controlled_by = ROOT } }
-				194 = { set_demilitarized_zone = yes }
+			194 = { set_demilitarized_zone = yes }
 			}
 			add_ideas = WHR_Power_Struggle
 			set_country_flag = WHRcivilwar
@@ -3579,14 +3579,14 @@ country_event = { # Astrouski asks the Sojm for support
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = WHR_situation option = WHR_SITUATION_KRYVIA }
-			}
-		}
+					}
+					}
 		add_soccon_to_coalition = yes
 		country_event = { id = whrpol.23 days = 3 }
 		hidden_effect = {
 			if = {
 				limit = { has_game_rule = { rule = WHR_situation option = DEFAULT } }
-				random_list = {
+			random_list = {
 					30 = { set_country_flag = WHR_ai_anarchy }
 					70 = { }
 				}
@@ -3952,14 +3952,14 @@ country_event = { # Astrouski forms anti-syndie government
 			ideology = authoritarian_democrat
 			long_name = WHR_authoritarian_democrat2_party_long
 			name = WHR_authoritarian_democrat2_party
-		}
-		create_country_leader = {
-			name = "Radasłaŭ Astroŭski"
-			desc = "POLITICS_RADASLAU_ASTROUSKI_DESC"
-			picture = "gfx/leaders/WHR/Portrait_WHR_Radaslau_Astrouski.png"
-			expire = "1.1.1"
+			}
+			create_country_leader = {
+			name = "Радаслаў Астроўскі"
+				desc = "POLITICS_RADASLAU_ASTROUSKI_DESC"
+				picture = "gfx/leaders/WHR/Portrait_WHR_Radaslau_Astrouski.png"
+				expire = "1.1.1"
 			ideology = authdem_national_conservative_subtype 
-		}		
+		}
 		remove_all_ministers = yes
 		add_soccon_to_coalition = yes
 		add_pataut_to_coalition = yes 
@@ -4018,7 +4018,7 @@ country_event = { # post-1939 elections, soccons are also electable alongside th
 		name = whrpol.26.a
 		trigger = {
 			has_country_leader = {
-				name = "Uladzimir"
+				name = "Уладзімір"
 				ruling_only = yes
 			}
 			NOT = {
@@ -4083,7 +4083,7 @@ country_event = { # post-1939 elections, soccons are also electable alongside th
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Uladzimir"
+					name = "Уладзімір"
 					ruling_only = yes
 				}
 			}
@@ -4131,7 +4131,7 @@ country_event = { # post-1939 elections, soccons are also electable alongside th
 		trigger = {
 			NOT = {
 				has_country_leader = {
-					name = "Uladzimir"
+					name = "Уладзімір"
 					ruling_only = yes
 				}
 			}
@@ -4218,7 +4218,7 @@ country_event = { # post-1939 elections, soccons are also electable alongside th
 		trigger = {
 			NOT = { has_country_flag = Vasil_Zacharka_dead }
 			has_country_leader = {
-				name = "Uladzimir"
+				name = "Уладзімір"
 				ruling_only = yes
 			}
 		}
@@ -4333,7 +4333,7 @@ country_event = { # Jezavitau defects; warning from Germany
 				retire = yes
 			}
 			create_field_marshal = {
-				name = "Werner Kempf "
+				name = "Вернер Кемпф "
 			}
 		}
 		hidden_effect = {
@@ -4373,7 +4373,7 @@ country_event = { # semi-direct rule from Berlin
 		clr_country_flag = WHRcivilwar
 		clr_global_flag = WHR_The_Countercoup
 		create_country_leader = {
-			name = "Werner Kempf"
+			name = "Вернер Кемпф"
 			desc = "POLITICS_WERNER_KEMPF_DESC"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Werner_Kempf.png"
 			expire = "1.1.1"
@@ -4648,7 +4648,7 @@ country_event = { # LitBel forms
 		}
 		if = {
 			limit = { NOT = { has_cosmetic_tag = WHR_KRY } }
-			set_cosmetic_tag = WHR_LITBEL
+		set_cosmetic_tag = WHR_LITBEL
 		}
 		every_owned_state = {
 			limit = { is_core_of = LIT }
@@ -5185,7 +5185,7 @@ country_event = { # Anti-German Revolution
 		clear_all_relations = yes
 		set_cosmetic_tag = WHR_ANDRU
 		create_country_leader = {
-			name = "Stanisłaŭ Bułak-Bałachowič"
+			name = "Станислав Булак-Балахович"
 			desc = "POLITICS_BULAK_BALACHOWIC_DESC"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Stanislaw_Bulak_Balachowicz.png"
 			expire = "1.1.1"
@@ -5214,9 +5214,9 @@ country_event = { # Anti-German Revolution
 		}
 		effect_tooltip = { 
 			create_field_marshal = {
-				name = "Stanisłaŭ Bułak-Bałachowič "
+				name = "Станислав Булак-Балахович "
+				}
 			}
-		}
 		hidden_effect = {					
 			NSW = {
 				random_unit_leader = {
@@ -5246,7 +5246,7 @@ country_event = { # Anti-German Revolution
 		clear_all_relations = yes
 		set_cosmetic_tag = WHR_anarchy
 		create_country_leader = {
-			name = "Revaliucyjny Savet Belarusi"
+			name = "Рэвалюцыйны Савет Беларусі"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 			expire = "1.1.1"
 			ideology = anarcho_bolshevism_subtype
@@ -5430,7 +5430,7 @@ country_event = { # Hramada Fate
 		country_event = {
 			id = whrpol.55
 			days = 7
-		}	
+		}		
 		complete_national_focus = WHR_revolution
 		complete_national_focus = WHR_BPSR
 		clear_all_relations = yes
@@ -5587,7 +5587,7 @@ country_event = { # Separate peace for WHR-RUS?
 				limit = {
 					OR = {
 						is_core_of = WHR
-						is_claimed_by = WHR
+					is_claimed_by = WHR
 					}
 					owner = { is_ally_with = WHR }
 				}
@@ -5616,7 +5616,7 @@ country_event = { # Separate peace for WHR-RUS?
 				limit = {
 					OR = {
 						is_core_of = WHR
-						is_claimed_by = WHR
+					is_claimed_by = WHR
 					}
 					owner = { is_ally_with = WHR }
 					NOT = { state = 242 }
@@ -5632,7 +5632,7 @@ country_event = { # Separate peace for WHR-RUS?
 		}
 	}
 	option = { # Only with no territorial changes
-		name = whrpol.52.a
+	    name = whrpol.52.a
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -5689,7 +5689,7 @@ country_event = { # RUS counter-offer
 				limit = {
 					OR = {
 						is_core_of = WHR
-						is_claimed_by = WHR
+					is_claimed_by = WHR
 					}
 					owner = { is_ally_with = WHR }
 				}
@@ -5713,7 +5713,7 @@ country_event = { # RUS counter-offer
 				limit = {
 					OR = {
 						is_core_of = WHR
-						is_claimed_by = WHR
+					is_claimed_by = WHR
 					}
 					owner = { is_ally_with = WHR }
 					NOT = { state = 242 }
@@ -5723,7 +5723,7 @@ country_event = { # RUS counter-offer
 			}
 			clr_country_flag = WHR_peace_split_offered
 			if = {
-				limit = { 
+			limit = {
 					NOT = { is_subject_of = FROM }
 				}
 				get_current_government_type = yes
@@ -5736,7 +5736,7 @@ country_event = { # RUS counter-offer
 				limit = {
 					OR = {
 						is_core_of = WHR
-						is_claimed_by = WHR
+					is_claimed_by = WHR
 					}
 					owner = { is_ally_with = WHR }
 					NOT = { state = 755 }
@@ -5823,7 +5823,7 @@ country_event = { # BPSR leader picker
 	option = {
 		name = whrpol.55.b				
 		create_country_leader = {
-			name = "Tamaš Hryb"
+			name = "Тамаш Грыб"
 			desc = "POLITICS_TAMAS_HRYB_DESC"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Tamas_Hryb.png"
 			expire = "1.1.1"
@@ -5934,18 +5934,18 @@ country_event = { #Belarus Accepts
 			}
 			set_cosmetic_tag = WHR_SOV
 		}
-		set_autonomy = {
+			set_autonomy = {
 			target = WHR
-			autonomy_state = kr_autonomous_soviet_republic
-			end_wars = no
-		}
-		FROM = {
-			add_to_war = {
-				targeted_alliance = ROOT
-				enemy = GER
+				autonomy_state = kr_autonomous_soviet_republic
+				end_wars = no
+			}
+			FROM = {
+				add_to_war = {
+					targeted_alliance = ROOT
+					enemy = GER
+				}
 			}
 		}
-	    }
 	}
 }
 
@@ -6207,13 +6207,13 @@ country_event = { # Anarchists
 			long_name = WHR_anarchist_party_long
 		}
 		create_country_leader = {
-			name = "Mark Mratchny"
+			name = "Марк Мрачный"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Mark_Mratchny.png"
 			expire = "1.1.1"
 			ideology = anarcho_communism_subtype
 		}
 		create_country_leader = {
-			name = "Juda Grossman"
+			name = "Иуда Гроссман"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Juda_Grossman.png"
 			expire = "1.1.1"
 			ideology = anarcho_bolshevism_subtype
@@ -6247,13 +6247,13 @@ country_event = { # Anarchists
 			long_name = WHR_anarchist_party_long
 		}
 		create_country_leader = {
-			name = "Mark Mratchny"
+			name = "Марк Мрачный"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Mark_Mratchny.png"
 			expire = "1.1.1"
 			ideology = anarcho_communism_subtype
 		}
 		create_country_leader = {
-			name = "Juda Grossman"
+			name = "Иуда Гроссман"
 			picture = "gfx/leaders/WHR/Portrait_WHR_Juda_Grossman.png"
 			expire = "1.1.1"
 			ideology = anarcho_bolshevism_subtype
@@ -6503,7 +6503,7 @@ country_event = { # Anarchists
 		every_owned_state = {
 			limit = {
 				OR = {
-					is_core_of = UKR
+				is_core_of = UKR
 				    is_core_of = USR
 				}
 				NOT = { state = 95 }
@@ -6519,26 +6519,26 @@ country_event = { # Anarchists
 			set_cosmetic_tag = POL_anarchist
 			if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_bolshevism_subtype } }
-				create_country_leader = {
-					name = "Rewolucyjna Rada Polski"
-					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
-					expire = "1.1.1"
+					create_country_leader = {
+					name = "Рэвалюцыйны савет Польшчы"
+						picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
+						expire = "1.1.1"
 					ideology = anarcho_bolshevism_subtype
 				}
 			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Rewolucyjna Rada Polski"
+					name = "Рэвалюцыйны савет Польшчы"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
+					}
 				}
-			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Rewolucyjna Rada Polski"
+					name = "Рэвалюцыйны савет Польшчы"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
@@ -6547,7 +6547,7 @@ country_event = { # Anarchists
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = radsoc_anarcho_syndicalist_subtype } }
 				create_country_leader = {
-					name = "Rewolucyjna Rada Polski"
+					name = "Рэвалюцыйны савет Польшчы"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = radsoc_anarcho_syndicalist_subtype 
@@ -6558,26 +6558,26 @@ country_event = { # Anarchists
 			set_cosmetic_tag = LIT_anarchist
 			if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_bolshevism_subtype } }
-				create_country_leader = {
-					name = "Lietuvos Revoliucinė Taryba"
-					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
-					expire = "1.1.1"
+					create_country_leader = {
+						name = "Літоўскі рэвалюцыйны савет"
+						picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
+						expire = "1.1.1"
 					ideology = anarcho_bolshevism_subtype
 				}
 			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Lietuvos Revoliucinė Taryba"
+					name = "Літоўскі рэвалюцыйны савет"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
+					}
 				}
-			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Lietuvos Revoliucinė Taryba"
+					name = "Літоўскі рэвалюцыйны савет"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
@@ -6586,37 +6586,37 @@ country_event = { # Anarchists
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = radsoc_anarcho_syndicalist_subtype } }
 				create_country_leader = {
-					name = "Lietuvos Revoliucinė Taryba"
+					name = "Літоўскі рэвалюцыйны савет"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = radsoc_anarcho_syndicalist_subtype 
 				}
-			}	
+			}				
 		}
 		UKR = {
 			set_cosmetic_tag = UKR_anarchist
 			if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_bolshevism_subtype } }
-				create_country_leader = {
-					name = "Revoliutsiina Rada Ukraini"
-					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
-					expire = "1.1.1"
+					create_country_leader = {
+						name = "Рэвалюцыйная Рада Украіны"
+						picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
+						expire = "1.1.1"
 					ideology = anarcho_bolshevism_subtype
 				}
 			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Revoliutsiina Rada Ukraini"
+					name = "Рэвалюцыйная Рада Украіны"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
+					}
 				}
-			}
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = anarcho_communism_subtype } }
 				create_country_leader = {
-					name = "Revoliutsiina Rada Ukraini"
+					name = "Рэвалюцыйная Рада Украіны"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = anarcho_communism_subtype
@@ -6625,12 +6625,12 @@ country_event = { # Anarchists
 			else_if = {
 				limit = { WHR = { has_country_leader_ideology = radsoc_anarcho_syndicalist_subtype } }
 				create_country_leader = {
-					name = "Revoliutsiina Rada Ukraini"
+					name = "Рэвалюцыйная Рада Украіны"
 					picture = "gfx/leaders/WHR/Portrait_WHR_Revolutionary_Council_of_Belarus.png"
 					expire = "1.1.1"
 					ideology = radsoc_anarcho_syndicalist_subtype 
 				}
-			}
+			}	
 		}
 		every_other_country = {
 			limit = {
@@ -6825,7 +6825,7 @@ country_event = { #Germany Offers Peace
 				transfer_state_to = ROOT
 				add_claim_by = ROOT
 			}
-		}
+		}		
 		if = {
 			limit = { controls_state = 1329 }
 			1329 = {
@@ -7528,8 +7528,8 @@ country_event = { # Visit of Princes Waldemar (legacy King Uladzimir) and Sigism
 	fire_only_once = yes
 	trigger = {
 		NOT = {
-			has_country_leader = { name = "Uladzimir" ruling_only = yes }
-			has_country_leader = { name = "Žyhimont" ruling_only = yes }
+			has_country_leader = { name = "Уладзімір" ruling_only = yes }
+			has_country_leader = { name = "Жыгімонт" ruling_only = yes }
 		}
 		is_in_faction_with = GER
 	}

@@ -39,21 +39,21 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
 	
-	basic_naval_mines = 1
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
-	smoke_generator = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
+		smoke_generator = 1
 	
-	### Transport ###
-	mtg_transport = 1
+		### Transport ###
+		mtg_transport = 1
 }
 
 country_event = { id = mexico.1 days = 2 }
@@ -140,80 +140,80 @@ add_ideas = {
 	MEX_church_question
 }
 
-create_country_leader = {# Plutarco Calles
-	name = "Plutarco Calles"
+create_country_leader = {# Плутарко Кальес
+	name = "Плутарко Кальес"
 	desc = "POLITICS_PLUTARCO_CALLES_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Plutarco_Calles.png"
 	expire = "1.1.1"
 	ideology = maximato_subtype
 	traits = { jefe_maximo }
 }
-create_country_leader = {# Vicente Toledano
-	name = "Vicente Toledano"
+create_country_leader = {# Висенте Толедано
+	name = "Висенте Толедано"
 	desc = "POLITICS_VINCENTE_TOLEDANO_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Vincente_Toledano.png"
 	expire = "1.1.1"
 	ideology = centralized_syndicalism_subtype
 	traits = {}
 }
-create_country_leader = {# Emiliano Zapata
-	name = "Emiliano Zapata"
+create_country_leader = {# Эмилиано Сапата
+	name = "Эмилиано Сапата"
 	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Emiliano_Zapata.png"
 	expire = "1.1.1"
 	ideology = agrarian_socialism_subtype
 	traits = { dislikes_politics }
 }
-create_country_leader = {# Pascual Ortiz Rubio
-	name = "Pascual Ortiz Rubio"
+create_country_leader = {# Паскуаль Ортис Рубио
+	name = "Паскуаль Ортис Рубио"
 	desc = "POLITICS_PASCUAL_RUBIO_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Pascual_Rubio.png"
 	expire = "1.1.1"
 	ideology = syndie_social_democrat_subtype
 	traits = {}
 }
-create_country_leader = {# Manuel Avila Camacho
-	name = "Manuel Avila Camacho"
+create_country_leader = {# Мануэль Авила Камачо
+	name = "Мануэль Авила Камачо"
 	desc = "POLITICS_AVILLA_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Manuel_Avila_Camacho.png"
 	expire = "1.1.1"
-	ideology = soclib_progressive_democracy_subtype
+	ideology = social_liberal_subtype
 	traits = {}
 }	
 create_country_leader = {# Miguel Aleman Valdéz
-	name = "Adolfo de la Huerta"
+	name = "Адольфо де ла Уэрта"
 	desc = "POLITICS_ADOLFO_HUERTA_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Adolfo_de_la_Huerta_KX.png"
 	expire = "1.1.1"
 	ideology = marlib_classical_liberalism_subtype
 	traits = {}
 }
-create_country_leader = {# Manuel Gomez Morín
-	name = "Manuel Gomez Morín"
+create_country_leader = {# Мануэль Гомес Морин
+	name = "Мануэль Гомес Морин"
 	desc = "POLITICS_MORIN_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Manuel_Gomez_Morin.png"
 	expire = "1.1.1"
 	ideology = christian_democracy_subtype
 	traits = {}
 }
-create_country_leader = {# Juan Andreu Almazán
-	name = "Juan Andreu Almazán"
+create_country_leader = {# Хуан Андреу Альмасан
+	name = "Хуан Андреу Альмасан"
 	desc = "POLITICS_JUAN_ALMAZAN_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Juan_Almazan.png"
 	expire = "1.1.1"
 	ideology = authdem_national_conservative_subtype
 	traits = {}
 }
-create_country_leader = {# Pablo Gonzalez Garza
-	name = "Pablo Gonzalez Garza"
+create_country_leader = {# Пабло Гонсалес Гарса
+	name = "Пабло Гонсалес Гарса"
 	desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Pablo_Garza_Civilian.png"
 	expire = "1.1.1"
 	ideology = junta_subtype
 	traits = {}
 }
-create_country_leader = {# Pablo Gonzalez Garza
-	name = "Pablo Gonzales Garza"
+create_country_leader = {# Пабло Гонсалес Гарса
+	name = "Пабло Гонсалес Гарса"
 	desc = "POLITICS_PABLO_GONZALES_GARZA_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Mexico_Pablo_Garza_Civilian.png"
 	expire = "1.1.1"
@@ -222,8 +222,8 @@ create_country_leader = {# Pablo Gonzalez Garza
 }
 
 ### Field Marshal
-create_field_marshal = {# Emiliano Zapata
-	name = "Emiliano Zapata "
+create_field_marshal = {# Эмилиано Сапата
+	name = "Эмилиано Сапата "
 	desc = "ARMY_MEX_EMILIANO_ZAPATA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Emiliano_Zapata_General.png"
 	id = 9372
@@ -240,7 +240,7 @@ create_field_marshal = {# Emiliano Zapata
 	logistics_skill = 3
 }
 create_field_marshal = {# Alvaro Obregon
-	name = "Álvaro Obregón"
+	name = "Альваро Обрегон"
 	#desc = "ARMY_MEX_EMILIANO_ZAPATA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Alvaro_Obregon.png"
 	id = 9972
@@ -256,8 +256,8 @@ create_field_marshal = {# Alvaro Obregon
 	logistics_skill = 3
 }
 ### General ###
-create_corps_commander = {# Pancho Villa
-	name = "Pancho Villa "
+create_corps_commander = {# Панчо Вилья
+	name = "Панчо Вилья "
 	desc = "ARMY_MEX_PANCHO_VILLA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Pancho_Villa_General.png"
 	id = 9373
@@ -273,8 +273,8 @@ create_corps_commander = {# Pancho Villa
 	planning_skill = 2
 	logistics_skill = 3
 }
-create_corps_commander = {# Pablo Gonzalez Garza
-	name = "Pablo Gonzalez Garza "
+create_corps_commander = {# Пабло Гонсалес Гарса
+	name = "Пабло Гонсалес Гарса "
 	desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Garza.png"
 	id = 93731
@@ -291,8 +291,8 @@ create_corps_commander = {# Pablo Gonzalez Garza
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Plutarco Elías Calles
-	name = "Plutarco Elías Calles"
+create_corps_commander = {# Плутарко Элиас Кальес
+	name = "Плутарко Элиас Кальес"
 	desc = "ARMY_MEX_PLUTARCO_CALLES_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Plutarco_Calles_General.png"
 	id = 9374
@@ -307,8 +307,8 @@ create_corps_commander = {# Plutarco Elías Calles
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Juan G. Cabral
-	name = "Juan G. Cabral"
+create_corps_commander = {# Хуан Г. Кабрал
+	name = "Хуан Г. Кабрал"
 	desc = "ARMY_MEX_JUAN_G_CABRAL_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Juan_G_Cabral.png"
 	traits = {
@@ -325,8 +325,8 @@ create_corps_commander = {# Juan G. Cabral
 	planning_skill = 1
 	logistics_skill = 2
 }
-create_corps_commander = {# Pablo Quiroga Escamilla
-	name = "Pablo Quiroga Escamilla"
+create_corps_commander = {# Пабло Кирога Эскамилья
+	name = "Пабло Кирога Эскамилья"
 	desc = "ARMY_MEX_PABLO_QUIROGA_ESCAMILLA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Quiroga_Escamilla.png"
 	traits = {
@@ -340,8 +340,8 @@ create_corps_commander = {# Pablo Quiroga Escamilla
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Joaquín Amaro
-	name = "Joaquín Amaro"
+create_corps_commander = {# Хоакин Амаро
+	name = "Хоакин Амаро"
 	desc = "ARMY_MEX_JOAQUIN_AMARO_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Amaro_Dominguez.png"
 	traits = {
@@ -355,8 +355,8 @@ create_corps_commander = {# Joaquín Amaro
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Francisco Luis Urquizo
-	name = "Francisco Luis Urquizo"
+create_corps_commander = {# Франсиско Луис Уркизо
+	name = "Франсиско Луис Уркизо"
 	desc = "ARMY_MEX_FRANCISCO_LUIS_URQUIZO_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_L_Urquizo.png"
 	traits = {
@@ -370,8 +370,8 @@ create_corps_commander = {# Francisco Luis Urquizo
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Pablo Macias Valenzuela
-	name = "Pablo Macias Valenzuela"
+create_corps_commander = {# Пабло Масиас Валенсуэла
+	name = "Пабло Масиас Валенсуэла"
 	desc = "ARMY_MEX_PABLO_MACIAS_VALENZUELA_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Pablo_Macias_Valenzuela.png"
 	traits = {
@@ -386,7 +386,7 @@ create_corps_commander = {# Pablo Macias Valenzuela
 	logistics_skill = 1
 }
 create_corps_commander = {# Abelardo L. Rodríguez
-	name = "Abelardo L. Rodríguez "
+	name = "Абелардо Родригес Лухан"
 	desc = "ARMY_MEX_ABELARDO_RODRIGUEZ_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Pablo_Abelardo_Rodriguez.png"
 	traits = {
@@ -400,8 +400,8 @@ create_corps_commander = {# Abelardo L. Rodríguez
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Francisco J. Mujica
-	name = "Francisco J. Mujica"
+create_corps_commander = {# Франсиско Хосе Мухика
+	name = "Франсиско Хосе Мухика"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Francisco_Jose_Mujica_Militar.png"
 	traits = {
 		politically_connected
@@ -414,8 +414,8 @@ create_corps_commander = {# Francisco J. Mujica
 	logistics_skill = 2
 	id = 94746
 }
-create_corps_commander = {# Genoveva de la O
-	name = "Genoveva de la O"
+create_corps_commander = {# Геновева де ла О
+	name = "Геновева де ла О"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Genovevo_O.png"
 	traits = {
 		war_hero
@@ -430,7 +430,7 @@ create_corps_commander = {# Genoveva de la O
 	id = 94747
 }
 create_corps_commander = {# Eufemia Zapata
-	name = "Eufemio Zapata"
+	name = "Эуфемио Сапата"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Eufemio_Zapata.png"
 	traits = {
 		war_hero
@@ -443,8 +443,8 @@ create_corps_commander = {# Eufemia Zapata
 	logistics_skill = 1
 	id = 94736
 }
-create_corps_commander = {# Francisco Mendoza Palma
-	name = "Francisco Mendoza Palma"
+create_corps_commander = {# Франсиско Мендоса Пальма
+	name = "Франсиско Мендоса Пальма"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Francisco_Mendoza_Palma.png"
 	traits = {
 		career_officer
@@ -458,8 +458,8 @@ create_corps_commander = {# Francisco Mendoza Palma
 	logistics_skill = 1
 	id = 94743
 }
-create_corps_commander = {# José María Leyva
-	name = "José María Leyva"
+create_corps_commander = {# Хосе Мария Лейва
+	name = "Хосе Мария Лейва"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Jose_Maria_Leyva.png"
 	traits = {
 		trickster
@@ -472,8 +472,8 @@ create_corps_commander = {# José María Leyva
 	logistics_skill = 1
 	id = 94744
 }
-create_corps_commander = {# Carl Ap Rhys Pryce
-	name = "Carl Ap Rhys Pryce"
+create_corps_commander = {# Кэрил ап Рис Прайс
+	name = "Кэрил ап Рис Прайс"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Carl_Ap_Rhys_Pryce.png"
 	traits = {
 		adaptable
@@ -489,8 +489,8 @@ create_corps_commander = {# Carl Ap Rhys Pryce
 	id = 94745
 }
 
-create_corps_commander = {# Maximino Avila Camacho-Generated
-	name = "Maximino Avila Camacho"
+create_corps_commander = {# Максимино Авила Камачо-Generated
+	name = "Максимино Авила Камачо"
 	desc = "ARMY_MEX_MAXIMINO_AVILA_CAMACHO_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Maximino_Avila_Camacho.png"
 	traits = { mex_junta_general trait_engineer infantry_leader career_officer harsh_leader trait_reckless }
@@ -501,8 +501,8 @@ create_corps_commander = {# Maximino Avila Camacho-Generated
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {# Gildardo Magaña
-	name = "Gildardo Magaña"
+create_corps_commander = {# Джильдардо Маганья
+	name = "Джильдардо Маганья"
 	#desc = "ARMY_MEX_MAXIMINO_AVILA_CAMACHO_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Gildardo_Magana_KX.png"
 	traits = { politically_connected war_hero organizer }
@@ -512,8 +512,8 @@ create_corps_commander = {# Gildardo Magaña
 	planning_skill = 2
 	logistics_skill = 1
 }
-create_corps_commander = {# Luis Farell
-	name = "Luis Farell"
+create_corps_commander = {# Луис Фарелл
+	name = "Луис Фарелл"
 	#desc = "ARMY_MEX_MAXIMINO_AVILA_CAMACHO_DESC"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Luis_Farell_KX.png"
 	traits = { air_commander }
@@ -527,7 +527,7 @@ create_corps_commander = {# Luis Farell
 
 ### Navy Leader
 create_navy_leader = { #Auto-Generated
-	name = "Othon Blanco Nunez de Caceres"
+	name = "Отхон Бланко Нуньес де Касерес"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Othon_Blanco.png"
 	traits = {
 		old_guard
@@ -540,7 +540,7 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 2
 }
 create_navy_leader = { #Auto-Generated
-	name = "Manuel Zermeno Araico"
+	name = "Мануэль Зермено Араико"
 	portrait_path = "gfx/leaders/MEX/Portrait_Mexico_Zermeno_Araico.png"
 	traits = {
 		blockade_runner
@@ -554,7 +554,7 @@ create_navy_leader = { #Auto-Generated
 
 ##Operative
 create_operative_leader = {
-	name = "Lupe Vélez"
+	name = "Лупе Велес"
 	GFX = GFX_Portrait_MEX_Lupe_Velez
 	traits = { operative_linguist operative_seducer }
 	bypass_recruitment = yes

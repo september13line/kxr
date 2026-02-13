@@ -64,7 +64,7 @@ focus_tree = {
 		available = { 
 			has_country_flag = KUB_Announce_Ivanic_Retirement_unlocked
 			has_country_leader = {
-				name = "Vasil Ivanis"
+				name = "Василий Иванис"
 				ruling_only = yes
 			}
 		}
@@ -93,7 +93,7 @@ focus_tree = {
 		y = 2
 		available = {
 			has_country_leader = {
-				name = "Vasil Ivanis"
+				name = "Василий Иванис"
 				ruling_only = yes
 			}
 			UKR_has_socialist_or_pro_russian_government = no
@@ -149,11 +149,11 @@ focus_tree = {
 				limit = { 
 					OR = {
 						has_country_leader = {
-							name = "Vasyl Riabokin"
+							name = "Василь Рябокінь"
 							ruling_only = yes
 						}
 						has_country_leader = {
-							name = "Vasil Ryabokon"
+							name = "Василь Рябоконь"
 							ruling_only = yes
 						}
 					}
@@ -964,11 +964,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -995,11 +995,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1052,11 +1052,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1083,11 +1083,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1112,11 +1112,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1145,11 +1145,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1179,11 +1179,11 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_country_leader = {
-					name = "Vasyl Riabokin"
+					name = "Василь Рябокінь"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Vasil Ryabokon"
+					name = "Василь Рябоконь"
 					ruling_only = yes
 				}
 			}
@@ -1557,9 +1557,9 @@ focus_tree = {
 			has_democratic_government = yes
 			if = {
 				limit = { has_any_power_balance = yes }
-				is_power_balance_in_range = {
-					id = KUB_rada_bop
-					range > KUB_bop_lineitsy_influence_1
+			is_power_balance_in_range = {
+				id = KUB_rada_bop
+				range > KUB_bop_lineitsy_influence_1
 				}
 			}
 		}
@@ -1601,9 +1601,9 @@ focus_tree = {
 			}
 			if = {
 				limit = { has_any_power_balance = yes }
-				is_power_balance_in_range = {
-					id = KUB_rada_bop
-					range > KUB_bop_chernomortsy_influence_1
+			is_power_balance_in_range = {
+				id = KUB_rada_bop
+				range > KUB_bop_chernomortsy_influence_1
 				}
 			}
 		}
@@ -1650,7 +1650,7 @@ focus_tree = {
 			has_democratic_government = yes
 			DKB = { 
 				has_country_leader = {
-					name = "Pyotr Krasnov"
+					name = "Пётр Краснов"
 					ruling_only = yes
 				}
 				is_subject = no
@@ -1660,9 +1660,9 @@ focus_tree = {
 			has_war = no
 			if = {
 				limit = { has_any_power_balance = yes }
-					is_power_balance_in_range = {
-					id = KUB_rada_bop
-					range > KUB_bop_lineitsy_influence_1
+			is_power_balance_in_range = {
+				id = KUB_rada_bop
+				range > KUB_bop_lineitsy_influence_1
 				}
 			}
 		}
@@ -1834,14 +1834,14 @@ focus_tree = {
 			is_subject = no
 			has_war = no			
 			OR = {
-				date > 1937.4.1
+			date > 1937.4.1
 				soviets_exist = yes
 			}
 			if = {
 				limit = { has_any_power_balance = yes }
-				is_power_balance_in_range = {
-					id = KUB_rada_bop
-					range < KUB_bop_chernomortsy_influence_1
+			is_power_balance_in_range = {
+				id = KUB_rada_bop
+				range < KUB_bop_chernomortsy_influence_1
 				}
 			}
 			has_country_flag = KUB_new_ataman_elected

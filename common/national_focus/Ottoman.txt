@@ -14,19 +14,19 @@ shared_focus = {
 	available = {
 		OR = {
 			custom_trigger_tooltip = {
-				tooltip = "The Grand Vizier has seized power in the Balkan War"
+				tooltip = "Великий визирь захватил власть в ходе Балканской войны"
 				always = no
 			}
 			custom_trigger_tooltip = {
-				tooltip = "The Grand Vizier has seized power after a failed assassination attempt"
+				tooltip = "Великий визирь захватил власть после неудачного покушения"
 				always = no
 			}
 			custom_trigger_tooltip = {
-				tooltip = "The Grand Vizier has been granted excecutive powers to eradicate the Karakol Society"
+				tooltip = "Великий визирь получил исключительные полномочия для искоренения Каракольского общества"
 				always = no
 			}
 			custom_trigger_tooltip = {
-				tooltip = "Arabs have risen up in revolt"
+				tooltip = "Арабы подняли восстание"
 				always = no
 			}
 		}
@@ -2229,7 +2229,7 @@ shared_focus = {
 					province = 849
 					level = 2
 				}
-			}
+			}			
 		}
 	}
 }
@@ -2441,11 +2441,11 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_RESEARCH }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus OTT_Upgrade_Dreadnoughts"
-		add_tech_bonus = {
-			name = OTT_Upgrade_Dreadnoughts
-			bonus = 1
-			uses = 3
-			category = cat_gunnery
+			add_tech_bonus = {
+				name = OTT_Upgrade_Dreadnoughts
+				bonus = 1
+				uses = 3
+				category = cat_gunnery
 		}
 	}
 }
@@ -3020,7 +3020,7 @@ shared_focus = {
 				has_global_flag = TUR_will_give_sudan_to_abkhazia 
 				ABK = {
 					has_country_leader = {
-						name = "Abash Shabaan"
+						name = "Шаабан Абаш"
 						ruling_only = yes
 					}
 				}
@@ -4573,7 +4573,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus OTT_Greek_Turkish_Population_Exchange"
 			country_event = ottfor.87
 			custom_effect_tooltip = tooltip_white_line
-			custom_effect_tooltip = "They must agree to our offer to receive the following effect:"
+			custom_effect_tooltip = "Они должны согласиться на наше предложение, чтобы получить следующий эффект:"
 				
 			effect_tooltip = {
 				GRE = {
@@ -5583,7 +5583,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_idea = ott_widespread_illiteracy_liberal
-			has_idea = ott_widespread_illiteracy
+		has_idea = ott_widespread_illiteracy
 		}
 	}
 
@@ -5628,7 +5628,7 @@ shared_focus = {
 			remove_idea = ott_widespread_illiteracy
 			add_idea = ott_widespread_illiteracy_fevzi
 		}
-	    }
+		}
 	}
 }
 
@@ -6739,7 +6739,7 @@ shared_focus = {
 			ideology = national_populist
 			popularity = 0.10
 		}
-		add_popularity = {
+				add_popularity = {
 			ideology = totalist
 			popularity = 0.10
 		}
@@ -6772,7 +6772,7 @@ shared_focus = {
 					ott_set_authority_vilayet_high = yes
 				}
 			}
-		}	
+		}
 	}
 }
 
@@ -13058,29 +13058,29 @@ shared_focus = {
 			}
 			custom_effect_tooltip = OTT_bm_bm_bm
 			hidden_effect = {
-				if = {
-					limit = {
-						has_idea = ott_black_monday
-					}
+			if = {
+				limit = {
+					has_idea = ott_black_monday
+				}
 				remove_ideas = ott_black_monday
-				}
+			}
 				else_if = {
-					limit = {
-						has_idea = ott_black_monday_2
-					}
-					remove_ideas = ott_black_monday_2
+				limit = {
+					has_idea = ott_black_monday_2
 				}
+				remove_ideas = ott_black_monday_2
+			}
 				else_if = {
-					limit = {
-						has_idea = ott_black_monday_3
-					}
-					remove_ideas = ott_black_monday_3
+				limit = {
+					has_idea = ott_black_monday_3
 				}
+				remove_ideas = ott_black_monday_3
+			}
 				else_if = {
-					limit = {
-						has_idea = ott_black_monday_4
-					}
-					remove_ideas = ott_black_monday_4
+				limit = {
+					has_idea = ott_black_monday_4
+				}
+				remove_ideas = ott_black_monday_4
 				}
 			}
 		}
@@ -13108,7 +13108,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus OTT_gulf_of_basra"
 			custom_effect_tooltip = OTT_loads_troops
 			create_corps_commander = {
-				name = "Max von Oppenheim"
+				name = "Макс фон Оппенгейм"
 				portrait_path = "gfx/leaders/OTT/Portrait_OTT_Max_von_Oppenheim.png"
 				traits = { politically_connected organizer adaptable GER_expeditionary_leader }
 				skill = 2
@@ -13118,7 +13118,7 @@ shared_focus = {
 				logistics_skill = 2
 			}
 			create_corps_commander = {
-				name = "Johann von Leers "
+				name = "Йоханн фон Леерс"
 				portrait_path = "gfx/leaders/OTT/Portrait_OTT_Johann_von_Leers.png"
 				traits = { politically_connected harsh_leader GER_expeditionary_leader }
 				skill = 1
@@ -13128,7 +13128,7 @@ shared_focus = {
 				logistics_skill = 2
 			}
 			create_corps_commander = {
-				name = "Harun el-Raschid Bey"
+				name = "Харун Эль-Рашид"
 				portrait_path = "gfx/leaders/OTT/Portrait_OTT_el_Raschid_Hintersatz.png"
 				traits = { infantry_leader hill_fighter trait_reckless GER_expeditionary_leader }
 				skill = 3
@@ -13366,13 +13366,13 @@ shared_focus = {
 			add_political_power = 75
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
-			}
+				}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 			}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
-			}
+				}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 			}
@@ -13417,19 +13417,19 @@ shared_focus = {
 					OTT_Mustafa_Abduelhalik_Pasa_eco_mli
 					OTT_Agaoglu_Ahmed_Pasa_sec_sli
 				}
-				add_popularity = {
-					ideology = authoritarian_democrat
+			add_popularity = {
+				ideology = authoritarian_democrat
 					popularity = 0.3
-				}
-				set_politics = {
-					ruling_party = authoritarian_democrat
-				}
-				set_cosmetic_tag = OTT_german_characteristics
-				set_party_name = { 
-					ideology = authoritarian_democrat 
+			}
+			set_politics = {
+				ruling_party = authoritarian_democrat
+			}
+			set_cosmetic_tag = OTT_german_characteristics
+			set_party_name = { 
+				ideology = authoritarian_democrat 
 					long_name = OTT_german_ottoman_party_long 
 					name = OTT_german_ottoman_party 
-				}
+			}
 				set_country_leader_ideology = prussian_constitutionalism_subtype
 			}
 			custom_effect_tooltip = authdem_prussian_constitutionalism_subtype_swap_tt
@@ -13598,17 +13598,17 @@ shared_focus = {
 			add_stability = -0.1
 			custom_effect_tooltip = OTT_schellendorf_path_tt
 			hidden_effect = {
-				set_politics = {
+			set_politics = {
 					ruling_party = paternal_autocrat
 				}
 				add_popularity = {
 					ideology = paternal_autocrat
 					popularity = 0.2
 				}
-				set_party_name = { 
-					ideology = paternal_autocrat 
+			set_party_name = { 
+				ideology = paternal_autocrat 
 					long_name = OTT_german_party_long
-					name = OTT_german_party 
+				name = OTT_german_party 
 				}
 				set_country_leader_ideology = autocratic_colonial_govt_subtype
 				set_cosmetic_tag = OTT_german_one

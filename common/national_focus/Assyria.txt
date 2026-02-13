@@ -107,12 +107,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ASS_End_Tribal_Divide"
-			if = {
-				limit = { has_idea = ASY_Christian_Division }
-				swap_ideas = {
-					remove_idea = ASY_Christian_Division
-					add_idea = ASY_Christian_Division2
-				}
+			swap_ideas = {
+				remove_idea = ASY_Christian_Division
+				add_idea = ASY_Christian_Division2
 			}
 		}
 	}
@@ -158,7 +155,7 @@ focus_tree = {
 			custom_effect_tooltip = ASY_expanded_levies_tt
 			hidden_effect = {
 				create_corps_commander = {
-					name = "Odisho Moshe"
+					name = "Одишо Моше"
 					desc = "POLITICS_ODISHO_MOSHE_DESC"
 					portrait_path = "gfx/leaders/ASY/Portrait_Assyria_Odishe_Moshe.png"
 					traits = {
@@ -1216,7 +1213,7 @@ focus_tree = {
 				load_oob = ASY_navy
 				set_cosmetic_tag = ASYD
 				create_corps_commander = {
-					name = "Harold Bernard Charles Jones"
+					name = "Гарольд Бернард Чарльз Джонс"
 					portrait_path = "gfx/leaders/ASY/Portrait_Assyria_Charles_Jones.png"
 					traits = {
 						trait_cautious
@@ -1408,18 +1405,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ASS_Anglican_Missions"
-			if = {
-				limit = { has_idea = ASY_Christian_Division }
-				swap_ideas = {
-					remove_idea = ASY_Christian_Division
-					add_idea = ASY_Christian_Division_CAN
-				}
+			hidden_effect = {
+				remove_ideas = ASY_Christian_Division
 			}
-			else = {
-				swap_ideas = {
-					remove_idea = ASY_Christian_Division2
-					add_idea = ASY_Christian_Division_CAN
-				}
+			swap_ideas = {
+				remove_idea = ASY_Christian_Division2
+				add_idea = ASY_Christian_Division_CAN
 			}
 			add_popularity = {
 				ideology = market_liberal
@@ -2137,9 +2128,9 @@ focus_tree = {
 				category = dd_tech
 				uses = 1
 			}
-			add_doctrine_cost_reduction = {
-				name = naval_doc_bonus
-				cost_reduction = 1
+			add_tech_bonus = {
+				name = ASS_Assyrian_Coast_Guard
+				bonus = 1
 				category = naval_doctrine
 				uses = 2
 			}
@@ -2230,11 +2221,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ASS_NCO_Training"
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 1
-				uses = 2
+			add_tech_bonus = {
+				name = ASS_NCO_Training
 				category = land_doctrine
+				bonus = 1
+				uses = 2
 			}
 		}
 	}

@@ -87,36 +87,36 @@ if = {
 }
 
 ### Navy - MtG ###
-set_technology = {
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_ship_hull_cruiser = 1
-	panzerschiffe = 1
-	early_ship_hull_submarine = 1
-	basic_ship_hull_submarine = 1
-	early_ship_hull_carrier = 1
-	basic_ship_hull_carrier = 1
-	early_ship_hull_heavy = 1
-	basic_ship_hull_heavy = 1
-	coastal_defense_ships = 1
-	
-	basic_naval_mines = 1
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		panzerschiffe = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		coastal_defense_ships = 1
+		
+		basic_naval_mines = 1
 
-	## Modules##
-	basic_battery = 1
-	basic_light_battery = 1
+		## Modules##
+		basic_battery = 1
+		basic_light_battery = 1
 	
-	basic_heavy_battery = 1
-	basic_depth_charges = 1
-	basic_torpedo = 1
-	improved_ship_torpedo_launcher = 1
-	basic_cruiser_armor_scheme = 1
-	basic_heavy_armor_scheme = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 
-	### Transport ###
-	mtg_transport = 1
-}
+		### Transport ###
+		mtg_transport = 1
+	}
 
 set_war_support = 0.25
 
@@ -165,7 +165,7 @@ country_event = { id = dei_flavor.2 days = 1586 } #Renovation of the Sociëteit 
 }
 
 create_country_leader = {
-	name = "Bonifacius de Jonge"
+	name = "Бонифасиус де Йонге"
 	desc = "POLITICS_DE_JONGE_DESC"
 	picture = "gfx/leaders/DEI/Portrait_DEI_de_Jonge.png"
 	expire = "1.1.1"
@@ -175,7 +175,7 @@ create_country_leader = {
 ### Generals ###
 
 create_field_marshal = {
-	name = "Hein ter Poorten"
+	name = "Хейн Тер Портен"
 	portrait_path = "gfx/leaders/DEI/Portrait_DEI_ter_Poorten.png"
 	traits = { }
 	skill = 2
@@ -186,7 +186,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Abdulkadir Widjojoatmodjo"
+	name = "Абдулкадир Виджоджоатмоджо"
 	portrait_path = "gfx/leaders/DEI/Portrait_DEI_Abdulkadir_Widjojoatmodjo.png"
 	traits = { organizer }
 	skill = 2
@@ -198,7 +198,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Simon Spoor"
+	name = "Саймон Спур"
 	portrait_path = "gfx/leaders/DEI/Portrait_DEI_Spoor.png"
 	traits = { panzer_leader }
 	skill = 2
@@ -209,7 +209,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gustav Adolf Ilgen"
+	name = "Густав Адольф Ильген"
 	portrait_path = "gfx/leaders/DEI/Portrait_DEI_Ilgen.png"
 	traits = { trickster }
 	skill = 1

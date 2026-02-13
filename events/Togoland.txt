@@ -964,14 +964,14 @@ country_event = { #I LOVE GOOOOOOOOOOOOOOOOLLLLLLLLLLLLDDDDDDDDDDDD
 	trigger = {
 		tag = TOG
 		TOG = {
-			has_country_leader = { ruling_only = yes name = "Sylvanus Olympio" }
+			has_country_leader = { ruling_only = yes name = "Силванус Олимпио" }
 		}
 		OR = {
 			KIV = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 			UMN = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 		}
 	}
@@ -995,14 +995,14 @@ country_event = { #I LOVE GOOOOOOOOOOOOOOOOLLLLLLLLLLLLDDDDDDDDDDDD
 	trigger = {
 		tag = KIV
 		TOG = {
-			has_country_leader = { ruling_only = yes name = "Sylvanus Olympio" }
+			has_country_leader = { ruling_only = yes name = "Силванус Олимпио" }
 		}
 		OR = {
 			KIV = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 			UMN = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 		}
 	}
@@ -1026,14 +1026,14 @@ country_event = { #I LOVE GOOOOOOOOOOOOOOOOLLLLLLLLLLLLDDDDDDDDDDDD
 	trigger = {
 		tag = UMN
 		TOG = {
-			has_country_leader = { ruling_only = yes name = "Sylvanus Olympio" }
+			has_country_leader = { ruling_only = yes name = "Силванус Олимпио" }
 		}
 		OR = {
 			KIV = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 			UMN = {
-				has_country_leader = { ruling_only = yes name = "Moïse Tshombe" }
+				has_country_leader = { ruling_only = yes name = "Моиз Чомбе" }
 			}
 		}
 	}
@@ -1143,7 +1143,7 @@ country_event = { #Olympio ideology picker
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Sylvanus Olympio"
+			name = "Силванус Олимпио"
 			desc = "POLITICS_Olyimpio_DESC"
 			picture = "gfx/leaders/TOG/Portrait_TOG_Olympio.png"
 			expire = "1.1.1"
@@ -1196,7 +1196,7 @@ country_event = { #Dadjo ideology picker
 		add_stability = 0.05
 		increase_ruling_party_popularity_by_3 = yes
 		create_country_leader = {
-			name = "Jonathan Savi de Tové"
+			name = "Джонатан Сави де Тове"
 			desc = "POLITICS_SAVI_TOVE_DESC"
 			picture = "gfx/leaders/TOG/Portrait_TOG_Tove.png"
 			expire = "1.1.1"
@@ -1435,7 +1435,7 @@ country_event = { #olympio goes home
 		}
 	}
 	add_political_power = -75
-		create_faction_from_template = { 
+	create_faction_from_template = { 
 			template = faction_template_generic_dominance 
 			name = faction_transatlantic
 			icon = GFX_faction_south_america_africa

@@ -1574,7 +1574,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_Convert_Fishing_Trawlers"
-			custom_effect_tooltip = "We will convert some of our captured vessels into full blown Destroyers"
+			custom_effect_tooltip = "Мы превратим некоторые из наших захваченных кораблей в полноценные эсминцы."
 			hidden_effect = {
 				BOL_NF_TREE_DD01_naval_variant = yes
 				load_oob = BOL_navy
@@ -1777,7 +1777,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_Flagship_for_the_Armada"
-			custom_effect_tooltip = "A Battleship will be placed in our Harbour!"
+			custom_effect_tooltip = "В нашей гавани будет размещен линкор!"
 			navy_experience = 25
 			BOL_NF_TREE_BB01_naval_variant = yes
 			hidden_effect = {
@@ -1796,10 +1796,10 @@ focus_tree = {
 					mechanical_computing = 1
 					basic_fire_control_system = 1
 				}
-				set_technology = {
-					early_ship_hull_heavy = 1
-					basic_ship_hull_heavy = 1
-					basic_heavy_battery = 1
+					set_technology = {
+						early_ship_hull_heavy = 1
+						basic_ship_hull_heavy = 1
+						basic_heavy_battery = 1
 				}
 			}
 		}

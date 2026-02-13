@@ -180,7 +180,7 @@ country_event = {
 		add_pataut_to_coalition = yes
 		add_natpop_to_coalition = yes
 		create_country_leader = {
-			name = "Yrjö Elfvengren"
+			name = "Юрьё Эльфенгрен"
 			picture = "gfx/leaders/KAR/Portrait_KAR_Georg_Elfvengren.png"
 			expire = "1.1.1"
 			ideology = authdem_junta_subtype
@@ -231,17 +231,17 @@ country_event = {
 					option = RULE_OPTION_KAR_JAGERS
 				}
 			}
-			modifier = {
-				factor = 0
-				has_game_rule = {
-					rule = FIN_expansionism
-					option = FIN_EXPANSIONISM_WAR
+				modifier = {
+					factor = 0
+					has_game_rule = {
+						rule = FIN_expansionism
+						option = FIN_EXPANSIONISM_WAR
+					}
 				}
-			}
-			modifier = {
-				factor = 0
-				has_game_rule = { rule = KAR_fin_intervention option = KAR_FIN_INTERVENTION_ENEMIES }
-			}			
+				modifier = {
+					factor = 0
+					has_game_rule = { rule = KAR_fin_intervention option = KAR_FIN_INTERVENTION_ENEMIES }
+				}	
 		}
 		effect_tooltip = { give_guarantee = KAR }
 		FROM = {
@@ -842,10 +842,10 @@ country_event = {
 		clear_all_relations = yes
 		set_cosmetic_tag = KAR_SOV
 		add_offsite_building = { type = industrial_complex level = 1 }
-		add_stability = 0.2		
+		add_stability = 0.2
 		effect_tooltip = {
-			create_corps_commander = {
-				name = "Yuri Andropov "
+		create_corps_commander = {
+				name = "Юрий Андропов "
 			}
 		}
 		hidden_effect = {
@@ -892,16 +892,16 @@ country_event = {
 			limit = {
 				RUS = { has_country_flag = soviet_russia_restored }
 			}
-			get_current_government_type = yes
-		    RUS = {
+		get_current_government_type = yes
+		RUS = {
 			set_autonomy = {
 				target = KAR
 				autonomous_state = kr_labour_commune
 				freedom_level = 0.75
 			}
 			country_event = kar.24
-		    }
-		    restore_previous_government_type = yes
+		}
+		restore_previous_government_type = yes
 		}
 		if = {
 			limit = {
@@ -1012,7 +1012,7 @@ country_event = {
 			}
 		}	
 		create_country_leader = {
-			name = "Provisional Government of Karelia"
+			name = "Временное правительство Карелии"
 			picture = "gfx/leaders/KAR/Portrait_KAR_Gov.png"
 			expire = "1.1.1"
 			ideology = authoritarian_democrat_subtype
@@ -1096,7 +1096,7 @@ country_event = {
 		}
 		complete_national_focus = KAR_Secure_Elfengrens_Junta
 		create_country_leader = {
-			name = "Yrjö Elfvengren"
+			name = "Юрьё Эльфенгрен"
 			picture = "gfx/leaders/KAR/Portrait_KAR_Georg_Elfvengren.png"
 			expire = "1.1.1"
 			ideology = police_state_subtype
@@ -1131,7 +1131,7 @@ country_event = {
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Provisional Government of Karelia"
+			name = "Временное правительство Карелии"
 			picture = "gfx/leaders/KAR/Portrait_KAR_Gov.png"
 			expire = "1.1.1"
 			ideology = socdem_left_nationalism_subtype
@@ -1168,16 +1168,16 @@ country_event = {
 		name = kar.22.a
 		set_temp_variable = { target = RRF }
 		clear_all_relations_with_TARGET = yes
-		set_party_name = {
-			ideology = paternal_autocrat
+			set_party_name = {
+				ideology = paternal_autocrat
 				name = KAR_jager_party
 				long_name = KAR_jager_party_long
-		}
-		create_country_leader = {
-			name = "Paavo Talvela"
-			picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
-			expire = "1.1.1"
-			ideology = junta_subtype
+			}
+			create_country_leader = {
+				name = "Пааво Талвела"
+				picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
+				expire = "1.1.1"
+				ideology = junta_subtype
 		}
 		add_popularity = {
 			ideology = paternal_autocrat
@@ -1214,7 +1214,7 @@ country_event = {
 	is_triggered_only = yes
 			
 	option = {
-		name = kar.23.a		
+		name = kar.23.a
 		set_temp_variable = { target = RRF }
 		clear_all_relations_with_TARGET = yes
 		set_politics = {
@@ -1507,19 +1507,19 @@ country_event = {
 					option = RULE_OPTION_KAR_JAGERS
 				}
 			}			
-		}		
+		}
 		set_temp_variable = { target = RRF }
 		clear_all_relations_with_TARGET = yes
-		set_party_name = {
-			ideology = paternal_autocrat
+			set_party_name = {
+				ideology = paternal_autocrat
 				name = KAR_jager_party
 				long_name = KAR_jager_party_long
-		}
-		create_country_leader = {
-			name = "Paavo Talvela"
-			picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
-			expire = "1.1.1"
-			ideology = junta_subtype
+			}
+			create_country_leader = {
+				name = "Пааво Талвела"
+				picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
+				expire = "1.1.1"
+				ideology = junta_subtype
 		}
 		add_stability = -0.2
 		add_popularity = {
@@ -1578,7 +1578,7 @@ country_event = {
 		delete_unit_template_and_units = {
 			division_template = "Jääkäriliike"
 			disband = no #will refund equipment and manpower
-		}	
+		}
 		hidden_effect = {
 			set_technology = {
 				elite_infantry_tech = 0
@@ -1706,19 +1706,19 @@ country_event = {
 					}
 				}
 			}
-		}		
+		}
 		set_temp_variable = { target = RRF }
 		clear_all_relations_with_TARGET = yes
-		set_party_name = {
-			ideology = paternal_autocrat
+			set_party_name = {
+				ideology = paternal_autocrat
 				name = KAR_jager_party
 				long_name = KAR_jager_party_long
-		}
-		create_country_leader = {
-			name = "Paavo Talvela"
-			picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
-			expire = "1.1.1"
-			ideology = junta_subtype
+			}
+			create_country_leader = {
+				name = "Пааво Талвела"
+				picture = "gfx/leaders/FIN/Portrait_FIN_Paavo_Talvela_KX.png"
+				expire = "1.1.1"
+				ideology = junta_subtype
 		}
 		add_stability = -0.2
 		add_popularity = {
@@ -1726,7 +1726,7 @@ country_event = {
 			popularity = 0.1
 		}
 		create_country_leader = {
-			name = "Elias Simojoki"
+			name = "Элиас Симойоки"
 			desc = "POLITICS_ELIAS_SIMOJOKI_DESC"
 			picture = "gfx/leaders/KAR/Portrait_KAR_Elias_Simojoki.png"
 			expire = "1.1.1"
@@ -3129,7 +3129,7 @@ country_event = {
 		865 = { transfer_state_to = ROOT }
 		1324 = { transfer_state_to = ROOT }
 		1325 = { transfer_state_to = ROOT }
-		1326 = { transfer_state_to = ROOT }	
+		1326 = { transfer_state_to = ROOT }		
 		if = {
 			limit = { FIN = { owns_state = 1327 } }
 			1327 = { transfer_state_to = ROOT }	
@@ -3150,7 +3150,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		has_country_leader = {
-			name = "Paavo Talvela"
+			name = "Пааво Талвела"
 			ruling_only = yes
 		}
 	}
@@ -3163,14 +3163,14 @@ country_event = {
 	}
 	option = {
 		name = kar.72.b
-		ai_chance = { base = 90 }		
+		ai_chance = { base = 90 }
 		set_temp_variable = { target = RRF }
 		clear_all_relations_with_TARGET = yes
 		add_political_power = -15
 		add_stability = 0.03
 		set_cosmetic_tag = KAR_FIN_mon
 		create_country_leader = {
-			name = "Fredrik Kaarle I"
+			name = "Фридрих Карл I"
 			desc = "POLITICS_FREDRIK_KAARLE_DESC"
 			picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 			expire = "1.1.1"
@@ -3293,7 +3293,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_country_leader = {
-			name = "Fredrik Kaarle I"
+			name = "Фридрих Карл I"
 			ruling_only = yes
 		}
 	}
@@ -3303,7 +3303,7 @@ country_event = {
 		if = {
 			limit = { owns_state = 840 }
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
 				ideology = pataut_national_conservative_subtype
@@ -3311,7 +3311,7 @@ country_event = {
 		}
 		else = {
 			create_country_leader = {
-				name = "Väinö I"
+				name = "Вяйнё I"
 				picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 				expire = "1.1.1"
 				ideology = absolute_monarchy_subtype
@@ -3544,15 +3544,15 @@ country_event = {
 		NOT = {
 			OR = {
 				has_country_leader = {
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Väinö I"
+					name = "Вяйнё I"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Elias Simojoki"
+					name = "Элиас Симойоки"
 					ruling_only = yes
 				}
 			}
@@ -3665,15 +3665,15 @@ country_event = {
 		trigger = {
 			OR = {
 				has_country_leader = {
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Väinö I"
+					name = "Вяйнё I"
 					ruling_only = yes
 				}
 				has_country_leader = {
-					name = "Elias Simojoki"
+					name = "Элиас Симойоки"
 					ruling_only = yes
 				}
 			}
@@ -3715,7 +3715,7 @@ country_event = {
 				limit = {
 					ROOT = {
 						has_country_leader = {
-							name = "Elias Simojoki"
+							name = "Элиас Симойоки"
 							ruling_only = yes
 						}
 					}
@@ -3726,7 +3726,7 @@ country_event = {
 					long_name = KAR_academy_party_long
 				}
 				create_country_leader = {
-					name = "Elias Simojoki"
+					name = "Элиас Симойоки"
 					desc = "POLITICS_ELIAS_SIMOJOKI_DESC"
 					picture = "gfx/leaders/KAR/Portrait_KAR_Elias_Simojoki.png"
 					expire = "1.1.1"
@@ -3744,13 +3744,13 @@ country_event = {
 				limit = {
 					ROOT = {
 						has_country_leader = {
-							name = "Fredrik Kaarle I"
+							name = "Фридрих Карл I"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Fredrik Kaarle I"
+					name = "Фридрих Карл I"
 					desc = "POLITICS_FREDRIK_KAARLE_DESC"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Fredrik_Kaarle_I.png"
 					expire = "1.1.1"
@@ -3768,13 +3768,13 @@ country_event = {
 				limit = {
 					ROOT = {
 						has_country_leader = {
-							name = "Väinö I"
+							name = "Вяйнё I"
 							ruling_only = yes
 						}
 					}
 				}
 				create_country_leader = {
-					name = "Väinö I"
+					name = "Вяйнё I"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Vaino_I.png"
 					expire = "1.1.1"
 					ideology = pataut_national_conservative_subtype
@@ -3818,7 +3818,7 @@ country_event = {
 			FIN = {
 				drop_cosmetic_tag = yes
 				create_country_leader = {
-					name = "Vilho Annala"
+					name = "Вилхо Аннала"
 					picture = "gfx/leaders/FIN/Portrait_FIN_Vilho_Annala_KX.png"
 					expire = "1.1.1"
 					ideology = lapuanliike_subtype

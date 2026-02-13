@@ -466,7 +466,7 @@ focus_tree = {
 		hidden_effect = {
 		if = {
 		limit = {
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 		}
 		country_event = {
 		id = vietnam.44
@@ -774,8 +774,8 @@ focus_tree = {
 		if = {
 			limit = {
 			OR = {
-			has_country_leader = { ruling_only = yes name = "Bao Dai" }
-			has_country_leader = { ruling_only = yes name = "Ngo Dinh Diem" }
+			has_country_leader = { ruling_only = yes name = "Бао Дай" }
+			has_country_leader = { ruling_only = yes name = "Нго Динь Зьем" }
 			}
 		}
 		country_event = vietnam.20
@@ -825,7 +825,7 @@ focus_tree = {
 			add_popularity = { ideology = syndicalist popularity = -0.10 }
 			if = {
 				limit = { NOT = { has_government = totalist } }
-				add_popularity = { ideology = totalist popularity = -0.10 }
+			add_popularity = { ideology = totalist popularity = -0.10 }
 			}
 				}
 		x = 5
@@ -869,7 +869,7 @@ focus_tree = {
 		completion_reward = {
 		add_ideas = VIN_Prussian_Constitution_idea
 		create_country_leader = {
-			name = "Bao Dai"
+			name = "Бао Дай"
 			picture = "gfx/leaders/VIN/Portrait_Vietnam_Bao_Dai.png"
 			expire = "1963.11.2"
 			ideology = prussian_constitutionalism_subtype
@@ -981,7 +981,7 @@ focus_tree = {
 		completion_reward = {
 		hidden_effect = {
 		create_country_leader = {
-		name = "Bao Dai"
+		name = "Бао Дай"
 		picture = "gfx/leaders/VIN/Portrait_Vietnam_Bao_Dai.png"
 		expire = "1997.7.30"
 		ideology = socdem_left_nationalism_subtype
@@ -1808,7 +1808,7 @@ focus_tree = {
 		focus = VIN_First_Election
 		}
 		available = {
-			has_country_flag = VIN_Socdem_Victory
+		has_country_flag = VIN_Socdem_Victory
 			has_government = social_democrat
 		}
 		completion_reward = {
@@ -1920,7 +1920,7 @@ focus_tree = {
 		focus = VIN_First_Election
 		}
 		available = {
-			has_country_flag = VIN_Soclib_Victory
+		has_country_flag = VIN_Soclib_Victory
 			has_government = social_liberal
 		}
 		completion_reward = {
@@ -2065,7 +2065,7 @@ focus_tree = {
 		focus = VIN_First_Election
 		}
 		available = {
-			has_country_flag = VIN_Marlib_Victory
+		has_country_flag = VIN_Marlib_Victory
 			has_government = market_liberal
 		}
 		completion_reward = {
@@ -2372,7 +2372,7 @@ focus_tree = {
 		y = 0
 		available = {
 			OR = {
-				has_country_flag = VIN_War_Over
+		has_country_flag = VIN_War_Over
 				has_country_flag =  VIN_released_as_puppet
 			}
 		}
@@ -2786,7 +2786,7 @@ focus_tree = {
 		y = 5
 			available = {
 					OR = {
-				has_country_flag = VIN_War_Over
+					has_country_flag = VIN_War_Over
 				has_country_flag =  VIN_released_as_puppet
 			}
 					controls_state = 671
@@ -3220,7 +3220,7 @@ focus_tree = {
 				}
 				if = {
 				limit = {
-				has_country_leader = { ruling_only = yes name = "Bao Dai" }
+				has_country_leader = { ruling_only = yes name = "Бао Дай" }
 					}
 				country_event = {
 					days = 14
@@ -3539,7 +3539,7 @@ focus_tree = {
 		y = 0
 		available = {
 		OR = {
-				has_country_flag = VIN_War_Over
+		has_country_flag = VIN_War_Over
 				has_country_flag =  VIN_released_as_puppet
 			}
 		}
@@ -4006,10 +4006,10 @@ focus_tree = {
 		available = {
 		OR = {
 		NOT = {
-		has_country_leader = { ruling_only = yes name = "Ong Dao Dua" }
-		has_country_leader = { ruling_only = yes name = "Huynh Phu So" }
-		has_country_leader = { ruling_only = yes name = "Ba Cut" }
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
+		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
+		has_country_leader = { ruling_only = yes name = "Ба Кют" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 				}
 			}
 		}
@@ -4033,10 +4033,10 @@ focus_tree = {
 		NOT = {
 		has_completed_focus = VIN_Asia_for_Asian
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Ong Dao Dua" }
-		has_country_leader = { ruling_only = yes name = "Huynh Phu So" }
-		has_country_leader = { ruling_only = yes name = "Ba Cut" }
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
+		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
+		has_country_leader = { ruling_only = yes name = "Ба Кют" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 				}
 			}
 		}
@@ -4202,10 +4202,10 @@ focus_tree = {
 		has_completed_focus = VIN_Righteous_Yang
 		}
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Cuong De" }
-		has_country_leader = { ruling_only = yes name = "Bao Dai" }
-		has_country_leader = { ruling_only = yes name = "Duy Tan" }
-		has_country_leader = { ruling_only = yes name = "Thanh Thai" }
+		has_country_leader = { ruling_only = yes name = "Куонг Де" }
+		has_country_leader = { ruling_only = yes name = "Бао Дай" }
+		has_country_leader = { ruling_only = yes name = "Зуи-тан Фе-де" }
+		has_country_leader = { ruling_only = yes name = "Тхань Тхай" }
 		}
 		VIN = {
 			owns_state = 592
@@ -4278,11 +4278,11 @@ focus_tree = {
 		}
 		available = {
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Ong Dao Dua" }
-		has_country_leader = { ruling_only = yes name = "Huynh Phu So" }
-		has_country_leader = { ruling_only = yes name = "Ba Cut" }
-		has_country_leader = { ruling_only = yes name = "Cuong De" }
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
+		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
+		has_country_leader = { ruling_only = yes name = "Ба Кют" }
+		has_country_leader = { ruling_only = yes name = "Куонг Де" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 			}
 		}
 		mutually_exclusive = {
@@ -4306,11 +4306,11 @@ focus_tree = {
 		has_completed_focus = VIN_Imperial_Ambition
 		}
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Ong Dao Dua" }
-		has_country_leader = { ruling_only = yes name = "Huynh Phu So" }
-		has_country_leader = { ruling_only = yes name = "Ba Cut" }
-		has_country_leader = { ruling_only = yes name = "Cuong De" }
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
+		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
+		has_country_leader = { ruling_only = yes name = "Ба Кют" }
+		has_country_leader = { ruling_only = yes name = "Куонг Де" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 			}
 		}
 		prerequisite = {
@@ -4420,9 +4420,9 @@ focus_tree = {
 		has_completed_focus = VIN_Hoa_Hao_Mandate
 		}
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Huynh Phu So" }
-		has_country_leader = { ruling_only = yes name = "Cuong De" }
-		has_country_leader = { ruling_only = yes name = "Ba Cut" }
+		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
+		has_country_leader = { ruling_only = yes name = "Куонг Де" }
+		has_country_leader = { ruling_only = yes name = "Ба Кют" }
 		}
 		VIN = {
 			owns_state = 427
@@ -4453,8 +4453,8 @@ focus_tree = {
 		available = {
 		has_completed_focus = VIN_Spread_Caodaism
 		OR = {
-		has_country_leader = { ruling_only = yes name = "Cuong De" }
-		has_country_leader = { ruling_only = yes name = "Pham Cong Tac" }
+		has_country_leader = { ruling_only = yes name = "Куонг Де" }
+		has_country_leader = { ruling_only = yes name = "Фам Конг Так" }
 		}
 		VIN = {
 			owns_state = 427
@@ -4487,7 +4487,7 @@ focus_tree = {
 		has_completed_focus = VIN_True_Global_Faith
 		has_completed_focus = VIN_Heavenly_Mandate
 		}
-		has_country_leader = { ruling_only = yes name = "Ong Dao Dua" }
+		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
 		VIN = {
 			owns_state = 427
 			owns_state = 608

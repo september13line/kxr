@@ -132,7 +132,7 @@ BUL_foreign_policy_decisions = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 211 #Burgas
 				owns_state = 841 #Pirot
@@ -158,7 +158,7 @@ BUL_foreign_policy_decisions = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 341 #Adrianople
 				OR = {
@@ -207,7 +207,7 @@ BUL_foreign_policy_decisions = {
 					exists = yes
 					is_subject = no
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
+					has_country_leader = { ruling_only = yes name = "Корнелиу Зеля Кодряну"}
 					is_in_faction = no
 				}
 			}
@@ -243,9 +243,9 @@ BUL_foreign_policy_decisions = {
 						rule = BUL_foreign_policy
 						option = BUL_FOREIGN_POLICY_UKRAINE
 					}
-					has_game_rule = {
-						rule = BUL_foreign_policy
-						option = BUL_FOREIGN_POLICY_NEUTRALITY
+				has_game_rule = {
+					rule = BUL_foreign_policy
+					option = BUL_FOREIGN_POLICY_NEUTRALITY
 					}
 				}
 			}
@@ -347,7 +347,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 211 #Burgas
 				owns_state = 841 #Pirot
@@ -372,7 +372,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 341 #Adrianople
 				OR = {
@@ -399,9 +399,9 @@ BUL_foreign_policy_decisions = {
 						rule = BUL_foreign_policy
 						option = BUL_FOREIGN_POLICY_UKRAINE
 					}
-					has_game_rule = {
-						rule = BUL_foreign_policy
-						option = BUL_FOREIGN_POLICY_NEUTRALITY
+				has_game_rule = {
+					rule = BUL_foreign_policy
+					option = BUL_FOREIGN_POLICY_NEUTRALITY
 					}
 				}
 			}
@@ -534,7 +534,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 211 #Burgas
 				owns_state = 841 #Pirot
@@ -547,7 +547,7 @@ BUL_foreign_policy_decisions = {
 				TUR = {
 					owns_state = 341
 					is_in_faction = no
-				}
+				}				
 			}
 			modifier = {
 				factor = 0
@@ -555,7 +555,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 341 #Adrianople
 				OR = {
@@ -603,7 +603,7 @@ BUL_foreign_policy_decisions = {
 					exists = yes
 					is_subject = no
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
+					has_country_leader = { ruling_only = yes name = "Корнелиу Зеля Кодряну"}
 					is_in_faction = no
 				}
 			}
@@ -719,7 +719,7 @@ BUL_foreign_policy_decisions = {
 			}
 		}
 	}
-	
+
 	BUL_alliance_with_austria = {
 
 		icon = generic_political_discourse
@@ -806,7 +806,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 211 #Burgas
 				owns_state = 841 #Pirot
@@ -827,7 +827,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 341 #Adrianople
 				OR = {
@@ -875,7 +875,7 @@ BUL_foreign_policy_decisions = {
 					exists = yes
 					is_subject = no
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
+					has_country_leader = { ruling_only = yes name = "Корнелиу Зеля Кодряну"}
 					is_in_faction = no
 				}
 			}
@@ -946,7 +946,7 @@ BUL_foreign_policy_decisions = {
 		allowed = {
 			original_tag = BUL
 		}
-
+		
 		available = {
 			has_country_flag = BUL_ties_with_serbia
 			if = {
@@ -966,13 +966,13 @@ BUL_foreign_policy_decisions = {
 				}
 			}
 		}
-
+		
 		visible = {
 			has_government = social_conservative
 			is_subject = no
 			is_in_faction = no
 		}
-
+		
 		target_root_trigger = {
 			has_government = social_conservative
 		}
@@ -985,10 +985,10 @@ BUL_foreign_policy_decisions = {
 				NOT = { has_war_with = ROOT }
 			}
 		}
-
+		
 		fire_only_once = yes
 		cost = 50
-
+		
 		ai_will_do = {
 			factor = 25
 			modifier = {
@@ -1028,7 +1028,7 @@ BUL_foreign_policy_decisions = {
 				}
 			}
 		}
-
+		
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision BUL_alliance_with_serbia target: [From.GetName]"
 			SER = {
@@ -1126,7 +1126,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 211 #Burgas
 				owns_state = 841 #Pirot
@@ -1151,7 +1151,7 @@ BUL_foreign_policy_decisions = {
 				OR = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 				owns_state = 341 #Adrianople
 				OR = {
@@ -1199,7 +1199,7 @@ BUL_foreign_policy_decisions = {
 					exists = yes
 					is_subject = no
 					has_government = national_populist
-					has_country_leader = { ruling_only = yes name = "Corneliu Zelea Codreanu"}
+					has_country_leader = { ruling_only = yes name = "Корнелиу Зеля Кодряну"}
 					is_in_faction = no
 				}
 			}
@@ -1672,10 +1672,10 @@ BUL_foreign_policy_decisions = {
 		}
 
 		highlight_states = {
-			highlight_state_targets = {
-				state = 341
-			}
+highlight_state_targets = {
+			state = 341
 		}
+}
 
 		available = {
 			ROOT = {
@@ -1756,7 +1756,7 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 			}
 		}
@@ -1817,10 +1817,10 @@ BUL_foreign_policy_decisions = {
 		}
 
 		highlight_states = {
-			highlight_state_targets = {
-				state = 773
-			}
+highlight_state_targets = {
+			state = 773
 		}
+}
 
 		available = {
 			ROOT = {
@@ -1878,7 +1878,7 @@ BUL_foreign_policy_decisions = {
 				NOT = {
 					has_socialist_government = yes
 					has_government = paternal_autocrat
-					has_country_leader = { ruling_only = yes name = "Ferdinand I" }
+					has_country_leader = { ruling_only = yes name = "Фердинанд I" }
 				}
 			}
 		}
