@@ -913,13 +913,13 @@ RUS_focus_blocked_for_non_decided_socialists = {
 		}
 	}
 	nsp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = nsp_in_power
-		OR = {
+		custom_trigger_tooltip = {
+			tooltip = nsp_in_power
+			OR = {
 			has_idea = RUS_Nikolay_I_Bukharin_hog_rso
 			has_idea = RUS_Sergey_M_Kirov_hog_rso
-			has_idea = RUS_Aleksey_Kosygin_hog_rso
-			has_idea = RUS_Martemyan_Ryutin_hog_rso
+				has_idea = RUS_Aleksey_Kosygin_hog_rso
+				has_idea = RUS_Martemyan_Ryutin_hog_rso
 			has_idea = RUS_Mikhail_Tomskiy_hog_rso
 			has_idea = RUS_Lev_Kamenev_hog_rso
 			has_idea = RUS_Grigory_Sokolnikov_hog_rso
@@ -927,507 +927,507 @@ RUS_focus_blocked_for_non_decided_socialists = {
 			has_idea = RUS_Andrey_Zhdanov_hog_rso
 			has_idea = RUS_Aleksey_Kuznetsov_hog_rso			
 			has_idea = RUS_Aleksandr_Shlyapnikov_hog_syn			
+			}
 		}
 	}
-}
-plsr_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = plsr_in_power
+	plsr_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = plsr_in_power
 		OR = {
 		has_idea = RUS_Maria_A_Spiridonova_hog_syn
 			has_idea = RUS_Isaak_Z_Shteinberg_hog_syn
 			has_idea = RUS_Yakov_Fishman_hog_tot
 		}
 		NOT = { has_completed_focus = RUS_Center_Left_Coalition }
-	}
-}
-rsdrp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = rsdrp_in_power
-		OR = {
-			has_idea = RUS_Irakliy_G_Tsereteli_hog_sde
-			has_idea = RUS_Rafail_Abramovich_hog_sde
-			has_idea = RUS_Aleksandr_N_Potresov_hog_sde
 		}
 	}
-}
-rsdrp_left_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = rsdrp_left_in_power
-		OR = {
-			#has_idea = RUS_Solomon_Lozovsky_hog_sde
-			#has_idea = RUS_Fyodor_Dan_hog_sde
-			AND = {
+	rsdrp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = rsdrp_in_power
+			OR = {
+				has_idea = RUS_Irakliy_G_Tsereteli_hog_sde
 				has_idea = RUS_Rafail_Abramovich_hog_sde
-				has_country_flag = RUS_Abramovich_left_menshevik
-			}			
-		}
-	}
-}
-rsdrp_center_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = rsdrp_center_in_power
-		OR = {
-			has_idea = RUS_Irakliy_G_Tsereteli_hog_sde
-			AND = {
-				has_idea = RUS_Rafail_Abramovich_hog_sde
-				NOT = { has_country_flag = RUS_Abramovich_left_menshevik }
+				has_idea = RUS_Aleksandr_N_Potresov_hog_sde
 			}
 		}
 	}
-}
-rsdrp_right_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = rsdrp_right_in_power
-		OR = {
-			has_idea = RUS_Aleksandr_N_Potresov_hog_sde
-			#has_idea = RUS_Grigoriy_Aleksinskiy_hog_sde		
+	rsdrp_left_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = rsdrp_left_in_power
+			OR = {
+				#has_idea = RUS_Solomon_Lozovsky_hog_sde
+				#has_idea = RUS_Fyodor_Dan_hog_sde
+				AND = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+					has_country_flag = RUS_Abramovich_left_menshevik
+				}			
+			}
 		}
 	}
-}
-kdp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = kdp_in_power
-		OR = {
-			lkdp_in_power = yes
-			pp_in_power = yes
-			rkdp_in_power = yes
+	rsdrp_center_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = rsdrp_center_in_power
+			OR = {
+				has_idea = RUS_Irakliy_G_Tsereteli_hog_sde
+				AND = {
+					has_idea = RUS_Rafail_Abramovich_hog_sde
+					NOT = { has_country_flag = RUS_Abramovich_left_menshevik }
+				}
+			}
 		}
 	}
-}
-lkdp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = lkdp_in_power
-		has_idea = RUS_Nikolay_V_Nekrasov_hog_sli
+	rsdrp_right_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = rsdrp_right_in_power
+			OR = {
+				has_idea = RUS_Aleksandr_N_Potresov_hog_sde
+				#has_idea = RUS_Grigoriy_Aleksinskiy_hog_sde		
+			}
+		}
 	}
-}
-kdp_milyukov_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = kdp_milyukov_in_power
+	kdp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = kdp_in_power
+			OR = {
+				lkdp_in_power = yes
+				pp_in_power = yes
+				rkdp_in_power = yes
+			}
+		}
+	}
+	lkdp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = lkdp_in_power
+			has_idea = RUS_Nikolay_V_Nekrasov_hog_sli
+		}
+	}
+	kdp_milyukov_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = kdp_milyukov_in_power
 		has_idea = RUS_Pavel_N_Milyukov_hog_sli
+		}
 	}
-}
-pp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = pp_in_power
+	pp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = pp_in_power
 		OR = {
-		has_idea = RUS_Aleksandr_I_Konovalov_hog_mli
+			has_idea = RUS_Aleksandr_I_Konovalov_hog_mli
 			has_idea = RUS_Ivan_Yefremov_hog_mli
 		}
+		}
 	}
-}
-rkdp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = rkdp_in_power
+	rkdp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = rkdp_in_power
 		OR = {
-		has_idea = RUS_Vladimir_D_Nabokov_hog_mli
+			has_idea = RUS_Vladimir_D_Nabokov_hog_mli
 			has_idea = RUS_Pyetr_B_Struve_hog_mli
 			has_idea = RUS_Semyon_Frank_hog_mli
 		}
-	}
-}
-nsnp_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = nsnp_in_power
-		has_idea = RUS_Viktor_M_Baydalakov_hog_npo
-	}
-}
-vns_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = vns_in_power
-		OR = {
-			has_idea = RUS_Felix_F_Yusupov_hog_sco
-			has_idea = RUS_Georgiy_P_Ignatiev_hog_sco
-			has_idea = RUS_Vasiliy_V_Shulgin_hog_sco
 		}
 	}
-}
-ep_in_power = {
-	custom_trigger_tooltip = {
-		tooltip = ep_in_power
-		has_idea = RUS_Nikolay_S_Trubetskoy_hog_ade
-	}
-}
-has_a_ep_president = {
-	OR = {
-		has_country_leader = {
-			name = "Николай Трубецкой"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Ариадна Тыркова-Уильямс"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Пётр Савицкий"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Георгий Вернадский"
-			ruling_only = yes
+	nsnp_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = nsnp_in_power
+			has_idea = RUS_Viktor_M_Baydalakov_hog_npo
 		}
 	}
-}
-has_a_vns_president = {
-	OR = {
-		has_country_leader = {
-			name = "Дмитрий Романов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Феликс Юсупов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Василий Шульгин"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Анатолий Савенко"
-			ruling_only = yes
-		}
-	}
-}
-has_a_nrpr_president = {
-	OR = {
-		has_country_leader = {
-			name = "Дмитрий Одинец"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Борис Савинков"
-			ruling_only = yes
-		}
-	}
-}
-has_a_nsnp_president = {
-	OR = {
-		has_country_leader = {
-			name = "Виктор Байдалаков"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Кирилл Вергун"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Александр Трушнович"
-			ruling_only = yes
-		}
-		has_country_leader = {
-		name = "Михаил Георгиевский"
-		ruling_only = yes
-	}
-	has_country_leader = {
-		name = "Борис Прянишников"
-			ruling_only = yes
-		}
-	}
-}
-has_a_rkdp_president = {
-	OR = {
-		has_country_leader = {
-			name = "Николай Тесленко"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Владимир Набоков"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Василий Маклаков"
-			ruling_only = yes
-		}
-	}
-}
-has_a_pp_president = {
-		has_country_leader = {
-		name = "Александр Коновалов"
-			ruling_only = yes
-		}
-	}
-has_a_kdp_president = {
-	OR = {
-		has_country_leader = {
-			name = "Павел Милюков"
-			ruling_only = yes
-		}
-		AND = {
+	vns_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = vns_in_power
 			OR = {
-				has_a_lkdp_president = yes
-				has_a_pp_president = yes
-				has_a_rkdp_president = yes
+			has_idea = RUS_Felix_F_Yusupov_hog_sco
+				has_idea = RUS_Georgiy_P_Ignatiev_hog_sco
+				has_idea = RUS_Vasiliy_V_Shulgin_hog_sco
 			}
-			has_country_flag = kdp_united
 		}
 	}
-}
-has_a_lkdp_president = {
-	OR = {
-		has_country_leader = {
-			name = "Михаил Терещенко"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Николай Некрасов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Дмитрий Плетнёв"
-			ruling_only = yes
+	ep_in_power = {
+		custom_trigger_tooltip = {
+			tooltip = ep_in_power
+		has_idea = RUS_Nikolay_S_Trubetskoy_hog_ade
 		}
 	}
-}
-has_a_psr_president = {
-	OR = {
-		has_country_leader = {
-			name = "Николай Авксентьев"
-			ruling_only = yes
+	has_a_ep_president = {
+		OR = {
+			has_country_leader = {
+				name = "Николай Трубецкой"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Ариадна Тыркова-Уильямс"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Пётр Савицкий"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Георгий Вернадский"
+				ruling_only = yes
+			}
 		}
-		has_country_leader = {
-			name = "Виктор Чернов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Николай Иванов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Михаил Лихач"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Михаил Гендельман"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Василий Архангельский"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Лев Герштейн"
-			ruling_only = yes
-		}			
 	}
-}
-has_a_rsdrp_president = {
-	OR = {
-		has_country_leader = {
-			name = "Соломон Лозовский"
-			ruling_only = yes
+	has_a_vns_president = {
+		OR = {
+			has_country_leader = {
+				name = "Дмитрий Романов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Феликс Юсупов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Василий Шульгин"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Анатолий Савенко"
+				ruling_only = yes
+			}
 		}
-		has_country_leader = {
-			name = "Александр Потресов"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Ираклий Церетели"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Кузьма Гвоздев"
-			ruling_only = yes
-		}			
 	}
-}
-has_a_nsp_president = {
-	OR = {
+	has_a_nrpr_president = {
+		OR = {
+			has_country_leader = {
+				name = "Дмитрий Одинец"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Борис Савинков"
+				ruling_only = yes
+			}
+		}
+	}
+	has_a_nsnp_president = {
+		OR = {
+			has_country_leader = {
+				name = "Виктор Байдалаков"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Кирилл Вергун"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Александр Трушнович"
+				ruling_only = yes
+			}
+			has_country_leader = {
+			name = "Михаил Георгиевский"
+			ruling_only = yes
+		}
+		has_country_leader = {
+			name = "Борис Прянишников"
+				ruling_only = yes
+			}
+		}
+	}
+	has_a_rkdp_president = {
+		OR = {
+			has_country_leader = {
+				name = "Николай Тесленко"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Владимир Набоков"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Василий Маклаков"
+				ruling_only = yes
+			}
+		}
+	}
+	has_a_pp_president = {
+			has_country_leader = {
+			name = "Александр Коновалов"
+				ruling_only = yes
+			}
+		}
+	has_a_kdp_president = {
+		OR = {
+			has_country_leader = {
+				name = "Павел Милюков"
+				ruling_only = yes
+			}
+			AND = {
+				OR = {
+					has_a_lkdp_president = yes
+					has_a_pp_president = yes
+					has_a_rkdp_president = yes
+				}
+				has_country_flag = kdp_united
+			}
+		}
+	}
+	has_a_lkdp_president = {
+		OR = {
+			has_country_leader = {
+				name = "Михаил Терещенко"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Николай Некрасов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Дмитрий Плетнёв"
+				ruling_only = yes
+			}
+		}
+	}
+	has_a_psr_president = {
+		OR = {
+			has_country_leader = {
+				name = "Николай Авксентьев"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Виктор Чернов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Николай Иванов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Михаил Лихач"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Михаил Гендельман"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Василий Архангельский"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Лев Герштейн"
+				ruling_only = yes
+			}			
+		}
+	}
+	has_a_rsdrp_president = {
+		OR = {
+			has_country_leader = {
+				name = "Соломон Лозовский"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Александр Потресов"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Ираклий Церетели"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Кузьма Гвоздев"
+				ruling_only = yes
+			}			
+		}
+	}
+	has_a_nsp_president = {
+		OR = {
 		SOV_shlyapnikov_in_power = yes
 		SOV_rykov_in_power = yes
 		SOV_bukharin_in_power = yes
 		SOV_kirov_in_power = yes
-	}
-}
-has_a_plsr_president = {
-	OR = {
-		has_country_leader = {
-			name = "Борис Камков"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Исаак Штейнберг"
-			ruling_only = yes
-		}
-		has_country_leader = {
-			name = "Мария Спиридонова"
-			ruling_only = yes
 		}
 	}
-}
-RUS_state_can_increase_pop = {
-	if = {
-		limit = {
+	has_a_plsr_president = {
+		OR = {
+			has_country_leader = {
+				name = "Борис Камков"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Исаак Штейнберг"
+				ruling_only = yes
+			}
+			has_country_leader = {
+				name = "Мария Спиридонова"
+				ruling_only = yes
+			}
+		}
+	}
+	RUS_state_can_increase_pop = {
+		if = {
+			limit = {
 			ROOT = { has_idea = RUS_Maria_A_Spiridonova_hog_syn }
+			}
+			check_variable = { THIS.RUS_state_plsr_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_plsr_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				OR = {
+		if = {
+			limit = {
+				ROOT = { 
+					OR = {
 					has_idea = RUS_Nikolay_I_Bukharin_hog_rso
 					has_idea = RUS_Sergey_M_Kirov_hog_rso
+					}
 				}
 			}
+			check_variable = { THIS.RUS_state_nsp_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_nsp_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				psr_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					psr_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_psr_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_psr_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				rsdrp_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					rsdrp_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_rsdrp_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_rsdrp_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				lkdp_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					lkdp_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_lkdp_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_lkdp_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				rkdp_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					rkdp_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_rkdp_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_rkdp_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				nsnp_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					nsnp_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_nsnp_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_nsnp_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				vns_in_power = yes
+		if = {
+			limit = {
+				ROOT = { 
+					vns_in_power = yes
+				}
 			}
+			check_variable = { THIS.RUS_state_vns_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_vns_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
+		if = {
+			limit = {
+				ROOT = { 
 				has_idea = RUS_Nikolay_S_Trubetskoy_hog_ade
+				}
 			}
+			check_variable = { THIS.RUS_state_ep_final_pop < 0.55 }
 		}
-		check_variable = { THIS.RUS_state_ep_final_pop < 0.55 }
-	}
-	if = {
-		limit = {
-			ROOT = { 
-				has_idea = RUS_Boris_V_Savinkov_hog_npo
+		if = {
+			limit = {
+				ROOT = { 
+					has_idea = RUS_Boris_V_Savinkov_hog_npo
+				}
 			}
+			check_variable = { THIS.RUS_state_nrpr_final_pop < 0.55 }
+		}	
+	}
+	# requires a temp variable law_id
+	RUS_has_law_accepted = {
+		custom_trigger_tooltip = {
+			tooltip = RUS_has_law_accepted
+			check_variable = { Duma_Bill_Status^law_id = 3 }
 		}
-		check_variable = { THIS.RUS_state_nrpr_final_pop < 0.55 }
-	}	
-}
-# requires a temp variable law_id
-RUS_has_law_accepted = {
-	custom_trigger_tooltip = {
-		tooltip = RUS_has_law_accepted
-		check_variable = { Duma_Bill_Status^law_id = 3 }
 	}
-}
-RUS_has_law_blocked = {
-	custom_trigger_tooltip = {
-		tooltip = RUS_has_law_blocked
-		check_variable = { Duma_Bill_Status^law_id = 4 }
+	RUS_has_law_blocked = {
+		custom_trigger_tooltip = {
+			tooltip = RUS_has_law_blocked
+			check_variable = { Duma_Bill_Status^law_id = 4 }
+		}
 	}
-}
-RUS_has_law_in_vote = {
-	custom_trigger_tooltip = {
-		tooltip = RUS_has_law_in_vote
-		check_variable = { Duma_Bill_Status^law_id = 2 }
+	RUS_has_law_in_vote = {
+		custom_trigger_tooltip = {
+			tooltip = RUS_has_law_in_vote
+			check_variable = { Duma_Bill_Status^law_id = 2 }
+		}
 	}
-}
-is_general_rrf_state = {
-	OR = {
-		state = 257
-		state = 255 #Penza
-		state = 258
-		state = 254 #Ryazan
-		state = 223
-		state = 205
-		state = 222
-		state = 1205
-		state = 1204
-		state = 1203
-		state = 248
-		state = 260
-		state = 220 #Kursk
-		state = 1229
-		state = 821
-		state = 224 #Bryansk
-		state = 240 #Belgorod
-		state = 242 #Smolensk
-		state = 250 #Simbisrk
-		state = 252 #Nizhny Novgorod
-		state = 253 #Vladimir
-		state = 256 #Cheboksary
-		state = 263 #Novgorod
-		state = 755 #Vitebsk
-		state = 880 #Vitebsk
+	is_general_rrf_state = {
+		OR = {
+			state = 257
+			state = 255 #Penza
+			state = 258
+			state = 254 #Ryazan
+			state = 223
+			state = 205
+			state = 222
+			state = 1205
+			state = 1204
+			state = 1203
+			state = 248
+			state = 260
+			state = 220 #Kursk
+			state = 1229
+			state = 821
+			state = 224 #Bryansk
+			state = 240 #Belgorod
+			state = 242 #Smolensk
+			state = 250 #Simbisrk
+			state = 252 #Nizhny Novgorod
+			state = 253 #Vladimir
+			state = 256 #Cheboksary
+			state = 263 #Novgorod
+			state = 755 #Vitebsk
+			state = 880 #Vitebsk
+		}
 	}
-}
-is_core_rrf_state = {
-	OR = {
-		state = 257
-		state = 258
-		state = 254
-		state = 223
-		state = 205
-		state = 224
-		state = 220
-		state = 821
-		state = 1229
-		state = 222
-		state = 240
-		state = 260
+	is_core_rrf_state = {
+		OR = {
+			state = 257
+			state = 258
+			state = 254
+			state = 223
+			state = 205
+			state = 224
+			state = 220
+			state = 821
+			state = 1229
+			state = 222
+			state = 240
+			state = 260
+		}
 	}
-}
-RUS_siberian_insurgency_can_control_state = {
-	if = {
-		limit = {
+	RUS_siberian_insurgency_can_control_state = {
+		if = {
+			limit = {
 			FROM = { 
-				state = 566 
+					state = 566
+				}
+			}
+		568 = { is_demilitarized_zone = no }
+		}
+		if = {
+			limit = {
+				FROM = { state = 571 }
+			}
+			403 = { 
+				is_demilitarized_zone = no
 			}
 		}
-		568 = { is_demilitarized_zone = no }
-	}
-	if = {
-		limit = {
-			FROM = { state = 571 }
-		}
-		403 = { 
-			is_demilitarized_zone = no
-		}
-	}
-	if = {
-		limit = {
+		if = {
+			limit = {
 			FROM = { state = 570 }
+			}
+			571 = { 
+				is_demilitarized_zone = no
+			}
 		}
-		571 = { 
-			is_demilitarized_zone = no
-		}
-	}
-	if = {
-		limit = {
+		if = {
+			limit = {
 			FROM = { state = 568 }
 		}
 		570 = { 

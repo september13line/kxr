@@ -3153,18 +3153,18 @@ country_event = { #RCW
 				}
 			}
 			821 = {
-				owner = {
-					country_event = {
-						id = rcw.56
-						days = 2
-					}
+			owner = {
+				country_event = {
+					id = rcw.56
+					days = 2
 				}
-				transfer_state_to = UKR
-				add_claim_by = UKR
-			}			
+			}
+			transfer_state_to = UKR
+			add_claim_by = UKR
+		}
 		}
 		else = {
-			821 = {
+		821 = {
 				transfer_state_to = UKR
 				add_claim_by = UKR
 			}
@@ -4005,9 +4005,9 @@ country_event = { #RCW
 				set_leader_portrait = GFX_Portrait_SOV_Semyon_Hitler
 		}
 		XXA = {			
-			random_unit_leader = {
-				limit = { has_id = 447 }
-				set_leader_portrait = GFX_Portrait_SOV_Aleksandr_Yegorov
+		random_unit_leader = {
+			limit = { has_id = 447 }
+			set_leader_portrait = GFX_Portrait_SOV_Aleksandr_Yegorov
 					set_nationality = ROOT
 				promote_to_marshal = yes
 				}
@@ -4015,11 +4015,11 @@ country_event = { #RCW
 					limit = { has_id = 505050 }
 				set_nationality = ROOT
 					promote_to_marshal = yes
-			}
-			random_unit_leader = {
-				limit = { has_id = 607 }
+		}
+		random_unit_leader = {
+			limit = { has_id = 607 }
 				set_nationality = ROOT
-					promote_to_marshal = yes
+				promote_to_marshal = yes
 			}
 			random_unit_leader = {
 				limit = { has_id = 432 }
@@ -5572,19 +5572,19 @@ country_event = { #RCW
 					random = 24
 				}
 			}
-			every_other_country = {
-				limit = { 
-					is_in_faction_with = ROOT 
-					OR = {
-						is_subject_of = ROOT
-						is_subject = no
-					}		
+		every_other_country = {
+			limit = { 
+				is_in_faction_with = ROOT 
+				OR = {
+					is_subject_of = ROOT
+					is_subject = no
+				}					
 					NOT = { tag = TRM }
-				}
-				country_event = {
-					id = rcw.255
-					days = 1
-					random = 24
+			}
+			country_event = {
+				id = rcw.255
+				days = 1
+				random = 24
 				}
 			}
 		}
@@ -5621,10 +5621,10 @@ country_event = { #RCW
 				factor = 0
 				FROM = { RUS_kornilov_in_power = yes }
 				NOT = { 
-					tag = RRF 
+					tag = RRF
 					tag = ORE
-				}
 			}
+		}
 			modifier = {
 				factor = 0
 				FROM = { RUS_denikin_in_power = yes }
@@ -5647,8 +5647,8 @@ country_event = { #RCW
 						TRM_Nats_in_power = no
 					}
 					tag = RRF					
+					}
 				}
-			}
 			modifier = {
 				factor = 0
 				is_russian_cw_tag = no
@@ -5687,10 +5687,10 @@ country_event = { #RCW
 	
 	option = {
 		name = rcw.256.a
-		FROM = {
+				FROM = { 
 			every_unit_leader = {
-				set_nationality = ROOT
-			}
+					set_nationality = ROOT
+				}
 			every_subject_country = {
 				ROOT = {
 					annex_country = { target = PREV transfer_troops = yes }
@@ -5703,8 +5703,8 @@ country_event = { #RCW
 				target = ROOT
 				size = 1
 				keep_unit_leaders_trigger = { always = yes }
-			}
 		}
+			}
 		annex_country = { target = FROM transfer_troops = yes }
 	}
 }
@@ -5759,7 +5759,7 @@ country_event = { #RCW
 		set_temp_variable = { target = FROM }
 		clear_all_relations_with_TARGET = yes
 		hidden_effect = {
-			FROM = { 
+		FROM = {
 				leave_faction = yes 
 				country_event = rcw.2600
 			}
@@ -5801,7 +5801,7 @@ country_event = { #RCW
 			}
 			every_enemy_country = {
 				FROM = { declare_war_on = { target = PREV type = annex_everything } }
-			}
+		}
 			FROM = {
 				annex_country = { target = ROOT }
 			}
@@ -5986,9 +5986,9 @@ country_event = { #
 		}
 		if = {
 			limit = { country_exists = RVA }
-			every_unit_leader = {
-				limit = { has_trait = RUS_markov_officer }
-				set_nationality = RVA
+		every_unit_leader = {
+			limit = { has_trait = RUS_markov_officer }
+			set_nationality = RVA
 			}
 		}
 		else_if = {
@@ -6034,7 +6034,7 @@ country_event = { #
 		}
 		var:219.owner = {
 			country_event = rcw.262
-		}		
+		}
 		every_other_country = {
 			limit = {
 				is_russian_cw_tag = yes
@@ -6060,7 +6060,7 @@ country_event = { #
 			limit = { is_core_of = RRF }
 			remove_core_of = RRF
 			add_core_of = ROOT
-		}	
+		}		
 	}
 	option = {
 		name = rcw.262.b

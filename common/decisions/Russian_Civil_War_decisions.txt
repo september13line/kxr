@@ -836,10 +836,10 @@ RUS_civil_war_decisions = {
 			has_global_flag = RCW_begun
 			if = {
 				limit = { NOT = { tag = RVA } }
-					NOT = { 
+				NOT = { 
 					country_exists = RVA
-					} 
 				}
+			}
 			if = {
 				limit = { NOT = { tag = RUS } }
 				NOT = { 
@@ -866,7 +866,7 @@ RUS_civil_war_decisions = {
 		targets = { SIB TTR BKN ORE KAR ALO BRY YAK TRB }
 		target_root_trigger = {
 			OR = {
-				owns_state = 219
+			owns_state = 219
 				owns_state = 195
 			}
 		}
@@ -931,8 +931,8 @@ RUS_civil_war_decisions = {
 			factor = 200 
 			modifier = {
 				factor = 0
-				is_subject = yes
-			}
+					is_subject = yes
+				}
 			modifier = {
 				factor = 0
 				FROM = { default_attack_AI_trigger_FROM = yes }
@@ -1666,7 +1666,7 @@ RUS_civil_war_decisions = {
 				NOT = { has_state_category = one }
 			}
 			NOT = { has_global_flag = RCW_over }
-			has_global_flag = RCW_begun
+				has_global_flag = RCW_begun
 		}
 		highlight_states = {
 			highlight_state_targets = {
