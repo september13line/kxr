@@ -200,8 +200,8 @@ RUS_Siberian_War = {
 			limit = { original_tag = TRM }
 			OR = {
 				AND = {
-					country_exists = RUS
-					NOT = { is_ally_with = RUS }
+			country_exists = RUS
+			NOT = { is_ally_with = RUS }
 				}
 				AND = {
 					country_exists = RVA
@@ -218,8 +218,8 @@ RUS_Siberian_War = {
 			}			
 		}
 		else = {
-			is_subject = no
-			country_exists = TRM
+		is_subject = no
+		country_exists = TRM
 		}
 	}
 	visible_when_empty = yes

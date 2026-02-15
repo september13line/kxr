@@ -293,7 +293,7 @@ country_event = {
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event portrait.1"
 		if = {	
-			limit = { has_country_leader = { name = "Waddle of Penguins" ruling_only = yes } }
+			limit = { has_country_leader = { name = "Стая пингвинов" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/AAR/Portrait_ANT_Penguins.png"
 			}
@@ -301,7 +301,7 @@ country_event = {
 	}
 	trigger = {
 		has_country_leader = {
-			name = "Waddle of Penguins"
+			name = "Стая пингвинов"
 			ruling_only = yes
 		}
 		tag = AAR
@@ -4924,7 +4924,7 @@ country_event = { #Ван Цзинвэй Portrait
 		}
 	}
 
-	option = { #suit 2
+	option = { #hatless
 		name = portrait_picker.60.c
 		if = {	
 			limit = { has_country_leader = { name = "Ван Цзинвэй" ruling_only = yes } }
@@ -5833,7 +5833,7 @@ country_event = { #Tojo Portrait
 	
 	option = { #Hat
 		name = portrait_picker.76.b
-		if = {
+		if = {	
 			limit = { has_country_leader = { name = "Хидэки Тодзио" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/JAP/Portrait_JAP_Hideki_Tojo_KX_Hat.png"
@@ -5850,7 +5850,7 @@ country_event = { #Tojo Portrait
 
 	option = { #Suit
 		name = portrait_picker.76.c
-		if = {
+		if = {	
 			limit = { has_country_leader = { name = "Хидэки Тодзио" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/JAP/Portrait_JAP_Hideki_Tojo_KX_Civilian.png"
@@ -5887,7 +5887,7 @@ country_event = { #Ford Portrait
 	
 	option = { #Alt
 		name = portrait_picker.77.b
-		if = {
+		if = {	
 			limit = { has_country_leader = { name = "Генри Форд" ruling_only = yes } }
 			set_country_leader_portrait = {
 				portrait = "gfx/leaders/CGL/Portrait_CGL_Henry_Ford_2.png"
@@ -5906,7 +5906,7 @@ country_event = { #Ford Portrait
 	}
 }
 
-country_event = { #Jiang Qing Portrait
+country_event = { #Цзян Цин Portrait
 	id = portrait_picker.78
 	title = portrait_picker.78.t 
 	desc = portrait_picker.78.d
@@ -5936,7 +5936,7 @@ country_event = { #Jiang Qing Portrait
 	}
 }
 
-country_event = { #Chen Shaoyu/Wang Ming Portrait
+country_event = { #Чэнь Шаоюй/Ван Мин Portrait
 	id = portrait_picker.79
 	title = portrait_picker.79.t 
 	desc = portrait_picker.79.d

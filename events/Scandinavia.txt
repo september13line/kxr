@@ -2218,7 +2218,7 @@ country_event = {
 		if = {
 			limit = {
 				tag = SWE 
-				}
+		}		
 			set_cosmetic_tag = SCA_FAKE
 		} else = {
 		set_cosmetic_tag = SCA_FAKE
@@ -2479,7 +2479,7 @@ country_event = {
 		if = {
 			limit = {
 				tag = SWE 
-				}
+		}
 			set_cosmetic_tag = SCA_KALMAR
 			} else = {
 		
@@ -2590,16 +2590,16 @@ country_event = {
 	option = {
 		name = scandinavia.20.f
 		trigger = {
-			tag = SWE
-			OR = {
-			NOT = {
+		tag = SWE
+		OR = {
+		NOT = {
 			has_country_flag = SWE_flag_red_in_sweden
 			has_cosmetic_tag = SWE_elmo_empire
 			has_cosmetic_tag = SWE_elmo_empire2
 			has_cosmetic_tag = SWE_elmo_empire3
 			has_cosmetic_tag = SWE_elmo_empire_herald
-					}
 				}
+			}
 		}
 		
 		if = { 
@@ -2611,7 +2611,7 @@ country_event = {
 		set_cosmetic_tag = SWE_EMP_1
 		}
 		
-
+		
 		every_state = {
 		limit = { is_core_of = SWE }
 		add_claim_by = FROM

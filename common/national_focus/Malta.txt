@@ -5015,7 +5015,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
 			if = {
 				limit = { NOT = { has_country_flag = MLT_boffa_italy } }
-				add_ideas = MLT_northern_integ
+			add_ideas = MLT_northern_integ
 			}
 			every_state = {
 				limit = {
@@ -5046,7 +5046,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
 			if = {
 				limit = { NOT = { has_country_flag = MLT_boffa_italy } }
-				add_ideas = MLT_southern_integ
+			add_ideas = MLT_southern_integ
 			}
 			every_state = {
 				limit = {
@@ -5076,17 +5076,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus XSM_three_province_plan"
 			if = {
 				limit = { NOT = { has_country_flag = MLT_boffa_italy } }
-				hidden_effect = {
+			hidden_effect = {
 				country_event = {
 					id = mlt.120
 					days = 10
 				}
-				}
-				swap_ideas = {
-				remove_idea = MLT_southern_integ
-				add_idea = MLT_southern_integ2
-				}
 			}
+			swap_ideas = {
+			remove_idea = MLT_southern_integ
+			add_idea = MLT_southern_integ2
+			}
+				}
 			set_capital = { state = 2 }
 			if = {
 				limit = {

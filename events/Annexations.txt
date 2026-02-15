@@ -4219,26 +4219,26 @@ country_event = { #Liberation of Slovenia
 	}
 	option = { #integrate
 		name = annex.integration
-		trigger = {
+	trigger = {
 			russia_is_panslavist = yes
-		}
-		ai_chance = {
-			base = 100
-		}
-		every_owned_state = {
-			limit = {
-				OR = {
+	}
+	ai_chance = {
+		base = 100
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
 					is_core_of = SLO
 					is_claimed_by = SLO
-				}
-				is_claim_or_core_of_ROOT = no
 			}
-			add_claim_by = ROOT
+			is_claim_or_core_of_ROOT = no
 		}
-		occupy_small_country = yes
-		SLO = { enable_coring_at_eighty_compliance = yes }
-		recheck_annexations = yes
+		add_claim_by = ROOT
 	}
+	occupy_small_country = yes
+		SLO = { enable_coring_at_eighty_compliance = yes }
+	recheck_annexations = yes
+}
 	option = { #occupy
 		name = annex.occupation
 		trigger = {
@@ -7010,17 +7010,17 @@ country_event = { #Fate of Kosovo
 		}
 	}
 	option = { #Integrate
-		name = annex.integration
-		trigger = {
+	name = annex.integration
+	trigger = {
 			russia_is_panslavist = yes
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_state_claim = 765
-		765 = { enable_state_integration_80_compliance = yes }
-		recheck_annexations = yes
 	}
+	ai_chance = {
+		base = 100
+	}
+	add_state_claim = 765
+	765 = { enable_state_integration_80_compliance = yes }
+	recheck_annexations = yes
+}
 
 	option = { #occupy
 		name = annex.occupation
@@ -7714,7 +7714,7 @@ country_event = { #Fate of Transcarpathia
 			is_russian_tag_that_can_integrate = yes
 		}
 		ai_chance = {
-			base = 100			
+			base = 100
 			modifier = {
 				factor = 0.1
 				OR = {
@@ -14115,7 +14115,7 @@ country_event = { #fate of Germany
 			}
 			GRU = { country_event = part.49 }
 			ROOT = { GRU = { transfer_technology_without_doctrines = yes } }
-		}
+			}
 			if = {
 				limit = {
 					RUS_russian_monarch = yes
@@ -17412,7 +17412,7 @@ country_event = { #The Conquest of Bohemia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-			set_cosmetic_tag = CZE_czechoslovakia
+				set_cosmetic_tag = CZE_czechoslovakia
 			}
 			set_country_flag = was_puppeted
 		}
@@ -21554,7 +21554,7 @@ country_event = { #Fate of Slovakia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-			set_cosmetic_tag = CZE_czechoslovakia
+				set_cosmetic_tag = CZE_czechoslovakia
 			}
 		}
 	}
@@ -21664,7 +21664,7 @@ country_event = { #Fate of Slovakia
 						has_cosmetic_tag = CZE_slov_rusmon_puppet
 					}
 				}
-			set_cosmetic_tag = CZE_czechoslovakia
+				set_cosmetic_tag = CZE_czechoslovakia
 			}
 		}
 	}	
@@ -29467,8 +29467,8 @@ country_event = { #Annexation of Korea
 		trigger = {
 			if = {
 				limit = { tag = QIE }
-				NOT = { has_country_flag = QIE_coup_failed }
-			}
+					NOT = { has_country_flag = QIE_coup_failed }
+				}
 			has_socialist_government = no
 		}
 		ai_chance = { factor = 100 }		
@@ -32900,11 +32900,11 @@ country_event = { #Fate of Transamur
 				}
 				if = {
 					limit = { owns_state = 637 }
-					add_state_claim = 637
+				add_state_claim = 637
 				}
 				if = {
 					limit = { owns_state = 562 }
-					add_state_claim = 562
+				add_state_claim = 562
 				}
 			}
 			537 = { retain_state = yes } #Sakhalin
@@ -46572,7 +46572,7 @@ country_event = { #Fate of New England
 					traits = { anti_statist }
 				}
 				create_country_leader = {
-					name = "Джон Джейкоб Эстор"
+					name = "Джон Джейкоб Астор"
 					desc = "NEE_JOHN_JACOB_ASTOR_DESC"
 					picture = "gfx/leaders/NEE/Portrait_NEE_John_Jacob_Astor_VI.png"
 					expire = "1.1.1"
@@ -49090,17 +49090,17 @@ country_event = { #Fate of Herceg Novi
 	}
 
 	option = { #Integrate
-		name = annex.integration
-		trigger = {
+	name = annex.integration
+	trigger = {
 			russia_is_panslavist = yes
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_state_claim = 1270
-		1270 = { enable_state_integration_80_compliance = yes }
-		recheck_annexations = yes
 	}
+	ai_chance = {
+		base = 100
+	}
+	add_state_claim = 1270
+	1270 = { enable_state_integration_80_compliance = yes }
+	recheck_annexations = yes
+}
 
 	option = { #occupy
 		name = annex.occupation
@@ -52862,18 +52862,18 @@ country_event = { #The fate of Kazakhstan
 			if = {
 				limit = { has_government = national_populist }
 				ALO = {
-					create_country_leader = {
-						name = "Абдулгафар Жанбосынов"
-						desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
-						picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
-						expire = "1.1.1"
-						ideology = natpop_tribal_chiefdom_subtype
-					}
-					set_party_name = {
-						ideology = national_populist
-						name = ALO_national_populist_party2
-						long_name = ALO_national_populist_party2_long
-					}
+				create_country_leader = {
+					name = "Абдулгафар Жанбосынов"
+					desc = "POLITICS_ABDIGAPAR_JANBOSYNULY_DESC"
+					picture = "gfx/leaders/ALO/Portrait_ALO_Abdigappar_Janbosynulykr.png"
+					expire = "1.1.1"
+					ideology = natpop_tribal_chiefdom_subtype
+				}
+				set_party_name = {
+					ideology = national_populist
+					name = ALO_national_populist_party2
+					long_name = ALO_national_populist_party2_long
+				}
 			    }
 			}
 		}
@@ -55977,7 +55977,7 @@ country_event = { #Fate of the Crimea
 			var:202.owner = { 
 				is_ukrainian_tag = yes
 				OR = {
-					owns_state = 196
+				owns_state = 196
 					owns_state = 197
 				}
 				is_ally_of_ROOT = yes 

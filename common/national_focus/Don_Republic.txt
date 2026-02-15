@@ -2833,10 +2833,10 @@ focus_tree = {
 			}
 			if = {
 				limit = { country_exists = GER }
-				any_neighbor_country = {
-					OR = {
-						is_ally_with = GER
-						tag = GER
+			any_neighbor_country = {
+				OR = {
+					is_ally_with = GER
+					tag = GER
 					}
 				}
 			}

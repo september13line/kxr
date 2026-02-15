@@ -4276,7 +4276,7 @@ focus_tree = {
 				set_technology = { tech_assault_battalion = 1 popup = no }
 			}
 			division_template = {
-				name = "Druzhina Svyatogo Kresta"
+				name = "Дружина Святого Креста"
 				division_names_group = TRM_INF_01
 				regiments = {
 					elite_infantry = { x = 0 y = 0 }
@@ -4293,7 +4293,7 @@ focus_tree = {
 			}
 			random_owned_controlled_state = {
 				create_unit = {
-					division = " division_template = \"Druzhina Svyatogo Kresta\" start_experience_factor = 0.8"
+					division = " division_template = \"Дружина Святого Креста\" start_experience_factor = 0.8"
 					count = 2
 					owner = ROOT
 				}
@@ -4660,7 +4660,7 @@ focus_tree = {
 		}
 		bypass = {
 			has_country_leader = {
-				name = "Yemelyan Yaroslavsky"
+				name = "Емельян Ярославский"
 				ruling_only = yes
 			}
 		}
@@ -6134,7 +6134,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Mlad_Cut_Ties_With_Japan"
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			effect_tooltip = {
@@ -7167,7 +7167,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Arrest_Treacherous_Cossacks"
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			effect_tooltip = {

@@ -20,7 +20,7 @@ uses_leader_gui = {
 		RUS_has_leader_GUI = yes
 		has_idea_with_trait = vice_president
 		AND = {
-			has_idea_with_trait = taoiseach
+		has_idea_with_trait = taoiseach
 			NOT = {
 				AND = {
 					has_idea = IRE_Eamon_de_Valera_hog_sco
@@ -154,11 +154,11 @@ UKR_has_leader_GUI = {
 			OR = {
 				has_idea = UKR_Vasyl_Kochubei_hog_pau
 				AND = {
-					has_idea = UKR_Ivan_Poltvets_Ostrianytsia_hog_pau
+				has_idea = UKR_Ivan_Poltvets_Ostrianytsia_hog_pau
 					NOT = { has_country_leader = { name = "Іван Полтавець-Остряниця" ruling_only = yes } }
 				}
 				AND = {
-					has_idea = UKR_Mykola_Mikhnovsky_hog_pau
+				has_idea = UKR_Mykola_Mikhnovsky_hog_pau
 					NOT = { has_country_leader = { name = "Микола Міхновський" ruling_only = yes } }
 				}
 				has_idea = UKR_Volodymyr_Zalozetskyi_Sas_hog_sco
@@ -1214,7 +1214,7 @@ DEH_has_leader_GUI = {
 		has_idea = DEH_Muhammad_Ali_Jinnah_hog_sde
 		has_idea = DEH_Sir_Sikander_Hayat_Khan_hog_sco
 		AND = {
-			has_idea = DEH_Maharaja_Ganga_Singh_hog_sco
+		has_idea = DEH_Maharaja_Ganga_Singh_hog_sco
 			NOT = { has_country_leader = { name = "Ганга Сингх" ruling_only = yes } }
 		}
 		has_idea = DEH_Minocher_Rustom_Masani_hog_mli
@@ -1691,12 +1691,12 @@ NEP_has_leader_GUI = {
 		has_idea = NEP_Mohan_Shumsher_Rana_hog_pau
 	}
 	OR = {
-		has_country_leader = {
-			name = "Tribhuvan"
-			ruling_only = yes
+	has_country_leader = {
+			name = "Трибхуван"
+		ruling_only = yes
 		}
 		has_country_leader = {
-			name = "Samrajya"
+			name = "Самраджья"
 			ruling_only = yes
 		}
 	}
@@ -1967,11 +1967,11 @@ HUN_has_leader_GUI = {
 	has_idea = HUN_Miklos_Kallay_de_Nagykallo_hog_pau
 	OR = {
 		has_country_leader = {
-			name = "IV. Károly"
+			name = "Карой IV"
 			ruling_only = yes
 		}
 		has_country_leader = {
-			name = "Otto I"
+			name = "Отто I"
 			ruling_only = yes
 		}
 		has_country_leader = { #For Later

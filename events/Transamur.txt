@@ -1139,7 +1139,7 @@ country_event = { #
 			set_technology = { tech_assault_battalion = 1 popup = no }
 		}
 		division_template = {
-			name = "Дружина святого креста"
+			name = "Дружина Святого Креста"
 			division_names_group = TRM_INF_01
 			regiments = {
 				elite_infantry = { x = 0 y = 0 }
@@ -1156,7 +1156,7 @@ country_event = { #
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = " division_template = \"Druzhina Svyatogo Kresta\" start_experience_factor = 0.8"
+				division = " division_template = \"Дружина Святого Креста\" start_experience_factor = 0.8"
 				count = 2
 				owner = ROOT
 			}
@@ -2171,7 +2171,7 @@ country_event = {
 	}
 }
 
-###Yui Mitsue is dead###
+###Юи Мицуэ is dead###
 country_event = {
 	id = tram.90
 	immediate = { log = "[GetDateText]: [Root.GetName]: event tram.90" }
@@ -2252,7 +2252,7 @@ country_event = {
 			transfer_state_to = ROOT
 		}
 	}
-	option = { #Oi Shigemoto
+	option = { #Ои Сигэмото
 		name = tram.91.c
 		ai_chance = {
 			factor = 20
@@ -2338,11 +2338,11 @@ country_event = {
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -3019,7 +3019,7 @@ country_event = {
 		months = 1
 	}
 
-	option = { #Yui Mitsue owerthrow current government
+	option = { #Юи Мицуэ owerthrow current government
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -4525,11 +4525,11 @@ country_event = { #unite with russian empire
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -4560,11 +4560,11 @@ country_event = { #unite with russian empire
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -4900,11 +4900,11 @@ country_event = { #russia want const monarchy
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -4971,11 +4971,11 @@ country_event = { #russia want abs monarchy
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -5071,11 +5071,11 @@ country_event = { #diterikhs
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -5194,11 +5194,11 @@ country_event = { #Eurasia wants monarchy
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -6397,27 +6397,27 @@ country_event = { #Naval Blockade
 		else = {
 			effect_tooltip = { TRM_transfer_fleet_to_PHI = yes }
 			hidden_effect = {
-				transfer_ship = { prefer_name = "Vladimir" type = heavy_cruiser target = XXA }
-				transfer_ship = { prefer_name = "Rurik" type = heavy_cruiser target = XXA }
-				transfer_ship = { prefer_name = "Bedovyy" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Boykiy" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Kapitan Yurasovskiy" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Leytenant Sergeev" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Bikin" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Kiyevka" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Samarga" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Yedinka" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Amur" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "Ussuri" type = destroyer target = XXA }
-				transfer_ship = { prefer_name = "General Kappel" type = battleship target = XXA }
-				transfer_ship = { prefer_name = "General Semyonov" type = battleship target = XXA }
+				transfer_ship = { prefer_name = "Владимир" type = heavy_cruiser target = XXA }
+				transfer_ship = { prefer_name = "Рюрик" type = heavy_cruiser target = XXA }
+				transfer_ship = { prefer_name = "Бедовый" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Бойкий" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Капитан Юрасовский" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Лейтенант Сергеев" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Бикин" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Киевка" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Самарга" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Единка" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Амур" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Уссури" type = destroyer target = XXA }
+				transfer_ship = { prefer_name = "Генерал Каппель" type = battleship target = XXA }
+				transfer_ship = { prefer_name = "Генерал Семёнов" type = battleship target = XXA }
 				
-				transfer_ship = { prefer_name = "Leopard" type = submarine target = XXA }
-				transfer_ship = { prefer_name = "Pantera" type = submarine target = XXA }
-				transfer_ship = { prefer_name = "Rys" type = submarine target = XXA }
-				transfer_ship = { prefer_name = "Tigr" type = submarine target = XXA }
-				transfer_ship = { prefer_name = "Tur" type = submarine target = XXA }
-				transfer_ship = { prefer_name = "Ugor" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Леопард" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Пантера" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Рысь" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Тигр" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Тур" type = submarine target = XXA }
+				transfer_ship = { prefer_name = "Угорь" type = submarine target = XXA }
 			}
 			PHI = { 
 				country_event = {
@@ -6649,7 +6649,7 @@ country_event = { #Cossacks
 		}
 		random_owned_controlled_state = {
 			create_unit = {
-				division = "division_template = \"Kozatska Dyviziia\" start_experience_factor = 0.4"
+				division = "division_template = \"Козацкая дивизия\" start_experience_factor = 0.4"
 				owner = ROOT
 				count = 2
 			}
@@ -7240,11 +7240,11 @@ country_event = { #TRM wants to join us
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 		}
@@ -9739,7 +9739,7 @@ country_event = {
 				}
 				create_railway_gun = {
 					equipment = railway_gun_equipment_1
-					name = "Orlik" 
+					name = "Орлик" 
 				}
 			}
 		}
@@ -9777,7 +9777,7 @@ country_event = {
 			long_name = TRM_Mlad_party_socdem_long
 		}
 		create_country_leader = {
-			name = "Mladorossi Regency Council"
+			name = "Младоросский регентский совет"
 			desc = "POLITICS_REGENCY_COUNCIL_RUSSIA_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Regency.png"
 			expire = "1965.1.1"
@@ -9877,7 +9877,7 @@ country_event = {
 		TRM_Mlad_in_power = yes
 		has_country_leader = {
 			ruling_only = yes
-			name = "Mladorossi Regency Council"
+			name = "Младоросский регентский совет"
 		}
 		RUS = {
 			NOT = {
@@ -10051,7 +10051,7 @@ country_event = {
 		TRM_Mlad_in_power = yes
 		has_country_leader = {
 			ruling_only = yes
-			name = "Mladorossi Regency Council"
+			name = "Младоросский регентский совет"
 		}
 		RUS = {
 			OR = {
@@ -10076,7 +10076,7 @@ country_event = {
 	option = { 
 		name = trammlad.149.a
 		create_country_leader = {
-			name = "Regent Alexander Kazem-Bek"
+			name = "Регент Александр Казем-Бек"
 			desc = "POLITICS_KAZEMBEK_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Alexander_Kazembek_regent.png"
 			expire = "1.1.1"
@@ -10112,7 +10112,7 @@ country_event = {
 	option = {
 		name = trammlad.152.a 	
 		create_country_leader = {
-			name = "Mladorossi Regency Council"
+			name = "Младоросский регентский совет"
 			desc = "POLITICS_REGENCY_COUNCIL_RUSSIA_DESC"
 			picture = "gfx/leaders/TRM/Portrait_TRM_Regency.png"
 			expire = "1.1.1"
@@ -10429,7 +10429,7 @@ country_event = {
 		hidden_effect = { 
 			complete_national_focus = TRM_Nationalists_Take_Over
 			create_country_leader = {
-				name = "Mladorossi Leadership Council"
+				name = "Младоросский руководящий совет"
 				picture = "gfx/leaders/TRM/Portrait_TRM_Regency.png"
 				expire = "1.1.1"
 				ideology = mladorossi_subtype
@@ -12900,7 +12900,7 @@ country_event = {
 				activate_mission = YAK_Securing_Independence
 				add_ideas = YAK_army
 				division_template = {
-					name = "Yakutskiye Dobrovoltsy"
+					name = "Якутские добровольцы"
 					division_names_group = TRM_MIL_01 
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -12919,12 +12919,12 @@ country_event = {
 				random_owned_controlled_state = {
 					prioritize = { 574 }
 					create_unit = {
-						division = "division_template = \"Yakutskiye Dobrovoltsy\" start_experience_factor = 0.1"
+						division = "division_template = \"Якутские добровольцы\" start_experience_factor = 0.1"
 						owner = YAK
 						prioritize_location = 10608
 					}
 					create_unit = {
-						division = "division_template = \"Yakutskiye Dobrovoltsy\" start_experience_factor = 0.1"
+						division = "division_template = \"Якутские добровольцы\" start_experience_factor = 0.1"
 						owner = YAK
 						prioritize_location = 1878
 					}
@@ -12957,7 +12957,7 @@ country_event = {
 				activate_mission = YAK_Securing_Independence
 				add_ideas = YAK_army
 				division_template = {
-					name = "Yakutskiye Dobrovoltsy"
+					name = "Якутские добровольцы"
 					division_names_group = TRM_MIL_01 
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -12976,12 +12976,12 @@ country_event = {
 				random_owned_controlled_state = {
 					prioritize = { 574 }
 					create_unit = {
-						division = "division_template = \"Yakutskiye Dobrovoltsy\" start_experience_factor = 0.1"
+						division = "division_template = \"Якутские добровольцы\" start_experience_factor = 0.1"
 						owner = YAK
 						prioritize_location = 10608
 					}
 					create_unit = {
-						division = "division_template = \"Yakutskiye Dobrovoltsy\" start_experience_factor = 0.1"
+						division = "division_template = \"Якутские добровольцы\" start_experience_factor = 0.1"
 						owner = YAK
 						prioritize_location = 1878
 					}
@@ -13351,7 +13351,7 @@ unit_leader_event = { #Arrival of Annenkov
 	option = {
 		name = tram.401.a
 		division_template = {
-			name = "Kitayskaya Diviziya"
+			name = "Китайская дивизия"
 			division_names_group = RUS_INF_01
 			regiments = {
 				infantry = { x = 0 y = 0 }
@@ -13374,7 +13374,7 @@ unit_leader_event = { #Arrival of Annenkov
 		}
 		capital_scope = {
 			create_unit = {
-				division = "name = \"Diviziya Annenkova\" division_template = \"Kitayskaya Diviziya\" start_experience_factor = 0.75"
+				division = "name = \"Дивизия Анненкова\" division_template = \"Китайская дивизия\" start_experience_factor = 0.75"
 				owner = ROOT
 			}
 		}
@@ -15181,9 +15181,9 @@ country_event = {
 		name = tram_crisis_1936.2.a
 		air_experience = 15
 		add_ace = {
-			name = "Viktor"
-			surname = "Fedorov"
-			callsign = "Dalnevostochny Strakh"
+			name = "Виктор"
+			surname = "Фёдоров"
+			callsign = "Дальневосточный Страх"
 			type = support_good
 		}		
 	}

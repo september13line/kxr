@@ -250,7 +250,7 @@ RUS_spawn_fighters = {
 			}
 		}
 		else_if = {
-			limit = {
+		limit = {
 				has_tech = improved_small_airframe
 			}
 			create_equipment_variant = { #I-185
@@ -1012,16 +1012,6 @@ RUS_recheck_president_subideology = {
 				}
 				set_country_leader_ideology = clientelism_subtype
 				custom_effect_tooltip = soccon_clientelism_subtype_swap_tt
-			}
-		}
-		else_if = {
-			limit = { has_country_flag = vns_national_conservative }
-			if = {
-				limit = {
-					NOT = { has_country_leader_ideology = national_conservative_subtype }
-				}
-				set_country_leader_ideology = national_conservative_subtype
-				custom_effect_tooltip = soccon_national_conservative_subtype_swap_tt
 			}
 		}
 		else_if = {
@@ -6762,7 +6752,7 @@ setup_budapest_treaty = {
 	if = {
 		limit = { has_country_flag = RUS_AUS_all_slavic_lands }
 		every_other_country = {
-			limit = {
+		limit = {
 				OR = {
 					tag = CZE
 					tag = SVK
@@ -6780,8 +6770,8 @@ setup_budapest_treaty = {
 			separate_peace_all_wars = yes
 			if = {
 				limit = { both_socialist_or_both_not_socialist = yes }
-				RUS = {
-					add_to_faction = PREV
+			RUS = {
+				add_to_faction = PREV
 				}
 			}
 			else = {
@@ -6789,7 +6779,7 @@ setup_budapest_treaty = {
 			}
 		}
 		every_state = {
-			limit = {
+			limit = { 
 				is_owned_by = AUS
 				OR = {
 					is_core_of = CZE
@@ -6800,19 +6790,19 @@ setup_budapest_treaty = {
 					is_core_of = MNT
 					is_core_of = SER
 					is_core_of = BUL
-				}
-			}
+		}
+	}
 			transfer_state_to = RUS
 		}
 		every_state = {
-			limit = {
+		limit = {
 				OR = {
 					is_owned_by = AUS
 					AND = {
 						is_owned_by = HUN
 						HUN = { is_ally_with = AUS }
-					}
 				}
+			}
 				OR = {
 					state = 73
 					state = 1119
@@ -6821,20 +6811,20 @@ setup_budapest_treaty = {
 			transfer_state_to = RUS
 		}
 	}
-	if = {
-		limit = { has_country_flag = RUS_AUS_hungary }
 		if = {
+		limit = { has_country_flag = RUS_AUS_hungary }
+	if = {
 			limit = { ROM = { has_war_with = AUS } }
 			every_state = {
-				limit = {
+			limit = {
 					OR = {
 						is_owned_by = HUN
 						is_owned_by = AUS
 						is_owned_by = TRS
-					}
+		}
 					is_core_of = ROM
 					is_controlled_by = ROM
-				}
+			}
 				transfer_state_to = ROM
 			}
 		}
@@ -6847,8 +6837,8 @@ setup_budapest_treaty = {
 			separate_peace_all_wars = yes
 			if = {
 				limit = { both_socialist_or_both_not_socialist = yes }
-				RUS = {
-					add_to_faction = PREV
+			RUS = {
+				add_to_faction = PREV
 				}
 			}
 			else = {
@@ -6862,20 +6852,20 @@ setup_budapest_treaty = {
 			}
 			remove_puppet_and_leave_faction = yes
 			peace_out_non_neighbours_after_leaving_faction = yes
-		}		
+			}
 		every_state = {
 			limit = {
 				is_owned_by = AUS
 				OR = {
 					is_core_of = HUN
 					is_core_of = TRS
-				}
+			}
 			}
 			transfer_state_to = RUS
+			}
 		}
-	}
 	every_other_country = {
-		limit = {
+			limit = {
 			OR = {
 				tag = EST
 				tag = LIT
@@ -6904,13 +6894,13 @@ setup_budapest_treaty = {
 			}
 			has_capitulated = no
 			is_ally_with = AUS
-		}
+			}
 		ROOT = {
 			annex_country = {
 				target = PREV
-			}
 		}
 	}
+			}
 	every_other_country = {
 		limit = {
 			OR = {
@@ -6956,7 +6946,7 @@ setup_budapest_treaty = {
 			is_ally_with = AUS
 		}
 		event_target:peace_country = { white_peace = PREV }
-	}
+	}	
 }
 load_base_russian_tree = {
 	if = {

@@ -4921,16 +4921,16 @@ country_event = {
         }
 		set_country_leader_description = {
 			ideology = national_populist
-			desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
+                desc = "POLITICS_JAIME_BOURBON_FRANCE_DESC"
         }
 		hidden_effect = {
-			add_state_core = 28
+		add_state_core = 28
 		}
 		every_state = {
-			limit = { is_core_of = FRA }
-			add_core_of = SPR
-		}
-	}
+				limit = { is_core_of = FRA }
+				add_core_of = SPR
+				}
+				}
 	option = {
 		name = sprd.109.b
 		if = {
@@ -4944,8 +4944,8 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = SPR_iberian_union }
 			}
-			set_cosmetic_tag = SPR_FRANCO_SPAIN
-			set_country_flag = SPR_FRANCO_SPAIN
+		set_cosmetic_tag = SPR_FRANCO_SPAIN
+		set_country_flag = SPR_FRANCO_SPAIN
 		}
 		if = {
 			limit = {
@@ -4957,10 +4957,10 @@ country_event = {
 			hidden_effect = {
 			set_cosmetic_tag = SPR_LATIN_UNION
 			set_country_flag = SPR_formed_latin_union
-			country_event = {
-				id = sprd.1139
-				days = 3
-			}
+				country_event = {
+					id = sprd.1139
+					days = 3
+				}
 			}
 			custom_effect_tooltip = SPR_latin_union_formation_tt
 		}
@@ -8081,7 +8081,7 @@ country_event = {
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_tyre_kingdom
+		set_cosmetic_tag = SPR_tyre_kingdom
 		}
 		set_party_name = { 
 			ideology = national_populist
@@ -9205,8 +9205,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+			ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -9233,8 +9233,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+			ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -9261,8 +9261,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+			ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -9289,8 +9289,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = authoritarian_democrat
+		set_politics = {
+			ruling_party = authoritarian_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -9317,8 +9317,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+			ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -9345,8 +9345,8 @@ country_event = {
 		}
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+			ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -14292,7 +14292,7 @@ country_event = {#juan död
 			}
 		}
 		else_if = {
-			limit = { has_country_leader_ideology = clientelism_subtype }
+			limit = { has_country_leader_ideology = clientelism_subtype  }
 			create_country_leader = {
 				name = "Альфонсо XIV"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_Prince_of_Asturias.png"
@@ -14467,7 +14467,7 @@ country_event = {#juan död
 			}
 		}
 		else_if = {
-			limit = { has_country_leader_ideology = maurism_subtype }
+			limit = { has_country_leader_ideology = prussian_constitutionalism_subtype  }
 			create_country_leader = {
 				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
@@ -14530,7 +14530,7 @@ country_event = {#juan död
 			}
 		}
 		else_if = {
-			limit = { has_country_leader_ideology = lerrouxismo_subtype }
+			limit = { has_country_leader_ideology = lerrouxismo_subtype  }
 			create_country_leader = {
 				name = "Гонсало I"
 				picture = "gfx/leaders/SPR/Portrait_SPR_Gonzalo_de_Bourbon.png"
@@ -15099,7 +15099,7 @@ country_event = {
 		OR = {
 			tag = SPR
 			tag = CAR
-			tag = CNT		
+			tag = CNT			
 		}
 		has_global_flag = heli_time_worldwide
 		NOT = { has_country_flag = flag_heli_stop_repeat }
@@ -15115,10 +15115,10 @@ country_event = {
 			add_equipment_to_stockpile = { type = helicopter_equipment_1 amount = 100 }
 		}
 		else = {
-			set_technology = {
-				helicopter = 1
-			}
-			add_equipment_to_stockpile = { type = helicopter_1 amount = 100 }
+		set_technology = {
+			helicopter = 1
+		}
+		add_equipment_to_stockpile = { type = helicopter_1 amount = 100 }
 		}
 		hidden_effect = {
 			set_country_flag = flag_heli_stop_repeat
@@ -15258,10 +15258,10 @@ country_event = {#
 			hidden_effect = {
 			set_cosmetic_tag = SPR_LATIN_UNION
 			set_country_flag = SPR_formed_latin_union
-			country_event = {
-				id = sprd.1139
-				days = 3
-			}
+				country_event = {
+					id = sprd.1139
+					days = 3
+				}
 			}
 			custom_effect_tooltip = SPR_latin_union_formation_tt
 		}
@@ -16714,10 +16714,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_technology = {
-				helicopter = 1
-			}
-			add_equipment_to_stockpile = { type = helicopter_1 amount = 25 }
+		set_technology = {
+			helicopter = 1
+		}
+		add_equipment_to_stockpile = { type = helicopter_1 amount = 25 }
 		}
 		set_country_flag = flag_heli_stop_repeat
 	}
@@ -16813,7 +16813,7 @@ country_event = { #Absolutism event - Juan
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_ap_kingdom
+		set_cosmetic_tag = SPR_ap_kingdom
 		}
 		set_country_flag = SPR_flag_ap_appointed
 		set_politics = {
@@ -16874,7 +16874,7 @@ country_event = { #Absolutism event - Juan
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_umn_kingdom
+		set_cosmetic_tag = SPR_umn_kingdom
 		}
 		set_country_flag = SPR_flag_pataut_appointed
 		set_politics = {
@@ -16940,7 +16940,7 @@ country_event = { #Absolutism event - Juan
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_ae_kingdom
+		set_cosmetic_tag = SPR_ae_kingdom
 		}
 		set_country_flag = SPR_flag_natpop_appointed
 		set_politics = {
@@ -17017,7 +17017,7 @@ country_event = { #Absolutism event - Jamie
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_agr_kingdom
+		set_cosmetic_tag = SPR_agr_kingdom
 		}
 		set_country_flag = SPR_flag_soccon_appointed
 		set_politics = {
@@ -17083,7 +17083,7 @@ country_event = { #Absolutism event - Jamie
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_ap_kingdom
+		set_cosmetic_tag = SPR_ap_kingdom
 		}
 		set_country_flag = SPR_flag_ap_appointed
 		set_politics = {
@@ -17144,7 +17144,7 @@ country_event = { #Absolutism event - Jamie
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_pne_kingdom
+		set_cosmetic_tag = SPR_pne_kingdom
 		}
 		set_country_flag = SPR_flag_pataut_appointed
 		set_politics = {
@@ -17210,7 +17210,7 @@ country_event = { #Absolutism event - Jamie
 					has_country_flag = SPR_formed_hre
 				}
 			}
-			set_cosmetic_tag = SPR_re_kingdom
+		set_cosmetic_tag = SPR_re_kingdom
 		}
 		set_country_flag = SPR_flag_natpop_appointed
 		set_politics = {

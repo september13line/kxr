@@ -761,7 +761,7 @@ focus_tree = {
 		text = RUS_Repair_Sevastopol
 		icon = GFX_RUS_Repair_Sevastopol
 		x = 5
-		y = 2		
+		y = 2
 		relative_position_id = ORE_Rebuilding_the_Heartland
 		cost = 5
 		prerequisite = { focus = ORE_Rebuilding_the_Heartland }
@@ -1420,10 +1420,10 @@ focus_tree = {
 			}
 			if = {
 				limit = { country_exists = GER }
-				any_neighbor_country = {
-					OR = {
-						is_ally_with = GER
-						tag = GER
+			any_neighbor_country = {
+				OR = {
+					is_ally_with = GER
+					tag = GER
 					}
 				}
 			}

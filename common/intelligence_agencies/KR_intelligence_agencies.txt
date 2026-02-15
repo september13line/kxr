@@ -56,7 +56,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_kr_aus
-	names = { "Эвиденцбюро" }
+	names = { "Evidenzbureau" }
 
 	default = { tag = AUS }
 	available = { original_tag = AUS }
@@ -200,7 +200,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_kr_rus
-	names = { "Donotos" }
+	names = { "Донской отдел осведомления" }
 
 	default = { tag = DKB }
 	available = { original_tag = DKB }
@@ -296,8 +296,19 @@ intelligence_agency = {
 
 intelligence_agency = {
 
+	picture = GFX_intelligence_agency_logo_KX_vnc_3
+	names = { "Comité para la Seguridad del Estado" }
+
+	available = { always = yes }
+
+	default = { tag = FOP }
+	available = { original_tag = FOP }
+}
+
+intelligence_agency = {
+
 	picture = GFX_intelligence_agency_logo_uk # vanilla icon
-	names = { "МИ-6" }
+	names = { "MI6" }
 
 
 	default = { 
@@ -332,7 +343,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_kr_ger
-	names = { "Абтайлунг III б" }
+	names = { "Abteilung III b" }
 
 	default = { tag = GER }
 	available = { original_tag = GER }
@@ -372,7 +383,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_KX_srd # Replaced Vanilla Icon with Bomber GFX
-	names = { "Сервицио Информациони Милитари" }
+	names = { "Servizio Informazioni Militare" }
 
 	default = {
 		OR = {
@@ -395,7 +406,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_KX_sar_2
-	names = { "Сервицио Информациони Милитари" }
+	names = { "Servizio Informazioni Militare" }
 
 	default = { tag = SRD }
 	available = { original_tag = SRD }
@@ -1278,10 +1289,10 @@ intelligence_agency = {
 	names = { "Госохрана" }
 
 	default = {
-		tag = TRM
+			tag = TRM
 	}
 	available = {
-		original_tag = TRM
+			original_tag = TRM
 	}
 }
 
@@ -1291,16 +1302,16 @@ intelligence_agency = {
 	names = { "Госохрана" }
 
 	default = {
-		tag = TRM
+			tag = TRM
 	}
 	available = {
-		original_tag = TRM
+			original_tag = TRM
 	}
 }
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_KX_transamur
+	picture = GFX_intelligence_agency_logo_KX_bharatiya
 	names = { "Центральное бюро расследований" }
 
 	default = {
@@ -1946,7 +1957,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_HOTB_usa_2
-	names = { "АРСРВВС" }
+	names = { "AFISRA" }
 
 	default = {
 			tag = USA
@@ -2103,7 +2114,7 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_kr_ukr
 	names = { "Освітяни Відділу державної варти, Служба безпеки України" } # Osvidomchi Viddil Derzhavnoyi Varty, Sluzhba Bezpeki Ukrainy
 
-	default = { tag = UKR }
+	default = { original_tag = UKR }
 	available = { original_tag = UKR }
 }
 
@@ -2308,7 +2319,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_kr_ger 
-	names = { "Абвердиенст" }
+	names = { "Abwehrdienst" }
 
 	default = {
 			AND = {

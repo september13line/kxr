@@ -6550,7 +6550,7 @@ country_event = { # Boulder Dam
 			custom_effect_tooltip = {
 				localization_key = building_state_modifier|dam_mountain
 				INDENT = "    "
-			}
+		}
 			add_building_construction = {
 				type = landmark_boulder_dam
 				level = 1
@@ -13640,9 +13640,9 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = CAL_political
-					option = CAL_POLITICAL_PATH_HUGHES
+					has_game_rule = {
+						rule = CAL_political
+						option = CAL_POLITICAL_PATH_HUGHES
 				}
 			}
 		}

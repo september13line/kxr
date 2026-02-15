@@ -584,10 +584,10 @@ SWE_revolution_decisions = {
 
 		available = {
 			has_socialist_government = yes
-			RUS = {
-				has_socialist_government = yes
-			}	
-
+						RUS = {
+							has_socialist_government = yes
+						}
+						
 			date > 1937.2.2
 			is_in_faction = no
 		}
@@ -1216,7 +1216,7 @@ SWE_revolution_decisions = {
 				limit = { has_country_flag = SWE_flag_hugo_doctrine }
 					if = { 
 						limit = { 840 = { is_owned_and_controlled_by = SWE } }
-							set_cosmetic_tag = SWE_NDR_commie
+				set_cosmetic_tag = SWE_NDR_commie	
 
 					} else = {				
 				set_cosmetic_tag = SWE_SCA_commie	
@@ -1250,7 +1250,7 @@ SWE_revolution_decisions = {
 
 			hidden_effect = {
 				set_country_flag = SWE_flag_scandinavia_formed
-				country_event = { id = swefop.34 } 
+					country_event = { id = swefop.34 } 
 
 			}
 		
@@ -1296,8 +1296,8 @@ SWE_revolution_decisions = {
 			create_wargoal = { type = annex_everything target = SOV }
 			create_wargoal = { type = annex_everything target = BAT }
 
-				every_state = {
-				limit = {
+					every_state = {
+					limit = {
 					OR = {
 						region = 38
 						region = 8
@@ -1343,12 +1343,12 @@ SWE_revolution_decisions = {
 						state = 1314
 						state = 1319
 					}
-				}
-				add_claim_by = SWE
-				}
+					}
+					add_claim_by = SWE
+					}
 
-				set_cosmetic_tag = SWE_natsynd_eu
-				set_country_flag = SWE_flag_rev_eu_formed
+					set_cosmetic_tag = SWE_natsynd_eu
+					set_country_flag = SWE_flag_rev_eu_formed
 
 		}
 		ai_will_do = {
@@ -1366,17 +1366,17 @@ SWE_revolution_decisions = {
 			has_country_flag = SWE_flag_rev_eu_formed
 			
 				owns_state = 16
-				owns_state = 21
+					owns_state = 21
 				owns_state = 983
 				owns_state = 158
 				owns_state = 159
-				owns_state = 160
+					owns_state = 160
 				owns_state = 1325
+					owns_state = 213
+					owns_state = 1274
 				owns_state = 213
-				owns_state = 1274
-				owns_state = 213
-				owns_state = 1328
-						
+					owns_state = 1328
+									
 			NOT = {
 				country_exists = GER
 				country_exists = LIT
@@ -1401,8 +1401,8 @@ SWE_revolution_decisions = {
 		days_remove = 240
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SWE_claim_europe_flyg"	
-				every_state = {
-				limit = {
+			every_state = {
+					limit = {
 					OR = {
 						region = 38
 						region = 8
@@ -1508,8 +1508,8 @@ SWE_revolution_decisions = {
 			create_wargoal = { type = annex_everything target = WHR }
 			create_wargoal = { type = annex_everything target = UKR }
 
-				every_state = {
-				limit = {
+					every_state = {
+					limit = {
 					OR = {
 						region = 134
 						region = 135
@@ -1543,11 +1543,11 @@ SWE_revolution_decisions = {
 						state = 213
 						state = 722
 					}
-				}
-				add_claim_by = SWE
-				}
+					}
+					add_claim_by = SWE
+					}
 
-				set_country_flag = SWE_flag_rev_USSR_cosm
+					set_country_flag = SWE_flag_rev_USSR_cosm
 		}
 		ai_will_do = {
 			factor = 0
@@ -1618,8 +1618,8 @@ SWE_revolution_decisions = {
 		days_remove = 15
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SWE_core_SOV_hugo"	
-				every_state = {
-				limit = {
+					every_state = {
+					limit = {
 					OR = {
 						region = 134
 						region = 135
@@ -1653,9 +1653,9 @@ SWE_revolution_decisions = {
 						state = 213
 						state = 722
 					}
-				}
-				add_core_of = SWE
-				}
+					}
+					add_core_of = SWE
+					}
 		}
 		ai_will_do = {
 			factor = 50
@@ -1705,8 +1705,8 @@ SWE_revolution_decisions = {
 			create_wargoal = { type = annex_everything target = CZE }
 			create_wargoal = { type = annex_everything target = PAP }		
 			
-				every_state = {
-				limit = {
+					every_state = {
+					limit = {
 					OR = {
 						region = 38
 						region = 8
@@ -1739,12 +1739,12 @@ SWE_revolution_decisions = {
 						state = 698
 						state = 938
 					}
-				}
-				add_claim_by = SWE
-				}
+					}
+					add_claim_by = SWE
+					}					
 					
-				set_cosmetic_tag = SWE_linderot_eu
-				set_country_flag = SWE_flag_rev_eu_formed
+					set_cosmetic_tag = SWE_linderot_eu
+					set_country_flag = SWE_flag_rev_eu_formed
 		}
 		ai_will_do = {
 			factor = 0
@@ -1788,7 +1788,7 @@ SWE_revolution_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SWE_core_europe_linderot"	
 					every_state = {
-				limit = {
+					limit = {
 					OR = {
 						region = 38
 						region = 8
@@ -1821,9 +1821,9 @@ SWE_revolution_decisions = {
 						state = 698
 						state = 938
 					}
-				}
-				add_core_of = SWE
-				}
+					}
+					add_core_of = SWE
+					}		
 		}
 		ai_will_do = {
 			factor = 50
@@ -4225,7 +4225,7 @@ SWE_alliance_reachout = {
 
 		visible = {
 				OR = {
-					has_completed_focus = SWE_FOP_democractic_light
+			has_completed_focus = SWE_FOP_democractic_light
 					has_completed_focus = SWE_FOP_realm_of_our_own
 				}
 			is_subject = no
@@ -4388,7 +4388,7 @@ SWE_alliance_reachout = {
 				}
 			}
 		}
-	}
+	}	
 
 	SWE_FOP_invite_MEX = {
 		cost = 25
@@ -4614,7 +4614,7 @@ SWE_alliance_reachout = {
 			}
 		}
 	}
-
+	
 	SWE_FOP_invite_POL = {
 		cost = 25
 		icon = GFX_decision_generic_nationalism
@@ -5106,7 +5106,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 			tag = SWE
 			
 			OR = {
-				has_completed_focus = SWE_FOP_iceland_gambit
+			has_completed_focus = SWE_FOP_iceland_gambit
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			
@@ -5157,7 +5157,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_secure_nordics
+			has_completed_focus = SWE_FOP_secure_nordics
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			NOT = {
@@ -5226,7 +5226,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_secure_nordics
+			has_completed_focus = SWE_FOP_secure_nordics
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			NOT = {
@@ -5290,7 +5290,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_secure_nordics
+			has_completed_focus = SWE_FOP_secure_nordics
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			NOT = {
@@ -5352,7 +5352,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_secure_nordics
+			has_completed_focus = SWE_FOP_secure_nordics
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			SWE = { is_in_faction_with = CAN }
@@ -5411,7 +5411,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_iceland_gambit
+			has_completed_focus = SWE_FOP_iceland_gambit
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			NOT = {
@@ -5466,7 +5466,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 		visible = {
 			tag = SWE
 			OR = {
-				has_completed_focus = SWE_FOP_iceland_gambit
+			has_completed_focus = SWE_FOP_iceland_gambit
 				has_completed_focus = SWE_FOP_danes_returned			
 			}
 			NOT = {
@@ -6129,7 +6129,7 @@ SWE_scandinavia_foreign_policy_decisions = {
 			tag = SWE
 			OR = {
 				has_completed_focus = SWE_FOP_danes_returned
-				has_completed_focus = SWE_FOP_iceland_gambit
+			has_completed_focus = SWE_FOP_iceland_gambit
 			}
 			NOT = {
 				100 = {

@@ -1289,15 +1289,15 @@ SAF_move_governor_general_soclib = {
 				expire = "1.1.1"
 				ideology = classical_liberalism_subtype
 			}
-		}
-		if = {
+			}
+			if = {
 			limit = { 
 				OR = {
 					has_country_flag = Jan_C_Smuts_dead 
 					tag = SFR
 				}
 			}
-			set_country_leader_ideology = soclib_progressive_democracy_subtype
+				set_country_leader_ideology = soclib_progressive_democracy_subtype
 		}
 	}
 }

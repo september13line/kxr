@@ -1563,9 +1563,9 @@ RUS_Alliance_decisions = {
 					GER = { has_idea = GER_danzig_treaty }
 					ENT = { 
 						NOT = { has_war_with = GER }
-					}
-				}
 			}
+		}
+		}
 			OR = {
 				JAP = { is_subject_of = RUS }
 				NOT = {
@@ -1590,8 +1590,8 @@ RUS_Alliance_decisions = {
 					has_government = paternal_autocrat
 					RUS_russian_monarch = yes
 				}
-			}		
-		}
+			}
+			}
 		cancel_if_not_visible = yes
 		
 		cancel_effect = {
@@ -3782,7 +3782,7 @@ RUS_Foreign_Policy_decisions = {
 				activate_mission = RUS_defeat_caucasus
 			}
 		}
-	}
+	}	
 	
 	### Chronologically by plausible expansions ###
 	
@@ -4076,7 +4076,7 @@ RUS_Foreign_Policy_decisions = {
 				limit = {
 					FROM = { tag = ARM }
 				}
-				FROM = {
+					FROM = {
 					NOT = { is_ally_with = TUR }
 				}
 				NOT = { has_non_aggression_pact_with = TUR }
@@ -5550,7 +5550,7 @@ RUS_Foreign_Policy_decisions = {
 		targets = { INT }
 		target_root_trigger = {
 			OR = {
-				has_completed_focus = RUS_The_Iron_Curtain
+			has_completed_focus = RUS_The_Iron_Curtain
 				has_completed_focus = TRM_Crusade_Against_Socialism
 			}
 		}
@@ -5630,8 +5630,8 @@ RUS_Foreign_Policy_decisions = {
 			OR = {
 				has_completed_focus = TRM_Finish_The_Turks
 				AND = {
-					has_completed_focus = RUS_Open_The_Straits
-					has_completed_focus = RUS_Expansionism
+			has_completed_focus = RUS_Open_The_Straits
+			has_completed_focus = RUS_Expansionism
 				}
 			}
 			773 = { is_claim_or_core_of_ROOT = no } #Constantinople
@@ -7174,7 +7174,7 @@ RUS_Foreign_Policy_decisions = {
 				add_claim_by = ROOT
 			}
 		}
-	}	
+	}		
 }	
 RUS_Integration_decisions = {
 	RUS_restore_the_transbaikal_cossack_host = {
@@ -9495,7 +9495,7 @@ russian_debug_decisions = {
 			clr_country_flag = make_russia_nsnp_democratic_tree_visible
 			clr_country_flag = make_russian_junta_tree_visible	
 			clr_country_flag = make_savinkov_tree_visible	
-			clr_country_flag = make_savinkov_successors_tree_visible
+			clr_country_flag = make_savinkov_successors_tree_visible	
 			clr_country_flag = soviet_russia_restored
 			set_country_flag = make_russia_plsr_nsp_democratic_tree_visible
 			mark_focus_tree_layout_dirty = yes
@@ -9640,7 +9640,7 @@ russian_debug_decisions = {
 			clr_country_flag = make_savinkov_successors_tree_visible
 			clr_country_flag = make_russia_democratic_tree_visible
 			clr_country_flag = make_russian_junta_tree_visible	
-			clr_country_flag = make_savinkov_tree_visible
+			clr_country_flag = make_savinkov_tree_visible	
 			clr_country_flag = soviet_russia_restored
 			set_country_flag = make_kerensky_tree_visible	
 			mark_focus_tree_layout_dirty = yes
@@ -9680,7 +9680,7 @@ russian_debug_decisions = {
 			clr_country_flag = make_kerensky_tree_visible	
 			clr_country_flag = make_russia_democratic_tree_visible
 			clr_country_flag = make_russian_junta_tree_visible	
-			clr_country_flag = make_savinkov_tree_visible
+			clr_country_flag = make_savinkov_tree_visible	
 			clr_country_flag = soviet_russia_restored
 			set_country_flag = make_absolute_monarchy_tree_visible	
 			mark_focus_tree_layout_dirty = yes
@@ -9720,7 +9720,7 @@ russian_debug_decisions = {
 			clr_country_flag = make_kerensky_tree_visible	
 			clr_country_flag = make_russia_democratic_tree_visible
 			clr_country_flag = make_russian_junta_tree_visible	
-			clr_country_flag = make_savinkov_tree_visible
+			clr_country_flag = make_savinkov_tree_visible	
 			clr_country_flag = soviet_russia_restored
 			set_country_flag = make_savinkov_successors_tree_visible	
 			mark_focus_tree_layout_dirty = yes
@@ -9979,15 +9979,15 @@ RUS_Siberian_War = {
 				OR = {
 					RUS_wrangel_in_power = yes
 					RUS_denikin_in_power = yes
-				}
 			}
+		}		
 			else_if = {
 				limit = { TRM = { TRM_do_rovs_in_power = yes } }
-				OR = {
+			OR = {
 					RUS_is_absolute_monarchy = yes
-					RUS_wrangel_in_power = yes
-				}
-			}
+							RUS_wrangel_in_power = yes
+						}
+					}
 			else_if = {
 				limit = { TRM = { TRM_Pepelyaev_coup = yes } }
 				if = {
@@ -10004,7 +10004,7 @@ RUS_Siberian_War = {
 			}
 			else_if = {
 				limit = { 
-					TRM = {
+					TRM = { 
 						OR = {
 							TRM_kolchak_in_power = yes 
 							AND = {
@@ -10014,12 +10014,12 @@ RUS_Siberian_War = {
 						}
 					}
 				}
-				OR = {
-					RUS_denikin_in_power = yes
-					vns_in_power = yes
-					nsnp_in_power = yes
-				}
-			}
+						OR = {
+							RUS_denikin_in_power = yes
+							vns_in_power = yes
+							nsnp_in_power = yes
+						}
+					}
 			else_if = {
 				limit = { 
 					TRM = { has_government = market_liberal }
@@ -10042,18 +10042,18 @@ RUS_Siberian_War = {
 					has_country_flag = soviet_russia_restored
 					lpsr_in_power = yes
 					psr_in_power = yes
-					AND = {
+				AND = {
 						OR = {
 							rsdrp_in_power = yes
 							lkdp_in_power = yes
-						}
+					}
 						check_variable = { Duma_Party_Status^3 = 1 } 
 					}
 				}
 			}
 			else_if = {
 				limit = { 
-					TRM = {
+					TRM = { 
 						OR = {
 							has_government = social_democrat
 							has_government = social_liberal
@@ -10062,13 +10062,13 @@ RUS_Siberian_War = {
 					}
 				}
 				OR = {
-					has_left_democratic_government = yes 
-					has_right_democratic_government = yes
-				}
+						has_left_democratic_government = yes
+						has_right_democratic_government = yes
+					}
 				lpsr_in_power = no
 				psr_in_power = no
+				}
 			}
-		}		
 		visible = {
 			is_valid_peace_target = yes
 			FROM = { is_valid_peace_target = yes }
@@ -10209,7 +10209,7 @@ RUS_Siberian_War = {
 			stability_weekly = 0.003
 		}
 		ai_will_do = {
-			factor = 0
+				factor = 0
 			modifier = {
 				add = 20
 				TRM = { has_country_flag = TRM_integration_with_russia }
@@ -10678,7 +10678,7 @@ RUS_Siberian_War = {
 		cancel_if_not_visible = yes
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_expand_railways_teams target: [From.GetName]"
@@ -10899,7 +10899,7 @@ RUS_Siberian_War = {
 			hidden_trigger = {
 				OR = {
 					has_country_flag = TRM_losing_morale_off
-					NOT = { has_war_with = RUS }
+			NOT = { has_war_with = RUS }
 				}
 			}
 		}
@@ -10907,7 +10907,7 @@ RUS_Siberian_War = {
 			hidden_trigger = {
 				OR = {
 					has_country_flag = TRM_losing_morale_off
-					NOT = { has_war_with = RUS }
+			NOT = { has_war_with = RUS }
 				}
 			}
 		}
@@ -10994,7 +10994,7 @@ RUS_Siberian_War = {
 			modifier = {
 				factor = 0
 				TRM = { has_country_flag = TRM_integration_with_russia }
-			}		
+			}			
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_propaganda_campaign target: [From.GetName]"
@@ -11026,7 +11026,7 @@ RUS_Siberian_War = {
 		cancel_if_not_visible = yes
 		
 		ai_will_do = {
-			factor = 100
+			factor = 100			
 			modifier = {
 				factor = 0
 				TRM = { has_country_flag = TRM_integration_with_russia }
@@ -11277,10 +11277,10 @@ RUS_Siberian_War = {
 			TRM_increase_oblastniki_level = yes
 			if = {
 				limit = {
-					NOT = { has_template = "Sibirskiye Dobrovoltsy" }
+					NOT = { has_template = "Сибирские добровольцы" }
 				}
 				division_template = {
-					name = "Sibirskiye Dobrovoltsy"
+					name = "Сибирские добровольцы"
 					division_names_group = TRM_MIL_01 
 					regiments = {
 						militia = { x = 0 y = 0 }
@@ -11308,7 +11308,7 @@ RUS_Siberian_War = {
 					}
 				}
 				create_unit = {
-					division = "division_template = \"Sibirskiye Dobrovoltsy\" start_experience_factor = 0.1 start_equipment_factor = 1"
+					division = "division_template = \"Сибирские добровольцы\" start_experience_factor = 0.1 start_equipment_factor = 1"
 					allow_spawning_on_enemy_provs = yes
 					owner = ROOT
 					count = 4
@@ -11327,7 +11327,7 @@ RUS_Siberian_War = {
 					}
 				}
 				create_unit = {
-					division = "division_template = \"Sibirskiye Dobrovoltsy\" start_experience_factor = 0.1 start_equipment_factor = 1"
+					division = "division_template = \"Сибирские добровольцы\" start_experience_factor = 0.1 start_equipment_factor = 1"
 					allow_spawning_on_enemy_provs = yes
 					owner = ROOT
 					count = 2
@@ -11338,7 +11338,7 @@ RUS_Siberian_War = {
 				SIB = { add_legitimacy = 10 }
 			}
 			set_temp_variable = { change_morale = 0.20 }
-			RUS_change_siberian_war_morale = yes	
+			RUS_change_siberian_war_morale = yes
 		}
 	}
 	TRM_increase_border_control_with_Russia = {
@@ -11530,12 +11530,12 @@ RUS_Siberian_War = {
 			}
 			else_if = {
 				limit = { TRM_do_rovs_in_power = yes }
-				RUS = {
-					OR = {
+					RUS = { 
+						OR = {
 						RUS_is_absolute_monarchy = yes
-						RUS_wrangel_in_power = yes
+							RUS_wrangel_in_power = yes
+						}
 					}
-				}
 			}
 			else_if = {
 				limit = { TRM_Pepelyaev_coup = yes }
@@ -11551,27 +11551,27 @@ RUS_Siberian_War = {
 							RUS_denikin_in_power = yes
 							vns_in_power = yes
 							nsnp_in_power = yes
+							}
 						}
 					}
 				}
-			}
 			else_if = {
 				limit = { 
 					OR = {
 						TRM_kolchak_in_power = yes 
-						AND = {
+				AND = {
 							TRM_czech_legion_in_power = yes 
 							has_completed_focus = TRM_Panslavist_Direction
 						}
 					}
 				}
-				RUS = {
-					OR = {
-						RUS_denikin_in_power = yes
-						vns_in_power = yes
-						nsnp_in_power = yes
+					RUS = { 
+						OR = {
+							RUS_denikin_in_power = yes
+							vns_in_power = yes
+							nsnp_in_power = yes
+						}
 					}
-				}
 			}
 			else_if = {
 				limit = { 
@@ -11598,7 +11598,7 @@ RUS_Siberian_War = {
 						has_country_flag = soviet_russia_restored
 						lpsr_in_power = yes
 						psr_in_power = yes
-						AND = {
+				AND = {
 							OR = {
 								rsdrp_in_power = yes
 								lkdp_in_power = yes
@@ -11624,9 +11624,9 @@ RUS_Siberian_War = {
 					lpsr_in_power = no
 					psr_in_power = no
 					NOT = { check_variable = { Duma_Party_Status^3 = 1 } }
+					}
 				}
 			}
-		}		
 		visible = {
 			is_valid_peace_target = yes
 			FROM = { is_valid_peace_target = yes }
@@ -11851,7 +11851,7 @@ RUS_Siberian_War = {
 		targets = { RUS RVA WRA RRF }
 		target_root_trigger = {
 			OR = {
-				has_idea = TRM_dream
+			has_idea = TRM_dream
 				has_idea = TRM_Sib_Fed					
 			}
 			NOT = { has_active_mission = TRM_will_declare_war_on_RUS }
@@ -11865,8 +11865,8 @@ RUS_Siberian_War = {
 			FROM = {
 				any_owned_state = {
 					is_claim_or_core_of_ROOT = yes
-				}
-			}
+		}
+		}
 		}
 		cancel_if_not_visible = yes
 

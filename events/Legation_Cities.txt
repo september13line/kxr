@@ -16099,7 +16099,7 @@ country_event = { #The Shanghai Candidate
 		}
 		add_pataut_to_coalition = yes
 		set_country_flag = LEC_jiang_qing_fake_exists
-		if = {
+		if = {	
 			limit = { has_global_flag = SPOOKY_PORTRAITS }
 			if = {	
 				limit = { has_country_leader = { name = "Цзян Цин" ruling_only = yes } }

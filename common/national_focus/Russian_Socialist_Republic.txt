@@ -1565,8 +1565,8 @@ focus = {
 		OR = {
 				plsr_in_power = yes
 				lpsr_in_power = yes
-				}
-			}
+		}
+	}
 		bypass = { 
 			OR = {
 				has_idea = RUS_socialization_of_land 
@@ -2170,7 +2170,7 @@ focus = {
 	continue_if_invalid = no
 	
 	completion_reward = {
-		custom_effect_tooltip = "Согласно доктрине левых эсеров, экономический контроль будет находиться в руках избранных «фабкомов», а политический — в руках избранных «советов»."
+		custom_effect_tooltip = "Согласно доктрине левых эсеров, экономический контроль будет находиться в руках избранных «фабкомов», а политический - в руках избранных «советов»."
 	}
 }
 focus = {
@@ -7930,10 +7930,10 @@ focus = {
 		if = {
 			limit = { has_idea = rus_unfinished_land_reform}
 			destroy_unfinished_land_reform = yes
-		}
-		every_owned_state = {
-			add_state_modifier = {
-				modifier = {
+			}
+			every_owned_state = {
+				add_state_modifier = {
+					modifier = {
 					state_production_speed_industrial_complex_factor = 0.02
 					state_production_speed_arms_factory_factor = 0.02
 					state_production_speed_infrastructure_factor = 0.02
@@ -10071,7 +10071,7 @@ focus = {
 				add_mio_funds = 1000
 				add_mio_size = 1
 		}
-			}
+	}
 		}
 	}
 
@@ -10108,12 +10108,12 @@ focus = {
 				complete_special_project = sp:sp_air_radar
 			}
 			else = {
-				add_tech_bonus = {
-					name = RUS_The_ORT_System
-					bonus = 1
+			add_tech_bonus = {
+				name = RUS_The_ORT_System
+				bonus = 1
 					uses = 1
-					category = radar_tech
-				}
+				category = radar_tech
+			}
 			}
 			custom_effect_tooltip = tooltip_white_line
 			custom_effect_tooltip = available_industrial_concern
@@ -10243,23 +10243,23 @@ focus = {
 	icon = GFX_VK_NATIONALIZE
 	x = 14
 	y = 18
-	cost = 5
+		cost = 5
 	available = {
 		195 = { is_owned_and_controlled_by = ROOT }
 		219 = { is_owned_and_controlled_by = ROOT }
-	}
+		}
 	ai_will_do = { factor = 100 }
 		completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus RUS_Nationalize_Industries"
-		if = {
+			if = {
 			limit = { has_idea = RUS_post-republican_economy }
-			swap_ideas = {
+				swap_ideas = {
 				remove_idea = RUS_post-republican_economy
 				add_idea = RUS_nationalization_of_means_of_production
 				days = 365
+				}
 			}
-		}
-		else = {
+			else = {
 			add_timed_idea = {
 				idea = RUS_nationalization_of_means_of_production
 				days = 365
@@ -10291,9 +10291,9 @@ focus = {
 			mio:RUS_dux_organisation = {
 				set_mio_name_key = dux_socrus
 			}
+				}
+			}
 		}
-	}
-}
 shared_focus = {
 	id = RUS_Federation_Of_Syndicates
 	icon = GFX_RUS_Syndical_Cooperative_Federation
@@ -10304,11 +10304,11 @@ shared_focus = {
 		russian_civil_war = no
 		OR = {
 			AND = {
-				has_country_flag = soviet_congress_end
+		has_country_flag = soviet_congress_end
 				OR = {
 					plsr_in_power = yes
 					lpsr_in_power = yes
-				}
+			}
 			}
 			SOV_anarchists_in_power = yes
 		}		
@@ -10739,7 +10739,7 @@ shared_focus = {
 	ai_will_do = { factor = 100 }
 	completion_reward = { 
 		log = "[GetDateText]: [Root.GetName]: Focus SOV_Go_On_With_NEP"
-		custom_effect_tooltip = "Мы сохраним систему социалистического рынка" 
+		custom_effect_tooltip = "Мы останемся при социалистической рыночной системе" 
 	}
 }
 shared_focus = {

@@ -5014,7 +5014,7 @@ focus_tree = {
 				}
 			}
 			add_core_of = ALB
-			}
+				}
 			set_cosmetic_tag = ALB_Pelasgia
 		}
 	}
@@ -5866,20 +5866,20 @@ focus_tree = {
 				limit = { NOT = { has_cosmetic_tag = ALB_Enver } }
 				every_state = {
 					limit = { is_on_continent = europe }
-					ALB = { add_state_core = PREV }
-				}
+					ALB = { add_state_core = PREV }	
+			}
 				hidden_effect = {
-				every_country = {
+			every_country = {
 					limit = { is_in_europe = yes }
-					ALB = {
-						create_wargoal = {
-							target = PREV
-							type = annex_everything
-						}
+				ALB = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
 					}
 				}
+			}
+					}
+					}	
 				}
 			}
 		}
-	}							
-}

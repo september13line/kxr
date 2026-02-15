@@ -365,7 +365,7 @@ TRM_setup_the_civil_war_buryat = {
 			TRB = { 
 				transfer_technology_without_doctrines = yes
 				division_template = {
-					name = "Kazatskaya Diviziya"
+					name = "Казачья дивизия"
 					division_names_group = TRM_CAV_01
 					regiments = {
 						irregular_cavalry = { x = 0 y = 0 }
@@ -379,7 +379,7 @@ TRM_setup_the_civil_war_buryat = {
 				random_owned_controlled_state = {
 					prioritize = { 563 }
 					create_unit = {
-						division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+						division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 						owner = TRB
 						prioritize_location = 12641 
 						count = 3
@@ -388,7 +388,7 @@ TRM_setup_the_civil_war_buryat = {
 				random_owned_controlled_state = {
 					prioritize = { 561 }
 					create_unit = {
-						division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+						division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 						owner = TRB
 						prioritize_location = 7816 
 						count = 3
@@ -396,7 +396,7 @@ TRM_setup_the_civil_war_buryat = {
 				}
 			}
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 		}
@@ -2220,7 +2220,7 @@ TRM_do_after_coup_purge = {
 		days = 270
 	}
 	delete_unit_template_and_units = {
-		division_template = "Kazatskaya Diviziya"
+		division_template = "Казачья дивизия"
 		disband = yes
 	}
 	effect_tooltip = {
@@ -2357,7 +2357,7 @@ TRM_setup_transbaikal = {
 	TRB = { 
 		transfer_technology_without_doctrines = yes
 		division_template = {
-			name = "Kazatskaya Diviziya"
+			name = "Казачья дивизия"
 			division_names_group = TRM_CAV_01
 			regiments = {
 				irregular_cavalry = { x = 0 y = 0 }
@@ -2371,7 +2371,7 @@ TRM_setup_transbaikal = {
 		random_owned_controlled_state = {
 			prioritize = { 563 }
 			create_unit = {
-				division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+				division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 				owner = BRY
 				prioritize_location = 12641 
 				count = 3
@@ -2380,7 +2380,7 @@ TRM_setup_transbaikal = {
 		random_owned_controlled_state = {
 			prioritize = { 564 }
 			create_unit = {
-				division = "division_template = \"Kazatskaya Diviziya\" start_experience_factor = 0.1"
+				division = "division_template = \"Казачья дивизия\" start_experience_factor = 0.1"
 				owner = BRY
 				prioritize_location = 7816
 				count = 3				
@@ -2388,7 +2388,7 @@ TRM_setup_transbaikal = {
 		}
 	}
 	delete_unit_template_and_units = {
-		division_template = "Kazatskaya Diviziya"
+		division_template = "Казачья дивизия"
 		disband = yes
 	}
 	TRB = { get_current_government_type = yes }
@@ -2965,78 +2965,77 @@ TRM_become_czechoslovak_legion = {
 		}
 	}
 }
-
 TRM_transfer_fleet_to_JAP = {
 	set_country_flag = TRM_transfer_fleet_to_JAP
-	transfer_ship = { prefer_name = "Vladimir" type = heavy_cruiser target = JAP }
-	transfer_ship = { prefer_name = "Rurik" type = heavy_cruiser target = JAP }
-	transfer_ship = { prefer_name = "Bedovyy" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Boykiy" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Kapitan Yurasovskiy" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Leytenant Sergeev" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Bikin" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Kiyevka" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Samarga" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Yedinka" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Amur" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "Ussuri" type = destroyer target = JAP }
-	transfer_ship = { prefer_name = "General Kappel" type = battleship target = JAP }
-	transfer_ship = { prefer_name = "General Semyonov" type = battleship target = JAP }
+	transfer_ship = { prefer_name = "Владимир" type = heavy_cruiser target = JAP }
+	transfer_ship = { prefer_name = "Рюрик" type = heavy_cruiser target = JAP }
+	transfer_ship = { prefer_name = "Бедовый" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Бойкий" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Капитан Юрасовский" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Лейтенант Сергеев" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Бикин" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Киевка" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Самарга" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Единка" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Амур" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Уссури" type = destroyer target = JAP }
+	transfer_ship = { prefer_name = "Генерал Каппель" type = battleship target = JAP }
+	transfer_ship = { prefer_name = "Генерал Семёнов" type = battleship target = JAP }
 	
-	transfer_ship = { prefer_name = "Leopard" type = submarine target = JAP }
-	transfer_ship = { prefer_name = "Pantera" type = submarine target = JAP }
-	transfer_ship = { prefer_name = "Rys" type = submarine target = JAP }
-	transfer_ship = { prefer_name = "Tigr" type = submarine target = JAP }
-	transfer_ship = { prefer_name = "Tur" type = submarine target = JAP }
-	transfer_ship = { prefer_name = "Ugor" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Леопард" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Пантера" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Рысь" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Тигр" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Тур" type = submarine target = JAP }
+	transfer_ship = { prefer_name = "Угорь" type = submarine target = JAP }
 }
 TRM_transfer_fleet_to_PHI = {
-	transfer_ship = { prefer_name = "Vladimir" type = heavy_cruiser target = PHI }
-	transfer_ship = { prefer_name = "Rurik" type = heavy_cruiser target = PHI }
-	transfer_ship = { prefer_name = "Bedovyy" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Boykiy" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Kapitan Yurasovskiy" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Leytenant Sergeev" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Bikin" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Kiyevka" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Samarga" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Yedinka" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Amur" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "Ussuri" type = destroyer target = PHI }
-	transfer_ship = { prefer_name = "General Kappel" type = battleship target = PHI }
-	transfer_ship = { prefer_name = "General Semyonov" type = battleship target = PHI }
+	transfer_ship = { prefer_name = "Владимир" type = heavy_cruiser target = PHI }
+	transfer_ship = { prefer_name = "Рюрик" type = heavy_cruiser target = PHI }
+	transfer_ship = { prefer_name = "Бедовый" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Бойкий" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Капитан Юрасовский" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Лейтенант Сергеев" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Бикин" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Киевка" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Самарга" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Единка" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Амур" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Уссури" type = destroyer target = PHI }
+	transfer_ship = { prefer_name = "Генерал Каппель" type = battleship target = PHI }
+	transfer_ship = { prefer_name = "Генерал Семёнов" type = battleship target = PHI }
 	
-	transfer_ship = { prefer_name = "Leopard" type = submarine target = PHI }
-	transfer_ship = { prefer_name = "Pantera" type = submarine target = PHI }
-	transfer_ship = { prefer_name = "Rys" type = submarine target = PHI }
-	transfer_ship = { prefer_name = "Tigr" type = submarine target = PHI }
-	transfer_ship = { prefer_name = "Tur" type = submarine target = PHI }
-	transfer_ship = { prefer_name = "Ugor" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Леопард" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Пантера" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Рысь" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Тигр" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Тур" type = submarine target = PHI }
+	transfer_ship = { prefer_name = "Угорь" type = submarine target = PHI }
 }
 TRM_return_fleet_from_JAP = {
 	TRM = { clr_country_flag = TRM_transfer_fleet_to_JAP }
 	JAP = {
-		transfer_ship = { prefer_name = "Vladimir" type = heavy_cruiser target = ROOT }
-		transfer_ship = { prefer_name = "Rurik" type = heavy_cruiser target = ROOT }
-		transfer_ship = { prefer_name = "Bedovyy" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Boykiy" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Kapitan Yurasovskiy" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Leytenant Sergeev" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Bikin" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Kiyevka" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Samarga" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Yedinka" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Amur" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "Ussuri" type = destroyer target = ROOT }
-		transfer_ship = { prefer_name = "General Kappel" type = battleship target = ROOT }
-		transfer_ship = { prefer_name = "General Semyonov" type = battleship target = ROOT }
+		transfer_ship = { prefer_name = "Владимир" type = heavy_cruiser target = ROOT }
+		transfer_ship = { prefer_name = "Рюрик" type = heavy_cruiser target = ROOT }
+		transfer_ship = { prefer_name = "Бедовый" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Бойкий" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Капитан Юрасовский" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Лейтенант Сергеев" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Бикин" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Киевка" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Самарга" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Единка" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Амур" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Уссури" type = destroyer target = ROOT }
+		transfer_ship = { prefer_name = "Генерал Каппель" type = battleship target = ROOT }
+		transfer_ship = { prefer_name = "Генерал Семёнов" type = battleship target = ROOT }
 		
-		transfer_ship = { prefer_name = "Leopard" type = submarine target = ROOT }
-		transfer_ship = { prefer_name = "Pantera" type = submarine target = ROOT }
-		transfer_ship = { prefer_name = "Rys" type = submarine target = ROOT }
-		transfer_ship = { prefer_name = "Tigr" type = submarine target = ROOT }
-		transfer_ship = { prefer_name = "Tur" type = submarine target = ROOT }
-		transfer_ship = { prefer_name = "Ugor" type = submarine target = ROOT }	
+		transfer_ship = { prefer_name = "Леопард" type = submarine target = ROOT }
+		transfer_ship = { prefer_name = "Пантера" type = submarine target = ROOT }
+		transfer_ship = { prefer_name = "Рысь" type = submarine target = ROOT }
+		transfer_ship = { prefer_name = "Тигр" type = submarine target = ROOT }
+		transfer_ship = { prefer_name = "Тур" type = submarine target = ROOT }
+		transfer_ship = { prefer_name = "Угорь" type = submarine target = ROOT }	
 	}
 }
 TRM_crush_nra_effect = {
@@ -3094,7 +3093,7 @@ TRM_czech_legion_effect = {
 			amount = 400
 		}	
 		delete_unit_template_and_units = {
-			division_template = "Chekhoslovatskiy Korpus"
+			division_template = "Чехословацкий легион"
 			disband = yes
 		}	
 		if = {
@@ -3127,7 +3126,7 @@ TRM_czech_legion_effect = {
 				}
 				create_railway_gun = {
 					equipment = railway_gun_equipment_1
-					name = "Orlik" 
+					name = "Орлик" 
 				}
 			}
 		}

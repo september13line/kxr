@@ -3216,8 +3216,8 @@ country_event = { #pan-afrocanism also funny nintendo number
 		set_country_leader_ideology = soccon_republican_panafricanism_subtype
 		custom_effect_tooltip = soccon_soccon_republican_panafricanism_subtype_swap_tt
 		every_state = {
-			limit = {
-				OR = {
+			limit = { 
+				 OR = {
 				is_core_of = WAD
 				is_core_of = NER
 				is_core_of = BFA
@@ -3231,18 +3231,18 @@ country_event = { #pan-afrocanism also funny nintendo number
 				is_core_of = IVO
 				is_core_of = MAG
 				is_core_of = CMR
-				is_core_of = CEA
-				is_core_of = GAB
-				is_core_of = KOG
+					is_core_of = CEA
+					is_core_of = GAB
+					is_core_of = KOG
 				is_core_of = TKE
 				state = 962
 				state = 971
 				state = 268
 				state = 807
 				state = 963
-				}
-			}
-			add_core_of = KIV
+				 }
+			 }
+			 add_core_of = KIV 
 		}
 		set_cosmetic_tag = KIV_french_africa
 	}

@@ -7,7 +7,7 @@ TRM_dealing_with_minorities = {
 			FROM = { 
 				is_owned_and_controlled_by = ROOT 
 				NOT = { has_dynamic_modifier = { modifier = TRM_martial_law_modifier } }
-			}
+		}
 		}
 		cost = 15
 		days_remove = 40
@@ -49,7 +49,7 @@ TRM_dealing_with_minorities = {
 			FROM = { 
 				is_owned_and_controlled_by = ROOT 
 				NOT = { has_dynamic_modifier = { modifier = TRM_martial_law_modifier } }
-			}
+		}
 		}
 		cost = 15
 		days_remove = 40
@@ -477,7 +477,7 @@ TRM_Dealing_With_NRA = {
 		icon = SOV_the_workers_dictatorship
 		available = {
 			OR = {
-				has_completed_focus = TRM_Crush_NRA
+			has_completed_focus = TRM_Crush_NRA
 				TRM_kolchak_in_power = no
 			}
 		}
@@ -596,7 +596,7 @@ TRM_Dealing_With_NRA = {
 			}
 			has_dynamic_modifier = { modifier = TRM_nra_resistance_modifier }
 			OR = {
-				has_completed_focus = TRM_Crush_NRA		
+			has_completed_focus = TRM_Crush_NRA		
 				TRM_kolchak_in_power = no
 			}
 			TRM_nra_in_power = no
@@ -673,7 +673,7 @@ TRM_Dealing_With_NRA = {
 								TRM_semyenov_in_power = yes
 								has_country_flag = TRM_Diterikhs_Will_Deal_With_NRA
 							}
-						}
+		}
 					}
 					TRM_Decrease_NRA_Resistance_Greatly = yes
 				}
@@ -1485,7 +1485,7 @@ TRM_Spheres_Of_Influence = {
 			TRM_recalculate_kolchak_variables = yes
 			clr_country_flag = TRM_already_boosting_support
 		}
-	}	
+	}
 	TRM_destroy_separatism = {
 		icon = GFX_decision_generic_prepare_civil_war
 		available = {
@@ -1507,7 +1507,7 @@ TRM_Spheres_Of_Influence = {
 			NOT = { 
 				has_government = social_liberal
 				is_in_coalition_with_social_liberal = yes
-			}			
+		}
 		}
 		
 		cost = 0
@@ -1642,7 +1642,7 @@ TRM_Spheres_Of_Influence = {
 	}
 	TRM_Conduct_Joint_Exercises_With_ROVS = {
 		icon = generic_military
-		available = {			
+		available = {
 			NOT = { has_country_flag = TRM_already_exercising }
 		}
 		visible = {
@@ -1686,7 +1686,7 @@ TRM_Spheres_Of_Influence = {
 					has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_PEPEL }
 					has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_PEPEL_OBL }
 					has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_SEMYONOV }
-				}		
+				}
 			}
 		}
 		fixed_random_seed = no
@@ -1778,7 +1778,7 @@ TRM_Spheres_Of_Influence = {
 				TRM_Decrease_Oblastniki_Support_Greatly = yes
 			}
 			every_owned_state = { 
-				limit = { 
+				limit = {
 					TRM_is_legitimate_state = yes 
 					NOT = { state = FROM }
 				}
@@ -1860,7 +1860,7 @@ TRM_Spheres_Of_Influence = {
 				TRM_Decrease_Oblastniki_Support_Greatly = yes
 			}
 			every_owned_state = { 
-				limit = { 
+				limit = {
 					TRM_is_legitimate_state = yes 
 					NOT = { state = FROM }
 				}
@@ -1889,7 +1889,7 @@ TRM_japanese_influence = {
 		ai_will_do = {
 			factor = 100
 			modifier = {
-				factor = 0
+			factor = 0
 				has_equipment = { artillery_equipment > 1000 }
 				has_equipment = { motorized_equipment > 1000 }
 			}
@@ -1915,17 +1915,17 @@ TRM_japanese_influence = {
 		ai_will_do = {
 			base = 100
 			modifier = {
-				factor = 0
+			factor = 0
 				has_equipment = { artillery_equipment > 1000 }
 				has_equipment = { motorized_equipment > 1000 }
 				has_equipment = { infantry_equipment > 2000 }
-			}
+		}
 			modifier = {
 				factor = 2
 				NOT = { has_country_flag = TRM_increase_japanese_shipments_completed }
 			}
 			modifier = {
-				factor = 0
+			factor = 0
 				check_variable = { party_popularity@social_conservative > 0.29 }
 				NOT = { 
 					has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_YUI } 
@@ -1955,18 +1955,18 @@ TRM_japanese_influence = {
 			}
 			if = {
 				limit = { has_country_flag = TRM_increase_japanese_shipments_completed }
-				add_equipment_to_stockpile = {
+			add_equipment_to_stockpile = {
 					type = artillery_equipment
 					amount = 300
-					producer = JAP
-				}
-				add_equipment_to_stockpile = {
+				producer = JAP
+			}
+			add_equipment_to_stockpile = {
 					type = motorized_equipment
 					amount = 200
-					producer = JAP
-				}
+				producer = JAP
+			}
 				army_experience = 20
-				add_popularity = {
+			add_popularity = {
 					ideology = social_conservative
 					popularity = 0.02
 				}
@@ -1975,8 +1975,8 @@ TRM_japanese_influence = {
 				army_experience = 10
 				add_popularity = {
 					ideology = social_conservative
-					popularity = 0.01
-				}
+				popularity = 0.01
+			}
 			}
 			if = {
 				limit = { check_variable = { TRM_japanese_arm_ship = 0 } }
@@ -2027,8 +2027,8 @@ TRM_japanese_influence = {
 						special_type_slot_4 = empty
 					}
 					icon = GFX_JAP_iw_medium_airframe_medium
-				}
-			}
+		}
+	}
 			add_equipment_to_stockpile = {
 				type = medium_plane_airframe
 				amount = 100
@@ -2057,7 +2057,7 @@ TRM_japanese_influence = {
 			add_political_power = 35
 			if = {
 				limit = { has_stability < 0.7 }
-				add_stability = 0.02
+			add_stability = 0.02
 			}
 			add_popularity = {
 				ideology = social_conservative
@@ -2081,7 +2081,7 @@ TRM_japanese_influence = {
 			NOT = { 
 				has_government = social_conservative 
 				has_government = authoritarian_democrat 
-			}
+		}
 			TRM_semyenov_in_power = no
 		}
 		
@@ -2132,8 +2132,8 @@ TRM_japanese_influence = {
 			}
 			every_owned_state = {
 				limit = { TRM_is_legitimate_state = yes }
-				TRM_Decrease_Japanese_Support = yes
-			}		
+						TRM_Decrease_Japanese_Support = yes
+			}			
 			TRM_clamp_spheres_of_influence = yes
 			TRM_recalculate_kolchak_variables = yes
 		}
@@ -2185,7 +2185,7 @@ TRM_japanese_influence = {
 			every_owned_state = {
 				limit = { TRM_is_legitimate_state = yes }
 				TRM_Decrease_Japanese_Support = yes
-			}				
+			}
 			TRM_clamp_spheres_of_influence = yes
 			TRM_recalculate_kolchak_variables = yes
 		}
@@ -2271,8 +2271,8 @@ TRM_japanese_influence = {
 				has_dynamic_modifier = { modifier = TRM_japanese_vladivostok_modifier }
 			}
 			OR = {
-				custom_trigger_tooltip = {
-					tooltip = TRM_japanese_influence_less_5
+			custom_trigger_tooltip = {
+				tooltip = TRM_japanese_influence_less_5
 					check_variable = { party_popularity@social_conservative < 0.051 }
 				}
 				has_completed_focus = TRM_Jap_Naval_Treaty
@@ -2445,7 +2445,7 @@ TRM_japanese_influence = {
 				TRM_recalculate_kolchak_variables = yes
 			}
 		}
-	}
+			}
 	TRM_Zaibatsu_Investments = {
 		icon = GFX_decision_gre_paying_ifc_debt
 		allowed = { always = no }
@@ -2528,7 +2528,7 @@ TRM_japanese_influence = {
 						state = 1246
 					}
 				}
-				TRM_Increase_Japanese_Support = yes
+						TRM_Increase_Japanese_Support = yes
 			}
 			TRM_clamp_spheres_of_influence = yes
 			TRM_recalculate_kolchak_variables = yes
@@ -2548,10 +2548,10 @@ TRM_japanese_influence = {
 					NOT = { has_resources_rights = { receiver = JAP } }
 				}
 				ROOT = { give_resource_rights = { receiver = JAP state = PREV } }
-			}
+		}
 			activate_targeted_decision = { target = JAP decision = TRM_Invite_Japanese_Instructors }
 		}
-	}
+	}	
 	TRM_Invite_Japanese_Instructors = {
 		icon = GFX_decision_soldierly_discipline
 		allowed = { always = no }
@@ -3104,18 +3104,18 @@ TRM_japanese_influence = {
 			set_global_flag = TRM_relations_JAP_broke
 			hidden_effect = {
 				TRM = {
-					TRM_remove_japanese_influence = yes
+			TRM_remove_japanese_influence = yes
 					set_temp_variable = { target = JAP }
 					clear_all_relations_with_TARGET = yes
 				}
-				JAP = {			
+				JAP = {
 					diplomatic_relation = {
 						country = TRM
 						relation = docking_rights
 						active = no
 					}
 				}
-			}
+					}
 			JAP = {
 				country_event = {
 					id = tram.150
@@ -3171,12 +3171,12 @@ TRM_russian_expansion = {
 				popularity = -0.05
 			}
 			every_owned_state = { TRM_Decrease_Japanese_Support = yes }
-			TRM_clamp_spheres_of_influence = yes
-			TRM_recalculate_kolchak_variables = yes
+				TRM_clamp_spheres_of_influence = yes
+				TRM_recalculate_kolchak_variables = yes
 			reverse_add_opinion_modifier = {
 				target = CAN
 				modifier = KR_approves_of_govt   
-			}
+			}	
 		}
 	}
 	TRM_North_Pacific_Trade_Route = {
@@ -3190,7 +3190,7 @@ TRM_russian_expansion = {
 			TRM_semyenov_in_power = no
 			has_socialist_government = no
 		}
-		
+
 		cancel_if_not_visible = yes
 		cost = 25
 		days_remove = 70
@@ -3217,9 +3217,9 @@ TRM_russian_expansion = {
 				popularity = -0.05
 			}
 			every_owned_state = { TRM_Decrease_Japanese_Support = yes }
-			TRM_clamp_spheres_of_influence = yes
-			TRM_recalculate_kolchak_variables = yes
-		}
+				TRM_clamp_spheres_of_influence = yes
+				TRM_recalculate_kolchak_variables = yes
+			}	
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_North_Pacific_Trade_Route"
 			country_event = tram.167
@@ -3228,7 +3228,7 @@ TRM_russian_expansion = {
 	TRM_russo_canadian_naval_treaty = {
 		icon = GFX_decision_eng_trade_unions_support
 		allowed = { always = no }
-		available = { 
+		available = {
 			NOT = { has_country_flag = TRM_Russo_Japanese_Naval_Treaty_completed }
 		}
 		visible = {
@@ -3251,19 +3251,19 @@ TRM_russian_expansion = {
 			modifier = {
 				factor = 2
 				has_war = yes
-			}
+		}
 			modifier = {
 				factor = 10
 				has_game_rule = { rule = TRM_forpol option = TRM_FORPOL_ENT }
-			}
+		}
 			modifier = {
 				factor = 0
 				has_game_rule = { rule = TRM_path option = RULE_OPTION_TRM_YUI }
 			}
-		}
-		modifier = {
+			}
+			modifier = {
 			political_power_cost = 0.05
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_russo_canadian_naval_treaty"
 			add_doctrine_cost_reduction = {
@@ -3306,7 +3306,7 @@ TRM_russian_expansion = {
 				factor = 10
 				has_game_rule = { rule = TRM_forpol option = TRM_FORPOL_ENT }
 			}
-		}
+				}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_Open_British_Embassy"
 			add_popularity = {
@@ -3526,7 +3526,7 @@ TRM_russian_expansion = {
 			modifier = {
 				factor = 0
 				FROM = { RUS_dont_attack_if_target_is_stronger = yes }
-			}
+					}
 			modifier = {
 				factor = 0
 				FROM = { RUS_dont_attack_if_faction_is_stronger = yes }
@@ -3548,7 +3548,7 @@ TRM_russian_expansion = {
 			FROM = { incoming_war_notification_effect = yes }
 			setup_decision_attack_AI = yes
 			if = {
-				limit = { 
+				limit = {
 					turkestan_can_ally_russia_FROM = yes
 					FROM = {
 						original_tag = ALO
@@ -3583,11 +3583,11 @@ TRM_russian_expansion = {
 				has_idea = TRM_dream
 				has_idea = TRM_dream_fulfilled
 				has_idea = TRM_Sib_Fed
+				}
 			}
-		}
 		target_trigger = {
 			if = {
-				limit = { 
+				limit = {
 					OR = {
 						195 = { is_owned_and_controlled_by = ROOT }
 						219 = { is_owned_and_controlled_by = ROOT }
@@ -3604,12 +3604,12 @@ TRM_russian_expansion = {
 				}
 			}
 			else_if = {
-				limit = { 
+					limit = {
 					653 = { 
 						is_capital = yes 
 						is_controlled_by = ROOT
 					} 
-				}
+					}
 				FROM = { 
 					NOT = { 
 						state = 566 
@@ -3624,23 +3624,23 @@ TRM_russian_expansion = {
 					571 = { 
 						is_capital = yes 
 						is_controlled_by = ROOT
-					} 
+					}
 				}
 				FROM = { 
 					NOT = { 
 						state = 566 
 						state = 568
 						state = 570
-					}
-				}
 			}
+		}
+	}
 			else_if = {
 				limit = { 
 					570 = { 
 						is_capital = yes 
 						is_controlled_by = ROOT
-					} 
-				}
+			}
+		}
 				FROM = { 
 					NOT = { 
 						state = 566 
@@ -3653,14 +3653,14 @@ TRM_russian_expansion = {
 					568 = { 
 						is_capital = yes 
 						is_controlled_by = ROOT
-					} 
-				}
+			}
+		}
 				FROM = { 
 					NOT = { 
 						state = 566 
 					}
 				}
-			}
+		}
 			FROM = { 
 				is_owned_and_controlled_by = ROOT 
 				is_capital = no
@@ -3740,8 +3740,8 @@ TRM_russian_expansion = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove TRM_relocate_capital"
 			set_country_flag = TRM_relocated_capital_from_far_east
 			set_capital = { state = FROM remember_old_capital = yes }
-			if = {
-				limit = {
+				if = {
+					limit = {
 					FROM = {
 						OR = {
 							state = 219
@@ -3751,7 +3751,7 @@ TRM_russian_expansion = {
 				}
 				set_country_flag = TRM_relocated_capital
 				add_political_power = 50
-			}
+				}
 			else_if = {
 				limit = {
 					FROM = { state = 653 }
@@ -3832,7 +3832,7 @@ TRM_Mlad_cat = {
 		targets = { RUS WRA RVA RRF }
 		target_root_trigger = {
 			OR = {
-				has_completed_focus = TRM_modern_bog
+			has_completed_focus = TRM_modern_bog
 				has_government = social_democrat
 			}
 		}
@@ -3845,7 +3845,7 @@ TRM_Mlad_cat = {
 				}
 			}
 		}
-		
+
 		cost = 70
 		days_remove = 15
 		fire_only_once = yes
@@ -3873,11 +3873,11 @@ TRM_Mlad_cat = {
 		icon = GFX_decision_eng_propaganda_campaigns
 		available = {
 			NOT = { has_country_flag = TRM_already_denouncing_nation }
-		}
+			}
 		targets = { RUS }
 		target_root_trigger = {
 			OR = {
-				has_completed_focus = TRM_modern_bog
+			has_completed_focus = TRM_modern_bog
 				has_government = social_democrat
 			}
 		}
@@ -4006,7 +4006,7 @@ TRM_Mlad_cat = {
 		days_mission_timeout = 100
 		is_good = no
 		fire_only_once = yes
-		
+
 		cancel_if_not_visible = yes
 		
 		timeout_effect = {

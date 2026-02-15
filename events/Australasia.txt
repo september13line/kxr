@@ -1435,7 +1435,7 @@ country_event = { # Australia election event
 		}
 		trigger = {
 			OR = {
-				has_country_flag = AST_ALP_wins
+			has_country_flag = AST_ALP_wins
 				AND = {
 					is_ai = yes
 					has_game_rule = {
@@ -1623,7 +1623,7 @@ country_event = { # Australia election event
 		}
 		trigger = {
 			OR = {
-				has_country_flag = AST_ALP_AS_wins
+			has_country_flag = AST_ALP_AS_wins
 				AND = {
 					is_ai = yes
 					has_game_rule = {
@@ -15584,7 +15584,7 @@ country_event = { #Уильям Куперâ€™s Death at Mooroopna Base Hosp
 		set_country_flag = AST_will_cooper_dead
 		if = { limit = { has_idea = AST_William_Cooper_hog_sli }
 			create_country_leader = {
-				name = "Дуглас Николлс"
+				name = "Дуглас Николс"
 				picture = "gfx/leaders/AST/Portrait_AST_Douglas_Nicholls.png"
 				desc = ""
 				expire = "1.1.1"
@@ -16105,7 +16105,7 @@ country_event = { #The jindy leadership
 			CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 		}
 		create_country_leader = {
-			name = "Дуглас Николлс"
+			name = "Дуглас Николс"
 			picture = "gfx/leaders/AST/Portrait_AST_Douglas_Nicholls.png"
 			desc = ""
 			expire = "1.1.1"

@@ -14504,7 +14504,7 @@ focus_tree = {
 			OR = { 
 				has_completed_focus = USA_return_to_true_americanism 
 				AND = {
-					has_completed_focus = USA_american_caeser
+				has_completed_focus = USA_american_caeser
 					has_country_leader = { name = "Дуглас Макартур" ruling_only = yes }
 				}
 				has_government = social_conservative
@@ -14633,7 +14633,7 @@ focus_tree = {
 			OR = {
 				has_completed_focus = USA_return_to_true_americanism 
 				AND = {
-					has_completed_focus = USA_american_caeser
+				has_completed_focus = USA_american_caeser
 					has_country_leader = { name = "Дуглас Макартур" ruling_only = yes }
 				}
 			}
@@ -16903,17 +16903,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_stop_south_american_syndicalism"
 			every_country = {
-				limit = { 
+			limit = {
 					OR = { 
 						is_in_central_america = yes
 						is_in_south_america = yes
 					}
-					has_socialist_government = yes
-					exists = yes
-				}
+				has_socialist_government = yes
+				exists = yes 
+			}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
+			create_wargoal = {
+			type = annex_everything
 						target = PREV
 					}
 				}

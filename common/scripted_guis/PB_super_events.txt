@@ -19,16 +19,29 @@ scripted_gui = {
 				has_global_flag = ger_civl
 			}
 		}
-		
 		triggers = {
 			Super_Event_Image_greater_germanic_state_goebbels_visible = {
 				has_global_flag = greater_germanic_state_goebbels
 			}
 		}
-
 		triggers = {
 			Super_Event_Image_endsieg_goebbels_visible = {
 				has_global_flag = endsieg_goebbels
+			}
+		}
+		triggers = {
+			Super_Event_Image_Caucasus_Chaos_visible = {
+				has_global_flag = GEO_chaos_in_caucasus
+			}
+		}
+		triggers = {
+			Super_Event_Image_RUSSIAN_UNIFICATION_stalin_visible = {
+				has_global_flag = RUSSIAN_UNIFICATION_stalin
+			}
+		}
+		triggers = {
+			Super_Event_Image_CW_GSV_visible = {
+				has_global_flag = GSV_COLLAPS_GSV_win
 			}
 		}
 
@@ -173,12 +186,6 @@ scripted_gui = {
 		triggers = {
 			Super_Event_Image_Gamelin_Coup_visible = {
 				has_global_flag = FRA_gamelin_did_coup
-			}
-		}
-
-		triggers = {
-			Super_Event_Image_Caucasus_Chaos_visible = {
-				has_global_flag = GEO_chaos_in_caucasus
 			}
 		}
 		
@@ -661,7 +668,7 @@ scripted_gui = {
 			Super_Event_Image_RUSSIAN_UNIFICATION_socdem_mladorossi_visible = {
 				has_global_flag = RUSSIAN_UNIFICATION_socdem_mladorossi
 			}
-		}
+		}				
 				
 		triggers = {
 			Super_Event_Image_RUSSIAN_UNIFICATION_czech_legion_visible = {
@@ -685,18 +692,10 @@ scripted_gui = {
 				has_global_flag = Ukrainian_CW_superev
 			}
 		}
-		###
-		triggers = {
-			Super_Event_Image_RUSSIAN_UNIFICATION_stalin_visible = {
-				has_global_flag = RUSSIAN_UNIFICATION_stalin
-			}
-		}
-		triggers = {
-			Super_Event_Image_CW_GSV_visible = {
-				has_global_flag = GSV_COLLAPS_GSV_win
-			}
-		}
-		###
+				
+		
+		
+
 		properties = {
 			Super_Event_Image_Default = {
 				image = "[get_my_superevent_texture]"

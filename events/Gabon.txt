@@ -257,10 +257,10 @@ country_event = { #rejoin entente?
 		}
 		if = {
 			limit = { NFA = { is_in_faction_with = ENT } }
-			ENT = {
-				country_event = {
-					id = gab.9
-					days = 5
+		ENT = {
+			country_event = {
+				id = gab.9
+				days = 5
 				}
 			}
 		}

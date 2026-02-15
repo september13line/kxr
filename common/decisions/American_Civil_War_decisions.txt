@@ -604,7 +604,7 @@ ACW_foreign_volunteer_decisions = {# Foreign Volunteers
 				if = {
 					limit = { tag = GER }
 					NOT = { country_exists = COR }
-				}
+			}
 				if = {
 					limit = { tag = SAF }
 					NOT = { country_exists = COR }
@@ -757,8 +757,8 @@ ACW_foreign_volunteer_decisions = {# Foreign Volunteers
 				if = {
 					limit = { tag = GER }
 					NOT = { 
-						country_exists = TEX 
-						country_exists = COR 
+					country_exists = TEX
+					country_exists = COR
 					}
 				}
 			}

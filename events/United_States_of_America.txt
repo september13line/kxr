@@ -6673,18 +6673,18 @@ country_event = { # Detroit Bloodbath
 		custom_effect_tooltip = USA_AFP_gain_strength2
 		custom_effect_tooltip = USA_ODP_gain_strength2
 		hidden_effect = {
-			USA = {
-				country_event = { id = amcivwar.12 days = 3 }
-				country_event = { id = amcivwar.1102 days = 4 }
-				country_event = { id = ustates.78 days = 5 }
-				country_event = { id = amcivwar.11 days = 6 }
-				country_event = { id = amcivwar.3 days = 7 }
+		USA = {
+		country_event = { id = amcivwar.12 days = 3 }
+		country_event = { id = amcivwar.1102 days = 4 }
+		country_event = { id = ustates.78 days = 5 }
+		country_event = { id = amcivwar.11 days = 6 }
+		country_event = { id = amcivwar.3 days = 7 }
 				country_event = { id = amcivwar.3000 days = 8 }
-			}
-			add_to_variable = { var = SPA_strength value = 2 }
-			add_to_variable = { var = AFP_strength value = 2 }
-			add_to_variable = { var = ODP_strength value = 2 }
-			set_country_flag = USA_detroit_disaster
+		}
+		add_to_variable = { var = SPA_strength value = 2 }
+		add_to_variable = { var = AFP_strength value = 2 }
+		add_to_variable = { var = ODP_strength value = 2 }
+		set_country_flag = USA_detroit_disaster
 		}
 	}
 }
@@ -19225,7 +19225,7 @@ country_event = { # 1948 election
 				add_ideas = USA_Hjalmar_Petersen_eco_sde
 				add_ideas = USA_Konrad_Knute_Solberg_sec_sde
 			}
-			if = { # Глен Х. Тейлор
+			if = { # Glen H. Taylor
 				limit = {
 					has_country_flag = USA_1948_progressive_primary_taylor
 				}

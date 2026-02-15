@@ -5965,8 +5965,8 @@ focus_tree = {
 				name = "Йорг Ланц фон Либенфельс"
 				ruling_only = yes
 			}
-			has_completed_focus = AUS_one_party_empire
-			is_subject = no
+						has_completed_focus = AUS_one_party_empire
+						NOT = { is_puppet = yes }
 			has_war = no
 			SER = {
 				exists = yes

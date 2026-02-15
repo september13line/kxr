@@ -8772,9 +8772,9 @@ country_event = { #Elections 1941
 					days = 5
 				}
 			}
-			load_base_russian_tree = yes
-			set_country_flag = make_russia_liberal_conservative_democratic_tree_visible
-			mark_focus_tree_layout_dirty = yes
+		load_base_russian_tree = yes
+		set_country_flag = make_russia_liberal_conservative_democratic_tree_visible
+		mark_focus_tree_layout_dirty = yes
 			if = {
 				limit = { RUS_denikin_in_power = yes }
 				RUS_recheck_president_subideology = yes
@@ -8814,20 +8814,20 @@ country_event = { #Elections 1941
 		add_ideas = RUS_Aleksandr_Antonov_eco_npo
 		add_ideas = RUS_Emma_Dikgof_Derental_sec_npo
 		set_variable = { Duma_Party_Status^12 = 1 }	
-		mp_support_calc = yes
-		senators_support_calc = yes
+			mp_support_calc = yes
+			senators_support_calc = yes
 		hidden_effect = {
-			load_base_russian_tree = yes
+		load_base_russian_tree = yes
 			set_country_flag = make_russia_nrpr_democratic_tree_visible
-			mark_focus_tree_layout_dirty = yes
+		mark_focus_tree_layout_dirty = yes
 			random_other_country = {
 				news_event = {
 					id = russianews.19
 					days = 5
+	}
+					}
 				}
 			}
-		}
-	}
 	option = { #NSNP
 		name = rusdem.2.l
 		trigger = {
@@ -8863,9 +8863,9 @@ country_event = { #Elections 1941
 		}
 		RUS_setup_solidarist_government = yes
 		hidden_effect = {
-			load_base_russian_tree = yes
-			set_country_flag = make_russia_nsnp_democratic_tree_visible
-			mark_focus_tree_layout_dirty = yes
+		load_base_russian_tree = yes
+		set_country_flag = make_russia_nsnp_democratic_tree_visible
+		mark_focus_tree_layout_dirty = yes
 			if = {
 				limit = { RUS_denikin_in_power = yes }
 				RUS_recheck_president_subideology = yes
@@ -8876,8 +8876,8 @@ country_event = { #Elections 1941
 				}
 				set_country_flag = rus_elections_1941_over
 			}
-		}
 	}
+}
 }
 
 country_event = { #presidential general elections
@@ -10180,7 +10180,7 @@ country_event = { #RSDRP-PSR
 	title = rusdem.58.t.nsnp
 	desc = rusdem.58.d.nsnp
 	
-		trigger = { 
+		trigger = {
 		tag = RUS
 		russia_is_democratic = yes
 		RUS_russian_monarch = no	
@@ -10189,7 +10189,7 @@ country_event = { #RSDRP-PSR
 				has_country_flag = nrpr_banned
 				NOT = { has_country_flag = nsnp_banned }
 			}
-		}
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -22878,7 +22878,7 @@ country_event = { #Kirill Romanov dies
 				expire = "1965.1.1"
 				ideology = socdem_mladorossi_subtype
 				traits = { RUS_tsar_of_all_russia peoples_tsar }
-			}
+		}
 		}
 		set_country_flag = TRM_TSAR_VLAD
 	}
@@ -24414,7 +24414,7 @@ country_event = {
 			else = {
 			add_ideas = RUS_Lazar_Kaganovich_eco_tot
 			}
-		}
+			}
 		}
 		set_country_flag = SOV_gosplan_krzhizhanovsky
 		set_temp_variable = { politburo_change = -1 }
@@ -24468,7 +24468,7 @@ country_event = {
 			else = {
 			add_ideas = RUS_Lazar_Kaganovich_eco_tot
 			}
-		}
+			}
 		}
 		set_country_flag = SOV_gosplan_mezhlauk	
 		set_country_flag = SOV_cleanse_gosplan_completed	
@@ -24567,7 +24567,7 @@ country_event = {
 			else = {
 			add_ideas = RUS_Lazar_Kaganovich_eco_tot
 			}
-		}
+			}
 		}
 		set_country_flag = SOV_gosplan_strumilin
 		set_temp_variable = { politburo_change = 1 }
@@ -61272,7 +61272,7 @@ country_event = { #WHR bonds
 		puppet = WHR
 		hidden_effect = {
 			WHR = {
-				WHR_setup_republican_leaders = yes
+			    WHR_setup_republican_leaders = yes
 				set_party_name = {
 					ideology = authoritarian_democrat
 					name = WHR_authoritarian_democrat2_party
@@ -66405,15 +66405,15 @@ country_event = { # Peaceful unification with Transamur
 				limit = { 
 					is_ai = no 
 					has_idea = TRM_dream
-				}
-				FROM = {
+			}
+			FROM = {
 					every_unit_leader = { set_nationality = ROOT }
 					every_subject_country = { set_country_flag = was_russian_puppet }
-				}
-				annex_country = {
-					target = FROM
-					transfer_troops = yes
-				}
+			}
+			annex_country = {
+				target = FROM
+				transfer_troops = yes
+			}
 				every_other_country = {
 					limit = { has_country_flag = was_russian_puppet }
 					get_current_government_type = yes
@@ -66425,21 +66425,21 @@ country_event = { # Peaceful unification with Transamur
 			}
 			else = {
 				# give transbaikal and yakutia to Russia
-				every_owned_state = {
-					limit = { 
+			every_owned_state = {
+				limit = {
 						NOT = {
 							region = 247
 							region = 148
 							state = 537
 						}
-					}
+				}
 					add_claim_by = FROM
 					transfer_state_to = FROM
-				}
+			}
 				# become transitional autonomy
 				if = {
 					limit = { FROM = { has_country_flag = soviet_russia_restored } }
-					FROM = {
+			FROM = {
 						SOV_puppet_ROOT_effect = yes
 						set_cosmetic_tag = TRM_SOV
 					}
@@ -66448,7 +66448,7 @@ country_event = { # Peaceful unification with Transamur
 					get_current_government_type = yes
 					FROM = {
 						set_autonomy = {
-							target = ROOT
+					target = ROOT
 							autonomy_state = kr_autonomy_russian_general_governorate
 						}
 						add_collaboration = {
@@ -66461,11 +66461,11 @@ country_event = { # Peaceful unification with Transamur
 					add_timed_idea = {
 						idea = TRM_integration_of_economy
 						days = 180
-					}
-				}
+			}
+		}
 				remove_ideas = TRM_dream
-				if = {
-					limit = { 
+			if = {
+				limit = { 
 						408 = {
 							has_dynamic_modifier = { modifier = TRM_japanese_vladivostok_modifier }
 						}
@@ -66502,7 +66502,7 @@ country_event = { # Peaceful unification with Transamur
 		else = {
 			# if TRM is player - annex Russia
 			if = {
-				limit = { 
+					limit = {
 					FROM = { 
 						is_ai = no 
 						has_idea = TRM_dream
@@ -66528,7 +66528,7 @@ country_event = { # Peaceful unification with Transamur
 			else = {
 				# give transbaikal and yakutia to Russia
 				FROM = {
-					every_owned_state = {
+				every_owned_state = {
 						limit = { 
 							NOT = {
 								region = 247
@@ -66551,8 +66551,8 @@ country_event = { # Peaceful unification with Transamur
 					set_autonomy = {
 						target = FROM
 						autonomy_state = kr_autonomy_russian_general_governorate
-					}
-					FROM = {
+				}
+				FROM = {
 						restore_previous_government_type = yes
 						drop_cosmetic_tag = yes
 						add_timed_idea = {
@@ -66905,11 +66905,11 @@ country_event = { # Integration of Transamur
 			reduce_conscription_to_disarmed = yes
 			add_timed_idea = { idea = TRM_integration_of_army days = 90 }
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 			if = {
@@ -66980,11 +66980,11 @@ country_event = { # Integration of Transamur
 			reduce_conscription_to_disarmed = yes
 			add_timed_idea = { idea = TRM_integration_of_army days = 90 }
 			delete_unit_template_and_units = {
-				division_template = "Veteranskaya Diviziya"
+				division_template = "Ветеранская дивизия"
 				disband = yes
 			}
 			delete_unit_template_and_units = {
-				division_template = "Chekhoslovatskiy Korpus"
+				division_template = "Чехословацкий легион"
 				disband = yes
 			}
 			every_unit_leader = {
@@ -67069,7 +67069,7 @@ country_event = { # Integration of Transamur
 		}
 		TRM = {
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			random_unit_leader = {
@@ -67135,7 +67135,7 @@ country_event = { # Integration of Transamur
 		TRM = {
 			set_country_flag = Pavel_Ivanov_Rinov_dead
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			random_unit_leader = {
@@ -67166,7 +67166,7 @@ country_event = { # Integration of Transamur
 		activate_targeted_decision = { target = 409 decision = RUS_restore_the_ussuri_cossack_host }
 		TRM = {
 			delete_unit_template_and_units = {
-				division_template = "Kazatskaya Diviziya"
+				division_template = "Казачья дивизия"
 				disband = yes
 			}
 			random_unit_leader = {
@@ -67468,7 +67468,7 @@ country_event = { # Integration of Transamur
 			537 = { is_owned_by_ROOT_or_ally = yes }
 			NOT = { RUS = { has_country_flag = RUS_JAP_agreement } }
 		}
-		ai_chance = { 
+		ai_chance = {
 			base = 80
 			modifier = {
 				factor = 0
@@ -67483,7 +67483,7 @@ country_event = { # Integration of Transamur
 		hidden_effect = {
 			FROM = { 
 				set_country_flag = RUS_JAP_negotiations
-				country_event = {
+			country_event = {
 					id = rusfor.1497
 					days = 3
 				}
@@ -67556,7 +67556,7 @@ country_event = { # Integration of Transamur
 		trigger = { 
 			has_country_flag = RUS_JAP_negotiations 
 		}
-		ai_chance = { 
+		ai_chance = {
 			base = 75
 			modifier = {
 				factor = 0
@@ -67902,7 +67902,7 @@ country_event = { #
 				FROM = { has_country_flag = RUS_GER_ex_imperial_east_prus }
 			}
 		}
-		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней."
+		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней"
 		FROM = {
 			country_event = rusfor.1506
 		}
@@ -67953,7 +67953,7 @@ country_event = { #
 	
 	option = {
 		name = rusfor.1506.a
-		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней."
+		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней"
 			country_event = {
 			id = rusfor.1516
 			days = 30
@@ -68334,7 +68334,7 @@ country_event = { #Austrian Peace treaty
 				}
 			}
 		}
-		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней."
+		custom_effect_tooltip = "Договор будет ратифицирован через 30 дней"
 		FROM = {
 			country_event = rusfor.1525
 		}

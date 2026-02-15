@@ -3714,17 +3714,17 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus WCC_stop_south_american_syndicalism"
 			every_country = {
-				limit = { 
+			limit = {
 					OR = { 
 						is_in_central_america = yes
 						is_in_south_america = yes
 					}
-					has_socialist_government = yes
-					exists = yes
-				}
+				has_socialist_government = yes
+				exists = yes 
+			}
 				ROOT = {
-					create_wargoal = {
-						type = annex_everything
+			create_wargoal = {
+			type = annex_everything
 						target = PREV
 					}
 				}

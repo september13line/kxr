@@ -8,8 +8,8 @@ RUS_Duma = {
 			NOT = { 
 				has_government = social_liberal 
 				has_government = authoritarian_democrat 
-				check_variable = { Duma_Party_Status^1 = 1 }
-				has_government = syndicalist
+					check_variable = { Duma_Party_Status^1 = 1 }
+					has_government = syndicalist
 			}
 			NOT = { has_country_flag = bolsheviks_banned }
 			OR = {
@@ -41,11 +41,11 @@ RUS_Duma = {
 			NOT = { 
 				has_government = social_liberal 
 				has_government = authoritarian_democrat
-				check_variable = { Duma_Party_Status^2 = 1 }
-				has_government = radical_socialist
+					check_variable = { Duma_Party_Status^2 = 1 }
+					has_government = radical_socialist
 				has_country_flag = bolsheviks_banned 
 				has_country_flag = nsp_banned
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^2 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^2 > 0 }
@@ -74,10 +74,10 @@ RUS_Duma = {
 			has_right_democratic_government = no
 			NOT = { 
 				has_government = authoritarian_democrat 
-				check_variable = { Duma_Party_Status^4 = 1 }
-				rsdrp_in_power = yes
+					check_variable = { Duma_Party_Status^4 = 1 }
+					rsdrp_in_power = yes
 				has_country_flag = rsdrp_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^4 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^4 > 0 }
@@ -106,10 +106,10 @@ RUS_Duma = {
 			has_right_democratic_government = no
 			NOT = { 
 				has_government = authoritarian_democrat
-				check_variable = { Duma_Party_Status^3 = 1 } 
-				psr_in_power = yes
+					check_variable = { Duma_Party_Status^3 = 1 }
+					psr_in_power = yes
 				has_country_flag = psr_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^3 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^3 > 0 }
@@ -136,10 +136,10 @@ RUS_Duma = {
 		icon = GFX_decision_generic_political_discourse
 		visible = {
 			NOT = { 
-				check_variable = { Duma_Party_Status^5 = 1 }
-				lkdp_in_power = yes
+					check_variable = { Duma_Party_Status^5 = 1 }
+					lkdp_in_power = yes
 				has_country_flag = lkdp_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^5 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^5 > 0 }
@@ -166,10 +166,10 @@ RUS_Duma = {
 		icon = GFX_decision_generic_political_discourse
 		visible = {
 			NOT = { 
-				check_variable = { Duma_Party_Status^6 = 1 }
-				pp_in_power = yes
+					check_variable = { Duma_Party_Status^6 = 1 }
+					pp_in_power = yes
 				has_country_flag = pp_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^6 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^6 > 0 }
@@ -199,10 +199,10 @@ RUS_Duma = {
 			NOT = { 
 				has_government = national_populist 
 				has_government = social_democrat 
-				check_variable = { Duma_Party_Status^7 = 1 }
-				rkdp_in_power = yes
+					check_variable = { Duma_Party_Status^7 = 1 }
+					rkdp_in_power = yes
 				has_country_flag = rkdp_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^7 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^7 > 0 }
@@ -232,10 +232,10 @@ RUS_Duma = {
 			NOT = { 
 				has_government = national_populist 
 				has_government = social_democrat 
-				check_variable = { Duma_Party_Status^8 = 1 }
-				has_government = social_conservative
+					check_variable = { Duma_Party_Status^8 = 1 }
+					has_government = social_conservative
 				has_country_flag = vns_banned
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^8 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^8 > 0 }
@@ -266,10 +266,10 @@ RUS_Duma = {
 				vns_in_power = yes
 			}
 			NOT = { 
-				check_variable = { Duma_Party_Status^9 = 1 }
-				has_government = authoritarian_democrat
+					check_variable = { Duma_Party_Status^9 = 1 }
+					has_government = authoritarian_democrat
 				has_country_flag = ep_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^9 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^9 > 0 }
@@ -296,10 +296,10 @@ RUS_Duma = {
 		icon = GFX_decision_generic_political_discourse
 		visible = {
 			NOT = { 
-				check_variable = { Duma_Party_Status^12 = 1 }
-				has_government = national_populist
+					check_variable = { Duma_Party_Status^12 = 1 }
+					has_government = national_populist
 				has_country_flag = nrpr_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^12 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^12 > 0 }
@@ -330,10 +330,10 @@ RUS_Duma = {
 				vns_in_power = yes
 			}
 			NOT = { 
-				check_variable = { Duma_Party_Status^11 = 1 }
-				nsnp_in_power = yes
+					check_variable = { Duma_Party_Status^11 = 1 }
+					nsnp_in_power = yes
 				has_country_flag = nsnp_banned 
-			}
+				}
 			OR = {
 				check_variable = { RUS.Duma_Party_Seats^11 > 0 }
 				check_variable = { RUS.Senate_Party_Total_Seats^11 > 0 }
@@ -3397,7 +3397,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_NSP_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_PSR_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -3541,7 +3541,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_PSR_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_RSDRP_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -3820,7 +3820,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_LKDP_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_PP_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -3959,7 +3959,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_PP_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_RKDP_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -4098,7 +4098,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_RKDP_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_VNS_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -4148,7 +4148,7 @@ RUS_Passing_Laws = {
 				NOT = { 
 					has_government = social_liberal 
 					has_government = paternal_autocrat
-					nsnp_in_power = yes
+				nsnp_in_power = yes
 				}
 			}
 			modifier = {
@@ -4243,7 +4243,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_VNS_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_EP_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -4916,7 +4916,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_AUTONOMISTS_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_FEDERALISTS_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
@@ -5037,7 +5037,7 @@ RUS_Passing_Laws = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove RUS_LAW_GET_FEDERALISTS_DUMA_VOTES target: [From.GetName]"
-		}	
+		}
 	}
 	RUS_LAW_GET_INDEPENDENT_DUMA_VOTES = {
 		icon = GFX_decision_generic_agreement
