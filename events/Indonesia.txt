@@ -464,6 +464,7 @@ country_event = { #First Insulindian elections
 			ruling_party = authoritarian_democrat
 			elections_allowed = no
 		}
+		add_soccon_to_coalition = yes
 		add_popularity = {
 			ideology = social_conservative
 			popularity = 0.1
@@ -2986,6 +2987,7 @@ country_event = { #First election year + 4 years * amount of elections Insulindi
 			ruling_party = authoritarian_democrat
 			elections_allowed = no
 		}
+		add_soccon_to_coalition = yes
 		add_popularity = {
 			ideology = social_conservative
 			popularity = 0.1
@@ -3023,6 +3025,7 @@ country_event = { #Hung Dewan: form a coalition
 			ideology = social_conservative
 			popularity = 0.1
 		}
+		add_soccon_to_coalition = yes
 		remove_all_ministers_but_hog = yes
 		add_ideas = {
 			INS_Mohammed_Hatta_hog_ade
@@ -3051,6 +3054,8 @@ country_event = { #Hung Dewan: form a coalition
 			ideology = radical_socialist
 			popularity = 0.03
 		}
+		add_socdem_to_coalition = yes
+		add_radsoc_to_coalition = yes
 		remove_all_ministers_but_hog = yes
 		add_ideas = {
 			INS_Mohammed_Hatta_hog_ade
