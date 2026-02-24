@@ -2680,7 +2680,7 @@ country_event = { #Annexing BBR
 			has_country_leader = { name = "Аса Филип Рэндольф" ruling_only = yes }
 		}
 		tag = NYC
-		has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
+		has_country_leader = { name = "Фрэнк Кроссвейт" ruling_only = yes }
 	}
 	
 	fire_only_once = yes
@@ -2730,8 +2730,8 @@ country_event = { #Annexing NYC
 		NYC = {
 			exists = yes
 			OR = {
-				has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
-				has_country_leader = { name = "Губерт Гаррисон" ruling_only = yes }
+				has_country_leader = { name = "Фрэнк Кроссвейт" ruling_only = yes }
+				has_country_leader = { name = "Хьюберт Харрисон" ruling_only = yes }
 			}
 		}
 		tag = BBR
@@ -6599,7 +6599,7 @@ country_event = { #New York for the People (For Hubert/Crosswaith)
 		}
 	}
 }
-country_event = { #Губерт Гаррисон(For Hubert/Crosswaith)
+country_event = { #Хьюберт Харрисон(For Hubert/Crosswaith)
 	id = NYC_flavor.3335
 	immediate = {log = "[GetDateText]: [Root.GetName]: NYC_flavor.3335"}
 	title = NYC_flavor.3335.t
@@ -6621,7 +6621,7 @@ country_event = { #Губерт Гаррисон(For Hubert/Crosswaith)
 			elections_allowed = no
 		}
 		create_country_leader = {
-			name = "Губерт Гаррисон"
+			name = "Хьюберт Харрисон"
 			desc = "POLITICS_HARRISON_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Hubert_Harrison.png"
 			expire = "1.1.1"
@@ -6731,7 +6731,7 @@ country_event = { #Crosswaith or Harrison (For Hubert/Crosswaith)
 			ideology = syndicalist
 		}
 		create_country_leader = {
-			name = "Франк Кроссвейт"
+			name = "Фрэнк Кроссвейт"
 			desc = "POLITICS_CROSSWAITH_DESC"
 			picture = "gfx/leaders/NYC/Portrait_NYC_Frank_Rudolph_Crosswaith.png"
 			expire = "1.1.1"
@@ -7127,7 +7127,7 @@ country_event = { #BBR Exiles
 		tag = NYC
 		has_global_flag = BBR_has_risen_up
 		has_government = syndicalist
-		has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
+		has_country_leader = { name = "Фрэнк Кроссвейт" ruling_only = yes }
 		BBR = {
 			exists = no
 		}
@@ -7220,8 +7220,8 @@ country_event = { #CSA Exiles
 		tag = NYC
 		has_government = syndicalist
 		OR = {
-			has_country_leader = { name = "Губерт Гаррисон" ruling_only = yes }
-			has_country_leader = { name = "Франк Кроссвейт" ruling_only = yes }
+			has_country_leader = { name = "Хьюберт Харрисон" ruling_only = yes }
+			has_country_leader = { name = "Фрэнк Кроссвейт" ruling_only = yes }
 			has_country_leader = { name = "Дэвид Гамильтон Джексон" ruling_only = yes }
 		}
 		CSA = {
@@ -8351,8 +8351,8 @@ country_event = { #HERE COMES MARCUS GARVEY WITH THE STEEL CHAIR
 	fire_only_once = yes
 	trigger = {
 		NOT = { 
-			LIB = { has_country_leader = { name = "Marcus Garvey" ruling_only = yes } } 
-			BBR = { has_country_leader = { name = "Marcus Garvey" ruling_only = yes } } 
+			LIB = { has_country_leader = { name = "Маркус Гарви" ruling_only = yes } } 
+			BBR = { has_country_leader = { name = "Маркус Гарви" ruling_only = yes } } 
 		}
 	}
 
@@ -13810,7 +13810,7 @@ country_event = { #NYLP internal debate
 	option = { #
 		name = NYC_flavor.80.e
 		create_country_leader = {
-			name = "Август Клессенс"
+			name = "Август Классенс"
 			picture = "gfx/leaders/NYC/Portrait_NYC_August_Claessens.png"
 			expire = "1.1.1"
 			ideology = radsoc_revisionist_marxism_subtype 

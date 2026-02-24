@@ -8661,8 +8661,8 @@ country_event = { #Alliance with the USA/CSA/AUS
 		name = cuba.127.a
 		trigger = {
 			OR = {
-				TEX = {
-					has_country_flag = CUB_Alliance_Option
+			TEX = {
+				has_country_flag = CUB_Alliance_Option
 				}
 				AND = {
 					has_game_rule = { rule = CUB_foreign_policy option = CUB_TEX }
@@ -8719,9 +8719,9 @@ country_event = { #Alliance with the USA/CSA/AUS
 		name = cuba.127.b
 		trigger = {
 			OR = {
-				CSA = {
-					has_country_flag = CUB_Alliance_Option
-				}
+			CSA = {
+				has_country_flag = CUB_Alliance_Option
+			}
 				AND = {
 					has_game_rule = { rule = CUB_foreign_policy option = CUB_CSA }
 					has_socialist_government = yes
@@ -8760,8 +8760,8 @@ country_event = { #Alliance with the USA/CSA/AUS
 		name = cuba.127.c
 		trigger = {
 			OR = {
-				USA = {
-					has_country_flag = CUB_Alliance_Option
+			USA = {
+				has_country_flag = CUB_Alliance_Option
 				}
 				AND = {
 					has_game_rule = { rule = CUB_foreign_policy option = CUB_USA }
@@ -8808,8 +8808,8 @@ country_event = { #Alliance with the USA/CSA/AUS
 		name = cuba.127.e
 		trigger = {
 			OR = {
-				CAL = {
-					has_country_flag = CUB_Alliance_Option
+			CAL = {
+				has_country_flag = CUB_Alliance_Option
 				}
 				AND = {
 					has_game_rule = { rule = CUB_foreign_policy option = CUB_PSA }
@@ -8955,14 +8955,14 @@ country_event = { #Alliance with others
 		trigger = {
 			OR = {
 				AND = {
-					has_country_flag = CUB_FRA
-					INT = {
-						is_faction_leader = yes
-						exists = yes
-						NOT = {
-							has_war_with = CUB
-						}
-					}
+			has_country_flag = CUB_FRA
+			INT = {
+				is_faction_leader = yes
+				exists = yes
+				NOT = {
+					has_war_with = CUB
+				}
+			}
 				}
 				AND = {
 					has_game_rule = { rule = CUB_foreign_policy option = CUB_FRA }
@@ -8985,49 +8985,49 @@ country_event = { #Alliance with others
 		trigger = {
 			OR = {
 				AND = {
-					has_country_flag = CUB_canada_ally
-					CAN = {
-						is_faction_leader = yes
-						exists = yes
-						NOT = {
-							has_war_with = CUB
-						}
-					}
-					NOT = {
-						AND = {
-							has_democratic_government = yes
-							has_global_flag = USA_civil_war_over_flag
-							country_exists = CSA
-						}
-					}
+			has_country_flag = CUB_canada_ally
+			CAN = {
+				is_faction_leader = yes
+				exists = yes
+				NOT = {
+					has_war_with = CUB
+				}
+			}
+			NOT = {
+				AND = {
+					has_democratic_government = yes
+					has_global_flag = USA_civil_war_over_flag
+					country_exists = CSA
+				}
+			}
+			OR = {
+				is_ai = no
+				NOT = {
 					OR = {
-						is_ai = no
-						NOT = {
-							OR = {
-								AND = {
-									has_game_rule = { rule = CUB_foreign_policy option = CUB_GER }
-									has_country_flag = CUB_GER
-									GER = {
-										is_faction_leader = yes
-										exists = yes
-										NOT = {
-											has_war_with = CUB
-										}
-									}
-								}
-								AND = {
-									has_game_rule = { rule = CUB_foreign_policy option = CUB_COS }
-									has_government = social_democrat
-									COS = {
-										has_government = social_democrat
-										is_faction_leader = yes
-										exists = yes
-										NOT = {
-											has_war_with = CUB
-										}
-									}
+						AND = {
+							has_game_rule = { rule = CUB_foreign_policy option = CUB_GER }
+							has_country_flag = CUB_GER
+							GER = {
+								is_faction_leader = yes
+								exists = yes
+								NOT = {
+									has_war_with = CUB
 								}
 							}
+						}
+						AND = {
+							has_game_rule = { rule = CUB_foreign_policy option = CUB_COS }
+							has_government = social_democrat
+							COS = {
+								has_government = social_democrat
+								is_faction_leader = yes
+								exists = yes
+								NOT = {
+									has_war_with = CUB
+								}
+							}
+						}
+					}
 						}
 					}
 				}
@@ -9060,23 +9060,57 @@ country_event = { #Alliance with others
 		trigger = {
 			OR = {
 				AND = {
-					has_government = social_democrat
-					COS = {
-						has_government = social_democrat
-						is_faction_leader = yes
-						exists = yes
-						NOT = {
-							has_war_with = CUB
-						}
-					}
+			has_government = social_democrat
+			COS = {
+				has_government = social_democrat
+				is_faction_leader = yes
+				exists = yes
+				NOT = {
+					has_war_with = CUB
+				}
+			}
+			OR = {
+				is_ai = no
+				NOT = {
 					OR = {
-						is_ai = no
-						NOT = {
+						AND = {
+							has_game_rule = { rule = CUB_foreign_policy option = CUB_GER }
+							has_country_flag = CUB_GER
+							GER = {
+								is_faction_leader = yes
+								exists = yes
+								NOT = {
+									has_war_with = CUB
+								}
+							}
+						}
+						AND = {
+							has_game_rule = { rule = CUB_foreign_policy option = CUB_CAN }
 							OR = {
 								AND = {
-									has_game_rule = { rule = CUB_foreign_policy option = CUB_GER }
-									has_country_flag = CUB_GER
-									GER = {
+									has_country_flag = CUB_canada_ally
+									CAN = {
+										is_faction_leader = yes
+										exists = yes
+										NOT = {
+											has_war_with = CUB
+										}
+									}
+									NOT = {
+										AND = {
+											has_democratic_government = yes
+											has_global_flag = USA_civil_war_over_flag
+											country_exists = CSA
+										}
+									}
+								}
+								AND = {
+									has_democratic_government = yes
+									has_global_flag = USA_civil_war_over_flag
+									CSA = {
+										exists = yes
+									}
+									CAN = {
 										is_faction_leader = yes
 										exists = yes
 										NOT = {
@@ -9084,43 +9118,9 @@ country_event = { #Alliance with others
 										}
 									}
 								}
-								AND = {
-									has_game_rule = { rule = CUB_foreign_policy option = CUB_CAN }
-									OR = {
-										AND = {
-											has_country_flag = CUB_canada_ally
-											CAN = {
-												is_faction_leader = yes
-												exists = yes
-												NOT = {
-													has_war_with = CUB
-												}
-											}
-											NOT = {
-												AND = {
-													has_democratic_government = yes
-													has_global_flag = USA_civil_war_over_flag
-													country_exists = CSA
-												}
-											}
-										}
-										AND = {
-											has_democratic_government = yes
-											has_global_flag = USA_civil_war_over_flag
-											CSA = {
-												exists = yes
-											}
-											CAN = {
-												is_faction_leader = yes
-												exists = yes
-												NOT = {
-													has_war_with = CUB
-												}
-											}
-										}
-									}
-								}
 							}
+						}
+					}
 						}
 					}
 				}
@@ -9143,12 +9143,12 @@ country_event = { #Alliance with others
 			OR = {
 				AND = {
 					has_socialist_government = no
-					has_country_flag = CUB_AUS
-					AUS = {
-						is_faction_leader = yes
-						exists = yes
-						NOT = {
-							has_war_with = CUB
+			has_country_flag = CUB_AUS
+			AUS = {
+				is_faction_leader = yes
+				exists = yes
+				NOT = {
+					has_war_with = CUB
 						}
 					}
 				}

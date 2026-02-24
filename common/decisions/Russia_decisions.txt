@@ -3511,7 +3511,7 @@ RUS_Foreign_Policy_decisions = {
 
 		cancel_trigger = {
 			OR = {
-				has_war = no
+			has_war = no
 				MTR = { is_in_faction_with = GER }
 				GEO = { is_in_faction_with = GER }
 				AZE = { is_in_faction_with = GER }
@@ -10689,7 +10689,7 @@ RUS_Siberian_War = {
 				}
 			}
 			set_temp_variable = { change_morale = -0.075 }
-			RUS_change_siberian_war_morale = yes
+			RUS_change_siberian_war_morale = yes		
 			hidden_effect = { TRM = { country_event = { id = tram.100000 } } }		
 		}
 	}

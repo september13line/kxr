@@ -4823,29 +4823,29 @@ shared_focus = {
 		is_in_faction = no
 		OR = {
 			AND = {
-				NOT = {
-					has_completed_focus = CUB_new_allies
-				}
-				OR = {
-					has_global_flag = USA_civil_war_over_flag
-					has_global_flag = USA_civil_war_avoided_flag
-				}
-				OR = {
-					CSA = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					TEX = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					CAL = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					USA = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
+		NOT = {
+			has_completed_focus = CUB_new_allies
+		}
+		OR = {
+			has_global_flag = USA_civil_war_over_flag
+			has_global_flag = USA_civil_war_avoided_flag
+		}
+		OR = {
+			CSA = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			TEX = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			CAL = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			USA = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
 					}
 				}
 			}
@@ -4931,21 +4931,73 @@ shared_focus = {
 		is_in_faction = no
 		OR = {
 			AND = {
+		OR = {
+			NOT = {
+				has_completed_focus = CUB_old_friends
+			}
+			AND = {
+				has_completed_focus = CUB_old_friends
 				OR = {
-					NOT = {
-						has_completed_focus = CUB_old_friends
+					AND = {
+						has_socialist_government = yes
+						CSA = {
+							exists = no
+						}
 					}
 					AND = {
-						has_completed_focus = CUB_old_friends
-						OR = {
-							AND = {
-								has_socialist_government = yes
-								CSA = {
-									exists = no
+						has_socialist_government = no
+						CSA = {
+							exists = yes
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			CSA = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			TEX = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			CAL = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+			USA = {
+				has_country_flag = CUB_Alliance_Option
+				exists = yes
+			}
+		}
+		OR = {
+			AND = {
+				has_country_flag = CUB_GER
+				GER = {
+					is_faction_leader = yes
+					exists = yes
+				}
+			}
+			AND = {
+				has_country_flag = CUB_FRA
+				INT = {
+					is_faction_leader = yes
+					exists = yes
+				}
+			}
+			AND = {
+				OR = {
+					has_country_flag = CUB_canada_ally
+					AND = {
+						has_democratic_government = yes
+						custom_trigger_tooltip = {
+							tooltip = CUB_csawon_tt
+							hidden_trigger = {
+								OR = {
+									has_global_flag = USA_civil_war_over_flag
+									has_global_flag = USA_civil_war_avoided_flag
 								}
-							}
-							AND = {
-								has_socialist_government = no
 								CSA = {
 									exists = yes
 								}
@@ -4953,76 +5005,24 @@ shared_focus = {
 						}
 					}
 				}
-				NOT = {
-					CSA = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					TEX = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					CAL = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
-					USA = {
-						has_country_flag = CUB_Alliance_Option
-						exists = yes
-					}
+				CAN = {
+					is_faction_leader = yes
+					exists = yes
 				}
-				OR = {
-					AND = {
-						has_country_flag = CUB_GER
-						GER = {
-							is_faction_leader = yes
-							exists = yes
-						}
-					}
-					AND = {
-						has_country_flag = CUB_FRA
-						INT = {
-							is_faction_leader = yes
-							exists = yes
-						}
-					}
-					AND = {
-						OR = {
-							has_country_flag = CUB_canada_ally
-							AND = {
-								has_democratic_government = yes
-								custom_trigger_tooltip = {
-									tooltip = CUB_csawon_tt
-									hidden_trigger = {
-										OR = {
-											has_global_flag = USA_civil_war_over_flag
-											has_global_flag = USA_civil_war_avoided_flag
-										}
-										CSA = {
-											exists = yes
-										}
-									}
-								}
-							}
-						}
-						CAN = {
-							is_faction_leader = yes
-							exists = yes
-						}
-					}
-					AND = {
-						has_country_flag = CUB_AUS
-						AUS = {
-							is_faction_leader = yes
-							exists = yes
-						}
-					}
-					AND = {
-						has_government = social_democrat
-						COS = {
-							has_government = social_democrat
-							is_faction_leader = yes
-							exists = yes
+			}
+			AND = {
+				has_country_flag = CUB_AUS
+				AUS = {
+					is_faction_leader = yes
+					exists = yes
+				}
+			}
+			AND = {
+				has_government = social_democrat
+				COS = {
+					has_government = social_democrat
+					is_faction_leader = yes
+					exists = yes
 						}
 					}
 				}

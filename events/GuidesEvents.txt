@@ -386,6 +386,41 @@ country_event = { #CHI Guides Event
 			factor = 100
 		}
 	}
+	option = { #
+		name = guides.14.b
+
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.14444
+	}
+}
+country_event = { #CHI Guides Event
+	id = guides.14444
+	immediate = { log = "[GetDateText]: [Root.GetName]: event guides.14444" }
+	title = guides.14444.t
+	desc = guides.14444.d
+	picture = GFX_introduction_main
+
+	
+
+	is_triggered_only = yes
+
+	option = { #
+		name = guides.14444.a
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { #
+		name = guides.14444.b
+
+		ai_chance = {
+			factor = 100
+		}
+		country_event = guides.14
+	}
 }
 
 ### Austria ###

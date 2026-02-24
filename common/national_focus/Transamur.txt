@@ -1131,7 +1131,7 @@ focus_tree = {
 			custom_effect_tooltip = tech_semi_motorised_cav_effect
 			set_technology = { tech_semi_motorised_cav = 1 popup = no }
 			division_template = {
-				name = "Motopekhotnaya Diviziya"
+				name = "Мотопехотная дивизия"
 				division_names_group = RUS_MOT_01
 				regiments = {
 					motorized = { x = 0 y = 0 }
@@ -1150,7 +1150,7 @@ focus_tree = {
 				custom_effect_tooltip = TRM_motorised_tooltip
 				hidden_effect = {
 					create_unit = {
-						division = "division_template = \"Motopekhotnaya Diviziya\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
+						division = "division_template = \"Мотопехотная дивизия\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
 						owner = ROOT
 						count = 2
 					}
@@ -1408,12 +1408,12 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_white_line
 			hidden_effect = {
 				if = {
-					limit = { has_template = "Vozdushno-Desantnye Voyska" }
-					delete_unit_template_and_units = { division_template = "Vozdushno-Desantnye Voyska" disband = yes } #no cheating
+					limit = { has_template = "Воздушно-десантные войска" }
+					delete_unit_template_and_units = { division_template = "Воздушно-десантные войска" disband = yes } #no cheating
 				}
 			}
 			division_template = {
-				name = "Vozdushno-Desantnye Voyska"
+				name = "Воздушно-десантные войска"
 				division_names_group = RUS_PAR_01
 				regiments = {
 					paratrooper = { x = 0 y = 0 }
@@ -1428,7 +1428,7 @@ focus_tree = {
 				prioritize = { 219 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Vozdushno-Desantnye Voyska\" start_experience_factor = 0.1"
+					division = "division_template = \"Воздушно-десантные войска\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 2
 				}
@@ -2604,7 +2604,7 @@ focus_tree = {
 			custom_effect_tooltip = tech_anti-partisan_effect
 			set_technology = { tech_anti-partisan = 1 popup = no }
 			division_template = {
-				name = "Sibirskiy OMON"
+				name = "Сибирский ОМОН"
 				division_names_group = TRM_MIL_02
 				regiments = {
 					irregular_infantry = { x = 0 y = 0 }
@@ -2622,7 +2622,7 @@ focus_tree = {
 				custom_effect_tooltip = TRM_omon_tooltip
 				hidden_effect = {
 					create_unit = {
-						division = "division_template = \"Sibirskiy OMON\" start_experience_factor = 0.8 start_equipment_factor = 1"
+						division = "division_template = \"Сибирский ОМОН\" start_experience_factor = 0.8 start_equipment_factor = 1"
 						owner = ROOT
 						count = 2
 					}
@@ -2883,7 +2883,7 @@ focus_tree = {
 			custom_effect_tooltip = tech_semi_motorised_cav_effect
 			set_technology = { tech_semi_motorised_cav = 1 popup = no }
 			division_template = {
-				name = "Motopekhotnaya Diviziya"
+				name = "Мотопехотная дивизия"
 				division_names_group = RUS_MOT_01
 				regiments = {
 					motorized = { x = 0 y = 0 }
@@ -2902,7 +2902,7 @@ focus_tree = {
 				custom_effect_tooltip = TRM_motorised_tooltip
 				hidden_effect = {
 					create_unit = {
-						division = "division_template = \"Motopekhotnaya Diviziya\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
+						division = "division_template = \"Мотопехотная дивизия\" start_experience_factor = 0.15 start_equipment_factor = 0.8"
 						owner = ROOT
 						count = 2
 					}
@@ -3346,12 +3346,12 @@ focus_tree = {
 			custom_effect_tooltip = tooltip_white_line
 			hidden_effect = {
 				if = {
-					limit = { has_template = "Vozdushno-Desantnye Voyska" }
-					delete_unit_template_and_units = { division_template = "Vozdushno-Desantnye Voyska" disband = yes } #no cheating
+					limit = { has_template = "Воздушно-десантные войска" }
+					delete_unit_template_and_units = { division_template = "Воздушно-десантные войска" disband = yes } #no cheating
 				}
 			}
 			division_template = {
-				name = "Vozdushno-Desantnye Voyska"
+				name = "Воздушно-десантные войска"
 				division_names_group = RUS_PAR_01
 				regiments = {
 					paratrooper = { x = 0 y = 0 }
@@ -3366,7 +3366,7 @@ focus_tree = {
 				prioritize = { 219 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
-					division = "division_template = \"Vozdushno-Desantnye Voyska\" start_experience_factor = 0.1"
+					division = "division_template = \"Воздушно-десантные войска\" start_experience_factor = 0.1"
 					owner = ROOT
 					count = 2
 				}
@@ -3955,7 +3955,7 @@ focus_tree = {
 			}
 			create_railway_gun = {
 				equipment = railway_gun_equipment_1
-				name = "Orlik" 
+				name = "Орлик" 
 			}
 			custom_effect_tooltip = tooltip_white_line
 			set_temp_variable = { change_morale = 0.05 }
@@ -8259,7 +8259,7 @@ focus_tree = {
 				else = {
 					create_railway_gun = {
 						equipment = railway_gun_equipment_1
-						name = "Orlik" 
+						name = "Орлик" 
 					}	
 					create_railway_gun = {
 						equipment = railway_gun_equipment_1

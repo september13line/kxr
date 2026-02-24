@@ -2117,7 +2117,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				date > 1938.1.1
-				has_army_manpower = { size > 299999 }
+			has_army_manpower = { size > 299999 }
 			}
 			can_declare_war_on = 431.owner #Calcutta
 		}
@@ -2339,7 +2339,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				date > 1938.1.1
-				has_army_manpower = { size > 299999 }
+			has_army_manpower = { size > 299999 }
 			}
 			432 = { is_owned_and_controlled_by = BHC } #Assam
 			431 = { is_owned_and_controlled_by = BHC } #Calcutta
@@ -2539,7 +2539,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				date > 1938.1.1
-				has_army_manpower = { size > 299999 }
+			has_army_manpower = { size > 299999 }
 			}
 			can_declare_war_on = 427.owner #Hyderabad
 		}
@@ -2630,7 +2630,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				date > 1938.1.1
-				has_army_manpower = { size > 299999 }
+			has_army_manpower = { size > 299999 }
 			}
 			427 = { is_owned_and_controlled_by = PRF }
 			867 = { is_owned_and_controlled_by = PRF }
@@ -3117,7 +3117,7 @@ focus_tree = {
 			every_state = {
 				limit = {
 					OR = {
-						is_core_of = BRM
+					is_core_of = BRM
 						state = 701
 						state = 72
 					}
