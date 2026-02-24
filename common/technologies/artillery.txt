@@ -511,12 +511,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 2
+				factor = 10
 				is_major = yes
 			}
 			modifier = {
 				factor = 50			# This tech is required for 1945 fighter ai design
 				has_tech = modern_small_airframe
+			}
+			modifier = {
+				factor = 4
+				OR = {
+					has_doctrine = new_mobile_warfare
+					has_doctrine = mass_assault
+				}
 			}
 		}
 

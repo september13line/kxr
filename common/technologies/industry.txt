@@ -988,23 +988,10 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				has_war = yes
 				OR = {
 					oil < 25
 					rubber < 10
 				}
-			}
-			modifier = {
-				factor = 0.5
-				oil > 10
-			}
-			modifier = {
-				factor = 0.5
-				oil > 20
-			}
-			modifier = {
-				factor = 0.5
-				oil > 30
 			}
 		}
 
@@ -1151,20 +1138,20 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				oil > 10
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				oil > 20
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				oil > 30
 			}
 		}
 
 		ai_research_weights = {
-			rubber = -2.0
+			oil = -2.0
 		}
 
 		show_effect_as_desc = yes

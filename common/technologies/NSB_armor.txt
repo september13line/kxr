@@ -274,7 +274,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0 # KR production changes - only mediums
+			base = 0
+			modifier = {
+				add = 10
+				is_naval_power = yes
+				is_eligible_for_armor_production = yes
+			}
+			modifier = {
+				factor = 10
+				has_tech = amphibious_mechanized_infantry
+			}
 		}
 
 		categories = {
@@ -316,7 +325,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0 # KR production changes - only mediums
+			base = 0
+			modifier = {
+				add = 10
+				is_naval_power = yes
+				is_eligible_for_armor_production = yes
+			}
 		}
 
 		categories = {
@@ -598,7 +612,18 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0 # KR production changes - only mediums
+			base = 0
+			modifier = {
+				add = 15
+				is_eligible_for_armor_production = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					has_global_flag = SpaceMarines
+					has_doctrine = grand_battleplan
+				}
+			}
 		}
 
 		categories = {
@@ -638,7 +663,18 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0 # KR production changes - only mediums
+			base = 0
+			modifier = {
+				add = 15
+				is_eligible_for_armor_production = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					has_global_flag = SpaceMarines
+					has_doctrine = grand_battleplan
+				}
+			}
 		}
 
 		categories = {
@@ -673,7 +709,18 @@ technologies = {
 		}
 
 		ai_will_do = {
-			base = 0 # KR production changes - only mediums
+			base = 0
+			modifier = {
+				add = 15
+				is_eligible_for_armor_production = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					has_global_flag = SpaceMarines
+					has_doctrine = grand_battleplan
+				}
+			}
 		}
 
 		categories = {

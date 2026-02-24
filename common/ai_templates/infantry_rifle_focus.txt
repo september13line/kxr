@@ -1,4 +1,4 @@
-firepower_infantry = {
+mass_infantry = {
 	blocked_for = {
 		TRP ETS SIK TAN KHI KYR TRK UZB ALO MON XSM #uses line_cavalry
 		LBA SAU JBS TRU IKH YEM OMA #uses line_camelry
@@ -10,11 +10,11 @@ firepower_infantry = {
 		factor = 2000
 		modifier = {
 			factor = 0
-			NOT = {has_doctrine = superior_firepower}
+			NOT = {has_doctrine = mass_assault}
 		}
 	}
 
-	sf_infantry_irregular = {
+	ma_infantry_irregular = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -28,7 +28,7 @@ firepower_infantry = {
 		}
 	}
 
-	sf_infantry_militia = {
+	ma_infantry_militia = {
 		can_upgrade_in_field = { always = yes }
 
 		upgrade_prio = {
@@ -42,7 +42,7 @@ firepower_infantry = {
 		}
 	}
 
-	sf_infantry_0 = {
+	ma_infantry_0 = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -51,8 +51,7 @@ firepower_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 9
-				artillery_brigade = 1
+				infantry = 11
 			}
 
 			support = {
@@ -61,7 +60,7 @@ firepower_infantry = {
 		}
 	}
 
-	sf_infantry_1 = {
+	ma_infantry_1 = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -78,55 +77,53 @@ firepower_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 9
-				artillery_brigade = 2
+				infantry = 13
+                artillery_brigade = 1
+			}
+
+			support = {
+				artillery = 1
+				engineer = 1
+			}
+		}
+	}
+
+	ma_infantry_2 = {
+		can_upgrade_in_field = { always = yes }
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_subdoctrine_in_track = infantry }
+			}
+			modifier = {
+				factor = 0
+				num_of_military_factories < 75
+			}
+			modifier = {
+				factor = 3
+				num_of_military_factories > 75
+			}
+		}
+
+		target_template = {
+			regiments = {
+				infantry = 15
+                artillery_brigade = 2
 			}
 
 			support = {
 				artillery = 1
 				anti_air = 1
-				engineer = 1
-			}
-		}
-	}
-
-	sf_infantry_2 = {
-		can_upgrade_in_field = { always = yes }
-		
-		upgrade_prio = {
-			base = 100
-			modifier = {
-				factor = 0
-				NOT = { has_subdoctrine_in_track = infantry }
-			}
-			modifier = {
-				factor = 0
-				num_of_military_factories < 75
-			}
-			modifier = {
-				factor = 3
-				num_of_military_factories > 75
-			}
-		}
-
-		target_template = {
-			regiments = {
-				infantry = 10
-				artillery_brigade = 2
-				anti_tank_brigade = 1
-			}
-
-			support = {
- 				artillery = 1
-				anti_air = 1
+				anti_tank = 1
 				engineer = 1
 				field_hospital = 1
-                signal_company = 1
 			}
 		}
 	}
 
-	sf_infantry_3 = {
+	ma_infantry_3 = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -150,22 +147,22 @@ firepower_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 12
-				artillery_brigade = 3
+				infantry = 16
+                artillery_brigade = 2
 				anti_tank_brigade = 1
 			}
 
 			support = {
- 				artillery = 1
+				artillery = 1
 				anti_air = 1
-				engineer = 1
-				field_hospital = 1
-                signal_company = 1
+                engineer = 1
+                field_hospital = 1
+				signal_company = 1
 			}
 		}
 	}
 
-	sf_space_marines_2 = {
+	ma_space_marines_2 = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -180,8 +177,8 @@ firepower_infantry = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { has_tech = improved_medium_tank }
-				NOT = { has_tech = improved_medium_tank_chassis }
+				NOT = { has_tech = basic_medium_tank }
+				NOT = { has_tech = basic_medium_tank_chassis }
 			}
 			modifier = {
 				factor = 0
@@ -199,22 +196,22 @@ firepower_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 9
-				artillery_brigade = 2
-                medium_sp_anti_air_brigade = 1
+				infantry = 13
+                artillery_brigade = 1
+				medium_armor = 1
 			}
 
 			support = {
- 				artillery = 1
-				anti_tank = 1
-				engineer = 1
-				field_hospital = 1
-                signal_company = 1
+				artillery = 1
+				anti_air = 1
+                engineer = 1
+                field_hospital = 1
+				signal_company = 1
 			}
 		}
 	}
 
-	sf_space_marines_3 = {
+	ma_space_marines_3 = {
 		can_upgrade_in_field = { always = yes }
 		
 		upgrade_prio = {
@@ -229,8 +226,8 @@ firepower_infantry = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { has_tech = improved_medium_tank }
-				NOT = { has_tech = improved_medium_tank_chassis }
+				NOT = { has_tech = basic_medium_tank }
+				NOT = { has_tech = basic_medium_tank_chassis }
 			}
 			modifier = {
 				factor = 0
@@ -251,17 +248,17 @@ firepower_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 12
-				artillery_brigade = 3
-                medium_sp_anti_air_brigade = 1
+				infantry = 16
+				artillery_brigade = 2
+				medium_armor = 1
 			}
 
 			support = {
- 				artillery = 1
-				anti_tank = 1
-				engineer = 1
-				field_hospital = 1
-                signal_company = 1
+				artillery = 1
+				anti_air = 1
+                engineer = 1
+                field_hospital = 1
+				signal_company = 1
 			}
 		}
 	}

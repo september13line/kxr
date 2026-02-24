@@ -6,13 +6,21 @@ generic_cv_cas = {
 	}
 
 	priority = {
-		factor = 0 #only for generating player presets
+		base = 0
+		modifier = {
+			add = 100
+			is_eligible_for_cv_aircraft_production = yes
+		}
 	}
 
 	early_cv_cas_1933 = {
 		priority = {
-			factor = 0 #only for generating player presets
-		}
+			factor = 1
+			modifier = {
+				has_tech = basic_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+		}		
 		target_variant = {
 			match_value = 1000
 			type = cv_small_plane_cas_airframe_0
@@ -32,7 +40,11 @@ generic_cv_cas = {
 
 	basic_cv_cas_1936 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 		target_variant = {
 			match_value = 1000
@@ -55,7 +67,11 @@ generic_cv_cas = {
 
 	improved_cv_cas_1940 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = advanced_small_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 		target_variant = {
 			match_value = 1500
@@ -83,7 +99,11 @@ generic_cv_cas = {
 
 	advanced_cv_cas_1944 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = modern_small_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 		target_variant = {
 			match_value = 2000
@@ -119,7 +139,7 @@ generic_cv_cas = {
 
 	modern_cv_cas_1945 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
 		}
 
 		target_variant = {

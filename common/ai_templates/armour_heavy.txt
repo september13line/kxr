@@ -1,23 +1,16 @@
 ######################
-#	ARMOUR ROLE
+#	HEAVY ARMOUR ROLE
 ######################
 
-armour_generic = {
-	role = armor_role #to distinguish from armor, a hardcoded keyword for all tank equipment types
+heavy_armour_generic = {
+    role = heavy_armor_role
 	front_role_override = offence
 
-	upgrade_prio = {
-		factor = 5000
+    upgrade_prio = {
+		factor = 1000
 		modifier = {
 			factor = 0
-			OR = {
-				has_doctrine = new_mobile_warfare
-				has_doctrine = mass_assault
-			}
-		}
-		modifier = {
-			factor = 0
-			is_eligible_for_armor_production = no
+			is_eligible_for_heavy_armor_production = no
 		}
 		modifier = {
 			factor = 0
@@ -25,56 +18,51 @@ armour_generic = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { has_tech = basic_medium_tank }
-			NOT = { has_tech = basic_medium_tank_chassis }
+			NOT = { has_tech = basic_heavy_tank }
+			NOT = { has_tech = basic_heavy_tank_chassis }
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_doctrine = grand_battleplan }
+			OR = {
+				NOT = { has_subdoctrine_in_track = infantry }
+				NOT = { has_subdoctrine_in_track = combat_support }
+				NOT = { has_subdoctrine_in_track = armor }
+				NOT = { has_subdoctrine_in_track = operations }
+			}
 		}
 		modifier = { 
 			has_doctrine = grand_battleplan
-			factor = 0.2
+			factor = 5
 		}
 	}
 
-	dummy_light_div = {
-		can_upgrade_in_field = { always = no }
-		
-		upgrade_prio = {
-			base = 0
-		}
-
-		target_template = {
-			regiments = {
-				light_armor = 6
-				motorized = 4
-			}
-		}
-	}
-
-	motorised_medium = {
-		can_upgrade_in_field = { always = no }
+	motorized_heavy = {
+        can_upgrade_in_field = { always = no }
 		reinforce_prio = 2
 
 		upgrade_prio = {
 			base = 100
 		}
 
-		target_template = {
+        target_template = {
 			regiments = {
-				medium_armor = 6
+				heavy_armor = 6
 				motorized = 6
 			}
 
 			support = {
 				anti_air = 1
 				light_tank_recon = 1
+				medium_flame_tank = 1
 				assault_engineer = 1
-				field_hospital = 1
 				logistics_company = 1
 			}
 		}
-	}
+    }
 
-	mechanized_medium = {
-		can_upgrade_in_field = { always = no }
+    mechanized_heavy = {
+        can_upgrade_in_field = { always = no }
 		reinforce_prio = 2
 
 		upgrade_prio = {
@@ -87,34 +75,34 @@ armour_generic = {
 				factor = 0
 				NOT = { has_subdoctrine_in_track = infantry }
 			}
-			modifier = {
+            modifier = {
 				factor = 0
-				is_eligible_for_improved_armor_production = no
+				is_eligible_for_improved_heavy_armor_production = no
 			}
 			modifier = {
 				factor = 2
-				is_eligible_for_improved_armor_production = yes
+				is_eligible_for_improved_heavy_armor_production = yes
 			}
 		}
 
-		target_template = {
+        target_template = {
 			regiments = {
-				medium_armor = 6
+				heavy_armor = 8
 				mechanized = 8
-				medium_sp_artillery_brigade = 1
+				heavy_tank_destroyer_brigade = 2
 			}
 
 			support = {
 				anti_air = 1
+				light_tank_recon = 1
 				medium_flame_tank = 1
 				armored_engineer = 1
-				field_hospital = 1
 				logistics_company = 1
 			}
 		}
-	}
+    }
 
-	modern_armour = {
+	heavy_modern_armour = {
 		can_upgrade_in_field = { always = no }
 		reinforce_prio = 2
 
@@ -140,25 +128,25 @@ armour_generic = {
 			}
 			modifier = {
 				factor = 0
-				is_eligible_for_improved_armor_production = no
+				is_eligible_for_improved_heavy_armor_production = no
 			}
 			modifier = {
 				factor = 4
-				is_eligible_for_improved_armor_production = yes
+				is_eligible_for_improved_heavy_armor_production = yes
 			}
 		}
 
 		target_template = {
 			regiments = {
-				modern_armor = 7
+				modern_armor = 10
 				mechanized = 8
 			}
 
 			support = {
 				anti_air = 1
 				armored_engineer = 1
-				field_hospital = 1
 				logistics_company = 1
+				armored_maintenance = 1
 				armored_signal = 1
 			}
 		}
