@@ -3477,6 +3477,14 @@ country_event = { # Sultana becomes head of Girl Guides
 	}
 	picture = GFX_report_event_EGY_queen_farida
 	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_country_leader = { name = "Фарук I" ruling_only = yes }
+			has_country_leader = { name = "Скандербег II" ruling_only = yes }
+			has_country_leader = { name = "Мухаммед Али II" ruling_only = yes }
+			has_country_leader = { name = "Мекемет" ruling_only = yes }
+		}
+	}
 
 	option = {
 		name = egy.114.a

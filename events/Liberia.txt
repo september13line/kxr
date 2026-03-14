@@ -1442,6 +1442,7 @@ country_event = {
 			expire = "1.1.1"
 			ideology = prussian_constitutionalism_subtype
 			traits = { nationalist_symbol }
+			female = yes
 		}	
 		hidden_effect = {
 			country_event = {
@@ -3741,14 +3742,15 @@ country_event = {
 			expire = "1.1.1"
 			ideology = moderate_socialist_subtype
 			traits = { nationalist_symbol }
-			 }	
-			 remove_all_ministers = yes
-			 add_ideas = {
-				 LIB_Albert_Porte_hog_rso
-				 LIB_Raymond_Leslie_Buell_for_rso
-				 LIB_Harry_A_Greaves_Sr_eco_rso
-				 LIB_S_Raymond_Horace_sec_tot
-			 }
+			female = yes
+			}	
+			remove_all_ministers = yes
+			add_ideas = {
+				LIB_Albert_Porte_hog_rso
+				LIB_Raymond_Leslie_Buell_for_rso
+				LIB_Harry_A_Greaves_Sr_eco_rso
+				LIB_S_Raymond_Horace_sec_tot
+			}
 		}	
 		add_popularity = {
 			ideology = radical_socialist
@@ -3777,7 +3779,8 @@ country_event = {
 			expire = "1.1.1"
 			ideology = soccon_true_whigs_subtype
 			traits = { nationalist_symbol }
-		   }	
+			female = yes
+		}	
 		}
 		add_popularity = {
 			ideology = social_conservative

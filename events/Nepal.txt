@@ -1451,6 +1451,28 @@ country_event = { #The Sovereign's Order
 	option = { #All Hail His Majesty!
 		log = "[GetLogInfo]: event nepal_events.23 option nepal_events.23.a"
 		name = nepal_events.23.a
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_completed_focus = NEP_isolating_the_king } }
+				remove_country_leader_trait = NEP_defiant_hostage
+				create_country_leader = {
+					name = "Трибхуван"
+					desc = "NEP_tribhuvan_leader_desc_start"
+					picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.png"
+					expire = "1.1.1"
+					ideology = oligarchy_subtype
+					traits = { }
+				}
+				create_country_leader = {
+					name = "Трибхуван"
+					desc = "NEP_tribhuvan_leader_desc_start"
+					picture = "gfx/leaders/NEP/Portrait_Nepal_Tribhuvana.png"
+					expire = "1.1.1"
+					ideology = progressive_conservatism_subtype
+					traits = { }
+				}
+			}
+		}
 		set_country_flag = NEP_royal_restoration_flag
 		complete_national_focus = NEP_our_ruler_glorious
 		set_politics = {
@@ -1523,21 +1545,21 @@ country_event = { #Failed Coup in Kathmandu
 			remove_ideas_with_trait = head_of_government
 			add_ideas = NEP_Kaiser_Shumsher_Jung_Bahadur_Rana_hog_pau
 			create_country_leader = {
-				name = "Juddha Shumsher Rana"
+				name = "Джуддха Шамшер Рана"
 				desc = "NEP_juddha_shumsher_jang_bahadur_rana_leader_desc"
 				picture = "gfx/leaders/NEP/Portrait_Nepal_Juddha_Shumsher.png"
 				expire = "1.1.1"
 				ideology = neo_feudalism_subtype
 			}
 			create_country_leader = {
-				name = "Juddha Shumsher Rana"
+				name = "Джуддха Шамшер Рана"
 				desc = "NEP_juddha_shumsher_jang_bahadur_rana_leader_desc"
 				picture = "gfx/leaders/NEP/Portrait_Nepal_Juddha_Shumsher.png"
 				expire = "1.1.1"
 				ideology = oligarchy_subtype
 			}
 			create_country_leader = {
-				name = "Juddha Shumsher Rana"
+				name = "Джуддха Шамшер Рана"
 				desc = "NEP_juddha_shumsher_jang_bahadur_rana_leader_desc"
 				picture = "gfx/leaders/NEP/Portrait_Nepal_Juddha_Shumsher.png"
 				expire = "1.1.1"
