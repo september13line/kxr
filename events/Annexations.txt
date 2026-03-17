@@ -32213,22 +32213,6 @@ country_event = { #Annexation of South Africa
 	immediate = {
 		hidden_effect = {
 			SAF = {
-				if = { #Clean up governor-general
-					limit = {
-						OR = {
-							has_country_leader = { name = "Патрик Дункан" }
-							has_country_leader = { name = "Николаас Якобус де Вет" }
-							has_country_leader = { name = "Эрнест Джордж Янсен" }
-							has_country_leader = { name = "Георг V" }
-							has_country_leader = { name = "Эдуард VIII" }
-							has_country_leader = { name = "Альберт I" }
-							has_country_leader = { name = "Елизавета II" }
-							has_country_leader = { name = "Генрих IX" }
-							has_country_leader = { name = "Георг VI" }
-							has_country_leader = { name = "Джордж Вильерс" }
-						}
-					}
-				}
 				remove_ideas = SAF_wavering_dominion
 				remove_ideas = SAF_neutral_dominion
 				add_state_core = 1176
