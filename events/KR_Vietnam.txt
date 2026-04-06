@@ -862,81 +862,31 @@ country_event = {#
 
 	option = {#
 		name = vietnam.10.a
-		trigger = {
-		has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" }
+		ai_chance = { factor = 0 }
+		if = {
+			limit = { has_country_leader = { ruling_only = yes name = "Онг Дао Дуа" } }
+			set_cosmetic_tag = VIN_COCONUT_ASIA
 		}
-		set_cosmetic_tag = VIN_COCONUT_ASIA
-		every_state = {
-					limit = {
-						is_on_continent = asia
-					}
-					VIN = { 
-						add_state_core = PREV 
-				}
-			}
-		every_state = {
-					limit = {
-						is_on_continent = india
-					}
-					VIN = { 
-						add_state_core = PREV 
-				}
-			}
-	}
-	option = {#
-		name = vietnam.10.a
-		trigger = {
-		OR = {
-		has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
-		has_country_leader = { ruling_only = yes name = "Ба Кют" }
-			}
+		else_if = {
+			limit = { OR = { has_country_leader = { ruling_only = yes name = "Куонг Де" } has_country_leader = { ruling_only = yes name = "Фам Конг Так" } } }
+			set_cosmetic_tag = VIN_CAO_DAI_ASIA
 		}
-		set_cosmetic_tag = VIN_CAO_DAI_ASIA
+		else_if = {
+			limit = { OR = { has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" } has_country_leader = { ruling_only = yes name = "Ба Кют" } } }
+			set_cosmetic_tag = VIN_HOA_HAO_ASIA
+		}
 		every_state = {
-					limit = {
-						is_on_continent = asia
-					}
-					VIN = { 
-						add_state_core= PREV 
-				}
-			}
+			limit = { is_on_continent = asia }
+			VIN = { add_state_core = PREV  }
+		}
 		every_state = {
-					limit = {
-						is_on_continent = india
-					}
-					VIN = { 
-						add_state_core = PREV 
-				}
-			}
-	}
-	option = {#
-		name = vietnam.10.a
-		trigger = {
-			OR = {
-				has_country_leader = { ruling_only = yes name = "Хюинь Фу Шо" }
-				has_country_leader = { ruling_only = yes name = "Ба Кют" }
-					}
-				}
-		set_cosmetic_tag = VIN_HOA_HAO_ASIA
-		every_state = {
-					limit = {
-						is_on_continent = asia
-					}
-					VIN = { 
-						add_state_core = PREV 
-				}
-			}
-		every_state = {
-					limit = {
-						is_on_continent = india
-					}
-					VIN = { 
-						add_state_core = PREV 
-				}
-			}
+			limit = { is_on_continent = india }
+			VIN = {  add_state_core = PREV }
+		}
 	}
 	option = {#
 		name = vietnam.10.b
+		ai_chance = { factor = 100 }
 		every_state = {
 				limit = {
 					OR = {
@@ -4889,7 +4839,7 @@ country_event = {# Caodaist Justice
 	}
 }
 
-country_event = {# Cuong De's Contacts
+country_event = {# Куонг Де's Contacts
 	id = vietnam.89
 	title = vietnam.89.t
 	desc = vietnam.89.d

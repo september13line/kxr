@@ -161415,6 +161415,7 @@ head_of_government = { ### Head of Government ###
 				hog_backroom_backstabber
 			}
 		}
+
 		NOR_Odd_Nansen_hog_sco = {
 			allowed = { original_tag = NOR }
 			available = {
@@ -161431,6 +161432,25 @@ head_of_government = { ### Head of Government ###
 				head_of_government
 				social_conservative
 				hog_humanitarian
+			}
+		}
+
+		NOR_Thomas_Olsen_hog_sco = {
+			allowed = { original_tag = NOR }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NOR_Thomas_Olsen_hog_sco"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_financial_expert
 			}
 		}
 
@@ -203728,6 +203748,25 @@ head_of_government = { ### Head of Government ###
 				hog_naive_optimist
 			}
 		}	
+
+		SWE_Albin_Amelian_hog_tot = {
+			allowed = { original_tag = SWE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_Albin_Amelian_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				ALT_talented_painter
+			}
+		}
 	
 		SWE_Hugo_Sillen_hog_tot = {
 			allowed = { original_tag = SWE }
