@@ -6114,13 +6114,13 @@ country_event = { #polls closed
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event rusdem.200"
 		hidden_effect = { 
-			RUS_calculate_polling_averages = yes
+				RUS_calculate_polling_averages = yes
 			country_event = {
 				id = rusdem.2
 				days = 5
 			}
+			}
 		}
-	}
 	title = rusdem.200.t 
 	desc = rusdem.200.d 
 	fire_only_once = yes 
@@ -45391,7 +45391,7 @@ country_event = { #FROM requests our integration
 country_event = { #Overlord increases integration
 	id = russoc.501
 	title = russoc.501.t
-	
+
 	desc = {
 		text = russoc.501.d.integration_level_1
 		trigger = {
@@ -51501,7 +51501,7 @@ country_event = { #Germany's Reaction on Russian plans in Caucasus
 						option = RUS_CAUCASUS_CRISIS_REICHSPAKT
 					}
 				}
-			}			
+			}
 			modifier = {
 				add = 100
 				OR = {
@@ -52367,7 +52367,7 @@ country_event = { #Russia ignored demands
 						}
 					}
 				}
-			}			
+			}
 			modifier = {
 				factor = 0.5
 				RUS = { has_country_flag = soviet_russia_restored }
@@ -52421,7 +52421,7 @@ country_event = { #Russia ignored demands
 				id = rusfor.1007
 				days = 2
 			}
-		}		
+		}
 	}
 	option = {
 		name = rusfor.1006.b #
@@ -52642,7 +52642,7 @@ country_event = { #Russia ignored demands
 				country_event = { id = rusfor.1001 days = 2 random = 48 }
 			}
 			set_global_flag = GER_invited_AZE
-		}	
+		}
 	}
 }
 
@@ -53881,7 +53881,7 @@ country_event = { #Russian demands GEO
 			}
 			set_temp_variable = { target = ROOT }
 			GEO = {
-				clear_all_relations_with_TARGET = yes
+			clear_all_relations_with_TARGET = yes
 				country_event = { id = rusfor.1029 days = 1 }
 		}
 	}

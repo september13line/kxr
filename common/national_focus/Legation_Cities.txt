@@ -1225,8 +1225,8 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				has_country_flag = LEC_bankrupt
-				NOT = { owns_state = 326 }
+			has_country_flag = LEC_bankrupt
+			NOT = { owns_state = 326 }
 			}
 		}
 		ai_will_do = {
@@ -2594,11 +2594,11 @@ focus_tree = {
 						has_country_flag = LEC_Shuntian_Power
 					}
 				}
-				add_timed_idea = {
-					idea = LEC_british_down
-					days = 50
-				}
+			add_timed_idea = {
+				idea = LEC_british_down
+				days = 50
 			}
+		}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = { factor = 60 }
@@ -3094,9 +3094,9 @@ focus_tree = {
 				limit = {
 					has_idea = LEC_volunteer_force
 				}
-				swap_ideas = {
-					add_idea = LEC_volunteer_force_natives
-					remove_idea = LEC_volunteer_force
+			swap_ideas = {
+				add_idea = LEC_volunteer_force_natives
+				remove_idea = LEC_volunteer_force
 				}
 			}
 			else = {
@@ -3278,15 +3278,15 @@ focus_tree = {
 				}
 			}
 			else = {
-				country_event = lec.4
-				custom_effect_tooltip = lec_vote_required
-				set_global_flag = LEC_legation_navy_vote
-			}
+			country_event = lec.4
+			custom_effect_tooltip = lec_vote_required
+			set_global_flag = LEC_legation_navy_vote
+		}
 		}
 		bypass = {
-			has_country_flag = LEC_bankrupt
+				has_country_flag = LEC_bankrupt
 			NOT = { 
-				has_country_flag = LEC_Triad_Power 
+				has_country_flag = LEC_Triad_Power
 				has_country_flag = LEC_Shuntian_Power
 			}
 		}

@@ -1791,7 +1791,7 @@ country_event = { # Progressives Join the Democratic-Republicans
 		set_party_name = {
 			ideology = social_democrat
 			long_name = CAL_liberal_dominance_long
-			name = CAL_liberal_dominance_party }
+			name = CAL_liberal_dominance_party }	
 		hidden_effect = {
 			set_country_flag = PSA_Libs_Win
 			country_event = {
@@ -1937,7 +1937,7 @@ country_event = { # Two Party System Formalizes
 		set_party_name = {
 			ideology = radical_socialist
 			long_name = CAL_prog_dominance_long
-			name = CAL_prog_dominance_party }
+			name = CAL_prog_dominance_party }	
 		set_party_name = {
 			ideology = social_democrat
 			long_name = CAL_prog_dominance_long
@@ -3224,7 +3224,7 @@ country_event = { # 1940 election
 			add_pataut_to_coalition = yes
 		}
 		hidden_effect = {
-			if = { # Ральф Лоуренс Карр
+			if = { # Ralph Lawrence Carr
 				limit = {
 					has_country_flag = PSA_1940_republican_primary_carr
 				}
@@ -4087,7 +4087,7 @@ country_event = { # 1944 election
 			add_soclib_to_coalition = yes
 		}
 		hidden_effect = {
-			if = { # Глен Х. Тейлор
+			if = { # Glen H. Taylor
 				limit = {
 					has_country_flag = PSA_1944_progressive_primary_taylor
 				}
@@ -4354,7 +4354,7 @@ country_event = { # 1944 election
 			add_pataut_to_coalition = yes
 		}
 		hidden_effect = {
-			if = { # Дан Торнтон
+			if = { # Daniel I. J. Thornton
 				limit = {
 					has_country_flag = PSA_1944_democrat_primary_thornton
 				}
@@ -4366,9 +4366,9 @@ country_event = { # 1944 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = conservative_populism_subtype
-				}
 			}
-			if = { # Бурке Б. Хикенлупер
+			}
+			if = { # Bourke B. Hickenlooper
 				limit = {
 					has_country_flag = PSA_1944_democratic_primary_hickenlooper
 				}
@@ -5396,9 +5396,9 @@ country_event = { # 1948 election
 				if = {
 					limit = { has_country_flag = CAL_Norton_PSA_flag }
 					set_country_leader_ideology = social_conservative_subtype
-				}
 			}
-			if = { # Гарри П. Кейн
+			}
+			if = { # Harry P. Cain
 				limit = {
 					has_country_flag = PSA_1948_democratic_primary_cain
 				}
@@ -5579,10 +5579,10 @@ country_event = { # America is reunited
 		set_cosmetic_tag = USA_SPIRITUALIST
 		}
 		if = {
-			limit = {
-			has_country_flag = CAL_Norton_PSA_flag
-			}
-			set_cosmetic_tag = CAL_Norton_PSA
+		limit = {
+		has_country_flag = CAL_Norton_PSA_flag
+		}
+		set_cosmetic_tag = CAL_Norton_PSA
 			country_event = {
 				id = KX_california.71
 				days = 35
@@ -7547,7 +7547,7 @@ country_event = {# President Arrives
 	option = {# Garner Arrives
 		set_country_flag = PSA_garner_arrives
 	}
-	option = {# Альфред Лэндон Arrives
+	option = {# Alf Landon Arrives
 		set_country_flag = PSA_landon_arrives
 	}
 	option = {# Curtis Arrives
@@ -12323,8 +12323,8 @@ country_event = {# The Japanese Prince of Bel-Air
 				}
 			}
 			}
-		}	
-	}
+			}
+		}
 	option = {#Nah
 		name = pacificstates.364.e
 		ai_chance = {
@@ -12405,8 +12405,8 @@ country_event = {#
 				}
 			}
 			}
-		}	
-	}
+			}
+		}
 	option = {#Nah
 		name = pacificstates.365.e
 		ai_chance = {
@@ -12493,9 +12493,9 @@ country_event = {# we should probably merge these paths one day
 					set_nationality = CAL
 				}
 			}
+				}
 			}
-		}	
-	}
+		}
 	option = {#Nah
 		name = pacificstates.366.e
 		ai_chance = {
@@ -12569,9 +12569,9 @@ country_event = {# we should probably merge these paths one day
 					set_nationality = CAL
 				}
 			}
+				}
 			}
-		}	
-	}
+		}
 	option = {#Nah
 		name = pacificstates.366.e
 		ai_chance = {
@@ -13040,26 +13040,26 @@ country_event = { # The Provisional Government
 				remove_claim_by = CAL
 			}
 			if = {
-				limit = {
-					has_global_flag = PSA_AUS_TREATY
-				}
-				clr_global_flag = PSA_AUS_TREATY
+			limit = {
+				has_global_flag = PSA_AUS_TREATY
+			}
+			clr_global_flag = PSA_AUS_TREATY
 				set_global_flag = PSA_AUS_TREATY_SUSPENDED
 			}
-			if = {
-				limit = {
-					has_global_flag = PSA_CSA_TREATY
-				}
-				clr_global_flag = PSA_CSA_TREATY
+		if = {
+			limit = {
+				has_global_flag = PSA_CSA_TREATY
+			}
+			clr_global_flag = PSA_CSA_TREATY
 				set_global_flag = PSA_CSA_TREATY_SUSPENDED
+		}
+		if = {
+			limit = {
+				has_global_flag = PSA_COR_TREATY
 			}
-			if = {
-				limit = {
-					has_global_flag = PSA_COR_TREATY
-				}
-				clr_global_flag = PSA_COR_TREATY
+			clr_global_flag = PSA_COR_TREATY
 				set_global_flag = PSA_COR_TREATY_SUSPENDED
-			}
+		}
 		}
 	}	
 
@@ -17376,7 +17376,7 @@ country_event = { #Take back the USA?
 			CAL = { declare_war_on = { target = COR type = annex_everything	} }
 		}
 		if = {
-			limit = {
+			limit = { 
 				has_global_flag = USA_civil_war_begun_flag
 				NOT = { has_global_flag = PSA_CSA_TREATY }
 			}
@@ -17399,14 +17399,14 @@ country_event = { #Take back the USA?
 		if = {
 			limit = {
 				has_global_flag = USA_civil_war_begun_flag
-				has_global_flag = TXS_ACW_USA
+					has_global_flag = TXS_ACW_USA
 			}
 			CAL = { declare_war_on = { target = TXS type = annex_everything	} }
 		}
 		if = {
 			limit = { 
 				has_global_flag = USA_civil_war_begun_flag
-				has_global_flag = TXS_ACW_COR
+					has_global_flag = TXS_ACW_COR
 				NOT = { has_global_flag = PSA_COR_TREATY }
 			}
 			CAL = { declare_war_on = { target = TXS type = annex_everything	} }

@@ -2580,9 +2580,9 @@ ALO_Wounds_Of_Alash = {
 				
 		cancel_trigger = {
 			hidden_trigger = {
-				OR = {
-					check_variable = { ALO_alash_loyalty > 0 }
-					has_country_flag = alash_faction_banned
+			OR = {
+				check_variable = { ALO_alash_loyalty > 0 }
+				has_country_flag = alash_faction_banned
 				}
 			}
 		}

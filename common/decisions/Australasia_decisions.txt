@@ -358,9 +358,9 @@ AST_bastion_of_empire_decisions = {
 				AND = {
 					NOT = { has_country_flag = AST_red_focus_move }
 					OR = {
-						has_completed_focus = AST_operation_holdfast
+				has_completed_focus = AST_operation_holdfast
 						has_completed_focus = AST_siamese_emergency
-					}
+			}
 				}
 				has_completed_focus = AST_operation_agas
 			}
@@ -381,13 +381,13 @@ AST_bastion_of_empire_decisions = {
 		allowed = { original_tag = AST }
 		available = {
 			has_war = no
-			DEI = {
-				has_war_with = INS
+				DEI = {
+					has_war_with = INS
+				}
 			}
-		}
 		visible = {
 			AND= { 
-				NOT = { has_country_flag = AST_red_focus_move }
+			NOT = { has_country_flag = AST_red_focus_move }
 				has_completed_focus = AST_operation_agas
 			}
 		}
@@ -416,15 +416,15 @@ AST_bastion_of_empire_decisions = {
 		allowed = { original_tag = AST }
 		available = {
 			has_war = no
-			DEI = {
-				has_war_with = INS
-			}
+				DEI = {
+					has_war_with = INS
+				}
 		}
 		visible = {
 			OR = { 
 				has_completed_focus = AST_operation_agas
 				AND = {
-					has_country_flag = AST_red_focus_move
+				has_country_flag = AST_red_focus_move
 					has_completed_focus = AST_timor_communications
 				}
 			}
@@ -1379,9 +1379,9 @@ AST_bastion_of_empire_decisions = {
 		allowed = { original_tag = AST }
 		available = {
 			has_war = no
-			DEI = {
-				has_war_with = INS
-			}
+				DEI = {
+					has_war_with = INS
+				}
 			AST = {
 				NOT = {
 					is_ally_with = DEI

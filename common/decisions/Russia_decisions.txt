@@ -10111,8 +10111,8 @@ RUS_Siberian_War = {
 		visible = {
 			OR = {
 				AND = {
-					is_valid_peace_target = yes
-					FROM = { is_valid_peace_target = yes }
+			is_valid_peace_target = yes
+			FROM = { is_valid_peace_target = yes }
 				}
 				TRM = { is_ally_of_ROOT = yes }
 			}
@@ -10240,7 +10240,7 @@ RUS_Siberian_War = {
 				tooltip = RUS_Speech_About_Peaceful_Unification_take_three
 				check_variable = { RUS_Speech_About_Peaceful_Unification_amount_var < 3 }
 			}
-		}	
+		}		
 		visible = {
 			NOT = { has_war_with = TRM }
 			TRM = { is_ally_of_ROOT = no }
@@ -10434,7 +10434,7 @@ RUS_Siberian_War = {
 		icon = GFX_decision_eng_propaganda_campaigns
 		allowed = {
 			original_tag = RUS
-		}
+		}		
 		visible = {
 			TRM = { is_ally_of_ROOT = no }
 		}
@@ -10966,7 +10966,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		
 		cost = 0
@@ -11075,7 +11075,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		cancel_trigger = {
 			hidden_trigger = {
@@ -11138,7 +11138,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		cancel_trigger = {
 			hidden_trigger = {
@@ -11171,7 +11171,7 @@ RUS_Siberian_War = {
 		icon = GFX_decision_eng_propaganda_campaigns
 		allowed = {
 			tag = TRM
-		}
+		}		
 		visible = {
 			OR = {
 				AND = {
@@ -11224,7 +11224,7 @@ RUS_Siberian_War = {
 		icon = GFX_decision_generic_fortification
 		allowed = {
 			tag = TRM
-		}
+		}		
 		visible = {
 			OR = {
 				AND = {
@@ -11296,7 +11296,7 @@ RUS_Siberian_War = {
 	}
 	TRM_railway_maintenance = {
 		icon = GFX_decision_generic_train
-		allowed = { always = no }
+		allowed = { always = no }		
 		visible = {
 			OR = {
 				AND = {
@@ -11351,7 +11351,7 @@ RUS_Siberian_War = {
 		icon = GFX_decision_generic_civil_support
 		allowed = {
 			tag = TRM
-		}
+		}		
 		visible = {
 			OR = {
 				AND = {
@@ -11439,7 +11439,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		targets = { SIB }
 		target_root_trigger = { 
@@ -11541,7 +11541,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		
 		cost = 0		
@@ -12001,8 +12001,8 @@ RUS_Siberian_War = {
 		visible = {
 			OR = {
 				AND = {
-					is_valid_peace_target = yes
-					FROM = { is_valid_peace_target = yes }
+			is_valid_peace_target = yes
+			FROM = { is_valid_peace_target = yes }
 				}
 				RUS = { is_ally_of_ROOT = yes }
 			}
@@ -12177,7 +12177,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		selectable_mission = no
 		is_good = yes
@@ -12219,7 +12219,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 		targets = { SQI }
 		target_root_trigger = { 
@@ -12297,7 +12297,7 @@ RUS_Siberian_War = {
 					country_exists = RRF
 					NOT = { is_ally_with = RRF }
 				}
-			}			
+			}
 		}
 
 		targets = { RUS RVA WRA RRF }

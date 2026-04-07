@@ -3218,7 +3218,7 @@ country_event = { # Klan chapters
 			country_exists = CSA
 			country_exists = USA
 			AND = {
-				country_exists = NEE
+			country_exists = NEE
 				NEE = { 
 					has_country_flag = TXS_claimed_america
 					is_ally_of_ROOT = no
@@ -7777,7 +7777,7 @@ country_event = { # America is reunited
 			country_exists = CSA
 			country_exists = USA
 			AND = {
-				country_exists = NEE
+			country_exists = NEE
 				NEE = { 
 					has_country_flag = TXS_claimed_america
 					is_ally_of_ROOT = no
@@ -7855,7 +7855,7 @@ country_event = { # America is reunited
 		has_country_leader = { ruling_only = yes name = "Э. Х. Крамп"} 
 		has_country_leader = { ruling_only = yes name = "Джорджия Танн"}
 		has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд"}
-		has_country_leader = { ruling_only = yes name = "Джон Р. Бринкли" }
+		has_country_leader = { ruling_only = yes name = "Джон Ромулус Бринкли"}
 		}
 		tag = COR
 		NOT = {
@@ -7863,7 +7863,7 @@ country_event = { # America is reunited
 			country_exists = CSA
 			country_exists = USA
 			AND = {
-				country_exists = NEE
+			country_exists = NEE
 				NEE = { 
 					has_country_flag = TXS_claimed_america
 					is_ally_of_ROOT = no
@@ -10645,7 +10645,7 @@ country_event = {
 					  has_country_leader = { ruling_only = yes name = "Э. Х. Крамп"}
 					  has_country_leader = { ruling_only = yes name = "Джорджия Танн"}
 					  has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд"}
-					  has_country_leader = { ruling_only = yes name = "Джон Р. Бринкли" }
+					  has_country_leader = { ruling_only = yes name = "Джон Ромулус Бринкли"}
 					  }
 				   }
 				}
@@ -10697,7 +10697,7 @@ country_event = {
 					  has_country_leader = { ruling_only = yes name = "Э. Х. Крамп"}
 					  has_country_leader = { ruling_only = yes name = "Джорджия Танн"}
 					  has_country_leader = { ruling_only = yes name = "Ньютон Джексон Форд"}
-					  has_country_leader = { ruling_only = yes name = "Джон Р. Бринкли" }
+					  has_country_leader = { ruling_only = yes name = "Джон Ромулус Бринкли"}
 				   }
 				}
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.3 }
@@ -10817,7 +10817,7 @@ country_event = {
 			traits = { COR_gore_traits }
 			}
 			create_country_leader = {
-				name = "Сэм Фаубус"
+				name = "Сэм Фобус"
 				picture = "gfx/leaders/COR/Portrait_COR_Sam_Faubus.png"
 				expire = "1.1.1"
 				ideology = radical_progressivism_subtype
@@ -11816,7 +11816,7 @@ country_event = {#Crump! gets shot
 	option = {
 		name = constate.6784.c	
 		create_country_leader = {
-			name = "Джон Р. Бринкли"
+			name = "Джон Ромулус Бринкли"
 			desc = ""
 			picture = "gfx/leaders/COR/Portrait_COR_John_R_Brinkley.png"
 			expire = "1.1.1"

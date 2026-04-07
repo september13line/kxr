@@ -2826,7 +2826,7 @@ TRM_become_czechoslovak_legion = {
 		CZE = {
 			if = {
 				limit = {
-					has_country_leader = { name = "Иоганн II цу Шварценберг" ruling_only = yes }
+					has_country_leader = { name = "Johann II zu Schwarzenberg" ruling_only = yes }
 				}
 			}
 			remove_ideas = AUS_part_of_the_Empire
@@ -2973,6 +2973,7 @@ TRM_become_czechoslovak_legion = {
 		}
 	}
 }
+
 TRM_transfer_fleet_to_JAP = {
 	set_country_flag = TRM_transfer_fleet_to_JAP
 	transfer_ship = { prefer_name = "Владимир" type = heavy_cruiser target = JAP }

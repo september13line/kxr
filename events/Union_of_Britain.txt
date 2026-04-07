@@ -7064,13 +7064,13 @@ country_event = {
 		name = uobflavour.17.a
 		if = {
 			limit = { has_country_leader = { ruling_only = yes name = "Annie Kenney" } }
-			create_country_leader = {
-				name = "Кристабель Панкхёрст"
-				picture = "gfx/leaders/ENG/Portrait_England_Christabel_Pankhurst.png"
-				expire = "1.1.1"
-				ideology = feminist_syndicalist_subtype
+		create_country_leader = {
+			name = "Кристабель Панкхёрст"
+			picture = "gfx/leaders/ENG/Portrait_England_Christabel_Pankhurst.png"
+			expire = "1.1.1"
+			ideology = feminist_syndicalist_subtype
 				female = yes
-			}
+		}
 		}
 		else = {
 			swap_ideas = {

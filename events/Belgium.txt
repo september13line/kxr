@@ -3503,7 +3503,7 @@ country_event = { #Flanders makes a deal with Germany
 					}
 				}
 				set_nationality = WLL
-			}
+				}
 			}
 		}
 		Release_Flanders = yes
@@ -3582,8 +3582,8 @@ country_event = { #Flanders makes a deal with Germany
 					}
 				}
 				set_nationality = WLL
+				}
 			}
-		    }
 		}
 		Release_Flanders = yes
 		hidden_effect = {
@@ -3943,8 +3943,8 @@ country_event = { #Treaty of Terneuzen German Response
 			base = 0
 			modifier = {
 				add = 100
-				has_game_rule = {
-					rule = FLN_political_path
+					has_game_rule = {
+						rule = FLN_political_path
 					option = FLN_POLITICAL_PATH_PUPPET_NETHERLANDS_GERMAN_INTERVENTION
 				}
 			}
@@ -3998,7 +3998,7 @@ country_event = { #Treaty of Terneuzen German Response Dutch Response
 	option = {
 		name = bel.772.b
 		ai_chance = {
-			factor = 0
+				factor = 0
 		}
 		GER = {
 			declare_war_on = {

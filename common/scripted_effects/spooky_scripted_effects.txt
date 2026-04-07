@@ -639,7 +639,12 @@ spooky_portraits = {
 		}
 	}
 	if = {	
-		limit = { has_country_leader = { name = "Кристиан X" ruling_only = yes } }
+		limit = { 
+			OR = {
+				has_country_leader = { name = "Кристиан X" ruling_only = yes } 
+				has_country_leader = { name = "Kristján X" ruling_only = yes } 
+			}
+		}
 		set_country_leader_portrait = {
 			portrait = "gfx/leaders/FUN/Portrait_Denmark_Christian_X_fun.png"
 		}
@@ -1715,19 +1720,19 @@ spooky_portraits = {
 			set_cosmetic_tag = NFR_fun
 		}
 	}
-	if = {	
+		if = {	
 		limit = { 
 			CAL = {
-				NOT = {
+			NOT = {
 					has_cosmetic_tag = CAL_JAP
 					has_cosmetic_tag = CAL_jap_1
 					has_cosmetic_tag = CAL_jap_2
 					has_cosmetic_tag = CAL_jap_3
 					has_cosmetic_tag = CAL_JAP_USA
 					has_cosmetic_tag = CAL_JAP_REORGANIZED
-					has_cosmetic_tag = CAL_fun
+				has_cosmetic_tag = CAL_fun
 					has_cosmetic_tag = CAL_JAP_fun
-				}
+			}
 			} 
 		} 
 		CAL = {

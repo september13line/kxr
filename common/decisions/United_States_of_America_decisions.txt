@@ -2243,13 +2243,13 @@ USA_american_imperialism = {
 						has_completed_focus = AMERICA_new_interventionism
 					}
 					OR = {
-						has_completed_focus = CAL_push_further
-						has_completed_focus = USA_push_further
-						has_completed_focus = NEE_push_further
-						has_completed_focus = WCC_push_further
-						has_completed_focus = AMERICA_push_further
-					}
-				}
+			has_completed_focus = CAL_push_further
+			has_completed_focus = USA_push_further
+			has_completed_focus = NEE_push_further
+			has_completed_focus = WCC_push_further
+			has_completed_focus = AMERICA_push_further
+			}
+		}
 			}
 		}
 
@@ -2517,7 +2517,7 @@ USA_american_imperialism = {
 		fire_only_once = yes
 		cost = 50
 		ai_will_do = {
-			factor = 0
+				factor = 0
 		}
 
 		complete_effect = {
@@ -2616,10 +2616,10 @@ USA_american_imperialism = {
 				}
 			}
 			OR = {
-				has_completed_focus = CAL_league_of_anti_imperialism
-				has_completed_focus = USA_league_of_anti_imperialism
-				has_completed_focus = NEE_league_of_anti_imperialism
-				has_completed_focus = AMERICA_league_of_anti_imperialism
+			has_completed_focus = CAL_league_of_anti_imperialism
+			has_completed_focus = USA_league_of_anti_imperialism
+			has_completed_focus = NEE_league_of_anti_imperialism
+			has_completed_focus = AMERICA_league_of_anti_imperialism
 				has_completed_focus = CAL_american_imperialism
 				has_completed_focus = USA_american_imperialism
 				has_completed_focus = NEE_american_imperialism
@@ -2629,10 +2629,10 @@ USA_american_imperialism = {
 
 		target_root_trigger = {
 			OR = {
-				has_completed_focus = CAL_league_of_anti_imperialism
-				has_completed_focus = USA_league_of_anti_imperialism
-				has_completed_focus = NEE_league_of_anti_imperialism
-				has_completed_focus = AMERICA_league_of_anti_imperialism
+			has_completed_focus = CAL_league_of_anti_imperialism
+			has_completed_focus = USA_league_of_anti_imperialism
+			has_completed_focus = NEE_league_of_anti_imperialism
+			has_completed_focus = AMERICA_league_of_anti_imperialism
 				has_completed_focus = CAL_american_imperialism
 				has_completed_focus = USA_american_imperialism
 				has_completed_focus = NEE_american_imperialism
@@ -2710,7 +2710,7 @@ USA_american_imperialism = {
 			}
 		}
 	}
-	
+
 	USA_invite_ireland = {
 		icon = generic_political_discourse
 
@@ -4463,8 +4463,8 @@ USA_reconstruction_decisions = {# Reconstruction Stuff
 				}
 			}
 			else = {
-				NEE = {
-					country_event = newengland.90
+			NEE = {
+				country_event = newengland.90
 				}
 			}
 		}

@@ -5804,9 +5804,9 @@ country_event = { #Fate of the Rodobrana
 			factor = 60
 			modifier = {
 				factor = 0
-				has_game_rule = {
-					rule = CZE_independence
-					option = CZE_INDEPENDENCE_VLAJKA
+					has_game_rule = {
+						rule = CZE_independence
+						option = CZE_INDEPENDENCE_VLAJKA
 				}
 			}
 		}
@@ -6338,7 +6338,7 @@ country_event = { #Manifest der Deutsch-Böhmen
 
 	is_triggered_only = yes
 
-	option = { #Людвиг Чех the Anti-Czech? The irony...
+	option = { #Ludwig Czech the Anti-Czech? The irony...
 		name = bdeczeflavor.117.a
 		add_political_power = -30
 		hidden_effect = {
@@ -7709,7 +7709,7 @@ country_event = { #Agrarian Corruption Affair
 	}
 }
 
-country_event = { #Ян Масарик - On Jews
+country_event = { #Jan Masaryk - On Jews
 	id = bdeczeflavor.184
 	title = bdeczeflavor.184.t
 	desc = bdeczeflavor.184.d
@@ -7867,7 +7867,7 @@ country_event = { #Militarize the Agrarian Internationale?
 	
 	trigger = {
 		OR = {
-			is_in_faction = no
+		is_in_faction = no
 			AND = {
 				is_ai = no
 				is_faction_leader = yes
@@ -7890,11 +7890,11 @@ country_event = { #Militarize the Agrarian Internationale?
 		if = {
 			limit = {
 				is_in_faction = no
-			}
-			create_faction_from_template = { 
-				template = faction_template_regional 
-				name = faction_agrarian_int
-				icon = GFX_faction_agarian_internationale
+		}
+		create_faction_from_template = { 
+			template = faction_template_regional 
+			name = faction_agrarian_int
+			icon = GFX_faction_agarian_internationale
 			}
 		}
 		else = {
@@ -8247,7 +8247,7 @@ country_event = { #Central Euro Fed
 	trigger = {
 		OR = {
 			is_faction_leader = yes
-			is_in_faction = no
+		is_in_faction = no
 		}
 	}
 
@@ -8264,43 +8264,43 @@ country_event = { #Central Euro Fed
 		set_cosmetic_tag = CZE_agrarian_central_europe
 		set_country_leader_ideology = marlib_paneuropeanism_subtype
 		custom_effect_tooltip = marlib_marlib_paneuropeanism_subtype_swap_tt
-		every_state = {
-			limit = {
-				is_core_of = AUS
+		    every_state = {
+				limit = {
+					is_core_of = AUS
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = HUN
+			every_state = {
+				limit = {
+					is_core_of = HUN
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GAL
+			every_state = {
+				limit = {
+					is_core_of = GAL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = POL
+			every_state = {
+				limit = {
+					is_core_of = POL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GER
+			every_state = {
+				limit = {
+					is_core_of = GER
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = SWI
+			every_state = {
+				limit = {
+					is_core_of = SWI
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		CZE = {
+			CZE = {
 			add_state_core = 159
 			add_state_core = 158
 			add_state_core = 1003
@@ -8309,8 +8309,8 @@ country_event = { #Central Euro Fed
 			add_state_core = 161
 			add_state_core = 759
 			add_state_core = 160
-		}
-		hidden_effect = {
+		    }
+			hidden_effect = {
 			every_state = {
 				limit = {
 					is_core_of = SLO
@@ -8348,10 +8348,10 @@ country_event = { #Central Euro Fed
 				add_core_of = CZE
 			}
 			if = {
-				limit = { country_exists = SLO }
-				create_wargoal = {
-					type = annex_everything
-					target = SLO
+            limit = { country_exists = SLO }
+			create_wargoal = {
+				type = annex_everything
+				target = SLO
 				}
 		    }
 			if = {
@@ -8359,35 +8359,35 @@ country_event = { #Central Euro Fed
 				create_wargoal = {
 					type = annex_everything
 					target = FIU
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = WSU }
-				create_wargoal = {
-					type = annex_everything
-					target = WSU
-				}
+            limit = { country_exists = WSU }
+			create_wargoal = {
+				type = annex_everything
+				target = WSU
+			}
 		    }
 			if = {
-				limit = { country_exists = SVK }
-				create_wargoal = {
-					type = annex_everything
-					target = SVK
-				}
+            limit = { country_exists = SVK }
+			create_wargoal = {
+				type = annex_everything
+				target = SVK
+			}
 		    }
 			if = {
-				limit = { country_exists = TRS }
-				create_wargoal = {
-					type = annex_everything
-					target = TRS
-				}
+            limit = { country_exists = TRS }
+			create_wargoal = {
+				type = annex_everything
+				target = TRS
+			}
 		    }
 			if = {
-				limit = { country_exists = BAN }
-				create_wargoal = {
-					type = annex_everything
-					target = BAN
-				}
+            limit = { country_exists = BAN }
+			create_wargoal = {
+				type = annex_everything
+				target = BAN
+			}
 		    }
 			create_wargoal = {
 				type = annex_everything
@@ -8470,7 +8470,7 @@ country_event = { #Central Euro Fed
 				id = bdeczeflavor.211
 				days = 20
 			}
-		}
+		    }
 	}
 	
 	option = { #central
@@ -8479,71 +8479,71 @@ country_event = { #Central Euro Fed
 		set_cosmetic_tag = CZE_agrarian_danube_balkans
 		set_country_leader_ideology = marlib_paneuropeanism_subtype
 		custom_effect_tooltip = marlib_marlib_paneuropeanism_subtype_swap_tt
-		every_state = {
-			limit = {
-				is_core_of = AUS
+		    every_state = {
+				limit = {
+					is_core_of = AUS
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = HUN
+			every_state = {
+				limit = {
+					is_core_of = HUN
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GAL
+			every_state = {
+				limit = {
+					is_core_of = GAL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = POL
+			every_state = {
+				limit = {
+					is_core_of = POL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = CRO
+			every_state = {
+				limit = {
+					is_core_of = CRO
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = SER
+			every_state = {
+				limit = {
+					is_core_of = SER
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GRE
+			every_state = {
+				limit = {
+					is_core_of = GRE
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = BUL
+			every_state = {
+				limit = {
+					is_core_of = BUL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = ROM
+			every_state = {
+				limit = {
+					is_core_of = ROM
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = CRE
+			every_state = {
+				limit = {
+					is_core_of = CRE
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		CZE = {
+			CZE = {
 			add_state_core = 160
 			add_state_core = 759
-		}
-		hidden_effect = {
+		    }
+			hidden_effect = {
 			every_state = {
 				limit = {
 					is_core_of = SLO
@@ -8593,10 +8593,10 @@ country_event = { #Central Euro Fed
 				add_core_of = CZE
 			}
 			if = {
-				limit = { country_exists = SLO }
-				create_wargoal = {
-					type = annex_everything
-					target = SLO
+            limit = { country_exists = SLO }
+			create_wargoal = {
+				type = annex_everything
+				target = SLO
 				}
 		    }
 			if = {
@@ -8604,49 +8604,49 @@ country_event = { #Central Euro Fed
 				create_wargoal = {
 					type = annex_everything
 					target = FIU
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = WSU }
-				create_wargoal = {
-					type = annex_everything
-					target = WSU
-				}
+            limit = { country_exists = WSU }
+			create_wargoal = {
+				type = annex_everything
+				target = WSU
+			}
 		    }
 			if = {
-				limit = { country_exists = SVK }
-				create_wargoal = {
-					type = annex_everything
-					target = SVK
-				}
+            limit = { country_exists = SVK }
+			create_wargoal = {
+				type = annex_everything
+				target = SVK
+			}
 		    }
 			if = {
-				limit = { country_exists = TRS }
-				create_wargoal = {
-					type = annex_everything
-					target = TRS
-				}
+            limit = { country_exists = TRS }
+			create_wargoal = {
+				type = annex_everything
+				target = TRS
+			}
 		    }
 			if = {
-				limit = { country_exists = BAN }
-				create_wargoal = {
-					type = annex_everything
-					target = BAN
-				}
+            limit = { country_exists = BAN }
+			create_wargoal = {
+				type = annex_everything
+				target = BAN
+			}
 		    }
 			if = {
-				limit = { country_exists = BOS }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = BOS }
+			create_wargoal = {
+				type = annex_everything
 					target = BOS
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = MOL }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = MOL }
+			create_wargoal = {
+				type = annex_everything
 					target = MOL
-				}
+			}
 		    }		
 			create_wargoal = {
 				type = annex_everything
@@ -8757,7 +8757,7 @@ country_event = { #Central Euro Fed
 				id = bdeczeflavor.211
 				days = 20
 			}
-		}
+		    }
 	}
 
 	option = { #most
@@ -8766,85 +8766,85 @@ country_event = { #Central Euro Fed
 		set_cosmetic_tag = CZE_agrarian_central_europe_federation
 		set_country_leader_ideology = marlib_paneuropeanism_subtype
 		custom_effect_tooltip = marlib_marlib_paneuropeanism_subtype_swap_tt
-		every_state = {
-			limit = {
-				is_core_of = AUS
+		    every_state = {
+				limit = {
+					is_core_of = AUS
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = HUN
+			every_state = {
+				limit = {
+					is_core_of = HUN
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GAL
+			every_state = {
+				limit = {
+					is_core_of = GAL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = POL
+			every_state = {
+				limit = {
+					is_core_of = POL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = CRO
+			every_state = {
+				limit = {
+					is_core_of = CRO
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = SER
+			every_state = {
+				limit = {
+					is_core_of = SER
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = GRE
+			every_state = {
+				limit = {
+					is_core_of = GRE
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = BUL
+			every_state = {
+				limit = {
+					is_core_of = BUL
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = ROM
+			every_state = {
+				limit = {
+					is_core_of = ROM
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = CRE
+			every_state = {
+				limit = {
+					is_core_of = CRE
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = ALB
+			every_state = {
+				limit = {
+					is_core_of = ALB
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = LIT
+			every_state = {
+				limit = {
+					is_core_of = LIT
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		every_state = {
-			limit = {
-				is_core_of = BAT
+			every_state = {
+				limit = {
+					is_core_of = BAT
+				}
+				add_core_of = CZE
 			}
-			add_core_of = CZE
-		}
-		CZE = {
+			CZE = {
 			add_state_core = 160
 			add_state_core = 759
 			add_state_core = 341
@@ -8858,8 +8858,8 @@ country_event = { #Central Euro Fed
 			add_state_core = 66
 			add_state_core = 68
 			add_state_core = 63
-		}
-		hidden_effect = {
+		    }
+			hidden_effect = {
 			every_state = {
 				limit = {
 					is_core_of = SLO
@@ -8921,10 +8921,10 @@ country_event = { #Central Euro Fed
 				add_core_of = CZE
 			}
 			if = {
-				limit = { country_exists = SLO }
-				create_wargoal = {
-					type = annex_everything
-					target = SLO
+            limit = { country_exists = SLO }
+			create_wargoal = {
+				type = annex_everything
+				target = SLO
 				}
 		    }
 			if = {
@@ -8932,63 +8932,63 @@ country_event = { #Central Euro Fed
 				create_wargoal = {
 					type = annex_everything
 					target = FIU
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = WSU }
-				create_wargoal = {
-					type = annex_everything
-					target = WSU
-				}
+            limit = { country_exists = WSU }
+			create_wargoal = {
+				type = annex_everything
+				target = WSU
+			}
 		    }
 			if = {
-				limit = { country_exists = SVK }
-				create_wargoal = {
-					type = annex_everything
-					target = SVK
-				}
+            limit = { country_exists = SVK }
+			create_wargoal = {
+				type = annex_everything
+				target = SVK
+			}
 		    }
 			if = {
-				limit = { country_exists = TRS }
-				create_wargoal = {
-					type = annex_everything
-					target = TRS
-				}
+            limit = { country_exists = TRS }
+			create_wargoal = {
+				type = annex_everything
+				target = TRS
+			}
 		    }
 			if = {
-				limit = { country_exists = BAN }
-				create_wargoal = {
-					type = annex_everything
-					target = BAN
-				}
+            limit = { country_exists = BAN }
+			create_wargoal = {
+				type = annex_everything
+				target = BAN
+			}
 		    }
 			if = {
-				limit = { country_exists = BOS }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = BOS }
+			create_wargoal = {
+				type = annex_everything
 					target = BOS
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = MOL }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = MOL }
+			create_wargoal = {
+				type = annex_everything
 					target = MOL
-				}
+			}
 		    }	
 			if = {
-				limit = { country_exists = LAT }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = LAT }
+			create_wargoal = {
+				type = annex_everything
 					target = LAT
-				}
+			}
 		    }
 			if = {
-				limit = { country_exists = EST }
-				create_wargoal = {
-					type = annex_everything
+            limit = { country_exists = EST }
+			create_wargoal = {
+				type = annex_everything
 					target = EST
-				}
+			}
 		    }
 			create_wargoal = {
 				type = annex_everything
@@ -9127,7 +9127,7 @@ country_event = { #Central Euro Fed
 				id = bdeczeflavor.211
 				days = 20
 			}
-		}
+		    }
 	}
 
 	option = { #full
@@ -9137,17 +9137,17 @@ country_event = { #Central Euro Fed
 		set_country_leader_ideology = marlib_paneuropeanism_subtype
 		custom_effect_tooltip = marlib_marlib_paneuropeanism_subtype_swap_tt
 		hidden_effect = {
-			every_country = {
-				limit = {
-					is_in_europe = yes
-				}
-				CZE = {
-					create_wargoal = {
-						target = PREV
-						type = annex_everything
-					}
+		every_country = {
+			limit = {
+				is_in_europe = yes
+			}
+			CZE = {
+				create_wargoal = {
+					target = PREV
+					type = annex_everything
 				}
 			}
+		}
 			every_country = {
 				limit = {
 					is_in_europe = yes
@@ -9169,10 +9169,10 @@ country_event = { #Central Euro Fed
 					}
 				}
 			}
-			country_event = {
-				id = bdeczeflavor.211
-				days = 20
-			}
+		country_event = {
+			id = bdeczeflavor.211
+			days = 20
+		}
 	    }
 		every_state = {
 			limit = {

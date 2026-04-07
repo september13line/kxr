@@ -1470,10 +1470,10 @@ country_event = { # Reach out
 	picture = GFX_CSA_haywood
 
 	trigger = {
-		tag = CAL
-		has_global_flag = USA_president_reed
-		NOT = { has_war_with = CSA }
-		CSA = { exists = yes }
+	tag = CAL
+	has_global_flag = USA_president_reed
+	NOT = { has_war_with = CSA }
+	CSA = { exists = yes }
 	}
 	
 	fire_only_once = yes
@@ -1493,9 +1493,9 @@ country_event = { # Reach out
 		add_political_power = -10
 		add_stability = -0.03
 		CSA = {
-			country_event = {
-				id = amcivwar.4001
-				hours = 5
+		country_event = {
+		id = amcivwar.4001
+		hours = 5
 			}
 		}
 	}
@@ -1505,7 +1505,7 @@ country_event = { # Reach out
 			base = 0
 			modifier = {
 				add = 100
-				has_game_rule = {
+					has_game_rule = {
 					rule = CSA_CAL_treaty
 					option = CSA_CAL_TREATY_NO
 				}
@@ -1542,9 +1542,9 @@ country_event = { # CSA Response
 		add_popularity = { ideology = syndicalist popularity = 0.05 }
 		add_popularity = { ideology = totalist popularity = 0.05 }
 		CAL = {
-			country_event = {
-				id = amcivwar.4002
-				hours = 5
+		country_event = {
+		id = amcivwar.4002
+		hours = 5
 			}
 		}
 	}
@@ -1567,9 +1567,9 @@ country_event = { # CSA Response
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
 		add_popularity = { ideology = radical_socialist popularity = 0.05 }
 		CAL = {
-			country_event = {
-				id = amcivwar.4003
-				hours = 5
+		country_event = {
+		id = amcivwar.4003
+		hours = 5
 			}
 		}
 	}
@@ -1605,7 +1605,7 @@ country_event = { # Accepted
 	option = {
 		name = amcivwar.4003.a
 		hidden_effect = {
-			set_global_flag = PSA_CSA_TREATY
+		set_global_flag = PSA_CSA_TREATY
 		}
 		add_political_power = 10
 		add_popularity = { ideology = radical_socialist popularity = 0.05 }
@@ -2959,17 +2959,17 @@ country_event = { ### Voting Begins ###
 	is_triggered_only = yes
 	
 	option = {
-		name = amcivwar.5005.a
-		add_political_power = 25
-		add_stability = 0.05
-		increase_ruling_party_popularity_by_5 = yes
-		hidden_effect = { 
-			set_country_flag = ACW_voting_starts
-			country_event = {
-				id = amcivwar.50050
-				days = 30
+	name = amcivwar.5005.a
+	add_political_power = 25
+	add_stability = 0.05
+	increase_ruling_party_popularity_by_5 = yes
+	hidden_effect = { 
+	set_country_flag = ACW_voting_starts
+				country_event = {
+					id = amcivwar.50050
+					days = 30
+				}
 			}
-		}
 	}
 }
 
@@ -2981,18 +2981,18 @@ country_event = {
 
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	trigger = {
 		CAL = {
 			exists = yes
 		}
 		OR = {
-			TEX = {
-				exists = yes
-			}
-			CSA = {
-				exists = yes
-			}
+		TEX = {
+			exists = yes
+		}
+		CSA = {
+			exists = yes
+		}
 		}
 		has_country_flag = ACW_voting_starts
 		NOT = { has_global_flag = USA_civil_war_over_flag }
@@ -3002,11 +3002,11 @@ country_event = {
 		name = amcivwar.50050.a
 		trigger = {
 			OR = {
-				CSA = {
+					CSA = {
 					has_war_with = TEX
 					has_war_with = CAL
-				}
-				CAL = {
+					}
+					CAL = {
 					has_war_with = TEX
 					has_war_with = CSA
 				}
@@ -3025,17 +3025,17 @@ country_event = {
 		name = amcivwar.50050.b
 		trigger = {
 			NOT = {
-				CSA = {
-					has_war_with = TEX
-					has_war_with = CAL
-				}
-				CAL = {
-					has_war_with = TEX
-					has_war_with = CSA
-				}
-				TEX = {
-					has_war_with = CSA
-					has_war_with = CAL
+					CSA = {
+						has_war_with = TEX
+						has_war_with = CAL
+					}
+					CAL = {
+						has_war_with = TEX
+						has_war_with = CSA
+					}
+					TEX = {
+						has_war_with = CSA
+						has_war_with = CAL
 				}
 			}
 		}
@@ -4067,10 +4067,10 @@ country_event = { # Reach out to the Victor
 	picture = GFX_report_event_USA_huey_long
 
 	trigger = {
-		tag = CAL
-		has_global_flag = USA_long_is_president
-		NOT = { has_war_with = TEX }
-		TEX = { exists = yes }
+	tag = CAL
+	has_global_flag = USA_long_is_president
+	NOT = { has_war_with = TEX }
+	TEX = { exists = yes }
 	}
 	
 	fire_only_once = yes
@@ -4088,9 +4088,9 @@ country_event = { # Reach out to the Victor
 			}
 		}
 		TEX = {
-			country_event = {
-				id = amcivwar.8001
-				hours = 5
+		country_event = {
+		id = amcivwar.8001
+		hours = 5
 			}
 		}
 	}
@@ -4100,10 +4100,10 @@ country_event = { # Reach out to the Victor
 			factor = 20
 			modifier = {
 				factor = 0
-				has_game_rule = {
+					has_game_rule = {
 					rule = TEX_CAL_treaty
 					option = TEX_CAL_TREATY_YES
-				}
+				    }
 			}
 		}
 		name = amcivwar.8000.b
@@ -4137,9 +4137,9 @@ country_event = { # PSA Offers Peace
 			}
 		}
 		CAL = {
-			country_event = {
-				id = amcivwar.4006
-				days = 1
+		country_event = {
+		id = amcivwar.4006
+		days = 1
 			}
 		}
 	}
@@ -4160,9 +4160,9 @@ country_event = { # PSA Offers Peace
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		add_political_power = 45
 		CAL = {
-			country_event = {
-				id = amcivwar.4013
-				days = 1
+		country_event = {
+		id = amcivwar.4013
+		days = 1
 			}
 		}
 	}
@@ -4269,7 +4269,7 @@ country_event = { # COR forms
 	}
 }
 
-country_event = { # Джек Рид declares revolution against Murray and Mac
+country_event = { # Jack Reed declares revolution against Murray and Mac
 	id = amcivwar.1012
 	title = amcivwar.1012.t
 	desc = amcivwar.1012.d
@@ -6989,7 +6989,7 @@ country_event = { # PSA wins the civil war
 				has_country_flag = BBR_claimed_america
 				is_ally_of_ROOT = no
 				}
-			}
+		    }
 			AND = {
 				HAW = {
 					exists = yes
@@ -15822,7 +15822,7 @@ news_event = { # News: USA Surrenders
 		name = amcivwar.607.c
 		trigger = {
 			OR = {
-				tag = TEX
+			tag = TEX
 				tag = COR
 			}
 		}
@@ -15891,7 +15891,7 @@ news_event = { # News: CSA Surrenders
 		name = amcivwar.608.a
 		trigger = {
 			OR = {
-				tag = USA
+			tag = USA
 				tag = WCC
 			}
 		}
@@ -15906,7 +15906,7 @@ news_event = { # News: CSA Surrenders
 		name = amcivwar.608.c
 		trigger = {
 			OR = {
-				tag = TEX
+			tag = TEX
 				tag = COR
 			}
 		}
@@ -15976,7 +15976,7 @@ news_event = { # News: AUS Surrenders
 		name = amcivwar.609.a
 		trigger = {
 			OR = {
-				tag = USA
+			tag = USA
 				tag = WCC
 				tag = COR
 			}
@@ -16059,7 +16059,7 @@ news_event = { # News: PSA Surrenders
 		name = amcivwar.610.a
 		trigger = {
 			OR = {
-				tag = USA
+			tag = USA
 				tag = WCC
 			}
 		}
@@ -16068,7 +16068,7 @@ news_event = { # News: PSA Surrenders
 		name = amcivwar.610.b
 		trigger = {
 			OR = {
-				tag = TEX
+			tag = TEX
 				tag = COR
 			}
 		}
@@ -16267,7 +16267,7 @@ news_event = { # News: COR Surrenders
 }
 
 
-### Event given to 2.А-ГВ nations so they actually realize they were given some guns ###
+### Event given to 2ACW nations so they actually realize they were given some guns ###
 country_event = { # Thanks for the guns
 	id = amcivwar.611
 	immediate = {log = "[GetDateText]: [Root.GetName]: event amcivwar.611"}

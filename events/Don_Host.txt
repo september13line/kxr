@@ -3341,7 +3341,7 @@ country_event = { #Kolchakite Question
 	id = vlasov.7
 	title = vlasov.7.t
 	desc = vlasov.7.d
-	picture = GFX_report_event_DKB_vlasov
+		picture = GFX_report_event_DKB_vlasov
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3384,7 +3384,7 @@ country_event = { #TRM refused
 	id = vlasov.8
 	title = vlasov.8.t
 	desc = vlasov.8.d
-	picture = GFX_report_event_DKB_kolchak
+		picture = GFX_report_event_DKB_kolchak
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3425,7 +3425,7 @@ country_event = { #TRM unification
 		else = {
 			DKB = {
 			annex_country = {
-				target = TRM
+			target = TRM
 				transfer_troops = yes
 			}
 			}

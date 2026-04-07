@@ -102,7 +102,7 @@ country_event = { #Bror With Agency
 		name = nor_new.4.a 
 		if = {
 				limit = { has_dlc = "La Resistance" }
-				gain_random_agency_upgrade = yes
+		gain_random_agency_upgrade = yes
 		}
 		else = {
 			add_war_support = 0.05
@@ -302,8 +302,8 @@ country_event = { #Scharffenberg wants Eugenics
 		add_political_power = 60
 			if = {
 			limit = { has_government = social_democrat }
-				set_country_leader_ideology = popular_patriotism_subtype
-				custom_effect_tooltip = socdem_popular_patriotism_subtype_swap_tt
+		set_country_leader_ideology = popular_patriotism_subtype	
+		custom_effect_tooltip = socdem_popular_patriotism_subtype_swap_tt	
 			}	
 			else_if = {
 				limit = { has_government = market_liberal }
@@ -902,12 +902,12 @@ country_event = {
 			country_event = {
 					id = norway.20
 					days = 5
-					random = 5
+					random = 5 
 			}
 			country_event = {
 					id = nor_new.8
 					days = 30
-					random = 5 
+					random = 5
 			}
 			random_other_country = {
 				news_event = {
@@ -1483,7 +1483,7 @@ country_event = { # A Syndicalist Norway
 		}
 		#country_event = norway.28
 		INT = {
-			country_event = norway.143
+				country_event = norway.143
 		}
 	}
 }
@@ -1884,7 +1884,7 @@ country_event = { # Choosing a Prime Minister - AuthDems
 		if = {
 			limit = {
 				OR = {
-					has_global_flag = NOR_Authdem_Leader_Hjort
+				has_global_flag = NOR_Authdem_Leader_Hjort
 					has_global_flag = NOR_Authdem_Leader_Lehmkuhl
 				}
 			}
@@ -1893,7 +1893,7 @@ country_event = { # Choosing a Prime Minister - AuthDems
 		}
 		add_political_power = 20
 	}
-	
+
 	option = {
 		name = norway.32.b
 		ai_chance = {
@@ -1924,7 +1924,7 @@ country_event = { # Choosing a Prime Minister - AuthDems
 		if = {
 			limit = {
 				OR = {
-					has_global_flag = NOR_Authdem_Leader_Quisling
+				has_global_flag = NOR_Authdem_Leader_Quisling
 					has_global_flag = NOR_Authdem_Leader_Lehmkuhl
 				}
 			}
@@ -2157,10 +2157,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2208,10 +2208,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = market_liberal
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2259,10 +2259,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2312,10 +2312,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_conservative
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2392,10 +2392,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2443,10 +2443,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = market_liberal
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2494,10 +2494,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2547,10 +2547,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_conservative
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2627,10 +2627,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2678,10 +2678,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = market_liberal
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2729,10 +2729,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2782,10 +2782,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_conservative
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2862,10 +2862,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2913,10 +2913,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = market_liberal
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = market_liberal
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -2963,10 +2963,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -3016,10 +3016,10 @@ country_event = {
 			}
 		}
 		else = {
-			set_politics = {
-				ruling_party = social_conservative
-				election_frequency = 36
-				elections_allowed = yes
+		set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 36
+			elections_allowed = yes
 			}
 		}
 		add_popularity = {
@@ -4433,9 +4433,9 @@ country_event = { # Joining the Internationale
 			modifier = {
 				factor = 0
 				OR ={
-					has_game_rule = {
-						rule = NOR_foreign_policy
-						option = NOR_FOREIGN_POLICY_NEUTRALITY
+				has_game_rule = {
+					rule = NOR_foreign_policy
+					option = NOR_FOREIGN_POLICY_NEUTRALITY
 					}
 					has_game_rule = {
 						rule = NOR_foreign_policy

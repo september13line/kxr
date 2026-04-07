@@ -23063,8 +23063,8 @@ country_event = { #Netherlands Liberation
 		if = {
 			limit = { tag = GER }
 			country_event = hol.4
-		}
-			}
+					}
+				}
 	option = { #Annex Limburg, give BEL its claims, liberate the rest
 		name = annex.154.c
 		ai_chance = {
@@ -26678,10 +26678,10 @@ country_event = { #Fate of Australasia
 		every_owned_state = {
 			limit = {
 				NOT = {
-					state = 284 #North Island
-					state = 723 #South Island
-				}
-				is_core_of = AST
+							state = 284 #North Island
+							state = 723 #South Island
+						}
+					is_core_of = AST
 				is_not_claim_or_core_of_ROOT = yes
 			}
 
@@ -26807,7 +26807,7 @@ country_event = { #Fate of Australasia
 
 		every_owned_state = {
 			limit = {
-				is_core_of = AST
+					is_core_of = AST
 				is_not_claim_or_core_of_ROOT = yes
 			}
 
@@ -28309,7 +28309,7 @@ country_event = { #Fate of Manchuria
 				if = {
 					limit = { ROOT = { tag = JAP } }
 					NOT = { has_variable = ambition_area_@ROOT }
-				}
+			}
 			}
 			transfer_state_to = event_target:china_ally_target
 		}
@@ -36814,7 +36814,7 @@ country_event = { #The Annexation of Puerto Rico
 				}
 			}
 			set_temp_variable = { tag_to_release = THIS }
-		}
+			}
 		add_to_temp_array = { target_cores_to_release = PRI }
 		transfer_territory_from_core_regions = yes
 	}
@@ -43749,8 +43749,8 @@ country_event = { #Fate of South Seas Islands
 		name = annex.2991.a
 		trigger = {
 			OR = {
-				635 = { is_owned_by_ROOT_or_subject = yes } #New Caledonia
-				636 = { is_owned_by_ROOT_or_subject = yes }  #Fiji
+			635 = { is_owned_by_ROOT_or_subject = yes } #New Caledonia
+			636 = { is_owned_by_ROOT_or_subject = yes }  #Fiji
 			}
 		}
 		ai_chance = {
@@ -43946,9 +43946,9 @@ country_event = { #Fate of South Seas Islands
 		name = annex.2991.b
 		trigger = {
 			OR = {
-				633 = { is_owned_by_ROOT_or_subject = yes }  #Marshall Islands
-				684 = { is_owned_by_ROOT_or_subject = yes }  #Caroline Islands
-				639 = { is_owned_by_ROOT_or_subject = yes }  #Gilbert Islands
+			633 = { is_owned_by_ROOT_or_subject = yes }  #Marshall Islands
+			684 = { is_owned_by_ROOT_or_subject = yes }  #Caroline Islands
+			639 = { is_owned_by_ROOT_or_subject = yes }  #Gilbert Islands
 			}
 		}
 		ai_chance = {
@@ -44116,9 +44116,9 @@ country_event = { #Fate of South Seas Islands
 		name = annex.2991.c
 		trigger = {
 			OR = {
-				641 = { is_owned_by_ROOT_or_subject = yes }  #Tahiti
-				941 = { is_owned_by_ROOT_or_subject = yes }  #Western Samoa
-				726 = { is_owned_by_ROOT_or_subject = yes }  #Samoa
+			641 = { is_owned_by_ROOT_or_subject = yes }  #Tahiti
+			941 = { is_owned_by_ROOT_or_subject = yes }  #Western Samoa
+			726 = { is_owned_by_ROOT_or_subject = yes }  #Samoa
 			}
 		}
 		ai_chance = {

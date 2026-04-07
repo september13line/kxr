@@ -6722,14 +6722,14 @@ country_event = {#Japanese monarch for Fengtian
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
 			}
-		}
-		else = {
-			FNG = {
-				create_country_leader = {
-					name = "Хирохито"
-					picture = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
-					expire = "1.1.1"
-					ideology = pan_asianism_subtype
+			}
+			else = {
+				FNG = {
+					create_country_leader = {
+						name = "Хирохито"
+						picture = "gfx/leaders/JAP/Portrait_JAP_Hirohito.png"
+						expire = "1.1.1"
+						ideology = pan_asianism_subtype
 				}
 			}
 		}
@@ -6748,16 +6748,16 @@ country_event = {#Japanese monarch for Fengtian
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
 			}
-		}
-		else = {
-			FNG = {
-				create_country_leader = {
-					name = "Канъин-но-мия Котохито"
-					picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
-					expire = "1.1.1"
-					ideology = pan_asianism_subtype
-				}
 			}
+			else = {
+				FNG = {
+					create_country_leader = {
+						name = "Канъин-но-мия Котохито"
+						picture = "gfx/leaders/FNG/Portrait_FNG_Kanin_Kotohito.png"
+						expire = "1.1.1"
+						ideology = pan_asianism_subtype
+					}
+				}
 		}
 		hidden_effect = {
 			JAP = {
@@ -6793,14 +6793,14 @@ country_event = {#Japanese monarch for Fengtian
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
 			}
-		}
-		else = {
-			FNG = {
-				create_country_leader = {
-					name = "Ясухито"
-					picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
-					expire = "1.1.1"
-					ideology = pan_asianism_subtype
+			}
+			else = {
+				FNG = {
+					create_country_leader = {
+						name = "Ясухито"
+						picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
+						expire = "1.1.1"
+						ideology = pan_asianism_subtype
 				}
 			}
 		}
@@ -6831,14 +6831,14 @@ country_event = {#Japanese monarch for Fengtian
 				expire = "1.1.1"
 				ideology = pan_asianism_subtype
 			}
-		}
-		else = {
-			FNG = {
-				create_country_leader = {
-					name = "Ясухито"
-					picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
-					expire = "1.1.1"
-					ideology = pan_asianism_subtype
+			}
+			else = {
+				FNG = {
+					create_country_leader = {
+						name = "Ясухито"
+						picture = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
+						expire = "1.1.1"
+						ideology = pan_asianism_subtype
 				}
 			}
 		}
@@ -11059,8 +11059,8 @@ country_event = { # election
 		name = mon.118.a
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+			ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -11122,8 +11122,8 @@ country_event = { # election
 		name = mon.118.b
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+			ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -11190,8 +11190,8 @@ country_event = { # election
 		name = mon.118.c
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+			ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -11258,8 +11258,8 @@ country_event = { # election
 		name = mon.118.e
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+			ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes

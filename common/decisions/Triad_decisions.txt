@@ -1985,7 +1985,7 @@ LEC_triad_expansion = {
 			}
 		}
 LEC_taiping_expansion = {
-	LEC_taiping_attack_china = {
+LEC_taiping_attack_china = {
 		icon = infiltrate_state
 		
 		available = {
@@ -2032,75 +2032,75 @@ LEC_taiping_expansion = {
 				country_event = legcities.162
 			}
 			else = {
-				create_wargoal = {	type = annex_everything	target = FROM }
+			create_wargoal = {	type = annex_everything	target = FROM }
 			}
 		}
 	}
-	LEC_taiping_reclaim_outer_manchuria = {
-		icon = generic_prepare_civil_war
-		available = {
-			FNG = { exists = no }
-			owns_state = 884
-			owns_state = 883
-			owns_state = 717
-			owns_state = 885
-			owns_state = 886
-			owns_state = 328
-			owns_state = 716
-			owns_state = 715
-			owns_state = 714
-			owns_state = 610
-		}
-		visible = {
+LEC_taiping_reclaim_outer_manchuria = {
+			icon = generic_prepare_civil_war
+			available = {
+				FNG = { exists = no }
+				owns_state = 884
+				owns_state = 883
+				owns_state = 717
+				owns_state = 885
+				owns_state = 886
+				owns_state = 328
+				owns_state = 716
+				owns_state = 715
+				owns_state = 714
+				owns_state = 610
+			}
+			visible = {
 			has_country_flag = CHN_reclaimed_china
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		cost = 100
-		fire_only_once = yes
+			}
+			ai_will_do = {
+				factor = 100
+			}
+			cost = 100
+			fire_only_once = yes
 
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision LEC_france_macao"
-		create_wargoal = {
-			type = annex_everything
-			target = 408.owner
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision LEC_france_macao"
+			create_wargoal = {
+				type = annex_everything
+				target = 408.owner
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = 564.owner
+			}
+			add_state_claim = 564
+			add_state_claim = 563
+			add_state_claim = 657
+			add_state_claim = 561
+			add_state_claim = 560
+			add_state_claim = 409
+			add_state_claim = 1246
+			add_state_claim = 408
+			add_state_claim = 537
+			}
 		}
-		create_wargoal = {
-			type = annex_everything
-			target = 564.owner
-		}
-		add_state_claim = 564
-		add_state_claim = 563
-		add_state_claim = 657
-		add_state_claim = 561
-		add_state_claim = 560
-		add_state_claim = 409
-		add_state_claim = 1246
-		add_state_claim = 408
-		add_state_claim = 537
-		}
-	}
-	LEC_taiping_reclaim_himalayas = {
-		icon = generic_prepare_civil_war
-		available = {
-			TIB = { exists = no }
-			owns_state = 322
-			owns_state = 748
-			owns_state = 693
-			owns_state = 1086
-		}
-		visible = {
+		LEC_taiping_reclaim_himalayas = {
+			icon = generic_prepare_civil_war
+			available = {
+				TIB = { exists = no }
+				owns_state = 322
+				owns_state = 748
+				owns_state = 693
+				owns_state = 1086
+			}
+			visible = {
 			has_country_flag = CHN_reclaimed_china
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		cost = 100
-		fire_only_once = yes
+			}
+			ai_will_do = {
+				factor = 100
+			}
+			cost = 100
+			fire_only_once = yes
 
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision LEC_france_macao"
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision LEC_france_macao"
 			create_wargoal = {
 				type = annex_everything
 				target = 324.owner
@@ -2127,31 +2127,31 @@ LEC_taiping_expansion = {
 			add_state_claim = 814
 			add_state_claim = 890
 			add_state_claim = 441
+			}
 		}
-	}
-	LEC_taiping_reclaim_central_asia = {
-		icon = generic_prepare_civil_war
-		available = {
-			SIK = { exists = no }
-			TAN = { exists = no }
-			ETS = { exists = no }
-			owns_state = 1083
-			owns_state = 618
-			owns_state = 617
-			owns_state = 287
-			owns_state = 897
-			owns_state = 619
-		}
-		visible = {
+		LEC_taiping_reclaim_central_asia = {
+			icon = generic_prepare_civil_war
+			available = {
+				SIK = { exists = no }
+				TAN = { exists = no }
+				ETS = { exists = no }
+				owns_state = 1083
+				owns_state = 618
+				owns_state = 617
+				owns_state = 287
+				owns_state = 897
+				owns_state = 619
+			}
+			visible = {
 			has_country_flag = CHN_reclaimed_china
-		}
-		ai_will_do = {
-			factor = 100
-		}
-		cost = 100
-		fire_only_once = yes
+			}
+			ai_will_do = {
+				factor = 100
+			}
+			cost = 100
+			fire_only_once = yes
 
-		remove_effect = {
+			remove_effect = {
 				log = "[GetDateText]: [Root.GetName]: Decision LEC_france_macao"
 			create_wargoal = {
 				type = annex_everything

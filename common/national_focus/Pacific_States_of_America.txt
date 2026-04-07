@@ -14183,8 +14183,8 @@ focus_tree = {
 				limit = { 
 					PHI = {
 						exists = yes
-						NOT = { 
-							is_puppet_of = JAP 
+					NOT = {
+							is_puppet_of = JAP
 							has_war_with = ROOT
 						}
 					}
@@ -14198,8 +14198,8 @@ focus_tree = {
 				limit = { 
 					QIE = {
 						exists = yes
-						NOT = { 
-							is_puppet_of = JAP 
+					NOT = {
+							is_puppet_of = JAP
 							has_war_with = ROOT
 						}
 					}
@@ -14213,8 +14213,8 @@ focus_tree = {
 				limit = { 
 					VIN = {
 						exists = yes
-						NOT = { 
-							is_puppet_of = JAP 
+					NOT = {
+							is_puppet_of = JAP
 							has_war_with = ROOT
 						}
 					}
@@ -14228,8 +14228,8 @@ focus_tree = {
 				limit = { 
 					CHI = {
 						exists = yes
-						NOT = { 
-							is_puppet_of = JAP 
+					NOT = {
+							is_puppet_of = JAP
 							has_war_with = ROOT
 						}
 					}
@@ -18495,13 +18495,13 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_global_flag = TXS_ACW_USA
+						has_global_flag = TXS_ACW_USA
 				}
 				CAL = { declare_war_on = { target = TXS type = annex_everything	} }
 			}
 			if = {
 				limit = { 
-					has_global_flag = TXS_ACW_COR
+						has_global_flag = TXS_ACW_COR
 					NOT = { has_global_flag = PSA_COR_TREATY }
 				}
 				CAL = { declare_war_on = { target = TXS type = annex_everything	} }
@@ -19418,7 +19418,7 @@ focus_tree = {
 			add_ideas = CAL_pacific_dreamin
 			if = {
 				limit = { has_global_flag = CAl_peaceoutgang }
-				hidden_effect = {
+				hidden_effect = {	
 					country_event = { id = KX_california.47 days = 7 }
 				}
 			}

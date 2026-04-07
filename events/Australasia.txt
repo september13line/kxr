@@ -5650,11 +5650,11 @@ country_event = {
 			modifier = KR_returned_land
 		}
 		add_political_power = -100
-		every_owned_state = {
-			limit = {
-				is_claimed_by = AST
-			}
-			AST = { transfer_state = PREV }
+				every_owned_state = {
+					limit = {
+						is_claimed_by = AST
+					}
+					AST = { transfer_state = PREV }
 		}
 		AST = { country_event = austral.3368 }
 	}
@@ -8297,7 +8297,7 @@ country_event = { #The ley Is a Killer!
 		if = { 
 			limit = { 
 				OR = {
-					has_country_leader = {
+				has_country_leader = {
 						name = "Томас Лей"
 						ruling_only = yes
 					}
@@ -8458,7 +8458,7 @@ country_event = { #nat replacement
 		custom_effect_tooltip = marlib_marlib_classical_liberalism_subtype_swap_tt
 	}
 	option = {
-		name = austral.823.e
+		name = austral.823.f
 		trigger = {
 			check_variable = { 
 				var = AST_election_count
@@ -14756,7 +14756,7 @@ country_event = { #The Center Candidate
 				picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 				desc = "POLITICS_ELSIE_LOCKE_DESC"
 				expire = "1.1.1"
-				ideology = popcom_subtype   
+				ideology = popcom_subtype    
 				female = yes 
 			}
 		}
@@ -14770,7 +14770,7 @@ country_event = { #The Center Candidate
 				picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 				desc = "POLITICS_ELSIE_LOCKE_DESC"
 				expire = "1.1.1"
-				ideology = popcom_subtype  
+				ideology = popcom_subtype   
 				female = yes 
 			}
 		}
@@ -14780,7 +14780,7 @@ country_event = { #The Center Candidate
 				picture = "gfx/leaders/NZL/Portrait_NZL_Elsie_Farrely.png"
 				desc = "POLITICS_ELSIE_LOCKE_DESC"
 				expire = "1.1.1"
-				ideology = popcom_subtype  
+				ideology = popcom_subtype   
 				female = yes 
 			}
 		}	
@@ -14901,7 +14901,7 @@ country_event = { #Miles or sharkly
 			desc = "POLITICS_TED_HILL_DESC"
 			expire = "1.1.1"
 			ideology = tot_agrarian_socialism_subtype   
-		}	
+		}
 		custom_effect_tooltip  = tot_tot_agrarian_socialism_subtype_swap_tt
 	}
 	option = {
