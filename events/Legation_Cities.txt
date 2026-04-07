@@ -13243,154 +13243,154 @@ country_event = { # Triads Seize Power
 			LEC_exile_koreshige_inuzuka = yes
 			LEC_exile_francis_wogan_festing = yes
 			LEC = {
-				every_unit_leader = {
-					limit = {
-						OR = {
-							has_trait = LEC_international_commander
-							has_trait = LEC_british_commander
-							has_trait = LEC_japanese_commander
-							has_trait = LEC_german_commander
-						}
-					}
-					set_nationality = NSW
+		every_unit_leader = {
+			limit = {
+				OR = {
+					has_trait = LEC_international_commander
+					has_trait = LEC_british_commander
+					has_trait = LEC_japanese_commander
+					has_trait = LEC_german_commander
 				}
 			}
-			
-			create_field_marshal = {
-				name = "Объединённый совет глав Драконов "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
-				traits = { incorporeal LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+			set_nationality = NSW
+				}
+		}
+		
+		create_field_marshal = {
+			name = "Объединённый совет глав Драконов "
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
+			traits = { incorporeal LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Хуан Цзиньжун "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_corps_commander = {
+			name = "Хуан Цзиньжун "
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Цзян Цин "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-				id = 13555
+		create_corps_commander = {
+			name = "Цзян Цин "
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 13555
 				female = yes
-			}
+		}
 
-			create_corps_commander = {
-				name = "Ду Юэшэн "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
-				traits = { LEC_triad_commander substance_abuser }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_corps_commander = {
+			name = "Ду Юэшэн "
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Du_Yuesheng.png"
+			traits = { LEC_triad_commander substance_abuser }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Билли 'Блестящий' Чанг"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_corps_commander = {
+			name = "Билли 'Блестящий' Чанг"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Чжан Сяолинь"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_corps_commander = {
+			name = "Чжан Сяолинь"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Zhang_Xiaolin.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Ван Яцяо"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			
-			create_corps_commander = {
-				name = "Кот Сиу Вонг"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
-				traits = { LEC_triad_commander career_officer }
-				skill = 2
-				attack_skill = 1
-				defense_skill = 2
-				planning_skill = 1
-				logistics_skill = 2
-			}
+		create_corps_commander = {
+			name = "Ван Яцяо"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		create_corps_commander = {
+			name = "Кот Сиу Вонг"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
+			traits = { LEC_triad_commander career_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
 
-			create_corps_commander = {
-				name = "Хын Чин"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			
-			division_template = {
-						name = "Green Gang Militia"
-						division_names_group = LEC_GAR_01
+		create_corps_commander = {
+			name = "Хэн Чин"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		division_template = {
+					name = "Green Gang Militia"
+					division_names_group = LEC_GAR_01
 
-						regiments = {
-							militia = { x = 0 y = 0 }
-							militia = { x = 0 y = 1 }
-							militia = { x = 0 y = 2 }
-							militia = { x = 1 y = 0 }
-							militia = { x = 1 y = 1 }
-							militia = { x = 1 y = 2 }
-						}
-						priority = 1
+					regiments = {
+						militia = { x = 0 y = 0 }
+						militia = { x = 0 y = 1 }
+						militia = { x = 0 y = 2 }
+						militia = { x = 1 y = 0 }
+						militia = { x = 1 y = 1 }
+						militia = { x = 1 y = 2 }
 					}
-			743 = {
-				create_unit = {
-						division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
-						owner = LEC
+					priority = 1
 				}
-				create_unit = {
-						division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
-						owner = LEC
-				}
-				create_unit = {
-						division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
-						owner = LEC
-				}
+		743 = {
+			create_unit = {
+					division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
+					owner = LEC
 			}
+			create_unit = {
+					division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
+					owner = LEC
+			}
+			create_unit = {
+					division = "division_template = \"Green Gang Militia\" start_experience_factor = 0.3"
+					owner = LEC
+			}
+		}
 
-			set_country_flag = LEC_Triad_Power
+		set_country_flag = LEC_Triad_Power
 
-			set_politics = {
-				ruling_party = paternal_autocrat
-				elections_allowed = no
+		set_politics = {
+			ruling_party = paternal_autocrat
+			elections_allowed = no
 			}
 		}
 	}
@@ -15040,131 +15040,131 @@ country_event = { #
 			LEC_exile_koreshige_inuzuka = yes
 			LEC_exile_francis_wogan_festing = yes
 			LEC = {
-				every_unit_leader = {
-					limit = {
-						OR = {
-							has_trait = LEC_international_commander
-							has_trait = LEC_british_commander
-							has_trait = LEC_japanese_commander
-							has_trait = LEC_german_commander
-						}
-					}
-					set_nationality = NSW
+		every_unit_leader = {
+			limit = {
+				OR = {
+					has_trait = LEC_international_commander
+					has_trait = LEC_british_commander
+					has_trait = LEC_japanese_commander
+					has_trait = LEC_german_commander
 				}
 			}
+			set_nationality = NSW
+				}
+		}
 		
-			create_field_marshal = {
-				name = "Объединённый совет глав Драконов "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
-				traits = { incorporeal LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			
-			create_corps_commander = {
-				name = "Хуан Цзиньжун "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_field_marshal = {
+			name = "Объединённый совет глав Драконов"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Crime_Bosses.png"
+			traits = { incorporeal LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		create_corps_commander = {
+			name = "Хуан Цзиньжун"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Huang_Jinrong.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Цзян Цин "
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-				id = 13555
+		create_corps_commander = {
+			name = "Цзян Цин"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Jiang_Qing.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 13555
 				female = yes
-			}
+		}
 
 
-			create_corps_commander = {
-				name = "Билли 'Блестящий' Чанг"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		create_corps_commander = {
+			name = "Билли «Блестящий» Чанг"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Brilliant_Chang.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 
-			create_corps_commander = {
-				name = "Ван Яцяо"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			
-			create_corps_commander = {
-				name = "Кот Сиу Вонг"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
-				traits = { LEC_triad_commander career_officer }
-				skill = 2
-				attack_skill = 1
-				defense_skill = 2
-				planning_skill = 1
-				logistics_skill = 2
-			}
+		create_corps_commander = {
+			name = "Ван Яцяо"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Wang_Yaqiao.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		create_corps_commander = {
+			name = "Кот Сиу Вонг"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Kot_Siu_Wong.png"
+			traits = { LEC_triad_commander career_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
 
-			create_corps_commander = {
-				name = "Хын Чин"
-				portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
-				traits = { LEC_triad_commander }
-				skill = 1
-				attack_skill = 1
-				defense_skill = 1
-				planning_skill = 1
-				logistics_skill = 1
-			}
-			
-			division_template = {
-						name = "Shuntian Militia"
-						division_names_group = LEC_GAR_01
+		create_corps_commander = {
+			name = "Хын Чин"
+			portrait_path = "gfx/leaders/LEC/Portrait_LEC_Heung_Chin.png"
+			traits = { LEC_triad_commander }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		division_template = {
+					name = "Shuntian Militia"
+					division_names_group = LEC_GAR_01
 
-						regiments = {
-							militia = { x = 0 y = 0 }
-							militia = { x = 0 y = 1 }
-							militia = { x = 0 y = 2 }
-							militia = { x = 1 y = 0 }
-							militia = { x = 1 y = 1 }
-							militia = { x = 1 y = 2 }
-						}
-						priority = 1
+					regiments = {
+						militia = { x = 0 y = 0 }
+						militia = { x = 0 y = 1 }
+						militia = { x = 0 y = 2 }
+						militia = { x = 1 y = 0 }
+						militia = { x = 1 y = 1 }
+						militia = { x = 1 y = 2 }
 					}
-				743 = {
-				create_unit = {
-						division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
-						owner = LEC
+					priority = 1
 				}
-				create_unit = {
-						division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
-						owner = LEC
-				}
-				create_unit = {
-						division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
-						owner = LEC
-				}
+		743 = {
+			create_unit = {
+					division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
+					owner = LEC
 			}
+			create_unit = {
+					division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
+					owner = LEC
+			}
+			create_unit = {
+					division = "division_template = \"Shuntian Militia\" start_experience_factor = 0.3"
+					owner = LEC
+			}
+		}
 
-			set_politics = {
-				ruling_party = authoritarian_democrat
-				elections_allowed = no
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			elections_allowed = no
 			}
 		}
 	}
@@ -15338,7 +15338,7 @@ country_event = { #Reclaiming Our Mandate
 					CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 				}
 			}
-			country_event = {
+		country_event = {
 				id = legcities.130
 				days = 90
 			}
@@ -15433,12 +15433,12 @@ country_event = { #Reclaiming Our Mandate
 					CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 				}
 			}
-			country_event = { id = legcities.161 days = 1 }
-			country_event = {
+		country_event = { id = legcities.161 days = 1 }
+		country_event = {
 				id = legcities.130
 				days = 90
 			}
-			country_event = {
+		country_event = {
 				days = 21
 				id = legcities.144
 			}
@@ -15558,7 +15558,7 @@ country_event = { #Reclaiming Our Mandate
 					CURRENT_DATE = "[?global.date.GetDateStringNoHour]"
 				}
 			}
-			country_event = {
+		country_event = {
 				id = legcities.130
 				days = 90
 			}
@@ -16543,8 +16543,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16571,8 +16571,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16599,8 +16599,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16645,8 +16645,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16673,8 +16673,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16701,8 +16701,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ching_ling_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16740,8 +16740,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Lu_Xun_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16768,8 +16768,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Lu_Xun_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16796,8 +16796,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Lu_Xun_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16835,8 +16835,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Feng_Yuxiang_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16863,8 +16863,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Feng_Yuxiang_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16891,8 +16891,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Feng_Yuxiang_hog_rso
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = radical_socialist
+		set_politics = {
+				ruling_party = radical_socialist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16934,8 +16934,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16962,8 +16962,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -16990,8 +16990,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17035,8 +17035,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_TV_Soong_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17063,8 +17063,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_TV_Soong_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17091,8 +17091,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_TV_Soong_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17130,8 +17130,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17158,8 +17158,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17186,8 +17186,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Carsun_Chang_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17225,8 +17225,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Jiongming_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17253,8 +17253,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Jiongming_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17281,8 +17281,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Jiongming_hog_sde
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_democrat
+		set_politics = {
+				ruling_party = social_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17323,8 +17323,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17357,8 +17357,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17385,8 +17385,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17430,8 +17430,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17458,8 +17458,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17486,8 +17486,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_H_H_Kung_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17526,8 +17526,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ai_ling_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17554,8 +17554,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ai_ling_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17582,8 +17582,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Ai_ling_hog_sli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_liberal
+		set_politics = {
+				ruling_party = social_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17618,8 +17618,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Liang_Qichao_hog_mli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+				ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17646,8 +17646,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Liang_Qichao_hog_mli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+				ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17674,8 +17674,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Liang_Qichao_hog_mli
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = market_liberal
+		set_politics = {
+				ruling_party = market_liberal
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17718,8 +17718,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17746,8 +17746,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17774,8 +17774,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17820,8 +17820,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17848,8 +17848,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17876,8 +17876,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Soong_Mei_ling_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17915,8 +17915,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Zongren_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17943,8 +17943,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Zongren_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -17971,8 +17971,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Zongren_hog_sco
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18010,8 +18010,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chiang_Kai_shek_hog_pau
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18038,8 +18038,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chiang_Kai_shek_hog_pau
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18066,8 +18066,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chiang_Kai_shek_hog_pau
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = social_conservative
+		set_politics = {
+				ruling_party = social_conservative
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18086,7 +18086,7 @@ country_event = { #Shuntian Elections
 		if = {
 		limit = { 
 			OR = {
-				has_country_flag = LEC_shuntian_authdem_occultism
+		has_country_flag = LEC_shuntian_authdem_occultism
 				has_country_flag = LEC_shuntian_natpop_occultism
 			}
 			has_country_leader = { ruling_only = yes name = "Хунъу" } 
@@ -18103,7 +18103,7 @@ country_event = { #Shuntian Elections
 		else_if = {
 		limit = { 
 			OR = {
-				has_country_flag = LEC_shuntian_authdem_occultism
+		has_country_flag = LEC_shuntian_authdem_occultism
 				has_country_flag = LEC_shuntian_natpop_occultism
 			}
 			has_country_leader = { ruling_only = yes name = "Хун Сюцюань" } 
@@ -18205,8 +18205,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Tse_Tsan_Tai_hog_ade
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = authoritarian_democrat
+		set_politics = {
+				ruling_party = authoritarian_democrat
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18252,8 +18252,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18286,8 +18286,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18317,8 +18317,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18348,8 +18348,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18379,8 +18379,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18410,8 +18410,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18456,8 +18456,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18490,8 +18490,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18521,8 +18521,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18552,8 +18552,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18583,8 +18583,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18614,8 +18614,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Li_Huang_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18654,8 +18654,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18688,8 +18688,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18719,8 +18719,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18750,8 +18750,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18781,8 +18781,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -18812,8 +18812,8 @@ country_event = { #Shuntian Elections
 		add_ideas = LEC_Chen_Qitian_hog_npo
 		meta_effect = {
 			text = {
-				set_politics = {
-					ruling_party = national_populist
+		set_politics = {
+				ruling_party = national_populist
 					last_election = "[CURRENT_DATE]"
 					election_frequency = 48
 					elections_allowed = yes
@@ -19332,9 +19332,9 @@ country_event = { #
 		GXC = {
 			every_unit_leader = {
 				limit = {
-					has_trait = GXC_rkmt_officer
-				}
-				set_nationality = LEC
+				has_trait = GXC_rkmt_officer
+			}
+			set_nationality = LEC
 			}
 		}
 		YUN = {
@@ -19395,9 +19395,9 @@ country_event = { #
 		GXC = {
 			every_unit_leader = {
 				limit = {
-					has_trait = GXC_rkmt_officer
-				}
-				set_nationality = LEC
+				has_trait = GXC_rkmt_officer
+			}
+			set_nationality = LEC
 			}
 		}
 		YUN = {
