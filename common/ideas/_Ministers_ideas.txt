@@ -153552,6 +153552,24 @@ ideas = {
 				hog_naive_optimist
 			}
 		}
+		NEE_Charles_E_Dagenett_hog_sde = {
+			allowed = { original_tag = NEE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEE_Charles_E_Dagenett_hog_sde" 
+			}
+			traits = {
+				head_of_government
+				social_democrat
+				hog_influential_intellectual
+			}
+		}
 		NEE_Charles_Poletti_hog_sli = {
 			allowed = { original_tag = NEE }
 			available = {
@@ -154379,6 +154397,25 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
+		NEE_Charles_Eastman_for_sde = {
+			allowed = { original_tag = NEE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEE_Charles_Eastman_for_sde"
+			}
+			traits = {
+				foreign_minister
+				social_democrat
+				for_staunch_idealist
+			}
+			cancel_if_invalid = no
+		}
+
 		NEE_George_Higgins_Moses_for_sli = {
 			allowed = { original_tag = NEE }
 			available = {
@@ -154685,6 +154722,25 @@ ideas = {
 				economy_minister
 				social_democrat
 				eco_keynesian_economy
+			}
+			cancel_if_invalid = no
+		}
+
+		NEE_Arthur_C_Parker_eco_sde = {
+			allowed = { original_tag = NEE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEE_Arthur_C_Parker_eco_sde"
+			}
+			traits = {
+				economy_minister
+				social_democrat
+				eco_virgin_lands_development
 			}
 			cancel_if_invalid = no
 		}
@@ -155061,6 +155117,25 @@ ideas = {
 				security_minister
 				social_democrat
 				sec_efficient_sociopath
+			}
+			cancel_if_invalid = no
+		}
+
+		NEE_Thomas_L_Sloan_sec_sde = {
+			allowed = { original_tag = NEE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NEE_Thomas_L_Sloan_sec_sde"
+			}
+			traits = {
+				security_minister
+				social_democrat
+				sec_progressive_judge
 			}
 			cancel_if_invalid = no
 		}
@@ -191247,6 +191322,25 @@ head_of_government = { ### Head of Government ###
 
 	person_of_influence = { ### Person of Influence ###
 		## Foreign Minister ##
+		SIC_Romano_Cocchi_for_rso = {
+			allowed = { original_tag = SIC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SIC_Romano_Cocchi_for_rso" 
+			}
+			traits = {
+				foreign_minister
+				radical_socialist
+				for_ideological_crusader
+			}
+		}
+
 		SIC_Enrico_Mole_for_sde = {
 			allowed = { original_tag = SIC }
 			available = {
@@ -191439,6 +191533,25 @@ head_of_government = { ### Head of Government ###
 
 
 		## Economy Minister ##
+		SIC_Pietro_Cenini_eco_rso = {
+			allowed = { original_tag = SIC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SIC_Pietro_Cenini_eco_rso" 
+			}
+			traits = {
+				economy_minister
+				radical_socialist
+				eco_the_minister_for_everything
+			}
+		}
+
 		SIC_Tommaso_Fiore_eco_sde = {
 			allowed = { original_tag = SIC }
 			available = {
@@ -191631,6 +191744,25 @@ head_of_government = { ### Head of Government ###
 
 
 		## Security Minister ##
+		SIC_Guido_Miglioli_sec_rso = {
+			allowed = { original_tag = SIC }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SIC_Guido_Miglioli_sec_rso" 
+			}
+			traits = {
+				security_minister
+				radical_socialist
+				sec_man_of_the_people
+			}
+		}
+
 		SIC_Francesco_Perri_sec_sde = {
 			allowed = { original_tag = SIC }
 			available = {
