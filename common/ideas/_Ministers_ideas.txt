@@ -118169,6 +118169,25 @@ ideas = {
 			}
 		}
 
+		ICE_Eidur_Kvaran_hog_npo = {
+			allowed = { original_tag = ICE }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ICE_Eidur_Kvaran_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_revelatory_speaker
+			}
+		}
+
 	}
 
 	person_of_influence = { ### Person of Influence ###
