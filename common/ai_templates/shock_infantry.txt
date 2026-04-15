@@ -7,7 +7,7 @@ heavy_infantry = {
 	front_role_override = offence
 
 	upgrade_prio = {
-		factor = 2500
+		factor = 750
 		modifier = {
 			factor = 0
 			is_eligible_for_armor_production = no
@@ -62,8 +62,8 @@ heavy_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 12
-				artillery_brigade = 3
+				infantry = 11
+				artillery_brigade = 2
 				anti_tank_brigade = 1
 			}
 
@@ -101,7 +101,7 @@ heavy_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 16
+				infantry = 14
 				artillery_brigade = 3
                 anti_tank_brigade = 1
 				anti_air_brigade = 1
@@ -140,8 +140,8 @@ heavy_infantry = {
 		target_template = {
 			regiments = {
 				infantry = 9
-				heavy_tank_destroyer_brigade = 1
 				artillery_brigade = 1
+				heavy_tank_destroyer_brigade = 1
 			}
 
 			support = {
@@ -189,8 +189,8 @@ heavy_infantry = {
 		target_template = {
 			regiments = {
 				infantry = 11
-				heavy_tank_destroyer_brigade = 1
 				artillery_brigade = 2
+				heavy_tank_destroyer_brigade = 1
 			}
 
 			support = {
@@ -241,9 +241,9 @@ heavy_infantry = {
 		target_template = {
 			regiments = {
 				infantry = 14
-				heavy_tank_destroyer_brigade = 1
 				artillery_brigade = 3
-				anti_air_brigade = 1
+				heavy_tank_destroyer_brigade = 1
+				light_sp_anti_air_brigade = 1
 			}
 
 			support = {
