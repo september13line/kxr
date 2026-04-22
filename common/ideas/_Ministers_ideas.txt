@@ -31928,7 +31928,106 @@ ideas = {
 		}
 	}
 
+	################################################################################################################################################################################################
+  ### BAY
+  ################################################################################################################################################################################################
 
+	head_of_government = { ### Head of Government ###
+		BAY_Paul_Nikolaus_Cossmann_hog_npo = {
+			allowed = { original_tag = BAY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BAY_Paul_Nikolaus_Cossmann_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_nationalist_press_baron
+			}
+		}
+		
+		BAY_Franz_Gurtner_hog_pau = {
+			allowed = { original_tag = BAY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BAY_Franz_Gurtner_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				lobe_elder_lawyer
+			}
+		}
+
+		BAY_Josef_Mayer_Koy_hog_ade = {
+			allowed = { original_tag = BAY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BAY_Josef_Mayer_Koy_hog_ade"
+			}
+			traits = {
+				head_of_government
+				authoritarian_democrat
+				hog_monarchist_loyalist
+			}
+		}
+
+		BAY_Heinrich_Held_hog_sco = {
+			allowed = { original_tag = BAY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BAY_Heinrich_Held_hog_sco"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				hog_political_protege
+			}
+		}
+
+		BAY_Georg_Eisenberger_hog_mli = {
+			allowed = { original_tag = BAY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea BAY_Georg_Eisenberger_hog_mli"
+			}
+			traits = {
+				head_of_government
+				market_liberal
+				hog_agrarian_activist
+			}
+		}
+	}	
 
   ################################################################################################################################################################################################
   ### BAT

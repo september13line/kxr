@@ -6216,6 +6216,43 @@ scripted_gui = {
 					has_idea = POL_Wladyslaw_Grabski_hog_ade 
 				}
 			}
+
+			### Bavaria ###
+			
+			Paul_Nikolaus_Cossmann_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = BAY_Paul_Nikolaus_Cossmann_hog_npo
+				}
+			}
+			
+			Franz_Gurtner_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = BAY_Franz_Gurtner_hog_pau
+				}
+			}
+
+			Josef_Mayer_Koy_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = BAY_Josef_Mayer_Koy_hog_ade
+				}
+			}
+
+			Heinrich_Held_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = BAY_Heinrich_Held_hog_sco
+				}
+			}
+
+			Georg_Eisenberger_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = BAY_Georg_Eisenberger_hog_mli
+				}
+			}
 			
 			### Baltics ###
 			
@@ -7055,31 +7092,25 @@ scripted_gui = {
 					has_idea = MAG_Jean-Joseph_Rabearivelo_hog_npo
 				}
 			}
-			###
-			Grigol_Ordzhonikikdze_visible = {
+
+			Aleksandar_Karadordevic_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_country_flag = STALIN_ORDZ_VISIBLE
-					has_country_leader = {
-	                	name = "Иосиф 'Коба' Джугашвили"
-	                	ruling_only = yes
-	                }
+					has_idea = SER_king_alexander
 				}
 			}
-			Vyacheslav_Molotov_visible = {
+
+			Dorde_Karadordevic_visible = {
 				AND = {
 					has_country_flag = HOG_veiw
-					has_country_flag = STALIN_MOLOTOV_VISIBLE
-					OR = {
-					    has_country_leader = {
-	                    	name = "Иосиф 'Коба' Джугашвили"
-	                    	ruling_only = yes
-	                    }
-		                has_country_leader = {
-	                    	name = "Иосиф Сталин"
-	                    	ruling_only = yes
-	                    }
-					}
+					has_idea = SER_king_george
+				}
+			}
+
+			Petar_Karadordevic_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_idea = SER_king_Peter
 				}
 			}
 			

@@ -486,14 +486,15 @@ country_event = { # WCC released
 			news_event = { id = amcivwar.16 hours = 8 }
 			}
 			else_if = {
-			limit = { has_country_flag = USA_president_norris }
-			news_event = { id = amcivwar.19 hours = 8 }
-				}
+				limit = { has_global_flag = USA_president_norris }
+				news_event = { id = amcivwar.19 hours = 8 }
+			}
 			else_if = {
-			limit = { 
-			OR = {
-			has_global_flag = USA_president_curtis
-			has_global_flag = USA_president_landon
+				limit = { 
+					OR = {
+						has_global_flag = USA_president_curtis
+						has_global_flag = USA_president_landon
+					}
 				}
 			}
 			news_event = { id = amcivwar.1300 hours = 8 }
@@ -547,7 +548,7 @@ country_event = { # WCC released
 			news_event = { id = amcivwar.16 hours = 8 }
 			}
 			else_if = {
-			limit = { has_country_flag = USA_president_norris }
+			limit = { has_global_flag = USA_president_norris }
 			news_event = { id = amcivwar.19 hours = 8 }
 				}
 			else_if = {
