@@ -13150,6 +13150,10 @@ focus = {
 		create_wargoal = { type = annex_everything target = TEX }
 		create_wargoal = { type = annex_everything target = CSA }
 		if = {
+			limit = { NYC = { exists = yes } }
+			create_wargoal = { type = annex_everything target = NYC }
+		}
+		if = {
 			limit = {
 				WCC = { is_subject = no }
 			}
@@ -17427,6 +17431,10 @@ focus = {
 		}
 		available = {
 			is_subject = no
+			NOT = {
+				is_in_faction_with = JAP
+				has_subject = JAP
+			}
 		}
 		bypass = {
 			has_war_with = JAP
@@ -19253,6 +19261,7 @@ focus = {
 				is_faction_leader = yes
 			}
 		}
+		bypass = { PHI = { is_subject_of = ROOT } }
 		relative_position_id = NEE_look_east
 		x = 0
 		y = 2

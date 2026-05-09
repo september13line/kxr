@@ -424,10 +424,9 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Хьюи Лонг" }
+			has_global_flag = USA_long_is_president
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
-			NOT = { has_country_flag = USA_had_1940_election }
 		}
 		select_effect = {
 		country_event = { id = ustates.53 days = 3 }
@@ -484,10 +483,9 @@ focus_tree = {
 			factor = 100
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "Уильям Хейвуд" }
+			has_global_flag = USA_president_reed
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
-			NOT = { has_country_flag = USA_had_1940_election }
 		}
 		select_effect = {
 		hidden_effect = {
@@ -733,13 +731,11 @@ focus_tree = {
 			has_global_flag = USA_murray_is_president
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
-			NOT = { has_country_flag = USA_had_1940_election }
 		}
 		bypass = {
 			has_global_flag = USA_murray_is_president
 			has_country_flag = USA_president_inaugurated
 			has_country_flag = USA_election_1936_flag
-			NOT = { has_country_flag = USA_had_1940_election }
 		}	
 		available_if_capitulated = yes
 		
@@ -15846,6 +15842,10 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
+			NOT = {
+				is_in_faction_with = JAP
+				has_subject = JAP
+			}
 		}
 		bypass = {
 			has_war_with = JAP
@@ -17688,6 +17688,7 @@ focus_tree = {
 				is_faction_leader = yes
 			}
 		}
+		bypass = { PHI = { is_subject_of = ROOT } }
 		relative_position_id = USA_look_east
 		x = 0
 		y = 2

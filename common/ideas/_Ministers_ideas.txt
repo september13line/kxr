@@ -13503,10 +13503,10 @@ ideas = {
 					NOT = { has_country_flag = Mikhail_Drozdovskiy_dead }
 				}
 				RUS_russian_monarch = yes
-				has_unit_leader = 405
 			}
 			visible = {
 				NOT = { has_country_flag = Mikhail_Drozdovskiy_dead }
+				has_unit_leader = 405
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea RUS_Mikhail_Drozdovskiy_cos_pau"
@@ -56695,6 +56695,8 @@ ideas = {
 				hidden_trigger = {
 					NOT = { has_idea = CHI_Sun_Fo_hog_2_sli }
 					NOT = { has_idea = CHI_Sun_Fo_hog_sli }
+					NOT = { has_country_flag = CHI_sun_fo_exiled_flag }
+					NOT = { has_country_flag = Sun_Fo_dead }
 				}
 			}
 			cancel_if_invalid = no
@@ -57072,12 +57074,16 @@ ideas = {
 			}
 			available = {
 				NOT = { has_idea = CHI_lixingshe_hog_tot_lar }
+				hidden_trigger = {
+					NOT = { has_country_flag = Dai_Chunfeng_dead }
+				}
 			}			
 			visible = {
 				OR = {
 					has_country_flag = CHI_chose_bis_flag
 					has_country_flag = CHI_chose_mss_flag
 				}
+				NOT = { has_country_flag = Dai_Chunfeng_dead }
 			}
 			cancel_if_invalid = no
 			cost = 100
@@ -57107,6 +57113,9 @@ ideas = {
 			}
 			available = {
 				NOT = { has_idea = CHI_lixingshe_hog_tot }
+				hidden_trigger = {
+					NOT = { has_country_flag = Dai_Chunfeng_dead }
+				}
 			}			
 			visible = {
 				OR = {
@@ -67023,6 +67032,82 @@ ideas = {
 				hog_political_protege
 			}
 		}
+
+		CSA_Anne_Burlak_hog_tot = {
+			allowed = { original_tag = CSA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_Anne_Burlak_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_happy_amateur
+			}
+		}
+
+		CSA_Al_Lannon_hog_tot = {
+			allowed = { original_tag = CSA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_Al_Lannon_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_vanguardist_worker
+			}
+		}
+
+		CSA_John_Gates_hog_tot = {
+			allowed = { original_tag = CSA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_John_Gates_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_reformist_socialist
+			}
+		}
+
+		CSA_Harrison_George_hog_tot = {
+			allowed = { original_tag = CSA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_Harrison_George_hog_tot"
+			}
+			traits = {
+				head_of_government
+				totalist
+				hog_silent_workhorse
+			}
+		}
 		
 		CSA_Dan_Seavey_hog_tot = {
 			allowed = { original_tag = CSA }
@@ -68343,7 +68428,7 @@ ideas = {
 			}
 		}
 
-		CSA_John_Gates_eco_rso = {
+		CSA_Frank_Bohn_eco_rso = {
 			allowed = { original_tag = CSA }
 			available = {
 				custom_trigger_tooltip = {
@@ -68353,12 +68438,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea CSA_John_Gates_eco_rso"
+				log = "[GetDateText]: [Root.GetName]: add idea CSA_Frank_Bohn_eco_rso"
 			}
 			traits = {
 				economy_minister
 				radical_socialist
-				eco_reformer
+				eco_patriotic_socialist
 			}
 		}
 
@@ -224284,7 +224369,7 @@ head_of_government = { ### Head of Government ###
 			cancel_if_invalid = no
 		}
 		
-		USA_Robert_Heinlein_for_pau = {
+		USA_William_Christian_Bullitt_Jr_for_pau = {
 			allowed = { original_tag = USA }
 			available = {
 				custom_trigger_tooltip = {
@@ -224297,7 +224382,7 @@ head_of_government = { ### Head of Government ###
 				NOT = { has_country_flag = Robert_Heinlein_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea USA_Robert_Heinlein_for_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea USA_William_Christian_Bullitt_Jr_for_pau"
 			}
 			traits = {
 				foreign_minister

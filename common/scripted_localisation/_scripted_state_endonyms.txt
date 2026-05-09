@@ -16736,14 +16736,6 @@ defined_text = {
 		localization_key = STATE_1188_RUSSIAN
 	}
 	text = {
-		trigger = { original_tag = GEO }
-		localization_key = STATE_1188_GEORGIAN
-	}
-	text = {
-		trigger = { original_tag = ABK }
-		localization_key = STATE_1188_ABKHAZ
-	}
-	text = {
 		localization_key = STATE_1188
 	}
 }
@@ -17927,6 +17919,21 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_1265
+	text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1265
+	}
+	text = {
+		trigger = { 
+			is_chinese_tag = yes 
+			NOT = { original_tag = MON }
+		}
+		localization_key = STATE_1265_CHINESE 
+	}
+	text = {
+		trigger = { is_russian_speaking_tag = yes }
+		localization_key = STATE_1265_RUSSIAN
+	}
 	text = {
 		localization_key = STATE_1265
 	}
