@@ -303,18 +303,21 @@ has_socialist_government = {
             AND = {
 				has_country_leader_ideology = red_tinted_autocracy_subtype
 				NOT = { 
-					has_country_leader = { ruling_only = yes name = "Alfredo Baldomir Ferrari" } 
-					has_country_leader = { ruling_only = yes name = "Andriy Melnyk" } 
-					has_country_leader = { ruling_only = yes name = "Mykola Stsiborskyi" } 
+					has_country_leader = { ruling_only = yes name = "Альфредо Бальдомир Феррари" } 
+					has_country_leader = { ruling_only = yes name = "Андрій Мельник" } 
+					has_country_leader = { ruling_only = yes name = "Микола Сціборський" } 
 				}
 			}
 			AND = {
 				has_country_leader_ideology = authdem_red_tinted_autocracy_subtype
-				NOT = { has_country_leader = { ruling_only = yes name = "Alberto Enríquez Gallo" } }
+				NOT = { 
+					has_country_leader = { ruling_only = yes name = "Альберто Энрикес Гальо" } 
+					has_country_leader = { ruling_only = yes name = "Александр Протогеров" } 
+				}
 			}
 			AND = {
 				has_country_leader_ideology = soclib_tridemism_subtype
-				has_country_leader = { ruling_only = yes name = "Sun Fo" }
+				has_country_leader = { ruling_only = yes name = "Сунь Фо" }
 			}
 		}
 	}
@@ -516,6 +519,7 @@ has_colonial_government = {
 			has_country_leader_ideology = colonial_govt_subtype
 			has_country_leader_ideology = autocratic_colonial_govt_subtype
 			has_country_leader_ideology = natpop_colonial_govt_subtype
+			has_country_leader = { name = "Мартиньо Нобре де Мело" ruling_only = yes }
 		}
 	}
 }
@@ -1821,5 +1825,7 @@ is_member_of_economic_sphere = {
 		}
 		has_idea = USA_sphere_leader
 		has_idea = USA_sphere_member
+		has_idea = chud_axis_economic_council
+		has_idea = chud_axis_economic_upgraded
 	}
 }
