@@ -7,7 +7,14 @@ fire_concentration = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 3 }
+	ai_will_do = {
+		base = 2
+		modifier = {
+			factor = 1.5
+			is_major = yes
+			has_doctrine = superior_firepower
+		}
+	}
 
 	 # EFFECTS
 	enable_tactic = tactic_overwhelming_fire
@@ -137,13 +144,7 @@ flying_batteries = {
 		has_dlc_ncns = yes
 	}
 
-	ai_will_do = {
-		base = 3
-		modifier = {
-			factor = 0
-			NOT = { has_tech = rocket_artillery }
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	 # EFFECTS
 	effect = {
@@ -304,10 +305,10 @@ mobile_recon_and_assault = {
 	}
 
 	ai_will_do = {
-		base = 3
+		base = 2
 		modifier = {
 			factor = 0
-			is_major = no
+			NOT = {has_doctrine = new_mobile_warfare}
 		}
 	}
 
@@ -385,10 +386,10 @@ mobile_recon_and_assault_no_lar = {
 	}
 
 	ai_will_do = {
-		base = 1
+		base = 2
 		modifier = {
 			factor = 0
-			is_major = no
+			NOT = {has_doctrine = new_mobile_warfare}
 		}
 	}
 
@@ -688,7 +689,7 @@ field_engineering = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 3 }
+	ai_will_do = { base = 2 }
 
 	engineer = {
 		river = {

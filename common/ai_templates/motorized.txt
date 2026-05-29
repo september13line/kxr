@@ -1,0 +1,310 @@
+####################################################################################################
+#	MOTORIZED ROLE
+####################################################################################################
+
+motorized_infantry = {
+    role = motorized
+	front_role_override = offence
+
+	upgrade_prio = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_eligible_for_armor_production = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_tech = motorised_infantry }
+		}
+	}
+
+	basic_mot = {
+		can_upgrade_in_field = {
+			has_equipment = { mechanized_equipment > 100 }
+		}
+		
+		upgrade_prio = {
+			base = 100
+		}
+
+		target_template = {
+			regiments = {
+				motorized = 9
+			}
+
+			support = {
+				artillery = 1
+				anti_air = 1
+				engineer = 1
+			}
+		}
+	}
+
+	basic_mech = {
+		can_upgrade_in_field = {
+			OR = {
+				has_equipment = { medium_tank_artillery_chassis > 500 }
+				has_equipment = { motorized_rocket_equipment > 500 }
+			}
+		}
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+            modifier = {
+				factor = 0
+				OR = {
+					NOT = { has_subdoctrine_in_track = infantry }
+					NOT = { has_subdoctrine_in_track = combat_support }
+					NOT = { has_subdoctrine_in_track = armor }
+					NOT = { has_subdoctrine_in_track = operations }
+				}
+			}
+            modifier = {
+				factor = 0
+				num_of_military_factories < 60
+			}
+			modifier = {
+				factor = 2
+				num_of_military_factories > 60
+			}
+		}
+
+		target_template = {
+			regiments = {
+				mechanized = 9
+			}
+
+			support = {
+				artillery = 1
+				anti_air = 1
+				engineer = 1
+			}
+		}
+	}
+
+    spg_mech = {
+		can_upgrade_in_field = {
+			has_equipment = { medium_tank_artillery_chassis > 500 }
+		}
+		reinforce_prio = 2
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = basic_medium_tank }
+				NOT = { has_tech = basic_medium_tank_chassis }
+			}
+			modifier = {
+				factor = 0
+				NOT = {has_doctrine = superior_firepower}
+				NOT = {has_doctrine = grand_battleplan}
+			}
+            modifier = {
+				factor = 0
+				OR = {
+					NOT = { has_subdoctrine_in_track = infantry }
+					NOT = { has_subdoctrine_in_track = combat_support }
+					NOT = { has_subdoctrine_in_track = armor }
+					NOT = { has_subdoctrine_in_track = operations }
+				}
+			}
+            modifier = {
+				factor = 0
+				num_of_military_factories < 120
+			}
+			modifier = {
+				factor = 4
+				num_of_military_factories > 120
+			}
+		}
+
+		target_template = {
+			regiments = {
+				mechanized = 9
+				medium_sp_artillery_brigade = 2
+			}
+
+			support = {
+				anti_air = 1
+				mot_recon = 1
+				engineer = 1
+				field_hospital = 1
+				logistics_company = 1
+			}
+		}
+	}
+
+	super_spg_mech = {
+		can_upgrade_in_field = { always = no }
+		reinforce_prio = 2
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = basic_medium_tank }
+				NOT = { has_tech = basic_medium_tank_chassis }
+			}
+			modifier = {
+				factor = 0
+				NOT = {has_doctrine = superior_firepower}
+				NOT = {has_doctrine = grand_battleplan}
+			}
+            modifier = {
+				factor = 0
+				OR = {
+					NOT = { has_subdoctrine_in_track = infantry }
+					NOT = { has_subdoctrine_in_track = combat_support }
+					NOT = { has_subdoctrine_in_track = armor }
+					NOT = { has_subdoctrine_in_track = operations }
+				}
+			}
+            modifier = {
+				factor = 0
+				num_of_military_factories < 180
+			}
+			modifier = {
+				factor = 6
+				num_of_military_factories > 180
+			}
+		}
+
+		target_template = {
+			regiments = {
+				mechanized = 9
+				medium_sp_artillery_brigade = 5
+			}
+
+			support = {
+				anti_air = 1
+				mot_recon = 1
+				engineer = 1
+				field_hospital = 1
+				logistics_company = 1
+			}
+		}
+	}
+
+    katyusha_mech = {
+		can_upgrade_in_field = {
+			has_equipment = { motorized_rocket_equipment > 500 }
+		}
+		reinforce_prio = 2
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = motorized_rocket_unit }
+			}
+			modifier = {
+				factor = 0
+				NOT = {has_doctrine = new_mobile_warfare}
+				NOT = {has_doctrine = mass_assault}
+			}
+            modifier = {
+				factor = 0
+				OR = {
+					NOT = { has_subdoctrine_in_track = infantry }
+					NOT = { has_subdoctrine_in_track = combat_support }
+					NOT = { has_subdoctrine_in_track = armor }
+					NOT = { has_subdoctrine_in_track = operations }
+				}
+			}
+            modifier = {
+				factor = 0
+				num_of_military_factories < 120
+			}
+			modifier = {
+				factor = 4
+				num_of_military_factories > 120
+			}
+		}
+
+		target_template = {
+			regiments = {
+				mechanized = 9
+				motorized_rocket_brigade = 2
+			}
+
+			support = {
+				anti_air = 1
+				mot_recon = 1
+				engineer = 1
+				field_hospital = 1
+				logistics_company = 1
+			}
+		}
+	}
+
+	super_katyusha_mech = {
+		can_upgrade_in_field = { always = no }
+		reinforce_prio = 2
+		
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = motorized_rocket_unit }
+			}
+			modifier = {
+				factor = 0
+				NOT = {has_doctrine = new_mobile_warfare}
+				NOT = {has_doctrine = mass_assault}
+			}
+            modifier = {
+				factor = 0
+				OR = {
+					NOT = { has_subdoctrine_in_track = infantry }
+					NOT = { has_subdoctrine_in_track = combat_support }
+					NOT = { has_subdoctrine_in_track = armor }
+					NOT = { has_subdoctrine_in_track = operations }
+				}
+			}
+            modifier = {
+				factor = 0
+				num_of_military_factories < 180
+			}
+			modifier = {
+				factor = 6
+				num_of_military_factories > 180
+			}
+		}
+
+		target_template = {
+			regiments = {
+				mechanized = 9
+				motorized_rocket_brigade = 5
+			}
+
+			support = {
+				anti_air = 1
+				mot_recon = 1
+				engineer = 1
+				field_hospital = 1
+				logistics_company = 1
+			}
+		}
+	}
+}

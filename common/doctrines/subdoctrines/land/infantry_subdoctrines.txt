@@ -8,10 +8,33 @@ mobile_infantry = {
 	xp_type = army
 
 	ai_will_do = {
-		base = 5
+		base = 0
 		modifier = {
-			factor = 0.5
-			is_major = no
+			add = 5
+			has_doctrine = new_mobile_warfare
+		}
+		modifier = {
+			add = 5
+			OR = {
+				tag = LBA
+				tag = SAU
+				tag = JBS
+				tag = TRU
+				tag = IKH
+				tag = YEM
+				tag = OMA
+				tag = TRP
+				tag = ETS
+				tag = SIK
+				tag = TAN
+				tag = KHI
+				tag = KYR
+				tag = TRK
+				tag = UZB
+				tag = ALO
+				tag = MON
+				tag = XSM
+			}
 		}
 	}
 
@@ -67,7 +90,22 @@ defensive_postures = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 5 }
+	ai_will_do = {
+		base = 5
+		modifier = {
+			factor = 0
+			OR = {
+				is_russian_tag = yes
+				is_american_tag = yes
+				tag = GER
+				tag = JAP
+			}
+		}
+		modifier = {
+			factor = 0
+			has_doctrine = new_mobile_warfare
+		}
+	}
 
 	#OTHER BASE REWARDS
 	category_mounted_inf = {
@@ -115,8 +153,16 @@ large_unit_tactics = {
 	ai_will_do = {
 		base = 5
 		modifier = {
-			factor = 0.5
-			is_major = no
+			factor = 2
+			has_doctrine = mass_assault
+		}
+		modifier = {
+			factor = 0
+			has_doctrine = new_mobile_warfare
+		}
+		modifier = {
+			factor = 0
+			has_doctrine = superior_firepower
 		}
 	}
 
@@ -183,9 +229,17 @@ assault_infantry = {
 	ai_will_do = {
 		base = 5
 		modifier = {
-			factor = 0.5
-			is_major = no
+			factor = 2
+			is_major = yes
+			has_doctrine = superior_firepower
 		}
+		modifier = {
+            factor = 2
+            OR = {
+                tag = CAN
+                tag = NFA
+            }
+        }
 	}
 
 	# EFFECTS
@@ -304,10 +358,29 @@ mounted_infantry = {
 	}
 
 	ai_will_do = {
-		base = 5
+		base = 0
 		modifier = {
-			factor = 0.5
-			is_major = yes
+			add = 10
+			OR = {
+				tag = LBA
+				tag = SAU
+				tag = JBS
+				tag = TRU
+				tag = IKH
+				tag = YEM
+				tag = OMA
+				tag = TRP
+				tag = ETS
+				tag = SIK
+				tag = TAN
+				tag = KHI
+				tag = KYR
+				tag = TRK
+				tag = UZB
+				tag = ALO
+				tag = MON
+				tag = XSM
+			}
 		}
 	}
 
@@ -513,17 +586,7 @@ irregulars = {
 		}
 	}
 
-	ai_will_do = {
-		base = 5
-		modifier = {
-			factor = 0
-			is_major = yes
-		}
-		modifier = {
-			factor = 0
-			is_major = yes
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	irregular_infantry = {
 		defense = 0.1
@@ -601,13 +664,7 @@ peoples_war = {
 		has_dlc_ncns = yes
 		has_template_containing_unit = militia
 	}
-	ai_will_do = {
-		base = 2.5
-		modifier = {
-			factor = 2
-			is_major = no
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	# EFFECTS
 	enable_tactic = tactic_guerrilla_tactics
@@ -667,7 +724,14 @@ great_war_infantry = {
 	xp_cost = 50
 	xp_type = army
 
-	ai_will_do = { base = 5 }
+	ai_will_do = {
+		base = 5
+		modifier = {
+			factor = 0
+			is_major = yes
+		}
+	}
+	
 	 # EFFECTS
 	#OTHER BASE REWARDS
 	category_mounted_inf = {

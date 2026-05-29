@@ -6,16 +6,20 @@ generic_scout_plane = {
 	}
 
 	priority = {
-		factor = 200
+		base = 0
 		modifier = {
-			num_of_military_factories < 50
-			factor = 0
+			add = 100
+			is_eligible_for_medium_aircraft_production = yes
 		}
 	}
 
 	early_scout_plane_1933 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 1
+			modifier = {
+				has_tech = basic_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -29,16 +33,11 @@ generic_scout_plane = {
 				special_type_slot_2 = empty
 			}
 		}
-
-		allowed_modules = {
-			recon_camera
-			engine_1_2x
-		}
 	}
 
 	basic_scout_plane_1936 = {
 		priority = {
-			factor = 10
+			factor = 100
 			modifier = {
 				has_tech = improved_medium_airframe
 				factor = 0 #let's not waste XP here
@@ -46,7 +45,7 @@ generic_scout_plane = {
 		}
 
 		target_variant = {
-			match_value = 1000
+			match_value = 2000
 			type = medium_plane_scout_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = recon_camera
@@ -54,25 +53,21 @@ generic_scout_plane = {
 				fixed_auxiliary_weapon_slot_2 = empty
 				fixed_auxiliary_weapon_slot_3 = empty
 				engine_type_slot = engine_2_2x
-				special_type_slot_1 = fuel_tanks_medium
-				special_type_slot_2 = non_strategic_materials_medium
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 			}
-		}
-
-		allowed_modules = {
-			recon_camera
-			engine_2_2x
-			engine_1_2x
-			fuel_tanks_medium
-			non_strategic_materials_medium
 		}
 	}
 
 	improved_scout_plane_1940 = {
 		priority = {
-			factor = 10
+			factor = 100
+			modifier = {
+				has_tech = advanced_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -84,26 +79,22 @@ generic_scout_plane = {
 				fixed_auxiliary_weapon_slot_2 = empty
 				fixed_auxiliary_weapon_slot_3 = empty
 				engine_type_slot = engine_3_2x
-				special_type_slot_1 = fuel_tanks_medium
-				special_type_slot_2 = non_strategic_materials_medium
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 				special_type_slot_5 = empty
 			}
 		}
-
-		allowed_modules = {
-			recon_camera
-			engine_3_2x
-			engine_2_2x
-			non_strategic_materials_medium
-			fuel_tanks_medium
-		}
 	}
 
 	advanced_scout_plane_1944 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = modern_medium_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -115,26 +106,18 @@ generic_scout_plane = {
 				fixed_auxiliary_weapon_slot_2 = empty
 				fixed_auxiliary_weapon_slot_3 = empty
 				engine_type_slot = engine_4_2x
-				special_type_slot_1 = fuel_tanks_medium
-				special_type_slot_2 = non_strategic_materials_medium
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 				special_type_slot_5 = empty
 			}
 		}
-
-		allowed_modules = {
-			recon_camera
-			engine_4_2x
-			engine_3_2x
-			non_strategic_materials_medium
-			fuel_tanks_medium
-		}
 	}
 
 	modern_scout_plane_1945 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
 		}
 
 		target_variant = {
@@ -146,20 +129,12 @@ generic_scout_plane = {
 				fixed_auxiliary_weapon_slot_2 = empty
 				fixed_auxiliary_weapon_slot_3 = empty
 				engine_type_slot = jet_engine_2x
-				special_type_slot_1 = fuel_tanks_medium
-				special_type_slot_2 = non_strategic_materials_medium
+				special_type_slot_1 = empty
+				special_type_slot_2 = empty
 				special_type_slot_3 = empty
 				special_type_slot_4 = empty
 				special_type_slot_5 = empty
 			}
-		}
-
-		allowed_modules = {
-			recon_camera
-			jet_engine_2x
-			engine_4_2x
-			non_strategic_materials_medium
-			fuel_tanks_medium
 		}
 	}
 }

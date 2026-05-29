@@ -1069,22 +1069,6 @@ russia_likes_mongolia = {
 	}
 }
 
-RUS_civilian_buildup = {
-	allowed = {
-		original_tag = RUS
-	}
-	enable = {
-		date < 1939.1.1
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = building_target
-		id = industrial_complex
-		value = 85
-	}
-}
-
 RUS_dont_bother_naval_invading_before_germany_dies = {
 	allowed = {
 		original_tag = RUS

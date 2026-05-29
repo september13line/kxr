@@ -1,0 +1,164 @@
+KXEnhancedAI = {
+    GetChiefOfStaff_MW = {
+		visible = {
+			NOT = {
+				has_idea = COS_manoeuvre_school_idea_generic
+				has_idea = COS_fire_support_school_idea_generic
+				has_idea = COS_psychology_school_idea_generic
+				has_idea = COS_mass_combat_school_idea_generic
+			}
+		}
+		available = {
+			has_doctrine = new_mobile_warfare
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = COS_manoeuvre_school_idea_generic
+		}
+	}
+    GetChiefOfStaff_SF = {
+		visible = {
+			NOT = {
+				has_idea = COS_manoeuvre_school_idea_generic
+				has_idea = COS_fire_support_school_idea_generic
+				has_idea = COS_psychology_school_idea_generic
+				has_idea = COS_mass_combat_school_idea_generic
+			}
+		}
+		available = {
+			has_doctrine = superior_firepower
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = COS_fire_support_school_idea_generic
+		}
+	}
+    GetChiefOfStaff_GBP = {
+		visible = {
+			NOT = {
+				has_idea = COS_manoeuvre_school_idea_generic
+				has_idea = COS_fire_support_school_idea_generic
+				has_idea = COS_psychology_school_idea_generic
+				has_idea = COS_mass_combat_school_idea_generic
+			}
+		}
+		available = {
+			has_doctrine = grand_battleplan
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = COS_psychology_school_idea_generic
+		}
+	}
+    GetChiefOfStaff_MA = {
+		visible = {
+			NOT = {
+				has_idea = COS_manoeuvre_school_idea_generic
+				has_idea = COS_fire_support_school_idea_generic
+				has_idea = COS_psychology_school_idea_generic
+				has_idea = COS_mass_combat_school_idea_generic
+			}
+		}
+		available = {
+			has_doctrine = mass_assault
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = COS_mass_combat_school_idea_generic
+		}
+	}
+    GetArmyChief = {
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 300
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = CARM_decisive_battle_doctrine_idea_generic
+		}
+	}
+    GetAirForceChief = {
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = CAIR_air_superiority_doctrine_idea_generic
+		}
+	}
+    GetNavyChief = {
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = CNAV_open_seas_doctrine_idea_generic
+		}
+	}
+    FrenchIndustrialConcern = {
+		allowed = {
+			OR = {
+				original_tag = FRA
+				original_tag = NFA
+			}
+		}
+		available = {
+			if = {
+				limit = { FROM = { original_tag = NFA } }
+				FROM = { has_completed_focus = NFA_review_economy }
+			}
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = metallurgique_de_normandie
+		}
+	}
+    GermanIndustrialConcern = {
+		allowed = { is_germany_or_german_colonial_tag = yes }
+		visible = {
+			NOT = { GER = { has_completed_focus = GER_krupp_steel_focus } }
+		}
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = krupp
+		}
+	}
+    RussianIndustrialConcern = {
+		allowed = { is_russian_tag = yes }
+		available = { owns_state = 195 }
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1000
+		}
+		cost = 150
+		complete_effect = {
+			add_ideas = putilov
+		}
+	}
+}

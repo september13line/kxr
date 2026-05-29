@@ -12,10 +12,10 @@ air_subdoctrine_fighter_homeland_defense = {
 	}
 
 	ai_will_do = {
-		base = 1
+		base = 5
 		modifier = {
-			factor = 95
-			is_major = no
+			factor = 0
+			is_major = yes
 		}
 	}
 
@@ -55,10 +55,10 @@ air_subdoctrine_escort_fighter = {
 	}
 
 	ai_will_do = {
-		base = 1
+		base = 5
 		modifier = {
-			factor = 0.5
-			is_major = no
+			factor = 0
+			NOT = {has_doctrine = new_strategic_destruction}
 		}
 	}
 
@@ -144,11 +144,7 @@ air_subdoctrine_tactical_flexibility = {
 	}
 
 	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0.5
-			is_major = no
-		}
+		base = 5
 	}
 
 	# EFFECTS
@@ -191,7 +187,7 @@ air_subdoctrine_dogfighting_mastery = {
 		always = yes
 	}
 
-	ai_will_do = { base = 1 }
+	ai_will_do = { base = 5 }
 
 	# EFFECTS
 	air_ace_generation_chance_factor = 0.1
@@ -232,13 +228,7 @@ air_subdoctrine_fighter_central_field = {
 		always = yes
 	}
 
-	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0
-			is_major = no
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	# EFFECTS
 	sortie_efficiency = 0.15

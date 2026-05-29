@@ -1,0 +1,149 @@
+# Enhanced AI - Miscellaneous
+
+####################################################################################################
+#	MISC
+####################################################################################################
+
+division_limiter = {
+	allowed = {
+		NOT = { has_game_rule = { rule = unit_limit_options option = NONE } }
+	}
+	enable = {
+		has_reached_maximum_divisions = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	#AI roles
+	ai_strategy = { type = build_army 		id = infantry					value = -1000 }
+	ai_strategy = { type = build_army 		id = shock_infantry				value = -1000 }
+	ai_strategy = { type = build_army 		id = motorized					value = -1000 }
+	ai_strategy = { type = build_army 		id = mechanized					value = -1000 }
+	ai_strategy = { type = build_army 		id = light_armor_role			value = -1000 }
+	ai_strategy = { type = build_army 		id = armor_role					value = -1000 }
+	ai_strategy = { type = build_army 		id = heavy_armor_role			value = -1000 }
+	ai_strategy = { type = build_army 		id = tank_destroyer_role		value = -1000 }
+	ai_strategy = { type = build_army 		id = mountaineer				value = -1000 }
+	ai_strategy = { type = build_army 		id = marine						value = -1000 }
+	ai_strategy = { type = build_army 		id = suppression				value = -1000 }
+}
+
+division_upgrades_are_very_important = {
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = land_xp_spend_priority
+		id = division_template
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = artillery
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = modern_armor
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = mountaineer
+		value = 100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = marine
+		value = 100
+	}
+}
+
+make_nukes = {
+	enable = {
+		has_tech = nuclear_reactor
+		num_of_civilian_factories > 50
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = nuclear_reactor 
+		value = 5
+	}
+}
+
+always_upgrade_tanks = {
+	enable = { always = yes }
+	abort_when_not_enabled = yes
+	
+	ai_strategy = { type = production_upgrade_desire_offset id = light_tank_chassis_1 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = light_tank_chassis_2 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = light_tank_chassis_3 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = medium_tank_chassis_1 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = medium_tank_chassis_2 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = medium_tank_chassis_3 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = heavy_tank_chassis_1 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = heavy_tank_chassis_2 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = heavy_tank_chassis_3 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = modern_tank_chassis value = 100 }
+}
+
+always_upgrade_fighters = {
+	enable = { always = yes }
+	abort_when_not_enabled = yes
+	
+	ai_strategy = { type = production_upgrade_desire_offset id = small_plane_airframe_1 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = small_plane_airframe_2 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = small_plane_airframe_3 value = 100 }
+	ai_strategy = { type = production_upgrade_desire_offset id = small_plane_airframe_4 value = 100 }
+}
+
+majors_go_crazy = {
+	enable = {
+		is_major = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = force_build_armies
+		value = 100
+	}
+}

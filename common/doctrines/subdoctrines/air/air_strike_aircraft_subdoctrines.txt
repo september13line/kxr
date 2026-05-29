@@ -11,7 +11,7 @@ air_subdoctrine_flying_artillery = {
 		always = yes
 	}
 
-	ai_will_do = { base = 1 }
+	ai_will_do = { base = 3 }
 
 	# EFFECTS
 	category_cas = {
@@ -54,7 +54,7 @@ air_subdoctrine_dive_bombers = {
 		always = yes
 	}
 
-	ai_will_do = { base = 1 }
+	ai_will_do = { base = 3 }
 
 	# EFFECTS
 	category_cas = {
@@ -197,13 +197,7 @@ air_subdoctrine_naval_strike_tactics = {
 		always = yes
 	}
 
-	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0
-			is_major = no
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	naval_strike_targetting_factor = 0.1
 
@@ -246,13 +240,7 @@ air_subdoctrine_naval_torpedo_tactics = {
 		always = yes
 	}
 
-	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0
-			is_major = no
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	category_nav_bomber = {
 		naval_strike_attack = 0.1

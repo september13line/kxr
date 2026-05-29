@@ -6,12 +6,20 @@ generic_maritime_patrol_plane = {
 	}
 
 	priority = {
-		factor = 0 #only for generating player presets
+		base = 0
+		modifier = {
+			add = 100
+			is_eligible_for_naval_aircraft_production = yes
+		}
 	}
 
 	early_maritime_patrol_plane_1933 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 1
+			modifier = {
+				has_tech = basic_large_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -39,7 +47,11 @@ generic_maritime_patrol_plane = {
 
 	basic_maritime_patrol_plane_1936 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = improved_large_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -71,7 +83,11 @@ generic_maritime_patrol_plane = {
 
 	improved_maritime_patrol_plane_1940 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = advanced_large_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -112,7 +128,11 @@ generic_maritime_patrol_plane = {
 
 	advanced_maritime_patrol_plane_1944 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
+			modifier = {
+				has_tech = modern_large_airframe
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		target_variant = {
@@ -161,7 +181,7 @@ generic_maritime_patrol_plane = {
 
 	modern_maritime_patrol_plane_1945 = {
 		priority = {
-			factor = 0 #only for generating player presets
+			factor = 100
 		}
 
 		target_variant = {
