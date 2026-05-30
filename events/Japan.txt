@@ -6833,17 +6833,34 @@ country_event = { #Russia bear is dying
 		tag = RUS
 		has_war_with = JAP
 		is_valid_peace_target = yes
-		TRM = {
-			OR = {
-				exists = no
-				is_ai = yes
+		OR = {
+			AND = {
+				JAP = { is_in_faction_with = TRM }
+				TRM = { is_ai = yes }
+			}
+			AND = {
+				TRM = { exists = no }
+				YAK = {
+					OR = {
+						exists = no
+						NOT = { is_in_faction_with = JAP }
+					}
+				}
 			}
 		}
-		JAP = {
-			is_valid_peace_target = yes
-			is_ally_with = 562.controller #Okhotsk
-			is_ally_with = 568.controller #Krasnoyarsk
-			is_ally_with = 653.controller #Yekaterinburg
+		AND = {
+			OR = {
+				JAP = { is_ally_with = 562.controller } #Okhotsk
+				562 = { is_controlled_by = JAP }
+			}
+			OR = {
+				JAP = { is_ally_with = 568.controller } #Krasnoyarsk
+				568 = { is_controlled_by = JAP }
+			}
+			OR = {
+				JAP = { is_ally_with = 653.controller } #Yekaterinburg
+				653 = { is_controlled_by = JAP }
+			}
 		}
 	}
 
@@ -6882,30 +6899,39 @@ country_event = { #Russia offers us peace
 		add_stability = 0.10
 		RUS = {
 			white_peace_with_ROOT = yes
-			every_owned_state = {
-				limit = {
-					OR = {
-						state = 537 #Sakhalin
-						state = 555 #Kuril Islands
-						is_siberia = yes
-						is_russian_far_east = yes
+			if = {
+				limit = { TRM = { exists = yes } }
+				every_owned_state = {
+					limit = {
+						OR = {
+							state = 537 #Sakhalin
+							state = 555 #Kuril Islands
+							is_siberia = yes
+							is_russian_far_east = yes
+						}
 					}
+					transfer_state_to = TRM
 				}
-				transfer_state_to = ROOT
+			}
+			else = {
+				every_owned_state = {
+					limit = {
+						OR = {
+							state = 537 #Sakhalin
+							state = 555 #Kuril Islands
+							is_siberia = yes
+							is_russian_far_east = yes
+						}
+					}
+					transfer_state_to = ROOT
+				}
 			}
 			diplomatic_relation = {
 				country = FROM
 				relation = non_aggression_pact
 			}
 			if = {
-				limit = {
-					TRM = {
-						OR = {
-							is_ally_with = ROOT
-							is_guaranteed_by = ROOT
-						}
-					}
-				}
+				limit = { TRM = { exists = yes } }
 				diplomatic_relation = {
 					country = TRM
 					relation = non_aggression_pact
