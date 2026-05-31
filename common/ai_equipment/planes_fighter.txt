@@ -38,6 +38,10 @@ generic_fighter = {
 				has_tech = improved_small_airframe
 				factor = 0 #let's not waste XP here
 			}
+			modifier = {
+				has_tech = aa_hmg
+				factor = 0
+			}
 		}
 
 		target_variant = {
@@ -54,6 +58,32 @@ generic_fighter = {
 				engine_type_slot = engine_2_1x
 				special_type_slot_1 = drop_tanks
 				special_type_slot_2 = armor_plate_small
+			}
+		}
+	}
+
+	basic_fighter_1936_hmg = {
+		priority = {
+			factor = 100
+			modifier = {
+				has_tech = improved_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+			modifier = {
+				NOT = { has_tech = aa_hmg }
+				factor = 0
+			}
+		}
+
+		target_variant = {
+			match_value = 2000
+			type = small_plane_airframe_1
+			modules = {
+				fixed_main_weapon_slot = heavy_mg_4x
+				fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+				engine_type_slot = engine_2_1x
+				special_type_slot_1 = fuel_tanks_small
+				special_type_slot_2 = empty
 			}
 		}
 	}

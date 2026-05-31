@@ -147,8 +147,8 @@ ma_less_mech = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = role_ratio                          id = motorized                    value = 10 }
-	ai_strategy = { type = role_ratio                          id = mechanized               	 value = -10 }
+	ai_strategy = { type = role_ratio                          id = motorized                    value = 5 }
+	ai_strategy = { type = role_ratio                          id = mechanized               	 value = -5 }
 }
 
 ####################################################################################################
@@ -418,6 +418,10 @@ build_shock_inf_army_1 = {
 		manpower_per_military_factory > 6000
 		has_manpower > 375000
 		has_army_size = { size > 50 type = infantry }
+		OR = {
+			has_army_size = { size > 5 type = armor }
+			has_global_flag = SpaceMarines
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -431,6 +435,10 @@ build_shock_inf_army_2 = {
 		manpower_per_military_factory > 6000
 		has_manpower > 750000
 		has_army_size = { size > 100 type = infantry }
+		OR = {
+			has_army_size = { size > 10 type = armor }
+			has_global_flag = SpaceMarines
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -444,6 +452,10 @@ build_shock_inf_army_3 = {
 		manpower_per_military_factory > 6000
 		has_manpower > 1125000
 		has_army_size = { size > 150 type = infantry }
+		OR = {
+			has_army_size = { size > 15 type = armor }
+			has_global_flag = SpaceMarines
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -457,6 +469,10 @@ build_shock_inf_army_4 = {
 		manpower_per_military_factory > 6000
 		has_manpower > 1500000
 		has_army_size = { size > 200 type = infantry }
+		OR = {
+			has_army_size = { size > 20 type = armor }
+			has_global_flag = SpaceMarines
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -470,6 +486,10 @@ build_shock_inf_army_5 = {
 		manpower_per_military_factory > 6000
 		has_manpower > 1875000
 		has_army_size = { size > 250 type = infantry }
+		OR = {
+			has_army_size = { size > 25 type = armor }
+			has_global_flag = SpaceMarines
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -556,7 +576,19 @@ build_mot_army_1 = {
 		manpower_per_military_factory > 9000
 		has_manpower > 150000
 		has_army_size = { size > 50 type = infantry }
-		has_equipment = { mechanized_equipment > 1000 }
+		has_army_size = { size > 10 type = armor }
+		OR = {
+			AND = {
+				date < 1941.1.1
+				NOT = { has_tech = mechanised_infantry }
+				has_equipment = { motorized_equipment > 1000 }
+			}
+			AND = {
+				date > 1941.1.1
+				has_tech = mechanised_infantry
+				has_equipment = { mechanized_equipment > 1000 }
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -570,7 +602,19 @@ build_mot_army_2 = {
 		manpower_per_military_factory > 9000
 		has_manpower > 300000
 		has_army_size = { size > 100 type = infantry }
-		has_equipment = { mechanized_equipment > 1000 }
+		has_army_size = { size > 20 type = armor }
+		OR = {
+			AND = {
+				date < 1941.1.1
+				NOT = { has_tech = mechanised_infantry }
+				has_equipment = { motorized_equipment > 1000 }
+			}
+			AND = {
+				date > 1941.1.1
+				has_tech = mechanised_infantry
+				has_equipment = { mechanized_equipment > 1000 }
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -584,7 +628,19 @@ build_mot_army_3 = {
 		manpower_per_military_factory > 9000
 		has_manpower > 450000
 		has_army_size = { size > 150 type = infantry }
-		has_equipment = { mechanized_equipment > 1000 }
+		has_army_size = { size > 30 type = armor }
+		OR = {
+			AND = {
+				date < 1941.1.1
+				NOT = { has_tech = mechanised_infantry }
+				has_equipment = { motorized_equipment > 1000 }
+			}
+			AND = {
+				date > 1941.1.1
+				has_tech = mechanised_infantry
+				has_equipment = { mechanized_equipment > 1000 }
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -598,7 +654,19 @@ build_mot_army_4 = {
 		manpower_per_military_factory > 9000
 		has_manpower > 600000
 		has_army_size = { size > 200 type = infantry }
-		has_equipment = { mechanized_equipment > 1000 }
+		has_army_size = { size > 40 type = armor }
+		OR = {
+			AND = {
+				date < 1941.1.1
+				NOT = { has_tech = mechanised_infantry }
+				has_equipment = { motorized_equipment > 1000 }
+			}
+			AND = {
+				date > 1941.1.1
+				has_tech = mechanised_infantry
+				has_equipment = { mechanized_equipment > 1000 }
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -612,7 +680,19 @@ build_mot_army_5 = {
 		manpower_per_military_factory > 9000
 		has_manpower > 750000
 		has_army_size = { size > 250 type = infantry }
-		has_equipment = { mechanized_equipment > 1000 }
+		has_army_size = { size > 50 type = armor }
+		OR = {
+			AND = {
+				date < 1941.1.1
+				NOT = { has_tech = mechanised_infantry }
+				has_equipment = { motorized_equipment > 1000 }
+			}
+			AND = {
+				date > 1941.1.1
+				has_tech = mechanised_infantry
+				has_equipment = { mechanized_equipment > 1000 }
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -630,6 +710,7 @@ build_mech_army_1 = {
 		manpower_per_military_factory > 4500
 		has_manpower > 300000
 		has_army_size = { size > 50 type = infantry }
+		has_army_size = { size > 5 type = armor }
 		has_equipment = { mechanized_equipment > 1000 }
 	}
 	abort_when_not_enabled = yes
@@ -644,6 +725,7 @@ build_mech_army_2 = {
 		manpower_per_military_factory > 4500
 		has_manpower > 600000
 		has_army_size = { size > 100 type = infantry }
+		has_army_size = { size > 10 type = armor }
 		has_equipment = { mechanized_equipment > 1000 }
 	}
 	abort_when_not_enabled = yes
@@ -658,6 +740,7 @@ build_mech_army_3 = {
 		manpower_per_military_factory > 4500
 		has_manpower > 900000
 		has_army_size = { size > 150 type = infantry }
+		has_army_size = { size > 15 type = armor }
 		has_equipment = { mechanized_equipment > 1000 }
 	}
 	abort_when_not_enabled = yes
@@ -672,6 +755,7 @@ build_mech_army_4 = {
 		manpower_per_military_factory > 4500
 		has_manpower > 1200000
 		has_army_size = { size > 200 type = infantry }
+		has_army_size = { size > 20 type = armor }
 		has_equipment = { mechanized_equipment > 1000 }
 	}
 	abort_when_not_enabled = yes
@@ -686,6 +770,7 @@ build_mech_army_5 = {
 		manpower_per_military_factory > 4500
 		has_manpower > 1500000
 		has_army_size = { size > 250 type = infantry }
+		has_army_size = { size > 25 type = armor }
 		has_equipment = { mechanized_equipment > 1000 }
 	}
 	abort_when_not_enabled = yes
@@ -704,6 +789,10 @@ build_tank_army_1 = {
 		manpower_per_military_factory > 3000
 		has_manpower > 600000
 		has_army_size = { size > 50 type = infantry }
+		OR = {
+			has_army_size = { size > 5 type = armor }
+			NOT = {has_doctrine = grand_battleplan}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -717,6 +806,10 @@ build_tank_army_2 = {
 		manpower_per_military_factory > 3000
 		has_manpower > 1200000
 		has_army_size = { size > 100 type = infantry }
+		OR = {
+			has_army_size = { size > 10 type = armor }
+			NOT = {has_doctrine = grand_battleplan}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -730,6 +823,10 @@ build_tank_army_3 = {
 		manpower_per_military_factory > 3000
 		has_manpower > 1800000
 		has_army_size = { size > 150 type = infantry }
+		OR = {
+			has_army_size = { size > 15 type = armor }
+			NOT = {has_doctrine = grand_battleplan}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -743,6 +840,10 @@ build_tank_army_4 = {
 		manpower_per_military_factory > 3000
 		has_manpower > 2400000
 		has_army_size = { size > 200 type = infantry }
+		OR = {
+			has_army_size = { size > 20 type = armor }
+			NOT = {has_doctrine = grand_battleplan}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -756,6 +857,10 @@ build_tank_army_5 = {
 		manpower_per_military_factory > 3000
 		has_manpower > 3000000
 		has_army_size = { size > 250 type = infantry }
+		OR = {
+			has_army_size = { size > 25 type = armor }
+			NOT = {has_doctrine = grand_battleplan}
+		}
 	}
 	abort_when_not_enabled = yes
 

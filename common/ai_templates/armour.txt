@@ -58,12 +58,154 @@ armour_generic = {
 		}
 	}
 
-	mechanized_medium_1 = {
+	lil_mechanized_medium = {
+        can_upgrade_in_field = {
+			has_equipment = { mechanized_equipment > 100 }
+		}
+		reinforce_prio = 2
+
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				date < 1940.1.1
+				factor = 0
+			}
+			modifier = {
+				date > 1940.4.1
+				factor = 0
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				is_eligible_for_improved_armor_production = no
+			}
+			modifier = {
+				factor = 2
+				is_eligible_for_improved_armor_production = yes
+			}
+		}
+
+		target_template = {
+			regiments = {
+				medium_armor = 6
+				motorized = 6
+				mechanized = 2
+			}
+
+			support = {
+				anti_air = 1
+				anti_tank = 1
+				medium_flame_tank = 1
+				engineer = 1
+			}
+		}
+	}
+
+	kinda_mechanized_medium = {
+        can_upgrade_in_field = {
+			has_equipment = { mechanized_equipment > 100 }
+		}
+		reinforce_prio = 2
+
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				date < 1940.4.1
+				factor = 0
+			}
+			modifier = {
+				date > 1940.8.1
+				factor = 0
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				is_eligible_for_improved_armor_production = no
+			}
+			modifier = {
+				factor = 2
+				is_eligible_for_improved_armor_production = yes
+			}
+		}
+
+		target_template = {
+			regiments = {
+				medium_armor = 6
+				motorized = 4
+				mechanized = 4
+			}
+
+			support = {
+				anti_air = 1
+				anti_tank = 1
+				medium_flame_tank = 1
+				engineer = 1
+			}
+		}
+	}
+
+	pretty_mechanized_medium = {
+        can_upgrade_in_field = {
+			has_equipment = { mechanized_equipment > 100 }
+		}
+		reinforce_prio = 2
+
+		upgrade_prio = {
+			base = 100
+			modifier = {
+				date < 1940.8.1
+				factor = 0
+			}
+			modifier = {
+				date > 1941.1.1
+				factor = 0
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_tech = mechanised_infantry }
+			}
+			modifier = {
+				factor = 0
+				is_eligible_for_improved_armor_production = no
+			}
+			modifier = {
+				factor = 2
+				is_eligible_for_improved_armor_production = yes
+			}
+		}
+
+		target_template = {
+			regiments = {
+				medium_armor = 6
+				motorized = 2
+				mechanized = 6
+			}
+
+			support = {
+				anti_air = 1
+				anti_tank = 1
+				medium_flame_tank = 1
+				engineer = 1
+			}
+		}
+	}
+
+	mechanized_medium = {
 		can_upgrade_in_field = { always = no }
 		reinforce_prio = 2
 
 		upgrade_prio = {
 			base = 100
+			modifier = {
+				date < 1941.1.1
+				factor = 0
+			}
 			modifier = {
 				factor = 0
 				NOT = { has_tech = mechanised_infantry }
@@ -94,12 +236,16 @@ armour_generic = {
 		}
 	}
 
-	mechanized_medium_2 = {
+	super_mechanized_medium = {
 		can_upgrade_in_field = { always = no }
 		reinforce_prio = 2
 
 		upgrade_prio = {
 			base = 100
+			modifier = {
+				date < 1942.1.1
+				factor = 0
+			}
 			modifier = {
 				factor = 0
 				NOT = { has_tech = mechanised_infantry }

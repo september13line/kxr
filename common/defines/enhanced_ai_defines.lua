@@ -80,9 +80,9 @@ NDefines.NAI.WANTED_UNITS_MAX_WANTED_CAP = 1000	-- Maximum wanted divisions for 
 -- DIVISION UPGRADES, DEPLOYMENT & TRAINING
 --------------------------------------------------
 NDefines.NAI.STOP_TRAINING_FULLY_TRAINED_FACTOR = 0.99  -- vanilla 0.95 | ai will not train if at least this ratio of divisions in the army are fully trained
-NDefines.NAI.UPGRADE_DIVISION_RELUCTANCE = 5  -- vanilla 7 | How often to consider upgrading to new templates for units in the field
-NDefines.NAI.UPGRADE_PERCENTAGE_OF_FORCES = 0.07  -- vanilla 0.20 | How big part of the army that should be considered for upgrading
-NDefines.NAI.UPGRADES_DEFICIT_LIMIT_DAYS = 90  -- vanilla 60 | Ai will avoid upgrading units in the field to new templates if it takes longer than this to fullfill their equipment need
+NDefines.NAI.UPGRADE_DIVISION_RELUCTANCE = 3  -- vanilla 7 | How often to consider upgrading to new templates for units in the field
+NDefines.NAI.UPGRADE_PERCENTAGE_OF_FORCES = 0.08  -- vanilla 0.20 | How big part of the army that should be considered for upgrading
+NDefines.NAI.UPGRADES_DEFICIT_LIMIT_DAYS = 120  -- vanilla 60 | Ai will avoid upgrading units in the field to new templates if it takes longer than this to fullfill their equipment need
 
 NDefines.NAI.LOW_PRIO_TEMPLATE_BONUS_FOR_GARRISONS = 300000  -- vanilla 1000 | bonus to make ai more likely to assign low prio units to garrisons
 NDefines.NAI.LOW_PRIO_TEMPLATE_PENALTY_FOR_FRONTS = -2000  -- vanilla 500 | penalty to make ai less likely to assign low prio units to fronts
@@ -103,8 +103,8 @@ NDefines.NAI.PRODUCTION_EQUIPMENT_SURPLUS_FACTOR_GARRISON = 0.2 -- Base value fo
 --------------------------------------------------
 NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.95  -- vanilla 0.7 | ai will not train a taskforce if fully trained ships are above this ratio | [VNR]
 NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 20  -- vanilla 5 | Max number of taskforces we desire for AI to put in each fleet that is training. | [VNR]
-NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.50  -- vanilla 0.20 | ai will use at most this ratio of affordable fuel for air training | [VNR]
-NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50  -- vanilla 0.20 | ai will use at most this ratio of affordable fuel for naval training | [VNR]
+NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.90  -- vanilla 0.20 | ai will use at most this ratio of affordable fuel for air training
+NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.60  -- vanilla 0.20 | ai will use at most this ratio of affordable fuel for naval training
 
 --------------------------------------------------
 -- RAILWAY GUNS

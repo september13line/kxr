@@ -70,6 +70,10 @@ heavy_armour_generic = {
 		upgrade_prio = {
 			base = 100
 			modifier = {
+				date < 1941.1.1
+				factor = 0
+			}
+			modifier = {
 				factor = 0
 				NOT = { has_tech = mechanised_infantry }
 			}

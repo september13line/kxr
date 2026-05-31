@@ -1168,7 +1168,7 @@ research_plane_modules = {
 	}
 	ai_strategy = {
 		type = research_tech
-		id = survivability_studies
+		id = aa_hmg
 		value = 100
 	}
 }
@@ -1183,7 +1183,7 @@ research_fighter_and_cas_2 = {
 
 	ai_strategy = {
 		type = research_tech
-		id = aa_hmg
+		id = survivability_studies
 		value = 100
 	}
 	ai_strategy = {
@@ -1393,6 +1393,66 @@ research_strat_3 = {
 	}
 }
 
+research_transport_1 = {
+	enable = {
+		date > 1938.1.1
+		is_major = yes
+		is_eligible_for_heavy_aircraft_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = bba_early_transport_plane
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = early_transport_plane
+		value = 100
+	}
+}
+
+research_transport_2 = {
+	enable = {
+		date > 1942.1.1
+		is_major = yes
+		is_eligible_for_heavy_aircraft_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = bba_improved_transport_plane
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = improved_transport_plane
+		value = 100
+	}
+}
+
+research_transport_3 = {
+	enable = {
+		date > 1945.1.1
+		is_major = yes
+		is_eligible_for_heavy_aircraft_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = bba_strategic_airlifter
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = strategic_airlifter
+		value = 100
+	}
+}
+
 ####################################################################################################
 #	OTHER
 ####################################################################################################
@@ -1430,7 +1490,7 @@ research_railway_guns = {
 	enable = {
 		date > 1939.1.1
 		is_major = yes
-		is_eligible_for_armor_production = yes
+		num_of_military_factories > 100
 	}
 	abort_when_not_enabled = yes
 

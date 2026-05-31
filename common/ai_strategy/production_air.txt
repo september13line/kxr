@@ -63,6 +63,36 @@ light_aircraft_production_winning_air_war = {
 	}
 }
 
+the_air_force_is_dead_jim = {
+	enable = {
+		is_eligible_for_light_aircraft_production = yes
+		has_war = yes
+		has_deployed_air_force_size = {
+			type = fighter
+			size < 100
+		}
+	}
+	abort = {
+		has_green_air = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = tactical_bomber
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -100
+	}
+}
+
 ####################################################################################################
 #	BOMBERS
 ####################################################################################################
@@ -210,12 +240,12 @@ other_aircraft_production = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = air_transport
-		value = 1
+		value = 2
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = scout_plane
-		value = 2
+		value = 3
 	}
 }
 
@@ -231,26 +261,5 @@ please_no_more_helis = {
 		type = equipment_variant_production_factor
 		id = kx_helicopter_equipment
 		value = -1000
-	}
-}
-
-GER_build_more_fighters = {
-	allowed = {
-		original_tag = GER
-	}
-	enable = {
-		INT = { is_faction_leader = yes }
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 120 #aim for 4:2 ratio of fighters to CAS
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 100
 	}
 }
