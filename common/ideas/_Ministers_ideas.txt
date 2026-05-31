@@ -87966,6 +87966,25 @@ ideas = {
 			}
 		}
 
+		FIN_Yrjo_Hautala_hog_rso = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Yrjo_Hautala_hog_rso"
+			}
+			traits = {
+				head_of_government
+				radical_socialist
+				hog_happy_amateur
+			}
+		}
+		
 		FIN_Karl_August_Fagerholm_hog_sde = {
 			allowed = { original_tag = FIN }
 			available = {
@@ -88388,6 +88407,25 @@ ideas = {
 			}
 		}
 
+		FIN_Vaino_Mustonen_for_rso = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Hannes_Pulkkinen_for_rso"
+			}
+			traits = {
+				foreign_minister
+				radical_socialist
+				for_biased_intellectual
+			}
+		}
+
 		FIN_Vaeinoe_Voionmaa_for_sde = {
 			allowed = { original_tag = FIN }
 			available = {
@@ -88655,7 +88693,26 @@ ideas = {
 				eco_administrative_genius
 			}
 		}
-
+		
+		FIN_Veikko_Vennamo_eco_rso = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Veikko_Vennamo_eco_rso"
+			}
+			traits = {
+				economy_minister
+				radical_socialist
+				eco_administrative_genius
+			}
+		}
+		
 		FIN_Frans_Hiilos_eco_rso = {
 			allowed = { original_tag = FIN }
 			available = {
@@ -89078,6 +89135,25 @@ ideas = {
 			}
 		}
 
+		FIN_Yrjo_Leino_sec_rso = {
+			allowed = { original_tag = FIN }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea FIN_Yrjo_Leino_sec_rso"
+			}
+			traits = {
+				security_minister
+				radical_socialist
+				sec_man_of_the_people
+			}
+		}
+		
 		FIN_Kaarlo_Heinonen_sec_sde = {
 			allowed = { original_tag = FIN }
 			available = {
