@@ -36863,7 +36863,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_goal_CSA_dye_bonus_army_red_2_shine"
+		name = "GFX_goal_CSA_dye_bonus_army_red_2_shine"
 		texturefile = "gfx/interface/goals/goal_CSA_dye_bonus_army_red_2.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -106321,6 +106321,37 @@ SpriteType = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
+		name = "GFX_goal_CAN_global_empire_shine"
+		texturefile = "gfx/interface/goals/CAN_global_empire.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CAN_global_empire.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CAN_global_empire.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
 		name = "GFX_goal_CAN_coronation_shine"
 		texturefile = "gfx/interface/goals/CAN_coronation.png"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -114306,6 +114337,37 @@ SpriteType = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_YUC_Free_Central_America.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_goal_YUC_Secure_Sovereignity_shine"
+		texturefile = "gfx/interface/goals/goal_YUC_Secure_Sovereignity.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_YUC_Secure_Sovereignity.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_YUC_Secure_Sovereignity.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
