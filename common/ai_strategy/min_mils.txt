@@ -16,8 +16,8 @@ infantry_min_production_2 = {
 	enable = { num_of_military_factories > 20 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 5 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 2 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 6 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 2 }
 }
 
@@ -25,22 +25,19 @@ infantry_min_production_3 = {
 	enable = { num_of_military_factories > 30 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 3 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 2 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 2 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
 }
 
 infantry_min_production_4 = {
 	enable = { num_of_military_factories > 40 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 2 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 2 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_tank_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
 }
 
@@ -48,9 +45,8 @@ infantry_min_production_5 = {
 	enable = { num_of_military_factories > 50 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 2 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_tank_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
@@ -60,8 +56,7 @@ infantry_min_production_6 = {
 	enable = { num_of_military_factories > 60 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 2 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_tank_equipment 	value = 1 }
@@ -83,46 +78,129 @@ infantry_min_production_8 = {
 	enable = { num_of_military_factories > 80 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
+	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 2 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_tank_equipment 	value = 1 }
 	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
 }
 
-infantry_min_production_9 = {
-	enable = { num_of_military_factories > 90 }
+####################################################################################################
+#	MINIMUM MILS: PLANES
+####################################################################################################
+
+planes_min_production_1 = {
+	enable = { num_of_military_factories > 25 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment 		value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_air_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = anti_tank_equipment 	value = 1 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 3 }
 }
 
-infantry_min_production_10 = {
+planes_min_production_2 = {
+	enable = { num_of_military_factories > 40 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 3 }
+}
+
+planes_min_production_3 = {
+	enable = { num_of_military_factories > 55 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 3 }
+}
+
+planes_min_production_4 = {
+	enable = { num_of_military_factories > 70 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 3 }
+}
+
+planes_min_production_5 = {
+	enable = { num_of_military_factories > 85 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 3 }
+}
+
+planes_min_production_6 = {
 	enable = { num_of_military_factories > 100 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 2 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = motorized_equipment 	value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 2 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
 }
 
-infantry_min_production_11 = {
-	enable = { num_of_military_factories > 110 }
+planes_min_production_7 = {
+	enable = { num_of_military_factories > 115 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 2 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment	value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 2 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
 }
 
-infantry_min_production_12 = {
-	enable = { num_of_military_factories > 120 }
+planes_min_production_8 = {
+	enable = { num_of_military_factories > 130 }
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = equipment_production_min_factories_archetype id = infantry_equipment 	value = 2 }
-	ai_strategy = { type = equipment_production_min_factories_archetype id = support_equipment	 	value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 2 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_9 = {
+	enable = { num_of_military_factories > 145 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 2 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_10 = {
+	enable = { num_of_military_factories > 160 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 2 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_11 = {
+	enable = { num_of_military_factories > 175 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_12 = {
+	enable = { num_of_military_factories > 190 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_13 = {
+	enable = { num_of_military_factories > 205 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_14 = {
+	enable = { num_of_military_factories > 220 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
+}
+
+planes_min_production_15 = {
+	enable = { num_of_military_factories > 235 }
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = equipment_production_min_factories			id = fighter 				value = 1 }
+	ai_strategy = { type = equipment_production_min_factories			id = cas 					value = 1 }
 }
 
 ####################################################################################################

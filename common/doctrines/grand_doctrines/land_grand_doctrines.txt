@@ -11,13 +11,24 @@ new_mobile_warfare = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0.5
-			is_major = no
-		}
-	}
+    ai_will_do = {
+        base = 1
+        modifier = {
+            factor = 0
+            is_major = no
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                tag = CAN
+                tag = NFA
+                tag = JAP
+                is_russian_tag = yes
+                is_han_chinese_tag = yes
+                is_indian_tag = yes
+            }
+        }
+    }
 
 	tracks = {
 		infantry
@@ -117,10 +128,6 @@ superior_firepower = {
 
 	ai_will_do = {
 		base = 1
-		modifier = {
-			factor = 0.5
-			is_major = no
-		}
 	}
 
 	tracks = {
@@ -233,7 +240,9 @@ grand_battleplan = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 2 }
+	ai_will_do = {
+		base = 1
+	}
 
 	tracks = {
 		infantry
@@ -332,23 +341,26 @@ mass_assault = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = {
-		base = 1
-		modifier = {
-			factor = 0.5
-			is_major = no
-		}
-		modifier = {
-			factor = 100
-			OR = {
-				tag = QIE
-				tag = CHI
-				tag = LEP
-				tag = ANQ
-				tag = SQI
-			}
-		}
-	}
+    ai_will_do = {
+        base = 1
+        modifier = {
+            factor = 0
+            AND = {
+                is_russian_tag = no
+                is_han_chinese_tag = no
+                is_indian_tag = no
+                NOT = {tag = BRA}
+                NOT = {tag = CSA}
+                NOT = {tag = COR}
+                NOT = {tag = TEX}
+                NOT = {tag = JAP}
+                NOT = {tag = FRA}
+                NOT = {tag = SRI}
+                NOT = {tag = CNT}
+                NOT = {tag = GRU}
+            }
+        }
+    }
 
 	tracks = {
 		infantry

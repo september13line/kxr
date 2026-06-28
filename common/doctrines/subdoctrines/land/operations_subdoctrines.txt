@@ -82,7 +82,24 @@ last_stand = {
 	# EFFECTS
 	conscription = 0.05
 
-	ai_will_do = { base = 1 }
+	ai_will_do = {
+		base = 3
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_doctrine = defensive_postures
+				has_doctrine = great_war_infantry
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_doctrine = mass_assault
+		}
+		modifier = {
+			factor = 0
+			has_doctrine = new_mobile_warfare
+		}
+	}
 
 	rewards = {
 		werwolf_groups = {
@@ -129,12 +146,13 @@ infiltration_tactics = {
 	xp_type = army
 
 	ai_will_do = {
-		base = 2
+		base = 3
 		modifier = {
-			factor = 250
+			factor = 1.5
 			OR = {
-				tag = MON
-				tag = XSM
+				has_doctrine = defensive_postures
+				has_doctrine = assault_infantry
+				has_doctrine = great_war_infantry
 			}
 		}
 	}
@@ -560,31 +578,7 @@ guerilla_war = {
 	visible = {
 		has_dlc_ncns = yes
 	}
-	ai_will_do = {
-		base = 2
-		modifier = {
-			factor = 0
-			is_major = yes
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_template_containing_unit = irregular_infantry
-				has_template_containing_unit = militia
-			}
-		}
-		modifier = {
-			factor = 500
-			OR = {
-				tag = CHI
-				tag = GXC
-				tag = ANQ
-				tag = SHX
-				tag = SZC
-				tag = SQI
-			}
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	# EFFECTS
 	enable_tactic = tactic_guerrilla_tactics
@@ -667,7 +661,24 @@ rapid_domination = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 300 }
+	ai_will_do = {
+		base = 3
+		modifier = {
+			factor = 0
+			is_major = no
+		}
+		modifier = {
+            factor = 0
+            OR = {
+                tag = CAN
+                tag = NFA
+            }
+        }
+		modifier = {
+			factor = 1.5
+			has_doctrine = superior_firepower
+		}
+	}
 
 	# EFFECTS
 	enable_tactic = tactic_breakthrough
@@ -812,7 +823,7 @@ dispersed_operations = {
 		has_dlc_taog = yes
 	}
 
-	ai_will_do = { base = 1 }
+	ai_will_do = { base = 0 }
 
     # EFFECTS
 	enemy_army_bonus_air_superiority_factor = -0.10

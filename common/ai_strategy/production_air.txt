@@ -15,12 +15,16 @@ light_aircraft_production_default = {
 	ai_strategy = { type = unit_ratio id = cas value = 30 }
 }
 
-light_aircraft_production_losing_air_war = {
+light_aircraft_production_air_war_ongoing = {
 	enable = {
 		is_eligible_for_light_aircraft_production = yes
+		date > 1939.1.1
 		has_war = yes
 		any_enemy_country = { is_major = yes }
-		has_red_air = yes
+		OR = {
+			has_yellow_air = yes
+			has_red_air = yes
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -30,18 +34,29 @@ light_aircraft_production_losing_air_war = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 50
+		value = 25
 	}
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
-		value = -50
+		value = -25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = tactical_bomber
+		value = -25
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -25
 	}
 }
 
-light_aircraft_production_winning_air_war = {
+light_aircraft_production_air_war_won = {
 	enable = {
 		is_eligible_for_light_aircraft_production = yes
+		date > 1939.1.1
 		has_war = yes
 		any_enemy_country = { is_major = yes }
 		has_green_air = yes
@@ -63,17 +78,20 @@ light_aircraft_production_winning_air_war = {
 	}
 }
 
-the_air_force_is_dead_jim = {
+light_aircraft_production_air_war_lost = {
 	enable = {
 		is_eligible_for_light_aircraft_production = yes
+		date > 1939.1.1
 		has_war = yes
-		has_deployed_air_force_size = {
-			type = fighter
-			size < 100
-		}
+		any_enemy_country = { is_major = yes }
+		has_red_air = yes
+		the_air_force_is_dead_jim = yes
 	}
 	abort = {
-		has_green_air = yes
+		OR = {
+			has_green_air = yes
+			has_yellow_air = yes
+		}
 	}
 
 	ai_strategy = {
@@ -91,6 +109,26 @@ the_air_force_is_dead_jim = {
 		id = strategic_bomber
 		value = -100
 	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = naval_bomber
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = maritime_patrol_plane
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = air_transport
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = scout_plane
+		value = -100
+	}
 }
 
 ####################################################################################################
@@ -103,6 +141,11 @@ tac_bomber_production_default = {
 	}
 	abort_when_not_enabled = yes
 
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 25
+	}
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
@@ -140,6 +183,11 @@ strat_bomber_air_production_default = {
 	}
 	abort_when_not_enabled = yes
 
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 25
+	}
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
@@ -245,21 +293,6 @@ other_aircraft_production = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = scout_plane
-		value = 3
-	}
-}
-
-####################################################################################################
-# KX AIR PROD
-####################################################################################################
-
-please_no_more_helis = {
-	enable = { always = yes }
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = kx_helicopter_equipment
-		value = -1000
+		value = 2
 	}
 }

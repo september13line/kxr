@@ -249,19 +249,19 @@ assault_infantry = {
 	xp_type = army
 
 	ai_will_do = {
-		base = 200
+		base = 5
 		modifier = {
 			factor = 2
 			is_major = yes
 			has_doctrine = superior_firepower
 		}
 		modifier = {
-            factor = 2
-            OR = {
-                tag = CAN
-                tag = NFA
-            }
-        }
+			factor = 2
+			OR = {
+				tag = CAN
+				tag = NFA
+			}
+		}
 	}
 
 	# EFFECTS
@@ -415,13 +415,6 @@ mounted_infantry = {
 				tag = TRK
 				tag = UZB
 				tag = ALO
-				tag = MON
-				tag = XSM
-			}
-		}
-		modifier = {
-			factor = 200
-			OR = {
 				tag = MON
 				tag = XSM
 			}
@@ -648,24 +641,7 @@ irregulars = {
 		}
 	}
 
-	ai_will_do = {
-		base = 5
-		modifier = {
-			factor = 0
-			is_major = yes
-		}
-		modifier = {
-			factor = 200
-			OR = {
-				tag = CHI
-				tag = GXC
-				tag = ANQ
-				tag = QIE
-				tag = SQI
-				tag = SZC
-			}
-		}
-	}
+	ai_will_do = { base = 0 }
 
 	irregular_infantry = {
 		defense = 0.1

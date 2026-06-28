@@ -386,6 +386,106 @@ research_infantry_techs_7 = {
 	}
 }
 
+research_mountaineers_1 = {
+	enable = {
+		date > 1937.1.1
+		has_terrain = mountain
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = tech_mountaineers
+		value = 100
+	}
+}
+
+research_mountaineers_2 = {
+	enable = {
+		date > 1940.1.1
+		has_terrain = mountain
+		OR = {
+			has_doctrine = mountaineers_1
+			has_doctrine = mountaineers_2
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = tech_mountaineers2
+		value = 100
+	}
+}
+
+research_mountaineers_3 = {
+	enable = {
+		date > 1943.1.1
+		has_terrain = mountain
+		OR = {
+			has_doctrine = mountaineers_1
+			has_doctrine = mountaineers_2
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = tech_mountaineers3
+		value = 100
+	}
+}
+
+research_marines_1 = {
+	enable = {
+		date > 1937.1.1
+		is_naval_power = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = marines
+		value = 100
+	}
+}
+
+research_marines_2 = {
+	enable = {
+		date > 1940.1.1
+		is_naval_power = yes
+		OR = {
+			has_doctrine = marines_1
+			has_doctrine = marines_2
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = marines2
+		value = 100
+	}
+}
+
+research_marines_3 = {
+	enable = {
+		date > 1943.1.1
+		is_naval_power = yes
+		OR = {
+			has_doctrine = marines_1
+			has_doctrine = marines_2
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = marines3
+		value = 100
+	}
+}
+
 ####################################################################################################
 #	ARTILLERY
 ####################################################################################################
@@ -1248,6 +1348,60 @@ research_fighter_and_cas_3 = {
 	}
 }
 
+research_torpedoes_1 = {
+	enable = {
+		date > 1937.1.1
+		is_major = yes
+		OR = {
+			is_eligible_for_naval_aircraft_production = yes
+			is_eligible_for_cv_aircraft_production = yes
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = air_torpedoe_1
+		value = 100
+	}
+}
+
+research_torpedoes_2 = {
+	enable = {
+		date > 1940.1.1
+		is_major = yes
+		OR = {
+			is_eligible_for_naval_aircraft_production = yes
+			is_eligible_for_cv_aircraft_production = yes
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = air_torpedoe_2
+		value = 100
+	}
+}
+
+research_torpedoes_3 = {
+	enable = {
+		date > 1944.1.1
+		is_major = yes
+		OR = {
+			is_eligible_for_naval_aircraft_production = yes
+			is_eligible_for_cv_aircraft_production = yes
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = air_torpedoe_3
+		value = 100
+	}
+}
+
 ####################################################################################################
 #	BIG AIRCRAFT
 ####################################################################################################
@@ -1453,6 +1607,21 @@ research_transport_3 = {
 	}
 }
 
+research_scout_planes = {
+	enable = {
+		date > 1940.1.1
+		is_major = yes
+		is_eligible_for_medium_aircraft_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = photo_reconnaisance
+		value = 100
+	}
+}
+
 ####################################################################################################
 #	OTHER
 ####################################################################################################
@@ -1531,6 +1700,21 @@ research_silly_armored_cars = {
 	}
 }
 
+research_rockets = {
+	enable = {
+		date > 1941.1.1
+		is_major = yes
+		is_eligible_for_armor_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = rocket_artillery
+		value = 100
+	}
+}
+
 research_le_funny_katyusha = {
 	enable = {
 		date > 1942.1.1
@@ -1543,11 +1727,6 @@ research_le_funny_katyusha = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = {
-		type = research_tech
-		id = rocket_artillery
-		value = 100
-	}
 	ai_strategy = {
 		type = research_tech
 		id = motorized_rocket_unit

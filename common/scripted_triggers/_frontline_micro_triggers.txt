@@ -1,9 +1,18 @@
 has_green_air = {
-	has_country_flag = FAI_green_air
+	has_country_flag = FAI_strong_green_air
+}
+
+has_yellow_air = {
+	NOT = { has_country_flag = FAI_strong_green_air }
+	has_country_flag = FAI_weak_green_air
 }
 
 has_red_air = {
-	NOT = { has_country_flag = FAI_green_air }
+	NOT = { has_country_flag = FAI_weak_green_air }
+}
+
+the_air_force_is_dead_jim = {
+	has_deployed_air_force_size = { type = fighter	size < 100 }
 }
 
 has_manpower_and_equipment_surplus = {

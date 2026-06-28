@@ -7,7 +7,14 @@ fire_concentration = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 100 }
+	ai_will_do = {
+		base = 2
+		modifier = {
+			factor = 1.5
+			is_major = yes
+			has_doctrine = superior_firepower
+		}
+	}
 
 	 # EFFECTS
 	enable_tactic = tactic_overwhelming_fire
@@ -415,7 +422,7 @@ mobile_recon_and_assault_no_lar = {
 	}
 
 	ai_will_do = {
-		base = 3
+		base = 2
 		modifier = {
 			factor = 0
 			NOT = {has_doctrine = new_mobile_warfare}
