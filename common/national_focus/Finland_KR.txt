@@ -3222,7 +3222,10 @@ focus_tree = {
 			focus = FIN_sihvo_plan
 		}
 		available = {
-			has_socialist_government = no
+			OR = {
+				has_socialist_government = no
+				has_idea = FIN_Yrjo_Hautala_hog_rso
+			}
 			has_country_flag = FIN_army_chief_mannerheim
 		}
 		completion_reward = {
@@ -8100,6 +8103,7 @@ focus_tree = {
 			owns_state = 1327
 			owns_state = 909
 			owns_state = 937
+			NOT = { has_cosmetic_tag = FIN_matti_europe }
 		}	
 		prerequisite = {
 			focus = FIN_attack_norway

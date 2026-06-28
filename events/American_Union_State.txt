@@ -345,7 +345,7 @@ country_event = { # Replace Charles Coughlin?
 	immediate = {log = "[GetDateText]: [Root.GetName]: event unionstate.11"}
 	title = unionstate.11.t
 	desc = unionstate.11.d
-	picture = GFX_report_event_USA_father_coughlin
+	picture = GFX_event_TEX_coughlin_speech
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -6205,12 +6205,19 @@ country_event = { #Can Coughlin Hold Office?
 		increase_ruling_party_popularity_by_5 = yes
 		add_stability = -0.03
 		add_political_power = -20
+		set_country_flag = TEX_coughlin_allowed
 	}
 
 	option = { #Make an Exception
 		name = unionstate.5120.b
 		add_stability = -0.01
 		add_political_power = 10
+		set_country_flag = TEX_coughlin_allowed
+		custom_effect_tooltip = TEX_rightism_tooltip
+		modify_country_flag = {
+			flag = AFP_leftism
+			value = 1
+		}
 	}
 	
 	option = { #No, he is foreign!
@@ -9218,8 +9225,8 @@ country_event = { # Hahaha Huey goes BOOM
 				TEX_Martin_Carmody_sec_npo
 			}
 			create_country_leader = {
-				name = "Earl Kemp Long"
-				desc = "POLITICS_EARL_KEMP_LONG_DESC"
+				name = "Earl Long"
+				desc = "POLITICS_EARL_LONG_DESC"
 				picture = "gfx/leaders/TEX/Portrait_TEX_Earl_Kemp_Long.png"
 				expire = "1.1.1"
 				ideology = longism_subtype

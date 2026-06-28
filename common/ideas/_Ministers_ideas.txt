@@ -27197,6 +27197,24 @@ ideas = {
 				hog_vanguardist_worker
             }
         }
+		AST_Richard_Dixon_hog_tot = {
+            allowed = { original_tag = AST }
+            available = {
+                custom_trigger_tooltip = {
+                    tooltip = head_of_gov_available
+                    always = no
+                }
+            }
+            cancel_if_invalid = no
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea AST_Richard_Dixon_hog_tot" 
+            }
+            traits = {
+                totalist
+                head_of_government
+				hog_ambitious_union_boss
+            }
+        }
 	}
 	person_of_influence = { ### Person of Influence ###
 		## Foreign Minister ##
