@@ -10125,16 +10125,36 @@ focus_tree = {
 			}
 			custom_effect_tooltip = tooltip_white_line
 			add_ideas = UCH_navy
-			195 = { #Petrograd
-				add_building_construction = {
-					type = naval_facility
-					level = 1
-					instant_build = yes
+			if = {
+				limit = {
+					controls_province = 9097 #near Petrograd
+					195 = { #Petrograd
+						is_owned_and_controlled_by = ROOT
+						can_construct_building = naval_facility
+					}
+				}
+				195 = { #Petrograd
+					add_building_construction = {
+						type = naval_facility
+						level = 1
+						province = 9097 #near Petrograd
+						instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					prioritize = { 195 408 }
+					limit = {
+						is_core_of = ROOT
+						can_construct_building = naval_facility
+					}
+					construct_building_in_random_province = { naval_facility = 1 }
 				}
 			}
 			custom_effect_tooltip = tooltip_white_line
 			if = {
-				limit = { RUS = { has_socialist_government = no } }
+				limit = { RUS = { both_socialist_or_both_not_socialist = yes } }
 				RUS = { 
 					every_navy_leader = { 
 						set_unit_leader_flag = RUS_navy_leader
@@ -10396,26 +10416,6 @@ focus_tree = {
 			UCH_organize_admin = yes
 			RUS_remove_all_autonomies = yes
 			add_ideas = one_and_indivisible		
-			hidden_effect = {
-				every_possible_country = {
-					limit = { 
-						NOT = { tag = ROOT }
-						OR = {
-							is_central_asian_tag = yes
-							original_tag = DKB
-							original_tag = KUB
-							original_tag = KLY
-							original_tag = MTR
-							original_tag = GEO
-							original_tag = AZE
-							original_tag = ARM
-							original_tag = CRM
-							original_tag = MON
-						}
-					}
-					ROOT = { activate_targeted_decision = { target = PREV decision = RUS_Attack_Country_default } }
-				}
-			}
 		}
 		ai_will_do = {
 			base = 100
@@ -10537,7 +10537,7 @@ focus_tree = {
 			if = {
 				limit = {
 					country_exists = LAT
-					LIT = { is_subject = no }
+					LAT = { is_subject = no }
 				}
 				custom_effect_tooltip = unlocks_decision
 				custom_effect_tooltip = RUS_Attack_Eastern_Europe_LAT_tooltip
@@ -10545,7 +10545,7 @@ focus_tree = {
 			if = {
 				limit = {
 					country_exists = EST
-					LIT = { is_subject = no }
+					EST = { is_subject = no }
 				}
 				custom_effect_tooltip = unlocks_decision
 				custom_effect_tooltip = RUS_Attack_Eastern_Europe_EST_tooltip
@@ -10591,6 +10591,25 @@ focus_tree = {
 			activate_targeted_decision = { target = WSU decision = RUS_Attack_Country_default }
 			activate_targeted_decision = { target = POL decision = RUS_Attack_Country_default }
 			activate_targeted_decision = { target = FIN decision = RUS_Attack_Country_default }
+			every_possible_country = {
+				limit = { 
+					NOT = { tag = ROOT }
+					OR = {
+						is_central_asian_tag = yes
+						original_tag = DKB
+						original_tag = KUB
+						original_tag = KLY
+						original_tag = MTR
+						original_tag = GEO
+						original_tag = ABK
+						original_tag = AZE
+						original_tag = ARM
+						original_tag = CRM
+						original_tag = MON
+					}
+				}
+				ROOT = { activate_targeted_decision = { target = PREV decision = RUS_Attack_Country_default } }
+			}
 		}
 	}
 	focus = {
@@ -10731,6 +10750,7 @@ focus_tree = {
 				}
 				activate_targeted_decision = { target = ETS decision = RUS_Invite_East_Turkestan }
 			}
+			custom_effect_tooltip = tooltip_white_line
 			if = {
 				limit = { ROOT = { is_in_faction_with = ENT } }
 				activate_targeted_decision = { target = DEH decision = RUS_Support_PRF }
@@ -10879,6 +10899,20 @@ focus_tree = {
 						}
 					}
 				}
+				add_ideas = rus_state_revanchism
+				every_other_country = {
+					limit = {
+						is_in_europe = yes
+						is_subject = no
+						NOT = {
+							original_tag = BUL
+							original_tag = GRE
+							original_tag = ALB
+						}
+						is_ally_of_ROOT = no
+					}
+					ROOT = { activate_targeted_decision = { target = PREV decision = RUS_Attack_Country_default } }
+				}
 			}
 		}
 	}
@@ -10909,6 +10943,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus TRM_Finish_The_Turks"
 			add_war_support = 0.05
 			unlock_decision_tooltip = RUS_Claim_The_Straits
+			unlock_decision_tooltip = RUS_Claim_Greater_Armenia
 			unlock_decision_tooltip = RUS_Attack_Ottomans
 			custom_effect_tooltip = tooltip_white_line
 			if = {
@@ -11062,9 +11097,9 @@ focus_tree = {
 				}
 				every_country = {
 					limit = {
-						has_country_flag = RUS_rostorg_rejected
+						has_country_flag = RUS_invited_to_rostorg
 					}
-					clr_country_flag = RUS_rostorg_rejected
+					clr_country_flag = RUS_invited_to_rostorg
 				}
 			}
 			add_to_tech_sharing_group = russian_research

@@ -9718,7 +9718,7 @@ ideas = {
 				hog_respected_war_hero
 			}
 		}
-		RUS_Patriarch_Kirill_hog_pau = {
+		RUS_Patriarch_Isaac_hog_pau = {
 			allowed = { original_tag = RUS }
 			available = {
 				custom_trigger_tooltip = {
@@ -9728,7 +9728,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea RUS_Patriarch_Kirill_hog_pau"
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Patriarch_Isaac_hog_pau"
 			}
 			traits = {
 				head_of_government
@@ -16199,12 +16199,12 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = military_staff_available
 					NOT = { has_country_flag = Aleksandr_Kolchak_dead }
-					any_unit_leader = { has_trait = TRM_admiral_kolchak }
+					any_unit_leader = { has_trait = TRM_admiral_kolchak_trait }
 				}
 			}
 			visible = {
 				NOT = { has_country_flag = Aleksandr_Kolchak_dead }
-				any_unit_leader = { has_trait = TRM_admiral_kolchak }
+				any_unit_leader = { has_trait = TRM_admiral_kolchak_trait }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea TRM_Aleksandr_Kolchak_cnav_pau"
@@ -20959,6 +20959,120 @@ ideas = {
 			}
 		}
 		
+		ALA_Simon_Guggenheim_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_Simon_Guggenheim_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_corporate_suit
+			}
+		}
+		
+		ALA_George_Denver_Guggenheim_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_George_Denver_Guggenheim_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_political_protege
+			}
+		}
+		
+		ALA_John_Pierpont_Morgan_Jr_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_John_Pierpont_Morgan_Jr_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_financial_expert
+			}
+		}
+		
+		ALA_Junius_Spencer_Morgan_III_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_Junius_Spencer_Morgan_III_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_respected_war_hero
+			}
+		}
+		
+		ALA_Henry_Sturgis_Morgan_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_Henry_Sturgis_Morgan_hog_pau" 
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_hooded_chairman
+			}
+		}
+		
+		ALA_Segundo_Llorente_hog_pau = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDatext]: [Root.GetName]: add idea ALA_Segundo_Llorente_hog_pau"
+			}
+			traits = {
+				head_of_government
+				paternal_autocrat
+				hog_spiritual_leader
+			}
+		}
+		
 		ALA_Yasuyo_Yamasaki_hog_npo = {
 			allowed = { original_tag = ALA }
 			available = {
@@ -21192,6 +21306,25 @@ ideas = {
 		}
 		
 		## Economy Minister ##
+		ALA_Lowell_Wakefield_eco_tot = {
+			allowed = { original_tag = ALA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ALA_Lowell_Wakefield_eco_tot" 
+			}
+			traits = {
+				economy_minister
+				totalist
+				eco_resource_industrialist
+			}
+		}
+		
 		ALA_George_Lane_eco_syn = {
 			allowed = { original_tag = ALA }
 			available = {
@@ -26345,6 +26478,25 @@ ideas = {
 				hog_pragmatic_statesman
             }
         }
+
+		AST_Keith_Murdoch_hog_sco = {
+			allowed = { original_tag = AST }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea AST_Keith_Murdoch_hog_sli" 
+			}
+			traits = {
+                social_conservative
+                head_of_government
+				hog_flamboyant_tough_guy
+			}
+		}
 		
 		AST_Charles_Merrett_hog_sli = {
 			allowed = { original_tag = AST }
@@ -82988,24 +83140,6 @@ ideas = {
 				hog_anti_establishment_maverick
 			}
 		}
-		ENG_Hilaire_Belloc_hog_pau = {
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = head_of_gov_available
-					always = no
-				}
-			}
-			cancel_if_invalid = no
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Tony_Greenwood_hog_sde"
-			}
-			traits = {
-				head_of_government
-				paternal_autocrat
-				hog_happy_amateur
-			}
-		}
 		ENG_Percy_Hobart_hog_pau = {
 			allowed = { original_tag = ENG }
 			available = {
@@ -83369,7 +83503,7 @@ ideas = {
 			}
 		}
 
-		ENG_Evelyn_Waugh_for_pau = {
+		ENG_Arthur_Kenneth_Chesterton_for_pau = {
 			allowed = { original_tag = ENG }
 			available = {
 				custom_trigger_tooltip = {
@@ -83379,12 +83513,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Ishbel_MacDonald_for_sde"
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Arthur_Kenneth_Chesterton_for_pau"
 			}
 			traits = {
 				foreign_minister
 				paternal_autocrat
-				for_biased_intellectual
+				for_ideological_crusader
 			}
 		}
 		ENG_William_Brittain_for_npo = {
@@ -83445,7 +83579,7 @@ ideas = {
 			}
 		}
 
-		ENG_Hilaire_Belloc_eco_pau = {
+		ENG_George_Henry_de_Vere_Drummond_eco_pau = {
 			allowed = { original_tag = ENG }
 			available = {
 				custom_trigger_tooltip = {
@@ -83455,12 +83589,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Alexander_Raven_Thomson_eco_tot"
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_George_Henry_de_Vere_Drummond_eco_pau"
 			}
 			traits = {
 				economy_minister
 				paternal_autocrat
-				eco_reformer
+				eco_bank_president
 			}
 		}
 		ENG_John_Amery_eco_npo = {
@@ -83785,7 +83919,7 @@ ideas = {
 
 
 		## Security Minister ##
-		ENG_TS_Elliot_sec_pau = {
+		ENG_Robert_Byron_Drury_Blakeney_sec_pau = {
 			allowed = { original_tag = ENG }
 			available = {
 				custom_trigger_tooltip = {
@@ -83795,12 +83929,12 @@ ideas = {
 			}
 			cancel_if_invalid = no
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Eric_Blair_sec_tot"
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Robert_Byron_Drury_Blakeney_sec_pau"
 			}
 			traits = {
 				security_minister
 				paternal_autocrat
-				sec_great_soul
+				sec_crime_fighter
 			}
 		}
 		ENG_Walter_Guinness_sec_pau = {
@@ -94867,22 +95001,6 @@ ideas = {
 			traits = {
 				chief_of_navy
 				cnav_indirect_approach_doctrine
-			}
-			cancel_if_invalid = yes
-		}
-
-		FRA_Jean_Moulin_cnav = {
-			allowed = { original_tag = FRA }
-			available = { }
-			visible = {
-				NOT = { has_country_flag = Jean_Moulin_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea FRA_Jean_Moulin_cnav"
-			}
-			traits = {
-				chief_of_navy
-				cnav_open_seas_doctrine
 			}
 			cancel_if_invalid = yes
 		}
@@ -160123,7 +160241,7 @@ ideas = {
 			allowed = { original_tag = NFA }
 			available = { }
 			visible = {
-				NOT = { has_country_flag = Francois_de_la_Rocque_dead }
+				NOT = { has_country_flag = NFA_le_colonel_dead }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea NFA_Francois_de_la_Rocque_carm_ade"

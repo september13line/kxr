@@ -12793,7 +12793,7 @@ country_event = { #Halsey returns
 		name = NYC_flavor.58.a
 		USA = {
 			random_unit_leader = {
-				limit = { has_trait = USA_admiral_halsey }
+				limit = { has_trait = USA_admiral_halsey_trait }
 				set_nationality = ROOT 
 			}
 		}
@@ -14608,6 +14608,7 @@ country_event = { #Peacing out event
 	trigger = {
 		has_war_with = NYC
 		NYC = {
+			is_subject = no
 			is_ai = yes
 			is_in_faction = yes
 			has_capitulated = yes
