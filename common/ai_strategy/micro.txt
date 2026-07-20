@@ -7,7 +7,7 @@
 ai_we_winning_big_time = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio > 1.25
 		has_green_air = yes
@@ -54,7 +54,7 @@ ai_we_winning_big_time = {
 ai_we_winning = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio > 1.25
 		OR = {
@@ -116,7 +116,7 @@ ai_we_winning = {
 ai_we_kinda_winning = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio > 1.25
 		OR = {
@@ -190,7 +190,7 @@ ai_we_kinda_winning = {
 ai_we_stalemating = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio < 1.25
 		alliance_strength_ratio > 0.75
@@ -274,7 +274,7 @@ ai_we_stalemating = {
 ai_we_kinda_losing = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio < 0.75
 		OR = {
@@ -349,7 +349,7 @@ ai_we_kinda_losing = {
 ai_we_losing = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio < 0.75
 		OR = {
@@ -412,7 +412,7 @@ ai_we_losing = {
 ai_we_losing_big_time = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = no
 		alliance_strength_ratio < 0.75
 		has_red_air = yes
@@ -464,7 +464,7 @@ ai_we_losing_big_time = {
 ai_we_civil_warring = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = yes
+		is_civil_warring = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -519,7 +519,7 @@ ai_we_civil_warring = {
 ai_we_replenishing = {
 	enable = {
 		has_war = yes
-		has_an_actual_kx_civil_war = no
+		is_civil_warring = no
 		has_manpower_or_equipment_crisis = yes
 	}
 	abort_when_not_enabled = yes

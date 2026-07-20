@@ -39,7 +39,8 @@ motorized_infantry = {
 			}
 
 			regimental_support = {
-				field_guns = 1
+				field_guns = 2
+				anti_tank_battery = 1
 			}
 		}
 	}
@@ -61,12 +62,7 @@ motorized_infantry = {
 			}
             modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = combat_support }
-					NOT = { has_subdoctrine_in_track = armor }
-					NOT = { has_subdoctrine_in_track = operations }
-				}
+				has_four_subdoctrine_tracks = no
 			}
             modifier = {
 				factor = 0
@@ -87,8 +83,6 @@ motorized_infantry = {
 				artillery = 1
 				anti_air = 1
 				engineer = 1
-				field_hospital = 1
-				logistics_company = 1
 			}
 
 			regimental_support = {
@@ -116,12 +110,7 @@ motorized_infantry = {
 			}
             modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = combat_support }
-					NOT = { has_subdoctrine_in_track = armor }
-					NOT = { has_subdoctrine_in_track = operations }
-				}
+				has_four_subdoctrine_tracks = no
 			}
 			modifier = {
 				factor = 0
@@ -140,10 +129,10 @@ motorized_infantry = {
 
 			support = {
 				anti_air = 1
-				engineer = 1
+				mot_recon = 1
+				armored_engineer = 1
 				field_hospital = 1
 				logistics_company = 1
-				signal_company = 1
 			}
 
 			regimental_support = {
@@ -160,7 +149,7 @@ motorized_infantry = {
 		upgrade_prio = {
 			base = 100
 			modifier = {
-				date < 1943.1.1
+				date < 1942.1.1
 				factor = 0
 			}
 			modifier = {
@@ -169,12 +158,7 @@ motorized_infantry = {
 			}
             modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = combat_support }
-					NOT = { has_subdoctrine_in_track = armor }
-					NOT = { has_subdoctrine_in_track = operations }
-				}
+				has_four_subdoctrine_tracks = no
 			}
 			modifier = {
 				factor = 0
@@ -193,10 +177,10 @@ motorized_infantry = {
 
 			support = {
 				anti_air = 1
+				mot_recon = 1
 				armored_engineer = 1
 				field_hospital = 1
 				logistics_company = 1
-				signal_company = 1
 			}
 
 			regimental_support = {

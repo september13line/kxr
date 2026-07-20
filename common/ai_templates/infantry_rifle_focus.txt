@@ -88,12 +88,12 @@ mass_infantry = {
 
 			support = {
 				artillery = 1
+				anti_air = 1
 				engineer = 1
 			}
 
 			regimental_support = {
-				fire_support = 1
-				anti_air_battery = 1
+				fire_support = 3
 			}
 		}
 	}
@@ -103,6 +103,10 @@ mass_infantry = {
 		
 		upgrade_prio = {
 			base = 100
+			modifier = {
+				factor = 0
+				has_selected_a_grand_doctrine = no
+			}
 			modifier = {
 				factor = 0
 				num_of_military_factories < 75
@@ -128,8 +132,7 @@ mass_infantry = {
 			}
 
 			regimental_support = {
-				fire_support = 2
-				anti_air_battery = 1
+				fire_support = 4
 				anti_tank_battery = 1
 			}
 		}
@@ -142,12 +145,7 @@ mass_infantry = {
 			base = 100
 			modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = combat_support }
-					NOT = { has_subdoctrine_in_track = operations }
-					NOT = { has_subdoctrine_in_track = armor }
-				}
+				has_three_subdoctrine_tracks = no
 			}
 			modifier = {
 				factor = 0
@@ -169,14 +167,13 @@ mass_infantry = {
 			support = {
 				artillery = 1
 				anti_air = 1
-                engineer = 1
-                field_hospital = 1
+				engineer = 1
+				field_hospital = 1
 				logistics_company = 1
 			}
 
 			regimental_support = {
-				fire_support = 3
-				anti_air_battery = 1
+				fire_support = 4
 				anti_tank_battery = 1
 			}
 		}

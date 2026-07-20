@@ -11,6 +11,12 @@ infantry_effort = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = role_ratio                          id = infantry                     value = 100 }
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
 }
 
 shock_infantry_effort = {
@@ -79,6 +85,12 @@ motorized_infantry_effort = {
 
 	ai_strategy = { type = role_ratio                          id = infantry                     value = -10 }
 	ai_strategy = { type = role_ratio                          id = motorized                    value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 25
+	}
 }
 
 mw_more_mot = {
@@ -94,7 +106,7 @@ mw_more_mot = {
 	ai_strategy = { type = role_ratio                          id = motorized                    value = 5 }
 }
 
-sp_more_shock_inf = {
+sf_more_shock_inf = {
 	enable = {
 		is_eligible_for_armor_production = yes
 		ai_has_role_template = shock_infantry
@@ -136,6 +148,12 @@ mechanized_infantry_effort = {
 	ai_strategy = { type = role_ratio                          id = shock_infantry               value = -5 }
 	ai_strategy = { type = role_ratio                          id = motorized                    value = -5 }
 	ai_strategy = { type = role_ratio                          id = mechanized               	 value = 20 }
+
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = 25
+	}
 }
 
 ma_less_mech = {
@@ -163,6 +181,17 @@ medium_armor_effort_1 = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = role_ratio                          id = armor_role             		 value = 40 }
+
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = 50
+	}
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 50
+	}
 }
 
 medium_armor_effort_2 = {
@@ -177,6 +206,22 @@ medium_armor_effort_2 = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = role_ratio                          id = armor_role             		 value = 20 }
+
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = -25
+	}
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 25
+	}
+	ai_strategy = {
+		type = template_prio
+		id = modern_armor
+		value = 75
+	}
 }
 
 heavy_armor_effort_1 = {
@@ -187,6 +232,12 @@ heavy_armor_effort_1 = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = role_ratio                          id = heavy_armor_role             value = 20 }
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 50
+	}
 }
 
 heavy_armor_effort_2 = {
@@ -201,6 +252,12 @@ heavy_armor_effort_2 = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { type = role_ratio                          id = heavy_armor_role             value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 25
+	}
 }
 
 ma_less_heavy_tanks = {
@@ -257,14 +314,7 @@ more_td_losing_tank_war = {
 		is_eligible_for_improved_heavy_armor_production = yes
 		ai_has_role_template = armor_role
 		ai_has_role_template = tank_destroyer_role
-		any_enemy_country = {
-			ROOT = {
-				estimated_intel_max_armor = {
-					tag = PREV
-					value > 25
-				}
-			}
-		}
+		is_losing_tank_war = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -284,7 +334,13 @@ mountaineer_effort = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = role_ratio                          id = mountaineer                  value = 25 }
+	ai_strategy = { type = role_ratio                          id = mountaineer                  value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineer
+		value = 50
+	}
 }
 
 land_powers_more_mountaineers = {
@@ -309,7 +365,13 @@ land_powers_more_mountaineers = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = role_ratio                          id = mountaineer                  value = 25 }
+	ai_strategy = { type = role_ratio                          id = mountaineer                  value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineer
+		value = 50
+	}
 }
 
 marine_effort = {
@@ -320,7 +382,13 @@ marine_effort = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = role_ratio                          id = marine                     	 value = 25 }
+	ai_strategy = { type = role_ratio                          id = marine                     	 value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = marine
+		value = 50
+	}
 }
 
 naval_powers_more_marines = {
@@ -345,7 +413,13 @@ naval_powers_more_marines = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = { type = role_ratio                          id = marine                     	 value = 25 }
+	ai_strategy = { type = role_ratio                          id = marine                     	 value = 10 }
+
+	ai_strategy = {
+		type = template_prio
+		id = marine
+		value = 50
+	}
 }
 
 ####################################################################################################

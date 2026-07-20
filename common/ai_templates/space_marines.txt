@@ -7,7 +7,7 @@ light_sp_infantry = {
 	front_role_override = offence
 
 	upgrade_prio = {
-		factor = 750
+		factor = 1500
 		modifier = {
 			factor = 0
 			is_eligible_for_armor_production = no
@@ -46,15 +46,12 @@ light_sp_infantry = {
 
 			support = {
 				artillery = 1
-				anti_air = 1
-				anti_tank = 1
-				medium_flame_tank = 1
+				light_tank_recon = 1
 				engineer = 1
 			}
 
 			regimental_support = {
-				field_guns = 1
-				anti_air_battery = 1
+				field_guns = 3
 			}
 		}
 	}
@@ -66,10 +63,7 @@ light_sp_infantry = {
 			base = 100
 			modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = operations }
-				}
+				has_two_subdoctrine_tracks = no
 			}
 			modifier = {
 				factor = 0
@@ -83,23 +77,21 @@ light_sp_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 11
-				artillery_brigade = 2
+				infantry = 12
+				artillery_brigade = 3
 				light_sp_artillery_brigade = 1
 			}
 
 			support = {
 				artillery = 1
-				anti_tank = 1
-				medium_flame_tank = 1
+				light_tank_recon = 1
 				armored_engineer = 1
 				field_hospital = 1
+				signal_company = 1
 			}
 
 			regimental_support = {
-				field_guns = 1
-				anti_air_battery = 1
-				anti_tank_battery = 1
+				field_guns = 5
 			}
 		}
 	}
@@ -108,15 +100,10 @@ light_sp_infantry = {
 		can_upgrade_in_field = { always = no }
 		
 		upgrade_prio = {
-			base = 1000
+			base = 100
 			modifier = {
 				factor = 0
-				OR = {
-					NOT = { has_subdoctrine_in_track = infantry }
-					NOT = { has_subdoctrine_in_track = combat_support }
-					NOT = { has_subdoctrine_in_track = operations }
-					NOT = { has_subdoctrine_in_track = armor }
-				}
+				has_four_subdoctrine_tracks = no
 			}
 			modifier = {
 				factor = 0
@@ -130,23 +117,21 @@ light_sp_infantry = {
 
 		target_template = {
 			regiments = {
-				infantry = 12
-				artillery_brigade = 3
+				infantry = 13
+				artillery_brigade = 4
 				light_sp_artillery_brigade = 1
 			}
 
 			support = {
 				artillery = 1
-				medium_flame_tank = 1
+				light_tank_recon = 1
 				armored_engineer = 1
 				field_hospital = 1
 				signal_company = 1
 			}
 
 			regimental_support = {
-				field_guns = 3
-				anti_air_battery = 1
-				anti_tank_battery = 1
+				field_guns = 5
 			}
 		}
 	}

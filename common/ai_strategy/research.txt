@@ -778,6 +778,19 @@ research_support_techs_5_majors = {
 	}
 }
 
+dont_get_ez_maintenance_until_you_have_doctrines = {
+	enable = {
+		has_four_subdoctrine_tracks = no
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = tech_maintenance_company2
+		value = -100
+	}
+}
+
 research_support_techs_6 = {
 	enable = {
 		date > 1942.1.1

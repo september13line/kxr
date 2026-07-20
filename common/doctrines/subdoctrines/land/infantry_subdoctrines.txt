@@ -505,7 +505,25 @@ commandos = {
 		has_dlc_ncns = yes
 	}
 
-	ai_will_do = { base = 0 }
+	ai_will_do = {
+		base = 5
+		modifier = {
+			factor = 0
+			is_major = no
+		}
+		modifier = {
+			factor = 0
+			has_doctrine = mass_assault
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_russian_tag = yes
+				is_han_chinese_tag = yes
+				is_indian_tag = yes
+			}
+		}
+	}
 	enable_tactic = tactic_infantry_charge
 
 	logistics_company = {
