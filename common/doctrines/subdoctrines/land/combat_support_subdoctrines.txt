@@ -732,7 +732,13 @@ field_engineering = {
 	xp_cost = 100
 	xp_type = army
 
-	ai_will_do = { base = 2 }
+	ai_will_do = {
+		base = 2
+		modifier = {
+			factor = 1.5
+			has_doctrine = defensive_postures
+		}
+	}
 
 	engineer = {
 		river = {

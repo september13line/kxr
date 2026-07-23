@@ -22,13 +22,13 @@ research_industry_techs_1 = {
 	}
 	ai_strategy = {
 		type = research_tech
-		id = dispersed_industry
+		id = construction1
 		value = 100
 	}
 	ai_strategy = {
-		type = research_tech
-		id = construction1
-		value = 100
+		type = research_weight_factor
+		id = dispersed_industry 
+		value = -1000
 	}
 }
 
@@ -46,11 +46,6 @@ research_industry_techs_2 = {
 	ai_strategy = {
 		type = research_tech
 		id = concentrated_industry2
-		value = 100
-	}
-	ai_strategy = {
-		type = research_tech
-		id = dispersed_industry2
 		value = 100
 	}
 	ai_strategy = {
@@ -78,11 +73,6 @@ research_industry_techs_3 = {
 	}
 	ai_strategy = {
 		type = research_tech
-		id = dispersed_industry3
-		value = 100
-	}
-	ai_strategy = {
-		type = research_tech
 		id = construction3
 		value = 100
 	}
@@ -106,11 +96,6 @@ research_industry_techs_4 = {
 	}
 	ai_strategy = {
 		type = research_tech
-		id = dispersed_industry4
-		value = 100
-	}
-	ai_strategy = {
-		type = research_tech
 		id = construction4
 		value = 100
 	}
@@ -130,11 +115,6 @@ research_industry_techs_5 = {
 	ai_strategy = {
 		type = research_tech
 		id = concentrated_industry5
-		value = 100
-	}
-	ai_strategy = {
-		type = research_tech
-		id = dispersed_industry5
 		value = 100
 	}
 	ai_strategy = {
@@ -975,6 +955,16 @@ research_basic_medium_tank = {
 		id = basic_medium_tank
 		value = 100
 	}
+	ai_strategy = {
+		type = research_tech
+		id = armor_tech_1
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = engine_tech_1
+		value = 100
+	}
 }
 
 research_basic_heavy_tank = {
@@ -1039,6 +1029,16 @@ research_improved_medium_tank = {
 	ai_strategy = {
 		type = research_tech
 		id = improved_medium_tank
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = armor_tech_2
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = engine_tech_2
 		value = 100
 	}
 }
@@ -1107,6 +1107,16 @@ research_advanced_medium_tank = {
 		id = advanced_radio
 		value = 100
 	}
+	ai_strategy = {
+		type = research_tech
+		id = armor_tech_3
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = engine_tech_3
+		value = 100
+	}
 }
 
 research_advanced_heavy_tank = {
@@ -1156,6 +1166,16 @@ research_modern_tank = {
 	ai_strategy = {
 		type = research_tech
 		id = mechanised_infantry3
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = armor_tech_4
+		value = 100
+	}
+	ai_strategy = {
+		type = research_tech
+		id = engine_tech_4
 		value = 100
 	}
 }
@@ -1743,6 +1763,22 @@ research_le_funny_katyusha = {
 	ai_strategy = {
 		type = research_tech
 		id = motorized_rocket_unit
+		value = 100
+	}
+}
+
+research_advanced_flames = {
+	enable = {
+		date > 1941.1.1
+		is_major = yes
+		is_eligible_for_armor_production = yes
+		is_special_project_completed = sp:sp_land_flamethrower_tank
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = sp_armored_advanced_flamethrower_tech
 		value = 100
 	}
 }
