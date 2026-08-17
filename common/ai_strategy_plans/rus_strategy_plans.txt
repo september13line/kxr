@@ -1,0 +1,144 @@
+RUS_reform_army = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		date > 1936.1.1
+		NOT = { has_country_flag = soviet_russia_restored }
+	}
+
+	abort = {
+		has_completed_focus = RUS_National_High_Command_Formation_School
+	}
+	
+	ai_national_focuses = {
+		RUS_russian_army
+		RUS_The_Russian_Tradition
+		RUS_Study_German_Method
+		RUS_National_High_Command_Formation_School
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+RUS_early_diplo = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		date > 1936.1.1
+	}
+
+	abort = {
+		has_completed_focus = RUS_Secure_Central_Asia
+	}
+	
+	ai_national_focuses = {
+		RUS_Expansionism
+		RUS_Enemy_In_The_West
+		RUS_Secure_Central_Asia
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+RUS_get_juicy_production_bonuses_1 = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		date > 1938.1.1
+		NOT = { has_country_flag = soviet_russia_restored }
+	}
+
+	abort = {
+		has_completed_focus = RUS_Equipment_Standardisation
+	}
+	
+	ai_national_focuses = {
+		RUS_Reorganise_Armament_Production
+		RUS_Armored_Trains_Mobile_Columns
+		RUS_Equipment_Modernisation
+		RUS_Reintroduce_Okhranka
+		RUS_Electronic_Warfare
+		RUS_Equipment_Standardisation
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+RUS_get_juicy_production_bonuses_2 = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		date > 1939.1.1
+		NOT = { has_country_flag = soviet_russia_restored }
+	}
+
+	abort = {
+		OR = {
+			has_completed_focus = RUS_Rebuild_The_Artillery_Arm
+			has_completed_focus = RUS_Armour_Modernisation
+		}
+	}
+	
+	ai_national_focuses = {
+		RUS_Army_Motorisation
+		RUS_Rebuild_The_Artillery_Arm
+		RUS_Armour_Modernisation
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+RUS_get_juicy_industry_bonuses = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = RUS
+	}
+
+	enable = {
+		date > 1939.1.1
+		NOT = { has_country_flag = soviet_russia_restored }
+		RUS_economy_is_unlocked = yes
+		RUS_savinkov_in_power = no
+		RUS_savinkov_pm = no
+	}
+
+	abort = {
+		has_completed_focus = RUS_Economic_Efficiency_Act
+	}
+	
+	ai_national_focuses = {
+		RUS_Bureaucratic_Overhaul
+		RUS_MinProm
+		RUS_Military_Production_Act
+		RUS_Economic_Efficiency_Act
+	}
+	weight = {
+		factor = 1.0
+	}
+}

@@ -1,0 +1,29 @@
+GER_extra_research_slot = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GER
+	}
+
+	enable = {
+		has_completed_focus = GER_Economy_Start
+	}
+
+	abort = {
+		has_completed_focus = GER_The_Noblest_Universities
+	}
+	
+	ai_national_focuses = {
+		GER_The_Brightest_Minds
+		GER_Physics_Mania
+		GER_Heading_Into_the_Electromechanical_Future
+		GER_Science_and_Saving_Lives
+		GER_Practicality_Focus
+		GER_Unrestrained_Innovation
+		GER_The_Noblest_Universities
+	}
+	weight = {
+		factor = 1.0
+	}
+}
