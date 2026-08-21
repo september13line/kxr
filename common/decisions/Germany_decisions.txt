@@ -39,6 +39,7 @@ political_actions = {
 		available = {
 			FROM = {
 				has_dictatorship_government = no
+				NOT = { has_government = totalist }
 				surrender_progress > 0.5
 			}
 			surrender_progress < 0.3
@@ -402,6 +403,12 @@ political_actions = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision GER_join_kaiser_wilhelm_society target: [From.GetName]"
+			hidden_effect = {
+				if = { 
+					limit = { is_in_tech_research_group = yes } 
+					remove_from_all_tech_sharing_groups = yes
+				}
+			}
 			add_to_tech_sharing_group = german_research
 		}
 	}
@@ -3378,7 +3385,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				BEL = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -4550,7 +4557,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				BAT = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -4999,7 +5006,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				WHR = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -5091,7 +5098,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				LIT = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -5136,7 +5143,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				POL = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -5321,7 +5328,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				UKR = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
@@ -8651,7 +8658,7 @@ GER_mitteleuropa_category = {
 			}
 			add_political_power = 50
 			effect_tooltip = {
-				MAF = { add_ideas = GER_Looming_Shadow_idea }
+				GEA = { add_ideas = GER_Looming_Shadow_idea }
 			}
 		}
 	}
