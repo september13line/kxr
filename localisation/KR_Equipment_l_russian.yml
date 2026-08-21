@@ -583,7 +583,7 @@
  #MP 34:
  AUS_infantry_weapons2: "Maschinenpistole Modell 1934"
  AUS_infantry_weapons2_short: "Steyr-Solothurn M.34"
- AUS_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ AUS_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  #ZK 383:
  AUS_improved_infantry_weapons_2: "Maschinenpistole Modell 38"
  AUS_improved_infantry_weapons_2_short: "Zbrojovka Brno M.38"
@@ -1241,7 +1241,7 @@
  BOS_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  BOS_infantry_weapons2: "Kratka strojnica Model 1934"
  BOS_infantry_weapons2_short: "Steyr-Solothurn M.34"
- BOS_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ BOS_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  BOS_improved_infantry_weapons_2: "Kratka strojnica Model 38"
  BOS_improved_infantry_weapons_2_short: "Zbrojovka Brno M.38"
  BOS_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -1486,6 +1486,9 @@
  BRM_infantry_equipment_1: "Mauser 98b"
  BRM_infantry_equipment_1_short: "Mauser 98b"
 
+ BRM_train_equipment_1: "Burma Railways Class K"
+
+
 ###
 ### West Indies Federation ###
 ###
@@ -1644,6 +1647,15 @@ CAL_night_vision_desc: "Developed specifically for the M3 Auto-Carbine, which ha
 CAL_night_vision2: "Infrared Sniperscope, Model 3"
 CAL_night_vision2_short: "M3 Sniperscope"
 CAL_night_vision2_desc: "In response to the poor reception of the M1 Sniperscope, the Sniperscope M3 was adopted. With almost twice the effective range of the M1, a more robut infrared light source, and the T23 flash hider, the M3 is a vast improvement over its predecessor, though some soldiers complain of the light source bleeding into the visible spectrum and thus giving away their position."
+
+CAL_train_equipment_1: "Pennsylvania I1s Class"
+CAL_train_equipment_2: "USATC S160 Class"
+CAL_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
+CAL_railway_gun_equipment_1: "8-inch Mk. VI"
+CAL_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+CAL_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+CAL_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 
 #Motorised
 
@@ -2177,7 +2189,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  CRO_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  CRO_infantry_weapons2: "Kratka strojnica Model 1934"
  CRO_infantry_weapons2_short: "Steyr-Solothurn M.34"
- CRO_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ CRO_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  CRO_improved_infantry_weapons_2: "Kratka strojnica Model 38"
  CRO_improved_infantry_weapons_2_short: "Zbrojovka Brno M.38"
  CRO_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -2354,10 +2366,14 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  CSA_night_vision2_desc: "In response to the poor reception of the CA-120 Sniperscope, the Sniperscope CA-123 was adopted. With almost twice the effective range of the CA-120, a more robust infrared light source, and the T23 flash hider, the CA-123 is a vast improvement over its predecessor, though some soldiers complain of the light source bleeding into the visible spectrum and thus giving away their position."
 
 ### Railroad ###
- CSA_train_equipment_1: "Pennsylvania I1s Class"
+ CSA_train_equipment_1: "Chicago Mercury"
  CSA_train_equipment_2: "CSATC S160 Class"
  CSA_train_equipment_3: "American Locomotive Union FEF-3 'Working Man' Class"
  CSA_railway_gun_equipment_1: "8-inch Mk. VI"
+ CSA_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ CSA_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ CSA_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 #Motorised
 
  #Dodge 1/2-ton 4x4 improved to GCKW 353 standard:
@@ -2571,7 +2587,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  CZE_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  CZE_infantry_weapons2: "Kulometná pistole vzor 1934"
  CZE_infantry_weapons2_short: "Steyr-Solothurn vz. 34"
- CZE_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ CZE_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  CZE_improved_infantry_weapons_2: "Kulometná pistole vzor 38"
  CZE_improved_infantry_weapons_2_short: "Zbrojovka Brno vz. 38"
  CZE_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -4315,7 +4331,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  GAL_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  GAL_infantry_weapons2: "Pistolet maszynowy wzór 1934"
  GAL_infantry_weapons2_short: "Steyr-Solothurn wz. 34"
- GAL_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ GAL_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  GAL_improved_infantry_weapons_2: "Pistolet maszynowy wzór 38"
  GAL_improved_infantry_weapons_2_short: "Zbrojovka Brno wz. 38"
  GAL_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -4767,6 +4783,15 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  GEA_railway_gun_equipment_1: "$GER_railway_gun_equipment_1$"
  GEA_railway_gun_equipment_1_short: "$GER_railway_gun_equipment_1_short$"
  GEA_railway_gun_equipment_1_desc: "$GER_railway_gun_equipment_1_desc$"
+ GEA_super_heavy_railway_gun_equipment_1: "$GER_super_heavy_railway_gun_equipment_1$"
+ GEA_super_heavy_railway_gun_equipment_1_short: "$GER_super_heavy_railway_gun_equipment_1_short$"
+ GEA_super_heavy_artillery_equipment_1: "$GER_super_heavy_artillery_equipment_1$"
+ GEA_super_heavy_artillery_equipment_1_short: "$GER_super_heavy_artillery_equipment_1_short$"
+ GEA_self_propelled_super_heavy_artillery_equipment_1: "$GER_self_propelled_super_heavy_artillery_equipment_1$"
+ GEA_self_propelled_super_heavy_artillery_equipment_1_short: "$GER_self_propelled_super_heavy_artillery_equipment_1_short$"
+
+
+
 
 ###
 ### Georgia ###
@@ -4979,6 +5004,16 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  GER_railway_gun_equipment_1: "Eisenbahn und Bettungsgerüst 38 cm SK L/45"
  GER_railway_gun_equipment_1_short: "E.u.B 38 cm"
  GER_railway_gun_equipment_1_desc: "Originally a naval gun, spare guns ordered for the Bayern-class Battleships were repurposed for land service as both railway guns and shore batteries during the Great War. Following the Peace with Honour, some guns on the Bayern-class were replaced and put into storage. By reboring them, they can be once again put into land service."
+
+ GER_super_heavy_railway_gun_equipment_1: "80-cm-Kanone (E) Schwerer Gustav"
+ GER_super_heavy_railway_gun_equipment_1_short: "Schwerer Gustav"
+
+ GER_super_heavy_artillery_equipment_1: "21-cm-Mörser 18"
+ GER_super_heavy_artillery_equipment_1_short: "21-cm-Mörser"
+
+ GER_self_propelled_super_heavy_artillery_equipment_1: "60cm Mörser Gerät Karl"
+ GER_self_propelled_super_heavy_artillery_equipment_1_short: "Mörser Karl"
+
 
 #Artillery
 
@@ -5685,6 +5720,15 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  HAW_anti_air_equipment_1_short: "37 mm Gun M1"
  HAW_anti_air_equipment_2: "40 mm M1"
 
+ HAW_train_equipment_1: "$USA_train_equipment_1$"
+ HAW_train_equipment_2: "$USA_train_equipment_2$"
+ HAW_train_equipment_3: "$USA_train_equipment_3$"
+ HAW_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ HAW_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ HAW_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ HAW_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
+
 #Tanks
 
 
@@ -5836,7 +5880,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  HUN_infantry_equipment_3_desc: "The development of a portable automatic rifle using an intermediate cartridge was born in the Monarchy thanks to the success of the Király series of "heavy" submachine guns and the realisation that combat ranges were far shorter than anticipated. Wanting to maximise the firepower of the infantryman, Czech designer Alois Farlík developed the 8x45mm intermediate cartridge while ZB designed the machine-carbine around it. It would adopt it as the Машиненкарабинер M.44."
  HUN_infantry_weapons2: "1934 Minta Géppisztoly"
  HUN_infantry_weapons2_short: "Steyr-Solothurn 34.M"
- HUN_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ HUN_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  HUN_improved_infantry_weapons_2: "1938 Minta Géppisztoly"
  HUN_improved_infantry_weapons_2_short: "Zbrojovka Brno 38.M"
  HUN_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -7602,6 +7646,26 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  MAF_rocket_artillery_equipment_2_short: "Р.В. 42"
  MAF_rocket_artillery_equipment_2_desc: "21-мм Ракетенверфер 42 - это пятиствольная реактивная система залпового огня, установленная на буксируемом лафете, заимствованном у 3,7-мм противотанковой пушки Па.К. 36. Пусковые установки организованы в батареи по шесть штук, по три батареи на батальон. Предназначенные для огневой поддержки и постановки дымовых завес, Р.В. 42 используются в основном в качестве реактивной артиллерии и практически не участвуют в химической войне."
 
+ MAF_train_equipment_1: "$GER_train_equipment_1$"
+ MAF_train_equipment_1_short: "$GER_train_equipment_1_short$"
+ MAF_train_equipment_1_desc: "$GER_train_equipment_1_desc$"
+ MAF_train_equipment_2: "$GER_train_equipment_2$"
+ MAF_train_equipment_2_short: "$GER_train_equipment_2_short$"
+ MAF_train_equipment_2_desc: "$GER_train_equipment_2_desc$"
+ MAF_train_equipment_3: "$GER_train_equipment_3$"
+ MAF_train_equipment_3_short: "$GER_train_equipment_3_short$"
+ MAF_train_equipment_3_desc: "$GER_train_equipment_3_desc$"
+ MAF_railway_gun_equipment_1: "$GER_railway_gun_equipment_1$"
+ MAF_railway_gun_equipment_1_short: "$GER_railway_gun_equipment_1_short$"
+ MAF_railway_gun_equipment_1_desc: "$GER_railway_gun_equipment_1_desc$"
+ MAF_super_heavy_railway_gun_equipment_1: "$GER_super_heavy_railway_gun_equipment_1$"
+ MAF_super_heavy_railway_gun_equipment_1_short: "$GER_super_heavy_railway_gun_equipment_1_short$"
+ MAF_super_heavy_artillery_equipment_1: "$GER_super_heavy_artillery_equipment_1$"
+ MAF_super_heavy_artillery_equipment_1_short: "$GER_super_heavy_artillery_equipment_1_short$"
+ MAF_self_propelled_super_heavy_artillery_equipment_1: "$GER_self_propelled_super_heavy_artillery_equipment_1$"
+ MAF_self_propelled_super_heavy_artillery_equipment_1_short: "$GER_self_propelled_super_heavy_artillery_equipment_1_short$"
+
+
 #Tanks
 
 
@@ -8044,6 +8108,9 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  NEE_train_equipment_2: "USATC S160 Class"
  NEE_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
  NEE_railway_gun_equipment_1: "8-inch Mk. VI"
+ NEE_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ NEE_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ NEE_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
 
 
 #Tanks
@@ -9074,6 +9141,15 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  PHI_infantry_equipment_0_desc: "The Model 1903 was developed at Springfield Arsenal when, following the Spanish-American war, the United States deemed the Krag–Jørgensen rifle inadequate on account of its weak action; at its core, the 1903 was an attempt to combine beneficial features of both the Krag and captureds Spanish Mausers. The rifle was gradually adopted along with the .30-06 cartridge both before and while the rest of the world waged the Weltkrieg."
  PHI_infantry_equipment_1: "Springfield Model 1903A1"
  PHI_infantry_equipment_1_short: "M1903A1 Springfield"
+
+ PHI_train_equipment_1: "$USA_train_equipment_1$"
+ PHI_train_equipment_2: "$USA_train_equipment_2$"
+ PHI_train_equipment_3: "$USA_train_equipment_3$"
+ PHI_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ PHI_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ PHI_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ PHI_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 
 ###
 ### Piratini ###
@@ -11556,7 +11632,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  SLO_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  SLO_infantry_weapons2: "Brzostrelka Model 1934"
  SLO_infantry_weapons2_short: "Steyr-Solothurn M.34"
- SLO_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ SLO_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  SLO_improved_infantry_weapons_2: "Brzostrelka Model 1938"
  SLO_improved_infantry_weapons_2_short: "Zbrojovka Brno M.38"
  SLO_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -11642,75 +11718,75 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
 
 
 
- SOV_EQUIPMENT_VERSION_1: "A"
- SOV_EQUIPMENT_VERSION_2: "A-1"
- SOV_EQUIPMENT_VERSION_3: "A-2"
- SOV_EQUIPMENT_VERSION_4: "AM"
- SOV_EQUIPMENT_VERSION_5: "B"
- SOV_EQUIPMENT_VERSION_6: "B-1"
- SOV_EQUIPMENT_VERSION_7: "B-2"
- SOV_EQUIPMENT_VERSION_8: "BM"
- SOV_EQUIPMENT_VERSION_9: "C"
- SOV_EQUIPMENT_VERSION_10: "C-1"
- SOV_EQUIPMENT_VERSION_11: "C-2"
- SOV_EQUIPMENT_VERSION_12: "CM"
- SOV_EQUIPMENT_VERSION_13: "D"
- SOV_EQUIPMENT_VERSION_14: "D-1"
- SOV_EQUIPMENT_VERSION_15: "D-2"
- SOV_EQUIPMENT_VERSION_16: "DM"
+ SOV_EQUIPMENT_VERSION_1: "А"
+ SOV_EQUIPMENT_VERSION_2: "А-1"
+ SOV_EQUIPMENT_VERSION_3: "А-2"
+ SOV_EQUIPMENT_VERSION_4: "АМ"
+ SOV_EQUIPMENT_VERSION_5: "Б"
+ SOV_EQUIPMENT_VERSION_6: "Б-1"
+ SOV_EQUIPMENT_VERSION_7: "Б-2"
+ SOV_EQUIPMENT_VERSION_8: "БМ"
+ SOV_EQUIPMENT_VERSION_9: "В"
+ SOV_EQUIPMENT_VERSION_10: "В-1"
+ SOV_EQUIPMENT_VERSION_11: "В-2"
+ SOV_EQUIPMENT_VERSION_12: "ВМ"
+ SOV_EQUIPMENT_VERSION_13: "Г"
+ SOV_EQUIPMENT_VERSION_14: "Г-1"
+ SOV_EQUIPMENT_VERSION_15: "Г-2"
+ SOV_EQUIPMENT_VERSION_16: "ГМ"
 
 
- SOV_infantry_equipment_0: "Russkaya 3-lineynaya vintovka obr.1891"
- SOV_infantry_equipment_0_short: "Vintovka Mosina"
- SOV_infantry_equipment_1: "Avtomaticheskaya Vintovka Simonova obr.1936"
- SOV_infantry_equipment_1_short: "AVS-36"
- SOV_infantry_equipment_2: "Samozaryadnaya Vintovka Tokareva obr.1938"
- SOV_infantry_equipment_2_short: "SVT-38"
- SOV_infantry_equipment_3: "Pistolet-Pulemyet Shpagina mod.2"
- SOV_infantry_equipment_3_short: "PPSh-2"
- SOV_infantry_at: "PTRS-41"
- SOV_infantry_at2: "RPG-42"
- SOV_support_weapons: "Maxim-Tokarev obr.1924 & Dyakonov 40,5mm GV"
- SOV_support_weapons2: "Degtyarev DP-29M & 82mm BM obr.1938"
- SOV_support_weapons3: "Degtyarev DS-39 & Taubin 40,5mm AG-2"
- SOV_support_weapons4: "Goryunov SG-43 & 120mm PM obr.1943"
- SOV_night_vision: "Ts-3"
- SOV_night_vision2: "NSP-2"
+ SOV_infantry_equipment_0: "Русская 3-линейная винтовка обр. 1891"
+ SOV_infantry_equipment_0_short: "Винтовка Мосина"
+ SOV_infantry_equipment_1: "Автоматическая винтовка Симонова обр. 1936"
+ SOV_infantry_equipment_1_short: "АВС-36"
+ SOV_infantry_equipment_2: "Самозарядная винтовка Токарева обр. 1938"
+ SOV_infantry_equipment_2_short: "СВТ-38"
+ SOV_infantry_equipment_3: "Пистолет-пулемёт Шпагина мод. 2"
+ SOV_infantry_equipment_3_short: "ППШ-2"
+ SOV_infantry_at: "ПТРС-41"
+ SOV_infantry_at2: "РПГ-42"
+ SOV_support_weapons: "Максим-Токарев обр. 1924 & 40,5-мм ГВ Дьяконова"
+ SOV_support_weapons2: "Дегтярёв ДП-29М & 82-мм БМ обр. 1938"
+ SOV_support_weapons3: "Дегтярёв ДС-39 & 40,5-мм АГ-2 Таубина"
+ SOV_support_weapons4: "Горюнов СГ-43 & 120-мм ПМ обр. 1943"
+ SOV_night_vision: "Ц-3"
+ SOV_night_vision2: "НСП-2"
 
 
- SOV_motorized_equipment_1: "AMO-6"
- SOV_motorized_equipment_1_short: "AMO-6"
+ SOV_motorized_equipment_1: "АМО-6"
+ SOV_motorized_equipment_1_short: "АМО-6"
 
- SOV_motorized_rocket_equipment_1: "BM-13"
- SOV_motorized_rocket_equipment_1_short: "BM-13"
+ SOV_motorized_rocket_equipment_1: "БМ-13"
+ SOV_motorized_rocket_equipment_1_short: "БМ-13"
 
- SOV_mechanized_equipment_1: "Lebedev-5 Broneavtomobil"
- SOV_mechanized_equipment_1_short: "Lebedev-5 BA"
- SOV_mechanized_equipment_2: "AMO-33 Broneavtomobil"
- SOV_mechanized_equipment_2_short: "AMO-33 BA"
- SOV_mechanized_equipment_3: "AMO-42M Broneavtomobil"
- SOV_mechanized_equipment_3_short: "AMO-42M BA"
+ SOV_mechanized_equipment_1: "Бронеавтомобиль Лебедев-5"
+ SOV_mechanized_equipment_1_short: "Лебедев-5 БА"
+ SOV_mechanized_equipment_2: "Бронеавтомобиль АМО-33"
+ SOV_mechanized_equipment_2_short: "АМО-33 БА"
+ SOV_mechanized_equipment_3: "Бронеавтомобиль АМО-42М"
+ SOV_mechanized_equipment_3_short: "АМО-42М БА"
 
- SOV_amphibious_mechanized_equipment_1: "K-40"
- SOV_amphibious_mechanized_equipment_1_short: "K-40"
- SOV_amphibious_mechanized_equipment_2: "MT-LB"
- SOV_amphibious_mechanized_equipment_2_short: "MT-LB"
+ SOV_amphibious_mechanized_equipment_1: "К-40"
+ SOV_amphibious_mechanized_equipment_1_short: "К-40"
+ SOV_amphibious_mechanized_equipment_2: "МТ-ЛБ"
+ SOV_amphibious_mechanized_equipment_2_short: "МТ-ЛБ"
 
- SOV_gw_armored_car_equipment: "Izhorskiye BA-27"
- SOV_gw_armored_car_equipment_short: "BA-27"
- SOV_armored_car_equipment_1: "Izhorskiye BA-10"
- SOV_armored_car_equipment_1_short: "BA-10"
- SOV_armored_car_equipment_2: "NAZ BA-64"
- SOV_armored_car_equipment_2_short: "BA-64"
- SOV_armored_car_at_equipment: "KSP-76"
- SOV_armored_car_at_equipment_short: "KSP-76"
+ SOV_gw_armored_car_equipment: "Ижорские БА-27"
+ SOV_gw_armored_car_equipment_short: "БА-27"
+ SOV_armored_car_equipment_1: "Ижорские БА-10"
+ SOV_armored_car_equipment_1_short: "БА-10"
+ SOV_armored_car_equipment_2: "НАЗ БА-64"
+ SOV_armored_car_equipment_2_short: "БА-64"
+ SOV_armored_car_at_equipment: "КСП-76"
+ SOV_armored_car_at_equipment_short: "КСП-76"
 
- SOV_train_equipment_1: "Parovoz tip Leninsky"
- SOV_train_equipment_1_short: "Type L"
- SOV_train_equipment_1_desc: "Designed in 1931, the Class P1 replaced many of the American-built Class Ye locomotives serving on the Russian network. In 1936, the locomotive class was fitted with a superheater to improve power output, creating the P1-21 variant. The solid performance of the class quickly led to massive orders and became the most popular locomotive on the Russian network, with workshops built solely for the production of this type. The class would be renamed the Class L after the Russian Civil War, after Vladimir Lenin, a socialist martyr."
- SOV_train_equipment_2: "Parovoz Pobeda klass"
- SOV_train_equipment_2_short: "Class P"
- SOV_train_equipment_2_desc: "Developed at the Kolomna Factory and named after the February Railway connecting Moscow and Petrograd, the Class F locomotives are economical and suited for serving on the vast Russian railway network. Without a trailing wheel set and complicated components, serial production of the type was faster and cheaper compared to the Type P1. The class would be renamed the class P, after Pobeda, or ‘Victory’."
+ SOV_train_equipment_1: "Паровоз типа «Ленинский»"
+ SOV_train_equipment_1_short: "Тип Л"
+ SOV_train_equipment_1_desc: "Разработанные в 1931 году паровозы серии П1 заменили многие построенные в Америке локомотивы серии Е, служившие на российских железных дорогах. В 1936 году паровоз оснастили пароперегревателем для увеличения мощности, создав модификацию П1-21. Надёжность конструкции быстро привела к огромным заказам, и эта серия стала наиболее распространённым локомотивом на российской железнодорожной сети, а для её производства были построены отдельные мастерские. После Гражданской войны в России серия была переименована в Л в честь Владимира Ленина, социалистического мученика."
+ SOV_train_equipment_2: "Паровоз серии «Победа»"
+ SOV_train_equipment_2_short: "Серия П"
+ SOV_train_equipment_2_desc: "Разработанные на Коломенском заводе и названные в честь Февральской железной дороги, соединяющей Москву и Петроград, паровозы серии Ф отличаются экономичностью и хорошо подходят для эксплуатации на огромной российской железнодорожной сети. Отсутствие поддерживающей колёсной пары и сложных компонентов сделало серийное производство этого типа быстрее и дешевле по сравнению с типом П1. Впоследствии серия была переименована в П - от слова «Победа»."
  SOV_train_equipment_3: "$RUS_train_equipment_3$"
  SOV_train_equipment_3_short: "$RUS_train_equipment_3$"
  SOV_train_equipment_3_desc: "$RUS_train_equipment_3$"
@@ -11719,31 +11795,31 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  SOV_railway_gun_equipment_1_short: "$RUS_railway_gun_equipment_1_short$"
  SOV_railway_gun_equipment_1_desc: "$RUS_railway_gun_equipment_1_desc$"
 
- SOV_artillery_equipment_1: "76mm obr.1902/1930"
- SOV_artillery_equipment_1_short: "76mm obr.1902/1930"
- SOV_artillery_equipment_2: "107mm obr.1940"
- SOV_artillery_equipment_2_short: "107mm obr.1940"
- SOV_artillery_equipment_3: "152mm MT-1 obr.1944"
- SOV_artillery_equipment_3_short: "152mm MT-1"
+ SOV_artillery_equipment_1: "76-мм обр. 1902/1930"
+ SOV_artillery_equipment_1_short: "76-мм обр. 1902/1930"
+ SOV_artillery_equipment_2: "107-мм обр. 1940"
+ SOV_artillery_equipment_2_short: "107-мм обр. 1940"
+ SOV_artillery_equipment_3: "152-мм МТ-1 обр. 1944"
+ SOV_artillery_equipment_3_short: "152-мм МТ-1"
 
- SOV_anti_tank_equipment_1: "45mm 19-K obr.1931"
- SOV_anti_tank_equipment_1_short: "45mm 19-K"
- SOV_anti_tank_equipment_2: "57mm AMO-2 obr.1940"
- SOV_anti_tank_equipment_2_short: "57mm AMO-2"
- SOV_anti_tank_equipment_3: "100mm OB-3 obr.1943"
- SOV_anti_tank_equipment_3_short: "100mm OB-3"
+ SOV_anti_tank_equipment_1: "45-мм 19-К обр. 1931"
+ SOV_anti_tank_equipment_1_short: "45-мм 19-К"
+ SOV_anti_tank_equipment_2: "57-мм АМО-2 обр. 1940"
+ SOV_anti_tank_equipment_2_short: "57-мм АМО-2"
+ SOV_anti_tank_equipment_3: "100-мм ОБ-3 обр. 1943"
+ SOV_anti_tank_equipment_3_short: "100-мм ОБ-3"
 
- SOV_anti_air_equipment_1: "37mm 61-K obr.1932"
- SOV_anti_air_equipment_1_short: "37mm 61-K"
- SOV_anti_air_equipment_2: "85mm 52-K obr.1938"
- SOV_anti_air_equipment_2_short: "85mm 52-K"
- SOV_anti_air_equipment_3: "100mm VT-19 obr.1943"
- SOV_anti_air_equipment_3_short: "100mm VT-19"
+ SOV_anti_air_equipment_1: "37-мм 61-К обр. 1932"
+ SOV_anti_air_equipment_1_short: "37-мм 61-К"
+ SOV_anti_air_equipment_2: "85-мм 52-К обр. 1938"
+ SOV_anti_air_equipment_2_short: "85-мм 52-К"
+ SOV_anti_air_equipment_3: "100-мм ВТ-19 обр. 1943"
+ SOV_anti_air_equipment_3_short: "100-мм ВТ-19"
 
- SOV_rocket_artillery_equipment_1: "132mm M-8-24"
- SOV_rocket_artillery_equipment_1_short: "132mm M-8-24"
- SOV_rocket_artillery_equipment_2: "302mm M-20-12"
- SOV_rocket_artillery_equipment_2_short: "302mm M-20-12"
+ SOV_rocket_artillery_equipment_1: "132-мм М-8-24"
+ SOV_rocket_artillery_equipment_1_short: "132-мм М-8-24"
+ SOV_rocket_artillery_equipment_2: "302-мм М-20-12"
+ SOV_rocket_artillery_equipment_2_short: "302-мм М-20-12"
 
 
 ### GSV ###
@@ -12243,7 +12319,7 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  SVK_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  SVK_infantry_weapons2: "Kulometná pistole vzor 1934"
  SVK_infantry_weapons2_short: "Steyr-Solothurn vz. 34"
- SVK_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ SVK_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  SVK_improved_infantry_weapons_2: "Kulometná pistole vzor 38"
  SVK_improved_infantry_weapons_2_short: "Zbrojovka Brno vz. 38"
  SVK_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -12605,6 +12681,15 @@ CAL_rocket_artillery_equipment_2_short: "M20 Rocket Launcher"
  TEX_night_vision2_short: "M1946 Sniperscope"
  TEX_night_vision2_desc: "In response to the poor reception of the M1943 Sniperscope, the Sniperscope M1946 was adopted. With almost twice the effective range of the M1943, a more robust infrared light source, and the T23 flash hider, the M1946 is a vast improvement over its predecessor, though some soldiers complain of the light source bleeding into the visible spectrum and thus giving away their position."
 
+ TEX_train_equipment_1: "$USA_train_equipment_1$"
+ TEX_train_equipment_2: "$USA_train_equipment_2$"
+ TEX_train_equipment_3: "$USA_train_equipment_3$"
+ TEX_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ TEX_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ TEX_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ TEX_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
+
 #Motorised
 
  #fwd h-6 2 tons improved:
@@ -12760,6 +12845,15 @@ COR_night_vision2: "Infrared Sniperscope, Model 1946" #M3 sniperscope
 COR_night_vision2_short: "M1946 Sniperscope"
 COR_night_vision2_desc: "In response to the poor reception of the M1943 Sniperscope, the Sniperscope M1946 was adopted. With almost twice the effective range of the M1943, a more robut infrared light source, and the T23 flash hider, the M1946 is a vast improvement over its predecessor, though some soldiers complain of the light source bleeding into the visible spectrum and thus giving away their position."
 
+COR_train_equipment_1: "Pennsylvania I1s Class"
+COR_train_equipment_2: "USATC S160 Class"
+COR_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
+COR_railway_gun_equipment_1: "8-inch Mk. VI"
+COR_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+COR_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+COR_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
+
 #Motorised
 
 COR_motorized_equipment_1: "Ford Government, Large, Passenger, FWD" #fwd h-6 2 tons improved
@@ -12893,6 +12987,15 @@ COR_rocket_artillery_equipment_2_short: "M1943 Rocket Launcher"
  BBR_night_vision2_short: "M1946 Sniperscope"
  BBR_night_vision2_desc: "In response to the poor reception of the M1943 Sniperscope, the Sniperscope M1946 was adopted. With almost twice the effective range of the M1943, a more robut infrared light source, and the T23 flash hider, the M1946 is a vast improvement over its predecessor, though some soldiers complain of the light source bleeding into the visible spectrum and thus giving away their position."
 
+ BBR_train_equipment_1: "Pennsylvania I1s Class"
+ BBR_train_equipment_2: "USATC S160 Class"
+ BBR_train_equipment_3: "American Locomotive Union FEF-3 'Working Man' Class"
+ BBR_railway_gun_equipment_1: "8-inch Mk. VI"
+ BBR_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ BBR_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ BBR_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
+
 #Motorised
 
  BBR_motorized_equipment_1: "Ford Government, Large, Passenger, FWD" #fwd h-6 2 tons improved
@@ -13008,6 +13111,15 @@ TXS_support_weapons3: "M1919A6 Browning MG & M1 mortar"
 TXS_support_weapons4: "Winchester AR & M2 4.2 inch mortar"
 TXS_night_vision: "T-120 Sniperscope"
 TXS_night_vision2: "M2 Sniperscope"
+
+TXS_train_equipment_1: "Pennsylvania I1s Class"
+TXS_train_equipment_2: "USATC S160 Class"
+TXS_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
+TXS_railway_gun_equipment_1: "8-inch Mk. VI"
+TXS_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+TXS_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+TXS_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 
 #Motorised
 
@@ -13773,7 +13885,7 @@ TZN_modern_tank_destroyer_equipment_1_desc: "An updated version of the JadgPanze
  TRS_infantry_equipment_3_desc: "As it became clear that engagement distances had significantly shortened since the Weltkrieg, the Monarchy became interested in developing an intermediate cartridge and the \"machine-carbine\" idea. The Koucký brothers at Zbrojovka Brno presented their ZK 412 design using the 8x35mm \"Rapid\" cartridge with similar performance to the German 8x33mm Kurz."
  TRS_infantry_weapons2: "Maschinenpistole Modell 1934"
  TRS_infantry_weapons2_short: "Steyr-Solothurn M.34"
- TRS_infantry_weapons2_desc: "While a German design by Louis Stange, the  MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
+ TRS_infantry_weapons2_desc: "While a German design by Louis Stange, the MP 34 was mainly produced by Steyr and was adopted by the Austro-Hungarian Army. As common with early submachine guns, this design was heavy, expensive, but reliable, with a horizontal magazine using the potent 9x25mm Mauser cartridge."
  TRS_improved_infantry_weapons_2: "Maschinenpistole Modell 38"
  TRS_improved_infantry_weapons_2_short: "Zbrojovka Brno M.38"
  TRS_improved_infantry_weapons_2_desc: "Seeing the need for a submachine-gun using the standard pistol cartridge of the Army, the Monarchy would adopt the ZK 383, designed by brothers Josef and František Koucký at Zbrojovka Brno, as the MP 38. Using a horizontal magazine like the MP 34, the ZK 383 is known for having a light bipod, allowing it to be used as a substitute squad automatic weapon. Later models were heavily simplified for cheaper and faster production, along with a vertical foldable magazine like the Danuvia SMGs."
@@ -14254,7 +14366,12 @@ TZN_modern_tank_destroyer_equipment_1_desc: "An updated version of the JadgPanze
  USA_train_equipment_1: "Pennsylvania I1s Class"
  USA_train_equipment_2: "USATC S160 Class"
  USA_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
- USA_railway_gun_equipment_1: "8-inch Mk. VI"
+ USA_railway_gun_equipment_1: "Railway Gun, 8-inch, Model 6"
+ USA_railway_gun_equipment_1_short: "8-inch M6 Railway Gun"
+ USA_super_heavy_railway_gun_equipment_1: "Railway Gun, 406-mm, Model 1936"
+ USA_super_heavy_railway_gun_equipment_1_short: "406-mm M1936 Railway Gun"
+
+
 #Infantry Equip
 
  USA_infantry_equipment_0: "Rifle, Caliber .30-06, Model 1903"
@@ -14408,9 +14525,13 @@ TZN_modern_tank_destroyer_equipment_1_desc: "An updated version of the JadgPanze
 
 ### Railroad ###
  WCC_train_equipment_1: "Pennsylvania I1s Class"
- WCC_train_equipment_2: "WCCTC S160 Class"
+ WCC_train_equipment_2: "USATC S160 Class"
  WCC_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
  WCC_railway_gun_equipment_1: "8-inch Mk. VI"
+ WCC_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ WCC_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ WCC_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 #Infantry Equip
 
  WCC_infantry_equipment_0: "Rifle, Caliber .30-06, Model 1903"
@@ -14563,10 +14684,14 @@ TZN_modern_tank_destroyer_equipment_1_desc: "An updated version of the JadgPanze
  NYC_EQUIPMENT_VERSION_13: "A9A4"
 
 ### Railroad ###
- NYC_train_equipment_1: "Pennsylvania I1s Class"
- NYC_train_equipment_2: "NYCTC S160 Class"
- NYC_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
- NYC_railway_gun_equipment_1: "8-inch Mk. VI"
+ NYC_train_equipment_1: "Mercury"
+ NYC_train_equipment_2: "$USA_train_equipment_2$"
+ NYC_train_equipment_3: "$USA_train_equipment_3$"
+ NYC_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ NYC_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ NYC_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ NYC_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 #Infantry Equip
 
  NYC_infantry_equipment_0: "Rifle, Caliber .30-06, Model 1903"
@@ -14719,10 +14844,14 @@ TZN_modern_tank_destroyer_equipment_1_desc: "An updated version of the JadgPanze
  ALA_EQUIPMENT_VERSION_13: "A9A4"
 
 ### Railroad ###
- ALA_train_equipment_1: "Pennsylvania I1s Class"
- ALA_train_equipment_2: "ALATC S160 Class"
- ALA_train_equipment_3: "ALCO FEF-3 'Living Legend' Class"
- ALA_railway_gun_equipment_1: "8-inch Mk. VI"
+ ALA_train_equipment_1: "$USA_train_equipment_1$"
+ ALA_train_equipment_2: "$USA_train_equipment_2$"
+ ALA_train_equipment_3: "$USA_train_equipment_3$"
+ ALA_railway_gun_equipment_1: "$USA_railway_gun_equipment_1$"
+ ALA_railway_gun_equipment_1_short: "$USA_railway_gun_equipment_1_short$"
+ ALA_super_heavy_railway_gun_equipment_1: "$USA_super_heavy_railway_gun_equipment_1$"
+ ALA_super_heavy_railway_gun_equipment_1_short: "$USA_super_heavy_railway_gun_equipment_1_short$"
+
 #Infantry Equip
 
  ALA_infantry_equipment_0: "Rifle, Caliber .30-06, Model 1903"
