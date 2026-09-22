@@ -2918,6 +2918,7 @@ country_event = { #### Election and leader events
 		trigger = {
 			OR = {
 			has_government = social_democrat
+			has_government = social_liberal
 			has_government = market_liberal
 			}	
 			NOT = {
@@ -10086,7 +10087,7 @@ country_event = { ####Red Prince Eugen
 	immediate = { log = "[GetDateText]: [Root.GetName]: event swerev.90" }
 	title = swerev.90.t
 	desc = swerev.90.d
-	picture = GFX_report_event_SWE_lindholm_car
+	picture = GFX_report_event_SWE_nordic_socialism
 
 	is_triggered_only = yes
 
@@ -12724,7 +12725,11 @@ country_event = { # Iceland Response
 	option = { # Yes, join Sweden
 		name = swefop.25.a
 		ai_chance = {
-			factor = 100
+			factor = 70
+			modifier = {
+				factor = 0
+				ICE = { is_puppet_of = DEN }
+			}			
 		}
 		SWE = {
 			country_event = { 
@@ -12737,7 +12742,7 @@ country_event = { # Iceland Response
 	option = { # No, we refuse
 		name = swefop.25.b
 		ai_chance = {
-			factor = 0
+			factor = 30
 		}
 		SWE = {
 			country_event = { days = 3 id = swefop.27 }
@@ -13197,7 +13202,9 @@ country_event = { #norway Question - Part 1
 			}			
 		}		
 		trigger = {
+			NOR = { has_socialist_government = no }
 			NOT = {
+				
 				OR = {
 					has_completed_focus = SWE_FOP_reclaim_the_empire_policy
 					has_completed_focus = SWE_archibald_take_command	
@@ -14350,7 +14357,7 @@ country_event = { #sweden demands New sweden small
 		SWE = {
 			country_event = { 
 				hours = 2 
-				id = swefop.71
+				id = swefop.72
 			}
 		}
 	}
@@ -14362,7 +14369,7 @@ country_event = { #sweden demands New sweden small
 		}
 		add_ideas = SWE_small_new_sweden_sale
 		SWE = {
-			country_event = { days = 1 id = swefop.72 }
+			country_event = { days = 1 id = swefop.71 }
 		}
 	}	
 }
