@@ -15,7 +15,7 @@
 
 ### Main Menu Tooltips ###
 
-RECENT_CHANGES_TEXT: "§YЛев§! §YСевера§! Hotfix 3\n\n§2Реворк националистического пути Швеции§!\n§PРеворк Германии§!\n§3Особый день в Брайтоне§!"
+RECENT_CHANGES_TEXT: "§2Северный§! §Yлев§! Hotfix 4\n\n§2Реворк националистического пути Швеции§!\n§PРеворк Германии§!\n§3Особый день в Брайтоне§!"
 
 KR_MAIN_MENU_LINK: "Нажмите здесь, чтобы перейти к Kaiserredux Discord"
 LOGO_MAIN_MENU_LINK: "Версия Kaiserredux: Лев Севера"
@@ -204,7 +204,7 @@ cores_claims_map_mode_tooltip: "§Y[FROM.GetName]§! ([FROM.Owner.GetFlag] [FROM
 cores_claims_map_mode_tooltip_delayed: "[FROM.GetCoreClaimMapModeTooltip]"
 
 cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! is a §Ycore state§! of §Y[ROOT.GetNameWithFlag]§!."
-cores_claims_map_mode_tooltip_potential_core: "§Y[FROM.GetName]§! is a §Ypotential core§! of §Y[ROOT.GetNameWithFlag]§!.\n§GPotential cores will become cores upon reaching a compliance threshold while under the §Y$territorial_integration$§! occupation law.§!"
+cores_claims_map_mode_tooltip_potential_core: "§Y[FROM.GetName]§! — §Yпотенциальная национальная территория§! государства §Y[ROOT.GetNameWithFlag]§!.\n§GПотенциальная национальная территория станет национальной при достижении необходимого уровня подчинения и применении оккупационного закона §Y«$territorial_integration$»§!.§!"
 cores_claims_map_mode_tooltip_claim: "§Y[FROM.GetName]§! §Yпретензия§! на §Y[ROOT.GetNameWithFlag]§!."
 cores_claims_map_mode_tooltip_owned: "§Y[FROM.GetName]§! §Yоккупирует§! §Y[ROOT.GetNameWithFlag]§!."
 
@@ -213,7 +213,7 @@ MAPMODE_FOCUS_TREE_MAP_MODE_NAME: "Дерево фокусов"
 MAPMODE_FOCUS_TREE_MAP_MODE_DESCRIPTION: "Показывает нации с деревом фокуса."
 
 focus_tree_map_mode_tooltip: "Нации с пользовательскими деревьями фокусов"
-focus_tree_map_mode_tooltip_delayed: "Nations in §RRed§! have a §YGeneric Focus Tree§!, Nations in §BBlue§! have a §YShared Regional Focus Tree§!, Nations in §GGreen§! have a §YCustom Focus Tree§!."
+focus_tree_map_mode_tooltip_delayed: "Страны, отмеченные §Rкрасным§!, имеют §Yобщее дерево фокусов§!; §Bсиним§! — §Yобщее региональное дерево§!; §Gзелёным§! — §Yсобственное дерево фокусов§!."
 
 focus_tree_map_mode_tooltip_generic: "§Y[FROM.GetName]§! has a §YGeneric Focus Tree§!."
 focus_tree_map_mode_tooltip_shared: "§Y[FROM.GetName]§! has a §BShared Regional Focus Tree§!."
@@ -259,7 +259,7 @@ kr.political.106.d.tfv: "[overlord_name.GetAdjective]ий контроль на�
 kr.political.106.d: "[overlord_name.GetAdjective]ий контроль над [Root.GetAdjective]им правительством  уже давно теряется. Мы слишком сильны, чтобы нас сдерживать. Среди [Root.GetAdjective]их людей есть общее требование, чтобы [Root.GetNameDef] стал свободным, и кажется, что мы должны решить, будем ли мы требовать нашей независимости от [overlord_name.GetNameDef]."
 kr.political.106.a: "Да здравствует [Root.GetName]!"
 kr.political.106.b: "Да, мы должны требовать нашей независимости"
-kr.political.106.c: "Нет, лучше не тыкать в осиное гнездо
+kr.political.106.c: "Нет, лучше не тыкать в осиное гнездо"
 
 kr.political.107.t: "[From.GetNameDefCap] требует независимости"
 kr.political.107.d: "[Root.GetAdjective]ий контроль над [From.GetAdjective]им правительством уже некоторое время теряется. Они слишком сильны, чтобы мы могли их полностью сдержать. Среди [From.GetAdjective]их людей есть общее требование, чтобы [From.GetNameDef] был освобожден, и теперь их правительство официально подало требование о полной независимости."
@@ -795,7 +795,7 @@ steppe_warfare: "Боевая подготовка в степи"
 steppe_warfare_effect: "Открывает §H$desert_warfare$§!\n§H$category_light_infantry$\n    $steppe$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 marsh_warfare: "Болотная боевая подготовка"
-marsh_warfare_effect: "Открывает §H$marsh_warfare$§!\n§H$category_light_infantry$\n   $болото$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_DEFENCE$§G+5%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+marsh_warfare_effect: "Открывает §H$marsh_warfare$§!\n§H$category_light_infantry$\n   $marsh$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_DEFENCE$§G+5%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 anti_fortification_artillery: "Противофортификационная артиллерия"
 anti_fortification_artillery_effect: "Открывает §H$anti_fortification_artillery$§!\n§H$category_artillery$§!\n    $FORT$: $STAT_ADJUSTER_ATTACK$§G+20%§!"
@@ -804,7 +804,7 @@ tech_integrated_specialists: "Интегрированный спецназ"
 tech_integrated_specialists_effect: "Открывает §H$tech_integrated_specialists$§!\n$MODIFIER_SPECIAL_FORCES_CAP$: §G+5%§!\n§H$category_special_forces$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
 tech_at_cavalry: "Противотанковая кавалерия"
-tech_at_cavalry_effect: "Открывает §H$tech_at_cavalry$\n$Кавалерия$§!\n     $STAT_COMMON_PIERCING$§G+75%§!\n     $STAT_ARMY_HARD_ATTACK$§G+10%§!"
+tech_at_cavalry_effect: "Открывает §H$tech_at_cavalry$\n$cavalry$§!\n     $STAT_COMMON_PIERCING$§G+75%§!\n     $STAT_ARMY_HARD_ATTACK$§G+10%§!"
 
 tech_dragoon_tactics: "Драгунская тактика"
 tech_dragoon_tactics_effect: "Открывает §H$tech_dragoon_tactics$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      Night $STAT_ADJUSTER_ATTACK$§G+10§!\n$irregular_cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      Night $STAT_ADJUSTER_ATTACK$§G+10§!\n"
@@ -819,7 +819,7 @@ tech_improved_encryption: "Улучшенное шифрование"
 tech_improved_encryption_effect: "Открывает §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+=0]"
 
 tech_mountain_artillery: "Горная артиллерия"
-tech_mountain_artillery_effect: "Открывает §H$tech_mountain_artillery$§!\n§H$EQUIPMENT_ARTILLERY$\n   $Холмы$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n   §H$Горы$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
+tech_mountain_artillery_effect: "Открывает §H$tech_mountain_artillery$§!\n§H$EQUIPMENT_ARTILLERY$\n   $hills$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n   §H$mountain$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
 
 tech_arctic_commando: "Арктические коммандос"
 tech_arctic_commando_effect: "Открывает §H$tech_arctic_commando$§!\n   $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?48|G1=] $MOD_HOUR$\n   §H$category_special_forces$§!\n       $MODIFIER_ACCLIMATIZATION_COLD_CLIMATE_GAIN_FACTOR$: §G+10%§!\n       §H$hills$§!\n         $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n       §H$Горы$§!\n         $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
