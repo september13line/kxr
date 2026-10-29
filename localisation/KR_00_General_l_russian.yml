@@ -15,7 +15,7 @@
 
 ### Main Menu Tooltips ###
 
-RECENT_CHANGES_TEXT: "§2Северный§! §Yлев§! Hotfix 4\n\n§2Реворк националистического пути Швеции§!\n§PРеворк Германии§!\n§3Особый день в Брайтоне§!"
+RECENT_CHANGES_TEXT: "§YЛев§! §2Севера§! Hotfix 5\n\n§2Реворк националистического пути Швеции§!\n§PРеворк Германии§!\n§3Особый день в Брайтоне§!"
 
 KR_MAIN_MENU_LINK: "Нажмите здесь, чтобы перейти к Kaiserredux Discord"
 LOGO_MAIN_MENU_LINK: "Версия Kaiserredux: Лев Севера"
@@ -203,21 +203,21 @@ MAPMODE_CORES_CLAIMS_MAP_MODE_DESCRIPTION: "Отображает текущие 
 cores_claims_map_mode_tooltip: "§Y[FROM.GetName]§! ([FROM.Owner.GetFlag] [FROM.Owner.GetName])"
 cores_claims_map_mode_tooltip_delayed: "[FROM.GetCoreClaimMapModeTooltip]"
 
-cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! is a §Ycore state§! of §Y[ROOT.GetNameWithFlag]§!."
+cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! является §Yнациональной территорией§! государства §Y[ROOT.GetNameWithFlag]§!."
 cores_claims_map_mode_tooltip_potential_core: "§Y[FROM.GetName]§! — §Yпотенциальная национальная территория§! государства §Y[ROOT.GetNameWithFlag]§!.\n§GПотенциальная национальная территория станет национальной при достижении необходимого уровня подчинения и применении оккупационного закона §Y«$territorial_integration$»§!.§!"
 cores_claims_map_mode_tooltip_claim: "§Y[FROM.GetName]§! §Yпретензия§! на §Y[ROOT.GetNameWithFlag]§!."
 cores_claims_map_mode_tooltip_owned: "§Y[FROM.GetName]§! §Yоккупирует§! §Y[ROOT.GetNameWithFlag]§!."
 
-MAPMODE_FOCUS_TREE_MAP_MODE: "§Y$MAPMODE_CORES_CLAIMS_MAP_MODE_NAME$§! режим карты"
+MAPMODE_FOCUS_TREE_MAP_MODE: "Режим карты §Y$MAPMODE_FOCUS_TREE_MAP_MODE_NAME$§!"
 MAPMODE_FOCUS_TREE_MAP_MODE_NAME: "Дерево фокусов"
 MAPMODE_FOCUS_TREE_MAP_MODE_DESCRIPTION: "Показывает нации с деревом фокуса."
 
 focus_tree_map_mode_tooltip: "Нации с пользовательскими деревьями фокусов"
 focus_tree_map_mode_tooltip_delayed: "Страны, отмеченные §Rкрасным§!, имеют §Yобщее дерево фокусов§!; §Bсиним§! — §Yобщее региональное дерево§!; §Gзелёным§! — §Yсобственное дерево фокусов§!."
 
-focus_tree_map_mode_tooltip_generic: "§Y[FROM.GetName]§! has a §YGeneric Focus Tree§!."
-focus_tree_map_mode_tooltip_shared: "§Y[FROM.GetName]§! has a §BShared Regional Focus Tree§!."
-focus_tree_map_mode_tooltip_custom: "§Y[FROM.GetName]§! has a §GCustom  Focus Tree§!."
+focus_tree_map_mode_tooltip_generic: "§Y[FROM.GetName]§! использует §Yстандартное дерево фокусов§!."
+focus_tree_map_mode_tooltip_shared: "§Y[FROM.GetName]§! использует §Bобщее региональное дерево фокусов§!."
+focus_tree_map_mode_tooltip_custom: "§Y[FROM.GetName]§! использует §Gуникальное дерево фокусов§!."
 
  MAPMODE_LEADER_GUI_MAP_MODE: "§Y$MAPMODE_LEADER_GUI_MAP_MODE_NAME$§! режим карты"
  MAPMODE_LEADER_GUI_MAP_MODE_NAME: "Двойные лидеры"
@@ -323,7 +323,7 @@ mtg_exile_government.1.t: "[exile_nation.GetAdjective]их лидер в изг�
 mtg_exile_government.1.desc: "После долгого и опасного путешествия по вражеской территории и нескольким нейтральным государствам, в столицу наконец прибыл высокопоставленный военный офицер одного из наших капитулированных союзников. После короткого периода восстановления он предложил свои услуги в нашей общей борьбе."
 mtg_exile_government.1.a: "Ваша борьба ещё не закончена."
 mtg_exile_government.2.title: "[From.GetAdjective]ое правительство в изгнании"
-mtg_exile_government.2.desc: "[From.GetLeader] формально просит у [Root.GetAdjective]ого правительства разрешения вернуться в государство [From.GetNameDef] и заново основать временное правительство партии [From.GetRulingPartyLong], чтобы подготовиться к послевоенному миру." 
+mtg_exile_government.2.desc: "[From.GetLeader] формально просит у [Root.GetAdjective]ого правительства разрешения вернуться в государство [From.GetNameDef] и заново основать временное правительство партии [From.GetRulingParty], чтобы подготовиться к послевоенному миру." 
 mtg_exile_government.2.a: "Пора им вернуться на свою территорию."
 mtg_exile_government.2.b: "Время ещё не пришло."
 mtg_exile_government.3.title: "Государство [From.GetName] предлагает интеграцию флота"
@@ -753,7 +753,7 @@ cossack_corps_tech: "Казачий корпус"
 cossack_corps_tech_effect: "    §Y$hills$§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+3%§!\n    §Y$plains$§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n    §Y$steppe$§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 irregular_cavalry_tech: "Нерегулярная кавалерия"
-irregular_cavalry_tech_effect: "Открывает §Hбатальоны нерегулярной кавалерии§!"
+irregular_cavalry_tech_effect: "Открывает батальоны §H$irregular_cavalry$§!"
 
 irregular_infantry_tech: "Иррегулярная пехота"
 irregular_infantry_tech_effect: "Открывает §Y$irregular_infantry$§! батальонов\n"
@@ -804,7 +804,7 @@ tech_integrated_specialists: "Интегрированный спецназ"
 tech_integrated_specialists_effect: "Открывает §H$tech_integrated_specialists$§!\n$MODIFIER_SPECIAL_FORCES_CAP$: §G+5%§!\n§H$category_special_forces$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
 tech_at_cavalry: "Противотанковая кавалерия"
-tech_at_cavalry_effect: "Открывает §H$tech_at_cavalry$\n$cavalry$§!\n     $STAT_COMMON_PIERCING$§G+75%§!\n     $STAT_ARMY_HARD_ATTACK$§G+10%§!"
+tech_at_cavalry_effect: "Открывает §H$tech_at_cavalry$\n$cavalry$§!\n      $STAT_COMMON_PIERCING$§G+3§!\n§H$irregular_cavalry$§!\n      $STAT_COMMON_PIERCING$§G+3§!\n"
 
 tech_dragoon_tactics: "Драгунская тактика"
 tech_dragoon_tactics_effect: "Открывает §H$tech_dragoon_tactics$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      Night $STAT_ADJUSTER_ATTACK$§G+10§!\n$irregular_cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      Night $STAT_ADJUSTER_ATTACK$§G+10§!\n"
@@ -822,10 +822,10 @@ tech_mountain_artillery: "Горная артиллерия"
 tech_mountain_artillery_effect: "Открывает §H$tech_mountain_artillery$§!\n§H$EQUIPMENT_ARTILLERY$\n   $hills$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n   §H$mountain$§!\n     $STAT_ADJUSTER_ATTACK$§G+10%§!\n     $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
 
 tech_arctic_commando: "Арктические коммандос"
-tech_arctic_commando_effect: "Открывает §H$tech_arctic_commando$§!\n   $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?48|G1=] $MOD_HOUR$\n   §H$category_special_forces$§!\n       $MODIFIER_ACCLIMATIZATION_COLD_CLIMATE_GAIN_FACTOR$: §G+10%§!\n       §H$hills$§!\n         $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n       §H$Горы$§!\n         $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+tech_arctic_commando_effect: "Открывает §H$tech_arctic_commando$§!\n    $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?48|G1=] $MOD_HOUR$\n    §H$category_special_forces$§!\n        $MODIFIER_ACCLIMATIZATION_COLD_CLIMATE_GAIN_FACTOR$: §G+10%§!\n        §H$hills$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n        §H$mountain$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 tech_better_paratroopers: "Элитные десантники"
-tech_better_paratroopers_effect: "Открывает §H$tech_better_paratroopers$§!\n§H$Десантник$§!\n     $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n     $STAT_ARMY_DEFAULT_MORALE$: §G+0.20§!\n     $MODIFIER_PARATROOPER_EXTRA_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$"
+tech_better_paratroopers_effect: "Открывает §H$tech_better_paratroopers$§!\n§H$paratrooper$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.20§!\n      $MODIFIER_PARATROOPER_EXTRA_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$"
 
 masterful_blitz_effect: "Включает тактику: §Y$tactic_masterful_blitz$§!"
 
@@ -1398,7 +1398,7 @@ steppe_desc: ""
  resistance_decay_on_our_occupied_states_tooltip: "$MODIFIER_RESISTANCE_DECAY_ON_OUR_OCCUPIED_STATES$: $RIGHT|-=%0$"
  resistance_damage_to_garrison_on_our_occupied_states_tooltip: "$MODIFIER_RESISTANCE_DAMAGE_TO_GARRISONS_ON_OUR_OCCUPIED_STATES$: $RIGHT|+=%2$"
 
- war_support_tooltip: "$MODIFIER_WAR_SUPPORT_FACTOR$: $RIGHT|+=%0$"
+ war_support_tooltip: "$MODIFIER_WAR_SUPPORT_FACTOR$: $RIGHT|=%+$"
  war_support_weekly_tooltip: "$MODIFIER_WAR_SUPPORT_WEEKLY$: $RIGHT|+=%2$"
  weekly_casualties_war_support_tooltip: "$MODIFIER_WEEKLY_CASUALTIES_WAR_SUPPORT$: $RIGHT|+=%0$"
  weekly_convoys_war_support_tooltip: "$MODIFIER_WEEKLY_CONVOYS_WAR_SUPPORT$: $RIGHT|+=%0$"
