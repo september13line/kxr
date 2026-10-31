@@ -270,6 +270,20 @@ country_event = { #Annexation of Bulgaria
 				country_event = pact.68
 			}
 		}
+		if = {
+			limit = {
+				has_country_leader_ideology = ariosophy_subtype
+			}
+			BUL = {
+				create_country_leader = {
+					name = "Gancho Tsenov"
+					picture = "gfx/leaders/BUL/Portrait_BUL_Gancho_Tsenov.png"
+					expire = "1.1.1"
+					ideology = ariosophy_subtype
+					}
+				set_cosmetic_tag = BUL_thracian
+			}
+		}
 	}
 	option = { #integrate
 		name = annex.integration
@@ -17395,6 +17409,17 @@ country_event = { #The Annexation of Tunisia
 		name = annex.110.a
 		set_temp_variable = { tag_to_release = TUN }
 		release_targeted_tag = yes
+		if = {
+			limit = { has_idea = GER_Paul_Lensch_hog_sde }
+			TUN = {
+				create_country_leader = {
+					name = "Mohamed Ali Elhammi"
+					picture = "gfx/leaders/TUN/Portrait_TUN_Mohamed_Ali_Elhammi.png"
+  					expire = "1.1.1"
+					ideology = lenschian_tendency_subtype 
+				}
+			}
+		}
 	}
 
 	option = { #occupy
