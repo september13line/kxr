@@ -1281,6 +1281,21 @@ research_fighter_and_cas_1 = {
 	}
 }
 
+majors_get_hmg_asap = {
+	enable = {
+		date > 1937.6.1
+		is_major = yes
+		is_eligible_for_light_aircraft_production = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = research_tech
+		id = aa_hmg
+		value = 100
+	}
+}
+
 research_plane_modules = {
 	enable = {
 		date > 1938.1.1
@@ -1297,11 +1312,6 @@ research_plane_modules = {
 	ai_strategy = {
 		type = research_tech
 		id = range_improvements
-		value = 100
-	}
-	ai_strategy = {
-		type = research_tech
-		id = aa_hmg
 		value = 100
 	}
 }

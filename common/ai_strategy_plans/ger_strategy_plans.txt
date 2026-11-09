@@ -1,4 +1,4 @@
-GER_extra_research_slot = {
+GER_army_branches = {
 	name = ""
 	desc = ""
 
@@ -7,22 +7,135 @@ GER_extra_research_slot = {
 	}
 
 	enable = {
-		has_completed_focus = GER_Economy_Start
+		date > 1936.1.1
 	}
 
 	abort = {
-		has_completed_focus = GER_The_Noblest_Universities
+		has_completed_focus = GER_Sailing_With_the_Kaiserliche_Marine
 	}
 	
 	ai_national_focuses = {
-		GER_The_Brightest_Minds
-		GER_Physics_Mania
-		GER_Heading_Into_the_Electromechanical_Future
-		GER_Science_and_Saving_Lives
-		GER_Practicality_Focus
-		GER_Unrestrained_Innovation
-		GER_The_Noblest_Universities
+		GER_mil_expansion
+		GER_Marching_With_the_Deutches_Heer
+		GER_Flying_With_the_Luftwaffe
+		GER_Sailing_With_the_Kaiserliche_Marine
 	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+GER_improve_economy = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GER
+	}
+
+	enable = {
+		has_completed_focus = GER_Die_Signature
+	}
+
+	abort = {
+		has_completed_focus = GER_Ascension_of_the_Steel_Eagle
+	}
+	
+	ai_national_focuses = {
+		GER_Economy_Start
+		GER_Colonial_Spring_Cleaning
+		GER_The_Cartels_Court
+		GER_Smoke_Plumes_from_Krupp
+		GER_Workers_Colonies
+		GER_Decoy_Sites
+		GER_Profit_from_Envy
+		GER_Eternal_Urge
+		GER_Ascension_of_the_Steel_Eagle
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+GER_fix_the_army = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GER
+	}
+
+	enable = {
+		has_completed_focus = GER_Die_Signature
+		has_completed_focus = GER_Ascension_of_the_Steel_Eagle
+		has_completed_focus = GER_Marching_With_the_Deutches_Heer
+	}
+
+	abort = {
+		has_completed_focus = GER_Machine_Marches_On
+	}
+	
+	ai_national_focuses = {
+		GER_Mauser_Walther_Opel
+		GER_Maintaining_Their_Privileges
+		GER_Cut_Vestiges_Out
+		GER_Rationalizing_Production_Lines
+		GER_Machine_Marches_On
+	}
+	weight = {
+		factor = 1.0
+	}
+}
+
+GER_avoid_focuses_that_add_consumer_goods_1 = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GER
+	}
+
+	enable = {
+		date > 1936.1.1
+	}
+
+	abort = {
+		date > 1940.1.1
+	}
+
+	abort_when_not_enabled = yes
+	
+	focus_factors = {
+		GER_In_Sleepless_Lampenstadt = 0
+		GER_The_Brightest_Minds = 0
+    }
+	weight = {
+		factor = 1.0
+	}
+}
+
+GER_avoid_focuses_that_add_consumer_goods_2 = {
+	name = ""
+	desc = ""
+
+	allowed = {
+		original_tag = GER
+	}
+
+	enable = {
+		date > 1936.1.1
+	}
+
+	abort = {
+		date > 1942.1.1
+	}
+
+	abort_when_not_enabled = yes
+	
+	focus_factors = {
+		GER_Nurture_the_Neglected_Core = 0
+		GER_Tending_to_Germanys_Finest = 0
+    }
 	weight = {
 		factor = 1.0
 	}
