@@ -21184,7 +21184,7 @@ country_event = { #Fate of Peru
 				}
 				create_country_leader = {
 					name = "Pachacutec II"
-					desc = "POLITICS_BUSTIOS_DESC"
+					desc = "POLITICS_CHUKIWANKA_DESC"
 					picture = "gfx/leaders/PRU/Portrait_PRU_Pahacutec.png"
 					expire = "1.1.1"
 					ideology = pataut_tribal_chiefdom_subtype
@@ -27443,15 +27443,21 @@ country_event = { #Fate of Britain
 				add_state_core = 1225
 			}
 		}
-
-		set_temp_variable = { tag_to_release = GBP }
-		release_targeted_tag = yes
-
-		set_temp_variable = { tag_to_release = WAL }
-		release_targeted_tag = yes
-
-		set_temp_variable = { tag_to_release = SCT }
-		release_targeted_tag = yes
+		if = {
+			limit = { NOT = { country_exists = GBP } }
+			set_temp_variable = { tag_to_release = GBP }
+			release_targeted_tag = yes
+		}
+		if = {
+			limit = { NOT = { country_exists = WAL } }
+			set_temp_variable = { tag_to_release = WAL }
+			release_targeted_tag = yes
+		}
+		if = {
+			limit = { NOT = { country_exists = SCT } }
+			set_temp_variable = { tag_to_release = SCT }
+			release_targeted_tag = yes
+		}
 		if = {
 			limit = { 
 				OR = {
